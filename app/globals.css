@@ -86,3 +86,7 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 @media(max-width:767px){body:has(.detail-sheet) .view-controls{visibility:hidden}}
 
 @media(max-height:600px) and (orientation:landscape){body:has(.detail-sheet) .bottom-dock{left:12px;right:324px;width:auto;transform:none;max-width:none;margin:0}}
+/* Bio Map: explanation depth toggle, review badge and source line in the detail panel */
+.level-toggle{display:inline-flex;align-self:flex-start;gap:2px;padding:3px;border-radius:9px;background:#18253609}.level-toggle button{font-size:12px;min-height:32px;padding:6px 12px;border-radius:7px;color:#56636f}.level-toggle button[aria-pressed=true]{background:#ffffff;color:#20242b;font-weight:500;box-shadow:0 1px 3px #1825361f}.level-toggle button[aria-disabled=true],.level-toggle button[aria-disabled=true]:hover{color:#a6aeb6;background:none;cursor:default}
+.tier-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:-6px;font-size:11px;line-height:1.5;color:#626c76}.badge-unreviewed{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;background:#f5ead6;color:#6f5219;font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase}.source-line a{color:#46697a;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:767px){.level-toggle button{min-height:40px;padding:8px 14px}}

@@ -3,19 +3,125 @@
  "conceptId": "FMA50801",
  "label": "Brain",
  "scale": "organ",
- "tiers": {
-  "1": {
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000955",
+  "NCIT": "C12439",
+  "TA98": "A14.1.03.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ1730",
+   "FJ1731",
+   "FJ1732",
+   "FJ1733",
+   "FJ1738",
+   "FJ1739",
+   "FJ1740",
+   "FJ1743",
+   "FJ1744",
+   "FJ1745",
+   "FJ1746",
+   "FJ1747",
+   "FJ1748",
+   "FJ1749",
+   "FJ1750",
+   "FJ1751",
+   "FJ1758",
+   "FJ1759",
+   "FJ1760",
+   "FJ1762",
+   "FJ1767",
+   "FJ1769",
+   "FJ1770",
+   "FJ1775",
+   "FJ1779",
+   "FJ1780",
+   "FJ1781",
+   "FJ1783",
+   "FJ1784",
+   "FJ1785",
+   "FJ1786",
+   "FJ1787",
+   "FJ1788",
+   "FJ1789",
+   "FJ1790",
+   "FJ1791",
+   "FJ1792",
+   "FJ1795",
+   "FJ1797",
+   "FJ1798",
+   "FJ1800",
+   "FJ1801",
+   "FJ1806",
+   "FJ1807",
+   "FJ1808",
+   "FJ1810",
+   "FJ1814",
+   "FJ1817",
+   "FJ1822",
+   "FJ1826",
+   "FJ1828",
+   "FJ1830",
+   "FJ1831",
+   "FJ1833",
+   "FJ1834",
+   "FJ1835",
+   "FJ1836",
+   "FJ1841",
+   "FJ1842"
+  ]
+ },
+ "content": {
+  "tier1": {
    "status": "drafted",
+   "file": "content/FMA_50801/tier1.md",
    "text": "The central organ of the nervous system. Its interconnected regions support perception, movement, memory, language, and the regulation of bodily functions.",
-   "license": "MIT",
-   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
    "sources": [
     {
      "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
      "url": "https://github.com/ashemag/human-atlas",
      "license": "MIT"
     }
-   ]
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
   }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:242787",
+   "FMA:61992",
+   "FMA:61993",
+   "FMA:67687"
+  ],
+  "out": [
+   "FMA:55675",
+   "FMA:7154"
+  ]
  }
 }

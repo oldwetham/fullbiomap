@@ -1,0 +1,71 @@
+{
+ "id": "FMA:9473",
+ "conceptId": "FMA9473",
+ "label": "Outflow part of left ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Aortic vestibule",
+  "Left ventricular outflow",
+  "Outflow tract of left ventricle"
+ ],
+ "xrefs": {
+  "UBERON": "0005956"
+ },
+ "geometry": {
+  "male": [
+   "FJ2420",
+   "FJ2426",
+   "FJ2431",
+   "FJ2435"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9473/tier1.auto.md",
+   "text": "Anterosuperior fibrous portion of the left ventricle that connects to the ascending aorta.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0005956",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005956",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0005956",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005956",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0005956. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0005956",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005956",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7236",
+   "FMA:9348"
+  ],
+  "out": [
+   "FMA:7101"
+  ]
+ }
+}

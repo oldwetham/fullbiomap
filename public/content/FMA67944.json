@@ -1,0 +1,67 @@
+{
+ "id": "FMA:67944",
+ "conceptId": "FMA67944",
+ "label": "Cerebellum",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Epencephalon-1"
+ ],
+ "xrefs": {
+  "UBERON": "0002037",
+  "NCIT": "C12445",
+  "TA98": "A14.1.07.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ1781",
+   "FJ1830"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_67944/tier1.auto.md",
+   "text": "The portion of the brain located at the base of the skull that is responsible for balance, equilibrium and movement.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12445",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12445",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12445",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12445",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12445, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12445",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12445",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:270201",
+   "FMA:62003"
+  ]
+ }
+}

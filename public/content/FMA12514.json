@@ -1,0 +1,76 @@
+{
+ "id": "FMA:12514",
+ "conceptId": "FMA12514",
+ "label": "Right eyeball",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004549",
+  "NCIT": "C119333"
+ },
+ "geometry": {
+  "male": [
+   "FJ1336",
+   "FJ1337",
+   "FJ1340",
+   "FJ1348",
+   "FJ1356",
+   "FJ1368",
+   "FJ1371",
+   "FJ1382"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_12514/tier1.auto.md",
+   "text": "The eye positioned in the right orbit.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C119333",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C119333",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C119333, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C119333",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:58099",
+   "FMA:58107",
+   "FMA:58242",
+   "FMA:58828",
+   "FMA:58839"
+  ],
+  "out": [
+   "FMA:24728",
+   "FMA:260124"
+  ]
+ }
+}

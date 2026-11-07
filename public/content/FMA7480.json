@@ -1,0 +1,109 @@
+{
+ "id": "FMA:7480",
+ "conceptId": "FMA7480",
+ "label": "Rib cage",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Skeletal system of thorax",
+  "Thoracic cage"
+ ],
+ "xrefs": {
+  "UBERON": "0003252"
+ },
+ "geometry": {
+  "male": [
+   "FJ3153",
+   "FJ3178",
+   "FJ3225",
+   "FJ3226",
+   "FJ3227",
+   "FJ3228",
+   "FJ3229",
+   "FJ3230",
+   "FJ3231",
+   "FJ3232",
+   "FJ3233",
+   "FJ3234",
+   "FJ3235",
+   "FJ3236",
+   "FJ3239",
+   "FJ3242",
+   "FJ3245",
+   "FJ3248",
+   "FJ3251",
+   "FJ3254",
+   "FJ3255",
+   "FJ3290",
+   "FJ3330",
+   "FJ3331",
+   "FJ3332",
+   "FJ3333",
+   "FJ3334",
+   "FJ3335",
+   "FJ3336",
+   "FJ3337",
+   "FJ3338",
+   "FJ3339",
+   "FJ3340",
+   "FJ3341",
+   "FJ3342",
+   "FJ3343",
+   "FJ3344",
+   "FJ3345",
+   "FJ3346",
+   "FJ3347",
+   "FJ3348"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7480/tier1.auto.md",
+   "text": "Subdivision of skeletal system that consists of all ribs in an organism connected to the sternum and the vertebrae. Some vertebrates have abdominal ribs (gastrialia), not connected to the vertebrate - these are not considered part of the rib case.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0003252",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003252",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0003252",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003252",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0003252. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0003252",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003252",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:20224",
+   "FMA:20225",
+   "FMA:7485"
+  ],
+  "out": [
+   "FMA:10428",
+   "FMA:7481"
+  ]
+ }
+}

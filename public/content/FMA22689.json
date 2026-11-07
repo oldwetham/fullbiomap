@@ -1,0 +1,69 @@
+{
+ "id": "FMA:22689",
+ "conceptId": "FMA22689",
+ "label": "Brachial artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Brachial part of trunk of subclavian artery"
+ ],
+ "xrefs": {
+  "UBERON": "0001398",
+  "NCIT": "C12681",
+  "TA98": "A12.2.09.018"
+ },
+ "geometry": {
+  "male": [
+   "FJ2219",
+   "FJ2271"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_22689/tier1.auto.md",
+   "text": "An artery originating at the axillary artery and branching into the radial and ulnar arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12681",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12681",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12681",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12681",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12681, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12681",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12681",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:22695",
+   "FMA:22706",
+   "FMA:22710",
+   "FMA:22730"
+  ],
+  "out": []
+ }
+}

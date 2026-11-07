@@ -1,0 +1,91 @@
+{
+ "id": "FMA:65132",
+ "conceptId": "FMA65132",
+ "label": "Nerve",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Nerve trunk, each instance of which is the tract arising from some optic chiasma, consisting of fiber segments frm some ipsilateral temporal and contralateral nasal retinas, proceeding backward, around some cerebral peduncle, and dividing into a lateral and a medial root; the roots end in some superior colliculus and lateral geniculate body, respectively.",
+  "Neural subtree"
+ ],
+ "xrefs": {
+  "UBERON": "0001021",
+  "NCIT": "C12466",
+  "TA98": "A14.2.00.013"
+ },
+ "geometry": {
+  "male": [
+   "FJ1283",
+   "FJ1290",
+   "FJ1293",
+   "FJ1296",
+   "FJ1300",
+   "FJ1310",
+   "FJ1311",
+   "FJ1312",
+   "FJ1315",
+   "FJ1318",
+   "FJ1321",
+   "FJ1325",
+   "FJ1326",
+   "FJ1333",
+   "FJ1341",
+   "FJ1344",
+   "FJ1347",
+   "FJ1351",
+   "FJ1361",
+   "FJ1362",
+   "FJ1363",
+   "FJ1366",
+   "FJ1369",
+   "FJ1372",
+   "FJ1376",
+   "FJ1377"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_65132/tier1.auto.md",
+   "text": "Part of the peripheral nervous system composed of bundles of nerve fibers running to various organs and tissues of the body using chemical and electrical signals to transmit sensory and motor information from one body part to another.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12466",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12466",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12466",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12466",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12466, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12466",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12466",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:61284"
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "FMA:7216",
+ "conceptId": "FMA7216",
+ "label": "Outflow part of right ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Conus arteriosus (Infundibulum)",
+  "Infundibulum of right ventricle",
+  "Outflow tract of right ventricle",
+  "Pulmonary conus"
+ ],
+ "xrefs": {
+  "UBERON": "0005953",
+  "NCIT": "C61368"
+ },
+ "geometry": {
+  "male": [
+   "FJ2417",
+   "FJ2427",
+   "FJ2434"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7216/tier1.auto.md",
+   "text": "Any of various funnel-shaped parts of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C61368",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C61368",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C61368",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C61368",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C61368, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C61368",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C61368",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7246"
+  ],
+  "out": [
+   "FMA:7098"
+  ]
+ }
+}

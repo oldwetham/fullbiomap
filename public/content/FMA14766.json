@@ -1,0 +1,84 @@
+{
+ "id": "FMA:14766",
+ "conceptId": "FMA14766",
+ "label": "Left common iliac artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Trunk of left common iliac arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0035529",
+  "NCIT": "C32957"
+ },
+ "geometry": {
+  "male": [
+   "FJ2065",
+   "FJ2067",
+   "FJ2069",
+   "FJ2073",
+   "FJ2074",
+   "FJ2078",
+   "FJ2079",
+   "FJ2081",
+   "FJ2082",
+   "FJ2085",
+   "FJ2086",
+   "FJ2087",
+   "FJ2089",
+   "FJ3464",
+   "FJ3466",
+   "FJ3468",
+   "FJ3511",
+   "FJ3529"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14766/tier1.auto.md",
+   "text": "The common iliac artery situated on the left side of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32957",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32957",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32957",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32957",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32957, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32957",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32957",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:18807",
+   "FMA:18810"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

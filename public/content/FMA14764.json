@@ -1,0 +1,73 @@
+{
+ "id": "FMA:14764",
+ "conceptId": "FMA14764",
+ "label": "Common iliac artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Common iliac arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001191",
+  "NCIT": "C32357",
+  "TA98": "A12.2.14.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2058",
+   "FJ2064",
+   "FJ2096",
+   "FJ2206",
+   "FJ3464",
+   "FJ3565"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14764/tier1.auto.md",
+   "text": "An artery arising from the bifurcation of the abdominal aorta which then bifurcates forming the internal and external iliac arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32357",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32357",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32357",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32357",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32357, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32357",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32357",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:18805",
+   "FMA:18808"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

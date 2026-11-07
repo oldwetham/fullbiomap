@@ -1,0 +1,72 @@
+{
+ "id": "FMA:83902",
+ "conceptId": "FMA83902",
+ "label": "Midbrain tectum",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Neuraxis tectum"
+ ],
+ "xrefs": {
+  "UBERON": "0002314",
+  "NCIT": "C12460"
+ },
+ "geometry": {
+  "male": [
+   "FJ1762",
+   "FJ1779",
+   "FJ1810",
+   "FJ1826"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_83902/tier1.auto.md",
+   "text": "The dorsal part or roof plate of the midbrain, which consists of the pretectal area and the paired superior and inferior colliculi.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12460",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12460",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12460",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12460",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12460, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12460",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12460",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:73422",
+   "FMA:73423",
+   "FMA:73434",
+   "FMA:73435"
+  ],
+  "out": [
+   "FMA:61993"
+  ]
+ }
+}

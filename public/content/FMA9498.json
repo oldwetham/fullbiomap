@@ -1,0 +1,73 @@
+{
+ "id": "FMA:9498",
+ "conceptId": "FMA9498",
+ "label": "Fibrous ring of mitral valve",
+ "scale": "tissue",
+ "system": "cardiac",
+ "synonyms": [
+  "Anulus of mitral valve",
+  "Mitral anulus",
+  "Mitral valvar anulus",
+  "Mitral valve anulus"
+ ],
+ "xrefs": {
+  "UBERON": "0005995"
+ },
+ "geometry": {
+  "male": [
+   "FJ2420",
+   "FJ2426",
+   "FJ2431"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9498/tier1.auto.md",
+   "text": "The fibrous ring of the mitral valve that attaches the cusps of mitral valve to the heart, and which consists of portions of the fibrous scallops of the anterior and posterior cusps.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0005995",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005995",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0005995",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005995",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0005995. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0005995",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005995",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:9348"
+  ],
+  "out": [
+   "FMA:7097",
+   "FMA:7101",
+   "FMA:7235",
+   "FMA:9496"
+  ]
+ }
+}

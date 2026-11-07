@@ -1,0 +1,90 @@
+{
+ "id": "FMA:67292",
+ "conceptId": "FMA67292",
+ "label": "Right cerebral hemisphere",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002813",
+  "NCIT": "C33472"
+ },
+ "geometry": {
+  "male": [
+   "FJ1733",
+   "FJ1740",
+   "FJ1745",
+   "FJ1747",
+   "FJ1749",
+   "FJ1751",
+   "FJ1784",
+   "FJ1786",
+   "FJ1788",
+   "FJ1790",
+   "FJ1792",
+   "FJ1798",
+   "FJ1801",
+   "FJ1806",
+   "FJ1807",
+   "FJ1814",
+   "FJ1834",
+   "FJ1836",
+   "FJ1842"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_67292/tier1.auto.md",
+   "text": "The right half of the cerebrum that controls the muscles on the left side of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33472",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33472",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33472",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33472",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33472, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33472",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33472",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:242180",
+   "FMA:242184",
+   "FMA:72969",
+   "FMA:72971",
+   "FMA:72973",
+   "FMA:72975",
+   "FMA:72977",
+   "FMA:72980",
+   "FMA:78449"
+  ],
+  "out": [
+   "FMA:62000"
+  ]
+ }
+}

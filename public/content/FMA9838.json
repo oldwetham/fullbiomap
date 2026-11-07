@@ -1,0 +1,69 @@
+{
+ "id": "FMA:9838",
+ "conceptId": "FMA9838",
+ "label": "Anterior mediastinum",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [
+  "Anterior mediastinal part of chest"
+ ],
+ "xrefs": {
+  "UBERON": "0008820",
+  "NCIT": "C32098",
+  "TA98": "A07.1.02.104"
+ },
+ "geometry": {
+  "male": [
+   "FJ3150",
+   "FJ3151"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9838/tier1.auto.md",
+   "text": "The area between the lungs; it contains the thymus, some lymph nodes, and vessels and branches of the internal thoracic artery.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32098",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32098",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32098",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32098",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32098, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32098",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32098",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:79276"
+  ],
+  "out": [
+   "FMA:24816",
+   "FMA:9828"
+  ]
+ }
+}

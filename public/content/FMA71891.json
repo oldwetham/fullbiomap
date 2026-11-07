@@ -1,0 +1,80 @@
+{
+ "id": "FMA:71891",
+ "conceptId": "FMA71891",
+ "label": "Hepatic biliary tree",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0005171",
+  "NCIT": "C32730"
+ },
+ "geometry": {
+  "male": [
+   "FJ1883",
+   "FJ3071",
+   "FJ3072",
+   "FJ3079",
+   "FJ3088",
+   "FJ3089",
+   "FJ3090",
+   "FJ3096",
+   "FJ3103",
+   "FJ3104",
+   "FJ3105",
+   "FJ3108",
+   "FJ3109",
+   "FJ3110",
+   "FJ3123"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_71891/tier1.auto.md",
+   "text": "Any of the three ducts associated with the liver including the right hepatic duct, left hepatic duct and common hepatic duct.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32730",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32730",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32730",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32730",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32730, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32730",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32730",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14668",
+   "FMA:71857",
+   "FMA:71858"
+  ],
+  "out": [
+   "FMA:14665"
+  ]
+ }
+}

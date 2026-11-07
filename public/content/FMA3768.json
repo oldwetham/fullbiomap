@@ -1,0 +1,64 @@
+{
+ "id": "FMA:3768",
+ "conceptId": "FMA3768",
+ "label": "Arch of aorta",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Aortic arch"
+ ],
+ "xrefs": {
+  "UBERON": "0001508",
+  "TA98": "A12.2.04.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ3411"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3768/tier1.auto.md",
+   "text": "The convex portion of the aorta between the ascending and descending parts of the aorta; branches from it include the brachiocephalic trunk, the left common carotid artery, and the left subclavian artery; the brachiocephalic trunk further splits to form the right subclavian artery and the right common carotid artery.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0001508",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0001508",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001508. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0001508",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:3734"
+  ]
+ }
+}

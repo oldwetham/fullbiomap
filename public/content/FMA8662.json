@@ -1,0 +1,72 @@
+{
+ "id": "FMA:8662",
+ "conceptId": "FMA8662",
+ "label": "Right anterior segmental vein",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [
+  "Anterior branch of right superior pulmonary vein",
+  "Anterior bronchopulmonary segment of right superior pulmonary vein",
+  "Anterior vein of upper lobe of right lung",
+  "Right V3",
+  "Vena anterior (Vena pulmonalis dextra superior)"
+ ],
+ "xrefs": {},
+ "geometry": {
+  "male": [
+   "FJ3021",
+   "FJ3027",
+   "FJ3028",
+   "FJ3029"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_8662/tier1.auto.md",
+   "text": "Anterior segmental vein, each instance of which is vein draining the anterior segment of the superior lobe of some right lung and emptying into some right superior pulmonary vein.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:8662",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8662",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:8662",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8662",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:8662, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:8662",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8662",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:68926",
+   "FMA:68928"
+  ],
+  "out": [
+   "FMA:7359",
+   "FMA:8655"
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "FMA:7096",
+ "conceptId": "FMA7096",
+ "label": "Right atrium",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Right atrium of heart"
+ ],
+ "xrefs": {
+  "UBERON": "0002078",
+  "NCIT": "C12868",
+  "TA98": "A12.1.01.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2421",
+   "FJ2424",
+   "FJ2433",
+   "FJ2436",
+   "FJ2439"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7096/tier1.auto.md",
+   "text": "One of the four chambers of the heart, which is located immediately superior to the right ventricle, and which receives deoxygenated venous blood from the systemic circulation.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12868",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12868",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12868",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12868",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12868, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12868",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12868",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:11359",
+   "FMA:7234",
+   "FMA:9457",
+   "FMA:9550"
+  ],
+  "out": [
+   "FMA:7165"
+  ]
+ }
+}

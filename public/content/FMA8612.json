@@ -1,0 +1,67 @@
+{
+ "id": "FMA:8612",
+ "conceptId": "FMA8612",
+ "label": "Pulmonary trunk",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Pulmonary artery (trunk)",
+  "Trunk of pulmonary arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0002333",
+  "NCIT": "C116918",
+  "TA98": "A12.2.01.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2966"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_8612/tier1.auto.md",
+   "text": "An artery arising from the right ventricle of the heart that bifurcates into the left and right pulmonary arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C116918",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C116918",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C116918, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C116918",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:45842",
+   "FMA:79278"
+  ]
+ }
+}

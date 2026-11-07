@@ -1,0 +1,82 @@
+{
+ "id": "FMA:24189",
+ "conceptId": "FMA24189",
+ "label": "Back of neck",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Neck back",
+  "Nucha",
+  "Nuchal region",
+  "Posterior cervical region",
+  "Posterior neck region",
+  "Posterior part of neck"
+ ],
+ "xrefs": {
+  "UBERON": "0012477"
+ },
+ "geometry": {
+  "male": [
+   "FJ3161",
+   "FJ3164",
+   "FJ3167",
+   "FJ3170",
+   "FJ3172",
+   "FJ3176",
+   "FJ3177",
+   "FJ3202",
+   "FJ3213",
+   "FJ3218",
+   "FJ3219",
+   "FJ3220",
+   "FJ3221"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_24189/tier1.auto.md",
+   "text": "The posterior region of the neck, including the suboccipital region.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0012477",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0012477",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0012477",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0012477",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0012477. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0012477",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0012477",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:24138"
+  ],
+  "out": [
+   "FMA:7155"
+  ]
+ }
+}

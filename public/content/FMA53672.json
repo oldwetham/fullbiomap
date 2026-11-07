@@ -1,0 +1,78 @@
+{
+ "id": "FMA:53672",
+ "conceptId": "FMA53672",
+ "label": "Neurocranium",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Brain Box"
+ ],
+ "xrefs": {
+  "UBERON": "0001703",
+  "TA98": "A02.1.00.007"
+ },
+ "geometry": {
+  "male": [
+   "FJ3199",
+   "FJ3200",
+   "FJ3274",
+   "FJ3281",
+   "FJ3309",
+   "FJ3380",
+   "FJ3386"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_53672/tier1.auto.md",
+   "text": "Subdivision of skull which has as its direct parts calvarium and basicranium.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:53672",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma53672",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:53672",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma53672",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:53672, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:53672",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma53672",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:52734",
+   "FMA:52735",
+   "FMA:52738",
+   "FMA:52739",
+   "FMA:52788",
+   "FMA:52789",
+   "FMA:52801"
+  ],
+  "out": [
+   "FMA:46565"
+  ]
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "FMA:3949",
+ "conceptId": "FMA3949",
+ "label": "Right internal carotid artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Arteria carotis interna dextra"
+ ],
+ "xrefs": {
+  "UBERON": "0007143"
+ },
+ "geometry": {
+  "male": [
+   "FJ1654",
+   "FJ1655",
+   "FJ1658",
+   "FJ1662",
+   "FJ1663",
+   "FJ1682",
+   "FJ1692",
+   "FJ1695",
+   "FJ1713",
+   "FJ1713M",
+   "FJ1723",
+   "FJ1723M"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3949/tier1.auto.md",
+   "text": "An internal carotid artery that branching_part_of a right common carotid artery plus branches.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007143",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007143",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007143. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007143",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:49869",
+   "FMA:50029",
+   "FMA:50082",
+   "FMA:50085",
+   "FMA:50088",
+   "FMA:50454"
+  ],
+  "out": [
+   "FMA:3941"
+  ]
+ }
+}

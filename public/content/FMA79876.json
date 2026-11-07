@@ -1,0 +1,79 @@
+{
+ "id": "FMA:79876",
+ "conceptId": "FMA79876",
+ "label": "Brainstem",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Brain stem"
+ ],
+ "xrefs": {
+  "UBERON": "0002298",
+  "NCIT": "C12441",
+  "TA98": "A14.1.03.009"
+ },
+ "geometry": {
+  "male": [
+   "FJ1738",
+   "FJ1762",
+   "FJ1769",
+   "FJ1770",
+   "FJ1775",
+   "FJ1779",
+   "FJ1810",
+   "FJ1817",
+   "FJ1822",
+   "FJ1826",
+   "FJ1831"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_79876/tier1.auto.md",
+   "text": "Three sections, the midbrain, pons and medulla oblongata, that are located at the base of the brain. The brain stem regulates the central nervous system, and is vital as a conduit for motor and sensory innervations.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12441",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12441",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12441",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12441",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12441, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12441",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12441",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:61993",
+   "FMA:62004",
+   "FMA:67943"
+  ],
+  "out": [
+   "FMA:270201"
+  ]
+ }
+}

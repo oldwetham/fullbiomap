@@ -1,0 +1,99 @@
+{
+ "id": "FMA:7187",
+ "conceptId": "FMA7187",
+ "label": "Right lower limb",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Right hindlimb",
+  "Right lower extremity"
+ ],
+ "xrefs": {
+  "UBERON": "8300003"
+ },
+ "geometry": {
+  "male": [
+   "FJ1423",
+   "FJ3152",
+   "FJ3189",
+   "FJ3190",
+   "FJ3191",
+   "FJ3192",
+   "FJ3195",
+   "FJ3300",
+   "FJ3301",
+   "FJ3302",
+   "FJ3305",
+   "FJ3308",
+   "FJ3310",
+   "FJ3319",
+   "FJ3320",
+   "FJ3321",
+   "FJ3324",
+   "FJ3351",
+   "FJ3353",
+   "FJ3355",
+   "FJ3357",
+   "FJ3359",
+   "FJ3360",
+   "FJ3364",
+   "FJ3365",
+   "FJ3366",
+   "FJ3370",
+   "FJ3373",
+   "FJ3377",
+   "FJ3381",
+   "FJ3385",
+   "FJ3387"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7187/tier1.auto.md",
+   "text": "A hindlimb that is on the right side of a pelvic complex.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:8300003",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_8300003",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:8300003",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_8300003",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:8300003. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:8300003",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_8300003",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:16582",
+   "FMA:24882",
+   "FMA:58418"
+  ],
+  "out": [
+   "FMA:20394"
+  ]
+ }
+}

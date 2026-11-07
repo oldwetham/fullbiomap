@@ -1,0 +1,68 @@
+{
+ "id": "FMA:3789",
+ "conceptId": "FMA3789",
+ "label": "Abdominal aorta",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Abdominal part of aorta",
+  "Descending abdominal aorta",
+  "Pars abdominalis aortae"
+ ],
+ "xrefs": {
+  "UBERON": "0001516",
+  "NCIT": "C32038",
+  "TA98": "A12.2.12.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ1932"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3789/tier1.auto.md",
+   "text": "The portion of the descending aorta that lies within the abdomen, beginning below the diaphragm and ending at its division into the right and left common iliac arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32038",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32038",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32038",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32038",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32038, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32038",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32038",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:259248",
+   "FMA:3784"
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "FMA:50542",
+ "conceptId": "FMA50542",
+ "label": "Basilar artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001633",
+  "NCIT": "C12676",
+  "TA98": "A12.2.07.081"
+ },
+ "geometry": {
+  "male": [
+   "FJ1656",
+   "FJ1656M",
+   "FJ1661",
+   "FJ1661M",
+   "FJ1672",
+   "FJ1675",
+   "FJ1675M",
+   "FJ1677",
+   "FJ1677M",
+   "FJ1678",
+   "FJ1678M",
+   "FJ1680",
+   "FJ1680M",
+   "FJ1684",
+   "FJ1684M",
+   "FJ1687",
+   "FJ1687M",
+   "FJ1689",
+   "FJ1689M",
+   "FJ1691",
+   "FJ1691M",
+   "FJ1720",
+   "FJ1720M",
+   "FJ1726",
+   "FJ1726M",
+   "FJ1727",
+   "FJ1727M",
+   "FJ1844"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_50542/tier1.auto.md",
+   "text": "An artery formed by the union of the two vertebral arteries at the posterior border of the pons then diverges at the anterior border forming the two superior and two posterior cerebral arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12676",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12676",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12676",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12676",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12676, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12676",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12676",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:50544",
+   "FMA:50561",
+   "FMA:50562",
+   "FMA:50573",
+   "FMA:50574",
+   "FMA:50575",
+   "FMA:50584",
+   "FMA:50585"
+  ],
+  "out": [
+   "FMA:3958",
+   "FMA:4066"
+  ]
+ }
+}

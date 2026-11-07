@@ -1,0 +1,85 @@
+{
+ "id": "FMA:14749",
+ "conceptId": "FMA14749",
+ "label": "Superior mesenteric artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Superior mesenteric arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001182",
+  "NCIT": "C33685",
+  "TA98": "A12.2.12.053"
+ },
+ "geometry": {
+  "male": [
+   "FJ1928",
+   "FJ2011",
+   "FJ2025",
+   "FJ2034",
+   "FJ3406",
+   "FJ3410",
+   "FJ3414",
+   "FJ3437",
+   "FJ3439",
+   "FJ3446",
+   "FJ3542",
+   "FJ3553",
+   "FJ3590",
+   "FJ3644"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14749/tier1.auto.md",
+   "text": "An artery arising from the abdominal aorta with numerous branches that supply the intestines from the duodenum to the transverse colon and the pancreas.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33685",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33685",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33685",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33685",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33685, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33685",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33685",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14805",
+   "FMA:14809",
+   "FMA:14810",
+   "FMA:14811",
+   "FMA:14815",
+   "FMA:66358"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

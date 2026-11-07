@@ -1,0 +1,76 @@
+{
+ "id": "FMA:4058",
+ "conceptId": "FMA4058",
+ "label": "Left common carotid artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Trunk of left common carotid tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001536",
+  "NCIT": "C32956"
+ },
+ "geometry": {
+  "male": [
+   "FJ1654M",
+   "FJ1655",
+   "FJ1658M",
+   "FJ1682M",
+   "FJ1695M",
+   "FJ1713",
+   "FJ1713M",
+   "FJ1723",
+   "FJ1723M",
+   "FJ3483"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_4058/tier1.auto.md",
+   "text": "An artery arising from the aortic arch that supplies the head and neck.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32956",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32956",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32956",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32956",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32956, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32956",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32956",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:4062"
+  ],
+  "out": [
+   "FMA:49894",
+   "FMA:79274"
+  ]
+ }
+}

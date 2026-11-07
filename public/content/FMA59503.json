@@ -1,0 +1,66 @@
+{
+ "id": "FMA:59503",
+ "conceptId": "FMA59503",
+ "label": "Septal nasal cartilage",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [
+  "Cartilago septal nasi"
+ ],
+ "xrefs": {
+  "UBERON": "0003407",
+  "TA98": "A06.1.01.013"
+ },
+ "geometry": {
+  "male": [
+   "FJ2557"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_59503/tier1.auto.md",
+   "text": "A cartilage that is part of a nasal septum.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0003407",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003407",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0003407",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003407",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0003407. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0003407",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003407",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:59538",
+   "FMA:59668",
+   "FMA:59838"
+  ]
+ }
+}

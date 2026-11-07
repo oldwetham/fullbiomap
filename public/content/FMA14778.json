@@ -1,0 +1,76 @@
+{
+ "id": "FMA:14778",
+ "conceptId": "FMA14778",
+ "label": "Right hepatic artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Right branch of hepatic artery proper",
+  "Right part of hepatic artery proper"
+ ],
+ "xrefs": {
+  "UBERON": "0015482"
+ },
+ "geometry": {
+  "male": [
+   "FJ1916",
+   "FJ2386",
+   "FJ3075",
+   "FJ3076",
+   "FJ3114",
+   "FJ3115",
+   "FJ3116",
+   "FJ3117"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14778/tier1.auto.md",
+   "text": "A hepatic artery that is part of a right lobe of liver.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0015482",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0015482",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0015482",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0015482",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0015482. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0015482",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0015482",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:70441",
+   "FMA:70444",
+   "FMA:70447",
+   "FMA:70456"
+  ],
+  "out": [
+   "FMA:14772"
+  ]
+ }
+}

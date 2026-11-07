@@ -1,0 +1,67 @@
+{
+ "id": "FMA:22674",
+ "conceptId": "FMA22674",
+ "label": "Lateral thoracic artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "External mammary artery"
+ ],
+ "xrefs": {
+  "UBERON": "0001396",
+  "NCIT": "C52951",
+  "TA98": "A12.2.09.011"
+ },
+ "geometry": {
+  "male": [
+   "FJ1938",
+   "FJ1976"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_22674/tier1.auto.md",
+   "text": "An artery arising from the axillary artery that supplies the mammary gland and chest muscles.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52951",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52951",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52951",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52951",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52951, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52951",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52951",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:22654",
+   "FMA:3951"
+  ]
+ }
+}

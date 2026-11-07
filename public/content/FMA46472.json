@@ -1,0 +1,76 @@
+{
+ "id": "FMA:46472",
+ "conceptId": "FMA46472",
+ "label": "Nose",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000004",
+  "NCIT": "C12756",
+  "TA98": "['A01.1.00.009', 'A06.1.01.001']"
+ },
+ "geometry": {
+  "male": [
+   "FJ2554",
+   "FJ2555",
+   "FJ2556",
+   "FJ2557",
+   "FJ2558",
+   "FJ3263",
+   "FJ3272",
+   "FJ3369",
+   "FJ3378",
+   "FJ3395"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_46472/tier1.auto.md",
+   "text": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12756",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12756",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12756",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12756",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12756, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12756",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12756",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:54375",
+   "FMA:59515",
+   "FMA:59637"
+  ],
+  "out": [
+   "FMA:24728"
+  ]
+ }
+}

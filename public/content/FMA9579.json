@@ -1,0 +1,70 @@
+{
+ "id": "FMA:9579",
+ "conceptId": "FMA9579",
+ "label": "Perineum",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [
+  "Perineal region"
+ ],
+ "xrefs": {
+  "UBERON": "0002356",
+  "NCIT": "C33301",
+  "TA98": "A09.5.00.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ1450",
+   "FJ1450M",
+   "FJ2543",
+   "FJ2548"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9579/tier1.auto.md",
+   "text": "The area located between the anus and vulva in females, and anus and scrotum in males.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33301",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33301",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33301",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33301",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33301, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33301",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33301",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:20347"
+  ],
+  "out": [
+   "FMA:7181"
+  ]
+ }
+}

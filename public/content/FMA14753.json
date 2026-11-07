@@ -1,0 +1,71 @@
+{
+ "id": "FMA:14753",
+ "conceptId": "FMA14753",
+ "label": "Left renal artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Left renal arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001186",
+  "NCIT": "C52741"
+ },
+ "geometry": {
+  "male": [
+   "FJ2046",
+   "FJ3467",
+   "FJ3476",
+   "FJ3481"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14753/tier1.auto.md",
+   "text": "An artery arising from the abdominal aorta that supplies the left kidney.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52741",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52741",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52741",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52741",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52741, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52741",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52741",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:66364",
+   "FMA:69266",
+   "FMA:70493"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

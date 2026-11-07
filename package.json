@@ -7,9 +7,12 @@
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3016",
+    "prebuild": "node pipeline/12-validate.mjs",
     "build": "vite build",
     "build:vercel": "vite build",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "validate": "node pipeline/12-validate.mjs",
+    "pipeline": "bash pipeline/00-fetch-bodyparts3d.sh && python3 -I pipeline/01-build-maps.py && python3 -I scripts/convert-anatomy.py data/raw/bp3d/obj data/build/concepts.json data/build/systems.json && node scripts/optimize-anatomy.mjs && node scripts/compress-models.mjs && python3 -I pipeline/06-ontology.py && python3 -I pipeline/07-tier1.py && node pipeline/11-build-graph.mjs && node pipeline/12-validate.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

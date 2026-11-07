@@ -1,0 +1,90 @@
+{
+ "id": "FMA:7207",
+ "conceptId": "FMA7207",
+ "label": "Jejunum",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002115",
+  "NCIT": "C12388",
+  "TA98": "A05.6.03.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2606",
+   "FJ2607",
+   "FJ2608",
+   "FJ2609",
+   "FJ2610",
+   "FJ2611",
+   "FJ2612",
+   "FJ2613",
+   "FJ2614",
+   "FJ2615",
+   "FJ2616",
+   "FJ2617",
+   "FJ2618",
+   "FJ2619",
+   "FJ2620",
+   "FJ2621",
+   "FJ2622",
+   "FJ2623",
+   "FJ2624",
+   "FJ2625",
+   "FJ2626",
+   "FJ2627",
+   "FJ2628"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7207/tier1.auto.md",
+   "text": "The portion of the small intestine that extends from the duodenum to the ileum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12388",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12388",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12388",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12388",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12388, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12388",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12388",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:16981",
+   "FMA:16982",
+   "FMA:16983"
+  ],
+  "out": [
+   "FMA:49179",
+   "FMA:7200"
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "FMA:4062",
+ "conceptId": "FMA4062",
+ "label": "Left internal carotid artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Arteria caritis interna sinistra"
+ ],
+ "xrefs": {
+  "UBERON": "0007142"
+ },
+ "geometry": {
+  "male": [
+   "FJ1654M",
+   "FJ1655",
+   "FJ1658M",
+   "FJ1682M",
+   "FJ1695M",
+   "FJ1713",
+   "FJ1713M",
+   "FJ1723",
+   "FJ1723M"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_4062/tier1.auto.md",
+   "text": "An internal carotid artery that branching_part_of a left common carotid artery plus branches.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007142",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007142",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007142",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007142",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007142. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007142",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007142",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:49870",
+   "FMA:50030",
+   "FMA:50086",
+   "FMA:50089",
+   "FMA:50454"
+  ],
+  "out": [
+   "FMA:4058"
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "FMA:46602",
+ "conceptId": "FMA46602",
+ "label": "Aryepiglotticus",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [
+  "Ary-epiglottic part of oblique arytenoid",
+  "Aryepiglottic muscle",
+  "Pars aryepiglottica (Musculus arytenoideus obliquus)"
+ ],
+ "xrefs": {
+  "UBERON": "0011025",
+  "NCIT": "C32146"
+ },
+ "geometry": {
+  "male": [
+   "FJ2774",
+   "FJ2791"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_46602/tier1.auto.md",
+   "text": "A band of muscular fibers of the oblique arytenoid muscle that extends from the summit of the arytenoid cartilage to the side of the epiglottis and whose action constricts the laryngeal aperture.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32146",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32146",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32146",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32146",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32146, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32146",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32146",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:46583"
+  ]
+ }
+}

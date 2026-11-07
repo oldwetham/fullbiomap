@@ -1,0 +1,68 @@
+{
+ "id": "FMA:14751",
+ "conceptId": "FMA14751",
+ "label": "Renal artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Renal arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001184",
+  "NCIT": "C12778",
+  "TA98": "A12.2.12.075"
+ },
+ "geometry": {
+  "male": [
+   "FJ2038",
+   "FJ2046"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14751/tier1.auto.md",
+   "text": "Either of two arteries (right or left) that arise from the aorta to supply the kidneys.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12778",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12778",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12778, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12778",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:66362",
+   "FMA:69264",
+   "FMA:70491"
+  ],
+  "out": []
+ }
+}

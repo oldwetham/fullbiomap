@@ -1,0 +1,96 @@
+{
+ "id": "FMA:50737",
+ "conceptId": "FMA50737",
+ "label": "Celiac artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Celiac tree",
+  "Coeliac artery"
+ ],
+ "xrefs": {
+  "UBERON": "0001640",
+  "NCIT": "C52846"
+ },
+ "geometry": {
+  "male": [
+   "FJ1846",
+   "FJ1916",
+   "FJ2013",
+   "FJ2386",
+   "FJ2562",
+   "FJ3075",
+   "FJ3076",
+   "FJ3077",
+   "FJ3078",
+   "FJ3081",
+   "FJ3091",
+   "FJ3092",
+   "FJ3093",
+   "FJ3095",
+   "FJ3106",
+   "FJ3107",
+   "FJ3114",
+   "FJ3115",
+   "FJ3116",
+   "FJ3117",
+   "FJ3420",
+   "FJ3421",
+   "FJ3432",
+   "FJ3499",
+   "FJ3544",
+   "FJ3594",
+   "FJ3640"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_50737/tier1.auto.md",
+   "text": "A major abdominal artery that arises from the abdominal aorta below the diaphragm. It supplies blood to the digestive organs. It has three major branches, left gastric artery, common hepatic artery, and splenic artery.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52846",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52846",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52846",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52846",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52846, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52846",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52846",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14768",
+   "FMA:14771",
+   "FMA:14773",
+   "FMA:14812"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "FMA:14541",
+ "conceptId": "FMA14541",
+ "label": "Cecum",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [
+  "Intestinum crassum caecum"
+ ],
+ "xrefs": {
+  "UBERON": "0001153",
+  "NCIT": "C12381"
+ },
+ "geometry": {
+  "male": [
+   "FJ2599"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14541/tier1.auto.md",
+   "text": "A blind pouch-like commencement of the colon in the right lower quadrant of the abdomen at the end of the small intestine and the start of the large intestine.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12381",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12381",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12381",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12381",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12381, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12381",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12381",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:11338"
+  ],
+  "out": [
+   "FMA:49179",
+   "FMA:7201"
+  ]
+ }
+}

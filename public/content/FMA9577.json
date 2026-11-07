@@ -1,0 +1,93 @@
+{
+ "id": "FMA:9577",
+ "conceptId": "FMA9577",
+ "label": "Abdomen",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Abdominopelvic region",
+  "Abdominopelvis"
+ ],
+ "xrefs": {
+  "UBERON": "0000916",
+  "TA98": "A01.1.00.016"
+ },
+ "geometry": {
+  "male": [
+   "FJ1426",
+   "FJ1426M",
+   "FJ1428",
+   "FJ1428M",
+   "FJ1431",
+   "FJ1431M",
+   "FJ1452",
+   "FJ1452M",
+   "FJ1932",
+   "FJ2815",
+   "FJ3131",
+   "FJ3152",
+   "FJ3157",
+   "FJ3159",
+   "FJ3162",
+   "FJ3165",
+   "FJ3168",
+   "FJ3212",
+   "FJ3214",
+   "FJ3215",
+   "FJ3216",
+   "FJ3217",
+   "FJ3288",
+   "FJ3393"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9577/tier1.auto.md",
+   "text": "The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0000916",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0000916",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0000916. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0000916",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:259054",
+   "FMA:61680",
+   "FMA:85031",
+   "FMA:9578"
+  ],
+  "out": [
+   "FMA:259211"
+  ]
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "id": "FMA:7383",
+ "conceptId": "FMA7383",
+ "label": "Middle lobe of right lung",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [
+  "Intermediate lobe of right lung",
+  "Middle lobe of lung",
+  "Right lung, middle lobe",
+  "Right middle lobe",
+  "Right middle lobe of lung"
+ ],
+ "xrefs": {
+  "UBERON": "0002174",
+  "NCIT": "C12286",
+  "TA98": "['A06.5.01.019', 'A06.5.02.006']"
+ },
+ "geometry": {
+  "male": [
+   "FJ2449",
+   "FJ2451",
+   "FJ2503",
+   "FJ2504",
+   "FJ2505",
+   "FJ2506",
+   "FJ2507",
+   "FJ2508",
+   "FJ2982",
+   "FJ2983",
+   "FJ2984",
+   "FJ2985",
+   "FJ2986",
+   "FJ2987",
+   "FJ2988",
+   "FJ2990",
+   "FJ3030",
+   "FJ3032",
+   "FJ3033",
+   "FJ3034",
+   "FJ3035",
+   "FJ3036",
+   "FJ3037",
+   "FJ3038",
+   "FJ3039"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7383/tier1.auto.md",
+   "text": "The smallest lobe of the right lung, situated above the oblique fissure and below the horizontal fissure.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12286",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12286",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12286, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12286",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:31741",
+   "FMA:68196",
+   "FMA:7360",
+   "FMA:7361",
+   "FMA:8656"
+  ],
+  "out": [
+   "FMA:7309"
+  ]
+ }
+}

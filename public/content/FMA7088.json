@@ -3,19 +3,161 @@
  "conceptId": "FMA7088",
  "label": "Heart",
  "scale": "organ",
- "tiers": {
-  "1": {
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000948",
+  "NCIT": "C12727",
+  "TA98": "A12.1.00.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2417",
+   "FJ2418",
+   "FJ2419",
+   "FJ2420",
+   "FJ2421",
+   "FJ2422",
+   "FJ2423",
+   "FJ2424",
+   "FJ2425",
+   "FJ2426",
+   "FJ2427",
+   "FJ2429",
+   "FJ2430",
+   "FJ2431",
+   "FJ2432",
+   "FJ2433",
+   "FJ2434",
+   "FJ2435",
+   "FJ2436",
+   "FJ2437",
+   "FJ2438",
+   "FJ2439",
+   "FJ2631",
+   "FJ2632",
+   "FJ2633",
+   "FJ2634",
+   "FJ2635",
+   "FJ2636",
+   "FJ2637",
+   "FJ2638",
+   "FJ2639",
+   "FJ2640",
+   "FJ2641",
+   "FJ2642",
+   "FJ2643",
+   "FJ2644",
+   "FJ2645",
+   "FJ2646",
+   "FJ2647",
+   "FJ2648",
+   "FJ2649",
+   "FJ2650",
+   "FJ2651",
+   "FJ2652",
+   "FJ2653",
+   "FJ2654",
+   "FJ2655",
+   "FJ2656",
+   "FJ2667",
+   "FJ2668",
+   "FJ2670",
+   "FJ2671",
+   "FJ2672",
+   "FJ2673",
+   "FJ2674",
+   "FJ2675",
+   "FJ2676",
+   "FJ2677",
+   "FJ2692",
+   "FJ2693",
+   "FJ2694",
+   "FJ2695",
+   "FJ2696",
+   "FJ2697",
+   "FJ2698",
+   "FJ2699",
+   "FJ2700",
+   "FJ2714",
+   "FJ2715",
+   "FJ2716",
+   "FJ2717",
+   "FJ2718",
+   "FJ2719",
+   "FJ2720",
+   "FJ2721",
+   "FJ2722",
+   "FJ2723",
+   "FJ2724",
+   "FJ2727",
+   "FJ2728",
+   "FJ2729",
+   "FJ2731",
+   "FJ2737"
+  ]
+ },
+ "content": {
+  "tier1": {
    "status": "drafted",
+   "file": "content/FMA_7088/tier1.md",
    "text": "A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.",
-   "license": "MIT",
-   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
    "sources": [
     {
      "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
      "url": "https://github.com/ashemag/human-atlas",
      "license": "MIT"
     }
-   ]
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
   }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:11359",
+   "FMA:12846",
+   "FMA:4706",
+   "FMA:50039",
+   "FMA:50040",
+   "FMA:7165",
+   "FMA:7166",
+   "FMA:7234",
+   "FMA:7235",
+   "FMA:7236",
+   "FMA:7246",
+   "FMA:9291",
+   "FMA:9465",
+   "FMA:9466",
+   "FMA:9496"
+  ],
+  "out": [
+   "FMA:7161",
+   "FMA:79273",
+   "FMA:79278"
+  ]
  }
 }

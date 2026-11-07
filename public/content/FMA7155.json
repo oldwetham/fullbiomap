@@ -1,0 +1,86 @@
+{
+ "id": "FMA:7155",
+ "conceptId": "FMA7155",
+ "label": "Neck",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Neck (volume)"
+ ],
+ "xrefs": {
+  "UBERON": "0000974",
+  "NCIT": "C13063",
+  "TA98": "A01.1.00.012"
+ },
+ "geometry": {
+  "male": [
+   "FJ3161",
+   "FJ3164",
+   "FJ3167",
+   "FJ3170",
+   "FJ3172",
+   "FJ3176",
+   "FJ3177",
+   "FJ3202",
+   "FJ3213",
+   "FJ3218",
+   "FJ3219",
+   "FJ3220",
+   "FJ3221"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7155/tier1.auto.md",
+   "text": "The region that connects the head to the rest of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C13063",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13063",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C13063",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13063",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C13063, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C13063",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13063",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:12519",
+   "FMA:12520",
+   "FMA:12521",
+   "FMA:12522",
+   "FMA:12523",
+   "FMA:12524",
+   "FMA:12525",
+   "FMA:24189"
+  ],
+  "out": [
+   "FMA:231424"
+  ]
+ }
+}

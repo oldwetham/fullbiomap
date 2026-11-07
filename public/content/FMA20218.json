@@ -1,0 +1,67 @@
+{
+ "id": "FMA:20218",
+ "conceptId": "FMA20218",
+ "label": "Mons pubis",
+ "scale": "organ",
+ "system": "integumentary",
+ "synonyms": [
+  "Mons veneris"
+ ],
+ "xrefs": {
+  "UBERON": "0035258",
+  "NCIT": "C33139",
+  "TA98": "A09.2.01.002"
+ },
+ "geometry": {
+  "male": [
+   "FJ2815"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_20218/tier1.auto.md",
+   "text": "A rounded prominence of adipose tissue overlying the pubic symphysis and adjacent pubic bone.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33139",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33139",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33139",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33139",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33139, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33139",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33139",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:54319"
+  ],
+  "out": [
+   "FMA:9578"
+  ]
+ }
+}

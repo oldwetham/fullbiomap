@@ -1,0 +1,72 @@
+{
+ "id": "FMA:14752",
+ "conceptId": "FMA14752",
+ "label": "Right renal artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Right renal arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001185",
+  "NCIT": "C52740"
+ },
+ "geometry": {
+  "male": [
+   "FJ2038",
+   "FJ3576",
+   "FJ3581",
+   "FJ3582",
+   "FJ3584"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14752/tier1.auto.md",
+   "text": "An artery arising from the aorta that supplies the right kidney.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52740",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52740",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52740",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52740",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52740, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52740",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52740",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:66363",
+   "FMA:69265",
+   "FMA:70492"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

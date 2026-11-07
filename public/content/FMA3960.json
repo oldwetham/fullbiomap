@@ -1,0 +1,71 @@
+{
+ "id": "FMA:3960",
+ "conceptId": "FMA3960",
+ "label": "Internal thoracic artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Internal mammary artery",
+  "Internal thoracic mammary artery"
+ ],
+ "xrefs": {
+  "UBERON": "0002456",
+  "NCIT": "C52941",
+  "TA98": "A12.2.08.029"
+ },
+ "geometry": {
+  "male": [
+   "FJ1937",
+   "FJ1972"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3960/tier1.auto.md",
+   "text": "The blood vessel that supplies the breast and the anterior chest wall with arterial blood. It is located in the chest wall.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52941",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52941",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52941",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52941",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52941, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52941",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52941",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:10645",
+   "FMA:10646"
+  ],
+  "out": [
+   "FMA:3951",
+   "FMA:79274"
+  ]
+ }
+}

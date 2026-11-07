@@ -1,0 +1,67 @@
+{
+ "id": "FMA:7163",
+ "conceptId": "FMA7163",
+ "label": "Skin",
+ "scale": "organ",
+ "system": "integumentary",
+ "synonyms": [
+  "Skin of body"
+ ],
+ "xrefs": {
+  "UBERON": "0002097",
+  "NCIT": "C12470",
+  "TA98": "A16.0.00.002"
+ },
+ "geometry": {
+  "male": [
+   "FJ2810"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7163/tier1.auto.md",
+   "text": "An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12470",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12470",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12470",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12470",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12470, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12470",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12470",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:53667"
+  ],
+  "out": [
+   "FMA:74657"
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "FMA:55021",
+ "conceptId": "FMA55021",
+ "label": "Soft palate",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [
+  "Muscular palate"
+ ],
+ "xrefs": {
+  "UBERON": "0001733",
+  "NCIT": "C12231",
+  "TA98": "['A05.1.01.104', 'A05.2.01.003']"
+ },
+ "geometry": {
+  "male": [
+   "FJ2741",
+   "FJ2748",
+   "FJ2753",
+   "FJ2760",
+   "FJ2762"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_55021/tier1.auto.md",
+   "text": "The muscular extension of the hard palate which comprises the posterior of the oral cavity and the floor of the nasal cavity.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12231",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12231",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12231",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12231",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12231, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12231",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12231",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:46728",
+   "FMA:46729",
+   "FMA:46731",
+   "FMA:46732"
+  ],
+  "out": []
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "FMA:7131",
+ "conceptId": "FMA7131",
+ "label": "Esophagus",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [
+  "Gullet"
+ ],
+ "xrefs": {
+  "UBERON": "0001043",
+  "NCIT": "C12389"
+ },
+ "geometry": {
+  "male": [
+   "FJ2563"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7131/tier1.auto.md",
+   "text": "The portion of the digestive canal between the pharynx and stomach. It is about 25 cm long and consists of three parts: the cervical part, from the cricoid cartilage to the thoracic inlet; thoracic part, from thoracic inlet to the diaphragm; and abdominal part, below the diaphragm to the cardiac opening of the stomach.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12389",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12389",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12389, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12389",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:49177",
+   "FMA:71132"
+  ]
+ }
+}

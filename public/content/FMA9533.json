@@ -1,0 +1,73 @@
+{
+ "id": "FMA:9533",
+ "conceptId": "FMA9533",
+ "label": "Wall of right ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Right ventricular wall"
+ ],
+ "xrefs": {
+  "UBERON": "0036286"
+ },
+ "geometry": {
+  "male": [
+   "FJ2419",
+   "FJ2430",
+   "FJ2437"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9533/tier1.auto.md",
+   "text": "Wall of ventricle which is continuous with the wall of pulmonary trunk.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0036286",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0036286",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0036286",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0036286",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0036286. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0036286",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0036286",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:49207",
+   "FMA:7259",
+   "FMA:84842",
+   "FMA:9535",
+   "FMA:9553",
+   "FMA:9555"
+  ],
+  "out": [
+   "FMA:7098",
+   "FMA:73703"
+  ]
+ }
+}

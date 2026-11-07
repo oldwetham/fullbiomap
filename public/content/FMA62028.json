@@ -1,0 +1,67 @@
+{
+ "id": "FMA:62028",
+ "conceptId": "FMA62028",
+ "label": "Intermediate hypothalamic region",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Intermediate hypothalamic area"
+ ],
+ "xrefs": {
+  "UBERON": "0002555",
+  "TA98": "A14.1.08.920"
+ },
+ "geometry": {
+  "male": [
+   "FJ1780",
+   "FJ1828"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_62028/tier1.auto.md",
+   "text": "The portion of the hypothalamus located generally internal to the region of the infundibulum.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0002555",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002555",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0002555",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002555",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0002555. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0002555",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002555",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:62327"
+  ],
+  "out": [
+   "FMA:62008"
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "FMA:22654",
+ "conceptId": "FMA22654",
+ "label": "Axillary artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Axillary part of subclavian artery"
+ ],
+ "xrefs": {
+  "UBERON": "0001394",
+  "NCIT": "C32169",
+  "TA98": "A12.2.09.002"
+ },
+ "geometry": {
+  "male": [
+   "FJ2216",
+   "FJ2268"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_22654/tier1.auto.md",
+   "text": "An artery that originates from the subclavian artery at the lateral margin of the first rib that supplies the brachial artery.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32169",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32169",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32169",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32169",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32169, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32169",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32169",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:22674",
+   "FMA:22677",
+   "FMA:22680",
+   "FMA:22684"
+  ],
+  "out": []
+ }
+}

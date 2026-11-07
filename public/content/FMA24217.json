@@ -1,0 +1,90 @@
+{
+ "id": "FMA:24217",
+ "conceptId": "FMA24217",
+ "label": "Back of thorax",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Dorsum of thorax",
+  "Posterior part of thorax",
+  "Thoracic back",
+  "Thoracic part of back"
+ ],
+ "xrefs": {
+  "UBERON": "0008231"
+ },
+ "geometry": {
+  "male": [
+   "FJ3154",
+   "FJ3155",
+   "FJ3156",
+   "FJ3158",
+   "FJ3160",
+   "FJ3163",
+   "FJ3166",
+   "FJ3169",
+   "FJ3171",
+   "FJ3173",
+   "FJ3174",
+   "FJ3175",
+   "FJ3203",
+   "FJ3204",
+   "FJ3205",
+   "FJ3206",
+   "FJ3207",
+   "FJ3208",
+   "FJ3209",
+   "FJ3210",
+   "FJ3222",
+   "FJ3223",
+   "FJ3224"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_24217/tier1.auto.md",
+   "text": "Subdivision of thorax, which in humans is the posterior part of the thorax and is demarcated from the chest by the external surface of the posterolateral part of the rib cage and the anterior surface of the thoracic vertebral column; together with the chest, it constitutes the thorax.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0008231",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0008231",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0008231",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0008231",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0008231. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0008231",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0008231",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:9140"
+  ],
+  "out": [
+   "FMA:259209"
+  ]
+ }
+}

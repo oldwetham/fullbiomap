@@ -1,0 +1,92 @@
+{
+ "id": "FMA:49911",
+ "conceptId": "FMA49911",
+ "label": "Right inferior pulmonary vein",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [
+  "Right inferior pulmonary vein",
+  "Right inferior pulmonary venous tree"
+ ],
+ "xrefs": {
+  "UBERON": "8920016",
+  "TA98": "A12.3.02.201"
+ },
+ "geometry": {
+  "male": [
+   "FJ3040",
+   "FJ3041",
+   "FJ3043",
+   "FJ3044",
+   "FJ3045",
+   "FJ3046",
+   "FJ3047",
+   "FJ3048",
+   "FJ3049",
+   "FJ3050",
+   "FJ3051",
+   "FJ3052",
+   "FJ3054",
+   "FJ3055",
+   "FJ3056",
+   "FJ3057",
+   "FJ3058",
+   "FJ3059",
+   "FJ3060",
+   "FJ3061",
+   "FJ3062",
+   "FJ3063",
+   "FJ3065",
+   "FJ3066"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_49911/tier1.auto.md",
+   "text": "Inferior pulmonary venous tree, each instance of which returns blood from the lower lobe of some right lung to the left atrium of some heart.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:49911",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49911",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:49911",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49911",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:49911, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:49911",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49911",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:8670",
+   "FMA:8671"
+  ],
+  "out": [
+   "FMA:228642",
+   "FMA:7161"
+  ]
+ }
+}

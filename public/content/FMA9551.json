@@ -1,0 +1,69 @@
+{
+ "id": "FMA:9551",
+ "conceptId": "FMA9551",
+ "label": "Outflow part of left atrium",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Main part of left atrium",
+  "Outflow tract of left atrium"
+ ],
+ "xrefs": {
+  "UBERON": "0005966"
+ },
+ "geometry": {
+  "male": [
+   "FJ2420",
+   "FJ2426",
+   "FJ2431",
+   "FJ2432"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9551/tier1.auto.md",
+   "text": "An outflow tract of atrium that is part of a left atrium.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0005966",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005966",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0005966",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005966",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0005966. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0005966",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005966",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7235"
+  ],
+  "out": [
+   "FMA:7097"
+  ]
+ }
+}

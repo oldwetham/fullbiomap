@@ -1,0 +1,71 @@
+{
+ "id": "FMA:9840",
+ "conceptId": "FMA9840",
+ "label": "Posterior mediastinum",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [
+  "Posterior mediastinal part of chest"
+ ],
+ "xrefs": {
+  "UBERON": "0008822",
+  "NCIT": "C33368",
+  "TA98": "A07.1.02.106"
+ },
+ "geometry": {
+  "male": [
+   "FJ2450",
+   "FJ2539",
+   "FJ3416",
+   "FJ3434"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9840/tier1.auto.md",
+   "text": "The part of the lower portion of the mediastinum that is located behind the pericardium.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33368",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33368",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33368",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33368",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33368, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33368",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33368",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:79277"
+  ],
+  "out": [
+   "FMA:87552",
+   "FMA:9828"
+  ]
+ }
+}

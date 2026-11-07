@@ -1,0 +1,76 @@
+{
+ "id": "FMA:7097",
+ "conceptId": "FMA7097",
+ "label": "Left atrium",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Left atrium of heart"
+ ],
+ "xrefs": {
+  "UBERON": "0002079",
+  "NCIT": "C12869",
+  "TA98": "A12.1.03.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2420",
+   "FJ2425",
+   "FJ2426",
+   "FJ2431",
+   "FJ2432",
+   "FJ2438"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7097/tier1.auto.md",
+   "text": "One of four chambers of the heart, which receives blood from the pulmonary veins and pumps blood through the mitral valve into the left ventricle.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12869",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12869",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12869",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12869",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12869, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12869",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12869",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7235",
+   "FMA:9465",
+   "FMA:9498",
+   "FMA:9531",
+   "FMA:9551"
+  ],
+  "out": [
+   "FMA:7166"
+  ]
+ }
+}

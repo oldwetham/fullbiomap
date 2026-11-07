@@ -1,0 +1,131 @@
+{
+ "id": "FMA:7371",
+ "conceptId": "FMA7371",
+ "label": "Lower lobe of left lung",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Inferior lobe of left lung",
+  "Left lower lobe",
+  "Left lower lobe of lung",
+  "Lobus inferior (pulmo sinister)"
+ ],
+ "xrefs": {
+  "UBERON": "0008953",
+  "NCIT": "C33020"
+ },
+ "geometry": {
+  "male": [
+   "FJ2442",
+   "FJ2445",
+   "FJ2446",
+   "FJ2448",
+   "FJ2479",
+   "FJ2480",
+   "FJ2482",
+   "FJ2483",
+   "FJ2484",
+   "FJ2485",
+   "FJ2527",
+   "FJ2528",
+   "FJ2529",
+   "FJ2530",
+   "FJ2531",
+   "FJ2532",
+   "FJ2533",
+   "FJ2534",
+   "FJ2535",
+   "FJ2536",
+   "FJ2537",
+   "FJ2538",
+   "FJ2881",
+   "FJ2882",
+   "FJ2883",
+   "FJ2884",
+   "FJ2885",
+   "FJ2886",
+   "FJ2887",
+   "FJ2888",
+   "FJ2889",
+   "FJ2890",
+   "FJ2891",
+   "FJ2892",
+   "FJ2893",
+   "FJ2894",
+   "FJ2895",
+   "FJ2903",
+   "FJ2914",
+   "FJ2919",
+   "FJ2920",
+   "FJ2921",
+   "FJ2922",
+   "FJ2923",
+   "FJ2945",
+   "FJ2946",
+   "FJ2948",
+   "FJ2949",
+   "FJ2951",
+   "FJ2952",
+   "FJ2953",
+   "FJ2954",
+   "FJ2956",
+   "FJ2957",
+   "FJ2959",
+   "FJ2960"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7371/tier1.auto.md",
+   "text": "The larger lobe of the left lung, situated below and behind the oblique fissure.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33020",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33020",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33020, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33020",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:31748",
+   "FMA:68201",
+   "FMA:7376",
+   "FMA:7377",
+   "FMA:7378",
+   "FMA:7379",
+   "FMA:7380",
+   "FMA:8676"
+  ],
+  "out": [
+   "FMA:7310"
+  ]
+ }
+}

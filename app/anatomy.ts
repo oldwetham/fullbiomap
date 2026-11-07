@@ -23,11 +23,15 @@ export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
 export type ContentStatus = 'missing'|'auto'|'drafted'|'reviewed'|'verified';
+export type Level = 1|2|3;
+export const LEVELS:{level:Level;name:string}[] = [{level:1,name:'Plain'},{level:2,name:'Core'},{level:3,name:'Deep'}];
 export interface ContentSource {title:string;url:string;license:string}
-export interface ContentTier {status:ContentStatus;text:string;license:string;attribution:string;sources:ContentSource[]}
-/** Per-node content served from public/content/<conceptId>.json; ids with a file are listed in public/content/index.json. */
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;tiers:Partial<Record<'1'|'2'|'3',ContentTier>>}
-export interface Explanation {text:string;tier?:ContentTier}
+export interface TierSource {kind?:string;name:string;term?:string|null;url:string;license:string}
+export interface ContentTier {status:ContentStatus;file?:string;text?:string;source?:TierSource|null;sources?:ContentSource[];license?:string;attribution?:string}
+/** Per-node record served from public/content/<conceptId>.json (built by pipeline/11-build-graph.mjs); ids with a file are listed in public/content/index.json. */
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[]}
+export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[]}
+export const isUnreviewed=(t?:ContentTier)=>t?.status==='auto'||t?.status==='drafted';
 let contentIndex:Promise<Set<string>>|null=null;
 const contentCache=new Map<string,Promise<NodeContent|null>>();
 const getJson=async<T>(url:string):Promise<T|null>=>{try{const r=await fetch(url);if(!r.ok||!r.headers.get('content-type')?.includes('json'))return null;return await r.json() as T;}catch{return null;}};
@@ -37,8 +41,12 @@ export function loadContent(conceptId:string):Promise<NodeContent|null>{
  if(!entry){entry=contentIndex.then(ids=>ids.has(conceptId)?getJson<NodeContent>(`/content/${conceptId}.json`):null);contentCache.set(conceptId,entry);}
  return entry;
 }
-/** Tier-1 text for an atlas concept id (e.g. FMA7088), falling back to the system description when no content file exists or it fails to load. */
-export async function explanationFor(conceptId:string,system:SystemId):Promise<Explanation>{
- const tier=(await loadContent(conceptId))?.tiers['1'];
- return tier?.text?{text:tier.text,tier}:{text:SYSTEMS.find(s=>s.id===system)?.description??''};
+/** Text for an atlas concept id (e.g. FMA7088) at the preferred level, falling back to tier 1, then to the system description when no content file exists or it fails to load. */
+export async function explanationFor(conceptId:string,system:SystemId,preferred:Level=1):Promise<Explanation>{
+ const node=await loadContent(conceptId);
+ const tierOf=(l:Level)=>node?.content?.[`tier${l}`];
+ const available=LEVELS.map(x=>x.level).filter(l=>{const t=tierOf(l);return !!t&&t.status!=='missing'&&!!t.text;});
+ const level=available.includes(preferred)?preferred:available[0]??null;
+ if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available};
+ return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available};
 }

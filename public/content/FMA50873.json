@@ -1,0 +1,106 @@
+{
+ "id": "FMA:50873",
+ "conceptId": "FMA50873",
+ "label": "Left pulmonary artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Left main pulmonary artery",
+  "Left pulmonary arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001652",
+  "NCIT": "C32971",
+  "TA98": "A12.2.01.201"
+ },
+ "geometry": {
+  "male": [
+   "FJ2881",
+   "FJ2882",
+   "FJ2883",
+   "FJ2884",
+   "FJ2885",
+   "FJ2886",
+   "FJ2887",
+   "FJ2888",
+   "FJ2889",
+   "FJ2890",
+   "FJ2891",
+   "FJ2892",
+   "FJ2893",
+   "FJ2894",
+   "FJ2895",
+   "FJ2902",
+   "FJ2903",
+   "FJ2904",
+   "FJ2905",
+   "FJ2906",
+   "FJ2907",
+   "FJ2908",
+   "FJ2909",
+   "FJ2910",
+   "FJ2911",
+   "FJ2912",
+   "FJ2913",
+   "FJ2914",
+   "FJ2915",
+   "FJ2916",
+   "FJ2917",
+   "FJ2918",
+   "FJ2919",
+   "FJ2920",
+   "FJ2921",
+   "FJ2922",
+   "FJ2923",
+   "FJ2924"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_50873/tier1.auto.md",
+   "text": "A blood vessel arising from the bifurcation of the pulmonary artery that carries deoxygenated blood to the left lung.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32971",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32971",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32971",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32971",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32971, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32971",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32971",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:68198",
+   "FMA:68201"
+  ],
+  "out": [
+   "FMA:45842"
+  ]
+ }
+}

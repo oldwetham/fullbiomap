@@ -1,0 +1,65 @@
+{
+ "id": "FMA:49187",
+ "conceptId": "FMA49187",
+ "label": "Occipital part of head",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Back of head",
+  "Occipital region of head"
+ ],
+ "xrefs": {
+  "UBERON": "0005902"
+ },
+ "geometry": {
+  "male": [
+   "FJ3309"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_49187/tier1.auto.md",
+   "text": "Anatomical cluster that is located in the posterior region of the cranium and forms the margin of the foramen magnum and occipital condyles.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0005902",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005902",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0005902",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005902",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0005902. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0005902",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005902",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:52735",
+   "FMA:67325"
+  ],
+  "out": []
+ }
+}

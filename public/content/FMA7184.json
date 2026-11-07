@@ -1,0 +1,68 @@
+{
+ "id": "FMA:7184",
+ "conceptId": "FMA7184",
+ "label": "Lower limb",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [
+  "Hind limb",
+  "Hindlimb",
+  "Inferior member",
+  "Lower extremity"
+ ],
+ "xrefs": {
+  "UBERON": "0010709"
+ },
+ "geometry": {
+  "male": [
+   "FJ3152",
+   "FJ3288",
+   "FJ3393"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7184/tier1.auto.md",
+   "text": "Appendage girdle complex that when present, encompasses the pelvic appendicular skeleton and the pelvic girdle.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0010709",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010709",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0010709",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010709",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0010709. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0010709",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010709",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:16581"
+  ],
+  "out": []
+ }
+}

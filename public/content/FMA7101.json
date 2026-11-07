@@ -1,0 +1,80 @@
+{
+ "id": "FMA:7101",
+ "conceptId": "FMA7101",
+ "label": "Left ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [
+  "Left ventricle of heart"
+ ],
+ "xrefs": {
+  "UBERON": "0002084",
+  "NCIT": "C12871",
+  "TA98": "A12.1.04.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ2418",
+   "FJ2420",
+   "FJ2422",
+   "FJ2426",
+   "FJ2429",
+   "FJ2431",
+   "FJ2432",
+   "FJ2435"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7101/tier1.auto.md",
+   "text": "The left lower chamber of the heart that receives blood from the left atrium and pumps it through the aorta to the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12871",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12871",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12871",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12871",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12871, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12871",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12871",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7235",
+   "FMA:7236",
+   "FMA:9466",
+   "FMA:9473",
+   "FMA:9498",
+   "FMA:9556",
+   "FMA:9564"
+  ],
+  "out": [
+   "FMA:7166"
+  ]
+ }
+}

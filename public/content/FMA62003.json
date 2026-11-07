@@ -1,0 +1,71 @@
+{
+ "id": "FMA:62003",
+ "conceptId": "FMA62003",
+ "label": "Metencephalon",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [
+  "Epencephalon-2"
+ ],
+ "xrefs": {
+  "UBERON": "0001895",
+  "NCIT": "C32741",
+  "TA98": "A14.1.03.004"
+ },
+ "geometry": {
+  "male": [
+   "FJ1775",
+   "FJ1781",
+   "FJ1822",
+   "FJ1830"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_62003/tier1.auto.md",
+   "text": "An area of the brain comprised of the cerebellum, pons and medulla.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32741",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32741",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32741",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32741",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32741, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32741",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32741",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:67943",
+   "FMA:67944"
+  ],
+  "out": [
+   "FMA:67687"
+  ]
+ }
+}

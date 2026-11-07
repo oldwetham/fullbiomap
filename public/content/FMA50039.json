@@ -1,0 +1,102 @@
+{
+ "id": "FMA:50039",
+ "conceptId": "FMA50039",
+ "label": "Right coronary artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Right coronary arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001625",
+  "NCIT": "C12875",
+  "TA98": "A12.2.03.101"
+ },
+ "geometry": {
+  "male": [
+   "FJ2667",
+   "FJ2668",
+   "FJ2670",
+   "FJ2671",
+   "FJ2672",
+   "FJ2673",
+   "FJ2674",
+   "FJ2675",
+   "FJ2676",
+   "FJ2677",
+   "FJ2692",
+   "FJ2693",
+   "FJ2694",
+   "FJ2695",
+   "FJ2696",
+   "FJ2697",
+   "FJ2698",
+   "FJ2699",
+   "FJ2700",
+   "FJ2714",
+   "FJ2715",
+   "FJ2716",
+   "FJ2717",
+   "FJ2718",
+   "FJ2719",
+   "FJ2720",
+   "FJ2721",
+   "FJ2722",
+   "FJ2723"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_50039/tier1.auto.md",
+   "text": "A coronary artery that originates above the right coronary cusp and supplies blood predominantly to the right side of the heart.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12875",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12875",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12875",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12875",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12875, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12875",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12875",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:3802",
+   "FMA:3807",
+   "FMA:3815",
+   "FMA:3818",
+   "FMA:3837",
+   "FMA:3840"
+  ],
+  "out": [
+   "FMA:49894",
+   "FMA:7088",
+   "FMA:7165"
+  ]
+ }
+}

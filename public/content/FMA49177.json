@@ -1,0 +1,68 @@
+{
+ "id": "FMA:49177",
+ "conceptId": "FMA49177",
+ "label": "Upper gastrointestinal tract",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [
+  "Upper GI tract"
+ ],
+ "xrefs": {
+  "UBERON": "0004908",
+  "NCIT": "C33837"
+ },
+ "geometry": {
+  "male": [
+   "FJ2563",
+   "FJ2564",
+   "FJ2573"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_49177/tier1.auto.md",
+   "text": "The upper part of the gastrointestinal tract that includes the esophagus, stomach, and duodenum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33837",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33837",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33837",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33837",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33837, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33837",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33837",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7131",
+   "FMA:7148",
+   "FMA:7206"
+  ],
+  "out": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "FMA:14750",
+ "conceptId": "FMA14750",
+ "label": "Inferior mesenteric artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Inferior mesenteric arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0001183",
+  "NCIT": "C32780",
+  "TA98": "A12.2.12.069"
+ },
+ "geometry": {
+  "male": [
+   "FJ3442",
+   "FJ3494",
+   "FJ3534",
+   "FJ3638",
+   "FJ3656"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14750/tier1.auto.md",
+   "text": "A blood vessel arising from the aorta that supplies blood to the descending and sigmoid colon as well as the rectum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32780",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32780",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32780",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32780",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32780, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32780",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32780",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14826",
+   "FMA:14830",
+   "FMA:14831",
+   "FMA:14832"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

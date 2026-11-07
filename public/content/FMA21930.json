@@ -1,0 +1,69 @@
+{
+ "id": "FMA:21930",
+ "conceptId": "FMA21930",
+ "label": "External anal sphincter",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [
+  "External sphincter ani",
+  "Sphincter ani externus"
+ ],
+ "xrefs": {
+  "UBERON": "0001367",
+  "NCIT": "C32548",
+  "TA98": "A04.5.04.012"
+ },
+ "geometry": {
+  "male": [
+   "FJ1450",
+   "FJ1450M",
+   "FJ2543",
+   "FJ2548"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_21930/tier1.auto.md",
+   "text": "A ring of striated muscular fibers surrounding the anus on the outside of the internal anal sphincter.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32548",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32548",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32548",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32548",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32548, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32548",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32548",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:20347"
+  ]
+ }
+}

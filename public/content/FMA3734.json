@@ -1,0 +1,74 @@
+{
+ "id": "FMA:3734",
+ "conceptId": "FMA3734",
+ "label": "Aorta",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Trunk of aortic tree",
+  "Trunk of systemic arterial tree"
+ ],
+ "xrefs": {
+  "UBERON": "0000947",
+  "NCIT": "C12669",
+  "TA98": "A12.2.02.001"
+ },
+ "geometry": {
+  "male": [
+   "FJ1931",
+   "FJ1932",
+   "FJ3411",
+   "FJ3413",
+   "FJ3427"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3734/tier1.auto.md",
+   "text": "The major arterial trunk that carries oxygenated blood from the left ventricle into the ascending aorta behind the heart, the aortic arch, through the thorax as the descending aorta and through the abdomen as the abdominal aorta; it bifurcates into the left and right common iliac arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12669",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12669",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12669",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12669",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12669, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12669",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12669",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:3736",
+   "FMA:3768",
+   "FMA:3784"
+  ],
+  "out": [
+   "FMA:49894"
+  ]
+ }
+}

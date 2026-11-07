@@ -1,0 +1,71 @@
+{
+ "id": "FMA:59517",
+ "conceptId": "FMA59517",
+ "label": "Dorsum of nose",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [
+  "Bridge of nose",
+  "Nasal bridge",
+  "Nasal dorsum",
+  "Nose bridge"
+ ],
+ "xrefs": {
+  "UBERON": "0016464",
+  "TA98": "A06.1.01.003"
+ },
+ "geometry": {
+  "male": [
+   "FJ2556",
+   "FJ2558"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_59517/tier1.auto.md",
+   "text": "The midline prominence of the nose, extending from the nasal root to the tip.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0016464",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0016464",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0016464",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0016464",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0016464. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0016464",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0016464",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:59512",
+   "FMA:59513"
+  ],
+  "out": [
+   "FMA:59515"
+  ]
+ }
+}

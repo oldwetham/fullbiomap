@@ -1,0 +1,82 @@
+# Bio Map
+
+A free, browser-based 3D human body you can click at every scale (body → system → organ → tissue → cell → organelle → molecule), with every structure explained at three depths (Plain / Core / Deep). Forked from the MIT-licensed [ashemag/human-atlas](https://github.com/ashemag/human-atlas); a knowledge graph is being added on top. The full spec is [docs/SPEC.md](docs/SPEC.md); read it before any non-trivial change.
+
+## Stack
+
+- React 19, Three.js `^0.159` (see Hard rules before upgrading), Tailwind 4, shadcn UI, meshoptimizer.
+- Vite 8: root `web/`, public dir `public/`, alias `@` → repo root, output `dist/`.
+- Node ≥ 22.13 (`nvm use 22`).
+- Static hosting only (Vercel; Cloudflare Pages also works). `vercel.json`: `npm ci` → `npm run build` → `dist/`. No backend.
+
+Commands:
+
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Dev server on http://localhost:3016 |
+| `npm run check` | `tsc --noEmit` |
+| `npm run build` | Production build to `dist/` |
+| `node scripts/validate-atlas.mjs` | Checks `public/models/atlas.json` and chunk buffers |
+| `node scripts/validate-interactions.mjs` | Checks tap-vs-drag and layout contracts |
+
+Run `npm run check && node scripts/validate-atlas.mjs && node scripts/validate-interactions.mjs && npm run build` before calling a change done.
+
+## Layout
+
+- `app/` — the whole app (~55 KB of TypeScript). `components/`, `hooks/`, `lib/` are shadcn support.
+- `scripts/` — existing Human Atlas geometry pipeline (convert, optimize, compress, validate).
+- `public/models/` — `atlas.json` + `body-0..14.bin(.gz)` chunks.
+- Planned (Phase 0+): `pipeline/` (numbered build scripts), `data/raw/`, `data/build/` (gitignored), `graph/` (`nodes.jsonl`, `edges.jsonl`), `content/<id>/tier<n>.md`, `reports/`.
+
+Boundary: the knowledge module (`graph/`, `content/`, `pipeline/`) must never import from the renderer (`app/scene.tsx`). The React UI owns `SceneState`; the engine renders it and reports taps.
+
+## Hook points
+
+| File | What it does | Bio Map hook |
+| --- | --- | --- |
+| `app/anatomy.ts` | Types (`Part`, `Concept`, `Atlas`, `SceneState`), 15 `SYSTEMS`, 9-entry `EXPLANATIONS` keyed by lowercased name | Replace `explanation(name, system)` with a lookup by `conceptId` (FMA id) into the graph; add `highlighted: string[]` and `level` to `SceneState` |
+| `app/page.tsx` | `Home`: loads atlas, system toggles/presets, search, `choose(concept)` / `choosePart(id)`, detail `Sheet`, About sheet | Detail sheet gets tiers, connection chips, media, Zoom in/out; `choose()` gets URL hash sync and breadcrumbs |
+| `app/scene.tsx` | Three.js engine: one merged mesh per system; per-part state in `partTexture` (explode xyz + visible) and `selectionTexture` (r = selected) indexed by `partIndex`; shader injection via `onBeforeCompile`; picking; explode; isolate framing | Add `selectionTexture.g` for "related" tint and per-part opacity (dithered, not alpha-blended); reuse isolate framing for Zoom-in; clipping plane via `renderer.clippingPlanes` |
+| `app/agent-tools.ts` | WebMCP tools `find_anatomy`, `inspect_anatomical_structure` | Add `explain_structure(id, tier)` and `related(id, relation)` |
+| `app/explosion-layout.ts`, `pointer-tap.ts`, `model-download.ts` | Explode packing, tap detection, gzip chunk decoding | Leave alone |
+| `scripts/convert-anatomy.py` | BodyParts3D OBJ → chunks + `atlas.json`; needs `concepts.json` and `systems.json` (not in repo) | `pipeline/01-build-maps.py` produces those inputs |
+| `scripts/optimize-anatomy.mjs` | meshoptimizer simplification; has a `female` weld branch for HRA | Reuse for HRA; only the GLB → manifest converter is missing |
+| `scripts/validate-atlas.mjs` | Hard-codes 2,234 parts / 3,432 concepts | Parameterize (read counts from `atlas.json`) before adding HRA parts |
+
+`atlas.json`: `parts[]` = `{id: "FJ1252", name, conceptId: "FMA59763", system, chunk, positions, normals, indices, vertexCount, indexCount, bounds}`; `concepts[]` = `{id: "FMA3710", name, elements: [...]}`; `chunks[]` = `{url, bytes, gzip, gzipBytes}`. Part ids (`FJ…`) are BodyParts3D representation ids; concept ids are FMA ids and are the join key for the knowledge graph.
+
+## ID conventions
+
+Every graph node is keyed by a public ontology id; never invent an id when a public one exists.
+
+| Prefix | Scale(s) | Source | Example |
+| --- | --- | --- | --- |
+| `FMA:` | body, system, organ, gross tissue | FMA / BodyParts3D `conceptId` | `FMA:7088` heart |
+| `UBERON:` | organ, tissue | HRA 3D organs, ASCT+B | `UBERON:0000948` heart |
+| `CL:` | cell | Cell Ontology | `CL:0000746` cardiac muscle cell |
+| `GO:` | organelle | GO cellular component | `GO:0005739` mitochondrion |
+| `HGNC:` | gene | ASCT+B biomarkers | `HGNC:TNNT2` |
+| `UniProt:` | protein | UniProt ID mapping | `UniProt:P45379` |
+| `CHEBI:` | small molecule | ChEBI | `CHEBI:16236` ethanol |
+| `BIOMAP:` | anything with no public id | this repo | `BIOMAP:cell-generic-v1` |
+
+- In the graph the id has a colon (`FMA:7088`); in `atlas.json` `conceptId` it has none (`FMA7088`); in URLs it is the hash `/#FMA7088`; on disk it uses an underscore (`content/FMA_7088/`).
+- Enums: `scale` ∈ body, system, organ, tissue, cell, organelle, molecule. Content `status` ∈ missing, auto, drafted, reviewed, verified (UI shows "unreviewed" for auto and drafted). `tier` ∈ 1, 2, 3.
+
+## Licensing rule
+
+- Every content file and every media record carries `license` and `attribution` fields. The About page and each detail panel render credits from those fields, never from hand-written text. The validator fails the build if either is missing.
+- Original text is CC BY 4.0; text that reuses Wikipedia wording is CC BY-SA 4.0. Human Protein Atlas images are CC BY-SA 3.0. Geometry (BodyParts3D, HRA) is CC BY 4.0.
+- Use OpenStax A&P 2e only from a CC BY copy (2022 PDF or GitHub `osbooks-anatomy-physiology`), keeping its "Access for free at…" line.
+- Dataset credits live in [public/ATTRIBUTION.md](public/ATTRIBUTION.md). Whenever a new dataset is added (pipeline download, geometry, images, text source), add its credit there in the same change: name, license and link, citation, and what was adapted.
+- Do not add Z-Anatomy or any BY-SA geometry without an explicit decision.
+- Keep the MIT `LICENSE` from Human Atlas.
+
+## Hard rules
+
+- Always install with `npm ci`, never `npm install`, so `package-lock.json` stays pinned. Change dependencies only on purpose and commit the lockfile with that change.
+- Don't upgrade three.js past 0.159 without testing: `app/scene.tsx` patches Three's built-in shader strings via `onBeforeCompile`, and a version bump can silently break part hiding, explode offsets or selection tint. After any bump, check select, isolate, explode and system toggles in the running app.
+- Never fetch external APIs at runtime. All data is fetched and cached by `pipeline/` scripts at build time; the browser only loads files from `public/`.
+- No API keys in the client bundle; no accounts; no analytics beyond a privacy-respecting page counter.
+- `data/` is gitignored (raw downloads and intermediate builds). Pipeline steps must be reproducible from a clean clone.
+- Downloaded archives are untrusted: extract into their own directory and run Python that reads them with `-I`.

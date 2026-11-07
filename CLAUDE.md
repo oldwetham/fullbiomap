@@ -66,7 +66,7 @@ Every graph node is keyed by a public ontology id; never invent an id when a pub
 ## Licensing rule
 
 - Every content file and every media record carries `license` and `attribution` fields. The About page and each detail panel render credits from those fields, never from hand-written text. The validator fails the build if either is missing.
-- Original text is CC BY 4.0; text that reuses Wikipedia wording is CC BY-SA 4.0. Human Protein Atlas images are CC BY-SA 3.0. Geometry (BodyParts3D, HRA) is CC BY 4.0.
+- No Wikipedia text anywhere, including ontology definitions whose provenance cites Wikipedia. Original text is CC BY 4.0; reused definitions keep their source license (NCIt CC BY 4.0; Uberon, FMA CC BY 3.0). Human Protein Atlas images are CC BY-SA 3.0. Geometry (BodyParts3D, HRA) is CC BY 4.0.
 - Use OpenStax A&P 2e only from a CC BY copy (2022 PDF or GitHub `osbooks-anatomy-physiology`), keeping its "Access for free at…" line.
 - Dataset credits live in [public/ATTRIBUTION.md](public/ATTRIBUTION.md). Whenever a new dataset is added (pipeline download, geometry, images, text source), add its credit there in the same change: name, license and link, citation, and what was adapted.
 - Do not add Z-Anatomy or any BY-SA geometry without an explicit decision.

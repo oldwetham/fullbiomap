@@ -14,7 +14,7 @@ Bio Map is a free, browser-based 3D human body you can click at every scale, fro
 | Explanations | Hybrid: auto-draft every node, hand-curate the top \~200 | Full coverage immediately, depth where learners actually click |
 | Timeline | Quality-gated, no fixed date | Each phase has an exit gate (see Quality standards) |
 | Hosting | Static site on Vercel or Cloudflare Pages; oversized assets on Cloudflare R2 | No backend to run or pay for |
-| Licensing posture | Geometry CC BY 4.0; text layer carries CC BY-SA where Wikipedia is used | Attribution is generated per structure, never hand-maintained |
+| Licensing posture | Geometry CC BY 4.0; no Wikipedia text anywhere (decided 2026-11-07); auto text reuses NCIt (CC BY 4.0) or Uberon/FMA (CC BY 3.0) definitions | Attribution is generated per structure, never hand-maintained |
 
 ## Product definition
 
@@ -96,7 +96,7 @@ Node record:
   "scale": "organ",
   "system": "cardiac",
   "synonyms": ["cor"],
-  "xrefs": {"UBERON": "0000948", "wikidata": "Q1072", "TA98": "A12.1.00.001", "MeSH": "D006321"},
+  "xrefs": {"UBERON": "0000948", "NCIT": "C12727", "TA98": "A12.1.00.001", "MeSH": "D006321"},
   "geometry": {"male": ["FJ2951", "FJ2952"], "female": ["VH_F_Heart"], "interior": "hra/organ/heart-female.glb"},
   "content": {
     "tier1": {"status": "reviewed", "file": "content/FMA_7088/tier1.md"},
@@ -129,17 +129,16 @@ Enums: `scale` ∈ body, system, organ, tissue, cell, organelle, molecule; conte
 
 ## Data sources & licensing matrix
 
-Everything in v1 is free to use on a public educational site; the only ShareAlike obligations come from Wikipedia text and Human Protein Atlas images, and the only license to re-check at build time is OpenStax. Licenses verified 2026-11-07 against the linked pages.
+Everything in v1 is free to use on a public educational site; no Wikipedia text is used anywhere (decided 2026-11-07), so the only ShareAlike obligation comes from Human Protein Atlas images, and the only license to re-check at build time is OpenStax. Licenses verified 2026-11-07 against the linked pages.
 
 | Dataset | Contributes | License | Obligation in Bio Map |
 | --- | --- | --- | --- |
 | [BodyParts3D 4.0](https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html) (DBCLS) | Male geometry, FMA ids, IS-A / PART-OF tables | CC BY 4.0 (relicensed 2025-02-27; old OBJ headers still say CC BY-SA 2.1 JP) | Credit line in About and per structure; cite Mitsuhashi et al. 2009 |
 | [HRA 3D Reference Objects](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) (HuBMAP) | Female body, 73 organs with interiors, GLB | CC BY 4.0 | Cite HRA release + Browne et al.; keep crosswalk file |
 | HRA ASCT+B tables and [vasculature (VCCF)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10356915) | Organ → structure → cell type → biomarker; vessel branching | CC BY 4.0 (HRA digital objects) | Cite HRA version per table used |
-| [FMA](https://bioregistry.io/fma) via EBI OLS4 | Anatomy relations (supply, drainage, innervation, parts) | CC BY 3.0 | Credit UW Structural Informatics Group |
+| [FMA](https://bioregistry.io/fma) via [EBI OLS4](https://www.ebi.ac.uk/ols4) | Labels, synonyms, definitions, is_a / part_of (Phase 1); supply, drainage, innervation (Phase 2) | CC BY 3.0 (OLS4 metadata labels it "custom", linking to a 2006 draft license page) | Credit UW Structural Informatics Group |
 | [Uberon](http://purl.obolibrary.org/obo/uberon/merged.owl), Cell Ontology, GO | Cross-species anatomy ids, cell type and organelle definitions | CC BY (OBO Foundry) | Credit each ontology |
-| Wikidata | FMA ↔ UBERON ↔ Wikipedia ↔ MeSH ↔ TA98 crosswalk (properties P1402, P1554, P486, P1323) | CC0 | None |
-| Wikipedia REST summaries | Tier-1 draft text where an article exists | CC BY-SA 4.0 | Attribute article; text layer carries BY-SA |
+| [NCI Thesaurus](https://evsexplore.semantics.cancer.gov) (NCIt) via EBI OLS4 | Preferred tier-1 definition, reached through each Uberon term's NCIT xref | CC BY 4.0 | Cite NCIt version and concept code per structure |
 | [OpenStax Anatomy & Physiology 2e](https://openstax.org/books/anatomy-and-physiology-2e/pages/preface) | Tier-2 source text and figures | CC BY 4.0 on copies dated through Jan 2026; openstax.org pages dated Jun 2026 show CC BY-NC-SA | Use a CC BY copy (2022 PDF or GitHub `osbooks-anatomy-physiology`) and keep the required "Access for free at…" line; NC-SA is still fine for a free site |
 | [Human Protein Atlas](https://v24.proteinatlas.org/about/licence) | Histology images, tissue and cell-type expression per gene | CC BY-SA 3.0 | Image credit + link to the exact image or gene page |
 | UniProt, AlphaFold DB | Protein records; predicted structures for every human protein | CC BY 4.0 | Cite accession |
@@ -161,9 +160,9 @@ Twelve scripts run in order from raw downloads to a validated `public/` folder; 
 3. `scripts/convert-anatomy.py data/raw/bp3d/obj data/build/concepts.json data/build/systems.json` (existing) → `public/models/anatomy-*.bin` + `atlas.json`; then `node scripts/optimize-anatomy.mjs` and `node scripts/compress-models.mjs` (existing) → `body-*.bin(.gz)`.
 4. `pipeline/04-fetch-hra.py` (new) — pulls the HRA united female GLB, per-organ GLBs, `asct-b-3d-models-crosswalk.csv` and the ASCT+B tables from the [ccf-releases repo](https://github.com/hubmapconsortium/ccf-releases) / HRA API into `data/raw/hra/`, pinned to one HRA version.
 5. `pipeline/05-hra-to-manifest.mjs` (new) — GLB scene nodes → the same part/chunk manifest format, prefixed `female-` and `organ-<uberon>-`, Uberon id in `conceptId`; then the existing optimizer's `female` weld branch.
-6. `pipeline/06-ontology.py` (new) — for every FMA id in `atlas.json`, fetches parents, parts and the supply/drainage/innervation relations from EBI OLS4 (or a cached FMA OWL), plus Uberon xrefs and definitions → `graph/edges.fma.jsonl`, `graph/defs.jsonl`.
-7. `pipeline/07-wikidata.py` (new) — one SPARQL query per 500 ids: items with P1402 (FMA) or P1554 (UBERON) → QID, English Wikipedia title, MeSH, TA98, image → `graph/xrefs.jsonl` and a coverage report (expect well under 100%; measure it).
-8. `pipeline/08-wikipedia.py` (new) — Wikipedia REST `page/summary` for each mapped title, throttled and cached → `content/<id>/tier1.auto.md` with attribution; never served live.
+6. `pipeline/06-ontology.py` (new) — for every FMA concept in `atlas.json`, fetches from EBI OLS4 its label, synonyms, definition, is_a and part_of parents and is_a ancestors; its Uberon xref (from a one-time scan of Uberon terms, whose xrefs OLS4 does not index for search); and, through Uberon, the NCIt xref and NCIt definition. Every response is cached under `data/cache/ols/`, requests are throttled and carry a descriptive User-Agent → `graph/defs.jsonl`, `graph/edges.fma.jsonl`. Supply, drainage and innervation relations are Phase 2.
+7. `pipeline/07-tier1.py` (new) — writes `content/<id>/tier1.auto.md` for every concept from the first available of: NCIt definition, Uberon definition, FMA definition, then a sentence generated from the FMA hierarchy ("X is a kind of Y and part of Z"). A definition whose provenance cites Wikipedia is skipped. Each file has `status: auto`, the source name, a link to the source term and its license; curated `tier1.md` files are never touched.
+8. *(Removed 2026-11-07: no Wikipedia text. The number stays free so later steps keep their numbers.)*
 9. `pipeline/09-cells-and-molecules.py` (new) — ASCT+B rows → `located_in` and `characterized_by` edges; HGNC symbols → UniProt accessions via the UniProt ID-mapping API → AlphaFold ids (`AF-<acc>-F1`) and PDB ids via the RCSB search API → `graph/edges.cells.jsonl`, `graph/edges.molecules.jsonl`.
 10. `pipeline/10-llm-draft.py` (new) — for nodes with no tier text, or tiers 2–3 of curated nodes, asks Claude for a draft from the node's definition, parents, relations and sources only; output is marked `status: auto` and a prompt log is kept per node.
 11. `pipeline/11-build-graph.mjs` (new) — merges nodes, edges, xrefs and content status → `graph/nodes.jsonl`, `graph/edges.jsonl`, `public/content/<id>.json`, `public/search-index.json`, `public/attribution.json`.
@@ -183,11 +182,11 @@ The curated 200 (the list lives in `content/CURATED.md` and is the first thing t
 
 | Tier | Allowed sources for a draft | Review bar to reach `reviewed` | Bar to reach `verified` |
 | --- | --- | --- | --- |
-| 1 Plain | Wikipedia summary, Uberon/FMA definition, Claude draft from those | Matt reads it, fixes errors, confirms the analogy is not misleading | A second reader with biology background signs off |
+| 1 Plain | NCIt, Uberon or FMA definition (never Wikipedia, nor a definition that cites it), FMA hierarchy sentence, Claude draft from those | Matt reads it, fixes errors, confirms the analogy is not misleading | A second reader with biology background signs off |
 | 2 Core | OpenStax A&P 2e (CC BY copy), Gray's 1918 (public domain), Claude draft citing those | Every mechanism sentence traceable to a cited section; named molecules checked against UniProt/HPA | Second reader + spot-check of 3 random claims |
 | 3 Deep | Tier-2 sources plus at least one review article or primary paper (PubMed) | Two cited sources minimum; clinical claims from a textbook or guideline, not a blog | A teacher, mentor or clinician reviews the clinical paragraph |
 
-Front matter per file: `id`, `tier`, `status`, `sources` (title, url, license), `reviewer`, `reviewed_on`, `license` (CC BY 4.0 for original text; CC BY-SA 4.0 if it reuses Wikipedia wording). Style rules: lead with what the structure does; name the actual molecules, enzymes and cell types rather than "various proteins"; define a term the first time it appears at tier 1 and 2; no number without a source; never state a disease association at tier 1.
+Front matter per file: `id`, `tier`, `status`, `sources` (title, url, license), `reviewer`, `reviewed_on`, `license` (CC BY 4.0 for original text; otherwise the license of the reused definition: CC BY 4.0 for NCIt, CC BY 3.0 for Uberon and FMA). Style rules: lead with what the structure does; name the actual molecules, enzymes and cell types rather than "various proteins"; define a term the first time it appears at tier 1 and 2; no number without a source; never state a disease association at tier 1.
 
 Review loop: `npm run review -- <id>` opens the node in the viewer with its three tiers side by side and the cited sources; a checklist (accurate, sourced, level-appropriate, attribution present) must be ticked before `status` can move. A monthly 5% random sample of `auto` nodes is read; if more than one in twenty is wrong, the drafting prompt is revised and the batch is regenerated.
 
@@ -250,7 +249,7 @@ The two risks most likely to decide whether v1 ships are content review throughp
 | Female body | HRA female has partial skeleton and muscles | Offer female at organ scale first; label coverage honestly in the UI |
 | Fade / peel in a merged-mesh renderer | Per-part transparency needs depth sorting the current shader lacks | Use dithered (screen-door) transparency in the fragment shader instead of alpha blending |
 | Picking cost on phones | 2,234 raycasts behind a box prefilter; untested on real hardware | Measure in Phase 0; add `three-mesh-bvh` only if a tap takes over 100 ms |
-| Wikipedia coverage | Many FMA ids have no article; coverage percentage unknown | Step 7 reports it; Uberon/FMA definitions and LLM drafts fill the rest, flagged `auto` |
+| Definition coverage | Many FMA ids (sided, segmental and set concepts) have no NCIt or Uberon definition | Step 12 counts concepts by text source; hierarchy sentences and later LLM drafts fill the rest, flagged `auto` |
 | OpenStax license drift | Current site pages say CC BY-NC-SA; older copies are CC BY | Pin the CC BY copy's commit/URL in the licensing matrix; NC-SA is acceptable anyway |
 | Pinned Three.js ^0.159 | Upgrading can break the `onBeforeCompile` shader strings | Stay on 0.159 until Phase 3; test the shader after any bump |
 | HRA GLB → manifest converter | Not in the repo; the female path was removed | Write `05-hra-to-manifest.mjs`; the optimizer's weld branch already exists |

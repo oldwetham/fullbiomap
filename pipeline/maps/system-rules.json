@@ -1,0 +1,21 @@
+{
+  "_comment": "Ordered rules mapping BodyParts3D meshes to the 15 display systems in app/anatomy.ts. A mesh gets the first system whose roots include any of its ancestor concepts (IS-A and PART-OF inclusion tables, plus every concept whose element list contains the mesh). Roots are FMA ids or exact concept names from the tables. Order encodes the policy: vessels, then heart, glands and nervous tissue, then tissue type (muscle, bone, ligament), then sense organs, then the remaining organ systems. Meshes no rule reaches must be listed in overrides.json; 01-build-maps.py fails otherwise.",
+  "rules": [
+    {"system": "arterial", "roots": ["FMA86187", "artery", "set of arteries", "zone of artery", "arterial anastomosis"]},
+    {"system": "venous", "roots": ["FMA86188", "vein", "set of veins", "venous tree organ", "venous anastomosis"]},
+    {"system": "cardiac", "roots": ["heart", "region of wall of heart"]},
+    {"system": "endocrine", "roots": ["adrenal gland", "pineal body", "pituitary gland"]},
+    {"system": "lymphatic", "roots": ["spleen", "thymus"]},
+    {"system": "nervous", "roots": ["nervous system", "nerve", "brain", "spinal cord", "cranial nerve", "cell part cluster of neuraxis", "white matter of neuraxis", "gray matter of neuraxis", "segment of neural tree organ", "subdivision of nervous system", "organ component of neuraxis", "segment of neuraxis", "subdivision of subarachnoid space", "region of dura mater", "region of wall of ventricular system of neuraxis", "ventricular system of neuraxis"]},
+    {"system": "muscular", "roots": ["muscle organ", "head of muscle organ", "zone of muscle organ", "musculature"]},
+    {"system": "skeletal", "roots": ["bone organ", "cartilage organ", "tooth", "intervertebral disk"]},
+    {"system": "connective", "roots": ["ligament organ", "ligament organ component", "tendon", "interosseous membrane", "retinaculum", "membrane organ", "membrane organ component", "zone of investing fascia"]},
+    {"system": "sensory", "roots": ["left eye", "right eye", "external ear", "region of layer of wall of eyeball", "corona ciliaris", "optic part of retina", "chamber of eyeball"]},
+    {"system": "urinary", "roots": ["urinary system"]},
+    {"system": "reproductive", "roots": ["genital system", "testis", "prostate", "zone of cavernous organ", "deferent duct", "epididymis", "seminal vesicle", "cavernous organ"]},
+    {"system": "integumentary", "roots": ["skin", "hair", "integument", "set of hairs", "eyebrow", "lip"]},
+    {"system": "respiratory", "roots": ["respiratory system", "subdivision of laryngopharynx"]},
+    {"system": "digestive", "roots": ["alimentary system", "salivary gland", "liver", "segment of biliary tree", "hepatovenous subsector"]},
+    {"system": "skeletal", "roots": ["skeletal system"]}
+  ]
+}

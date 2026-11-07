@@ -1,0 +1,24 @@
+{
+  "_comment": "Hand-edited overrides read by pipeline/01-build-maps.py. 'parts' fixes a mesh's concept when its OBJ header is blank and the smallest IS-A concept is a tie. 'systems' sets a mesh's display system when no rule in system-rules.json reaches it, or when the display grouping should differ from the rule result. Every entry needs a reason.",
+  "parts": {
+    "FJ1450": {"conceptId": "FMA19728", "reason": "Blank OBJ header; smallest IS-A concepts tie between external anal sphincter, FMA9623 and superficial perineal muscle. Shipped Human Atlas used superficial perineal muscle."}
+  },
+  "systems": {
+    "FJ1291": {"system": "sensory", "reason": "Common tendinous ring: orbital structure, no rule reaches it; kept with the eye as shipped."},
+    "FJ1342": {"system": "sensory", "reason": "Common tendinous ring: orbital structure, no rule reaches it; kept with the eye as shipped."},
+    "FJ1448": {"system": "connective", "reason": "Linea alba: typed only as a decussation/junction in BodyParts3D."},
+    "FJ2744": {"system": "connective", "reason": "Pterygomandibular raphe: typed as an anatomical line (immaterial) in BodyParts3D."},
+    "FJ2756": {"system": "connective", "reason": "Pterygomandibular raphe: typed as an anatomical line (immaterial) in BodyParts3D."},
+    "FJ2749": {"system": "connective", "reason": "Pharyngeal raphe: typed as an anatomical line (immaterial) in BodyParts3D."},
+    "FJ1520": {"system": "muscular", "reason": "Part of trapezius; its zone concept has no muscle ancestor in the tables."},
+    "FJ1520M": {"system": "muscular", "reason": "Part of trapezius; its zone concept has no muscle ancestor in the tables."},
+    "FJ1521": {"system": "muscular", "reason": "Part of trapezius; its zone concept has no muscle ancestor in the tables."},
+    "FJ1521M": {"system": "muscular", "reason": "Part of trapezius; its zone concept has no muscle ancestor in the tables."},
+    "FJ1752": {"system": "nervous", "reason": "Interventricular foramen connects the brain's lateral and third ventricles; typed only as a conduit space. Shipped map had it as cardiac (keyword match on 'ventricle')."},
+    "FJ2556": {"system": "respiratory", "reason": "Nasal cartilage: keep the external nose in the respiratory view, as shipped."},
+    "FJ2557": {"system": "respiratory", "reason": "Nasal cartilage: keep the external nose in the respiratory view, as shipped."},
+    "FJ2558": {"system": "respiratory", "reason": "Nasal cartilage: keep the external nose in the respiratory view, as shipped."},
+    "FJ3263": {"system": "respiratory", "reason": "Inferior nasal concha: keep the nasal cavity in the respiratory view, as shipped."},
+    "FJ3369": {"system": "respiratory", "reason": "Inferior nasal concha: keep the nasal cavity in the respiratory view, as shipped."}
+  }
+}

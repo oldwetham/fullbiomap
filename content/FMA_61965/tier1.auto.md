@@ -1,0 +1,13 @@
+---
+id: "FMA:61965"
+tier: 1
+status: "auto"
+source: {"kind": "ncit", "name": "NCI Thesaurus", "term": "NCIT:C32289", "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32289", "license": "CC BY 4.0"}
+sources: [{"title": "NCI Thesaurus NCIT:C32289", "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32289", "license": "CC BY 4.0"}]
+license: "CC BY 4.0"
+attribution: "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32289, National Cancer Institute. CC BY 4.0."
+generated_by: "pipeline/07-tier1.py"
+reviewer: null
+reviewed_on: null
+---
+The C-shaped bundle of axons in the midline of the brain which originate in both hemispheres of the hippocampus and project to the contralateral hippocampus and septum, mammillary body, and the anterior nucleus of the thalamus.

@@ -1,0 +1,13 @@
+---
+id: "FMA:7145"
+tier: 1
+status: "auto"
+source: {"kind": "uberon", "name": "Uberon", "term": "UBERON:0000094", "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000094", "license": "CC BY 3.0"}
+sources: [{"title": "Uberon UBERON:0000094", "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000094", "license": "CC BY 3.0"}]
+license: "CC BY 3.0"
+attribution: "Definition from Uberon (release 2026-11-05), UBERON:0000094. CC BY 3.0."
+generated_by: "pipeline/07-tier1.py"
+reviewer: null
+reviewed_on: null
+---
+Nonparenchymatous organ that primarily consists of dense connective tissue organized into a sheet which interconnects two or more organs, separates two or more body spaces from one another, or surrounds an organ or body part. Examples: interosseous membrane of forearm, obturator membrane, tympanic membrane, fibrous pericardium, fascia lata, dura mater. [FMA].

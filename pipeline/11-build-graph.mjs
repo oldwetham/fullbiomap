@@ -77,6 +77,7 @@ for (const c of atlas.concepts) {
     geometry: {male: c.elements},
     content: tiers, media: [], sources,
     zoom: {in: [], out: []},
+    connections: [],
     ancestors,
   });
 }
@@ -94,10 +95,52 @@ const uniqueEdges = edges.filter(e => { const k = `${e.from}|${e.rel}|${e.to}`; 
   .sort((a, b) => a.from.localeCompare(b.from) || a.rel.localeCompare(b.rel) || a.to.localeCompare(b.to));
 for (const e of uniqueEdges) if (e.rel === 'part_of') { byId.get(e.from).zoom.out.push(e.to); byId.get(e.to).zoom.in.push(e.from); }
 
+// Connections (Phase 2): FMA relations plus HRA VCCF vessel branching, merged per (from, rel, to).
+export const CONNECTIONS = ['arterial_supply', 'venous_drainage', 'nerve_supply', 'lymphatic_drainage', 'branch_of',
+  'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with'];
+const SYMMETRIC = new Set(['articulates_with', 'continuous_with']);
+const SOURCE_INFO = {
+  'FMA': {name: 'Foundational Model of Anatomy 5.1', license: 'CC BY 3.0'},
+  'HRA VCCF': {name: 'HRA ASCT+B Blood Vasculature v1.10 (VCCF)', license: 'CC BY 4.0', url: 'https://doi.org/10.48539/HBM497.DSBZ.627'},
+};
+// When one end of a relation is not modeled in 3D: 'drop' it, or keep it as 'text' (a label, not selectable).
+const UNMODELED = process.env.BIOMAP_UNMODELED ?? 'drop';
+const atlasName = new Map(atlas.concepts.map(c => [`FMA:${c.id.slice(3)}`, upperFirst(c.name)]));
+const labelOf = new Map();
+for (const d of defs.values()) for (const r of d.fma?.relations ?? []) if (r.label) labelOf.set(r.id, r.label);
+const olsLink = id => `https://www.ebi.ac.uk/ols4/ontologies/fma/classes/${encodeURIComponent(encodeURIComponent(`http://purl.org/sig/ont/fma/fma${id.slice(4)}`))}`;
+const merged = new Map();
+for (const file of ['graph/edges.fma.jsonl', 'graph/edges.vccf.jsonl']) {
+  if (!fs.existsSync(path.join(root, file))) continue;
+  for (const e of jsonl(file)) {
+    if (!CONNECTIONS.includes(e.rel)) continue;
+    const key = `${e.from}|${e.rel}|${e.to}`, m = merged.get(key) ?? {from: e.from, rel: e.rel, to: e.to, sources: []};
+    if (!m.sources.some(x => x.source === e.source)) m.sources.push({source: e.source, evidence: e.evidence});
+    merged.set(key, m);
+  }
+}
+const entrySources = (m, other) => m.sources.map(x => ({name: SOURCE_INFO[x.source].name, license: SOURCE_INFO[x.source].license, url: SOURCE_INFO[x.source].url ?? olsLink(other)}));
+const connectionEdges = [];
+for (const m of [...merged.values()].sort((a, b) => a.from.localeCompare(b.from) || a.rel.localeCompare(b.rel) || a.to.localeCompare(b.to))) {
+  const fromNode = byId.get(m.from), toNode = byId.get(m.to);
+  if (fromNode && toNode) {
+    const sources = m.sources.map(x => x.source);
+    connectionEdges.push({from: m.from, to: m.to, rel: m.rel, source: sources.join('; '),
+      license: [...new Set(sources.map(x => SOURCE_INFO[x].license))].join('; '), evidence: m.sources.map(x => x.evidence).join(' | ')});
+    fromNode.connections.push({rel: m.rel, dir: 'out', id: m.to, conceptId: toNode.conceptId, label: atlasName.get(m.to), modeled: true, sources: entrySources(m, m.to)});
+    toNode.connections.push({rel: m.rel, dir: SYMMETRIC.has(m.rel) ? 'out' : 'in', id: m.from, conceptId: fromNode.conceptId, label: atlasName.get(m.from), modeled: true, sources: entrySources(m, m.from)});
+  } else if ((fromNode || toNode) && UNMODELED === 'text') {
+    const [node, other, dir] = fromNode ? [fromNode, m.to, 'out'] : [toNode, m.from, SYMMETRIC.has(m.rel) ? 'out' : 'in'];
+    node.connections.push({rel: m.rel, dir, id: other, conceptId: null, label: labelOf.get(other) ?? other, modeled: false, sources: entrySources(m, other)});
+  }
+}
+const relOrder = r => CONNECTIONS.indexOf(r);
+for (const n of nodes) n.connections.sort((a, b) => relOrder(a.rel) - relOrder(b.rel) || a.dir.localeCompare(b.dir) || Number(b.modeled) - Number(a.modeled) || a.label.localeCompare(b.label));
+
 // graph/: node records without tier text (text lives in content/ files).
 const stripText = content => Object.fromEntries(Object.entries(content).map(([k, t]) => [k, Object.fromEntries(Object.entries(t).filter(([f]) => f !== 'text'))]));
 fs.writeFileSync(path.join(root, 'graph/nodes.jsonl'), nodes.map(n => JSON.stringify({...n, content: stripText(n.content)})).join('\n') + '\n');
-fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), uniqueEdges.map(e => JSON.stringify(e)).join('\n') + '\n');
+fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...connectionEdges].map(e => JSON.stringify(e)).join('\n') + '\n');
 
 // public/content/: what the app reads; ancestors are graph-internal.
 const out = path.join(root, 'public/content');
@@ -113,4 +156,6 @@ for (const n of nodes) {
 }
 for (const f of fs.readdirSync(out)) if (f.endsWith('.json') && !keep.has(f)) fs.unlinkSync(path.join(out, f));
 fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ids: nodes.map(n => n.conceptId).sort()}) + '\n');
-console.log(JSON.stringify({nodes: nodes.length, edges: uniqueEdges.length, isA: uniqueEdges.filter(e => e.rel === 'is_a').length, partOf: uniqueEdges.filter(e => e.rel === 'part_of').length}));
+const byRel = {};
+for (const e of [...uniqueEdges, ...connectionEdges]) byRel[e.rel] = (byRel[e.rel] ?? 0) + 1;
+console.log(JSON.stringify({nodes: nodes.length, edges: uniqueEdges.length + connectionEdges.length, unmodeled: UNMODELED, byRel}));

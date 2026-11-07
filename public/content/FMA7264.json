@@ -65,5 +65,22 @@
    "FMA:9352",
    "FMA:9560"
   ]
- }
+ },
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:9563",
+   "conceptId": "FMA9563",
+   "label": "Lateral wall of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9563"
+    }
+   ]
+  }
+ ]
 }

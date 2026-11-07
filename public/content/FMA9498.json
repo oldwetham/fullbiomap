@@ -69,5 +69,82 @@
    "FMA:7235",
    "FMA:9496"
   ]
- }
+ },
+ "connections": [
+  {
+   "rel": "attaches_to",
+   "dir": "in",
+   "id": "FMA:7242",
+   "conceptId": "FMA7242",
+   "label": "Anterior leaflet of mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7242"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "in",
+   "id": "FMA:7241",
+   "conceptId": "FMA7241",
+   "label": "Leaflet of mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7241"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "in",
+   "id": "FMA:7235",
+   "conceptId": "FMA7235",
+   "label": "Mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7235"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "in",
+   "id": "FMA:7243",
+   "conceptId": "FMA7243",
+   "label": "Posterior leaflet of mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7243"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:73704",
+   "conceptId": "FMA73704",
+   "label": "Wall of left side of heart",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma73704"
+    }
+   ]
+  }
+ ]
 }

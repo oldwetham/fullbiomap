@@ -70,5 +70,22 @@
   "out": [
    "FMA:7098"
   ]
- }
+ },
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:9550",
+   "conceptId": "FMA9550",
+   "label": "Outflow part of right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9550"
+    }
+   ]
+  }
+ ]
 }

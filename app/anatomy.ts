@@ -22,15 +22,23 @@ export interface Atlas {version:string;sex?:'male';source?:string;scope?:string;
 export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
-export const EXPLANATIONS:Record<string,string> = {
- 'heart':'A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.',
- 'liver':'A large organ beneath the right side of the diaphragm. It processes absorbed nutrients, produces bile, and synthesizes many proteins carried in the blood.',
- 'brain':'The central organ of the nervous system. Its interconnected regions support perception, movement, memory, language, and the regulation of bodily functions.',
- 'stomach':'A muscular chamber between the esophagus and small intestine. It stores and mixes food with acid and enzymes before releasing it into the duodenum.',
- 'spleen':'A lymphoid organ in the upper left abdomen. It filters blood, removes aging blood cells, and participates in immune responses.',
- 'pancreas':'An abdominal organ with digestive and endocrine roles. It supplies enzymes to the small intestine and releases hormones including insulin and glucagon.',
- 'urinary bladder':'A muscular reservoir in the pelvis that stores urine arriving from the kidneys through the ureters.',
- 'trachea':'The main airway connecting the larynx to the bronchi. Its cartilage supports keep the airway open during breathing.',
- 'diaphragm':'A broad muscle separating the chest and abdomen. When it contracts, it increases chest volume and helps draw air into the lungs.',
-};
-export function explanation(name:string,system:SystemId){return EXPLANATIONS[name.toLowerCase()] ?? SYSTEMS.find(s=>s.id===system)?.description ?? '';}
+export type ContentStatus = 'missing'|'auto'|'drafted'|'reviewed'|'verified';
+export interface ContentSource {title:string;url:string;license:string}
+export interface ContentTier {status:ContentStatus;text:string;license:string;attribution:string;sources:ContentSource[]}
+/** Per-node content served from public/content/<conceptId>.json; ids with a file are listed in public/content/index.json. */
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;tiers:Partial<Record<'1'|'2'|'3',ContentTier>>}
+export interface Explanation {text:string;tier?:ContentTier}
+let contentIndex:Promise<Set<string>>|null=null;
+const contentCache=new Map<string,Promise<NodeContent|null>>();
+const getJson=async<T>(url:string):Promise<T|null>=>{try{const r=await fetch(url);if(!r.ok||!r.headers.get('content-type')?.includes('json'))return null;return await r.json() as T;}catch{return null;}};
+export function loadContent(conceptId:string):Promise<NodeContent|null>{
+ contentIndex??=getJson<{ids:string[]}>('/content/index.json').then(x=>new Set(x?.ids??[]));
+ let entry=contentCache.get(conceptId);
+ if(!entry){entry=contentIndex.then(ids=>ids.has(conceptId)?getJson<NodeContent>(`/content/${conceptId}.json`):null);contentCache.set(conceptId,entry);}
+ return entry;
+}
+/** Tier-1 text for an atlas concept id (e.g. FMA7088), falling back to the system description when no content file exists or it fails to load. */
+export async function explanationFor(conceptId:string,system:SystemId):Promise<Explanation>{
+ const tier=(await loadContent(conceptId))?.tiers['1'];
+ return tier?.text?{text:tier.text,tier}:{text:SYSTEMS.find(s=>s.id===system)?.description??''};
+}

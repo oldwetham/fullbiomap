@@ -34,7 +34,7 @@ Boundary: the knowledge module (`graph/`, `content/`, `pipeline/`) must never im
 
 | File | What it does | Bio Map hook |
 | --- | --- | --- |
-| `app/anatomy.ts` | Types (`Part`, `Concept`, `Atlas`, `SceneState`), 15 `SYSTEMS`, 9-entry `EXPLANATIONS` keyed by lowercased name | Replace `explanation(name, system)` with a lookup by `conceptId` (FMA id) into the graph; add `highlighted: string[]` and `level` to `SceneState` |
+| `app/anatomy.ts` | Types (`Part`, `Concept`, `Atlas`, `SceneState`), 15 `SYSTEMS`, and `explanationFor(conceptId, system)`, which loads `public/content/<conceptId>.json` (cached; only ids listed in `public/content/index.json`) and falls back to the system description | Add `highlighted: string[]` and `level` to `SceneState`; read tiers 2–3 from the same content file |
 | `app/page.tsx` | `Home`: loads atlas, system toggles/presets, search, `choose(concept)` / `choosePart(id)`, detail `Sheet`, About sheet | Detail sheet gets tiers, connection chips, media, Zoom in/out; `choose()` gets URL hash sync and breadcrumbs |
 | `app/scene.tsx` | Three.js engine: one merged mesh per system; per-part state in `partTexture` (explode xyz + visible) and `selectionTexture` (r = selected) indexed by `partIndex`; shader injection via `onBeforeCompile`; picking; explode; isolate framing | Add `selectionTexture.g` for "related" tint and per-part opacity (dithered, not alpha-blended); reuse isolate framing for Zoom-in; clipping plane via `renderer.clippingPlanes` |
 | `app/agent-tools.ts` | WebMCP tools `find_anatomy`, `inspect_anatomical_structure` | Add `explain_structure(id, tier)` and `related(id, relation)` |
@@ -60,7 +60,7 @@ Every graph node is keyed by a public ontology id; never invent an id when a pub
 | `CHEBI:` | small molecule | ChEBI | `CHEBI:16236` ethanol |
 | `BIOMAP:` | anything with no public id | this repo | `BIOMAP:cell-generic-v1` |
 
-- In the graph the id has a colon (`FMA:7088`); in `atlas.json` `conceptId` it has none (`FMA7088`); in URLs it is the hash `/#FMA7088`; on disk it uses an underscore (`content/FMA_7088/`).
+- In the graph the id has a colon (`FMA:7088`); in `atlas.json` `conceptId` it has none (`FMA7088`); in URLs it is the hash `/#FMA7088`; source content folders use an underscore (`content/FMA_7088/`); served per-node JSON uses the atlas form (`public/content/FMA7088.json`, listed in `public/content/index.json`).
 - Enums: `scale` ∈ body, system, organ, tissue, cell, organelle, molecule. Content `status` ∈ missing, auto, drafted, reviewed, verified (UI shows "unreviewed" for auto and drafted). `tier` ∈ 1, 2, 3.
 
 ## Licensing rule

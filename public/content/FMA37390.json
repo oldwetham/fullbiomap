@@ -56,5 +56,51 @@
   "in": [],
   "out": []
  },
- "connections": []
+ "connections": [
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:80277",
+   "conceptId": null,
+   "label": "Branch of deep branch of right ulnar nerve to right opponens pollicis",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma80277"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:80274",
+   "conceptId": null,
+   "label": "Branch of right median nerve to right opponens pollicis",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma80274"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:291303",
+   "conceptId": null,
+   "label": "Nerve to right opponens pollicis",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma291303"
+    }
+   ]
+  }
+ ]
 }

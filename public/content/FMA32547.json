@@ -56,5 +56,36 @@
   "in": [],
   "out": []
  },
- "connections": []
+ "connections": [
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:81317",
+   "conceptId": null,
+   "label": "Nerve to right infraspinatus muscle (1)",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma81317"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:81319",
+   "conceptId": null,
+   "label": "Nerve to right infraspinatus muscle (2)",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma81319"
+    }
+   ]
+  }
+ ]
 }

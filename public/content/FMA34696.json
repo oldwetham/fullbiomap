@@ -58,5 +58,36 @@
   "in": [],
   "out": []
  },
- "connections": []
+ "connections": [
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:81330",
+   "conceptId": null,
+   "label": "Branch of lateral pectoral nerve to sternocostal part of pectoralis major",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma81330"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:81333",
+   "conceptId": null,
+   "label": "Branch of medial pectoral nerve to sternocostal part of pectoralis major",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma81333"
+    }
+   ]
+  }
+ ]
 }

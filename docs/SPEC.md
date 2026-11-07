@@ -109,7 +109,9 @@ Node record:
 }
 ```
 
-Edge record: `{"from": "FMA:7088", "to": "FMA:50039", "rel": "arterial_supply", "source": "FMA", "evidence": "…"}`.
+Edge record: `{"from": "FMA:7088", "to": "FMA:50039", "rel": "arterial_supply", "source": "FMA", "license": "CC BY 3.0", "evidence": "…"}`.
+
+Each `public/content/<id>.json` also carries `connections`: `{rel, dir: "out" | "in", id, conceptId, label, modeled, sources: [{name, license, url}]}`. When FMA names a related structure that has no 3D mesh (most nerve plexuses and lymphatic chains), it is kept as a non-selectable label (`modeled: false`, `conceptId: null`) in the per-node file only and never becomes a graph edge, so `graph/edges.jsonl` has no dangling endpoints (decided 2026-11-07).
 
 | Relation | Reads as | Source dataset | Scales it joins |
 | --- | --- | --- | --- |

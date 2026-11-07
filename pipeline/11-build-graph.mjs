@@ -103,8 +103,9 @@ const SOURCE_INFO = {
   'FMA': {name: 'Foundational Model of Anatomy 5.1', license: 'CC BY 3.0'},
   'HRA VCCF': {name: 'HRA ASCT+B Blood Vasculature v1.10 (VCCF)', license: 'CC BY 4.0', url: 'https://doi.org/10.48539/HBM497.DSBZ.627'},
 };
-// When one end of a relation is not modeled in 3D: 'drop' it, or keep it as 'text' (a label, not selectable).
-const UNMODELED = process.env.BIOMAP_UNMODELED ?? 'drop';
+// When one end of a relation is not modeled in 3D, keep it as 'text': a non-selectable label
+// (modeled: false) in the per-node file only, never a graph edge. Decided 2026-11-07 (Phase 2).
+const UNMODELED = process.env.BIOMAP_UNMODELED ?? 'text';
 const atlasName = new Map(atlas.concepts.map(c => [`FMA:${c.id.slice(3)}`, upperFirst(c.name)]));
 const labelOf = new Map();
 for (const d of defs.values()) for (const r of d.fma?.relations ?? []) if (r.label) labelOf.set(r.id, r.label);

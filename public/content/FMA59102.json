@@ -59,6 +59,36 @@
  },
  "connections": [
   {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:49928",
+   "conceptId": null,
+   "label": "Right lacrimal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49928"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:51902",
+   "conceptId": null,
+   "label": "Right lacrimal vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma51902"
+    }
+   ]
+  },
+  {
    "rel": "nerve_supply",
    "dir": "out",
    "id": "FMA:52629",

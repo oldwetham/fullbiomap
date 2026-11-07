@@ -70,6 +70,36 @@
  "connections": [
   {
    "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:9441",
+   "conceptId": null,
+   "label": "Apical part of left apical segmental vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9441"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:9439",
+   "conceptId": null,
+   "label": "Intrasegmental tributary of left apical segmental vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9439"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
    "dir": "out",
    "id": "FMA:8666",
    "conceptId": "FMA8666",

@@ -62,5 +62,21 @@
    "FMA:9533"
   ]
  },
- "connections": []
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:9295",
+   "conceptId": null,
+   "label": "Septal wall of right ventricle",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9295"
+    }
+   ]
+  }
+ ]
 }

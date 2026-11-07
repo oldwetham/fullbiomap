@@ -98,3 +98,31 @@ def get_json(url, retries=5):
         _count('notFound')
         raise NotFound(url)
     return record['body']
+
+
+def get_file(url, dest, retries=5):
+    """Download url to dest once (skipped if dest exists). Same User-Agent, throttle and retries as get_json."""
+    dest = Path(dest)
+    if dest.exists():
+        _count('cached')
+        return dest
+    if os.environ.get('BIOMAP_OFFLINE'):
+        raise RuntimeError(f'not downloaded and BIOMAP_OFFLINE is set: {url}')
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    for attempt in range(retries):
+        _limiter.wait()
+        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=300, context=_CONTEXT) as r:
+                body = r.read()
+            break
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead):
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt * 2)
+                continue
+            raise
+    tmp = dest.with_suffix(dest.suffix + '.part')
+    tmp.write_bytes(body)
+    tmp.replace(dest)
+    _count('fetched')
+    return dest

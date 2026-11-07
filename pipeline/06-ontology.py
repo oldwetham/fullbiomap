@@ -32,6 +32,14 @@ UBERON_IRI = 'http://purl.obolibrary.org/obo/UBERON_'
 NCIT_IRI = 'http://purl.obolibrary.org/obo/NCIT_'
 FMA_NS = 'http://purl.org/sig/ont/fma/'
 PART_OF = ['regional_part_of', 'systemic_part_of', 'constitutional_part_of']  # preference order
+# Phase 2 connection relations. FMA states many only from the other end, so inverse properties
+# are folded onto the forward relation: X <inverse> Y means Y <forward> X.
+CONNECTIONS = ['arterial_supply', 'venous_drainage', 'nerve_supply', 'lymphatic_drainage', 'branch_of',
+               'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with']
+INVERSE = {'arterial_supply_of': 'arterial_supply', 'venous_drainage_of': 'venous_drainage',
+           'nerve_supply_of': 'nerve_supply', 'lymphatic_drainage_of': 'lymphatic_drainage', 'branch': 'branch_of',
+           'tributary': 'tributary_of', 'receives_attachment_from': 'attaches_to'}
+SYMMETRIC = {'articulates_with', 'continuous_with'}
 RESTRICTION_PROP = 'http://www.w3.org/2002/07/owl#onProperty'
 RESTRICTION_VALUE = 'http://www.w3.org/2002/07/owl#someValuesFrom'
 SUBCLASS = 'http://www.w3.org/2000/01/rdf-schema#subClassOf'
@@ -110,18 +118,21 @@ def fetch_fma(cid):
     ta98 = sorted({str(a.get(FMA_NS + 'TA_ID')) for _, axioms in values(d.get(FMA_NS + 'preferred_name'))
                    for a in axioms if a.get(FMA_NS + 'TA_ID')})
     is_a = [{'id': fma_id(p), 'label': label_of(p)} for p in d.get('directParent') or [] if fma_id(p)]
-    part_of = []
+    part_of, relations = [], []
     for r in d.get(SUBCLASS) or []:
         if isinstance(r, dict):
             prop = str(r.get(RESTRICTION_PROP, '')).rsplit('/', 1)[-1]
             target = r.get(RESTRICTION_VALUE)
             if prop in PART_OF and isinstance(target, str) and fma_id(target):
                 part_of.append({'id': fma_id(target), 'label': label_of(target), 'rel': prop})
+            if (prop in CONNECTIONS or prop in INVERSE) and isinstance(target, str) and fma_id(target):
+                relations.append({'property': prop, 'id': fma_id(target), 'label': label_of(target)})
     # Prefer the generic whole over FMA 5's sex-specific copies ('... of male human body').
     part_of.sort(key=lambda x: (PART_OF.index(x['rel']), bool(re.search(r'of (male|female) human body', x['label'] or '', re.I)), x['id']))
     ancestors = sorted({fma_id(a) for a in d.get('hierarchicalAncestor') or [] if fma_id(a)})
     return cid, {'iri': iri, 'label': label, 'synonyms': synonyms, 'definition': definition, 'ta98': ta98,
-                 'obsolete': bool(d.get('isObsolete')), 'isA': is_a, 'partOf': part_of, 'ancestors': ancestors}
+                 'obsolete': bool(d.get('isObsolete')), 'isA': is_a, 'partOf': part_of, 'ancestors': ancestors,
+                 'relations': sorted(relations, key=lambda x: (x['property'], x['id']))}
 
 
 with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
@@ -196,6 +207,7 @@ print(f'NCIt terms: {len(ncit)}/{len(ncit_wanted)} found', flush=True)
 graph = ROOT / 'graph'
 graph.mkdir(exist_ok=True)
 defs_lines, edge_lines, counts = [], [], Counter()
+connection_edges = defaultdict(set)
 for cid in concepts:
     f = fma[cid]
     u = chosen_uberon[cid]
@@ -221,8 +233,76 @@ for cid in concepts:
             edge_lines.append(json.dumps({'from': gid, 'to': p['id'], 'rel': 'is_a', 'source': 'FMA', 'evidence': 'rdfs:subClassOf'}))
         for p in f['partOf']:
             edge_lines.append(json.dumps({'from': gid, 'to': p['id'], 'rel': 'part_of', 'source': 'FMA', 'evidence': p['rel']}))
+        for r in f['relations']:
+            if r['property'] in CONNECTIONS:
+                a, b, rel = gid, r['id'], r['property']
+            else:
+                a, b, rel = r['id'], gid, INVERSE[r['property']]
+            if rel in SYMMETRIC:
+                a, b = sorted([a, b])
+            connection_edges[(a, rel, b)].add(r['property'])
+for (a, rel, b), evidence in connection_edges.items():
+    counts[f'connection {rel}'] += 1
+    edge_lines.append(json.dumps({'from': a, 'to': b, 'rel': rel, 'source': 'FMA', 'evidence': ', '.join(sorted(evidence))}))
 (graph / 'defs.jsonl').write_text('\n'.join(defs_lines) + '\n')
 (graph / 'edges.fma.jsonl').write_text('\n'.join(sorted(set(edge_lines))) + '\n')
+
+# HRA vasculature (VCCF) branching -----------------------------------------------------
+# ASCT+B Blood Vasculature rows run from the heart outward (AS/1 ... AS/n). Each consecutive
+# pair whose two vessels are both atlas concepts of the same kind becomes branch_of (arteries)
+# or tributary_of (veins), child -> parent. Uberon ids map through the Uberon xrefs above
+# (only when one atlas concept carries that Uberon id).
+vccf_csv = ROOT / 'data/raw/hra/asct-b-vh-blood-vasculature-v1.10.csv'
+if vccf_csv.exists():
+    import csv
+    atlas_ids = {'FMA:' + c[3:] for c in concepts}
+    by_uberon = defaultdict(set)
+    for cid in concepts:
+        if chosen_uberon[cid]:
+            by_uberon[chosen_uberon[cid]].add('FMA:' + cid[3:])
+    part_system = {p['id']: p['system'] for p in atlas['parts']}
+    concept_system = {}
+    for c in atlas['concepts']:
+        if 'FMA:' + c['id'][3:] in atlas_ids:
+            concept_system['FMA:' + c['id'][3:]] = Counter(part_system[e] for e in c['elements']).most_common(1)[0][0]
+
+    def to_atlas(hra_id):
+        if hra_id.startswith('FMA:'):
+            return hra_id if hra_id in atlas_ids else None
+        hits = by_uberon.get(hra_id, set())
+        return next(iter(hits)) if len(hits) == 1 else None
+
+    with open(vccf_csv, encoding='utf-8', newline='') as fh:
+        rows = list(csv.reader(fh))
+    head = next(i for i, r in enumerate(rows) if r and r[0] == 'AS/1')
+    header = rows[head]
+    cols = [(header.index(f'AS/{k}/ID'), header.index(f'AS/{k}/LABEL')) for k in range(1, 100) if f'AS/{k}/ID' in header]
+    pairs = {}
+    for r in rows[head + 1:]:
+        chain = [(r[i].strip(), r[j].strip()) for i, j in cols if i < len(r) and r[i].strip()]
+        for (pid, plabel), (cid_, clabel) in zip(chain, chain[1:]):
+            pairs[(pid, cid_)] = (plabel, clabel)
+    vccf_lines, vccf_skipped = [], Counter()
+    for (pid, cid_), (plabel, clabel) in sorted(pairs.items()):
+        parent, child = to_atlas(pid), to_atlas(cid_)
+        if not parent or not child:
+            vccf_skipped['an end is not a modeled structure'] += 1
+            continue
+        if parent == child:
+            vccf_skipped['both ends map to the same structure'] += 1
+            continue
+        kinds = (concept_system[child], concept_system[parent])
+        rel = {('arterial', 'arterial'): 'branch_of', ('venous', 'venous'): 'tributary_of'}.get(kinds)
+        if not rel:
+            vccf_skipped[f'{kinds[0]} -> {kinds[1]} (no matching relation)'] += 1
+            continue
+        counts[f'vccf {rel}'] += 1
+        vccf_lines.append(json.dumps({'from': child, 'to': parent, 'rel': rel, 'source': 'HRA VCCF',
+                                      'evidence': f'ASCT+B Blood Vasculature v1.10: {pid} {plabel} -> {cid_} {clabel}'}, ensure_ascii=False))
+    (graph / 'edges.vccf.jsonl').write_text('\n'.join(sorted(set(vccf_lines))) + '\n')
+    counts['vccf vessel pairs'] = len(pairs)
+    for k, v in sorted(vccf_skipped.items()):
+        counts[f'vccf skipped: {k}'] = v
 (graph / 'sources.json').write_text(json.dumps(sources, indent=1, sort_keys=True) + '\n')
 
 lines = ['# Ontology report', '', 'Generated by `pipeline/06-ontology.py` from EBI OLS4.', '',

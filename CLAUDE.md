@@ -41,7 +41,7 @@ Boundary: the knowledge module (`graph/`, `content/`, `pipeline/`) must never im
 | `app/explosion-layout.ts`, `pointer-tap.ts`, `model-download.ts` | Explode packing, tap detection, gzip chunk decoding | Leave alone |
 | `scripts/convert-anatomy.py` | BodyParts3D OBJ → chunks + `atlas.json`; needs `concepts.json` and `systems.json` (not in repo) | `pipeline/01-build-maps.py` produces those inputs |
 | `scripts/optimize-anatomy.mjs` | meshoptimizer simplification; has a `female` weld branch for HRA | Reuse for HRA; only the GLB → manifest converter is missing |
-| `scripts/validate-atlas.mjs` | Hard-codes 2,234 parts / 3,432 concepts | Parameterize (read counts from `atlas.json`) before adding HRA parts |
+| `scripts/validate-atlas.mjs` | Validates buffers, unique ids and concept → part links; counts come from `atlas.json` (`optimized.preservedMeshes`) | Safe to add HRA parts without edits |
 
 `atlas.json`: `parts[]` = `{id: "FJ1252", name, conceptId: "FMA59763", system, chunk, positions, normals, indices, vertexCount, indexCount, bounds}`; `concepts[]` = `{id: "FMA3710", name, elements: [...]}`; `chunks[]` = `{url, bytes, gzip, gzipBytes}`. Part ids (`FJ…`) are BodyParts3D representation ids; concept ids are FMA ids and are the join key for the knowledge graph.
 

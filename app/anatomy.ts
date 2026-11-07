@@ -20,7 +20,7 @@ export interface Part {id:string;name:string;conceptId:string;system:SystemId;ch
 export interface Concept {id:string;name:string;elements:string[]}
 export interface Atlas {version:string;sex?:'male';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
 export type View = 'three-quarter'|'front'|'back'|'side';
-export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
+export interface SceneState {inspectorOpen?:boolean;/** Part ids tinted as related to the selection (second highlight color). */highlighted?:string[];explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
 export type ContentStatus = 'missing'|'auto'|'drafted'|'reviewed'|'verified';
 export type Level = 1|2|3;
@@ -29,8 +29,29 @@ export interface ContentSource {title:string;url:string;license:string}
 export interface TierSource {kind?:string;name:string;term?:string|null;url:string;license:string}
 export interface ContentTier {status:ContentStatus;file?:string;text?:string;source?:TierSource|null;sources?:ContentSource[];license?:string;attribution?:string}
 /** Per-node record served from public/content/<conceptId>.json (built by pipeline/11-build-graph.mjs); ids with a file are listed in public/content/index.json. */
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[]}
-export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[]}
+export interface ConnectionSource {name:string;license:string;url:string}
+/** One related structure: dir 'out' reads "this <rel> other", 'in' reads "other <rel> this". modeled=false means FMA names it but there is no 3D mesh. */
+export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[]}
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[]}
+export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
+ arterial_supply:{out:'Supplied by',in:'Supplies'},
+ venous_drainage:{out:'Drains to',in:'Drains'},
+ nerve_supply:{out:'Innervated by',in:'Innervates'},
+ lymphatic_drainage:{out:'Lymph drains to',in:'Receives lymph from'},
+ branch_of:{out:'Branch of',in:'Branches'},
+ tributary_of:{out:'Tributary of',in:'Tributaries'},
+ attaches_to:{out:'Attaches to',in:'Attached to by'},
+ articulates_with:{out:'Articulates with',in:'Articulates with'},
+ continuous_with:{out:'Continuous with',in:'Continuous with'},
+};
+export interface ConnectionGroup {key:string;label:string;items:Connection[]}
+/** Groups connections by relation and direction, keeping the order step 11 wrote them in. */
+export function connectionGroups(list:Connection[]):ConnectionGroup[]{
+ const groups=new Map<string,ConnectionGroup>();
+ for(const c of list){const key=`${c.rel}:${c.dir}`;const g=groups.get(key)??{key,label:RELATION_LABELS[c.rel]?.[c.dir]??c.rel,items:[]};g.items.push(c);groups.set(key,g);}
+ return [...groups.values()];
+}
+export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[]}
 export const isUnreviewed=(t?:ContentTier)=>t?.status==='auto'||t?.status==='drafted';
 let contentIndex:Promise<Set<string>>|null=null;
 const contentCache=new Map<string,Promise<NodeContent|null>>();
@@ -47,6 +68,7 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
  const tierOf=(l:Level)=>node?.content?.[`tier${l}`];
  const available=LEVELS.map(x=>x.level).filter(l=>{const t=tierOf(l);return !!t&&t.status!=='missing'&&!!t.text;});
  const level=available.includes(preferred)?preferred:available[0]??null;
- if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available};
- return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available};
+ const connections=node?.connections??[];
+ if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections};
+ return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections};
 }

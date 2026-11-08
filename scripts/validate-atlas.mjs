@@ -5,7 +5,8 @@ const filename=process.argv[2]??'atlas.json';
 const base=new URL('../public/models/',import.meta.url),atlas=JSON.parse(fs.readFileSync(new URL(filename,base)));
 // Counts come from the manifest itself so new parts (e.g. HRA organs) do not need edits here.
 assert.ok(atlas.parts.length>0,'no parts');assert.ok(atlas.concepts.length>0,'no concepts');
-if(atlas.optimized?.preservedMeshes!==undefined)assert.equal(atlas.parts.length,atlas.optimized.preservedMeshes,'optimizer dropped meshes');
+// Layer parts (e.g. the male lung shells from step 05b) are added after optimization; the check covers the source meshes.
+if(atlas.optimized?.preservedMeshes!==undefined)assert.equal(atlas.parts.filter(p=>!p.layer).length,atlas.optimized.preservedMeshes,'optimizer dropped meshes');
 const ids=new Set(atlas.parts.map(p=>p.id));assert.equal(ids.size,atlas.parts.length,'duplicate part ids');
 assert.equal(new Set(atlas.concepts.map(c=>c.id)).size,atlas.concepts.length,'duplicate concept ids');
 // Chunks may live in subfolders (female/, organs/); gzip-only manifests (HRA) ship just the .gz.

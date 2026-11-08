@@ -1,0 +1,93 @@
+{
+ "id": "CL:0002258",
+ "conceptId": "CL0002258",
+ "label": "Thyroid follicular cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "follicular cell of thyroid gland",
+  "principal cell of thyroid gland",
+  "thyroid gland follicular cell",
+  "thyroid hormone secreting cell"
+ ],
+ "xrefs": {
+  "CL": "0002258"
+ },
+ "geometry": {
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": null,
+   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002258/tier1.auto.md",
+   "text": "An epithelial cell that is part of the thyroid follicle epithelium, with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity. Its apical surface is lined with microvilli projecting into the colloid-filled lumen, where it synthesizes, stores, and secretes the thyroid hormones thyroxine (T4) and triiodothyronine (T3), releasing them into the bloodstream in response to thyroid-stimulating hormone (TSH).",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002258",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002258",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002258. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002258",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": null,
+   "conceptId": null,
+   "label": "Thyroid follicles (thyroid gland), not in the body model",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Cell Ontology",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

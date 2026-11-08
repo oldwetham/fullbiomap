@@ -18,7 +18,7 @@ const CELL_SCALES = new Set(['cell', 'organelle']);
 const RELS = ['is_a', 'part_of', ...CONNECTIONS];
 const SOURCE_LABEL = {curated: 'Curated text (tier1.md)', ncit: 'NCIt definition', uberon: 'Uberon definition', fma: 'FMA definition',
   hierarchy: 'Generated from FMA hierarchy', 'hierarchy-bp3d': 'Generated from BodyParts3D hierarchy', 'hierarchy-hra': 'Generated from HRA 3D hierarchy', cl: 'Cell Ontology definition', go: 'Gene Ontology definition',
-  'hierarchy-asctb': 'Generated from HRA ASCT+B table', none: 'No tier-1 text'};
+  'hierarchy-asctb': 'Generated from HRA ASCT+B table', placement: 'Generated from a sourced placement (Cell Ontology or OpenStax)', none: 'No tier-1 text'};
 
 const errors = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);

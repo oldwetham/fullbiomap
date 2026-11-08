@@ -1,0 +1,108 @@
+{
+ "id": "CL:0000162",
+ "conceptId": "CL0000162",
+ "label": "Parietal cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "gastric parietal cell",
+  "oxyntic cell"
+ ],
+ "xrefs": {
+  "CL": "0000162"
+ },
+ "geometry": {
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002251",
+    "label": "epithelial cell of alimentary canal"
+   },
+   "note": "The stomach and intestine are lined by columnar cells.",
+   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000162/tier1.auto.md",
+   "text": "An epithelial cell of the stomach that is part of the fundic gastric gland. This cell is characterized by its pyramidal shape, abundant mitochondria, and a complex network of secretory canaliculi lined with microvilli. It secretes hydrochloric acid into the stomach lumen and produces intrinsic factor, essential for vitamin B12 absorption.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000162",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000162",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000162",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000162",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000162. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000162",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000162",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7148",
+   "conceptId": "FMA7148",
+   "label": "Stomach",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Cell Ontology",
+     "url": "http://purl.obolibrary.org/obo/CL_0000162",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "alternates": [
+    "UBERON0000945"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7148",
+   "conceptId": "FMA7148",
+   "label": "Stomach",
+   "alternates": [
+    "UBERON0000945"
+   ],
+   "tissue": [
+    "/tissue/FMA7148.json"
+   ]
+  }
+ }
+}

@@ -5,8 +5,67 @@
   "label": "Testis"
  },
  "tables": [],
- "cellCount": 0,
- "groups": [],
+ "cellCount": 3,
+ "groups": [
+  {
+   "structure": "Seminiferous tubules",
+   "cells": [
+    {
+     "id": "CL:0000216",
+     "conceptId": "CL0000216",
+     "label": "Sertoli cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      },
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+     }
+    },
+    {
+     "id": "CL:0000019",
+     "conceptId": "CL0000019",
+     "label": "Sperm",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+     }
+    }
+   ]
+  },
+  {
+   "structure": "Interstitial tissue",
+   "cells": [
+    {
+     "id": "CL:0000178",
+     "conceptId": "CL0000178",
+     "label": "Leydig cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+     }
+    }
+   ]
+  }
+ ],
  "media": [
   {
    "kind": "histology",
@@ -30,6 +89,23 @@
    "license": "CC BY 4.0",
    "licenseUrl": "https://www.proteinatlas.org/about/licence",
    "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PRM1 immunohistochemistry in testis, https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg. CC BY 4.0."
+  }
+ ],
+ "sources": [
+  {
+   "name": "OpenStax Anatomy and Physiology 2e, 27.1 (CC BY 4.0 version)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "Cell Ontology",
+   "url": "http://purl.obolibrary.org/obo/CL_0000216",
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "Cell Ontology",
+   "url": "http://purl.obolibrary.org/obo/CL_0000178",
+   "license": "CC BY 4.0"
   }
  ]
 }

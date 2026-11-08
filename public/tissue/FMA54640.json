@@ -1,0 +1,39 @@
+{
+ "organ": {
+  "id": "FMA:54640",
+  "conceptId": "FMA54640",
+  "label": "Tongue"
+ },
+ "tables": [],
+ "cellCount": 1,
+ "groups": [
+  {
+   "structure": "Taste buds",
+   "cells": [
+    {
+     "id": "CL:0000209",
+     "conceptId": "CL0000209",
+     "label": "Taste receptor cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+     }
+    }
+   ]
+  }
+ ],
+ "media": [],
+ "sources": [
+  {
+   "name": "OpenStax Anatomy and Physiology 2e, 14.1 (CC BY 4.0 version)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  }
+ ]
+}

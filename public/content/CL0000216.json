@@ -1,0 +1,104 @@
+{
+ "id": "CL:0000216",
+ "conceptId": "CL0000216",
+ "label": "Sertoli cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000216"
+ },
+ "geometry": {
+  "model": "/models/cell/flat-epithelial-cell.json",
+  "shape": {
+   "family": "flat-epithelial",
+   "label": "Flat epithelial cell",
+   "variant": "flat-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000076",
+    "label": "squamous epithelial cell"
+   },
+   "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000216/tier1.auto.md",
+   "text": "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein. Their tight junctions with the spermatogonia and spermatocytes provide a blood-testis barrier.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000216",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000216",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000216. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000216",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7210",
+   "conceptId": "FMA7210",
+   "label": "Testis",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Cell Ontology",
+     "url": "http://purl.obolibrary.org/obo/CL_0000216",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "alternates": [
+    "UBERON0000473"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7210",
+   "conceptId": "FMA7210",
+   "label": "Testis",
+   "alternates": [
+    "UBERON0000473"
+   ],
+   "tissue": [
+    "/tissue/FMA7210.json"
+   ]
+  }
+ }
+}

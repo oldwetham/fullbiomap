@@ -5,8 +5,52 @@
   "label": "Stomach"
  },
  "tables": [],
- "cellCount": 0,
- "groups": [],
+ "cellCount": 2,
+ "groups": [
+  {
+   "structure": "Gastric glands",
+   "cells": [
+    {
+     "id": "CL:0000162",
+     "conceptId": "CL0000162",
+     "label": "Parietal cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002251",
+       "label": "epithelial cell of alimentary canal"
+      },
+      "note": "The stomach and intestine are lined by columnar cells.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+     }
+    },
+    {
+     "id": "CL:0000155",
+     "conceptId": "CL0000155",
+     "label": "Peptic cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002251",
+       "label": "epithelial cell of alimentary canal"
+      },
+      "note": "The stomach and intestine are lined by columnar cells.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+     }
+    }
+   ]
+  }
+ ],
  "media": [
   {
    "kind": "histology",
@@ -30,6 +74,18 @@
    "license": "CC BY 4.0",
    "licenseUrl": "https://www.proteinatlas.org/about/licence",
    "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): A4GNT immunohistochemistry in stomach, https://images.proteinatlas.org/8017/152732_A_5_1_rna_selected.jpg. CC BY 4.0."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Cell Ontology",
+   "url": "http://purl.obolibrary.org/obo/CL_0000162",
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "OpenStax Anatomy and Physiology 2e, 23.4 (CC BY 4.0 version)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+   "license": "CC BY 4.0"
   }
  ]
 }

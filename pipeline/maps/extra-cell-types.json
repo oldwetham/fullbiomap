@@ -1,0 +1,158 @@
+{
+ "_comment": "Commonly taught cell types that no HRA v2.5 ASCT+B table lists, added from Cell Ontology (approved Nov 8 2026). 'organs' lists the body-model structures whose tissue board shows the cell type; 'withCell' places it wherever another cell type is placed; 'standalone' cell types have no organ in the body model and open from search on their own (breadcrumb 'Cells > <label>'). Step 06 fetches their Cell Ontology terms; step 11 adds the nodes, with each placement's source.",
+ "cells": [
+  {
+   "cl": "CL:0000019",
+   "organs": [
+    "FMA:7210"
+   ],
+   "structure": "Seminiferous tubules",
+   "source": {
+    "name": "OpenStax Anatomy and Physiology 2e, 27.1 (CC BY 4.0 version)",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+    "license": "CC BY 4.0"
+   },
+   "place": "seminiferous tubules of the testis"
+  },
+  {
+   "cl": "CL:0000216",
+   "organs": [
+    "FMA:7210"
+   ],
+   "structure": "Seminiferous tubules",
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000216",
+    "license": "CC BY 4.0"
+   },
+   "place": "seminiferous tubules of the testis"
+  },
+  {
+   "cl": "CL:0000178",
+   "organs": [
+    "FMA:7210"
+   ],
+   "structure": "Interstitial tissue",
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000178",
+    "license": "CC BY 4.0"
+   },
+   "place": "interstitial tissue of the testis"
+  },
+  {
+   "cl": "CL:0000137",
+   "withCell": "CL:0001035",
+   "structure": "Bone",
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000137",
+    "license": "CC BY 4.0"
+   },
+   "place": "bone matrix"
+  },
+  {
+   "cl": "CL:0000209",
+   "organs": [
+    "FMA:54640"
+   ],
+   "structure": "Taste buds",
+   "source": {
+    "name": "OpenStax Anatomy and Physiology 2e, 14.1 (CC BY 4.0 version)",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+    "license": "CC BY 4.0"
+   },
+   "place": "taste buds of the tongue"
+  },
+  {
+   "cl": "CL:0000162",
+   "organs": [
+    "FMA:7148"
+   ],
+   "structure": "Gastric glands",
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000162",
+    "license": "CC BY 4.0"
+   },
+   "place": "gastric glands of the stomach"
+  },
+  {
+   "cl": "CL:0000155",
+   "organs": [
+    "FMA:7148"
+   ],
+   "structure": "Gastric glands",
+   "source": {
+    "name": "OpenStax Anatomy and Physiology 2e, 23.4 (CC BY 4.0 version)",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+    "license": "CC BY 4.0"
+   },
+   "place": "gastric glands of the stomach"
+  },
+  {
+   "cl": "CL:0000589",
+   "standalone": true,
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000589",
+    "license": "CC BY 4.0"
+   },
+   "foundIn": "Organ of Corti (inner ear)",
+   "terms": [
+    "hair cell",
+    "inner hair cell",
+    "cochlea"
+   ],
+   "place": "organ of Corti of the inner ear"
+  },
+  {
+   "cl": "CL:0000601",
+   "standalone": true,
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0000601",
+    "license": "CC BY 4.0"
+   },
+   "foundIn": "Organ of Corti (inner ear)",
+   "terms": [
+    "hair cell",
+    "outer hair cell",
+    "cochlea"
+   ],
+   "place": "organ of Corti of the inner ear"
+  },
+  {
+   "cl": "CL:0000207",
+   "standalone": true,
+   "source": {
+    "name": "OpenStax Anatomy and Physiology 2e, 14.1 (CC BY 4.0 version)",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+    "license": "CC BY 4.0"
+   },
+   "foundIn": "Olfactory epithelium (nasal cavity)",
+   "terms": [
+    "olfactory neuron",
+    "olfactory receptor neuron",
+    "smell"
+   ],
+   "place": "olfactory epithelium of the nasal cavity"
+  },
+  {
+   "cl": "CL:0002258",
+   "standalone": true,
+   "source": {
+    "name": "Cell Ontology",
+    "url": "http://purl.obolibrary.org/obo/CL_0002258",
+    "license": "CC BY 4.0"
+   },
+   "foundIn": "Thyroid follicles (thyroid gland)",
+   "terms": [
+    "thyrocyte",
+    "follicular cell",
+    "thyroid"
+   ],
+   "place": "thyroid follicles of the thyroid gland"
+  }
+ ]
+}

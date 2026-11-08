@@ -18,7 +18,7 @@
    "citation": "Gustilo, Katherine S.,\tand Griffin Weber.\t 2024.\t\"Skeleton, v1.1.\"\t https://doi.org/10.48539/HBM449.KQWN.983.\tAccessed June 15, 2026."
   }
  ],
- "cellCount": 4,
+ "cellCount": 5,
  "groups": [
   {
    "structure": "Bone marrow",
@@ -100,6 +100,26 @@
      "id": "CL:0001035",
      "conceptId": "CL0001035",
      "label": "Bone cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+     }
+    }
+   ]
+  },
+  {
+   "structure": "Bone",
+   "cells": [
+    {
+     "id": "CL:0000137",
+     "conceptId": "CL0000137",
+     "label": "Osteocyte",
      "model": "/models/cell/generic-cell.json",
      "shape": {
       "family": "generic",
@@ -414,5 +434,12 @@
    ]
   }
  ],
- "media": []
+ "media": [],
+ "sources": [
+  {
+   "name": "Cell Ontology",
+   "url": "http://purl.obolibrary.org/obo/CL_0000137",
+   "license": "CC BY 4.0"
+  }
+ ]
 }

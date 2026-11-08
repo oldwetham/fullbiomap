@@ -426,7 +426,8 @@ for name, info in sorted(hra_release.get('tables', {}).items()):
 counts['asct-b rows with cell types'] = len(asctb_rows)
 for k, v in skipped_ct.items():
     counts[f'asct-b cell type ids skipped ({k})'] = v
-cl_ids = sorted({c[0] for line in asctb_rows for c in json.loads(line)['cellTypes']} | {'CL:0000000'} | {c['from'] for c in asctb_fixes.values()})
+extra_cells = {c['cl'] for c in json.loads((ROOT / 'pipeline/maps/extra-cell-types.json').read_text())['cells']}  # added from Cell Ontology (step 11)
+cl_ids = sorted({c[0] for line in asctb_rows for c in json.loads(line)['cellTypes']} | {'CL:0000000'} | {c['from'] for c in asctb_fixes.values()} | extra_cells)
 
 def fetch_term(ontology, iri, oid):
     try:

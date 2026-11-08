@@ -1,0 +1,103 @@
+{
+ "id": "CL:0000178",
+ "conceptId": "CL0000178",
+ "label": "Leydig cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "interstitial cell of Leydig"
+ ],
+ "xrefs": {
+  "CL": "0000178"
+ },
+ "geometry": {
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": null,
+   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000178/tier1.auto.md",
+   "text": "A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000178",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000178",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000178. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000178",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7210",
+   "conceptId": "FMA7210",
+   "label": "Testis",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Cell Ontology",
+     "url": "http://purl.obolibrary.org/obo/CL_0000178",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "alternates": [
+    "UBERON0000473"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7210",
+   "conceptId": "FMA7210",
+   "label": "Testis",
+   "alternates": [
+    "UBERON0000473"
+   ],
+   "tissue": [
+    "/tissue/FMA7210.json"
+   ]
+  }
+ }
+}

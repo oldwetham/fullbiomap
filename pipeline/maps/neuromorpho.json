@@ -1,0 +1,1498 @@
+{
+ "_comment": "NeuroMorpho.Org reconstructions for neuron and glia types (step 14). Each group is a NeuroMorpho query (the first filter goes in q, the rest in fq), tried in species order human, monkey, mouse, rat; \"class\" is what captions call it. Cells use a group as their own type (\"type\") or as a representative of their class (\"class\": captioned \"a representative <species> <class>, not this subtype specifically\"). \"pin\" fixes the chosen reconstruction (by NeuroMorpho neuron name) once reviewed. Picks were reviewed on Nov 8 2026 (reports/neuromorpho.md) and pinned; the 60 human spinal motoneurons are 2D tracings without a soma or diameters, so a 3D mouse motoneuron stands in. Bergmann glia have no tracing on NeuroMorpho.Org and keep their family shape.",
+ "release": "8.7",
+ "groups": {
+  "cortex-l23-pyramidal": {
+   "class": "cortical pyramidal neuron",
+   "query": [
+    [
+     "brain_region",
+     "layer 2-3"
+    ],
+    [
+     "cell_type",
+     "pyramidal"
+    ]
+   ],
+   "pin": "Fig1b_140312-1rm6_pyr",
+   "reviewed": "NMO_107146, human, neocortex, layer 2-3"
+  },
+  "cortex-l5-pyramidal": {
+   "class": "layer 5 cortical pyramidal neuron",
+   "query": [
+    [
+     "brain_region",
+     "layer 5"
+    ],
+    [
+     "cell_type",
+     "pyramidal"
+    ]
+   ],
+   "pin": "07a_pyramidal13aACC",
+   "reviewed": "NMO_01065, human, neocortex, anterior cingulate, layer 5"
+  },
+  "cortex-l6-pyramidal": {
+   "class": "layer 6 cortical pyramidal neuron",
+   "query": [
+    [
+     "brain_region",
+     "layer 6"
+    ],
+    [
+     "cell_type",
+     "pyramidal"
+    ]
+   ],
+   "pin": "2576_Mohan_etal_2015",
+   "reviewed": "NMO_290938, human, neocortex, temporal, middle temporal gyrus, Brodmann area 21, layer 6"
+  },
+  "hippocampus-pyramidal": {
+   "class": "hippocampal pyramidal neuron",
+   "query": [
+    [
+     "brain_region",
+     "hippocampus"
+    ],
+    [
+     "cell_type",
+     "pyramidal"
+    ]
+   ],
+   "pin": "52-human-hcca-idab1-porta4-sec1-cel17-soma-z-corr-1-7",
+   "reviewed": "NMO_147058, human, hippocampus, CA1, pyramidal layer"
+  },
+  "dentate-granule": {
+   "class": "dentate gyrus granule cell",
+   "query": [
+    [
+     "brain_region",
+     "dentate gyrus"
+    ],
+    [
+     "cell_type",
+     "granule"
+    ]
+   ],
+   "pin": "H16-06-013-05-08-01_575586329_m_DendriteAxon",
+   "reviewed": "NMO_275838, human, hippocampus, dentate gyrus, granule layer, left"
+  },
+  "amygdala-pyramidal": {
+   "class": "amygdala pyramidal neuron",
+   "query": [
+    [
+     "brain_region",
+     "amygdala"
+    ],
+    [
+     "cell_type",
+     "pyramidal"
+    ]
+   ],
+   "pin": "N-1-1-2-3-R",
+   "reviewed": "NMO_07586, mouse, amygdala, basolateral amygdala complex"
+  },
+  "thalamus-relay": {
+   "class": "thalamocortical relay neuron",
+   "query": [
+    [
+     "cell_type",
+     "thalamocortical"
+    ]
+   ],
+   "pin": "19219cell2",
+   "reviewed": "NMO_130725, mouse, thalamus, lateral geniculate nucleus, dorsal"
+  },
+  "subthalamic": {
+   "class": "subthalamic nucleus neuron",
+   "query": [
+    [
+     "brain_region",
+     "subthalamic nucleus"
+    ]
+   ],
+   "pin": "20160111_sham1",
+   "reviewed": "NMO_97833, mouse, basal ganglia, subthalamic nucleus, lateral"
+  },
+  "cortex-basket": {
+   "class": "cortical basket cell",
+   "query": [
+    [
+     "brain_region",
+     "neocortex"
+    ],
+    [
+     "cell_type",
+     "basket"
+    ]
+   ],
+   "pin": "Fig1b_140312-1rm6_int",
+   "reviewed": "NMO_107145, human, neocortex, layer 2-3"
+  },
+  "cortex-som": {
+   "class": "somatostatin interneuron",
+   "query": [
+    [
+     "cell_type",
+     "Somatostatin (SOM)-positive"
+    ],
+    [
+     "brain_region",
+     "neocortex"
+    ]
+   ],
+   "pin": "020315-2-ST",
+   "reviewed": "NMO_01839, mouse, neocortex, occipital, layer 5"
+  },
+  "cortex-vip": {
+   "class": "VIP interneuron",
+   "query": [
+    [
+     "cell_type",
+     "Vasoactive Intestinal Peptide (VIP)-positive"
+    ],
+    [
+     "brain_region",
+     "neocortex"
+    ]
+   ],
+   "pin": "2017-03-07-slice-2-cell-7-rotated",
+   "reviewed": "NMO_130669, mouse, neocortex, occipital, primary visual, layer 4"
+  },
+  "neurogliaform": {
+   "class": "neurogliaform cell",
+   "query": [
+    [
+     "brain_region",
+     "neocortex"
+    ],
+    [
+     "cell_type",
+     "neurogliaform"
+    ]
+   ],
+   "pin": "Fig2c_cell1_1402022rm",
+   "reviewed": "NMO_107156, human, neocortex, temporal, layer 1"
+  },
+  "mge-derived": {
+   "class": "MGE-derived interneuron",
+   "query": [
+    [
+     "cell_type",
+     "Medial Ganglionic Eminence (MGE)-derived"
+    ]
+   ],
+   "pin": "6N1-5072019_TileScan-3_Merged_wt10a",
+   "reviewed": "NMO_157650, mouse, neocortex, dorsal"
+  },
+  "cge-derived": {
+   "class": "CGE-derived interneuron",
+   "query": [
+    [
+     "cell_type",
+     "Caudal Ganglionic Eminence (CGE)-derived"
+    ]
+   ],
+   "pin": "110909-05",
+   "reviewed": "NMO_66355, mouse, hippocampus, CA1"
+  },
+  "cerebellum-basket": {
+   "class": "cerebellar basket cell",
+   "query": [
+    [
+     "brain_region",
+     "cerebellum"
+    ],
+    [
+     "cell_type",
+     "basket"
+    ]
+   ],
+   "pin": "189-1-11dw",
+   "reviewed": "NMO_32551, human, cerebellum, cerebellar cortex, stratum moleculare, dorsal, left"
+  },
+  "striatum-interneuron": {
+   "class": "striatal interneuron",
+   "query": [
+    [
+     "brain_region",
+     "striatum"
+    ],
+    [
+     "cell_type",
+     "interneuron"
+    ]
+   ],
+   "pin": "18455_00041-semi_r",
+   "reviewed": "NMO_163626, mouse, basal ganglia, striatum"
+  },
+  "striatum-cholinergic": {
+   "class": "striatal cholinergic interneuron",
+   "query": [
+    [
+     "brain_region",
+     "striatum"
+    ],
+    [
+     "cell_type",
+     "cholinergic"
+    ]
+   ],
+   "pin": "6602-1",
+   "reviewed": "NMO_141453, mouse, basal ganglia, striatum, dorsolateral"
+  },
+  "msn": {
+   "class": "striatal medium spiny neuron",
+   "query": [
+    [
+     "cell_type",
+     "medium spiny"
+    ],
+    [
+     "brain_region",
+     "striatum"
+    ]
+   ],
+   "pin": "Apr12IR1b",
+   "reviewed": "NMO_101622, mouse, basal ganglia, striatum"
+  },
+  "msn-d1": {
+   "class": "D1 medium spiny neuron",
+   "query": [
+    [
+     "cell_type",
+     "D1-type dopamine receptor-expressing"
+    ],
+    [
+     "brain_region",
+     "striatum"
+    ]
+   ],
+   "pin": "Apr12IR2a",
+   "reviewed": "NMO_101636, mouse, basal ganglia, striatum"
+  },
+  "msn-d2": {
+   "class": "D2 medium spiny neuron",
+   "query": [
+    [
+     "cell_type",
+     "D2-type dopamine receptor-expressing"
+    ],
+    [
+     "brain_region",
+     "striatum"
+    ]
+   ],
+   "pin": "Apr12IR1b",
+   "reviewed": "NMO_101622, mouse, basal ganglia, striatum"
+  },
+  "msn-accumbens": {
+   "class": "nucleus accumbens medium spiny neuron",
+   "query": [
+    [
+     "cell_type",
+     "medium spiny"
+    ],
+    [
+     "brain_region",
+     "nucleus accumbens"
+    ]
+   ],
+   "pin": "2-ENU2-treated-neuron2_1",
+   "reviewed": "NMO_107441, mouse, basal ganglia, ventral striatum, nucleus accumbens"
+  },
+  "globus-pallidus": {
+   "class": "globus pallidus neuron",
+   "query": [
+    [
+     "brain_region",
+     "globus pallidus"
+    ]
+   ],
+   "pin": "AA0017",
+   "reviewed": "NMO_85004, mouse, basal ganglia, globus pallidus, bed nucleus of the stria terminalis"
+  },
+  "nigra-dopaminergic": {
+   "class": "substantia nigra dopaminergic neuron",
+   "query": [
+    [
+     "brain_region",
+     "substantia nigra"
+    ],
+    [
+     "cell_type",
+     "dopaminergic"
+    ]
+   ],
+   "pin": "MYUX58R-RECONSTRUCCION-CORREGIDA-AIS-AND-SC",
+   "reviewed": "NMO_104502, mouse, basal ganglia, substantia nigra, pars compacta, rostral"
+  },
+  "olfactory-periglomerular": {
+   "class": "olfactory bulb periglomerular cell",
+   "query": [
+    [
+     "cell_type",
+     "periglomerular"
+    ]
+   ],
+   "pin": "M24-S1",
+   "reviewed": "NMO_05768, mouse, main olfactory bulb, glomerular layer"
+  },
+  "spinal-motoneuron": {
+   "class": "spinal motor neuron",
+   "query": [
+    [
+     "brain_region",
+     "spinal cord"
+    ],
+    [
+     "cell_type",
+     "Motoneuron"
+    ]
+   ],
+   "pin": "GFP_90",
+   "reviewed": "NMO_129194, mouse, spinal cord"
+  },
+  "retina-ganglion": {
+   "class": "retinal ganglion cell",
+   "query": [
+    [
+     "brain_region",
+     "retina"
+    ],
+    [
+     "cell_type",
+     "ganglion"
+    ]
+   ],
+   "pin": "LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a",
+   "reviewed": "NMO_87059, human, retina"
+  },
+  "retina-midget": {
+   "class": "midget ganglion cell",
+   "query": [
+    [
+     "cell_type",
+     "midget"
+    ],
+    [
+     "cell_type",
+     "ganglion"
+    ]
+   ],
+   "pin": "c1441_Scone",
+   "reviewed": "NMO_194130, monkey, retina, ganglion layer, right"
+  },
+  "retina-bipolar": {
+   "class": "retinal bipolar cell",
+   "query": [
+    [
+     "brain_region",
+     "retina"
+    ],
+    [
+     "cell_type",
+     "bipolar"
+    ]
+   ],
+   "pin": "humret_GBB_63x_11",
+   "reviewed": "NMO_53289, human, retina"
+  },
+  "retina-on-bipolar": {
+   "class": "ON bipolar cell",
+   "query": [
+    [
+     "cell_type",
+     "ON type"
+    ],
+    [
+     "brain_region",
+     "retina"
+    ],
+    [
+     "cell_type",
+     "bipolar"
+    ]
+   ],
+   "pin": "c238",
+   "reviewed": "NMO_194124, monkey, retina, inner nuclear layer"
+  },
+  "retina-off-bipolar": {
+   "class": "OFF bipolar cell",
+   "query": [
+    [
+     "cell_type",
+     "OFF type"
+    ],
+    [
+     "brain_region",
+     "retina"
+    ],
+    [
+     "cell_type",
+     "bipolar"
+    ]
+   ],
+   "pin": "c142_Scone",
+   "reviewed": "NMO_194111, monkey, retina, inner nuclear layer"
+  },
+  "retina-amacrine": {
+   "class": "amacrine cell",
+   "query": [
+    [
+     "brain_region",
+     "retina"
+    ],
+    [
+     "cell_type",
+     "amacrine"
+    ]
+   ],
+   "pin": "humret_CR_AII_63x_2",
+   "reviewed": "NMO_53278, human, retina"
+  },
+  "retina-horizontal": {
+   "class": "retinal horizontal cell",
+   "query": [
+    [
+     "cell_type",
+     "Horizontal"
+    ],
+    [
+     "brain_region",
+     "retina"
+    ]
+   ],
+   "pin": "c2795",
+   "reviewed": "NMO_194109, monkey, retina, inner nuclear layer"
+  },
+  "drg": {
+   "class": "dorsal root ganglion neuron",
+   "query": [
+    [
+     "brain_region",
+     "dorsal root ganglion"
+    ]
+   ],
+   "parts": [
+    "Soma",
+    "Axon"
+   ],
+   "pin": "A40-1",
+   "reviewed": "NMO_10077, mouse, peripheral nervous system, dorsal root ganglion"
+  },
+  "sympathetic": {
+   "class": "sympathetic ganglion neuron",
+   "query": [
+    [
+     "brain_region",
+     "superior cervical ganglion"
+    ]
+   ],
+   "pin": "12-8-22-EARLY_a",
+   "reviewed": "NMO_298111, rat, peripheral nervous system, superior cervical ganglion"
+  },
+  "autonomic": {
+   "class": "autonomic ganglion neuron",
+   "query": [
+    [
+     "brain_region",
+     "superior cervical ganglion"
+    ]
+   ],
+   "pin": "12-8-22-EARLY_a",
+   "reviewed": "NMO_298111, rat, peripheral nervous system, superior cervical ganglion"
+  },
+  "sensory-ganglion": {
+   "class": "sensory ganglion neuron",
+   "query": [
+    [
+     "brain_region",
+     "dorsal root ganglion"
+    ]
+   ],
+   "parts": [
+    "Soma",
+    "Axon"
+   ],
+   "pin": "A40-1",
+   "reviewed": "NMO_10077, mouse, peripheral nervous system, dorsal root ganglion"
+  },
+  "astrocyte-cortex": {
+   "class": "astrocyte",
+   "query": [
+    [
+     "brain_region",
+     "neocortex"
+    ],
+    [
+     "cell_type",
+     "astrocyte"
+    ]
+   ],
+   "glia": true,
+   "pin": "s5vimpfcwmcell2",
+   "reviewed": "NMO_189666, human, neocortex, prefrontal, Brodmann area 9, dorsomedial, white matter"
+  },
+  "astrocyte-hippocampus": {
+   "class": "hippocampal astrocyte",
+   "query": [
+    [
+     "brain_region",
+     "hippocampus"
+    ],
+    [
+     "cell_type",
+     "astrocyte"
+    ]
+   ],
+   "glia": true,
+   "pin": "Naive-195-2",
+   "reviewed": "NMO_190426, rat, hippocampus, CA1, stratum radiatum"
+  },
+  "microglia": {
+   "class": "microglial cell",
+   "query": [
+    [
+     "brain_region",
+     "neocortex"
+    ],
+    [
+     "cell_type",
+     "microglia"
+    ]
+   ],
+   "glia": true,
+   "pin": "634_55_4_066",
+   "reviewed": "NMO_301524, human, neocortex, prefrontal, Brodmann area 46, layer 4"
+  },
+  "oligodendrocyte": {
+   "class": "oligodendrocyte",
+   "query": [
+    [
+     "cell_type",
+     "Oligodendrocyte"
+    ]
+   ],
+   "glia": true,
+   "pin": "TTX_D_52",
+   "reviewed": "NMO_152388, mouse, cerebellum, cerebellar cortex, cerebellar folia"
+  },
+  "ng2": {
+   "class": "oligodendrocyte precursor (NG2) cell",
+   "query": [
+    [
+     "cell_type",
+     "Nerve/Glial proteoglycan 2 (NG2)-positive"
+    ]
+   ],
+   "glia": true,
+   "pin": "C11-processes",
+   "reviewed": "NMO_52273, mouse, cerebellum"
+  },
+  "muller": {
+   "class": "Müller glial cell",
+   "query": [
+    [
+     "cell_type",
+     "Muller"
+    ]
+   ],
+   "glia": true,
+   "pin": "cell12_ko_older_traces",
+   "reviewed": "NMO_190685, mouse, retina, inner plexiform layer"
+  }
+ },
+ "cells": {
+  "CL:0000526": {
+   "label": "Afferent neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:0000561": {
+   "label": "Amacrine cell",
+   "group": "retina-amacrine",
+   "level": "type"
+  },
+  "CL:4023039": {
+   "label": "Amygdala excitatory neuron",
+   "group": "amygdala-pyramidal",
+   "level": "type"
+  },
+  "CL:0020010": {
+   "label": "Arkypallidal neuron",
+   "group": "globus-pallidus",
+   "level": "class"
+  },
+  "CL:0000127": {
+   "label": "Astrocyte",
+   "group": "astrocyte-cortex",
+   "level": "type"
+  },
+  "CL:0002605": {
+   "label": "Astrocyte of the cerebral cortex",
+   "group": "astrocyte-cortex",
+   "level": "type"
+  },
+  "CL:0012000": {
+   "label": "Astrocyte of the forebrain",
+   "group": "astrocyte-cortex",
+   "level": "type"
+  },
+  "CL:4033050": {
+   "label": "Catecholaminergic neuron",
+   "group": "nigra-dopaminergic",
+   "level": "class"
+  },
+  "CL:4023064": {
+   "label": "Caudal ganglionic eminence derived interneuron",
+   "group": "cge-derived",
+   "level": "type"
+  },
+  "CL:4033130": {
+   "label": "Celiac ganglion CGRP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033129": {
+   "label": "Celiac ganglion PHI neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033132": {
+   "label": "Celiac ganglion SOM neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033133": {
+   "label": "Celiac ganglion SOM/CGRP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033131": {
+   "label": "Celiac ganglion SP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033128": {
+   "label": "Celiac ganglion VIP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:2000029": {
+   "label": "Central nervous system neuron",
+   "group": "cortex-l23-pyramidal",
+   "level": "class"
+  },
+  "CL:4023057": {
+   "label": "Cerebellar inhibitory GABAergic interneuron",
+   "group": "cerebellum-basket",
+   "level": "type"
+  },
+  "CL:0010012": {
+   "label": "Cerebral cortex neuron",
+   "group": "cortex-l23-pyramidal",
+   "level": "class"
+  },
+  "CL:4079000": {
+   "label": "Cervical dorsal root ganglion CGRP neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079002": {
+   "label": "Cervical dorsal root ganglion Nav1.7 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079003": {
+   "label": "Cervical dorsal root ganglion Nav1.9 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079005": {
+   "label": "Cervical dorsal root ganglion Piezo2 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079006": {
+   "label": "Cervical dorsal root ganglion RET neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079008": {
+   "label": "Cervical dorsal root ganglion TRPV1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079001": {
+   "label": "Cervical dorsal root ganglion endothelin-1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079004": {
+   "label": "Cervical dorsal root ganglion peripherin neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079007": {
+   "label": "Cervical dorsal root ganglion substance P neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4033114": {
+   "label": "Cervicothoracic ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033115": {
+   "label": "Cervicothoracic ganglion TH/NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033117": {
+   "label": "Cervicothoracic ganglion VAChT neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033116": {
+   "label": "Cervicothoracic ganglion VIP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033113": {
+   "label": "Cervicothoracic ganglion enkephalin neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:0000108": {
+   "label": "Cholinergic neuron",
+   "group": "spinal-motoneuron",
+   "level": "class"
+  },
+  "CL:4033140": {
+   "label": "Ciliary ganglion TH neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4023059": {
+   "label": "Committed oligodendrocyte precursor",
+   "group": "ng2",
+   "level": "class"
+  },
+  "CL:4023013": {
+   "label": "Corticothalamic-projecting glutamatergic cortical neuron",
+   "group": "cortex-l6-pyramidal",
+   "level": "type"
+  },
+  "CL:4030054": {
+   "label": "D1-NUDAP medium spiny neuron",
+   "group": "msn-d1",
+   "level": "class"
+  },
+  "CL:4030050": {
+   "label": "D1/D2-hybrid medium spiny neuron",
+   "group": "msn",
+   "level": "class"
+  },
+  "CL:4023062": {
+   "label": "Dentate gyrus neuron",
+   "group": "dentate-granule",
+   "level": "type"
+  },
+  "CL:0000700": {
+   "label": "Dopaminergic neuron",
+   "group": "nigra-dopaminergic",
+   "level": "class"
+  },
+  "CL:0020007": {
+   "label": "Dorso-striatal cholinergic-GABAergic neuron",
+   "group": "striatum-cholinergic",
+   "level": "type"
+  },
+  "CL:4023009": {
+   "label": "Extratelencephalic-projecting glutamatergic cortical neuron",
+   "group": "cortex-l5-pyramidal",
+   "level": "type"
+  },
+  "CL:0011005": {
+   "label": "GABAergic interneuron",
+   "group": "cortex-basket",
+   "level": "class"
+  },
+  "CL:0000617": {
+   "label": "GABAergic neuron",
+   "group": "cortex-basket",
+   "level": "class"
+  },
+  "CL:4033158": {
+   "label": "Geniculate ganglion SPARCL1 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033157": {
+   "label": "Geniculate ganglion TRPV1 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033159": {
+   "label": "Geniculate ganglion VGLUT2 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:0000125": {
+   "label": "Glial cell",
+   "group": "astrocyte-cortex",
+   "level": "class"
+  },
+  "CL:0000679": {
+   "label": "Glutamatergic neuron",
+   "group": "cortex-l23-pyramidal",
+   "level": "class"
+  },
+  "CL:4042040": {
+   "label": "Glutamatergic neuron of the basal ganglia",
+   "group": "subthalamic",
+   "level": "type"
+  },
+  "CL:4023060": {
+   "label": "Hippocampal CA1-3 neuron",
+   "group": "hippocampus-pyramidal",
+   "level": "type"
+  },
+  "CL:4023061": {
+   "label": "Hippocampal CA4 neuron",
+   "group": "hippocampus-pyramidal",
+   "level": "class"
+  },
+  "CL:0002604": {
+   "label": "Hippocampal astrocyte",
+   "group": "astrocyte-hippocampus",
+   "level": "type"
+  },
+  "CL:4033136": {
+   "label": "Inferior mesenteric ganglion SP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033135": {
+   "label": "Inferior mesenteric ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:0020003": {
+   "label": "Internal globus pallidus core projecting neuron",
+   "group": "globus-pallidus",
+   "level": "class"
+  },
+  "CL:0020004": {
+   "label": "Internal globus pallidus shell projection neuron",
+   "group": "globus-pallidus",
+   "level": "class"
+  },
+  "CL:0000099": {
+   "label": "Interneuron",
+   "group": "cortex-basket",
+   "level": "class"
+  },
+  "CL:4023008": {
+   "label": "Intratelencephalic-projecting glutamatergic cortical neuron",
+   "group": "cortex-l23-pyramidal",
+   "level": "type"
+  },
+  "CL:4033155": {
+   "label": "Jugular ganglion CGRP neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033154": {
+   "label": "Jugular ganglion SP neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033156": {
+   "label": "Jugular ganglion SPARCL1 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033152": {
+   "label": "Jugular ganglion TRPV1 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033153": {
+   "label": "Jugular ganglion TRPV2 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4023038": {
+   "label": "L6b glutamatergic cortical neuron",
+   "group": "cortex-l6-pyramidal",
+   "level": "class"
+  },
+  "CL:4023011": {
+   "label": "Lamp5 GABAergic interneuron",
+   "group": "neurogliaform",
+   "level": "type"
+  },
+  "CL:4042013": {
+   "label": "Lamp5 Lhx6 neuron",
+   "group": "neurogliaform",
+   "level": "type"
+  },
+  "CL:4033127": {
+   "label": "Lower airway ganglion ChAT/VIP neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4079011": {
+   "label": "Lumbar dorsal root ganglion CGRP neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079013": {
+   "label": "Lumbar dorsal root ganglion Nav1.7 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079014": {
+   "label": "Lumbar dorsal root ganglion Nav1.9 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079016": {
+   "label": "Lumbar dorsal root ganglion Piezo2 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079017": {
+   "label": "Lumbar dorsal root ganglion RET neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079019": {
+   "label": "Lumbar dorsal root ganglion TRPV1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079012": {
+   "label": "Lumbar dorsal root ganglion endothelin-1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079015": {
+   "label": "Lumbar dorsal root ganglion peripherin neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079018": {
+   "label": "Lumbar dorsal root ganglion substance P neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4033125": {
+   "label": "Lumbar ganglion NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033122": {
+   "label": "Lumbar ganglion SST/TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033124": {
+   "label": "Lumbar ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033123": {
+   "label": "Lumbar ganglion TH/NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033121": {
+   "label": "Lumbar ganglion VIP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4030043": {
+   "label": "Matrix D1 medium spiny neuron",
+   "group": "msn-d1",
+   "level": "class"
+  },
+  "CL:4030047": {
+   "label": "Matrix D2 medium spiny neuron",
+   "group": "msn-d2",
+   "level": "class"
+  },
+  "CL:4023063": {
+   "label": "Medial ganglionic eminence derived interneuron",
+   "group": "mge-derived",
+   "level": "type"
+  },
+  "CL:1001474": {
+   "label": "Medium spiny neuron",
+   "group": "msn",
+   "level": "type"
+  },
+  "CL:0000129": {
+   "label": "Microglial cell",
+   "group": "microglia",
+   "level": "type"
+  },
+  "CL:2000097": {
+   "label": "Midbrain dopaminergic neuron",
+   "group": "nigra-dopaminergic",
+   "level": "type"
+  },
+  "CL:4023079": {
+   "label": "Midbrain-derived inhibitory neuron",
+   "group": "cortex-basket",
+   "level": "class"
+  },
+  "CL:4033108": {
+   "label": "Middle cervical ganglion DBH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033111": {
+   "label": "Middle cervical ganglion NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033109": {
+   "label": "Middle cervical ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033110": {
+   "label": "Middle cervical ganglion TH/NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033112": {
+   "label": "Middle cervical ganglion VIP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4023188": {
+   "label": "Midget ganglion cell of retina",
+   "group": "retina-midget",
+   "level": "type"
+  },
+  "CL:0000100": {
+   "label": "Motor neuron",
+   "group": "spinal-motoneuron",
+   "level": "type"
+  },
+  "CL:0000636": {
+   "label": "Mueller cell",
+   "group": "muller",
+   "level": "type"
+  },
+  "CL:4023154": {
+   "label": "Myelinating glial cell",
+   "group": "oligodendrocyte",
+   "level": "class"
+  },
+  "CL:4023012": {
+   "label": "Near-projecting glutamatergic cortical neuron",
+   "group": "cortex-l5-pyramidal",
+   "level": "class"
+  },
+  "CL:0000540": {
+   "label": "Neuron",
+   "group": "cortex-l23-pyramidal",
+   "level": "class"
+  },
+  "CL:0012001": {
+   "label": "Neuron of the forebrain",
+   "group": "cortex-l23-pyramidal",
+   "level": "class"
+  },
+  "CL:4033149": {
+   "label": "Nodose ganglion P2X3 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033151": {
+   "label": "Nodose ganglion PVALB neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033148": {
+   "label": "Nodose ganglion TRPV1 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4033150": {
+   "label": "Nodose ganglion TRPV2 neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  },
+  "CL:4030051": {
+   "label": "Nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron",
+   "group": "msn-accumbens",
+   "level": "class"
+  },
+  "CL:4030052": {
+   "label": "Nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron",
+   "group": "msn-accumbens",
+   "level": "class"
+  },
+  "CL:0020006": {
+   "label": "OB-Dopa-GABA",
+   "group": "olfactory-periglomerular",
+   "level": "type"
+  },
+  "CL:0000750": {
+   "label": "OFF-bipolar cell",
+   "group": "retina-off-bipolar",
+   "level": "type"
+  },
+  "CL:0000749": {
+   "label": "ON-bipolar cell",
+   "group": "retina-on-bipolar",
+   "level": "type"
+  },
+  "CL:0000128": {
+   "label": "Oligodendrocyte",
+   "group": "oligodendrocyte",
+   "level": "type"
+  },
+  "CL:0002453": {
+   "label": "Oligodendrocyte precursor cell",
+   "group": "ng2",
+   "level": "type"
+  },
+  "CL:4033138": {
+   "label": "Otic ganglion VIP neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033137": {
+   "label": "Otic ganglion nNOS neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033174": {
+   "label": "Ovarian nerve plexus ganglion TH neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4023189": {
+   "label": "Parasol ganglion cell of retina",
+   "group": "retina-ganglion",
+   "level": "class"
+  },
+  "CL:4033172": {
+   "label": "Pelvic ganglion NPY/VAChT neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033167": {
+   "label": "Pelvic ganglion TH neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033168": {
+   "label": "Pelvic ganglion TH/DBH neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033169": {
+   "label": "Pelvic ganglion VAChT neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033170": {
+   "label": "Pelvic ganglion nNOS neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033173": {
+   "label": "Pelvic ganglion nNOS/VAChT neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033171": {
+   "label": "Pelvic ganglion nNOS/VIP neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:2000032": {
+   "label": "Peripheral nervous system neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:0020009": {
+   "label": "Prototypic neuron",
+   "group": "globus-pallidus",
+   "level": "class"
+  },
+  "CL:4033145": {
+   "label": "Pterygopalatine ganglion VIP neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033144": {
+   "label": "Pterygopalatine ganglion VIP/PHI neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033146": {
+   "label": "Pterygopalatine ganglion nNOS neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:0000745": {
+   "label": "Retina horizontal cell",
+   "group": "retina-horizontal",
+   "level": "type"
+  },
+  "CL:0000748": {
+   "label": "Retinal bipolar neuron",
+   "group": "retina-bipolar",
+   "level": "type"
+  },
+  "CL:0000740": {
+   "label": "Retinal ganglion cell",
+   "group": "retina-ganglion",
+   "level": "type"
+  },
+  "CL:4079020": {
+   "label": "Sacral dorsal root ganglion CGRP neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079022": {
+   "label": "Sacral dorsal root ganglion Nav1.7 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079023": {
+   "label": "Sacral dorsal root ganglion Nav1.9 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079025": {
+   "label": "Sacral dorsal root ganglion Piezo2 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079026": {
+   "label": "Sacral dorsal root ganglion RET neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079028": {
+   "label": "Sacral dorsal root ganglion TRPV1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079021": {
+   "label": "Sacral dorsal root ganglion endothelin-1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079024": {
+   "label": "Sacral dorsal root ganglion peripherin neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079027": {
+   "label": "Sacral dorsal root ganglion substance P neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4033126": {
+   "label": "Sacral ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:0000101": {
+   "label": "Sensory neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4023017": {
+   "label": "Sst GABAergic interneuron",
+   "group": "cortex-som",
+   "level": "type"
+  },
+  "CL:4023121": {
+   "label": "Sst chodl GABAergic interneuron",
+   "group": "cortex-som",
+   "level": "class"
+  },
+  "CL:0020008": {
+   "label": "Striatal cholinergic-GABAergic neuron",
+   "group": "striatum-cholinergic",
+   "level": "type"
+  },
+  "CL:4042023": {
+   "label": "Striatal pthlh-expressing interneuron",
+   "group": "striatum-interneuron",
+   "level": "class"
+  },
+  "CL:4030048": {
+   "label": "Striosomal D1 medium spiny neuron",
+   "group": "msn-d1",
+   "level": "class"
+  },
+  "CL:4030049": {
+   "label": "Striosomal D2 medium spiny neuron",
+   "group": "msn-d2",
+   "level": "class"
+  },
+  "CL:4033141": {
+   "label": "Submandibular ganglion TH cholinergic neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033142": {
+   "label": "Submandibular ganglion VIP/PHI neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4033143": {
+   "label": "Submandibular ganglion nNOS neuron",
+   "group": "autonomic",
+   "level": "class"
+  },
+  "CL:4042025": {
+   "label": "Substantia nigra dopaminergic neuron",
+   "group": "nigra-dopaminergic",
+   "level": "type"
+  },
+  "CL:4033107": {
+   "label": "Superior cervical ganglion CGRP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033103": {
+   "label": "Superior cervical ganglion NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033105": {
+   "label": "Superior cervical ganglion SST neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033102": {
+   "label": "Superior cervical ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033101": {
+   "label": "Superior cervical ganglion TH/DBH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033104": {
+   "label": "Superior cervical ganglion TH/NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033106": {
+   "label": "Superior cervical ganglion VIP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033134": {
+   "label": "Superior mesenteric ganglion SP neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:0011103": {
+   "label": "Sympathetic neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:3000002": {
+   "label": "Sympathetic noradrenergic neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4042001": {
+   "label": "TAC3-positive striatal interneuron",
+   "group": "striatum-interneuron",
+   "level": "class"
+  },
+  "CL:4023068": {
+   "label": "Thalamic excitatory neuron",
+   "group": "thalamus-relay",
+   "level": "type"
+  },
+  "CL:4079029": {
+   "label": "Thoracic dorsal root ganglion CGRP neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079031": {
+   "label": "Thoracic dorsal root ganglion Nav1.7 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079032": {
+   "label": "Thoracic dorsal root ganglion Nav1.9 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079034": {
+   "label": "Thoracic dorsal root ganglion Piezo2 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079035": {
+   "label": "Thoracic dorsal root ganglion RET neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079037": {
+   "label": "Thoracic dorsal root ganglion TRPV1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079030": {
+   "label": "Thoracic dorsal root ganglion endothelin-1 neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079033": {
+   "label": "Thoracic dorsal root ganglion peripherin neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4079036": {
+   "label": "Thoracic dorsal root ganglion substance P neuron",
+   "group": "drg",
+   "level": "class"
+  },
+  "CL:4033119": {
+   "label": "Thoracic ganglion TH neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033120": {
+   "label": "Thoracic ganglion TH/NPY neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4033118": {
+   "label": "Thoracic ganglion enkephalin neuron",
+   "group": "sympathetic",
+   "level": "class"
+  },
+  "CL:4023016": {
+   "label": "VIP GABAergic interneuron",
+   "group": "cortex-vip",
+   "level": "type"
+  },
+  "CL:4033147": {
+   "label": "Vestibular ganglion SP neuron",
+   "group": "sensory-ganglion",
+   "level": "class"
+  }
+ }
+}

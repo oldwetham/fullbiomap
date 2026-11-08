@@ -58,7 +58,38 @@
   "in": [],
   "out": []
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:311343",
+   "conceptId": null,
+   "label": "Area of insertion of right anterior cruciate ligament",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma311343"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:310914",
+   "conceptId": null,
+   "label": "Area of origin of right anterior cruciate ligament",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma310914"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "skeletal",
   "isOrgan": true,

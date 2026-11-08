@@ -201,7 +201,10 @@ function write(kind, object, result) {
 }
 
 const only = process.argv.slice(2);
-const objects = Object.keys(release.objects).filter(o => !o.startsWith('asct-b') && (!only.length || only.includes(o)));
+// The female whole-body view is disabled (2026-11-07: HRA models only some of the female organs). Its
+// converted files stay in public/models/female/ and are not rebuilt unless BIOMAP_FEMALE_BODY=1 or it is named.
+const femaleBody = process.env.BIOMAP_FEMALE_BODY === '1' || only.includes('united-female');
+const objects = Object.keys(release.objects).filter(o => !o.startsWith('asct-b') && (!only.length || only.includes(o)) && (o !== 'united-female' || femaleBody));
 const treeFile = rel('graph/hra-tree.jsonl');
 const treeEdges = new Map(fs.existsSync(treeFile) ? fs.readFileSync(treeFile, 'utf8').split('\n').filter(Boolean).map(l => { const e = JSON.parse(l); return [`${e.object}|${e.from}|${e.to}`, e]; }) : []);
 const models = fs.existsSync(rel('graph/hra-models.json')) ? JSON.parse(fs.readFileSync(rel('graph/hra-models.json'), 'utf8')) : {release: release.release, models: {}};

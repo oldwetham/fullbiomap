@@ -67,7 +67,38 @@
    "UBERON:0002813"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50125",
+   "conceptId": null,
+   "label": "Branch of anterior choroidal artery to substantia nigra",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50125"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50632",
+   "conceptId": null,
+   "label": "Peduncular branch of posterior cerebral artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50632"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "nervous",
   "isOrgan": false,

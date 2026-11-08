@@ -65,7 +65,23 @@
    "UBERON:0001723"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:53518",
+   "conceptId": null,
+   "label": "Lingual branch of glossopharyngeal nerve to postsulcal part of tongue",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma53518"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "digestive",
   "isOrgan": false,

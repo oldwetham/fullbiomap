@@ -36,6 +36,13 @@ for (const [object, m] of Object.entries(hraModels)) {
   for (const c of JSON.parse(read(`public${m.manifest}`)).concepts) { hraConceptIds.add(c.id); if (!index.has(c.id)) fail(`${object} ${c.id}`, 'HRA concept has no content file'); }
 }
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId)) fail(n.id, 'node is neither an atlas nor an HRA concept');
+// Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
+const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
+for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : []) {
+  if (!fs.existsSync(path.join(root, 'public', o.manifest))) fail(o.object, `standalone organ model ${o.manifest} missing`);
+  const node = byId.get(o.conceptId.startsWith('UBERON') ? `UBERON:${o.conceptId.slice(6)}` : `FMA:${o.conceptId.slice(3)}`);
+  if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);
+}
 
 const isOrgan = n => n.id === ORGAN || n.ancestors.includes(ORGAN);
 const mentionsWikipedia = v => /wikipedia/i.test(JSON.stringify(v));

@@ -85,7 +85,53 @@
    "FMA:24977"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:80091",
+   "conceptId": null,
+   "label": "Right inferior medial genicular nerve",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma80091"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:80093",
+   "conceptId": null,
+   "label": "Right middle genicular nerve",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma80093"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:80089",
+   "conceptId": null,
+   "label": "Right superior genicular nerve",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma80089"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "skeletal",
   "isOrgan": false,

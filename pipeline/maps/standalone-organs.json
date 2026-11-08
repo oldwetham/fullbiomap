@@ -1,0 +1,77 @@
+{
+ "_comment": "Organs opened on their own organ stage, outside any body (docs: female whole-body view disabled 2026-11-07 because HRA models only some of the female organs). Read by pipeline/11-build-graph.mjs, which writes public/models/organs/standalone.json for the app's search. `terms` are extra search words.",
+ "groups": {
+  "female": {
+   "label": "Female organs",
+   "reason": "HRA female-specific organs; no open-data complete female body exists yet, so they are shown on their own rather than inside the male body."
+  }
+ },
+ "organs": [
+  {
+   "object": "uterus-female",
+   "group": "female",
+   "label": "Uterus",
+   "terms": [
+    "womb"
+   ]
+  },
+  {
+   "object": "ovary-female-left",
+   "group": "female",
+   "label": "Left ovary",
+   "terms": [
+    "ovary",
+    "ovaries"
+   ]
+  },
+  {
+   "object": "ovary-female-right",
+   "group": "female",
+   "label": "Right ovary",
+   "terms": [
+    "ovary",
+    "ovaries"
+   ]
+  },
+  {
+   "object": "fallopian-tube-female-left",
+   "group": "female",
+   "label": "Left fallopian tube",
+   "terms": [
+    "fallopian tube",
+    "uterine tube",
+    "oviduct"
+   ]
+  },
+  {
+   "object": "fallopian-tube-female-right",
+   "group": "female",
+   "label": "Right fallopian tube",
+   "terms": [
+    "fallopian tube",
+    "uterine tube",
+    "oviduct"
+   ]
+  },
+  {
+   "object": "mammary-gland-female-left",
+   "group": "female",
+   "label": "Left breast tissue",
+   "terms": [
+    "breast",
+    "mammary gland",
+    "lactiferous"
+   ]
+  },
+  {
+   "object": "mammary-gland-female-right",
+   "group": "female",
+   "label": "Right breast tissue",
+   "terms": [
+    "breast",
+    "mammary gland",
+    "lactiferous"
+   ]
+  }
+ ]
+}

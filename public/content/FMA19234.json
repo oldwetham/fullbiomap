@@ -94,6 +94,21 @@
   {
    "rel": "continuous_with",
    "dir": "out",
+   "id": "UBERON:0000999",
+   "conceptId": "UBERON0000999",
+   "label": "Ejaculatory duct",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252FfmaON%253A0000999"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
    "id": "FMA:18255",
    "conceptId": "FMA18255",
    "label": "Epididymis",
@@ -107,21 +122,6 @@
    ],
    "alternates": [
     "UBERON0001301"
-   ]
-  },
-  {
-   "rel": "continuous_with",
-   "dir": "out",
-   "id": "FMA:19325",
-   "conceptId": null,
-   "label": "Ejaculatory duct",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma19325"
-    }
    ]
   }
  ],

@@ -64,7 +64,38 @@
    "UBERON:0000002"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:17746",
+   "conceptId": null,
+   "label": "Lumen of cervix of uterus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma17746"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:19982",
+   "conceptId": null,
+   "label": "Lumen of vagina",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma19982"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "reproductive",
   "isOrgan": false,

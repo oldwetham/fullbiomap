@@ -175,10 +175,20 @@ const labelOf = new Map();
 for (const d of defs.values()) for (const r of d.fma?.relations ?? []) if (r.label) labelOf.set(r.id, r.label);
 const olsLink = id => `https://www.ebi.ac.uk/ols4/ontologies/fma/classes/${encodeURIComponent(encodeURIComponent(`http://purl.org/sig/ont/fma/fma${id.slice(4)}`))}`;
 const merged = new Map();
-for (const file of ['graph/edges.fma.jsonl', 'graph/edges.vccf.jsonl']) {
+// An FMA id with no node of its own may be an HRA node's single FMA cross-reference (FMA:18483 right
+// uterine tube -> UBERON:0001302); use that node so the connection resolves.
+const viaXref = new Map();
+for (const [id, d] of hraDefs) if (d.fmaXrefs?.length === 1 && byId.has(id)) viaXref.set(`FMA:${d.fmaXrefs[0].slice(3)}`, id);
+const nodeIdOf = id => byId.has(id) ? id : viaXref.get(id) ?? id;
+for (const file of ['graph/edges.fma.jsonl', 'graph/edges.vccf.jsonl', 'graph/edges.hra-fma.jsonl']) {
   if (!fs.existsSync(path.join(root, file))) continue;
-  for (const e of jsonl(file)) {
-    if (!CONNECTIONS.includes(e.rel)) continue;
+  for (const raw of jsonl(file)) {
+    if (!CONNECTIONS.includes(raw.rel)) continue;
+    for (const [id, label] of Object.entries(raw.labels ?? {})) if (label) labelOf.set(id, label);
+    let [from, to] = [nodeIdOf(raw.from), nodeIdOf(raw.to)];
+    if (from === to) continue;
+    if (SYMMETRIC.has(raw.rel)) [from, to] = [from, to].sort();
+    const e = {...raw, from, to};
     const key = `${e.from}|${e.rel}|${e.to}`, m = merged.get(key) ?? {from: e.from, rel: e.rel, to: e.to, sources: []};
     if (!m.sources.some(x => x.source === e.source)) m.sources.push({source: e.source, evidence: e.evidence});
     merged.set(key, m);
@@ -263,6 +273,13 @@ for (const n of nodes) {
 }
 for (const f of fs.readdirSync(out)) if (f.endsWith('.json') && !keep.has(f)) fs.unlinkSync(path.join(out, f));
 fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ids: nodes.map(n => n.conceptId).sort()}) + '\n');
+// Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json).
+const standalone = JSON.parse(read('pipeline/maps/standalone-organs.json'));
+fs.writeFileSync(path.join(root, 'public/models/organs/standalone.json'), JSON.stringify(standalone.organs.map(o => {
+  const m = hraModels[o.object];
+  if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
+  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId};
+}), null, 1) + '\n');
 fs.writeFileSync(path.join(root, 'graph/interiors.json'), JSON.stringify(interiorReport.sort((a, b) => a.object.localeCompare(b.object)), null, 1) + '\n');
 // reports/hra.md: bodies, and which organs have interiors in each.
 if (Object.keys(hraModels).length) {

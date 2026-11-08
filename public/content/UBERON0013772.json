@@ -63,7 +63,38 @@
    "FMA:57991"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:236571",
+   "conceptId": null,
+   "label": "Lymphatic tree of left nipple",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma236571"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:236403",
+   "conceptId": null,
+   "label": "Lymphatic tree of subareolar part of fibroglandular mass of left breast",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma236403"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "integumentary",
   "isOrgan": false,

@@ -347,6 +347,41 @@ for oid in sorted(hra_ids):
     hra_lines.append(json.dumps({'id': oid, 'conceptId': cid, 'fma': f, 'uberon': urec, 'ncit': ncit.get(n_code) if n_code else None,
                                  'equivalent': equivalent, 'vessel': vessel.get(oid), 'fmaXrefs': sorted(fma_by_uberon.get(oid, []))}, ensure_ascii=False, sort_keys=True))
 (graph / 'defs.hra.jsonl').write_text('\n'.join(hra_lines) + '\n' if hra_lines else '')
+
+# Connections for HRA structures with no male equivalent (e.g. the uterus, ovaries, breast tissue):
+# FMA relations from their own FMA term, or from their single FMA cross-reference (uterus
+# UBERON:0000995 -> FMA:17558). Folded like the atlas relations above. -> graph/edges.hra-fma.jsonl
+hra_rel_lines, via = [], {}
+for oid in sorted(hra_ids):
+    cid = oid.replace(':', '')
+    if (oid.startswith('FMA:') and cid in atlas_set) or (oid.startswith('UBERON:') and len(male_by_uberon.get(oid, [])) == 1):
+        continue
+    if oid.startswith('FMA:'):
+        via[oid] = cid
+    elif len(fma_by_uberon.get(oid, [])) == 1:
+        via[oid] = fma_by_uberon[oid][0]
+missing = sorted(set(via.values()) - set(fma))
+with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+    fma.update(dict(pool.map(fetch_fma, missing)))
+hra_edges = {}
+for oid, src in sorted(via.items()):
+    f = fma.get(src)
+    if not f:
+        continue
+    for r in f['relations']:
+        if r['property'] in CONNECTIONS:
+            a, b, rel = oid, r['id'], r['property']
+        else:
+            a, b, rel = r['id'], oid, INVERSE[r['property']]
+        if rel in SYMMETRIC:
+            a, b = sorted([a, b])
+        e = hra_edges.setdefault((a, rel, b), {'from': a, 'to': b, 'rel': rel, 'source': 'FMA', 'evidence': set(), 'labels': {}})
+        e['evidence'].add(r['property'] + ('' if src == oid.replace(':', '') else f' (via FMA:{src[3:]})'))
+        e['labels'][r['id']] = r['label']
+for e in hra_edges.values():
+    counts[f'hra connection {e["rel"]}'] += 1
+    hra_rel_lines.append(json.dumps({**e, 'evidence': ', '.join(sorted(e['evidence']))}, ensure_ascii=False, sort_keys=True))
+(graph / 'edges.hra-fma.jsonl').write_text('\n'.join(sorted(hra_rel_lines)) + '\n' if hra_rel_lines else '')
 (graph / 'edges.fma.jsonl').write_text('\n'.join(sorted(set(edge_lines))) + '\n')
 
 # HRA vasculature (VCCF) branching -----------------------------------------------------

@@ -58,7 +58,23 @@
   "in": [],
   "out": []
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:35461",
+   "conceptId": null,
+   "label": "Posterior intercondylar part of right tibia",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma35461"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "skeletal",
   "isOrgan": true,

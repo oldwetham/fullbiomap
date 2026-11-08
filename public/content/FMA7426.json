@@ -66,7 +66,53 @@
    "UBERON:0002184"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "UBERON:0012065",
+   "conceptId": "UBERON0012065",
+   "label": "Lobar bronchus of left lung upper lobe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252FfmaON%253A0012065"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:68329",
+   "conceptId": null,
+   "label": "Anterior ramus of left apical segmental bronchus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma68329"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:68325",
+   "conceptId": null,
+   "label": "Apical ramus of left apical segmental bronchus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma68325"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "respiratory",
   "isOrgan": false,

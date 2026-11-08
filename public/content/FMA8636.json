@@ -62,7 +62,23 @@
    "UBERON:0004537"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:9284",
+   "conceptId": null,
+   "label": "Interlobar portion of left pulmonary artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9284"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "arterial",
   "isOrgan": false,

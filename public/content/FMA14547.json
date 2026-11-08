@@ -79,6 +79,21 @@
   {
    "rel": "continuous_with",
    "dir": "out",
+   "id": "UBERON:0001159",
+   "conceptId": "UBERON0001159",
+   "label": "Sigmoid colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252FfmaON%253A0001159"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
    "id": "FMA:14546",
    "conceptId": "FMA14546",
    "label": "Transverse colon",
@@ -92,21 +107,6 @@
    ],
    "alternates": [
     "UBERON0001157"
-   ]
-  },
-  {
-   "rel": "continuous_with",
-   "dir": "out",
-   "id": "FMA:14548",
-   "conceptId": null,
-   "label": "Sigmoid colon",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14548"
-    }
    ]
   }
  ],

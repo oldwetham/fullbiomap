@@ -259,6 +259,21 @@
   {
    "rel": "continuous_with",
    "dir": "out",
+   "id": "UBERON:0002094",
+   "conceptId": "UBERON0002094",
+   "label": "Interventricular septum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252FfmaON%253A0002094"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
    "id": "FMA:8612",
    "conceptId": "FMA8612",
    "label": "Pulmonary trunk",
@@ -290,21 +305,6 @@
    ],
    "alternates": [
     "UBERON0002078"
-   ]
-  },
-  {
-   "rel": "continuous_with",
-   "dir": "out",
-   "id": "FMA:7133",
-   "conceptId": null,
-   "label": "Interventricular septum",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7133"
-    }
    ]
   }
  ],

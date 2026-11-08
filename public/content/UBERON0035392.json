@@ -63,7 +63,59 @@
    "UBERON:0004537"
   ]
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "venous_drainage",
+   "dir": "in",
+   "id": "FMA:7202",
+   "conceptId": "FMA7202",
+   "label": "Gallbladder",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7202"
+    }
+   ],
+   "alternates": [
+    "UBERON0002110"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:14332",
+   "conceptId": "FMA14332",
+   "label": "Superior mesenteric vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14332"
+    }
+   ],
+   "alternates": [
+    "UBERON0001138"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:14329",
+   "conceptId": "FMA14329",
+   "label": "Trunk of portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14329"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "venous",
   "isOrgan": false,

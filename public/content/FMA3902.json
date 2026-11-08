@@ -150,6 +150,51 @@
    ]
   },
   {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:86047",
+   "conceptId": null,
+   "label": "Myocardium of apical zone of left ventricle",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma86047"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:86045",
+   "conceptId": null,
+   "label": "Myocardium of basal zone of left ventricle",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma86045"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:86046",
+   "conceptId": null,
+   "label": "Myocardium of mid zone of left ventricle",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma86046"
+    }
+   ]
+  },
+  {
    "rel": "branch_of",
    "dir": "out",
    "id": "FMA:3895",
@@ -165,6 +210,21 @@
    ],
    "alternates": [
     "UBERON0035422"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:3897",
+   "conceptId": null,
+   "label": "Proximal portion of circumflex branch of left coronary artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3897"
+    }
    ]
   }
  ],

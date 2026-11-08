@@ -58,7 +58,38 @@
   "in": [],
   "out": []
  },
- "connections": [],
+ "connections": [
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:311345",
+   "conceptId": null,
+   "label": "Area of insertion of left anterior cruciate ligament",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma311345"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:310916",
+   "conceptId": null,
+   "label": "Area of origin of left anterior cruciate ligament",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma310916"
+    }
+   ]
+  }
+ ],
  "ladder": {
   "system": "skeletal",
   "isOrgan": true,

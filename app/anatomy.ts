@@ -38,7 +38,7 @@ export interface ConnectionSource {name:string;license:string;url:string}
 /** One related structure: dir 'out' reads "this <rel> other", 'in' reads "other <rel> this". modeled=false means FMA names it but there is no 3D mesh. */
 export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[];/** The same structure's id in other bodies or models (e.g. its Uberon id). */alternates?:string[]}
 /** The organ a structure belongs to on the scale ladder, with the interior models that exist for it per body. */
-export interface LadderOrgan {id:string;conceptId:string;label:string;alternates?:string[];interior?:Partial<Record<Body,string[]>>}
+export interface LadderOrgan {id:string;conceptId:string;label:string;alternates?:string[];interior?:Partial<Record<Body,string[]>>;/** Tissue boards: the organ's own and its is_a ancestors' (public/tissue/*.json). */tissue?:string[]}
 export interface Ladder {system:SystemId;isOrgan:boolean;organ:LadderOrgan|null}
 /** Breadcrumb names per display system: the display system for the heart is itself called "Heart". */
 export const LADDER_SYSTEM_NAMES:Partial<Record<SystemId,string>> = {cardiac:'Cardiovascular',arterial:'Arteries',venous:'Veins'};
@@ -88,18 +88,35 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
  * (e.g. #organ/uterus-female). <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252); FMA:7088 and
  * FMA_7088 spellings are accepted. Every Phase 0-2 link (#FMA7088) still parses; #female links are mapped
  * to the main body by the page (the female whole-body view is disabled). */
-export interface HashState {body:Body;id:string;inside:boolean;part:string;organ?:string}
+export interface HashState {body:Body;id:string;inside:boolean;part:string;organ?:string;tissue?:boolean;cell?:string;organelle?:string}
 const cleanId=(s:string)=>s.replace(/[:_]/g,'');
 export function parseHash(hash:string):HashState{
  let raw='';try{raw=decodeURIComponent(hash.replace(/^#/,''));}catch{raw='';}
- const bits=raw.split('/').filter(Boolean);let body:Body='male';
- if(bits[0]==='organ'&&bits[1])return {body,id:'',inside:false,part:bits[2]?cleanId(bits[2]):'',organ:bits[1]};
+ let bits=raw.split('/').filter(Boolean);let body:Body='male';
+ // Tissue and cell levels: .../tissue[/<cell type>[/<organelle>]] after an organ (#FMA7205/tissue/CL0000653/GO0005739).
+ const t=bits.indexOf('tissue'),tissue=t>=0?{tissue:true,cell:bits[t+1]?cleanId(bits[t+1]):'',organelle:bits[t+2]?cleanId(bits[t+2]):''}:{};
+ if(t>=0)bits=bits.slice(0,t);
+ if(bits[0]==='organ'&&bits[1])return {body,id:'',inside:false,part:bits[2]?cleanId(bits[2]):'',organ:bits[1],...tissue};
  if(bits[0]==='female'||bits[0]==='male')body=bits.shift() as Body;
  const id=bits[0]?cleanId(bits[0]):'',inside=bits[1]==='inside',part=inside&&bits[2]?cleanId(bits[2]):'';
- return {body,id,inside,part};
+ return {body,id,inside,part,...tissue};
 }
-export function formatHash(h:HashState){
+export function formatHash(h:HashState):string{
+ if(h.tissue){const base=formatHash({...h,tissue:false,inside:false,part:''});return `${base||'#'}/tissue${h.cell?`/${h.cell}${h.organelle?`/${h.organelle}`:''}`:''}`;}
  if(h.organ)return `#organ/${h.organ}${h.part?`/${h.part}`:''}`;
  if(!h.id)return h.body==='female'?'#female':'';
  return `#${h.body==='female'?'female/':''}${h.id}${h.inside?`/inside${h.part?`/${h.part}`:''}`:''}`;
+}
+
+/** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, histology and FTU media. */
+export interface TissueCell {id:string;conceptId:string;label:string}
+export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[]}
+export interface TissueBoard {organ:{id:string;conceptId:string;label:string};tables:{name:string;version:string;doi:string;citation:string}[];cellCount:number;groups:{structure:string;cells:TissueCell[]}[];media:TissueMedia[]}
+/** Merges an organ's own board with its is_a ancestors' (the left kidney shows the kidney's). */
+export function mergeBoards(boards:TissueBoard[]):TissueBoard|null{
+ if(!boards.length)return null;
+ const groups=new Map<string,Map<string,TissueCell>>(),media=new Map<string,TissueMedia>(),tables=new Map<string,TissueBoard['tables'][number]>();
+ for(const b of boards){for(const g of b.groups){const m=groups.get(g.structure)??new Map();for(const c of g.cells)m.set(c.id,c);groups.set(g.structure,m);}for(const x of b.media)media.set(x.url,x);for(const t of b.tables)tables.set(t.name,t);}
+ const merged=[...groups].map(([structure,cells])=>({structure,cells:[...cells.values()]})).sort((a,b)=>b.cells.length-a.cells.length||a.structure.localeCompare(b.structure));
+ return {organ:boards[0].organ,tables:[...tables.values()],cellCount:new Set(merged.flatMap(g=>g.cells.map(c=>c.id))).size,groups:merged,media:[...media.values()]};
 }

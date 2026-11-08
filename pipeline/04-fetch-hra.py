@@ -69,6 +69,37 @@ for name, version in sorted(pinned.items()):
     for a in assets:
         files[f'{RELEASE}/{name}/{a.rsplit("/", 1)[1]}'] = a
 
+# Phase 4: the organ ASCT+B tables (cell types; CSV) and the 2D functional tissue unit illustrations
+# (SVG + crosswalk), pinned to the same release. Crosswalk-only tables are skipped except the 2D one.
+ASCT_SKIP = re.compile(r'(crosswalk|^blood-vasculature$|^lymph-vasculature$|^anatomical-systems$)')
+for kind, key, want in (('asct-b', 'tables', ('.csv',)), ('2d-ftu', 'ftus', ('.svg', '.csv'))):
+    release[key] = {}
+    for name, version in sorted(re.findall(rf'{kind}/([a-z0-9-]+)/(v[0-9.]+)', objects_yaml.read_text())):
+        if kind == 'asct-b' and ASCT_SKIP.search(name):
+            continue
+        record_json = get_json(f'https://lod.humanatlas.io/{kind}/{name}/latest')
+        record = json.dumps(record_json)
+        assets = sorted({a for a in re.findall(rf'{re.escape(CDN)}/{kind}/{re.escape(name)}/[^"\s]+/assets/[^"\s]+', record) if a.endswith(want)})
+        if not assets:
+            sys.exit(f'04-fetch-hra: no assets listed for {kind}/{name}')
+        wrong = [a for a in assets if f'/{name}/{version}/' not in a]
+        if wrong:
+            sys.exit(f'04-fetch-hra: {kind}/{name} is pinned to {version} in HRA {RELEASE} but the catalog now lists {wrong[0]}')
+        meta = {}
+        def collect(x):
+            if isinstance(x, dict):
+                for k, v in x.items():
+                    if k in ('citation', 'doi') and isinstance(v, str) and k not in meta:
+                        meta[k] = v
+                    collect(v)
+            elif isinstance(x, list):
+                for y in x:
+                    collect(y)
+        collect(record_json)
+        release[key][name] = {'version': version, 'files': [a.rsplit('/', 1)[1] for a in assets], 'doi': meta.get('doi'), 'citation': meta.get('citation')}
+        for a in assets:
+            files[f'{RELEASE}/{kind}/{name}/{a.rsplit("/", 1)[1]}'] = a
+
 RELEASE_FILE.write_text(json.dumps(release, indent=1) + '\n')
 lines = []
 for i, (rel, url) in enumerate(sorted(files.items()), 1):

@@ -11,20 +11,398 @@
   "CL": "0000188"
  },
  "geometry": {
-  "model": "/models/cell/skeletal-muscle-fiber.json",
+  "model": "/models/cell/profile-cl0000188.json",
   "shape": {
-   "family": "skeletal-muscle-fiber",
-   "label": "Skeletal muscle fiber",
-   "variant": "skeletal-muscle-fiber",
+   "family": "profile",
+   "label": "Cell of skeletal muscle",
+   "variant": "profile-cl0000188",
    "apical": null,
    "nucleus": true,
    "from": {
     "id": "CL:0000188",
-    "label": "cell of skeletal muscle"
+    "label": "morphology profile"
    },
-   "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles.",
-   "caption": "A simplified shape for the skeletal muscle fiber family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · up to 100 µm across, up to 30 cm long",
+   "base": "skeletal-muscle-fiber",
+   "baseLabel": "Skeletal muscle fiber",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 28,
+    "fields": [
+     "shape",
+     "size",
+     "nucleus_count",
+     "nucleus_position",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000188/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "long cylinder",
+    "quote": "Because skeletal muscle cells are long and cylindrical, they are commonly referred to as muscle fibers.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "shape",
+    "value": "long cylinder",
+    "quote": "Skeletal muscle is voluntary and responds to conscious stimuli. The cells are striated and multinucleated appearing as long, unbranched cylinders.",
+    "source": {
+     "section": "4.4 Muscle Tissue and Motion",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "up to 100 µm diameter",
+    "quote": "Skeletal muscle fibers can be quite large for human cells, with diameters up to 100 μm and lengths up to 30 cm (11.8 in) in the Sartorius of the upper leg.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "up to 300000 µm length (30 cm)",
+    "quote": "Each skeletal muscle fiber is a skeletal muscle cell. These cells are incredibly large, with diameters of up to 100 µm and lengths of up to 30 cm.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "many",
+    "quote": "Skeletal muscle fibers are long, multinucleated cells.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "many",
+    "quote": "This is why skeletal muscle cells are multinucleate, as the nucleus of each contributing myoblast remains intact in the mature skeletal muscle cell.",
+    "source": {
+     "section": "10.9 Development and Regeneration of Muscle Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "peripheral",
+    "quote": "Skeletal | Long cylindrical fiber, striated, many peripherally located nuclei",
+    "source": {
+     "section": "4.4 Muscle Tissue and Motion",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "peripheral",
+    "quote": "Skeletal muscle has striations across its cells caused by the arrangement of the contractile proteins actin and myosin. These muscle cells are relatively long and have multiple nuclei along the edge of the cell.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "myofibrils: 3 abundant",
+    "quote": "Because myofibrils are only approximately 1.2 μm in diameter, hundreds to thousands (each with thousands of sarcomeres) can be found inside one muscle fiber.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "myofibrils: long cylinders about 1.2 µm in diameter, parallel to the fiber and running its entire length",
+    "quote": "Within each muscle fiber are myofibrils—long cylindrical structures that lie parallel to the muscle fiber. Myofibrils run the entire length of the muscle fiber, and because they are only approximately 1.2 µm in diameter, hundreds to thousands can be found inside one muscle fiber.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "sarcomeres: repeating units about 2 µm long, bordered by Z-discs that anchor the actin filaments",
+    "quote": "Each sarcomere is approximately 2 μm in length with a three-dimensional cylinder-like arrangement and is bordered by structures called Z-discs (also called Z-lines, because pictures are two-dimensional), to which the actin myofilaments are anchored",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "striations: alternating dark A bands and light I bands along aligned myofibrils",
+    "quote": "Dark A bands and light I bands repeat along myofibrils, and the alignment of myofibrils in the cell causes the entire cell to appear striated or banded.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "myofilaments: thin (actin) and thick (myosin) filaments arranged in sarcomeres",
+    "quote": "the functional unit of a skeletal muscle fiber is the sarcomere, a highly organized arrangement of the contractile myofilaments actin (thin filament) and myosin (thick filament), along with other support proteins.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "desmin intermediate filaments linking neighbouring myofibrils at the Z discs",
+    "quote": "Myofibrils are connected to each other by intermediate, or desmin, filaments that attach to the Z disc.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "T tubules: periodic invaginations of the sarcolemma",
+    "quote": "For the action potential to reach the membrane of the SR, there are periodic invaginations in the sarcolemma, called T-tubules (“T” stands for “transverse”).",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "T tubules located at the junction of the A and I bands",
+    "quote": "The T tubules are only found at the Z discs, whereas in skeletal muscle, they are found at the junction of the A and I bands.",
+    "source": {
+     "section": "19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "Z discs: dense lines through the middle of each I band that mark the borders of sarcomeres",
+    "quote": "Each I band has a dense line running vertically through the middle called a Z disc or Z line. The Z discs mark the border of units called sarcomeres, which are the functional units of skeletal muscle.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "H zone: slightly lighter central region of each A band",
+    "quote": "This central region of the A band looks slightly lighter than the rest of the A band and is called the H zone.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "M line: line at the middle of the H zone where accessory proteins hold the thick filaments together",
+    "quote": "The middle of the H zone has a vertical line called the M line, at which accessory proteins hold together thick filaments.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "triads: a T tubule with sarcoplasmic reticulum membranes on either side, surrounding a myofibril",
+    "quote": "The arrangement of a T-tubule with the membranes of SR on either side is called a triad (). The triad surrounds the cylindrical structure called a myofibril, which contains actin and myosin.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "sarcoplasmic reticulum: specialized smooth ER that stores, releases and retrieves calcium ions",
+    "quote": "the specialized smooth endoplasmic reticulum, which stores, releases, and retrieves calcium ions (Ca++) is called the sarcoplasmic reticulum (SR)",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "neuromuscular junction: every fiber is innervated by a motor neuron",
+    "quote": "Every skeletal muscle fiber in every skeletal muscle is innervated by a motor neuron at the NMJ.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "motor end plate with junctional folds of the sarcolemma",
+    "quote": "The motor end plate possesses junctional folds—folds in the sarcolemma that create a large surface area for the neurotransmitter to bind to receptors.",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "endomysium: thin sheath of collagen and reticular fibers around each fiber",
+    "quote": "Inside each fascicle, each muscle fiber is encased in a thin connective tissue layer of collagen and reticular fibers called the endomysium.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Having many nuclei gives the fiber many copies of its genes, so it can make the large amounts of proteins and enzymes that contraction needs.",
+    "quote": "Multiple nuclei mean multiple copies of genes, permitting the production of the large amounts of proteins and enzymes needed for muscle contraction.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because its myofibrils attach to the cell membrane at their ends, their shortening shortens the whole fiber.",
+    "quote": "They attach to the sarcolemma at their ends, so that as myofibrils shorten, the entire muscle cell contracts",
+    "source": {
+     "section": "38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "T tubules carry the action potential into the interior of the fiber, where it opens calcium channels in the adjacent sarcoplasmic reticulum and releases the calcium that starts contraction.",
+    "quote": "The T-tubules carry the action potential into the interior of the cell, which triggers the opening of calcium channels in the membrane of the adjacent SR, causing Ca++ to diffuse out of the SR and into the sarcoplasm. It is the arrival of Ca++ in the sarcoplasm that initiates contraction",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because the fiber can be up to 100 µm wide, T tubules bring the surface membrane close to the sarcoplasmic reticulum inside the cell.",
+    "quote": "You will recall that the diameter of a muscle fiber can be up to 100 μm, so these T-tubules ensure that the membrane can get close to the SR in the sarcoplasm.",
+    "source": {
+     "section": "10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

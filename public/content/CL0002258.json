@@ -14,16 +14,217 @@
   "CL": "0002258"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/profile-cl0002258.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "profile",
+   "label": "Thyroid follicular cell",
+   "variant": "profile-cl0002258",
    "apical": null,
    "nucleus": true,
-   "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "from": {
+    "id": "CL:0002258",
+    "label": "morphology profile"
+   },
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "generic",
+   "baseLabel": "Generic cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 13,
+    "fields": [
+     "shape",
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002258/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002258"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: squamous when inactive, cuboidal or columnar when active",
+    "quote": "An epithelial cell that is part of the thyroid follicle epithelium, with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity.",
+    "source": {
+     "section": "CL:0002258 thyroid follicular cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "microvilli",
+    "quote": "Its apical surface is lined with microvilli projecting into the colloid-filled lumen",
+    "source": {
+     "section": "CL:0002258 thyroid follicular cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "colloid (the sticky fluid filling the follicle's central cavity, which a wall of follicle cells surrounds)",
+    "quote": "The follicles are made up of a central cavity filled with a sticky fluid called colloid. Surrounded by a wall of epithelial follicle cells, the colloid is the center of thyroid hormone production",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "thyroglobulin (glycoprotein the follicle cells secrete into the colloid)",
+    "quote": "Hormones are produced in the colloid when atoms of the mineral iodine attach to a glycoprotein, called thyroglobulin, that is secreted into the colloid by the follicle cells.",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its shape tracks its hormonal activity, ranging from squamous when the cell is inactive to cuboidal or columnar when it is active.",
+    "quote": "with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity.",
+    "source": {
+     "section": "CL:0002258 thyroid follicular cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "With microvilli on its apical surface projecting into the colloid-filled lumen, the cell synthesizes, stores and secretes thyroxine (T4) and triiodothyronine (T3), releasing them into the blood in response to TSH.",
+    "quote": "Its apical surface is lined with microvilli projecting into the colloid-filled lumen, where it synthesizes, stores, and secretes the thyroid hormones thyroxine (T4) and triiodothyronine (T3), releasing them into the bloodstream in response to thyroid-stimulating hormone (TSH).",
+    "source": {
+     "section": "CL:0002258 thyroid follicular cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Binding of TSH to its receptors in the follicle cells makes them actively transport iodide ions across their cell membrane, from the blood into the cytosol.",
+    "quote": "Binding of TSH to its receptors in the follicle cells of the thyroid gland causes the cells to actively transport iodide ions (I–) across their cell membrane, from the bloodstream into the cytosol.",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because they actively transport dietary iodide inward, follicle cells concentrate it to about 30 times its level in the blood.",
+    "quote": "Iodides obtained from the diet are actively transported into follicle cells resulting in a concentration that is approximately 30 times higher than in blood.",
+    "source": {
+     "section": "37.3 Regulation of Body Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Iodide ions move to the lumen of the follicle cells bordering the colloid, where they are oxidized to iodine that passes through the cell membrane into the colloid.",
+    "quote": "Iodide ions then move to the lumen of the follicle cells that border the colloid. There, the ions undergo oxidation (their negatively charged electrons are removed). The oxidation of two iodide ions (2 I–) results in iodine (I2), which passes through the follicle cell membrane into the colloid.",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Follicle cells secrete the glycoprotein thyroglobulin into the colloid, where iodine is attached to it to form the thyroid hormones.",
+    "quote": "Hormones are produced in the colloid when atoms of the mineral iodine attach to a glycoprotein, called thyroglobulin, that is secreted into the colloid by the follicle cells.",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When TSH stimulates them, follicle cells take colloid back in by endocytosis, and lysosomal enzymes break the thyroglobulin apart to free T3 and T4, which diffuse out across the cell membrane into the blood.",
+    "quote": "TSH stimulates endocytosis of colloid back into the follicle cells. There, lysosomal enzymes break apart the thyroglobulin colloid, releasing free T3 and T4, which diffuse across the follicle cell membrane and enter the bloodstream.",
+    "source": {
+     "section": "17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Thyroid follicle cells make the iodine-containing hormones thyroxine (T4, four iodine atoms) and triiodothyronine (T3, three iodine atoms).",
+    "quote": "Thyroid follicle cells synthesize the hormone thyroxine, which is also known as T4 because it contains four atoms of iodine, and triiodothyronine, also known as T3 because it contains three atoms of iodine.",
+    "source": {
+     "section": "37.5 Endocrine Glands",
+     "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "TSH from the anterior pituitary stimulates follicle cells to release their stored T3 and T4.",
+    "quote": "Follicle cells are stimulated to release stored T3 and T4 by thyroid stimulating hormone (TSH), which is produced by the anterior pituitary.",
+    "source": {
+     "section": "37.5 Endocrine Glands",
+     "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

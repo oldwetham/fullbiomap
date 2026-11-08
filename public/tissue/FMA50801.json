@@ -63,18 +63,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -191,19 +206,31 @@
      "id": "CL:0000065",
      "conceptId": "CL0000065",
      "label": "Ependymal cell",
-     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "model": "/models/cell/profile-cl0000065.json",
      "shape": {
-      "family": "cube-epithelial",
-      "label": "Cube-shaped epithelial cell",
-      "variant": "cube-epithelial-cell-cilia",
+      "family": "profile",
+      "label": "Ependymal cell",
+      "variant": "profile-cl0000065",
       "apical": "cilia",
       "nucleus": true,
       "from": {
        "id": "CL:0000065",
-       "label": "ependymal cell"
+       "label": "morphology profile"
       },
-      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer.",
-      "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "cube-epithelial",
+      "baseLabel": "Cube-shaped epithelial cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -258,7 +285,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -661,18 +697,32 @@
      "id": "CL:0000576",
      "conceptId": "CL0000576",
      "label": "Monocyte",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000576.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Monocyte",
+      "variant": "profile-cl0000576",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000576",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 12–20 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -690,7 +740,15 @@
        "id": "CL:0000738",
        "label": "leukocyte"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the round immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -1114,19 +1172,31 @@
      "id": "CL:0000065",
      "conceptId": "CL0000065",
      "label": "Ependymal cell",
-     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "model": "/models/cell/profile-cl0000065.json",
      "shape": {
-      "family": "cube-epithelial",
-      "label": "Cube-shaped epithelial cell",
-      "variant": "cube-epithelial-cell-cilia",
+      "family": "profile",
+      "label": "Ependymal cell",
+      "variant": "profile-cl0000065",
       "apical": "cilia",
       "nucleus": true,
       "from": {
        "id": "CL:0000065",
-       "label": "ependymal cell"
+       "label": "morphology profile"
       },
-      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer.",
-      "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "cube-epithelial",
+      "baseLabel": "Cube-shaped epithelial cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -4746,19 +4816,31 @@
      "id": "CL:0000065",
      "conceptId": "CL0000065",
      "label": "Ependymal cell",
-     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "model": "/models/cell/profile-cl0000065.json",
      "shape": {
-      "family": "cube-epithelial",
-      "label": "Cube-shaped epithelial cell",
-      "variant": "cube-epithelial-cell-cilia",
+      "family": "profile",
+      "label": "Ependymal cell",
+      "variant": "profile-cl0000065",
       "apical": "cilia",
       "nucleus": true,
       "from": {
        "id": "CL:0000065",
-       "label": "ependymal cell"
+       "label": "morphology profile"
       },
-      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer.",
-      "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "cube-epithelial",
+      "baseLabel": "Cube-shaped epithelial cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {

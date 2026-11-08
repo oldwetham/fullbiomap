@@ -21,8 +21,120 @@
     "label": "dendritic cell"
    },
    "note": "Dendritic cells are named for their long, branching processes.",
-   "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+   "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+   "profile": {
+    "status": "drafted",
+    "claims": 6,
+    "fields": [
+     "special",
+     "function"
+    ],
+    "drawn": false
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000451/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000451"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "special",
+    "value": "class II MHC molecules",
+    "quote": "Class II | Dendritic | Yes, in tissues | Brings antigens to regional lymph nodes",
+    "source": {
+     "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Living in tissues, it takes up and processes antigens and carries them to lymph nodes to activate T cells and start an immune response.",
+    "quote": "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.",
+    "source": {
+     "section": "CL:0000451 dendritic cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000451",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It can engulf and kill pathogens by phagocytosis, but its main job is to carry their antigens to the regional draining lymph nodes.",
+    "quote": "Dendritic cells also kill pathogens by phagocytosis (see ), but their major function is to bring antigens to regional draining lymph nodes.",
+    "source": {
+     "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In the gut lining it opens the tight junctions between epithelial cells and pushes probes into the lumen to sample microbial antigens, then carries them to nearby lymphoid follicles for T cells to inspect.",
+    "quote": "Dendritic cells open the tight junctions between epithelial cells and extend probes into the lumen to evaluate the microbial antigens. The dendritic cells with antigens then travel to neighboring lymphoid follicles in the mucosa where T cells inspect for antigens.",
+    "source": {
+     "section": "23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It processes antigen material and sits in the skin (as Langerhans cells) and in the linings of the nose, lungs, stomach and intestines.",
+    "quote": "Dendritic cells are immune cells that process antigen material; they are present in the skin (Langerhans cells) and the lining of the nose, lungs, stomach, and intestines.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It is the main antigen-presenting cell of the mucosal immune system; B cells and macrophages play only minor roles there.",
+    "quote": "APCs of the mucosal immune system are primarily dendritic cells, with B cells and macrophages having minor roles.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

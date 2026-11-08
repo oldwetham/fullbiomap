@@ -9,16 +9,94 @@
   "CL": "0002376"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/profile-cl0002376.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "profile",
+   "label": "Non-myelinating Schwann cell",
+   "variant": "profile-cl0002376",
    "apical": null,
    "nucleus": true,
-   "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "from": {
+    "id": "CL:0002376",
+    "label": "morphology profile"
+   },
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "generic",
+   "baseLabel": "Generic cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 4,
+    "fields": [
+     "shape",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002376/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002376"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: sheath around multiple small-diameter axons",
+    "quote": "A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.",
+    "source": {
+     "section": "CL:0002376 non-myelinating Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002376",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "basal lamina",
+    "quote": "The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.",
+    "source": {
+     "section": "CL:0002376 non-myelinating Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002376",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It ensheaths several small-diameter axons at once, so a single cell encloses a group of thin axons in the peripheral nervous system.",
+    "quote": "A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.",
+    "source": {
+     "section": "CL:0002376 non-myelinating Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002376",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It is embedded among axons with only minimal extracellular space separating it from their membranes, so it lies in close contact with them.",
+    "quote": "The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.",
+    "source": {
+     "section": "CL:0002376 non-myelinating Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002376",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

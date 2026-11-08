@@ -11,16 +11,172 @@
   "CL": "0002573"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/profile-cl0002573.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "profile",
+   "label": "Schwann cell",
+   "variant": "profile-cl0002573",
    "apical": null,
    "nucleus": true,
-   "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "from": {
+    "id": "CL:0002573",
+    "label": "morphology profile"
+   },
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "generic",
+   "baseLabel": "Generic cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 9,
+    "fields": [
+     "shape",
+     "nucleus_position",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002573/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002573"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: sheath wrapped around a single axon segment",
+    "quote": "Oligodendrocytes have processes that reach out to multiple axon segments, whereas the entire Schwann cell surrounds just one axon segment.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "peripheral",
+    "quote": "For Schwann cells, the outermost layer of the cell membrane contains cytoplasm and the nucleus of the cell as a bulge on one side of the myelin sheath.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "myelin sheath",
+    "quote": "Outside the plasma membrane of the axon is the myelin sheath, which is composed of the tightly wrapped plasma membrane of a Schwann cell.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "myelin layers: the cell wraps around the axon several times, with little to no cytoplasm between the layers",
+    "quote": "The glial cell is wrapped around the axon several times with little to no cytoplasm between the glial cell layers.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "outer bulge on one side of the myelin sheath holding the cytoplasm and nucleus",
+    "quote": "For Schwann cells, the outermost layer of the cell membrane contains cytoplasm and the nucleus of the cell as a bulge on one side of the myelin sheath.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The Schwann cell insulates axons in the peripheral nervous system by covering them with myelin.",
+    "quote": "The second type of glial cell is the Schwann cell, which insulate axons with myelin in the periphery.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because the entire Schwann cell surrounds the axon, each Schwann cell provides myelin for only one axon.",
+    "quote": "This is distinctive from the PNS where a single Schwann cell provides myelin for only one axon as the entire Schwann cell surrounds the axon.",
+    "source": {
+     "section": "35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Schwann cells wrap axons of the peripheral nervous system, either myelinating them or simply ensheathing them.",
+    "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+    "source": {
+     "section": "CL:0002573 Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002573",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its myelin is a lipid-rich sheath around the axon that helps electrical signals travel along the axon.",
+    "quote": "Myelin is a lipid-rich sheath that surrounds the axon and by doing so creates a myelin sheath that facilitates the transmission of electrical signals along the axon.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

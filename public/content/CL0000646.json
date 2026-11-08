@@ -9,20 +9,90 @@
   "CL": "0000646"
  },
  "geometry": {
-  "model": "/models/cell/cube-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000646.json",
   "shape": {
-   "family": "cube-epithelial",
-   "label": "Cube-shaped epithelial cell",
-   "variant": "cube-epithelial-cell",
+   "family": "profile",
+   "label": "Basal cell",
+   "variant": "profile-cl0000646",
    "apical": null,
    "nucleus": true,
    "from": {
     "id": "CL:0000646",
-    "label": "basal cell"
+    "label": "morphology profile"
    },
-   "note": "Basal cells of layered epithelia are low, cube-like cells.",
-   "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the cube-shaped epithelial cell family · size not stated",
+   "base": "cube-epithelial",
+   "baseLabel": "Cube-shaped epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 3,
+    "fields": [
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000646/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000646"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "special",
+    "value": "keratin (cytokeratin intermediate filaments)",
+    "quote": "contain cytokeratin intermediate filament",
+    "source": {
+     "section": "CL:0000646 basal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000646",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Undifferentiated, with little cytoplasm and few organelles, the basal cell is a stem cell that divides by mitosis to give rise to other epithelial cell types.",
+    "quote": "Undifferentiated; mitotic stem cell for other epithelial cell types; rounded or elliptical with little cytoplasm and few organelles",
+    "source": {
+     "section": "CL:0000646 basal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000646",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In the epidermis, basal cells form a single layer of stem cells that constantly divide by mitosis, and every keratinocyte comes from them.",
+    "quote": "A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis. All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

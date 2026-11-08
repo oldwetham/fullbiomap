@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {shapeOf} from './_cell-families.mjs';
+import {PROFILES, shapeOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -75,6 +75,32 @@ const cellTerms = new Map(fs.readFileSync(path.join(root, 'graph/defs.cells.json
 // Independent of the family map: Cell Ontology's own word that a cell type has no nucleus.
 const ontologySaysNoNucleus = id => { const d = cellTerms.get(id); return !!d && ((d.ancestors ?? []).includes('CL:0000225') || /\b(lacks? a nucleus|non-nucleated|anucleate|enucleated?)\b/i.test(d.definition ?? '')); };
 let cellShapesChecked = 0;
+// Morphology profiles (content/CL_<n>/morphology.md): every claim quotes one sentence from an allowed CC BY source, with
+// its section, link, licence and citation (OpenStax with its "Access for free at" line). Step 09 checks each quote is
+// word for word in its source; this step reads only committed files.
+const PROFILE_FIELDS = ['shape', 'size', 'nucleus_count', 'nucleus_shape', 'nucleus_position', 'nucleus_size', 'surface', 'granules', 'organelle', 'special', 'function'];
+const PROFILE_PARTS = [['surface', /microvill|brush border/i, 'microvillus'], ['surface', /stereocilia/i, 'stereocilium'], ['surface', /^(motile cilia|cilia|primary cilium)$/i, 'cilium'], ['surface', /flagellum/i, 'sperm-flagellum'],
+  ['surface', /pseudopod/i, 'pseudopodium'], ['surface', /ruffled border/i, 'ruffle'], ['surface', /foot processes|long processes/i, 'cell-projection'], ['special', /zona pellucida/i, 'egg-coat'],
+  ['special', /acrosom/i, 'acrosome'], ['special', /outer segment/i, 'outer-segment'], ['special', /intercalated dis/i, 'intercalated-disc'], ['special', /\bt[- ]?tubul/i, 't-tubule'],
+  ['special', /keratin/i, 'intermediate-filament'], ['special', /intracellular canalicul/i, 'intracellular-canaliculus']];
+const PROFILE_SOURCES = /^(openstax-ap2e|openstax-bio2e)\/[\w.-]+\.txt$/;
+let profileClaims = 0;
+for (const [id, p] of Object.entries(PROFILES)) {
+  const where = p.file;
+  if (where !== `content/${id.replace(':', '_')}/morphology.md`) fail(where, `profile id ${id} does not match its folder`);
+  if (!cellTerms.has(id)) fail(where, `${id} is not a Cell Ontology term from step 06`);
+  if (!['drafted', 'reviewed', 'verified'].includes(p.status)) fail(where, `bad status ${p.status}`);
+  if (p.license !== 'CC BY 4.0' || !p.attribution?.trim() || !p.method?.trim()) fail(where, 'needs license CC BY 4.0, attribution and method');
+  if (!p.sources?.length || p.sources.some(s => !s.name || !s.citation || s.license !== 'CC BY 4.0' || !s.url || (/openstax/i.test(s.name) && !/^Access for free at https:\/\/openstax\.org\//.test(s.access ?? '')))) fail(where, 'each source needs name, citation, CC BY 4.0, url, and OpenStax its "Access for free at" line');
+  if (/wikipedia/i.test(JSON.stringify(p))) fail(where, 'Wikipedia text or source is not allowed');
+  for (const [i, c] of p.claims.entries()) {
+    profileClaims++;
+    const s = c.source ?? {}, own = s.file === `cell-ontology/${id.replace(':', '_')}.txt`;
+    if (!PROFILE_FIELDS.includes(c.field) || !c.value?.trim() || !c.quote?.trim() || c.quote.length > 300) fail(where, `claim ${i}: needs a known field, a value and a quote of at most 300 characters`);
+    if (!PROFILE_SOURCES.test(s.file ?? '') && !own) fail(where, `claim ${i}: ${s.file} is not an allowed source (OpenStax A&P 2e or Biology 2e, or this cell type's Cell Ontology definition)`);
+    if (!s.section || !s.url || s.license !== 'CC BY 4.0' || !s.citation || (!own && !/^Access for free at /.test(s.access ?? ''))) fail(where, `claim ${i}: source needs section, url, CC BY 4.0, citation and (OpenStax) its access line`);
+  }
+}
 const attributionText = fs.readFileSync(path.join(root, 'public/ATTRIBUTION.md'), 'utf8');
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId) && !CELL_SCALES.has(n.scale)) fail(n.id, 'node is neither an atlas nor an HRA concept');
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
@@ -125,6 +151,12 @@ for (const n of nodes) {
       if (n.geometry.shape?.family === 'reconstruction' && (!rec?.nmoId || rec.license !== 'CC BY 4.0' || !rec.paper?.citation || !rec.page || !/NeuroMorpho\.Org \(RRID:SCR_002145; Tecuatl C/.test(rec.attribution ?? '')))
         fail(n.id, 'reconstruction needs its NeuroMorpho ID, page, original paper, CC BY 4.0 and the NeuroMorpho.Org citations');
       if (rec?.nmoId && !attributionText.includes(rec.nmoId)) fail(n.id, `${rec.nmoId} is not credited in public/ATTRIBUTION.md`);
+      // A model drawn from a morphology profile draws what the profile states it has.
+      if (PROFILES[n.id] && n.morphology?.claims !== PROFILES[n.id].claims.length) fail(n.id, 'cell type with a morphology profile does not carry it; rerun step 11');
+      if (n.geometry.shape?.family === 'profile') {
+        const prof = PROFILES[n.id], drawn = new Set(m.palette.map(x => x.id));
+        for (const c of prof?.claims ?? []) for (const [field, rx, part] of PROFILE_PARTS) if (c.field === field && rx.test(c.value) && !drawn.has(part)) fail(n.id, `profile states ${field} "${c.value}" but ${n.geometry.model} draws no ${part}`);
+      }
     }
   }
   if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');
@@ -135,11 +167,12 @@ for (const n of nodes) {
   if (requirePath(`/content/${n.conceptId}.json`, `graph node ${n.id}`, 'content file'))
     try { served = JSON.parse(read(`public/content/${n.conceptId}.json`)); } catch { fail(n.id, 'served content file is not valid JSON'); }
   if (served && (served.id !== n.id || 'ancestors' in served)) fail(n.id, 'served file does not match node');
+  if (served && PROFILES[n.id] && served.morphology?.claims?.length !== PROFILES[n.id].claims.length) fail(n.id, 'served file lacks its morphology profile; rerun step 11');
   // What the app opens from this file: organ interiors (this body's and the ladder organ's), the cell model, tissue boards.
   for (const [where, urls] of [...Object.entries(served?.geometry?.interior ?? {}), ...Object.entries(served?.ladder?.organ?.interior ?? {}).map(([k, v]) => [`ladder ${k}`, v])])
     for (const u of urls) requireManifest(u, `${n.conceptId}.json ${where} interior`);
   if (served?.geometry?.model) requireManifest(served.geometry.model, `${n.conceptId}.json model`);
-  for (const t of served?.ladder?.organ?.tissue ?? []) requirePath(t, `${n.conceptId}.json tissue board`, 'tissue board');
+  for (const t of [...(served?.ladder?.organ?.tissue ?? []), ...(served?.ladder?.board?.tissue ?? [])]) requirePath(t, `${n.conceptId}.json tissue board`, 'tissue board');
   for (const c of served?.connections ?? []) {
     const where = `connection ${c.rel} ${c.id}`;
     if (!CONNECTIONS.includes(c.rel) || !['in', 'out'].includes(c.dir)) fail(n.id, `${where}: bad relation or direction`);
@@ -237,6 +270,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Organs (${ORGAN} Organ and its is_a descendants): ${organs}`,
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
   `- 3D cells: ${cellModels.size} models; ${cellShapesChecked} cell types checked against the shape rules, none drawing a nucleus where its family or Cell Ontology says it has none`,
+  `- Morphology profiles: ${Object.keys(PROFILES).length} cell types, ${profileClaims} claims, each quoting a CC BY source (${Object.values(PROFILES).filter(p => p.status === 'drafted').length} unreviewed); failed claims are listed in reports/morphology-check.md`,
   `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,
   `- Validation errors: ${errors.length}`, '',
   '## Edges by relation', '',

@@ -21,18 +21,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -51,43 +66,81 @@
        "label": "dendritic cell"
       },
       "note": "Dendritic cells are named for their long, branching processes.",
-      "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
      "label": "Mast cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000097.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Mast cell",
+      "variant": "profile-cl0000097",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000097",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -109,18 +162,30 @@
      "id": "CL:0000786",
      "conceptId": "CL0000786",
      "label": "Plasma cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000786.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Plasma cell",
+      "variant": "profile-cl0000786",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000786",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "organelle",
+        "special"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -226,18 +291,34 @@
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -307,15 +388,30 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -371,15 +467,30 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

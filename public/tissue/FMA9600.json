@@ -315,15 +315,30 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

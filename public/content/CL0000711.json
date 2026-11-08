@@ -19,8 +19,45 @@
    "apical": null,
    "nucleus": true,
    "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+   "profile": {
+    "status": "drafted",
+    "claims": 1,
+    "fields": [
+     "function"
+    ],
+    "drawn": false
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000711/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000711"
+   }
+  ],
+  "claims": [
+   {
+    "field": "function",
+    "value": "By enclosing the fully grown oocyte, they form the cumulus-oocyte complex with it.",
+    "quote": "This cell-type surrounds the fully-grown oocyte to form a cumulus-oocyte complex (abbr. COC).",
+    "source": {
+     "section": "CL:0000711 cumulus granulosa cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000711",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

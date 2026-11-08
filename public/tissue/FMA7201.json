@@ -33,7 +33,16 @@
        "label": "dendritic cell"
       },
       "note": "Dendritic cells are named for their long, branching processes.",
-      "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -114,36 +123,65 @@
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
      "label": "Mast cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000097.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Mast cell",
+      "variant": "profile-cl0000097",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000097",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -186,33 +224,60 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
      "label": "Plasma cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000786.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Plasma cell",
+      "variant": "profile-cl0000786",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000786",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "organelle",
+        "special"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -224,18 +289,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -326,7 +406,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -348,30 +437,62 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -447,7 +568,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -488,30 +618,62 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -523,18 +685,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -571,43 +748,81 @@
        "label": "dendritic cell"
       },
       "note": "Dendritic cells are named for their long, branching processes.",
-      "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
      "label": "Mast cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000097.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Mast cell",
+      "variant": "profile-cl0000097",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000097",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -673,18 +888,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -756,37 +986,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -863,37 +1134,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1229,7 +1541,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -1270,30 +1591,62 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -1351,7 +1704,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -1392,30 +1754,62 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -1492,37 +1886,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1614,37 +2049,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1736,7 +2212,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -1758,30 +2243,62 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -1793,18 +2310,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1876,37 +2408,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -1918,18 +2491,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2001,37 +2589,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2043,18 +2672,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2126,37 +2770,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2205,15 +2890,30 @@
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2320,37 +3020,78 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
      "label": "Pericyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000669.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Pericyte",
+      "variant": "profile-cl0000669",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000669",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2381,15 +3122,30 @@
      "id": "CL:0000148",
      "conceptId": "CL0000148",
      "label": "Melanocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000148.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Melanocyte",
+      "variant": "profile-cl0000148",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000148",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · shape illustrative · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2404,7 +3160,15 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -2434,19 +3198,31 @@
      "id": "CL:0000312",
      "conceptId": "CL0000312",
      "label": "Keratinocyte",
-     "model": "/models/cell/flat-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000312.json",
      "shape": {
-      "family": "flat-epithelial",
-      "label": "Flat epithelial cell",
-      "variant": "flat-epithelial-cell",
+      "family": "profile",
+      "label": "Keratinocyte",
+      "variant": "profile-cl0000312",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000312",
-       "label": "keratinocyte"
+       "label": "morphology profile"
       },
-      "note": "The epidermis is a stratified squamous (flat-celled) epithelium.",
-      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+      "base": "flat-epithelial",
+      "baseLabel": "Flat epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 15,
+       "fields": [
+        "nucleus_count",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2472,15 +3248,30 @@
      "id": "CL:0000148",
      "conceptId": "CL0000148",
      "label": "Melanocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000148.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Melanocyte",
+      "variant": "profile-cl0000148",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000148",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · shape illustrative · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2495,7 +3286,15 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     }
    ]
@@ -2598,15 +3397,32 @@
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2657,18 +3473,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -2683,7 +3514,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     }
    ]
@@ -2757,19 +3597,35 @@
      "id": "CL:0000188",
      "conceptId": "CL0000188",
      "label": "Cell of skeletal muscle",
-     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "model": "/models/cell/profile-cl0000188.json",
      "shape": {
-      "family": "skeletal-muscle-fiber",
-      "label": "Skeletal muscle fiber",
-      "variant": "skeletal-muscle-fiber",
+      "family": "profile",
+      "label": "Cell of skeletal muscle",
+      "variant": "profile-cl0000188",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000188",
-       "label": "cell of skeletal muscle"
+       "label": "morphology profile"
       },
-      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles.",
-      "caption": "A simplified shape for the skeletal muscle fiber family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · up to 100 µm across, up to 30 cm long",
+      "base": "skeletal-muscle-fiber",
+      "baseLabel": "Skeletal muscle fiber",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 28,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2781,19 +3637,31 @@
      "id": "CL:0000312",
      "conceptId": "CL0000312",
      "label": "Keratinocyte",
-     "model": "/models/cell/flat-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000312.json",
      "shape": {
-      "family": "flat-epithelial",
-      "label": "Flat epithelial cell",
-      "variant": "flat-epithelial-cell",
+      "family": "profile",
+      "label": "Keratinocyte",
+      "variant": "profile-cl0000312",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000312",
-       "label": "keratinocyte"
+       "label": "morphology profile"
       },
-      "note": "The epidermis is a stratified squamous (flat-celled) epithelium.",
-      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+      "base": "flat-epithelial",
+      "baseLabel": "Flat epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 15,
+       "fields": [
+        "nucleus_count",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2891,15 +3759,32 @@
      "id": "CL:0002573",
      "conceptId": "CL0002573",
      "label": "Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002573.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Schwann cell",
+      "variant": "profile-cl0002573",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002573",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "nucleus_position",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -2911,15 +3796,35 @@
      "id": "CL:0000192",
      "conceptId": "CL0000192",
      "label": "Smooth muscle cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000192.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Smooth muscle cell",
+      "variant": "profile-cl0000192",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000192",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 18,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

@@ -9,19 +9,147 @@
   "CL": "0000584"
  },
  "geometry": {
-  "model": "/models/cell/column-epithelial-cell-microvilli.json",
+  "model": "/models/cell/profile-cl0000584.json",
   "shape": {
-   "family": "column-epithelial",
-   "label": "Column-shaped epithelial cell",
-   "variant": "column-epithelial-cell-microvilli",
+   "family": "profile",
+   "label": "Enterocyte",
+   "variant": "profile-cl0000584",
    "apical": "microvilli",
    "nucleus": true,
    "from": {
-    "id": "CL:0002563",
-    "label": "intestinal epithelial cell"
+    "id": "CL:0000584",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the column-shaped epithelial cell family · with microvilli · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "column-epithelial",
+   "baseLabel": "Column-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 7,
+    "fields": [
+     "shape",
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000584/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000584"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "column",
+    "quote": "Other than in the anal canal, the mucosa of the colon is simple columnar epithelium made mostly of enterocytes (absorptive cells) and goblet cells.",
+    "source": {
+     "section": "23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "microvilli",
+    "quote": "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.",
+    "source": {
+     "section": "CL:0000584 enterocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0000584",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "brush border",
+    "quote": "The micelles move into the brush border of the small intestine absorptive cells",
+    "source": {
+     "section": "34.3 Digestive System Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "brush border enzymes (digestive enzymes set in the microvillus membrane)",
+    "quote": "The small intestine’s absorptive cells also synthesize digestive enzymes and then place them in the plasma membranes of the microvilli.",
+    "source": {
+     "section": "23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "chylomicrons (protein-coated triglyceride globules)",
+    "quote": "The long-chain fatty acids and monoglycerides recombine in the absorptive cells to form triglycerides, which aggregate into globules and become coated with proteins. These large spheres are called chylomicrons.",
+    "source": {
+     "section": "34.3 Digestive System Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its apical membrane is folded into microvilli, which gives it a large surface for absorbing nutrients from the intestinal lumen.",
+    "quote": "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.",
+    "source": {
+     "section": "CL:0000584 enterocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0000584",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It passes absorbed fat on as chylomicrons, which it releases by exocytosis into the lacteals of the villi.",
+    "quote": "Chylomicrons leave the enterocytes by exocytosis and enter the lymphatic system via lacteals in the villi of the intestine.",
+    "source": {
+     "section": "24.3 Lipid Metabolism",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

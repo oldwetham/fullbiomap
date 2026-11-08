@@ -21,19 +21,35 @@
      "id": "CL:0000188",
      "conceptId": "CL0000188",
      "label": "Cell of skeletal muscle",
-     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "model": "/models/cell/profile-cl0000188.json",
      "shape": {
-      "family": "skeletal-muscle-fiber",
-      "label": "Skeletal muscle fiber",
-      "variant": "skeletal-muscle-fiber",
+      "family": "profile",
+      "label": "Cell of skeletal muscle",
+      "variant": "profile-cl0000188",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000188",
-       "label": "cell of skeletal muscle"
+       "label": "morphology profile"
       },
-      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles.",
-      "caption": "A simplified shape for the skeletal muscle fiber family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · up to 100 µm across, up to 30 cm long",
+      "base": "skeletal-muscle-fiber",
+      "baseLabel": "Skeletal muscle fiber",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 28,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -45,19 +61,35 @@
      "id": "CL:0000188",
      "conceptId": "CL0000188",
      "label": "Cell of skeletal muscle",
-     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "model": "/models/cell/profile-cl0000188.json",
      "shape": {
-      "family": "skeletal-muscle-fiber",
-      "label": "Skeletal muscle fiber",
-      "variant": "skeletal-muscle-fiber",
+      "family": "profile",
+      "label": "Cell of skeletal muscle",
+      "variant": "profile-cl0000188",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000188",
-       "label": "cell of skeletal muscle"
+       "label": "morphology profile"
       },
-      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles.",
-      "caption": "A simplified shape for the skeletal muscle fiber family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · up to 100 µm across, up to 30 cm long",
+      "base": "skeletal-muscle-fiber",
+      "baseLabel": "Skeletal muscle fiber",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 28,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -69,19 +101,35 @@
      "id": "CL:0000188",
      "conceptId": "CL0000188",
      "label": "Cell of skeletal muscle",
-     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "model": "/models/cell/profile-cl0000188.json",
      "shape": {
-      "family": "skeletal-muscle-fiber",
-      "label": "Skeletal muscle fiber",
-      "variant": "skeletal-muscle-fiber",
+      "family": "profile",
+      "label": "Cell of skeletal muscle",
+      "variant": "profile-cl0000188",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000188",
-       "label": "cell of skeletal muscle"
+       "label": "morphology profile"
       },
-      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles.",
-      "caption": "A simplified shape for the skeletal muscle fiber family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · up to 100 µm across, up to 30 cm long",
+      "base": "skeletal-muscle-fiber",
+      "baseLabel": "Skeletal muscle fiber",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 28,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

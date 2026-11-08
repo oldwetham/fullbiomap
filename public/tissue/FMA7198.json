@@ -21,18 +21,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -51,7 +66,16 @@
        "label": "dendritic cell"
       },
       "note": "Dendritic cells are named for their long, branching processes.",
-      "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -91,18 +115,34 @@
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -121,7 +161,15 @@
        "label": "pancreatic endocrine cell"
       },
       "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them.",
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -234,7 +282,15 @@
        "label": "pancreatic endocrine cell"
       },
       "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them.",
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 3,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     }
    ]
@@ -246,18 +302,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -276,7 +347,16 @@
        "label": "dendritic cell"
       },
       "note": "Dendritic cells are named for their long, branching processes.",
-      "caption": "A simplified shape for the branched immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the branched immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -319,36 +399,69 @@
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
      "label": "Neutrophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000775.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Neutrophil",
+      "variant": "profile-cl0000775",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000775",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 10,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -460,19 +573,30 @@
      "id": "CL:0000577",
      "conceptId": "CL0000577",
      "label": "Type EC enteroendocrine cell",
-     "model": "/models/cell/column-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000577.json",
      "shape": {
-      "family": "column-epithelial",
-      "label": "Column-shaped epithelial cell",
-      "variant": "column-epithelial-cell",
+      "family": "profile",
+      "label": "Type EC enteroendocrine cell",
+      "variant": "profile-cl0000577",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000164",
-       "label": "enteroendocrine cell"
+       "id": "CL:0000577",
+       "label": "morphology profile"
       },
-      "note": "Hormone-making cells within the gut lining.",
-      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the column-shaped epithelial cell family · size not stated",
+      "base": "column-epithelial",
+      "baseLabel": "Column-shaped epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -484,18 +608,33 @@
      "id": "CL:0000136",
      "conceptId": "CL0000136",
      "label": "Adipocyte",
-     "model": "/models/cell/fat-cell.json",
+     "model": "/models/cell/profile-cl0000136.json",
      "shape": {
-      "family": "fat-cell",
-      "label": "Fat cell",
-      "variant": "fat-cell",
+      "family": "profile",
+      "label": "Adipocyte",
+      "variant": "profile-cl0000136",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000136",
-       "label": "adipocyte"
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the fat cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+      "base": "fat-cell",
+      "baseLabel": "Fat cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "nucleus_position",
+        "nucleus_size",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -510,7 +649,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function",
+        "special"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -714,19 +862,33 @@
      "id": "CL:0002064",
      "conceptId": "CL0002064",
      "label": "Pancreatic acinar cell",
-     "model": "/models/cell/column-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0002064.json",
      "shape": {
-      "family": "column-epithelial",
-      "label": "Column-shaped epithelial cell",
-      "variant": "column-epithelial-cell",
+      "family": "profile",
+      "label": "Pancreatic acinar cell",
+      "variant": "profile-cl0002064",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000622",
-       "label": "acinar cell"
+       "id": "CL:0002064",
+       "label": "morphology profile"
       },
-      "note": "Acinar cells are pyramid-shaped; a column is the nearest of the three epithelial shapes.",
-      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the column-shaped epithelial cell family · size not stated",
+      "base": "column-epithelial",
+      "baseLabel": "Column-shaped epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -738,15 +900,35 @@
      "id": "CL:0000192",
      "conceptId": "CL0000192",
      "label": "Smooth muscle cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000192.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Smooth muscle cell",
+      "variant": "profile-cl0000192",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000192",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 18,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -758,15 +940,35 @@
      "id": "CL:0000192",
      "conceptId": "CL0000192",
      "label": "Smooth muscle cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000192.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Smooth muscle cell",
+      "variant": "profile-cl0000192",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000192",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 18,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

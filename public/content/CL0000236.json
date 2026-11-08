@@ -13,19 +13,216 @@
   "CL": "0000236"
  },
  "geometry": {
-  "model": "/models/cell/round-immune-cell.json",
+  "model": "/models/cell/profile-cl0000236.json",
   "shape": {
-   "family": "immune",
-   "label": "Round immune cell",
-   "variant": "round-immune-cell",
+   "family": "profile",
+   "label": "B cell",
+   "variant": "profile-cl0000236",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000738",
-    "label": "leukocyte"
+    "id": "CL:0000236",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+   "base": "immune",
+   "baseLabel": "Round immune cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 13,
+    "fields": [
+     "nucleus_count",
+     "nucleus_position",
+     "nucleus_size",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000236/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.",
+    "source": {
+     "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "central",
+    "quote": "The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.",
+    "source": {
+     "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_size",
+    "value": "large (little cytoplasm)",
+    "quote": "The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.",
+    "source": {
+     "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "B cell receptors: thousands of membrane-bound immunoglobulin (antibody) molecules coating the surface of the naive cell",
+    "quote": "Similar to T cells, naïve B cells initially are coated in thousands of B cell receptors (BCRs), which are membrane-bound forms of Ig (immunoglobulin, or an antibody).",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "B cell receptor built from two heavy chains and two light chains joined by disulfide linkages",
+    "quote": "The B cell receptor has two heavy chains and two light chains connected by disulfide linkages.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "surface IgM and IgD (both receptor classes on mature B cells leaving the bone marrow, with the same antigen specificity)",
+    "quote": "Mature B cells that leave the bone marrow express both IgM and IgD, but both antibodies have the same antigen specificity.",
+    "source": {
+     "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "Ig alpha and Ig beta: two further membrane proteins, involved in signaling",
+    "quote": "Two other membrane proteins, Ig alpha and Ig beta, are involved in signaling.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "MHC class II molecules that display processed antigen to Th2 helper T cells",
+    "quote": "They bind and engulf foreign antigens via their BCRs and then display processed antigens in the context of MHC II molecules to TH2 cells.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Unlike a T cell, a B cell recognizes native, unprocessed antigen without needing MHC molecules or antigen-presenting cells.",
+    "quote": "B cells do not recognize antigen in the complex fashion of T cells. B cells can recognize native, unprocessed antigen and do not require the participation of MHC molecules and antigen-presenting cells.",
+    "source": {
+     "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A B cell binds intact antigen because the antibodies it secretes must recognize the pathogen itself rather than digested remnants of it.",
+    "quote": "B cells must be able to bind intact antigens because they secrete antibodies that must recognize the pathogen directly, rather than digested remnants of the pathogen.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Each surface antibody has two binding sites, so an antigen with repeated units can crosslink the receptors, which is enough to activate the B cell without T cell cytokines.",
+    "quote": "Each antibody on the B cell surface has two binding sites, and the repeated nature of T cell-independent antigen leads to crosslinking of the surface antibodies on the B cell. The crosslinking is enough to activate it in the absence of T cell cytokines.",
+    "source": {
+     "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It internalizes antigen caught by its surface antibody and presents processed pieces on class II MHC to Th2 helper cells, whose cytokines then complete its activation.",
+    "quote": "Some of this antigen is internalized, processed, and presented to the Th2 cells on a class II MHC molecule. The T cell then binds using its antigen receptor and is activated to secrete cytokines that diffuse to the B cell, finally activating it completely.",
+    "source": {
+     "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "All the receptors on one B cell are identical, but different B cells carry different recognition domains, so the population as a whole can bind a very wide range of molecular structures.",
+    "quote": "The receptors of any particular B cell, as shown in are all the same, but the hundreds of millions of different B cells in an individual have distinct recognition domains that contribute to extensive diversity in the types of molecular structures to which they can bind.",
+    "source": {
+     "section": "42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

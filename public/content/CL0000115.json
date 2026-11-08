@@ -11,20 +11,214 @@
   "CL": "0000115"
  },
  "geometry": {
-  "model": "/models/cell/flat-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000115.json",
   "shape": {
-   "family": "flat-epithelial",
-   "label": "Flat epithelial cell",
-   "variant": "flat-epithelial-cell",
+   "family": "profile",
+   "label": "Endothelial cell",
+   "variant": "profile-cl0000115",
    "apical": null,
    "nucleus": true,
    "from": {
     "id": "CL:0000115",
-    "label": "endothelial cell"
+    "label": "morphology profile"
    },
-   "note": "Endothelium is a single layer of flat cells.",
-   "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+   "base": "flat-epithelial",
+   "baseLabel": "Flat epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 13,
+    "fields": [
+     "nucleus_shape",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000115/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_shape",
+    "value": "flattened",
+    "quote": "Squamous cell nuclei tend to be flat, horizontal, and elliptical, mirroring the form of the cell. The endothelium is the epithelial tissue that lines vessels of the lymphatic and cardiovascular system, and it is made up of a single layer of squamous cells.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "tight junctions",
+    "quote": "Continuous capillaries are characterized by a complete endothelial lining with tight junctions between endothelial cells.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "transport vesicles",
+    "quote": "Some large proteins in blood plasma can move into and out of the endothelial cells packaged within vesicles by endocytosis and exocytosis.",
+    "source": {
+     "section": "20.3 Capillary Exchange",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-3-capillary-exchange",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "fenestrations (pores), in fenestrated capillaries",
+    "quote": "A fenestrated capillary is one that has pores (or fenestrations) in addition to tight junctions in the endothelial lining.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "basement membrane (basal lamina)",
+    "quote": "Next to the endothelium is the basement membrane, or basal lamina, that effectively binds the endothelium to the connective tissue.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because each cell is so thin, simple squamous epithelium such as the capillary lining is found where chemical compounds must pass through rapidly.",
+    "quote": "Simple squamous epithelium, because of the thinness of the cell, is present where rapid passage of chemical compounds is observed. The alveoli of lungs where gases diffuse, segments of kidney tubules, and the lining of capillaries are also made of simple squamous epithelial tissue.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In capillaries the tight junctions between endothelial cells are often incomplete, leaving intercellular clefts through which water and very small molecules pass between plasma and tissue fluid.",
+    "quote": "Although a tight junction is usually impermeable and only allows for the passage of water and ions, they are often incomplete in capillaries, leaving intercellular clefts that allow for exchange of water and other very small molecules between the blood plasma and the interstitial fluid.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In capillaries this single layer of endothelial cells is where oxygen and carbon dioxide diffuse to and from red blood cells, and where materials are exchanged by endocytosis and exocytosis.",
+    "quote": "In capillaries, this single layer of cells is the location of diffusion of oxygen and carbon dioxide between the endothelial cells and red blood cells, as well as the exchange site via endocytosis and exocytosis.",
+    "source": {
+     "section": "40.3 Mammalian Heart and Blood Vessels",
+     "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Pores (fenestrations) in the endothelial lining of fenestrated capillaries let larger molecules cross the capillary wall.",
+    "quote": "A fenestrated capillary is one that has pores (or fenestrations) in addition to tight junctions in the endothelial lining. These make the capillary permeable to larger molecules.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because the endothelium lacks thrombogenic tissue factor, clotting factors flowing past it stay in their inactive state.",
+    "quote": "Clotting factors flow through the blood vessels in their inactive state. The endothelium does not have thrombogenic tissue factor to activate clotting factors.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Endothelial cells release endothelins, local chemicals that constrict the smooth muscle in the vessel wall and so raise blood pressure.",
+    "quote": "The endothelium releases local chemicals called endothelins that can constrict the smooth muscle within the walls of the vessel to increase blood pressure.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When acetylcholine stimulates them, endothelial cells release nitric oxide, which dilates the vessel.",
+    "quote": "Many of these are cholinergic neurons, that is, they release acetylcholine, which in turn stimulates the vessels’ endothelial cells to release nitric oxide (NO), which causes vasodilation.",
+    "source": {
+     "section": "20.4 Homeostatic Regulation of the Vascular System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-4-homeostatic-regulation-of-the-vascular-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In capillaries and venules, white blood cells leave the blood by adhering to the endothelial lining and squeezing through adjacent cells into the tissue fluid.",
+    "quote": "Venules as well as capillaries are the primary sites of emigration or diapedesis, in which the white blood cells adhere to the endothelial lining of the vessels and then squeeze through adjacent cells to enter the tissue fluid.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

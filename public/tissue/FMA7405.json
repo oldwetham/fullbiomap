@@ -232,15 +232,31 @@
      "id": "CL:0002376",
      "conceptId": "CL0002376",
      "label": "Non-myelinating Schwann cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0002376.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Non-myelinating Schwann cell",
+      "variant": "profile-cl0002376",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0002376",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

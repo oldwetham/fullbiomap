@@ -54,18 +54,34 @@
      "id": "CL:0000235",
      "conceptId": "CL0000235",
      "label": "Macrophage",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000235.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Macrophage",
+      "variant": "profile-cl0000235",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000235",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 14,
+       "fields": [
+        "shape",
+        "surface",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -110,37 +126,64 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
      "label": "Endothelial cell",
-     "model": "/models/cell/flat-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000115.json",
      "shape": {
-      "family": "flat-epithelial",
-      "label": "Flat epithelial cell",
-      "variant": "flat-epithelial-cell",
+      "family": "profile",
+      "label": "Endothelial cell",
+      "variant": "profile-cl0000115",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000115",
-       "label": "endothelial cell"
+       "label": "morphology profile"
       },
-      "note": "Endothelium is a single layer of flat cells.",
-      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+      "base": "flat-epithelial",
+      "baseLabel": "Flat epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -165,18 +208,31 @@
      "id": "CL:0000097",
      "conceptId": "CL0000097",
      "label": "Mast cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000097.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Mast cell",
+      "variant": "profile-cl0000097",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000097",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -206,19 +262,31 @@
      "id": "CL:0000115",
      "conceptId": "CL0000115",
      "label": "Endothelial cell",
-     "model": "/models/cell/flat-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000115.json",
      "shape": {
-      "family": "flat-epithelial",
-      "label": "Flat epithelial cell",
-      "variant": "flat-epithelial-cell",
+      "family": "profile",
+      "label": "Endothelial cell",
+      "variant": "profile-cl0000115",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000115",
-       "label": "endothelial cell"
+       "label": "morphology profile"
       },
-      "note": "Endothelium is a single layer of flat cells.",
-      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+      "base": "flat-epithelial",
+      "baseLabel": "Flat epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

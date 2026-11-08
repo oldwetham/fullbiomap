@@ -14,16 +14,129 @@
   "CL": "0000653"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/profile-cl0000653.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "profile",
+   "label": "Podocyte",
+   "variant": "profile-cl0000653",
    "apical": null,
    "nucleus": true,
-   "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "from": {
+    "id": "CL:0000653",
+    "label": "morphology profile"
+   },
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "generic",
+   "baseLabel": "Generic cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 6,
+    "fields": [
+     "shape",
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000653/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000653"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: not squamous; uniquely shaped cell extending finger-like arms (pedicels) that cover the glomerular capillaries",
+    "quote": "Here, the cells are not squamous, but uniquely shaped cells (podocytes) extending finger-like arms (pedicels) to cover the glomerular capillaries",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "foot processes",
+    "quote": "A specialized kidney epithelial cell, contained within a glomerulus, that contains \"feet\" that interdigitate with the \"feet\" of other podocytes.",
+    "source": {
+     "section": "CL:0000653 podocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0000653",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "filtration slits: small gaps left between the cell's interdigitating projections, forming a sieve",
+    "quote": "These projections interdigitate to form filtration slits, leaving small gaps between the digits to form a sieve.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "fused basement membrane shared with the capillary endothelial cells the podocytes embrace (part of the filtration membrane)",
+    "quote": "A filtration membrane is formed by the fused basement membranes of the podocytes and the capillary endothelial cells that they embrace.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The podocytes' interdigitating projections leave small gaps (filtration slits) that act as a sieve: as blood passes through the glomerulus, 10 to 20 percent of the plasma filters between these fingers into Bowman's capsule.",
+    "quote": "These projections interdigitate to form filtration slits, leaving small gaps between the digits to form a sieve. As blood passes through the glomerulus, 10 to 20 percent of the plasma filters between these sieve-like fingers to be captured by Bowman’s capsule and funneled to the PCT.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because cells and medium-to-large proteins cannot pass between the podocyte processes, the processes act as a barrier that holds them back during filtration.",
+    "quote": "Recall that cells and the medium-to-large proteins cannot pass between the podocyte processes or through the fenestrations of the capillary endothelial cells.",
+    "source": {
+     "section": "25.5 Physiology of Urine Formation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

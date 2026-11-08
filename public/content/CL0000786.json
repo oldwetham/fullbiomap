@@ -14,19 +14,105 @@
   "CL": "0000786"
  },
  "geometry": {
-  "model": "/models/cell/round-immune-cell.json",
+  "model": "/models/cell/profile-cl0000786.json",
   "shape": {
-   "family": "immune",
-   "label": "Round immune cell",
-   "variant": "round-immune-cell",
+   "family": "profile",
+   "label": "Plasma cell",
+   "variant": "profile-cl0000786",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000738",
-    "label": "leukocyte"
+    "id": "CL:0000786",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+   "base": "immune",
+   "baseLabel": "Round immune cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 4,
+    "fields": [
+     "organelle",
+     "special"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000786/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "organelle",
+    "value": "rough ER: 3 abundant",
+    "quote": "These cells differ in morphology from standard B and T cells in that they contain a large amount of cytoplasm packed with the protein-synthesizing machinery known as rough endoplasmic reticulum.",
+    "source": {
+     "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "no antibodies on its surface (a naive B cell carries surface antibody; the plasma cell does not)",
+    "quote": "distinguishes a naïve B cell with antibody on its surface from an antibody-secreting plasma cell with no antibodies on its surface.",
+    "source": {
+     "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "secreted soluble antibodies",
+    "quote": "A plasma cell is a B cell that has differentiated in response to antigen binding, and has thereby gained the ability to secrete soluble antibodies.",
+    "source": {
+     "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "IgM pentamers (five antibodies linked by a joining (J) chain), assembled before secretion",
+    "quote": "Prior to antibody secretion, plasma cells assemble IgM molecules into pentamers (five individual antibodies) linked by a joining (J) chain",
+    "source": {
+     "section": "42.3 Antibodies",
+     "url": "https://openstax.org/books/biology-2e/pages/42-3-antibodies",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

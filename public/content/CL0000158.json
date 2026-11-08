@@ -11,20 +11,93 @@
   "CL": "0000158"
  },
  "geometry": {
-  "model": "/models/cell/cube-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000158.json",
   "shape": {
-   "family": "cube-epithelial",
-   "label": "Cube-shaped epithelial cell",
-   "variant": "cube-epithelial-cell",
+   "family": "profile",
+   "label": "Club cell",
+   "variant": "profile-cl0000158",
    "apical": null,
    "nucleus": true,
    "from": {
     "id": "CL:0000158",
-    "label": "club cell"
+    "label": "morphology profile"
    },
-   "note": "Bronchiolar epithelium is low columnar to cuboidal.",
-   "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the cube-shaped epithelial cell family · size not stated",
+   "base": "cube-epithelial",
+   "baseLabel": "Cube-shaped epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 4,
+    "fields": [
+     "surface",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000158/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000158"
+   }
+  ],
+  "claims": [
+   {
+    "field": "surface",
+    "value": "microvilli",
+    "quote": "A club cell has short microvilli but no cilia.",
+    "source": {
+     "section": "CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It is a secretory cell in the epithelium lining the trachea and bronchial tree, and not a mucus-secreting one.",
+    "quote": "A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree.",
+    "source": {
+     "section": "CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because it can divide and differentiate into ciliated cells, a club cell can regenerate the epithelium lining the bronchioles.",
+    "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+    "source": {
+     "section": "CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It also protects the epithelium lining the trachea and bronchial tree.",
+    "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+    "source": {
+     "section": "CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

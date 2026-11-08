@@ -35,7 +35,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 12,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -50,25 +59,45 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000092",
      "conceptId": "CL0000092",
      "label": "Osteoclast",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000092.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Osteoclast",
+      "variant": "profile-cl0000092",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000092",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "nucleus_count",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -80,15 +109,32 @@
      "id": "CL:0000137",
      "conceptId": "CL0000137",
      "label": "Osteocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000137.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Osteocyte",
+      "variant": "profile-cl0000137",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000137",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "shape",
+        "surface",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]

@@ -15,19 +15,187 @@
   "CL": "0000775"
  },
  "geometry": {
-  "model": "/models/cell/round-immune-cell.json",
+  "model": "/models/cell/profile-cl0000775.json",
   "shape": {
-   "family": "immune",
-   "label": "Round immune cell",
-   "variant": "round-immune-cell",
+   "family": "profile",
+   "label": "Neutrophil",
+   "variant": "profile-cl0000775",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000738",
-    "label": "leukocyte"
+    "id": "CL:0000775",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · 10–12 µm across",
+   "base": "immune",
+   "baseLabel": "Round immune cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 10,
+    "fields": [
+     "shape",
+     "size",
+     "nucleus_count",
+     "nucleus_shape",
+     "special",
+     "granules",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000775/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000775"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "sphere",
+    "quote": "A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues. These spherical cells are granulocytes.",
+    "source": {
+     "section": "21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "10–12 µm diameter",
+    "quote": "The most common of all the leukocytes, neutrophils will normally comprise 50–70 percent of total leukocyte count. They are 10–12 µm in diameter, significantly larger than erythrocytes.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "Neutrophils have a nucleus with two to five lobes, and they contain organelles, called lysosomes, that digest engulfed pathogens.",
+    "source": {
+     "section": "42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_shape",
+    "value": "multilobed (2–5 lobes)",
+    "quote": "The nucleus has a distinct lobed appearance and may have two to five lobes, the number increasing with the age of the cell.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "slender chromatin threads connecting the nuclear lobes",
+    "quote": "a nucleus with three to five lobes connected by slender threads of chromatin",
+    "source": {
+     "section": "CL:0000775 neutrophil",
+     "url": "http://purl.obolibrary.org/obo/CL_0000775",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "granules",
+    "value": "neutrophilic granules (show up most clearly with chemically neutral stains); look: quite fine, normally light lilac; abundance: many; position: unknown",
+    "quote": "They are called neutrophils because their granules show up most clearly with stains that are chemically neutral (neither acidic nor basic). The granules are numerous but quite fine and normally appear light lilac.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A rapid responder and efficient phagocyte that prefers bacteria, it carries lysozyme in its granules to break down bacterial cell walls.",
+    "quote": "Neutrophils are rapid responders to the site of infection and are efficient phagocytes with a preference for bacteria. Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its granules also carry oxidants such as hydrogen peroxide and defensins, proteins that pierce the membranes of bacteria and fungi so their contents leak out.",
+    "quote": "Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls; oxidants such as hydrogen peroxide; and defensins, proteins that bind to and puncture bacterial and fungal plasma membranes, so that the cell contents leak out.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its lysosomes digest the pathogens it engulfs.",
+    "quote": "A neutrophil is also a phagocytic leukocyte that engulfs and digests pathogens. Neutrophils, shown in , are the most abundant leukocytes of the immune system. Neutrophils have a nucleus with two to five lobes, and they contain organelles, called lysosomes, that digest engulfed pathogens.",
+    "source": {
+     "section": "42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A spherical granulocyte and phagocyte, it is drawn by chemotaxis out of the bloodstream into infected tissue.",
+    "quote": "A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues. These spherical cells are granulocytes.",
+    "source": {
+     "section": "21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

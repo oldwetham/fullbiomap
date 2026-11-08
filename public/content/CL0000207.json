@@ -14,19 +14,195 @@
   "CL": "0000207"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/profile-cl0000207.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "profile",
+   "label": "Olfactory receptor cell",
+   "variant": "profile-cl0000207",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "CL:0000207",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the neuron family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "neuron",
+   "baseLabel": "Neuron",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 11,
+    "fields": [
+     "shape",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000207/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000207"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: bipolar neuron (two processes extending from the cell body)",
+    "quote": "Olfactory neurons are bipolar neurons (neurons with two processes extending from the cell body).",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "single dendrite, buried in the olfactory epithelium",
+    "quote": "Each neuron has a single dendrite buried in the olfactory epithelium",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "olfactory cilia: 5–20 hair-like, receptor-laden cilia extending from the dendrite",
+    "quote": "extending from this dendrite are 5 to 20 receptor-laden, hair-like cilia that trap odorant molecules",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "odorant receptor proteins on the cilia",
+    "quote": "The sensory receptors on the cilia are proteins, and it is the variations in their amino acid chains that make the receptors sensitive to different odorants.",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "G protein–coupled odorant receptors in the cell membrane of the dendrite",
+    "quote": "The odorant–protein complex binds to a receptor protein within the cell membrane of an olfactory dendrite. These receptors are G protein–coupled, and will produce a graded membrane potential in the olfactory neurons.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "thin, unmyelinated axon (no myelin sheath)",
+    "quote": "Olfactory neurons project from the olfactory epithelium to the olfactory bulb as thin, unmyelinated axons.",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "As a neuron that can detect chemical stimuli, it takes part in the sense of smell.",
+    "quote": "Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.",
+    "source": {
+     "section": "CL:0000207 olfactory receptor cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000207",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Each neuron carries only one type of receptor on its cilia, so each neuron is specialized to detect specific odorants.",
+    "quote": "Each olfactory sensory neuron has only one type of receptor on its cilia, and the receptors are specialized to detect specific odorants, so the bipolar neurons themselves are specialized.",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When its dendrite binds inhaled molecules, the neuron sends impulses directly to the olfactory bulb of the brain.",
+    "quote": "An olfactory receptor, which is a dendrite of a specialized neuron, responds when it binds certain molecules inhaled from the environment by sending impulses directly to the olfactory bulb of the brain.",
+    "source": {
+     "section": "36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Olfactory neurons have a limited lifespan of about one to four months, and new ones are made regularly to take their place.",
+    "quote": "The sensory neurons of the olfactory epithelium have a limited lifespan of approximately one to four months, and new ones are made on a regular basis.",
+    "source": {
+     "section": "13.4 The Peripheral Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because airborne toxic chemicals can harm the olfactory cells, the neurons are regularly replaced, and each new axon must find its connection in the olfactory bulb.",
+    "quote": "The nasal epithelium, including the olfactory cells, can be harmed by airborne toxic chemicals. Therefore, the olfactory neurons are regularly replaced within the nasal epithelium, after which the axons of the new neurons must find their appropriate connections in the olfactory bulb.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

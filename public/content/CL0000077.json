@@ -11,19 +11,185 @@
   "CL": "0000077"
  },
  "geometry": {
-  "model": "/models/cell/flat-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000077.json",
   "shape": {
-   "family": "flat-epithelial",
-   "label": "Flat epithelial cell",
-   "variant": "flat-epithelial-cell",
+   "family": "profile",
+   "label": "Mesothelial cell",
+   "variant": "profile-cl0000077",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000076",
-    "label": "squamous epithelial cell"
+    "id": "CL:0000077",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+   "base": "flat-epithelial",
+   "baseLabel": "Flat epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 10,
+    "fields": [
+     "nucleus_count",
+     "nucleus_shape",
+     "nucleus_position",
+     "nucleus_size",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000077/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000077"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "Squamous epithelial cells are generally round, flat, and have a small, centrally located nucleus.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_shape",
+    "value": "flattened",
+    "quote": "Squamous cell nuclei tend to be flat, horizontal, and elliptical, mirroring the form of the cell.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "central",
+    "quote": "Squamous epithelial cells are generally round, flat, and have a small, centrally located nucleus.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_size",
+    "value": "small",
+    "quote": "Squamous epithelial cells are generally round, flat, and have a small, centrally located nucleus.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "By secreting serous fluid, the cells of the thin, squamous mesothelium lubricate the serous membrane and reduce abrasion and friction between organs.",
+    "quote": "Serous fluid secreted by the cells of the thin squamous mesothelium lubricates the membrane and reduces abrasion and friction between organs.",
+    "source": {
+     "section": "4.1 Types of Tissues",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "As a single layer of flat cells forming the surface of the serous membrane that lines body cavities and internal organs, the mesothelium mainly provides a smooth, protective surface.",
+    "quote": "The mesothelium is a simple squamous epithelium that forms the surface layer of the serous membrane that lines body cavities and internal organs. Its primary function is to provide a smooth and protective surface.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Mesothelial cells synthesize and secrete lubricants, such as glycosaminoglycans and surfactants, that minimize friction between adjacent tissues as they move.",
+    "quote": "This cell plays a crucial role in synthesizing and secreting lubricants, such as glycosaminoglycans and surfactants, which minimize friction between adjacent tissues during movement.",
+    "source": {
+     "section": "CL:0000077 mesothelial cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000077",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The mesothelial cells of the pleural membrane make pleural fluid, which lubricates to reduce friction during breathing and acts as an adhesive holding the lungs to the thoracic wall, helping the lungs move during ventilation.",
+    "quote": "The mesothelial cells of the pleural membrane create pleural fluid, which serves as both a lubricant (to reduce friction during breathing) and as an adhesive to adhere the lungs to the thoracic wall (to facilitate movement of the lungs during ventilation).",
+    "source": {
+     "section": "22.2 The Lungs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Mesothelial cells closely monitor the level of pleural fluid, which the lymphatic system drains, because too much or too little fluid would hinder the creation of the negative intrapleural pressure.",
+    "quote": "Too much or too little pleural fluid would hinder the creation of the negative intrapleural pressure; therefore, the level must be closely monitored by the mesothelial cells and drained by the lymphatic system.",
+    "source": {
+     "section": "22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A simple squamous mesothelium secretes the lubricating serous fluid that fills the pericardial cavity, reducing friction as the heart contracts.",
+    "quote": "consisting of a simple squamous epithelium called a mesothelium, reinforced with loose, irregular, or areolar connective tissue that attaches to the pericardium. This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts.",
+    "source": {
+     "section": "19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

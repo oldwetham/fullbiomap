@@ -12,19 +12,195 @@
   "CL": "0000767"
  },
  "geometry": {
-  "model": "/models/cell/round-immune-cell.json",
+  "model": "/models/cell/profile-cl0000767.json",
   "shape": {
-   "family": "immune",
-   "label": "Round immune cell",
-   "variant": "round-immune-cell",
+   "family": "profile",
+   "label": "Basophil",
+   "variant": "profile-cl0000767",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000738",
-    "label": "leukocyte"
+    "id": "CL:0000767",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 8–10 µm across",
+   "base": "immune",
+   "baseLabel": "Round immune cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 11,
+    "fields": [
+     "size",
+     "nucleus_count",
+     "nucleus_shape",
+     "granules",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000767/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000767"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "size",
+    "value": "8–10 µm diameter",
+    "quote": "They are slightly smaller than neutrophils and eosinophils at 8–10 µm in diameter.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "in its mature form has an irregularly shaped, pale-staining nucleus that is partially constricted into two lobes",
+    "source": {
+     "section": "CL:0000767 basophil",
+     "url": "http://purl.obolibrary.org/obo/CL_0000767",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "nucleus_shape",
+    "value": "bilobed",
+    "quote": "Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_shape",
+    "value": "bilobed",
+    "quote": "an irregularly shaped, pale-staining nucleus that is partially constricted into two lobes",
+    "source": {
+     "section": "CL:0000767 basophil",
+     "url": "http://purl.obolibrary.org/obo/CL_0000767",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "granules",
+    "value": "granules that stain best with basic (alkaline) stains; look: large, dark blue; abundance: many; position: unknown",
+    "quote": "The granules of basophils stain best with basic (alkaline) stains. Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "histamine (released by the granules)",
+    "quote": "The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "heparin (released by the granules)",
+    "quote": "The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "serotonin (a vasoactive amine the cell contains)",
+    "quote": "Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation.",
+    "source": {
+     "section": "CL:0000767 basophil",
+     "url": "http://purl.obolibrary.org/obo/CL_0000767",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its granules release histamine, which promotes inflammation, and heparin, which opposes blood clotting.",
+    "quote": "The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It holds vasoactive amines such as histamine and serotonin and releases them when it is appropriately stimulated.",
+    "quote": "Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation.",
+    "source": {
+     "section": "CL:0000767 basophil",
+     "url": "http://purl.obolibrary.org/obo/CL_0000767",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its release of histamine is often part of hypersensitive immune responses to harmless antigens such as pollen.",
+    "quote": "A hypersensitive immune response to harmless antigens, such as in pollen, often involves the release of histamine by basophils and mast cells.",
+    "source": {
+     "section": "42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

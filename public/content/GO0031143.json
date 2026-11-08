@@ -1,0 +1,84 @@
+{
+ "id": "GO:0031143",
+ "conceptId": "GO0031143",
+ "label": "Pseudopodia",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [
+  "pseudopod",
+  "pseudopodial protrusion"
+ ],
+ "xrefs": {
+  "GO": "0031143"
+ },
+ "geometry": {
+  "model": "/models/cell/profile-cl0000235.json"
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0031143/tier1.auto.md",
+   "text": "A temporary protrusion or retractile process of a cell, associated with flowing movements of the protoplasm, and serving for locomotion and feeding.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0031143",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031143",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0031143",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031143",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0031143. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0031143",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031143",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031143"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

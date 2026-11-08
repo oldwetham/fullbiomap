@@ -9,20 +9,142 @@
   "CL": "0000065"
  },
  "geometry": {
-  "model": "/models/cell/cube-epithelial-cell-cilia.json",
+  "model": "/models/cell/profile-cl0000065.json",
   "shape": {
-   "family": "cube-epithelial",
-   "label": "Cube-shaped epithelial cell",
-   "variant": "cube-epithelial-cell-cilia",
+   "family": "profile",
+   "label": "Ependymal cell",
+   "variant": "profile-cl0000065",
    "apical": "cilia",
    "nucleus": true,
    "from": {
     "id": "CL:0000065",
-    "label": "ependymal cell"
+    "label": "morphology profile"
    },
-   "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer.",
-   "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "cube-epithelial",
+   "baseLabel": "Cube-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 7,
+    "fields": [
+     "shape",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000065/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: epithelial-like cell in a single, tightly joined layer",
+    "quote": "These glial cells appear similar to epithelial cells, making a single layer of cells with little intracellular space and tight connections between adjacent cells.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "tight connections between adjacent cells",
+    "quote": "These glial cells appear similar to epithelial cells, making a single layer of cells with little intracellular space and tight connections between adjacent cells.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Cilia on the cell's apical surface help move cerebrospinal fluid through the ventricles.",
+    "quote": "They also have cilia on their apical surface to help move the CSF through the ventricular space.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "At the choroid plexus, ependymal cells contact blood vessels and filter and absorb components of the blood to produce cerebrospinal fluid.",
+    "quote": "The choroid plexus is a specialized structure in the ventricles where ependymal cells come in contact with blood vessels and filter and absorb components of the blood to produce cerebrospinal fluid.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because they contact blood vessels and filter blood components to make cerebrospinal fluid, ependymal cells can be counted as part of the blood-brain barrier, or as a place where that barrier breaks down.",
+    "quote": "ependymal cells come in contact with blood vessels and filter and absorb components of the blood to produce cerebrospinal fluid. Because of this, ependymal cells can be considered a component of the BBB, or a place where the BBB breaks down.",
+    "source": {
+     "section": "12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Ependymal cells surround blood capillaries and filter the blood to make cerebrospinal fluid.",
+    "quote": "Ependymal cells (one of the types of glial cells described in the introduction to the nervous system) surround blood capillaries and filter the blood to make CSF.",
+    "source": {
+     "section": "13.3 Circulation and the Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Lining the fluid-filled ventricles of the brain and the central canal of the spinal cord, ependymal cells help produce the cerebrospinal fluid that cushions the brain.",
+    "quote": "Ependymal cells line fluid-filled ventricles of the brain and the central canal of the spinal cord. They are involved in the production of cerebrospinal fluid, which serves as a cushion for the brain",
+    "source": {
+     "section": "35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

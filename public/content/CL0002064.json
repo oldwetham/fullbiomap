@@ -11,20 +11,217 @@
   "CL": "0002064"
  },
  "geometry": {
-  "model": "/models/cell/column-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0002064.json",
   "shape": {
-   "family": "column-epithelial",
-   "label": "Column-shaped epithelial cell",
-   "variant": "column-epithelial-cell",
+   "family": "profile",
+   "label": "Pancreatic acinar cell",
+   "variant": "profile-cl0002064",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000622",
-    "label": "acinar cell"
+    "id": "CL:0002064",
+    "label": "morphology profile"
    },
-   "note": "Acinar cells are pyramid-shaped; a column is the nearest of the three epithelial shapes.",
-   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the column-shaped epithelial cell family · size not stated",
+   "base": "column-epithelial",
+   "baseLabel": "Column-shaped epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 13,
+    "fields": [
+     "nucleus_count",
+     "nucleus_position",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002064/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002064"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "have a basal nucleus",
+    "source": {
+     "section": "CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "basal",
+    "quote": "have a basal nucleus",
+    "source": {
+     "section": "CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "ribosomes: 3 abundant",
+    "quote": "the pancreas is responsible for creating several digestive enzymes and the cells that produce these enzymes contain many ribosomes",
+    "source": {
+     "section": "4.3 Eukaryotic Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "regular arrays of granular (rough) endoplasmic reticulum",
+    "quote": "basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules",
+    "source": {
+     "section": "CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "basophilic cytoplasm",
+    "quote": "have a basal nucleus and basophilic cytoplasm",
+    "source": {
+     "section": "CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "As a secretory cell of the pancreatic acini, it produces and releases digestive enzymes and mucins.",
+    "quote": "A secretory cell found in pancreatic acini that secretes digestive enzymes and mucins.",
+    "source": {
+     "section": "CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its many ribosomes suit its job of making large amounts of several digestive enzymes.",
+    "quote": "Ribosomes are particularly abundant in cells that synthesize large amounts of protein. For example, the pancreas is responsible for creating several digestive enzymes and the cells that produce these enzymes contain many ribosomes.",
+    "source": {
+     "section": "4.3 Eukaryotic Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It releases the digestive enzymes it makes from the cell by exocytosis.",
+    "quote": "Cells of the stomach and pancreas produce and secrete digestive enzymes through exocytosis",
+    "source": {
+     "section": "3.1 The Cell Membrane",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When proteins and fats reach the duodenum, the hormone CCK signals the acini to secrete enzyme-rich pancreatic juice.",
+    "quote": "The presence of proteins and fats in the duodenum stimulates the secretion of CCK, which then stimulates the acini to secrete enzyme-rich pancreatic juice and enhances the activity of secretin.",
+    "source": {
+     "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It makes trypsin, an enzyme that breaks proteins down into peptides.",
+    "quote": "Pancreatic enzymes | Trypsin* | Pancreatic acinar cells | Proteins | Peptides",
+    "source": {
+     "section": "23.7 Chemical Digestion and Absorption: A Closer Look",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It makes pancreatic amylase, which breaks starches down into α-dextrins and small sugars such as maltose and maltotriose.",
+    "quote": "Pancreatic enzymes | Pancreatic amylase | Pancreatic acinar cells | Polysaccharides (starches) | α-Dextrins, disaccharides (maltose), trisaccharides (maltotriose)",
+    "source": {
+     "section": "23.7 Chemical Digestion and Absorption: A Closer Look",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It makes pancreatic lipase, which splits triglycerides emulsified by bile salts into fatty acids and monoacylglycerides.",
+    "quote": "Pancreatic enzymes | Pancreatic lipase | Pancreatic acinar cells | Triglycerides that have been emulsified by bile salts | Fatty acids and monoacylglycerides",
+    "source": {
+     "section": "23.7 Chemical Digestion and Absorption: A Closer Look",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It makes nucleases (ribonuclease and deoxyribonuclease) that break RNA and DNA down into nucleotides.",
+    "quote": "Pancreatic enzymes | Nucleases | Pancreatic acinar cells | Ribonuclease: ribonucleic acids Deoxyribonuclease: deoxyribonucleic acids | Nucleotides",
+    "source": {
+     "section": "23.7 Chemical Digestion and Absorption: A Closer Look",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

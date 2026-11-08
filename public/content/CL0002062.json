@@ -21,19 +21,126 @@
   "CL": "0002062"
  },
  "geometry": {
-  "model": "/models/cell/flat-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0002062.json",
   "shape": {
-   "family": "flat-epithelial",
-   "label": "Flat epithelial cell",
-   "variant": "flat-epithelial-cell",
+   "family": "profile",
+   "label": "Pulmonary alveolar type 1 cell",
+   "variant": "profile-cl0002062",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000076",
-    "label": "squamous epithelial cell"
+    "id": "CL:0002062",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "flat-epithelial",
+   "baseLabel": "Flat epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 6,
+    "fields": [
+     "shape",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002062/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002062"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: flattened and branched squamous cell",
+    "quote": "A squamous pulmonary alveolar epithelial cell that is flattened and branched.",
+    "source": {
+     "section": "CL:0002062 pulmonary alveolar type 1 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002062",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "thin cytoplasmic extensions (50–100 nm)",
+    "quote": "This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+    "source": {
+     "section": "CL:0002062 pulmonary alveolar type 1 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002062",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "thin, elastic basement membrane that the epithelium is attached to",
+    "quote": "The simple squamous epithelium formed by type I alveolar cells is attached to a thin, elastic basement membrane.",
+    "source": {
+     "section": "22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "This large cell covers more than 98% of the alveolar surface, and its thin (50–100 nm) cytoplasmic extensions form the air-blood barrier that normal gas exchange depends on.",
+    "quote": "A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+    "source": {
+     "section": "CL:0002062 pulmonary alveolar type 1 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002062",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "These squamous cells cover up to 97 percent of the alveolar surface yet are only about 25 nm thick, making a broad, very thin lining that is highly permeable to gases.",
+    "quote": "A type I alveolar cell is a squamous epithelial cell of the alveoli, which constitute up to 97 percent of the alveolar surface area. These cells are about 25 nm thick and are highly permeable to gases.",
+    "source": {
+     "section": "22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The extremely thin epithelium these cells form borders the capillary endothelium, and together they make a respiratory membrane about 0.5 μm thick that gases cross by simple diffusion.",
+    "quote": "This epithelium is extremely thin and borders the endothelial membrane of capillaries. Taken together, the alveoli and capillary membranes form a respiratory membrane that is approximately 0.5 μm (micrometers) thick. The respiratory membrane allows gases to cross by simple diffusion",
+    "source": {
+     "section": "22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

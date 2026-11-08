@@ -13,20 +13,242 @@
   "CL": "0000233"
  },
  "geometry": {
-  "model": "/models/cell/platelet.json",
+  "model": "/models/cell/profile-cl0000233.json",
   "shape": {
-   "family": "platelet",
+   "family": "profile",
    "label": "Platelet",
-   "variant": "platelet",
+   "variant": "profile-cl0000233",
    "apical": null,
    "nucleus": false,
    "from": {
     "id": "CL:0000233",
-    "label": "platelet"
+    "label": "morphology profile"
    },
-   "noNucleus": "Platelets have no nucleus (Cell Ontology: 'A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes').",
-   "caption": "A simplified shape for the platelet family · no nucleus · sizes illustrative"
+   "noNucleus": "Its morphology profile, from its cited sources, says it has no nucleus.",
+   "caption": "Drawn from its morphology profile (unreviewed) · 2–4 µm across",
+   "base": "platelet",
+   "baseLabel": "Platelet",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 15,
+    "fields": [
+     "shape",
+     "size",
+     "nucleus_count",
+     "granules",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000233/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "disc",
+    "quote": "Each platelet is disc shaped and 2–4 μm in diameter.",
+    "source": {
+     "section": "40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "shape",
+    "value": "other: spiked, on meeting a vessel rupture",
+    "quote": "platelets, which normally float free in the plasma, encounter the area of vessel rupture with the exposed underlying connective tissue and collagenous fibers. The platelets begin to clump together, become spiked and sticky, and bind to the exposed collagen and endothelial lining.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "2–4 µm diameter",
+    "quote": "Platelets are relatively small, 2–4 µm in diameter, but numerous, with typically 150,000–160,000 per µL of blood.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "2–4 µm diameter",
+    "quote": "Each platelet is disc shaped and 2–4 μm in diameter.",
+    "source": {
+     "section": "40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "0",
+    "quote": "They contain many small vesicles but do not contain a nucleus.",
+    "source": {
+     "section": "40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "0",
+    "quote": "MHC I molecules are proteins on the surfaces of all nucleated cells, thus they are scarce on red blood cells and platelets which are non-nucleated.",
+    "source": {
+     "section": "42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "granules",
+    "value": "small vesicles; look: small; abundance: many; position: unknown",
+    "quote": "They contain many small vesicles but do not contain a nucleus.",
+    "source": {
+     "section": "40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "cell fragment: a piece of megakaryocyte cytoplasm enclosed by plasma membrane, not a true cell",
+    "quote": "A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "contractile proteins",
+    "quote": "The stabilized clot is acted upon by contractile proteins within the platelets.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "At a torn vessel, platelets become spiked and sticky, clump together and bind to the exposed collagen and endothelial lining.",
+    "quote": "platelets, which normally float free in the plasma, encounter the area of vessel rupture with the exposed underlying connective tissue and collagenous fibers. The platelets begin to clump together, become spiked and sticky, and bind to the exposed collagen and endothelial lining.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Platelets gathered into a plug can temporarily seal a small opening in a blood vessel, buying time for more durable repairs.",
+    "quote": "A platelet plug can temporarily seal a small opening in a blood vessel. Plug formation, in essence, buys the body time while more sophisticated and durable repairs are being made.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Platelets hold chemicals in granules and release them into the plasma as they gather at an injury, which furthers hemostasis.",
+    "quote": "As platelets collect, they simultaneously release chemicals from their granules into the plasma that further contribute to hemostasis.",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "By extending many projections, platelets stick at a wound and release their contents, which activate other platelets and interact with coagulation factors.",
+    "quote": "Small cell fragments called platelets (thrombocytes) are attracted to the wound site where they adhere by extending many projections and releasing their contents. These contents activate other platelets and also interact with other coagulation factors",
+    "source": {
+     "section": "40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Contractile proteins inside platelets pull on the fibrin threads of a stabilized clot, drawing its edges more tightly together.",
+    "quote": "The stabilized clot is acted upon by contractile proteins within the platelets. As these proteins contract, they pull on the fibrin threads, bringing the edges of the clot more tightly together",
+    "source": {
+     "section": "18.5 Hemostasis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Besides stopping blood loss, platelets secrete growth factors that support the growth and repair of tissue, especially connective tissue.",
+    "quote": "Platelets are critical to hemostasis, the stoppage of blood loss following damage to a vessel. They also secrete a variety of growth factors essential for growth and repair of tissue, particularly connective tissue.",
+    "source": {
+     "section": "18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

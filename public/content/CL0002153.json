@@ -9,20 +9,201 @@
   "CL": "0002153"
  },
  "geometry": {
-  "model": "/models/cell/flat-epithelial-cell-no-nucleus.json",
+  "model": "/models/cell/profile-cl0002153.json",
   "shape": {
-   "family": "flat-epithelial",
-   "label": "Flat epithelial cell",
-   "variant": "flat-epithelial-cell-no-nucleus",
+   "family": "profile",
+   "label": "Corneocyte",
+   "variant": "profile-cl0002153",
    "apical": null,
    "nucleus": false,
    "from": {
     "id": "CL:0002153",
-    "label": "corneocyte"
+    "label": "morphology profile"
    },
-   "noNucleus": "Cell Ontology classes it as an anucleate cell.",
-   "caption": "A simplified shape for the flat epithelial cell family · no nucleus · sizes illustrative"
+   "noNucleus": "Its morphology profile, from its cited sources, says it has no nucleus.",
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the flat epithelial cell family · size not stated",
+   "base": "flat-epithelial",
+   "baseLabel": "Flat epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 12,
+    "fields": [
+     "nucleus_count",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002153/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002153"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_count",
+    "value": "0",
+    "quote": "This cell type lacks a nucleus.",
+    "source": {
+     "section": "CL:0002153 corneocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002153",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "0",
+    "quote": "These cells do not have nuclei, so you can deduce that they are dead. They appear to be sloughing off.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "rough ER: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "smooth ER: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "Golgi apparatus: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "mitochondria: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "lysosomes: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "peroxisomes: 0 absent",
+    "quote": "The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that form the stratum lucidum and the stratum corneum.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "keratin",
+    "quote": "The dead keratin-filled squamous cell of the stratum corneum.",
+    "source": {
+     "section": "CL:0002153 corneocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002153",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Their keratin, together with glycolipids in the layer, makes the stratum corneum a barrier against water loss.",
+    "quote": "It acts as a protective barrier against water loss, due to the presence of layers of keratin and glycolipids in the stratum corneum.",
+    "source": {
+     "section": "5.3 Functions of the Integumentary System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "As keratinocytes, these cells store keratin, a fibrous intracellular protein that gives skin its hardness and water resistance.",
+    "quote": "The cells in all of the layers except the stratum basale are called keratinocytes. A keratinocyte is a cell that manufactures and stores the protein keratin. Keratin is an intracellular fibrous protein that gives hair, nails, and skin their hardness and water-resistant properties.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "These dead cells are shed periodically and replaced by cells pushed up from deeper layers, so the whole layer is renewed in about 4 weeks.",
+    "quote": "Cells in this layer are shed periodically and are replaced by cells pushed up from the stratum granulosum (or stratum lucidum in the case of the palms and soles of feet). The entire layer is replaced during a period of about 4 weeks.",
+    "source": {
+     "section": "5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

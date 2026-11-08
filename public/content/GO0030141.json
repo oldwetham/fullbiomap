@@ -1,0 +1,81 @@
+{
+ "id": "GO:0030141",
+ "conceptId": "GO0030141",
+ "label": "Secretory granules",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "GO": "0030141"
+ },
+ "geometry": {
+  "model": "/models/cell/profile-cl0000097.json"
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0030141/tier1.auto.md",
+   "text": "A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0030141",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0030141",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0030141. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0030141",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

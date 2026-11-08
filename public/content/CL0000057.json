@@ -17,8 +17,139 @@
    "apical": null,
    "nucleus": true,
    "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+   "profile": {
+    "status": "drafted",
+    "claims": 8,
+    "fields": [
+     "function",
+     "special"
+    ],
+    "drawn": false
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000057/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "function",
+    "value": "Fibroblasts secrete all three main kinds of connective tissue fiber: collagen, elastic and reticular fibers.",
+    "quote": "Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The polysaccharides and proteins that fibroblasts release mix with extracellular fluid into a viscous ground substance, which together with the embedded fibers forms the extracellular matrix.",
+    "quote": "Polysaccharides and proteins secreted by fibroblasts combine with extra-cellular fluids to produce a viscous ground substance that, with embedded fibrous proteins, forms the extra-cellular matrix.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Fibroblasts secrete the ground substance, made of proteins and the polysaccharide hyaluronic acid, in which the connective tissue fibers are embedded.",
+    "quote": "All of these fiber types are embedded in ground substance. Secreted by fibroblasts, ground substance is made of polysaccharides, specifically hyaluronic acid, and proteins.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Fibroblasts can move, divide by mitosis and make whichever type of connective tissue is needed.",
+    "quote": "Fibroblasts are motile, able to carry out mitosis, and can synthesize whichever connective tissue is needed.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "In a healing wound, fibroblasts mobilize and divide rapidly, depositing collagen that forms granulation tissue to repair the damaged tissue.",
+    "quote": "fibroblasts mobilize and divide rapidly to repair the damaged tissue by collagen deposition, forming granulation tissue.",
+    "source": {
+     "section": "5.4 Diseases, Disorders, and Injuries of the Integumentary System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-4-diseases-disorders-and-injuries-of-the-integumentary-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Fibroblasts lay down the collagen of scar tissue, whose basket-weave of fibers repairs skin without restoring its normal cellular structure.",
+    "quote": "Fibroblasts generate scar tissue in the form of collagen, and the bulk of repair is due to the basket-weave pattern generated by collagen fibers and does not result in regeneration of the typical cellular structure of skin.",
+    "source": {
+     "section": "5.4 Diseases, Disorders, and Injuries of the Integumentary System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-4-diseases-disorders-and-injuries-of-the-integumentary-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When a bone breaks, fibroblasts produce collagen fibers that connect the broken ends.",
+    "quote": "Fibroblasts produce collagen fibers that connect the broken bone ends, and osteoblasts start to form spongy bone.",
+    "source": {
+     "section": "38.2 Bone",
+     "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "collagen fibers (extracellular, secreted by the cell)",
+    "quote": "Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

@@ -41,11 +41,12 @@ export interface ConnectionSource {name:string;license:string;url:string}
 export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[];/** The same structure's id in other bodies or models (e.g. its Uberon id). */alternates?:string[]}
 /** The organ a structure belongs to on the scale ladder, with the interior models that exist for it per body. */
 export interface LadderOrgan {id:string;conceptId:string;label:string;alternates?:string[];interior?:Partial<Record<Body,string[]>>;/** Tissue boards: the organ's own and its is_a ancestors' (public/tissue/*.json). */tissue?:string[]}
-export interface Ladder {system:SystemId;isOrgan:boolean;organ:LadderOrgan|null}
+/** board: a structure whose own tissue board the ladder organ does not reach (the tongue, the brain); tissue opens from it. */
+export interface Ladder {system:SystemId;isOrgan:boolean;organ:LadderOrgan|null;board?:LadderOrgan}
 /** Breadcrumb names per display system: the display system for the heart is itself called "Heart". */
 export const LADDER_SYSTEM_NAMES:Partial<Record<SystemId,string>> = {cardiac:'Cardiovascular',arterial:'Arteries',venous:'Veins'};
 export const ladderSystemName=(id:SystemId)=>LADDER_SYSTEM_NAMES[id]??SYSTEMS.find(s=>s.id===id)?.name??id;
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string}
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string;morphology?:Morphology}
 export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
  arterial_supply:{out:'Supplied by',in:'Supplies'},
  venous_drainage:{out:'Drains to',in:'Drains'},
@@ -115,7 +116,13 @@ export function formatHash(h:HashState):string{
 /** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, histology and FTU media. */
 /** How a cell type is drawn in 3D (step 11, from pipeline/maps/cell-families.json): its family, the Cell Ontology class that chose it, and why it has no nucleus if it has none. */
 export interface Reconstruction {group:string;level:'type'|'class';nmoId:string;neuronName:string;species:string;region:string[];drawnSoma:boolean;page:string;paper:{citation:string;doi:string|null;pmid:string|null};license:string;licenseUrl:string;attribution:string}
-export interface CellShape {family:string;label:string;variant:string;apical:string|null;nucleus:boolean;from:{id:string;label:string}|null;note?:string;noNucleus?:string;caption?:string;reconstruction?:Reconstruction}
+export interface CellShape {family:string;label:string;variant:string;apical:string|null;nucleus:boolean;from:{id:string;label:string}|null;note?:string;noNucleus?:string;caption?:string;reconstruction?:Reconstruction;
+ /** A model drawn from the cell type's morphology profile: the family shape it falls back on, and which fields the profile states. */
+ base?:string;baseLabel?:string;outline?:'profile'|'family'|'illustrative';profile?:{status:string;claims:number;fields:string[];drawn:boolean}}
+/** A cell type's morphology profile (content/CL_<n>/morphology.md, step 11): checked claims, each with the sentence it quotes. */
+export interface MorphologySource {name:string;citation:string;license:string;url:string;access?:string}
+export interface MorphologyClaim {field:string;value:string;quote:string;source:{section:string;url:string;license:string;citation:string;access?:string}}
+export interface Morphology {status:string;file:string;license:string;attribution:string;method:string;draftedOn?:string;sources:MorphologySource[];claims:MorphologyClaim[]}
 export interface TissueCell {id:string;conceptId:string;label:string;model?:string;shape?:CellShape}
 export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[];
  /** Tissue unit illustrations: per cell type drawn, the SVG element ids that draw it (HRA crosswalk, step 08). */

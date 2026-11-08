@@ -14,7 +14,7 @@ import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js';
-import {CELL_FAMILIES, RECONSTRUCTIONS, captionOf, clAncestors, reconstructionCaption, shapeOf, variantOf} from './_cell-families.mjs';
+import {CELL_FAMILIES, PROFILES, RECONSTRUCTIONS, captionOf, clAncestors, profileParams, reconstructionCaption, shapeOf, variantOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rel = p => path.join(root, p);
@@ -36,7 +36,7 @@ const indexed = g => {
   if (!g.attributes.normal) g.computeVertexNormals();
   return g;
 };
-const join = list => mergeGeometries(list.filter(Boolean).map(indexed), false);
+const join = list => { const l = list.filter(Boolean); return l.length ? mergeGeometries(l.map(indexed), false) : null; };  // null when there is nothing to draw
 const UP = V(0, 1, 0);
 const along = (g, dir) => g.applyQuaternion(new THREE.Quaternion().setFromUnitVectors(UP, dir.clone().normalize()));
 const at = (g, p) => g.translate(p.x, p.y, p.z);
@@ -514,6 +514,283 @@ function reconstructionCell(add, g) {
   return {extentUm: extent, scale: S};
 }
 
+// ---------------------------------------------------------------------------------------------------------------
+// Profile models: a cell type's own model, built from the checked claims in its morphology profile
+// (content/CL_<n>/morphology.md). What a profile does not state comes from its family shape, or is left out.
+const AMOUNT = {mitochondria: [0, 4, 10, 24], 'rough er': [0, 1, 3, 6], 'smooth er': [0, 2, 4, 9], 'golgi apparatus': [0, 3, 4, 6], lysosomes: [0, 3, 7, 16],
+  peroxisomes: [0, 4, 9, 18], 'lipid droplets': [0, 2, 4, 8], glycogen: [0, 25, 60, 140], ribosomes: [0, 30, 70, 150]};
+// Granule colours as a source describes how they stain or look (first match wins).
+const LOOK = [[/\b(eosin\w*|orange|red|reddish|acidophil\w*)\b/, '#e0603a'], [/\b(brown|black|melanin)\b/, '#6b4a2b'], [/\b(basophil\w*|purple|dark|blue|bluish|violet)\b/, '#4b2f7d'],
+  [/\b(pale|pink|lilac|neutral|faint|neutrophil\w*)\b/, '#d9b6d3'], [/\byellow\w*\b/, '#e8d27a']];
+// Granule kinds: the part they are drawn as, its label in this cell, and their radius.
+const GRANULE = [[/zymogen/, 'zymogen-granule', 'Zymogen granules', 0.045], [/specific granule|neutrophil/, 'specific-granule', 'Specific granules', 0.016], [/azurophil/, 'lysosome', 'Azurophil granules (lysosomes)', 0.022],
+  [/melan/, 'melanosome', 'Melanosomes', 0.02], [/lamellar bod/, 'secretory-granule', 'Lamellar bodies', 0.04], [/weibel|palade/, 'weibel-palade-body', 'Weibel–Palade bodies', 0.014],
+  [/glycogen/, 'glycogen-granule', 'Glycogen', 0.007], [/mucin|mucus|mucous/, 'secretory-granule', 'Mucin granules', 0.04], [/lysosom/, 'lysosome', 'Lysosomes', 0.025]];
+const amount = (P, name, fallback) => { const k = Object.keys(P.organelles).find(o => o.startsWith(name)); return k != null ? P.organelles[k] : fallback; };
+const capital = s => s.charAt(0).toUpperCase() + s.slice(1);
+/** A granule's label as its claim names it, without the parenthetical asides. */
+const granuleLabel = kind => capital(kind.replace(/\s*\([^)]*\)/g, '').trim());
+
+/** The cell body for a profile shape, in local coordinates (centre at the origin): its geometry, an inside test with a
+ * margin, its half extents, how it is placed on the stage, its top (apical) surface and a point on its surface. */
+function bodyFor(shape, base) {
+  const at = (y, tilt) => g => { if (tilt) g.rotateX(tilt[0]).rotateY(tilt[1]); return g.translate(0, y, 0); };
+  const onEllipsoid = (a, b, c) => d => d.clone().divideScalar(Math.sqrt((d.x / a) ** 2 + (d.y / b) ** 2 + (d.z / c) ** 2));
+  const ellipsoid = (a, b, c, shrink = 1) => ({geometry: superellipsoid(a, b, c, 1, 1), inside: (p, m) => (p.x / (a * shrink - m)) ** 2 + (p.y / (b * shrink - m)) ** 2 + (p.z / (c * shrink - m)) ** 2 < 1,
+    half: V(a, b, c), place: at(0.66), top: (x, z) => { const h = 1 - (x / a) ** 2 - (z / c) ** 2; return h <= 0 ? null : b * Math.sqrt(h); }, surface: onEllipsoid(a, b, c), polar: false, long: a > b * 1.6 ? 'x' : 'y'});
+  const box = (a, b, c, e1, e2, y = 0.62, tilt = null) => ({geometry: superellipsoid(a, b, c, e1, e2), inside: (p, m) => superInside(p, a - m, b - m * (b < 0.1 ? 0.4 : 1), c - m, e1, e2),
+    half: V(a, b, c), place: at(y, tilt), top: (x, z) => superTop(x, z, a, b, c, e1, e2), surface: onEllipsoid(a, b, c), polar: true, long: 'y'});
+  // A box whose cross-section is scaled by k(y): pyramids, goblets, flasks.
+  const tapered = (a, b, e1, e2, k, y = 0.62) => { const B = box(a, b, a, e1, e2, y); displace(B.geometry, v => { const f = k(v.y); v.x *= f; v.z *= f; });
+    B.inside = (p, m) => superInside(V(p.x / k(p.y), p.y, p.z / k(p.y)), a - m, b - m, a - m, e1, e2);
+    B.top = (x, z) => { const f = k(b * 0.95); return superTop(x / f, z / f, a, b, a, e1, e2); };
+    let w = 0; for (let t = -b; t <= b; t += b / 20) w = Math.max(w, k(t)); B.half = V(a * w, b, a * w); return B; };
+  const s = (shape ?? '').replace(/\bnot (\w|-)+/g, '');  // "not squamous" says what it is not
+  if (/very large sphere/.test(s)) return ellipsoid(0.64, 0.64, 0.64);
+  if (/\bdisc\b/.test(s)) return ellipsoid(0.62, 0.2, 0.62);
+  if (/sphere|spheric|round/.test(s) || (!s && base === 'immune')) return ellipsoid(0.55, 0.55, 0.55);
+  if (/oval|ovoid/.test(s)) return ellipsoid(0.62, 0.46, 0.5);
+  if (/irregular|pseudopod|amoeb/.test(s)) { const b = ellipsoid(0.5, 0.47, 0.5, 0.82); displace(b.geometry, v => { const d = v.clone().normalize(); v.multiplyScalar(1 + 0.12 * Math.sin(5 * d.x + 1) * Math.cos(4 * d.y) + 0.08 * Math.sin(7 * d.z)); }); return b; }
+  // Flat before cube ("flat polygonal plate"), cube before squamous ("squamous when inactive, cuboidal or columnar when active").
+  if (/flat|plate/.test(s) || (!s && base === 'flat-epithelial')) return box(0.8, 0.075, 0.66, 0.55, 0.75, 0.62, [0.62, -0.25]);
+  if (/cube|cuboid/.test(s) || (!s && base === 'cube-epithelial')) return box(0.42, 0.38, 0.42, 0.3, 0.35);
+  if (/squam|thin/.test(s)) return box(0.8, 0.075, 0.66, 0.55, 0.75, 0.62, [0.62, -0.25]);
+  if (/pyramid/.test(s)) return tapered(0.4, 0.46, 0.3, 0.4, y => 1 - 0.25 * (y / 0.46 + 1));
+  if (/goblet|chalice/.test(s)) return tapered(0.26, 0.56, 0.22, 0.45, y => 0.55 + 0.75 * Math.exp(-(((y - 0.25) / 0.22) ** 2)), 0.61);
+  if (/flask|bulb/.test(s)) return tapered(0.26, 0.56, 0.22, 0.45, y => 0.5 + 0.8 * Math.exp(-(((y + 0.2) / 0.28) ** 2)), 0.61);
+  if (/dome|umbrella/.test(s)) { const B = box(0.6, 0.34, 0.6, 0.6, 0.5, 0.5); displace(B.geometry, v => { if (v.y < 0) v.y *= 0.45; });
+    B.inside = (p, m) => superInside(V(p.x, p.y < 0 ? p.y / 0.45 : p.y, p.z), 0.6 - m, 0.34 - m, 0.6 - m, 0.6, 0.5); return B; }
+  if (/polygon|polyhedr/.test(s)) return box(0.42, 0.38, 0.42, 0.3, 0.35);
+  if (/spindle|fusiform/.test(s)) {
+    const L = 0.82, R = 0.17, rad = x => R * Math.max(0, 1 - (x / L) ** 2) ** 1.05;
+    const g = displace(new THREE.SphereGeometry(1, 96, 32), v => { const k = Math.max(0, 1 - v.x * v.x) ** 0.55; v.set(v.x * L, v.y * R * k, v.z * R * k); });
+    return {geometry: g, inside: (p, m) => Math.abs(p.x) < L - m && Math.hypot(p.y, p.z) < rad(p.x) - m * 0.6, half: V(L, R, R), place: at(0.66),
+      top: (x, z) => { const r = rad(x); return Math.abs(z) < r ? Math.sqrt(r * r - z * z) : null; }, surface: onEllipsoid(L, R, R), polar: false, long: 'x'};
+  }
+  if (/star|stellate|branched|dendritic|process|\barms?\b|finger-like/.test(s) || (!s && base === 'branched-immune')) return {...ellipsoid(0.26, 0.24, 0.26), processes: true};
+  if (/column|columnar|tall|cylindr/.test(s) || (!s && base === 'column-epithelial')) return box(0.26, 0.56, 0.26, 0.22, 0.45, 0.61);
+  if (/elongat/.test(s)) return box(0.2, 0.58, 0.2, 0.6, 0.7, 0.61);  // upright, with an apical end
+  return ellipsoid(0.62, 0.48, 0.52);
+}
+
+/** One nucleus geometry (local, at the origin) for a profile's nucleus shape. */
+function nucleusGeometry(kind, r, lobes, long) {
+  const k = kind ?? 'round';
+  if (/multilob/.test(k)) { const n = Math.min(Math.max(lobes ?? 4, 3), 5), parts = [], pts = [];
+    for (let i = 0; i < n; i++) { const a = -1.9 + (3.8 * i) / (n - 1), p = V(Math.cos(a) * r * 0.95, Math.sin(a) * r * 0.55, Math.sin(a * 1.7) * r * 0.25); pts.push(p); parts.push(sphere(p, r * 0.42, 24, 16)); }
+    for (let i = 0; i < n - 1; i++) parts.push(taperedTube([pts[i], pts[i].clone().lerp(pts[i + 1], 0.5).add(V(0, r * 0.05, 0)), pts[i + 1]], r * 0.1, r * 0.1, 8));
+    return join(parts); }
+  if (/bilob/.test(k)) return join([sphere(V(-r * 0.62, 0, 0), r * 0.62, 32, 20), sphere(V(r * 0.62, 0, 0), r * 0.62, 32, 20), taperedTube([V(-r * 0.3, 0, 0), V(0, r * 0.08, 0), V(r * 0.3, 0, 0)], r * 0.16, r * 0.16, 8)]);
+  if (/horseshoe/.test(k)) return new THREE.TorusGeometry(r * 0.85, r * 0.34, 16, 48, Math.PI * 1.45).rotateZ(Math.PI * 0.27);
+  if (/kidney|indent|bean/.test(k)) { const notch = V(1, 0.2, 0.3).normalize(); return displace(new THREE.SphereGeometry(r, 48, 32), v => { const d = v.clone().normalize(); v.multiplyScalar(1 - 0.3 * Math.max(0, d.dot(notch)) ** 3); }); }
+  if (/elongat|cigar|rod/.test(k)) return long === 'x' ? new THREE.SphereGeometry(1, 40, 24).scale(r * 2.2, r * 0.55, r * 0.55) : new THREE.SphereGeometry(1, 40, 24).scale(r * 0.6, r * 1.8, r * 0.6);
+  if (/flatten/.test(k)) return new THREE.SphereGeometry(1, 40, 24).scale(r * 1.3, r * 0.42, r * 1.1);
+  if (/oval/.test(k)) return new THREE.SphereGeometry(1, 40, 24).scale(r * 1.2, r * 0.88, r);
+  if (/irregular/.test(k)) return displace(new THREE.SphereGeometry(r, 40, 28), v => { const d = v.clone().normalize(); v.multiplyScalar(1 + 0.12 * Math.sin(4 * d.x + 2) * Math.cos(5 * d.y)); });
+  return new THREE.SphereGeometry(r, 48, 32);
+}
+
+function generalProfileCell(add, P, base, noNucleus, familyApical) {
+  const B = bodyFor(P.shape, base), H = B.half, thin = H.y < 0.1, slim = B.long === 'x' && H.y < 0.25, sz = thin ? 0.6 : 1, place = g => g ? B.place(g) : null;
+  // Organelles lie flat in a flat cell and along the length of a slim one.
+  const dir = () => { const d = unit(); if (thin) { d.y *= 0.05; d.normalize(); } else if (slim) { d.x *= 4; d.normalize(); } return d; };
+  const find = ok => { for (let i = 0; i < 12000; i++) { const p = V(between(-H.x, H.x), between(-H.y, H.y), between(-H.z, H.z)); if (ok(p)) return p; } return null; };
+  add('membrane', 'Cell membrane', place(B.geometry.clone()), {layer: 'envelope'});
+  // Nuclei: none, one, two or many, with the shape, size and position the profile states.
+  const count = P.nucleusCount ?? (noNucleus ? 0 : 1), kind = P.nucleusShape ?? (thin ? 'flattened' : slim ? 'elongated' : 'round');
+  const minHalf = thin ? Math.min(H.x, H.z) * 0.3 : Math.min(H.x, H.y, H.z);
+  const r = count > 0 ? (count > 2 ? 0.2 : count === 2 ? 0.32 : /large/.test(P.nucleusSize ?? '') ? 0.62 : /small/.test(P.nucleusSize ?? '') ? 0.3 : 0.44) * minHalf : 0;
+  const reach = r * (/elongat|cigar|rod/.test(kind) ? 2.3 : /lob|horseshoe/.test(kind) ? 1.5 : 1.3), nuclei = [];
+  if (count > 0) {
+    const pos = P.nucleusPosition ?? '';
+    const anchor = thin ? V(0, 0, 0) : /basal/.test(pos) ? V(0, -H.y + reach + 0.03, 0) : /apical/.test(pos) ? V(0, H.y - reach - 0.05, 0)
+      : /off|eccentric|periph/.test(pos) ? V(H.x - reach - 0.05, -H.y * 0.1, 0) : V(0, 0, 0);
+    if (count === 1) nuclei.push(anchor);
+    else if (count === 2) nuclei.push(anchor.clone().add(V(-reach * 1.05, 0, 0)), anchor.clone().add(V(reach * 1.05, 0, 0)));
+    else for (let i = 0; i < Math.min(count, 14); i++) { const p = find(q => B.inside(q, reach + 0.02) && nuclei.every(n => n.distanceTo(q) > reach * 2.05)); if (p) nuclei.push(p); }
+    const nucleus = n => { const g = nucleusGeometry(kind, r, P.lobes, B.long); if (thin && !/flatten/.test(kind)) g.scale(1, 0.45, 1); return at(g, n); };
+    add('nucleus', nuclei.length > 1 ? 'Nuclei' : 'Nucleus', place(join(nuclei.map(nucleus))), {layer: 'shell'});
+    if (!/lob|horseshoe/.test(kind)) add('nucleolus', nuclei.length > 1 ? 'Nucleoli' : 'Nucleolus', place(join(nuclei.map(n => sphere(n.clone().add(V(r * 0.2, thin ? 0 : r * 0.15, r * 0.1)), r * (thin ? 0.16 : 0.24), 16, 12)))));
+  }
+  const clear = (p, gap) => nuclei.every(n => n.distanceTo(p) > reach + gap);
+  const spot = (m, where = null) => { for (const k of [1, 0.5, 0.25]) { const p = find(q => B.inside(q, m * k) && clear(q, 0.03 * k) && (!where || where(q))); if (p) return p; } return null; };
+  const scatter = (n, m, make, where = null) => join(Array.from({length: n}, () => { const p = spot(m, where); return p ? make(p) : null; }));
+  const fits = (g, m) => { const pos = g.attributes.position, v = V(0, 0, 0); for (let i = 0; i < pos.count; i += 5) if (!B.inside(v.fromBufferAttribute(pos, i), m)) return false; return true; };
+  // Organelles in the amounts the profile states; unstated ones at a modest default (none in a cell with no nucleus).
+  const has = count > 0, qty = (name, fallback) => Math.round(AMOUNT[name][amount(P, name, fallback)] * (thin ? 0.6 : 1));
+  const mito = qty('mitochondria', has ? 2 : 0);
+  if (mito) add('mitochondrion', 'Mitochondria', place(scatter(mito, 0.06, p => capsule(p, dir(), 0.022 * sz, 0.08 * sz))));
+  const rer = AMOUNT['rough er'][amount(P, 'rough er', has ? 1 : 0)];
+  if (rer && nuclei.length) {
+    // Sheets wrapped round the back of the nucleus where they fit, then stacks of flat cisternae in the cytoplasm.
+    const sheets = [], dots = [], N0 = nuclei[0];
+    for (let k = 0, tries = 0; sheets.length < Math.min(rer, 5) && tries < 24; tries++) {
+      const rad = reach + 0.035 + k * 0.028, wrap = Math.PI * between(0.35, 0.9), start = Math.PI * 1.5 - wrap / 2 + between(-0.3, 0.3);
+      const g = displace(new THREE.SphereGeometry(rad, 40, 20, start, wrap, Math.PI * between(0.2, 0.3), Math.PI * between(0.4, 0.5)), v => { v.multiplyScalar(1 + 0.04 * Math.sin(9 * Math.atan2(v.z, v.x) + k)); if (thin) v.y *= 0.4; v.add(N0); });
+      if (!fits(g, 0.015)) continue;
+      sheets.push(g); k++;
+      const pos = g.attributes.position; for (let i = 0; i < 30; i++) dots.push(V(0, 0, 0).fromBufferAttribute(pos, Math.floor(rand() * pos.count)));
+    }
+    for (let tries = 0; sheets.length < rer && tries < rer * 6; tries++) {
+      const c = spot(0.1); if (!c) break;
+      const toward = N0.clone().sub(c).normalize(), stack = [];
+      for (let i = 0; i < 3; i++) { const g = displace(new THREE.PlaneGeometry(0.14 * sz, 0.1 * sz, 8, 6), v => { v.z -= 2.2 * v.x * v.x; }); along(g.rotateX(-Math.PI / 2), thin ? UP : toward); at(g, c.clone().addScaledVector(thin ? UP : toward, (i - 1) * 0.024 * sz)); stack.push(g); }
+      const g = join(stack); if (!fits(g, 0.01)) continue;
+      sheets.push(g); const pos = g.attributes.position; for (let i = 0; i < 24; i++) dots.push(V(0, 0, 0).fromBufferAttribute(pos, Math.floor(rand() * pos.count)));
+    }
+    if (sheets.length) {
+      add('rough-er', 'Rough endoplasmic reticulum', place(join(sheets)));
+      add('ribosome', 'Ribosomes', place(ribosomes([...dots, ...Array.from({length: qty('ribosomes', 1)}, () => spot(0.03)).filter(Boolean)])));
+    }
+  }
+  const ser = AMOUNT['smooth er'][amount(P, 'smooth er', has ? 1 : 0)];
+  if (ser) add('smooth-er', 'Smooth endoplasmic reticulum', place(join(Array.from({length: ser}, () => { const a = spot(0.08); if (!a) return null; const pts = [a];
+    for (const q of wander(a, dir(), 3, 0.05 * sz, 0.4).slice(1)) { if (!B.inside(q, 0.03) || !clear(q, 0.01)) break; pts.push(q); }
+    return pts.length > 1 ? taperedTube(pts, 0.01, 0.01, 6) : null; }))));
+  const golgi = AMOUNT['golgi apparatus'][amount(P, 'golgi', has ? 2 : 0)];
+  if (golgi && nuclei.length) { const size = 0.07 * sz;
+    for (const side of [V(0, 1, 0), V(1, 0.4, 0), V(-1, 0.4, 0), V(0, 0.3, 1), V(0, -1, 0)]) { const d = side.normalize(), g = nuclei[0].clone().addScaledVector(d, reach + size * 0.9); if (thin) g.y = 0;
+      if (B.inside(g, size * 1.1) && clear(g, size * 0.5)) { add('golgi', 'Golgi apparatus', place(golgiStack(g, thin ? V(0.2, 1, 0) : d, size, golgi))); break; } } }
+  const lyso = qty('lysosomes', has ? 1 : 0);
+  if (lyso) add('lysosome', 'Lysosomes', place(scatter(lyso, 0.05, p => sphere(p, between(0.018, 0.03) * sz, 14, 10))));
+  const pero = qty('peroxisomes', 0);
+  if (pero) add('peroxisome', 'Peroxisomes', place(scatter(pero, 0.05, p => sphere(p, 0.02 * sz, 12, 8))));
+  const lip = qty('lipid droplets', 0);
+  if (lip) add('lipid-droplet', 'Lipid droplets', place(scatter(lip, 0.08, p => sphere(p, between(0.035, 0.06) * sz, 20, 14))));
+  const gly = qty('glycogen', 0);
+  if (gly) add('glycogen-granule', 'Glycogen', place(scatter(gly, 0.03, p => at(new THREE.IcosahedronGeometry(0.008, 0), p))));
+  // Granules: how many, how big, where and what colour they look, as the profile states (one kind per part).
+  const granules = new Map();
+  for (const g of P.granules) { const [, key, , size] = GRANULE.find(([rx]) => rx.test(g.kind.toLowerCase())) ?? [null, 'secretory-granule', null, 0.028]; if (!granules.has(key)) granules.set(key, {...g, key, label: granuleLabel(g.kind), size}); }
+  // Granules a profile names only as special structures (Weibel–Palade bodies, lamellar bodies, melanosomes).
+  for (const s of P.special.filter(v => /granule|bod(y|ies)|melanosome/.test(v))) for (const [rx, key, label, size] of GRANULE) if (rx.test(s) && !granules.has(key) && !['lysosome', 'glycogen-granule'].includes(key)) granules.set(key, {kind: s, key, label, size});
+  for (const g of granules.values()) {
+    const n = /packed/.test(g.abundance ?? '') ? 60 : /many/.test(g.abundance ?? '') ? 30 : /few/.test(g.abundance ?? '') ? 8 : 16;
+    const where = /apical/.test(g.position ?? '') ? p => p.y > H.y * 0.15 : /basal/.test(g.position ?? '') ? p => p.y < -H.y * 0.15 : null;
+    const color = LOOK.find(([rx]) => rx.test((g.look ?? '').toLowerCase()))?.[1], size = g.size * sz;
+    const make = g.key === 'weibel-palade-body' ? p => capsule(p, dir(), size, size * 5) : p => sphere(p, size * between(0.8, 1.2), 12, 9);
+    add(g.key, g.label, place(scatter(n, Math.max(0.03, size * 1.5), make, where)), {...(color ? {color} : {}), label: g.label});
+  }
+  // Surface features.
+  const surfaces = P.surface.length ? P.surface : familyApical === 'microvilli' ? ['microvilli'] : familyApical === 'cilia' ? ['motile cilia'] : [];
+  const surface = kind => surfaces.some(v => kind.test(v));
+  const topPoints = (n, rim) => { const out = []; for (let i = 0; i < n * 40 && out.length < n; i++) { const x = between(-H.x, H.x), z = between(-H.z, H.z), y = B.top(x, z); if (y != null && y > H.y * rim) out.push(V(x, y, z)); } return out; };
+  const normalAt = p => V(p.x / H.x ** 2, p.y / H.y ** 2, p.z / H.z ** 2).normalize();
+  if (surface(/microvill|brush/)) {
+    const brush = surface(/brush/), pts = B.polar ? topPoints(brush ? 160 : 90, 0.9) : Array.from({length: 80}, () => B.surface(unit()));
+    add('microvillus', brush ? 'Microvilli (brush border)' : 'Microvilli', place(join(pts.map(p => { const d = B.polar ? UP : normalAt(p); return at(along(new THREE.CapsuleGeometry(0.011, brush ? 0.09 : 0.06, 3, 7), d), p.clone().addScaledVector(d, brush ? 0.045 : 0.03)); }))));
+  }
+  if (surface(/stereocilia/)) { const hairs = [], y0 = B.top(0, 0) ?? H.y;
+    [0.1, 0.17, 0.26].forEach((h, i) => { for (let j = -6; j <= 6; j++) { const x = j * 0.026, z = -0.06 + i * 0.05, y = (B.top(x, z) ?? y0) - 0.01; hairs.push(new THREE.CylinderGeometry(0.01, 0.006, h, 7).translate(x, y + h / 2, z)); } });
+    add('stereocilium', 'Stereocilia (in rows of rising height)', place(join(hairs))); }
+  if (surface(/motile cilia|^cilia$/)) add('cilium', 'Cilia', place(join(topPoints(36, B.polar ? 0.85 : 0.6).map(b => { const d = B.polar ? UP : normalAt(b);
+    return new THREE.TubeGeometry(new THREE.CatmullRomCurve3([b, b.clone().addScaledVector(d, 0.11).add(V(0.015, 0, 0)), b.clone().addScaledVector(d, 0.22).add(V(0.06, 0, 0.01)), b.clone().addScaledVector(d, 0.31).add(V(0.13, 0, 0.02))]), 16, 0.0095, 6, false); }))));
+  else if (surface(/primary cilium/)) { const b = V(0, (B.top(0, 0) ?? H.y) - 0.005, 0); add('cilium', 'Primary cilium', place(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([b, b.clone().add(V(0.02, 0.12, 0)), b.clone().add(V(0.05, 0.24, 0))]), 16, 0.012, 6, false)), {label: 'Primary cilium'}); }
+  if (surface(/pseudopod/) || /pseudopod/.test(P.shape ?? '')) add('pseudopodium', 'Pseudopodia', place(join(Array.from({length: 5}, () => { const p = B.surface(unit()), d = normalAt(p); return at(along(new THREE.CapsuleGeometry(0.07, 0.2, 6, 12), d), p.clone().addScaledVector(d, 0.06)); }))), {layer: 'envelope'});
+  if (surface(/ruffled/)) add('ruffle', 'Ruffled border', place(join(topPoints(140, 0.55).map(p => at(along(new THREE.CapsuleGeometry(0.012, 0.045, 3, 7), V(between(-0.3, 0.3), -1, between(-0.3, 0.3))), V(p.x, -p.y - 0.012, p.z))))));
+  if (B.processes || surface(/long processes|foot processes/)) { const foot = surface(/foot processes/), procs = [];
+    for (let k = 0; k < (B.processes ? 9 : 6); k++) { const d = unit(); if (d.y < -0.6) { d.y = -0.6; d.normalize(); } const main = wander(B.surface(d).multiplyScalar(0.92), d, 5, 0.09, 0.3);
+      procs.push(taperedTube(main, 0.03, 0.008), taperedTube(wander(main[2], d.clone().add(unit()).normalize(), 3, 0.07, 0.35), 0.015, 0.005));
+      if (foot) for (let i = 2; i < main.length; i++) for (let j = 0; j < 5; j++) procs.push(at(along(new THREE.CapsuleGeometry(0.006, 0.035, 2, 5), unit()), main[i].clone().add(unit().multiplyScalar(0.022)))); }
+    add('cell-projection', foot ? 'Primary processes and foot processes' : 'Cell processes', place(join(procs)), foot ? {label: 'Processes and foot processes'} : {}); }
+  // Special structures.
+  const special = kind => P.special.some(v => kind.test(v));
+  if (special(/zona|egg coat/)) add('egg-coat', 'Zona pellucida', place(superellipsoid(H.x * 1.14, H.y * 1.14, H.z * 1.14, 1, 1)), {layer: 'envelope'});
+  const keratin = special(/keratin|tonofil/), intermediate = keratin || special(/intermediate filament/);
+  if (intermediate) add('intermediate-filament', keratin ? 'Keratin filaments' : 'Intermediate filaments', place(join(Array.from({length: thin ? 70 : 40}, () => { const a = spot(0.03); if (!a) return null; const d = dir(), b = a.clone();
+    while (B.inside(b.clone().addScaledVector(d, 0.02), 0.03)) b.addScaledVector(d, 0.02); return a.distanceTo(b) > 0.1 ? filament(a, b, 0.005, 0.01) : null; }))), keratin ? {} : {label: 'Intermediate filaments'});
+  if (special(/intracellular canalicul|secretory canalicul/)) add('intracellular-canaliculus', 'Intracellular canaliculi', place(join(Array.from({length: 6}, () => { const top = V(between(-0.08, 0.08), (B.top(0, 0) ?? H.y) - 0.03, between(-0.08, 0.08)), pts = [top];
+    for (const q of wander(top, V(between(-0.5, 0.5), -1, between(-0.5, 0.5)), 6, 0.06, 0.35).slice(1)) { if (!B.inside(q, 0.03) || !clear(q, 0.01)) break; pts.push(q); }
+    return pts.length > 2 ? taperedTube(pts, 0.016, 0.01, 8) : null; }))));
+  const strands = [0, 10, 20, 40][amount(P, 'cytoskeleton', 2)] * (thin ? 0.6 : 1) | 0;
+  if (!keratin && has && strands) { const c = nuclei[0] ?? V(0, 0, 0); add('cytoskeleton', 'Cytoskeleton', place(join(Array.from({length: strands}, () => { const d = dir(), s = c.clone().addScaledVector(d, reach + 0.01), e = s.clone();
+    while (B.inside(e.clone().addScaledVector(d, 0.02), 0.03)) e.addScaledVector(d, 0.02); return e.distanceTo(s) > 0.08 ? filament(s, e, 0.0035, 0.02) : null; })))); }
+}
+
+// T tubules for the muscle shapes when a profile states them: tubes running in from the cell membrane between myofibrils.
+const rodBetween = (a, b, r) => at(along(new THREE.CylinderGeometry(r, r, a.distanceTo(b), 6, 1, true), b.clone().sub(a)), a.clone().lerp(b, 0.5));
+function tTubules(add, kind) {
+  const tubes = [];
+  if (kind === 'skeletal') { const Y = 0.62, R = 0.29; for (let x = -0.75; x < 0.76; x += 0.1) for (let k = 0; k < 6; k++) { const a = (k / 6) * Math.PI * 2 + x * 7; tubes.push(rodBetween(V(x, Y + R * Math.cos(a), R * Math.sin(a)), V(x, Y + 0.06 * Math.cos(a), 0.06 * Math.sin(a)), 0.006)); } }
+  else { const Y = 0.62; for (let x = -0.7; x < 0.12; x += 0.1) { if (Math.abs(x + 0.24) < 0.14) continue; for (let k = 0; k < 6; k++) { const a = (k / 6) * Math.PI * 2 + x * 5; tubes.push(rodBetween(V(x, Y + 0.2 * Math.cos(a), 0.2 * Math.sin(a)), V(x, Y + 0.07 * Math.cos(a), 0.07 * Math.sin(a)), 0.01)); } } }
+  add('t-tubule', 'T tubules', join(tubes));
+}
+
+// Sperm: a flattened head with an acrosome cap over its condensed nucleus, a midpiece wrapped in mitochondria, a long flagellum.
+function spermCell(add) {
+  const head = V(-0.66, 0.7, 0);
+  add('membrane', 'Cell membrane', join([new THREE.SphereGeometry(1, 48, 32).scale(0.15, 0.1, 0.06).translate(head.x, head.y, head.z), taperedTube([V(-0.52, 0.7, 0), V(-0.4, 0.7, 0), V(-0.3, 0.7, 0)], 0.035, 0.03, 12)]), {layer: 'envelope'});
+  add('nucleus', 'Nucleus (condensed)', new THREE.SphereGeometry(1, 40, 24).scale(0.13, 0.085, 0.05).translate(head.x + 0.01, head.y, head.z), {layer: 'shell'});
+  add('acrosome', 'Acrosome', new THREE.SphereGeometry(1, 40, 24, 0, Math.PI * 2, 0, Math.PI * 0.55).rotateZ(Math.PI / 2).scale(0.145, 0.095, 0.058).translate(head.x - 0.025, head.y, head.z));
+  const helix = []; for (let t = 0; t <= 1; t += 0.01) helix.push(V(-0.51 + t * 0.2, 0.7 + 0.028 * Math.cos(t * 40), 0.028 * Math.sin(t * 40)));
+  add('mitochondrion', 'Mitochondria (midpiece)', new THREE.TubeGeometry(new THREE.CatmullRomCurve3(helix), 400, 0.009, 6, false));
+  const tail = []; for (let t = 0; t <= 1; t += 0.02) tail.push(V(-0.31 + t * 1.15, 0.7 + 0.06 * Math.sin(t * 9) * t, 0.02 * Math.cos(t * 7) * t));
+  add('sperm-flagellum', 'Flagellum', taperedTube([V(-0.52, 0.7, 0), ...tail], 0.013, 0.005, 8));
+}
+
+// Rod and cone photoreceptors, bottom to top as they sit in the retina (light arrives from below): synaptic terminal and
+// axon, the cell body with its nucleus, the inner segment full of mitochondria, a connecting cilium, and the outer
+// segment's stack of membrane discs (a rod's discs float inside it; a cone's are folds of its membrane, tapering).
+function photoreceptorCell(add, cone) {
+  const os0 = 0.86, os1 = cone ? 1.26 : 1.4, rOS = cone ? 0.1 : 0.075;
+  add('membrane', 'Cell membrane', join([
+    sphere(V(0, 0.12, 0), 0.06, 24, 16), taperedTube([V(0, 0.17, 0), V(0, 0.26, 0), V(0, 0.34, 0)], 0.018, 0.022, 8), new THREE.SphereGeometry(1, 40, 28).scale(0.1, 0.13, 0.1).translate(0, 0.44, 0),
+    taperedTube([V(0, 0.55, 0), V(0, 0.57, 0)], 0.04, 0.05, 12),
+    new THREE.CylinderGeometry(cone ? 0.012 : rOS + 0.012, rOS + 0.012, os1 - os0, 32, 1, true).translate(0, (os0 + os1) / 2, 0)]), {layer: 'envelope'});
+  add('nucleus', 'Nucleus', new THREE.SphereGeometry(1, 36, 24).scale(0.075, 0.1, 0.075).translate(0, 0.44, 0), {layer: 'shell'});
+  add('axon', 'Axon and synaptic terminal', join([taperedTube([V(0, 0.33, 0), V(0, 0.24, 0), V(0, 0.16, 0)], 0.016, 0.014, 8), sphere(V(0, 0.11, 0), 0.05, 20, 14)]));
+  add('inner-segment', 'Inner segment', new THREE.SphereGeometry(1, 40, 28).scale(0.085, 0.16, 0.085).translate(0, 0.7, 0), {layer: 'shell'});
+  add('mitochondrion', 'Mitochondria (inner segment)', join(Array.from({length: 18}, () => capsule(V(between(-0.045, 0.045), between(0.62, 0.8), between(-0.045, 0.045)), V(0, 1, 0), 0.011, 0.045))));
+  add('cilium', 'Connecting cilium', taperedTube([V(0, 0.84, 0), V(0, 0.85, 0), V(0, os0 + 0.01, 0)], 0.01, 0.01, 6), {label: 'Connecting cilium'});
+  const discs = [], n = cone ? 34 : 46;
+  for (let i = 0; i < n; i++) { const t = i / (n - 1), y = os0 + 0.01 + t * (os1 - os0 - 0.02), r = cone ? 0.012 + (rOS - 0.012) * (1 - t) : rOS; discs.push(new THREE.CylinderGeometry(r, r, 0.004, 28, 1).translate(0, y, 0)); }
+  add('outer-segment', cone ? 'Outer segment (stacked membrane folds)' : 'Outer segment (stacked discs)', join(discs));
+}
+
+// Schwann cells. Myelinating: layers of its own membrane wrapped round one axon segment, its nucleus on the outside.
+// Non-myelinating: one cell enveloping several small axons, none of them wrapped in myelin.
+function schwannCell(add, myelinating) {
+  const Y = 0.66;
+  if (myelinating) {
+    add('axon', 'Axon (of the neuron it wraps)', new THREE.CylinderGeometry(0.045, 0.045, 1.6, 24, 1).rotateZ(Math.PI / 2).translate(0, Y, 0));
+    add('membrane', 'Myelin: layers of the cell membrane wrapped round the axon', join(Array.from({length: 7}, (_, i) => new THREE.CylinderGeometry(0.065 + i * 0.022, 0.065 + i * 0.022, 1.2, 40, 1, true).rotateZ(Math.PI / 2).translate(0, Y, 0))), {layer: 'envelope', label: 'Cell membrane (myelin)'});
+    add('nucleus', 'Nucleus', new THREE.SphereGeometry(1, 36, 24).scale(0.16, 0.05, 0.09).translate(0, Y + 0.24, 0), {layer: 'shell'});
+    add('mitochondrion', 'Mitochondria', join(Array.from({length: 4}, (_, i) => capsule(V(-0.3 + i * 0.2, Y + 0.23, between(-0.06, 0.06)), V(1, 0, 0), 0.012, 0.04))));
+  } else {
+    add('membrane', 'Cell membrane', new THREE.SphereGeometry(1, 64, 40).scale(0.75, 0.22, 0.22).translate(0, Y, 0), {layer: 'envelope'});
+    add('axon', 'Axons (of the neurons it envelops)', join(Array.from({length: 6}, (_, i) => { const a = (i / 6) * Math.PI * 2; return new THREE.CylinderGeometry(0.02, 0.02, 1.7, 12, 1).rotateZ(Math.PI / 2).translate(0, Y + 0.11 * Math.cos(a), 0.11 * Math.sin(a)); })));
+    add('nucleus', 'Nucleus', new THREE.SphereGeometry(1, 36, 24).scale(0.2, 0.06, 0.07).translate(0.1, Y, 0), {layer: 'shell'});
+  }
+}
+
+// Olfactory receptor neuron: a bipolar neuron; its dendrite ends in a knob bearing cilia, its axon runs the other way.
+function olfactoryNeuron(add) {
+  const C = V(0, 0.55, 0);
+  add('membrane', 'Cell body', new THREE.SphereGeometry(1, 40, 28).scale(0.09, 0.13, 0.09).translate(C.x, C.y, C.z), {layer: 'envelope'});
+  add('nucleus', 'Nucleus', new THREE.SphereGeometry(1, 32, 24).scale(0.06, 0.08, 0.06).translate(C.x, C.y, C.z), {layer: 'shell'});
+  add('dendrite', 'Dendrite and knob', join([taperedTube([V(0, 0.68, 0), V(0.01, 0.9, 0), V(0, 1.12, 0)], 0.022, 0.016, 8), sphere(V(0, 1.15, 0), 0.035, 20, 14)]));
+  add('cilium', 'Cilia', join(Array.from({length: 12}, (_, i) => { const a = (i / 12) * Math.PI * 2, b = V(0, 1.17, 0); return new THREE.TubeGeometry(new THREE.CatmullRomCurve3([b, b.clone().add(V(0.05 * Math.cos(a), 0.06, 0.05 * Math.sin(a))), b.clone().add(V(0.16 * Math.cos(a), 0.1, 0.16 * Math.sin(a)))]), 12, 0.006, 5, false); })));
+  add('axon', 'Axon', taperedTube([V(0, 0.42, 0), V(0.01, 0.25, 0), V(0, 0.06, 0)], 0.012, 0.01, 8));
+}
+
+/** A profiled cell type's model: a dedicated shape where the cell's form is its own (sperm, photoreceptors, Schwann
+ * cells, olfactory neurons) or a family shape fits it (red cells, platelets, muscle, fat), else the general builder. */
+function profileCell(add, prof, shape, noNucleus) {
+  const P = profileParams(prof.claims), base = shape.base, s = P.shape ?? '', id = shape.from.id;
+  const said = rx => P.special.some(v => rx.test(v)) || P.surface.some(v => rx.test(v)) || rx.test(s);
+  if (/biconcave/.test(s) || base === 'red-blood-cell') redBloodCell(add);
+  else if (base === 'platelet') platelet(add);
+  else if (/tadpole/.test(s) || id === 'CL:0000019') spermCell(add);
+  else if (/photoreceptor/.test(s) || ['CL:0000604', 'CL:0000573'].includes(id)) photoreceptorCell(add, /cone/.test(s) || id === 'CL:0000573');
+  else if (['CL:0002573', 'CL:0002376'].includes(id)) schwannCell(add, id === 'CL:0002573');
+  else if (id === 'CL:0000207') olfactoryNeuron(add);
+  else if (/long cylinder/.test(s) || base === 'skeletal-muscle-fiber') { skeletalFiber(add); if (said(/t[- ]?tubul/i)) tTubules(add, 'skeletal'); }
+  else if (/branched cylinder/.test(s) || base === 'cardiomyocyte') { cardiomyocyte(add); if (said(/t[- ]?tubul/i)) tTubules(add, 'cardiac'); }
+  else if (base === 'fat-cell' || amount(P, 'lipid droplets', 0) === 3) fatCell(add);
+  else generalProfileCell(add, P, base, noNucleus, shape.apical?.kind ?? null);
+  return {extentUm: P.sizeUm, scale: P.sizeUm ? 1.4 / P.sizeUm : null};
+}
+
 const BUILDERS = {
   'generic': (add, apical, noNucleus) => noNucleus ? genericNoNucleus(add) : genericCell(add),
   'immune': immuneCell, 'branched-immune': branchedImmuneCell, 'red-blood-cell': redBloodCell, 'platelet': platelet, 'neuron': neuron,
@@ -522,6 +799,7 @@ const BUILDERS = {
   'cube-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'cube-epithelial', apical, noNucleus),
   'column-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'column-epithelial', apical, noNucleus),
   'reconstruction': (add, apical, noNucleus, shape) => reconstructionCell(add, RECONSTRUCTIONS.groups[shape.reconstruction.group]),
+  'profile': (add, apical, noNucleus, shape) => profileCell(add, PROFILES[shape.from.id], shape, noNucleus),
 };
 
 // The models cell types need (step 06 lists every cell type with its CL ancestors), always including the generic cell.
@@ -532,10 +810,11 @@ const dir = rel('public/models/cell');
 fs.mkdirSync(dir, {recursive: true});
 const summary = {};
 for (const [variant, {family, apical, noNucleus, shape}] of [...needed].sort((x, y) => x[0].localeCompare(y[0]))) {
-  if (family !== 'reconstruction' && variantOf(family, apical, noNucleus) !== variant) throw new Error(`variant name mismatch for ${variant}`);
+  if (family !== 'reconstruction' && family !== 'profile' && variantOf(family, apical, noNucleus) !== variant) throw new Error(`variant name mismatch for ${variant}`);
   const parts = [];
   reseed(variant === 'generic-cell' ? 20261107 : variant);
-  const built = BUILDERS[family]((key, name, geometry, extra = {}) => { if (!byKey[key]) throw new Error(`${variant}: ${key} is not in organelles.json`); parts.push({key, name, geometry, ...extra}); }, apical, noNucleus, shape) ?? {};
+  const look = {};  // a model may give a part its own colour and label (granules as they look in this cell)
+  const built = BUILDERS[family]((key, name, geometry, extra = {}) => { if (!geometry) return; if (!byKey[key]) throw new Error(`${variant}: ${key} is not in organelles.json`); const {color, label, ...rest} = extra; if (color || label) look[key] = {...look[key], ...(color ? {color} : {}), ...(label ? {label} : {})}; parts.push({key, name, geometry, ...rest}); }, apical, noNucleus, shape) ?? {};
   // Write the manifest (same format as every other model) and one chunk.
   const buffers = [];
   let bytes = 0;
@@ -558,16 +837,18 @@ for (const [variant, {family, apical, noNucleus, shape}] of [...needed].sort((x,
   }
   fs.writeFileSync(path.join(dir, `${variant}-0.bin`), Buffer.concat(buffers));
   const drawn = organelles.filter(o => counter[o.key]);
-  const concepts = [{id: cell.id.replace(':', ''), name: 'Cell', elements: out.map(p => p.id)}, ...drawn.map(o => ({id: o.id.replace(':', ''), name: o.label, elements: out.filter(p => p.system === o.key).map(p => p.id)}))];
+  const rootId = family === 'profile' ? shape.from.id.replace(':', '') : cell.id.replace(':', ''), rootName = family === 'profile' ? PROFILES[shape.from.id].label : 'Cell';
+  const concepts = [{id: rootId, name: rootName, elements: out.map(p => p.id)}, ...drawn.map(o => ({id: o.id.replace(':', ''), name: look[o.key]?.label ?? o.label, elements: out.filter(p => p.system === o.key).map(p => p.id)}))];
   const rec = family === 'reconstruction' ? RECONSTRUCTIONS.groups[shape.reconstruction.group] : null;
-  const f = rec ? {label: rec.class} : CELL_FAMILIES.families[family], caption = rec ? reconstructionCaption(rec, 'type') : captionOf(family, apical, noNucleus);
+  const prof = family === 'profile' ? PROFILES[shape.from.id] : null;
+  const f = rec ? {label: rec.class} : prof ? {label: prof.label} : CELL_FAMILIES.families[family], caption = rec ? reconstructionCaption(rec, 'type') : prof ? shape.caption : captionOf(family, apical, noNucleus);
   fs.writeFileSync(path.join(dir, `${variant}.json`), JSON.stringify({
     version: variant === 'generic-cell' ? 'Bio Map generic cell v1' : `Bio Map ${variant.replace(/-/g, ' ')} v1`,
     source: rec ? `NeuroMorpho.Org ${rec.nmoId} (${rec.license}), drawn by Bio Map (pipeline/13-cell.mjs)` : 'Bio Map (procedural, pipeline/13-cell.mjs)',
     scope: variant === 'generic-cell' ? 'A generic cell: organelles typical of most cells; sizes and numbers are illustrative' : `${caption[0].toUpperCase()}${caption.slice(1)}`,
-    gzipOnly: true, wholeConcepts: true, stage: {magnification: built.scale ? Math.round(built.scale * 1e6) : null, rootConceptId: cell.id.replace(':', '')},
+    gzipOnly: true, wholeConcepts: true, stage: {magnification: built.scale ? Math.round(built.scale * 1e6) : null, rootConceptId: rootId},
     cell: {family, label: f.label, variant, apical, nucleus: !noNucleus, caption, ...(rec ? {reconstruction: {nmoId: rec.nmoId, species: rec.species, extentUm: Math.round(built.extentUm), drawnSoma: rec.drawnSoma, attribution: rec.attribution}} : {})},
-    palette: drawn.map(o => ({id: o.key, color: o.color, label: o.label})),
+    palette: drawn.map(o => ({id: o.key, color: look[o.key]?.color ?? o.color, label: look[o.key]?.label ?? o.label})),
     parts: out, chunks: [{url: `/models/cell/${variant}-0.bin`, bytes}], triangles, concepts,
   }));
   execFileSync('node', [rel('scripts/compress-models.mjs'), `cell/${variant}.json`], {stdio: 'ignore'});

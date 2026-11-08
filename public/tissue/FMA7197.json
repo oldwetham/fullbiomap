@@ -40,18 +40,33 @@
      "id": "CL:0000624",
      "conceptId": "CL0000624",
      "label": "CD4-positive, alpha-beta T cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000624.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "CD4-positive, alpha-beta T cell",
+      "variant": "profile-cl0000624",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000624",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -179,7 +194,15 @@
        "id": "CL:0000738",
        "label": "leukocyte"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the round immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -247,19 +270,31 @@
      "id": "CL:0000182",
      "conceptId": "CL0000182",
      "label": "Hepatocyte",
-     "model": "/models/cell/cube-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000182.json",
      "shape": {
-      "family": "cube-epithelial",
-      "label": "Cube-shaped epithelial cell",
-      "variant": "cube-epithelial-cell",
+      "family": "profile",
+      "label": "Hepatocyte",
+      "variant": "profile-cl0000182",
       "apical": null,
       "nucleus": true,
       "from": {
        "id": "CL:0000182",
-       "label": "hepatocyte"
+       "label": "morphology profile"
       },
-      "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes.",
-      "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the cube-shaped epithelial cell family · size not stated",
+      "base": "cube-epithelial",
+      "baseLabel": "Cube-shaped epithelial cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 15,
+       "fields": [
+        "special",
+        "organelle",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {

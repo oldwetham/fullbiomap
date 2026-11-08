@@ -21,19 +21,137 @@
   "CL": "0002063"
  },
  "geometry": {
-  "model": "/models/cell/cube-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0002063.json",
   "shape": {
-   "family": "cube-epithelial",
-   "label": "Cube-shaped epithelial cell",
-   "variant": "cube-epithelial-cell",
+   "family": "profile",
+   "label": "Pulmonary alveolar type 2 cell",
+   "variant": "profile-cl0002063",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0020029",
-    "label": "cuboidal epithelial cell"
+    "id": "CL:0002063",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "cube-epithelial",
+   "baseLabel": "Cube-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 7,
+    "fields": [
+     "shape",
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002063/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002063"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "cube",
+    "quote": "This cuboidal cell is thicker than squamous alveolar cells, has a rounded apical surface that projects above the level of the surrounding epithelium",
+    "source": {
+     "section": "CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "microvilli",
+    "quote": "its free surface is covered by short microvilli",
+    "source": {
+     "section": "CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "alveolar lamellar bodies",
+    "quote": "secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies",
+    "source": {
+     "section": "CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its lamellar bodies let it secrete and recycle surfactant, which is how it modulates the fluid around the alveolar epithelium.",
+    "quote": "A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies.",
+    "source": {
+     "section": "CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Scattered among the type I cells, it secretes pulmonary surfactant, a mix of phospholipids and proteins that lowers surface tension in the alveoli.",
+    "quote": "A type II alveolar cell is interspersed among the type I cells and secretes pulmonary surfactant, a substance composed of phospholipids and proteins that reduces the surface tension of the alveoli.",
+    "source": {
+     "section": "22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The surfactant it secretes reduces surface tension, which keeps the alveoli from collapsing during expiration.",
+    "quote": "However, pulmonary surfactant secreted by type II alveolar cells mixes with that water and helps reduce this surface tension. Without pulmonary surfactant, the alveoli would collapse during expiration.",
+    "source": {
+     "section": "22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It also takes part in tissue repair, and after injury it can differentiate into a type 1 alveolar cell.",
+    "quote": "This cell type also contributes to tissue repair and can differentiate after injury into a pulmonary alveolar type 1 cell.",
+    "source": {
+     "section": "CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

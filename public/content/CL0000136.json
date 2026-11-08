@@ -12,19 +12,144 @@
   "CL": "0000136"
  },
  "geometry": {
-  "model": "/models/cell/fat-cell.json",
+  "model": "/models/cell/profile-cl0000136.json",
   "shape": {
-   "family": "fat-cell",
-   "label": "Fat cell",
-   "variant": "fat-cell",
+   "family": "profile",
+   "label": "Adipocyte",
+   "variant": "profile-cl0000136",
    "apical": null,
    "nucleus": true,
    "from": {
     "id": "CL:0000136",
-    "label": "adipocyte"
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the fat cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the fat cell family · size not stated",
+   "base": "fat-cell",
+   "baseLabel": "Fat cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 7,
+    "fields": [
+     "nucleus_position",
+     "nucleus_size",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000136/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "nucleus_position",
+    "value": "peripheral",
+    "quote": "The thin lines in the image are the cell membranes, and the nuclei are the small, black dots at the edges of the cells.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_size",
+    "value": "small",
+    "quote": "The thin lines in the image are the cell membranes, and the nuclei are the small, black dots at the edges of the cells.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "lipid droplets: 3 abundant",
+    "quote": "Adipocytes are cells that store lipids as droplets that fill most of the cytoplasm.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "stored triglycerides (fat)",
+    "quote": "Adipose tissue is made up of cells called adipocytes that collect and store fat in the form of triglycerides, for energy metabolism.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Adipocytes are specialized fat stores: fat globules take up most of each cell's volume.",
+    "quote": "Mammals store fats in specialized cells, or adipocytes, where fat globules occupy most of the cell’s volume.",
+    "source": {
+     "section": "3.3 Lipids",
+     "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "By holding the body's surplus energy as fat, adipocytes act as an energy reserve and also help insulate the body.",
+    "quote": "Adipose cells store surplus energy in the form of fat and contribute to the thermal insulation of the body.",
+    "source": {
+     "section": "4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Adipocytes also make fat: lipogenesis, which builds lipids from acetyl CoA, takes place in their cytoplasm.",
+    "quote": "This process, called lipogenesis, creates lipids (fat) from the acetyl CoA and takes place in the cytoplasm of adipocytes (fat cells) and hepatocytes (liver cells).",
+    "source": {
+     "section": "24.3 Lipid Metabolism",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

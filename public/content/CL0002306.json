@@ -11,20 +11,315 @@
   "CL": "0002306"
  },
  "geometry": {
-  "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+  "model": "/models/cell/profile-cl0002306.json",
   "shape": {
-   "family": "cube-epithelial",
-   "label": "Cube-shaped epithelial cell",
-   "variant": "cube-epithelial-cell-microvilli",
+   "family": "profile",
+   "label": "Epithelial cell of proximal tubule",
+   "variant": "profile-cl0002306",
    "apical": "microvilli",
    "nucleus": true,
    "from": {
-    "id": "CL:1000507",
-    "label": "kidney tubule cell"
+    "id": "CL:0002306",
+    "label": "morphology profile"
    },
-   "note": "Kidney tubules are lined by cuboidal epithelium.",
-   "caption": "A simplified shape for the cube-shaped epithelial cell family · with microvilli · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "cube-epithelial",
+   "baseLabel": "Cube-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 21,
+    "fields": [
+     "shape",
+     "surface",
+     "organelle",
+     "nucleus_count",
+     "nucleus_shape",
+     "nucleus_position",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002306/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "cube",
+    "quote": "Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "microvilli",
+    "quote": "Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "brush border",
+    "quote": "Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "mitochondria: 3 abundant",
+    "quote": "These cells actively transport ions across their membranes, so they possess a high concentration of mitochondria in order to produce sufficient ATP.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "Cuboidal epithelial cells, shown in , are cube-shaped with a single, central nucleus.",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_shape",
+    "value": "round",
+    "quote": "In simple cuboidal epithelium, the nucleus of the box-like cells appears round and is generally located near the center of the cell.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "central",
+    "quote": "cuboidal | cube shaped, central nucleus | glands, renal tubules",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "distinct apical and basal membrane surfaces carrying different numbers and types of pumps and channels",
+    "quote": "The numbers and particular types of pumps and channels vary between the apical and basilar surfaces.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "Na+–glucose symport proteins on the apical surface",
+    "quote": "Both glucose and Na+ bind simultaneously to the same symport proteins on the apical surface of the cell to be transported in the same direction, toward the interstitial space.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "Na+/K+ ATPase pumps on the basal surface",
+    "quote": "The energy to move glucose comes from the Na+/K+ ATPase that pumps Na+ out of the cell on the basal surface.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "aquaporin water channels",
+    "quote": "Water is also independently reabsorbed into the peritubular capillaries due to the presence of aquaporins, or water channels, in the PCT.",
+    "source": {
+     "section": "41.2 The Kidneys and Osmoregulatory Organs",
+     "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "carbonic anhydrase, mostly inside the cell with a small amount bound to the apical brush border",
+    "quote": "In the kidney, most of the CA is located within the cell, but a small amount is bound to the brush border of the membrane on the apical surface of the cell.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The microvilli of its brush border give it a large surface area for absorbing and secreting solutes such as Na+, Cl– and glucose.",
+    "quote": "These microvilli create a large surface area to maximize the absorption and secretion of solutes (Na+, Cl–, glucose, etc.), the most essential function of this portion of the nephron.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because it actively transports ions across its membranes, it is packed with mitochondria that make enough ATP to power that work.",
+    "quote": "These cells actively transport ions across their membranes, so they possess a high concentration of mitochondria in order to produce sufficient ATP.",
+    "source": {
+     "section": "25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "More substances cross its membranes than anywhere else in the nephron, with amino acids and glucose moved by symporters together with Na+.",
+    "quote": "More substances move across the membranes of the PCT than any other portion of the nephron. Many of these substances (amino acids and glucose) use symport mechanisms for transport along with Na+.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Na+/K+ ATPase pumps on its basal surface move Na+ out of the cell, supplying the energy that drives glucose transport through it.",
+    "quote": "The energy to move glucose comes from the Na+/K+ ATPase that pumps Na+ out of the cell on the basal surface.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It reclaims about 67 percent of the water, Na+ and K+ entering the nephron and almost all of the filtered glucose, amino acids and vitamins.",
+    "quote": "About 67 percent of the water, Na+, and K+ entering the nephron is reabsorbed in the PCT and returned to the circulation. Almost 100 percent of glucose, amino acids, and other organic substances such as vitamins are normally recovered here.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Aquaporin water channels in the PCT let water be reabsorbed into the peritubular capillaries.",
+    "quote": "Water is also independently reabsorbed into the peritubular capillaries due to the presence of aquaporins, or water channels, in the PCT.",
+    "source": {
+     "section": "41.2 The Kidneys and Osmoregulatory Organs",
+     "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A Na+/H+ antiporter releases H+ into the lumen while taking back Na+, recycling hydrogen ions so that bicarbonate can be recovered.",
+    "quote": "At the same time this is occurring, a Na+/H+ antiporter excretes H+ into the lumen, while it recovers Na+. Note how the hydrogen ion is recycled so that bicarbonate can be recovered.",
+    "source": {
+     "section": "25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "By actively secreting H+ into the forming urine as Na+ is reabsorbed, these cells help the body get rid of excess acid and raise blood pH.",
+    "quote": "The cells of the PCT actively secrete H+ into the forming urine as Na+ is reabsorbed. The body rids itself of excess H+ and raises blood pH.",
+    "source": {
+     "section": "25.9 Regulation of Fluid Volume and Composition",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The PCT is a target of parathyroid hormone, which stimulates the conversion of calcidiol into calcitriol, the active form of vitamin D, there.",
+    "quote": "Parathyroid hormone (PTH) is an 84-amino acid peptide produced by the parathyroid glands in response to decreased circulating Ca++ levels. Among its targets is the PCT, where it stimulates the hydroxylation of calcidiol to calcitriol (1,25-hydroxycholecalciferol, the active form of vitamin D).",
+    "source": {
+     "section": "25.8 Endocrine Regulation of Kidney Function",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-8-endocrine-regulation-of-kidney-function",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

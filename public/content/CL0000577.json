@@ -13,20 +13,71 @@
   "CL": "0000577"
  },
  "geometry": {
-  "model": "/models/cell/column-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000577.json",
   "shape": {
-   "family": "column-epithelial",
-   "label": "Column-shaped epithelial cell",
-   "variant": "column-epithelial-cell",
+   "family": "profile",
+   "label": "Type EC enteroendocrine cell",
+   "variant": "profile-cl0000577",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000164",
-    "label": "enteroendocrine cell"
+    "id": "CL:0000577",
+    "label": "morphology profile"
    },
-   "note": "Hormone-making cells within the gut lining.",
-   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape from the column-shaped epithelial cell family · size not stated",
+   "base": "column-epithelial",
+   "baseLabel": "Column-shaped epithelial cell",
+   "outline": "family",
+   "profile": {
+    "status": "drafted",
+    "claims": 2,
+    "fields": [
+     "granules",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000577/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000577"
+   }
+  ],
+  "claims": [
+   {
+    "field": "granules",
+    "value": "secretory granules; look: stain readily with silver (argentaffin stain); abundance: unknown; position: unknown",
+    "quote": "Their secretory granules stain readily with silver (argentaffin stain).",
+    "source": {
+     "section": "CL:0000577 type EC enteroendocrine cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000577",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "It carries secretory granules that stain readily with silver, and it secretes serotonin along with neurotransmitters such as enkephalins and substance P.",
+    "quote": "These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P. Their secretory granules stain readily with silver (argentaffin stain).",
+    "source": {
+     "section": "CL:0000577 type EC enteroendocrine cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000577",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

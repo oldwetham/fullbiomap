@@ -26,8 +26,102 @@
     "label": "epithelial cell of alimentary canal"
    },
    "note": "The stomach and intestine are lined by columnar cells.",
-   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative",
+   "profile": {
+    "status": "drafted",
+    "claims": 5,
+    "fields": [
+     "function"
+    ],
+    "drawn": false
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000155/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "function",
+    "value": "Sitting mainly in the basal regions of the gastric glands, chief cells release pepsinogen, an inactive proenzyme that needs hydrochloric acid (HCl) to be converted into pepsin.",
+    "quote": "Located primarily in the basal regions of gastric glands are chief cells, which secrete pepsinogen, the inactive proenzyme form of pepsin. HCl is necessary for the conversion of pepsinogen to pepsin.",
+    "source": {
+     "section": "23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Chief cells are one of the secretory cell types that make up the large glands of the stomach's fundus and body, which produce most of the gastric secretions where most of the stomach's chemical digestion happens.",
+    "quote": "The much larger glands of the fundus and body of the stomach, the site of most chemical digestion, produce most of the gastric secretions. These glands are made up of a variety of secretory cells. These include parietal cells, chief cells, mucous neck cells, and enteroendocrine cells.",
+    "source": {
+     "section": "23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Once activated, the pepsinogen that chief cells secrete becomes pepsin, which breaks peptide bonds to cut proteins into smaller polypeptides and activates more pepsinogen in a positive feedback loop.",
+    "quote": "Pepsin is secreted by the chief cells in the stomach in an inactive form called pepsinogen. Pepsin breaks peptide bonds and cleaves proteins into smaller polypeptides; it also helps activate more pepsinogen, starting a positive feedback mechanism that generates more pepsin.",
+    "source": {
+     "section": "34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Making the enzyme as inactive pepsinogen protects the chief cells themselves, because pepsinogen lacks pepsin's enzyme activity.",
+    "quote": "First, as previously mentioned, the enzyme pepsin is synthesized in the inactive form. This protects the chief cells, because pepsinogen does not have the same enzyme functionality of pepsin.",
+    "source": {
+     "section": "34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Chief cells are also the source of gastric lipase, which breaks triglycerides down into fatty acids and monoacylglycerides.",
+    "quote": "Gastric enzymes | Gastric lipase | Chief cells | Triglycerides | Fatty acids and monoacylglycerides",
+    "source": {
+     "section": "23.7 Chemical Digestion and Absorption: A Closer Look",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

@@ -13,19 +13,103 @@
   "CL": "0002068"
  },
  "geometry": {
-  "model": "/models/cell/cardiac-muscle-cell.json",
+  "model": "/models/cell/profile-cl0002068.json",
   "shape": {
-   "family": "cardiomyocyte",
-   "label": "Cardiac muscle cell",
-   "variant": "cardiac-muscle-cell",
+   "family": "profile",
+   "label": "Purkinje myocyte",
+   "variant": "profile-cl0002068",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000746",
-    "label": "cardiac muscle cell"
+    "id": "CL:0002068",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the cardiac muscle cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "cardiomyocyte",
+   "baseLabel": "Cardiac muscle cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 4,
+    "fields": [
+     "shape",
+     "nucleus_count",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002068/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002068"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: short, wide cylinder (shorter than ordinary cardiac myocytes but nearly twice their diameter; cells joined end to end in long rows)",
+    "quote": "They are uninucleate cylindrical cells, associated end-to-end in long rows, continue from the node to the atrioventricular bundle; relatively short compared to ordinary myocytes but are nearly twice their diameter.",
+    "source": {
+     "section": "CL:0002068 Purkinje myocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002068",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "They are uninucleate cylindrical cells",
+    "source": {
+     "section": "CL:0002068 Purkinje myocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002068",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Like other myocardial conducting cells, they are specialized muscle cells that work much like neurons, propagating the action potential that triggers the heart's contractions.",
+    "quote": "Their function is similar in many respects to neurons, although they are specialized muscle cells. Myocardial conduction cells initiate and propagate the action potential (the electrical impulse) that travels throughout the heart and triggers the contractions that propel the blood.",
+    "source": {
+     "section": "19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Purkinje fibers have an inherent firing rate of about 15–20 impulses per minute, slower than the 20–30 of the bundle branches.",
+    "quote": "The bundle branches would have an inherent rate of 20–30 impulses per minute, and the Purkinje fibers would fire at 15–20 impulses per minute.",
+    "source": {
+     "section": "19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

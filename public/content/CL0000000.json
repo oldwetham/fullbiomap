@@ -77,7 +77,21 @@
    "GO:0043025",
    "GO:0044297",
    "GO:0097440",
-   "GO:0043005"
+   "GO:0043005",
+   "GO:0030141",
+   "GO:0042581",
+   "GO:0042470",
+   "GO:0005777",
+   "GO:0032420",
+   "GO:0036126",
+   "GO:0001669",
+   "GO:0001750",
+   "GO:0001917",
+   "GO:0005882",
+   "GO:0030315",
+   "GO:0035805",
+   "GO:0046691",
+   "GO:0031143"
   ],
   "out": []
  },
@@ -469,6 +483,216 @@
      "name": "Gene Ontology",
      "license": "CC BY 4.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0030141",
+   "conceptId": "GO0030141",
+   "label": "Secretory granules",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0042581",
+   "conceptId": "GO0042581",
+   "label": "Specific granules",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042581"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0042470",
+   "conceptId": "GO0042470",
+   "label": "Melanosomes",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042470"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005777",
+   "conceptId": "GO0005777",
+   "label": "Peroxisomes",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005777"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0032420",
+   "conceptId": "GO0032420",
+   "label": "Stereocilia",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0032420"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0036126",
+   "conceptId": "GO0036126",
+   "label": "Flagellum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0036126"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0001669",
+   "conceptId": "GO0001669",
+   "label": "Acrosome",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0001669"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0001750",
+   "conceptId": "GO0001750",
+   "label": "Outer segment",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0001750"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0001917",
+   "conceptId": "GO0001917",
+   "label": "Inner segment",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0001917"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005882",
+   "conceptId": "GO0005882",
+   "label": "Intermediate filaments (keratin)",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0030315",
+   "conceptId": "GO0030315",
+   "label": "T tubules",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030315"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0035805",
+   "conceptId": "GO0035805",
+   "label": "Zona pellucida",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0035805"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0046691",
+   "conceptId": "GO0046691",
+   "label": "Intracellular canaliculi",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0046691"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0031143",
+   "conceptId": "GO0031143",
+   "label": "Pseudopodia",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031143"
     }
    ]
   }

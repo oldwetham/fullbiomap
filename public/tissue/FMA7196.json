@@ -267,7 +267,15 @@
        "id": "CL:0000738",
        "label": "leukocyte"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the round immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -344,15 +352,35 @@
      "id": "CL:0000192",
      "conceptId": "CL0000192",
      "label": "Smooth muscle cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000192.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Smooth muscle cell",
+      "variant": "profile-cl0000192",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000192",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 18,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -524,36 +552,65 @@
      "id": "CL:0000775",
      "conceptId": "CL0000775",
      "label": "Neutrophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000775.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Neutrophil",
+      "variant": "profile-cl0000775",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000775",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 10,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
      "label": "Plasma cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000786.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Plasma cell",
+      "variant": "profile-cl0000786",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000786",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "organelle",
+        "special"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -669,18 +726,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -723,18 +795,33 @@
      "id": "CL:0000625",
      "conceptId": "CL0000625",
      "label": "CD8-positive, alpha-beta T cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000625.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "CD8-positive, alpha-beta T cell",
+      "variant": "profile-cl0000625",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000625",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -760,19 +847,35 @@
      "id": "CL:0000232",
      "conceptId": "CL0000232",
      "label": "Erythrocyte",
-     "model": "/models/cell/red-blood-cell.json",
+     "model": "/models/cell/profile-cl0000232.json",
      "shape": {
-      "family": "red-blood-cell",
-      "label": "Red blood cell",
-      "variant": "red-blood-cell",
+      "family": "profile",
+      "label": "Erythrocyte",
+      "variant": "profile-cl0000232",
       "apical": null,
       "nucleus": false,
       "from": {
        "id": "CL:0000232",
-       "label": "erythrocyte"
+       "label": "morphology profile"
       },
-      "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin').",
-      "caption": "A simplified shape for the red blood cell family · no nucleus · sizes illustrative"
+      "noNucleus": "Its morphology profile, from its cited sources, says it has no nucleus.",
+      "caption": "Drawn from its morphology profile (unreviewed) · 7–8 µm across",
+      "base": "red-blood-cell",
+      "baseLabel": "Red blood cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 20,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -787,7 +890,15 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -805,25 +916,45 @@
        "id": "CL:0000738",
        "label": "leukocyte"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the round immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
      "label": "Plasma cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000786.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Plasma cell",
+      "variant": "profile-cl0000786",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000786",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "organelle",
+        "special"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -848,19 +979,35 @@
      "id": "CL:0000233",
      "conceptId": "CL0000233",
      "label": "Platelet",
-     "model": "/models/cell/platelet.json",
+     "model": "/models/cell/profile-cl0000233.json",
      "shape": {
-      "family": "platelet",
+      "family": "profile",
       "label": "Platelet",
-      "variant": "platelet",
+      "variant": "profile-cl0000233",
       "apical": null,
       "nucleus": false,
       "from": {
        "id": "CL:0000233",
-       "label": "platelet"
+       "label": "morphology profile"
       },
-      "noNucleus": "Platelets have no nucleus (Cell Ontology: 'A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes').",
-      "caption": "A simplified shape for the platelet family · no nucleus · sizes illustrative"
+      "noNucleus": "Its morphology profile, from its cited sources, says it has no nucleus.",
+      "caption": "Drawn from its morphology profile (unreviewed) · 2–4 µm across",
+      "base": "platelet",
+      "baseLabel": "Platelet",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 15,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -995,19 +1142,35 @@
      "id": "CL:0000232",
      "conceptId": "CL0000232",
      "label": "Erythrocyte",
-     "model": "/models/cell/red-blood-cell.json",
+     "model": "/models/cell/profile-cl0000232.json",
      "shape": {
-      "family": "red-blood-cell",
-      "label": "Red blood cell",
-      "variant": "red-blood-cell",
+      "family": "profile",
+      "label": "Erythrocyte",
+      "variant": "profile-cl0000232",
       "apical": null,
       "nucleus": false,
       "from": {
        "id": "CL:0000232",
-       "label": "erythrocyte"
+       "label": "morphology profile"
       },
-      "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin').",
-      "caption": "A simplified shape for the red blood cell family · no nucleus · sizes illustrative"
+      "noNucleus": "Its morphology profile, from its cited sources, says it has no nucleus.",
+      "caption": "Drawn from its morphology profile (unreviewed) · 7–8 µm across",
+      "base": "red-blood-cell",
+      "baseLabel": "Red blood cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 20,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1051,18 +1214,35 @@
      "id": "CL:0000775",
      "conceptId": "CL0000775",
      "label": "Neutrophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000775.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Neutrophil",
+      "variant": "profile-cl0000775",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000775",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 10,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1234,18 +1414,33 @@
      "id": "CL:0000236",
      "conceptId": "CL0000236",
      "label": "B cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000236.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "B cell",
+      "variant": "profile-cl0000236",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000236",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "nucleus_count",
+        "nucleus_position",
+        "nucleus_size",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -1418,15 +1613,35 @@
      "id": "CL:0000192",
      "conceptId": "CL0000192",
      "label": "Smooth muscle cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000192.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Smooth muscle cell",
+      "variant": "profile-cl0000192",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000192",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 18,
+       "fields": [
+        "shape",
+        "size",
+        "nucleus_count",
+        "nucleus_position",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {

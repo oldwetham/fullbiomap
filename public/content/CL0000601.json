@@ -9,19 +9,206 @@
   "CL": "0000601"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/profile-cl0000601.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "profile",
+   "label": "Cochlear outer hair cell",
+   "variant": "profile-cl0000601",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "CL:0000601",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the neuron family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · shape illustrative · size not stated",
+   "base": "neuron",
+   "baseLabel": "Neuron",
+   "outline": "illustrative",
+   "profile": {
+    "status": "drafted",
+    "claims": 12,
+    "fields": [
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000601/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000601"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "surface",
+    "value": "stereocilia",
+    "quote": "The longer stereocilia that project from the outer hair cells actually attach to the tectorial membrane.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "stereocilia",
+    "quote": "The organs of Corti contain hair cells, which are named for the hair-like stereocilia extending from the cell’s apical surfaces",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "stereocilia array graded in height from tallest to shortest",
+    "quote": "The stereocilia are an array of microvilli-like structures arranged from tallest to shortest.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "protein-fiber tethers linking adjacent stereocilia",
+    "quote": "Protein fibers tether adjacent hairs together within each array, such that the array will bend in response to movements of the basilar membrane.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "About 12,000 outer hair cells, set in three or four rows, work to fine-tune incoming sound waves.",
+    "quote": "The outer hair cells are arranged in three or four rows. They number approximately 12,000, and they function to fine tune incoming sound waves.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Signals sent back from the brain make outer hair cells change length, which sharpens or dampens the hair cells' response to certain frequencies.",
+    "quote": "The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Outer hair cells are motile, and this movement may actively help tune the cochlea's sensitivity and frequency selectivity.",
+    "quote": "The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea.",
+    "source": {
+     "section": "CL:0000601 cochlear outer hair cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000601",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The outer hair cell is a mechanoreceptor of the organ of Corti; in mammals these cells form three rows lying farther from the modiolus than the single row of inner hair cells.",
+    "quote": "A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells.",
+    "source": {
+     "section": "CL:0000601 cochlear outer hair cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000601",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Bending the stereocilia toward the tallest member of the array puts tension on the protein tethers, which opens ion channels in the hair cell membrane.",
+    "quote": "When the stereocilia bend toward the tallest member of their array, tension in the protein tethers opens ion channels in the hair cell membrane.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When its hairs bend, the hair cell releases an excitatory neurotransmitter at a synapse with a sensory neuron, which then carries action potentials to the central nervous system.",
+    "quote": "When the hairs bend, they release an excitatory neurotransmitter at a synapse with a sensory neuron, which then conducts action potentials to the central nervous system.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Outer hair cells are wired to only 10 percent of the afferent neurons, and each of those afferent neurons innervates many hair cells.",
+    "quote": "Outer hair cells connect to only 10 percent of the afferent neurons, and each afferent neuron innervates many hair cells.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Each hair cell along the cochlear duct is sensitive to a particular frequency, so together the hair cells let the cochlea separate sounds by frequency.",
+    "quote": "The hair cells along the length of the cochlear duct, which are each sensitive to a particular frequency, allow the cochlea to separate auditory stimuli by frequency, just as a prism separates visible light into its component colors.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

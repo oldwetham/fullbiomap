@@ -11,20 +11,114 @@
   "CL": "0002145"
  },
  "geometry": {
-  "model": "/models/cell/column-epithelial-cell-cilia.json",
+  "model": "/models/cell/profile-cl0002145.json",
   "shape": {
-   "family": "column-epithelial",
-   "label": "Column-shaped epithelial cell",
-   "variant": "column-epithelial-cell-cilia",
+   "family": "profile",
+   "label": "Multiciliated columnar cell of tracheobronchial tree",
+   "variant": "profile-cl0002145",
    "apical": "cilia",
    "nucleus": true,
    "from": {
-    "id": "CL:0002202",
-    "label": "epithelial cell of tracheobronchial tree"
+    "id": "CL:0002145",
+    "label": "morphology profile"
    },
-   "note": "The airways are lined by a pseudostratified columnar epithelium.",
-   "caption": "A simplified shape for the column-shaped epithelial cell family · with cilia · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "column-epithelial",
+   "baseLabel": "Column-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 5,
+    "fields": [
+     "shape",
+     "surface",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0002145/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0002145"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "column",
+    "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+    "source": {
+     "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+     "url": "http://purl.obolibrary.org/obo/CL_0002145",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "motile cilia",
+    "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+    "source": {
+     "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+     "url": "http://purl.obolibrary.org/obo/CL_0002145",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "motile cilia",
+    "quote": "Cilia are found on many cells of the body, including the epithelial cells that line the airways of the respiratory system. Cilia move rhythmically; they beat constantly, moving waste materials such as dust, mucus, and bacteria upward through the airways, away from the lungs and toward the mouth.",
+    "source": {
+     "section": "3.2 The Cytoplasm and Cellular Organelles",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Its cilia move mucus and the particles trapped in it toward the pharynx, clearing the airway (mucociliary clearance).",
+    "quote": "These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.",
+    "source": {
+     "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+     "url": "http://purl.obolibrary.org/obo/CL_0002145",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "With the rest of the ciliated airway lining it forms a mucociliary escalator, sweeping dust and pathogens trapped in mucus toward the throat.",
+    "quote": "The ciliated epithelium of your airway forms a mucociliary escalator that sweeps particles of dust and pathogens trapped in the secreted mucus toward the throat.",
+    "source": {
+     "section": "4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

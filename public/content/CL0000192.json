@@ -13,16 +13,278 @@
   "CL": "0000192"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/profile-cl0000192.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "profile",
+   "label": "Smooth muscle cell",
+   "variant": "profile-cl0000192",
    "apical": null,
    "nucleus": true,
-   "from": null,
-   "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+   "from": {
+    "id": "CL:0000192",
+    "label": "morphology profile"
+   },
+   "caption": "Drawn from its morphology profile (unreviewed) · 30–200 µm long",
+   "base": "generic",
+   "baseLabel": "Generic cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 18,
+    "fields": [
+     "shape",
+     "size",
+     "nucleus_count",
+     "nucleus_position",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000192/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "spindle",
+    "quote": "Smooth muscle fibers are spindle-shaped (wide in the middle and tapered at both ends, somewhat like a football)",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "size",
+    "value": "30–200 µm length",
+    "quote": "Smooth muscle fibers are spindle-shaped (wide in the middle and tapered at both ends, somewhat like a football) and have a single nucleus; they range from about 30 to 200 μm (thousands of times shorter than skeletal muscle fibers)",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_count",
+    "value": "1",
+    "quote": "Smooth muscle cells have a single nucleus, and are spindle-shaped.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "nucleus_position",
+    "value": "central",
+    "quote": "Smooth muscle does not have striations in its cells. It has a single, centrally located nucleus",
+    "source": {
+     "section": "33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "myofibrils: 0 absent",
+    "quote": "Smooth muscles differ from skeletal and cardiac muscles in that they ________. lack myofibrils are under voluntary control lack myosin lack actin A",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "dense bodies",
+    "quote": "These thin filaments are anchored by dense bodies. A dense body is analogous to the Z-discs of skeletal and cardiac muscle fibers and is fastened to the sarcolemma.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "intermediate filament network",
+    "quote": "When the thin filaments slide past the thick filaments, they pull on the dense bodies, structures tethered to the sarcolemma, which then pull on the intermediate filaments networks throughout the sarcoplasm.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "thick and thin (myosin and actin) filaments, not arranged into sarcomeres or striations",
+    "quote": "Although they do not have striations and sarcomeres, smooth muscle fibers do have actin and myosin contractile proteins, and thick and thin filaments.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "caveolae (membrane indentations; the source spells them \"calveoli\")",
+    "quote": "Calcium ions are supplied by the SR in the fibers and by sequestration from the extracellular fluid through membrane indentations called calveoli.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "gap junctions (between fibers of single-unit smooth muscle)",
+    "quote": "Single-unit muscle has its muscle fibers joined by gap junctions so that the muscle contracts as a single unit.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "endomysium (connective tissue the cells produce themselves)",
+    "quote": "they produce their own connective tissue, endomysium",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because its filaments pull on dense bodies tethered to the cell membrane, which in turn pull on an intermediate-filament network spanning the cytoplasm, the whole cell contracts with its ends drawn toward the center.",
+    "quote": "they pull on the dense bodies, structures tethered to the sarcolemma, which then pull on the intermediate filaments networks throughout the sarcoplasm. This arrangement causes the entire muscle fiber to contract in a manner whereby the ends are pulled toward the center",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The cell is narrow enough that it needs no T tubules to carry an action potential deep into its interior.",
+    "quote": "smooth muscle fibers have a much smaller diameter than skeletal muscle cells. T-tubules are not required to reach the interior of the cell and therefore not necessary to transmit an action potential deep into the fiber.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because its actin and myosin filaments are not rigidly organized, the cell can contract over a wider range of resting lengths than skeletal or cardiac muscle cells.",
+    "quote": "Smooth muscles can contract over a wider range of resting lengths because the actin and myosin filaments in smooth muscle are not as rigidly organized as those in skeletal and cardiac muscle.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because sarcomeres do not limit how far they can stretch, visceral smooth muscle cells give a stress-relaxation response as a hollow organ fills and stretches them.",
+    "quote": "Because the muscle fibers are not constrained by the organization and stretchability limits of sarcomeres, visceral smooth muscle has a stress-relaxation response. This means that as the muscle of a hollow organ is stretched when it fills",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Gap junctions between single-unit smooth muscle cells synchronize their depolarization, so the muscle they form contracts as a single unit.",
+    "quote": "Single-unit smooth muscle tissue contains gap junctions to synchronize membrane depolarization and contractions so that the muscle contracts as a single unit.",
+    "source": {
+     "section": "10.8 Smooth Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Arranged in rings around the start of a capillary as precapillary sphincters, smooth muscle cells tightly control how much blood flows into the capillary bed.",
+    "quote": "The precapillary sphincters, circular smooth muscle cells that surround the capillary at its origin with the metarteriole, tightly regulate the flow of blood from a metarteriole to the capillaries it supplies.",
+    "source": {
+     "section": "20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Spindle-shaped smooth muscle cells in the walls of organs and passageways contract involuntarily to move food and secretions and to regulate blood flow in arteries.",
+    "quote": "Smooth | Short, spindle-shaped, no evident striation, single nucleus in each fiber | Involuntary movement, moves food, involuntary control of respiration, moves secretions, regulates flow of blood in arteries by contraction | Walls of major organs and passageways",
+    "source": {
+     "section": "4.4 Muscle Tissue and Motion",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

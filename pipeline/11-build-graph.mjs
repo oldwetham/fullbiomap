@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {shapeOf} from './_cell-families.mjs';
+import {PROFILES, shapeOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -275,7 +275,13 @@ const CELL_MODEL = '/models/cell/generic-cell.json';
 // step 13 built one model per family variant. `shape` is the summary the panel shows (and step 12 checks).
 const cellShape = cl => { const s = shapeOf(cl, cellDefs.get(cl)?.ancestors ?? []); return {model: s.model, shape: {family: s.family, label: s.label, variant: s.variant, apical: s.apical?.kind ?? null, nucleus: s.nucleus,
   from: s.from ? {id: s.from.id, label: s.from.label} : null, ...(s.from?.note ? {note: s.from.note} : {}), ...(s.noNucleus ? {noNucleus: s.noNucleus.why} : {}),
-  caption: s.caption, ...(s.reconstruction ? {reconstruction: s.reconstruction} : {})}}; };
+  caption: s.caption, ...(s.reconstruction ? {reconstruction: s.reconstruction} : {}),
+  ...(s.family === 'profile' ? {base: s.base, baseLabel: s.baseLabel, outline: s.outline} : {}), ...(s.profile ? {profile: {status: s.profile.status, claims: s.profile.claims, fields: s.profile.fields, drawn: s.profile.drawn}} : {})}}; };
+// A cell type's morphology profile (content/CL_<n>/morphology.md): its checked claims, each with the sentence it quotes and
+// where that sentence is, for the panel's Morphology section. The checker's notes stay in the content file.
+const morphologyFor = cl => { const p = PROFILES[cl]; if (!p) return null;
+  return {status: p.status, file: p.file, license: p.license, attribution: p.attribution, method: p.method, draftedOn: p.drafted_on, sources: p.sources,
+    claims: p.claims.map(c => ({field: c.field, value: c.value, quote: c.quote, source: {section: c.source.section, url: c.source.url, license: c.source.license, citation: c.source.citation, ...(c.source.access ? {access: c.source.access} : {})}}))}; };
 const cellModels = fs.readdirSync(path.join(root, 'public/models/cell')).filter(f => f.endsWith('.json')).sort().map(f => [`/models/cell/${f}`, JSON.parse(read(`public/models/cell/${f}`))]);
 /** An organelle's model: the generic cell if it draws it, else the first family model that does. */
 const organelleModel = key => [[CELL_MODEL], ...cellModels.filter(([u]) => u !== CELL_MODEL)].map(([u]) => [u, cellModels.find(([x]) => x === u)?.[1]]).find(([, m]) => m?.palette?.some(x => x.id === key))?.[0] ?? CELL_MODEL;
@@ -379,7 +385,7 @@ for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0
   const alone = extraCells.find(x => x.cl === cl && x.standalone);
   if (alone) connections.push({rel: 'located_in', dir: 'out', id: null, conceptId: null, label: `${alone.foundIn}, not in the body model`, modeled: false, sources: [alone.source]});
   nodes.push({id: cl, conceptId: cl.replace(':', ''), label: upperFirst(d?.label ?? cellLabel.get(cl)), scale: 'cell', system: null, synonyms: d?.synonyms ?? [],
-    xrefs: {CL: cl.slice(3)}, geometry: cellShape(cl), content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
+    xrefs: {CL: cl.slice(3)}, geometry: cellShape(cl), ...(morphologyFor(cl) ? {morphology: morphologyFor(cl)} : {}), content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
     ladder: {system: first?.ladder?.system ?? null, isOrgan: false, organ: first?.ladder?.organ ?? null}});
 }
 // The generic cell (CL:0000000) and its organelles (GO), from the cell model.
@@ -419,6 +425,22 @@ for (const [id, b] of boards) {
 for (const f of fs.readdirSync(tissueDir)) if (f.endsWith('.json') && !keepBoards.has(f)) fs.unlinkSync(path.join(tissueDir, f));
 const tissueOf = organ => organ ? [organ.id, ...organ.ancestors].filter(x => boards.has(x)).map(boardUrl) : [];
 for (const n of nodes) if (n.ladder?.organ) { const t = tissueOf(byId.get(n.ladder.organ.id)); if (t.length) n.ladder.organ.tissue = t; }
+// A structure whose own tissue board its ladder organ does not reach (the tongue has no ladder organ; the brain's is the
+// neuraxis) opens it from itself, and its parts open it too when their ladder organ opens no tissue: ladder.board is the
+// structure itself or its nearest part_of ancestor with a board (is_a classes do not count: a board placed on a class
+// such as "segment of vascular tree organ" is not every vessel's tissue).
+const partChain = n => { const out = [], seen = new Set([n.id]); let frontier = [n];
+  while (frontier.length && out.length < 200) { const next = []; for (const x of frontier) for (const id of x.zoom?.out ?? []) if (!seen.has(id)) { seen.add(id); const y = byId.get(id); if (y) { out.push(y); next.push(y); } } frontier = next; }
+  return out; };
+const boardRef = h => ({id: h.id, conceptId: h.conceptId, label: h.label, tissue: [...new Set([boardUrl(h.id), ...tissueOf(h)])]});
+for (const n of nodes) {
+  if (!n.ladder || n.scale === 'cell' || n.scale === 'organelle') continue;
+  const have = new Set(n.ladder.organ?.tissue ?? []);
+  if (boards.has(n.id) && !have.has(boardUrl(n.id))) { n.ladder = {...n.ladder, board: boardRef(n)}; continue; }
+  if (have.size) continue;
+  const holder = partChain(n).find(x => boards.has(x.id));
+  if (holder) n.ladder = {...n.ladder, board: boardRef(holder)};
+}
 const cellReport = ['# Cell types and tissue boards', '', 'Generated by `pipeline/11-build-graph.mjs` from the HRA v2.5 ASCT+B tables (step 06) and tissue media (step 08).', '',
   `- Cell types (Cell Ontology): ${cellPlaces.size - (cellPlaces.has('CL:0000000') ? 1 : 0)}; located_in edges: ${cellEdges.filter(e => e.rel === 'located_in').length}`,
   `- ASCT+B rows with no structure or organ of ours (skipped): ${rowsUnplaced}`,
@@ -429,7 +451,7 @@ fs.writeFileSync(path.join(root, 'reports/cells.md'), cellReport.join('\n') + '\
 
 // graph/: node records without tier text (text lives in content/ files).
 const stripText = content => Object.fromEntries(Object.entries(content).map(([k, t]) => [k, Object.fromEntries(Object.entries(t).filter(([f]) => f !== 'text'))]));
-fs.writeFileSync(path.join(root, 'graph/nodes.jsonl'), nodes.map(n => JSON.stringify({...n, content: stripText(n.content)})).join('\n') + '\n');
+fs.writeFileSync(path.join(root, 'graph/nodes.jsonl'), nodes.map(n => JSON.stringify({...n, content: stripText(n.content), ...(n.morphology ? {morphology: {status: n.morphology.status, file: n.morphology.file, claims: n.morphology.claims.length}} : {})})).join('\n') + '\n');
 fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...connectionEdges, ...cellEdges].map(e => JSON.stringify(e)).join('\n') + '\n');
 
 // public/content/: what the app reads; ancestors are graph-internal.

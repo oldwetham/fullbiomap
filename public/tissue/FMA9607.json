@@ -149,18 +149,34 @@
      "id": "CL:0000771",
      "conceptId": "CL0000771",
      "label": "Eosinophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000771.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Eosinophil",
+      "variant": "profile-cl0000771",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000771",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -322,7 +338,15 @@
        "id": "CL:0000738",
        "label": "leukocyte"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "A simplified shape for the round immune cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 2,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     },
     {
@@ -497,18 +521,34 @@
      "id": "CL:0000771",
      "conceptId": "CL0000771",
      "label": "Eosinophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000771.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Eosinophil",
+      "variant": "profile-cl0000771",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000771",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -551,36 +591,62 @@
      "id": "CL:0000576",
      "conceptId": "CL0000576",
      "label": "Monocyte",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000576.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Monocyte",
+      "variant": "profile-cl0000576",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000576",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 12–20 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 6,
+       "fields": [
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
      "label": "Plasma cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000786.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Plasma cell",
+      "variant": "profile-cl0000786",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000786",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 4,
+       "fields": [
+        "organelle",
+        "special"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -902,18 +968,34 @@
      "id": "CL:0000771",
      "conceptId": "CL0000771",
      "label": "Eosinophil",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000771.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Eosinophil",
+      "variant": "profile-cl0000771",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000771",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · 10–12 µm across",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 13,
+       "fields": [
+        "size",
+        "nucleus_count",
+        "nucleus_shape",
+        "special",
+        "granules",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -935,18 +1017,31 @@
      "id": "CL:0000097",
      "conceptId": "CL0000097",
      "label": "Mast cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/profile-cl0000097.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "profile",
+      "label": "Mast cell",
+      "variant": "profile-cl0000097",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
+       "id": "CL:0000097",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the round immune cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · shape from the round immune cell family · size not stated",
+      "base": "immune",
+      "baseLabel": "Round immune cell",
+      "outline": "family",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "granules",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {

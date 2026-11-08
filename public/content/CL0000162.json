@@ -12,20 +12,169 @@
   "CL": "0000162"
  },
  "geometry": {
-  "model": "/models/cell/column-epithelial-cell.json",
+  "model": "/models/cell/profile-cl0000162.json",
   "shape": {
-   "family": "column-epithelial",
-   "label": "Column-shaped epithelial cell",
-   "variant": "column-epithelial-cell",
+   "family": "profile",
+   "label": "Parietal cell",
+   "variant": "profile-cl0000162",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0002251",
-    "label": "epithelial cell of alimentary canal"
+    "id": "CL:0000162",
+    "label": "morphology profile"
    },
-   "note": "The stomach and intestine are lined by columnar cells.",
-   "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "column-epithelial",
+   "baseLabel": "Column-shaped epithelial cell",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 9,
+    "fields": [
+     "shape",
+     "organelle",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000162/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000162"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "pyramid",
+    "quote": "This cell is characterized by its pyramidal shape",
+    "source": {
+     "section": "CL:0000162 parietal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000162",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "organelle",
+    "value": "mitochondria: 3 abundant",
+    "quote": "This cell is characterized by its pyramidal shape, abundant mitochondria",
+    "source": {
+     "section": "CL:0000162 parietal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000162",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "secretory canaliculi",
+    "quote": "a complex network of secretory canaliculi lined with microvilli",
+    "source": {
+     "section": "CL:0000162 parietal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000162",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A pyramidal cell with abundant mitochondria and a network of microvilli-lined secretory canaliculi, it secretes hydrochloric acid into the stomach lumen and produces intrinsic factor, which is essential for vitamin B12 absorption.",
+    "quote": "This cell is characterized by its pyramidal shape, abundant mitochondria, and a complex network of secretory canaliculi lined with microvilli. It secretes hydrochloric acid into the stomach lumen and produces intrinsic factor, essential for vitamin B12 absorption.",
+    "source": {
+     "section": "CL:0000162 parietal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000162",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Relatively large and among the body's most highly differentiated epithelial cells, parietal cells sit mainly in the middle region of the gastric glands and produce both hydrochloric acid and intrinsic factor.",
+    "quote": "Located primarily in the middle region of the gastric glands are parietal cells, which are among the most highly differentiated of the body’s epithelial cells. These relatively large cells produce both hydrochloric acid (HCl) and intrinsic factor.",
+    "source": {
+     "section": "23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The hydrochloric acid these cells produce gives the stomach contents their high acidity (pH 1.5 to 3.5) and is needed to activate the protein-digesting enzyme pepsin.",
+    "quote": "These relatively large cells produce both hydrochloric acid (HCl) and intrinsic factor. HCl is responsible for the high acidity (pH 1.5 to 3.5) of the stomach contents and is needed to activate the protein-digesting enzyme, pepsin.",
+    "source": {
+     "section": "23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Parietal cells secrete hydrogen and chloride ions, which combine in the lumen to form hydrochloric acid, the primary acidic component of stomach juices.",
+    "quote": "Another cell type—parietal cells—secrete hydrogen and chloride ions, which combine in the lumen to form hydrochloric acid, the primary acidic component of the stomach juices.",
+    "source": {
+     "section": "34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Gastrin stimulates parietal cells in the stomach mucosa to secrete gastric acid.",
+    "quote": "Gastrin stimulates the secretion of gastric acid by the parietal cells of the stomach mucosa.",
+    "source": {
+     "section": "23.2 Digestive System Processes and Regulation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Histamine, made by the stomach mucosa when food is in the stomach, stimulates parietal cells to release HCl.",
+    "quote": "Histamine | Stomach mucosa | Presence of food in the stomach | Stomach | Stimulates parietal cells to release HCl",
+    "source": {
+     "section": "23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

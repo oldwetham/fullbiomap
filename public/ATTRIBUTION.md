@@ -218,6 +218,14 @@ Male lung surfaces: BodyParts3D models each lung only as bronchial trees and ves
   - White pulp of spleen (spleen-white-pulp): https://doi.org/10.48539/HBM538.PHWH.575
   - Thymus lobule (thymus-thymus-lobule): https://doi.org/10.48539/HBM793.JJWN.944
 
+## Cell morphology profiles (OpenStax, Cell Ontology)
+
+- What: each morphology profile (content/CL_<n>/morphology.md) quotes single sentences from these sources, unchanged except for whitespace; each cell type's panel shows every quote with its section, link and licence. Bio Map chose the sentences, set each claim's value, wrote the structure-and-job sentences and drew the 3D models from the claims (CC BY 4.0).
+- OpenStax changed the licence of these books to CC BY-NC-SA 4.0 in 2026 (the repositories' LICENSE on 2026-03-19, the books' own metadata on 2026-04-23). Bio Map uses only copies OpenStax published under CC BY 4.0 before that change, pinned to the commits below, where both the repository LICENSE and the book's own licence declaration say CC BY 4.0.
+- Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Copy used: github.com/openstax/osbooks-anatomy-physiology at commit b0058a743bdd2cc08196abaaa7d5469970c0d80c. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
+- Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Copy used: github.com/openstax/osbooks-biology-bundle at commit d2779c2edfb435e75047325434fe2fe93d5aa120. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction
+- Cell Ontology (CL) definitions, CC BY 4.0, https://obofoundry.org/ontology/cl.html (via step 06). Definitions that cite Wikipedia are not used.
+
 ## Neuron and glia reconstructions (NeuroMorpho.Org)
 
 - Source: NeuroMorpho.Org release 8.7, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/; terms of use: https://neuromorpho.org/useterm.jsp).

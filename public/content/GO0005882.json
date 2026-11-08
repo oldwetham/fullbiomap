@@ -1,0 +1,81 @@
+{
+ "id": "GO:0005882",
+ "conceptId": "GO0005882",
+ "label": "Intermediate filaments (keratin)",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "GO": "0005882"
+ },
+ "geometry": {
+  "model": "/models/cell/profile-cl0000192.json"
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0005882/tier1.auto.md",
+   "text": "A cytoskeletal structure that forms a distinct elongated structure, characteristically 10 nm in diameter, that occurs in the cytoplasm of eukaryotic cells. Intermediate filaments form a fibrous system, composed of chemically heterogeneous subunits and involved in mechanically integrating the various components of the cytoplasmic space. Intermediate filaments may be divided into five chemically distinct classes: Type I, acidic keratins; Type II, basic keratins; Type III, including desmin, vimentin and others; Type IV, neurofilaments and related filaments; and Type V, lamins.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0005882",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0005882",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0005882. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0005882",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

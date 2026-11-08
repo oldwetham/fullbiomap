@@ -14,19 +14,32 @@
      "id": "CL:0000162",
      "conceptId": "CL0000162",
      "label": "Parietal cell",
-     "model": "/models/cell/column-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000162.json",
      "shape": {
-      "family": "column-epithelial",
-      "label": "Column-shaped epithelial cell",
-      "variant": "column-epithelial-cell",
+      "family": "profile",
+      "label": "Parietal cell",
+      "variant": "profile-cl0000162",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0002251",
-       "label": "epithelial cell of alimentary canal"
+       "id": "CL:0000162",
+       "label": "morphology profile"
       },
-      "note": "The stomach and intestine are lined by columnar cells.",
-      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "column-epithelial",
+      "baseLabel": "Column-shaped epithelial cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 9,
+       "fields": [
+        "shape",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
@@ -45,7 +58,15 @@
        "label": "epithelial cell of alimentary canal"
       },
       "note": "The stomach and intestine are lined by columnar cells.",
-      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 5,
+       "fields": [
+        "function"
+       ],
+       "drawn": false
+      }
      }
     }
    ]

@@ -14,33 +14,64 @@
      "id": "CL:0000216",
      "conceptId": "CL0000216",
      "label": "Sertoli cell",
-     "model": "/models/cell/flat-epithelial-cell.json",
+     "model": "/models/cell/profile-cl0000216.json",
      "shape": {
-      "family": "flat-epithelial",
-      "label": "Flat epithelial cell",
-      "variant": "flat-epithelial-cell",
+      "family": "profile",
+      "label": "Sertoli cell",
+      "variant": "profile-cl0000216",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000076",
-       "label": "squamous epithelial cell"
+       "id": "CL:0000216",
+       "label": "morphology profile"
       },
-      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
+      "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+      "base": "flat-epithelial",
+      "baseLabel": "Flat epithelial cell",
+      "outline": "profile",
+      "profile": {
+       "status": "drafted",
+       "claims": 11,
+       "fields": [
+        "shape",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     },
     {
      "id": "CL:0000019",
      "conceptId": "CL0000019",
      "label": "Sperm",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/profile-cl0000019.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "profile",
+      "label": "Sperm",
+      "variant": "profile-cl0000019",
       "apical": null,
       "nucleus": true,
-      "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "from": {
+       "id": "CL:0000019",
+       "label": "morphology profile"
+      },
+      "caption": "Drawn from its morphology profile (unreviewed) · shape illustrative · size not stated",
+      "base": "generic",
+      "baseLabel": "Generic cell",
+      "outline": "illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 8,
+       "fields": [
+        "nucleus_count",
+        "surface",
+        "organelle",
+        "special",
+        "function"
+       ],
+       "drawn": true
+      }
      }
     }
    ]
@@ -60,7 +91,16 @@
       "apical": null,
       "nucleus": true,
       "from": null,
-      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative",
+      "profile": {
+       "status": "drafted",
+       "claims": 7,
+       "fields": [
+        "special",
+        "function"
+       ],
+       "drawn": false
+      }
      }
     }
    ]

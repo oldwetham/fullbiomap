@@ -9,19 +9,279 @@
   "CL": "0000589"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/profile-cl0000589.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "profile",
+   "label": "Cochlear inner hair cell",
+   "variant": "profile-cl0000589",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "CL:0000589",
+    "label": "morphology profile"
    },
-   "caption": "A simplified shape for the neuron family · sizes illustrative"
+   "caption": "Drawn from its morphology profile (unreviewed) · size not stated",
+   "base": "neuron",
+   "baseLabel": "Neuron",
+   "outline": "profile",
+   "profile": {
+    "status": "drafted",
+    "claims": 18,
+    "fields": [
+     "shape",
+     "surface",
+     "special",
+     "function"
+    ],
+    "drawn": true
+   }
   }
+ },
+ "morphology": {
+  "status": "drafted",
+  "file": "content/CL_0000589/morphology.md",
+  "license": "CC BY 4.0",
+  "attribution": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax. Access for free at https://openstax.org/books/biology-2e/pages/1-introduction. Quoted sentences keep their CC BY 4.0 licence; the selection, the field values and the structure-and-job sentences are by Bio Map (CC BY 4.0).",
+  "method": "How this was made: an AI agent drafted each claim from a sentence in a cited CC BY source; it was kept only after a second, independent AI agent checked it against that source and a script found the quote word for word. No person has reviewed it yet.",
+  "draftedOn": "2026-11-08",
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html",
+    "license": "CC BY 4.0",
+    "url": "http://purl.obolibrary.org/obo/CL_0000589"
+   },
+   {
+    "name": "OpenStax Anatomy and Physiology 2e",
+    "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+   },
+   {
+    "name": "OpenStax Biology 2e",
+    "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+    "license": "CC BY 4.0",
+    "url": "https://openstax.org/books/biology-2e/pages/1-introduction",
+    "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+   }
+  ],
+  "claims": [
+   {
+    "field": "shape",
+    "value": "other: bulbous",
+    "quote": "A bulbous cell that is medially placed in one row in the organ of Corti.",
+    "source": {
+     "section": "CL:0000589 cochlear inner hair cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000589",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "stereocilia",
+    "quote": "The stereocilia from inner hair cells extend into small dimples on the tectorial membrane’s lower surface.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "surface",
+    "value": "stereocilia",
+    "quote": "The organs of Corti contain hair cells, which are named for the hair-like stereocilia extending from the cell’s apical surfaces",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "stereocilia array graded in height from tallest to shortest",
+    "quote": "The stereocilia are an array of microvilli-like structures arranged from tallest to shortest.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "protein tethers linking adjacent stereocilia within each array",
+    "quote": "Protein fibers tether adjacent hairs together within each array, such that the array will bend in response to movements of the basilar membrane.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "special",
+    "value": "fewer sensory hairs than outer hair cells",
+    "quote": "In contrast to the outer hair cells, the inner hair cells are fewer in number, have fewer sensory hairs, and are less differentiated.",
+    "source": {
+     "section": "CL:0000589 cochlear inner hair cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000589",
+     "license": "CC BY 4.0",
+     "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+    }
+   },
+   {
+    "field": "special",
+    "value": "afferent synapses: each inner hair cell synapses with about 10 afferent neurons",
+    "quote": "About 90 percent of the afferent neurons carry information from inner hair cells, with each hair cell synapsing with 10 or so neurons.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Set in a single row of about 3,500 cells, the inner hair cells are the primary auditory receptors.",
+    "quote": "The inner hair cells are the primary auditory receptors and exist in a single row, numbering approximately 3,500.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The stereocilia reach up to the overlying tectorial membrane, so when pressure waves from the scala move the basilar membrane, the tectorial membrane slides across them.",
+    "quote": "The stereocilia extend up from the hair cells to the overlying tectorial membrane, which is attached medially to the organ of Corti. When the pressure waves from the scala move the basilar membrane, the tectorial membrane slides across the stereocilia.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "The stereocilia are mechanoreceptors: when vibrations bend them, gated ion channels open, depolarizing the hair cell so a signal passes to the cochlear nerve.",
+    "quote": "All of the stereocilia are mechanoreceptors, and when bent by vibrations they respond by opening a gated ion channel (refer to ). As a result, the hair cell membrane is depolarized, and a signal is transmitted to the chochlear nerve.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Bending the stereocilia toward the tallest one puts tension on the protein tethers between them, opening ion channels that depolarize the cell and trigger impulses in the afferent nerve fibers attached to it.",
+    "quote": "When the stereocilia bend toward the tallest member of their array, tension in the protein tethers opens ion channels in the hair cell membrane. This will depolarize the hair cell membrane, triggering nerve impulses that travel down the afferent nerve fibers attached to the hair cells.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Bending the stereocilia the other way, toward the shortest one, slackens the tethers and closes the ion channels.",
+    "quote": "When the stereocilia bend toward the shortest member of their array, the tension on the tethers slackens and the ion channels close.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Even in silence, slight tension on the tethers between the upright stereocilia keeps the hair cell slightly depolarized.",
+    "quote": "When no sound is present, and the stereocilia are standing straight, a small amount of tension still exists on the tethers, keeping the membrane potential of the hair cell slightly depolarized.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "When its hairs bend, the hair cell releases an excitatory neurotransmitter at a synapse with a sensory neuron, which then carries action potentials to the central nervous system.",
+    "quote": "When the hairs bend, they release an excitatory neurotransmitter at a synapse with a sensory neuron, which then conducts action potentials to the central nervous system.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Inner hair cells are the most important route for auditory information to the brain: about 90 percent of the afferent neurons carry their signals, and each cell synapses with about 10 of them.",
+    "quote": "The inner hair cells are most important for conveying auditory information to the brain. About 90 percent of the afferent neurons carry information from inner hair cells, with each hair cell synapsing with 10 or so neurons.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Because the tectorial membrane moves only where the basilar membrane moves, and each region of that membrane moves only at a specific frequency, the hair cells in a region respond only to that frequency.",
+    "quote": "As stated above, a given region of the basilar membrane will only move if the incoming sound is at a specific frequency. Because the tectorial membrane only moves where the basilar membrane moves, the hair cells in this region will also only respond to sounds of this specific frequency.",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "Adjacent inner hair cells differ in response frequency by only about 0.2 percent, so neighboring cells respond to slightly different pitches.",
+    "quote": "The difference in response frequency between adjacent inner hair cells is about 0.2 percent.",
+    "source": {
+     "section": "36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0",
+     "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+    }
+   },
+   {
+    "field": "function",
+    "value": "A hair cell's place along the cochlea sets its pitch: cells at the apex detect frequencies as low as 20 Hz, and cells at the base, near the round and oval windows, encode frequencies around 20 kHz.",
+    "quote": "Frequencies as low as 20 Hz are detected by hair cells at the apex, or tip, of the cochlea. Frequencies in the higher ranges of 20 KHz are encoded by hair cells at the base of the cochlea, close to the round and oval windows",
+    "source": {
+     "section": "14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0",
+     "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+     "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    }
+   }
+  ]
  },
  "content": {
   "tier1": {

@@ -93,3 +93,4 @@ Every graph node is keyed by a public ontology id; never invent an id when a pub
 - No API keys in the client bundle; no accounts; no analytics beyond a privacy-respecting page counter.
 - `data/` is gitignored (raw downloads and intermediate builds). Pipeline steps must be reproducible from a clean clone.
 - Downloaded archives are untrusted: extract into their own directory and run Python that reads them with `-I`.
+- Browser tests use only a headless browser with its own temporary profile (for example Chrome started with `--headless=new --user-data-dir=<a new temporary directory>` and driven over the DevTools protocol), deleted afterwards. Never open the user's normal Chrome profile, never modify or install anything in /Applications, and stop and ask if a test needs either.

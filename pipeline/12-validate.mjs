@@ -170,6 +170,10 @@ for (const [url, {what, from}] of missing) {
   fail(url, `${what} is not under public/ (referenced by ${first}${rest.length ? ` and ${rest.length} more` : ''})`);
 }
 
+// Every relation a panel can show needs a heading in app/anatomy.ts; without one the panel prints the raw id ("located_in").
+const relationLabels = fs.readFileSync(path.join(root, 'app/anatomy.ts'), 'utf8').match(/RELATION_LABELS[^=]*=\s*\{([\s\S]*?)\n\};/)?.[1] ?? '';
+for (const rel of CONNECTIONS) if (!new RegExp(`^\\s*${rel}:\\{out:'[^']+',in:'[^']+'\\}`, 'm').test(relationLabels)) fail(rel, 'relation has no panel heading in RELATION_LABELS (app/anatomy.ts)');
+
 const relCount = {}, relSources = {};
 for (const e of edges) {
   if (!byId.has(e.from) || !byId.has(e.to)) fail(`${e.from}→${e.to}`, 'dangling edge');

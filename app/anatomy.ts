@@ -54,6 +54,8 @@ export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
  attaches_to:{out:'Attaches to',in:'Attached to by'},
  articulates_with:{out:'Articulates with',in:'Articulates with'},
  continuous_with:{out:'Continuous with',in:'Continuous with'},
+ located_in:{out:'Found in',in:'Cell types'},
+ component_of:{out:'Part of',in:'Components'},
 };
 export interface ConnectionGroup {key:string;label:string;items:Connection[]}
 /** Groups connections by relation and direction, keeping the order step 11 wrote them in. */

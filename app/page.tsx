@@ -49,7 +49,7 @@ export default function Home(){
  const results=useMemo(()=>{if(!atlas)return[];const term=query.toLowerCase().trim();if(!term)return ['heart','brain','liver','stomach','spleen','pancreas','urinary bladder','trachea'].map(name=>atlas.concepts.find(c=>c.name.toLowerCase()===name)).filter((x):x is Concept=>!!x);return atlas.concepts.filter(c=>c.name.toLowerCase().includes(term)||c.id.toLowerCase().includes(term)).sort((a,b)=>a.name.length-b.name.length).slice(0,80);},[atlas,query]);
  const choose=(c:Concept,fromHash=false)=>{if(!fromHash)writeHash(hashFor(c.id));setChosen(c);setState(s=>({...s,selected:c.elements,isolate:false,rotate:false}));setDetails(true);setPanel(null);};
  useEffect(()=>{if(!atlas)return;return registerAtlasTools(atlas,c=>flushSync(()=>choose(c)));},[atlas]);
- const choosePart=(id:string,fromHash=false)=>{const p=parts.get(id);if(!p)return;if(!fromHash)writeHash(hashFor(p.conceptId));setChosen({id:p.conceptId,name:p.name,elements:[id]});setState(s=>({...s,selected:[id],isolate:false,rotate:false}));setDetails(true);setPanel(null);};
+ const choosePart=(id:string,fromHash=false)=>{const p=parts.get(id);if(!p)return;if(p.layer==='shell'){const whole=concepts.get(p.conceptId);if(whole)return choose(whole,fromHash);}if(!fromHash)writeHash(hashFor(p.conceptId));setChosen({id:p.conceptId,name:p.name,elements:[id]});setState(s=>({...s,selected:[id],isolate:false,rotate:false}));setDetails(true);setPanel(null);};
  const concepts=useMemo(()=>new Map(atlas?.concepts.map(c=>[c.id,c])),[atlas]);
  const bodyConcepts=useMemo(()=>new Map(bodyAtlas?.concepts.map(c=>[c.id,c])),[bodyAtlas]);
  /** The concept for a structure in the model on screen: its own id, else an alternate (e.g. its Uberon id in the female body). */

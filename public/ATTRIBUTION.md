@@ -42,6 +42,8 @@ Adaptations: GLB meshes converted to Bio Map's part/chunk format; coincident ver
 
 The female reference's skeleton and muscles are partial; the viewer says so where the female body is shown.
 
+Male lung surfaces: BodyParts3D models each lung only as bronchial trees and vessels, so the male body shows the five lobe surfaces of HRA v2.5 lung-male v1.4 (https://doi.org/10.48539/HBM532.KLZD.394) as a see-through layer of the respiratory system (25 meshes). They are fitted into the BodyParts3D chest by a per-axis, stretch capped at 15% scale (x 0.9589, y 1.0306, z 0.8962) and translation, kept inside the ribs; a uniform scale that kept HRA's exact lobe shape left the BodyParts3D airways up to 3.4 cm outside the surfaces and was not used. With the fit used, 12.4% of the airway vertices lie outside the surfaces, at most 2.3 cm (reports/lung-shells.md). The lobe shapes are therefore approximate for this body.
+
 | HRA object | Version | DOI |
 | --- | --- | --- |
 | brain-female | v1.4 | https://doi.org/10.48539/HBM674.NTLM.353 |

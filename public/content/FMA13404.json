@@ -124,7 +124,11 @@
   "organ": {
    "id": "FMA:13404",
    "conceptId": "FMA13404",
-   "label": "Left serratus posterior superior"
+   "label": "Left serratus posterior superior",
+   "tissue": [
+    "/tissue/FMA13401.json",
+    "/tissue/FMA5022.json"
+   ]
   }
  }
 }

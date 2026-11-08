@@ -1,0 +1,124 @@
+{
+ "id": "CL:0000972",
+ "conceptId": "CL0000972",
+ "label": "Class switched memory B cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "class switched memory B lymphocyte",
+  "class switched memory B-cell",
+  "class switched memory B-lymphocyte"
+ ],
+ "xrefs": {
+  "CL": "0000972"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000972/tier1.auto.md",
+   "text": "A class switched memory B cell is a memory B cell that has undergone Ig class switching and therefore is IgM-negative on the cell surface. These cells are CD27-positive and have either IgG, IgE, or IgA on the cell surface.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000972",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000972",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000972",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000972",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000972. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000972",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000972",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: thymus v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM682.DVWX.968"
+    }
+   ],
+   "alternates": [
+    "UBERON0002370"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "alternates": [
+    "UBERON0002106"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/spleen-male.json"
+    ],
+    "female": [
+     "/models/organs/spleen-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7196.json"
+   ]
+  }
+ }
+}

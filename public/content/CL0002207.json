@@ -1,0 +1,91 @@
+{
+ "id": "CL:0002207",
+ "conceptId": "CL0002207",
+ "label": "Brush cell of trachea",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0002207"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002207/tier1.auto.md",
+   "text": "Brush cell of the epithelium in the trachea.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002207",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002207",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002207",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002207",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002207. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002207",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002207",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7394",
+   "conceptId": "FMA7394",
+   "label": "Trachea",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: trachea v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM862.ZQRC.294"
+    }
+   ],
+   "alternates": [
+    "UBERON0003126"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ }
+}

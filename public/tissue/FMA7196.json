@@ -1,0 +1,746 @@
+{
+ "organ": {
+  "id": "FMA:7196",
+  "conceptId": "FMA7196",
+  "label": "Spleen"
+ },
+ "tables": [
+  {
+   "name": "spleen",
+   "version": "v1.6",
+   "doi": "https://doi.org/10.48539/HBM728.RXPP.245",
+   "citation": "Jorgensen, Marda,\tAndrea J. Radtke,\tand Rebecca T. Beuschel.\t 2026.\t\"HuBMAP ASCT+B Tables. Spleen v1.6.\"\t https://doi.org/10.48539/HBM728.RXPP.245.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 50,
+ "groups": [
+  {
+   "structure": "Periarterial lymphatic sheath",
+   "cells": [
+    {
+     "id": "CL:0002394",
+     "conceptId": "CL0002394",
+     "label": "CD141-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0002399",
+     "conceptId": "CL0002399",
+     "label": "CD1c-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0000492",
+     "conceptId": "CL0000492",
+     "label": "CD4-positive helper T cell"
+    },
+    {
+     "id": "CL:0000897",
+     "conceptId": "CL0000897",
+     "label": "CD4-positive, alpha-beta memory T cell"
+    },
+    {
+     "id": "CL:0000794",
+     "conceptId": "CL0000794",
+     "label": "CD8-positive, alpha-beta cytotoxic T cell"
+    },
+    {
+     "id": "CL:0000909",
+     "conceptId": "CL0000909",
+     "label": "CD8-positive, alpha-beta memory T cell"
+    },
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0001050",
+     "conceptId": "CL0001050",
+     "label": "Effector CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    },
+    {
+     "id": "CL:0000798",
+     "conceptId": "CL0000798",
+     "label": "Gamma-delta T cell"
+    },
+    {
+     "id": "CL:0000186",
+     "conceptId": "CL0000186",
+     "label": "Myofibroblast cell"
+    },
+    {
+     "id": "CL:0000895",
+     "conceptId": "CL0000895",
+     "label": "Naive thymus-derived CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000900",
+     "conceptId": "CL0000900",
+     "label": "Naive thymus-derived CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000980",
+     "conceptId": "CL0000980",
+     "label": "Plasmablast"
+    },
+    {
+     "id": "CL:0001058",
+     "conceptId": "CL0001058",
+     "label": "Plasmacytoid dendritic cell, human"
+    },
+    {
+     "id": "CL:0000815",
+     "conceptId": "CL0000815",
+     "label": "Regulatory T cell"
+    },
+    {
+     "id": "CL:1000489",
+     "conceptId": "CL1000489",
+     "label": "Reticular cell of splenic cord"
+    },
+    {
+     "id": "CL:0000192",
+     "conceptId": "CL0000192",
+     "label": "Smooth muscle cell"
+    },
+    {
+     "id": "CL:0000876",
+     "conceptId": "CL0000876",
+     "label": "Splenic white pulp macrophage"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    },
+    {
+     "id": "CL:0000818",
+     "conceptId": "CL0000818",
+     "label": "Transitional stage B cell"
+    }
+   ]
+  },
+  {
+   "structure": "Marginal Zone of Spleen",
+   "cells": [
+    {
+     "id": "CL:0000492",
+     "conceptId": "CL0000492",
+     "label": "CD4-positive helper T cell"
+    },
+    {
+     "id": "CL:0000972",
+     "conceptId": "CL0000972",
+     "label": "Class switched memory B cell"
+    },
+    {
+     "id": "CL:0000442",
+     "conceptId": "CL0000442",
+     "label": "Follicular dendritic cell"
+    },
+    {
+     "id": "CL:0001078",
+     "conceptId": "CL0001078",
+     "label": "Group 3 innate lymphoid cell, human"
+    },
+    {
+     "id": "CL:0000845",
+     "conceptId": "CL0000845",
+     "label": "Marginal zone B cell of spleen"
+    },
+    {
+     "id": "CL:0000787",
+     "conceptId": "CL0000787",
+     "label": "Memory B cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0001058",
+     "conceptId": "CL0001058",
+     "label": "Plasmacytoid dendritic cell, human"
+    },
+    {
+     "id": "CL:1000489",
+     "conceptId": "CL1000489",
+     "label": "Reticular cell of splenic cord"
+    },
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0000872",
+     "conceptId": "CL0000872",
+     "label": "Splenic marginal zone macrophage"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    },
+    {
+     "id": "CL:0000818",
+     "conceptId": "CL0000818",
+     "label": "Transitional stage B cell"
+    }
+   ]
+  },
+  {
+   "structure": "Splenic cord",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0001055",
+     "conceptId": "CL0001055",
+     "label": "CD14-positive, CD16-low monocyte"
+    },
+    {
+     "id": "CL:0000909",
+     "conceptId": "CL0000909",
+     "label": "CD8-positive, alpha-beta memory T cell"
+    },
+    {
+     "id": "CL:0000625",
+     "conceptId": "CL0000625",
+     "label": "CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0001056",
+     "conceptId": "CL0001056",
+     "label": "Dendritic cell, human"
+    },
+    {
+     "id": "CL:0000232",
+     "conceptId": "CL0000232",
+     "label": "Erythrocyte"
+    },
+    {
+     "id": "CL:0000037",
+     "conceptId": "CL0000037",
+     "label": "Hematopoietic stem cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0000980",
+     "conceptId": "CL0000980",
+     "label": "Plasmablast"
+    },
+    {
+     "id": "CL:0000233",
+     "conceptId": "CL0000233",
+     "label": "Platelet"
+    },
+    {
+     "id": "CL:1000489",
+     "conceptId": "CL1000489",
+     "label": "Reticular cell of splenic cord"
+    },
+    {
+     "id": "CL:0000874",
+     "conceptId": "CL0000874",
+     "label": "Splenic red pulp macrophage"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen perifollicular zone",
+   "cells": [
+    {
+     "id": "CL:0001055",
+     "conceptId": "CL0001055",
+     "label": "CD14-positive, CD16-low monocyte"
+    },
+    {
+     "id": "CL:0002394",
+     "conceptId": "CL0002394",
+     "label": "CD141-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0002399",
+     "conceptId": "CL0002399",
+     "label": "CD1c-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0000232",
+     "conceptId": "CL0000232",
+     "label": "Erythrocyte"
+    },
+    {
+     "id": "CL:0000738",
+     "conceptId": "CL0000738",
+     "label": "Leukocyte"
+    },
+    {
+     "id": "CL:0011031",
+     "conceptId": "CL0011031",
+     "label": "Monocyte-derived dendritic cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0001058",
+     "conceptId": "CL0001058",
+     "label": "Plasmacytoid dendritic cell, human"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Red pulp of spleen",
+   "cells": [
+    {
+     "id": "CL:0000972",
+     "conceptId": "CL0000972",
+     "label": "Class switched memory B cell"
+    },
+    {
+     "id": "CL:0000787",
+     "conceptId": "CL0000787",
+     "label": "Memory B cell"
+    },
+    {
+     "id": "CL:0008034",
+     "conceptId": "CL0008034",
+     "label": "Mural cell"
+    },
+    {
+     "id": "CL:0000788",
+     "conceptId": "CL0000788",
+     "label": "Naive B cell"
+    },
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0000874",
+     "conceptId": "CL0000874",
+     "label": "Splenic red pulp macrophage"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen B cell corona",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000442",
+     "conceptId": "CL0000442",
+     "label": "Follicular dendritic cell"
+    },
+    {
+     "id": "CL:0000787",
+     "conceptId": "CL0000787",
+     "label": "Memory B cell"
+    },
+    {
+     "id": "CL:0008034",
+     "conceptId": "CL0008034",
+     "label": "Mural cell"
+    },
+    {
+     "id": "CL:0000788",
+     "conceptId": "CL0000788",
+     "label": "Naive B cell"
+    },
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0000818",
+     "conceptId": "CL0000818",
+     "label": "Transitional stage B cell"
+    }
+   ]
+  },
+  {
+   "structure": "Penicillar Arteriole",
+   "cells": [
+    {
+     "id": "CL:0000972",
+     "conceptId": "CL0000972",
+     "label": "Class switched memory B cell"
+    },
+    {
+     "id": "CL:0000787",
+     "conceptId": "CL0000787",
+     "label": "Memory B cell"
+    },
+    {
+     "id": "CL:0000788",
+     "conceptId": "CL0000788",
+     "label": "Naive B cell"
+    },
+    {
+     "id": "CL:0000192",
+     "conceptId": "CL0000192",
+     "label": "Smooth muscle cell"
+    },
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen germinal center",
+   "cells": [
+    {
+     "id": "CL:0000442",
+     "conceptId": "CL0000442",
+     "label": "Follicular dendritic cell"
+    },
+    {
+     "id": "CL:0000844",
+     "conceptId": "CL0000844",
+     "label": "Germinal center B cell"
+    },
+    {
+     "id": "CL:0000980",
+     "conceptId": "CL0000980",
+     "label": "Plasmablast"
+    },
+    {
+     "id": "CL:0000877",
+     "conceptId": "CL0000877",
+     "label": "Splenic tingible body macrophage"
+    },
+    {
+     "id": "CL:0002038",
+     "conceptId": "CL0002038",
+     "label": "T follicular helper cell"
+    },
+    {
+     "id": "CL:0009113",
+     "conceptId": "CL0009113",
+     "label": "T follicular regulatory cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen primary B follicle",
+   "cells": [
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0000442",
+     "conceptId": "CL0000442",
+     "label": "Follicular dendritic cell"
+    },
+    {
+     "id": "CL:0000787",
+     "conceptId": "CL0000787",
+     "label": "Memory B cell"
+    },
+    {
+     "id": "CL:0000788",
+     "conceptId": "CL0000788",
+     "label": "Naive B cell"
+    },
+    {
+     "id": "CL:0000876",
+     "conceptId": "CL0000876",
+     "label": "Splenic white pulp macrophage"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen central arteriole",
+   "cells": [
+    {
+     "id": "CL:4033050",
+     "conceptId": "CL4033050",
+     "label": "Catecholaminergic neuron"
+    },
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen capsule",
+   "cells": [
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0000186",
+     "conceptId": "CL0000186",
+     "label": "Myofibroblast cell"
+    }
+   ]
+  },
+  {
+   "structure": "Splenic sinusoid",
+   "cells": [
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    },
+    {
+     "id": "CL:0002543",
+     "conceptId": "CL0002543",
+     "label": "Vein endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Splenic vein",
+   "cells": [
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    },
+    {
+     "id": "CL:0002543",
+     "conceptId": "CL0002543",
+     "label": "Vein endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Lymphatic vessel",
+   "cells": [
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen central arteriole",
+   "cells": [
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen Trabecular Artery",
+   "cells": [
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Spleen Trabecular Vein",
+   "cells": [
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Splenic artery",
+   "cells": [
+    {
+     "id": "CL:1000413",
+     "conceptId": "CL1000413",
+     "label": "Endothelial cell of artery"
+    }
+   ]
+  },
+  {
+   "structure": "Splenic Artery",
+   "cells": [
+    {
+     "id": "CL:2000053",
+     "conceptId": "CL2000053",
+     "label": "Splenic endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Sympathetic nerve plexus",
+   "cells": [
+    {
+     "id": "CL:4033050",
+     "conceptId": "CL4033050",
+     "label": "Catecholaminergic neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Trabecula of spleen",
+   "cells": [
+    {
+     "id": "CL:0000186",
+     "conceptId": "CL0000186",
+     "label": "Myofibroblast cell"
+    }
+   ]
+  },
+  {
+   "structure": "White pulp of spleen",
+   "cells": [
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/spleen.jpg",
+   "organ": "spleen",
+   "tissue": "spleen",
+   "caption": "Spleen tissue stained for heme oxygenase 1 (HMOX1). Brown: HMOX1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of spleen tissue with HMOX1 protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "HMOX1",
+    "name": "Heme oxygenase 1",
+    "ensembl": "ENSG00000100292",
+    "uniprot": [
+     "P09601"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000100292-HMOX1/tissue/spleen",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for spleen; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): HMOX1 immunohistochemistry in spleen, https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/spleen-red-pulp.svg",
+   "name": "spleen-red-pulp",
+   "label": "Red pulp of spleen",
+   "cells": [
+    "CL:0000037",
+    "CL:0000236",
+    "CL:0000442",
+    "CL:0000775",
+    "CL:0000872",
+    "CL:0000874",
+    "CL:0000877",
+    "CL:0000980",
+    "CL:0001055",
+    "CL:0001056"
+   ],
+   "caption": "Functional tissue unit: red pulp of spleen. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the red pulp of spleen and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM452.BXTV.428",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Red Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM452.BXTV.428. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/spleen-white-pulp.svg",
+   "name": "spleen-white-pulp",
+   "label": "White pulp of spleen",
+   "cells": [
+    "CL:0000192",
+    "CL:0000442",
+    "CL:0000499",
+    "CL:0000775",
+    "CL:0000876",
+    "CL:0000877",
+    "CL:0000980",
+    "CL:0001055",
+    "CL:1000489",
+    "CL:2000053"
+   ],
+   "caption": "Functional tissue unit: white pulp of spleen. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the white pulp of spleen and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM538.PHWH.575",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D White Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM538.PHWH.575. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

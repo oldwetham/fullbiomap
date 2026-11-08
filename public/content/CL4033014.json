@@ -1,0 +1,113 @@
+{
+ "id": "CL:4033014",
+ "conceptId": "CL4033014",
+ "label": "Peg cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "FTE stem-like cell",
+  "FTESC",
+  "fallopian tube epithelial stem-like cell",
+  "intercalary cell"
+ ],
+ "xrefs": {
+  "CL": "4033014"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_4033014/tier1.auto.md",
+   "text": "A small, narrow, peg-shaped epithelial cell with little cytoplasm that is part of oviduct epithelium. This cell is rarer than the ciliated and secretory epithelial cells of the fallopian tube epithelium and is often found intercalated between them. Peg cells are generally distributed basally along the epithelium and have been found in high concentrations at the fimbriated, distal end of the fallopian tube in humans. It may have a regenerative/stem-cell function. In humans, markers include EPCAM, CD44, and ITGA6.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:4033014",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033014",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:4033014",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033014",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:4033014. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:4033014",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033014",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001302",
+   "conceptId": "UBERON0001302",
+   "label": "Right fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "interior": {
+    "female": [
+     "/models/organs/fallopian-tube-female-left.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/UBERON0001303.json"
+   ]
+  }
+ }
+}

@@ -109,7 +109,13 @@
   "organ": {
    "id": "FMA:13408",
    "conceptId": "FMA13408",
-   "label": "Right sternocleidomastoid"
+   "label": "Right sternocleidomastoid",
+   "tissue": [
+    "/tissue/FMA13407.json",
+    "/tissue/FMA5022.json",
+    "/tissue/FMA64822.json",
+    "/tissue/FMA9617.json"
+   ]
   }
  }
 }

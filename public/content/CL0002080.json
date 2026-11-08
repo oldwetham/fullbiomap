@@ -1,0 +1,105 @@
+{
+ "id": "CL:0002080",
+ "conceptId": "CL0002080",
+ "label": "Pancreatic centro-acinar cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "centroacinar cell of Langerhans",
+  "pancreatic centroacinar cell"
+ ],
+ "xrefs": {
+  "CL": "0002080"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002080/tier1.auto.md",
+   "text": "A cubodial epithelial cell that is continuous with the lining of intercalated ducts that drain the acinus. This cell type secretes a high pH solution to aid in activation of zymogens, and can differentiate into endocrine and exocrine pancreatic cell types.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002080",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002080",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002080",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002080",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002080. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002080",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002080",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: pancreas v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM527.NDSX.792"
+    }
+   ],
+   "alternates": [
+    "UBERON0001264"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "alternates": [
+    "UBERON0001264"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pancreas-male.json"
+    ],
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7198.json"
+   ]
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "CL:0000814",
+ "conceptId": "CL0000814",
+ "label": "Mature NK T cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "mature NK T lymphocyte",
+  "mature NK T-cell",
+  "mature NK T-lymphocyte",
+  "mature NKT cell",
+  "mature natural killer T cell",
+  "mature natural killer T lymphocyte",
+  "mature natural killer T-cell",
+  "mature natural killer T-lymphocyte"
+ ],
+ "xrefs": {
+  "CL": "0000814"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000814/tier1.auto.md",
+   "text": "A mature alpha-beta T cell of a distinct lineage that bears natural killer markers and a T cell receptor specific for a limited set of ligands. NK T cells have activation and regulatory roles particularly early in an immune response.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000814",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000814",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000814",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000814",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000814. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000814",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000814",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7203",
+   "conceptId": "FMA7203",
+   "label": "Kidney",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ],
+   "alternates": [
+    "UBERON0000082"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ],
+   "tissue": [
+    "/tissue/FMA7309.json"
+   ]
+  }
+ }
+}

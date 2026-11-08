@@ -1,0 +1,95 @@
+{
+ "id": "CL:0009110",
+ "conceptId": "CL0009110",
+ "label": "Lymphatic endothelial cell of medulla ceiling",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "lymphatic endothelial cell of lymph node medulla ceiling"
+ ],
+ "xrefs": {
+  "CL": "0009110"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0009110/tier1.auto.md",
+   "text": "A lymphatic endothelial cell located in the ceiling part of a lymph node medulla.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0009110",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0009110",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0009110",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0009110",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0009110. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0009110",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0009110",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002007",
+   "conceptId": "UBERON0002007",
+   "label": "Medulla of lymph node",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lymph node v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM653.DWLS.438"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002509",
+   "conceptId": "UBERON0002509",
+   "label": "Mesenteric lymph node",
+   "interior": {
+    "female": [
+     "/models/organs/lymph-node-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/UBERON0002509.json"
+   ]
+  }
+ }
+}

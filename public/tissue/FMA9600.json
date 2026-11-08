@@ -1,0 +1,201 @@
+{
+ "organ": {
+  "id": "FMA:9600",
+  "conceptId": "FMA9600",
+  "label": "Prostate"
+ },
+ "tables": [
+  {
+   "name": "prostate",
+   "version": "v1.1",
+   "doi": "https://doi.org/10.48539/HBM542.LMZF.884",
+   "citation": "Strand, Douglas,\tand Chad Vezina.\t 2024.\t\"HuBMAP ASCT+B Tables. Prostate v1.1.\"\t https://doi.org/10.48539/HBM542.LMZF.884. Accessed December 15, 2023."
+  }
+ ],
+ "cellCount": 18,
+ "groups": [
+  {
+   "structure": "Blood vessel endothelium",
+   "cells": [
+    {
+     "id": "CL:0000071",
+     "conceptId": "CL0000071",
+     "label": "Blood vessel endothelial cell"
+    },
+    {
+     "id": "CL:0002144",
+     "conceptId": "CL0002144",
+     "label": "Capillary endothelial cell"
+    },
+    {
+     "id": "CL:1000413",
+     "conceptId": "CL1000413",
+     "label": "Endothelial cell of artery"
+    },
+    {
+     "id": "CL:0002543",
+     "conceptId": "CL0002543",
+     "label": "Vein endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Prostatic urethra",
+   "cells": [
+    {
+     "id": "CL:1000486",
+     "conceptId": "CL1000486",
+     "label": "Basal cell of urothelium"
+    },
+    {
+     "id": "CL:4032000",
+     "conceptId": "CL4032000",
+     "label": "Club-like cell of the urethral epithelium"
+    },
+    {
+     "id": "CL:0017011",
+     "conceptId": "CL0017011",
+     "label": "Hillock cell of prostatic urethral epithelium"
+    }
+   ]
+  },
+  {
+   "structure": "Lymphatic vessel",
+   "cells": [
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    },
+    {
+     "id": "CL:0009115",
+     "conceptId": "CL0009115",
+     "label": "Lymph node lymphatic vessel endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Prostate epithelium",
+   "cells": [
+    {
+     "id": "CL:0005006",
+     "conceptId": "CL0005006",
+     "label": "Ionocyte"
+    },
+    {
+     "id": "CL:0017002",
+     "conceptId": "CL0017002",
+     "label": "Prostate neuroendocrine cell"
+    }
+   ]
+  },
+  {
+   "structure": "Prostate gland stroma",
+   "cells": [
+    {
+     "id": "CL:1000299",
+     "conceptId": "CL1000299",
+     "label": "Fibroblast of connective tissue of prostate"
+    },
+    {
+     "id": "CL:1000301",
+     "conceptId": "CL1000301",
+     "label": "Fibroblast of subepithelial connective tissue of prostatic gland"
+    }
+   ]
+  },
+  {
+   "structure": "Prostate Glandular Acinus",
+   "cells": [
+    {
+     "id": "CL:0002341",
+     "conceptId": "CL0002341",
+     "label": "Basal cell of prostate epithelium"
+    },
+    {
+     "id": "CL:0002340",
+     "conceptId": "CL0002340",
+     "label": "Luminal cell of prostate epithelium"
+    }
+   ]
+  },
+  {
+   "structure": "Blood vessel",
+   "cells": [
+    {
+     "id": "CL:0000669",
+     "conceptId": "CL0000669",
+     "label": "Pericyte"
+    }
+   ]
+  },
+  {
+   "structure": "Blood vessel smooth muscle",
+   "cells": [
+    {
+     "id": "CL:0000359",
+     "conceptId": "CL0000359",
+     "label": "Vascular associated smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Prostate gland smooth muscle",
+   "cells": [
+    {
+     "id": "CL:1000487",
+     "conceptId": "CL1000487",
+     "label": "Smooth muscle cell of prostate"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/prostate.jpg",
+   "organ": "prostate",
+   "tissue": "prostate",
+   "caption": "Prostate tissue stained for microseminoprotein beta (MSMB). Brown: MSMB protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of prostate tissue with MSMB protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "MSMB",
+    "name": "Microseminoprotein beta",
+    "ensembl": "ENSG00000263639",
+    "uniprot": [
+     "P08118"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000263639-MSMB/tissue/prostate",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for prostate; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): MSMB immunohistochemistry in prostate, https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/prostate-prostate-glandular-acinus.svg",
+   "name": "prostate-prostate-glandular-acinus",
+   "label": "Prostate glandular acinus",
+   "cells": [
+    "CL:0000359",
+    "CL:0000669",
+    "CL:0002340",
+    "CL:0002341",
+    "CL:0017002",
+    "CL:1000299",
+    "CL:1000301",
+    "CL:1000487",
+    "CL:2000059"
+   ],
+   "caption": "Functional tissue unit: prostate glandular acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the prostate glandular acinus and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM346.TQTN.357",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Prostate Glandular Acinus FTU for Prostate, v1.3. https://doi.org/10.48539/HBM346.TQTN.357. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

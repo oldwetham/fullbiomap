@@ -1,0 +1,102 @@
+{
+ "id": "CL:0000877",
+ "conceptId": "CL0000877",
+ "label": "Splenic tingible body macrophage",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000877"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000877/tier1.auto.md",
+   "text": "A splenic white pulp macrophage found in and around the germinal centers of the white pulp of the spleen that participates in phagocytosis of apoptotic B cells from the germinal centers. A marker for a cell of this type is Mertk-positive.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000877",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000877",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000877",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000877",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000877. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000877",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000877",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "alternates": [
+    "UBERON0002106"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/spleen-male.json"
+    ],
+    "female": [
+     "/models/organs/spleen-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7196.json"
+   ]
+  }
+ }
+}

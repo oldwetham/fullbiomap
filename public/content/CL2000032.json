@@ -1,0 +1,148 @@
+{
+ "id": "CL:2000032",
+ "conceptId": "CL2000032",
+ "label": "Peripheral nervous system neuron",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "PNS neuron",
+  "peripheral neuron"
+ ],
+ "xrefs": {
+  "CL": "2000032"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_2000032/tier1.auto.md",
+   "text": "A neuron that is part of a peripheral nervous system.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:2000032",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_2000032",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:2000032",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_2000032",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:2000032. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:2000032",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_2000032",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:5889",
+   "conceptId": "FMA5889",
+   "label": "Autonomic ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0001805"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:6964",
+   "conceptId": "FMA6964",
+   "label": "Ciliary ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0002058"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:5884",
+   "conceptId": "FMA5884",
+   "label": "Ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0000045"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:5894",
+   "conceptId": "FMA5894",
+   "label": "Parasympathetic ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0001808"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:61284",
+   "conceptId": "FMA61284",
+   "label": "Neural tree organ",
+   "tissue": [
+    "/tissue/FMA61284.json"
+   ]
+  }
+ }
+}

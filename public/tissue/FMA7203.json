@@ -1,0 +1,693 @@
+{
+ "organ": {
+  "id": "FMA:7203",
+  "conceptId": "FMA7203",
+  "label": "Kidney"
+ },
+ "tables": [
+  {
+   "name": "kidney",
+   "version": "v1.8",
+   "doi": "https://doi.org/10.48539/HBM342.NFDL.535",
+   "citation": "Jain, Sanjay,\tM. Todd Valerius,\tYongqun He,\tTarek El-Achkar,\tMichael Eadon, and Jeffrey Spraggins. 2026.\t\"HuBMAP ASCT+B Tables. Kidney v1.8.\" https://doi.org/10.48539/HBM342.NFDL.535.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 67,
+ "groups": [
+  {
+   "structure": "Kidney interstitium",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0000910",
+     "conceptId": "CL0000910",
+     "label": "Cytotoxic T cell"
+    },
+    {
+     "id": "CL:0001056",
+     "conceptId": "CL0001056",
+     "label": "Dendritic cell, human"
+    },
+    {
+     "id": "CL:1000695",
+     "conceptId": "CL1000695",
+     "label": "Kidney interstitial alternatively activated macrophage"
+    },
+    {
+     "id": "CL:1000692",
+     "conceptId": "CL1000692",
+     "label": "Kidney interstitial fibroblast"
+    },
+    {
+     "id": "CL:1000691",
+     "conceptId": "CL1000691",
+     "label": "Kidney interstitial myofibroblast"
+    },
+    {
+     "id": "CL:0000738",
+     "conceptId": "CL0000738",
+     "label": "Leukocyte"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:0000814",
+     "conceptId": "CL0000814",
+     "label": "Mature NK T cell"
+    },
+    {
+     "id": "CL:0000576",
+     "conceptId": "CL0000576",
+     "label": "Monocyte"
+    },
+    {
+     "id": "CL:0000113",
+     "conceptId": "CL0000113",
+     "label": "Mononuclear phagocyte"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000875",
+     "conceptId": "CL0000875",
+     "label": "Non-classical monocyte"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0001058",
+     "conceptId": "CL0001058",
+     "label": "Plasmacytoid dendritic cell, human"
+    },
+    {
+     "id": "CL:0000815",
+     "conceptId": "CL0000815",
+     "label": "Regulatory T cell"
+    },
+    {
+     "id": "CL:4030022",
+     "conceptId": "CL4030022",
+     "label": "Renal medullary fibroblast"
+    },
+    {
+     "id": "CL:0000084",
+     "conceptId": "CL0000084",
+     "label": "T cell"
+    }
+   ]
+  },
+  {
+   "structure": "Collecting duct of renal tubule",
+   "cells": [
+    {
+     "id": "CL:4030015",
+     "conceptId": "CL4030015",
+     "label": "Kidney collecting duct alpha-intercalated cell"
+    },
+    {
+     "id": "CL:1000454",
+     "conceptId": "CL1000454",
+     "label": "Kidney collecting duct epithelial cell"
+    },
+    {
+     "id": "CL:1001432",
+     "conceptId": "CL1001432",
+     "label": "Kidney collecting duct intercalated cell"
+    },
+    {
+     "id": "CL:1001431",
+     "conceptId": "CL1001431",
+     "label": "Kidney collecting duct principal cell"
+    },
+    {
+     "id": "CL:0002201",
+     "conceptId": "CL0002201",
+     "label": "Renal beta-intercalated cell"
+    }
+   ]
+  },
+  {
+   "structure": "Renal connecting tubule",
+   "cells": [
+    {
+     "id": "CL:4030020",
+     "conceptId": "CL4030020",
+     "label": "Kidney connecting tubule alpha-intercalated cell"
+    },
+    {
+     "id": "CL:4030021",
+     "conceptId": "CL4030021",
+     "label": "Kidney connecting tubule beta-intercalated cell"
+    },
+    {
+     "id": "CL:1000768",
+     "conceptId": "CL1000768",
+     "label": "Kidney connecting tubule epithelial cell"
+    },
+    {
+     "id": "CL:4030019",
+     "conceptId": "CL4030019",
+     "label": "Kidney connecting tubule intercalated cell"
+    },
+    {
+     "id": "CL:4030018",
+     "conceptId": "CL4030018",
+     "label": "Kidney connecting tubule principal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Distal convoluted tubule",
+   "cells": [
+    {
+     "id": "CL:4030016",
+     "conceptId": "CL4030016",
+     "label": "Epithelial cell of early distal convoluted tubule"
+    },
+    {
+     "id": "CL:4030017",
+     "conceptId": "CL4030017",
+     "label": "Epithelial cell of late distal convoluted tubule"
+    },
+    {
+     "id": "CL:1000849",
+     "conceptId": "CL1000849",
+     "label": "Kidney distal convoluted tubule epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Endothelium",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:1001131",
+     "conceptId": "CL1001131",
+     "label": "Vasa recta ascending limb cell"
+    },
+    {
+     "id": "CL:1001285",
+     "conceptId": "CL1001285",
+     "label": "Vasa recta descending limb cell"
+    }
+   ]
+  },
+  {
+   "structure": "Thick ascending limb of loop of Henle",
+   "cells": [
+    {
+     "id": "CL:1001109",
+     "conceptId": "CL1001109",
+     "label": "Kidney loop of Henle cortical thick ascending limb epithelial cell"
+    },
+    {
+     "id": "CL:1001108",
+     "conceptId": "CL1001108",
+     "label": "Kidney loop of Henle medullary thick ascending limb epithelial cell"
+    },
+    {
+     "id": "CL:1001106",
+     "conceptId": "CL1001106",
+     "label": "Kidney loop of Henle thick ascending limb epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Cortical collecting duct",
+   "cells": [
+    {
+     "id": "CL:1000715",
+     "conceptId": "CL1000715",
+     "label": "Kidney cortex collecting duct intercalated cell"
+    },
+    {
+     "id": "CL:1000714",
+     "conceptId": "CL1000714",
+     "label": "Kidney cortex collecting duct principal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Kidney blood vessel",
+   "cells": [
+    {
+     "id": "CL:0019018",
+     "conceptId": "CL0019018",
+     "label": "Blood vessel smooth muscle cell"
+    },
+    {
+     "id": "CL:1001318",
+     "conceptId": "CL1001318",
+     "label": "Renal interstitial pericyte"
+    }
+   ]
+  },
+  {
+   "structure": "Outer medullary collecting duct",
+   "cells": [
+    {
+     "id": "CL:1000717",
+     "conceptId": "CL1000717",
+     "label": "Kidney outer medulla collecting duct intercalated cell"
+    },
+    {
+     "id": "CL:1000716",
+     "conceptId": "CL1000716",
+     "label": "Kidney outer medulla collecting duct principal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Tip of renal papilla",
+   "cells": [
+    {
+     "id": "CL:1000718",
+     "conceptId": "CL1000718",
+     "label": "Kidney inner medulla collecting duct principal cell"
+    },
+    {
+     "id": "CL:1000597",
+     "conceptId": "CL1000597",
+     "label": "Papillary tips cell"
+    }
+   ]
+  },
+  {
+   "structure": "Descending thin limb",
+   "cells": [
+    {
+     "id": "CL:1001111",
+     "conceptId": "CL1001111",
+     "label": "Kidney loop of Henle thin descending limb epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Descending vasa recta",
+   "cells": [
+    {
+     "id": "CL:1001285",
+     "conceptId": "CL1001285",
+     "label": "Vasa recta descending limb cell"
+    }
+   ]
+  },
+  {
+   "structure": "Endothelium of peritubular capillary",
+   "cells": [
+    {
+     "id": "CL:1001033",
+     "conceptId": "CL1001033",
+     "label": "Peritubular capillary endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Glomerular capillary endothelium",
+   "cells": [
+    {
+     "id": "CL:1001005",
+     "conceptId": "CL1001005",
+     "label": "Glomerular capillary endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Glomerular mesangium",
+   "cells": [
+    {
+     "id": "CL:1000742",
+     "conceptId": "CL1000742",
+     "label": "Glomerular mesangial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Glomerular parietal epithelium",
+   "cells": [
+    {
+     "id": "CL:1000452",
+     "conceptId": "CL1000452",
+     "label": "Parietal epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Glomerular visceral epithelium",
+   "cells": [
+    {
+     "id": "CL:0000653",
+     "conceptId": "CL0000653",
+     "label": "Podocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Inner medullary collecting duct",
+   "cells": [
+    {
+     "id": "CL:1000718",
+     "conceptId": "CL1000718",
+     "label": "Kidney inner medulla collecting duct principal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Juxtaglomerular apparatus",
+   "cells": [
+    {
+     "id": "CL:0000648",
+     "conceptId": "CL0000648",
+     "label": "Kidney granular cell"
+    }
+   ]
+  },
+  {
+   "structure": "Kidney capsule",
+   "cells": [
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Kidney loop of Henle long descending thin limb inner medulla",
+   "cells": [
+    {
+     "id": "CL:4030014",
+     "conceptId": "CL4030014",
+     "label": "Kidney loop of Henle long descending thin limb inner medulla epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Kidney loop of Henle long descending thin limb outer medulla",
+   "cells": [
+    {
+     "id": "CL:4030013",
+     "conceptId": "CL4030013",
+     "label": "Kidney loop of Henle long descending thin limb outer medulla epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Loop of Henle ascending limb thin segment",
+   "cells": [
+    {
+     "id": "CL:1001107",
+     "conceptId": "CL1001107",
+     "label": "Kidney loop of Henle thin ascending limb epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Lymphatic vessel endothelium",
+   "cells": [
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    }
+   ]
+  },
+  {
+   "structure": "Macula densa",
+   "cells": [
+    {
+     "id": "CL:1000850",
+     "conceptId": "CL1000850",
+     "label": "Macula densa epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Proximal convoluted tubule segment 1",
+   "cells": [
+    {
+     "id": "CL:4030009",
+     "conceptId": "CL4030009",
+     "label": "Epithelial cell of proximal tubule segment 1"
+    }
+   ]
+  },
+  {
+   "structure": "Proximal convoluted tubule segment 2",
+   "cells": [
+    {
+     "id": "CL:4030010",
+     "conceptId": "CL4030010",
+     "label": "Epithelial cell of proximal tubule segment 2"
+    }
+   ]
+  },
+  {
+   "structure": "Proximal straight tubule",
+   "cells": [
+    {
+     "id": "CL:4030011",
+     "conceptId": "CL4030011",
+     "label": "Epithelial cell of proximal tubule segment 3"
+    }
+   ]
+  },
+  {
+   "structure": "Proximal tubule",
+   "cells": [
+    {
+     "id": "CL:0002306",
+     "conceptId": "CL0002306",
+     "label": "Epithelial cell of proximal tubule"
+    }
+   ]
+  },
+  {
+   "structure": "Renal afferent arteriole",
+   "cells": [
+    {
+     "id": "CL:1001096",
+     "conceptId": "CL1001096",
+     "label": "Kidney afferent arteriole endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Renal efferent arteriole",
+   "cells": [
+    {
+     "id": "CL:1001099",
+     "conceptId": "CL1001099",
+     "label": "Kidney efferent arteriole endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Short descending thin limb",
+   "cells": [
+    {
+     "id": "CL:4030012",
+     "conceptId": "CL4030012",
+     "label": "Kidney loop of Henle short descending thin limb epithelial cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/kidney.jpg",
+   "organ": "kidney",
+   "tissue": "kidney",
+   "caption": "Kidney tissue stained for FXYD domain containing ion transport regulator 2 (FXYD2). Brown: FXYD2 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of kidney tissue with FXYD2 protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "FXYD2",
+    "name": "FXYD domain containing ion transport regulator 2",
+    "ensembl": "ENSG00000137731",
+    "uniprot": [
+     "P54710"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000137731-FXYD2/tissue/kidney",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for kidney; IHC reliability supported, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): FXYD2 immunohistochemistry in kidney, https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-ascending-thin-loop-of-henle.svg",
+   "name": "kidney-ascending-thin-loop-of-henle",
+   "label": "Loop of Henle ascending limb thin segment",
+   "cells": [
+    "CL:1001107",
+    "CL:1001285"
+   ],
+   "caption": "Functional tissue unit: loop of Henle ascending limb thin segment. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the loop of Henle ascending limb thin segment and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM783.MHQZ.685",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Ascending Thin Limb of Loop of Henle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM783.MHQZ.685. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-cortical-collecting-duct.svg",
+   "name": "kidney-cortical-collecting-duct",
+   "label": "Cortical Collecting Duct",
+   "cells": [
+    "CL:1000714",
+    "CL:1000715",
+    "CL:1001033"
+   ],
+   "caption": "Functional tissue unit: Cortical Collecting Duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the Cortical Collecting Duct and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM334.XPNG.824",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Cortical Collecting Duct FTU for Kidney, v1.5. https://doi.org/10.48539/HBM334.XPNG.824. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-descending-thin-loop-of-henle.svg",
+   "name": "kidney-descending-thin-loop-of-henle",
+   "label": "Descending limb of loop of Henle",
+   "cells": [
+    "CL:1001111",
+    "CL:1001131"
+   ],
+   "caption": "Functional tissue unit: descending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the descending limb of loop of Henle and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM485.WZJH.976",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Descending Thin Limb of Loop of Henle FTU for Kidney, v1.3. https://doi.org/10.48539/HBM485.WZJH.976. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-inner-medullary-collecting-duct.svg",
+   "name": "kidney-inner-medullary-collecting-duct",
+   "label": "Inner medullary collecting duct",
+   "cells": [
+    "CL:1000718",
+    "CL:1001033"
+   ],
+   "caption": "Functional tissue unit: inner medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the inner medullary collecting duct and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM837.WVQG.999",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Inner Medullary Collecting Duct FTU for Kidney, v1.3. https://doi.org/10.48539/HBM837.WVQG.999. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-nephron.svg",
+   "name": "kidney-nephron",
+   "label": "Nephron",
+   "cells": [
+    "CL:1000714",
+    "CL:1000716",
+    "CL:1000718",
+    "CL:1000768",
+    "CL:1000849",
+    "CL:1000850",
+    "CL:1001106",
+    "CL:1001107",
+    "CL:1001111",
+    "CL:4030009"
+   ],
+   "caption": "Functional tissue unit: nephron. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the nephron and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM496.MJDK.347",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Nephron FTU for Kidney, v1.3. https://doi.org/10.48539/HBM496.MJDK.347. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-outer-medullary-collecting-duct.svg",
+   "name": "kidney-outer-medullary-collecting-duct",
+   "label": "Outer medullary collecting duct",
+   "cells": [
+    "CL:1000716",
+    "CL:1000717",
+    "CL:1001033"
+   ],
+   "caption": "Functional tissue unit: outer medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the outer medullary collecting duct and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM839.RVZB.668",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Outer Medullary Collecting Duct FTU for Kidney, v1.4. https://doi.org/10.48539/HBM839.RVZB.668) Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-renal-corpuscle.svg",
+   "name": "kidney-renal-corpuscle",
+   "label": "Renal corpuscle",
+   "cells": [
+    "CL:0000648",
+    "CL:0000653",
+    "CL:0002306",
+    "CL:1000452",
+    "CL:1000742",
+    "CL:1000850",
+    "CL:1001005",
+    "CL:1001096",
+    "CL:1001099"
+   ],
+   "caption": "Functional tissue unit: renal corpuscle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the renal corpuscle and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM489.GJJK.324",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Renal Corpuscle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM489.GJJK.324. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/kidney-thick-ascending-loop-of-henle.svg",
+   "name": "kidney-thick-ascending-loop-of-henle",
+   "label": "Thick ascending limb of loop of Henle",
+   "cells": [
+    "CL:1001033",
+    "CL:1001106"
+   ],
+   "caption": "Functional tissue unit: thick ascending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the thick ascending limb of loop of Henle and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM426.LDRT.823",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Thick Ascending Limb of Loop of Henle FTU, v1.3. https://doi.org/10.48539/HBM426.LDRT.823. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

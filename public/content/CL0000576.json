@@ -1,0 +1,157 @@
+{
+ "id": "CL:0000576",
+ "conceptId": "CL0000576",
+ "label": "Monocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000576"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000576/tier1.auto.md",
+   "text": "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000576",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000576",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000576. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000576",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:50801",
+   "conceptId": "FMA50801",
+   "label": "Brain",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ],
+   "alternates": [
+    "UBERON0000955"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7203",
+   "conceptId": "FMA7203",
+   "label": "Kidney",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ],
+   "alternates": [
+    "UBERON0000082"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001302",
+   "conceptId": "UBERON0001302",
+   "label": "Right fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: thymus v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM682.DVWX.968"
+    }
+   ],
+   "alternates": [
+    "UBERON0002370"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
+}

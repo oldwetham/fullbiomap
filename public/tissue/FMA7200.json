@@ -1,0 +1,527 @@
+{
+ "organ": {
+  "id": "FMA:7200",
+  "conceptId": "FMA7200",
+  "label": "Small intestine"
+ },
+ "tables": [
+  {
+   "name": "small-intestine",
+   "version": "v1.4",
+   "doi": "https://doi.org/10.48539/HBM556.MDSS.878",
+   "citation": "Longacre, Teri. 2026.\t\"HuBMAP ASCT+B Tables. Small Intestine v1.4.\" https://doi.org/10.48539/HBM556.MDSS.878.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 30,
+ "groups": [
+  {
+   "structure": "Intestinal villus",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000624",
+     "conceptId": "CL0000624",
+     "label": "CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000625",
+     "conceptId": "CL0000625",
+     "label": "CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000451",
+     "conceptId": "CL0000451",
+     "label": "Dendritic cell"
+    },
+    {
+     "id": "CL:0000163",
+     "conceptId": "CL0000163",
+     "label": "Endocrine cell"
+    },
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000584",
+     "conceptId": "CL0000584",
+     "label": "Enterocyte"
+    },
+    {
+     "id": "CL:0000771",
+     "conceptId": "CL0000771",
+     "label": "Eosinophil"
+    },
+    {
+     "id": "CL:0000036",
+     "conceptId": "CL0000036",
+     "label": "Epithelial fate stem cell"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:1000326",
+     "conceptId": "CL1000326",
+     "label": "Ileal goblet cell"
+    },
+    {
+     "id": "CL:0001065",
+     "conceptId": "CL0001065",
+     "label": "Innate lymphoid cell"
+    },
+    {
+     "id": "CL:1000317",
+     "conceptId": "CL1000317",
+     "label": "Intestinal villus goblet cell"
+    },
+    {
+     "id": "CL:0000682",
+     "conceptId": "CL0000682",
+     "label": "M cell of gut"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    },
+    {
+     "id": "CL:0000186",
+     "conceptId": "CL0000186",
+     "label": "Myofibroblast cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000212",
+     "conceptId": "CL0000212",
+     "label": "Obsolete absorptive cell"
+    },
+    {
+     "id": "CL:1000344",
+     "conceptId": "CL1000344",
+     "label": "Paneth cell of epithelium proper of small intestine"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0009080",
+     "conceptId": "CL0009080",
+     "label": "Tuft cell of small intestine"
+    }
+   ]
+  },
+  {
+   "structure": "Duodenum lamina propria",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000624",
+     "conceptId": "CL0000624",
+     "label": "CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000625",
+     "conceptId": "CL0000625",
+     "label": "CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000451",
+     "conceptId": "CL0000451",
+     "label": "Dendritic cell"
+    },
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000771",
+     "conceptId": "CL0000771",
+     "label": "Eosinophil"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0001065",
+     "conceptId": "CL0001065",
+     "label": "Innate lymphoid cell"
+    },
+    {
+     "id": "CL:0000682",
+     "conceptId": "CL0000682",
+     "label": "M cell of gut"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:0000186",
+     "conceptId": "CL0000186",
+     "label": "Myofibroblast cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    }
+   ]
+  },
+  {
+   "structure": "Duodenal epithelium",
+   "cells": [
+    {
+     "id": "CL:1000324",
+     "conceptId": "CL1000324",
+     "label": "Duodenal goblet cell"
+    },
+    {
+     "id": "CL:0000163",
+     "conceptId": "CL0000163",
+     "label": "Endocrine cell"
+    },
+    {
+     "id": "CL:0000584",
+     "conceptId": "CL0000584",
+     "label": "Enterocyte"
+    },
+    {
+     "id": "CL:1000317",
+     "conceptId": "CL1000317",
+     "label": "Intestinal villus goblet cell"
+    },
+    {
+     "id": "CL:0000212",
+     "conceptId": "CL0000212",
+     "label": "Obsolete absorptive cell"
+    },
+    {
+     "id": "CL:1000344",
+     "conceptId": "CL1000344",
+     "label": "Paneth cell of epithelium proper of small intestine"
+    },
+    {
+     "id": "CL:0000034",
+     "conceptId": "CL0000034",
+     "label": "Stem cell"
+    },
+    {
+     "id": "CL:0009080",
+     "conceptId": "CL0009080",
+     "label": "Tuft cell of small intestine"
+    }
+   ]
+  },
+  {
+   "structure": "Jejunal epithelium",
+   "cells": [
+    {
+     "id": "CL:0000163",
+     "conceptId": "CL0000163",
+     "label": "Endocrine cell"
+    },
+    {
+     "id": "CL:0000584",
+     "conceptId": "CL0000584",
+     "label": "Enterocyte"
+    },
+    {
+     "id": "CL:0000036",
+     "conceptId": "CL0000036",
+     "label": "Epithelial fate stem cell"
+    },
+    {
+     "id": "CL:1000317",
+     "conceptId": "CL1000317",
+     "label": "Intestinal villus goblet cell"
+    },
+    {
+     "id": "CL:1000325",
+     "conceptId": "CL1000325",
+     "label": "Jejunal goblet cell"
+    },
+    {
+     "id": "CL:0000212",
+     "conceptId": "CL0000212",
+     "label": "Obsolete absorptive cell"
+    },
+    {
+     "id": "CL:1000344",
+     "conceptId": "CL1000344",
+     "label": "Paneth cell of epithelium proper of small intestine"
+    },
+    {
+     "id": "CL:0009080",
+     "conceptId": "CL0009080",
+     "label": "Tuft cell of small intestine"
+    }
+   ]
+  },
+  {
+   "structure": "Distal part of ileum",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0002088",
+     "conceptId": "CL0002088",
+     "label": "Interstitial cell of Cajal"
+    },
+    {
+     "id": "CL:0000077",
+     "conceptId": "CL0000077",
+     "label": "Mesothelial cell"
+    },
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Muscle layer of jejunum",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0002088",
+     "conceptId": "CL0002088",
+     "label": "Interstitial cell of Cajal"
+    },
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Serosa of duodenum",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0000077",
+     "conceptId": "CL0000077",
+     "label": "Mesothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Serosa of jejunum",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0000077",
+     "conceptId": "CL0000077",
+     "label": "Mesothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Submucosa of jejunum",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Submucous nerve plexus of small intestine",
+   "cells": [
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    },
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Muscularis mucosae of jejunum",
+   "cells": [
+    {
+     "id": "CL:0000187",
+     "conceptId": "CL0000187",
+     "label": "Muscle cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/small-intestine.jpg",
+   "organ": "small intestine",
+   "tissue": "small intestine",
+   "caption": "Small intestine tissue stained for defensin alpha 5 (DEFA5). Brown: DEFA5 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of small intestine tissue with DEFA5 protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "DEFA5",
+    "name": "Defensin alpha 5",
+    "ensembl": "ENSG00000164816",
+    "uniprot": [
+     "Q01523"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/15775/141534_A_4_2_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000164816-DEFA5/tissue/small%20intestine",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for small intestine; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): DEFA5 immunohistochemistry in small intestine, https://images.proteinatlas.org/15775/141534_A_4_2_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/small-intestine-villus.svg",
+   "name": "small-intestine-villus",
+   "label": "Intestinal villus",
+   "cells": [
+    "CL:0000057",
+    "CL:0000097",
+    "CL:0000163",
+    "CL:0000186",
+    "CL:0000235",
+    "CL:0000236",
+    "CL:0000451",
+    "CL:0000584",
+    "CL:0000623",
+    "CL:0000771",
+    "CL:0000775",
+    "CL:0000786",
+    "CL:0001065",
+    "CL:0009080",
+    "CL:1000324"
+   ],
+   "caption": "Functional tissue unit: intestinal villus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the intestinal villus and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM946.CQQC.734",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Intestinal Villus FTU for Small Intestine, v1.2, https://doi.org/10.48539/HBM946.CQQC.734. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

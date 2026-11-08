@@ -82,7 +82,12 @@
   "organ": {
    "id": "FMA:13411",
    "conceptId": "FMA13411",
-   "label": "Left subclavius"
+   "label": "Left subclavius",
+   "tissue": [
+    "/tissue/FMA13410.json",
+    "/tissue/FMA37349.json",
+    "/tissue/FMA5022.json"
+   ]
   }
  }
 }

@@ -1,0 +1,86 @@
+{
+ "id": "GO:0005791",
+ "conceptId": "GO0005791",
+ "label": "Rough endoplasmic reticulum",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [
+  "RER",
+  "rough ER"
+ ],
+ "xrefs": {
+  "GO": "0005791"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0005791/tier1.auto.md",
+   "text": "The rough (or granular) endoplasmic reticulum (ER) has ribosomes adhering to the outer surface; the ribosomes are the site of translation of the mRNA for those proteins which are either to be retained within the cisternae (ER-resident proteins), the proteins of the lysosomes, or the proteins destined for export from the cell. Glycoproteins undergo their initial glycosylation within the cisternae.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0005791",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005791",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0005791",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005791",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0005791. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0005791",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005791",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005791"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

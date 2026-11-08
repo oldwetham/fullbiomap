@@ -1,0 +1,155 @@
+{
+ "id": "CL:0000036",
+ "conceptId": "CL0000036",
+ "label": "Epithelial fate stem cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "epithelial stem cell"
+ ],
+ "xrefs": {
+  "CL": "0000036"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000036/tier1.auto.md",
+   "text": "A somatic stem cell that is committed to an epithelial fate, possessing the capacity for self-renewal and the ability to differentiate into one or more distinct mature cell types of the epithelial lineage. This cell is crucial for the development, homeostasis, repair, and regeneration of epithelial tissues.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000036",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000036",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000036",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000036",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000036. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000036",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000036",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14966",
+   "conceptId": "FMA14966",
+   "label": "Distal part of ileum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7207",
+   "conceptId": "FMA7207",
+   "label": "Jejunum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ],
+   "alternates": [
+    "UBERON0002115"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004548"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004549"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "alternates": [
+    "UBERON0004549"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-right.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-right.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA12514.json"
+   ]
+  }
+ }
+}

@@ -109,7 +109,11 @@
   "organ": {
    "id": "FMA:22323",
    "conceptId": "FMA22323",
-   "label": "Left iliacus"
+   "label": "Left iliacus",
+   "tissue": [
+    "/tissue/FMA22310.json",
+    "/tissue/FMA5022.json"
+   ]
   }
  }
 }

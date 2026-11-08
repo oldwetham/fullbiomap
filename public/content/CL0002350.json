@@ -1,0 +1,246 @@
+{
+ "id": "CL:0002350",
+ "conceptId": "CL0002350",
+ "label": "Endocardial cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "endocardial endothelial cell",
+  "endothelial cell of endocardium"
+ ],
+ "xrefs": {
+  "CL": "0002350"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002350/tier1.auto.md",
+   "text": "An endothelial cell that lines the intracavitary lumen of the heart, separating the circulating blood from the underlying myocardium. This cell type releases a number of vasoactive substances including prostacyclin, nitrous oxide and endothelin.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002350",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002350",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002350",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002350",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002350. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002350",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002350",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002094",
+   "conceptId": "UBERON0002094",
+   "label": "Interventricular septum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7097",
+   "conceptId": "FMA7097",
+   "label": "Left atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002079"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7101",
+   "conceptId": "FMA7101",
+   "label": "Left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002084"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7235",
+   "conceptId": "FMA7235",
+   "label": "Mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002135"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9558",
+   "conceptId": "FMA9558",
+   "label": "Myocardium of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0006566"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9535",
+   "conceptId": "FMA9535",
+   "label": "Myocardium of right ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0006567"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7246",
+   "conceptId": "FMA7246",
+   "label": "Pulmonary valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002146"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7234",
+   "conceptId": "FMA7234",
+   "label": "Tricuspid valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002134"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7088.json"
+   ]
+  }
+ }
+}

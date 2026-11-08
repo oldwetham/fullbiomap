@@ -1,0 +1,393 @@
+{
+ "id": "CL:0000136",
+ "conceptId": "CL0000136",
+ "label": "Adipocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "adipose cell",
+  "fat cell"
+ ],
+ "xrefs": {
+  "CL": "0000136"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000136/tier1.auto.md",
+   "text": "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000136",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000136",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000136. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000136",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14545",
+   "conceptId": "FMA14545",
+   "label": "Ascending colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0001156"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14541",
+   "conceptId": "FMA14541",
+   "label": "Cecum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0001153"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14547",
+   "conceptId": "FMA14547",
+   "label": "Descending colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0001158"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001069",
+   "conceptId": "UBERON0001069",
+   "label": "Head of pancreas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: pancreas v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM527.NDSX.792"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0000948"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0022277",
+   "conceptId": "UBERON0022277",
+   "label": "Hepatic flexure of colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0000569",
+   "conceptId": "UBERON0000569",
+   "label": "Ileocecal valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002094",
+   "conceptId": "UBERON0002094",
+   "label": "Interventricular septum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0000059"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7097",
+   "conceptId": "FMA7097",
+   "label": "Left atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002079"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: mouth v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM493.SBGT.435"
+    }
+   ],
+   "alternates": [
+    "UBERON0000165"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9558",
+   "conceptId": "FMA9558",
+   "label": "Myocardium of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0006566"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9535",
+   "conceptId": "FMA9535",
+   "label": "Myocardium of right ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0006567"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14544",
+   "conceptId": "FMA14544",
+   "label": "Rectum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0001052"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001159",
+   "conceptId": "UBERON0001159",
+   "label": "Sigmoid colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0022276",
+   "conceptId": "UBERON0022276",
+   "label": "Splenic flexure of colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14546",
+   "conceptId": "FMA14546",
+   "label": "Transverse colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0001157"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "alternates": [
+    "UBERON0000165"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/mouth-male.json"
+    ],
+    "female": [
+     "/models/organs/mouth-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA49184.json"
+   ]
+  }
+ }
+}

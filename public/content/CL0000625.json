@@ -1,0 +1,184 @@
+{
+ "id": "CL:0000625",
+ "conceptId": "CL0000625",
+ "label": "CD8-positive, alpha-beta T cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "CD8-positive, alpha-beta T lymphocyte",
+  "CD8-positive, alpha-beta T-cell",
+  "CD8-positive, alpha-beta T-lymphocyte"
+ ],
+ "xrefs": {
+  "CL": "0000625"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000625/tier1.auto.md",
+   "text": "A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000625",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000625",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000625",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000625",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000625. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000625",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000625",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14966",
+   "conceptId": "FMA14966",
+   "label": "Distal part of ileum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7206",
+   "conceptId": "FMA7206",
+   "label": "Duodenum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ],
+   "alternates": [
+    "UBERON0002114"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7207",
+   "conceptId": "FMA7207",
+   "label": "Jejunum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ],
+   "alternates": [
+    "UBERON0002115"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002373",
+   "conceptId": "UBERON0002373",
+   "label": "Palatine tonsil",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: palatine tonsil v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM225.MFHR.293"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001302",
+   "conceptId": "UBERON0001302",
+   "label": "Right fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

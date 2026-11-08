@@ -1,0 +1,227 @@
+{
+ "id": "CL:0000000",
+ "conceptId": "CL0000000",
+ "label": "Cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000000"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000000/tier1.auto.md",
+   "text": "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000000",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000000",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000000",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000000",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000000. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000000",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000000",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "GO:0005886",
+   "GO:0005634",
+   "GO:0005730",
+   "GO:0005791",
+   "GO:0005840",
+   "GO:0005790",
+   "GO:0005794",
+   "GO:0005739",
+   "GO:0005764",
+   "GO:0005856"
+  ],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005886",
+   "conceptId": "GO0005886",
+   "label": "Cell membrane",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005886"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005634",
+   "conceptId": "GO0005634",
+   "label": "Nucleus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005634"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005730",
+   "conceptId": "GO0005730",
+   "label": "Nucleolus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005730"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005791",
+   "conceptId": "GO0005791",
+   "label": "Rough endoplasmic reticulum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005791"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005840",
+   "conceptId": "GO0005840",
+   "label": "Ribosomes",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005840"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005790",
+   "conceptId": "GO0005790",
+   "label": "Smooth endoplasmic reticulum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005790"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005794",
+   "conceptId": "GO0005794",
+   "label": "Golgi apparatus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005794"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005739",
+   "conceptId": "GO0005739",
+   "label": "Mitochondria",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005739"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005764",
+   "conceptId": "GO0005764",
+   "label": "Lysosomes",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005764"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0005856",
+   "conceptId": "GO0005856",
+   "label": "Cytoskeleton",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005856"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

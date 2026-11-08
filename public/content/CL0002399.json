@@ -1,0 +1,148 @@
+{
+ "id": "CL:0002399",
+ "conceptId": "CL0002399",
+ "label": "CD1c-positive myeloid dendritic cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0002399"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002399/tier1.auto.md",
+   "text": "A myeloid dendritic cell that is CD1c-positive.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002399",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002399",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002399",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002399",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002399. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002399",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002399",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: liver v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM945.HZDN.494"
+    }
+   ],
+   "alternates": [
+    "UBERON0002107"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ],
+   "tissue": [
+    "/tissue/FMA7309.json"
+   ]
+  }
+ }
+}

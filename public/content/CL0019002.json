@@ -1,0 +1,162 @@
+{
+ "id": "CL:0019002",
+ "conceptId": "CL0019002",
+ "label": "Tracheobronchial chondrocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "chondrocyte of tracheobronchial tree"
+ ],
+ "xrefs": {
+  "CL": "0019002"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0019002/tier1.auto.md",
+   "text": "Any chondrocyte that is part of the tracheobronchial tree.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0019002",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0019002",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0019002",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0019002",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0019002. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0019002",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0019002",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0006679",
+   "conceptId": "UBERON0006679",
+   "label": "Carina of trachea",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: trachea v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM862.ZQRC.294"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7405",
+   "conceptId": "FMA7405",
+   "label": "Main bronchus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: main bronchus v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM295.WTKZ.986"
+    }
+   ],
+   "alternates": [
+    "UBERON0002182"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0003604",
+   "conceptId": "UBERON0003604",
+   "label": "Trachea cartilage",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: trachea v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM862.ZQRC.294"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ],
+   "tissue": [
+    "/tissue/FMA7309.json"
+   ]
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "CL:0020007",
+ "conceptId": "CL0020007",
+ "label": "Dorso-striatal cholinergic-GABAergic neuron",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0020007"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0020007/tier1.auto.md",
+   "text": "A transcriptomically defined GABAergic neuron in the dorsal striatum. In mice and primates, it is defined by the coexpression of choline acetyltransferase (ChAT) together with the GABAergic markers glutamate decarboxylase 65 (GAD65/Gad2) and vesicular GABA transporter (VGAT/Slc32a1) (Lozovaya et al., 2018).",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0020007",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020007",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0020007",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020007",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0020007. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0020007",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020007",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:50801",
+   "conceptId": "FMA50801",
+   "label": "Brain",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ],
+   "alternates": [
+    "UBERON0000955"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
+}

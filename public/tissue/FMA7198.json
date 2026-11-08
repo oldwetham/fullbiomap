@@ -1,0 +1,373 @@
+{
+ "organ": {
+  "id": "FMA:7198",
+  "conceptId": "FMA7198",
+  "label": "Pancreas"
+ },
+ "tables": [
+  {
+   "name": "pancreas",
+   "version": "v1.4",
+   "doi": "https://doi.org/10.48539/HBM527.NDSX.792",
+   "citation": "Campbell-Thompson, Martha,\tAdel Eskaros,\tand Diane Saunders. 2025.\t\"HuBMAP ASCT+B Tables. Pancreas v1.3.\" https://doi.org/10.48539/HBM527.NDSX.792.\tAccessed December 15, 2025."
+  }
+ ],
+ "cellCount": 28,
+ "groups": [
+  {
+   "structure": "Islet of Langerhans",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000451",
+     "conceptId": "CL0000451",
+     "label": "Dendritic cell"
+    },
+    {
+     "id": "CL:0000509",
+     "conceptId": "CL0000509",
+     "label": "Gastrin secreting cell"
+    },
+    {
+     "id": "CL:0000542",
+     "conceptId": "CL0000542",
+     "label": "Lymphocyte"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000171",
+     "conceptId": "CL0000171",
+     "label": "Pancreatic A cell"
+    },
+    {
+     "id": "CL:0000173",
+     "conceptId": "CL0000173",
+     "label": "Pancreatic D cell"
+    },
+    {
+     "id": "CL:0008024",
+     "conceptId": "CL0008024",
+     "label": "Pancreatic endocrine cell"
+    },
+    {
+     "id": "CL:0005019",
+     "conceptId": "CL0005019",
+     "label": "Pancreatic epsilon cell"
+    },
+    {
+     "id": "CL:0002275",
+     "conceptId": "CL0002275",
+     "label": "Pancreatic PP cell"
+    },
+    {
+     "id": "CL:0000084",
+     "conceptId": "CL0000084",
+     "label": "T cell"
+    },
+    {
+     "id": "CL:0000169",
+     "conceptId": "CL0000169",
+     "label": "Type B pancreatic cell"
+    }
+   ]
+  },
+  {
+   "structure": "Exocrine pancreas",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000451",
+     "conceptId": "CL0000451",
+     "label": "Dendritic cell"
+    },
+    {
+     "id": "CL:0000094",
+     "conceptId": "CL0000094",
+     "label": "Granulocyte"
+    },
+    {
+     "id": "CL:0000542",
+     "conceptId": "CL0000542",
+     "label": "Lymphocyte"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000084",
+     "conceptId": "CL0000084",
+     "label": "T cell"
+    }
+   ]
+  },
+  {
+   "structure": "Intercalated duct of pancreas",
+   "cells": [
+    {
+     "id": "CL:0000075",
+     "conceptId": "CL0000075",
+     "label": "Columnar/cuboidal epithelial cell"
+    },
+    {
+     "id": "CL:1001433",
+     "conceptId": "CL1001433",
+     "label": "Epithelial cell of exocrine pancreas"
+    },
+    {
+     "id": "CL:0002080",
+     "conceptId": "CL0002080",
+     "label": "Pancreatic centro-acinar cell"
+    },
+    {
+     "id": "CL:0002079",
+     "conceptId": "CL0002079",
+     "label": "Pancreatic ductal cell"
+    },
+    {
+     "id": "CL:1000322",
+     "conceptId": "CL1000322",
+     "label": "Pancreatic goblet cell"
+    },
+    {
+     "id": "CL:0000577",
+     "conceptId": "CL0000577",
+     "label": "Type EC enteroendocrine cell"
+    }
+   ]
+  },
+  {
+   "structure": "Stroma of pancreas",
+   "cells": [
+    {
+     "id": "CL:0000136",
+     "conceptId": "CL0000136",
+     "label": "Adipocyte"
+    },
+    {
+     "id": "CL:0000057",
+     "conceptId": "CL0000057",
+     "label": "Fibroblast"
+    },
+    {
+     "id": "CL:0002410",
+     "conceptId": "CL0002410",
+     "label": "Pancreatic stellate cell"
+    },
+    {
+     "id": "CL:0002574",
+     "conceptId": "CL0002574",
+     "label": "Stromal cell of pancreas"
+    }
+   ]
+  },
+  {
+   "structure": "Common bile duct",
+   "cells": [
+    {
+     "id": "CL:1001433",
+     "conceptId": "CL1001433",
+     "label": "Epithelial cell of exocrine pancreas"
+    },
+    {
+     "id": "CL:0002079",
+     "conceptId": "CL0002079",
+     "label": "Pancreatic ductal cell"
+    },
+    {
+     "id": "CL:0000146",
+     "conceptId": "CL0000146",
+     "label": "Simple columnar epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Major duodenal papilla",
+   "cells": [
+    {
+     "id": "CL:1001433",
+     "conceptId": "CL1001433",
+     "label": "Epithelial cell of exocrine pancreas"
+    },
+    {
+     "id": "CL:0002079",
+     "conceptId": "CL0002079",
+     "label": "Pancreatic ductal cell"
+    },
+    {
+     "id": "CL:0000146",
+     "conceptId": "CL0000146",
+     "label": "Simple columnar epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hepatopancreatic ampulla",
+   "cells": [
+    {
+     "id": "CL:1001433",
+     "conceptId": "CL1001433",
+     "label": "Epithelial cell of exocrine pancreas"
+    },
+    {
+     "id": "CL:0002079",
+     "conceptId": "CL0002079",
+     "label": "Pancreatic ductal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Pancreatic acinus",
+   "cells": [
+    {
+     "id": "CL:1001599",
+     "conceptId": "CL1001599",
+     "label": "Pancreas exocrine glandular cell"
+    },
+    {
+     "id": "CL:0002064",
+     "conceptId": "CL0002064",
+     "label": "Pancreatic acinar cell"
+    }
+   ]
+  },
+  {
+   "structure": "Dorsal pancreatic duct",
+   "cells": [
+    {
+     "id": "CL:0000192",
+     "conceptId": "CL0000192",
+     "label": "Smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Sphincter of hepatopancreatic ampulla",
+   "cells": [
+    {
+     "id": "CL:0000192",
+     "conceptId": "CL0000192",
+     "label": "Smooth muscle cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/pancreas.jpg",
+   "organ": "pancreas",
+   "tissue": "pancreas",
+   "caption": "Pancreas tissue stained for pancreatic lipase (PNLIP). Brown: PNLIP protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of pancreas tissue with PNLIP protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "PNLIP",
+    "name": "Pancreatic lipase",
+    "ensembl": "ENSG00000175535",
+    "uniprot": [
+     "P16233"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000175535-PNLIP/tissue/pancreas",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for pancreas; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PNLIP immunohistochemistry in pancreas, https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/pancreas-endocrine-pancreas.svg",
+   "name": "pancreas-endocrine-pancreas",
+   "label": "Islet of Langerhans",
+   "cells": [
+    "CL:0000169",
+    "CL:0000171",
+    "CL:0000173",
+    "CL:0000235",
+    "CL:0000669",
+    "CL:0002144",
+    "CL:0002275"
+   ],
+   "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the islet of Langerhans and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM242.XXWX.292",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Endocrine Pancreas FTU for Pancreas, v1.0. https://doi.org/10.48539/HBM242.XXWX.292. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/pancreas-intercalated-duct.svg",
+   "name": "pancreas-intercalated-duct",
+   "label": "Intercalated duct of pancreas",
+   "cells": [
+    "CL:0002080",
+    "CL:1001433"
+   ],
+   "caption": "Functional tissue unit: intercalated duct of pancreas. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the intercalated duct of pancreas and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM488.JHGT.523",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. Pancreas, Intercalated Duct 2D FTU v1.3. https://doi.org/10.48539/HBM488.JHGT.523. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/pancreas-islets-langerhans.svg",
+   "name": "pancreas-islets-langerhans",
+   "label": "Islet of Langerhans",
+   "cells": [
+    "CL:0000169",
+    "CL:0000171",
+    "CL:0000173",
+    "CL:0000235",
+    "CL:0002144",
+    "CL:0002275"
+   ],
+   "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the islet of Langerhans and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM354.HHRL.928",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Islets of Langerhans FTU for Pancreas, v1.4. https://doi.org/10.48539/HBM354.HHRL.928. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/pancreas-pancreatic-acinus.svg",
+   "name": "pancreas-pancreatic-acinus",
+   "label": "Pancreatic acinus",
+   "cells": [
+    "CL:0002064",
+    "CL:0002080",
+    "CL:1000322",
+    "CL:1001433"
+   ],
+   "caption": "Functional tissue unit: pancreatic acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the pancreatic acinus and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM466.JQPZ.849",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. Pancreas, Acinus 2D FTU v.1.4. https://doi.org/10.48539/HBM466.JQPZ.849. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

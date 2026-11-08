@@ -1,0 +1,103 @@
+{
+ "id": "CL:4032000",
+ "conceptId": "CL4032000",
+ "label": "Club-like cell of the urethral epithelium",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "club cell of the urethra epithelium",
+  "club-like cell of the prostatic urethra epithelium",
+  "prostate club cell"
+ ],
+ "xrefs": {
+  "CL": "4032000"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_4032000/tier1.auto.md",
+   "text": "An epithelial cell of the urethra that has an expression profile similar to lung club cells. Club-like cells of the urethra epithelium are similar to lung club cells in their expression of SCGB1A1 and in their enrichment of immunomodulatory programs.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:4032000",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4032000",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:4032000",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4032000",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:4032000. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:4032000",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4032000",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: prostate v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM542.LMZF.884"
+    }
+   ],
+   "alternates": [
+    "UBERON0002367"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "alternates": [
+    "UBERON0002367"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/prostate-male.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA9600.json"
+   ]
+  }
+ }
+}

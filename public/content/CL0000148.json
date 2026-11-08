@@ -1,0 +1,120 @@
+{
+ "id": "CL:0000148",
+ "conceptId": "CL0000148",
+ "label": "Melanocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000148"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000148/tier1.auto.md",
+   "text": "A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000148",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000148",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000148",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000148",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000148. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000148",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000148",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0000059"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: mouth v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM493.SBGT.435"
+    }
+   ],
+   "alternates": [
+    "UBERON0000165"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7201.json"
+   ]
+  }
+ }
+}

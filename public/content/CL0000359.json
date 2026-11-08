@@ -1,0 +1,246 @@
+{
+ "id": "CL:0000359",
+ "conceptId": "CL0000359",
+ "label": "Vascular associated smooth muscle cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "VSMC",
+  "vascular smooth muscle cell"
+ ],
+ "xrefs": {
+  "CL": "0000359"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000359/tier1.auto.md",
+   "text": "A smooth muscle cell associated with the vasculature.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000359",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000359",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000359",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000359",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000359. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000359",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000359",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0000948"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002094",
+   "conceptId": "UBERON0002094",
+   "label": "Interventricular septum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0000059"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7097",
+   "conceptId": "FMA7097",
+   "label": "Left atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002079"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7101",
+   "conceptId": "FMA7101",
+   "label": "Left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002084"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: prostate v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM542.LMZF.884"
+    }
+   ],
+   "alternates": [
+    "UBERON0002367"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7098",
+   "conceptId": "FMA7098",
+   "label": "Right ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002080"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7163",
+   "conceptId": "FMA7163",
+   "label": "Skin",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: skin v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM539.LSRX.978"
+    }
+   ],
+   "alternates": [
+    "UBERON0002097"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7201.json"
+   ]
+  }
+ }
+}

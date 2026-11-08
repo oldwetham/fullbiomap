@@ -1,0 +1,178 @@
+{
+ "organ": {
+  "id": "UBERON:0002119",
+  "conceptId": "UBERON0002119",
+  "label": "Left ovary"
+ },
+ "tables": [
+  {
+   "name": "ovary",
+   "version": "v1.4",
+   "doi": "https://doi.org/10.48539/HBM485.CWTF.743",
+   "citation": "O'Neill, Kathleen,\tMonica M. Laronda,\tJacqueline Maher,\tVeronica Gomez-Lobo,\t and Stephen Fisher.\t 2026.\t\"HuBMAP ASCT+B Tables. Ovary v1.4.\"\t https://doi.org/10.48539/HBM485.CWTF.743.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 6,
+ "groups": [
+  {
+   "structure": "Corpus luteum",
+   "cells": [
+    {
+     "id": "CL:0000175",
+     "conceptId": "CL0000175",
+     "label": "Luteal cell"
+    },
+    {
+     "id": "CL:0000503",
+     "conceptId": "CL0000503",
+     "label": "Theca cell"
+    }
+   ]
+  },
+  {
+   "structure": "Mature ovarian follicle",
+   "cells": [
+    {
+     "id": "CL:4033067",
+     "conceptId": "CL4033067",
+     "label": "Mural granulosa cell"
+    },
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Ovarian follicle",
+   "cells": [
+    {
+     "id": "CL:4033067",
+     "conceptId": "CL4033067",
+     "label": "Mural granulosa cell"
+    },
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Atretic follicle of ovary",
+   "cells": [
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Granulosa cell layer",
+   "cells": [
+    {
+     "id": "CL:0000711",
+     "conceptId": "CL0000711",
+     "label": "Cumulus granulosa cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hilum of ovary",
+   "cells": [
+    {
+     "id": "CL:0002095",
+     "conceptId": "CL0002095",
+     "label": "Hilus cell of ovary"
+    }
+   ]
+  },
+  {
+   "structure": "Postovulatory follicle",
+   "cells": [
+    {
+     "id": "CL:4033067",
+     "conceptId": "CL4033067",
+     "label": "Mural granulosa cell"
+    }
+   ]
+  },
+  {
+   "structure": "Primary ovarian follicle",
+   "cells": [
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Primordial ovarian follicle",
+   "cells": [
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Secondary ovarian follicle",
+   "cells": [
+    {
+     "id": "CL:0000654",
+     "conceptId": "CL0000654",
+     "label": "Primary oocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Theca externa",
+   "cells": [
+    {
+     "id": "CL:0000503",
+     "conceptId": "CL0000503",
+     "label": "Theca cell"
+    }
+   ]
+  },
+  {
+   "structure": "Theca interna",
+   "cells": [
+    {
+     "id": "CL:0000503",
+     "conceptId": "CL0000503",
+     "label": "Theca cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/ovary.jpg",
+   "organ": "ovary",
+   "tissue": "ovary",
+   "caption": "Ovary tissue stained for zona pellucida glycoprotein 4 (ZP4). Brown: ZP4 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of ovary tissue with ZP4 protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "ZP4",
+    "name": "Zona pellucida glycoprotein 4",
+    "ensembl": "ENSG00000116996",
+    "uniprot": [
+     "Q12836"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000116996-ZP4/tissue/ovary",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for ovary; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ZP4 immunohistochemistry in ovary, https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg. CC BY 4.0."
+  }
+ ]
+}

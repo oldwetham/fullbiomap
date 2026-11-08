@@ -1,0 +1,255 @@
+{
+ "id": "CL:0000071",
+ "conceptId": "CL0000071",
+ "label": "Blood vessel endothelial cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0000071"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000071/tier1.auto.md",
+   "text": "An endothelial cell that lines the vasculature.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000071",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000071",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000071",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000071",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000071. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000071",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000071",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7236",
+   "conceptId": "FMA7236",
+   "label": "Aortic valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002137"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002194",
+   "conceptId": "UBERON0002194",
+   "label": "Capsule of lymph node",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lymph node v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM653.DWLS.438"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0000948"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7097",
+   "conceptId": "FMA7097",
+   "label": "Left atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002079"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7101",
+   "conceptId": "FMA7101",
+   "label": "Left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002084"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002007",
+   "conceptId": "UBERON0002007",
+   "label": "Medulla of lymph node",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lymph node v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM653.DWLS.438"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: prostate v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM542.LMZF.884"
+    }
+   ],
+   "alternates": [
+    "UBERON0002367"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7098",
+   "conceptId": "FMA7098",
+   "label": "Right ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: heart v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM662.RRDP.687"
+    }
+   ],
+   "alternates": [
+    "UBERON0002080"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:50722",
+   "conceptId": "FMA50722",
+   "label": "Segment of vascular tree organ",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: palatine tonsil v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM225.MFHR.293"
+    }
+   ],
+   "alternates": [
+    "UBERON0001981"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: thymus v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM682.DVWX.968"
+    }
+   ],
+   "alternates": [
+    "UBERON0002370"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "alternates": [
+    "UBERON0002367"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/prostate-male.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA9600.json"
+   ]
+  }
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "id": "CL:0000084",
+ "conceptId": "CL0000084",
+ "label": "T cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "T lymphocyte",
+  "T-cell",
+  "T-lymphocyte"
+ ],
+ "xrefs": {
+  "CL": "0000084"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000084/tier1.auto.md",
+   "text": "A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000084",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000084",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000084",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000084",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000084. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000084",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000084",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0009853",
+   "conceptId": "UBERON0009853",
+   "label": "Body of uterus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: uterus v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM696.RVWF.244"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:50801",
+   "conceptId": "FMA50801",
+   "label": "Brain",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ],
+   "alternates": [
+    "UBERON0000955"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:17561",
+   "conceptId": "FMA17561",
+   "label": "Fundus of uterus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: uterus v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM696.RVWF.244"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7203",
+   "conceptId": "FMA7203",
+   "label": "Kidney",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ],
+   "alternates": [
+    "UBERON0000082"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002007",
+   "conceptId": "UBERON0002007",
+   "label": "Medulla of lymph node",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lymph node v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM653.DWLS.438"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: mouth v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM493.SBGT.435"
+    }
+   ],
+   "alternates": [
+    "UBERON0000165"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002373",
+   "conceptId": "UBERON0002373",
+   "label": "Palatine tonsil",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: palatine tonsil v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM225.MFHR.293"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:63120",
+   "conceptId": "FMA63120",
+   "label": "Parenchyma of pancreas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: pancreas v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM527.NDSX.792"
+    }
+   ],
+   "alternates": [
+    "UBERON0001978"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0000995",
+   "conceptId": "UBERON0000995",
+   "label": "Uterus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: uterus v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM696.RVWF.244"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002509",
+   "conceptId": "UBERON0002509",
+   "label": "Mesenteric lymph node",
+   "interior": {
+    "female": [
+     "/models/organs/lymph-node-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/UBERON0002509.json"
+   ]
+  }
+ }
+}

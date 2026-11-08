@@ -1,0 +1,122 @@
+{
+ "id": "CL:0002292",
+ "conceptId": "CL0002292",
+ "label": "Type I cell of carotid body",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "glomus cell"
+ ],
+ "xrefs": {
+  "CL": "0002292"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002292/tier1.auto.md",
+   "text": "A round or oval neuroepithelial cell that contacts other type I cells or capillaries. They occur in clusters that are surrounded by sheath cells (type-II cells) in the carotid body. This cell type is capable of secreting a number of neurotransmitters.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002292",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002292",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002292",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002292",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002292. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002292",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002292",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: large intestine v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM779.MRXG.925"
+    }
+   ],
+   "alternates": [
+    "UBERON0000059"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7163",
+   "conceptId": "FMA7163",
+   "label": "Skin",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: skin v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM539.LSRX.978"
+    }
+   ],
+   "alternates": [
+    "UBERON0002097"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7201.json"
+   ]
+  }
+ }
+}

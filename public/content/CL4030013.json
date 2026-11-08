@@ -1,0 +1,113 @@
+{
+ "id": "CL:4030013",
+ "conceptId": "CL4030013",
+ "label": "Kidney loop of Henle long descending thin limb outer medulla epithelial cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "epithelial cell of the outer medulla of the long descending limb of the loop of Henle"
+ ],
+ "xrefs": {
+  "CL": "4030013"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_4030013/tier1.auto.md",
+   "text": "Epithelial cell of the descending thin limb of the long loop (juxtamedullary) nephron that spans the outer medulla (inner stripe). It is known in some mammalian species that the long descending limb of the loop of Henle in the outer medulla selectively expresses the secreted activin-antagonist protein follistatin (Fst), the GPI-linked adhesion protein Cdh13, and the protein kinase Stk32a.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:4030013",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4030013",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:4030013",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4030013",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:4030013. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:4030013",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4030013",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7203",
+   "conceptId": "FMA7203",
+   "label": "Kidney",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ],
+   "alternates": [
+    "UBERON0000082"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0000362",
+   "conceptId": "UBERON0000362",
+   "label": "Renal medulla",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004538",
+   "conceptId": "UBERON0004538",
+   "label": "Left kidney",
+   "interior": {
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7203.json"
+   ]
+  }
+ }
+}

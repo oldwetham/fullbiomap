@@ -1,0 +1,107 @@
+{
+ "id": "CL:0000818",
+ "conceptId": "CL0000818",
+ "label": "Transitional stage B cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "transitional B cell",
+  "transitional stage B lymphocyte",
+  "transitional stage B-cell",
+  "transitional stage B-lymphocyte"
+ ],
+ "xrefs": {
+  "CL": "0000818"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000818/tier1.auto.md",
+   "text": "An immature B cell of an intermediate stage between the pre-B cell stage and the mature naive stage with the phenotype surface IgM-positive and CD19-positive, and are subject to the process of B cell selection. A transitional B cell migrates from the bone marrow into the peripheral circulation, and then to the spleen.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000818",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000818",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000818",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000818",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000818. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000818",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000818",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "alternates": [
+    "UBERON0002106"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/spleen-male.json"
+    ],
+    "female": [
+     "/models/organs/spleen-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7196.json"
+   ]
+  }
+ }
+}

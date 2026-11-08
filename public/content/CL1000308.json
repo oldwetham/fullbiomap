@@ -1,0 +1,120 @@
+{
+ "id": "CL:1000308",
+ "conceptId": "CL1000308",
+ "label": "Fibrocyte of adventitia of ureter",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "1000308"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_1000308/tier1.auto.md",
+   "text": "A stromal cell that is part of the outer adventitial layer of the ureter. This cell type is marked by expression of periostin (POSTN) in mice, and it is derived from Foxd1+ mesenchymal progenitors around embryonic day 12.5. The adventitial fibrocyte initiates differentiation earlier than smooth muscle cells and becomes terminally differentiated by E16.5-18.5 in mice, exhibiting low proliferative capacity in adulthood.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:1000308",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000308",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:1000308",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000308",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:1000308. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:1000308",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000308",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:15572",
+   "conceptId": "FMA15572",
+   "label": "Left ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: ureter v1.0",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM882.LRSF.394"
+    }
+   ],
+   "alternates": [
+    "UBERON0001223"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:15571",
+   "conceptId": "FMA15571",
+   "label": "Right ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: ureter v1.0",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM882.LRSF.394"
+    }
+   ],
+   "alternates": [
+    "UBERON0001222"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:15571",
+   "conceptId": "FMA15571",
+   "label": "Right ureter",
+   "alternates": [
+    "UBERON0001222"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/ureter-male-right.json"
+    ],
+    "female": [
+     "/models/organs/ureter-female-right.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA15571.json"
+   ]
+  }
+ }
+}

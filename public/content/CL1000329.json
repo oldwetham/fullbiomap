@@ -1,0 +1,93 @@
+{
+ "id": "CL:1000329",
+ "conceptId": "CL1000329",
+ "label": "Tracheal goblet cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "goblet cell of epithelium of trachea"
+ ],
+ "xrefs": {
+  "CL": "1000329"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_1000329/tier1.auto.md",
+   "text": "A goblet cell that is part of the epithelium of trachea.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:1000329",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000329",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:1000329",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000329",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:1000329. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:1000329",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000329",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7394",
+   "conceptId": "FMA7394",
+   "label": "Trachea",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: trachea v1.1",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM862.ZQRC.294"
+    }
+   ],
+   "alternates": [
+    "UBERON0003126"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ }
+}

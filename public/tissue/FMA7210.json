@@ -1,0 +1,35 @@
+{
+ "organ": {
+  "id": "FMA:7210",
+  "conceptId": "FMA7210",
+  "label": "Testis"
+ },
+ "tables": [],
+ "cellCount": 0,
+ "groups": [],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/testis.jpg",
+   "organ": "testis",
+   "tissue": "testis",
+   "caption": "Testis tissue stained for protamine 1 (PRM1). Brown: PRM1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of testis tissue with PRM1 protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "PRM1",
+    "name": "Protamine 1",
+    "ensembl": "ENSG00000175646",
+    "uniprot": [
+     "P04553"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000175646-PRM1/tissue/testis",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for testis; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PRM1 immunohistochemistry in testis, https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg. CC BY 4.0."
+  }
+ ]
+}

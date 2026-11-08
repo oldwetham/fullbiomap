@@ -1,0 +1,91 @@
+{
+ "id": "CL:0020010",
+ "conceptId": "CL0020010",
+ "label": "Arkypallidal neuron",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "0020010"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0020010/tier1.auto.md",
+   "text": "A GABAergic projection neuron located in the external segment of the globus pallidus (GPe) and defined by its exclusive projection to the dorsal striatum rather than to the subthalamic nucleus or basal ganglia output nuclei. In rodents and primates, it is characterized molecularly by expression of FOXP2, MEIS2, and NPAS1, and lacks expression of canonical pallidal markers NKX2-1 and LHX6 (Dodson et al., 2015; Abdi et al., 2015; Courtney et al., 2023). This neuron is GABAergic (GAD1/2⁺, SLC32A1/VGAT⁺) and typically PV⁻, forming the transcriptionally and developmentally LGE-derived subclass of GPe neurons (Dodson et al., 2015; Mallet et al., 2012).",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0020010",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020010",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0020010",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020010",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0020010. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0020010",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020010",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:50801",
+   "conceptId": "FMA50801",
+   "label": "Brain",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ],
+   "alternates": [
+    "UBERON0000955"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
+}

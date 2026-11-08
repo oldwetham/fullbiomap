@@ -1,0 +1,124 @@
+{
+ "id": "CL:0002063",
+ "conceptId": "CL0002063",
+ "label": "Pulmonary alveolar type 2 cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "cuboidal type II cell",
+  "granular pneumocyte",
+  "great alveolar cell",
+  "lung type 2 cell",
+  "type 2 alveolar epithelial cell",
+  "type 2 alveolocyte",
+  "type 2 pneumocyte",
+  "type II alveolar cell",
+  "type II alveolar epithelial cell",
+  "type II alveolocyte",
+  "type II pneumocyte"
+ ],
+ "xrefs": {
+  "CL": "0002063"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002063/tier1.auto.md",
+   "text": "A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies. This cell type also contributes to tissue repair and can differentiate after injury into a pulmonary alveolar type 1 cell. This cuboidal cell is thicker than squamous alveolar cells, has a rounded apical surface that projects above the level of the surrounding epithelium, and its free surface is covered by short microvilli.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002063",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002063",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002063. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002063",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ],
+   "tissue": [
+    "/tissue/FMA7309.json"
+   ]
+  }
+ }
+}

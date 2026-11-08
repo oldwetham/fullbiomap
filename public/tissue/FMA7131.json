@@ -1,0 +1,35 @@
+{
+ "organ": {
+  "id": "FMA:7131",
+  "conceptId": "FMA7131",
+  "label": "Esophagus"
+ },
+ "tables": [],
+ "cellCount": 0,
+ "groups": [],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/esophagus.jpg",
+   "organ": "esophagus",
+   "tissue": "esophagus",
+   "caption": "Esophagus tissue stained for cystatin B (CSTB). Brown: CSTB protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of esophagus tissue with CSTB protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "CSTB",
+    "name": "Cystatin B",
+    "ensembl": "ENSG00000160213",
+    "uniprot": [
+     "P04080"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/47320/103193_B_4_1_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000160213-CSTB/tissue/esophagus",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for esophagus; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): CSTB immunohistochemistry in esophagus, https://images.proteinatlas.org/47320/103193_B_4_1_rna_selected.jpg. CC BY 4.0."
+  }
+ ]
+}

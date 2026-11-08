@@ -1,0 +1,123 @@
+{
+ "organ": {
+  "id": "UBERON:0000995",
+  "conceptId": "UBERON0000995",
+  "label": "Uterus"
+ },
+ "tables": [
+  {
+   "name": "uterus",
+   "version": "v1.3",
+   "doi": "https://doi.org/10.48539/HBM696.RVWF.244",
+   "citation": "O'Neill, Kathleen.\t 2026.\t\"HuBMAP ASCT+B Tables. Uterus v1.3.\"\t https://doi.org/10.48539/HBM696.RVWF.244.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 10,
+ "groups": [
+  {
+   "structure": "Basal layer of endometrium",
+   "cells": [
+    {
+     "id": "CL:0000067",
+     "conceptId": "CL0000067",
+     "label": "Ciliated epithelial cell"
+    },
+    {
+     "id": "CL:0000542",
+     "conceptId": "CL0000542",
+     "label": "Lymphocyte"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    },
+    {
+     "id": "CL:4052028",
+     "conceptId": "CL4052028",
+     "label": "Uterine natural killer cell"
+    }
+   ]
+  },
+  {
+   "structure": "Outer layer of endometrium",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    },
+    {
+     "id": "CL:0001065",
+     "conceptId": "CL0001065",
+     "label": "Innate lymphoid cell"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:0000084",
+     "conceptId": "CL0000084",
+     "label": "T cell"
+    }
+   ]
+  },
+  {
+   "structure": "Arcuate artery of uterus",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Endometrial stroma",
+   "cells": [
+    {
+     "id": "CL:0000499",
+     "conceptId": "CL0000499",
+     "label": "Stromal cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/uterus.jpg",
+   "organ": "uterus",
+   "tissue": "endometrium",
+   "caption": "Endometrium tissue stained for progestagen associated endometrial protein (PAEP). Brown: PAEP protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of endometrium tissue with PAEP protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "PAEP",
+    "name": "Progestagen associated endometrial protein",
+    "ensembl": "ENSG00000122133",
+    "uniprot": [
+     "P09466"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000122133-PAEP/tissue/endometrium",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for endometrium; IHC reliability enhanced, medium expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PAEP immunohistochemistry in endometrium, https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg. CC BY 4.0."
+  }
+ ]
+}

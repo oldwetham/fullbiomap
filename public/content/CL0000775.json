@@ -1,0 +1,297 @@
+{
+ "id": "CL:0000775",
+ "conceptId": "CL0000775",
+ "label": "Neutrophil",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "neutrocyte",
+  "neutrophil leucocyte",
+  "neutrophil leukocyte",
+  "neutrophilic leucocyte",
+  "neutrophilic leukocyte"
+ ],
+ "xrefs": {
+  "CL": "0000775"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000775/tier1.auto.md",
+   "text": "Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000775",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000775",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000775",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000775",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000775. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000775",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000775",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:14966",
+   "conceptId": "FMA14966",
+   "label": "Distal part of ileum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7206",
+   "conceptId": "FMA7206",
+   "label": "Duodenum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ],
+   "alternates": [
+    "UBERON0002114"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7207",
+   "conceptId": "FMA7207",
+   "label": "Jejunum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: small intestine v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM556.MDSS.878"
+    }
+   ],
+   "alternates": [
+    "UBERON0002115"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7203",
+   "conceptId": "FMA7203",
+   "label": "Kidney",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: kidney v1.8",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM342.NFDL.535"
+    }
+   ],
+   "alternates": [
+    "UBERON0000082"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: mouth v1.2",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM493.SBGT.435"
+    }
+   ],
+   "alternates": [
+    "UBERON0000165"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:63120",
+   "conceptId": "FMA63120",
+   "label": "Parenchyma of pancreas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: pancreas v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM527.NDSX.792"
+    }
+   ],
+   "alternates": [
+    "UBERON0001978"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001302",
+   "conceptId": "UBERON0001302",
+   "label": "Right fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: lung v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM459.QMXK.379"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7163",
+   "conceptId": "FMA7163",
+   "label": "Skin",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: skin v1.7",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM539.LSRX.978"
+    }
+   ],
+   "alternates": [
+    "UBERON0002097"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "alternates": [
+    "UBERON0001264"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pancreas-male.json"
+    ],
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7198.json"
+   ]
+  }
+ }
+}

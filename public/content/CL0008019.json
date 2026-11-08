@@ -1,0 +1,110 @@
+{
+ "id": "CL:0008019",
+ "conceptId": "CL0008019",
+ "label": "Mesenchymal cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "mesenchyme cell"
+ ],
+ "xrefs": {
+  "CL": "0008019"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0008019/tier1.auto.md",
+   "text": "A non-polarised cell precursor cell that is part of some mesenchyme, is associated with the cell matrix but is not connected to other cells and is capable of migration.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0008019",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0008019",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0008019",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0008019",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0008019. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0008019",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0008019",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001302",
+   "conceptId": "UBERON0001302",
+   "label": "Right fallopian tube",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: fallopian tube v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM454.BTZT.755"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "interior": {
+    "female": [
+     "/models/organs/fallopian-tube-female-left.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/UBERON0001303.json"
+   ]
+  }
+ }
+}

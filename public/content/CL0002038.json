@@ -1,0 +1,123 @@
+{
+ "id": "CL:0002038",
+ "conceptId": "CL0002038",
+ "label": "T follicular helper cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "T(FH)",
+  "Tfh"
+ ],
+ "xrefs": {
+  "CL": "0002038"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002038/tier1.auto.md",
+   "text": "A CD4-positive, CXCR5-positive, CCR7-negative alpha-beta T cell located in follicles of secondary lymph nodes that is BCL6-high, ICOS-high and PD1-high, and stimulates follicular B cells to undergo class-switching and antibody production.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002038",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002038",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002038",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002038",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002038. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002038",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002038",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: spleen v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM728.RXPP.245"
+    }
+   ],
+   "alternates": [
+    "UBERON0002106"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: thymus v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM682.DVWX.968"
+    }
+   ],
+   "alternates": [
+    "UBERON0002370"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "alternates": [
+    "UBERON0002106"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/spleen-male.json"
+    ],
+    "female": [
+     "/models/organs/spleen-female.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA7196.json"
+   ]
+  }
+ }
+}

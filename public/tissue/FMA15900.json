@@ -1,0 +1,88 @@
+{
+ "organ": {
+  "id": "FMA:15900",
+  "conceptId": "FMA15900",
+  "label": "Urinary bladder"
+ },
+ "tables": [
+  {
+   "name": "urinary-bladder",
+   "version": "v1.0",
+   "doi": "https://doi.org/10.48539/HBM546.CKGW.888",
+   "citation": "Strand, Douglas,\tand Sanjay Jain.\t 2024.\t\"HuBMAP ASCT+B Tables. Urinary Bladder v1.0.\"\t https://doi.org/10.48539/HBM546.CKGW.888. Accessed December 1, 2021."
+  }
+ ],
+ "cellCount": 4,
+ "groups": [
+  {
+   "structure": "Urinary bladder vasculature",
+   "cells": [
+    {
+     "id": "CL:2000040",
+     "conceptId": "CL2000040",
+     "label": "Bladder microvascular endothelial cell"
+    },
+    {
+     "id": "CL:0002597",
+     "conceptId": "CL0002597",
+     "label": "Smooth muscle cell of bladder"
+    }
+   ]
+  },
+  {
+   "structure": "Lamina propria of urinary bladder",
+   "cells": [
+    {
+     "id": "CL:1001319",
+     "conceptId": "CL1001319",
+     "label": "Bladder cell"
+    }
+   ]
+  },
+  {
+   "structure": "Urinary bladder detrusor smooth muscle",
+   "cells": [
+    {
+     "id": "CL:0002597",
+     "conceptId": "CL0002597",
+     "label": "Smooth muscle cell of bladder"
+    }
+   ]
+  },
+  {
+   "structure": "Urinary bladder urothelium",
+   "cells": [
+    {
+     "id": "CL:1001428",
+     "conceptId": "CL1001428",
+     "label": "Bladder urothelial cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/urinary-bladder.jpg",
+   "organ": "urinary bladder",
+   "tissue": "urinary bladder",
+   "caption": "Urinary bladder tissue stained for uroplakin 1A (UPK1A). Brown: UPK1A protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of urinary bladder tissue with UPK1A protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "UPK1A",
+    "name": "Uroplakin 1A",
+    "ensembl": "ENSG00000105668",
+    "uniprot": [
+     "O00322"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000105668-UPK1A/tissue/urinary%20bladder",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for urinary bladder; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): UPK1A immunohistochemistry in urinary bladder, https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg. CC BY 4.0."
+  }
+ ]
+}

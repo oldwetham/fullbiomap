@@ -94,7 +94,12 @@
   "organ": {
    "id": "FMA:32548",
    "conceptId": "FMA32548",
-   "label": "Left infraspinatus"
+   "label": "Left infraspinatus",
+   "tissue": [
+    "/tissue/FMA32546.json",
+    "/tissue/FMA33531.json",
+    "/tissue/FMA5022.json"
+   ]
   }
  }
 }

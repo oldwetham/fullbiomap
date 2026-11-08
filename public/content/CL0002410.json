@@ -1,0 +1,93 @@
+{
+ "id": "CL:0002410",
+ "conceptId": "CL0002410",
+ "label": "Pancreatic stellate cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "PaSC",
+  "pancreas stellate cell"
+ ],
+ "xrefs": {
+  "CL": "0002410"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002410/tier1.auto.md",
+   "text": "A cell that is found in the periacinar space of the exocrine pancreas and in perivascular and periductal regions of the pancreas, and has long cytoplasmic processes that encircle the base of the acinus. Expresses several intermediate filament proteins including vimentin and nestin. Shares many of the characteristics of hepatatic stellate cells, but not stellate cells of the central nervous system. Upon activation, this cell type undergoes morphological and gene expression changes that make the cell suggestive of being a type of myofibroblast.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002410",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002410",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002410",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002410",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002410. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002410",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002410",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001069",
+   "conceptId": "UBERON0001069",
+   "label": "Head of pancreas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: pancreas v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM527.NDSX.792"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001264",
+   "conceptId": "UBERON0001264",
+   "label": "Pancreas",
+   "interior": {
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   }
+  }
+ }
+}

@@ -161,7 +161,7 @@ for (const e of uniqueEdges) if (e.rel === 'part_of') { byId.get(e.from).zoom.ou
 
 // Connections (Phase 2): FMA relations plus HRA VCCF vessel branching, merged per (from, rel, to).
 export const CONNECTIONS = ['arterial_supply', 'venous_drainage', 'nerve_supply', 'lymphatic_drainage', 'branch_of',
-  'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with'];
+  'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with', 'located_in', 'component_of'];
 const SYMMETRIC = new Set(['articulates_with', 'continuous_with']);
 const SOURCE_INFO = {
   'FMA': {name: 'Foundational Model of Anatomy 5.1', license: 'CC BY 3.0'},
@@ -254,10 +254,129 @@ for (const n of nodes) {
   n.ladder = {system: n.ladderSystem, isOrgan: !!organ && (organ.id === n.id || organ.id === n.equivalent), organ: organRef(organ)};
 }
 
+// Phase 4: tissue and cell ---------------------------------------------------------------------
+// Cell types (ASCT+B rows) are placed in the deepest structure of each row that is one of our nodes
+// (same id, or the male concept with that Uberon id); rows with none fall back to the organs listed for
+// their table in pipeline/maps/tissue-media.json. Each placement adds the cell type to the tissue board
+// of that structure's ladder organ. Media (step 08) attach to the board of the node they are mapped to;
+// an organ's tissue boards are its own plus those of its is_a ancestors (left kidney -> kidney).
+const readJsonl = p => exists(p) ? jsonl(p) : [];
+const gid = cid => cid.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2');
+const asctb = readJsonl('graph/asctb.jsonl');
+const cellDefs = new Map(readJsonl('graph/defs.cells.jsonl').map(d => [d.id, d]));
+const goDefs = new Map(readJsonl('graph/defs.go.jsonl').map(d => [d.id, d]));
+const media = exists('graph/media.json') ? JSON.parse(read('graph/media.json')) : {};
+const tissueMap = JSON.parse(read('pipeline/maps/tissue-media.json'));
+const organelleMap = JSON.parse(read('pipeline/maps/organelles.json'));
+const hraRelease = JSON.parse(read('pipeline/maps/hra-release.json'));
+const CELL_MODEL = '/models/cell/generic-cell.json';
+const maleByUberon = new Map();
+for (const d of defs.values()) if (d.uberon) maleByUberon.set(d.uberon.id, [...(maleByUberon.get(d.uberon.id) ?? []), d.id]);
+// Female aliases resolve to their male equivalent (one board per organ, not one per body).
+const canonical = n => (n?.equivalent && byId.get(n.equivalent)) || n;
+const nodeForStructure = id => canonical(byId.get(id) ?? (maleByUberon.get(id)?.length === 1 ? byId.get(maleByUberon.get(id)[0]) : null));
+const organOf = n => canonical(byId.get(n.ladder?.organ?.id) ?? n);
+const tableOrgans = new Map();
+for (const o of Object.values(tissueMap.organs)) for (const t of o.tables ?? []) tableOrgans.set(t, o.nodes.map(c => byId.get(gid(c))).filter(Boolean));
+const boards = new Map();
+const boardFor = organ => { if (!boards.has(organ.id)) boards.set(organ.id, {organ: {id: organ.id, conceptId: organ.conceptId, label: organ.label}, tables: new Map(), groups: new Map(), media: []}); return boards.get(organ.id); };
+const cellPlaces = new Map(), cellLabel = new Map();
+let rowsUnplaced = 0;
+for (const row of asctb) {
+  let deepest = null;
+  for (let k = row.chain.length - 1; k >= 0 && !deepest; k--) deepest = nodeForStructure(row.chain[k][0]);
+  const organs = tableOrgans.get(row.table);
+  let placed, onBoards;
+  if (organs?.length) {  // an organ table: its organ's board; the deepest structure if it lies inside that organ
+    const o = deepest && organOf(deepest), inside = o && organs.some(m => o.id === m.id || o.ancestors.includes(m.id));
+    placed = inside ? [deepest] : organs;
+    onBoards = organs;
+  } else if (deepest) {  // other tables (nerves, muscles, bones, ...): the board of the structure's organ
+    placed = [deepest];
+    onBoards = [organOf(deepest)];
+  } else { rowsUnplaced++; continue; }
+  const info = hraRelease.tables[row.table], structure = row.chain.at(-1)[1];
+  for (const organ of onBoards) {
+    const b = boardFor(organ);
+    b.tables.set(row.table, {name: row.table, version: info.version, doi: info.doi, citation: info.citation});
+    if (!b.groups.has(structure)) b.groups.set(structure, new Map());
+    for (const [cl] of row.cellTypes) b.groups.get(structure).set(cl, true);
+  }
+  for (const [cl, label] of row.cellTypes) {
+    cellLabel.set(cl, cellLabel.get(cl) ?? label);
+    if (!cellPlaces.has(cl)) cellPlaces.set(cl, new Map());
+    for (const a of placed) {
+      if (!cellPlaces.get(cl).has(a.id)) cellPlaces.get(cl).set(a.id, new Set());
+      cellPlaces.get(cl).get(a.id).add(row.table);
+    }
+  }
+}
+for (const [cid, list] of Object.entries(media)) { const n = byId.get(gid(cid)); if (n) boardFor(n).media.push(...list); }
+
+const olsTerm = (ontology, id) => `https://www.ebi.ac.uk/ols4/ontologies/${ontology}/classes/${encodeURIComponent(encodeURIComponent(`http://purl.obolibrary.org/obo/${id.replace(':', '_')}`))}`;
+const tiersFor = id => { const dir = id.replace(':', '_'); return {tier1: tierEntry(dir, 1), tier2: tierEntry(dir, 2), tier3: tierEntry(dir, 3)}; };
+const sourcesOf = content => { const out = []; for (const t of Object.values(content)) for (const x of t.sources ?? []) if (!out.some(y => y.url === x.url)) out.push(x); return out; };
+const cellEdges = [];
+// Cell types.
+for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0]))) {
+  if (cl === 'CL:0000000') continue;
+  const content = tiersFor(cl), d = cellDefs.get(cl), first = byId.get([...places.keys()][0]);
+  const connections = [...places].map(([nid, tables]) => {
+    const n = byId.get(nid), ts = [...tables].sort().map(t => hraRelease.tables[t]);
+    cellEdges.push({from: cl, to: nid, rel: 'located_in', source: 'HRA ASCT+B', license: 'CC BY 4.0', evidence: [...tables].sort().map(t => `${t} ${hraRelease.tables[t].version}`).join('; ')});
+    return {rel: 'located_in', dir: 'out', id: nid, conceptId: n.conceptId, label: n.label, modeled: true, sources: ts.map((t, i) => ({name: `HRA ASCT+B table: ${[...tables].sort()[i].replace(/-/g, ' ')} ${t.version}`, license: 'CC BY 4.0', url: t.doi})),
+      ...(uberonOf(nid) ? {alternates: [uberonOf(nid)]} : {})};
+  }).sort((a, b) => a.label.localeCompare(b.label));
+  nodes.push({id: cl, conceptId: cl.replace(':', ''), label: upperFirst(d?.label ?? cellLabel.get(cl)), scale: 'cell', system: null, synonyms: d?.synonyms ?? [],
+    xrefs: {CL: cl.slice(3)}, geometry: {models: [CELL_MODEL]}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
+    ladder: {system: first?.ladder?.system ?? null, isOrgan: false, organ: first?.ladder?.organ ?? null}});
+}
+// The generic cell (CL:0000000) and its organelles (GO), from the cell model.
+const cellContent = tiersFor(organelleMap.cell.id);
+const organelleNodes = organelleMap.organelles.map(o => {
+  const content = tiersFor(o.id), d = goDefs.get(o.id);
+  cellEdges.push({from: o.id, to: organelleMap.cell.id, rel: 'component_of', source: 'Bio Map cell model', license: 'CC BY 4.0', evidence: 'pipeline/13-cell.mjs; GO cellular component'});
+  return {id: o.id, conceptId: o.id.replace(':', ''), label: o.label, scale: 'organelle', system: null, synonyms: d?.synonyms ?? [], xrefs: {GO: o.id.slice(3)},
+    geometry: {models: [CELL_MODEL]}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: [organelleMap.cell.id]},
+    connections: [{rel: 'component_of', dir: 'out', id: organelleMap.cell.id, conceptId: organelleMap.cell.id.replace(':', ''), label: 'Cell', modeled: true, sources: [{name: 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm('go', o.id)}]}],
+    ancestors: [], ladder: {system: null, isOrgan: false, organ: null}};
+});
+nodes.push({id: organelleMap.cell.id, conceptId: organelleMap.cell.id.replace(':', ''), label: 'Cell', scale: 'cell', system: null, synonyms: [], xrefs: {CL: organelleMap.cell.id.slice(3)},
+  geometry: {models: [CELL_MODEL]}, content: cellContent, media: [], sources: sourcesOf(cellContent), zoom: {in: organelleMap.organelles.map(o => o.id), out: []},
+  connections: organelleMap.organelles.map(o => ({rel: 'component_of', dir: 'in', id: o.id, conceptId: o.id.replace(':', ''), label: o.label, modeled: true, sources: [{name: 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm('go', o.id)}]})),
+  ancestors: [], ladder: {system: null, isOrgan: false, organ: null}}, ...organelleNodes);
+for (const n of nodes.slice(-1 - organelleNodes.length).concat(nodes.filter(n => n.scale === 'cell'))) byId.set(n.id, n);
+
+// Tissue boards -> public/tissue/<organ conceptId>.json; organs on the ladder link to theirs and their ancestors'.
+const tissueDir = path.join(root, 'public/tissue');
+fs.mkdirSync(tissueDir, {recursive: true});
+const boardUrl = id => `/tissue/${byId.get(id).conceptId}.json`;
+const keepBoards = new Set();
+const cellRows = [];
+for (const [id, b] of boards) {
+  const groups = [...b.groups].map(([structure, cells]) => ({structure: upperFirst(structure), cells: [...cells.keys()].filter(c => byId.has(c)).map(c => ({id: c, conceptId: c.replace(':', ''), label: byId.get(c).label})).sort((x, y) => x.label.localeCompare(y.label))}))
+    .filter(g => g.cells.length).sort((x, y) => y.cells.length - x.cells.length || x.structure.localeCompare(y.structure));
+  const cellCount = new Set(groups.flatMap(g => g.cells.map(c => c.id))).size;
+  const body = JSON.stringify({organ: b.organ, tables: [...b.tables.values()].sort((x, y) => x.name.localeCompare(y.name)), cellCount, groups, media: b.media}, null, 1) + '\n';
+  const file = `${byId.get(id).conceptId}.json`;
+  keepBoards.add(file);
+  if (!fs.existsSync(path.join(tissueDir, file)) || fs.readFileSync(path.join(tissueDir, file), 'utf8') !== body) fs.writeFileSync(path.join(tissueDir, file), body);
+  cellRows.push({label: b.organ.label, id: b.organ.id, cells: cellCount, tables: [...b.tables.keys()].sort(), media: b.media.map(m => m.kind)});
+}
+for (const f of fs.readdirSync(tissueDir)) if (f.endsWith('.json') && !keepBoards.has(f)) fs.unlinkSync(path.join(tissueDir, f));
+const tissueOf = organ => organ ? [organ.id, ...organ.ancestors].filter(x => boards.has(x)).map(boardUrl) : [];
+for (const n of nodes) if (n.ladder?.organ) { const t = tissueOf(byId.get(n.ladder.organ.id)); if (t.length) n.ladder.organ.tissue = t; }
+const cellReport = ['# Cell types and tissue boards', '', 'Generated by `pipeline/11-build-graph.mjs` from the HRA v2.5 ASCT+B tables (step 06) and tissue media (step 08).', '',
+  `- Cell types (Cell Ontology): ${cellPlaces.size - (cellPlaces.has('CL:0000000') ? 1 : 0)}; located_in edges: ${cellEdges.filter(e => e.rel === 'located_in').length}`,
+  `- ASCT+B rows with no structure or organ of ours (skipped): ${rowsUnplaced}`, '',
+  '| Organ (tissue board) | Cell types | ASCT+B tables | Media |', '| --- | --- | --- | --- |',
+  ...cellRows.sort((a, b) => b.cells - a.cells || a.label.localeCompare(b.label)).map(r => `| ${r.label} | ${r.cells} | ${r.tables.join(', ') || '-'} | ${r.media.join(', ') || '-'} |`)];
+fs.writeFileSync(path.join(root, 'reports/cells.md'), cellReport.join('\n') + '\n');
+
 // graph/: node records without tier text (text lives in content/ files).
 const stripText = content => Object.fromEntries(Object.entries(content).map(([k, t]) => [k, Object.fromEntries(Object.entries(t).filter(([f]) => f !== 'text'))]));
 fs.writeFileSync(path.join(root, 'graph/nodes.jsonl'), nodes.map(n => JSON.stringify({...n, content: stripText(n.content)})).join('\n') + '\n');
-fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...connectionEdges].map(e => JSON.stringify(e)).join('\n') + '\n');
+fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...connectionEdges, ...cellEdges].map(e => JSON.stringify(e)).join('\n') + '\n');
 
 // public/content/: what the app reads; ancestors are graph-internal.
 const out = path.join(root, 'public/content');

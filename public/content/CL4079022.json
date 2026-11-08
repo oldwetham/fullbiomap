@@ -1,0 +1,91 @@
+{
+ "id": "CL:4079022",
+ "conceptId": "CL4079022",
+ "label": "Sacral dorsal root ganglion Nav1.7 neuron",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "CL": "4079022"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_4079022/tier1.auto.md",
+   "text": "A nociceptor whose soma is located in the sacral dorsal root ganglion and that expresses the voltage-gated sodium channel Nav1.7 (encoded by SCN9A). This neuron is characterized by Nav1.7-dependent action potential initiation and amplification, which is essential for normal pain sensation in humans. Nav1.7 contributes approximately 50% of total sodium channel current in human DRG nociceptors (Chang et al. 2018, PMID:28424991). In human DRG, Nav1.7 immunoreactivity is detected in 54-57% of TrkA-positive neurons (Rostock et al. 2018, PMID:29229553). Human genetic evidence confirms Nav1.7 as necessary and sufficient for nociceptive function in these neurons.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:4079022",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4079022",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:4079022",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4079022",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:4079022. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:4079022",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4079022",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:5884",
+   "conceptId": "FMA5884",
+   "label": "Ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0000045"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:61284",
+   "conceptId": "FMA61284",
+   "label": "Neural tree organ",
+   "tissue": [
+    "/tissue/FMA61284.json"
+   ]
+  }
+ }
+}

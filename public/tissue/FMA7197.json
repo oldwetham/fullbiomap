@@ -1,0 +1,273 @@
+{
+ "organ": {
+  "id": "FMA:7197",
+  "conceptId": "FMA7197",
+  "label": "Liver"
+ },
+ "tables": [
+  {
+   "name": "liver",
+   "version": "v1.5",
+   "doi": "https://doi.org/10.48539/HBM945.HZDN.494",
+   "citation": "Masci, Anna Maria,\tTim Kendall,\tand Ayako Suzuki. 2025.\t\"HuBMAP ASCT+B Tables. Liver v1.5.\" https://doi.org/10.48539/HBM945.HZDN.494.\tAccessed December 15, 2025."
+  }
+ ],
+ "cellCount": 28,
+ "groups": [
+  {
+   "structure": "Liver lobule",
+   "cells": [
+    {
+     "id": "CL:0002399",
+     "conceptId": "CL0002399",
+     "label": "CD1c-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0000624",
+     "conceptId": "CL0000624",
+     "label": "CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000909",
+     "conceptId": "CL0000909",
+     "label": "CD8-positive, alpha-beta memory T cell"
+    },
+    {
+     "id": "CL:0001203",
+     "conceptId": "CL0001203",
+     "label": "CD8-positive, alpha-beta memory T cell, CD45RO-positive"
+    },
+    {
+     "id": "CL:0000990",
+     "conceptId": "CL0000990",
+     "label": "Conventional dendritic cell"
+    },
+    {
+     "id": "CL:0001056",
+     "conceptId": "CL0001056",
+     "label": "Dendritic cell, human"
+    },
+    {
+     "id": "CL:0000798",
+     "conceptId": "CL0000798",
+     "label": "Gamma-delta T cell"
+    },
+    {
+     "id": "CL:2000054",
+     "conceptId": "CL2000054",
+     "label": "Hepatic pit cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000784",
+     "conceptId": "CL0000784",
+     "label": "Plasmacytoid dendritic cell"
+    },
+    {
+     "id": "CL:0000921",
+     "conceptId": "CL0000921",
+     "label": "Type I NK T cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hepatic cord",
+   "cells": [
+    {
+     "id": "CL:0019029",
+     "conceptId": "CL0019029",
+     "label": "Centrilobular region hepatocyte"
+    },
+    {
+     "id": "CL:0000182",
+     "conceptId": "CL0000182",
+     "label": "Hepatocyte"
+    },
+    {
+     "id": "CL:0019028",
+     "conceptId": "CL0019028",
+     "label": "Midzonal region hepatocyte"
+    },
+    {
+     "id": "CL:0019026",
+     "conceptId": "CL0019026",
+     "label": "Periportal region hepatocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Biliary ductule",
+   "cells": [
+    {
+     "id": "CL:0000075",
+     "conceptId": "CL0000075",
+     "label": "Columnar/cuboidal epithelial cell"
+    },
+    {
+     "id": "CL:0000241",
+     "conceptId": "CL0000241",
+     "label": "Stratified cuboidal epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hepatic artery",
+   "cells": [
+    {
+     "id": "CL:0019018",
+     "conceptId": "CL0019018",
+     "label": "Blood vessel smooth muscle cell"
+    },
+    {
+     "id": "CL:1000413",
+     "conceptId": "CL1000413",
+     "label": "Endothelial cell of artery"
+    }
+   ]
+  },
+  {
+   "structure": "Hepatic sinusoid",
+   "cells": [
+    {
+     "id": "CL:1000398",
+     "conceptId": "CL1000398",
+     "label": "Endothelial cell of hepatic sinusoid"
+    },
+    {
+     "id": "CL:0000091",
+     "conceptId": "CL0000091",
+     "label": "Kupffer cell"
+    }
+   ]
+  },
+  {
+   "structure": "Liver perisinusoidal space",
+   "cells": [
+    {
+     "id": "CL:0000632",
+     "conceptId": "CL0000632",
+     "label": "Hepatic stellate cell"
+    },
+    {
+     "id": "CL:0000738",
+     "conceptId": "CL0000738",
+     "label": "Leukocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Central vein of liver",
+   "cells": [
+    {
+     "id": "CL:0002543",
+     "conceptId": "CL0002543",
+     "label": "Vein endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hepatic portal vein",
+   "cells": [
+    {
+     "id": "CL:0002543",
+     "conceptId": "CL0002543",
+     "label": "Vein endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Interstitial tissue",
+   "cells": [
+    {
+     "id": "CL:0009100",
+     "conceptId": "CL0009100",
+     "label": "Hepatic portal fibroblast"
+    }
+   ]
+  },
+  {
+   "structure": "Intralobular bile duct",
+   "cells": [
+    {
+     "id": "CL:0002196",
+     "conceptId": "CL0002196",
+     "label": "Hepatic oval stem cell"
+    }
+   ]
+  },
+  {
+   "structure": "Lymphatic vessel",
+   "cells": [
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    }
+   ]
+  },
+  {
+   "structure": "Nerve",
+   "cells": [
+    {
+     "id": "CL:0000526",
+     "conceptId": "CL0000526",
+     "label": "Afferent neuron"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/liver.jpg",
+   "organ": "liver",
+   "tissue": "liver",
+   "caption": "Liver tissue stained for haptoglobin (HP). Brown: HP protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of liver tissue with HP protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "HP",
+    "name": "Haptoglobin",
+    "ensembl": "ENSG00000257017",
+    "uniprot": [
+     "P00738"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/47750/118508_A_9_4_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000257017-HP/tissue/liver",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for liver; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): HP immunohistochemistry in liver, https://images.proteinatlas.org/47750/118508_A_9_4_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/liver-liver-lobule.svg",
+   "name": "liver-liver-lobule",
+   "label": "Liver lobule",
+   "cells": [
+    "CL:0000075",
+    "CL:0000091",
+    "CL:0000182",
+    "CL:0000241",
+    "CL:0000632",
+    "CL:0002196",
+    "CL:0002543",
+    "CL:0009100",
+    "CL:0019018",
+    "CL:1000398",
+    "CL:1000413"
+   ],
+   "caption": "Functional tissue unit: liver lobule. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the liver lobule and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM693.LTPG.393",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Liver Lobule Functional Tissue Unit (FTU) for Liver, v1.5. https://doi.org/10.48539/HBM693.LTPG.393. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

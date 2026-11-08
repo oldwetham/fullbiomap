@@ -1,0 +1,123 @@
+{
+ "id": "CL:0002363",
+ "conceptId": "CL0002363",
+ "label": "Keratocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "corneal fibroblast",
+  "corneal keratocyte"
+ ],
+ "xrefs": {
+  "CL": "0002363"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002363/tier1.auto.md",
+   "text": "A keratocyte is a specialized fibroblast residing in the cornea stroma that has a flattened, dendritic morphology; located between the lamellae with a large flattened nucleus, and lengthy processes which communicate with neighboring cells. This corneal layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratan sulfate.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002363",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002363",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002363",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002363",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002363. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002363",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002363",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004548"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004549"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "alternates": [
+    "UBERON0004549"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-right.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-right.json"
+    ]
+   },
+   "tissue": [
+    "/tissue/FMA12514.json"
+   ]
+  }
+ }
+}

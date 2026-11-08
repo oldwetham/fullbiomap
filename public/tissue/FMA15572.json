@@ -1,0 +1,44 @@
+{
+ "organ": {
+  "id": "FMA:15572",
+  "conceptId": "FMA15572",
+  "label": "Left ureter"
+ },
+ "tables": [
+  {
+   "name": "ureter",
+   "version": "v1.0",
+   "doi": "https://doi.org/10.48539/HBM882.LRSF.394",
+   "citation": "Strand, Douglas,\tand Sanjay Jain.\t 2024.\t\"HuBMAP ASCT+B Tables. Ureter v1.0.\"\t https://doi.org/10.48539/HBM882.LRSF.394. Accessed December 1, 2021"
+  }
+ ],
+ "cellCount": 3,
+ "groups": [
+  {
+   "structure": "Lamina propria of ureter",
+   "cells": [
+    {
+     "id": "CL:1000308",
+     "conceptId": "CL1000308",
+     "label": "Fibrocyte of adventitia of ureter"
+    },
+    {
+     "id": "CL:1000708",
+     "conceptId": "CL1000708",
+     "label": "Ureter adventitial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Urothelium of ureter",
+   "cells": [
+    {
+     "id": "CL:1001428",
+     "conceptId": "CL1001428",
+     "label": "Bladder urothelial cell"
+    }
+   ]
+  }
+ ],
+ "media": []
+}

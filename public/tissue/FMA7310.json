@@ -1,0 +1,723 @@
+{
+ "organ": {
+  "id": "FMA:7310",
+  "conceptId": "FMA7310",
+  "label": "Left lung"
+ },
+ "tables": [
+  {
+   "name": "lung",
+   "version": "v1.6",
+   "doi": "https://doi.org/10.48539/HBM459.QMXK.379",
+   "citation": "Pryhuber, Gloria.\t 2026.\t\"HuBMAP ASCT+B Tables. Lung v1.6.\"\t https://doi.org/10.48539/HBM459.QMXK.379.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 77,
+ "groups": [
+  {
+   "structure": "Immune system",
+   "cells": [
+    {
+     "id": "CL:0000583",
+     "conceptId": "CL0000583",
+     "label": "Alveolar macrophage"
+    },
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000767",
+     "conceptId": "CL0000767",
+     "label": "Basophil"
+    },
+    {
+     "id": "CL:4033041",
+     "conceptId": "CL4033041",
+     "label": "CCL3-positive alveolar macrophage"
+    },
+    {
+     "id": "CL:0002394",
+     "conceptId": "CL0002394",
+     "label": "CD141-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0000938",
+     "conceptId": "CL0000938",
+     "label": "CD16-negative, CD56-bright natural killer cell, human"
+    },
+    {
+     "id": "CL:0002399",
+     "conceptId": "CL0002399",
+     "label": "CD1c-positive myeloid dendritic cell"
+    },
+    {
+     "id": "CL:0000860",
+     "conceptId": "CL0000860",
+     "label": "Classical monocyte"
+    },
+    {
+     "id": "CL:0000484",
+     "conceptId": "CL0000484",
+     "label": "Connective tissue type mast cell"
+    },
+    {
+     "id": "CL:4033077",
+     "conceptId": "CL4033077",
+     "label": "Cycling alveolar macrophage"
+    },
+    {
+     "id": "CL:0000905",
+     "conceptId": "CL0000905",
+     "label": "Effector memory CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000913",
+     "conceptId": "CL0000913",
+     "label": "Effector memory CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:4033043",
+     "conceptId": "CL4033043",
+     "label": "Lung interstitial macrophage"
+    },
+    {
+     "id": "CL:4033045",
+     "conceptId": "CL4033045",
+     "label": "Lung migratory dendritic cell"
+    },
+    {
+     "id": "CL:0019015",
+     "conceptId": "CL0019015",
+     "label": "Lung parenchyma resident eosinophil"
+    },
+    {
+     "id": "CL:4033038",
+     "conceptId": "CL4033038",
+     "label": "Lung resident memory CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:4033039",
+     "conceptId": "CL4033039",
+     "label": "Lung resident memory CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000814",
+     "conceptId": "CL0000814",
+     "label": "Mature NK T cell"
+    },
+    {
+     "id": "CL:4033042",
+     "conceptId": "CL4033042",
+     "label": "Metallothionein-positive alveolar macrophage"
+    },
+    {
+     "id": "CL:0000485",
+     "conceptId": "CL0000485",
+     "label": "Mucosal type mast cell"
+    },
+    {
+     "id": "CL:0000940",
+     "conceptId": "CL0000940",
+     "label": "Mucosal-associated invariant T cell"
+    },
+    {
+     "id": "CL:0000895",
+     "conceptId": "CL0000895",
+     "label": "Naive thymus-derived CD4-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000900",
+     "conceptId": "CL0000900",
+     "label": "Naive thymus-derived CD8-positive, alpha-beta T cell"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000875",
+     "conceptId": "CL0000875",
+     "label": "Non-classical monocyte"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0000784",
+     "conceptId": "CL0000784",
+     "label": "Plasmacytoid dendritic cell"
+    },
+    {
+     "id": "CL:0000815",
+     "conceptId": "CL0000815",
+     "label": "Regulatory T cell"
+    }
+   ]
+  },
+  {
+   "structure": "Epithelium of segmental bronchus",
+   "cells": [
+    {
+     "id": "CL:0002329",
+     "conceptId": "CL0002329",
+     "label": "Basal epithelial cell of tracheobronchial tree"
+    },
+    {
+     "id": "CL:0002208",
+     "conceptId": "CL0002208",
+     "label": "Brush cell of bronchus"
+    },
+    {
+     "id": "CL:0000158",
+     "conceptId": "CL0000158",
+     "label": "Club cell"
+    },
+    {
+     "id": "CL:4033044",
+     "conceptId": "CL4033044",
+     "label": "Deuterosomal cell"
+    },
+    {
+     "id": "CL:0002332",
+     "conceptId": "CL0002332",
+     "label": "Multiciliated epithelial cell of the bronchus"
+    },
+    {
+     "id": "CL:0017000",
+     "conceptId": "CL0017000",
+     "label": "Pulmonary ionocyte"
+    },
+    {
+     "id": "CL:1000223",
+     "conceptId": "CL1000223",
+     "label": "Pulmonary neuroendocrine cell"
+    },
+    {
+     "id": "CL:4033048",
+     "conceptId": "CL4033048",
+     "label": "Respiratory tract suprabasal cell"
+    },
+    {
+     "id": "CL:0019003",
+     "conceptId": "CL0019003",
+     "label": "Tracheobronchial goblet cell"
+    }
+   ]
+  },
+  {
+   "structure": "Epithelium of lobar bronchus",
+   "cells": [
+    {
+     "id": "CL:0002329",
+     "conceptId": "CL0002329",
+     "label": "Basal epithelial cell of tracheobronchial tree"
+    },
+    {
+     "id": "CL:4033007",
+     "conceptId": "CL4033007",
+     "label": "Brush cell of epithelium of lobar bronchus"
+    },
+    {
+     "id": "CL:4033044",
+     "conceptId": "CL4033044",
+     "label": "Deuterosomal cell"
+    },
+    {
+     "id": "CL:4033009",
+     "conceptId": "CL4033009",
+     "label": "Goblet cell of epithelium of lobar bronchus"
+    },
+    {
+     "id": "CL:0002332",
+     "conceptId": "CL0002332",
+     "label": "Multiciliated epithelial cell of the bronchus"
+    },
+    {
+     "id": "CL:4033010",
+     "conceptId": "CL4033010",
+     "label": "Neuroendocrine cell of epithelium of lobar bronchus"
+    },
+    {
+     "id": "CL:0017000",
+     "conceptId": "CL0017000",
+     "label": "Pulmonary ionocyte"
+    },
+    {
+     "id": "CL:4033048",
+     "conceptId": "CL4033048",
+     "label": "Respiratory tract suprabasal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Alveolus of lung",
+   "cells": [
+    {
+     "id": "CL:4028006",
+     "conceptId": "CL4028006",
+     "label": "Alveolar adventitial fibroblast"
+    },
+    {
+     "id": "CL:4028004",
+     "conceptId": "CL4028004",
+     "label": "Alveolar type 1 fibroblast cell"
+    },
+    {
+     "id": "CL:0009089",
+     "conceptId": "CL0009089",
+     "label": "Lung pericyte"
+    },
+    {
+     "id": "CL:0002062",
+     "conceptId": "CL0002062",
+     "label": "Pulmonary alveolar type 1 cell"
+    },
+    {
+     "id": "CL:0002063",
+     "conceptId": "CL0002063",
+     "label": "Pulmonary alveolar type 2 cell"
+    }
+   ]
+  },
+  {
+   "structure": "Pulmonary alveolar duct",
+   "cells": [
+    {
+     "id": "CL:4028006",
+     "conceptId": "CL4028006",
+     "label": "Alveolar adventitial fibroblast"
+    },
+    {
+     "id": "CL:4028004",
+     "conceptId": "CL4028004",
+     "label": "Alveolar type 1 fibroblast cell"
+    },
+    {
+     "id": "CL:0009089",
+     "conceptId": "CL0009089",
+     "label": "Lung pericyte"
+    },
+    {
+     "id": "CL:0002062",
+     "conceptId": "CL0002062",
+     "label": "Pulmonary alveolar type 1 cell"
+    },
+    {
+     "id": "CL:0002063",
+     "conceptId": "CL0002063",
+     "label": "Pulmonary alveolar type 2 cell"
+    }
+   ]
+  },
+  {
+   "structure": "Pulmonary alveolar parenchyma",
+   "cells": [
+    {
+     "id": "CL:4028006",
+     "conceptId": "CL4028006",
+     "label": "Alveolar adventitial fibroblast"
+    },
+    {
+     "id": "CL:4028004",
+     "conceptId": "CL4028004",
+     "label": "Alveolar type 1 fibroblast cell"
+    },
+    {
+     "id": "CL:0009089",
+     "conceptId": "CL0009089",
+     "label": "Lung pericyte"
+    },
+    {
+     "id": "CL:0002062",
+     "conceptId": "CL0002062",
+     "label": "Pulmonary alveolar type 1 cell"
+    },
+    {
+     "id": "CL:0002063",
+     "conceptId": "CL0002063",
+     "label": "Pulmonary alveolar type 2 cell"
+    }
+   ]
+  },
+  {
+   "structure": "Epithelium of bronchiole",
+   "cells": [
+    {
+     "id": "CL:1000352",
+     "conceptId": "CL1000352",
+     "label": "Basal cell of epithelium of lobular bronchiole"
+    },
+    {
+     "id": "CL:0000158",
+     "conceptId": "CL0000158",
+     "label": "Club cell"
+    },
+    {
+     "id": "CL:1000271",
+     "conceptId": "CL1000271",
+     "label": "Lung multiciliated epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Epithelium of respiratory bronchiole",
+   "cells": [
+    {
+     "id": "CL:1000351",
+     "conceptId": "CL1000351",
+     "label": "Basal cell of epithelium of respiratory bronchiole"
+    },
+    {
+     "id": "CL:0000158",
+     "conceptId": "CL0000158",
+     "label": "Club cell"
+    },
+    {
+     "id": "CL:1000271",
+     "conceptId": "CL1000271",
+     "label": "Lung multiciliated epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Pulmonary nerve plexus",
+   "cells": [
+    {
+     "id": "CL:4023154",
+     "conceptId": "CL4023154",
+     "label": "Myelinating glial cell"
+    },
+    {
+     "id": "CL:0002319",
+     "conceptId": "CL0002319",
+     "label": "Neural cell"
+    },
+    {
+     "id": "CL:0002376",
+     "conceptId": "CL0002376",
+     "label": "Non-myelinating Schwann cell"
+    }
+   ]
+  },
+  {
+   "structure": "Submucosal gland acinus",
+   "cells": [
+    {
+     "id": "CL:4033022",
+     "conceptId": "CL4033022",
+     "label": "Mucus secreting cell of bronchus submucosal gland"
+    },
+    {
+     "id": "CL:4033003",
+     "conceptId": "CL4033003",
+     "label": "Myoepithelial cell of bronchus submucosal gland"
+    },
+    {
+     "id": "CL:4033005",
+     "conceptId": "CL4033005",
+     "label": "Serous secreting cell of bronchus submucosal gland"
+    }
+   ]
+  },
+  {
+   "structure": "Terminal bronchiole epithelium",
+   "cells": [
+    {
+     "id": "CL:1000350",
+     "conceptId": "CL1000350",
+     "label": "Basal cell of epithelium of terminal bronchiole"
+    },
+    {
+     "id": "CL:0000158",
+     "conceptId": "CL0000158",
+     "label": "Club cell"
+    },
+    {
+     "id": "CL:1000271",
+     "conceptId": "CL1000271",
+     "label": "Lung multiciliated epithelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Cartilage of bronchus",
+   "cells": [
+    {
+     "id": "CL:4033026",
+     "conceptId": "CL4033026",
+     "label": "Lung perichondrial fibroblast"
+    },
+    {
+     "id": "CL:0019002",
+     "conceptId": "CL0019002",
+     "label": "Tracheobronchial chondrocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Lung connective tissue",
+   "cells": [
+    {
+     "id": "CL:4033018",
+     "conceptId": "CL4033018",
+     "label": "Lung megakaryocyte"
+    },
+    {
+     "id": "CL:4033016",
+     "conceptId": "CL4033016",
+     "label": "Secondary crest myofibroblast"
+    }
+   ]
+  },
+  {
+   "structure": "Pulmonary capillary",
+   "cells": [
+    {
+     "id": "CL:4028002",
+     "conceptId": "CL4028002",
+     "label": "Alveolar capillary type 1 endothelial cell"
+    },
+    {
+     "id": "CL:4028003",
+     "conceptId": "CL4028003",
+     "label": "Alveolar capillary type 2 endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Respiratory system arterial endothelium",
+   "cells": [
+    {
+     "id": "CL:1000413",
+     "conceptId": "CL1000413",
+     "label": "Endothelial cell of artery"
+    },
+    {
+     "id": "CL:1001568",
+     "conceptId": "CL1001568",
+     "label": "Pulmonary artery endothelial cell"
+    }
+   ]
+  },
+  {
+   "structure": "Respiratory system arterial smooth muscle",
+   "cells": [
+    {
+     "id": "CL:0019018",
+     "conceptId": "CL0019018",
+     "label": "Blood vessel smooth muscle cell"
+    },
+    {
+     "id": "CL:0002591",
+     "conceptId": "CL0002591",
+     "label": "Smooth muscle cell of the pulmonary artery"
+    }
+   ]
+  },
+  {
+   "structure": "Respiratory system venous endothelium",
+   "cells": [
+    {
+     "id": "CL:0002619",
+     "conceptId": "CL0002619",
+     "label": "Adult endothelial progenitor cell"
+    },
+    {
+     "id": "CL:4033008",
+     "conceptId": "CL4033008",
+     "label": "Vein endothelial cell of respiratory system"
+    }
+   ]
+  },
+  {
+   "structure": "Submucosal gland collecting duct",
+   "cells": [
+    {
+     "id": "CL:4033023",
+     "conceptId": "CL4033023",
+     "label": "Airway submucosal gland collecting duct epithelial cell"
+    },
+    {
+     "id": "CL:4033024",
+     "conceptId": "CL4033024",
+     "label": "Airway submucosal gland duct basal cell"
+    }
+   ]
+  },
+  {
+   "structure": "Bronchial submucosal gland multiciliated duct",
+   "cells": [
+    {
+     "id": "CL:4033055",
+     "conceptId": "CL4033055",
+     "label": "Airway submucosal gland duct multiciliated cell"
+    }
+   ]
+  },
+  {
+   "structure": "Bronchus smooth muscle",
+   "cells": [
+    {
+     "id": "CL:0002598",
+     "conceptId": "CL0002598",
+     "label": "Bronchial smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Lobar bronchus mesenchyme",
+   "cells": [
+    {
+     "id": "CL:0019019",
+     "conceptId": "CL0019019",
+     "label": "Tracheobronchial smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Pulmonary artery",
+   "cells": [
+    {
+     "id": "CL:0002557",
+     "conceptId": "CL0002557",
+     "label": "Fibroblast of pulmonary artery"
+    }
+   ]
+  },
+  {
+   "structure": "Respiratory system lymphatic vessel endothelium",
+   "cells": [
+    {
+     "id": "CL:0009086",
+     "conceptId": "CL0009086",
+     "label": "Endothelial cell of respiratory system lymphatic vessel"
+    }
+   ]
+  },
+  {
+   "structure": "Respiratory system venous smooth muscle",
+   "cells": [
+    {
+     "id": "CL:0019018",
+     "conceptId": "CL0019018",
+     "label": "Blood vessel smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Smooth muscle tissue of bronchiole",
+   "cells": [
+    {
+     "id": "CL:4033017",
+     "conceptId": "CL4033017",
+     "label": "Bronchiolar smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Smooth muscle tissue of respiratory bronchiole",
+   "cells": [
+    {
+     "id": "CL:4033017",
+     "conceptId": "CL4033017",
+     "label": "Bronchiolar smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Smooth muscle tissue of terminal bronchiole",
+   "cells": [
+    {
+     "id": "CL:4033017",
+     "conceptId": "CL4033017",
+     "label": "Bronchiolar smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Visceral pleura",
+   "cells": [
+    {
+     "id": "CL:1000493",
+     "conceptId": "CL1000493",
+     "label": "Mesothelial cell of visceral pleura"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/lung.jpg",
+   "organ": "lung",
+   "tissue": "lung",
+   "caption": "Lung tissue stained for surfactant protein C (SFTPC). Brown: SFTPC protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of lung tissue with SFTPC protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "SFTPC",
+    "name": "Surfactant protein C",
+    "ensembl": "ENSG00000168484",
+    "uniprot": [
+     "P11686"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/10928/51559_A_2_4_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000168484-SFTPC/tissue/lung",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for lung; IHC reliability enhanced, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): SFTPC immunohistochemistry in lung, https://images.proteinatlas.org/10928/51559_A_2_4_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/lung-bronchial-submucosal-gland.svg",
+   "name": "lung-bronchial-submucosal-gland",
+   "label": "Bronchus submucosal gland",
+   "cells": [
+    "CL:4033003",
+    "CL:4033005",
+    "CL:4033022",
+    "CL:4033023",
+    "CL:4033024",
+    "CL:4033055"
+   ],
+   "caption": "Functional tissue unit: bronchus submucosal gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the bronchus submucosal gland and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM287.HJJZ.687",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Bronchial Submucosal Gland FTU for Lung, v1.4. https://doi.org/10.48539/HBM287.HJJZ.687. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/lung-pulmonary-alveolus.svg",
+   "name": "lung-pulmonary-alveolus",
+   "label": "Alveolus of lung",
+   "cells": [
+    "CL:0002062",
+    "CL:0002063",
+    "CL:0009089",
+    "CL:4028002",
+    "CL:4028004",
+    "CL:4033016"
+   ],
+   "caption": "Functional tissue unit: alveolus of lung. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the alveolus of lung and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM949.RSKR.647",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. *2D Pulmonary Alveolus Functional Tissue Unit (FTU) for Lung, v1.5*. https://doi.org/10.48539/HBM949.RSKR.647. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

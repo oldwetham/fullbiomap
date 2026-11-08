@@ -1,0 +1,457 @@
+{
+ "organ": {
+  "id": "FMA:7163",
+  "conceptId": "FMA7163",
+  "label": "Skin"
+ },
+ "tables": [
+  {
+   "name": "skin",
+   "version": "v1.7",
+   "doi": "https://doi.org/10.48539/HBM539.LSRX.978",
+   "citation": "Ginty, Fiona,\tJonhan Ho,\tJoel Sunshine,\tand Arivarasan Karunamurthy. 2026.\t\"HuBMAP ASCT+B Tables. Skin v1.6.\" https://doi.org/10.48539/HBM539.LSRX.978.\tAccessed June 15, 2026."
+  }
+ ],
+ "cellCount": 37,
+ "groups": [
+  {
+   "structure": "Dermal papilla",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000910",
+     "conceptId": "CL0000910",
+     "label": "Cytotoxic T cell"
+    },
+    {
+     "id": "CL:0001006",
+     "conceptId": "CL0001006",
+     "label": "Dermal dendritic cell"
+    },
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    },
+    {
+     "id": "CL:0000771",
+     "conceptId": "CL0000771",
+     "label": "Eosinophil"
+    },
+    {
+     "id": "CL:0001067",
+     "conceptId": "CL0001067",
+     "label": "Group 1 innate lymphoid cell"
+    },
+    {
+     "id": "CL:0001069",
+     "conceptId": "CL0001069",
+     "label": "Group 2 innate lymphoid cell"
+    },
+    {
+     "id": "CL:0001071",
+     "conceptId": "CL0001071",
+     "label": "Group 3 innate lymphoid cell"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:1000417",
+     "conceptId": "CL1000417",
+     "label": "Myoepithelial cell of sweat gland"
+    },
+    {
+     "id": "CL:0000623",
+     "conceptId": "CL0000623",
+     "label": "Natural killer cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0000669",
+     "conceptId": "CL0000669",
+     "label": "Pericyte"
+    },
+    {
+     "id": "CL:0002576",
+     "conceptId": "CL0002576",
+     "label": "Perineurial cell"
+    },
+    {
+     "id": "CL:0000786",
+     "conceptId": "CL0000786",
+     "label": "Plasma cell"
+    },
+    {
+     "id": "CL:0000815",
+     "conceptId": "CL0000815",
+     "label": "Regulatory T cell"
+    },
+    {
+     "id": "CL:0002573",
+     "conceptId": "CL0002573",
+     "label": "Schwann cell"
+    },
+    {
+     "id": "CL:0002620",
+     "conceptId": "CL0002620",
+     "label": "Skin fibroblast"
+    },
+    {
+     "id": "CL:0000545",
+     "conceptId": "CL0000545",
+     "label": "T-helper 1 cell"
+    },
+    {
+     "id": "CL:0002292",
+     "conceptId": "CL0002292",
+     "label": "Type I cell of carotid body"
+    },
+    {
+     "id": "CL:0000359",
+     "conceptId": "CL0000359",
+     "label": "Vascular associated smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Hypodermis",
+   "cells": [
+    {
+     "id": "CL:0000236",
+     "conceptId": "CL0000236",
+     "label": "B cell"
+    },
+    {
+     "id": "CL:0000910",
+     "conceptId": "CL0000910",
+     "label": "Cytotoxic T cell"
+    },
+    {
+     "id": "CL:0002138",
+     "conceptId": "CL0002138",
+     "label": "Endothelial cell of lymphatic vessel"
+    },
+    {
+     "id": "CL:0000771",
+     "conceptId": "CL0000771",
+     "label": "Eosinophil"
+    },
+    {
+     "id": "CL:0000235",
+     "conceptId": "CL0000235",
+     "label": "Macrophage"
+    },
+    {
+     "id": "CL:0000097",
+     "conceptId": "CL0000097",
+     "label": "Mast cell"
+    },
+    {
+     "id": "CL:0000775",
+     "conceptId": "CL0000775",
+     "label": "Neutrophil"
+    },
+    {
+     "id": "CL:0002576",
+     "conceptId": "CL0002576",
+     "label": "Perineurial cell"
+    },
+    {
+     "id": "CL:0000815",
+     "conceptId": "CL0000815",
+     "label": "Regulatory T cell"
+    },
+    {
+     "id": "CL:0002573",
+     "conceptId": "CL0002573",
+     "label": "Schwann cell"
+    },
+    {
+     "id": "CL:0002620",
+     "conceptId": "CL0002620",
+     "label": "Skin fibroblast"
+    },
+    {
+     "id": "CL:0002521",
+     "conceptId": "CL0002521",
+     "label": "Subcutaneous adipocyte"
+    },
+    {
+     "id": "CL:0000545",
+     "conceptId": "CL0000545",
+     "label": "T-helper 1 cell"
+    },
+    {
+     "id": "CL:0002292",
+     "conceptId": "CL0002292",
+     "label": "Type I cell of carotid body"
+    },
+    {
+     "id": "CL:0000359",
+     "conceptId": "CL0000359",
+     "label": "Vascular associated smooth muscle cell"
+    }
+   ]
+  },
+  {
+   "structure": "Stratum basale of epidermis",
+   "cells": [
+    {
+     "id": "CL:0000646",
+     "conceptId": "CL0000646",
+     "label": "Basal cell"
+    },
+    {
+     "id": "CL:0002457",
+     "conceptId": "CL0002457",
+     "label": "Epidermal Langerhans cell"
+    },
+    {
+     "id": "CL:0000312",
+     "conceptId": "CL0000312",
+     "label": "Keratinocyte"
+    },
+    {
+     "id": "CL:1000458",
+     "conceptId": "CL1000458",
+     "label": "Melanocyte of skin"
+    },
+    {
+     "id": "CL:0000242",
+     "conceptId": "CL0000242",
+     "label": "Merkel cell"
+    }
+   ]
+  },
+  {
+   "structure": "Stratum spinosum of epidermis",
+   "cells": [
+    {
+     "id": "CL:0002457",
+     "conceptId": "CL0002457",
+     "label": "Epidermal Langerhans cell"
+    },
+    {
+     "id": "CL:0000242",
+     "conceptId": "CL0000242",
+     "label": "Merkel cell"
+    },
+    {
+     "id": "CL:0000649",
+     "conceptId": "CL0000649",
+     "label": "Spinous cell of epidermis"
+    }
+   ]
+  },
+  {
+   "structure": "Bulb of hair follicle",
+   "cells": [
+    {
+     "id": "CL:0002483",
+     "conceptId": "CL0002483",
+     "label": "Hair follicle melanocyte"
+    },
+    {
+     "id": "CL:0002562",
+     "conceptId": "CL0002562",
+     "label": "Hair germinal matrix cell"
+    }
+   ]
+  },
+  {
+   "structure": "Nail plate",
+   "cells": [
+    {
+     "id": "CL:0000312",
+     "conceptId": "CL0000312",
+     "label": "Keratinocyte"
+    },
+    {
+     "id": "CL:4033056",
+     "conceptId": "CL4033056",
+     "label": "Onychocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Stratum granulosum of epidermis",
+   "cells": [
+    {
+     "id": "CL:0002457",
+     "conceptId": "CL0002457",
+     "label": "Epidermal Langerhans cell"
+    },
+    {
+     "id": "CL:0000312",
+     "conceptId": "CL0000312",
+     "label": "Keratinocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Apocrine gland",
+   "cells": [
+    {
+     "id": "CL:1000417",
+     "conceptId": "CL1000417",
+     "label": "Myoepithelial cell of sweat gland"
+    }
+   ]
+  },
+  {
+   "structure": "Eccrine sweat gland",
+   "cells": [
+    {
+     "id": "CL:1000417",
+     "conceptId": "CL1000417",
+     "label": "Myoepithelial cell of sweat gland"
+    }
+   ]
+  },
+  {
+   "structure": "Hair follicle",
+   "cells": [
+    {
+     "id": "CL:0002337",
+     "conceptId": "CL0002337",
+     "label": "Keratinocyte stem cell"
+    }
+   ]
+  },
+  {
+   "structure": "Sebaceous gland",
+   "cells": [
+    {
+     "id": "CL:0000317",
+     "conceptId": "CL0000317",
+     "label": "Sebocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Skin nerve field",
+   "cells": [
+    {
+     "id": "CL:0000540",
+     "conceptId": "CL0000540",
+     "label": "Neuron"
+    }
+   ]
+  },
+  {
+   "structure": "Stratum corneum of epidermis",
+   "cells": [
+    {
+     "id": "CL:0002153",
+     "conceptId": "CL0002153",
+     "label": "Corneocyte"
+    }
+   ]
+  },
+  {
+   "structure": "Vasculature of integument",
+   "cells": [
+    {
+     "id": "CL:0000115",
+     "conceptId": "CL0000115",
+     "label": "Endothelial cell"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "kind": "histology",
+   "url": "/histology/skin.jpg",
+   "organ": "skin",
+   "tissue": "skin",
+   "caption": "Skin tissue stained for arachidonate 12-lipoxygenase, 12R type (ALOX12B). Brown: ALOX12B protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of skin tissue with ALOX12B protein stained brown and cell nuclei stained blue.",
+   "gene": {
+    "symbol": "ALOX12B",
+    "name": "Arachidonate 12-lipoxygenase, 12R type",
+    "ensembl": "ENSG00000179477",
+    "uniprot": [
+     "O75342"
+    ]
+   },
+   "imageUrl": "https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg",
+   "pageUrl": "https://www.proteinatlas.org/ENSG00000179477-ALOX12B/tissue/skin",
+   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
+   "selection": "HPA tissue enriched gene for skin; IHC reliability supported, high expression",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.proteinatlas.org/about/licence",
+   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ALOX12B immunohistochemistry in skin, https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg. CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/skin-dermal-papilla.svg",
+   "name": "skin-dermal-papilla",
+   "label": "Papillary layer of dermis",
+   "cells": [
+    "CL:0000115",
+    "CL:0002620"
+   ],
+   "caption": "Functional tissue unit: papillary layer of dermis. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the papillary layer of dermis and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM223.PSTT.966",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Dermal Papilla FTU for Skin, v1.3. https://doi.org/10.48539/HBM223.PSTT.966. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/skin-epidermal-ridge.svg",
+   "name": "skin-epidermal-ridge",
+   "label": "Epidermal ridge of digit",
+   "cells": [
+    "CL:0000242",
+    "CL:0000646",
+    "CL:0000649",
+    "CL:0002457",
+    "CL:1000458"
+   ],
+   "caption": "Functional tissue unit: epidermal ridge of digit. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the epidermal ridge of digit and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2026. 2D Reference Epidermal Ridge FTU for Skin, v1.3. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  },
+  {
+   "kind": "ftu",
+   "url": "/ftu/skin-hair-follicle.svg",
+   "name": "skin-hair-follicle",
+   "label": "Hair follicle",
+   "cells": [
+    "CL:0000317",
+    "CL:0002337",
+    "CL:0002483",
+    "CL:0002562",
+    "CL:1000417"
+   ],
+   "caption": "Functional tissue unit: hair follicle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the hair follicle and its cell types.",
+   "doi": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bajema, Rachel. 2024. Skin, Hair Follicle 2D FTU v.1.2. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+  }
+ ]
+}

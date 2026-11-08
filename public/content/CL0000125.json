@@ -1,0 +1,129 @@
+{
+ "id": "CL:0000125",
+ "conceptId": "CL0000125",
+ "label": "Glial cell",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "neuroglial cell"
+ ],
+ "xrefs": {
+  "CL": "0000125"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000125/tier1.auto.md",
+   "text": "A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000125",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000125",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000125",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000125",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000125. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000125",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000125",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:5884",
+   "conceptId": "FMA5884",
+   "label": "Ganglion",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: peripheral nervous system v1.3",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM723.RQGG.438"
+    }
+   ],
+   "alternates": [
+    "UBERON0000045"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004548"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: eye v1.5",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM564.BKPQ.873"
+    }
+   ],
+   "alternates": [
+    "UBERON0004549"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:61284",
+   "conceptId": "FMA61284",
+   "label": "Neural tree organ",
+   "tissue": [
+    "/tissue/FMA61284.json"
+   ]
+  }
+ }
+}

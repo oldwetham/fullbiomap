@@ -12,10 +12,12 @@ const ORGAN = 'FMA:67498';
 const SCALES = ['body', 'system', 'organ', 'tissue', 'cell', 'organelle', 'molecule'];
 const STATUSES = ['missing', 'auto', 'drafted', 'reviewed', 'verified'];
 const CONNECTIONS = ['arterial_supply', 'venous_drainage', 'nerve_supply', 'lymphatic_drainage', 'branch_of',
-  'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with'];
+  'tributary_of', 'attaches_to', 'articulates_with', 'continuous_with', 'located_in', 'component_of'];
+const CELL_SCALES = new Set(['cell', 'organelle']);
 const RELS = ['is_a', 'part_of', ...CONNECTIONS];
 const SOURCE_LABEL = {curated: 'Curated text (tier1.md)', ncit: 'NCIt definition', uberon: 'Uberon definition', fma: 'FMA definition',
-  hierarchy: 'Generated from FMA hierarchy', 'hierarchy-bp3d': 'Generated from BodyParts3D hierarchy', 'hierarchy-hra': 'Generated from HRA 3D hierarchy', none: 'No tier-1 text'};
+  hierarchy: 'Generated from FMA hierarchy', 'hierarchy-bp3d': 'Generated from BodyParts3D hierarchy', 'hierarchy-hra': 'Generated from HRA 3D hierarchy', cl: 'Cell Ontology definition', go: 'Gene Ontology definition',
+  'hierarchy-asctb': 'Generated from HRA ASCT+B table', none: 'No tier-1 text'};
 
 const errors = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -36,12 +38,16 @@ for (const [object, m] of Object.entries(hraModels)) {
   if (!fs.existsSync(path.join(root, where, m.manifest))) { fail(object, `manifest ${where}${m.manifest} missing`); continue; }
   for (const c of JSON.parse(read(`${where}${m.manifest}`)).concepts) { hraConceptIds.add(c.id); if (!index.has(c.id)) fail(`${object} ${c.id}`, 'HRA concept has no content file'); }
 }
-for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId)) fail(n.id, 'node is neither an atlas nor an HRA concept');
+// Phase 4: the generic cell model's concepts need nodes too.
+const cellModel = 'public/models/cell/generic-cell.json';
+const cellConceptIds = new Set(fs.existsSync(path.join(root, cellModel)) ? JSON.parse(read(cellModel)).concepts.map(c => c.id) : []);
+for (const c of cellConceptIds) if (!index.has(c)) fail(`cell model ${c}`, 'concept has no content file');
+for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId) && !CELL_SCALES.has(n.scale)) fail(n.id, 'node is neither an atlas nor an HRA concept');
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
 for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : []) {
   if (!fs.existsSync(path.join(root, 'public', o.manifest))) fail(o.object, `standalone organ model ${o.manifest} missing`);
-  const node = byId.get(o.conceptId.startsWith('UBERON') ? `UBERON:${o.conceptId.slice(6)}` : `FMA:${o.conceptId.slice(3)}`);
+  const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
   if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);
 }
 
@@ -62,13 +68,16 @@ function checkTier(id, name, t, served) {
 
 const entryCount = {}, bySource = {}, organBySource = {}, byStatus = {}, byScale = {};
 for (const n of nodes) {
-  if (!/^(FMA|UBERON):\d+$/.test(n.id) || n.conceptId !== n.id.replace(':', '')) fail(n.id, 'bad id or conceptId');
+  if (!/^(FMA|UBERON|CL|GO):\d+$/.test(n.id) || n.conceptId !== n.id.replace(':', '')) fail(n.id, 'bad id or conceptId');
   if (!SCALES.includes(n.scale)) fail(n.id, `bad scale ${n.scale}`);
-  if (!systems.has(n.system)) fail(n.id, `bad system ${n.system}`);
+  if (CELL_SCALES.has(n.scale) ? n.system !== null && !systems.has(n.system) : !systems.has(n.system)) fail(n.id, `bad system ${n.system}`);
+  if (n.scale === 'cell' && n.id !== 'CL:0000000' && !(n.connections ?? []).some(c => c.rel === 'located_in')) fail(n.id, 'cell type has no located_in');
+  if (n.scale === 'organelle' && !(n.connections ?? []).some(c => c.rel === 'component_of')) fail(n.id, 'organelle has no component_of');
   if (!n.label?.trim()) fail(n.id, 'no label');
   if (!n.geometry?.male?.length && !n.geometry?.female?.length && !n.geometry?.models?.length) fail(n.id, 'no geometry in any body or model');
   for (const [sex, urls] of Object.entries(n.geometry?.interior ?? {})) for (const u of urls) if (!fs.existsSync(path.join(root, 'public', u))) fail(n.id, `${sex} interior ${u} missing`);
-  if (!n.ladder || !systems.has(n.ladder.system)) fail(n.id, 'no ladder');
+  if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');
+  for (const t of n.ladder?.organ?.tissue ?? []) if (!fs.existsSync(path.join(root, 'public', t))) fail(n.id, `tissue board ${t} missing`);
   if (n.ladder?.organ && !byId.has(n.ladder.organ.id)) fail(n.id, `ladder organ ${n.ladder.organ.id} is not a node`);
   if (n.content?.tier1?.status === 'missing') fail(n.id, 'no tier-1 text');
   if (!index.has(n.conceptId)) fail(n.id, 'missing from public/content/index.json');
@@ -96,7 +105,21 @@ for (const n of nodes) {
   s.nodes++;
   for (const k of ['tier1', 'tier2', 'tier3']) if (n.content[k].status !== 'missing') s[k]++;
 }
-for (const id of index) if (!byId.has(id.startsWith('UBERON') ? `UBERON:${id.slice(6)}` : `FMA:${id.slice(3)}`)) fail(id, 'index lists an id with no node');
+for (const id of index) if (!byId.has(id.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'))) fail(id, 'index lists an id with no node');
+// Tissue boards and their media.
+const tissueDir = path.join(root, 'public/tissue');
+for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
+  const b = JSON.parse(fs.readFileSync(path.join(tissueDir, f), 'utf8')), where = `tissue/${f}`;
+  if (!byId.has(b.organ?.id)) fail(where, 'board organ is not a node');
+  for (const g of b.groups ?? []) for (const c of g.cells) if (!byId.has(c.id)) fail(where, `cell type ${c.id} is not a node`);
+  for (const t of b.tables ?? []) if (!t.doi || !t.version) fail(where, `table ${t.name} needs version and DOI`);
+  for (const m of b.media ?? []) {
+    if (!m.url || !fs.existsSync(path.join(root, 'public', m.url))) fail(where, `media ${m.url} missing`);
+    if (!m.license || !m.attribution || !m.caption || !m.alt) fail(where, `media ${m.url} needs license, attribution, caption and alt text`);
+    if (m.kind === 'histology' && (!m.gene?.symbol || !m.gene?.ensembl || !m.imageUrl || !m.pageUrl)) fail(where, `histology ${m.url} needs its gene and exact image link`);
+    if (mentionsWikipedia(m)) fail(where, 'Wikipedia media is not allowed');
+  }
+}
 const relCount = {}, relSources = {};
 for (const e of edges) {
   if (!byId.has(e.from) || !byId.has(e.to)) fail(`${e.from}→${e.to}`, 'dangling edge');

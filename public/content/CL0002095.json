@@ -1,0 +1,98 @@
+{
+ "id": "CL:0002095",
+ "conceptId": "CL0002095",
+ "label": "Hilus cell of ovary",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "hilar cell of ovary"
+ ],
+ "xrefs": {
+  "CL": "0002095"
+ },
+ "geometry": {
+  "models": [
+   "/models/cell/generic-cell.json"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0002095/tier1.auto.md",
+   "text": "A cell in the hilum of the ovary that produces androgens.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0002095",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002095",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0002095",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002095",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002095. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0002095",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002095",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002119",
+   "conceptId": "UBERON0002119",
+   "label": "Left ovary",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: ovary v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM485.CWTF.743"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002118",
+   "conceptId": "UBERON0002118",
+   "label": "Right ovary",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: ovary v1.4",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM485.CWTF.743"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

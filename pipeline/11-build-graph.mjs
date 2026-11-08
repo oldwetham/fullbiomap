@@ -102,7 +102,7 @@ const majority = counts => Object.entries(counts).sort((a, b) => b[1] - a[1] || 
 const maleByConcept = new Map(nodes.map(n => [n.conceptId, n]));
 const hraConcepts = new Map();
 for (const [object, m] of Object.entries(hraModels)) {
-  const data = JSON.parse(read(`public${m.manifest}`)), sys = new Map(data.parts.map(p => [p.id, p.system]));
+  const data = JSON.parse(read(`${m.archived ? 'archive/public' : 'public'}${m.manifest}`)), sys = new Map(data.parts.map(p => [p.id, p.system]));
   for (const c of data.concepts) {
     const e = hraConcepts.get(c.id) ?? {name: c.name, female: [], objects: [], systems: {}};
     if (m.kind === 'body') e.female.push(...c.elements);

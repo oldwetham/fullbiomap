@@ -27,8 +27,9 @@ Run `npm run check && node scripts/validate-atlas.mjs && node scripts/validate-i
 
 - `app/` — the whole app (~55 KB of TypeScript). `components/`, `hooks/`, `lib/` are shadcn support.
 - `scripts/` — existing Human Atlas geometry pipeline (convert, optimize, compress, validate).
-- `public/models/` — male `atlas.json` + `body-0..14.bin(.gz)`; `female/atlas.json` + `female-*.bin.gz` (HRA, gzip-only); `organs/<hra-object>.json` + chunks (organ interiors, gzip-only, normalized onto the stage); `bodies.json` (per-system counts for the coverage note).
+- `public/models/` — male `atlas.json` + `body-0..14.bin(.gz)`; `organs/<hra-object>.json` + chunks (organ interiors, gzip-only, normalized onto the stage); `bodies.json` (per-system counts for the coverage note).
 - `pipeline/` — numbered build steps, run in this order: 00 fetch BodyParts3D, 01 maps, geometry scripts, 04 fetch HRA v2.5, 06 ontology, 05 HRA → manifests, 07 tier-1 text, 11 graph, 12 validate; `_http.py` is the cached, throttled fetcher every networked step must use.
+- `archive/` — converted assets kept but not deployed: the disabled female body (`archive/public/models/female/`); see `archive/README.md`.
 - `data/` (gitignored) — raw downloads, `data/build/`, and `data/cache/<host>/` (every API response, gzip).
 - `graph/` — `defs.jsonl` (ontology facts per concept), `edges.fma.jsonl` (all FMA is_a/part_of), `nodes.jsonl` + `edges.jsonl` (the graph: atlas concepts only), `sources.json` (ontology versions/licenses).
 - `content/FMA_<n>/tier<k>.md` — curated text (never overwritten by the pipeline); `tier<k>.auto.md` — pipeline drafts. Front matter is one `key: <JSON value>` per line between `---` fences.

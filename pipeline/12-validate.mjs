@@ -32,8 +32,9 @@ for (const c of conceptIds) if (!byId.has(`FMA:${c.slice(3)}`)) fail(c, 'atlas c
 const hraModels = fs.existsSync(path.join(root, 'graph/hra-models.json')) ? JSON.parse(read('graph/hra-models.json')).models : {};
 const hraConceptIds = new Set();
 for (const [object, m] of Object.entries(hraModels)) {
-  if (!fs.existsSync(path.join(root, 'public', m.manifest))) { fail(object, `manifest ${m.manifest} missing`); continue; }
-  for (const c of JSON.parse(read(`public${m.manifest}`)).concepts) { hraConceptIds.add(c.id); if (!index.has(c.id)) fail(`${object} ${c.id}`, 'HRA concept has no content file'); }
+  const where = m.archived ? 'archive/public' : 'public';  // archived: converted but not deployed (female body)
+  if (!fs.existsSync(path.join(root, where, m.manifest))) { fail(object, `manifest ${where}${m.manifest} missing`); continue; }
+  for (const c of JSON.parse(read(`${where}${m.manifest}`)).concepts) { hraConceptIds.add(c.id); if (!index.has(c.id)) fail(`${object} ${c.id}`, 'HRA concept has no content file'); }
 }
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId)) fail(n.id, 'node is neither an atlas nor an HRA concept');
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.

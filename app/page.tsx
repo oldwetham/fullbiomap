@@ -16,6 +16,7 @@ const writeHash=(hash:string)=>{if(location.hash===hash||(!hash&&!location.hash)
 const canInflate=typeof DecompressionStream!=='undefined';
 /** Default systems per body. The female reference has no muscle layer, so its see-through skin (Body surface) is on by default as the body outline; the male's muscles already give one. */
 const defaultVisible=(b:Body):SystemId[]=>b==='female'?[...DEFAULT_VISIBLE,'integumentary']:DEFAULT_VISIBLE;
+// female: archived (archive/public/models/female, not deployed) while the female whole-body view is disabled.
 const BODY_URL:Record<Body,string>={male:'/models/atlas.json',female:'/models/female/atlas.json'};
 /** Organs opened on their own stage, outside any body (public/models/organs/standalone.json, step 11). */
 interface Standalone {object:string;group:string;groupLabel:string;label:string;terms:string[];manifest:string;conceptId:string}

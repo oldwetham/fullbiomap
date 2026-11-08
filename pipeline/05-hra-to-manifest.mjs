@@ -4,7 +4,8 @@
 // Inputs: data/raw/hra/v2.5/<object>/<file>.glb + crosswalk.csv (step 04), graph/defs.jsonl
 // (Uberon <-> FMA xrefs), public/models/atlas.json (male systems), pipeline/maps/hra-organ-systems.json.
 // Outputs, then optimized (weld + simplify) and gzip-only compressed by the existing scripts:
-//   public/models/female/atlas.json   the united female body; feet on the stage like the male
+//   archive/public/models/female/atlas.json   the united female body (disabled, not deployed; built in
+//                                      public/ and then moved to archive/); feet on the stage like the male
 //   public/models/organs/<object>.json one interior per organ GLB, normalized onto the stage
 //                                      (centered, base on the platform, largest side 1.4 m)
 //   graph/hra-models.json             what each manifest is and which structure it attaches to
@@ -202,7 +203,8 @@ function write(kind, object, result) {
 
 const only = process.argv.slice(2);
 // The female whole-body view is disabled (2026-11-07: HRA models only some of the female organs). Its
-// converted files stay in public/models/female/ and are not rebuilt unless BIOMAP_FEMALE_BODY=1 or it is named.
+// converted files stay in archive/public/models/female/ (not deployed) and are not rebuilt unless
+// BIOMAP_FEMALE_BODY=1 or it is named.
 const femaleBody = process.env.BIOMAP_FEMALE_BODY === '1' || only.includes('united-female');
 const objects = Object.keys(release.objects).filter(o => !o.startsWith('asct-b') && (!only.length || only.includes(o)) && (o !== 'united-female' || femaleBody));
 const treeFile = rel('graph/hra-tree.jsonl');
@@ -216,6 +218,13 @@ for (const object of objects) {
   const attachTo = kind === 'organ' && result.rootId ? (sex === 'male' ? maleEquivalent(result.rootId) : compact(result.rootId)) : null;
   models.models[object] = {kind, sex, version: release.objects[object].version, manifest: `/models/${manifest}`, parts: result.parts.length,
     concepts: result.concepts.length, unmappedMeshes: result.unmapped, rootConceptId: result.rootId && compact(result.rootId), attachTo, organ: result.organ};
+  if (kind === 'body') {  // disabled view: keep the converted body out of public/ (not deployed)
+    const archived = rel('archive/public/models/female');
+    fs.rmSync(archived, {recursive: true, force: true});
+    fs.mkdirSync(path.dirname(archived), {recursive: true});
+    fs.renameSync(rel('public/models/female'), archived);
+    models.models[object].archived = true;
+  }
   for (const k of [...treeEdges.keys()]) if (k.startsWith(`${object}|`)) treeEdges.delete(k);
   for (const e of result.tree) treeEdges.set(`${object}|${e.from}|${e.to}`, {object, ...e});
   console.log(`${object}: ${result.parts.length} parts, ${result.concepts.length} concepts, ${result.unmapped} unmapped meshes, attach ${attachTo ?? '-'}`);
@@ -223,10 +232,10 @@ for (const object of objects) {
 fs.writeFileSync(rel('graph/hra-models.json'), JSON.stringify(models, null, 1) + '\n');
 // Per-system part counts for both bodies: the UI's honest coverage note reads these.
 const bySystem = file => { const m = JSON.parse(fs.readFileSync(rel(file), 'utf8')), n = {}; for (const p of m.parts) n[p.system] = (n[p.system] ?? 0) + 1; return {parts: m.parts.length, bySystem: n}; };
-if (fs.existsSync(rel('public/models/female/atlas.json'))) {
-  fs.writeFileSync(rel('public/models/bodies.json'), JSON.stringify({
+if (fs.existsSync(rel('archive/public/models/female/atlas.json'))) {
+  fs.writeFileSync(rel('archive/public/models/bodies.json'), JSON.stringify({
     male: {label: 'Male', source: 'BodyParts3D 4.0', manifest: '/models/atlas.json', ...bySystem('public/models/atlas.json')},
-    female: {label: 'Female', source: `HRA ${release.release} united female ${release.objects['united-female'].version}`, manifest: '/models/female/atlas.json', gzipOnly: true, ...bySystem('public/models/female/atlas.json')},
+    female: {label: 'Female', source: `HRA ${release.release} united female ${release.objects['united-female'].version}`, manifest: '/models/female/atlas.json', gzipOnly: true, ...bySystem('archive/public/models/female/atlas.json')},
   }, null, 1) + '\n');
 }
 fs.writeFileSync(treeFile, [...treeEdges.values()].sort((a, b) => a.object.localeCompare(b.object) || a.from.localeCompare(b.from) || a.to.localeCompare(b.to)).map(e => JSON.stringify(e)).join('\n') + '\n');

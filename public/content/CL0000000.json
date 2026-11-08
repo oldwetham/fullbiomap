@@ -72,7 +72,8 @@
    "GO:0030424",
    "GO:0030425",
    "GO:0031091",
-   "GO:0042827"
+   "GO:0042827",
+   "GO:0042995"
   ],
   "out": []
  },
@@ -389,6 +390,21 @@
      "name": "Gene Ontology",
      "license": "CC BY 4.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042827"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0042995",
+   "conceptId": "GO0042995",
+   "label": "Cell processes",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042995"
     }
    ]
   }

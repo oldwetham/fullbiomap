@@ -3,6 +3,7 @@
  "families": {
   "generic": {"file": "generic-cell", "label": "Generic cell"},
   "immune": {"file": "round-immune-cell", "label": "Round immune cell"},
+  "branched-immune": {"file": "branched-immune-cell", "label": "Branched immune cell"},
   "red-blood-cell": {"file": "red-blood-cell", "label": "Red blood cell", "nucleus": false, "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin')."},
   "platelet": {"file": "platelet", "label": "Platelet", "nucleus": false, "noNucleus": "Platelets have no nucleus (Cell Ontology: 'A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes')."},
   "neuron": {"file": "neuron", "label": "Neuron"},
@@ -26,6 +27,9 @@
   {"cl": "CL:0001070", "label": "beige adipocyte", "family": "generic", "note": "Its many small lipid droplets do not fit the fat cell shape, which has one large droplet."},
   {"cl": "CL:0000449", "label": "brown fat cell", "family": "generic", "note": "Its many small lipid droplets do not fit the fat cell shape, which has one large droplet."},
   {"cl": "CL:0000136", "label": "adipocyte", "family": "fat-cell"},
+  {"cl": "CL:0000129", "label": "microglial cell", "family": "branched-immune", "note": "Resting microglia reach out with long, branching processes."},
+  {"cl": "CL:0000453", "label": "Langerhans cell", "family": "branched-immune", "note": "Langerhans cells spread long processes between the cells of the epidermis."},
+  {"cl": "CL:0000451", "label": "dendritic cell", "family": "branched-immune", "note": "Dendritic cells are named for their long, branching processes."},
   {"cl": "CL:0000738", "label": "leukocyte", "family": "immune"},
   {"cl": "CL:0000185", "label": "myoepithelial cell", "family": "generic", "note": "Contractile, star-shaped cells around gland units."},
   {"cl": "CL:1000708", "label": "ureter adventitial cell", "family": "generic", "note": "Cell Ontology files it under endothelial cell, but it is a fibroblast-like cell of the ureter's outer coat."},

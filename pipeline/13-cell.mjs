@@ -206,6 +206,44 @@ function immuneCell(add) {
   add('cytoskeleton', 'Cytoskeleton', join(Array.from({length: 22}, () => { const d = unit(), end = centre.clone(); while (inside(end.clone().addScaledVector(d, 0.02))) end.addScaledVector(d, 0.02); return end.distanceTo(centre) > 0.08 ? filament(centre, end) : null; })));
 }
 
+// Branched immune cell (microglia, dendritic and Langerhans cells): a small round body with several long, branching
+// processes reaching out in every direction; no axon.
+function branchedImmuneCell(add) {
+  const C = V(0, 0.68, 0), R = 0.27, N = C.clone().add(V(-0.03, 0.02, 0.04)), NR = 0.15, notch = V(0.6, 0.3, 0.7).normalize();
+  const dirs = [];  // spread over the sphere (a golden-angle spiral), jittered; none points steeply into the floor
+  for (let k = 0; k < 8; k++) { const y = 0.9 - (k / 7) * 1.4, r = Math.sqrt(1 - y * y), t = k * 2.39996 + 0.6; dirs.push(V(r * Math.cos(t), y, r * Math.sin(t)).add(unit().multiplyScalar(0.25)).normalize()); }
+  add('membrane', 'Cell membrane', displace(new THREE.SphereGeometry(1, 96, 64), v => {
+    const d = v.clone().normalize(); let w = 1;
+    for (const p of dirs) w += 0.35 * Math.max(0, d.dot(p)) ** 10;
+    v.multiplyScalar(R * w).add(C);
+  }), {layer: 'envelope'});
+  // Points heading along dir with small bends, turning up before they reach the floor.
+  const reach = (start, dir, steps, step, bend) => wander(start, dir, steps, step, bend).map(p => { if (p.y < 0.1) p.y = 0.1 + (0.1 - p.y) * 0.3; return p; });
+  const processes = [];
+  for (const d of dirs) {
+    const main = reach(C.clone().addScaledVector(d, R * 1.05), d, 5 + Math.floor(rand() * 3), 0.085, 0.28);
+    processes.push(taperedTube(main, 0.038, 0.009));
+    for (const i of [2, 4]) {
+      if (i >= main.length - 1) continue;
+      const branch = reach(main[i], d.clone().add(unit().multiplyScalar(0.9)).normalize(), 3, 0.07, 0.35);
+      processes.push(taperedTube(branch, 0.018, 0.005));
+      if (rand() < 0.6) processes.push(taperedTube(reach(branch[2], unit().add(d).normalize(), 2, 0.05, 0.4), 0.009, 0.004));
+    }
+  }
+  add('cell-projection', 'Cell processes', join(processes));
+  add('nucleus', 'Nucleus', displace(new THREE.SphereGeometry(NR, 64, 40), v => { const d = v.clone().normalize(); v.multiplyScalar(1 - 0.25 * Math.max(0, d.dot(notch)) ** 4).add(N); }), {layer: 'shell'});
+  add('nucleolus', 'Nucleolus', sphere(N.clone().add(V(-0.04, 0.03, 0.02)), 0.032, 18, 12));
+  const inBody = (gap, margin) => pick(C, V(R, R, R), p => p.distanceTo(C) < R - margin && p.distanceTo(N) > NR + gap);
+  const er = erSheets(N, NR + 0.03, 1, 0.02);
+  add('rough-er', 'Rough endoplasmic reticulum', er.sheets);
+  add('ribosome', 'Ribosomes', ribosomes([...er.spots, ...Array.from({length: 30}, () => inBody(0.02, 0.03))]));
+  const G = N.clone().addScaledVector(notch, NR * 0.75 + 0.05);
+  add('golgi', 'Golgi apparatus', golgiStack(G, notch, 0.045, 3));
+  add('mitochondrion', 'Mitochondria', join(Array.from({length: 5}, () => capsule(inBody(0.03, 0.05), unit(), 0.015, 0.04))));
+  add('lysosome', 'Lysosomes', join(Array.from({length: 9}, () => sphere(inBody(0.025, 0.04), between(0.014, 0.022), 12, 8))));
+  add('cytoskeleton', 'Cytoskeleton', join(dirs.flatMap(d => [0, 1].map(() => filament(G.clone().add(unit().multiplyScalar(0.02)), C.clone().addScaledVector(d, R * 1.3), 0.003, 0.02)))));
+}
+
 // Red blood cell: a biconcave disc (Evans & Fung 1972 shape) of hemoglobin-filled cytoplasm. No nucleus, no organelles.
 function redBloodCell(add) {
   const R = 0.66, C = V(0, 0.74, 0);
@@ -410,7 +448,7 @@ function epithelialCell(add, family, apical, noNucleus) {
 
 const BUILDERS = {
   'generic': (add, apical, noNucleus) => noNucleus ? genericNoNucleus(add) : genericCell(add),
-  'immune': immuneCell, 'red-blood-cell': redBloodCell, 'platelet': platelet, 'neuron': neuron,
+  'immune': immuneCell, 'branched-immune': branchedImmuneCell, 'red-blood-cell': redBloodCell, 'platelet': platelet, 'neuron': neuron,
   'cardiomyocyte': cardiomyocyte, 'skeletal-muscle-fiber': skeletalFiber, 'fat-cell': fatCell,
   'flat-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'flat-epithelial', apical, noNucleus),
   'cube-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'cube-epithelial', apical, noNucleus),

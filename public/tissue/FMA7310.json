@@ -89,17 +89,18 @@
      "id": "CL:0002394",
      "conceptId": "CL0002394",
      "label": "CD141-positive myeloid dendritic cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/branched-immune-cell.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "branched-immune",
+      "label": "Branched immune cell",
+      "variant": "branched-immune-cell",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
-      }
+       "id": "CL:0000451",
+       "label": "dendritic cell"
+      },
+      "note": "Dendritic cells are named for their long, branching processes."
      }
     },
     {
@@ -123,17 +124,18 @@
      "id": "CL:0002399",
      "conceptId": "CL0002399",
      "label": "CD1c-positive myeloid dendritic cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/branched-immune-cell.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "branched-immune",
+      "label": "Branched immune cell",
+      "variant": "branched-immune-cell",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
-      }
+       "id": "CL:0000451",
+       "label": "dendritic cell"
+      },
+      "note": "Dendritic cells are named for their long, branching processes."
      }
     },
     {
@@ -242,17 +244,18 @@
      "id": "CL:4033045",
      "conceptId": "CL4033045",
      "label": "Lung migratory dendritic cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/branched-immune-cell.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "branched-immune",
+      "label": "Branched immune cell",
+      "variant": "branched-immune-cell",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
-      }
+       "id": "CL:0000451",
+       "label": "dendritic cell"
+      },
+      "note": "Dendritic cells are named for their long, branching processes."
      }
     },
     {
@@ -480,17 +483,18 @@
      "id": "CL:0000784",
      "conceptId": "CL0000784",
      "label": "Plasmacytoid dendritic cell",
-     "model": "/models/cell/round-immune-cell.json",
+     "model": "/models/cell/branched-immune-cell.json",
      "shape": {
-      "family": "immune",
-      "label": "Round immune cell",
-      "variant": "round-immune-cell",
+      "family": "branched-immune",
+      "label": "Branched immune cell",
+      "variant": "branched-immune-cell",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000738",
-       "label": "leukocyte"
-      }
+       "id": "CL:0000451",
+       "label": "dendritic cell"
+      },
+      "note": "Dendritic cells are named for their long, branching processes."
      }
     },
     {

@@ -6,14 +6,70 @@
  },
  "tables": [
   {
+   "name": "bone-marrow",
+   "version": "v1.6",
+   "doi": "https://doi.org/10.48539/HBM885.LVBB.378",
+   "citation": "Haniffa, Muzlifah A.,\tLaura Jardine,\tand Sarah A. Teichmann.\t 2026.\t\"HuBMAP ASCT+B Tables. Bone Marrow v1.6.\"\t https://doi.org/10.48539/HBM885.LVBB.378.\tAccessed June 15, 2026."
+  },
+  {
    "name": "skeleton",
    "version": "v1.3",
    "doi": "https://doi.org/10.48539/HBM449.KQWN.983",
    "citation": "Gustilo, Katherine S.,\tand Griffin Weber.\t 2024.\t\"Skeleton, v1.1.\"\t https://doi.org/10.48539/HBM449.KQWN.983.\tAccessed June 15, 2026."
   }
  ],
- "cellCount": 1,
+ "cellCount": 4,
  "groups": [
+  {
+   "structure": "Bone marrow",
+   "cells": [
+    {
+     "id": "CL:0000138",
+     "conceptId": "CL0000138",
+     "label": "Chondrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
+    },
+    {
+     "id": "CL:0000062",
+     "conceptId": "CL0000062",
+     "label": "Osteoblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
+    },
+    {
+     "id": "CL:0000092",
+     "conceptId": "CL0000092",
+     "label": "Osteoclast",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
+    }
+   ]
+  },
   {
    "structure": "Accessory process of fifth lumbar vertebra",
    "cells": [

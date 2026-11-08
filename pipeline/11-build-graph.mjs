@@ -289,11 +289,17 @@ for (const o of Object.values(tissueMap.organs)) for (const t of o.tables ?? [])
 const boards = new Map();
 const boardFor = organ => { if (!boards.has(organ.id)) boards.set(organ.id, {organ: {id: organ.id, conceptId: organ.conceptId, label: organ.label}, tables: new Map(), groups: new Map(), media: []}); return boards.get(organ.id); };
 const cellPlaces = new Map(), cellLabel = new Map();
+// Rows whose structures are not in the body model (pipeline/maps/asctb-fixes.json): 'onto' names where a table's rows go;
+// 'withCell' puts the listed cells wherever another table placed that cell (handled after the other rows).
+const placementFixes = JSON.parse(read('pipeline/maps/asctb-fixes.json')).placements;
+const ontoFix = new Map(placementFixes.filter(f => f.onto).map(f => [f.table, f.onto.map(id => byId.get(id)).filter(Boolean)]));
+const withCellFix = placementFixes.filter(f => f.withCell), laterRows = [];
 let rowsUnplaced = 0;
 for (const row of asctb) {
   let deepest = null;
   for (let k = row.chain.length - 1; k >= 0 && !deepest; k--) deepest = nodeForStructure(row.chain[k][0]);
-  const organs = tableOrgans.get(row.table);
+  const organs = tableOrgans.get(row.table) ?? (deepest ? null : ontoFix.get(row.table));
+  if (!organs && !deepest && withCellFix.some(f => f.table === row.table && row.cellTypes.some(([cl]) => f.cells.includes(cl)))) { laterRows.push(row); continue; }
   let placed, onBoards;
   if (organs?.length) {  // an organ table: its organ's board; the deepest structure if it lies inside that organ
     const o = deepest && organOf(deepest), inside = o && organs.some(m => o.id === m.id || o.ancestors.includes(m.id));
@@ -326,6 +332,23 @@ const tiersFor = id => { const dir = id.replace(':', '_'); return {tier1: tierEn
 const sourcesOf = content => { const out = []; for (const t of Object.values(content)) for (const x of t.sources ?? []) if (!out.some(y => y.url === x.url)) out.push(x); return out; };
 const cellEdges = [];
 // Cell types.
+// 'withCell' placements: e.g. osteoblasts, osteoclasts and chondrocytes from the bone marrow table go wherever bone cells are.
+for (const row of laterRows) for (const fix of withCellFix.filter(f => f.table === row.table)) {
+  const cells = row.cellTypes.filter(([cl]) => fix.cells.includes(cl)), where = [...(cellPlaces.get(fix.withCell)?.keys() ?? [])].map(id => byId.get(id)).filter(Boolean);
+  if (!cells.length || !where.length) { rowsUnplaced++; continue; }
+  const info = hraRelease.tables[row.table], structure = row.chain.at(-1)[1];
+  for (const organ of new Set(where.map(organOf))) {
+    const b = boardFor(organ);
+    b.tables.set(row.table, {name: row.table, version: info.version, doi: info.doi, citation: info.citation});
+    if (!b.groups.has(structure)) b.groups.set(structure, new Map());
+    for (const [cl] of cells) b.groups.get(structure).set(cl, true);
+  }
+  for (const [cl, label] of cells) {
+    cellLabel.set(cl, cellLabel.get(cl) ?? label);
+    if (!cellPlaces.has(cl)) cellPlaces.set(cl, new Map());
+    for (const a of where) { if (!cellPlaces.get(cl).has(a.id)) cellPlaces.get(cl).set(a.id, new Set()); cellPlaces.get(cl).get(a.id).add(row.table); }
+  }
+}
 for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0]))) {
   if (cl === 'CL:0000000') continue;
   const content = tiersFor(cl), d = cellDefs.get(cl), first = byId.get([...places.keys()][0]);
@@ -408,7 +431,7 @@ fs.writeFileSync(path.join(root, 'public/models/organs/standalone.json'), JSON.s
   if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
   const node = byId.get(m.rootConceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
   return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId,
-    tissue: node?.ladder?.organ?.tissue ?? []};  // its tissue boards (Zoom in from the organ on its own stage)
+    tissue: node?.ladder?.organ?.tissue?.length ? node.ladder.organ.tissue : tissueOf(node)};  // its tissue boards (Zoom in from the organ on its own stage)
 }), null, 1) + '\n');
 fs.writeFileSync(path.join(root, 'graph/interiors.json'), JSON.stringify(interiorReport.sort((a, b) => a.object.localeCompare(b.object)), null, 1) + '\n');
 // reports/hra.md: bodies, and which organs have interiors in each.

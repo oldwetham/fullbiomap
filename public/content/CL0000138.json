@@ -1,0 +1,2331 @@
+{
+ "id": "CL:0000138",
+ "conceptId": "CL0000138",
+ "label": "Chondrocyte",
+ "scale": "cell",
+ "system": null,
+ "synonyms": [
+  "cartilage cell"
+ ],
+ "xrefs": {
+  "CL": "0000138"
+ },
+ "geometry": {
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": null
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/CL_0000138/tier1.auto.md",
+   "text": "A skeletogenic cell that secretes a specialized, avascular, GAG-rich matrix, is embedded in cartilage tissue matrix, retains the ability to divide, and develops from a chondroblast cell.",
+   "source": {
+    "kind": "cl",
+    "name": "Cell Ontology",
+    "term": "CL:0000138",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000138",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology CL:0000138",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000138",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000138. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Cell Ontology CL:0000138",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000138",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12519",
+   "conceptId": "FMA12519",
+   "label": "Atlas",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001092"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12520",
+   "conceptId": "FMA12520",
+   "label": "Axis",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001093"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7487",
+   "conceptId": "FMA7487",
+   "label": "Body of sternum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0006820"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24496",
+   "conceptId": "FMA24496",
+   "label": "Calcaneus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001450"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23727",
+   "conceptId": "FMA23727",
+   "label": "Capitate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001432"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9915",
+   "conceptId": "FMA9915",
+   "label": "Cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002413"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13321",
+   "conceptId": "FMA13321",
+   "label": "Clavicle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001105"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0001350",
+   "conceptId": "UBERON0001350",
+   "label": "Coccyx",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24527",
+   "conceptId": "FMA24527",
+   "label": "Cuboid bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001455"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32627",
+   "conceptId": "FMA32627",
+   "label": "Distal phalanx of big toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004315"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32630",
+   "conceptId": "FMA32630",
+   "label": "Distal phalanx of fourth toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004318"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23946",
+   "conceptId": "FMA23946",
+   "label": "Distal phalanx of index finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004311"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23949",
+   "conceptId": "FMA23949",
+   "label": "Distal phalanx of little finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004314"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32631",
+   "conceptId": "FMA32631",
+   "label": "Distal phalanx of little toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004319"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23947",
+   "conceptId": "FMA23947",
+   "label": "Distal phalanx of middle finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004312"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23948",
+   "conceptId": "FMA23948",
+   "label": "Distal phalanx of ring finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004313"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32628",
+   "conceptId": "FMA32628",
+   "label": "Distal phalanx of second toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004316"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32629",
+   "conceptId": "FMA32629",
+   "label": "Distal phalanx of third toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004317"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23945",
+   "conceptId": "FMA23945",
+   "label": "Distal phalanx of thumb",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004337"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8120",
+   "conceptId": "FMA8120",
+   "label": "Eighth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0010757"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9991",
+   "conceptId": "FMA9991",
+   "label": "Eighth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0011050"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8499",
+   "conceptId": "FMA8499",
+   "label": "Eleventh rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004610"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:10059",
+   "conceptId": "FMA10059",
+   "label": "Eleventh thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004635"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52740",
+   "conceptId": "FMA52740",
+   "label": "Ethmoid",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001679"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9611",
+   "conceptId": "FMA9611",
+   "label": "Femur",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000981"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24479",
+   "conceptId": "FMA24479",
+   "label": "Fibula",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001446"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12523",
+   "conceptId": "FMA12523",
+   "label": "Fifth cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004614"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13076",
+   "conceptId": "FMA13076",
+   "label": "Fifth lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004621"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23903",
+   "conceptId": "FMA23903",
+   "label": "Fifth metacarpal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003649"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24506",
+   "conceptId": "FMA24506",
+   "label": "Fifth metatarsal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003654"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7776",
+   "conceptId": "FMA7776",
+   "label": "Fifth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004605"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9922",
+   "conceptId": "FMA9922",
+   "label": "Fifth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004630"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13072",
+   "conceptId": "FMA13072",
+   "label": "First lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004617"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23899",
+   "conceptId": "FMA23899",
+   "label": "First metacarpal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003645"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24502",
+   "conceptId": "FMA24502",
+   "label": "First metatarsal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003650"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7597",
+   "conceptId": "FMA7597",
+   "label": "First rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004601"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9165",
+   "conceptId": "FMA9165",
+   "label": "First thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004626"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12522",
+   "conceptId": "FMA12522",
+   "label": "Fourth cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004613"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13075",
+   "conceptId": "FMA13075",
+   "label": "Fourth lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004620"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23902",
+   "conceptId": "FMA23902",
+   "label": "Fourth metacarpal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003648"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24505",
+   "conceptId": "FMA24505",
+   "label": "Fourth metatarsal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003653"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7749",
+   "conceptId": "FMA7749",
+   "label": "Fourth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004604"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9248",
+   "conceptId": "FMA9248",
+   "label": "Fourth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004629"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52734",
+   "conceptId": "FMA52734",
+   "label": "Frontal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000209"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23730",
+   "conceptId": "FMA23730",
+   "label": "Hamate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001433"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:16585",
+   "conceptId": "FMA16585",
+   "label": "Hip bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001272"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13303",
+   "conceptId": "FMA13303",
+   "label": "Humerus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000976"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52749",
+   "conceptId": "FMA52749",
+   "label": "Hyoid bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001685"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:54736",
+   "conceptId": "FMA54736",
+   "label": "Inferior nasal concha",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0005922"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24519",
+   "conceptId": "FMA24519",
+   "label": "Intermediate cuneiform bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001453"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52741",
+   "conceptId": "FMA52741",
+   "label": "Lacrimal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001680"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24520",
+   "conceptId": "FMA24520",
+   "label": "Lateral cuneiform bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001454"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9921",
+   "conceptId": "FMA9921",
+   "label": "Lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002414"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23712",
+   "conceptId": "FMA23712",
+   "label": "Lunate",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001428"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52748",
+   "conceptId": "FMA52748",
+   "label": "Mandible",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001684"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7486",
+   "conceptId": "FMA7486",
+   "label": "Manubrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002205"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9711",
+   "conceptId": "FMA9711",
+   "label": "Maxilla",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002397"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24518",
+   "conceptId": "FMA24518",
+   "label": "Medial cuneiform bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001452"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32625",
+   "conceptId": "FMA32625",
+   "label": "Middle phalanx of fourth toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004326"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23933",
+   "conceptId": "FMA23933",
+   "label": "Middle phalanx of index finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004320"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23936",
+   "conceptId": "FMA23936",
+   "label": "Middle phalanx of little finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004323"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:230984",
+   "conceptId": "FMA230984",
+   "label": "Middle phalanx of little toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004327"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23934",
+   "conceptId": "FMA23934",
+   "label": "Middle phalanx of middle finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004321"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23935",
+   "conceptId": "FMA23935",
+   "label": "Middle phalanx of ring finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004322"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32623",
+   "conceptId": "FMA32623",
+   "label": "Middle phalanx of second toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004324"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32624",
+   "conceptId": "FMA32624",
+   "label": "Middle phalanx of third toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004325"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52745",
+   "conceptId": "FMA52745",
+   "label": "Nasal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001681"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24499",
+   "conceptId": "FMA24499",
+   "label": "Navicular bone of foot",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001451"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:53672",
+   "conceptId": "FMA53672",
+   "label": "Neurocranium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001703"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8337",
+   "conceptId": "FMA8337",
+   "label": "Ninth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004608"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:10014",
+   "conceptId": "FMA10014",
+   "label": "Ninth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004633"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52735",
+   "conceptId": "FMA52735",
+   "label": "Occipital bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001676"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52746",
+   "conceptId": "FMA52746",
+   "label": "Palatine bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001682"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9613",
+   "conceptId": "FMA9613",
+   "label": "Parietal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000210"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24485",
+   "conceptId": "FMA24485",
+   "label": "Patella",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002446"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23718",
+   "conceptId": "FMA23718",
+   "label": "Pisiform",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001429"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:43252",
+   "conceptId": "FMA43252",
+   "label": "Proximal phalanx of big toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004332"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32620",
+   "conceptId": "FMA32620",
+   "label": "Proximal phalanx of fourth toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004335"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23919",
+   "conceptId": "FMA23919",
+   "label": "Proximal phalanx of index finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004328"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23922",
+   "conceptId": "FMA23922",
+   "label": "Proximal phalanx of little finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004331"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32621",
+   "conceptId": "FMA32621",
+   "label": "Proximal phalanx of little toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004336"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23920",
+   "conceptId": "FMA23920",
+   "label": "Proximal phalanx of middle finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004329"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23921",
+   "conceptId": "FMA23921",
+   "label": "Proximal phalanx of ring finger",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004330"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32618",
+   "conceptId": "FMA32618",
+   "label": "Proximal phalanx of second toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004333"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:32619",
+   "conceptId": "FMA32619",
+   "label": "Proximal phalanx of third toe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004334"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23918",
+   "conceptId": "FMA23918",
+   "label": "Proximal phalanx of thumb",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004338"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23463",
+   "conceptId": "FMA23463",
+   "label": "Radius",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001423"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:16202",
+   "conceptId": "FMA16202",
+   "label": "Sacrum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003690"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23709",
+   "conceptId": "FMA23709",
+   "label": "Scaphoid",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001427"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13394",
+   "conceptId": "FMA13394",
+   "label": "Scapula",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0006849"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13073",
+   "conceptId": "FMA13073",
+   "label": "Second lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004618"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23900",
+   "conceptId": "FMA23900",
+   "label": "Second metacarpal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003646"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24503",
+   "conceptId": "FMA24503",
+   "label": "Second metatarsal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003651"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7620",
+   "conceptId": "FMA7620",
+   "label": "Second rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004602"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9187",
+   "conceptId": "FMA9187",
+   "label": "Second thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004627"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12525",
+   "conceptId": "FMA12525",
+   "label": "Seventh cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004616"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7830",
+   "conceptId": "FMA7830",
+   "label": "Seventh rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004607"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9968",
+   "conceptId": "FMA9968",
+   "label": "Seventh thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004632"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12524",
+   "conceptId": "FMA12524",
+   "label": "Sixth cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004615"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8147",
+   "conceptId": "FMA8147",
+   "label": "Sixth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004606"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9945",
+   "conceptId": "FMA9945",
+   "label": "Sixth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004631"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52736",
+   "conceptId": "FMA52736",
+   "label": "Sphenoid bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001677"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7485",
+   "conceptId": "FMA7485",
+   "label": "Sternum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000975"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9708",
+   "conceptId": "FMA9708",
+   "label": "Talus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002395"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52737",
+   "conceptId": "FMA52737",
+   "label": "Temporal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001678"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8418",
+   "conceptId": "FMA8418",
+   "label": "Tenth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004609"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:10037",
+   "conceptId": "FMA10037",
+   "label": "Tenth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004634"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:12521",
+   "conceptId": "FMA12521",
+   "label": "Third cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004612"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13074",
+   "conceptId": "FMA13074",
+   "label": "Third lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004619"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23901",
+   "conceptId": "FMA23901",
+   "label": "Third metacarpal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003647"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24504",
+   "conceptId": "FMA24504",
+   "label": "Third metatarsal bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0003652"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7638",
+   "conceptId": "FMA7638",
+   "label": "Third rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004603"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9209",
+   "conceptId": "FMA9209",
+   "label": "Third thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004628"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9139",
+   "conceptId": "FMA9139",
+   "label": "Thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002347"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:24476",
+   "conceptId": "FMA24476",
+   "label": "Tibia",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0000979"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23721",
+   "conceptId": "FMA23721",
+   "label": "Trapezium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001430"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23724",
+   "conceptId": "FMA23724",
+   "label": "Trapezoid",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001431"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23715",
+   "conceptId": "FMA23715",
+   "label": "Triquetral",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002445"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:8515",
+   "conceptId": "FMA8515",
+   "label": "Twelfth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004611"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:10081",
+   "conceptId": "FMA10081",
+   "label": "Twelfth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0004636"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:23466",
+   "conceptId": "FMA23466",
+   "label": "Ulna",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001424"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:13478",
+   "conceptId": "FMA13478",
+   "label": "Vertebral column",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001130"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:9710",
+   "conceptId": "FMA9710",
+   "label": "Vomer",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002396"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:7488",
+   "conceptId": "FMA7488",
+   "label": "Xiphoid process",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0002207"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "FMA:52747",
+   "conceptId": "FMA52747",
+   "label": "Zygomatic bone",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: bone marrow v1.6",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM885.LVBB.378"
+    }
+   ],
+   "alternates": [
+    "UBERON0001683"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:13303",
+   "conceptId": "FMA13303",
+   "label": "Humerus",
+   "alternates": [
+    "UBERON0000976"
+   ],
+   "tissue": [
+    "/tissue/FMA13303.json"
+   ]
+  }
+ }
+}

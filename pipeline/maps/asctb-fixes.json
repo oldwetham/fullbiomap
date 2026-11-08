@@ -1,0 +1,38 @@
+{
+ "_comment": "Fixes for HRA ASCT+B rows. Step 06 applies 'corrections' (a wrong cell id in a table) and writes reports/asctb-issues.md, the list to report to HRA (it also lists any other row id Cell Ontology marks obsolete, and uses Cell Ontology's own 'term replaced by' where it records one). Step 11 applies 'placements' to rows whose structures are not in the body model: 'withCell' puts the listed cells wherever another table places that cell; 'onto' puts the table's rows on the named structures. Each entry says why.",
+ "corrections": [
+  {
+   "table": "bone-marrow",
+   "from": "CL:0000090",
+   "to": "CL:0000092",
+   "rowLabel": "Osteoclast",
+   "why": "CL:0000090 is an obsolete Cell Ontology term (obsolete female germ line stem cell (sensu Vertebrata)); the row's label is Osteoclast, which is CL:0000092."
+  },
+  {
+   "table": "small-intestine",
+   "from": "CL:0000212",
+   "to": "CL:0000584",
+   "rowLabel": "absorptive cell",
+   "why": "CL:0000212 is an obsolete Cell Ontology term (obsolete absorptive cell) with no replacement recorded; the rows are the absorptive cells of the small intestine lining, which Cell Ontology calls enterocytes (CL:0000584)."
+  }
+ ],
+ "placements": [
+  {
+   "table": "bone-marrow",
+   "cells": [
+    "CL:0000062",
+    "CL:0000092",
+    "CL:0000138"
+   ],
+   "withCell": "CL:0001035",
+   "why": "Bone marrow is not a structure in the body model. Osteoblasts, osteoclasts and chondrocytes work on bone and cartilage, so they go wherever the skeleton table places bone cells (every bone). The table's other marrow cell types stay unplaced until a marrow structure exists."
+  },
+  {
+   "table": "knee",
+   "onto": [
+    "FMA:9611"
+   ],
+   "why": "The knee rows name the articular cartilage of the femoral condyles; the body model has the femur but not that cartilage."
+  }
+ ]
+}

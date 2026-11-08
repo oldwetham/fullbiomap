@@ -69,6 +69,39 @@
   {
    "rel": "located_in",
    "dir": "out",
+   "id": "FMA:50801",
+   "conceptId": "FMA50801",
+   "label": "Brain",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ],
+   "alternates": [
+    "UBERON0000955"
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
+   "id": "UBERON:0002421",
+   "conceptId": "UBERON0002421",
+   "label": "Hippocampal formation",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B table: allen brain v1.9",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM266.XLCW.993"
+    }
+   ]
+  },
+  {
+   "rel": "located_in",
+   "dir": "out",
    "id": "FMA:12515",
    "conceptId": "FMA12515",
    "label": "Left eyeball",
@@ -104,26 +137,17 @@
   }
  ],
  "ladder": {
-  "system": "sensory",
+  "system": "nervous",
   "isOrgan": false,
   "organ": {
-   "id": "FMA:12514",
-   "conceptId": "FMA12514",
-   "label": "Right eyeball",
-   "alternates": [
-    "UBERON0004549"
-   ],
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
    "interior": {
-    "male": [
-     "/models/organs/eye-male-right.json"
-    ],
     "female": [
-     "/models/organs/eye-female-right.json"
+     "/models/organs/brain-female.json"
     ]
-   },
-   "tissue": [
-    "/tissue/FMA12514.json"
-   ]
+   }
   }
  }
 }

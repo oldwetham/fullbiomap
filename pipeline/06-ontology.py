@@ -389,6 +389,9 @@ for e in hra_edges.values():
 CL_IRI = 'http://purl.obolibrary.org/obo/CL_'
 TABLE_SKIP = {'placenta'}  # pregnancy anatomy is not shown, as with the placenta models
 asctb_rows, skipped_ct = set(), Counter()
+# Known errors in the tables (pipeline/maps/asctb-fixes.json): corrected here, listed in reports/asctb-issues.md.
+asctb_fixes = {(c['table'], c['from']): c for c in json.loads((ROOT / 'pipeline/maps/asctb-fixes.json').read_text())['corrections']}
+asctb_issues = set()
 for name, info in sorted(hra_release.get('tables', {}).items()):
     if name in TABLE_SKIP:
         continue
@@ -409,7 +412,12 @@ for name, info in sorted(hra_release.get('tables', {}).items()):
         for k in levels('CT'):
             i = re.sub(r'^CL_', 'CL:', cell(f'CT/{k}/ID'))
             if re.fullmatch(r'CL:\d+', i):
-                cts.append([i, cell(f'CT/{k}/LABEL') or cell(f'CT/{k}')])
+                label = cell(f'CT/{k}/LABEL') or cell(f'CT/{k}')
+                fix = asctb_fixes.get((name, i))
+                if fix:  # a wrong id in the table (pipeline/maps/asctb-fixes.json); reported to HRA below
+                    asctb_issues.add((name, info['version'], info.get('doi', ''), chain[-1][1] if chain else '', label, i, fix['to'], fix['why']))
+                    i = fix['to']
+                cts.append([i, label])
             elif i:
                 skipped_ct[i.split(':')[0]] += 1
         if chain and cts:
@@ -418,7 +426,7 @@ for name, info in sorted(hra_release.get('tables', {}).items()):
 counts['asct-b rows with cell types'] = len(asctb_rows)
 for k, v in skipped_ct.items():
     counts[f'asct-b cell type ids skipped ({k})'] = v
-cl_ids = sorted({c[0] for line in asctb_rows for c in json.loads(line)['cellTypes']} | {'CL:0000000'})
+cl_ids = sorted({c[0] for line in asctb_rows for c in json.loads(line)['cellTypes']} | {'CL:0000000'} | {c['from'] for c in asctb_fixes.values()})
 
 def fetch_term(ontology, iri, oid):
     try:
@@ -430,6 +438,11 @@ def fetch_term(ontology, iri, oid):
     term = {'id': oid, 'iri': iri, 'label': (d.get('label') or [None])[0], 'definition': defs[0][0] if defs else None,
             'definitionCitesWikipedia': bool(cites) or bool(defs and 'wikipedia' in defs[0][0].lower()),
             'synonyms': sorted({clean(v) for v, _ in values(d.get('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'))})}
+    if d.get('isObsolete'):
+        term['obsolete'] = True
+        repl = [v for v, _ in values(d.get('http://purl.obolibrary.org/obo/IAO_0100001'))]
+        if repl:
+            term['replacedBy'] = re.sub(r'^.*/CL_', 'CL:', repl[0])
     if ontology == 'cl':  # every Cell Ontology class above it: pipeline/maps/cell-families.json picks a 3D shape from these
         found = set(d.get('hierarchicalAncestor') or []) | set(d.get('directAncestor') or [])
         term['ancestors'] = sorted({'CL:' + a.rsplit('_', 1)[1] for a in found if '/obo/CL_' in a and a.rsplit('_', 1)[1] != oid[3:]})
@@ -439,6 +452,36 @@ with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) 
     cells = dict(pool.map(lambda c: fetch_term('cl', CL_IRI + c[3:], c), cl_ids))
 (graph / 'defs.cells.jsonl').write_text('\n'.join(json.dumps(cells[c], ensure_ascii=False, sort_keys=True) for c in cl_ids if cells[c]) + '\n')
 counts['cell ontology terms'] = sum(1 for c in cl_ids if cells[c])
+# Any other row id that Cell Ontology marks obsolete is listed for HRA too. Where Cell Ontology records its replacement
+# ('term replaced by'), the rows use that instead; otherwise the id stays until a correction is recorded.
+replaced = {}
+for line in asctb_rows:
+    r = json.loads(line)
+    for cid, label in r['cellTypes']:
+        t = cells.get(cid)
+        if t and (t.get('obsolete') or (t.get('label') or '').lower().startswith('obsolete')):
+            to = t.get('replacedBy') or ''
+            if to:
+                replaced[cid] = to
+            asctb_issues.add((r['table'], r['version'], hra_release['tables'][r['table']].get('doi', ''), r['chain'][-1][1], label, cid, to,
+                              f'Cell Ontology marks this id obsolete and records {to} as its replacement.' if to else 'Cell Ontology marks this id obsolete; no correction recorded yet.'))
+if replaced:
+    asctb_rows = {json.dumps({**r, 'cellTypes': [[replaced.get(c, c), lab] for c, lab in r['cellTypes']]}, ensure_ascii=False, sort_keys=True) for r in map(json.loads, asctb_rows)}
+    (graph / 'asctb.jsonl').write_text('\n'.join(sorted(asctb_rows)) + '\n')
+    new_ids = sorted(set(replaced.values()) - set(cl_ids))
+    with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+        cells.update(dict(pool.map(lambda c: fetch_term('cl', CL_IRI + c[3:], c), new_ids)))
+    cl_ids = sorted(set(cl_ids) | set(new_ids))
+    (graph / 'defs.cells.jsonl').write_text('\n'.join(json.dumps(cells[c], ensure_ascii=False, sort_keys=True) for c in cl_ids if cells[c]) + '\n')
+issue_rows = sorted(asctb_issues)
+(ROOT / 'reports/asctb-issues.md').write_text('\n'.join([
+    '# ASCT+B issues to report to HRA', '',
+    f'Generated by `pipeline/06-ontology.py` from the HRA {hra_release["release"]} ASCT+B tables. Each row uses a Cell Ontology id that does not match its label;',
+    'Bio Map uses the corrected id where one is recorded in `pipeline/maps/asctb-fixes.json`.', '',
+    '| Table (version) | Structure | Row label | Id in the table | Cell Ontology says | Bio Map uses | Why |', '| --- | --- | --- | --- | --- | --- | --- |',
+    *[f'| {t} {v} ({doi}) | {st} | {lab} | {bad} | {(cells.get(bad) or {}).get("label") or "not found"} | {good or "-"} {(" (" + (cells.get(good) or {}).get("label", "?") + ")") if good else ""} | {why} |' for t, v, doi, st, lab, bad, good, why in issue_rows],
+]) + '\n')
+counts['asct-b ids reported (reports/asctb-issues.md)'] = len(issue_rows)
 counts['cell ontology definitions citing Wikipedia (skipped)'] = sum(1 for c in cl_ids if cells[c] and cells[c]['definitionCitesWikipedia'])
 organelles = json.loads((ROOT / 'pipeline/maps/organelles.json').read_text())['organelles']
 with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:

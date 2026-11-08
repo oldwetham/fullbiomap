@@ -1,17 +1,23 @@
 import fs from 'node:fs';
 import {MeshoptSimplifier} from 'meshoptimizer';
 await MeshoptSimplifier.ready;
-const name=process.argv[2]??'atlas.json',prefix=name.includes('female')?'female':'body';
-const dir=new URL('../public/models/',import.meta.url),manifest=JSON.parse(fs.readFileSync(new URL(name,dir),'utf8'));
+// Usage: node scripts/optimize-anatomy.mjs [path under public/models, default atlas.json]
+// Chunk prefix: 'body' for atlas.json, the folder for <folder>/atlas.json, else the file name
+// (female/atlas.json -> female/female-0.bin, organs/heart-male.json -> organs/heart-male-0.bin).
+const name=process.argv[2]??'atlas.json',sub=name.includes('/')?name.slice(0,name.lastIndexOf('/')+1):'',base=name.slice(sub.length).replace(/\.json$/,'');
+const prefix=name==='atlas.json'?'body':base==='atlas'?sub.replace(/\/$/,'').split('/').pop():base;
+const dir=new URL(`../public/models/${sub}`,import.meta.url),manifest=JSON.parse(fs.readFileSync(new URL(name,new URL('../public/models/',import.meta.url)),'utf8'));
+// HRA exports (female body, organ interiors) duplicate vertices at triangle boundaries and need welding.
+const weld=manifest.source==='HRA'||prefix==='female';
 const originals=manifest.chunks.map(c=>c.url.split('/').pop());
 if(manifest.optimized)throw new Error('Already optimized. Re-run the source converter first.');
 const source=manifest.chunks.map(c=>fs.readFileSync(new URL(c.url.split('/').pop(),dir)));
 let chunks=[],segments=[],bytes=0,triangles=0,maxError=0;
-const flush=()=>{if(!bytes)return;const url=`/models/${prefix}-${chunks.length}.bin`;fs.writeFileSync(new URL(url.split('/').pop(),dir),Buffer.concat(segments));chunks.push({url,bytes});segments=[];bytes=0;};
+const flush=()=>{if(!bytes)return;const url=`/models/${sub}${prefix}-${chunks.length}.bin`;fs.writeFileSync(new URL(url.split('/').pop(),dir),Buffer.concat(segments));chunks.push({url,bytes});segments=[];bytes=0;};
 const append=a=>{const padding=(4-bytes%4)%4;if(padding){segments.push(Buffer.alloc(padding));bytes+=padding;}const offset=bytes;const b=Buffer.from(a.buffer,a.byteOffset,a.byteLength);segments.push(b);bytes+=b.length;return offset;};
 for(const p of manifest.parts){
  const b=source[p.chunk];let pos=new Float32Array(b.buffer,b.byteOffset+p.positions,p.vertexCount*3),normal=new Int16Array(b.buffer,b.byteOffset+p.normals,p.vertexCount*3),indices=new Uint32Array(b.buffer,b.byteOffset+p.indices,p.indexCount);
- if(prefix==='female'){
+ if(weld){
   // HRA exports often duplicate vertices at triangle boundaries. Weld coincident positions
   // before simplification, averaging their source normals for smooth anatomical surfaces.
   const map=new Map(),remap=new Uint32Array(p.vertexCount),wp=[],wn=[];
@@ -33,7 +39,7 @@ for(const p of manifest.parts){
  p.chunk=chunks.length;p.positions=append(positions);p.normals=append(normals);p.indices=append(simplified);p.vertexCount=count;p.indexCount=simplified.length;triangles+=simplified.length/3;
 }
 flush();manifest.sourceTriangles=manifest.triangles;manifest.triangles=triangles;manifest.chunks=chunks;manifest.optimized={method:'meshoptimizer quadric simplification',maximumRelativeError:.002,preservedMeshes:manifest.parts.length};
-fs.writeFileSync(new URL(name,dir),JSON.stringify(manifest));
+fs.writeFileSync(new URL(base+'.json',dir),JSON.stringify(manifest));
 // Remove only converter outputs superseded by the optimized chunks.
 for(const name of originals)fs.unlinkSync(new URL(name,dir));
 console.log(JSON.stringify({parts:manifest.parts.length,triangles,bytes:chunks.reduce((n,c)=>n+c.bytes,0),chunks:chunks.length,maxError}));

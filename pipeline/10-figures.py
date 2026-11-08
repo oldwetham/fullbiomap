@@ -27,6 +27,7 @@ reports/figures.md, and the figures section of public/ATTRIBUTION.md. Fails if p
 """
 import csv
 import html
+import io
 import json
 import re
 import subprocess
@@ -35,6 +36,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import xml.etree.ElementTree as ET
+import zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -114,6 +116,14 @@ for cl in profiled:
 for o in ORGANELLES['organelles']:
     d = go_defs.get(o['id']) or {}
     add_unit(o['id'], 'organelle', o['label'], [o['label'], d.get('label'), *(d.get('synonyms') or [])], [o['id']])
+# Bones, muscles, vessels and nerves of the body model (FMA classes in figure-sources.json `grays`): any source may match
+# them, and Gray's 1918 plates are allowed only for them, only where nothing else matches.
+GRAYS = SRC['grays']
+taken = {n for u in units.values() for n in u['nodes']}
+for cid, d in sorted(fma.items()):
+    f, node = d.get('fma') or {}, gid(cid)
+    if f and node not in taken and set(GRAYS['classes']) & ({node} | set(f.get('ancestors') or [])):
+        add_unit(node, 'gross', f['label'], [f['label'], *(f.get('synonyms') or [])], [node])
 
 figures, offers, rejected = {}, defaultdict(list), []
 
@@ -130,24 +140,152 @@ def matches(title):
     return sorted(index.get(key(title), ()))
 
 
-# Human Protein Atlas: each organ's histology image, as step 08 chose it (graph/media.json; image cached in data/raw/hpa).
+# Human Protein Atlas 25.1 (versioned host, so a later release cannot change what a clean clone downloads).
 HPA = SRC['hpa']
+HPA_RAW = ROOT / f"data/raw/hpa/{HPA['release']}"
+same_tissue = lambda name, tissue: re.sub(r'\s+\d+$', '', (name or '').strip().lower()) == re.sub(r'\s+\d+$', '', (tissue or '').strip().lower())
+
+
+def hpa_table(name):
+    path = get_file(f"{HPA['site']}/download/tsv/{name}.tsv.zip", HPA_RAW / f'{name}.tsv.zip')
+    with zipfile.ZipFile(path) as z, z.open(f'{name}.tsv') as fh:
+        return list(csv.DictReader(io.TextIOWrapper(fh, encoding='utf-8'), delimiter='\t'))
+
+
+def hpa_entry(ensg):
+    """A gene's HPA record (the file step 08 also caches), or None if it will not download: that candidate is skipped."""
+    try:
+        return ET.parse(get_file(f'https://www.proteinatlas.org/{ensg}.xml', HPA_RAW / f'{ensg}.xml')).getroot().find('entry')
+    except Exception as e:  # noqa: BLE001 - a record that will not download is skipped and reported, as in step 08
+        reject('hpa', ensg, f'record did not download ({type(e).__name__}); skipped')
+        return None
+
+
+def hpa_full(url):
+    """HPA's full-resolution file for a representative ("selected") image: the same field without the suffix. None when
+    the URL has no such suffix or HPA has no larger file (a 404, remembered next to the cache so offline reruns agree)."""
+    full = re.sub(r'_(rna_)?selected(\.jpg)$', r'\2', url)
+    if full == url:
+        return None, None
+    dest = HPA_RAW / 'images/full' / full.split('images.proteinatlas.org/', 1)[1].replace('/', '-')
+    gone = dest.with_name(dest.name + '.404')
+    if gone.exists():
+        return None, None
+    try:
+        return full, get_file(full, dest)
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        gone.parent.mkdir(parents=True, exist_ok=True)
+        gone.write_text(full + '\n')
+        return None, None
+
+
+def hpa_figure(fid, kind, title, caption, alt, image_url, src, page):
+    return {'id': fid, 'source': 'hpa', 'sourceName': f"Human Protein Atlas {HPA['release']}", 'kind': kind, 'title': title, 'caption': caption, 'alt': alt,
+            'license': HPA['license'], 'licenseUrl': HPA['licenseUrl'], 'terms': HPA['terms'],
+            'credit': f"Image from the Human Protein Atlas {HPA['release']} (proteinatlas.org): {title}, {image_url}. {HPA['license']}.",
+            'pageUrl': page, 'imageUrl': image_url, 'src': str(src)}
+
+
+# Organs: each organ's histology image, as step 08 chose it (graph/media.json), at HPA's full resolution.
 media = json.loads((ROOT / 'graph/media.json').read_text())
 for organ, cfg in TISSUE['organs'].items():
     rec = next((m for c in cfg['nodes'] for m in media.get(c, []) if m['kind'] == 'histology'), None)
     if not rec:
         continue
-    image = ROOT / rec['file']
-    if not image.exists():
-        raise SystemExit(f'10-figures: {image.relative_to(ROOT)} is missing; run step 08 first')
+    image_url, image = hpa_full(rec['imageUrl'])
+    if not image:  # no larger file: step 08's copy of the representative image
+        image_url, image = rec['imageUrl'], ROOT / rec['file']
+    if not Path(image).exists():
+        raise SystemExit(f'10-figures: {image} is missing; run step 08 first')
     g, tissue = rec['gene'], rec['tissue']
     fid = f"hpa-{slug(g['symbol'])}-{slug(tissue)}"
-    figures[fid] = {'id': fid, 'source': 'hpa', 'sourceName': f"Human Protein Atlas {HPA['release']}", 'kind': 'micrograph',
-                    'title': f"{upper_first(tissue)}: {g['symbol']} immunohistochemistry", 'caption': rec['caption'], 'alt': rec['alt'],
-                    'license': HPA['license'], 'licenseUrl': HPA['licenseUrl'], 'terms': HPA['terms'],
-                    'credit': f"Image from the Human Protein Atlas {HPA['release']} (proteinatlas.org): {g['symbol']} immunohistochemistry in {tissue}, {rec['imageUrl']}. {HPA['license']}.",
-                    'pageUrl': f"{HPA['site']}/{g['ensembl']}-{g['symbol']}/tissue/{urllib.parse.quote(tissue)}", 'imageUrl': rec['imageUrl'], 'src': str(image)}
-    offer(f'organ:{organ}', fid, f"HPA tissue “{tissue}” is this organ's tissue in pipeline/maps/tissue-media.json", 'id')
+    figures[fid] = hpa_figure(fid, 'micrograph', f"{upper_first(tissue)}: {g['symbol']} immunohistochemistry", rec['caption'], rec['alt'], image_url, image,
+                              f"{HPA['site']}/{g['ensembl']}-{g['symbol']}/tissue/{urllib.parse.quote(tissue)}")
+    offer(f'organ:{organ}', fid, f"HPA tissue “{tissue}” is this organ's tissue in pipeline/maps/tissue-media.json", 'title')
+
+# Cell types: a cell type HPA annotates in a tissue whose name is one of ours. The image is HPA's representative one for a
+# protein HPA scores high in that cell type (reliability enhanced, else supported); proteins that stain nothing else in
+# that tissue come first, then tissues of our organs.
+ihc = hpa_table('normal_ihc_data')
+levels = defaultdict(dict)
+for r in ihc:
+    levels[(r['Gene'], r['IHC tissue name'])][r['Cell type']] = r['Level']
+our_tissues = {cfg['hpa'] for cfg in TISSUE['organs'].values() if cfg.get('hpa')}
+for name in sorted({r['Cell type'] for r in ihc}):
+    hits = [u for u in matches(name) if units[u]['scope'] == 'cell']
+    if not hits:
+        continue
+    specific = lambda r: all(level == 'Not detected' for cell, level in levels[(r['Gene'], r['IHC tissue name'])].items() if cell != name)
+    rows = sorted((r for r in ihc if r['Cell type'] == name and r['Level'] == 'High' and r['Reliability'] in ('Enhanced', 'Supported')),
+                  key=lambda r: (not specific(r), r['Reliability'] != 'Enhanced', r['Tissue'].lower() not in our_tissues, r['IHC tissue name'], r['Gene name']))
+    found = None
+    for r in rows[:12]:
+        entry = hpa_entry(r['Gene'])
+        block = entry.find("tissueExpression[@technology='IHC'][@assayType='tissue']") if entry is not None else None
+        image = next((i for i in block.findall("image[@imageType='selected']") if same_tissue(i.findtext('tissue'), r['IHC tissue name'])), None) if block is not None else None
+        if image is None:
+            continue
+        image_url, path = hpa_full(image.findtext('imageUrl'))
+        if path:
+            found = (r, image_url, path)
+            break
+    if not found:
+        reject('hpa', f'cell type “{name}”', f'none of the first {min(12, len(rows))} of {len(rows)} proteins scored high in it has a representative image of that tissue')
+        continue
+    r, image_url, path = found
+    gene, tissue = r['Gene name'], r['Tissue']
+    fid = f"hpa-{slug(gene)}-{slug(name)}-{slug(r['IHC tissue name'])}"
+    figures[fid] = hpa_figure(fid, 'micrograph', f"{upper_first(name)} in {tissue.lower()}: {gene} immunohistochemistry",
+                              f"{tissue} stained for the {gene} protein, which HPA scores high in {name} here (reliability {r['Reliability'].lower()})"
+                              + (', and not detected in the tissue\'s other cell types' if specific(r) else '') + f". Brown: {gene} protein. Blue: cell nuclei (hematoxylin counterstain).",
+                              f"Microscope image of {tissue.lower()} with {gene} protein stained brown in {name} and cell nuclei stained blue.", image_url, path,
+                              f"{HPA['site']}/{r['Gene']}-{gene}/tissue/{urllib.parse.quote(tissue.lower())}")
+    for uid in hits:
+        offer(uid, fid, f"HPA cell type “{name}” in {tissue.lower()} = “{units[uid]['names'][key(name)]}”", 'title')
+
+# Organelles: an HPA subcellular location whose GO id is the organelle's own, shown by a protein HPA locates only there
+# (no other location; reliability enhanced, else supported), in HPA's representative immunofluorescence field.
+subcell = hpa_table('subcellular_location')
+for uid, u in sorted(units.items()):
+    if u['scope'] != 'organelle':
+        continue
+    rows = sorted((r for r in subcell if set(re.findall(r'GO:\d+', r['GO id'])) == {uid} and not r['Extracellular location'] and r['Reliability'] in ('Enhanced', 'Supported')),
+                  key=lambda r: (r['Reliability'] != 'Enhanced', r['Gene name']))
+    found = None
+    for r in rows[:8]:
+        entry = hpa_entry(r['Gene'])
+        block = entry.find("cellExpression[@technology='ICC/IF']") if entry is not None else None
+        selected = block.findtext("image[@imageType='selected']/imageUrl") if block is not None else None
+        if not selected:
+            continue
+        stem = selected.rsplit('_selected', 1)[0]
+        for d in (entry.iter('data') if entry is not None else []):
+            for im in d.iter('image'):
+                if any((x.text or '').startswith(stem + '_') for x in im.findall('imageUrl')):
+                    found = found or (r, d.findtext('cellLine'), {c.get('color'): c.text for c in im.findall('channel')}, stem)
+        if found:
+            break
+    if not found:
+        continue
+    r, line, channels, stem = found
+    image_url = f'{stem}_blue_red_green.jpg'
+    try:
+        path = get_file(image_url, HPA_RAW / 'images/full' / image_url.split('images.proteinatlas.org/', 1)[1].replace('/', '-'))
+    except urllib.error.HTTPError as e:
+        reject('hpa', f'{uid} {r["Gene name"]}', f'immunofluorescence image answers HTTP {e.code}', image_url)
+        continue
+    location = re.match(r'\s*([^;(]+?)\s*\(', r['GO id']).group(1)
+    place = location if location.startswith('Golgi') else location.lower()  # Golgi is a name
+    gene = r['Gene name']
+    others = '; '.join(f'{c}: {(channels.get(c) or "").lower()}' for c in ('blue', 'red') if channels.get(c))
+    fid = f'hpa-if-{slug(gene)}-{slug(location)}'
+    figures[fid] = hpa_figure(fid, 'micrograph', f'{location}: {gene} immunofluorescence',
+                              f"{'Human sperm' if (line or '').lower() == 'sperm' else f'Cultured human cells ({line})'} stained by immunofluorescence for the {gene} protein (green), which HPA locates only in the {place} (reliability {r['Reliability'].lower()}). Other colours are reference stains ({others}).",
+                              f"Fluorescence microscope image of {'sperm' if (line or '').lower() == 'sperm' else 'cells'} with {gene} protein in green, marking the {place}.", image_url, path,
+                              f"{HPA['site']}/{r['Gene']}-{gene}/subcellular")
+    offer(uid, fid, f"HPA location “{location}” has GO id {uid}, this organelle's own", 'id')
 
 # HRA 2D functional tissue units: licence from each illustration's own HRA record (cached by step 04).
 def hra_licences(name):
@@ -363,6 +501,131 @@ for entry in BIOART['entries']:
     for uid in hits:
         offer(uid, fid, f"BioArt title “{title}” = “{units[uid]['names'][key(title)]}”", 'title', rank=(eid,))
 
+# Gray's Anatomy (1918), the Internet Archive scan: a plate whose own legend title (the text before the legend's first
+# period, from the scan's OCR) is a bone's, muscle's, vessel's or nerve's name, cropped from its page by IIIF between the
+# nearest line of text above it and its legend. Only a last resort: see the selection below.
+LEGEND = re.compile(r'^F[iI1l][gG]\.?\s*(\d{1,4})\s*[.,:]?\s*[—–-]+\s*(.+)$')
+ANY_LEGEND = re.compile(r'^F[iI1l][gG]\.?\s*\d{1,4}\b')  # also a bare "FIG. 102." under or over a drawing
+grays_xml = get_file(f"{GRAYS['download']}/{GRAYS['item']}_djvu.xml", RAW / 'grays' / f"{GRAYS['item']}_djvu.xml")
+grays_pages = []
+for _, el in ET.iterparse(grays_xml, events=('end',)):
+    if el.tag != 'OBJECT':
+        continue
+    lines = []
+    for line in el.iter('LINE'):
+        words = [([int(v) for v in w.get('coords').split(',')[:4]], (w.text or '').strip()) for w in line.iter('WORD')]
+        words = [(c, s) for c, s in words if s]
+        if words:  # word coords are left, bottom, right, top
+            lines.append({'x0': min(c[0] for c, _ in words), 'y0': min(c[3] for c, _ in words), 'x1': max(c[2] for c, _ in words), 'y1': max(c[1] for c, _ in words),
+                          'text': squash(' '.join(s for _, s in words)), 'words': len(words)})
+    # `n`: the page's place in the book as the Internet Archive shows it (its page images and links use it).
+    grays_pages.append({'n': len(grays_pages), 'leaf': int(re.search(r'_(\d+)\.djvu$', el.get('usemap')).group(1)), 'width': int(el.get('width')), 'height': int(el.get('height')), 'lines': lines})
+    el.clear()
+
+
+def plate_box(page, legend):
+    """The figure above a legend: from the nearest body text, other legend or running head above it down to the legend,
+    across the text column (or the legend's half of it when two legends sit side by side). Returns (box, None) or
+    (None, why): a region that holds another figure's legend or a block of running text, is low, or is not centred on its
+    legend is refused, because a crowded page cannot be cropped reliably."""
+    lines, w, h = page['lines'], page['width'], page['height']
+    order = sorted(lines, key=lambda ln: ln['y0'])
+    height = lambda ln: ln['y1'] - ln['y0']
+    body = [ln for ln in order if ln['words'] >= 6 and ln['x1'] - ln['x0'] > 0.45 * w]
+    for a, b in zip(order, order[1:]):  # a paragraph's short last line is text too
+        if a in body and b not in body and -0.5 * height(a) <= b['y0'] - a['y1'] < 0.8 * height(a) and abs(b['x0'] - a['x0']) < 0.06 * w:
+            body.append(b)
+    x0, x1 = (min(ln['x0'] for ln in body), max(ln['x1'] for ln in body)) if body else (int(0.08 * w), int(0.92 * w))
+    legends = [ln for ln in lines if ANY_LEGEND.match(ln['text'])]
+    beside = [ln for ln in legends if ln is not legend and not (ln['y1'] < legend['y0'] or ln['y0'] > legend['y1'])]
+    split, split_side = None, None
+    if beside:
+        mine, other = (legend['x0'] + legend['x1']) / 2, (beside[0]['x0'] + beside[0]['x1']) / 2
+        split = int((mine + other) / 2)
+        x0, x1 = (x0, split) if mine < other else (split, x1)
+        split_side = 'right' if mine < other else 'left'
+    def continues(ln):  # a line of an earlier legend: just below a legend line, starting near it
+        return any(0 <= ln['y0'] - lg['y1'] <= 1.6 * height(lg) and abs(ln['x0'] - lg['x0']) < 0.12 * w for lg in legends)
+    def region(x0, x1):
+        # lines above the legend that lie mostly within [x0, x1] and are text, a legend or a legend's next line
+        within = lambda ln: min(ln['x1'], x1) - max(ln['x0'], x0) > 0.5 * (ln['x1'] - ln['x0'])
+        stops = [ln for ln in lines if ln['y1'] < legend['y0'] - 4 and within(ln) and (ln in body or ln in legends or continues(ln))]
+        head = [ln for ln in lines if ln['y1'] < 0.07 * h]
+        top = max([ln['y1'] for ln in stops + head], default=int(0.05 * h))
+        left, right, upper, lower = max(0, x0 - 20), min(w, x1 + 20), top + 12, legend['y0'] - 10
+        return left, right, upper, lower, [ln for ln in lines if ln is not legend and ln['y0'] > upper and ln['y1'] < lower and ln['x1'] > left and ln['x0'] < right]
+    def text_blocks(inside):  # three or more wordy lines in a row, left edges aligned: running text, not labels
+        wordy, blocks = sorted((ln for ln in inside if ln['words'] >= 5), key=lambda ln: ln['y0']), []
+        for a, b, d in zip(wordy, wordy[1:], wordy[2:]):
+            if all(abs(c['x0'] - a['x0']) < 30 for c in (b, d)) and b['y0'] - a['y1'] < 1.2 * height(a) and d['y0'] - b['y1'] < 1.2 * height(b):
+                blocks.append([a, b, d])
+        return blocks
+    left, right, upper, lower, inside = region(x0, x1)
+    centre = (legend['x0'] + legend['x1']) / 2
+    blocks = text_blocks(inside)
+    if blocks:  # a column of text beside the figure: keep the legend's side of it
+        bx0, bx1 = min(ln['x0'] for blk in blocks for ln in blk), max(ln['x1'] for blk in blocks for ln in blk)
+        if bx0 > centre:
+            x1 = bx0 - 30
+        elif bx1 < centre:
+            x0 = bx1 + 30
+        else:
+            return None, 'running text crosses the figure'
+        left, right, upper, lower, inside = region(x0, x1)
+        if text_blocks(inside):
+            return None, 'running text sits beside the figure'
+    if any(ln in legends for ln in inside):
+        return None, 'its region on the page holds another figure'
+    near = [ln for ln in lines if ln['y1'] > upper and ln['y0'] < lower and ln is not legend]
+    if split is not None and any(ln['x0'] < split < ln['x1'] for ln in near):
+        return None, 'the figure beside it reaches into its region'
+    for ln in near:  # a label crossing an outer edge belongs to the figure: widen to take it in
+        if ln['x0'] < left < ln['x1'] and split_side != 'left' and ln['words'] <= 4:
+            left = max(0, ln['x0'] - 20)
+        if ln['x0'] < right < ln['x1'] and split_side != 'right' and ln['words'] <= 4:
+            right = min(w, ln['x1'] + 20)
+    if lower - upper < 0.12 * h or right - left < 0.2 * w:
+        return None, 'its region on the page is too small to be the whole figure'
+    if abs((legend['x0'] + legend['x1']) / 2 - (left + right) / 2) > 0.15 * (right - left):
+        return None, 'its legend is not centred under the region'
+    return [left, upper, right - left, lower - upper], None
+
+
+# Figure numbers come from the OCR too: a matched plate's number must sit between its neighbours' (the median of the three
+# legends before it and of the three after it), so a misread number is not shown as the plate's.
+sequence = [int(LEGEND.match(ln['text']).group(1)) for page in grays_pages for ln in page['lines'] if LEGEND.match(ln['text'])]
+def number_fits(position, n):
+    before, after = sorted(sequence[max(0, position - 3):position]), sorted(sequence[position + 1:position + 4])
+    return (not before or before[len(before) // 2] < n) and (not after or n < after[len(after) // 2])
+position = -1
+for page in grays_pages:
+    for ln in page['lines']:
+        m = LEGEND.match(ln['text'])
+        if not m:
+            continue
+        position += 1
+        n, title = int(m.group(1)), re.split(r'\.(?:\s|$)', m.group(2), maxsplit=1)[0].strip(' ,;:')
+        hits = [u for u in matches(title) if units[u]['scope'] == 'gross']
+        if not hits:
+            continue
+        where = f"{GRAYS['details']}/page/n{page['n']}/mode/1up"
+        if not number_fits(position, n) or f'grays-fig-{n}' in figures:
+            reject('grays', f'Fig. {n} “{title}”', 'its figure number in the OCR does not fit the numbers around it', where)
+            continue
+        box, why = plate_box(page, ln)
+        if not box:
+            reject('grays', f'Fig. {n} “{title}”', why, where)
+            continue
+        image = f"{GRAYS['download']}/page/n{page['n']}.jpg"
+        dest = get_file(image, RAW / 'grays/pages' / f"n{page['n']}.jpg")
+        fid = f'grays-fig-{n}'
+        figures[fid] = {'id': fid, 'source': 'grays', 'sourceName': GRAYS['name'], 'kind': 'diagram', 'title': f'Fig. {n}: {title}', 'caption': GRAYS['caption'],
+                        'alt': f"Historical anatomical drawing from Gray's Anatomy (1918), Fig. {n}: {title}.", 'license': GRAYS['license'], 'licenseUrl': GRAYS['licenseUrl'],
+                        'credit': f"{GRAYS['citation']} Fig. {n}. {GRAYS['rights']}", 'pageUrl': where, 'imageUrl': image, 'src': str(dest),
+                        'plate': {'page': page['n'], 'leaf': page['leaf'], 'box': box, 'pageSize': [page['width'], page['height']]}}
+        for uid in hits:
+            offer(uid, fid, f"Gray's 1918 legend title “{title}” (Fig. {n}) = “{units[uid]['names'][key(title)]}”", 'title', rank=(n,))
+
 # Cell types that look alike: check every piece of evidence, then the sentence goes into each member's captions.
 PROPERTY = {'has plasma membrane part': 'http://purl.obolibrary.org/obo/RO_0002104', 'lacks plasma membrane part': 'http://purl.obolibrary.org/obo/CL_4030046',
             'capable of': 'http://purl.obolibrary.org/obo/RO_0002215'}
@@ -457,6 +720,11 @@ for uid, u in sorted(units.items()):
             continue
         seen.add(o['figure'])
         cands.append(o)
+    if any(figures[o['figure']]['source'] != 'grays' for o in cands):  # Gray's is the last resort
+        for o in [o for o in cands if figures[o['figure']]['source'] == 'grays']:
+            reject('grays', f"{u['label']}: {figures[o['figure']]['title']}", 'another source has a figure for this structure')
+            cands.remove(o)
+            seen.discard(o['figure'])
     missing = [f for f in pinned if f not in seen]
     if missing:
         raise SystemExit(f'10-figures: pinned figures {missing} are not matched for {uid}; pin only figures this structure matches')
@@ -469,7 +737,7 @@ for uid, u in sorted(units.items()):
     # A second figure of a kind only from another source (no strip of three salivary gland drawings).
     for o in sorted(cands, key=lambda o: (KINDS.index(figures[o['figure']]['kind']), *order(o))):
         same_kind = {figures[c['figure']]['source'] for c in chosen if figures[c['figure']]['kind'] == figures[o['figure']]['kind']}
-        if len(chosen) < 3 and o not in chosen and figures[o['figure']]['source'] not in same_kind:
+        if len(chosen) < 3 and o not in chosen and (figures[o['figure']]['source'] not in same_kind or figures[o['figure']]['source'] == 'grays'):
             chosen.append(o)
     chosen.sort(key=lambda o: (o['figure'] not in pinned, KINDS.index(figures[o['figure']]['kind']), order(o)))
     for o in cands:
@@ -495,6 +763,9 @@ for fid in used:
         job.update(density=36, flatten='#ffffff')  # opens as its own SVG; only the thumbnail is rendered
     else:
         job.update(out=str(OUT / f'{fid}.webp'), max=FULL)
+    if f.get('plate'):  # a Gray's plate: cropped from its page (box in the OCR's page pixels)
+        x, y, bw, bh = f['plate']['box']
+        job.update(crop={'left': x, 'top': y, 'width': bw, 'height': bh}, cropFrom={'width': f['plate']['pageSize'][0], 'height': f['plate']['pageSize'][1]})
     jobs.append(job)
 (RAW / 'jobs.json').write_text(json.dumps(jobs, indent=1))
 done = subprocess.run(['node', str(ROOT / 'pipeline/_images.mjs'), str(RAW / 'jobs.json')], check=True, capture_output=True, text=True)
@@ -526,13 +797,15 @@ lines = ['# Figures', '', 'Generated by `pipeline/10-figures.py` (docs/FIGURES-P
          'every figure is unreviewed unless pinned in `pipeline/maps/figures.json`.', '',
          f"- Figures used: {len(used)} ({', '.join(f'{s} {by_source[s]}' for s in SOURCE_ORDER if by_source[s])}); public/figures/ is {total / 2**20:.1f} MB of the 60 MB limit.",
          f'- OpenStax figures whose title matched one of our names: {openstax_checked}; Servier images listed: {len(listed)}; BioArt entries checked: {len(BIOART["entries"])}.', '']
-for scope, title in (('organ', 'Organs'), ('cell', 'Cell types with a morphology profile'), ('organelle', 'Organelles')):
+for scope, title in (('organ', 'Organs'), ('cell', 'Cell types with a morphology profile'), ('organelle', 'Organelles'), ('gross', 'Bones, muscles, vessels and nerves (only those with a figure are listed)')):
     us = [u for u in units.values() if u['scope'] == scope]
     counts = [sum(1 for u in us if len(unit_figures[u['id']]) == n) for n in range(4)]
     lines += [f'## {title}', '', f'{len(us)} structures: {counts[0]} with no figure, {counts[1]} with one, {counts[2]} with two, {counts[3]} with three.', '',
               '| Structure | Figures (kind, source: title) | How each matched |', '| --- | --- | --- |']
     for u in sorted(us, key=lambda u: u['label'].lower()):
         es = unit_figures[u['id']]
+        if scope == 'gross' and not es:
+            continue
         shown = '<br>'.join('{kind}, {source}: {title}'.format(**figures[e['figure']]) for e in es) or '-'
         how = '<br>'.join(e['match'] for e in es) or '-'
         lines.append(f"| {u['label']} ({u['id'].removeprefix('organ:')}) | {shown} | {how} |")
@@ -544,7 +817,7 @@ lines += [f"- {u['label']}: {figures[o['figure']]['sourceName']} “{figures[o['
 # reviewer can judge them). Servier titles often add a context ("Epidermis – Keratinocyte").
 near = []
 for u in sorted(units.values(), key=lambda u: u['label'].lower()):
-    if unit_figures[u['id']]:
+    if unit_figures[u['id']] or u['scope'] == 'gross':
         continue
     words = [k for k in u['names'] if len(k) > 3]
     found = sorted({i['title'] for i in listed.values() if any(re.search(rf'(?<![a-z]){re.escape(k)}s?(?![a-z])', key(i['title'])) for k in words)})
@@ -565,7 +838,7 @@ section = [HEADING, '',
            'Figures are matched automatically by the source\'s own id or exact title and are unreviewed. Images are converted to WebP (at most 1400 px) with a 240 px thumbnail; tissue unit illustrations open as their original SVG.']
 for source, heading in (('hpa', f"Human Protein Atlas {HPA['release']} (CC BY 4.0, {HPA['terms']})"), ('hra', f"Human Reference Atlas {RELEASE['release']} 2D functional tissue units (CC BY 4.0)"),
                         ('openstax', 'OpenStax, from the CC BY 4.0 copies pinned in pipeline/maps/openstax.json'), ('servier', f"Servier Medical Art (CC BY 4.0, {SERVIER['site']})"),
-                        ('bioart', f"NIH BioArt Source ({BIOART['site']})")):
+                        ('bioart', f"NIH BioArt Source ({BIOART['site']})"), ('grays', f"Gray's Anatomy (1918), {GRAYS['details']} (public domain in the United States)")):
     fs = [figures[f] for f in used if figures[f]['source'] == source]
     if fs:
         section += ['', f'- {heading}:', '']

@@ -119,7 +119,7 @@ const mentionsWikipedia = v => /wikipedia/i.test(JSON.stringify(v));
 // alt text and a link to the original, is CC BY 4.0 or public domain, and cites no Wikipedia or Wikimedia. An OpenStax
 // caption carries no third-party rights; a tissue unit illustration highlights only cells it draws; a cell type that
 // looks like others under a microscope (pipeline/maps/look-alike.json) has the sentence that tells them apart.
-const FIGURE_LICENCES = new Set(['CC BY 4.0', 'Public Domain']), FIGURE_KINDS = new Set(['micrograph', 'diagram', 'illustration']);
+const FIGURE_LICENCES = new Set(['CC BY 4.0', 'Public Domain', 'Public Domain (US)']), FIGURE_KINDS = new Set(['micrograph', 'diagram', 'illustration']);
 const figureSources = JSON.parse(read('pipeline/maps/figure-sources.json')), lookAlike = JSON.parse(read('pipeline/maps/look-alike.json'));
 const OPENSTAX_RIGHTS = /©|\bcopyright\b|all rights reserved|Regents of (?:the )?University of Michigan|\bprovided by\b/i, OPENSTAX_PD = new RegExp(figureSources.openstax.publicDomainCredits);
 const lookAlikeOf = new Map(lookAlike.groups.flatMap(g => g.members.map(m => [m, g.sentence])));
@@ -158,6 +158,14 @@ function checkFigures(list, where, nodeId, max = 3) {
     }
     if (f.focus && !(f.ftu?.hits ?? []).some(h => h.cl === f.focus)) fail(what, `highlights ${f.focus}, which the illustration does not draw`);
     if (nodeId && lookAlikeOf.has(nodeId) && !f.caption.includes(lookAlikeOf.get(nodeId))) fail(what, 'caption lacks the sentence naming the proteins that tell this cell type from its look-alikes');
+    // Gray's Anatomy (1918): a last resort, only for bones, muscles, vessels and nerves, never beside another source's
+    // figure, and always with its fixed caption (pipeline/maps/figure-sources.json `grays`).
+    if (f.source === 'grays') {
+      const g = figureSources.grays, node = nodeId ? byId.get(nodeId) : null;
+      if (f.caption !== g.caption) fail(what, `Gray's plate caption must be exactly "${g.caption}"`);
+      if (!node || ![node.id, ...(node.ancestors ?? [])].some(a => g.classes.includes(a))) fail(what, "Gray's plates are only for bones, muscles, vessels and nerves");
+      if (list.some(x => x.source !== 'grays')) fail(what, "Gray's plates are shown only where no other source has a figure");
+    }
   }
 }
 

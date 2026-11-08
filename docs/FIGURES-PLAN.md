@@ -122,3 +122,17 @@ Other structures (muscles, bones, vessels) wait for a second pass.
 3. Servier and NIH BioArt, entry by entry, with licence fields. Commit.
 4. Gray's plates, per Decision 1. Commit.
 5. Report coverage (structures with 0, 1, 2 or 3 figures), every rejected candidate with its reason, and the total size.
+
+## 8. Outcome (implemented November 2026)
+
+Approved with: decision 1, Gray's 1918 from the Internet Archive scan as US public domain, only for bones, muscles, vessels and nerves, never for tissues, cells or organelles, only where no other source has a figure, each captioned "Historical illustration (Gray’s Anatomy, 1918). Some labels use older names."; decisions 2 to 4 as recommended. Details, coverage and every rejected candidate are in `reports/figures.md`.
+
+- **Human Protein Atlas.** Organs use step 08's image at HPA's full resolution. Cell types match HPA's own cell-type names in a tissue; the protein is one HPA scores high there (reliability enhanced, else supported), preferring proteins not detected in the tissue's other cell types, then our organs' tissues, then gene name. Organelles match HPA's GO id for a location, shown by a protein HPA locates only there. Step 08 no longer copies its images into `public/histology/`.
+- **HRA tissue units.** Which unit leads (lung: alveolus, not the bronchial gland) follows how often HRA's own ASCT+B rows name each unit's tissue. An organ's other units stay listed on its tissue board.
+- **OpenStax.** 7 title matches were rejected for third-party rights in their captions (the University of Michigan micrographs).
+- **Servier.** Read from its category listing pages; its search is disallowed by robots.txt and was not used.
+- **NIH BioArt Source.** No images used. Its entry pages are readable, but every image file they link answers HTTP 403 to a direct request, and that was not worked around.
+- **Gray's 1918.** Plates are cropped from the scan's page images using the OCR's word positions. A crop is refused when its region holds another figure, running text crosses it, the neighbouring figure reaches into it, or its legend's number does not fit the sequence. 16 plates for 13 bones; no muscle, vessel or nerve legend title equals one of our names.
+- **Bones, muscles, vessels and nerves.** These are now matched against every source, because Gray's needs to know whether another source has a figure. Some got OpenStax or Servier figures, such as the aorta, scapula and sphenoid bone.
+- **Look-alike groups.** The groups are lymphocytes, islet alpha and beta cells, and collecting-duct principal and intercalated cells. Monocytes and macrophages were dropped: OpenStax describes macrophages as monocytes that have left the circulation, and no cited source names a protein that tells them apart. Islet cells are told apart by the hormones they store, not surface proteins, and their sentence says so.
+- **Title matching.** Matches also use exact synonyms from Cell Ontology, GO and FMA, and for organs the organ name in `tissue-media.json`. A second figure of the same kind is shown only from a different source, except Gray's plates of one bone.

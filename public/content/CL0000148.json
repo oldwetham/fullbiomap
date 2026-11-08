@@ -241,5 +241,30 @@
     "/tissue/FMA7201.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-dct-melanocytes-skin-1",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Melanocytes in skin: DCT immunohistochemistry",
+   "caption": "Skin stained for the DCT protein, which HPA scores high in melanocytes here (reliability enhanced), and not detected in the tissue's other cell types. Brown: DCT protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of skin with DCT protein stained brown in melanocytes and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Melanocytes in skin: DCT immunohistochemistry, https://images.proteinatlas.org/10743/26206_B_9_1.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000080166-DCT/tissue/skin",
+   "imageUrl": "https://images.proteinatlas.org/10743/26206_B_9_1.jpg",
+   "thumb": "/figures/hpa-dct-melanocytes-skin-1-thumb.webp",
+   "url": "/figures/hpa-dct-melanocytes-skin-1.webp",
+   "width": 1400,
+   "height": 1400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA cell type “melanocytes” in skin = “melanocyte”"
+  }
+ ]
 }

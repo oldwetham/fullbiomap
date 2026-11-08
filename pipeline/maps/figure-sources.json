@@ -71,5 +71,24 @@
   ],
   "entries": [],
   "_note": "No entries are pinned. Entry pages found by web search (bioart/50, 111, 112, 114, 141, 253, 313, 356; November 2026) give a title, a licence field (Public Domain) and image links, but every image file they link (nih3d-v2-data-cln-media-prod.s3.amazonaws.com) answers HTTP 403 to a direct request: the files are served only to the site's own pages, so Bio Map does not use them. Step 10 still reads any entry listed here and reports one whose image cannot be downloaded."
+ },
+ "grays": {
+  "name": "Gray's Anatomy (1918)",
+  "_note": "A last resort (decision 1, approved): only for bones, muscles, vessels and nerves (an atlas structure under one of `classes` in FMA: bone organ, muscle organ, segment of vascular tree organ, nerve), never for tissues, cells or organelles, and only where no other source has a figure. A plate matches when its own legend title, the text before the legend's first period in the scan's OCR, is one of the structure's names. The plate is cropped by the Internet Archive's IIIF server from the page, between the nearest line of text above it and its legend. The 1918 edition is in the public domain in the United States by date; its editor W. H. Lewis died in 1964, so plates he added may still be in copyright elsewhere.",
+  "item": "anatomyofhumanbo1918gray",
+  "download": "https://archive.org/download/anatomyofhumanbo1918gray",
+  "details": "https://archive.org/details/anatomyofhumanbo1918gray",
+  "iiif": "https://iiif.archive.org/iiif",
+  "classes": [
+   "FMA:5018",
+   "FMA:5022",
+   "FMA:50722",
+   "FMA:65132"
+  ],
+  "caption": "Historical illustration (Gray’s Anatomy, 1918). Some labels use older names.",
+  "license": "Public Domain (US)",
+  "licenseUrl": "https://www.copyright.gov/circs/circ15a.pdf",
+  "citation": "Gray H. Anatomy of the Human Body, 20th ed., edited by Lewis WH. Philadelphia: Lea & Febiger, 1918.",
+  "rights": "Public domain in the United States (published 1918). Scan: Internet Archive, digitized by Brigham Young University, Harold B. Lee Library."
  }
 }

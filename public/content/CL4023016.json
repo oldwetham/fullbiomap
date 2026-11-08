@@ -9,16 +9,40 @@
   "CL": "4023016"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-130669.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "VIP interneuron",
+   "variant": "nmo-130669",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "cortex-vip",
+    "label": "VIP interneuron"
+   },
+   "caption": "Reconstructed mouse VIP interneuron · NeuroMorpho.Org NMO_130669 · about 820 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "cortex-vip",
+    "level": "type",
+    "nmoId": "NMO_130669",
+    "neuronName": "2017-03-07-slice-2-cell-7-rotated",
+    "species": "mouse",
+    "region": [
+     "neocortex",
+     "occipital",
+     "primary visual",
+     "layer 4"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=2017-03-07-slice-2-cell-7-rotated",
+    "paper": {
+     "citation": "Scala F et al. (2019). Layer 4 of mouse neocortex differs in cell types and circuit organization between sensory areas. Nat Commun. doi:10.1038/s41467-019-12058-z",
+     "doi": "10.1038/s41467-019-12058-z",
+     "pmid": "31519874"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 2017-03-07-slice-2-cell-7-rotated (NeuroMorpho.Org ID NMO_130669, Tolias archive) from Scala F et al. (2019). Layer 4 of mouse neocortex differs in cell types and circuit organization between sensory areas. Nat Commun. doi:10.1038/s41467-019-12058-z Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

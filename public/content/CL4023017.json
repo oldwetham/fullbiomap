@@ -9,16 +9,39 @@
   "CL": "4023017"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-1839.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "somatostatin interneuron",
+   "variant": "nmo-1839",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "cortex-som",
+    "label": "somatostatin interneuron"
+   },
+   "caption": "Reconstructed mouse somatostatin interneuron · NeuroMorpho.Org NMO_01839 · about 820 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "cortex-som",
+    "level": "type",
+    "nmoId": "NMO_01839",
+    "neuronName": "020315-2-ST",
+    "species": "mouse",
+    "region": [
+     "neocortex",
+     "occipital",
+     "layer 5"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=020315-2-ST",
+    "paper": {
+     "citation": "Dumitriu D et al. (2007). Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex. Cereb Cortex. doi:10.1093/cercor/bhj126",
+     "doi": "10.1093/cercor/bhj126",
+     "pmid": "16467567"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 020315-2-ST (NeuroMorpho.Org ID NMO_01839, Yuste archive) from Dumitriu D et al. (2007). Correlation between axonal morphologies and synaptic input kinetics of interneurons from mouse visual cortex. Cereb Cortex. doi:10.1093/cercor/bhj126 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

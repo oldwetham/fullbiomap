@@ -9,16 +9,38 @@
   "CL": "0000679"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-107146.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "cortical pyramidal neuron",
+   "variant": "nmo-107146",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "cortex-l23-pyramidal",
+    "label": "cortical pyramidal neuron"
+   },
+   "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "cortex-l23-pyramidal",
+    "level": "class",
+    "nmoId": "NMO_107146",
+    "neuronName": "Fig1b_140312-1rm6_pyr",
+    "species": "human",
+    "region": [
+     "neocortex",
+     "layer 2-3"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+    "paper": {
+     "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+     "doi": "10.7554/eLife.18167",
+     "pmid": "27536876"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

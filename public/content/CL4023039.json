@@ -9,16 +9,38 @@
   "CL": "4023039"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-7586.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "amygdala pyramidal neuron",
+   "variant": "nmo-7586",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "amygdala-pyramidal",
+    "label": "amygdala pyramidal neuron"
+   },
+   "caption": "Reconstructed mouse amygdala pyramidal neuron · NeuroMorpho.Org NMO_07586 · about 280 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "amygdala-pyramidal",
+    "level": "type",
+    "nmoId": "NMO_07586",
+    "neuronName": "N-1-1-2-3-R",
+    "species": "mouse",
+    "region": [
+     "amygdala",
+     "basolateral amygdala complex"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=N-1-1-2-3-R",
+    "paper": {
+     "citation": "Carim-Todd L et al. (2009). Endogenous truncated TrkB.T1 receptor regulates neuronal complexity and TrkB kinase receptor function in vivo. J Neurosci. doi:10.1523/JNEUROSCI.5060-08.2009",
+     "doi": "10.1523/JNEUROSCI.5060-08.2009",
+     "pmid": "19158294"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction N-1-1-2-3-R (NeuroMorpho.Org ID NMO_07586, Lee archive) from Carim-Todd L et al. (2009). Endogenous truncated TrkB.T1 receptor regulates neuronal complexity and TrkB kinase receptor function in vivo. J Neurosci. doi:10.1523/JNEUROSCI.5060-08.2009 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

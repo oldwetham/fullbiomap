@@ -32,7 +32,8 @@
        "id": "CL:0000646",
        "label": "basal cell"
       },
-      "note": "Basal cells of layered epithelia are low, cube-like cells."
+      "note": "Basal cells of layered epithelia are low, cube-like cells.",
+      "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
      }
     },
     {
@@ -50,7 +51,8 @@
        "id": "CL:0002202",
        "label": "epithelial cell of tracheobronchial tree"
       },
-      "note": "The airways are lined by a pseudostratified columnar epithelium."
+      "note": "The airways are lined by a pseudostratified columnar epithelium.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · with microvilli · sizes illustrative"
      }
     },
     {
@@ -68,7 +70,8 @@
        "id": "CL:0002368",
        "label": "respiratory tract epithelial cell"
       },
-      "note": "The airways are lined by columnar cells."
+      "note": "The airways are lined by columnar cells.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
      }
     },
     {
@@ -85,7 +88,8 @@
       "from": {
        "id": "CL:0000160",
        "label": "goblet cell"
-      }
+      },
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
      }
     },
     {
@@ -103,7 +107,8 @@
        "id": "CL:0002202",
        "label": "epithelial cell of tracheobronchial tree"
       },
-      "note": "The airways are lined by a pseudostratified columnar epithelium."
+      "note": "The airways are lined by a pseudostratified columnar epithelium.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · with cilia · sizes illustrative"
      }
     },
     {
@@ -121,7 +126,8 @@
        "id": "CL:0000165",
        "label": "neuroendocrine cell"
       },
-      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites.",
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -139,7 +145,8 @@
        "id": "CL:0002368",
        "label": "respiratory tract epithelial cell"
       },
-      "note": "The airways are lined by columnar cells."
+      "note": "The airways are lined by columnar cells.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
      }
     },
     {
@@ -157,7 +164,8 @@
        "id": "CL:0002368",
        "label": "respiratory tract epithelial cell"
       },
-      "note": "The airways are lined by columnar cells."
+      "note": "The airways are lined by columnar cells.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -169,14 +177,40 @@
      "id": "CL:4023154",
      "conceptId": "CL4023154",
      "label": "Myelinating glial cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-152388.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte",
+      "variant": "nmo-152388",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "oligodendrocyte",
+       "label": "oligodendrocyte"
+      },
+      "caption": "A representative mouse oligodendrocyte, not this subtype specifically · NeuroMorpho.Org NMO_152388 · about 120 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "oligodendrocyte",
+       "level": "class",
+       "nmoId": "NMO_152388",
+       "neuronName": "TTX_D_52",
+       "species": "mouse",
+       "region": [
+        "cerebellum",
+        "cerebellar cortex",
+        "cerebellar folia"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=TTX_D_52",
+       "paper": {
+        "citation": "Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0",
+        "doi": "10.1038/s41598-021-88887-0",
+        "pmid": "33953273"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction TTX_D_52 (NeuroMorpho.Org ID NMO_152388, Fulton archive) from Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
@@ -190,7 +224,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -204,7 +239,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -227,7 +263,8 @@
        "id": "CL:0002202",
        "label": "epithelial cell of tracheobronchial tree"
       },
-      "note": "The airways are lined by a pseudostratified columnar epithelium."
+      "note": "The airways are lined by a pseudostratified columnar epithelium.",
+      "caption": "A simplified shape for the column-shaped epithelial cell family · sizes illustrative"
      }
     },
     {
@@ -245,7 +282,8 @@
        "id": "CL:0000185",
        "label": "myoepithelial cell"
       },
-      "note": "Contractile, star-shaped cells around gland units."
+      "note": "Contractile, star-shaped cells around gland units.",
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -259,7 +297,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -278,7 +317,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -296,7 +336,8 @@
        "id": "CL:0000646",
        "label": "basal cell"
       },
-      "note": "Basal cells of layered epithelia are low, cube-like cells."
+      "note": "Basal cells of layered epithelia are low, cube-like cells.",
+      "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -319,7 +360,8 @@
        "id": "CL:0000068",
        "label": "duct epithelial cell"
       },
-      "note": "Small ducts are lined by cuboidal cells."
+      "note": "Small ducts are lined by cuboidal cells.",
+      "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
      }
     }
    ]
@@ -338,7 +380,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -357,7 +400,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -376,7 +420,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -399,7 +444,8 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -418,7 +464,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -441,7 +488,8 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -460,7 +508,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]

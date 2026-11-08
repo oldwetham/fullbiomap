@@ -9,16 +9,39 @@
   "CL": "4023188"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-194130.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "midget ganglion cell",
+   "variant": "nmo-194130",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "retina-midget",
+    "label": "midget ganglion cell"
+   },
+   "caption": "Reconstructed monkey midget ganglion cell · NeuroMorpho.Org NMO_194130 · about 40 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "retina-midget",
+    "level": "type",
+    "nmoId": "NMO_194130",
+    "neuronName": "c1441_Scone",
+    "species": "monkey",
+    "region": [
+     "retina",
+     "ganglion layer",
+     "right"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=c1441_Scone",
+    "paper": {
+     "citation": "Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2",
+     "doi": "10.1038/s41598-019-48042-2",
+     "pmid": "31417169"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction c1441_Scone (NeuroMorpho.Org ID NMO_194130, Patterson_Neitz archive) from Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

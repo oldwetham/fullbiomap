@@ -9,16 +9,40 @@
   "CL": "4023062"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-275838.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "dentate gyrus granule cell",
+   "variant": "nmo-275838",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "dentate-granule",
+    "label": "dentate gyrus granule cell"
+   },
+   "caption": "Reconstructed human dentate gyrus granule cell · NeuroMorpho.Org NMO_275838 · about 750 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "dentate-granule",
+    "level": "type",
+    "nmoId": "NMO_275838",
+    "neuronName": "H16-06-013-05-08-01_575586329_m_DendriteAxon",
+    "species": "human",
+    "region": [
+     "hippocampus",
+     "dentate gyrus",
+     "granule layer",
+     "left"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=H16-06-013-05-08-01_575586329_m_DendriteAxon",
+    "paper": {
+     "citation": "Buchin A et al. (2022). Multi-modal characterization and simulation of human epileptic circuitry. Cell Rep. doi:10.1016/j.celrep.2022.111873",
+     "doi": "10.1016/j.celrep.2022.111873",
+     "pmid": "36577383"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction H16-06-013-05-08-01_575586329_m_DendriteAxon (NeuroMorpho.Org ID NMO_275838, Allen Cell Types archive) from Buchin A et al. (2022). Multi-modal characterization and simulation of human epileptic circuitry. Cell Rep. doi:10.1016/j.celrep.2022.111873 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

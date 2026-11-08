@@ -73,7 +73,11 @@
    "GO:0030425",
    "GO:0031091",
    "GO:0042827",
-   "GO:0042995"
+   "GO:0042995",
+   "GO:0043025",
+   "GO:0044297",
+   "GO:0097440",
+   "GO:0043005"
   ],
   "out": []
  },
@@ -405,6 +409,66 @@
      "name": "Gene Ontology",
      "license": "CC BY 4.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042995"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0043025",
+   "conceptId": "GO0043025",
+   "label": "Cell body (soma)",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043025"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0044297",
+   "conceptId": "GO0044297",
+   "label": "Cell body",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0044297"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0097440",
+   "conceptId": "GO0097440",
+   "label": "Apical dendrite",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0097440"
+    }
+   ]
+  },
+  {
+   "rel": "component_of",
+   "dir": "in",
+   "id": "GO:0043005",
+   "conceptId": "GO0043005",
+   "label": "Neurites",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005"
     }
    ]
   }

@@ -114,7 +114,8 @@ export function formatHash(h:HashState):string{
 
 /** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, histology and FTU media. */
 /** How a cell type is drawn in 3D (step 11, from pipeline/maps/cell-families.json): its family, the Cell Ontology class that chose it, and why it has no nucleus if it has none. */
-export interface CellShape {family:string;label:string;variant:string;apical:string|null;nucleus:boolean;from:{id:string;label:string}|null;note?:string;noNucleus?:string}
+export interface Reconstruction {group:string;level:'type'|'class';nmoId:string;neuronName:string;species:string;region:string[];drawnSoma:boolean;page:string;paper:{citation:string;doi:string|null;pmid:string|null};license:string;licenseUrl:string;attribution:string}
+export interface CellShape {family:string;label:string;variant:string;apical:string|null;nucleus:boolean;from:{id:string;label:string}|null;note?:string;noNucleus?:string;caption?:string;reconstruction?:Reconstruction}
 export interface TissueCell {id:string;conceptId:string;label:string;model?:string;shape?:CellShape}
 export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[];
  /** Tissue unit illustrations: per cell type drawn, the SVG element ids that draw it (HRA crosswalk, step 08). */

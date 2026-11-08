@@ -9,16 +9,39 @@
   "CL": "4023061"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-147058.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "hippocampal pyramidal neuron",
+   "variant": "nmo-147058",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "hippocampus-pyramidal",
+    "label": "hippocampal pyramidal neuron"
+   },
+   "caption": "A representative human hippocampal pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_147058 · about 510 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "hippocampus-pyramidal",
+    "level": "class",
+    "nmoId": "NMO_147058",
+    "neuronName": "52-human-hcca-idab1-porta4-sec1-cel17-soma-z-corr-1-7",
+    "species": "human",
+    "region": [
+     "hippocampus",
+     "CA1",
+     "pyramidal layer"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=52-human-hcca-idab1-porta4-sec1-cel17-soma-z-corr-1-7",
+    "paper": {
+     "citation": "Benavides-Piccione R et al. (2020). Differential Structure of Hippocampal CA1 Pyramidal Neurons in the Human and Mouse. Cereb Cortex. doi:10.1093/cercor/bhz122",
+     "doi": "10.1093/cercor/bhz122",
+     "pmid": "31268532"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 52-human-hcca-idab1-porta4-sec1-cel17-soma-z-corr-1-7 (NeuroMorpho.Org ID NMO_147058, DeFelipe archive) from Benavides-Piccione R et al. (2020). Differential Structure of Hippocampal CA1 Pyramidal Neurons in the Human and Mouse. Cereb Cortex. doi:10.1093/cercor/bhz122 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

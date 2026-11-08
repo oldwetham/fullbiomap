@@ -274,7 +274,8 @@ const CELL_MODEL = '/models/cell/generic-cell.json';
 // Each cell type's 3D shape: a cell family chosen from its Cell Ontology ancestors (pipeline/maps/cell-families.json);
 // step 13 built one model per family variant. `shape` is the summary the panel shows (and step 12 checks).
 const cellShape = cl => { const s = shapeOf(cl, cellDefs.get(cl)?.ancestors ?? []); return {model: s.model, shape: {family: s.family, label: s.label, variant: s.variant, apical: s.apical?.kind ?? null, nucleus: s.nucleus,
-  from: s.from ? {id: s.from.id, label: s.from.label} : null, ...(s.from?.note ? {note: s.from.note} : {}), ...(s.noNucleus ? {noNucleus: s.noNucleus.why} : {})}}; };
+  from: s.from ? {id: s.from.id, label: s.from.label} : null, ...(s.from?.note ? {note: s.from.note} : {}), ...(s.noNucleus ? {noNucleus: s.noNucleus.why} : {}),
+  caption: s.caption, ...(s.reconstruction ? {reconstruction: s.reconstruction} : {})}}; };
 const cellModels = fs.readdirSync(path.join(root, 'public/models/cell')).filter(f => f.endsWith('.json')).sort().map(f => [`/models/cell/${f}`, JSON.parse(read(`public/models/cell/${f}`))]);
 /** An organelle's model: the generic cell if it draws it, else the first family model that does. */
 const organelleModel = key => [[CELL_MODEL], ...cellModels.filter(([u]) => u !== CELL_MODEL)].map(([u]) => [u, cellModels.find(([x]) => x === u)?.[1]]).find(([, m]) => m?.palette?.some(x => x.id === key))?.[0] ?? CELL_MODEL;

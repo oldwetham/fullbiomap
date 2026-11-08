@@ -9,16 +9,39 @@
   "CL": "4023011"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-107156.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "neurogliaform cell",
+   "variant": "nmo-107156",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "neurogliaform",
+    "label": "neurogliaform cell"
+   },
+   "caption": "Reconstructed human neurogliaform cell · NeuroMorpho.Org NMO_107156 · about 500 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "neurogliaform",
+    "level": "type",
+    "nmoId": "NMO_107156",
+    "neuronName": "Fig2c_cell1_1402022rm",
+    "species": "human",
+    "region": [
+     "neocortex",
+     "temporal",
+     "layer 1"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig2c_cell1_1402022rm",
+    "paper": {
+     "citation": "Boldog E et al. (2018). Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type. Nat Neurosci. doi:10.1038/s41593-018-0205-2",
+     "doi": "10.1038/s41593-018-0205-2",
+     "pmid": "30150662"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction Fig2c_cell1_1402022rm (NeuroMorpho.Org ID NMO_107156, Tamas archive) from Boldog E et al. (2018). Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type. Nat Neurosci. doi:10.1038/s41593-018-0205-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

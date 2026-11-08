@@ -75,6 +75,7 @@ const cellTerms = new Map(fs.readFileSync(path.join(root, 'graph/defs.cells.json
 // Independent of the family map: Cell Ontology's own word that a cell type has no nucleus.
 const ontologySaysNoNucleus = id => { const d = cellTerms.get(id); return !!d && ((d.ancestors ?? []).includes('CL:0000225') || /\b(lacks? a nucleus|non-nucleated|anucleate|enucleated?)\b/i.test(d.definition ?? '')); };
 let cellShapesChecked = 0;
+const attributionText = fs.readFileSync(path.join(root, 'public/ATTRIBUTION.md'), 'utf8');
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId) && !CELL_SCALES.has(n.scale)) fail(n.id, 'node is neither an atlas nor an HRA concept');
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
@@ -119,6 +120,11 @@ for (const n of nodes) {
       if (n.geometry.model !== want.model || n.geometry.shape?.variant !== want.variant) fail(n.id, `3D model ${n.geometry.model} is not the one the family rules give (${want.model}); rerun step 11`);
       if (n.geometry.shape?.nucleus !== drawsNucleus(m)) fail(n.id, `shape says nucleus: ${n.geometry.shape?.nucleus} but ${n.geometry.model} ${drawsNucleus(m) ? 'draws' : 'does not draw'} one`);
       if (ontologySaysNoNucleus(n.id) && drawsNucleus(m)) fail(n.id, `Cell Ontology says this cell type has no nucleus, but ${n.geometry.model} draws one`);
+      // A NeuroMorpho.Org reconstruction carries its full credit (the three citations its terms require) and is listed in ATTRIBUTION.md.
+      const rec = n.geometry.shape?.reconstruction;
+      if (n.geometry.shape?.family === 'reconstruction' && (!rec?.nmoId || rec.license !== 'CC BY 4.0' || !rec.paper?.citation || !rec.page || !/NeuroMorpho\.Org \(RRID:SCR_002145; Tecuatl C/.test(rec.attribution ?? '')))
+        fail(n.id, 'reconstruction needs its NeuroMorpho ID, page, original paper, CC BY 4.0 and the NeuroMorpho.Org citations');
+      if (rec?.nmoId && !attributionText.includes(rec.nmoId)) fail(n.id, `${rec.nmoId} is not credited in public/ATTRIBUTION.md`);
     }
   }
   if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');

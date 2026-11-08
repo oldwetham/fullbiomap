@@ -14,7 +14,7 @@ import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js';
-import {CELL_FAMILIES, captionOf, clAncestors, shapeOf, variantOf} from './_cell-families.mjs';
+import {CELL_FAMILIES, RECONSTRUCTIONS, captionOf, clAncestors, reconstructionCaption, shapeOf, variantOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const rel = p => path.join(root, p);
@@ -446,6 +446,74 @@ function epithelialCell(add, family, apical, noNucleus) {
   }
 }
 
+// A tube through points with a radius at each point (reconstructions): rings on parallel-transport frames.
+function tubeThrough(points, radii, radial) {
+  const pts = [], rs = [];
+  points.forEach((p, i) => { if (!pts.length || p.distanceToSquared(pts.at(-1)) > 1e-12) { pts.push(p); rs.push(radii[i]); } });
+  if (pts.length < 2) return null;
+  const pos = [], idx = [], n = pts.length;
+  let normal = null;
+  for (let i = 0; i < n; i++) {
+    const t = (i === 0 ? pts[1].clone().sub(pts[0]) : i === n - 1 ? pts[n - 1].clone().sub(pts[n - 2]) : pts[i + 1].clone().sub(pts[i - 1])).normalize();
+    if (normal) normal.sub(t.clone().multiplyScalar(normal.dot(t)));
+    if (!normal || normal.lengthSq() < 1e-10) normal = new THREE.Vector3().crossVectors(t, Math.abs(t.y) < 0.9 ? UP : V(1, 0, 0));
+    normal.normalize();
+    const binormal = new THREE.Vector3().crossVectors(t, normal);
+    for (let j = 0; j < radial; j++) { const a = (j / radial) * Math.PI * 2, v = normal.clone().multiplyScalar(Math.cos(a)).addScaledVector(binormal, Math.sin(a)).multiplyScalar(rs[i]).add(pts[i]); pos.push(v.x, v.y, v.z); }
+  }
+  for (let i = 0; i < n - 1; i++) for (let j = 0; j < radial; j++) { const a = i * radial + j, b = i * radial + (j + 1) % radial, c = a + radial, d = b + radial; idx.push(a, c, b, b, c, d); }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  g.computeVertexNormals();
+  return g;
+}
+
+// A NeuroMorpho.Org reconstruction (.swc, CNG version): tubes along every traced run with its recorded radii, the soma
+// as a see-through cell body with an illustrative nucleus. A tracing without a soma gets one drawn at its root.
+function reconstructionCell(add, g) {
+  const nodes = new Map();
+  for (const line of fs.readFileSync(rel(g.swc), 'utf8').split('\n')) {
+    const t = line.trim();
+    if (!t || t.startsWith('#')) continue;
+    const [id, type, x, y, z, r, parent] = t.split(/\s+/).map(Number);
+    if (Number.isFinite(id)) nodes.set(id, {id, type, p: V(x, y, z), r: Math.abs(r) || 0.25, parent, kids: []});
+  }
+  for (const n of nodes.values()) nodes.get(n.parent)?.kids.push(n);
+  const box = new THREE.Box3();
+  for (const n of nodes.values()) box.expandByPoint(n.p);
+  const size = box.getSize(V(0, 0, 0)), extent = Math.max(size.x, size.y, size.z), S = 1.5 / extent, mid = box.getCenter(V(0, 0, 0));
+  const stage = v => v.clone().sub(mid).multiplyScalar(S).add(V(0, 0.8, 0));
+  const soma = [...nodes.values()].filter(n => n.type === 1), root = [...nodes.values()].find(n => !nodes.has(n.parent));
+  const somaAt = soma.length ? soma.reduce((a, n) => a.add(n.p), V(0, 0, 0)).multiplyScalar(1 / soma.length) : root.p.clone();
+  const R = Math.max((soma.length ? Math.max(...soma.map(n => n.r)) : Math.max(root.r * 3, 4)) * S, 0.03), C = stage(somaAt);
+  add(g.glia ? 'cell-body' : 'neuronal-cell-body', g.glia ? 'Cell body' : 'Cell body (soma)', new THREE.SphereGeometry(R, 48, 32).translate(C.x, C.y, C.z), {layer: 'envelope'});
+  add('nucleus', 'Nucleus (illustrative)', new THREE.SphereGeometry(R * 0.5, 40, 28).translate(C.x, C.y, C.z), {layer: 'shell'});
+  add('nucleolus', 'Nucleolus (illustrative)', sphere(C.clone().add(V(R * 0.12, R * 0.1, R * 0.08)), R * 0.14, 16, 12));
+  // Unbranched runs between branch points; each starts with its parent point so the tree stays joined.
+  const runs = [];
+  for (const n of nodes.values()) {
+    if (n.type === 1) continue;
+    const parent = nodes.get(n.parent);
+    if (parent && parent.type !== 1 && parent.kids.length === 1) continue;
+    const pts = parent ? [parent] : [];
+    for (let c = n; ; c = c.kids[0]) { pts.push(c); if (c.kids.length !== 1) break; }
+    runs.push({type: n.type, pts});
+  }
+  // About 7,000 points: long runs are thinned evenly, always keeping their ends; branches stay at least 4 mm thick.
+  const every = Math.max(1, Math.ceil(runs.reduce((a, r) => a + r.pts.length, 0) / 7000));
+  const keyOf = t => g.glia ? 'cell-projection' : t === 2 ? 'axon' : t === 3 ? 'dendrite' : t === 4 ? 'apical-dendrite' : 'neurite';
+  const byKey = new Map();
+  for (const run of runs) {
+    const pts = run.pts.filter((_, i, a) => i === 0 || i === a.length - 1 || i % every === 0);
+    const tube = tubeThrough(pts.map(n => stage(n.p)), pts.map(n => Math.max(n.r * S, 0.004)), pts.some(n => n.r * S > 0.012) ? 8 : 6);
+    if (tube) { const k = keyOf(run.type); if (!byKey.has(k)) byKey.set(k, []); byKey.get(k).push(tube); }
+  }
+  const names = {axon: 'Axon', dendrite: 'Dendrites', 'apical-dendrite': 'Apical dendrite', neurite: 'Neurites', 'cell-projection': 'Processes'};
+  for (const [k, list] of byKey) add(k, names[k], join(list));
+  return {extentUm: extent, scale: S};
+}
+
 const BUILDERS = {
   'generic': (add, apical, noNucleus) => noNucleus ? genericNoNucleus(add) : genericCell(add),
   'immune': immuneCell, 'branched-immune': branchedImmuneCell, 'red-blood-cell': redBloodCell, 'platelet': platelet, 'neuron': neuron,
@@ -453,20 +521,21 @@ const BUILDERS = {
   'flat-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'flat-epithelial', apical, noNucleus),
   'cube-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'cube-epithelial', apical, noNucleus),
   'column-epithelial': (add, apical, noNucleus) => epithelialCell(add, 'column-epithelial', apical, noNucleus),
+  'reconstruction': (add, apical, noNucleus, shape) => reconstructionCell(add, RECONSTRUCTIONS.groups[shape.reconstruction.group]),
 };
 
 // The models cell types need (step 06 lists every cell type with its CL ancestors), always including the generic cell.
 const needed = new Map([['generic-cell', {family: 'generic', apical: null, noNucleus: false}]]);
-for (const [id, ancestors] of clAncestors()) { const s = shapeOf(id, ancestors); needed.set(s.variant, {family: s.family, apical: s.apical?.kind ?? null, noNucleus: !s.nucleus}); }
+for (const [id, ancestors] of clAncestors()) { const s = shapeOf(id, ancestors); needed.set(s.variant, {family: s.family, apical: s.apical?.kind ?? null, noNucleus: !s.nucleus, shape: s}); }
 
 const dir = rel('public/models/cell');
 fs.mkdirSync(dir, {recursive: true});
 const summary = {};
-for (const [variant, {family, apical, noNucleus}] of [...needed].sort((x, y) => x[0].localeCompare(y[0]))) {
-  if (variantOf(family, apical, noNucleus) !== variant) throw new Error(`variant name mismatch for ${variant}`);
+for (const [variant, {family, apical, noNucleus, shape}] of [...needed].sort((x, y) => x[0].localeCompare(y[0]))) {
+  if (family !== 'reconstruction' && variantOf(family, apical, noNucleus) !== variant) throw new Error(`variant name mismatch for ${variant}`);
   const parts = [];
   reseed(variant === 'generic-cell' ? 20261107 : variant);
-  BUILDERS[family]((key, name, geometry, extra = {}) => { if (!byKey[key]) throw new Error(`${variant}: ${key} is not in organelles.json`); parts.push({key, name, geometry, ...extra}); }, apical, noNucleus);
+  const built = BUILDERS[family]((key, name, geometry, extra = {}) => { if (!byKey[key]) throw new Error(`${variant}: ${key} is not in organelles.json`); parts.push({key, name, geometry, ...extra}); }, apical, noNucleus, shape) ?? {};
   // Write the manifest (same format as every other model) and one chunk.
   const buffers = [];
   let bytes = 0;
@@ -490,12 +559,14 @@ for (const [variant, {family, apical, noNucleus}] of [...needed].sort((x, y) => 
   fs.writeFileSync(path.join(dir, `${variant}-0.bin`), Buffer.concat(buffers));
   const drawn = organelles.filter(o => counter[o.key]);
   const concepts = [{id: cell.id.replace(':', ''), name: 'Cell', elements: out.map(p => p.id)}, ...drawn.map(o => ({id: o.id.replace(':', ''), name: o.label, elements: out.filter(p => p.system === o.key).map(p => p.id)}))];
-  const f = CELL_FAMILIES.families[family], caption = captionOf(family, apical, noNucleus);
+  const rec = family === 'reconstruction' ? RECONSTRUCTIONS.groups[shape.reconstruction.group] : null;
+  const f = rec ? {label: rec.class} : CELL_FAMILIES.families[family], caption = rec ? reconstructionCaption(rec, 'type') : captionOf(family, apical, noNucleus);
   fs.writeFileSync(path.join(dir, `${variant}.json`), JSON.stringify({
-    version: variant === 'generic-cell' ? 'Bio Map generic cell v1' : `Bio Map ${variant.replace(/-/g, ' ')} v1`, source: 'Bio Map (procedural, pipeline/13-cell.mjs)',
+    version: variant === 'generic-cell' ? 'Bio Map generic cell v1' : `Bio Map ${variant.replace(/-/g, ' ')} v1`,
+    source: rec ? `NeuroMorpho.Org ${rec.nmoId} (${rec.license}), drawn by Bio Map (pipeline/13-cell.mjs)` : 'Bio Map (procedural, pipeline/13-cell.mjs)',
     scope: variant === 'generic-cell' ? 'A generic cell: organelles typical of most cells; sizes and numbers are illustrative' : `${caption[0].toUpperCase()}${caption.slice(1)}`,
-    gzipOnly: true, wholeConcepts: true, stage: {magnification: null, rootConceptId: cell.id.replace(':', '')},
-    cell: {family, label: f.label, variant, apical, nucleus: !noNucleus, caption},
+    gzipOnly: true, wholeConcepts: true, stage: {magnification: built.scale ? Math.round(built.scale * 1e6) : null, rootConceptId: cell.id.replace(':', '')},
+    cell: {family, label: f.label, variant, apical, nucleus: !noNucleus, caption, ...(rec ? {reconstruction: {nmoId: rec.nmoId, species: rec.species, extentUm: Math.round(built.extentUm), drawnSoma: rec.drawnSoma, attribution: rec.attribution}} : {})},
     palette: drawn.map(o => ({id: o.key, color: o.color, label: o.label})),
     parts: out, chunks: [{url: `/models/cell/${variant}-0.bin`, bytes}], triangles, concepts,
   }));

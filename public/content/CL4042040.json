@@ -9,16 +9,39 @@
   "CL": "4042040"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-97833.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "subthalamic nucleus neuron",
+   "variant": "nmo-97833",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "subthalamic",
+    "label": "subthalamic nucleus neuron"
+   },
+   "caption": "Reconstructed mouse subthalamic nucleus neuron · NeuroMorpho.Org NMO_97833 · about 290 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "subthalamic",
+    "level": "type",
+    "nmoId": "NMO_97833",
+    "neuronName": "20160111_sham1",
+    "species": "mouse",
+    "region": [
+     "basal ganglia",
+     "subthalamic nucleus",
+     "lateral"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=20160111_sham1",
+    "paper": {
+     "citation": "Chu HY et al. (2017). Loss of Hyperdirect Pathway Cortico-Subthalamic Inputs Following Degeneration of Midbrain Dopamine Neurons. Neuron. doi:10.1016/j.neuron.2017.08.038",
+     "doi": "10.1016/j.neuron.2017.08.038",
+     "pmid": "28910619"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 20160111_sham1 (NeuroMorpho.Org ID NMO_97833, Bevan_Chu archive) from Chu HY et al. (2017). Loss of Hyperdirect Pathway Cortico-Subthalamic Inputs Following Degeneration of Midbrain Dopamine Neurons. Neuron. doi:10.1016/j.neuron.2017.08.038 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

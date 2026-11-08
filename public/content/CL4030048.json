@@ -11,16 +11,38 @@
   "CL": "4030048"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-101636.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "D1 medium spiny neuron",
+   "variant": "nmo-101636",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "msn-d1",
+    "label": "D1 medium spiny neuron"
+   },
+   "caption": "A representative mouse D1 medium spiny neuron, not this subtype specifically · NeuroMorpho.Org NMO_101636 · about 260 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "msn-d1",
+    "level": "class",
+    "nmoId": "NMO_101636",
+    "neuronName": "Apr12IR2a",
+    "species": "mouse",
+    "region": [
+     "basal ganglia",
+     "striatum"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Apr12IR2a",
+    "paper": {
+     "citation": "Goodliffe JW et al. (2018). Differential changes to D1 and D2 medium spiny neurons in the 12-month-old Q175+/- mouse model of Huntington's Disease. PLoS One. doi:10.1371/journal.pone.0200626",
+     "doi": "10.1371/journal.pone.0200626",
+     "pmid": "30118496"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction Apr12IR2a (NeuroMorpho.Org ID NMO_101636, Luebke archive) from Goodliffe JW et al. (2018). Differential changes to D1 and D2 medium spiny neurons in the 12-month-old Q175+/- mouse model of Huntington's Disease. PLoS One. doi:10.1371/journal.pone.0200626 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

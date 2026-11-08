@@ -13,14 +13,39 @@
   "CL": "0000636"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json",
+  "model": "/models/cell/nmo-190685.json",
   "shape": {
-   "family": "generic",
-   "label": "Generic cell",
-   "variant": "generic-cell",
+   "family": "reconstruction",
+   "label": "Müller glial cell",
+   "variant": "nmo-190685",
    "apical": null,
    "nucleus": true,
-   "from": null
+   "from": {
+    "id": "muller",
+    "label": "Müller glial cell"
+   },
+   "caption": "Reconstructed mouse Müller glial cell · NeuroMorpho.Org NMO_190685 · about 40 µm across · cell body drawn, not traced · nucleus illustrative",
+   "reconstruction": {
+    "group": "muller",
+    "level": "type",
+    "nmoId": "NMO_190685",
+    "neuronName": "cell12_ko_older_traces",
+    "species": "mouse",
+    "region": [
+     "retina",
+     "inner plexiform layer"
+    ],
+    "drawnSoma": true,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=cell12_ko_older_traces",
+    "paper": {
+     "citation": "Tworig JM et al. (2021). Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility. Elife. doi:10.7554/eLife.73202",
+     "doi": "10.7554/eLife.73202",
+     "pmid": "34913435"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction cell12_ko_older_traces (NeuroMorpho.Org ID NMO_190685, Feller archive) from Tworig JM et al. (2021). Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility. Elife. doi:10.7554/eLife.73202 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+   }
   }
  },
  "content": {

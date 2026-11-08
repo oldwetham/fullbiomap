@@ -144,4 +144,26 @@ unmatched = [cl for cl, c in MAP['cells'].items() if c['group'] not in groups]
 report += ['', f'- Cell types with a reconstruction: {len(cells)} ({sum(c["level"] == "type" for c in cells.values())} by type, {sum(c["level"] == "class" for c in cells.values())} as class representatives)',
            f'- Distinct reconstructions: {len(groups)}', f'- Cell types whose group found none (they keep their family shape): {len(unmatched)} {", ".join(unmatched)}']
 (ROOT / 'reports/neuromorpho.md').write_text('\n'.join(report) + '\n')
+
+# The credits section of public/ATTRIBUTION.md (rewritten each run; everything else in that file is left alone).
+by_nmo = {}
+for gid, g in groups.items():
+    by_nmo.setdefault(g['nmoId'], {**g, 'classes': []})['classes'].append(g['class'])
+section = ['## Neuron and glia reconstructions (NeuroMorpho.Org)', '',
+           f'- Source: NeuroMorpho.Org release {RELEASE}, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/; terms of use: https://neuromorpho.org/useterm.jsp).',
+           f'- Cite with each use: NeuroMorpho.Org (RRID:SCR_002145); {CITATION}; and the reconstruction\'s original paper, listed below with its NeuroMorpho.Org ID.',
+           '- Adapted: each standardized (CNG) tracing is drawn as tubes using its recorded radii, scaled onto the stage with a minimum thickness so fine branches stay visible; the nucleus is illustrative, and tracings without a soma get one drawn at their root. Each cell type uses a reconstruction of its own type, or one representing its class (captioned "a representative ... not this subtype specifically"); the full list is reports/neuromorpho.md.', '',
+           '| Shown as | Species | NeuroMorpho.Org ID | Neuron (archive) | Original paper |', '| --- | --- | --- | --- | --- |']
+for nmo, g in sorted(by_nmo.items()):
+    section.append(f"| {'; '.join(sorted(set(g['classes'])))} | {g['species']} | [{nmo}]({g['page']}) | {g['neuronName']} ({g['archive']}) | {g['paper']['citation']} |")
+att = ROOT / 'public/ATTRIBUTION.md'
+text = att.read_text()
+head = '## Neuron and glia reconstructions (NeuroMorpho.Org)'
+if head in text:
+    start = text.index(head)
+    nxt = text.find('\n## ', start + len(head))
+    text = text[:start].rstrip() + '\n\n' + '\n'.join(section) + ('\n\n' + text[nxt + 1:] if nxt >= 0 else '\n')
+else:
+    text = text.rstrip() + '\n\n' + '\n'.join(section) + '\n'
+att.write_text(text)
 print('\n'.join(report[-3:]))

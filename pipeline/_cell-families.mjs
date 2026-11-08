@@ -7,6 +7,17 @@ import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const CELL_FAMILIES = JSON.parse(fs.readFileSync(path.join(root, 'pipeline/maps/cell-families.json'), 'utf8'));
+// Neuron and glia reconstructions picked by step 14 (graph/neuromorpho.json) take precedence over the family shapes.
+const reconstructionsFile = path.join(root, 'graph/neuromorpho.json');
+export const RECONSTRUCTIONS = fs.existsSync(reconstructionsFile) ? JSON.parse(fs.readFileSync(reconstructionsFile, 'utf8')) : {groups: {}, cells: {}};
+/** Real size in words: 600 µm, 1.6 mm. */
+export const sizeWords = um => um >= 1000 ? `${(um / 1000).toFixed(1).replace(/\.0$/, '')} mm` : `${Math.round(um / 10) * 10} µm`;
+const reconstructionExtent = g => Math.max(...['width', 'height', 'depth'].map(k => g.size?.[k] ?? 0));
+/** The caption under a reconstruction: its own type, or a representative of the class (never this subtype). */
+export function reconstructionCaption(g, level) {
+  const what = level === 'type' ? `Reconstructed ${g.species} ${g.class}` : `A representative ${g.species} ${g.class}, not this subtype specifically`;
+  return [what, `NeuroMorpho.Org ${g.nmoId}`, `about ${sizeWords(reconstructionExtent(g))} across`, g.drawnSoma ? 'cell body drawn, not traced' : null, 'nucleus illustrative'].filter(Boolean).join(' · ');
+}
 const APICAL_LABEL = {cilia: 'cilia', microvilli: 'microvilli'};
 
 /** CL id -> its Cell Ontology ancestors (step 06). */
@@ -31,6 +42,14 @@ export function captionOf(family, apical, noNucleus) {
 
 /** How one cell type is drawn: the first rule whose class is the cell type or an ancestor wins; no rule = generic cell. */
 export function shapeOf(id, ancestors = []) {
+  const rec = RECONSTRUCTIONS.cells[id], g = rec && RECONSTRUCTIONS.groups[rec.group];
+  if (g) {
+    const variant = `nmo-${g.neuronId}`;
+    return {family: 'reconstruction', label: g.class, variant, model: modelUrl(variant), caption: reconstructionCaption(g, rec.level), nucleus: true,
+      from: {id: rec.group, label: g.class}, apical: null, noNucleus: null,
+      reconstruction: {group: rec.group, level: rec.level, nmoId: g.nmoId, neuronName: g.neuronName, species: g.species, region: g.region, drawnSoma: g.drawnSoma,
+        page: g.page, paper: g.paper, license: g.license, licenseUrl: g.licenseUrl, attribution: g.attribution}};
+  }
   const has = cl => cl === id || ancestors.includes(cl);
   const rule = CELL_FAMILIES.rules.find(r => has(r.cl)) ?? null;
   const family = rule?.family ?? 'generic', f = CELL_FAMILIES.families[family];

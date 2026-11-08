@@ -11,16 +11,38 @@
   "CL": "4023064"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-66355.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "CGE-derived interneuron",
+   "variant": "nmo-66355",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "cge-derived",
+    "label": "CGE-derived interneuron"
+   },
+   "caption": "Reconstructed mouse CGE-derived interneuron · NeuroMorpho.Org NMO_66355 · about 440 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "cge-derived",
+    "level": "type",
+    "nmoId": "NMO_66355",
+    "neuronName": "110909-05",
+    "species": "mouse",
+    "region": [
+     "hippocampus",
+     "CA1"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=110909-05",
+    "paper": {
+     "citation": "Matta JA et al. (2013). Developmental origin dictates interneuron AMPA and NMDA receptor subunit composition and plasticity. Nat Neurosci. doi:10.1038/nn.3459",
+     "doi": "10.1038/nn.3459",
+     "pmid": "23852113"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 110909-05 (NeuroMorpho.Org ID NMO_66355, McBain archive) from Matta JA et al. (2013). Developmental origin dictates interneuron AMPA and NMDA receptor subunit composition and plasticity. Nat Neurosci. doi:10.1038/nn.3459 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

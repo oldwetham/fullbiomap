@@ -1,0 +1,81 @@
+{
+ "id": "GO:0097440",
+ "conceptId": "GO0097440",
+ "label": "Apical dendrite",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [],
+ "xrefs": {
+  "GO": "0097440"
+ },
+ "geometry": {
+  "model": "/models/cell/nmo-1065.json"
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0097440/tier1.auto.md",
+   "text": "A dendrite that emerges near the apical pole of a neuron. In bipolar neurons, apical dendrites are located on the opposite side of the soma from the axon.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0097440",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0097440",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0097440",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0097440",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0097440. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0097440",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0097440",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0097440"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

@@ -11,16 +11,39 @@
   "CL": "4023012"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-1065.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "layer 5 cortical pyramidal neuron",
+   "variant": "nmo-1065",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "cortex-l5-pyramidal",
+    "label": "layer 5 cortical pyramidal neuron"
+   },
+   "caption": "A representative human layer 5 cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_01065 · about 330 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "cortex-l5-pyramidal",
+    "level": "class",
+    "nmoId": "NMO_01065",
+    "neuronName": "07a_pyramidal13aACC",
+    "species": "human",
+    "region": [
+     "neocortex",
+     "anterior cingulate",
+     "layer 5"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=07a_pyramidal13aACC",
+    "paper": {
+     "citation": "Watson KK et al. (2006). Dendritic architecture of the von Economo neurons. Neuroscience. doi:10.1016/j.neuroscience.2006.04.084",
+     "doi": "10.1016/j.neuroscience.2006.04.084",
+     "pmid": "16797136"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 07a_pyramidal13aACC (NeuroMorpho.Org ID NMO_01065, Allman archive) from Watson KK et al. (2006). Dendritic architecture of the von Economo neurons. Neuroscience. doi:10.1016/j.neuroscience.2006.04.084 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

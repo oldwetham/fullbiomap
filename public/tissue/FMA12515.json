@@ -21,16 +21,37 @@
      "id": "CL:0000561",
      "conceptId": "CL0000561",
      "label": "Amacrine cell",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-53278.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "amacrine cell",
+      "variant": "nmo-53278",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-amacrine",
+       "label": "amacrine cell"
+      },
+      "caption": "Reconstructed human amacrine cell · NeuroMorpho.Org NMO_53278 · about 40 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-amacrine",
+       "level": "type",
+       "nmoId": "NMO_53278",
+       "neuronName": "humret_CR_AII_63x_2",
+       "species": "human",
+       "region": [
+        "retina"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=humret_CR_AII_63x_2",
+       "paper": {
+        "citation": "Kántor O et al. (2016). Calcium buffer proteins are specific markers of human retinal neurons. Cell Tissue Res. doi:10.1007/s00441-016-2376-z",
+        "doi": "10.1007/s00441-016-2376-z",
+        "pmid": "26899253"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction humret_CR_AII_63x_2 (NeuroMorpho.Org ID NMO_53278, Kantor archive) from Kántor O et al. (2016). Calcium buffer proteins are specific markers of human retinal neurons. Cell Tissue Res. doi:10.1007/s00441-016-2376-z Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -38,16 +59,38 @@
      "id": "CL:0000099",
      "conceptId": "CL0000099",
      "label": "Interneuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107145.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical basket cell",
+      "variant": "nmo-107145",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-basket",
+       "label": "cortical basket cell"
+      },
+      "caption": "A representative human cortical basket cell, not this subtype specifically · NeuroMorpho.Org NMO_107145 · about 1.3 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-basket",
+       "level": "class",
+       "nmoId": "NMO_107145",
+       "neuronName": "Fig1b_140312-1rm6_int",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_int",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_int (NeuroMorpho.Org ID NMO_107145, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -55,30 +98,77 @@
      "id": "CL:0000636",
      "conceptId": "CL0000636",
      "label": "Mueller cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-190685.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "Müller glial cell",
+      "variant": "nmo-190685",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "muller",
+       "label": "Müller glial cell"
+      },
+      "caption": "Reconstructed mouse Müller glial cell · NeuroMorpho.Org NMO_190685 · about 40 µm across · cell body drawn, not traced · nucleus illustrative",
+      "reconstruction": {
+       "group": "muller",
+       "level": "type",
+       "nmoId": "NMO_190685",
+       "neuronName": "cell12_ko_older_traces",
+       "species": "mouse",
+       "region": [
+        "retina",
+        "inner plexiform layer"
+       ],
+       "drawnSoma": true,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=cell12_ko_older_traces",
+       "paper": {
+        "citation": "Tworig JM et al. (2021). Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility. Elife. doi:10.7554/eLife.73202",
+        "doi": "10.7554/eLife.73202",
+        "pmid": "34913435"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction cell12_ko_older_traces (NeuroMorpho.Org ID NMO_190685, Feller archive) from Tworig JM et al. (2021). Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility. Elife. doi:10.7554/eLife.73202 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -86,16 +176,38 @@
      "id": "CL:0000750",
      "conceptId": "CL0000750",
      "label": "OFF-bipolar cell",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-194111.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "OFF bipolar cell",
+      "variant": "nmo-194111",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-off-bipolar",
+       "label": "OFF bipolar cell"
+      },
+      "caption": "Reconstructed monkey OFF bipolar cell · NeuroMorpho.Org NMO_194111 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-off-bipolar",
+       "level": "type",
+       "nmoId": "NMO_194111",
+       "neuronName": "c142_Scone",
+       "species": "monkey",
+       "region": [
+        "retina",
+        "inner nuclear layer"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=c142_Scone",
+       "paper": {
+        "citation": "Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2",
+        "doi": "10.1038/s41598-019-48042-2",
+        "pmid": "31417169"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction c142_Scone (NeuroMorpho.Org ID NMO_194111, Patterson_Neitz archive) from Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -103,16 +215,38 @@
      "id": "CL:0000749",
      "conceptId": "CL0000749",
      "label": "ON-bipolar cell",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-194124.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "ON bipolar cell",
+      "variant": "nmo-194124",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-on-bipolar",
+       "label": "ON bipolar cell"
+      },
+      "caption": "Reconstructed monkey ON bipolar cell · NeuroMorpho.Org NMO_194124 · about 70 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-on-bipolar",
+       "level": "type",
+       "nmoId": "NMO_194124",
+       "neuronName": "c238",
+       "species": "monkey",
+       "region": [
+        "retina",
+        "inner nuclear layer"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=c238",
+       "paper": {
+        "citation": "Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2",
+        "doi": "10.1038/s41598-019-48042-2",
+        "pmid": "31417169"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction c238 (NeuroMorpho.Org ID NMO_194124, Patterson_Neitz archive) from Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -120,16 +254,38 @@
      "id": "CL:0000745",
      "conceptId": "CL0000745",
      "label": "Retina horizontal cell",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-194109.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "retinal horizontal cell",
+      "variant": "nmo-194109",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-horizontal",
+       "label": "retinal horizontal cell"
+      },
+      "caption": "Reconstructed monkey retinal horizontal cell · NeuroMorpho.Org NMO_194109 · about 50 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-horizontal",
+       "level": "type",
+       "nmoId": "NMO_194109",
+       "neuronName": "c2795",
+       "species": "monkey",
+       "region": [
+        "retina",
+        "inner nuclear layer"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=c2795",
+       "paper": {
+        "citation": "Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2",
+        "doi": "10.1038/s41598-019-48042-2",
+        "pmid": "31417169"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction c2795 (NeuroMorpho.Org ID NMO_194109, Patterson_Neitz archive) from Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -137,16 +293,37 @@
      "id": "CL:0000748",
      "conceptId": "CL0000748",
      "label": "Retinal bipolar neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-53289.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "retinal bipolar cell",
+      "variant": "nmo-53289",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-bipolar",
+       "label": "retinal bipolar cell"
+      },
+      "caption": "Reconstructed human retinal bipolar cell · NeuroMorpho.Org NMO_53289 · about 80 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-bipolar",
+       "level": "type",
+       "nmoId": "NMO_53289",
+       "neuronName": "humret_GBB_63x_11",
+       "species": "human",
+       "region": [
+        "retina"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=humret_GBB_63x_11",
+       "paper": {
+        "citation": "Kántor O et al. (2016). Calcium buffer proteins are specific markers of human retinal neurons. Cell Tissue Res. doi:10.1007/s00441-016-2376-z",
+        "doi": "10.1007/s00441-016-2376-z",
+        "pmid": "26899253"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction humret_GBB_63x_11 (NeuroMorpho.Org ID NMO_53289, Kantor archive) from Kántor O et al. (2016). Calcium buffer proteins are specific markers of human retinal neurons. Cell Tissue Res. doi:10.1007/s00441-016-2376-z Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     }
@@ -159,16 +336,39 @@
      "id": "CL:4023188",
      "conceptId": "CL4023188",
      "label": "Midget ganglion cell of retina",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-194130.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "midget ganglion cell",
+      "variant": "nmo-194130",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-midget",
+       "label": "midget ganglion cell"
+      },
+      "caption": "Reconstructed monkey midget ganglion cell · NeuroMorpho.Org NMO_194130 · about 40 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-midget",
+       "level": "type",
+       "nmoId": "NMO_194130",
+       "neuronName": "c1441_Scone",
+       "species": "monkey",
+       "region": [
+        "retina",
+        "ganglion layer",
+        "right"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=c1441_Scone",
+       "paper": {
+        "citation": "Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2",
+        "doi": "10.1038/s41598-019-48042-2",
+        "pmid": "31417169"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction c1441_Scone (NeuroMorpho.Org ID NMO_194130, Patterson_Neitz archive) from Patterson SS et al. (2019). An S-cone circuit for edge detection in the primate retina. Sci Rep. doi:10.1038/s41598-019-48042-2 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -176,16 +376,38 @@
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -193,16 +415,37 @@
      "id": "CL:4023189",
      "conceptId": "CL4023189",
      "label": "Parasol ganglion cell of retina",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-87059.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "retinal ganglion cell",
+      "variant": "nmo-87059",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-ganglion",
+       "label": "retinal ganglion cell"
+      },
+      "caption": "A representative human retinal ganglion cell, not this subtype specifically · NeuroMorpho.Org NMO_87059 · about 500 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-ganglion",
+       "level": "class",
+       "nmoId": "NMO_87059",
+       "neuronName": "LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a",
+       "species": "human",
+       "region": [
+        "retina"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a",
+       "paper": {
+        "citation": "Hannibal J et al. (2017). Melanopsin expressing human retinal ganglion cells: Subtypes, distribution, and intraretinal connectivity. J Comp Neurol. doi:10.1002/cne.24181",
+        "doi": "10.1002/cne.24181",
+        "pmid": "28160289"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a (NeuroMorpho.Org ID NMO_87059, Hannibal archive) from Hannibal J et al. (2017). Melanopsin expressing human retinal ganglion cells: Subtypes, distribution, and intraretinal connectivity. J Comp Neurol. doi:10.1002/cne.24181 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -210,16 +453,37 @@
      "id": "CL:0000740",
      "conceptId": "CL0000740",
      "label": "Retinal ganglion cell",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-87059.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "retinal ganglion cell",
+      "variant": "nmo-87059",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "retina-ganglion",
+       "label": "retinal ganglion cell"
+      },
+      "caption": "Reconstructed human retinal ganglion cell · NeuroMorpho.Org NMO_87059 · about 500 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "retina-ganglion",
+       "level": "type",
+       "nmoId": "NMO_87059",
+       "neuronName": "LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a",
+       "species": "human",
+       "region": [
+        "retina"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a",
+       "paper": {
+        "citation": "Hannibal J et al. (2017). Melanopsin expressing human retinal ganglion cells: Subtypes, distribution, and intraretinal connectivity. J Comp Neurol. doi:10.1002/cne.24181",
+        "doi": "10.1002/cne.24181",
+        "pmid": "28160289"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction LPC13_01_2015_13_38_54id1448Z65sdx20ov10_1a (NeuroMorpho.Org ID NMO_87059, Hannibal archive) from Hannibal J et al. (2017). Melanopsin expressing human retinal ganglion cells: Subtypes, distribution, and intraretinal connectivity. J Comp Neurol. doi:10.1002/cne.24181 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     }
@@ -242,23 +506,46 @@
       "from": {
        "id": "CL:0000540",
        "label": "neuron"
-      }
+      },
+      "caption": "A simplified shape for the neuron family · sizes illustrative"
      }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -276,7 +563,8 @@
       "from": {
        "id": "CL:0000540",
        "label": "neuron"
-      }
+      },
+      "caption": "A simplified shape for the neuron family · sizes illustrative"
      }
     },
     {
@@ -293,7 +581,8 @@
       "from": {
        "id": "CL:0000540",
        "label": "neuron"
-      }
+      },
+      "caption": "A simplified shape for the neuron family · sizes illustrative"
      }
     }
    ]
@@ -312,7 +601,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -326,7 +616,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -344,7 +635,8 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -363,7 +655,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -377,7 +670,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -396,7 +690,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -410,7 +705,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -429,7 +725,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -443,7 +740,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -462,7 +760,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     },
     {
@@ -476,7 +775,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -496,7 +796,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     },
     {
@@ -511,7 +812,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     }
    ]
@@ -531,7 +833,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     },
     {
@@ -546,7 +849,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     }
    ]
@@ -558,34 +862,79 @@
      "id": "CL:0000129",
      "conceptId": "CL0000129",
      "label": "Microglial cell",
-     "model": "/models/cell/branched-immune-cell.json",
+     "model": "/models/cell/nmo-301524.json",
      "shape": {
-      "family": "branched-immune",
-      "label": "Branched immune cell",
-      "variant": "branched-immune-cell",
+      "family": "reconstruction",
+      "label": "microglial cell",
+      "variant": "nmo-301524",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000129",
+       "id": "microglia",
        "label": "microglial cell"
       },
-      "note": "Resting microglia reach out with long, branching processes."
+      "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "microglia",
+       "level": "type",
+       "nmoId": "NMO_301524",
+       "neuronName": "634_55_4_066",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 46",
+        "layer 4"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+       "paper": {
+        "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+        "doi": "10.1093/cercor/bhaf120",
+        "pmid": "40420495"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     }
@@ -609,7 +958,8 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -631,7 +981,8 @@
       "from": {
        "id": "CL:0000076",
        "label": "squamous epithelial cell"
-      }
+      },
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -643,14 +994,42 @@
      "id": "CL:0000125",
      "conceptId": "CL0000125",
      "label": "Glial cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "A representative human astrocyte, not this subtype specifically · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "class",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -673,7 +1052,8 @@
        "id": "CL:0002224",
        "label": "lens epithelial cell"
       },
-      "note": "Cell Ontology: 'A cell of the cuboidal epithelium that covers the lens'."
+      "note": "Cell Ontology: 'A cell of the cuboidal epithelium that covers the lens'.",
+      "caption": "A simplified shape for the cube-shaped epithelial cell family · sizes illustrative"
      }
     }
    ]
@@ -685,14 +1065,42 @@
      "id": "CL:0000125",
      "conceptId": "CL0000125",
      "label": "Glial cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "A representative human astrocyte, not this subtype specifically · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "class",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -712,7 +1120,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     }
    ]
@@ -732,7 +1141,8 @@
       "apical": null,
       "nucleus": false,
       "from": null,
-      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded').",
+      "caption": "A generic cell without a nucleus · its organelles are gone · sizes illustrative"
      }
     }
    ]
@@ -751,7 +1161,8 @@
       "variant": "generic-cell",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": null,
+      "caption": "A generic cell · organelles typical of most cells · sizes illustrative"
      }
     }
    ]
@@ -763,14 +1174,42 @@
      "id": "CL:0000125",
      "conceptId": "CL0000125",
      "label": "Glial cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "A representative human astrocyte, not this subtype specifically · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "class",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]

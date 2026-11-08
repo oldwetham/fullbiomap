@@ -21,14 +21,42 @@
      "id": "CL:0000127",
      "conceptId": "CL0000127",
      "label": "Astrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "Reconstructed human astrocyte · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "type",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
@@ -46,41 +74,86 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
      "label": "Microglial cell",
-     "model": "/models/cell/branched-immune-cell.json",
+     "model": "/models/cell/nmo-301524.json",
      "shape": {
-      "family": "branched-immune",
-      "label": "Branched immune cell",
-      "variant": "branched-immune-cell",
+      "family": "reconstruction",
+      "label": "microglial cell",
+      "variant": "nmo-301524",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000129",
+       "id": "microglia",
        "label": "microglial cell"
       },
-      "note": "Resting microglia reach out with long, branching processes."
+      "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "microglia",
+       "level": "type",
+       "nmoId": "NMO_301524",
+       "neuronName": "634_55_4_066",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 46",
+        "layer 4"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+       "paper": {
+        "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+        "doi": "10.1093/cercor/bhaf120",
+        "pmid": "40420495"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000100",
      "conceptId": "CL0000100",
      "label": "Motor neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-129194.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "spinal motor neuron",
+      "variant": "nmo-129194",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "spinal-motoneuron",
+       "label": "spinal motor neuron"
+      },
+      "caption": "Reconstructed mouse spinal motor neuron · NeuroMorpho.Org NMO_129194 · about 140 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "spinal-motoneuron",
+       "level": "type",
+       "nmoId": "NMO_129194",
+       "neuronName": "GFP_90",
+       "species": "mouse",
+       "region": [
+        "spinal cord"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=GFP_90",
+       "paper": {
+        "citation": "Osking Z et al. (2019). ALS-Linked SOD1 Mutants Enhance Neurite Outgrowth and Branching in Adult Motor Neurons. iScience. doi:10.1016/j.isci.2018.12.026",
+        "doi": "10.1016/j.isci.2018.12.026",
+        "pmid": "30639851"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction GFP_90 (NeuroMorpho.Org ID NMO_129194, Vitriol archive) from Osking Z et al. (2019). ALS-Linked SOD1 Mutants Enhance Neurite Outgrowth and Branching in Adult Motor Neurons. iScience. doi:10.1016/j.isci.2018.12.026 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -88,16 +161,38 @@
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -105,14 +200,40 @@
      "id": "CL:0000128",
      "conceptId": "CL0000128",
      "label": "Oligodendrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-152388.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte",
+      "variant": "nmo-152388",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "oligodendrocyte",
+       "label": "oligodendrocyte"
+      },
+      "caption": "Reconstructed mouse oligodendrocyte · NeuroMorpho.Org NMO_152388 · about 120 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "oligodendrocyte",
+       "level": "type",
+       "nmoId": "NMO_152388",
+       "neuronName": "TTX_D_52",
+       "species": "mouse",
+       "region": [
+        "cerebellum",
+        "cerebellar cortex",
+        "cerebellar folia"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=TTX_D_52",
+       "paper": {
+        "citation": "Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0",
+        "doi": "10.1038/s41598-021-88887-0",
+        "pmid": "33953273"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction TTX_D_52 (NeuroMorpho.Org ID NMO_152388, Fulton archive) from Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -124,14 +245,42 @@
      "id": "CL:0000127",
      "conceptId": "CL0000127",
      "label": "Astrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "Reconstructed human astrocyte · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "type",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
@@ -149,41 +298,87 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
      "label": "Microglial cell",
-     "model": "/models/cell/branched-immune-cell.json",
+     "model": "/models/cell/nmo-301524.json",
      "shape": {
-      "family": "branched-immune",
-      "label": "Branched immune cell",
-      "variant": "branched-immune-cell",
+      "family": "reconstruction",
+      "label": "microglial cell",
+      "variant": "nmo-301524",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000129",
+       "id": "microglia",
        "label": "microglial cell"
       },
-      "note": "Resting microglia reach out with long, branching processes."
+      "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "microglia",
+       "level": "type",
+       "nmoId": "NMO_301524",
+       "neuronName": "634_55_4_066",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 46",
+        "layer 4"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+       "paper": {
+        "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+        "doi": "10.1093/cercor/bhaf120",
+        "pmid": "40420495"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -191,14 +386,40 @@
      "id": "CL:0000128",
      "conceptId": "CL0000128",
      "label": "Oligodendrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-152388.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte",
+      "variant": "nmo-152388",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "oligodendrocyte",
+       "label": "oligodendrocyte"
+      },
+      "caption": "Reconstructed mouse oligodendrocyte · NeuroMorpho.Org NMO_152388 · about 120 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "oligodendrocyte",
+       "level": "type",
+       "nmoId": "NMO_152388",
+       "neuronName": "TTX_D_52",
+       "species": "mouse",
+       "region": [
+        "cerebellum",
+        "cerebellar cortex",
+        "cerebellar folia"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=TTX_D_52",
+       "paper": {
+        "citation": "Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0",
+        "doi": "10.1038/s41598-021-88887-0",
+        "pmid": "33953273"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction TTX_D_52 (NeuroMorpho.Org ID NMO_152388, Fulton archive) from Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -210,14 +431,42 @@
      "id": "CL:0000127",
      "conceptId": "CL0000127",
      "label": "Astrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "Reconstructed human astrocyte · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "type",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
@@ -235,41 +484,87 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
      "label": "Microglial cell",
-     "model": "/models/cell/branched-immune-cell.json",
+     "model": "/models/cell/nmo-301524.json",
      "shape": {
-      "family": "branched-immune",
-      "label": "Branched immune cell",
-      "variant": "branched-immune-cell",
+      "family": "reconstruction",
+      "label": "microglial cell",
+      "variant": "nmo-301524",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000129",
+       "id": "microglia",
        "label": "microglial cell"
       },
-      "note": "Resting microglia reach out with long, branching processes."
+      "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "microglia",
+       "level": "type",
+       "nmoId": "NMO_301524",
+       "neuronName": "634_55_4_066",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 46",
+        "layer 4"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+       "paper": {
+        "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+        "doi": "10.1093/cercor/bhaf120",
+        "pmid": "40420495"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
      "label": "Neuron",
-     "model": "/models/cell/neuron.json",
+     "model": "/models/cell/nmo-107146.json",
      "shape": {
-      "family": "neuron",
-      "label": "Neuron",
-      "variant": "neuron",
+      "family": "reconstruction",
+      "label": "cortical pyramidal neuron",
+      "variant": "nmo-107146",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000540",
-       "label": "neuron"
+       "id": "cortex-l23-pyramidal",
+       "label": "cortical pyramidal neuron"
+      },
+      "caption": "A representative human cortical pyramidal neuron, not this subtype specifically · NeuroMorpho.Org NMO_107146 · about 1.1 mm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "cortex-l23-pyramidal",
+       "level": "class",
+       "nmoId": "NMO_107146",
+       "neuronName": "Fig1b_140312-1rm6_pyr",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "layer 2-3"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=Fig1b_140312-1rm6_pyr",
+       "paper": {
+        "citation": "Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167",
+        "doi": "10.7554/eLife.18167",
+        "pmid": "27536876"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction Fig1b_140312-1rm6_pyr (NeuroMorpho.Org ID NMO_107146, Tamas archive) from Molnár G et al. (2016). Human pyramidal to interneuron synapses are mediated by multi-vesicular release and multiple docked vesicles. Elife. doi:10.7554/eLife.18167 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
       }
      }
     },
@@ -277,14 +572,40 @@
      "id": "CL:0000128",
      "conceptId": "CL0000128",
      "label": "Oligodendrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-152388.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte",
+      "variant": "nmo-152388",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "oligodendrocyte",
+       "label": "oligodendrocyte"
+      },
+      "caption": "Reconstructed mouse oligodendrocyte · NeuroMorpho.Org NMO_152388 · about 120 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "oligodendrocyte",
+       "level": "type",
+       "nmoId": "NMO_152388",
+       "neuronName": "TTX_D_52",
+       "species": "mouse",
+       "region": [
+        "cerebellum",
+        "cerebellar cortex",
+        "cerebellar folia"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=TTX_D_52",
+       "paper": {
+        "citation": "Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0",
+        "doi": "10.1038/s41598-021-88887-0",
+        "pmid": "33953273"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction TTX_D_52 (NeuroMorpho.Org ID NMO_152388, Fulton archive) from Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -296,14 +617,42 @@
      "id": "CL:0000127",
      "conceptId": "CL0000127",
      "label": "Astrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-189666.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "astrocyte",
+      "variant": "nmo-189666",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "astrocyte-cortex",
+       "label": "astrocyte"
+      },
+      "caption": "Reconstructed human astrocyte · NeuroMorpho.Org NMO_189666 · about 60 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "astrocyte-cortex",
+       "level": "type",
+       "nmoId": "NMO_189666",
+       "neuronName": "s5vimpfcwmcell2",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 9",
+        "dorsomedial",
+        "white matter"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=s5vimpfcwmcell2",
+       "paper": {
+        "citation": "O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963",
+        "doi": "10.3389/fpsyt.2021.640963",
+        "pmid": "33613346"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction s5vimpfcwmcell2 (NeuroMorpho.Org ID NMO_189666, Mechawar archive) from O'Leary LA et al. (2021). Widespread Decrease of Cerebral Vimentin-Immunoreactive Astrocytes in Depressed Suicides. Front Psychiatry. doi:10.3389/fpsyt.2021.640963 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
@@ -321,53 +670,127 @@
        "id": "CL:0000115",
        "label": "endothelial cell"
       },
-      "note": "Endothelium is a single layer of flat cells."
+      "note": "Endothelium is a single layer of flat cells.",
+      "caption": "A simplified shape for the flat epithelial cell family · sizes illustrative"
      }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
      "label": "Microglial cell",
-     "model": "/models/cell/branched-immune-cell.json",
+     "model": "/models/cell/nmo-301524.json",
      "shape": {
-      "family": "branched-immune",
-      "label": "Branched immune cell",
-      "variant": "branched-immune-cell",
+      "family": "reconstruction",
+      "label": "microglial cell",
+      "variant": "nmo-301524",
       "apical": null,
       "nucleus": true,
       "from": {
-       "id": "CL:0000129",
+       "id": "microglia",
        "label": "microglial cell"
       },
-      "note": "Resting microglia reach out with long, branching processes."
+      "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "microglia",
+       "level": "type",
+       "nmoId": "NMO_301524",
+       "neuronName": "634_55_4_066",
+       "species": "human",
+       "region": [
+        "neocortex",
+        "prefrontal",
+        "Brodmann area 46",
+        "layer 4"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+       "paper": {
+        "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+        "doi": "10.1093/cercor/bhaf120",
+        "pmid": "40420495"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
      "label": "Oligodendrocyte",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-152388.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte",
+      "variant": "nmo-152388",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "oligodendrocyte",
+       "label": "oligodendrocyte"
+      },
+      "caption": "Reconstructed mouse oligodendrocyte · NeuroMorpho.Org NMO_152388 · about 120 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "oligodendrocyte",
+       "level": "type",
+       "nmoId": "NMO_152388",
+       "neuronName": "TTX_D_52",
+       "species": "mouse",
+       "region": [
+        "cerebellum",
+        "cerebellar cortex",
+        "cerebellar folia"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=TTX_D_52",
+       "paper": {
+        "citation": "Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0",
+        "doi": "10.1038/s41598-021-88887-0",
+        "pmid": "33953273"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction TTX_D_52 (NeuroMorpho.Org ID NMO_152388, Fulton archive) from Toth E et al. (2021). A morphological analysis of activity-dependent myelination and myelin injury in transitional oligodendrocytes. Sci Rep. doi:10.1038/s41598-021-88887-0 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     },
     {
      "id": "CL:0002453",
      "conceptId": "CL0002453",
      "label": "Oligodendrocyte precursor cell",
-     "model": "/models/cell/generic-cell.json",
+     "model": "/models/cell/nmo-52273.json",
      "shape": {
-      "family": "generic",
-      "label": "Generic cell",
-      "variant": "generic-cell",
+      "family": "reconstruction",
+      "label": "oligodendrocyte precursor (NG2) cell",
+      "variant": "nmo-52273",
       "apical": null,
       "nucleus": true,
-      "from": null
+      "from": {
+       "id": "ng2",
+       "label": "oligodendrocyte precursor (NG2) cell"
+      },
+      "caption": "Reconstructed mouse oligodendrocyte precursor (NG2) cell · NeuroMorpho.Org NMO_52273 · about 90 µm across · nucleus illustrative",
+      "reconstruction": {
+       "group": "ng2",
+       "level": "type",
+       "nmoId": "NMO_52273",
+       "neuronName": "C11-processes",
+       "species": "mouse",
+       "region": [
+        "cerebellum"
+       ],
+       "drawnSoma": false,
+       "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=C11-processes",
+       "paper": {
+        "citation": "Fannon J et al. (2015). Neuronal activity and AMPA-type glutamate receptor activation regulates the morphological development of oligodendrocyte precursor cells. Glia. doi:10.1002/glia.22799",
+        "doi": "10.1002/glia.22799",
+        "pmid": "25739948"
+       },
+       "license": "CC BY 4.0",
+       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+       "attribution": "Reconstruction C11-processes (NeuroMorpho.Org ID NMO_52273, Fulton archive) from Fannon J et al. (2015). Neuronal activity and AMPA-type glutamate receptor activation regulates the morphological development of oligodendrocyte precursor cells. Glia. doi:10.1002/glia.22799 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+      }
      }
     }
    ]
@@ -390,7 +813,8 @@
        "id": "CL:0000065",
        "label": "ependymal cell"
       },
-      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer."
+      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer.",
+      "caption": "A simplified shape for the cube-shaped epithelial cell family · with cilia · sizes illustrative"
      }
     }
    ]

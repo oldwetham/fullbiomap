@@ -11,16 +11,39 @@
   "CL": "4030051"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-107441.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "nucleus accumbens medium spiny neuron",
+   "variant": "nmo-107441",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "msn-accumbens",
+    "label": "nucleus accumbens medium spiny neuron"
+   },
+   "caption": "A representative mouse nucleus accumbens medium spiny neuron, not this subtype specifically · NeuroMorpho.Org NMO_107441 · about 150 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "msn-accumbens",
+    "level": "class",
+    "nmoId": "NMO_107441",
+    "neuronName": "2-ENU2-treated-neuron2_1",
+    "species": "mouse",
+    "region": [
+     "basal ganglia",
+     "ventral striatum",
+     "nucleus accumbens"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=2-ENU2-treated-neuron2_1",
+    "paper": {
+     "citation": "Pascucci T et al. (2018). A new therapy prevents intellectual disability in mouse with phenylketonuria. Mol Genet Metab. doi:10.1016/j.ymgme.2018.03.009",
+     "doi": "10.1016/j.ymgme.2018.03.009",
+     "pmid": "29661557"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 2-ENU2-treated-neuron2_1 (NeuroMorpho.Org ID NMO_107441, Pascucci archive) from Pascucci T et al. (2018). A new therapy prevents intellectual disability in mouse with phenylketonuria. Mol Genet Metab. doi:10.1016/j.ymgme.2018.03.009 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

@@ -13,18 +13,41 @@
   "CL": "0000129"
  },
  "geometry": {
-  "model": "/models/cell/branched-immune-cell.json",
+  "model": "/models/cell/nmo-301524.json",
   "shape": {
-   "family": "branched-immune",
-   "label": "Branched immune cell",
-   "variant": "branched-immune-cell",
+   "family": "reconstruction",
+   "label": "microglial cell",
+   "variant": "nmo-301524",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000129",
+    "id": "microglia",
     "label": "microglial cell"
    },
-   "note": "Resting microglia reach out with long, branching processes."
+   "caption": "Reconstructed human microglial cell · NeuroMorpho.Org NMO_301524 · about 100 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "microglia",
+    "level": "type",
+    "nmoId": "NMO_301524",
+    "neuronName": "634_55_4_066",
+    "species": "human",
+    "region": [
+     "neocortex",
+     "prefrontal",
+     "Brodmann area 46",
+     "layer 4"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=634_55_4_066",
+    "paper": {
+     "citation": "Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120",
+     "doi": "10.1093/cercor/bhaf120",
+     "pmid": "40420495"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction 634_55_4_066 (NeuroMorpho.Org ID NMO_301524, Seney archive) from Yoblinski AR et al. (2025). Brain region and sex differences in human microglia morphology and function. Cereb Cortex. doi:10.1093/cercor/bhaf120 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
+   }
   }
  },
  "content": {

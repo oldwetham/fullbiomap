@@ -9,16 +9,38 @@
   "CL": "4079016"
  },
  "geometry": {
-  "model": "/models/cell/neuron.json",
+  "model": "/models/cell/nmo-184964.json",
   "shape": {
-   "family": "neuron",
-   "label": "Neuron",
-   "variant": "neuron",
+   "family": "reconstruction",
+   "label": "dorsal root ganglion neuron",
+   "variant": "nmo-184964",
    "apical": null,
    "nucleus": true,
    "from": {
-    "id": "CL:0000540",
-    "label": "neuron"
+    "id": "drg",
+    "label": "dorsal root ganglion neuron"
+   },
+   "caption": "A representative mouse dorsal root ganglion neuron, not this subtype specifically · NeuroMorpho.Org NMO_184964 · about 200 µm across · nucleus illustrative",
+   "reconstruction": {
+    "group": "drg",
+    "level": "class",
+    "nmoId": "NMO_184964",
+    "neuronName": "F7_15-LOX1_EE5_DHA40-1_c",
+    "species": "mouse",
+    "region": [
+     "peripheral nervous system",
+     "dorsal root ganglion"
+    ],
+    "drawnSoma": false,
+    "page": "https://neuromorpho.org/neuron_info.jsp?neuron_name=F7_15-LOX1_EE5_DHA40-1_c",
+    "paper": {
+     "citation": "Coppey L et al. (2021). Characterization of Mice Ubiquitously Overexpressing Human 15-Lipoxygenase-1: Effect of Diabetes on Peripheral Neuropathy and Treatment with Menhaden Oil. J Diabetes Res. doi:10.1155/2021/5564477",
+     "doi": "10.1155/2021/5564477",
+     "pmid": "33816635"
+    },
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Reconstruction F7_15-LOX1_EE5_DHA40-1_c (NeuroMorpho.Org ID NMO_184964, Yorek archive) from Coppey L et al. (2021). Characterization of Mice Ubiquitously Overexpressing Human 15-Lipoxygenase-1: Effect of Diabetes on Peripheral Neuropathy and Treatment with Menhaden Oil. J Diabetes Res. doi:10.1155/2021/5564477 Via NeuroMorpho.Org (RRID:SCR_002145; Tecuatl C, Ljungquist B, Ascoli GA (2024). Accelerating the continuous community sharing of digital neuromorphology data. FASEB BioAdvances 6(7):207-221. doi:10.1096/fba.2024-00048). CC BY 4.0."
    }
   }
  },

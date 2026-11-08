@@ -1,0 +1,85 @@
+{
+ "id": "GO:0043005",
+ "conceptId": "GO0043005",
+ "label": "Neurites",
+ "scale": "organelle",
+ "system": null,
+ "synonyms": [
+  "neuron process",
+  "neuron protrusion",
+  "neuronal cell projection"
+ ],
+ "xrefs": {
+  "GO": "0043005"
+ },
+ "geometry": {
+  "model": "/models/cell/nmo-129194.json"
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/GO_0043005/tier1.auto.md",
+   "text": "A prolongation or process extending from a nerve cell, e.g. an axon or dendrite.",
+   "source": {
+    "kind": "go",
+    "name": "Gene Ontology",
+    "term": "GO:0043005",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Gene Ontology GO:0043005",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0043005. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Gene Ontology GO:0043005",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "CL:0000000"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "component_of",
+   "dir": "out",
+   "id": "CL:0000000",
+   "conceptId": "CL0000000",
+   "label": "Cell",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Gene Ontology",
+     "license": "CC BY 4.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0043005"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "system": null,
+  "isOrgan": false,
+  "organ": null
+ }
+}

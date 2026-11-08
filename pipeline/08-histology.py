@@ -6,7 +6,9 @@ Usage: python3 -I pipeline/08-histology.py
 Histology (HPA 25.1, CC BY 4.0): for each organ in pipeline/maps/tissue-media.json, take HPA's genes
 enriched in that tissue (highest expression first; widening to group-enriched, then tissue-enhanced if
 needed) and use the first whose immunohistochemistry is reliable (enhanced or supported), shows high
-or medium expression there, and has HPA's representative ("selected") image for that tissue. The
+or medium expression there, and has HPA's representative ("selected") image for that tissue. A record or
+image that will not download stops the step rather than let the next gene take its place; images HPA's records
+name but its server answers 404 for are listed by hand in the map (`hpa.missingImages`) and count as none. The
 image shows that protein in brown (DAB) and cell nuclei in blue (hematoxylin). Its gene, Ensembl id
 and UniProt accessions are recorded so Phase 5 can link the image to the protein's 3D structure.
 
@@ -40,7 +42,10 @@ CATEGORIES = ['Tissue enriched', 'Group enriched', 'Tissue enhanced']
 GOOD_RELIABILITY = {'enhanced', 'supported'}
 GOOD_LEVEL = {'high', 'medium'}
 MAX_PER_CATEGORY = 15  # candidates tried per category, highest expression first
-slug = lambda s: re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
+# Representative images HPA's records name but its server answers 404 for, recorded by hand in the map: a candidate
+# whose image is listed has no representative image. Any other failed download stops the step (pipeline/_http.py).
+MISSING = {url: why for url, why in HPA.get('missingImages', {}).items() if not url.startswith('_')}
+passed_over = {}  # tissue -> genes passed over because their image is listed as missing
 # HPA numbers some IHC tissues ('Stomach 1', 'Stomach 2', 'Skin 1', 'Endometrium 1'); match them all.
 same_tissue = lambda name, tissue: re.sub(r'\s+\d+$', '', (name or '').strip().lower()) == tissue
 
@@ -62,12 +67,10 @@ def candidates(tissue, rna):
 
 
 def pick(tissue, rna):
+    # A record that will not download stops the step (pipeline/_http.py): skipping it would let the next candidate
+    # take its place, and a rerun would then pick differently.
     for category, r in candidates(tissue, rna):
-        try:
-            xml = get_file(f'https://www.proteinatlas.org/{r["Ensembl"]}.xml', ROOT / f'data/raw/hpa/{HPA["release"]}/{r["Ensembl"]}.xml', retries=6)
-        except Exception as e:  # a record that will not download is skipped, not fatal
-            print(f'  skipped {r["Gene"]} ({tissue}): {type(e).__name__}', flush=True)
-            continue
+        xml = get_file(f'https://www.proteinatlas.org/{r["Ensembl"]}.xml', ROOT / f'data/raw/hpa/{HPA["release"]}/{r["Ensembl"]}.xml')
         entry = ET.parse(xml).getroot().find('entry')
         ihc = entry.find("tissueExpression[@technology='IHC'][@assayType='tissue']")
         if ihc is None or (ihc.findtext('verification') or '').lower() not in GOOD_RELIABILITY:
@@ -75,6 +78,9 @@ def pick(tissue, rna):
         level = next((d.findtext("level[@type='expression']") for d in ihc.findall('data') if same_tissue(d.findtext('tissue'), tissue) and (d.findtext("level[@type='expression']") or '').lower() in GOOD_LEVEL), None)
         image = next((i for i in ihc.findall("image[@imageType='selected']") if same_tissue(i.findtext('tissue'), tissue)), None)
         if (level or '').lower() not in GOOD_LEVEL or image is None:
+            continue
+        if image.findtext('imageUrl') in MISSING:
+            passed_over.setdefault(tissue, []).append(r['Gene'])
             continue
         yield {'category': category, 'gene': r['Gene'], 'description': r.get('Gene description') or r['Gene'], 'ensembl': r['Ensembl'],
                 'uniprot': r.get('Uniprot') or [], 'reliability': ihc.findtext('verification').lower(), 'level': level.lower(),
@@ -87,21 +93,16 @@ for organ, cfg in MAP['organs'].items():
     if not cfg.get('hpa') or not cfg['nodes']:
         continue
     tissue = cfg['hpa']
-    name, choice = f'{slug(organ)}.jpg', None
-    for candidate in pick(tissue, cfg.get('hpaRna', tissue)):  # the first candidate whose image actually downloads
-        try:
-            get_file(candidate['imageUrl'], ROOT / f'data/raw/hpa/{HPA["release"]}/images/{name}', retries=4)
-            choice = candidate
-            break
-        except Exception as e:
-            print(f'  skipped {candidate["gene"]} image ({tissue}): {type(e).__name__}', flush=True)
+    choice = next(pick(tissue, cfg.get('hpaRna', tissue)), None)
     if not choice:
         report.append(f'| {organ} | {tissue} | none found | | |')
         continue
+    # Cached under the image's own path, so a different pick can never reuse another gene's file.
+    image = get_file(choice['imageUrl'], ROOT / f'data/raw/hpa/{HPA["release"]}/images' / urllib.parse.urlparse(choice['imageUrl']).path.strip('/').replace('/', '-'))
     protein = choice['description'][:1].lower() + choice['description'][1:] if choice['description'][:2].isupper() is False else choice['description']
     page = f'https://www.proteinatlas.org/{choice["ensembl"]}-{choice["gene"]}/tissue/{urllib.parse.quote(tissue)}'
     record = {
-        'kind': 'histology', 'file': f'data/raw/hpa/{HPA["release"]}/images/{name}', 'organ': organ, 'tissue': tissue,
+        'kind': 'histology', 'file': str(image.relative_to(ROOT)), 'organ': organ, 'tissue': tissue,
         'caption': f'{tissue[:1].upper() + tissue[1:]} tissue stained for {protein} ({choice["gene"]}). Brown: {choice["gene"]} protein. Blue: cell nuclei (hematoxylin counterstain).',
         'alt': f'Microscope image of {tissue} tissue with {choice["gene"]} protein stained brown and cell nuclei stained blue.',
         'gene': {'symbol': choice['gene'], 'name': choice['description'], 'ensembl': choice['ensembl'], 'uniprot': choice['uniprot']},
@@ -113,6 +114,8 @@ for organ, cfg in MAP['organs'].items():
     for node in cfg['nodes']:
         media.setdefault(node, []).append(record)
     report.append(f'| {organ} | {tissue} | {choice["description"]} ({choice["gene"]}) | {choice["category"]} | {choice["reliability"]}, {choice["level"]} |')
+report += ['', 'Passed over because HPA does not serve the representative image its record names (pipeline/maps/tissue-media.json `hpa.missingImages`): '
+           + ('; '.join(f'{t}: {", ".join(g)}' for t, g in passed_over.items()) or 'none') + '.']
 shutil.rmtree(ROOT / 'public/histology', ignore_errors=True)  # superseded by public/figures/ (step 10)
 
 # HRA 2D FTU illustrations.

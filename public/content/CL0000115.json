@@ -477,36 +477,38 @@
  },
  "figures": [
   {
-   "id": "hpa-cd34-endothelial-cells-cerebral-cortex",
+   "id": "hpa-pecam1-endothelial-cells-colon",
    "source": "hpa",
    "sourceName": "Human Protein Atlas 25.1",
    "kind": "micrograph",
-   "title": "Endothelial cells in cerebral cortex: CD34 immunohistochemistry",
-   "caption": "Cerebral cortex stained for the CD34 protein, which HPA scores high in endothelial cells here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists CD34 as a biomarker of endothelial cells (ASCT+B table: bone marrow). Brown: CD34 protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of cerebral cortex with CD34 protein stained brown in endothelial cells and cell nuclei stained blue.",
+   "title": "Endothelial cells in colon: PECAM1 immunohistochemistry",
+   "caption": "Colon stained for the PECAM1 protein, which HPA scores high in endothelial cells here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists PECAM1 as a biomarker of endothelial cells (ASCT+B tables: bone marrow, kidney, skin). Brown: PECAM1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of colon with PECAM1 protein stained brown in endothelial cells and cell nuclei stained blue.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endothelial cells in cerebral cortex: CD34 immunohistochemistry, https://images.proteinatlas.org/18/155469_B_8_5.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000174059-CD34/tissue/cerebral%20cortex",
-   "imageUrl": "https://images.proteinatlas.org/18/155469_B_8_5.jpg",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endothelial cells in colon: PECAM1 immunohistochemistry, https://images.proteinatlas.org/4690/13163_A_9_3.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000261371-PECAM1/tissue/colon",
+   "imageUrl": "https://images.proteinatlas.org/4690/13163_A_9_3.jpg",
    "marker": {
-    "hgnc": "HGNC:1662",
-    "ensembl": "ENSG00000174059",
-    "symbol": "CD34",
+    "hgnc": "HGNC:8823",
+    "ensembl": "ENSG00000261371",
+    "symbol": "PECAM1",
     "cell": "CL:0000115",
     "tables": [
-     "bone-marrow"
+     "bone-marrow",
+     "kidney",
+     "skin"
     ]
    },
-   "thumb": "/figures/hpa-cd34-endothelial-cells-cerebral-cortex-thumb.webp",
-   "url": "/figures/hpa-cd34-endothelial-cells-cerebral-cortex.webp",
+   "thumb": "/figures/hpa-pecam1-endothelial-cells-colon-thumb.webp",
+   "url": "/figures/hpa-pecam1-endothelial-cells-colon.webp",
    "width": 1400,
    "height": 1400,
    "thumbWidth": 240,
    "thumbHeight": 240,
    "status": "auto",
-   "match": "HPA cell type “endothelial cells” in cerebral cortex = “endothelial cell”; CD34 is HGNC:1662, an ASCT+B biomarker of CL:0000115"
+   "match": "HPA cell type “endothelial cells” in colon = “endothelial cell”; PECAM1 is HGNC:8823, an ASCT+B biomarker of CL:0000115"
   },
   {
    "id": "hra-skin-dermal-papilla",

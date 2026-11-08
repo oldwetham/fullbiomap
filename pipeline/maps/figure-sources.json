@@ -78,7 +78,7 @@
    "CC-BY"
   ],
   "entries": [],
-  "_note": "No entries are pinned. Entry pages found by web search (bioart/50, 111, 112, 114, 141, 253, 313, 356; November 2026) give a title, a licence field (Public Domain) and image links, but every image file they link (nih3d-v2-data-cln-media-prod.s3.amazonaws.com) answers HTTP 403 to a direct request: the files are served only to the site's own pages, so Bio Map does not use them. Step 10 still reads any entry listed here and reports one whose image cannot be downloaded."
+  "_note": "No entries are pinned. Entry pages found by web search (bioart/50, 111, 112, 114, 141, 253, 313, 356; November 2026) give a title, a licence field (Public Domain) and image links, but every image file they link (nih3d-v2-data-cln-media-prod.s3.amazonaws.com) answers HTTP 403 to a direct request: the files are served only to the site's own pages, so Bio Map does not use them. Step 10 still reads any entry listed here, and stops with an error naming the entry if its image cannot be downloaded (a failed download never lets another candidate take its place)."
  },
  "grays": {
   "name": "Gray's Anatomy (1918)",

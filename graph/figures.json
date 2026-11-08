@@ -723,6 +723,28 @@
    "thumbHeight": 240,
    "status": "auto"
   },
+  "hpa-aox1-adrenal-gland": {
+   "id": "hpa-aox1-adrenal-gland",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Adrenal gland: AOX1 immunohistochemistry",
+   "caption": "Adrenal gland tissue stained for aldehyde oxidase 1 (AOX1). Brown: AOX1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of adrenal gland tissue with AOX1 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Adrenal gland: AOX1 immunohistochemistry, https://images.proteinatlas.org/40215/166610_B_6_5.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000138356-AOX1/tissue/adrenal%20gland",
+   "imageUrl": "https://images.proteinatlas.org/40215/166610_B_6_5.jpg",
+   "thumb": "/figures/hpa-aox1-adrenal-gland-thumb.webp",
+   "url": "/figures/hpa-aox1-adrenal-gland.webp",
+   "width": 1400,
+   "height": 1400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto"
+  },
   "hpa-cd163-macrophages-lung": {
    "id": "hpa-cd163-macrophages-lung",
    "source": "hpa",
@@ -752,37 +774,6 @@
    },
    "thumb": "/figures/hpa-cd163-macrophages-lung-thumb.webp",
    "url": "/figures/hpa-cd163-macrophages-lung.webp",
-   "width": 1400,
-   "height": 1400,
-   "thumbWidth": 240,
-   "thumbHeight": 240,
-   "status": "auto"
-  },
-  "hpa-cd34-endothelial-cells-cerebral-cortex": {
-   "id": "hpa-cd34-endothelial-cells-cerebral-cortex",
-   "source": "hpa",
-   "sourceName": "Human Protein Atlas 25.1",
-   "kind": "micrograph",
-   "title": "Endothelial cells in cerebral cortex: CD34 immunohistochemistry",
-   "caption": "Cerebral cortex stained for the CD34 protein, which HPA scores high in endothelial cells here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists CD34 as a biomarker of endothelial cells (ASCT+B table: bone marrow). Brown: CD34 protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of cerebral cortex with CD34 protein stained brown in endothelial cells and cell nuclei stained blue.",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endothelial cells in cerebral cortex: CD34 immunohistochemistry, https://images.proteinatlas.org/18/155469_B_8_5.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000174059-CD34/tissue/cerebral%20cortex",
-   "imageUrl": "https://images.proteinatlas.org/18/155469_B_8_5.jpg",
-   "marker": {
-    "hgnc": "HGNC:1662",
-    "ensembl": "ENSG00000174059",
-    "symbol": "CD34",
-    "cell": "CL:0000115",
-    "tables": [
-     "bone-marrow"
-    ]
-   },
-   "thumb": "/figures/hpa-cd34-endothelial-cells-cerebral-cortex-thumb.webp",
-   "url": "/figures/hpa-cd34-endothelial-cells-cerebral-cortex.webp",
    "width": 1400,
    "height": 1400,
    "thumbWidth": 240,
@@ -833,28 +824,6 @@
    "thumbHeight": 240,
    "status": "auto"
   },
-  "hpa-cyp17a1-adrenal-gland": {
-   "id": "hpa-cyp17a1-adrenal-gland",
-   "source": "hpa",
-   "sourceName": "Human Protein Atlas 25.1",
-   "kind": "micrograph",
-   "title": "Adrenal gland: CYP17A1 immunohistochemistry",
-   "caption": "Adrenal gland tissue stained for cytochrome P450 family 17 subfamily A member 1 (CYP17A1). Brown: CYP17A1 protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of adrenal gland tissue with CYP17A1 protein stained brown and cell nuclei stained blue.",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Adrenal gland: CYP17A1 immunohistochemistry, https://images.proteinatlas.org/ih_additional_tissue/48533/417_227.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000148795-CYP17A1/tissue/adrenal%20gland",
-   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/48533/417_227.jpg",
-   "thumb": "/figures/hpa-cyp17a1-adrenal-gland-thumb.webp",
-   "url": "/figures/hpa-cyp17a1-adrenal-gland.webp",
-   "width": 400,
-   "height": 400,
-   "thumbWidth": 240,
-   "thumbHeight": 240,
-   "status": "auto"
-  },
   "hpa-dct-melanocytes-skin-1": {
    "id": "hpa-dct-melanocytes-skin-1",
    "source": "hpa",
@@ -897,6 +866,28 @@
    "height": 1400,
    "thumbWidth": 240,
    "thumbHeight": 240,
+   "status": "auto"
+  },
+  "hpa-esr1-endometrium": {
+   "id": "hpa-esr1-endometrium",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Endometrium: ESR1 immunohistochemistry",
+   "caption": "Endometrium tissue stained for estrogen receptor 1 (ESR1). Brown: ESR1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of endometrium tissue with ESR1 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endometrium: ESR1 immunohistochemistry, https://images.proteinatlas.org/37/288_B_3_3.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000091831-ESR1/tissue/endometrium",
+   "imageUrl": "https://images.proteinatlas.org/37/288_B_3_3.jpg",
+   "thumb": "/figures/hpa-esr1-endometrium-thumb.webp",
+   "url": "/figures/hpa-esr1-endometrium.webp",
+   "width": 1400,
+   "height": 1294,
+   "thumbWidth": 240,
+   "thumbHeight": 221,
    "status": "auto"
   },
   "hpa-fhl2-cardiomyocytes-heart-muscle": {
@@ -1335,28 +1326,6 @@
    "thumbHeight": 240,
    "status": "auto"
   },
-  "hpa-paep-endometrium": {
-   "id": "hpa-paep-endometrium",
-   "source": "hpa",
-   "sourceName": "Human Protein Atlas 25.1",
-   "kind": "micrograph",
-   "title": "Endometrium: PAEP immunohistochemistry",
-   "caption": "Endometrium tissue stained for progestagen associated endometrial protein (PAEP). Brown: PAEP protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of endometrium tissue with PAEP protein stained brown and cell nuclei stained blue.",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endometrium: PAEP immunohistochemistry, https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000122133-PAEP/tissue/endometrium",
-   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg",
-   "thumb": "/figures/hpa-paep-endometrium-thumb.webp",
-   "url": "/figures/hpa-paep-endometrium.webp",
-   "width": 400,
-   "height": 400,
-   "thumbWidth": 240,
-   "thumbHeight": 240,
-   "status": "auto"
-  },
   "hpa-pdgfra-fibroblasts-colon": {
    "id": "hpa-pdgfra-fibroblasts-colon",
    "source": "hpa",
@@ -1382,6 +1351,39 @@
    },
    "thumb": "/figures/hpa-pdgfra-fibroblasts-colon-thumb.webp",
    "url": "/figures/hpa-pdgfra-fibroblasts-colon.webp",
+   "width": 1400,
+   "height": 1400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto"
+  },
+  "hpa-pecam1-endothelial-cells-colon": {
+   "id": "hpa-pecam1-endothelial-cells-colon",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Endothelial cells in colon: PECAM1 immunohistochemistry",
+   "caption": "Colon stained for the PECAM1 protein, which HPA scores high in endothelial cells here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists PECAM1 as a biomarker of endothelial cells (ASCT+B tables: bone marrow, kidney, skin). Brown: PECAM1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of colon with PECAM1 protein stained brown in endothelial cells and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Endothelial cells in colon: PECAM1 immunohistochemistry, https://images.proteinatlas.org/4690/13163_A_9_3.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000261371-PECAM1/tissue/colon",
+   "imageUrl": "https://images.proteinatlas.org/4690/13163_A_9_3.jpg",
+   "marker": {
+    "hgnc": "HGNC:8823",
+    "ensembl": "ENSG00000261371",
+    "symbol": "PECAM1",
+    "cell": "CL:0000115",
+    "tables": [
+     "bone-marrow",
+     "kidney",
+     "skin"
+    ]
+   },
+   "thumb": "/figures/hpa-pecam1-endothelial-cells-colon-thumb.webp",
+   "url": "/figures/hpa-pecam1-endothelial-cells-colon.webp",
    "width": 1400,
    "height": 1400,
    "thumbWidth": 240,
@@ -4800,8 +4802,8 @@
   ],
   "CL:0000115": [
    {
-    "figure": "hpa-cd34-endothelial-cells-cerebral-cortex",
-    "match": "HPA cell type “endothelial cells” in cerebral cortex = “endothelial cell”; CD34 is HGNC:1662, an ASCT+B biomarker of CL:0000115",
+    "figure": "hpa-pecam1-endothelial-cells-colon",
+    "match": "HPA cell type “endothelial cells” in colon = “endothelial cell”; PECAM1 is HGNC:8823, an ASCT+B biomarker of CL:0000115",
     "status": "auto"
    },
    {
@@ -7571,7 +7573,7 @@
   ],
   "FMA:9604": [
    {
-    "figure": "hpa-cyp17a1-adrenal-gland",
+    "figure": "hpa-aox1-adrenal-gland",
     "match": "HPA tissue “adrenal gland” is this organ's tissue in pipeline/maps/tissue-media.json",
     "status": "auto"
    },
@@ -7763,7 +7765,7 @@
   "GO:0097440": [],
   "UBERON:0000995": [
    {
-    "figure": "hpa-paep-endometrium",
+    "figure": "hpa-esr1-endometrium",
     "match": "HPA tissue “endometrium” is this organ's tissue in pipeline/maps/tissue-media.json",
     "status": "auto"
    },

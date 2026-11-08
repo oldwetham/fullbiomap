@@ -4,7 +4,27 @@
   "release": "25.1",
   "released": "2026-05-25",
   "license": "CC BY 4.0",
-  "licenseUrl": "https://www.proteinatlas.org/about/licence"
+  "licenseUrl": "https://www.proteinatlas.org/about/licence",
+  "missingImages": {
+   "_note": "Images that HPA's own records name but its image server answers 404 Not Found for (checked on the date given). Step 08 treats a candidate whose representative image is listed here as having none for that tissue, the case its rule already covers; step 10 treats a listed full-resolution file as absent. Any other failed download, and a 404 for an image not listed here, stops the step (pipeline/_http.py). Remove an entry to try that image again.",
+   "https://images.proteinatlas.org/ih_additional_tissue/48533/417_227.jpg": "CYP17A1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/23644/1129_501.jpg": "STAR, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/49171/151_62.jpg": "CYP11B1, CYP11B2, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/27391/247_136.jpg": "AKR1B1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/43261/152_91.jpg": "HSD3B2, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/53371/162_71.jpg": "CYP21A2, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/16436/121_55.jpg": "CYP11A1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/53673/1120_488.jpg": "FDXR, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/41630/96_16.jpg": "FDX1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/17856/1128_517.jpg": "AS3MT, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/70789/110_34.jpg": "DBH, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/47171/984_423.jpg": "SOAT1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/79148/1278_645.jpg": "MC2R, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/5872/1267_639.jpg": "DLK1, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/19684/172_89.jpg": "CCN3, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/13138/985_580.jpg": "PENK, adrenal gland: answered 404 Not Found on 2026-11-08",
+   "https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg": "PAEP, endometrium: answered 404 Not Found on 2026-11-08"
+  }
  },
  "organs": {
   "kidney": {

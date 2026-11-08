@@ -29,15 +29,93 @@ No Wikipedia text is used anywhere. Tier-1 text is the first available of an NCI
 - Relations (arterial supply, venous drainage, nerve supply, lymphatic drainage, branch of, tributary of, attaches to, articulates with, continuous with) come from the Foundational Model of Anatomy (FMA) 5.1 via EBI OLS4, CC BY 3.0, credited above.
 - Vessel branching also comes from the Human Reference Atlas ASCT+B table for Blood Vasculature v1.10, the data behind the HRA vasculature common coordinate framework (VCCF): Weber G, Lee S, Malhotra R (2025), HuBMAP ASCT+B Tables. Blood Vasculature v1.10, https://doi.org/10.48539/HBM497.DSBZ.627; HuBMAP / Human Reference Atlas, https://humanatlas.io. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Adaptation: consecutive vessels in each row were mapped to Bio Map structures (directly by FMA id, or through Uberon cross-references) and recorded as branch_of (arteries) or tributary_of (veins).
 
-## Historical assets (not included in the current release)
+## Female body and organ interiors (Human Reference Atlas)
 
-Earlier repository revisions included female reference anatomy: Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, *3D Reference Organ Set for Female v1.5* (2023). CC BY 4.0. Geometry adapted for this viewer.
+Human Reference Atlas (HRA) release v2.5, HuBMAP, https://humanatlas.io. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Release manifest: https://cdn.humanatlas.io/digital-objects/collection/hra/v2.5/assets/digital-objects.yaml.
 
-- Source DOI: https://doi.org/10.48539/HBM352.BTSQ.586
-- Dataset: https://lod.humanatlas.io/ref-organ/united-female/v1.5
-- Original GLB: https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.5/assets/3d-vh-f-united.glb
-- License: https://creativecommons.org/licenses/by/4.0/
+- Female body: Browne K, Schlehlein H (2026). *3D Reference Organ Set for Female, v1.10*. https://doi.org/10.48539/HBM637.DWBM.744
+- Library: Browne K, Schlehlein H, Herr BW II, Quardokus E, Bueckle A, Börner K (2026). HuBMAP CCF 3D Reference Object Library. https://humanatlas.io/3d-reference-library
+- Node-to-ontology crosswalks: each object's crosswalk.csv, and the ASCT+B Tables to 3D Reference Object Library Mapping v1.10, https://doi.org/10.48539/HBM626.BRWN.943
+- HRA overview: Börner K et al. (2024). Human Reference Atlas. https://doi.org/10.1101/2024.12.22.630006
 
-Adaptations: translated native meter/Y-up coordinates onto the stage, coincident vertices welded and source normals averaged, geometry simplified with a 0.2% per-structure relative error bound, and normals quantized. Colors and display systems are curated for this interface. All 888 source meshes are represented, with 1,073 source nodes available as selectable individual or compound concepts.
+Adaptations: GLB meshes converted to Bio Map's part/chunk format; coincident vertices welded and geometry simplified with a 0.2% per-structure relative error bound; normals quantized to 16-bit. The female body is translated so its feet rest on the stage; the eight placenta and umbilical meshes in the united female model are left out (non-pregnant reference). Organ interiors are centered on the stage and scaled so their largest side is 1.4 m (the viewer labels the magnification). Display systems and colors are assigned by Bio Map (pipeline/maps/hra-organ-systems.json).
 
-This is a reference assembly with whole-body surface and selected organs, including female reproductive anatomy. Its skeleton and muscle coverage is partial. It is not a complete model of every human structure or a single-person scan. Eight placenta/umbilical structures are classified under Pregnancy reference and hidden by default.
+The female reference's skeleton and muscles are partial; the viewer says so where the female body is shown.
+
+| HRA object | Version | DOI |
+| --- | --- | --- |
+| brain-female | v1.4 | https://doi.org/10.48539/HBM674.NTLM.353 |
+| brain-male | v1.4 | https://doi.org/10.48539/HBM538.NKCT.649 |
+| epiploic-appendage-of-transverse-colon-female | v1.0 | https://doi.org/10.48539/HBM926.ZRGW.252 |
+| epiploic-appendage-of-transverse-colon-male | v1.0 | https://doi.org/10.48539/HBM829.BSRC.927 |
+| eye-female-left | v1.3 | https://doi.org/10.48539/HBM525.TRWD.376 |
+| eye-female-right | v1.3 | https://doi.org/10.48539/HBM632.KTDP.379 |
+| eye-male-left | v1.3 | https://doi.org/10.48539/HBM769.RWTZ.963 |
+| eye-male-right | v1.3 | https://doi.org/10.48539/HBM272.VPJG.573 |
+| fallopian-tube-female-left | v1.2 | https://doi.org/10.48539/HBM529.KBQT.896 |
+| fallopian-tube-female-right | v1.2 | https://doi.org/10.48539/HBM952.XJJV.857 |
+| heart-female | v1.3 | https://doi.org/10.48539/HBM449.SHRV.225 |
+| heart-male | v1.3 | https://doi.org/10.48539/HBM564.WKNG.249 |
+| intervertebral-disk-female | v1.0 | https://doi.org/10.48539/HBM824.BNBP.227 |
+| intervertebral-disk-male | v1.0 | https://doi.org/10.48539/HBM747.XJJX.236 |
+| kidney-female-left | v1.3 | https://doi.org/10.48539/HBM449.JPXL.964 |
+| kidney-female-right | v1.3 | https://doi.org/10.48539/HBM968.HSNL.854 |
+| kidney-male-left | v1.3 | https://doi.org/10.48539/HBM759.JKKF.434 |
+| kidney-male-right | v1.3 | https://doi.org/10.48539/HBM364.QTSC.334 |
+| knee-female-left | v1.3 | https://doi.org/10.48539/HBM892.RGKB.238 |
+| knee-female-right | v1.3 | https://doi.org/10.48539/HBM542.WHJW.673 |
+| knee-male-left | v1.2 | https://doi.org/10.48539/HBM839.JJQF.873 |
+| knee-male-right | v1.2 | https://doi.org/10.48539/HBM984.JRHT.838 |
+| large-intestine-female | v1.3 | https://doi.org/10.48539/HBM682.RSXX.965 |
+| large-intestine-male | v1.3 | https://doi.org/10.48539/HBM487.ZKSN.693 |
+| larynx-female | v1.1 | https://doi.org/10.48539/HBM525.FJHR.643 |
+| larynx-male | v1.1 | https://doi.org/10.48539/HBM362.HNZB.247 |
+| liver-female | v1.2 | https://doi.org/10.48539/HBM599.GZLD.639 |
+| liver-male | v1.2 | https://doi.org/10.48539/HBM896.WMSL.867 |
+| lung-female | v1.4 | https://doi.org/10.48539/HBM994.HXJP.575 |
+| lung-male | v1.4 | https://doi.org/10.48539/HBM532.KLZD.394 |
+| lymph-node-female | v1.4 | https://doi.org/10.48539/HBM425.PTPB.732 |
+| lymph-node-male | v1.4 | https://doi.org/10.48539/HBM532.TNXR.875 |
+| main-bronchus-female | v1.1 | https://doi.org/10.48539/HBM266.CXBT.375 |
+| main-bronchus-male | v1.1 | https://doi.org/10.48539/HBM373.XHXV.928 |
+| mammary-gland-female-left | v1.1 | https://doi.org/10.48539/HBM533.BNJL.834 |
+| mammary-gland-female-right | v1.1 | https://doi.org/10.48539/HBM235.CHRK.259 |
+| manubrium-female | v1.0 | https://doi.org/10.48539/HBM668.VJNV.946 |
+| mouth-female | v1.0 | https://doi.org/10.48539/HBM856.VZWZ.422 |
+| mouth-male | v1.0 | https://doi.org/10.48539/HBM568.RFGM.978 |
+| omentum-female | v1.0 | https://doi.org/10.48539/HBM636.GWRW.698 |
+| omentum-male | v1.0 | https://doi.org/10.48539/HBM428.TMNG.749 |
+| ovary-female-left | v1.3 | https://doi.org/10.48539/HBM695.KCXS.294 |
+| ovary-female-right | v1.3 | https://doi.org/10.48539/HBM277.TVMB.676 |
+| palatine-tonsil-female-left | v1.2 | https://doi.org/10.48539/HBM245.VCTP.795 |
+| palatine-tonsil-female-right | v1.2 | https://doi.org/10.48539/HBM549.HTLQ.527 |
+| palatine-tonsil-male-left | v1.2 | https://doi.org/10.48539/HBM366.GHGT.974 |
+| palatine-tonsil-male-right | v1.2 | https://doi.org/10.48539/HBM867.FQCX.589 |
+| pancreas-female | v1.3 | https://doi.org/10.48539/HBM866.PNNZ.328 |
+| pancreas-male | v1.3 | https://doi.org/10.48539/HBM396.QWWJ.639 |
+| pelvis-female | v1.3 | https://doi.org/10.48539/HBM853.VCFM.778 |
+| pelvis-male | v1.3 | https://doi.org/10.48539/HBM384.SBWX.873 |
+| prostate-male | v1.2 | https://doi.org/10.48539/HBM545.CTNV.442 |
+| renal-pelvis-female-left | v1.0 | https://doi.org/10.48539/HBM425.ZSXF.722 |
+| renal-pelvis-female-right | v1.0 | https://doi.org/10.48539/HBM445.MNJL.333 |
+| renal-pelvis-male-left | v1.0 | https://doi.org/10.48539/HBM636.ZFCT.453 |
+| renal-pelvis-male-right | v1.0 | https://doi.org/10.48539/HBM349.XLHR.437 |
+| small-intestine-female | v1.2 | https://doi.org/10.48539/HBM784.FBXB.245 |
+| small-intestine-male | v1.2 | https://doi.org/10.48539/HBM789.XTDK.794 |
+| spinal-cord-female | v1.1 | https://doi.org/10.48539/HBM242.QQQB.777 |
+| spinal-cord-male | v1.1 | https://doi.org/10.48539/HBM575.VDJW.494 |
+| spleen-female | v1.3 | https://doi.org/10.48539/HBM883.DZCZ.658 |
+| spleen-male | v1.3 | https://doi.org/10.48539/HBM437.LMTZ.752 |
+| sternum-female | v1.0 | https://doi.org/10.48539/HBM669.VLNS.645 |
+| thymus-female | v1.3 | https://doi.org/10.48539/HBM962.VFVM.626 |
+| thymus-male | v1.3 | https://doi.org/10.48539/HBM923.RZCC.934 |
+| trachea-female | v1.1 | https://doi.org/10.48539/HBM795.KFPV.358 |
+| trachea-male | v1.1 | https://doi.org/10.48539/HBM357.VGJC.676 |
+| united-female | v1.10 | https://doi.org/10.48539/HBM637.DWBM.744 |
+| ureter-female-left | v1.2 | https://doi.org/10.48539/HBM343.JGCD.345 |
+| ureter-female-right | v1.2 | https://doi.org/10.48539/HBM375.FNHZ.563 |
+| ureter-male-left | v1.2 | https://doi.org/10.48539/HBM434.VLQJ.299 |
+| ureter-male-right | v1.2 | https://doi.org/10.48539/HBM852.SVFJ.388 |
+| urinary-bladder-female | v1.2 | https://doi.org/10.48539/HBM595.LMKX.573 |
+| urinary-bladder-male | v1.2 | https://doi.org/10.48539/HBM722.RMHQ.397 |
+| uterus-female | v1.2 | https://doi.org/10.48539/HBM627.VTKD.892 |

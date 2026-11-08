@@ -109,6 +109,7 @@ const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
 const standaloneList = fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : [];
 for (const o of standaloneList) {
   requireManifest(o.manifest, `standalone organ ${o.object}`);
+  if (![o.names ?? [], o.terms ?? []].every(list => Array.isArray(list) && list.every(x => typeof x === 'string' && x.trim()))) fail(o.object, 'search names and terms must be lists of words');
   for (const t of o.tissue ?? []) requirePath(t, `standalone organ ${o.object}`, 'tissue board');
   const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
   if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);

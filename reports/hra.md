@@ -82,7 +82,7 @@ No structure in that body to zoom into (BodyParts3D has no larynx, lymph node, p
 
 - epiploic-appendage-of-transverse-colon-male (1 part)
 - larynx-male (7 parts)
-- lymph-node-male (7 parts): opens on its own stage, Lymphatic organs › Lymph node
+- lymph-node-male (7 parts): opens on its own stage, Lymphatic organs › Mesenteric lymph node
 - omentum-male (1 part)
 - palatine-tonsil-male-left (1 part): opens on its own stage, Lymphatic organs › Left palatine tonsil
 - palatine-tonsil-male-right (1 part): opens on its own stage, Lymphatic organs › Right palatine tonsil

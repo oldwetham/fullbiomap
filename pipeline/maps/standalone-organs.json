@@ -1,5 +1,5 @@
 {
- "_comment": "Organs opened on their own organ stage, outside any body: female organs (docs: female whole-body view disabled 2026-11-07 because HRA models only some of the female organs) and lymphatic organs BodyParts3D has no mesh for (added 2026-11-08). Read by pipeline/11-build-graph.mjs, which writes public/models/organs/standalone.json for the app's search. `terms` are extra search words.",
+ "_comment": "Organs opened on their own organ stage, outside any body: female organs (docs: female whole-body view disabled 2026-11-07 because HRA models only some of the female organs) and lymphatic organs BodyParts3D has no mesh for (added 2026-11-08). Read by pipeline/11-build-graph.mjs, which writes public/models/organs/standalone.json for the app's search. `names` are other names, ranked like a synonym (the only lymph node here is a mesenteric one, so \"lymph node\" finds it first); `terms` are extra search words, ranked after every name.",
  "groups": {
   "female": {
    "label": "Female organs",
@@ -80,9 +80,11 @@
   {
    "object": "lymph-node-male",
    "group": "lymphatic",
-   "label": "Lymph node",
+   "label": "Mesenteric lymph node",
+   "names": [
+    "lymph node"
+   ],
    "terms": [
-    "mesenteric lymph node",
     "lymph gland"
    ]
   },

@@ -45,8 +45,8 @@ const shapeNote=(s:CellShape)=>{
  return s.noNucleus?`${note} Drawn without a nucleus: ${s.noNucleus}`:note;
 };
 /** Organs opened on their own stage, outside any body (public/models/organs/standalone.json, step 11): female organs, and
- * lymphatic organs the body has no mesh for. system: the organ's ladder system. */
-interface Standalone {object:string;kind?:'organ'|'cell';group:string;groupLabel:string;label:string;terms:string[];system?:SystemId;manifest:string;conceptId:string;tissue?:string[]}
+ * lymphatic organs the body has no mesh for. names: other names, ranked like synonyms in search; system: the organ's ladder system. */
+interface Standalone {object:string;kind?:'organ'|'cell';group:string;groupLabel:string;label:string;names?:string[];terms:string[];system?:SystemId;manifest:string;conceptId:string;tissue?:string[]}
 /** The organ stage: one organ's interior model, with the body view saved for Zoom out. */
 /** Tissue level: an overlay over the organ (body or organ stage); nothing underneath changes. base: the organ's link. */
 interface TissueCtx {organ:LadderOrgan;system:SystemId|null;standalone?:Standalone;base:{id:string;organ?:string};board:TissueBoard|null}
@@ -113,7 +113,7 @@ export default function Home(){
  // organelle. One the model on screen already has (an organelle in this cell) is found as itself, not twice.
  const searchList=useMemo(()=>{if(!atlas)return [] as SearchEntry[];const own=new Set(atlas.concepts.map(c=>c.id));
   return [...atlas.concepts.map(c=>searchEntry('structure',c.id,c.id,c.name,[],[],{elements:c.elements,tag:/^GO\d/.test(c.id)?'Organelle':/^CL\d/.test(c.id)?'Cell type':undefined})),
-   ...standaloneOrgans.filter(o=>o.kind!=='cell').map(o=>searchEntry('organ',o.object,o.object,o.label,[],[o.groupLabel,...o.terms],{tag:o.groupLabel})),
+   ...standaloneOrgans.filter(o=>o.kind!=='cell').map(o=>searchEntry('organ',o.object,o.object,o.label,o.names??[],[o.groupLabel,...o.terms],{tag:o.groupLabel})),
    ...(cellIndex?.cells??[]).filter(c=>!own.has(c.id)).map(c=>searchEntry('cell',c.id,c.id,c.label,c.names,c.terms??[],{tag:'Cell type'})),
    ...(cellIndex?.organelles??[]).filter(o=>!own.has(o.id)).map(o=>searchEntry('organelle',o.id,o.id,o.label,o.names,[],{tag:'Organelle'}))];},[atlas,standaloneOrgans,cellIndex]);
  const results=useMemo(():SearchHit[]=>{if(!atlas)return [];if(!query.trim())return ['heart','brain','liver','stomach','spleen','pancreas','urinary bladder','trachea'].map(name=>atlas.concepts.find(c=>c.name.toLowerCase()===name)).filter((x):x is Concept=>!!x).map(c=>({...c,kind:'structure' as const,ref:c.id}));

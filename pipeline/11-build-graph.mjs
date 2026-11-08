@@ -469,7 +469,7 @@ const standaloneOrganEntries = standalone.organs.map(o => {
   // Its tissue boards (Zoom in from the organ on its own stage): its ladder organ's, else the board its ladder names (a
   // left palatine tonsil opens the palatine tonsil's), else its own or an is_a ancestor's.
   const tissue = node.ladder.organ?.tissue?.length ? node.ladder.organ.tissue : node.ladder.board?.tissue ?? tissueOf(node);
-  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, system: node.ladder.system,
+  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, ...(o.names?.length ? {names: o.names} : {}), terms: o.terms, system: node.ladder.system,
     manifest: m.manifest, conceptId: m.rootConceptId, tissue};
 });
 const standaloneCellEntries = extraCells.filter(x => x.standalone).map(x => { const n = byId.get(x.cl);

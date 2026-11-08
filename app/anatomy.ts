@@ -38,7 +38,12 @@ export interface ContentTier {status:ContentStatus;file?:string;text?:string;sou
 /** Per-node record served from public/content/<conceptId>.json (built by pipeline/11-build-graph.mjs); ids with a file are listed in public/content/index.json. */
 export interface ConnectionSource {name:string;license:string;url:string}
 /** One related structure: dir 'out' reads "this <rel> other", 'in' reads "other <rel> this". modeled=false means FMA names it but there is no 3D mesh. */
-export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[];/** The same structure's id in other bodies or models (e.g. its Uberon id). */alternates?:string[]}
+export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[];/** The same structure's id in other bodies or models (e.g. its Uberon id). */alternates?:string[];
+ /** A cell type's "Found in": the tissue board that lists it there, opened from the organ in the body (id) or the organ on its own stage (organ). */
+ board?:{conceptId:string;label:string;id?:string;organ?:string}}
+/** Every cell type and organelle, for search (public/content/cells.json, step 11). names: ontology label and exact synonyms;
+ * terms: related words, ranked after names; model: the cell type's 3D model; cell: the cell type an organelle opens in. */
+export interface CellIndex {cells:{id:string;label:string;names:string[];terms?:string[];model:string}[];organelles:{id:string;label:string;names:string[];cell:string}[]}
 /** The organ a structure belongs to on the scale ladder, with the interior models that exist for it per body. */
 export interface LadderOrgan {id:string;conceptId:string;label:string;alternates?:string[];interior?:Partial<Record<Body,string[]>>;/** Tissue boards: the organ's own and its is_a ancestors' (public/tissue/*.json). */tissue?:string[]}
 /** board: a structure whose own tissue board the ladder organ does not reach (the tongue, the brain); tissue opens from it. */
@@ -97,7 +102,8 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
 }
 
 /** Deep links: [female/]<id>[/inside[/<part>]], or organ/<hra-object>[/<part>] for an organ opened on its own
- * (e.g. #organ/uterus-female). <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252); FMA:7088 and
+ * (e.g. #organ/uterus-female), or organ/cell-<cl id>[/<GO id>] for a cell type on its own stage, with an organelle
+ * selected (e.g. #organ/cell-cl0000000/GO0005739). <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252); FMA:7088 and
  * FMA_7088 spellings are accepted. Every Phase 0-2 link (#FMA7088) still parses; #female links are mapped
  * to the main body by the page (the female whole-body view is disabled). */
 export interface HashState {body:Body;id:string;inside:boolean;part:string;organ?:string;tissue?:boolean;cell?:string;organelle?:string}

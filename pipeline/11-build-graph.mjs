@@ -296,6 +296,9 @@ for (const o of Object.values(tissueMap.organs)) for (const t of o.tables ?? [])
 const boards = new Map();
 const boardFor = organ => { if (!boards.has(organ.id)) boards.set(organ.id, {organ: {id: organ.id, conceptId: organ.conceptId, label: organ.label}, tables: new Map(), groups: new Map(), media: []}); return boards.get(organ.id); };
 const cellPlaces = new Map(), cellLabel = new Map();
+// Which tissue boards list a cell type for each structure it is found in (its "Found in" chips open these).
+const cellBoards = new Map();
+const placeBoard = (cl, where, board) => { if (!cellBoards.has(cl)) cellBoards.set(cl, new Map()); const m = cellBoards.get(cl); if (!m.has(where)) m.set(where, new Set()); m.get(where).add(board); };
 // Rows whose structures are not in the body model (pipeline/maps/asctb-fixes.json): 'onto' names where a table's rows go;
 // 'withCell' puts the listed cells wherever another table placed that cell (handled after the other rows).
 const placementFixes = JSON.parse(read('pipeline/maps/asctb-fixes.json')).placements;
@@ -329,6 +332,7 @@ for (const row of asctb) {
     for (const a of placed) {
       if (!cellPlaces.get(cl).has(a.id)) cellPlaces.get(cl).set(a.id, new Set());
       cellPlaces.get(cl).get(a.id).add(row.table);
+      for (const organ of onBoards) placeBoard(cl, a.id, organ.id);
     }
   }
 }
@@ -353,7 +357,7 @@ for (const row of laterRows) for (const fix of withCellFix.filter(f => f.table =
   for (const [cl, label] of cells) {
     cellLabel.set(cl, cellLabel.get(cl) ?? label);
     if (!cellPlaces.has(cl)) cellPlaces.set(cl, new Map());
-    for (const a of where) { if (!cellPlaces.get(cl).has(a.id)) cellPlaces.get(cl).set(a.id, new Set()); cellPlaces.get(cl).get(a.id).add(row.table); }
+    for (const a of where) { if (!cellPlaces.get(cl).has(a.id)) cellPlaces.get(cl).set(a.id, new Set()); cellPlaces.get(cl).get(a.id).add(row.table); placeBoard(cl, a.id, organOf(a).id); }
   }
 }
 // Commonly taught cell types no ASCT+B table lists, added from Cell Ontology (pipeline/maps/extra-cell-types.json): on
@@ -370,7 +374,7 @@ for (const x of extraCells) {
     if (!b.groups.has(x.structure)) b.groups.set(x.structure, new Map());
     b.groups.get(x.structure).set(x.cl, true);
   }
-  for (const a of where) { if (!cellPlaces.get(x.cl).has(a.id)) cellPlaces.get(x.cl).set(a.id, new Set()); cellPlaces.get(x.cl).get(a.id).add(key); }
+  for (const a of where) { if (!cellPlaces.get(x.cl).has(a.id)) cellPlaces.get(x.cl).set(a.id, new Set()); cellPlaces.get(x.cl).get(a.id).add(key); placeBoard(x.cl, a.id, organOf(a).id); }
 }
 for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0]))) {
   if (cl === 'CL:0000000') continue;
@@ -453,10 +457,72 @@ for (const n of nodes) {
   const holder = partChain(n).find(x => boards.has(x.id));
   if (holder) n.ladder = {...n.ladder, board: boardRef(holder)};
 }
+// Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json), and the cell types no organ in
+// the body holds (pipeline/maps/extra-cell-types.json): public/models/organs/standalone.json, written below.
+const standalone = JSON.parse(read('pipeline/maps/standalone-organs.json'));
+const standaloneOrganEntries = standalone.organs.map(o => {
+  const m = hraModels[o.object];
+  if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
+  const node = byId.get(m.rootConceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
+  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId,
+    tissue: node?.ladder?.organ?.tissue?.length ? node.ladder.organ.tissue : tissueOf(node)};  // its tissue boards (Zoom in from the organ on its own stage)
+});
+const standaloneCellEntries = extraCells.filter(x => x.standalone).map(x => { const n = byId.get(x.cl);
+  return {object: `cell-${n.conceptId.toLowerCase()}`, kind: 'cell', group: 'cells', groupLabel: 'Cells', label: n.label, terms: x.terms ?? [], manifest: n.geometry.model, conceptId: n.conceptId, tissue: []}; });
+// A cell type's "Found in" chips open the tissue board that lists it there: the organ in the body (#<id>/tissue), or an
+// organ on its own stage that shows the board (#organ/<object>/tissue). A board neither opens gets no link.
+const bodyConceptIds = new Set(JSON.parse(read('public/models/atlas.json')).concepts.map(c => c.id));
+const boardOpen = id => { const cid = byId.get(id).conceptId;
+  if (bodyConceptIds.has(cid)) return {id: cid};
+  const s = standaloneOrganEntries.find(e => e.tissue.includes(boardUrl(id)));
+  return s ? {organ: s.object} : null; };
+const unopened = new Map();  // board -> cell types whose chips cannot open it
+let foundInChips = 0, foundInLinked = 0;
+for (const n of nodes) {
+  if (n.scale !== 'cell') continue;
+  for (const c of n.connections) {
+    if (c.rel !== 'located_in' || c.dir !== 'out' || !c.id) continue;
+    foundInChips++;
+    const listed = [...(cellBoards.get(n.id)?.get(c.id) ?? [])].filter(b => boards.has(b)).sort((a, b) => byId.get(a).label.localeCompare(byId.get(b).label));
+    const b = listed.find(boardOpen) ?? null;
+    if (b) { c.board = {conceptId: byId.get(b).conceptId, label: byId.get(b).label, ...boardOpen(b)}; foundInLinked++; }
+    else for (const x of listed) unopened.set(x, [...(unopened.get(x) ?? []), n.label]);
+  }
+}
+// The cell an organelle opens in (search): the generic cell when it draws the organelle, else the cell type named in
+// pipeline/maps/organelles.json (parts of a family model that several cell types share), else the cell type whose own
+// model it is: a morphology profile's, the type a reconstruction was picked for, or a cell type that is itself the class
+// that chose a family model. That cell's model must draw it.
+const paletteOf = new Map(cellModels.map(([u, m]) => [u, new Set((m.palette ?? []).map(x => x.id))]));
+const organelleCell = o => {
+  const model = organelleModel(o.key), users = nodes.filter(n => n.scale === 'cell' && n.geometry?.model === model).sort((a, b) => a.label.localeCompare(b.label));
+  const owner = paletteOf.get(CELL_MODEL)?.has(o.key) ? organelleMap.cell.id : o.cell
+    ?? (/\/profile-(cl\d+)\.json$/.exec(model) ? /\/profile-(cl\d+)\.json$/.exec(model)[1].toUpperCase().replace(/^CL/, 'CL:') : null)
+    ?? (model.includes('/nmo-') ? users.find(u => u.geometry.shape?.reconstruction?.level === 'type')?.id ?? null : null)
+    ?? users.find(u => u.geometry.shape?.from?.id === u.id)?.id ?? null;
+  const cell = owner && byId.get(owner);
+  if (!cell || cell.scale !== 'cell') throw new Error(`organelle ${o.id} (${o.label}): no cell to open it in; name one (\`cell\`) in pipeline/maps/organelles.json`);
+  if (!paletteOf.get(cell.geometry.model)?.has(o.key)) throw new Error(`organelle ${o.id} (${o.label}): ${cell.id} (${cell.label}) draws no ${o.key} in ${cell.geometry.model}`);
+  return cell;
+};
+// public/content/cells.json: every cell type and organelle for search, with their Cell Ontology or Gene Ontology label and
+// exact synonyms (the app adds spelling variants), the model a cell type opens on its own stage, and the cell an organelle
+// opens in. `terms`: related words from pipeline/maps/extra-cell-types.json, ranked after names.
+const sameName = (a, b) => a.toLowerCase() === b.toLowerCase();
+const otherNames = (label, list) => [...new Set(list.filter(x => x && !sameName(x, label)))].sort();
+const termsOf = new Map(extraCells.filter(x => x.terms?.length).map(x => [x.cl, x.terms]));
+const cellIndex = {
+  cells: nodes.filter(n => n.scale === 'cell').map(n => ({id: n.conceptId, label: n.label, names: otherNames(n.label, [cellDefs.get(n.id)?.label, ...(n.synonyms ?? [])]),
+    ...(termsOf.has(n.id) ? {terms: termsOf.get(n.id)} : {}), model: n.geometry.model})).sort((a, b) => a.label.localeCompare(b.label) || a.id.localeCompare(b.id)),
+  organelles: organelleNodes.map(n => { const o = drawnOrganelles.find(x => x.id === n.id);
+    return {id: n.conceptId, label: n.label, names: otherNames(n.label, [goDefs.get(n.id)?.label, ...(n.synonyms ?? [])]), cell: organelleCell(o).conceptId}; }).sort((a, b) => a.label.localeCompare(b.label))};
 const cellReport = ['# Cell types and tissue boards', '', 'Generated by `pipeline/11-build-graph.mjs` from the HRA v2.5 ASCT+B tables (step 06) and figures (step 10).', '',
   `- Cell types (Cell Ontology): ${cellPlaces.size - (cellPlaces.has('CL:0000000') ? 1 : 0)}; located_in edges: ${cellEdges.filter(e => e.rel === 'located_in').length}`,
   `- ASCT+B rows with no structure or organ of ours (skipped): ${rowsUnplaced}`,
-  `- 3D shapes (pipeline/maps/cell-families.json): ${Object.entries(nodes.filter(n => n.scale === 'cell' && n.geometry?.shape).reduce((m, n) => ({...m, [n.geometry.shape.variant]: (m[n.geometry.shape.variant] ?? 0) + 1}), {})).sort((a, b) => b[1] - a[1]).map(([v, k]) => `${v} ${k}`).join(', ')}`, '',
+  `- 3D shapes (pipeline/maps/cell-families.json): ${Object.entries(nodes.filter(n => n.scale === 'cell' && n.geometry?.shape).reduce((m, n) => ({...m, [n.geometry.shape.variant]: (m[n.geometry.shape.variant] ?? 0) + 1}), {})).sort((a, b) => b[1] - a[1]).map(([v, k]) => `${v} ${k}`).join(', ')}`,
+  `- Search (public/content/cells.json): ${cellIndex.cells.length} cell types and ${cellIndex.organelles.length} organelles, with ${cellIndex.cells.reduce((k, c) => k + c.names.length, 0) + cellIndex.organelles.reduce((k, o) => k + o.names.length, 0)} other names (ontology labels and exact synonyms)`,
+  `- "Found in" chips that open a tissue board: ${foundInLinked} of ${foundInChips}` + (unopened.size ? `; boards no organ in the body or on its own stage opens (their chips stay plain): ${[...unopened].map(([b, cells]) => `${byId.get(b).label} (${cells.length} cell types)`).join(', ')}` : ''),
+  `- Organelles open in: ${cellIndex.organelles.map(o => `${o.label} → ${byId.get(o.cell.replace(/^CL/, 'CL:')).label}`).join('; ')}`, '',
   '| Organ (tissue board) | Cell types | ASCT+B tables | Figures |', '| --- | --- | --- | --- |',
   ...cellRows.sort((a, b) => b.cells - a.cells || a.label.localeCompare(b.label)).map(r => `| ${r.label} | ${r.cells} | ${r.tables.join(', ') || '-'} | ${r.media.join(', ') || '-'} |`)];
 fs.writeFileSync(path.join(root, 'reports/cells.md'), cellReport.join('\n') + '\n');
@@ -469,7 +535,7 @@ fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...conne
 // public/content/: what the app reads; ancestors are graph-internal.
 const out = path.join(root, 'public/content');
 fs.mkdirSync(out, {recursive: true});
-const keep = new Set(['index.json', 'interiors.json']);
+const keep = new Set(['index.json', 'interiors.json', 'cells.json']);
 for (const n of nodes) {
   const {ancestors, ladderSystem, ...served} = n;
   const file = `${n.conceptId}.json`;
@@ -480,17 +546,8 @@ for (const n of nodes) {
 }
 for (const f of fs.readdirSync(out)) if (f.endsWith('.json') && !keep.has(f)) fs.unlinkSync(path.join(out, f));
 fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ids: nodes.map(n => n.conceptId).sort()}) + '\n');
-// Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json).
-const standalone = JSON.parse(read('pipeline/maps/standalone-organs.json'));
-const standaloneCellEntries = extraCells.filter(x => x.standalone).map(x => { const n = byId.get(x.cl);
-  return {object: `cell-${n.conceptId.toLowerCase()}`, kind: 'cell', group: 'cells', groupLabel: 'Cells', label: n.label, terms: x.terms ?? [], manifest: n.geometry.model, conceptId: n.conceptId, tissue: []}; });
-fs.writeFileSync(path.join(root, 'public/models/organs/standalone.json'), JSON.stringify([...standalone.organs.map(o => {
-  const m = hraModels[o.object];
-  if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
-  const node = byId.get(m.rootConceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
-  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId,
-    tissue: node?.ladder?.organ?.tissue?.length ? node.ladder.organ.tissue : tissueOf(node)};  // its tissue boards (Zoom in from the organ on its own stage)
-}), ...standaloneCellEntries], null, 1) + '\n');
+fs.writeFileSync(path.join(out, 'cells.json'), JSON.stringify(cellIndex) + '\n');
+fs.writeFileSync(path.join(root, 'public/models/organs/standalone.json'), JSON.stringify([...standaloneOrganEntries, ...standaloneCellEntries], null, 1) + '\n');
 fs.writeFileSync(path.join(root, 'graph/interiors.json'), JSON.stringify(interiorReport.sort((a, b) => a.object.localeCompare(b.object)), null, 1) + '\n');
 // reports/hra.md: bodies, and which organs have interiors in each.
 if (Object.keys(hraModels).length) {

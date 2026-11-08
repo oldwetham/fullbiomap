@@ -276,6 +276,46 @@ for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
   checkFigures(b.units, `${where} units`, null, Infinity);
   if ('media' in b) fail(where, 'boards list figures and units, not media; rerun step 11');
 }
+// Search and cell stages (public/content/cells.json, step 11): every cell type and organelle is searchable, each cell type
+// opens its node's model, an organelle opens in a cell whose model draws it, and each "Found in" link opens a board that
+// lists the cell type, from a body concept whose tissue reaches that board or an organ on its own stage that shows it.
+const gidOf = cid => cid.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2');
+if (!fs.existsSync(path.join(root, 'public/content/cells.json'))) fail('public/content/cells.json', 'missing; run step 11');
+else {
+  const ci = JSON.parse(read('public/content/cells.json')), where = 'content/cells.json';
+  const cells = new Map(ci.cells.map(c => [c.id, c])), organelles = new Map(ci.organelles.map(o => [o.id, o]));
+  if (cells.size !== ci.cells.length || organelles.size !== ci.organelles.length) fail(where, 'duplicate ids');
+  for (const n of nodes) {
+    if (n.scale === 'cell' && !cells.has(n.conceptId)) fail(where, `cell type ${n.id} (${n.label}) is not searchable`);
+    if (n.scale === 'organelle' && !organelles.has(n.conceptId)) fail(where, `organelle ${n.id} (${n.label}) is not searchable`);
+  }
+  for (const c of ci.cells) {
+    const n = byId.get(gidOf(c.id));
+    if (n?.scale !== 'cell') { fail(where, `${c.id} is not a cell type node`); continue; }
+    if (c.label !== n.label || c.model !== n.geometry?.model) fail(where, `${c.id}: label or model differs from its node`);
+    if (![c.names, c.terms ?? []].every(list => Array.isArray(list) && list.every(x => typeof x === 'string' && x.trim()))) fail(where, `${c.id}: bad names or terms`);
+    requireManifest(c.model, where);
+  }
+  const drawnBy = new Map(), drawn = url => { if (!drawnBy.has(url)) { let m = null; try { m = JSON.parse(fs.readFileSync(publicPath(url), 'utf8')); } catch { m = null; } drawnBy.set(url, new Set((m?.concepts ?? []).map(x => x.id))); } return drawnBy.get(url); };
+  for (const o of ci.organelles) {
+    const n = byId.get(gidOf(o.id)), c = cells.get(o.cell);
+    if (n?.scale !== 'organelle') { fail(where, `${o.id} is not an organelle node`); continue; }
+    if (!c) { fail(where, `${o.id} opens in ${o.cell}, which is not a searchable cell type`); continue; }
+    if (!drawn(c.model).has(o.id)) fail(where, `${o.id} (${o.label}) opens in ${c.label}, whose model ${c.model} does not draw it`);
+  }
+  if (/wiki(pedia|media)/i.test(JSON.stringify(ci))) fail(where, 'Wikipedia text');
+  const aloneOrgans = new Map(JSON.parse(read('public/models/organs/standalone.json')).map(s => [s.object, s]));
+  for (const n of nodes) for (const c of n.scale === 'cell' ? n.connections ?? [] : []) {
+    if (!c.board) continue;
+    const what = `${n.id} Found in ${c.label}`, url = `/tissue/${c.board.conceptId}.json`;
+    if (!requirePath(url, what, 'tissue board')) continue;
+    const b = JSON.parse(fs.readFileSync(publicPath(url), 'utf8'));
+    if (!(b.groups ?? []).some(g => g.cells.some(x => x.id === n.id))) fail(what, `board ${url} does not list ${n.label}`);
+    const ladder = c.board.id ? byId.get(gidOf(c.board.id))?.ladder : null;
+    const opens = c.board.id ? conceptIds.has(c.board.id) && ((ladder?.board ?? ladder?.organ)?.tissue ?? []).includes(url) : (aloneOrgans.get(c.board.organ)?.tissue ?? []).includes(url);
+    if (!opens) fail(what, `board ${url} does not open from ${c.board.id ? `body concept ${c.board.id}` : `organ ${c.board.organ}`}`);
+  }
+}
 // Files the app can request, continued (standalone organs, content files and board images are checked above).
 // Paths written in the app's code: the body manifest, the cell model, standalone.json, content/index.json.
 for (const f of fs.readdirSync(path.join(root, 'app')).filter(f => /\.tsx?$/.test(f))) {

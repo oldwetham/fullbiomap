@@ -1,5 +1,5 @@
 {
- "_comment": "Organelles and other cell parts drawn in the 3D cells (pipeline/13-cell.mjs builds the geometry; step 06 fetches the GO definitions). Colors are the cell models' palette; each model lists only the parts it draws.",
+ "_comment": "Organelles and other cell parts drawn in the 3D cells (pipeline/13-cell.mjs builds the geometry; step 06 fetches the GO definitions). Colors are the cell models' palette; each model lists only the parts it draws. `cell`: the cell type an organelle opens in when picked in search, named here for parts of a cell family model that several cell types share (step 11 checks that its own model draws the part). Without it, a part of the generic cell opens in the generic cell, and any other in the cell type whose model it is (a morphology profile's or a reconstruction's).",
  "cell": {
   "id": "CL:0000000",
   "label": "Cell",
@@ -76,49 +76,57 @@
    "id": "GO:0005811",
    "key": "lipid-droplet",
    "label": "Lipid droplet",
-   "color": "#f0cf72"
+   "color": "#f0cf72",
+   "cell": "CL:0000136"
   },
   {
    "id": "GO:0030016",
    "key": "myofibril",
    "label": "Myofibrils",
-   "color": "#b4545f"
+   "color": "#b4545f",
+   "cell": "CL:0000746"
   },
   {
    "id": "GO:0016529",
    "key": "sarcoplasmic-reticulum",
    "label": "Sarcoplasmic reticulum",
-   "color": "#86cbbb"
+   "color": "#86cbbb",
+   "cell": "CL:0000746"
   },
   {
    "id": "GO:0014704",
    "key": "intercalated-disc",
    "label": "Intercalated discs",
-   "color": "#5c2a3e"
+   "color": "#5c2a3e",
+   "cell": "CL:0000746"
   },
   {
    "id": "GO:0005902",
    "key": "microvillus",
    "label": "Microvilli",
-   "color": "#d68fa6"
+   "color": "#d68fa6",
+   "cell": "CL:0000584"
   },
   {
    "id": "GO:0005929",
    "key": "cilium",
    "label": "Cilia",
-   "color": "#7fa9d4"
+   "color": "#7fa9d4",
+   "cell": "CL:0002145"
   },
   {
    "id": "GO:0030424",
    "key": "axon",
    "label": "Axon",
-   "color": "#d4a03f"
+   "color": "#d4a03f",
+   "cell": "CL:0000540"
   },
   {
    "id": "GO:0030425",
    "key": "dendrite",
    "label": "Dendrites",
-   "color": "#9a86c8"
+   "color": "#9a86c8",
+   "cell": "CL:0000540"
   },
   {
    "id": "GO:0031091",
@@ -142,7 +150,8 @@
    "id": "GO:0043025",
    "key": "neuronal-cell-body",
    "label": "Cell body (soma)",
-   "color": "#e2c3d2"
+   "color": "#e2c3d2",
+   "cell": "CL:0000540"
   },
   {
    "id": "GO:0044297",
@@ -154,7 +163,8 @@
    "id": "GO:0097440",
    "key": "apical-dendrite",
    "label": "Apical dendrite",
-   "color": "#7a64b4"
+   "color": "#7a64b4",
+   "cell": "CL:0000540"
   },
   {
    "id": "GO:0043005",

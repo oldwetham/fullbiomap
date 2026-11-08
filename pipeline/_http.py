@@ -100,8 +100,9 @@ def get_json(url, retries=5):
     return record['body']
 
 
-def get_file(url, dest, retries=5):
-    """Download url to dest once (skipped if dest exists). Same User-Agent, throttle and retries as get_json."""
+def get_file(url, dest, retries=12):
+    """Download url to dest once (skipped if dest exists), streaming to disk and resuming an
+    interrupted transfer with an HTTP Range request. Same User-Agent and throttle as get_json."""
     dest = Path(dest)
     if dest.exists():
         _count('cached')
@@ -109,20 +110,36 @@ def get_file(url, dest, retries=5):
     if os.environ.get('BIOMAP_OFFLINE'):
         raise RuntimeError(f'not downloaded and BIOMAP_OFFLINE is set: {url}')
     dest.parent.mkdir(parents=True, exist_ok=True)
+    part = dest.with_suffix(dest.suffix + '.part')
     for attempt in range(retries):
+        have = part.stat().st_size if part.exists() else 0
+        headers = {'User-Agent': USER_AGENT}
+        if have:
+            headers['Range'] = f'bytes={have}-'
         _limiter.wait()
-        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
         try:
-            with urllib.request.urlopen(req, timeout=300, context=_CONTEXT) as r:
-                body = r.read()
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=300, context=_CONTEXT) as r:
+                if have and r.status != 206:
+                    have = 0  # server ignored the range; start over
+                total = have + int(r.headers.get('Content-Length', 0))
+                with open(part, 'ab' if have else 'wb') as out:
+                    while chunk := r.read(1 << 20):
+                        out.write(chunk)
+            if total and part.stat().st_size != total:
+                raise http.client.IncompleteRead(b'', total - part.stat().st_size)
             break
-        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead):
-            if attempt < retries - 1:
-                time.sleep(2 ** attempt * 2)
+        except urllib.error.HTTPError as e:
+            if e.code == 416 and have:  # already complete
+                break
+            if e.code in (429, 500, 502, 503, 504) and attempt < retries - 1:
+                time.sleep(min(60, 2 ** attempt))
                 continue
             raise
-    tmp = dest.with_suffix(dest.suffix + '.part')
-    tmp.write_bytes(body)
-    tmp.replace(dest)
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead, OSError):
+            if attempt < retries - 1:
+                time.sleep(min(60, 2 ** attempt))
+                continue
+            raise
+    part.replace(dest)
     _count('fetched')
     return dest

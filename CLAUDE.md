@@ -23,7 +23,7 @@ Commands:
 
 Run `npm run check && node scripts/validate-atlas.mjs && node scripts/validate-interactions.mjs && npm run build` before calling a change done.
 
-Restart `npm run dev` after switching branches or re-running pipeline steps that rewrite `public/`. The dev server lists the files in `public/` at startup and keeps that list current from file-watcher events, which can miss a file that is deleted and recreated while it runs. It then answers that file with `index.html` (status 200), and the app reports "the server sent a web page instead of data" for it (JSON.parse's "Unexpected token '<'").
+Restart `npm run dev` (stop the running one first: with `strictPort` a second one exits with "Port 3016 is already in use" rather than starting on another port) after switching branches or re-running pipeline steps that rewrite `public/`. The dev server lists the files in `public/` at startup and keeps that list current from file-watcher events, which can miss a file that is deleted and recreated while it runs. It then answers that file with `index.html` (status 200), and the app reports "the server sent a web page instead of data" for it (JSON.parse's "Unexpected token '<'").
 
 ## Layout
 

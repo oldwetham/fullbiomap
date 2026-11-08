@@ -7,29 +7,30 @@
  "tables": [],
  "cellCount": 0,
  "groups": [],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/skeletal-muscle.jpg",
-   "organ": "skeletal muscle",
-   "tissue": "skeletal muscle",
+   "id": "hpa-myh1-skeletal-muscle",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Skeletal muscle: MYH1 immunohistochemistry",
    "caption": "Skeletal muscle tissue stained for myosin heavy chain 1 (MYH1). Brown: MYH1 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of skeletal muscle tissue with MYH1 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "MYH1",
-    "name": "Myosin heavy chain 1",
-    "ensembl": "ENSG00000109061",
-    "uniprot": [
-     "P12882"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/10759/24535_B_2_6_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000109061-MYH1/tissue/skeletal%20muscle",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for skeletal muscle; IHC reliability enhanced, high expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): MYH1 immunohistochemistry in skeletal muscle, https://images.proteinatlas.org/10759/24535_B_2_6_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): MYH1 immunohistochemistry in skeletal muscle, https://images.proteinatlas.org/10759/24535_B_2_6_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000109061-MYH1/tissue/skeletal%20muscle",
+   "imageUrl": "https://images.proteinatlas.org/10759/24535_B_2_6_rna_selected.jpg",
+   "thumb": "/figures/hpa-myh1-skeletal-muscle-thumb.webp",
+   "url": "/figures/hpa-myh1-skeletal-muscle.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “skeletal muscle” is this organ's tissue in pipeline/maps/tissue-media.json"
   }
- ]
+ ],
+ "units": []
 }

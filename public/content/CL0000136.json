@@ -524,5 +524,140 @@
     "/tissue/FMA49184.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-mouth-parotid-gland",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Parotid gland (functional tissue unit)",
+   "caption": "Functional tissue unit: parotid gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the parotid gland and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. Mouth, Parotid Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM944.MMNZ.835. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM944.MMNZ.835",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-parotid-gland/v1.2/assets/2d-ftu-mouth-parotid-gland.svg",
+   "url": "/ftu/mouth-parotid-gland.svg",
+   "ftu": {
+    "name": "mouth-parotid-gland",
+    "label": "Parotid gland",
+    "hits": [
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Mast_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000136",
+      "label": "adipocyte",
+      "ids": [
+       "Adipocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000185",
+      "label": "myoepithelial cell",
+      "ids": [
+       "Myoepithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000192",
+      "label": "smooth muscle cell",
+      "ids": [
+       "Smooth_muscle_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0000912",
+      "label": "helper T cell",
+      "ids": [
+       "Helper_T_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000987",
+      "label": "IgA plasma cell",
+      "ids": [
+       "IgA_secreting_plasma_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002204",
+      "label": "tuft cell",
+      "ids": [
+       "Tuft_cell"
+      ]
+     },
+     {
+      "cl": "CL:0005006",
+      "label": "ionocyte",
+      "ids": [
+       "Ionocyte"
+      ]
+     },
+     {
+      "cl": "CL:4052048",
+      "label": "intercalated cell of salivary gland",
+      "ids": [
+       "Intercalated_duct_epithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:4052049",
+      "label": "striated cell of salivary gland",
+      "ids": [
+       "Straited_Ductal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:4052065",
+      "label": "serous acinar cell of salivary gland",
+      "ids": [
+       "Serous_acinar_cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001831"
+   },
+   "thumb": "/figures/hra-mouth-parotid-gland-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 166,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0000136",
+   "focus": "CL:0000136"
+  }
+ ]
 }

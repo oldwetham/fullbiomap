@@ -29,12 +29,8 @@ from _http import get_file  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data/build/sources'
-BOOKS = [
-    {'id': 'openstax-ap2e', 'repo': 'osbooks-anatomy-physiology', 'sha': 'b0058a743bdd2cc08196abaaa7d5469970c0d80c', 'collection': 'anatomy-and-physiology-2e',
-     'title': 'Anatomy and Physiology 2e', 'citation': 'Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.'},
-    {'id': 'openstax-bio2e', 'repo': 'osbooks-biology-bundle', 'sha': 'd2779c2edfb435e75047325434fe2fe93d5aa120', 'collection': 'biology-2e',
-     'title': 'Biology 2e', 'citation': 'Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.'},
-]
+# The books and their pinned CC BY commits (shared with step 10, which takes figures from the same copies).
+BOOKS = json.loads((ROOT / 'pipeline/maps/openstax.json').read_text())['books']
 NS = {'col': 'http://cnx.rice.edu/collxml', 'md': 'http://cnx.rice.edu/mdml', 'c': 'http://cnx.rice.edu/cnxml'}
 slug = lambda s: re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', s.lower())).strip('-')
 squash = lambda s: re.sub(r'\s+', ' ', s or '').strip()

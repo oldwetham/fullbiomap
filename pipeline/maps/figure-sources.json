@@ -1,0 +1,75 @@
+{
+ "_comment": "Where step 10 (pipeline/10-figures.py) looks for figures, and the licence each source states (checked on each source's own site, docs/FIGURES-PLAN.md section 2). Only CC BY 4.0 or public-domain images are used. Every request goes through pipeline/_http.py (cached under data/, throttled, descriptive user agent). Servier is read from its category listing pages, page by page; its search is disallowed by robots.txt and is not used. NIH BioArt Source has no listing that works without its JavaScript application, so step 10 checks a pinned list of entries (found by searching the site's pages for our structures' names); each entry's own title must still equal one of our names, and its own licence field must say Public Domain or CC BY.",
+ "hpa": {
+  "name": "Human Protein Atlas",
+  "release": "25.1",
+  "site": "https://v25.proteinatlas.org",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "terms": "https://www.proteinatlas.org/about/licence"
+ },
+ "hra": {
+  "name": "Human Reference Atlas (HuBMAP)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ "openstax": {
+  "name": "OpenStax",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "publicDomainCredits": "\\b(NASA|NIH|NIAID|NCI|NHLBI|NIDDK|CDC|NOAA|USGS|USDA|FDA|National Institutes of Health|National Cancer Institute|National Institute of [A-Z][a-z]+|Centers for Disease Control( and Prevention)?|U\\.S\\. (Department of [A-Z][a-z]+|Fish and Wildlife Service|Geological Survey))\\b"
+ },
+ "servier": {
+  "name": "Servier Medical Art",
+  "site": "https://smart.servier.com",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "statement": "Servier Medical Art is licensed under CC BY 4.0",
+  "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+  "categories": [
+   "cellular-biology/intracellular-components",
+   "cellular-biology/cell-membrane",
+   "cellular-biology/tissues",
+   "anatomy-and-the-human-body/cardiovascular-system/red-blood-cells",
+   "anatomy-and-the-human-body/cardiovascular-system/white-blood-cells",
+   "anatomy-and-the-human-body/cardiovascular-system/blood",
+   "anatomy-and-the-human-body/cardiovascular-system/heart",
+   "anatomy-and-the-human-body/nervous-system/neural-cells",
+   "anatomy-and-the-human-body/nervous-system/brain",
+   "anatomy-and-the-human-body/visual-system/retina",
+   "anatomy-and-the-human-body/visual-system/eye",
+   "anatomy-and-the-human-body/auditory-system",
+   "anatomy-and-the-human-body/digestive-system/liver",
+   "anatomy-and-the-human-body/digestive-system/pancreas",
+   "anatomy-and-the-human-body/digestive-system/stomach",
+   "anatomy-and-the-human-body/digestive-system/intestines-and-colon",
+   "anatomy-and-the-human-body/digestive-system/oesophagus",
+   "anatomy-and-the-human-body/digestive-system/other-digestive-system",
+   "anatomy-and-the-human-body/respiratory-system/lungs",
+   "anatomy-and-the-human-body/respiratory-system/upper-respiratory-system",
+   "anatomy-and-the-human-body/urinary-system",
+   "anatomy-and-the-human-body/reproductive-system/female-genitalia",
+   "anatomy-and-the-human-body/reproductive-system/male-genitalia",
+   "anatomy-and-the-human-body/glands",
+   "anatomy-and-the-human-body/lymphatic-system",
+   "anatomy-and-the-human-body/lymphatic-system/spleen",
+   "medical-specialties/immunology-and-haematology",
+   "medical-specialties/dermatology",
+   "medical-specialties/endocrinology"
+  ]
+ },
+ "bioart": {
+  "name": "NIH BioArt Source (NIAID)",
+  "site": "https://bioart.niaid.nih.gov",
+  "terms": "https://bioart.niaid.nih.gov/faqs#usage-restrictions-bioart",
+  "allowedLicenses": [
+   "Public Domain",
+   "CC BY 4.0",
+   "CC-BY 4.0",
+   "CC BY",
+   "CC-BY"
+  ],
+  "entries": [],
+  "_note": "No entries are pinned. Entry pages found by web search (bioart/50, 111, 112, 114, 141, 253, 313, 356; November 2026) give a title, a licence field (Public Domain) and image links, but every image file they link (nih3d-v2-data-cln-media-prod.s3.amazonaws.com) answers HTTP 403 to a direct request: the files are served only to the site's own pages, so Bio Map does not use them. Step 10 still reads any entry listed here and reports one whose image cannot be downloaded."
+ }
+}

@@ -262,5 +262,121 @@
     "/tissue/FMA7203.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-kidney-renal-corpuscle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Renal corpuscle (functional tissue unit)",
+   "caption": "Functional tissue unit: renal corpuscle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the renal corpuscle and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Renal Corpuscle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM489.GJJK.324. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM489.GJJK.324",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-renal-corpuscle/v1.4/assets/2d-ftu-kidney-renal-corpuscle.svg",
+   "url": "/ftu/kidney-renal-corpuscle.svg",
+   "ftu": {
+    "name": "kidney-renal-corpuscle",
+    "label": "Renal corpuscle",
+    "hits": [
+     {
+      "cl": "CL:0000648",
+      "label": "kidney granular cell",
+      "ids": [
+       "Juxtaglomerular_Granular_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000653",
+      "label": "podocyte",
+      "ids": [
+       "Podocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002306",
+      "label": "epithelial cell of proximal tubule",
+      "ids": [
+       "Epithelial_Cell_Proximal_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000452",
+      "label": "parietal epithelial cell",
+      "ids": [
+       "Parietal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000742",
+      "label": "glomerular mesangial cell",
+      "ids": [
+       "Glomerular_Mesangial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000850",
+      "label": "macula densa epithelial cell",
+      "ids": [
+       "Macula_Densa_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001005",
+      "label": "glomerular capillary endothelial cell",
+      "ids": [
+       "Glomerular_Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001096",
+      "label": "afferent arteriole endothelial cell",
+      "ids": [
+       "Afferent_Arteriole_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001099",
+      "label": "efferent arteriole endothelial cell",
+      "ids": [
+       "Efferent_Arteriole_Endothelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001229"
+   },
+   "thumb": "/figures/hra-kidney-renal-corpuscle-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 176,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0000653",
+   "focus": "CL:0000653"
+  },
+  {
+   "id": "openstax-ap2e-fig-ch26-04-01",
+   "source": "openstax",
+   "sourceName": "OpenStax Anatomy and Physiology 2e",
+   "kind": "diagram",
+   "title": "Podocytes",
+   "caption": "Podocytes interdigitate with structures called pedicels and filter substances in a way similar to fenestrations. In (a), the large cell body can be seen at the top right corner, with branches extending from the cell body. The smallest finger-like extensions are the pedicels. Pedicels on one podocyte always interdigitate with the pedicels of another podocyte. (b) This capillary has three podocytes wrapped around it.",
+   "alt": "The left panel of this figure shows an image of a podocyte. The right panel shows a tube-like structure that illustrates the filtration slits and the cell bodies.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Figure “Podocytes”, section 25.4 Microscopic Anatomy of the Kidney. CC BY 4.0. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+   "pageUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney#fig-ch26_04_01",
+   "imageUrl": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2613_Podocytes.jpg",
+   "sourceUrl": "https://github.com/openstax/osbooks-anatomy-physiology/blob/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2613_Podocytes.jpg",
+   "thumb": "/figures/openstax-ap2e-fig-ch26-04-01-thumb.webp",
+   "url": "/figures/openstax-ap2e-fig-ch26-04-01.webp",
+   "width": 1400,
+   "height": 655,
+   "thumbWidth": 240,
+   "thumbHeight": 112,
+   "status": "auto",
+   "match": "OpenStax figure title “Podocytes” = “podocyte”"
+  }
+ ]
 }

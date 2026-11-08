@@ -312,29 +312,52 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/uterus.jpg",
-   "organ": "uterus",
-   "tissue": "endometrium",
+   "id": "hpa-paep-endometrium",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Endometrium: PAEP immunohistochemistry",
    "caption": "Endometrium tissue stained for progestagen associated endometrial protein (PAEP). Brown: PAEP protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of endometrium tissue with PAEP protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "PAEP",
-    "name": "Progestagen associated endometrial protein",
-    "ensembl": "ENSG00000122133",
-    "uniprot": [
-     "P09466"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000122133-PAEP/tissue/endometrium",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for endometrium; IHC reliability enhanced, medium expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PAEP immunohistochemistry in endometrium, https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PAEP immunohistochemistry in endometrium, https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000122133-PAEP/tissue/endometrium",
+   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg",
+   "thumb": "/figures/hpa-paep-endometrium-thumb.webp",
+   "url": "/figures/hpa-paep-endometrium.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “endometrium” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-uterus",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Uterus",
+   "caption": "Uterus. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Uterus",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/uterus/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/uterus_1.png",
+   "thumb": "/figures/servier-uterus-thumb.webp",
+   "url": "/figures/servier-uterus.webp",
+   "width": 601,
+   "height": 449,
+   "thumbWidth": 240,
+   "thumbHeight": 179,
+   "status": "auto",
+   "match": "Servier title “Uterus” = “uterus”"
   }
- ]
+ ],
+ "units": []
 }

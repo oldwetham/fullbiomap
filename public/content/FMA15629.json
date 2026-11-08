@@ -168,5 +168,52 @@
     "/tissue/FMA9604.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-cyp17a1-adrenal-gland",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Adrenal gland: CYP17A1 immunohistochemistry",
+   "caption": "Adrenal gland tissue stained for cytochrome P450 family 17 subfamily A member 1 (CYP17A1). Brown: CYP17A1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of adrenal gland tissue with CYP17A1 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): CYP17A1 immunohistochemistry in adrenal gland, https://images.proteinatlas.org/ih_additional_tissue/48533/417_227.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000148795-CYP17A1/tissue/adrenal%20gland",
+   "imageUrl": "https://images.proteinatlas.org/ih_additional_tissue/48533/417_227.jpg",
+   "thumb": "/figures/hpa-cyp17a1-adrenal-gland-thumb.webp",
+   "url": "/figures/hpa-cyp17a1-adrenal-gland.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “adrenal gland” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-adrenal-gland-overview",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Adrenal gland",
+   "caption": "Adrenal gland. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Adrenal gland",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/adrenal-gland-overview/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Adrenal-Gland-Vessels.png",
+   "thumb": "/figures/servier-adrenal-gland-overview-thumb.webp",
+   "url": "/figures/servier-adrenal-gland-overview.webp",
+   "width": 633,
+   "height": 657,
+   "thumbWidth": 231,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Adrenal gland” = “adrenal gland”"
+  }
+ ]
 }

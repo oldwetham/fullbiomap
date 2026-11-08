@@ -308,5 +308,63 @@
     "/tissue/FMA7198.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-pancreas-pancreatic-acinus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Pancreatic acinus (functional tissue unit)",
+   "caption": "Functional tissue unit: pancreatic acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the pancreatic acinus and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. Pancreas, Acinus 2D FTU v.1.4. https://doi.org/10.48539/HBM466.JQPZ.849. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM466.JQPZ.849",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-pancreatic-acinus/v1.4/assets/2d-ftu-pancreas-pancreatic-acinus.svg",
+   "url": "/ftu/pancreas-pancreatic-acinus.svg",
+   "ftu": {
+    "name": "pancreas-pancreatic-acinus",
+    "label": "Pancreatic acinus",
+    "hits": [
+     {
+      "cl": "CL:0002064",
+      "label": "pancreatic acinar cell",
+      "ids": [
+       "Pancreatic_Acinar_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002080",
+      "label": "pancreatic centro-acinar cell",
+      "ids": [
+       "Centroacinar_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000322",
+      "label": "pancreatic goblet cell",
+      "ids": [
+       "Pancreatic_Goblet_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001433",
+      "label": "epithelial cell of exocrine pancreas",
+      "ids": [
+       "Ductal_Epithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001263"
+   },
+   "thumb": "/figures/hra-pancreas-pancreatic-acinus-thumb.webp",
+   "thumbWidth": 213,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0002064",
+   "focus": "CL:0002064"
+  }
+ ]
 }

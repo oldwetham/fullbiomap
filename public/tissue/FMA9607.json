@@ -1340,128 +1340,149 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "ftu",
-   "url": "/ftu/thymus-thymus-lobule.svg",
-   "name": "thymus-thymus-lobule",
-   "label": "Thymus lobule",
-   "cells": [
-    "CL:0000071",
-    "CL:0000084",
-    "CL:0000738",
-    "CL:0000788",
-    "CL:0000809",
-    "CL:0000883",
-    "CL:0000942",
-    "CL:0001070",
-    "CL:0002364",
-    "CL:0009070",
-    "CL:0009071",
-    "CL:0009073",
-    "CL:0009077"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000071",
-     "label": "blood vessel endothelial cell",
-     "ids": [
-      "Blood_Vessel_Endothelial_Cell",
-      "Blood_Vessel_Endothelial_Cell_2"
-     ]
-    },
-    {
-     "cl": "CL:0000084",
-     "label": "T cell",
-     "ids": [
-      "T_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000738",
-     "label": "leukocyte",
-     "ids": [
-      "White_Blood_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000788",
-     "label": "naive B cell",
-     "ids": [
-      "B_Cells"
-     ]
-    },
-    {
-     "cl": "CL:0000809",
-     "label": "double-positive, alpha-beta thymocyte",
-     "ids": [
-      "Double_Positive_Alpha_Beta_Thymocyte"
-     ]
-    },
-    {
-     "cl": "CL:0000883",
-     "label": "thymic cortical macrophage",
-     "ids": [
-      "Thymic_Cortical_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000942",
-     "label": "thymic plasmacytoid dendritic cell",
-     "ids": [
-      "Dendritic_Cells",
-      "Thymic_Plasmacytoid_Dendritic_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0001070",
-     "label": "beige adipocyte",
-     "ids": [
-      "Beige_Adipocyte"
-     ]
-    },
-    {
-     "cl": "CL:0002364",
-     "label": "cortical thymic epithelial cell",
-     "ids": [
-      "Cortical_Thymic_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0009070",
-     "label": "corticomedullary thymic epithelial cell",
-     "ids": [
-      "Corticomedullary_Thymic_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0009071",
-     "label": "medullary thymic epithelial cell type 1",
-     "ids": [
-      "Medullary_Thymic_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0009073",
-     "label": "medullary thymic epithelial cell type 3",
-     "ids": [
-      "Hassalls_Corpuscle"
-     ]
-    },
-    {
-     "cl": "CL:0009077",
-     "label": "subcapsular thymic epithelial cell",
-     "ids": [
-      "Subcapsular_Cortical_Epithelial_Cell"
-     ]
-    }
-   ],
+   "id": "hra-thymus-thymus-lobule",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Thymus lobule (functional tissue unit)",
    "caption": "Functional tissue unit: thymus lobule. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the thymus lobule and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM793.JJWN.944",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Thymus Lobule Functional Tissue Unit (FTU) for Thymus, v1.5. https://doi.org/10.48539/HBM793.JJWN.944. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. 2D Thymus Lobule Functional Tissue Unit (FTU) for Thymus, v1.5. https://doi.org/10.48539/HBM793.JJWN.944. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM793.JJWN.944",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/thymus-thymus-lobule/v1.5/assets/2d-ftu-thymus-thymus-lobule.svg",
+   "url": "/ftu/thymus-thymus-lobule.svg",
+   "ftu": {
+    "name": "thymus-thymus-lobule",
+    "label": "Thymus lobule",
+    "hits": [
+     {
+      "cl": "CL:0000071",
+      "label": "blood vessel endothelial cell",
+      "ids": [
+       "Blood_Vessel_Endothelial_Cell",
+       "Blood_Vessel_Endothelial_Cell_2"
+      ]
+     },
+     {
+      "cl": "CL:0000084",
+      "label": "T cell",
+      "ids": [
+       "T_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000738",
+      "label": "leukocyte",
+      "ids": [
+       "White_Blood_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000788",
+      "label": "naive B cell",
+      "ids": [
+       "B_Cells"
+      ]
+     },
+     {
+      "cl": "CL:0000809",
+      "label": "double-positive, alpha-beta thymocyte",
+      "ids": [
+       "Double_Positive_Alpha_Beta_Thymocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000883",
+      "label": "thymic cortical macrophage",
+      "ids": [
+       "Thymic_Cortical_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000942",
+      "label": "thymic plasmacytoid dendritic cell",
+      "ids": [
+       "Dendritic_Cells",
+       "Thymic_Plasmacytoid_Dendritic_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0001070",
+      "label": "beige adipocyte",
+      "ids": [
+       "Beige_Adipocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002364",
+      "label": "cortical thymic epithelial cell",
+      "ids": [
+       "Cortical_Thymic_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009070",
+      "label": "corticomedullary thymic epithelial cell",
+      "ids": [
+       "Corticomedullary_Thymic_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009071",
+      "label": "medullary thymic epithelial cell type 1",
+      "ids": [
+       "Medullary_Thymic_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009073",
+      "label": "medullary thymic epithelial cell type 3",
+      "ids": [
+       "Hassalls_Corpuscle"
+      ]
+     },
+     {
+      "cl": "CL:0009077",
+      "label": "subcapsular thymic epithelial cell",
+      "ids": [
+       "Subcapsular_Cortical_Epithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0002125"
+   },
+   "thumb": "/figures/hra-thymus-thymus-lobule-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 136,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-thymus",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Thymus",
+   "caption": "Thymus. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Thymus",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/thymus/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/thymus.png",
+   "thumb": "/figures/servier-thymus-thumb.webp",
+   "url": "/figures/servier-thymus.webp",
+   "width": 193,
+   "height": 295,
+   "thumbWidth": 157,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Thymus” = “thymus”"
   }
- ]
+ ],
+ "units": []
 }

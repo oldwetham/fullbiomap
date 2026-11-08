@@ -72,31 +72,77 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/stomach.jpg",
-   "organ": "stomach",
-   "tissue": "stomach",
+   "id": "hpa-a4gnt-stomach",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Stomach: A4GNT immunohistochemistry",
    "caption": "Stomach tissue stained for alpha-1,4-N-acetylglucosaminyltransferase (A4GNT). Brown: A4GNT protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of stomach tissue with A4GNT protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "A4GNT",
-    "name": "Alpha-1,4-N-acetylglucosaminyltransferase",
-    "ensembl": "ENSG00000118017",
-    "uniprot": [
-     "Q9UNA3"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/8017/152732_A_5_1_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000118017-A4GNT/tissue/stomach",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for stomach; IHC reliability enhanced, medium expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): A4GNT immunohistochemistry in stomach, https://images.proteinatlas.org/8017/152732_A_5_1_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): A4GNT immunohistochemistry in stomach, https://images.proteinatlas.org/8017/152732_A_5_1_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000118017-A4GNT/tissue/stomach",
+   "imageUrl": "https://images.proteinatlas.org/8017/152732_A_5_1_rna_selected.jpg",
+   "thumb": "/figures/hpa-a4gnt-stomach-thumb.webp",
+   "url": "/figures/hpa-a4gnt-stomach.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “stomach” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "openstax-ap2e-fig-ch24-04-01",
+   "source": "openstax",
+   "sourceName": "OpenStax Anatomy and Physiology 2e",
+   "kind": "diagram",
+   "title": "Stomach",
+   "caption": "The stomach has four major regions: the cardia, fundus, body, and pylorus. The addition of an inner oblique smooth muscle layer gives the muscularis the ability to vigorously churn and mix food.",
+   "alt": "This image shows a cross-section of the stomach, and the major parts: the cardia, fundus, body and pylorus are labeled.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Figure “Stomach”, section 23.4 The Stomach. CC BY 4.0. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+   "pageUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach#fig-ch24_04_01",
+   "imageUrl": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2414_Stomach.jpg",
+   "sourceUrl": "https://github.com/openstax/osbooks-anatomy-physiology/blob/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2414_Stomach.jpg",
+   "thumb": "/figures/openstax-ap2e-fig-ch24-04-01-thumb.webp",
+   "url": "/figures/openstax-ap2e-fig-ch24-04-01.webp",
+   "width": 1122,
+   "height": 741,
+   "thumbWidth": 240,
+   "thumbHeight": 158,
+   "status": "auto",
+   "match": "OpenStax figure title “Stomach” = “stomach”"
+  },
+  {
+   "id": "servier-stomach",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Stomach",
+   "caption": "Stomach. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Stomach",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/stomach/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/coupe_estomac.png",
+   "thumb": "/figures/servier-stomach-thumb.webp",
+   "url": "/figures/servier-stomach.webp",
+   "width": 307,
+   "height": 274,
+   "thumbWidth": 240,
+   "thumbHeight": 214,
+   "status": "auto",
+   "match": "Servier title “Stomach” = “stomach”"
   }
  ],
+ "units": [],
  "sources": [
   {
    "name": "Cell Ontology",

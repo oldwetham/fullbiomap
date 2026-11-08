@@ -46,7 +46,14 @@ export interface Ladder {system:SystemId;isOrgan:boolean;organ:LadderOrgan|null;
 /** Breadcrumb names per display system: the display system for the heart is itself called "Heart". */
 export const LADDER_SYSTEM_NAMES:Partial<Record<SystemId,string>> = {cardiac:'Cardiovascular',arterial:'Arteries',venous:'Veins'};
 export const ladderSystemName=(id:SystemId)=>LADDER_SYSTEM_NAMES[id]??SYSTEMS.find(s=>s.id===id)?.name??id;
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string;morphology?:Morphology}
+/** A figure (step 10, docs/FIGURES-PLAN.md): a micrograph, labeled diagram or illustration with its source, licence, credit and link.
+ * A tissue unit illustration (ftu) opens as its SVG with clickable cells; focus is the cell type it is shown for. */
+export interface Figure {id:string;source:string;sourceName:string;kind:'micrograph'|'diagram'|'illustration';title:string;caption:string;alt:string;url:string;thumb:string;width?:number;height?:number;thumbWidth?:number;thumbHeight?:number;
+ license:string;licenseUrl:string;credit:string;pageUrl:string;imageUrl?:string;sourceUrl?:string;terms?:string;status:'auto'|'reviewed';match:string;
+ ftu?:{name:string;label:string;tissue?:string;hits:{cl:string;label:string;ids:string[]}[]};focus?:string;
+ /** For cell types that look alike under a microscope: the sentence (also at the end of the caption) naming the proteins that tell them apart. */
+ lookAlike?:string}
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string;morphology?:Morphology;figures?:Figure[]}
 export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
  arterial_supply:{out:'Supplied by',in:'Supplies'},
  venous_drainage:{out:'Drains to',in:'Drains'},
@@ -67,7 +74,7 @@ export function connectionGroups(list:Connection[]):ConnectionGroup[]{
  for(const c of list){const key=`${c.rel}:${c.dir}`;const g=groups.get(key)??{key,label:RELATION_LABELS[c.rel]?.[c.dir]??c.rel,items:[]};g.items.push(c);groups.set(key,g);}
  return [...groups.values()];
 }
-export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[];ladder:Ladder|null}
+export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[];ladder:Ladder|null;figures:Figure[]}
 export const isUnreviewed=(t?:ContentTier)=>t?.status==='auto'||t?.status==='drafted';
 let contentIndex:Promise<Set<string>>|null=null;
 const contentCache=new Map<string,Promise<NodeContent|null>>();
@@ -84,9 +91,9 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
  const tierOf=(l:Level)=>node?.content?.[`tier${l}`];
  const available=LEVELS.map(x=>x.level).filter(l=>{const t=tierOf(l);return !!t&&t.status!=='missing'&&!!t.text;});
  const level=available.includes(preferred)?preferred:available[0]??null;
- const connections=node?.connections??[],ladder=node?.ladder??null;
- if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections,ladder};
- return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder};
+ const connections=node?.connections??[],ladder=node?.ladder??null,figures=node?.figures??[];
+ if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections,ladder,figures};
+ return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder,figures};
 }
 
 /** Deep links: [female/]<id>[/inside[/<part>]], or organ/<hra-object>[/<part>] for an organ opened on its own
@@ -113,7 +120,7 @@ export function formatHash(h:HashState):string{
  return `#${h.body==='female'?'female/':''}${h.id}${h.inside?`/inside${h.part?`/${h.part}`:''}`:''}`;
 }
 
-/** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, histology and FTU media. */
+/** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, the organ's figures, and its other tissue unit illustrations. */
 /** How a cell type is drawn in 3D (step 11, from pipeline/maps/cell-families.json): its family, the Cell Ontology class that chose it, and why it has no nucleus if it has none. */
 export interface Reconstruction {group:string;level:'type'|'class';nmoId:string;neuronName:string;species:string;region:string[];drawnSoma:boolean;page:string;paper:{citation:string;doi:string|null;pmid:string|null};license:string;licenseUrl:string;attribution:string}
 export interface CellShape {family:string;label:string;variant:string;apical:string|null;nucleus:boolean;from:{id:string;label:string}|null;note?:string;noNucleus?:string;caption?:string;reconstruction?:Reconstruction;
@@ -124,15 +131,14 @@ export interface MorphologySource {name:string;citation:string;license:string;ur
 export interface MorphologyClaim {field:string;value:string;quote:string;source:{section:string;url:string;license:string;citation:string;access?:string}}
 export interface Morphology {status:string;file:string;license:string;attribution:string;method:string;draftedOn?:string;sources:MorphologySource[];claims:MorphologyClaim[]}
 export interface TissueCell {id:string;conceptId:string;label:string;model?:string;shape?:CellShape}
-export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[];
- /** Tissue unit illustrations: per cell type drawn, the SVG element ids that draw it (HRA crosswalk, step 08). */
- hits?:{cl:string;label:string;ids:string[]}[]}
-export interface TissueBoard {organ:{id:string;conceptId:string;label:string};tables:{name:string;version:string;doi:string;citation:string}[];cellCount:number;groups:{structure:string;cells:TissueCell[]}[];media:TissueMedia[]}
-/** Merges an organ's own board with its is_a ancestors' (the left kidney shows the kidney's). */
+export interface TissueBoard {organ:{id:string;conceptId:string;label:string};tables:{name:string;version:string;doi:string;citation:string}[];cellCount:number;groups:{structure:string;cells:TissueCell[]}[];figures:Figure[];units:Figure[]}
+/** Merges an organ's own board with its is_a ancestors' (the left kidney shows the kidney's). The strip keeps the first
+ * board's figures first and holds at most three; every other tissue unit illustration is listed under it. */
 export function mergeBoards(boards:TissueBoard[]):TissueBoard|null{
  if(!boards.length)return null;
- const groups=new Map<string,Map<string,TissueCell>>(),media=new Map<string,TissueMedia>(),tables=new Map<string,TissueBoard['tables'][number]>();
- for(const b of boards){for(const g of b.groups){const m=groups.get(g.structure)??new Map();for(const c of g.cells)m.set(c.id,c);groups.set(g.structure,m);}for(const x of b.media)media.set(x.url,x);for(const t of b.tables)tables.set(t.name,t);}
+ const groups=new Map<string,Map<string,TissueCell>>(),figures=new Map<string,Figure>(),units=new Map<string,Figure>(),tables=new Map<string,TissueBoard['tables'][number]>();
+ for(const b of boards){for(const g of b.groups){const m=groups.get(g.structure)??new Map();for(const c of g.cells)m.set(c.id,c);groups.set(g.structure,m);}for(const f of b.figures??[])if(!figures.has(f.id))figures.set(f.id,f);for(const f of b.units??[])if(!units.has(f.id))units.set(f.id,f);for(const t of b.tables)tables.set(t.name,t);}
  const merged=[...groups].map(([structure,cells])=>({structure,cells:[...cells.values()]})).sort((a,b)=>b.cells.length-a.cells.length||a.structure.localeCompare(b.structure));
- return {organ:boards[0].organ,tables:[...tables.values()],cellCount:new Set(merged.flatMap(g=>g.cells.map(c=>c.id))).size,groups:merged,media:[...media.values()]};
+ const all=[...figures.values()],strip=all.slice(0,3),shown=new Set(strip.map(f=>f.id));
+ return {organ:boards[0].organ,tables:[...tables.values()],cellCount:new Set(merged.flatMap(g=>g.cells.map(c=>c.id))).size,groups:merged,figures:strip,units:[...all.slice(3).filter(f=>!!f.ftu),...units.values()].filter(f=>!shown.has(f.id))};
 }

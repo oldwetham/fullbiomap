@@ -398,29 +398,52 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/ovary.jpg",
-   "organ": "ovary",
-   "tissue": "ovary",
+   "id": "hpa-zp4-ovary",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Ovary: ZP4 immunohistochemistry",
    "caption": "Ovary tissue stained for zona pellucida glycoprotein 4 (ZP4). Brown: ZP4 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of ovary tissue with ZP4 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "ZP4",
-    "name": "Zona pellucida glycoprotein 4",
-    "ensembl": "ENSG00000116996",
-    "uniprot": [
-     "Q12836"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000116996-ZP4/tissue/ovary",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for ovary; IHC reliability enhanced, high expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ZP4 immunohistochemistry in ovary, https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ZP4 immunohistochemistry in ovary, https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000116996-ZP4/tissue/ovary",
+   "imageUrl": "https://images.proteinatlas.org/8547/160095_A_6_7_rna_selected.jpg",
+   "thumb": "/figures/hpa-zp4-ovary-thumb.webp",
+   "url": "/figures/hpa-zp4-ovary.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “ovary” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-ovary-ov",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Ovary",
+   "caption": "Ovary. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Ovary",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/ovary-ov/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/ovaire_2a.png",
+   "thumb": "/figures/servier-ovary-ov-thumb.webp",
+   "url": "/figures/servier-ovary-ov.webp",
+   "width": 82,
+   "height": 55,
+   "thumbWidth": 82,
+   "thumbHeight": 55,
+   "status": "auto",
+   "match": "Servier title “Ovary” = “ovary”"
   }
- ]
+ ],
+ "units": []
 }

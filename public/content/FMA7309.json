@@ -360,5 +360,121 @@
     "/tissue/FMA7309.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-sftpc-lung",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Lung: SFTPC immunohistochemistry",
+   "caption": "Lung tissue stained for surfactant protein C (SFTPC). Brown: SFTPC protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of lung tissue with SFTPC protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): SFTPC immunohistochemistry in lung, https://images.proteinatlas.org/10928/51559_A_2_4_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000168484-SFTPC/tissue/lung",
+   "imageUrl": "https://images.proteinatlas.org/10928/51559_A_2_4_rna_selected.jpg",
+   "thumb": "/figures/hpa-sftpc-lung-thumb.webp",
+   "url": "/figures/hpa-sftpc-lung.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “lung” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-lung-pulmonary-alveolus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Alveolus of lung (functional tissue unit)",
+   "caption": "Functional tissue unit: alveolus of lung. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the alveolus of lung and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. *2D Pulmonary Alveolus Functional Tissue Unit (FTU) for Lung, v1.5*. https://doi.org/10.48539/HBM949.RSKR.647. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM949.RSKR.647",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/lung-pulmonary-alveolus/v1.5/assets/2d-ftu-lung-pulmonary-alveolus.svg",
+   "url": "/ftu/lung-pulmonary-alveolus.svg",
+   "ftu": {
+    "name": "lung-pulmonary-alveolus",
+    "label": "Alveolus of lung",
+    "hits": [
+     {
+      "cl": "CL:0002062",
+      "label": "pulmonary alveolar type 1 cell",
+      "ids": [
+       "Type_I_Pneumocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002063",
+      "label": "pulmonary alveolar type 2 cell",
+      "ids": [
+       "Type_II_Pneumocyte"
+      ]
+     },
+     {
+      "cl": "CL:0009089",
+      "label": "lung pericyte",
+      "ids": [
+       "Lung_Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:4028002",
+      "label": "alveolar capillary type 1 endothelial cell",
+      "ids": [
+       "Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:4028004",
+      "label": "alveolar type 1 fibroblast cell",
+      "ids": [
+       "Lung_Matrix_Fibroblast"
+      ]
+     },
+     {
+      "cl": "CL:4033016",
+      "label": "secondary crest myofibroblast",
+      "ids": [
+       "Secondary_Crest_Myofibroblast"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0002299"
+   },
+   "thumb": "/figures/hra-lung-pulmonary-alveolus-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 171,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-lungs-11",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Lungs",
+   "caption": "Lungs. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Lungs",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/lungs-11/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/poumons_01.png",
+   "thumb": "/figures/servier-lungs-11-thumb.webp",
+   "url": "/figures/servier-lungs-11.webp",
+   "width": 408,
+   "height": 363,
+   "thumbWidth": 240,
+   "thumbHeight": 214,
+   "status": "auto",
+   "match": "Servier title “Lungs” = “lung”"
+  }
+ ]
 }

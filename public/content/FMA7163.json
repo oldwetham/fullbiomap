@@ -79,5 +79,114 @@
     "/tissue/FMA7163.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-alox12b-skin",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Skin: ALOX12B immunohistochemistry",
+   "caption": "Skin tissue stained for arachidonate 12-lipoxygenase, 12R type (ALOX12B). Brown: ALOX12B protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of skin tissue with ALOX12B protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ALOX12B immunohistochemistry in skin, https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000179477-ALOX12B/tissue/skin",
+   "imageUrl": "https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg",
+   "thumb": "/figures/hpa-alox12b-skin-thumb.webp",
+   "url": "/figures/hpa-alox12b-skin.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “skin” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-skin-hair-follicle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Hair follicle (functional tissue unit)",
+   "caption": "Functional tissue unit: hair follicle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the hair follicle and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2024. Skin, Hair Follicle 2D FTU v.1.2. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-hair-follicle/v1.2/assets/2d-ftu-skin-hair-follicle.svg",
+   "url": "/ftu/skin-hair-follicle.svg",
+   "ftu": {
+    "name": "skin-hair-follicle",
+    "label": "Hair follicle",
+    "hits": [
+     {
+      "cl": "CL:0000317",
+      "label": "sebum secreting cell",
+      "ids": [
+       "Sebum_secreting_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002337",
+      "label": "keratinocyte stem cell",
+      "ids": [
+       "Keratinocyte_stem_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002483",
+      "label": "hair follicle melanocyte",
+      "ids": [
+       "Hair_follicle_melanocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002562",
+      "label": "hair germinal matrix cell",
+      "ids": [
+       "Hair_germinal_matrix_cell"
+      ]
+     },
+     {
+      "cl": "CL:1000417",
+      "label": "myoepithelial cell of sweat gland",
+      "ids": [
+       "Myoepithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0002073"
+   },
+   "thumb": "/figures/hra-skin-hair-follicle-thumb.webp",
+   "thumbWidth": 113,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-skin",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Skin",
+   "caption": "Skin. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Skin",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/skin/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/peau.png",
+   "thumb": "/figures/servier-skin-thumb.webp",
+   "url": "/figures/servier-skin.webp",
+   "width": 1282,
+   "height": 1248,
+   "thumbWidth": 240,
+   "thumbHeight": 234,
+   "status": "auto",
+   "match": "Servier title “Skin” = “skin”"
+  }
+ ]
 }

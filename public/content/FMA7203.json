@@ -204,5 +204,149 @@
     "/tissue/FMA7203.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-fxyd2-kidney",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Kidney: FXYD2 immunohistochemistry",
+   "caption": "Kidney tissue stained for FXYD domain containing ion transport regulator 2 (FXYD2). Brown: FXYD2 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of kidney tissue with FXYD2 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): FXYD2 immunohistochemistry in kidney, https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000137731-FXYD2/tissue/kidney",
+   "imageUrl": "https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg",
+   "thumb": "/figures/hpa-fxyd2-kidney-thumb.webp",
+   "url": "/figures/hpa-fxyd2-kidney.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “kidney” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-kidney-nephron",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Nephron (functional tissue unit)",
+   "caption": "Functional tissue unit: nephron. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the nephron and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Nephron FTU for Kidney, v1.3. https://doi.org/10.48539/HBM496.MJDK.347. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM496.MJDK.347",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-nephron/v1.3/assets/2d-ftu-kidney-nephron.svg",
+   "url": "/ftu/kidney-nephron.svg",
+   "ftu": {
+    "name": "kidney-nephron",
+    "label": "Nephron",
+    "hits": [
+     {
+      "cl": "CL:1000714",
+      "label": "kidney cortex collecting duct principal cell",
+      "ids": [
+       "Cortical_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000716",
+      "label": "kidney outer medulla collecting duct principal cell",
+      "ids": [
+       "Outer_Medullary_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000718",
+      "label": "kidney inner medulla collecting duct principal cell",
+      "ids": [
+       "Inner_Medullary_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000768",
+      "label": "kidney connecting tubule epithelial cell",
+      "ids": [
+       "Connecting_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000849",
+      "label": "kidney distal convoluted tubule epithelial cell",
+      "ids": [
+       "Distal_Convoluted_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000850",
+      "label": "macula densa epithelial cell",
+      "ids": [
+       "Macula_Densa"
+      ]
+     },
+     {
+      "cl": "CL:1001106",
+      "label": "kidney loop of Henle thick ascending limb epithelial cell",
+      "ids": [
+       "Thick_Ascending_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:1001107",
+      "label": "kidney loop of Henle thin ascending limb epithelial cell",
+      "ids": [
+       "Ascending_Thin_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:1001111",
+      "label": "kidney loop of Henle thin descending limb epithelial cell",
+      "ids": [
+       "Descending_Thin_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:4030009",
+      "label": "epithelial cell of proximal tubule segment 1",
+      "ids": [
+       "Proximal_Tubule_S1"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001285"
+   },
+   "thumb": "/figures/hra-kidney-nephron-thumb.webp",
+   "thumbWidth": 213,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-kidney",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Kidney",
+   "caption": "Kidney. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Kidney",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/kidney/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/rein_01.png",
+   "thumb": "/figures/servier-kidney-thumb.webp",
+   "url": "/figures/servier-kidney.webp",
+   "width": 256,
+   "height": 389,
+   "thumbWidth": 158,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Kidney” = “kidney”"
+  }
+ ]
 }

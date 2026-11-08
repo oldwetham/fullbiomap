@@ -1,0 +1,44 @@
+{
+ "_comment": "Cell types that look alike under a light microscope, and the proteins that tell them apart (docs/FIGURES-PLAN.md section 4). Step 10 adds each group's sentence to every figure caption of its members and checks every piece of evidence before using it: a Cell Ontology logical-definition axiom (property and term, in the cached OLS record of that cell type), an HRA ASCT+B table cell (the table, a row whose cell type is that member, the column, and the cell's exact text), or a sentence quoted from OpenStax (word for word in data/build/sources). Each protein the sentence names must have evidence for the cell type it is named for. Markers were chosen by hand from these sources: ASCT+B protein columns list positive and negative gating markers together, so only cells that say a protein is present (or a marker list for that cell type) are cited. Monocytes and macrophages are not a group: OpenStax describes macrophages as monocytes that have left the circulation, and no cited source names a surface protein that tells them apart.",
+ "groups": [
+  {
+   "id": "lymphocytes",
+   "members": ["CL:0000624", "CL:0000625", "CL:0000236", "CL:0000623"],
+   "sentence": "Under a light microscope T cells, B cells and NK cells look alike. Surface proteins tell them apart: T cells carry CD3, with CD4 on CD4-positive and CD8 on CD8-positive T cells; B cells carry CD19 and CD20; NK cells carry CD56 and lack CD3 (Cell Ontology; HRA ASCT+B).",
+   "lookAlike": "OpenStax Anatomy and Physiology 2e (21.1): “The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.” NK cells are added to the group as the figures brief asks (T cells, B cells and NK cells).",
+   "evidence": [
+    {"kind": "openstax", "file": "openstax-ap2e/21-01-anatomy-of-the-lymphatic-and-immune-systems.txt", "quote": "The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm."},
+    {"kind": "cl-axiom", "cell": "CL:0000624", "protein": "CD4", "property": "has plasma membrane part", "term": "PR:000001004"},
+    {"kind": "asctb", "cell": "CL:0000624", "protein": "CD3", "table": "small-intestine", "column": "Subset of Marker Protein Markers (https://www.genenames.org)", "text": "CD3, CD7, CD2, CD5, TCRab, CD4"},
+    {"kind": "cl-axiom", "cell": "CL:0000625", "protein": "CD8", "property": "has plasma membrane part", "term": "PR:000025402"},
+    {"kind": "asctb", "cell": "CL:0000625", "protein": "CD3", "table": "spleen", "column": "Protein Biomarkers from Antibody Based Assays (IHC, FACS)", "text": "CD3+, CD4-, CD8+"},
+    {"kind": "asctb", "cell": "CL:0000236", "protein": "CD19", "table": "lymph-node", "column": "All Protein Biomarkers from Antibody Based Assays IHC, FACS", "text": "CD19+, CD20+, CD79a+"},
+    {"kind": "asctb", "cell": "CL:0000236", "protein": "CD20", "table": "lymph-node", "column": "All Protein Biomarkers from Antibody Based Assays IHC, FACS", "text": "CD19+, CD20+, CD79a+"},
+    {"kind": "asctb", "cell": "CL:0000623", "protein": "CD56", "table": "small-intestine", "column": "Subset of Marker Protein Markers (https://www.genenames.org)", "text": "CD56, CD57, CD11c, NKG2D"},
+    {"kind": "cl-axiom", "cell": "CL:0000623", "protein": "CD3", "absent": true, "property": "lacks plasma membrane part", "term": "PR:000001020"}
+   ]
+  },
+  {
+   "id": "pancreatic-islet",
+   "members": ["CL:0000171", "CL:0000169"],
+   "sentence": "Alpha and beta cells of the pancreatic islets look alike in an ordinary stained section. Staining for the hormone each one makes tells them apart: glucagon in alpha cells, insulin in beta cells (Cell Ontology; HRA ASCT+B).",
+   "lookAlike": "Listed in the approved figures plan (docs/FIGURES-PLAN.md section 4). These cells are told apart by the hormones they store, not by surface proteins.",
+   "evidence": [
+    {"kind": "cl-definition", "cell": "CL:0000171", "protein": "glucagon", "file": "cell-ontology/CL_0000171.txt", "quote": "secretes glucagon"},
+    {"kind": "cl-axiom", "cell": "CL:0000169", "protein": "insulin", "property": "capable of", "term": "GO:0030073"},
+    {"kind": "asctb", "cell": "CL:0000169", "protein": "insulin", "table": "pancreas", "column": "BProtein/1", "text": "Insulin"}
+   ]
+  },
+  {
+   "id": "collecting-duct",
+   "members": ["CL:1001431", "CL:1001432"],
+   "sentence": "Principal and intercalated cells of the collecting duct look alike in an ordinary stained section. Proteins in their apical membranes tell them apart: aquaporin water channels (AQP2) in principal cells, proton pumps in intercalated cells (OpenStax Anatomy and Physiology 2e; HRA ASCT+B).",
+   "lookAlike": "Listed in the approved figures plan (docs/FIGURES-PLAN.md section 4).",
+   "evidence": [
+    {"kind": "openstax", "cell": "CL:1001431", "protein": "aquaporin", "file": "openstax-ap2e/25-08-endocrine-regulation-of-kidney-function.txt", "quote": "It does so by stimulating the movement of aquaporin proteins into the apical cell membrane of principal cells of the collecting ducts to form water channels, allowing the transcellular movement of water from the lumen of the collecting duct into the interstitial space in the medulla of the kidney by osmosis."},
+    {"kind": "asctb", "cell": "CL:1001431", "protein": "AQP2", "table": "kidney", "column": "BProtein/1/LABEL", "text": "AQP2"},
+    {"kind": "openstax", "cell": "CL:1001432", "protein": "proton pumps", "file": "openstax-ap2e/25-09-regulation-of-fluid-volume-and-composition.txt", "quote": "In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body."}
+   ]
+  }
+ ]
+}

@@ -1429,173 +1429,218 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/skin.jpg",
-   "organ": "skin",
-   "tissue": "skin",
+   "id": "hpa-alox12b-skin",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Skin: ALOX12B immunohistochemistry",
    "caption": "Skin tissue stained for arachidonate 12-lipoxygenase, 12R type (ALOX12B). Brown: ALOX12B protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of skin tissue with ALOX12B protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "ALOX12B",
-    "name": "Arachidonate 12-lipoxygenase, 12R type",
-    "ensembl": "ENSG00000179477",
-    "uniprot": [
-     "O75342"
-    ]
-   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ALOX12B immunohistochemistry in skin, https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000179477-ALOX12B/tissue/skin",
    "imageUrl": "https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000179477-ALOX12B/tissue/skin",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for skin; IHC reliability supported, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): ALOX12B immunohistochemistry in skin, https://images.proteinatlas.org/24002/52924_B_4_8_rna_selected.jpg. CC BY 4.0."
+   "thumb": "/figures/hpa-alox12b-skin-thumb.webp",
+   "url": "/figures/hpa-alox12b-skin.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “skin” is this organ's tissue in pipeline/maps/tissue-media.json"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/skin-dermal-papilla.svg",
-   "name": "skin-dermal-papilla",
-   "label": "Papillary layer of dermis",
-   "cells": [
-    "CL:0000115",
-    "CL:0002620"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000115",
-     "label": "endothelial cell",
-     "ids": [
-      "Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002620",
-     "label": "skin fibroblast",
-     "ids": [
-      "Skin_Fibroblast"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: papillary layer of dermis. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the papillary layer of dermis and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM223.PSTT.966",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Dermal Papilla FTU for Skin, v1.3. https://doi.org/10.48539/HBM223.PSTT.966. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/skin-epidermal-ridge.svg",
-   "name": "skin-epidermal-ridge",
-   "label": "Epidermal ridge of digit",
-   "cells": [
-    "CL:0000242",
-    "CL:0000646",
-    "CL:0000649",
-    "CL:0002457",
-    "CL:1000458"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000242",
-     "label": "Merkel cell",
-     "ids": [
-      "Merkel_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000646",
-     "label": "basal cell",
-     "ids": [
-      "Basal_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000649",
-     "label": "prickle cell",
-     "ids": [
-      "Prickle_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002457",
-     "label": "epidermal Langerhans cell",
-     "ids": [
-      "Epidermal_Langerhans_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000458",
-     "label": "melanocyte of skin",
-     "ids": [
-      "Melanocyte"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: epidermal ridge of digit. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the epidermal ridge of digit and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM697.MRSV.939",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Epidermal Ridge FTU for Skin, v1.3. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/skin-hair-follicle.svg",
-   "name": "skin-hair-follicle",
-   "label": "Hair follicle",
-   "cells": [
-    "CL:0000317",
-    "CL:0002337",
-    "CL:0002483",
-    "CL:0002562",
-    "CL:1000417"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000317",
-     "label": "sebum secreting cell",
-     "ids": [
-      "Sebum_secreting_cell"
-     ]
-    },
-    {
-     "cl": "CL:0002337",
-     "label": "keratinocyte stem cell",
-     "ids": [
-      "Keratinocyte_stem_cell"
-     ]
-    },
-    {
-     "cl": "CL:0002483",
-     "label": "hair follicle melanocyte",
-     "ids": [
-      "Hair_follicle_melanocyte"
-     ]
-    },
-    {
-     "cl": "CL:0002562",
-     "label": "hair germinal matrix cell",
-     "ids": [
-      "Hair_germinal_matrix_cell"
-     ]
-    },
-    {
-     "cl": "CL:1000417",
-     "label": "myoepithelial cell of sweat gland",
-     "ids": [
-      "Myoepithelial_Cell"
-     ]
-    }
-   ],
+   "id": "hra-skin-hair-follicle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Hair follicle (functional tissue unit)",
    "caption": "Functional tissue unit: hair follicle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the hair follicle and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM697.MRSV.939",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2024. Skin, Hair Follicle 2D FTU v.1.2. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2024. Skin, Hair Follicle 2D FTU v.1.2. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-hair-follicle/v1.2/assets/2d-ftu-skin-hair-follicle.svg",
+   "url": "/ftu/skin-hair-follicle.svg",
+   "ftu": {
+    "name": "skin-hair-follicle",
+    "label": "Hair follicle",
+    "hits": [
+     {
+      "cl": "CL:0000317",
+      "label": "sebum secreting cell",
+      "ids": [
+       "Sebum_secreting_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002337",
+      "label": "keratinocyte stem cell",
+      "ids": [
+       "Keratinocyte_stem_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002483",
+      "label": "hair follicle melanocyte",
+      "ids": [
+       "Hair_follicle_melanocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002562",
+      "label": "hair germinal matrix cell",
+      "ids": [
+       "Hair_germinal_matrix_cell"
+      ]
+     },
+     {
+      "cl": "CL:1000417",
+      "label": "myoepithelial cell of sweat gland",
+      "ids": [
+       "Myoepithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0002073"
+   },
+   "thumb": "/figures/hra-skin-hair-follicle-thumb.webp",
+   "thumbWidth": 113,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-skin",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Skin",
+   "caption": "Skin. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Skin",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/skin/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/peau.png",
+   "thumb": "/figures/servier-skin-thumb.webp",
+   "url": "/figures/servier-skin.webp",
+   "width": 1282,
+   "height": 1248,
+   "thumbWidth": 240,
+   "thumbHeight": 234,
+   "status": "auto",
+   "match": "Servier title “Skin” = “skin”"
+  }
+ ],
+ "units": [
+  {
+   "id": "hra-skin-epidermal-ridge",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Epidermal ridge of digit (functional tissue unit)",
+   "caption": "Functional tissue unit: epidermal ridge of digit. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the epidermal ridge of digit and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Epidermal Ridge FTU for Skin, v1.3. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-epidermal-ridge/v1.3/assets/2d-ftu-skin-epidermal-ridge.svg",
+   "url": "/ftu/skin-epidermal-ridge.svg",
+   "ftu": {
+    "name": "skin-epidermal-ridge",
+    "label": "Epidermal ridge of digit",
+    "hits": [
+     {
+      "cl": "CL:0000242",
+      "label": "Merkel cell",
+      "ids": [
+       "Merkel_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000646",
+      "label": "basal cell",
+      "ids": [
+       "Basal_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000649",
+      "label": "prickle cell",
+      "ids": [
+       "Prickle_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002457",
+      "label": "epidermal Langerhans cell",
+      "ids": [
+       "Epidermal_Langerhans_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000458",
+      "label": "melanocyte of skin",
+      "ids": [
+       "Melanocyte"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0013487"
+   },
+   "thumb": "/figures/hra-skin-epidermal-ridge-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 231,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-skin-dermal-papilla",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Papillary layer of dermis (functional tissue unit)",
+   "caption": "Functional tissue unit: papillary layer of dermis. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the papillary layer of dermis and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Dermal Papilla FTU for Skin, v1.3. https://doi.org/10.48539/HBM223.PSTT.966. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM223.PSTT.966",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-dermal-papilla/v1.3/assets/2d-ftu-skin-dermal-papilla.svg",
+   "url": "/ftu/skin-dermal-papilla.svg",
+   "ftu": {
+    "name": "skin-dermal-papilla",
+    "label": "Papillary layer of dermis",
+    "hits": [
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002620",
+      "label": "skin fibroblast",
+      "ids": [
+       "Skin_Fibroblast"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001992"
+   },
+   "thumb": "/figures/hra-skin-dermal-papilla-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 231,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
  ]
 }

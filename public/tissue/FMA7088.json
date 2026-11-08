@@ -4265,29 +4265,52 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/heart.jpg",
-   "organ": "heart",
-   "tissue": "heart muscle",
+   "id": "hpa-nppa-heart-muscle",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Heart muscle: NPPA immunohistochemistry",
    "caption": "Heart muscle tissue stained for natriuretic peptide A (NPPA). Brown: NPPA protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of heart muscle tissue with NPPA protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "NPPA",
-    "name": "Natriuretic peptide A",
-    "ensembl": "ENSG00000175206",
-    "uniprot": [
-     "P01160"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/58269/133550_B_4_6_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000175206-NPPA/tissue/heart%20muscle",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for heart muscle; IHC reliability enhanced, medium expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): NPPA immunohistochemistry in heart muscle, https://images.proteinatlas.org/58269/133550_B_4_6_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): NPPA immunohistochemistry in heart muscle, https://images.proteinatlas.org/58269/133550_B_4_6_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000175206-NPPA/tissue/heart%20muscle",
+   "imageUrl": "https://images.proteinatlas.org/58269/133550_B_4_6_rna_selected.jpg",
+   "thumb": "/figures/hpa-nppa-heart-muscle-thumb.webp",
+   "url": "/figures/hpa-nppa-heart-muscle.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “heart muscle” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-heart",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Heart",
+   "caption": "Heart. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Heart",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/heart/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/coeur.png",
+   "thumb": "/figures/servier-heart-thumb.webp",
+   "url": "/figures/servier-heart.webp",
+   "width": 389,
+   "height": 510,
+   "thumbWidth": 183,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Heart” = “heart”"
   }
- ]
+ ],
+ "units": []
 }

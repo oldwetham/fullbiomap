@@ -269,5 +269,156 @@
     "/tissue/FMA7200.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-small-intestine-villus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Intestinal villus (functional tissue unit)",
+   "caption": "Functional tissue unit: intestinal villus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the intestinal villus and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Intestinal Villus FTU for Small Intestine, v1.2, https://doi.org/10.48539/HBM946.CQQC.734. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM946.CQQC.734",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/small-intestine-villus/v1.2/assets/2d-ftu-small-intestine-villus.svg",
+   "url": "/ftu/small-intestine-villus.svg",
+   "ftu": {
+    "name": "small-intestine-villus",
+    "label": "Intestinal villus",
+    "hits": [
+     {
+      "cl": "CL:0000057",
+      "label": "fibroblast",
+      "ids": [
+       "Fibroblast"
+      ]
+     },
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Goblet_x5F_Cell_x5F_1",
+       "Mast_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000163",
+      "label": "endocrine cell",
+      "ids": [
+       "Endocrine_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000186",
+      "label": "myofibroblast",
+      "ids": [
+       "Myofibroblast"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000236",
+      "label": "B cell",
+      "ids": [
+       "B_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000584",
+      "label": "enterocyte",
+      "ids": [
+       "Enterocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000623",
+      "label": "natural killer cell",
+      "ids": [
+       "Natural_x5F_Killer_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000771",
+      "label": "eosinophil",
+      "ids": [
+       "Eosinophil"
+      ]
+     },
+     {
+      "cl": "CL:0000775",
+      "label": "neutrophil",
+      "ids": [
+       "Neutrophil"
+      ]
+     },
+     {
+      "cl": "CL:0000786",
+      "label": "plasma cell",
+      "ids": [
+       "Plasma_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0001065",
+      "label": "innate lymphoid cell",
+      "ids": [
+       "Innate_x5F_Lymphoid_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009080",
+      "label": "tuft cell of small intestine",
+      "ids": [
+       "Tuft_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000324",
+      "label": "duodenal goblet cell",
+      "ids": [
+       "Goblet_x5F_Cell_x5F_10",
+       "Goblet_x5F_Cell_x5F_11",
+       "Goblet_x5F_Cell_x5F_12",
+       "Goblet_x5F_Cell_x5F_13",
+       "Goblet_x5F_Cell_x5F_14",
+       "Goblet_x5F_Cell_x5F_15",
+       "Goblet_x5F_Cell_x5F_16",
+       "Goblet_x5F_Cell_x5F_17",
+       "Goblet_x5F_Cell_x5F_2",
+       "Goblet_x5F_Cell_x5F_3",
+       "Goblet_x5F_Cell_x5F_4",
+       "Goblet_x5F_Cell_x5F_5",
+       "Goblet_x5F_Cell_x5F_6",
+       "Goblet_x5F_Cell_x5F_7",
+       "Goblet_x5F_Cell_x5F_8",
+       "Goblet_x5F_Cell_x5F_9"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001213"
+   },
+   "thumb": "/figures/hra-small-intestine-villus-thumb.webp",
+   "thumbWidth": 97,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0000584",
+   "focus": "CL:0000584"
+  }
+ ]
 }

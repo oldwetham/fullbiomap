@@ -384,117 +384,120 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/prostate.jpg",
-   "organ": "prostate",
-   "tissue": "prostate",
+   "id": "hpa-msmb-prostate",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Prostate: MSMB immunohistochemistry",
    "caption": "Prostate tissue stained for microseminoprotein beta (MSMB). Brown: MSMB protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of prostate tissue with MSMB protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "MSMB",
-    "name": "Microseminoprotein beta",
-    "ensembl": "ENSG00000263639",
-    "uniprot": [
-     "P08118"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000263639-MSMB/tissue/prostate",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for prostate; IHC reliability enhanced, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): MSMB immunohistochemistry in prostate, https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg. CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/prostate-prostate-glandular-acinus.svg",
-   "name": "prostate-prostate-glandular-acinus",
-   "label": "Prostate glandular acinus",
-   "cells": [
-    "CL:0000359",
-    "CL:0000669",
-    "CL:0002340",
-    "CL:0002341",
-    "CL:0017002",
-    "CL:1000299",
-    "CL:1000301",
-    "CL:1000487",
-    "CL:2000059"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000359",
-     "label": "vascular associated smooth muscle cell",
-     "ids": [
-      "Vascular_Smooth_Muscle_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000669",
-     "label": "pericyte",
-     "ids": [
-      "Prostate_Pericyte"
-     ]
-    },
-    {
-     "cl": "CL:0002340",
-     "label": "luminal cell of prostate epithelium",
-     "ids": [
-      "Luminal_Cell_Of_Prostate_Epithelium"
-     ]
-    },
-    {
-     "cl": "CL:0002341",
-     "label": "basal cell of prostate epithelium",
-     "ids": [
-      "Basal_Cell_Of_Prostate_Epithelium"
-     ]
-    },
-    {
-     "cl": "CL:0017002",
-     "label": "prostate neuroendocrine cell",
-     "ids": [
-      "Prostate_Neuroendocrine_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000299",
-     "label": "fibroblast of connective tissue of prostate",
-     "ids": [
-      "Fibroblast_Of_Connective_Tissue_Of_Prostate"
-     ]
-    },
-    {
-     "cl": "CL:1000301",
-     "label": "fibroblast of subepithelial connective tissue of prostatic gland",
-     "ids": [
-      "Fibroblast_Of_Subepithelial_Connective_Tissue_Of_Prostatic_Gland"
-     ]
-    },
-    {
-     "cl": "CL:1000487",
-     "label": "smooth muscle cell of prostate",
-     "ids": [
-      "Smooth_Muscle_Cell_Of_Prostate"
-     ]
-    },
-    {
-     "cl": "CL:2000059",
-     "label": "prostate gland microvascular endothelial cell",
-     "ids": [
-      "Prostate_Gland_Microvascular_Endothelial_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: prostate glandular acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the prostate glandular acinus and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM346.TQTN.357",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Prostate Glandular Acinus FTU for Prostate, v1.3. https://doi.org/10.48539/HBM346.TQTN.357. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): MSMB immunohistochemistry in prostate, https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000263639-MSMB/tissue/prostate",
+   "imageUrl": "https://images.proteinatlas.org/26357/56373_A_2_5_rna_selected.jpg",
+   "thumb": "/figures/hpa-msmb-prostate-thumb.webp",
+   "url": "/figures/hpa-msmb-prostate.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “prostate” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-prostate-prostate-glandular-acinus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Prostate glandular acinus (functional tissue unit)",
+   "caption": "Functional tissue unit: prostate glandular acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the prostate glandular acinus and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Prostate Glandular Acinus FTU for Prostate, v1.3. https://doi.org/10.48539/HBM346.TQTN.357. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM346.TQTN.357",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/prostate-prostate-glandular-acinus/v1.3/assets/2d-ftu-prostate-prostate-glandular-acinus.svg",
+   "url": "/ftu/prostate-prostate-glandular-acinus.svg",
+   "ftu": {
+    "name": "prostate-prostate-glandular-acinus",
+    "label": "Prostate glandular acinus",
+    "hits": [
+     {
+      "cl": "CL:0000359",
+      "label": "vascular associated smooth muscle cell",
+      "ids": [
+       "Vascular_Smooth_Muscle_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Prostate_Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0002340",
+      "label": "luminal cell of prostate epithelium",
+      "ids": [
+       "Luminal_Cell_Of_Prostate_Epithelium"
+      ]
+     },
+     {
+      "cl": "CL:0002341",
+      "label": "basal cell of prostate epithelium",
+      "ids": [
+       "Basal_Cell_Of_Prostate_Epithelium"
+      ]
+     },
+     {
+      "cl": "CL:0017002",
+      "label": "prostate neuroendocrine cell",
+      "ids": [
+       "Prostate_Neuroendocrine_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000299",
+      "label": "fibroblast of connective tissue of prostate",
+      "ids": [
+       "Fibroblast_Of_Connective_Tissue_Of_Prostate"
+      ]
+     },
+     {
+      "cl": "CL:1000301",
+      "label": "fibroblast of subepithelial connective tissue of prostatic gland",
+      "ids": [
+       "Fibroblast_Of_Subepithelial_Connective_Tissue_Of_Prostatic_Gland"
+      ]
+     },
+     {
+      "cl": "CL:1000487",
+      "label": "smooth muscle cell of prostate",
+      "ids": [
+       "Smooth_Muscle_Cell_Of_Prostate"
+      ]
+     },
+     {
+      "cl": "CL:2000059",
+      "label": "prostate gland microvascular endothelial cell",
+      "ids": [
+       "Prostate_Gland_Microvascular_Endothelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004179"
+   },
+   "thumb": "/figures/hra-prostate-prostate-glandular-acinus-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 175,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
- ]
+ ],
+ "units": []
 }

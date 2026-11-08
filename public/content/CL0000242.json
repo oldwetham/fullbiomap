@@ -218,5 +218,70 @@
     "/tissue/FMA7201.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-skin-epidermal-ridge",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Epidermal ridge of digit (functional tissue unit)",
+   "caption": "Functional tissue unit: epidermal ridge of digit. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the epidermal ridge of digit and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Epidermal Ridge FTU for Skin, v1.3. https://doi.org/10.48539/HBM697.MRSV.939. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM697.MRSV.939",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-epidermal-ridge/v1.3/assets/2d-ftu-skin-epidermal-ridge.svg",
+   "url": "/ftu/skin-epidermal-ridge.svg",
+   "ftu": {
+    "name": "skin-epidermal-ridge",
+    "label": "Epidermal ridge of digit",
+    "hits": [
+     {
+      "cl": "CL:0000242",
+      "label": "Merkel cell",
+      "ids": [
+       "Merkel_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000646",
+      "label": "basal cell",
+      "ids": [
+       "Basal_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000649",
+      "label": "prickle cell",
+      "ids": [
+       "Prickle_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002457",
+      "label": "epidermal Langerhans cell",
+      "ids": [
+       "Epidermal_Langerhans_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000458",
+      "label": "melanocyte of skin",
+      "ids": [
+       "Melanocyte"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0013487"
+   },
+   "thumb": "/figures/hra-skin-epidermal-ridge-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 231,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0000242",
+   "focus": "CL:0000242"
+  }
+ ]
 }

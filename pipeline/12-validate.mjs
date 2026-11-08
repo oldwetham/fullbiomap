@@ -115,6 +115,52 @@ for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(stand
 const isOrgan = n => n.id === ORGAN || n.ancestors.includes(ORGAN);
 const mentionsWikipedia = v => /wikipedia/i.test(JSON.stringify(v));
 
+// Figures (step 10): each one the app can show is a file under public/, carries its licence, credit, title, caption,
+// alt text and a link to the original, is CC BY 4.0 or public domain, and cites no Wikipedia or Wikimedia. An OpenStax
+// caption carries no third-party rights; a tissue unit illustration highlights only cells it draws; a cell type that
+// looks like others under a microscope (pipeline/maps/look-alike.json) has the sentence that tells them apart.
+const FIGURE_LICENCES = new Set(['CC BY 4.0', 'Public Domain']), FIGURE_KINDS = new Set(['micrograph', 'diagram', 'illustration']);
+const figureSources = JSON.parse(read('pipeline/maps/figure-sources.json')), lookAlike = JSON.parse(read('pipeline/maps/look-alike.json'));
+const OPENSTAX_RIGHTS = /©|\bcopyright\b|all rights reserved|Regents of (?:the )?University of Michigan|\bprovided by\b/i, OPENSTAX_PD = new RegExp(figureSources.openstax.publicDomainCredits);
+const lookAlikeOf = new Map(lookAlike.groups.flatMap(g => g.members.map(m => [m, g.sentence])));
+for (const g of lookAlike.groups) {  // every protein the sentence names has a cited source (step 10 checks each one in it)
+  for (const e of g.evidence) if (!['openstax', 'cl-definition', 'cl-axiom', 'asctb'].includes(e.kind) || !(e.quote || e.term || e.text) || !(e.file || e.term || e.table)) fail(`look-alike ${g.id}`, `evidence ${JSON.stringify(e).slice(0, 80)} names no source`);
+  for (const [cd] of g.sentence.matchAll(/\bCD\d+\b|\bAQP\d\b/g)) if (!g.evidence.some(e => e.protein?.toLowerCase() === cd.toLowerCase())) fail(`look-alike ${g.id}`, `${cd} has no source`);
+  for (const m of g.members) if (!byId.has(m)) fail(`look-alike ${g.id}`, `${m} is not a node`);
+}
+let figuresChecked = 0;
+const figureFiles = new Set();
+const svgCache = new Map(), svgText = url => { if (!svgCache.has(url)) svgCache.set(url, fs.readFileSync(publicPath(url), 'utf8')); return svgCache.get(url); };
+function checkFigures(list, where, nodeId, max = 3) {
+  if (list === undefined) return;
+  if (!Array.isArray(list)) return fail(where, 'figures must be a list');
+  if (list.length > max) fail(where, `${list.length} figures; at most ${max}`);
+  for (const f of list) {
+    figuresChecked++;
+    const what = `${where} figure ${f.id}`;
+    if (!FIGURE_KINDS.has(f.kind)) fail(what, `bad kind ${f.kind}`);
+    if (!FIGURE_LICENCES.has(f.license) || !f.licenseUrl) fail(what, `licence ${f.license} is not CC BY 4.0 or public domain`);
+    if (!f.credit?.trim() || !f.pageUrl || !f.title || !f.caption || !f.alt || !f.sourceName || !f.match) fail(what, 'needs credit, page link, title, caption, alt text, source name and how it matched');
+    if (!['auto', 'reviewed'].includes(f.status)) fail(what, `bad status ${f.status}`);
+    if (requirePath(f.thumb, what, 'figure thumbnail')) figureFiles.add(f.thumb);
+    if (requirePath(f.url, what, f.ftu ? 'tissue unit illustration' : 'figure image') && !f.ftu) figureFiles.add(f.url);
+    if (/wiki(pedia|media)/i.test(JSON.stringify(f))) fail(what, 'Wikipedia or Wikimedia source or text is not allowed');
+    if (f.source === 'openstax') {
+      if (OPENSTAX_RIGHTS.test(f.caption)) fail(what, 'OpenStax caption carries third-party rights');
+      for (const [, c] of f.caption.matchAll(/\(([^()]*\bcredit\b[^()]*)\)/gi)) if (!OPENSTAX_PD.test(c)) fail(what, `OpenStax caption credits a third party (${c})`);
+    }
+    if (f.ftu && f.url && fs.existsSync(publicPath(f.url))) {  // clickable cells: a Cell Ontology id and elements the SVG has
+      const svg = svgText(f.url);
+      for (const h of f.ftu.hits ?? []) {
+        if (!/^CL:\d+$/.test(h.cl) || !h.label || !h.ids?.length) fail(what, 'clickable cell needs a CL id, label and element ids');
+        for (const id of h.ids ?? []) if (!svg.includes(`id="${id}"`)) fail(what, `no element id "${id}" for ${h.cl}`);
+      }
+    }
+    if (f.focus && !(f.ftu?.hits ?? []).some(h => h.cl === f.focus)) fail(what, `highlights ${f.focus}, which the illustration does not draw`);
+    if (nodeId && lookAlikeOf.has(nodeId) && !f.caption.includes(lookAlikeOf.get(nodeId))) fail(what, 'caption lacks the sentence naming the proteins that tell this cell type from its look-alikes');
+  }
+}
+
 function checkTier(id, name, t, served) {
   if (!STATUSES.includes(t.status)) return fail(id, `${name}: bad status ${t.status}`);
   if (t.status === 'missing') return;
@@ -168,6 +214,7 @@ for (const n of nodes) {
     try { served = JSON.parse(read(`public/content/${n.conceptId}.json`)); } catch { fail(n.id, 'served content file is not valid JSON'); }
   if (served && (served.id !== n.id || 'ancestors' in served)) fail(n.id, 'served file does not match node');
   if (served && PROFILES[n.id] && served.morphology?.claims?.length !== PROFILES[n.id].claims.length) fail(n.id, 'served file lacks its morphology profile; rerun step 11');
+  checkFigures(served?.figures, `${n.conceptId}.json`, n.id);
   // What the app opens from this file: organ interiors (this body's and the ladder organ's), the cell model, tissue boards.
   for (const [where, urls] of [...Object.entries(served?.geometry?.interior ?? {}), ...Object.entries(served?.ladder?.organ?.interior ?? {}).map(([k, v]) => [`ladder ${k}`, v])])
     for (const u of urls) requireManifest(u, `${n.conceptId}.json ${where} interior`);
@@ -196,7 +243,6 @@ for (const n of nodes) {
 }
 for (const id of index) if (!byId.has(id.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'))) fail(id, 'index lists an id with no node');
 // Tissue unit illustrations are shown inline (so their cells can be clicked): nothing executable may ship.
-const svgCache = new Map(), svgText = url => { if (!svgCache.has(url)) svgCache.set(url, fs.readFileSync(publicPath(url), 'utf8')); return svgCache.get(url); };
 const ftuDir = path.join(root, 'public/ftu');
 for (const f of fs.existsSync(ftuDir) ? fs.readdirSync(ftuDir).filter(f => f.endsWith('.svg')) : [])
   if (/<script|<foreignObject|\son[a-z]+\s*=|javascript:/i.test(svgText(`/ftu/${f}`))) fail(`ftu/${f}`, 'has a script, event handler, foreign object or javascript: link');
@@ -207,25 +253,14 @@ for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
   if (!byId.has(b.organ?.id)) fail(where, 'board organ is not a node');
   for (const g of b.groups ?? []) for (const c of g.cells) { if (!byId.has(c.id)) fail(where, `cell type ${c.id} is not a node`); else if (c.model !== byId.get(c.id).geometry?.model) fail(where, `cell type ${c.id} opens ${c.model}, its node says ${byId.get(c.id).geometry?.model}`); }
   for (const t of b.tables ?? []) if (!t.doi || !t.version) fail(where, `table ${t.name} needs version and DOI`);
-  for (const m of b.media ?? []) {
-    requirePath(m.url, where, 'board image');
-    if (!m.license || !m.attribution || !m.caption || !m.alt) fail(where, `media ${m.url} needs license, attribution, caption and alt text`);
-    if (m.kind === 'histology' && (!m.gene?.symbol || !m.gene?.ensembl || !m.imageUrl || !m.pageUrl)) fail(where, `histology ${m.url} needs its gene and exact image link`);
-    if (mentionsWikipedia(m)) fail(where, 'Wikipedia media is not allowed');
-    // Clickable cells in a tissue unit illustration: each must name a Cell Ontology id and an element the SVG has.
-    if (m.kind === 'ftu' && m.url && fs.existsSync(publicPath(m.url))) {
-      const svg = svgText(m.url);
-      for (const h of m.hits ?? []) {
-        if (!/^CL:\d+$/.test(h.cl) || !h.label || !h.ids?.length) fail(where, `${m.url}: clickable cell needs a CL id, label and element ids`);
-        for (const id of h.ids ?? []) if (!svg.includes(`id="${id}"`)) fail(where, `${m.url}: no element id "${id}" for ${h.cl}`);
-      }
-    }
-  }
+  checkFigures(b.figures, where, b.organ?.id);
+  checkFigures(b.units, `${where} units`, null, Infinity);
+  if ('media' in b) fail(where, 'boards list figures and units, not media; rerun step 11');
 }
 // Files the app can request, continued (standalone organs, content files and board images are checked above).
 // Paths written in the app's code: the body manifest, the cell model, standalone.json, content/index.json.
 for (const f of fs.readdirSync(path.join(root, 'app')).filter(f => /\.tsx?$/.test(f))) {
-  for (const [, url] of fs.readFileSync(path.join(root, 'app', f), 'utf8').matchAll(/['"`](\/(?:models|content|tissue|histology|ftu)\/[^'"`$\s]+)['"`]/g)) {
+  for (const [, url] of fs.readFileSync(path.join(root, 'app', f), 'utf8').matchAll(/['"`](\/(?:models|content|tissue|figures|ftu)\/[^'"`$\s]+)['"`]/g)) {
     if (/^\/models\/.+\.json$/.test(url) && !url.endsWith('/standalone.json')) requireManifest(url, `app/${f}`); else requirePath(url, `app/${f}`);
   }
 }
@@ -240,6 +275,18 @@ for (const f of walk(path.join(root, 'public/models')).filter(f => f.endsWith('.
 for (const [object, m] of Object.entries(hraModels)) {
   if (!m.archived) requireManifest(m.manifest, `graph/hra-models.json ${object}`);
   else if (fs.existsSync(publicPath(m.manifest))) fail(object, `archived model ${m.manifest} is still under public/, so it would be deployed`);
+}
+// public/figures/: at most 60 MB (docs/FIGURES-PLAN.md decision 4), every file under 50 MB, and nothing there the app never shows.
+const figuresDir = path.join(root, 'public/figures');
+if (fs.existsSync(figuresDir)) {
+  let bytes = 0;
+  for (const f of fs.readdirSync(figuresDir)) {
+    const size = fs.statSync(path.join(figuresDir, f)).size;
+    bytes += size;
+    if (size >= 50 * 2 ** 20) fail(`figures/${f}`, 'file is 50 MB or more');
+    if (!figureFiles.has(`/figures/${f}`)) fail(`figures/${f}`, 'no content file or board shows it; rerun step 10');
+  }
+  if (bytes > 60 * 2 ** 20) fail('public/figures', `${(bytes / 2 ** 20).toFixed(1)} MB, over the 60 MB limit`);
 }
 for (const [url, {what, from}] of missing) {
   const [first, ...rest] = from;
@@ -271,6 +318,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
   `- 3D cells: ${cellModels.size} models; ${cellShapesChecked} cell types checked against the shape rules, none drawing a nucleus where its family or Cell Ontology says it has none`,
   `- Morphology profiles: ${Object.keys(PROFILES).length} cell types, ${profileClaims} claims, each quoting a CC BY source (${Object.values(PROFILES).filter(p => p.status === 'drafted').length} unreviewed); failed claims are listed in reports/morphology-check.md`,
+  `- Figures: ${figuresChecked} shown in content files and on boards (${figureFiles.size} image files under public/figures/), each CC BY 4.0 or public domain with its credit and link`,
   `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,
   `- Validation errors: ${errors.length}`, '',
   '## Edges by relation', '',

@@ -287,5 +287,128 @@
     "/tissue/FMA7198.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-pnlip-pancreas",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Pancreas: PNLIP immunohistochemistry",
+   "caption": "Pancreas tissue stained for pancreatic lipase (PNLIP). Brown: PNLIP protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of pancreas tissue with PNLIP protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PNLIP immunohistochemistry in pancreas, https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000175535-PNLIP/tissue/pancreas",
+   "imageUrl": "https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg",
+   "thumb": "/figures/hpa-pnlip-pancreas-thumb.webp",
+   "url": "/figures/hpa-pnlip-pancreas.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “pancreas” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-pancreas-endocrine-pancreas",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Islet of Langerhans (functional tissue unit)",
+   "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the islet of Langerhans and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Endocrine Pancreas FTU for Pancreas, v1.0. https://doi.org/10.48539/HBM242.XXWX.292. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM242.XXWX.292",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-endocrine-pancreas/v1.0/assets/2d-ftu-pancreas-endocrine-pancreas.svg",
+   "url": "/ftu/pancreas-endocrine-pancreas.svg",
+   "ftu": {
+    "name": "pancreas-endocrine-pancreas",
+    "label": "Islet of Langerhans",
+    "hits": [
+     {
+      "cl": "CL:0000169",
+      "label": "type B pancreatic cell",
+      "ids": [
+       "Pancreatic_B_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000171",
+      "label": "pancreatic A cell",
+      "ids": [
+       "Pancreatic_A_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000173",
+      "label": "pancreatic D cell",
+      "ids": [
+       "Pancreatic_D_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0002144",
+      "label": "capillary endothelial cell",
+      "ids": [
+       "Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002275",
+      "label": "pancreatic PP cell",
+      "ids": [
+       "Pancreatic_PP_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0000006"
+   },
+   "thumb": "/figures/hra-pancreas-endocrine-pancreas-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 180,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-pancreas",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Pancreas",
+   "caption": "Pancreas. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Pancreas",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/pancreas/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/coupe_pancreas.png",
+   "thumb": "/figures/servier-pancreas-thumb.webp",
+   "url": "/figures/servier-pancreas.webp",
+   "width": 414,
+   "height": 188,
+   "thumbWidth": 240,
+   "thumbHeight": 109,
+   "status": "auto",
+   "match": "Servier title “Pancreas” = “pancreas”"
+  }
+ ]
 }

@@ -974,245 +974,294 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/pancreas.jpg",
-   "organ": "pancreas",
-   "tissue": "pancreas",
+   "id": "hpa-pnlip-pancreas",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Pancreas: PNLIP immunohistochemistry",
    "caption": "Pancreas tissue stained for pancreatic lipase (PNLIP). Brown: PNLIP protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of pancreas tissue with PNLIP protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "PNLIP",
-    "name": "Pancreatic lipase",
-    "ensembl": "ENSG00000175535",
-    "uniprot": [
-     "P16233"
-    ]
-   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PNLIP immunohistochemistry in pancreas, https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000175535-PNLIP/tissue/pancreas",
    "imageUrl": "https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000175535-PNLIP/tissue/pancreas",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for pancreas; IHC reliability enhanced, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PNLIP immunohistochemistry in pancreas, https://images.proteinatlas.org/62430/143700_A_3_3_rna_selected.jpg. CC BY 4.0."
+   "thumb": "/figures/hpa-pnlip-pancreas-thumb.webp",
+   "url": "/figures/hpa-pnlip-pancreas.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “pancreas” is this organ's tissue in pipeline/maps/tissue-media.json"
   },
   {
-   "kind": "ftu",
+   "id": "hra-pancreas-endocrine-pancreas",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Islet of Langerhans (functional tissue unit)",
+   "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the islet of Langerhans and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Endocrine Pancreas FTU for Pancreas, v1.0. https://doi.org/10.48539/HBM242.XXWX.292. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM242.XXWX.292",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-endocrine-pancreas/v1.0/assets/2d-ftu-pancreas-endocrine-pancreas.svg",
    "url": "/ftu/pancreas-endocrine-pancreas.svg",
-   "name": "pancreas-endocrine-pancreas",
-   "label": "Islet of Langerhans",
-   "cells": [
-    "CL:0000169",
-    "CL:0000171",
-    "CL:0000173",
-    "CL:0000235",
-    "CL:0000669",
-    "CL:0002144",
-    "CL:0002275"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000169",
-     "label": "type B pancreatic cell",
-     "ids": [
-      "Pancreatic_B_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000171",
-     "label": "pancreatic A cell",
-     "ids": [
-      "Pancreatic_A_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000173",
-     "label": "pancreatic D cell",
-     "ids": [
-      "Pancreatic_D_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000235",
-     "label": "macrophage",
-     "ids": [
-      "Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000669",
-     "label": "pericyte",
-     "ids": [
-      "Pericyte"
-     ]
-    },
-    {
-     "cl": "CL:0002144",
-     "label": "capillary endothelial cell",
-     "ids": [
-      "Capillary_Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002275",
-     "label": "pancreatic PP cell",
-     "ids": [
-      "Pancreatic_PP_Cell"
-     ]
-    }
-   ],
+   "ftu": {
+    "name": "pancreas-endocrine-pancreas",
+    "label": "Islet of Langerhans",
+    "hits": [
+     {
+      "cl": "CL:0000169",
+      "label": "type B pancreatic cell",
+      "ids": [
+       "Pancreatic_B_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000171",
+      "label": "pancreatic A cell",
+      "ids": [
+       "Pancreatic_A_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000173",
+      "label": "pancreatic D cell",
+      "ids": [
+       "Pancreatic_D_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0002144",
+      "label": "capillary endothelial cell",
+      "ids": [
+       "Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002275",
+      "label": "pancreatic PP cell",
+      "ids": [
+       "Pancreatic_PP_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0000006"
+   },
+   "thumb": "/figures/hra-pancreas-endocrine-pancreas-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 180,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-pancreas",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Pancreas",
+   "caption": "Pancreas. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Pancreas",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/pancreas/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/coupe_pancreas.png",
+   "thumb": "/figures/servier-pancreas-thumb.webp",
+   "url": "/figures/servier-pancreas.webp",
+   "width": 414,
+   "height": 188,
+   "thumbWidth": 240,
+   "thumbHeight": 109,
+   "status": "auto",
+   "match": "Servier title “Pancreas” = “pancreas”"
+  }
+ ],
+ "units": [
+  {
+   "id": "hra-pancreas-islets-langerhans",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Islet of Langerhans (functional tissue unit)",
    "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the islet of Langerhans and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM242.XXWX.292",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Endocrine Pancreas FTU for Pancreas, v1.0. https://doi.org/10.48539/HBM242.XXWX.292. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/pancreas-intercalated-duct.svg",
-   "name": "pancreas-intercalated-duct",
-   "label": "Intercalated duct of pancreas",
-   "cells": [
-    "CL:0002080",
-    "CL:1001433"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0002080",
-     "label": "pancreatic centro-acinar cell",
-     "ids": [
-      "Centroacinar_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001433",
-     "label": "epithelial cell of exocrine pancreas",
-     "ids": [
-      "Ductal_Epithelial_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: intercalated duct of pancreas. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the intercalated duct of pancreas and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM488.JHGT.523",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. Pancreas, Intercalated Duct 2D FTU v1.3. https://doi.org/10.48539/HBM488.JHGT.523. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
+   "credit": "Bajema, Rachel. 2026. 2D Islets of Langerhans FTU for Pancreas, v1.4. https://doi.org/10.48539/HBM354.HHRL.928. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM354.HHRL.928",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-islets-langerhans/v1.4/assets/2d-ftu-pancreas-islets-langerhans.svg",
    "url": "/ftu/pancreas-islets-langerhans.svg",
-   "name": "pancreas-islets-langerhans",
-   "label": "Islet of Langerhans",
-   "cells": [
-    "CL:0000169",
-    "CL:0000171",
-    "CL:0000173",
-    "CL:0000235",
-    "CL:0002144",
-    "CL:0002275"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000169",
-     "label": "type B pancreatic cell",
-     "ids": [
-      "Pancreatic_B_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000171",
-     "label": "pancreatic A cell",
-     "ids": [
-      "Pancreatic_A_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000173",
-     "label": "pancreatic D cell",
-     "ids": [
-      "Pancreatic_D_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000235",
-     "label": "macrophage",
-     "ids": [
-      "Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0002144",
-     "label": "capillary endothelial cell",
-     "ids": [
-      "Capillary_Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002275",
-     "label": "pancreatic PP cell",
-     "ids": [
-      "Pancreatic_PP_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: islet of Langerhans. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the islet of Langerhans and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM354.HHRL.928",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Islets of Langerhans FTU for Pancreas, v1.4. https://doi.org/10.48539/HBM354.HHRL.928. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "ftu": {
+    "name": "pancreas-islets-langerhans",
+    "label": "Islet of Langerhans",
+    "hits": [
+     {
+      "cl": "CL:0000169",
+      "label": "type B pancreatic cell",
+      "ids": [
+       "Pancreatic_B_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000171",
+      "label": "pancreatic A cell",
+      "ids": [
+       "Pancreatic_A_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000173",
+      "label": "pancreatic D cell",
+      "ids": [
+       "Pancreatic_D_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0002144",
+      "label": "capillary endothelial cell",
+      "ids": [
+       "Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002275",
+      "label": "pancreatic PP cell",
+      "ids": [
+       "Pancreatic_PP_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0000006"
+   },
+   "thumb": "/figures/hra-pancreas-islets-langerhans-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 180,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/pancreas-pancreatic-acinus.svg",
-   "name": "pancreas-pancreatic-acinus",
-   "label": "Pancreatic acinus",
-   "cells": [
-    "CL:0002064",
-    "CL:0002080",
-    "CL:1000322",
-    "CL:1001433"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0002064",
-     "label": "pancreatic acinar cell",
-     "ids": [
-      "Pancreatic_Acinar_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002080",
-     "label": "pancreatic centro-acinar cell",
-     "ids": [
-      "Centroacinar_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000322",
-     "label": "pancreatic goblet cell",
-     "ids": [
-      "Pancreatic_Goblet_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001433",
-     "label": "epithelial cell of exocrine pancreas",
-     "ids": [
-      "Ductal_Epithelial_Cell"
-     ]
-    }
-   ],
+   "id": "hra-pancreas-pancreatic-acinus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Pancreatic acinus (functional tissue unit)",
    "caption": "Functional tissue unit: pancreatic acinus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the pancreatic acinus and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM466.JQPZ.849",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. Pancreas, Acinus 2D FTU v.1.4. https://doi.org/10.48539/HBM466.JQPZ.849. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. Pancreas, Acinus 2D FTU v.1.4. https://doi.org/10.48539/HBM466.JQPZ.849. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM466.JQPZ.849",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-pancreatic-acinus/v1.4/assets/2d-ftu-pancreas-pancreatic-acinus.svg",
+   "url": "/ftu/pancreas-pancreatic-acinus.svg",
+   "ftu": {
+    "name": "pancreas-pancreatic-acinus",
+    "label": "Pancreatic acinus",
+    "hits": [
+     {
+      "cl": "CL:0002064",
+      "label": "pancreatic acinar cell",
+      "ids": [
+       "Pancreatic_Acinar_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002080",
+      "label": "pancreatic centro-acinar cell",
+      "ids": [
+       "Centroacinar_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000322",
+      "label": "pancreatic goblet cell",
+      "ids": [
+       "Pancreatic_Goblet_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001433",
+      "label": "epithelial cell of exocrine pancreas",
+      "ids": [
+       "Ductal_Epithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001263"
+   },
+   "thumb": "/figures/hra-pancreas-pancreatic-acinus-thumb.webp",
+   "thumbWidth": 213,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-pancreas-intercalated-duct",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Intercalated duct of pancreas (functional tissue unit)",
+   "caption": "Functional tissue unit: intercalated duct of pancreas. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the intercalated duct of pancreas and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. Pancreas, Intercalated Duct 2D FTU v1.3. https://doi.org/10.48539/HBM488.JHGT.523. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM488.JHGT.523",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-intercalated-duct/v1.3/assets/2d-ftu-pancreas-intercalated-duct.svg",
+   "url": "/ftu/pancreas-intercalated-duct.svg",
+   "ftu": {
+    "name": "pancreas-intercalated-duct",
+    "label": "Intercalated duct of pancreas",
+    "hits": [
+     {
+      "cl": "CL:0002080",
+      "label": "pancreatic centro-acinar cell",
+      "ids": [
+       "Centroacinar_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001433",
+      "label": "epithelial cell of exocrine pancreas",
+      "ids": [
+       "Ductal_Epithelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0014726"
+   },
+   "thumb": "/figures/hra-pancreas-intercalated-duct-thumb.webp",
+   "thumbWidth": 171,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
  ]
 }

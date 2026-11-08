@@ -1570,422 +1570,501 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/kidney.jpg",
-   "organ": "kidney",
-   "tissue": "kidney",
+   "id": "hpa-fxyd2-kidney",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Kidney: FXYD2 immunohistochemistry",
    "caption": "Kidney tissue stained for FXYD domain containing ion transport regulator 2 (FXYD2). Brown: FXYD2 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of kidney tissue with FXYD2 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "FXYD2",
-    "name": "FXYD domain containing ion transport regulator 2",
-    "ensembl": "ENSG00000137731",
-    "uniprot": [
-     "P54710"
-    ]
-   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): FXYD2 immunohistochemistry in kidney, https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000137731-FXYD2/tissue/kidney",
    "imageUrl": "https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000137731-FXYD2/tissue/kidney",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for kidney; IHC reliability supported, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): FXYD2 immunohistochemistry in kidney, https://images.proteinatlas.org/68838/153874_A_8_5_rna_selected.jpg. CC BY 4.0."
+   "thumb": "/figures/hpa-fxyd2-kidney-thumb.webp",
+   "url": "/figures/hpa-fxyd2-kidney.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “kidney” is this organ's tissue in pipeline/maps/tissue-media.json"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/kidney-ascending-thin-loop-of-henle.svg",
-   "name": "kidney-ascending-thin-loop-of-henle",
-   "label": "Loop of Henle ascending limb thin segment",
-   "cells": [
-    "CL:1001107",
-    "CL:1001285"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1001107",
-     "label": "kidney loop of Henle thin ascending limb epithelial cell",
-     "ids": [
-      "Ascending_Thin_Limb_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001285",
-     "label": "vasa recta descending limb cell",
-     "ids": [
-      "Descending_Vasa_Recta"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: loop of Henle ascending limb thin segment. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the loop of Henle ascending limb thin segment and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM783.MHQZ.685",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Ascending Thin Limb of Loop of Henle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM783.MHQZ.685. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/kidney-cortical-collecting-duct.svg",
-   "name": "kidney-cortical-collecting-duct",
-   "label": "Cortical Collecting Duct",
-   "cells": [
-    "CL:1000714",
-    "CL:1000715",
-    "CL:1001033"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1000714",
-     "label": "kidney cortex collecting duct principal cell",
-     "ids": [
-      "Cortical_Collecting_Duct_Principal_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000715",
-     "label": "kidney cortex collecting duct intercalated cell",
-     "ids": [
-      "Cortical_Collecting_Duct_Intercalated_Cell_Type_A",
-      "Cortical_Collecting_Duct_Intercalated_Cell_Type_B"
-     ]
-    },
-    {
-     "cl": "CL:1001033",
-     "label": "peritubular capillary endothelial cell",
-     "ids": [
-      "Endothelium_Peritubular_Capillary"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: Cortical Collecting Duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the Cortical Collecting Duct and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM334.XPNG.824",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Cortical Collecting Duct FTU for Kidney, v1.5. https://doi.org/10.48539/HBM334.XPNG.824. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/kidney-descending-thin-loop-of-henle.svg",
-   "name": "kidney-descending-thin-loop-of-henle",
-   "label": "Descending limb of loop of Henle",
-   "cells": [
-    "CL:1001111",
-    "CL:1001131"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1001111",
-     "label": "kidney loop of Henle thin descending limb epithelial cell",
-     "ids": [
-      "Descending_Thin_Limb_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001131",
-     "label": "vasa recta ascending limb cell",
-     "ids": [
-      "Ascending_Vasa_Recta"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: descending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the descending limb of loop of Henle and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM485.WZJH.976",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Descending Thin Limb of Loop of Henle FTU for Kidney, v1.3. https://doi.org/10.48539/HBM485.WZJH.976. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/kidney-inner-medullary-collecting-duct.svg",
-   "name": "kidney-inner-medullary-collecting-duct",
-   "label": "Inner medullary collecting duct",
-   "cells": [
-    "CL:1000718",
-    "CL:1001033"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1000718",
-     "label": "kidney inner medulla collecting duct principal cell",
-     "ids": [
-      "Inner_Medullary_Collecting_Duct_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001033",
-     "label": "peritubular capillary endothelial cell",
-     "ids": [
-      "Endothelium_Peritubular_Capillary"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: inner medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the inner medullary collecting duct and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM837.WVQG.999",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Inner Medullary Collecting Duct FTU for Kidney, v1.3. https://doi.org/10.48539/HBM837.WVQG.999. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/kidney-nephron.svg",
-   "name": "kidney-nephron",
-   "label": "Nephron",
-   "cells": [
-    "CL:1000714",
-    "CL:1000716",
-    "CL:1000718",
-    "CL:1000768",
-    "CL:1000849",
-    "CL:1000850",
-    "CL:1001106",
-    "CL:1001107",
-    "CL:1001111",
-    "CL:4030009"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1000714",
-     "label": "kidney cortex collecting duct principal cell",
-     "ids": [
-      "Cortical_Collecting_Duct"
-     ]
-    },
-    {
-     "cl": "CL:1000716",
-     "label": "kidney outer medulla collecting duct principal cell",
-     "ids": [
-      "Outer_Medullary_Collecting_Duct"
-     ]
-    },
-    {
-     "cl": "CL:1000718",
-     "label": "kidney inner medulla collecting duct principal cell",
-     "ids": [
-      "Inner_Medullary_Collecting_Duct"
-     ]
-    },
-    {
-     "cl": "CL:1000768",
-     "label": "kidney connecting tubule epithelial cell",
-     "ids": [
-      "Connecting_Tubule"
-     ]
-    },
-    {
-     "cl": "CL:1000849",
-     "label": "kidney distal convoluted tubule epithelial cell",
-     "ids": [
-      "Distal_Convoluted_Tubule"
-     ]
-    },
-    {
-     "cl": "CL:1000850",
-     "label": "macula densa epithelial cell",
-     "ids": [
-      "Macula_Densa"
-     ]
-    },
-    {
-     "cl": "CL:1001106",
-     "label": "kidney loop of Henle thick ascending limb epithelial cell",
-     "ids": [
-      "Thick_Ascending_Limb_Of_Loop_Of_Henle"
-     ]
-    },
-    {
-     "cl": "CL:1001107",
-     "label": "kidney loop of Henle thin ascending limb epithelial cell",
-     "ids": [
-      "Ascending_Thin_Limb_Of_Loop_Of_Henle"
-     ]
-    },
-    {
-     "cl": "CL:1001111",
-     "label": "kidney loop of Henle thin descending limb epithelial cell",
-     "ids": [
-      "Descending_Thin_Limb_Of_Loop_Of_Henle"
-     ]
-    },
-    {
-     "cl": "CL:4030009",
-     "label": "epithelial cell of proximal tubule segment 1",
-     "ids": [
-      "Proximal_Tubule_S1"
-     ]
-    }
-   ],
+   "id": "hra-kidney-nephron",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Nephron (functional tissue unit)",
    "caption": "Functional tissue unit: nephron. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the nephron and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM496.MJDK.347",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Nephron FTU for Kidney, v1.3. https://doi.org/10.48539/HBM496.MJDK.347. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. 2D Reference Nephron FTU for Kidney, v1.3. https://doi.org/10.48539/HBM496.MJDK.347. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM496.MJDK.347",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-nephron/v1.3/assets/2d-ftu-kidney-nephron.svg",
+   "url": "/ftu/kidney-nephron.svg",
+   "ftu": {
+    "name": "kidney-nephron",
+    "label": "Nephron",
+    "hits": [
+     {
+      "cl": "CL:1000714",
+      "label": "kidney cortex collecting duct principal cell",
+      "ids": [
+       "Cortical_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000716",
+      "label": "kidney outer medulla collecting duct principal cell",
+      "ids": [
+       "Outer_Medullary_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000718",
+      "label": "kidney inner medulla collecting duct principal cell",
+      "ids": [
+       "Inner_Medullary_Collecting_Duct"
+      ]
+     },
+     {
+      "cl": "CL:1000768",
+      "label": "kidney connecting tubule epithelial cell",
+      "ids": [
+       "Connecting_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000849",
+      "label": "kidney distal convoluted tubule epithelial cell",
+      "ids": [
+       "Distal_Convoluted_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000850",
+      "label": "macula densa epithelial cell",
+      "ids": [
+       "Macula_Densa"
+      ]
+     },
+     {
+      "cl": "CL:1001106",
+      "label": "kidney loop of Henle thick ascending limb epithelial cell",
+      "ids": [
+       "Thick_Ascending_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:1001107",
+      "label": "kidney loop of Henle thin ascending limb epithelial cell",
+      "ids": [
+       "Ascending_Thin_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:1001111",
+      "label": "kidney loop of Henle thin descending limb epithelial cell",
+      "ids": [
+       "Descending_Thin_Limb_Of_Loop_Of_Henle"
+      ]
+     },
+     {
+      "cl": "CL:4030009",
+      "label": "epithelial cell of proximal tubule segment 1",
+      "ids": [
+       "Proximal_Tubule_S1"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001285"
+   },
+   "thumb": "/figures/hra-kidney-nephron-thumb.webp",
+   "thumbWidth": 213,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/kidney-outer-medullary-collecting-duct.svg",
-   "name": "kidney-outer-medullary-collecting-duct",
-   "label": "Outer medullary collecting duct",
-   "cells": [
-    "CL:1000716",
-    "CL:1000717",
-    "CL:1001033"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1000716",
-     "label": "kidney outer medulla collecting duct principal cell",
-     "ids": [
-      "Outer_Medullary_Collecting_Duct_Principal_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000717",
-     "label": "kidney outer medulla collecting duct intercalated cell",
-     "ids": [
-      "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A"
-     ]
-    },
-    {
-     "cl": "CL:1001033",
-     "label": "peritubular capillary endothelial cell",
-     "ids": [
-      "Endothelium_Peritubular_Capillary"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: outer medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the outer medullary collecting duct and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM839.RVZB.668",
+   "id": "servier-kidney",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Kidney",
+   "caption": "Kidney. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Kidney",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Outer Medullary Collecting Duct FTU for Kidney, v1.4. https://doi.org/10.48539/HBM839.RVZB.668) Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/kidney/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/rein_01.png",
+   "thumb": "/figures/servier-kidney-thumb.webp",
+   "url": "/figures/servier-kidney.webp",
+   "width": 256,
+   "height": 389,
+   "thumbWidth": 158,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Kidney” = “kidney”"
+  }
+ ],
+ "units": [
+  {
+   "id": "hra-kidney-descending-thin-loop-of-henle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Descending limb of loop of Henle (functional tissue unit)",
+   "caption": "Functional tissue unit: descending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the descending limb of loop of Henle and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Descending Thin Limb of Loop of Henle FTU for Kidney, v1.3. https://doi.org/10.48539/HBM485.WZJH.976. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM485.WZJH.976",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-descending-thin-loop-of-henle/v1.3/assets/2d-ftu-kidney-descending-thin-loop-of-henle.svg",
+   "url": "/ftu/kidney-descending-thin-loop-of-henle.svg",
+   "ftu": {
+    "name": "kidney-descending-thin-loop-of-henle",
+    "label": "Descending limb of loop of Henle",
+    "hits": [
+     {
+      "cl": "CL:1001111",
+      "label": "kidney loop of Henle thin descending limb epithelial cell",
+      "ids": [
+       "Descending_Thin_Limb_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001131",
+      "label": "vasa recta ascending limb cell",
+      "ids": [
+       "Ascending_Vasa_Recta"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001289"
+   },
+   "thumb": "/figures/hra-kidney-descending-thin-loop-of-henle-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 158,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/kidney-renal-corpuscle.svg",
-   "name": "kidney-renal-corpuscle",
-   "label": "Renal corpuscle",
-   "cells": [
-    "CL:0000648",
-    "CL:0000653",
-    "CL:0002306",
-    "CL:1000452",
-    "CL:1000742",
-    "CL:1000850",
-    "CL:1001005",
-    "CL:1001096",
-    "CL:1001099"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000648",
-     "label": "kidney granular cell",
-     "ids": [
-      "Juxtaglomerular_Granular_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000653",
-     "label": "podocyte",
-     "ids": [
-      "Podocyte"
-     ]
-    },
-    {
-     "cl": "CL:0002306",
-     "label": "epithelial cell of proximal tubule",
-     "ids": [
-      "Epithelial_Cell_Proximal_Tubule"
-     ]
-    },
-    {
-     "cl": "CL:1000452",
-     "label": "parietal epithelial cell",
-     "ids": [
-      "Parietal_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000742",
-     "label": "glomerular mesangial cell",
-     "ids": [
-      "Glomerular_Mesangial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000850",
-     "label": "macula densa epithelial cell",
-     "ids": [
-      "Macula_Densa_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001005",
-     "label": "glomerular capillary endothelial cell",
-     "ids": [
-      "Glomerular_Capillary_Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001096",
-     "label": "afferent arteriole endothelial cell",
-     "ids": [
-      "Afferent_Arteriole_Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1001099",
-     "label": "efferent arteriole endothelial cell",
-     "ids": [
-      "Efferent_Arteriole_Endothelial_Cell"
-     ]
-    }
-   ],
+   "id": "hra-kidney-renal-corpuscle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Renal corpuscle (functional tissue unit)",
    "caption": "Functional tissue unit: renal corpuscle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the renal corpuscle and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM489.GJJK.324",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Renal Corpuscle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM489.GJJK.324. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. 2D Reference Renal Corpuscle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM489.GJJK.324. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM489.GJJK.324",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-renal-corpuscle/v1.4/assets/2d-ftu-kidney-renal-corpuscle.svg",
+   "url": "/ftu/kidney-renal-corpuscle.svg",
+   "ftu": {
+    "name": "kidney-renal-corpuscle",
+    "label": "Renal corpuscle",
+    "hits": [
+     {
+      "cl": "CL:0000648",
+      "label": "kidney granular cell",
+      "ids": [
+       "Juxtaglomerular_Granular_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000653",
+      "label": "podocyte",
+      "ids": [
+       "Podocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002306",
+      "label": "epithelial cell of proximal tubule",
+      "ids": [
+       "Epithelial_Cell_Proximal_Tubule"
+      ]
+     },
+     {
+      "cl": "CL:1000452",
+      "label": "parietal epithelial cell",
+      "ids": [
+       "Parietal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000742",
+      "label": "glomerular mesangial cell",
+      "ids": [
+       "Glomerular_Mesangial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000850",
+      "label": "macula densa epithelial cell",
+      "ids": [
+       "Macula_Densa_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001005",
+      "label": "glomerular capillary endothelial cell",
+      "ids": [
+       "Glomerular_Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001096",
+      "label": "afferent arteriole endothelial cell",
+      "ids": [
+       "Afferent_Arteriole_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001099",
+      "label": "efferent arteriole endothelial cell",
+      "ids": [
+       "Efferent_Arteriole_Endothelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001229"
+   },
+   "thumb": "/figures/hra-kidney-renal-corpuscle-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 176,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/kidney-thick-ascending-loop-of-henle.svg",
-   "name": "kidney-thick-ascending-loop-of-henle",
-   "label": "Thick ascending limb of loop of Henle",
-   "cells": [
-    "CL:1001033",
-    "CL:1001106"
-   ],
-   "hits": [
-    {
-     "cl": "CL:1001033",
-     "label": "peritubular capillary endothelial cell",
-     "ids": [
-      "Endothelium_Peritubular_Capillary"
-     ]
-    },
-    {
-     "cl": "CL:1001106",
-     "label": "kidney loop of Henle thick ascending limb epithelial cell",
-     "ids": [
-      "Thick_Ascending_Limb_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: thick ascending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the thick ascending limb of loop of Henle and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM426.LDRT.823",
+   "id": "hra-kidney-cortical-collecting-duct",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Cortical Collecting Duct (functional tissue unit)",
+   "caption": "Functional tissue unit: Cortical Collecting Duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the Cortical Collecting Duct and its cell types.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Reference Thick Ascending Limb of Loop of Henle FTU, v1.3. https://doi.org/10.48539/HBM426.LDRT.823. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. 2D Reference Cortical Collecting Duct FTU for Kidney, v1.5. https://doi.org/10.48539/HBM334.XPNG.824. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM334.XPNG.824",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-cortical-collecting-duct/v1.5/assets/2d-ftu-kidney-cortical-collecting-duct.svg",
+   "url": "/ftu/kidney-cortical-collecting-duct.svg",
+   "ftu": {
+    "name": "kidney-cortical-collecting-duct",
+    "label": "Cortical Collecting Duct",
+    "hits": [
+     {
+      "cl": "CL:1000714",
+      "label": "kidney cortex collecting duct principal cell",
+      "ids": [
+       "Cortical_Collecting_Duct_Principal_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000715",
+      "label": "kidney cortex collecting duct intercalated cell",
+      "ids": [
+       "Cortical_Collecting_Duct_Intercalated_Cell_Type_A",
+       "Cortical_Collecting_Duct_Intercalated_Cell_Type_B"
+      ]
+     },
+     {
+      "cl": "CL:1001033",
+      "label": "peritubular capillary endothelial cell",
+      "ids": [
+       "Endothelium_Peritubular_Capillary"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004203"
+   },
+   "thumb": "/figures/hra-kidney-cortical-collecting-duct-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 188,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-kidney-thick-ascending-loop-of-henle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Thick ascending limb of loop of Henle (functional tissue unit)",
+   "caption": "Functional tissue unit: thick ascending limb of loop of Henle. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the thick ascending limb of loop of Henle and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Thick Ascending Limb of Loop of Henle FTU, v1.3. https://doi.org/10.48539/HBM426.LDRT.823. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM426.LDRT.823",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-thick-ascending-loop-of-henle/v1.3/assets/2d-ftu-kidney-thick-ascending-loop-of-henle.svg",
+   "url": "/ftu/kidney-thick-ascending-loop-of-henle.svg",
+   "ftu": {
+    "name": "kidney-thick-ascending-loop-of-henle",
+    "label": "Thick ascending limb of loop of Henle",
+    "hits": [
+     {
+      "cl": "CL:1001033",
+      "label": "peritubular capillary endothelial cell",
+      "ids": [
+       "Endothelium_Peritubular_Capillary"
+      ]
+     },
+     {
+      "cl": "CL:1001106",
+      "label": "kidney loop of Henle thick ascending limb epithelial cell",
+      "ids": [
+       "Thick_Ascending_Limb_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001291"
+   },
+   "thumb": "/figures/hra-kidney-thick-ascending-loop-of-henle-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 171,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-kidney-outer-medullary-collecting-duct",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Outer medullary collecting duct (functional tissue unit)",
+   "caption": "Functional tissue unit: outer medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the outer medullary collecting duct and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Outer Medullary Collecting Duct FTU for Kidney, v1.4. https://doi.org/10.48539/HBM839.RVZB.668) Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM839.RVZB.668",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-outer-medullary-collecting-duct/v1.4/assets/2d-ftu-kidney-outer-medullary-collecting-duct.svg",
+   "url": "/ftu/kidney-outer-medullary-collecting-duct.svg",
+   "ftu": {
+    "name": "kidney-outer-medullary-collecting-duct",
+    "label": "Outer medullary collecting duct",
+    "hits": [
+     {
+      "cl": "CL:1000716",
+      "label": "kidney outer medulla collecting duct principal cell",
+      "ids": [
+       "Outer_Medullary_Collecting_Duct_Principal_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000717",
+      "label": "kidney outer medulla collecting duct intercalated cell",
+      "ids": [
+       "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A"
+      ]
+     },
+     {
+      "cl": "CL:1001033",
+      "label": "peritubular capillary endothelial cell",
+      "ids": [
+       "Endothelium_Peritubular_Capillary"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004204"
+   },
+   "thumb": "/figures/hra-kidney-outer-medullary-collecting-duct-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 179,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-kidney-ascending-thin-loop-of-henle",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Loop of Henle ascending limb thin segment (functional tissue unit)",
+   "caption": "Functional tissue unit: loop of Henle ascending limb thin segment. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the loop of Henle ascending limb thin segment and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Ascending Thin Limb of Loop of Henle FTU for Kidney, v1.4. https://doi.org/10.48539/HBM783.MHQZ.685. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM783.MHQZ.685",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-ascending-thin-loop-of-henle/v1.4/assets/2d-ftu-kidney-ascending-thin-loop-of-henle.svg",
+   "url": "/ftu/kidney-ascending-thin-loop-of-henle.svg",
+   "ftu": {
+    "name": "kidney-ascending-thin-loop-of-henle",
+    "label": "Loop of Henle ascending limb thin segment",
+    "hits": [
+     {
+      "cl": "CL:1001107",
+      "label": "kidney loop of Henle thin ascending limb epithelial cell",
+      "ids": [
+       "Ascending_Thin_Limb_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001285",
+      "label": "vasa recta descending limb cell",
+      "ids": [
+       "Descending_Vasa_Recta"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004193"
+   },
+   "thumb": "/figures/hra-kidney-ascending-thin-loop-of-henle-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 138,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-kidney-inner-medullary-collecting-duct",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Inner medullary collecting duct (functional tissue unit)",
+   "caption": "Functional tissue unit: inner medullary collecting duct. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the inner medullary collecting duct and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Reference Inner Medullary Collecting Duct FTU for Kidney, v1.3. https://doi.org/10.48539/HBM837.WVQG.999. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM837.WVQG.999",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-inner-medullary-collecting-duct/v1.3/assets/2d-ftu-kidney-inner-medullary-collecting-duct.svg",
+   "url": "/ftu/kidney-inner-medullary-collecting-duct.svg",
+   "ftu": {
+    "name": "kidney-inner-medullary-collecting-duct",
+    "label": "Inner medullary collecting duct",
+    "hits": [
+     {
+      "cl": "CL:1000718",
+      "label": "kidney inner medulla collecting duct principal cell",
+      "ids": [
+       "Inner_Medullary_Collecting_Duct_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1001033",
+      "label": "peritubular capillary endothelial cell",
+      "ids": [
+       "Endothelium_Peritubular_Capillary"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004205"
+   },
+   "thumb": "/figures/hra-kidney-inner-medullary-collecting-duct-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 187,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
  ]
 }

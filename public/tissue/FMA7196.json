@@ -2327,222 +2327,248 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/spleen.jpg",
-   "organ": "spleen",
-   "tissue": "spleen",
+   "id": "hpa-hmox1-spleen",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Spleen: HMOX1 immunohistochemistry",
    "caption": "Spleen tissue stained for heme oxygenase 1 (HMOX1). Brown: HMOX1 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of spleen tissue with HMOX1 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "HMOX1",
-    "name": "Heme oxygenase 1",
-    "ensembl": "ENSG00000100292",
-    "uniprot": [
-     "P09601"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000100292-HMOX1/tissue/spleen",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for spleen; IHC reliability enhanced, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): HMOX1 immunohistochemistry in spleen, https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg. CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/spleen-red-pulp.svg",
-   "name": "spleen-red-pulp",
-   "label": "Red pulp of spleen",
-   "cells": [
-    "CL:0000037",
-    "CL:0000236",
-    "CL:0000442",
-    "CL:0000775",
-    "CL:0000872",
-    "CL:0000874",
-    "CL:0000877",
-    "CL:0000980",
-    "CL:0001055",
-    "CL:0001056"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000037",
-     "label": "hematopoetic stem cell",
-     "ids": [
-      "Hematopoetic_Stem_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000236",
-     "label": "B cell",
-     "ids": [
-      "B_x5F_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000442",
-     "label": "follicular dendritic cell",
-     "ids": [
-      "Follicular_Dendritic_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000775",
-     "label": "neutrophil",
-     "ids": [
-      "Neutrophil"
-     ]
-    },
-    {
-     "cl": "CL:0000872",
-     "label": "splenic marginal zone macrophage",
-     "ids": [
-      "Splenic_Marginal_Zone_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000874",
-     "label": "splenic red pulp macrophage",
-     "ids": [
-      "Splenic_Red_Pulp_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000877",
-     "label": "splenic tingible body macrophage",
-     "ids": [
-      "Splenic_Tingible_Body_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000980",
-     "label": "plasmablast",
-     "ids": [
-      "Plasmablast"
-     ]
-    },
-    {
-     "cl": "CL:0001055",
-     "label": "CD14-positive, CD16-low monocyte",
-     "ids": [
-      "CD14_Positive"
-     ]
-    },
-    {
-     "cl": "CL:0001056",
-     "label": "dendritic cell, human",
-     "ids": [
-      "Dendritic_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: red pulp of spleen. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the red pulp of spleen and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM452.BXTV.428",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Red Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM452.BXTV.428. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): HMOX1 immunohistochemistry in spleen, https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000100292-HMOX1/tissue/spleen",
+   "imageUrl": "https://images.proteinatlas.org/17444/39144_B_8_4_rna_selected.jpg",
+   "thumb": "/figures/hpa-hmox1-spleen-thumb.webp",
+   "url": "/figures/hpa-hmox1-spleen.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “spleen” is this organ's tissue in pipeline/maps/tissue-media.json"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/spleen-white-pulp.svg",
-   "name": "spleen-white-pulp",
-   "label": "White pulp of spleen",
-   "cells": [
-    "CL:0000192",
-    "CL:0000442",
-    "CL:0000499",
-    "CL:0000775",
-    "CL:0000876",
-    "CL:0000877",
-    "CL:0000980",
-    "CL:0001055",
-    "CL:1000489",
-    "CL:2000053"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000192",
-     "label": "smooth muscle cell",
-     "ids": [
-      "Smooth_Muscle_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000442",
-     "label": "follicular dendritic cell",
-     "ids": [
-      "Follicular_Dendritic_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000499",
-     "label": "stromal cell",
-     "ids": [
-      "Stromal_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000775",
-     "label": "neutrophil",
-     "ids": [
-      "Neutrophil"
-     ]
-    },
-    {
-     "cl": "CL:0000876",
-     "label": "splenic white pulp macrophage",
-     "ids": [
-      "Splenic_Marginal_Zone_Macrophage",
-      "Splenic_White_Pulp_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000877",
-     "label": "splenic tingible body macrophage",
-     "ids": [
-      "Splenic_Tingible_Body_Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000980",
-     "label": "plasmablast",
-     "ids": [
-      "Plasmablast"
-     ]
-    },
-    {
-     "cl": "CL:0001055",
-     "label": "CD14-positive, CD16-low monocyte",
-     "ids": [
-      "CD14_x5F_Positive"
-     ]
-    },
-    {
-     "cl": "CL:1000489",
-     "label": "reticular cell of splenic cord",
-     "ids": [
-      "Reticular_Cell_Of_Splenic_Cord"
-     ]
-    },
-    {
-     "cl": "CL:2000053",
-     "label": "splenic endothelial cell",
-     "ids": [
-      "Splenic_Endothelial_Cell"
-     ]
-    }
-   ],
+   "id": "hra-spleen-white-pulp",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "White pulp of spleen (functional tissue unit)",
    "caption": "Functional tissue unit: white pulp of spleen. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the white pulp of spleen and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM538.PHWH.575",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D White Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM538.PHWH.575. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. 2D White Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM538.PHWH.575. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM538.PHWH.575",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/spleen-white-pulp/v1.4/assets/2d-ftu-spleen-white-pulp.svg",
+   "url": "/ftu/spleen-white-pulp.svg",
+   "ftu": {
+    "name": "spleen-white-pulp",
+    "label": "White pulp of spleen",
+    "hits": [
+     {
+      "cl": "CL:0000192",
+      "label": "smooth muscle cell",
+      "ids": [
+       "Smooth_Muscle_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000442",
+      "label": "follicular dendritic cell",
+      "ids": [
+       "Follicular_Dendritic_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000499",
+      "label": "stromal cell",
+      "ids": [
+       "Stromal_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000775",
+      "label": "neutrophil",
+      "ids": [
+       "Neutrophil"
+      ]
+     },
+     {
+      "cl": "CL:0000876",
+      "label": "splenic white pulp macrophage",
+      "ids": [
+       "Splenic_Marginal_Zone_Macrophage",
+       "Splenic_White_Pulp_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000877",
+      "label": "splenic tingible body macrophage",
+      "ids": [
+       "Splenic_Tingible_Body_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000980",
+      "label": "plasmablast",
+      "ids": [
+       "Plasmablast"
+      ]
+     },
+     {
+      "cl": "CL:0001055",
+      "label": "CD14-positive, CD16-low monocyte",
+      "ids": [
+       "CD14_x5F_Positive"
+      ]
+     },
+     {
+      "cl": "CL:1000489",
+      "label": "reticular cell of splenic cord",
+      "ids": [
+       "Reticular_Cell_Of_Splenic_Cord"
+      ]
+     },
+     {
+      "cl": "CL:2000053",
+      "label": "splenic endothelial cell",
+      "ids": [
+       "Splenic_Endothelial_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001959"
+   },
+   "thumb": "/figures/hra-spleen-white-pulp-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 135,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-spleen",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Spleen",
+   "caption": "Spleen. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Spleen",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/spleen/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/rate.png",
+   "thumb": "/figures/servier-spleen-thumb.webp",
+   "url": "/figures/servier-spleen.webp",
+   "width": 124,
+   "height": 229,
+   "thumbWidth": 124,
+   "thumbHeight": 229,
+   "status": "auto",
+   "match": "Servier title “Spleen” = “spleen”"
+  }
+ ],
+ "units": [
+  {
+   "id": "hra-spleen-red-pulp",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Red pulp of spleen (functional tissue unit)",
+   "caption": "Functional tissue unit: red pulp of spleen. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the red pulp of spleen and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Red Pulp Functional Tissue Unit (FTU) for Spleen v1.4. https://doi.org/10.48539/HBM452.BXTV.428. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM452.BXTV.428",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/spleen-red-pulp/v1.4/assets/2d-ftu-spleen-red-pulp.svg",
+   "url": "/ftu/spleen-red-pulp.svg",
+   "ftu": {
+    "name": "spleen-red-pulp",
+    "label": "Red pulp of spleen",
+    "hits": [
+     {
+      "cl": "CL:0000037",
+      "label": "hematopoetic stem cell",
+      "ids": [
+       "Hematopoetic_Stem_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000236",
+      "label": "B cell",
+      "ids": [
+       "B_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000442",
+      "label": "follicular dendritic cell",
+      "ids": [
+       "Follicular_Dendritic_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000775",
+      "label": "neutrophil",
+      "ids": [
+       "Neutrophil"
+      ]
+     },
+     {
+      "cl": "CL:0000872",
+      "label": "splenic marginal zone macrophage",
+      "ids": [
+       "Splenic_Marginal_Zone_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000874",
+      "label": "splenic red pulp macrophage",
+      "ids": [
+       "Splenic_Red_Pulp_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000877",
+      "label": "splenic tingible body macrophage",
+      "ids": [
+       "Splenic_Tingible_Body_Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000980",
+      "label": "plasmablast",
+      "ids": [
+       "Plasmablast"
+      ]
+     },
+     {
+      "cl": "CL:0001055",
+      "label": "CD14-positive, CD16-low monocyte",
+      "ids": [
+       "CD14_Positive"
+      ]
+     },
+     {
+      "cl": "CL:0001056",
+      "label": "dendritic cell, human",
+      "ids": [
+       "Dendritic_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001250"
+   },
+   "thumb": "/figures/hra-spleen-red-pulp-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 135,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
  ]
 }

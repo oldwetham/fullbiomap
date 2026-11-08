@@ -3830,85 +3830,115 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/large-intestine.jpg",
-   "organ": "large intestine",
-   "tissue": "colon",
+   "id": "hpa-phgr1-colon",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Colon: PHGR1 immunohistochemistry",
    "caption": "Colon tissue stained for proline, histidine and glycine rich 1 (PHGR1). Brown: PHGR1 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of colon tissue with PHGR1 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "PHGR1",
-    "name": "Proline, histidine and glycine rich 1",
-    "ensembl": "ENSG00000233041",
-    "uniprot": [
-     "C9JFL3"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/68787/153275_A_9_3_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000233041-PHGR1/tissue/colon",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for colon; IHC reliability enhanced, high expression",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PHGR1 immunohistochemistry in colon, https://images.proteinatlas.org/68787/153275_A_9_3_rna_selected.jpg. CC BY 4.0."
-  },
-  {
-   "kind": "ftu",
-   "url": "/ftu/large-intestine-crypt-lieberkuhn.svg",
-   "name": "large-intestine-crypt-lieberkuhn",
-   "label": "Crypt of Lieberkuhn of large intestine",
-   "cells": [
-    "CL:0000165",
-    "CL:0002071",
-    "CL:0009016",
-    "CL:0019032",
-    "CL:1000321"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000165",
-     "label": "neuroendocrine cell",
-     "ids": [
-      "Neuroendocrine_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0002071",
-     "label": "enterocyte of epithelium of large intestine",
-     "ids": [
-      "Absorptive_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0009016",
-     "label": "intestinal crypt stem cell of large intestine",
-     "ids": [
-      "Epithelial_Stem_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0019032",
-     "label": "intestinal tuft cell",
-     "ids": [
-      "Tuft_Cell"
-     ]
-    },
-    {
-     "cl": "CL:1000321",
-     "label": "large intestine crypt goblet cell",
-     "ids": [
-      "Goblet_Cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: crypt of Lieberkuhn of large intestine. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the crypt of Lieberkuhn of large intestine and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM578.RMQR.736",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. 2D Crypt of Lieberkuhn FTU for Large Intestine, v1.4. https://doi.org/10.48539/HBM578.RMQR.736. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PHGR1 immunohistochemistry in colon, https://images.proteinatlas.org/68787/153275_A_9_3_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000233041-PHGR1/tissue/colon",
+   "imageUrl": "https://images.proteinatlas.org/68787/153275_A_9_3_rna_selected.jpg",
+   "thumb": "/figures/hpa-phgr1-colon-thumb.webp",
+   "url": "/figures/hpa-phgr1-colon.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “colon” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-large-intestine-crypt-lieberkuhn",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Crypt of Lieberkuhn of large intestine (functional tissue unit)",
+   "caption": "Functional tissue unit: crypt of Lieberkuhn of large intestine. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the crypt of Lieberkuhn of large intestine and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Crypt of Lieberkuhn FTU for Large Intestine, v1.4. https://doi.org/10.48539/HBM578.RMQR.736. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM578.RMQR.736",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/large-intestine-crypt-lieberkuhn/v1.4/assets/2d-ftu-large-intestine-crypt-lieberkuhn.svg",
+   "url": "/ftu/large-intestine-crypt-lieberkuhn.svg",
+   "ftu": {
+    "name": "large-intestine-crypt-lieberkuhn",
+    "label": "Crypt of Lieberkuhn of large intestine",
+    "hits": [
+     {
+      "cl": "CL:0000165",
+      "label": "neuroendocrine cell",
+      "ids": [
+       "Neuroendocrine_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002071",
+      "label": "enterocyte of epithelium of large intestine",
+      "ids": [
+       "Absorptive_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009016",
+      "label": "intestinal crypt stem cell of large intestine",
+      "ids": [
+       "Epithelial_Stem_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0019032",
+      "label": "intestinal tuft cell",
+      "ids": [
+       "Tuft_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000321",
+      "label": "large intestine crypt goblet cell",
+      "ids": [
+       "Goblet_Cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001984"
+   },
+   "thumb": "/figures/hra-large-intestine-crypt-lieberkuhn-thumb.webp",
+   "thumbWidth": 123,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "openstax-ap2e-fig-ch24-05-04",
+   "source": "openstax",
+   "sourceName": "OpenStax Anatomy and Physiology 2e",
+   "kind": "diagram",
+   "title": "Large Intestine",
+   "caption": "The large intestine includes the cecum, colon, and rectum.",
+   "alt": "This image shows the large intestine; the major parts of the large intestine are labeled.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Figure “Large Intestine”, section 23.5 The Small and Large Intestines. CC BY 4.0. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+   "pageUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines#fig-ch24_05_04",
+   "imageUrl": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2420_Large_Intestine.jpg",
+   "sourceUrl": "https://github.com/openstax/osbooks-anatomy-physiology/blob/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2420_Large_Intestine.jpg",
+   "thumb": "/figures/openstax-ap2e-fig-ch24-05-04-thumb.webp",
+   "url": "/figures/openstax-ap2e-fig-ch24-05-04.webp",
+   "width": 633,
+   "height": 427,
+   "thumbWidth": 240,
+   "thumbHeight": 162,
+   "status": "auto",
+   "match": "OpenStax figure title “Large Intestine” = “large intestine”"
   }
- ]
+ ],
+ "units": []
 }

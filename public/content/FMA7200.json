@@ -337,5 +337,201 @@
     "/tissue/FMA7200.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-defa5-small-intestine",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Small intestine: DEFA5 immunohistochemistry",
+   "caption": "Small intestine tissue stained for defensin alpha 5 (DEFA5). Brown: DEFA5 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of small intestine tissue with DEFA5 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): DEFA5 immunohistochemistry in small intestine, https://images.proteinatlas.org/15775/141534_A_4_2_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000164816-DEFA5/tissue/small%20intestine",
+   "imageUrl": "https://images.proteinatlas.org/15775/141534_A_4_2_rna_selected.jpg",
+   "thumb": "/figures/hpa-defa5-small-intestine-thumb.webp",
+   "url": "/figures/hpa-defa5-small-intestine.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “small intestine” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-small-intestine-villus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Intestinal villus (functional tissue unit)",
+   "caption": "Functional tissue unit: intestinal villus. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the intestinal villus and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Intestinal Villus FTU for Small Intestine, v1.2, https://doi.org/10.48539/HBM946.CQQC.734. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM946.CQQC.734",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/small-intestine-villus/v1.2/assets/2d-ftu-small-intestine-villus.svg",
+   "url": "/ftu/small-intestine-villus.svg",
+   "ftu": {
+    "name": "small-intestine-villus",
+    "label": "Intestinal villus",
+    "hits": [
+     {
+      "cl": "CL:0000057",
+      "label": "fibroblast",
+      "ids": [
+       "Fibroblast"
+      ]
+     },
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Goblet_x5F_Cell_x5F_1",
+       "Mast_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000163",
+      "label": "endocrine cell",
+      "ids": [
+       "Endocrine_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000186",
+      "label": "myofibroblast",
+      "ids": [
+       "Myofibroblast"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000236",
+      "label": "B cell",
+      "ids": [
+       "B_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000584",
+      "label": "enterocyte",
+      "ids": [
+       "Enterocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000623",
+      "label": "natural killer cell",
+      "ids": [
+       "Natural_x5F_Killer_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000771",
+      "label": "eosinophil",
+      "ids": [
+       "Eosinophil"
+      ]
+     },
+     {
+      "cl": "CL:0000775",
+      "label": "neutrophil",
+      "ids": [
+       "Neutrophil"
+      ]
+     },
+     {
+      "cl": "CL:0000786",
+      "label": "plasma cell",
+      "ids": [
+       "Plasma_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0001065",
+      "label": "innate lymphoid cell",
+      "ids": [
+       "Innate_x5F_Lymphoid_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009080",
+      "label": "tuft cell of small intestine",
+      "ids": [
+       "Tuft_x5F_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000324",
+      "label": "duodenal goblet cell",
+      "ids": [
+       "Goblet_x5F_Cell_x5F_10",
+       "Goblet_x5F_Cell_x5F_11",
+       "Goblet_x5F_Cell_x5F_12",
+       "Goblet_x5F_Cell_x5F_13",
+       "Goblet_x5F_Cell_x5F_14",
+       "Goblet_x5F_Cell_x5F_15",
+       "Goblet_x5F_Cell_x5F_16",
+       "Goblet_x5F_Cell_x5F_17",
+       "Goblet_x5F_Cell_x5F_2",
+       "Goblet_x5F_Cell_x5F_3",
+       "Goblet_x5F_Cell_x5F_4",
+       "Goblet_x5F_Cell_x5F_5",
+       "Goblet_x5F_Cell_x5F_6",
+       "Goblet_x5F_Cell_x5F_7",
+       "Goblet_x5F_Cell_x5F_8",
+       "Goblet_x5F_Cell_x5F_9"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001213"
+   },
+   "thumb": "/figures/hra-small-intestine-villus-thumb.webp",
+   "thumbWidth": 97,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "openstax-ap2e-fig-ch24-05-01",
+   "source": "openstax",
+   "sourceName": "OpenStax Anatomy and Physiology 2e",
+   "kind": "diagram",
+   "title": "Small Intestine",
+   "caption": "The three regions of the small intestine are the duodenum, jejunum, and ileum.",
+   "alt": "This diagram shows the small intestine. The different parts of the small intestine are labeled.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Figure “Small Intestine”, section 23.5 The Small and Large Intestines. CC BY 4.0. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+   "pageUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines#fig-ch24_05_01",
+   "imageUrl": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2417_Small_IntestineN.jpg",
+   "sourceUrl": "https://github.com/openstax/osbooks-anatomy-physiology/blob/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2417_Small_IntestineN.jpg",
+   "thumb": "/figures/openstax-ap2e-fig-ch24-05-01-thumb.webp",
+   "url": "/figures/openstax-ap2e-fig-ch24-05-01.webp",
+   "width": 839,
+   "height": 552,
+   "thumbWidth": 240,
+   "thumbHeight": 158,
+   "status": "auto",
+   "match": "OpenStax figure title “Small Intestine” = “small intestine”"
+  }
+ ]
 }

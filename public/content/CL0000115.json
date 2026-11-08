@@ -474,5 +474,49 @@
     "UBERON0001017"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-skin-dermal-papilla",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Papillary layer of dermis (functional tissue unit)",
+   "caption": "Functional tissue unit: papillary layer of dermis. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the papillary layer of dermis and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Dermal Papilla FTU for Skin, v1.3. https://doi.org/10.48539/HBM223.PSTT.966. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM223.PSTT.966",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-dermal-papilla/v1.3/assets/2d-ftu-skin-dermal-papilla.svg",
+   "url": "/ftu/skin-dermal-papilla.svg",
+   "ftu": {
+    "name": "skin-dermal-papilla",
+    "label": "Papillary layer of dermis",
+    "hits": [
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002620",
+      "label": "skin fibroblast",
+      "ids": [
+       "Skin_Fibroblast"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001992"
+   },
+   "thumb": "/figures/hra-skin-dermal-papilla-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 231,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0000115",
+   "focus": "CL:0000115"
+  }
+ ]
 }

@@ -1669,382 +1669,421 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "ftu",
-   "url": "/ftu/mouth-parotid-gland.svg",
-   "name": "mouth-parotid-gland",
-   "label": "Parotid gland",
-   "cells": [
-    "CL:0000097",
-    "CL:0000115",
-    "CL:0000136",
-    "CL:0000185",
-    "CL:0000192",
-    "CL:0000235",
-    "CL:0000451",
-    "CL:0000669",
-    "CL:0000912",
-    "CL:0000987",
-    "CL:0002204",
-    "CL:0005006",
-    "CL:4052048",
-    "CL:4052049",
-    "CL:4052065"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000097",
-     "label": "mast cell",
-     "ids": [
-      "Mast_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000115",
-     "label": "endothelial cell",
-     "ids": [
-      "Endothelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000136",
-     "label": "adipocyte",
-     "ids": [
-      "Adipocyte"
-     ]
-    },
-    {
-     "cl": "CL:0000185",
-     "label": "myoepithelial cell",
-     "ids": [
-      "Myoepithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000192",
-     "label": "smooth muscle cell",
-     "ids": [
-      "Smooth_muscle_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000235",
-     "label": "macrophage",
-     "ids": [
-      "Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000451",
-     "label": "dendritic cell",
-     "ids": [
-      "Dendritic_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000669",
-     "label": "pericyte",
-     "ids": [
-      "Pericyte"
-     ]
-    },
-    {
-     "cl": "CL:0000912",
-     "label": "helper T cell",
-     "ids": [
-      "Helper_T_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000987",
-     "label": "IgA plasma cell",
-     "ids": [
-      "IgA_secreting_plasma_cell"
-     ]
-    },
-    {
-     "cl": "CL:0002204",
-     "label": "tuft cell",
-     "ids": [
-      "Tuft_cell"
-     ]
-    },
-    {
-     "cl": "CL:0005006",
-     "label": "ionocyte",
-     "ids": [
-      "Ionocyte"
-     ]
-    },
-    {
-     "cl": "CL:4052048",
-     "label": "intercalated cell of salivary gland",
-     "ids": [
-      "Intercalated_duct_epithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:4052049",
-     "label": "striated cell of salivary gland",
-     "ids": [
-      "Straited_Ductal_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:4052065",
-     "label": "serous acinar cell of salivary gland",
-     "ids": [
-      "Serous_acinar_cell"
-     ]
-    }
-   ],
+   "id": "hra-mouth-parotid-gland",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Parotid gland (functional tissue unit)",
    "caption": "Functional tissue unit: parotid gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the parotid gland and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM944.MMNZ.835",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. Mouth, Parotid Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM944.MMNZ.835. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. Mouth, Parotid Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM944.MMNZ.835. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM944.MMNZ.835",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-parotid-gland/v1.2/assets/2d-ftu-mouth-parotid-gland.svg",
+   "url": "/ftu/mouth-parotid-gland.svg",
+   "ftu": {
+    "name": "mouth-parotid-gland",
+    "label": "Parotid gland",
+    "hits": [
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Mast_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000136",
+      "label": "adipocyte",
+      "ids": [
+       "Adipocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000185",
+      "label": "myoepithelial cell",
+      "ids": [
+       "Myoepithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000192",
+      "label": "smooth muscle cell",
+      "ids": [
+       "Smooth_muscle_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0000912",
+      "label": "helper T cell",
+      "ids": [
+       "Helper_T_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000987",
+      "label": "IgA plasma cell",
+      "ids": [
+       "IgA_secreting_plasma_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002204",
+      "label": "tuft cell",
+      "ids": [
+       "Tuft_cell"
+      ]
+     },
+     {
+      "cl": "CL:0005006",
+      "label": "ionocyte",
+      "ids": [
+       "Ionocyte"
+      ]
+     },
+     {
+      "cl": "CL:4052048",
+      "label": "intercalated cell of salivary gland",
+      "ids": [
+       "Intercalated_duct_epithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:4052049",
+      "label": "striated cell of salivary gland",
+      "ids": [
+       "Straited_Ductal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:4052065",
+      "label": "serous acinar cell of salivary gland",
+      "ids": [
+       "Serous_acinar_cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001831"
+   },
+   "thumb": "/figures/hra-mouth-parotid-gland-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 166,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/mouth-sublingual-gland.svg",
-   "name": "mouth-sublingual-gland",
-   "label": "Sublingual gland",
-   "cells": [
-    "CL:0000097",
-    "CL:0000115",
-    "CL:0000185",
-    "CL:0000192",
-    "CL:0000235",
-    "CL:0000451",
-    "CL:0000669",
-    "CL:0000912",
-    "CL:0000987",
-    "CL:0005006",
-    "CL:4052048",
-    "CL:4052067"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000097",
-     "label": "mast cell",
-     "ids": [
-      "Mast_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000115",
-     "label": "endothelial cell",
-     "ids": [
-      "Endothelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:0000185",
-     "label": "myoepithelial cell",
-     "ids": [
-      "Myoepithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000192",
-     "label": "smooth muscle cell",
-     "ids": [
-      "Smooth_muscle_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000235",
-     "label": "macrophage",
-     "ids": [
-      "Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000451",
-     "label": "dendritic cell",
-     "ids": [
-      "Dendritic_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000669",
-     "label": "pericyte",
-     "ids": [
-      "Pericyte"
-     ]
-    },
-    {
-     "cl": "CL:0000912",
-     "label": "helper T cell",
-     "ids": [
-      "Helper_T_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000987",
-     "label": "IgA plasma cell",
-     "ids": [
-      "IgA_secreting_plasma_cell"
-     ]
-    },
-    {
-     "cl": "CL:0005006",
-     "label": "ionocyte",
-     "ids": [
-      "Ionocyte"
-     ]
-    },
-    {
-     "cl": "CL:4052048",
-     "label": "intercalated cell of salivary gland",
-     "ids": [
-      "Intercalated_duct_epithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:4052067",
-     "label": "seromucous acinar cell of salivary gland",
-     "ids": [
-      "Seromucosal_acinar_cell"
-     ]
-    }
-   ],
-   "caption": "Functional tissue unit: sublingual gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
-   "alt": "Illustration of the sublingual gland and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM852.DKZG.476",
+   "id": "openstax-ap2e-fig-ch24-03-01",
+   "source": "openstax",
+   "sourceName": "OpenStax Anatomy and Physiology 2e",
+   "kind": "diagram",
+   "title": "Mouth",
+   "caption": "The mouth includes the lips, tongue, palate, gums, and teeth.",
+   "alt": "This diagram shows the structure of the mouth. The teeth, lips, tongue, gums and many other parts are labeled.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. Mouth, Sublingual Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM852.DKZG.476. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax. Figure “Mouth”, section 23.3 The Mouth, Pharynx, and Esophagus. CC BY 4.0. Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+   "pageUrl": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus#fig-ch24_03_01",
+   "imageUrl": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2406_Structures_of_the_Mouth.jpg",
+   "sourceUrl": "https://github.com/openstax/osbooks-anatomy-physiology/blob/b0058a743bdd2cc08196abaaa7d5469970c0d80c/media/2406_Structures_of_the_Mouth.jpg",
+   "thumb": "/figures/openstax-ap2e-fig-ch24-03-01-thumb.webp",
+   "url": "/figures/openstax-ap2e-fig-ch24-03-01.webp",
+   "width": 1075,
+   "height": 1028,
+   "thumbWidth": 240,
+   "thumbHeight": 230,
+   "status": "auto",
+   "match": "OpenStax figure title “Mouth” = “mouth”"
   },
   {
-   "kind": "ftu",
-   "url": "/ftu/mouth-submandibular-gland.svg",
-   "name": "mouth-submandibular-gland",
-   "label": "Submandibular gland",
-   "cells": [
-    "CL:0000097",
-    "CL:0000115",
-    "CL:0000185",
-    "CL:0000192",
-    "CL:0000235",
-    "CL:0000451",
-    "CL:0000669",
-    "CL:0000912",
-    "CL:0000987",
-    "CL:0002204",
-    "CL:0005006",
-    "CL:4052048",
-    "CL:4052049",
-    "CL:4052067"
-   ],
-   "hits": [
-    {
-     "cl": "CL:0000097",
-     "label": "mast cell",
-     "ids": [
-      "Mast_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000115",
-     "label": "endothelial cell",
-     "ids": [
-      "Endothelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000185",
-     "label": "myoepithelial cell",
-     "ids": [
-      "Myoepithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000192",
-     "label": "smooth muscle cell",
-     "ids": [
-      "Smooth_muscle_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000235",
-     "label": "macrophage",
-     "ids": [
-      "Macrophage"
-     ]
-    },
-    {
-     "cl": "CL:0000451",
-     "label": "dendritic cell",
-     "ids": [
-      "Dendritic_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000669",
-     "label": "pericyte",
-     "ids": [
-      "Pericyte"
-     ]
-    },
-    {
-     "cl": "CL:0000912",
-     "label": "helper T cell",
-     "ids": [
-      "Helper_T_cell"
-     ]
-    },
-    {
-     "cl": "CL:0000987",
-     "label": "IgA plasma cell",
-     "ids": [
-      "IgA_secreting_plasma_cell"
-     ]
-    },
-    {
-     "cl": "CL:0002204",
-     "label": "tuft cell",
-     "ids": [
-      "Tuft_cell"
-     ]
-    },
-    {
-     "cl": "CL:0005006",
-     "label": "ionocyte",
-     "ids": [
-      "Ionocyte"
-     ]
-    },
-    {
-     "cl": "CL:4052048",
-     "label": "intercalated cell of salivary gland",
-     "ids": [
-      "Intercalated_duct_epithelial_cell"
-     ]
-    },
-    {
-     "cl": "CL:4052049",
-     "label": "striated cell of salivary gland",
-     "ids": [
-      "Striated_Ductal_Epithelial_Cell"
-     ]
-    },
-    {
-     "cl": "CL:4052067",
-     "label": "seromucous acinar cell of salivary gland",
-     "ids": [
-      "Seromucosal_acinar_cell"
-     ]
-    }
-   ],
+   "id": "servier-mouth",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Mouth",
+   "caption": "Mouth. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Mouth",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/mouth/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/bouche.png",
+   "thumb": "/figures/servier-mouth-thumb.webp",
+   "url": "/figures/servier-mouth.webp",
+   "width": 592,
+   "height": 653,
+   "thumbWidth": 218,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Mouth” = “mouth”"
+  }
+ ],
+ "units": [
+  {
+   "id": "hra-mouth-submandibular-gland",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Submandibular gland (functional tissue unit)",
    "caption": "Functional tissue unit: submandibular gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
    "alt": "Illustration of the submandibular gland and its cell types.",
-   "doi": "https://doi.org/10.48539/HBM544.ZZVG.498",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-   "attribution": "Bajema, Rachel. 2026. Mouth, Submandibular Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM544.ZZVG.498. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0."
+   "credit": "Bajema, Rachel. 2026. Mouth, Submandibular Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM544.ZZVG.498. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM544.ZZVG.498",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-submandibular-gland/v1.2/assets/2d-ftu-mouth-submandibular-gland.svg",
+   "url": "/ftu/mouth-submandibular-gland.svg",
+   "ftu": {
+    "name": "mouth-submandibular-gland",
+    "label": "Submandibular gland",
+    "hits": [
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Mast_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000185",
+      "label": "myoepithelial cell",
+      "ids": [
+       "Myoepithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000192",
+      "label": "smooth muscle cell",
+      "ids": [
+       "Smooth_muscle_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0000912",
+      "label": "helper T cell",
+      "ids": [
+       "Helper_T_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000987",
+      "label": "IgA plasma cell",
+      "ids": [
+       "IgA_secreting_plasma_cell"
+      ]
+     },
+     {
+      "cl": "CL:0002204",
+      "label": "tuft cell",
+      "ids": [
+       "Tuft_cell"
+      ]
+     },
+     {
+      "cl": "CL:0005006",
+      "label": "ionocyte",
+      "ids": [
+       "Ionocyte"
+      ]
+     },
+     {
+      "cl": "CL:4052048",
+      "label": "intercalated cell of salivary gland",
+      "ids": [
+       "Intercalated_duct_epithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:4052049",
+      "label": "striated cell of salivary gland",
+      "ids": [
+       "Striated_Ductal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:4052067",
+      "label": "seromucous acinar cell of salivary gland",
+      "ids": [
+       "Seromucosal_acinar_cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001736"
+   },
+   "thumb": "/figures/hra-mouth-submandibular-gland-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 166,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "hra-mouth-sublingual-gland",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Sublingual gland (functional tissue unit)",
+   "caption": "Functional tissue unit: sublingual gland. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the sublingual gland and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. Mouth, Sublingual Gland Ducto-Acinar 2D FTU v.1.2. https://doi.org/10.48539/HBM852.DKZG.476. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM852.DKZG.476",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-sublingual-gland/v1.2/assets/2d-ftu-mouth-sublingual-gland.svg",
+   "url": "/ftu/mouth-sublingual-gland.svg",
+   "ftu": {
+    "name": "mouth-sublingual-gland",
+    "label": "Sublingual gland",
+    "hits": [
+     {
+      "cl": "CL:0000097",
+      "label": "mast cell",
+      "ids": [
+       "Mast_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000115",
+      "label": "endothelial cell",
+      "ids": [
+       "Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000185",
+      "label": "myoepithelial cell",
+      "ids": [
+       "Myoepithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000192",
+      "label": "smooth muscle cell",
+      "ids": [
+       "Smooth_muscle_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000235",
+      "label": "macrophage",
+      "ids": [
+       "Macrophage"
+      ]
+     },
+     {
+      "cl": "CL:0000451",
+      "label": "dendritic cell",
+      "ids": [
+       "Dendritic_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000669",
+      "label": "pericyte",
+      "ids": [
+       "Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:0000912",
+      "label": "helper T cell",
+      "ids": [
+       "Helper_T_cell"
+      ]
+     },
+     {
+      "cl": "CL:0000987",
+      "label": "IgA plasma cell",
+      "ids": [
+       "IgA_secreting_plasma_cell"
+      ]
+     },
+     {
+      "cl": "CL:0005006",
+      "label": "ionocyte",
+      "ids": [
+       "Ionocyte"
+      ]
+     },
+     {
+      "cl": "CL:4052048",
+      "label": "intercalated cell of salivary gland",
+      "ids": [
+       "Intercalated_duct_epithelial_cell"
+      ]
+     },
+     {
+      "cl": "CL:4052067",
+      "label": "seromucous acinar cell of salivary gland",
+      "ids": [
+       "Seromucosal_acinar_cell"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0001832"
+   },
+   "thumb": "/figures/hra-mouth-sublingual-gland-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 175,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
  ]
 }

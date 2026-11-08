@@ -237,5 +237,77 @@
     "/tissue/FMA7309.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hra-lung-pulmonary-alveolus",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Alveolus of lung (functional tissue unit)",
+   "caption": "Functional tissue unit: alveolus of lung. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the alveolus of lung and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. *2D Pulmonary Alveolus Functional Tissue Unit (FTU) for Lung, v1.5*. https://doi.org/10.48539/HBM949.RSKR.647. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM949.RSKR.647",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/lung-pulmonary-alveolus/v1.5/assets/2d-ftu-lung-pulmonary-alveolus.svg",
+   "url": "/ftu/lung-pulmonary-alveolus.svg",
+   "ftu": {
+    "name": "lung-pulmonary-alveolus",
+    "label": "Alveolus of lung",
+    "hits": [
+     {
+      "cl": "CL:0002062",
+      "label": "pulmonary alveolar type 1 cell",
+      "ids": [
+       "Type_I_Pneumocyte"
+      ]
+     },
+     {
+      "cl": "CL:0002063",
+      "label": "pulmonary alveolar type 2 cell",
+      "ids": [
+       "Type_II_Pneumocyte"
+      ]
+     },
+     {
+      "cl": "CL:0009089",
+      "label": "lung pericyte",
+      "ids": [
+       "Lung_Pericyte"
+      ]
+     },
+     {
+      "cl": "CL:4028002",
+      "label": "alveolar capillary type 1 endothelial cell",
+      "ids": [
+       "Capillary_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:4028004",
+      "label": "alveolar type 1 fibroblast cell",
+      "ids": [
+       "Lung_Matrix_Fibroblast"
+      ]
+     },
+     {
+      "cl": "CL:4033016",
+      "label": "secondary crest myofibroblast",
+      "ids": [
+       "Secondary_Crest_Myofibroblast"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0002299"
+   },
+   "thumb": "/figures/hra-lung-pulmonary-alveolus-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 171,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration draws CL:0002062",
+   "focus": "CL:0002062"
+  }
+ ]
 }

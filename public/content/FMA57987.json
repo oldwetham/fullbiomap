@@ -175,5 +175,52 @@
     "/tissue/FMA57987.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-trps1-breast",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Breast: TRPS1 immunohistochemistry",
+   "caption": "Breast tissue stained for transcriptional repressor GATA binding 1 (TRPS1). Brown: TRPS1 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of breast tissue with TRPS1 protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): TRPS1 immunohistochemistry in breast, https://images.proteinatlas.org/71767/165338_B_2_4_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000104447-TRPS1/tissue/breast",
+   "imageUrl": "https://images.proteinatlas.org/71767/165338_B_2_4_rna_selected.jpg",
+   "thumb": "/figures/hpa-trps1-breast-thumb.webp",
+   "url": "/figures/hpa-trps1-breast.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “breast” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-breast",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Breast",
+   "caption": "Breast. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Breast",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/breast/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Sein_01.png",
+   "thumb": "/figures/servier-breast-thumb.webp",
+   "url": "/figures/servier-breast.webp",
+   "width": 360,
+   "height": 555,
+   "thumbWidth": 156,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Breast” = “breast”"
+  }
+ ]
 }

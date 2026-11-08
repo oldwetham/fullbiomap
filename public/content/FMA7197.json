@@ -280,5 +280,156 @@
     "/tissue/FMA7197.json"
    ]
   }
- }
+ },
+ "figures": [
+  {
+   "id": "hpa-hp-liver",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Liver: HP immunohistochemistry",
+   "caption": "Liver tissue stained for haptoglobin (HP). Brown: HP protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of liver tissue with HP protein stained brown and cell nuclei stained blue.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): HP immunohistochemistry in liver, https://images.proteinatlas.org/47750/118508_A_9_4_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000257017-HP/tissue/liver",
+   "imageUrl": "https://images.proteinatlas.org/47750/118508_A_9_4_rna_selected.jpg",
+   "thumb": "/figures/hpa-hp-liver-thumb.webp",
+   "url": "/figures/hpa-hp-liver.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “liver” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "hra-liver-liver-lobule",
+   "source": "hra",
+   "sourceName": "Human Reference Atlas v2.5",
+   "kind": "diagram",
+   "title": "Liver lobule (functional tissue unit)",
+   "caption": "Functional tissue unit: liver lobule. An illustration of the smallest repeating unit of this tissue and the cell types in it.",
+   "alt": "Illustration of the liver lobule and its cell types.",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Bajema, Rachel. 2026. 2D Liver Lobule Functional Tissue Unit (FTU) for Liver, v1.5. https://doi.org/10.48539/HBM693.LTPG.393. Accessed on June 15, 2026. HuBMAP Human Reference Atlas v2.5, CC BY 4.0.",
+   "pageUrl": "https://doi.org/10.48539/HBM693.LTPG.393",
+   "imageUrl": "https://cdn.humanatlas.io/digital-objects/2d-ftu/liver-liver-lobule/v1.5/assets/2d-ftu-liver-liver-lobule.svg",
+   "url": "/ftu/liver-liver-lobule.svg",
+   "ftu": {
+    "name": "liver-liver-lobule",
+    "label": "Liver lobule",
+    "hits": [
+     {
+      "cl": "CL:0000075",
+      "label": "columnar/cuboidal epithelial cell",
+      "ids": [
+       "Columnar_Cuboidal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000091",
+      "label": "Kupffer Cell",
+      "ids": [
+       "Kupffer_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000182",
+      "label": "hepatocyte",
+      "ids": [
+       "Hepatocyte"
+      ]
+     },
+     {
+      "cl": "CL:0000241",
+      "label": "stratified cuboidal epithelial cell",
+      "ids": [
+       "Stratified_Cuboidal_Epithelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0000632",
+      "label": "hepatic stellate cell",
+      "ids": [
+       "Hepatic_Stellate_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002196",
+      "label": "Hepatic oval stem cell",
+      "ids": [
+       "Hepatic_Progenitor_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0002543",
+      "label": "vein endothelial cell",
+      "ids": [
+       "Vein_Endothelial_Cell"
+      ]
+     },
+     {
+      "cl": "CL:0009100",
+      "label": "hepatic portal fibroblast",
+      "ids": [
+       "Hepatic_Portal_Fibroblast"
+      ]
+     },
+     {
+      "cl": "CL:0019018",
+      "label": "blood vessel smooth muscle cell",
+      "ids": [
+       "Blood_Vessel_Smooth_Muscle_Cell"
+      ]
+     },
+     {
+      "cl": "CL:1000398",
+      "label": "endothelial cell of hepatic sinusoid",
+      "ids": [
+       "Endothelial_Cell_Of_Hepatic_Sinusoid"
+      ]
+     },
+     {
+      "cl": "CL:1000413",
+      "label": "endothelial cell of artery",
+      "ids": [
+       "Endothelial_Cell_Of_Artery"
+      ]
+     }
+    ],
+    "tissue": "UBERON:0004647"
+   },
+   "thumb": "/figures/hra-liver-liver-lobule-thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 129,
+   "status": "auto",
+   "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
+  },
+  {
+   "id": "servier-liver",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Liver",
+   "caption": "Liver. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Liver",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/liver/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/foie.png",
+   "thumb": "/figures/servier-liver-thumb.webp",
+   "url": "/figures/servier-liver.webp",
+   "width": 544,
+   "height": 423,
+   "thumbWidth": 240,
+   "thumbHeight": 187,
+   "status": "auto",
+   "match": "Servier title “Liver” = “liver”"
+  }
+ ]
 }

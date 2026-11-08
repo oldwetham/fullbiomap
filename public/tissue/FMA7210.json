@@ -106,31 +106,54 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/testis.jpg",
-   "organ": "testis",
-   "tissue": "testis",
+   "id": "hpa-prm1-testis",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Testis: PRM1 immunohistochemistry",
    "caption": "Testis tissue stained for protamine 1 (PRM1). Brown: PRM1 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of testis tissue with PRM1 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "PRM1",
-    "name": "Protamine 1",
-    "ensembl": "ENSG00000175646",
-    "uniprot": [
-     "P04553"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000175646-PRM1/tissue/testis",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for testis; IHC reliability enhanced, high expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PRM1 immunohistochemistry in testis, https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): PRM1 immunohistochemistry in testis, https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000175646-PRM1/tissue/testis",
+   "imageUrl": "https://images.proteinatlas.org/55150/125940_A_5_6_rna_selected.jpg",
+   "thumb": "/figures/hpa-prm1-testis-thumb.webp",
+   "url": "/figures/hpa-prm1-testis.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “testis” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-testicle",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Testicle",
+   "caption": "Testicle. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Testicle",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/testicle/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/testicle.png",
+   "thumb": "/figures/servier-testicle-thumb.webp",
+   "url": "/figures/servier-testicle.webp",
+   "width": 372,
+   "height": 387,
+   "thumbWidth": 231,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Testicle” = “Testicle”"
   }
  ],
+ "units": [],
  "sources": [
   {
    "name": "OpenStax Anatomy and Physiology 2e, 27.1 (CC BY 4.0 version)",

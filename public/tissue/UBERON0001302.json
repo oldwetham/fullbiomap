@@ -2149,29 +2149,30 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/fallopian-tube.jpg",
-   "organ": "fallopian tube",
-   "tissue": "fallopian tube",
+   "id": "hpa-ovgp1-fallopian-tube",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Fallopian tube: OVGP1 immunohistochemistry",
    "caption": "Fallopian tube tissue stained for oviductal glycoprotein 1 (OVGP1). Brown: OVGP1 protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of fallopian tube tissue with OVGP1 protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "OVGP1",
-    "name": "Oviductal glycoprotein 1",
-    "ensembl": "ENSG00000085465",
-    "uniprot": [
-     "Q12889"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/62205/142921_A_8_7_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000085465-OVGP1/tissue/fallopian%20tube",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for fallopian tube; IHC reliability enhanced, high expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): OVGP1 immunohistochemistry in fallopian tube, https://images.proteinatlas.org/62205/142921_A_8_7_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): OVGP1 immunohistochemistry in fallopian tube, https://images.proteinatlas.org/62205/142921_A_8_7_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000085465-OVGP1/tissue/fallopian%20tube",
+   "imageUrl": "https://images.proteinatlas.org/62205/142921_A_8_7_rna_selected.jpg",
+   "thumb": "/figures/hpa-ovgp1-fallopian-tube-thumb.webp",
+   "url": "/figures/hpa-ovgp1-fallopian-tube.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “fallopian tube” is this organ's tissue in pipeline/maps/tissue-media.json"
   }
- ]
+ ],
+ "units": []
 }

@@ -127,29 +127,52 @@
    ]
   }
  ],
- "media": [
+ "figures": [
   {
-   "kind": "histology",
-   "url": "/histology/urinary-bladder.jpg",
-   "organ": "urinary bladder",
-   "tissue": "urinary bladder",
+   "id": "hpa-upk1a-urinary-bladder",
+   "source": "hpa",
+   "sourceName": "Human Protein Atlas 25.1",
+   "kind": "micrograph",
+   "title": "Urinary bladder: UPK1A immunohistochemistry",
    "caption": "Urinary bladder tissue stained for uroplakin 1A (UPK1A). Brown: UPK1A protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of urinary bladder tissue with UPK1A protein stained brown and cell nuclei stained blue.",
-   "gene": {
-    "symbol": "UPK1A",
-    "name": "Uroplakin 1A",
-    "ensembl": "ENSG00000105668",
-    "uniprot": [
-     "O00322"
-    ]
-   },
-   "imageUrl": "https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg",
-   "pageUrl": "https://www.proteinatlas.org/ENSG00000105668-UPK1A/tissue/urinary%20bladder",
-   "stain": "immunohistochemistry (DAB, brown) with hematoxylin counterstain (blue)",
-   "selection": "HPA tissue enriched gene for urinary bladder; IHC reliability enhanced, high expression",
    "license": "CC BY 4.0",
-   "licenseUrl": "https://www.proteinatlas.org/about/licence",
-   "attribution": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): UPK1A immunohistochemistry in urinary bladder, https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg. CC BY 4.0."
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "terms": "https://www.proteinatlas.org/about/licence",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): UPK1A immunohistochemistry in urinary bladder, https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000105668-UPK1A/tissue/urinary%20bladder",
+   "imageUrl": "https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg",
+   "thumb": "/figures/hpa-upk1a-urinary-bladder-thumb.webp",
+   "url": "/figures/hpa-upk1a-urinary-bladder.webp",
+   "width": 400,
+   "height": 400,
+   "thumbWidth": 240,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "HPA tissue “urinary bladder” is this organ's tissue in pipeline/maps/tissue-media.json"
+  },
+  {
+   "id": "servier-bladder",
+   "source": "servier",
+   "sourceName": "Servier Medical Art",
+   "kind": "illustration",
+   "title": "Bladder",
+   "caption": "Bladder. Illustration from Servier Medical Art.",
+   "alt": "Illustration: Bladder",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "credit": "Image provided by Servier Medical Art (https://smart.servier.com), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+   "pageUrl": "https://smart.servier.com/smart_image/bladder/",
+   "imageUrl": "https://smart.servier.com/wp-content/uploads/2016/10/vessie.png",
+   "thumb": "/figures/servier-bladder-thumb.webp",
+   "url": "/figures/servier-bladder.webp",
+   "width": 863,
+   "height": 1400,
+   "thumbWidth": 148,
+   "thumbHeight": 240,
+   "status": "auto",
+   "match": "Servier title “Bladder” = “Bladder”"
   }
- ]
+ ],
+ "units": []
 }

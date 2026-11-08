@@ -1,0 +1,13 @@
+---
+id: "CL:0020008"
+tier: 1
+status: "auto"
+source: {"kind": "cl", "name": "Cell Ontology", "term": "CL:0020008", "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020008", "license": "CC BY 4.0"}
+sources: [{"title": "Cell Ontology CL:0020008", "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0020008", "license": "CC BY 4.0"}]
+license: "CC BY 4.0"
+attribution: "Definition from the Cell Ontology (CL 2026-06-08), CL:0020008. CC BY 4.0."
+generated_by: "pipeline/07-tier1.py"
+reviewer: null
+reviewed_on: null
+---
+A large aspiny interneuron of the striatum that serves as the principal intrinsic source of acetylcholine while simultaneously releasing GABA. It is defined by coexpression of cholinergic markers (ChAT and VAChT/Slc18a3) and GABAergic markers (GAD65/Gad2 and VGAT/Slc32a1) (Lozovaya et al., 2018). This MGE-derived neuron maintains Lhx6 expression associated with dual-transmitter identity (Fragkouli et al., 2009; Marin et al., 2000). Morphologically, it possesses a large soma (20–50 μm diameter), 2–4 thick aspiny dendrites extending radially ~1 mm, and locally ramified axons with hundreds of thousands of varicosities (Wilson et al., 1990; Lim et al., 2014).

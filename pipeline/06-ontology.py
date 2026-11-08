@@ -382,6 +382,70 @@ for e in hra_edges.values():
     counts[f'hra connection {e["rel"]}'] += 1
     hra_rel_lines.append(json.dumps({**e, 'evidence': ', '.join(sorted(e['evidence']))}, ensure_ascii=False, sort_keys=True))
 (graph / 'edges.hra-fma.jsonl').write_text('\n'.join(sorted(hra_rel_lines)) + '\n' if hra_rel_lines else '')
+
+# Cell types (Phase 4): ASCT+B tables from step 04 -> graph/asctb.jsonl (one line per distinct row:
+# table, anatomical structure chain, cell types). Only Cell Ontology ids are kept; provisional PCL ids
+# and other prefixes are counted and skipped. Then Cell Ontology facts -> graph/defs.cells.jsonl.
+CL_IRI = 'http://purl.obolibrary.org/obo/CL_'
+TABLE_SKIP = {'placenta'}  # pregnancy anatomy is not shown, as with the placenta models
+asctb_rows, skipped_ct = set(), Counter()
+for name, info in sorted(hra_release.get('tables', {}).items()):
+    if name in TABLE_SKIP:
+        continue
+    with open(ROOT / 'data/raw/hra' / hra_release['release'] / 'asct-b' / name / info['files'][0], encoding='utf-8', newline='') as fh:
+        rows = list(csv.reader(fh))
+    head = next(i for i, r in enumerate(rows) if r and r[0].startswith('AS/1'))
+    H = rows[head]
+    col = {c: i for i, c in enumerate(H)}
+    levels = lambda prefix: sorted({int(m.group(1)) for c in H for m in [re.fullmatch(rf'{prefix}/(\d+)/ID', c)] if m})
+    for r in rows[head + 1:]:
+        cell = lambda c: (r[col[c]].strip() if c in col and col[c] < len(r) else '')
+        chain = []
+        for k in levels('AS'):
+            i = re.sub(r'^(UBERON|FMA)_', r'\1:', cell(f'AS/{k}/ID'))
+            if re.fullmatch(r'(UBERON|FMA):\d+', i):
+                chain.append([i, cell(f'AS/{k}/LABEL') or cell(f'AS/{k}')])
+        cts = []
+        for k in levels('CT'):
+            i = re.sub(r'^CL_', 'CL:', cell(f'CT/{k}/ID'))
+            if re.fullmatch(r'CL:\d+', i):
+                cts.append([i, cell(f'CT/{k}/LABEL') or cell(f'CT/{k}')])
+            elif i:
+                skipped_ct[i.split(':')[0]] += 1
+        if chain and cts:
+            asctb_rows.add(json.dumps({'table': name, 'version': info['version'], 'chain': chain, 'cellTypes': cts}, ensure_ascii=False, sort_keys=True))
+(graph / 'asctb.jsonl').write_text('\n'.join(sorted(asctb_rows)) + '\n')
+counts['asct-b rows with cell types'] = len(asctb_rows)
+for k, v in skipped_ct.items():
+    counts[f'asct-b cell type ids skipped ({k})'] = v
+cl_ids = sorted({c[0] for line in asctb_rows for c in json.loads(line)['cellTypes']} | {'CL:0000000'})
+
+def fetch_term(ontology, iri, oid):
+    try:
+        d = get_json(entity_url(ontology, iri))
+    except NotFound:
+        return oid, None
+    defs = [(clean(v), axioms) for v, axioms in values(d.get(DEF))]
+    cites = defs and cites_wikipedia([x for a in defs[0][1] for x in (a.get(DBXREF) if isinstance(a.get(DBXREF), list) else [a.get(DBXREF)] if a.get(DBXREF) else [])])
+    return oid, {'id': oid, 'iri': iri, 'label': (d.get('label') or [None])[0], 'definition': defs[0][0] if defs else None,
+                 'definitionCitesWikipedia': bool(cites) or bool(defs and 'wikipedia' in defs[0][0].lower()),
+                 'synonyms': sorted({clean(v) for v, _ in values(d.get('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'))})}
+
+with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+    cells = dict(pool.map(lambda c: fetch_term('cl', CL_IRI + c[3:], c), cl_ids))
+(graph / 'defs.cells.jsonl').write_text('\n'.join(json.dumps(cells[c], ensure_ascii=False, sort_keys=True) for c in cl_ids if cells[c]) + '\n')
+counts['cell ontology terms'] = sum(1 for c in cl_ids if cells[c])
+counts['cell ontology definitions citing Wikipedia (skipped)'] = sum(1 for c in cl_ids if cells[c] and cells[c]['definitionCitesWikipedia'])
+organelles = json.loads((ROOT / 'pipeline/maps/organelles.json').read_text())['organelles']
+with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+    go = dict(pool.map(lambda o: fetch_term('go', 'http://purl.obolibrary.org/obo/GO_' + o['id'][3:], o['id']), organelles))
+(graph / 'defs.go.jsonl').write_text('\n'.join(json.dumps(go[o['id']], ensure_ascii=False, sort_keys=True) for o in organelles) + '\n')
+for o in ('cl', 'go'):
+    d = get_json(f'{OLS}/v2/ontologies/{o}')
+    sources[o] = {'title': d.get('title'), 'version': d.get('http://www.w3.org/2002/07/owl#versionInfo') or d.get('version'),
+                  'versionIri': d.get('http://www.w3.org/2002/07/owl#versionIRI'), 'olsLicense': d.get('license'), 'olsLoaded': d.get('loaded'),
+                  'license': {'name': 'CC BY 4.0', 'url': 'https://creativecommons.org/licenses/by/4.0/'}}
+(graph / 'sources.json').write_text(json.dumps(sources, indent=1, sort_keys=True) + '\n')
 (graph / 'edges.fma.jsonl').write_text('\n'.join(sorted(set(edge_lines))) + '\n')
 
 # HRA vasculature (VCCF) branching -----------------------------------------------------

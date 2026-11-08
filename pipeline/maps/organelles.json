@@ -1,0 +1,70 @@
+{
+ "_comment": "Organelles of the generic 3D cell (pipeline/13-cell.mjs builds the geometry; step 06 fetches the GO definitions). Colors are the cell model's palette.",
+ "cell": {
+  "id": "CL:0000000",
+  "label": "Cell",
+  "reason": "The Cell Ontology root term 'cell' is the public id for a generic cell."
+ },
+ "organelles": [
+  {
+   "id": "GO:0005886",
+   "key": "membrane",
+   "label": "Cell membrane",
+   "color": "#d9b8c4"
+  },
+  {
+   "id": "GO:0005634",
+   "key": "nucleus",
+   "label": "Nucleus",
+   "color": "#7f8fc9"
+  },
+  {
+   "id": "GO:0005730",
+   "key": "nucleolus",
+   "label": "Nucleolus",
+   "color": "#3f4a86"
+  },
+  {
+   "id": "GO:0005791",
+   "key": "rough-er",
+   "label": "Rough endoplasmic reticulum",
+   "color": "#5fa8a0"
+  },
+  {
+   "id": "GO:0005840",
+   "key": "ribosome",
+   "label": "Ribosomes",
+   "color": "#2f6b5c"
+  },
+  {
+   "id": "GO:0005790",
+   "key": "smooth-er",
+   "label": "Smooth endoplasmic reticulum",
+   "color": "#9fd0b4"
+  },
+  {
+   "id": "GO:0005794",
+   "key": "golgi",
+   "label": "Golgi apparatus",
+   "color": "#e0a85a"
+  },
+  {
+   "id": "GO:0005739",
+   "key": "mitochondrion",
+   "label": "Mitochondria",
+   "color": "#c8644f"
+  },
+  {
+   "id": "GO:0005764",
+   "key": "lysosome",
+   "label": "Lysosomes",
+   "color": "#a77bc2"
+  },
+  {
+   "id": "GO:0005856",
+   "key": "cytoskeleton",
+   "label": "Cytoskeleton",
+   "color": "#b9b2a4"
+  }
+ ]
+}

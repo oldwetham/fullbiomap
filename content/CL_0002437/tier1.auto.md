@@ -1,0 +1,13 @@
+---
+id: "CL:0002437"
+tier: 1
+status: "auto"
+source: {"kind": "cl", "name": "Cell Ontology", "term": "CL:0002437", "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002437", "license": "CC BY 4.0"}
+sources: [{"title": "Cell Ontology CL:0002437", "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002437", "license": "CC BY 4.0"}]
+license: "CC BY 4.0"
+attribution: "Definition from the Cell Ontology (CL 2026-06-08), CL:0002437. CC BY 4.0."
+generated_by: "pipeline/07-tier1.py"
+reviewer: null
+reviewed_on: null
+---
+A mature CD8-positive, CD4-negative alpha-beta T cell found in the thymus that is CD24-low and has high expression of the T cell receptor.

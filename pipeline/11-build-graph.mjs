@@ -457,15 +457,20 @@ for (const n of nodes) {
   const holder = partChain(n).find(x => boards.has(x.id));
   if (holder) n.ladder = {...n.ladder, board: boardRef(holder)};
 }
-// Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json), and the cell types no organ in
-// the body holds (pipeline/maps/extra-cell-types.json): public/models/organs/standalone.json, written below.
+// Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json: female organs, and lymphatic
+// organs BodyParts3D has no mesh for), and the cell types no organ in the body holds (pipeline/maps/extra-cell-types.json):
+// public/models/organs/standalone.json, written below.
 const standalone = JSON.parse(read('pipeline/maps/standalone-organs.json'));
 const standaloneOrganEntries = standalone.organs.map(o => {
   const m = hraModels[o.object];
   if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
   const node = byId.get(m.rootConceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
-  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId,
-    tissue: node?.ladder?.organ?.tissue?.length ? node.ladder.organ.tissue : tissueOf(node)};  // its tissue boards (Zoom in from the organ on its own stage)
+  if (!node?.ladder) throw new Error(`standalone organ ${o.object}: no node for its root concept ${m.rootConceptId}`);
+  // Its tissue boards (Zoom in from the organ on its own stage): its ladder organ's, else the board its ladder names (a
+  // left palatine tonsil opens the palatine tonsil's), else its own or an is_a ancestor's.
+  const tissue = node.ladder.organ?.tissue?.length ? node.ladder.organ.tissue : node.ladder.board?.tissue ?? tissueOf(node);
+  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, system: node.ladder.system,
+    manifest: m.manifest, conceptId: m.rootConceptId, tissue};
 });
 const standaloneCellEntries = extraCells.filter(x => x.standalone).map(x => { const n = byId.get(x.cl);
   return {object: `cell-${n.conceptId.toLowerCase()}`, kind: 'cell', group: 'cells', groupLabel: 'Cells', label: n.label, terms: x.terms ?? [], manifest: n.geometry.model, conceptId: n.conceptId, tissue: []}; });
@@ -559,8 +564,9 @@ if (Object.keys(hraModels).length) {
     ...(female ? [`| Female | ${female.parts} | ${female.concepts} | HRA v2.5 united female ${female.version} |`] : []), '',
     '## Organs with interiors', '', '| Body | Organ | Model | Parts |', '| --- | --- | --- | --- |',
     ...rows.filter(r => r.attachTo).sort((a, b) => a.sex.localeCompare(b.sex) || a.label.localeCompare(b.label)).map(r => `| ${r.sex} | ${r.label} | ${r.object} ${r.version} | ${r.parts} |`), '',
-    '## Models not attached', '', 'No structure in that body to zoom into (BodyParts3D has no larynx, lymph node, palatine tonsil or renal pelvis mesh; the female body has no separate renal pelvis per side).', '',
-    ...rows.filter(r => !r.attachTo).map(r => `- ${r.object} (${r.parts} parts)`)];
+    '## Models not attached', '', 'No structure in that body to zoom into (BodyParts3D has no larynx, lymph node, palatine tonsil or renal pelvis mesh; the female body has no separate renal pelvis per side). Those listed in `pipeline/maps/standalone-organs.json` open on their own stage instead.', '',
+    ...rows.filter(r => !r.attachTo).map(r => { const alone = standaloneOrganEntries.find(e => e.object === r.object);
+      return `- ${r.object} (${r.parts} part${r.parts === 1 ? '' : 's'})${alone ? `: opens on its own stage, ${alone.groupLabel} › ${alone.label}` : ''}`; })];
   fs.writeFileSync(path.join(root, 'reports/hra.md'), lines.join('\n') + '\n');
 }
 const byRel = {};

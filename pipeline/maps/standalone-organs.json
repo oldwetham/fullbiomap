@@ -1,9 +1,13 @@
 {
- "_comment": "Organs opened on their own organ stage, outside any body (docs: female whole-body view disabled 2026-11-07 because HRA models only some of the female organs). Read by pipeline/11-build-graph.mjs, which writes public/models/organs/standalone.json for the app's search. `terms` are extra search words.",
+ "_comment": "Organs opened on their own organ stage, outside any body: female organs (docs: female whole-body view disabled 2026-11-07 because HRA models only some of the female organs) and lymphatic organs BodyParts3D has no mesh for (added 2026-11-08). Read by pipeline/11-build-graph.mjs, which writes public/models/organs/standalone.json for the app's search. `terms` are extra search words.",
  "groups": {
   "female": {
    "label": "Female organs",
    "reason": "HRA female-specific organs; no open-data complete female body exists yet, so they are shown on their own rather than inside the male body."
+  },
+  "lymphatic": {
+   "label": "Lymphatic organs",
+   "reason": "BodyParts3D has no lymph node or palatine tonsil mesh, so nothing in the body opens these HRA models or their tissue boards. Neither model is sex-specific; the male models are used, as for the body."
   }
  },
  "organs": [
@@ -71,6 +75,33 @@
     "breast",
     "mammary gland",
     "lactiferous"
+   ]
+  },
+  {
+   "object": "lymph-node-male",
+   "group": "lymphatic",
+   "label": "Lymph node",
+   "terms": [
+    "mesenteric lymph node",
+    "lymph gland"
+   ]
+  },
+  {
+   "object": "palatine-tonsil-male-left",
+   "group": "lymphatic",
+   "label": "Left palatine tonsil",
+   "terms": [
+    "palatine tonsil",
+    "tonsil"
+   ]
+  },
+  {
+   "object": "palatine-tonsil-male-right",
+   "group": "lymphatic",
+   "label": "Right palatine tonsil",
+   "terms": [
+    "palatine tonsil",
+    "tonsil"
    ]
   }
  ]

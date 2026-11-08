@@ -7,6 +7,7 @@
   "terms": [
    "womb"
   ],
+  "system": "reproductive",
   "manifest": "/models/organs/uterus-female.json",
   "conceptId": "UBERON0000995",
   "tissue": [
@@ -22,6 +23,7 @@
    "ovary",
    "ovaries"
   ],
+  "system": "reproductive",
   "manifest": "/models/organs/ovary-female-left.json",
   "conceptId": "UBERON0002119",
   "tissue": [
@@ -37,6 +39,7 @@
    "ovary",
    "ovaries"
   ],
+  "system": "reproductive",
   "manifest": "/models/organs/ovary-female-right.json",
   "conceptId": "UBERON0002118",
   "tissue": [
@@ -53,6 +56,7 @@
    "uterine tube",
    "oviduct"
   ],
+  "system": "reproductive",
   "manifest": "/models/organs/fallopian-tube-female-left.json",
   "conceptId": "UBERON0001303",
   "tissue": [
@@ -69,6 +73,7 @@
    "uterine tube",
    "oviduct"
   ],
+  "system": "reproductive",
   "manifest": "/models/organs/fallopian-tube-female-right.json",
   "conceptId": "UBERON0001302",
   "tissue": [
@@ -85,6 +90,7 @@
    "mammary gland",
    "lactiferous"
   ],
+  "system": "integumentary",
   "manifest": "/models/organs/mammary-gland-female-left.json",
   "conceptId": "FMA57991",
   "tissue": [
@@ -101,10 +107,59 @@
    "mammary gland",
    "lactiferous"
   ],
+  "system": "integumentary",
   "manifest": "/models/organs/mammary-gland-female-right.json",
   "conceptId": "FMA57987",
   "tissue": [
    "/tissue/FMA57987.json"
+  ]
+ },
+ {
+  "object": "lymph-node-male",
+  "group": "lymphatic",
+  "groupLabel": "Lymphatic organs",
+  "label": "Lymph node",
+  "terms": [
+   "mesenteric lymph node",
+   "lymph gland"
+  ],
+  "system": "lymphatic",
+  "manifest": "/models/organs/lymph-node-male.json",
+  "conceptId": "UBERON0002509",
+  "tissue": [
+   "/tissue/UBERON0002509.json"
+  ]
+ },
+ {
+  "object": "palatine-tonsil-male-left",
+  "group": "lymphatic",
+  "groupLabel": "Lymphatic organs",
+  "label": "Left palatine tonsil",
+  "terms": [
+   "palatine tonsil",
+   "tonsil"
+  ],
+  "system": "lymphatic",
+  "manifest": "/models/organs/palatine-tonsil-male-left.json",
+  "conceptId": "FMA54974",
+  "tissue": [
+   "/tissue/UBERON0002373.json"
+  ]
+ },
+ {
+  "object": "palatine-tonsil-male-right",
+  "group": "lymphatic",
+  "groupLabel": "Lymphatic organs",
+  "label": "Right palatine tonsil",
+  "terms": [
+   "palatine tonsil",
+   "tonsil"
+  ],
+  "system": "lymphatic",
+  "manifest": "/models/organs/palatine-tonsil-male-right.json",
+  "conceptId": "FMA54973",
+  "tissue": [
+   "/tissue/UBERON0002373.json"
   ]
  },
  {

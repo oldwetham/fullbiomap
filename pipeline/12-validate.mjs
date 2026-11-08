@@ -103,9 +103,11 @@ for (const [id, p] of Object.entries(PROFILES)) {
 }
 const attributionText = fs.readFileSync(path.join(root, 'public/ATTRIBUTION.md'), 'utf8');
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId) && !CELL_SCALES.has(n.scale)) fail(n.id, 'node is neither an atlas nor an HRA concept');
-// Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
+// Organs opened on their own (female organs, lymphatic organs the body has no mesh for): model present, organ has a node
+// with tier-1 text.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
-for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : []) {
+const standaloneList = fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : [];
+for (const o of standaloneList) {
   requireManifest(o.manifest, `standalone organ ${o.object}`);
   for (const t of o.tissue ?? []) requirePath(t, `standalone organ ${o.object}`, 'tissue board');
   const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
@@ -276,6 +278,14 @@ for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
   checkFigures(b.units, `${where} units`, null, Infinity);
   if ('media' in b) fail(where, 'boards list figures and units, not media; rerun step 11');
 }
+// Every tissue board opens from somewhere: a structure in the body whose tissue reaches it (its ladder board, else its
+// organ's; or its organ's from inside that organ's interior), or an organ on its own stage (pipeline/maps/standalone-organs.json).
+const opensBoard = new Set(standaloneList.flatMap(o => o.tissue ?? []));
+for (const n of nodes) if (conceptIds.has(n.conceptId)) {
+  const l = n.ladder ?? {};
+  for (const t of [...((l.board ?? l.organ)?.tissue ?? []), ...(l.organ?.interior?.male?.length ? l.organ.tissue ?? [] : [])]) opensBoard.add(t);
+}
+for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) if (!opensBoard.has(`/tissue/${f}`)) fail(`tissue/${f}`, 'nothing opens this board: no structure in the body reaches it and no organ on its own stage shows it (pipeline/maps/standalone-organs.json)');
 // Search and cell stages (public/content/cells.json, step 11): every cell type and organelle is searchable, each cell type
 // opens its node's model, an organelle opens in a cell whose model draws it, and each "Found in" link opens a board that
 // lists the cell type, from a body concept whose tissue reaches that board or an organ on its own stage that shows it.

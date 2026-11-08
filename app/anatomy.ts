@@ -82,18 +82,22 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
  return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder};
 }
 
-/** Deep links: [female/]<id>[/inside[/<part>]]. <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252);
- * FMA:7088 and FMA_7088 spellings are accepted. Every Phase 0-2 link (#FMA7088) still parses. */
-export interface HashState {body:Body;id:string;inside:boolean;part:string}
+/** Deep links: [female/]<id>[/inside[/<part>]], or organ/<hra-object>[/<part>] for an organ opened on its own
+ * (e.g. #organ/uterus-female). <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252); FMA:7088 and
+ * FMA_7088 spellings are accepted. Every Phase 0-2 link (#FMA7088) still parses; #female links are mapped
+ * to the main body by the page (the female whole-body view is disabled). */
+export interface HashState {body:Body;id:string;inside:boolean;part:string;organ?:string}
 const cleanId=(s:string)=>s.replace(/[:_]/g,'');
 export function parseHash(hash:string):HashState{
  let raw='';try{raw=decodeURIComponent(hash.replace(/^#/,''));}catch{raw='';}
  const bits=raw.split('/').filter(Boolean);let body:Body='male';
+ if(bits[0]==='organ'&&bits[1])return {body,id:'',inside:false,part:bits[2]?cleanId(bits[2]):'',organ:bits[1]};
  if(bits[0]==='female'||bits[0]==='male')body=bits.shift() as Body;
  const id=bits[0]?cleanId(bits[0]):'',inside=bits[1]==='inside',part=inside&&bits[2]?cleanId(bits[2]):'';
  return {body,id,inside,part};
 }
 export function formatHash(h:HashState){
+ if(h.organ)return `#organ/${h.organ}${h.part?`/${h.part}`:''}`;
  if(!h.id)return h.body==='female'?'#female':'';
  return `#${h.body==='female'?'female/':''}${h.id}${h.inside?`/inside${h.part?`/${h.part}`:''}`:''}`;
 }

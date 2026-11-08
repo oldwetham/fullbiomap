@@ -16,12 +16,14 @@ export const SYSTEMS: {id:SystemId;name:string;color:string;description:string}[
  {id:'integumentary',name:'Body surface',color:'#ba9b7d',description:'The body surface provides an outer anatomical reference. The integumentary system forms a protective barrier and contributes to sensation and temperature regulation.'},
  {id:'connective',name:'Connective tissue',color:'#aec3bb',description:'Cartilage, ligaments, and other connective tissues support, connect, and separate structures. Their roles include stabilizing joints and distributing mechanical loads.'},
 ];
-/** layer 'shell': a see-through surface layer (the male lung surfaces); a tap selects its whole concept. */
-export interface Part {id:string;name:string;conceptId:string;system:SystemId;layer?:'shell';chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
+/** layer 'shell': see-through surface that takes taps (lung surfaces, nucleus); a tap selects its whole concept. 'envelope': see-through, taps go to what is inside first (cell membrane). system may also be a palette id (the cell's organelles). */
+export interface Part {id:string;name:string;conceptId:string;system:SystemId;layer?:'shell'|'envelope';chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
 export interface Concept {id:string;name:string;elements:string[]}
 export type Body = 'male'|'female';
 /** stage: an organ interior normalized onto the stage (HRA); gzipOnly: chunks ship only as .gz and need DecompressionStream. */
-export interface Atlas {version:string;sex?:Body;source?:string;scope?:string;gzipOnly?:boolean;stage?:{magnification:number;rootConceptId:string|null};parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
+export interface PaletteEntry {id:string;color:string;label:string}
+/** palette: extra colored groups used like systems (the cell's organelles); wholeConcepts: a tap selects the tapped part's whole concept. */
+export interface Atlas {version:string;sex?:Body;source?:string;scope?:string;gzipOnly?:boolean;stage?:{magnification:number|null;rootConceptId:string|null};palette?:PaletteEntry[];wholeConcepts?:boolean;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
 export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;/** Part ids tinted as related to the selection (second highlight color). */highlighted?:string[];explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];

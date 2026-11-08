@@ -47,9 +47,13 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
    return best;
   };
   // shell: a see-through surface layer of a system (the male lung surfaces), drawn like the skin but denser.
-  const materialFor=(system:string,shell=false)=>{
-   const seeThrough=system==='integumentary'||shell;
-   const m=new T.MeshStandardMaterial({color:SYSTEMS.find(s=>s.id===system)?.color??'#aebbb8',metalness:.08,roughness:.53,side:T.DoubleSide,transparent:seeThrough,opacity:shell?.22:system==='integumentary'?.1:1,depthWrite:!seeThrough});
+  // A manifest may bring its own palette (the cell's organelles), used like systems.
+  const palette=new Map((atlas.palette??[]).map(x=>[x.id,x.color]));
+  // layer 'shell': see-through surface that takes taps (lung surfaces, nucleus); 'envelope': see-through
+  // surface that takes a tap only when nothing inside it is hit (cell membrane).
+  const materialFor=(system:string,layer?:string)=>{
+   const shell=layer==='shell',seeThrough=system==='integumentary'||!!layer;
+   const m=new T.MeshStandardMaterial({color:palette.get(system)??SYSTEMS.find(s=>s.id===system)?.color??'#aebbb8',metalness:.08,roughness:.53,side:T.DoubleSide,transparent:seeThrough,opacity:shell?.22:layer==='envelope'?.14:system==='integumentary'?.1:1,depthWrite:!seeThrough});
    m.onBeforeCompile=shader=>{
     shader.uniforms.partState={value:partTexture};shader.uniforms.selectionState={value:selectionTexture};shader.uniforms.stateWidth={value:width};
     shader.vertexShader='attribute float partIndex; uniform sampler2D partState; uniform sampler2D selectionState; uniform float stateWidth; varying float partVisible; varying float partSelected; varying float partRelated;\n'+shader.vertexShader;
@@ -60,8 +64,8 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
     shader.fragmentShader=shader.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\ndiffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.42, 0.85, 0.78), partSelected * 0.75);\ndiffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.94, 0.63, 0.25), partRelated * 0.8);');
    };materials.push(m);return m;
   };
-  const mats=new Map(SYSTEMS.map(s=>[s.id,materialFor(s.id)])),shellMats=new Map<string,T.Material>();
-  const shellMaterial=(system:string)=>{let m=shellMats.get(system);if(!m){m=materialFor(system,true);shellMats.set(system,m);}return m;};
+  const mats=new Map<string,T.Material>([...SYSTEMS.map(s=>s.id),...palette.keys()].map(id=>[id,materialFor(id)])),layerMats=new Map<string,T.Material>();
+  const layerMaterial=(system:string,layer:string)=>{const k=`${system}:${layer}`;let m=layerMats.get(k);if(!m){m=materialFor(system,layer);layerMats.set(k,m);}return m;};
   let loaded=0;
   const loadChunk=async(ci:number)=>{
    const chunk=atlas.chunks[ci],compressed=!!chunk.gzip&&typeof DecompressionStream!=='undefined';const response=await fetch(compressed?chunk.gzip!:chunk.url,{signal:abort.signal});const buffer=await decodeModelResponse(response,chunk.bytes,compressed);if(disposed)return;
@@ -73,9 +77,9 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
     g.setAttribute('normal',new T.BufferAttribute(new Int16Array(buffer,p.normals,p.vertexCount*3),3,true));g.setIndex(new T.BufferAttribute(new Uint32Array(buffer,p.indices,p.indexCount),1));
     g.boundingBox=bounds[i].clone();g.computeBoundingSphere();const pick=new T.Mesh(g);pick.matrixAutoUpdate=false;pickers[i]=pick;geometries.push(g);
     g.setAttribute('partIndex',new T.BufferAttribute(new Float32Array(p.vertexCount).fill(i),1));
-    const group=p.layer==='shell'?`${p.system}:shell`:p.system,list=groups.get(group)??[];list.push(g);groups.set(group,list);
+    const group=p.layer?`${p.system}:${p.layer}`:p.system,list=groups.get(group)??[];list.push(g);groups.set(group,list);
    });
-   groups.forEach((gs,group)=>{const [system,layer]=group.split(':');const geometry=mergeGeometries(gs,false);if(!geometry)throw new Error('Could not assemble anatomy geometry.');geometries.push(geometry);const mesh=new T.Mesh(geometry,layer==='shell'?shellMaterial(system):mats.get(system as never));if(layer==='shell')mesh.renderOrder=1;mesh.frustumCulled=false;scene.add(mesh);});
+   groups.forEach((gs,group)=>{const [system,layer]=group.split(':');const geometry=mergeGeometries(gs,false);if(!geometry)throw new Error('Could not assemble anatomy geometry.');geometries.push(geometry);const mesh=new T.Mesh(geometry,layer?layerMaterial(system,layer):mats.get(system)!);if(layer)mesh.renderOrder=1;mesh.frustumCulled=false;scene.add(mesh);});
    lastState=null;loaded++;onProgress(Math.round(loaded/atlas.chunks.length*100));dirty=true;
   };
   (async()=>{try{let cursor=0;await Promise.all(Array.from({length:3},async()=>{while(cursor<atlas.chunks.length){const i=cursor++;await loadChunk(i);}}));if(!disposed){ready=true;dirty=true;}}catch(e){if(!disposed)onError(e instanceof Error?e.message:'Could not load the anatomy.');}})();
@@ -96,7 +100,10 @@ export default function AnatomyScene({atlas,state,onSelect,onProgress,onError}:P
    let nearest=Infinity,found=-1;const hasSolid=atlas.parts.some((p,i)=>p.system!=='integumentary'&&data[i*4+3]>.5);
    // Shells take taps (the skin does not). Only a selected shell lets taps through to the airways inside it;
    // the other lung's shell still takes the tap, so it can be selected next.
-   pickers.forEach((mesh,i)=>{if(!mesh||data[i*4+3]<.5||(hasSolid&&atlas.parts[i].system==='integumentary')||(atlas.parts[i].layer==='shell'&&selectedData[i*4]>0))return;worldBox.copy(bounds[i]).translate(mesh.position);if(!raycaster.ray.intersectBox(worldBox,hitPoint))return;const hits=raycaster.intersectObject(mesh,false);if(hits[0]&&hits[0].distance<nearest){nearest=hits[0].distance;found=i;}});
+   let envelope=-1,envelopeDistance=Infinity;
+   pickers.forEach((mesh,i)=>{if(!mesh||data[i*4+3]<.5||(hasSolid&&atlas.parts[i].system==='integumentary')||(atlas.parts[i].layer==='shell'&&selectedData[i*4]>0))return;
+    if(atlas.parts[i].layer==='envelope'){worldBox.copy(bounds[i]).translate(mesh.position);if(raycaster.ray.intersectBox(worldBox,hitPoint)){const h=raycaster.intersectObject(mesh,false);if(h[0]&&h[0].distance<envelopeDistance){envelopeDistance=h[0].distance;envelope=i;}}return;}worldBox.copy(bounds[i]).translate(mesh.position);if(!raycaster.ray.intersectBox(worldBox,hitPoint))return;const hits=raycaster.intersectObject(mesh,false);if(hits[0]&&hits[0].distance<nearest){nearest=hits[0].distance;found=i;}});
+   if(found<0)found=envelope;
    if(found<0&&amount>.45)found=findTarget(e.clientX-rect.left,e.clientY-rect.top,e.pointerType==='touch'?24:16);if(found>=0){hover.hidden=true;select.current(atlas.parts[found].id);}
   };
   renderer.domElement.addEventListener('pointerdown',down);renderer.domElement.addEventListener('pointermove',move);renderer.domElement.addEventListener('pointerup',up);renderer.domElement.addEventListener('pointercancel',cancel);

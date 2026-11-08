@@ -103,7 +103,7 @@ Node record:
     "tier2": {"status": "auto", "file": "content/FMA_7088/tier2.md"},
     "tier3": {"status": "missing"}
   },
-  "media": [{"kind": "histology", "url": "…", "license": "CC BY-SA 3.0", "attribution": "Human Protein Atlas, v24"}],
+  "media": [{"kind": "histology", "url": "…", "license": "CC BY 4.0", "attribution": "Human Protein Atlas 25.1", "gene": {"symbol": "UMOD", "uniprot": ["P07911"]}}],
   "sources": [{"title": "OpenStax A&P 2e §19.1", "url": "…", "license": "CC BY 4.0"}],
   "zoom": {"in": ["UBERON:0002084"], "out": ["BIOMAP:system-cardiovascular"]}
 }
@@ -131,7 +131,7 @@ Enums: `scale` ∈ body, system, organ, tissue, cell, organelle, molecule; conte
 
 ## Data sources & licensing matrix
 
-Everything in v1 is free to use on a public educational site; no Wikipedia text is used anywhere (decided 2026-11-07), so the only ShareAlike obligation comes from Human Protein Atlas images, and the only license to re-check at build time is OpenStax. Licenses verified 2026-11-07 against the linked pages.
+Everything in v1 is free to use on a public educational site; no Wikipedia text is used anywhere (decided 2026-11-07), and Human Protein Atlas 25.1 is CC BY 4.0 (pinned 2026-11-07; v24 was CC BY-SA 4.0), so no ShareAlike obligation remains; the only license to re-check at build time is OpenStax. Licenses verified 2026-11-07 against the linked pages.
 
 | Dataset | Contributes | License | Obligation in Bio Map |
 | --- | --- | --- | --- |
@@ -142,7 +142,7 @@ Everything in v1 is free to use on a public educational site; no Wikipedia text 
 | [Uberon](http://purl.obolibrary.org/obo/uberon/merged.owl), Cell Ontology, GO | Cross-species anatomy ids, cell type and organelle definitions | CC BY (OBO Foundry) | Credit each ontology |
 | [NCI Thesaurus](https://evsexplore.semantics.cancer.gov) (NCIt) via EBI OLS4 | Preferred tier-1 definition, reached through each Uberon term's NCIT xref | CC BY 4.0 | Cite NCIt version and concept code per structure |
 | [OpenStax Anatomy & Physiology 2e](https://openstax.org/books/anatomy-and-physiology-2e/pages/preface) | Tier-2 source text and figures | CC BY 4.0 on copies dated through Jan 2026; openstax.org pages dated Jun 2026 show CC BY-NC-SA | Use a CC BY copy (2022 PDF or GitHub `osbooks-anatomy-physiology`) and keep the required "Access for free at…" line; NC-SA is still fine for a free site |
-| [Human Protein Atlas](https://v24.proteinatlas.org/about/licence) | Histology images, tissue and cell-type expression per gene | CC BY-SA 3.0 | Image credit + link to the exact image or gene page |
+| [Human Protein Atlas](https://www.proteinatlas.org/about/licence) 25.1 | Histology images (one immunohistochemistry image per organ, of a tissue-enriched protein), tissue and cell-type expression per gene | CC BY 4.0 (25.1; v24 was CC BY-SA 4.0) | Image credit + link to the exact image and the gene's tissue page; caption names the stained protein; gene recorded for Phase 5 |
 | UniProt, AlphaFold DB | Protein records; predicted structures for every human protein | CC BY 4.0 | Cite accession |
 | RCSB / wwPDB | Experimental structures | Open; cite entry per wwPDB policy | Cite PDB id and primary citation |
 | [Mol\*](https://molstar.org) | Molecule viewer | MIT | Keep license notice |

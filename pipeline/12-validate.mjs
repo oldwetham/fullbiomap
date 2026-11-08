@@ -133,6 +133,11 @@ for (const n of nodes) {
   for (const k of ['tier1', 'tier2', 'tier3']) if (n.content[k].status !== 'missing') s[k]++;
 }
 for (const id of index) if (!byId.has(id.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'))) fail(id, 'index lists an id with no node');
+// Tissue unit illustrations are shown inline (so their cells can be clicked): nothing executable may ship.
+const svgCache = new Map(), svgText = url => { if (!svgCache.has(url)) svgCache.set(url, fs.readFileSync(publicPath(url), 'utf8')); return svgCache.get(url); };
+const ftuDir = path.join(root, 'public/ftu');
+for (const f of fs.existsSync(ftuDir) ? fs.readdirSync(ftuDir).filter(f => f.endsWith('.svg')) : [])
+  if (/<script|<foreignObject|\son[a-z]+\s*=|javascript:/i.test(svgText(`/ftu/${f}`))) fail(`ftu/${f}`, 'has a script, event handler, foreign object or javascript: link');
 // Tissue boards and their media.
 const tissueDir = path.join(root, 'public/tissue');
 for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
@@ -145,6 +150,14 @@ for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
     if (!m.license || !m.attribution || !m.caption || !m.alt) fail(where, `media ${m.url} needs license, attribution, caption and alt text`);
     if (m.kind === 'histology' && (!m.gene?.symbol || !m.gene?.ensembl || !m.imageUrl || !m.pageUrl)) fail(where, `histology ${m.url} needs its gene and exact image link`);
     if (mentionsWikipedia(m)) fail(where, 'Wikipedia media is not allowed');
+    // Clickable cells in a tissue unit illustration: each must name a Cell Ontology id and an element the SVG has.
+    if (m.kind === 'ftu' && m.url && fs.existsSync(publicPath(m.url))) {
+      const svg = svgText(m.url);
+      for (const h of m.hits ?? []) {
+        if (!/^CL:\d+$/.test(h.cl) || !h.label || !h.ids?.length) fail(where, `${m.url}: clickable cell needs a CL id, label and element ids`);
+        for (const id of h.ids ?? []) if (!svg.includes(`id="${id}"`)) fail(where, `${m.url}: no element id "${id}" for ${h.cl}`);
+      }
+    }
   }
 }
 // Files the app can request, continued (standalone organs, content files and board images are checked above).

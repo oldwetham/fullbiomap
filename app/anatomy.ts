@@ -112,7 +112,9 @@ export function formatHash(h:HashState):string{
 
 /** A tissue board (public/tissue/<organ>.json, step 11): cell types by structure, histology and FTU media. */
 export interface TissueCell {id:string;conceptId:string;label:string}
-export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[]}
+export interface TissueMedia {kind:'histology'|'ftu';url:string;caption:string;alt:string;license:string;licenseUrl?:string;attribution:string;imageUrl?:string;pageUrl?:string;doi?:string;label?:string;gene?:{symbol:string;name:string;ensembl:string;uniprot:string[]};cells?:string[];
+ /** Tissue unit illustrations: per cell type drawn, the SVG element ids that draw it (HRA crosswalk, step 08). */
+ hits?:{cl:string;label:string;ids:string[]}[]}
 export interface TissueBoard {organ:{id:string;conceptId:string;label:string};tables:{name:string;version:string;doi:string;citation:string}[];cellCount:number;groups:{structure:string;cells:TissueCell[]}[];media:TissueMedia[]}
 /** Merges an organ's own board with its is_a ancestors' (the left kidney shows the kidney's). */
 export function mergeBoards(boards:TissueBoard[]):TissueBoard|null{

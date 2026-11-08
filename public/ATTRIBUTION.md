@@ -188,7 +188,7 @@ Male lung surfaces: BodyParts3D models each lung only as bronchial trees and ves
 | urinary bladder | Uroplakin 1A (UPK1A) | O00322 | https://images.proteinatlas.org/49879/112549_A_5_5_rna_selected.jpg | https://www.proteinatlas.org/ENSG00000105668-UPK1A/tissue/urinary%20bladder |
 | uterus | Progestagen associated endometrial protein (PAEP) | P09466 | https://images.proteinatlas.org/ih_additional_tissue/16762/3171_1168.jpg | https://www.proteinatlas.org/ENSG00000122133-PAEP/tissue/endometrium |
 
-- 2D functional tissue units: HRA v2.5 illustrations (CC BY 4.0), shown unmodified:
+- 2D functional tissue units: HRA v2.5 illustrations (CC BY 4.0), shown unmodified. Each illustration's HRA crosswalk (CC BY 4.0) links the cells it draws to Cell Ontology ids, which makes those cells clickable in the illustration viewer; the viewer highlights a cell type by drawing copies of its shapes on top and does not change the file:
 
   - Loop of Henle ascending limb thin segment (kidney-ascending-thin-loop-of-henle): https://doi.org/10.48539/HBM783.MHQZ.685
   - Cortical Collecting Duct (kidney-cortical-collecting-duct): https://doi.org/10.48539/HBM334.XPNG.824

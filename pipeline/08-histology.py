@@ -11,7 +11,9 @@ image shows that protein in brown (DAB) and cell nuclei in blue (hematoxylin). I
 and UniProt accessions are recorded so Phase 5 can link the image to the protein's 3D structure.
 
 FTUs (HRA v2.5, CC BY 4.0): every illustration fetched by step 04, attached to the organ whose Uberon
-id its crosswalk names, with the cell types it draws.
+id its crosswalk names, with the cell types it draws and where: `hits` lists, per Cell Ontology id, the
+SVG element ids (exactly as written in the file) that draw that cell type, so the viewer can make them
+clickable. An SVG with a script, event handler, foreign object or javascript: link is not published.
 
 Outputs: public/histology/<organ>.jpg, public/ftu/<name>.svg, graph/media.json, reports/histology.md.
 """
@@ -22,6 +24,7 @@ import shutil
 import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -119,6 +122,43 @@ for stale in out.glob('*.jpg'):
         stale.unlink()
 
 # HRA 2D FTU illustrations.
+RISKY = re.compile(rb'<script|<foreignObject|\son[a-z]+\s*=|javascript:', re.I)
+# Crosswalk ids name SVG elements, but Illustrator escapes characters in ids (_x5F_ is '_') and case varies.
+unescape = lambda i: re.sub(r'_x([0-9A-Fa-f]{2})_', lambda m: chr(int(m.group(1), 16)), i or '').lower()
+
+
+def cell_hits(svg_file, rows):
+    """Per Cell Ontology id: its label and the SVG element ids that draw it. A crosswalk group (node_group)
+    is used whole when all its cells are one cell type; drawn cells outside their group are added singly."""
+    raw = svg_file.read_bytes()
+    if RISKY.search(raw):
+        raise SystemExit(f'{svg_file.name}: has a script, event handler, foreign object or javascript: link; not publishing it')
+    tree = ET.fromstring(raw)
+    parent = {c: p for p in tree.iter() for c in p}
+    ids = {}
+    for e in tree.iter():
+        if e.get('id'):
+            ids.setdefault(unescape(e.get('id')), e)
+    def within(e, group):
+        while e is not None and e is not group:
+            e = parent.get(e)
+        return e is group
+    cell_rows = [r for r in rows if re.fullmatch(r'CL:\d+', r.get('node_mapped_to') or '')]
+    types_in = defaultdict(set)
+    for r in cell_rows:
+        types_in[unescape(r['node_group'])].add(r['node_mapped_to'])
+    hits = defaultdict(lambda: {'label': '', 'ids': set()})
+    for r in cell_rows:
+        cl, group, node = r['node_mapped_to'], ids.get(unescape(r['node_group'])), ids.get(unescape(r['node_id']))
+        h = hits[cl]
+        h['label'] = h['label'] or r['node_label']
+        if group is not None and types_in[unescape(r['node_group'])] == {cl} and (node is None or within(node, group)):
+            h['ids'].add(group.get('id'))
+        elif node is not None:
+            h['ids'].add(node.get('id'))
+    return [{'cl': cl, 'label': h['label'], 'ids': sorted(h['ids'])} for cl, h in sorted(hits.items()) if h['ids']]
+
+
 by_uberon = {cfg['uberon']: cfg['nodes'] for cfg in MAP['organs'].values() if cfg.get('uberon')}
 ftu_dir = ROOT / 'public/ftu'
 ftu_dir.mkdir(parents=True, exist_ok=True)
@@ -138,16 +178,17 @@ for name, info in sorted(RELEASE['ftus'].items()):
     if not nodes:
         report.append(f'| {name} | not shown ({", ".join(sorted(organs))}) | {len(cells)} |')
         continue
+    hits = cell_hits(src / svg, rows)
     shutil.copyfile(src / svg, ftu_dir / f'{name}.svg')
     kept.add(f'{name}.svg')
-    record = {'kind': 'ftu', 'url': f'/ftu/{name}.svg', 'name': name, 'label': tissue_label[:1].upper() + tissue_label[1:], 'cells': cells,
+    record = {'kind': 'ftu', 'url': f'/ftu/{name}.svg', 'name': name, 'label': tissue_label[:1].upper() + tissue_label[1:], 'cells': cells, 'hits': hits,
               'caption': f'Functional tissue unit: {tissue_label}. An illustration of the smallest repeating unit of this tissue and the cell types in it.',
               'alt': f'Illustration of the {tissue_label} and its cell types.',
               'doi': info['doi'], 'license': 'CC BY 4.0', 'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
               'attribution': f'{info["citation"]} HuBMAP Human Reference Atlas {RELEASE["release"]}, CC BY 4.0.'}
     for node in nodes:
         media.setdefault(node, []).append(record)
-    report.append(f'| {name} | {", ".join(nodes)} | {len(cells)} |')
+    report.append(f'| {name} | {", ".join(nodes)} | {len(cells)} ({len(hits)} clickable) |')
 for stale in ftu_dir.glob('*.svg'):
     if stale.name not in kept:
         stale.unlink()

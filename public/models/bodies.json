@@ -1,0 +1,48 @@
+{
+ "male": {
+  "label": "Male",
+  "source": "BodyParts3D 4.0",
+  "manifest": "/models/atlas.json",
+  "parts": 2234,
+  "bySystem": {
+   "digestive": 108,
+   "skeletal": 280,
+   "sensory": 35,
+   "nervous": 146,
+   "connective": 46,
+   "muscular": 425,
+   "arterial": 639,
+   "endocrine": 4,
+   "venous": 395,
+   "cardiac": 23,
+   "respiratory": 107,
+   "lymphatic": 3,
+   "integumentary": 5,
+   "reproductive": 12,
+   "urinary": 6
+  }
+ },
+ "female": {
+  "label": "Female",
+  "source": "HRA v2.5 united female v1.10",
+  "manifest": "/models/female/atlas.json",
+  "gzipOnly": true,
+  "parts": 948,
+  "bySystem": {
+   "integumentary": 20,
+   "sensory": 44,
+   "venous": 63,
+   "nervous": 314,
+   "endocrine": 2,
+   "muscular": 16,
+   "reproductive": 38,
+   "digestive": 80,
+   "arterial": 72,
+   "urinary": 87,
+   "cardiac": 14,
+   "respiratory": 45,
+   "skeletal": 139,
+   "lymphatic": 14
+  }
+ }
+}

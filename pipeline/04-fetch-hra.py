@@ -42,14 +42,30 @@ release = {'release': RELEASE, 'source': f'{CDN}/collection/hra/{RELEASE}/assets
 for name, version in sorted(pinned.items()):
     if SKIP.match(name):
         continue
-    record = json.dumps(get_json(f'https://lod.humanatlas.io/ref-organ/{name}/latest'))
+    record_json = get_json(f'https://lod.humanatlas.io/ref-organ/{name}/latest')
+    record = json.dumps(record_json)
     assets = sorted(set(re.findall(rf'{re.escape(CDN)}/ref-organ/{re.escape(name)}/[^"\s]+/assets/[^"\s]+\.(?:glb|csv)', record)))
     if not assets:
         sys.exit(f'04-fetch-hra: no assets listed for {name}')
     wrong = [a for a in assets if f'/{name}/{version}/' not in a]
     if wrong:
         sys.exit(f'04-fetch-hra: {name} is pinned to {version} in HRA {RELEASE} but the catalog now lists {wrong[0]}')
-    release['objects'][name] = {'version': version, 'files': [a.rsplit('/', 1)[1] for a in assets]}
+    meta = {}
+    def collect(x):
+        if isinstance(x, dict):
+            for k, v in x.items():
+                if k in ('citation', 'doi') and isinstance(v, str) and k not in meta:
+                    meta[k] = v
+                collect(v)
+        elif isinstance(x, list):
+            for y in x:
+                collect(y)
+    collect(record_json)
+    # The organ the model represents, from the object's own graph (authoritative; used to attach interiors).
+    graph = json.dumps(get_json(f'{CDN}/ref-organ/{name}/{version}/graph.json'))
+    represents = sorted(set(re.findall(r'"representation_of":\s*"((?:UBERON|FMA):\d+)"', graph)))
+    release['objects'][name] = {'version': version, 'files': [a.rsplit('/', 1)[1] for a in assets], 'doi': meta.get('doi'),
+                                'citation': meta.get('citation'), 'representationOf': represents[0] if len(represents) == 1 else None}
     for a in assets:
         files[f'{RELEASE}/{name}/{a.rsplit("/", 1)[1]}'] = a
 

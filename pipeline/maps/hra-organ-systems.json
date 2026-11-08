@@ -1,0 +1,266 @@
+{
+ "_comment": "Display system for HRA structures that have no male (BodyParts3D) equivalent, by HRA organ. Read by pipeline/05-hra-to-manifest.mjs. `nodes` lists node-name fragments that identify the organ inside the united body. Every entry needs a reason. Vessels with no male equivalent take artery or vein from their Uberon is_a ancestors (see step 05), not from this table. `meshes` names individual GLB nodes that no ontology rule reaches.",
+ "organs": {
+  "brain": {
+   "system": "nervous",
+   "reason": "Central nervous system organ.",
+   "nodes": []
+  },
+  "epiploic-appendage-of-transverse-colon": {
+   "system": "digestive",
+   "reason": "Fat appendage of the colon wall.",
+   "nodes": []
+  },
+  "eye": {
+   "system": "sensory",
+   "reason": "Organ of sight.",
+   "nodes": [
+    "vh_f_eyes"
+   ]
+  },
+  "fallopian-tube": {
+   "system": "reproductive",
+   "reason": "Female reproductive tract.",
+   "nodes": []
+  },
+  "heart": {
+   "system": "cardiac",
+   "reason": "The heart and its chambers, valves and papillary muscles (cardiac display system).",
+   "nodes": [
+    "vh_f_heart"
+   ]
+  },
+  "intervertebral-disk": {
+   "system": "skeletal",
+   "reason": "Fibrocartilage of the vertebral column; male intervertebral disks are skeletal.",
+   "nodes": []
+  },
+  "kidney": {
+   "system": "urinary",
+   "reason": "Urinary organ.",
+   "nodes": []
+  },
+  "knee": {
+   "system": "skeletal",
+   "reason": "Joint model: bones, cartilage and ligaments; parts with a male equivalent take its system first.",
+   "nodes": []
+  },
+  "large-intestine": {
+   "system": "digestive",
+   "reason": "Alimentary tract.",
+   "nodes": []
+  },
+  "larynx": {
+   "system": "respiratory",
+   "reason": "Airway organ.",
+   "nodes": []
+  },
+  "liver": {
+   "system": "digestive",
+   "reason": "Accessory digestive organ.",
+   "nodes": []
+  },
+  "lung": {
+   "system": "respiratory",
+   "reason": "Respiratory organ.",
+   "nodes": []
+  },
+  "lymph-node": {
+   "system": "lymphatic",
+   "reason": "Lymphoid organ.",
+   "nodes": []
+  },
+  "main-bronchus": {
+   "system": "respiratory",
+   "reason": "Airway.",
+   "nodes": []
+  },
+  "mammary-gland": {
+   "system": "reproductive",
+   "reason": "Female breast tissue; grouped with reproductive structures, as female-only anatomy.",
+   "nodes": []
+  },
+  "manubrium": {
+   "system": "skeletal",
+   "reason": "Part of the sternum.",
+   "nodes": []
+  },
+  "mouth": {
+   "system": "digestive",
+   "reason": "Oral cavity and its contents; teeth and bones take their male equivalent system first.",
+   "nodes": []
+  },
+  "omentum": {
+   "system": "digestive",
+   "reason": "Peritoneal fold of the stomach.",
+   "nodes": []
+  },
+  "ovary": {
+   "system": "reproductive",
+   "reason": "Female gonad.",
+   "nodes": []
+  },
+  "palatine-tonsil": {
+   "system": "lymphatic",
+   "reason": "Lymphoid tissue of the pharynx.",
+   "nodes": []
+  },
+  "pancreas": {
+   "system": "digestive",
+   "reason": "Digestive and endocrine organ; digestive matches the male model.",
+   "nodes": []
+  },
+  "pelvis": {
+   "system": "skeletal",
+   "reason": "Pelvic bones; soft parts with a male equivalent take its system first.",
+   "nodes": []
+  },
+  "prostate": {
+   "system": "reproductive",
+   "reason": "Male accessory gland.",
+   "nodes": []
+  },
+  "renal-pelvis": {
+   "system": "urinary",
+   "reason": "Collecting system of the kidney.",
+   "nodes": []
+  },
+  "small-intestine": {
+   "system": "digestive",
+   "reason": "Alimentary tract.",
+   "nodes": []
+  },
+  "spinal-cord": {
+   "system": "nervous",
+   "reason": "Central nervous system.",
+   "nodes": []
+  },
+  "spleen": {
+   "system": "lymphatic",
+   "reason": "Lymphoid organ; lymphatic matches the male model.",
+   "nodes": []
+  },
+  "sternum": {
+   "system": "skeletal",
+   "reason": "Breastbone.",
+   "nodes": []
+  },
+  "thymus": {
+   "system": "lymphatic",
+   "reason": "Lymphoid organ; lymphatic matches the male model.",
+   "nodes": []
+  },
+  "trachea": {
+   "system": "respiratory",
+   "reason": "Airway.",
+   "nodes": []
+  },
+  "ureter": {
+   "system": "urinary",
+   "reason": "Urinary tract.",
+   "nodes": []
+  },
+  "urinary-bladder": {
+   "system": "urinary",
+   "reason": "Urinary organ.",
+   "nodes": []
+  },
+  "uterus": {
+   "system": "reproductive",
+   "reason": "Female reproductive organ.",
+   "nodes": []
+  },
+  "united-integumentary": {
+   "system": "integumentary",
+   "reason": "Skin and body-surface layers of the united female body.",
+   "nodes": [
+    "vh_f_integumentary_system"
+   ]
+  },
+  "united-nervous": {
+   "system": "nervous",
+   "reason": "Brain, spinal cord and nerves (the eyes group above maps to sensory first).",
+   "nodes": [
+    "vh_f_nervous_system"
+   ]
+  },
+  "united-muscular": {
+   "system": "muscular",
+   "reason": "Muscles of the eye and knee, the only muscles in the female reference.",
+   "nodes": [
+    "vh_f_muscular_system"
+   ]
+  },
+  "united-reproductive": {
+   "system": "reproductive",
+   "reason": "Female reproductive organs and their ligaments.",
+   "nodes": [
+    "vh_f_reproductive_system"
+   ]
+  },
+  "united-digestive": {
+   "system": "digestive",
+   "reason": "Alimentary tract and accessory organs.",
+   "nodes": [
+    "vh_f_digestive_system"
+   ]
+  },
+  "united-urinary": {
+   "system": "urinary",
+   "reason": "Kidneys, ureters, bladder and their parts.",
+   "nodes": [
+    "vh_f_urinary_system"
+   ]
+  },
+  "united-respiratory": {
+   "system": "respiratory",
+   "reason": "Airways and lungs.",
+   "nodes": [
+    "vh_f_respiratory_system"
+   ]
+  },
+  "united-lymphatic": {
+   "system": "lymphatic",
+   "reason": "Lymphoid organs.",
+   "nodes": [
+    "vh_f_lymphatic_system"
+   ]
+  },
+  "united-skeletal": {
+   "system": "skeletal",
+   "reason": "Bones of the female reference (partial skeleton).",
+   "nodes": [
+    "vh_f_skeletal_system"
+   ]
+  },
+  "united-lower-limb": {
+   "system": "skeletal",
+   "reason": "Knee joints: bones, cartilage and ligaments; muscles there map to muscular first.",
+   "nodes": [
+    "vh_f_lower_limb"
+   ]
+  }
+ },
+ "meshes": {
+  "VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery": {
+   "system": "arterial",
+   "reason": "No crosswalk entry in HRA v2.5 (only the generic blood vasculature concept); named in the GLB as a hepatic artery branch."
+  },
+  "VH_F_posterior_segmental_right_hepatic_artery": {
+   "system": "arterial",
+   "reason": "No crosswalk entry in HRA v2.5 (only the generic blood vasculature concept); named in the GLB as a hepatic artery segment."
+  },
+  "VH_F_anterior_segmental_right_hepatic_artery": {
+   "system": "arterial",
+   "reason": "No crosswalk entry in HRA v2.5 (only the generic blood vasculature concept); named in the GLB as a hepatic artery segment."
+  },
+  "VH_F_right_branch_of_portal_vein": {
+   "system": "venous",
+   "reason": "No crosswalk entry in HRA v2.5 (only the generic blood vasculature concept); named in the GLB as a portal vein branch (the male portal vein is venous)."
+  },
+  "VH_F_left_branch_of_portal_vein": {
+   "system": "venous",
+   "reason": "No crosswalk entry in HRA v2.5 (only the generic blood vasculature concept); named in the GLB as a portal vein branch (the male portal vein is venous)."
+  }
+ }
+}

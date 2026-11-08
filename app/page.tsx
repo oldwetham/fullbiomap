@@ -16,6 +16,8 @@ const BODY_KEY='biomap.body';
 // The female body and organ interiors ship gzip-only and need DecompressionStream (Chrome 80+, Safari 16.4+, Firefox 113+).
 const canInflate=typeof DecompressionStream!=='undefined';
 const savedBody=():Body=>{try{return canInflate&&localStorage.getItem(BODY_KEY)==='female'?'female':'male';}catch{return 'male';}};
+/** Default systems per body. The female reference has no muscle layer, so its see-through skin (Body surface) is on by default as the body outline; the male's muscles already give one. */
+const defaultVisible=(b:Body):SystemId[]=>b==='female'?[...DEFAULT_VISIBLE,'integumentary']:DEFAULT_VISIBLE;
 const BODY_URL:Record<Body,string>={male:'/models/atlas.json',female:'/models/female/atlas.json'};
 interface BodyInfo {label:string;source:string;parts:number;bySystem:Partial<Record<SystemId,number>>}
 /** The organ stage: one organ's interior model, with the body view saved for Zoom out. */
@@ -34,7 +36,7 @@ export default function Home(){
  useEffect(()=>{try{localStorage.setItem(BODY_KEY,body);}catch{/* keep for this visit */}},[body]);
  useEffect(()=>{fetch('/models/bodies.json').then(r=>r.ok?r.json():null).then(d=>setBodies(d as Record<Body,BodyInfo>|null)).catch(()=>setBodies(null));},[]);
  useEffect(()=>{try{localStorage.setItem(LEVEL_KEY,String(level));}catch{/* storage unavailable: keep the choice for this visit */}},[level]);
- useEffect(()=>{const abort=new AbortController();setBodyProgress(0);setError('');setBodyAtlas(null);setStage(null);setStageAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:DEFAULT_VISIBLE});fetch(BODY_URL[body],{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>setBodyAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[body]);
+ useEffect(()=>{const abort=new AbortController();setBodyProgress(0);setError('');setBodyAtlas(null);setStage(null);setStageAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:defaultVisible(body)});fetch(BODY_URL[body],{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>setBodyAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[body]);
  // Organ interiors load only when you zoom in.
  useEffect(()=>{if(!stage)return;const abort=new AbortController();setStageProgress(0);setStageAtlas(null);fetch(stage.url,{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('This organ\'s interior could not be loaded.');return r.json();}).then(data=>setStageAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[stage?.url]);
  useEffect(()=>{const zoom=(e:KeyboardEvent)=>{if(e.target instanceof HTMLInputElement||e.target instanceof HTMLTextAreaElement||e.metaKey||e.ctrlKey||e.altKey)return;if(e.key==='+'||e.key==='='){e.preventDefault();zoomRef.current.zoomIn.run?.();}else if(e.key==='-'||e.key==='_'){e.preventDefault();zoomRef.current.zoomOut.run?.();}};window.addEventListener('keydown',zoom);return()=>window.removeEventListener('keydown',zoom);},[]);
@@ -60,7 +62,7 @@ export default function Home(){
  const interiorUrl=(organ?:LadderOrgan|null)=>organ?.interior?.[body]?.[0]??null;
  const enterStage=(organ:LadderOrgan,system:SystemId,fromHash=false)=>{const url=interiorUrl(organ);if(!url)return;const bodyConceptId=resolve(organ,bodyConcepts)?.id??organ.conceptId;if(!fromHash)writeHash(formatHash({body,id:bodyConceptId,inside:true,part:''}));setStage({organ,system,url,bodyConceptId,saved:{...state,highlighted:NONE,inspectorOpen:false}});setChosen(null);setDetails(false);setPanel(null);setState({...initial,visible:SYSTEMS.map(x=>x.id),reset:state.reset+1});};
  const exitStage=(selectOrgan=true)=>{if(!stage)return;const saved=stage.saved,organ=bodyConcepts.get(stage.bodyConceptId);setStage(null);setStageAtlas(null);setState({...saved});if(selectOrgan&&organ){writeHash(formatHash({body,id:organ.id,inside:false,part:''}));setChosen(organ);setState(s=>({...s,selected:organ.elements}));setDetails(true);}else{setChosen(null);setDetails(false);}};
- const goBody=()=>{if(stage)exitStage(false);writeHash(formatHash({body,id:'',inside:false,part:''}));setChosen(null);setDetails(false);setState(s=>({...(stage?.saved??s),visible:DEFAULT_VISIBLE,selected:[],isolate:false}));};
+ const goBody=()=>{if(stage)exitStage(false);writeHash(formatHash({body,id:'',inside:false,part:''}));setChosen(null);setDetails(false);setState(s=>({...(stage?.saved??s),visible:defaultVisible(body),selected:[],isolate:false}));};
  const goSystem=(sys:SystemId)=>{if(stage)exitStage(true);setState(s=>({...s,visible:[sys],isolate:false}));};
  const organConcept=stage?stageRoot:ladder&&!ladder.isOrgan?resolve(ladder.organ):null;
  const crumbSystem:SystemId|null=stage?stage.system:chosen&&ladder?ladder.system:systemView;
@@ -95,7 +97,7 @@ export default function Home(){
  };
  useEffect(()=>{if(!atlas)return;applyHash.current();const on=()=>applyHash.current();window.addEventListener('hashchange',on);window.addEventListener('popstate',on);return()=>{window.removeEventListener('hashchange',on);window.removeEventListener('popstate',on);};},[atlas]);
  const toggle=(id:SystemId)=>{writeHash(hashFor(''));setDetails(false);setState(s=>({...s,selected:[],isolate:false,visible:s.visible.includes(id)?s.visible.filter(x=>x!==id):[...s.visible,id]}));};
- const reset=()=>{writeHash(hashFor(''));setState(s=>({...initial,visible:DEFAULT_VISIBLE,reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
+ const reset=()=>{writeHash(hashFor(''));setState(s=>({...initial,visible:defaultVisible(body),reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
  return <main className="studio">
   {bodyAtlas&&<div className={`scene-layer${stage?' is-hidden':''}`} aria-hidden={!!stage}><AnatomyScene key={BODY_URL[body]} atlas={bodyAtlas} state={stage?stage.saved:{...state,highlighted,inspectorOpen:details&&selectedParts.length>0}} onSelect={id=>{if(!stage)choosePart(id);}} onProgress={n=>{setBodyProgress(n);if(n===100)setError('');}} onError={setError}/></div>}

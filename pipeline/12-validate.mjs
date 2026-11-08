@@ -21,6 +21,28 @@ const SOURCE_LABEL = {curated: 'Curated text (tier1.md)', ncit: 'NCIt definition
 
 const errors = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
+// Every file the app can request must exist under public/. A missing one is not a 404 in development: Vite's
+// dev server answers with index.html and status 200, and the app fails with "Unexpected token '<'". Each
+// missing file is reported once, with what points to it (see "Files the app can request" below).
+const publicPath = url => path.join(root, 'public', url.replace(/^\//, ''));
+const requested = new Set(), missing = new Map(), manifests = new Set();
+function requirePath(url, from, what = 'file') {
+  if (typeof url !== 'string' || !url.startsWith('/')) { fail(from, `bad ${what} path ${JSON.stringify(url)}`); return false; }
+  requested.add(url);
+  if (fs.existsSync(publicPath(url))) return true;
+  if (!missing.has(url)) missing.set(url, {what, from: new Set()});
+  missing.get(url).from.add(from);
+  return false;
+}
+/** A model manifest and every chunk it lists (the app fetches `gzip` where the browser can inflate, else `url`). */
+function requireManifest(url, from) {
+  if (!requirePath(url, from, 'model manifest') || manifests.has(url)) return;
+  manifests.add(url);
+  let m = null;
+  try { m = JSON.parse(fs.readFileSync(publicPath(url), 'utf8')); } catch { return fail(url, 'model manifest is not valid JSON'); }
+  if (!Array.isArray(m.chunks) || !m.chunks.length) return fail(url, 'model manifest lists no chunks');
+  for (const c of m.chunks) { requirePath(c.url, url, 'model chunk'); if (c.gzip) requirePath(c.gzip, url, 'model chunk'); }
+}
 const atlas = JSON.parse(read('public/models/atlas.json'));
 const systems = new Set(atlas.parts.map(p => p.system));
 const nodes = jsonl('graph/nodes.jsonl'), edges = jsonl('graph/edges.jsonl');
@@ -46,7 +68,7 @@ for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
 for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : []) {
-  if (!fs.existsSync(path.join(root, 'public', o.manifest))) fail(o.object, `standalone organ model ${o.manifest} missing`);
+  requireManifest(o.manifest, `standalone organ ${o.object}`);
   const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
   if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);
 }
@@ -74,16 +96,20 @@ for (const n of nodes) {
   if (n.scale === 'cell' && n.id !== 'CL:0000000' && !(n.connections ?? []).some(c => c.rel === 'located_in')) fail(n.id, 'cell type has no located_in');
   if (n.scale === 'organelle' && !(n.connections ?? []).some(c => c.rel === 'component_of')) fail(n.id, 'organelle has no component_of');
   if (!n.label?.trim()) fail(n.id, 'no label');
-  if (!n.geometry?.male?.length && !n.geometry?.female?.length && !n.geometry?.models?.length) fail(n.id, 'no geometry in any body or model');
-  for (const [sex, urls] of Object.entries(n.geometry?.interior ?? {})) for (const u of urls) if (!fs.existsSync(path.join(root, 'public', u))) fail(n.id, `${sex} interior ${u} missing`);
+  if (!n.geometry?.male?.length && !n.geometry?.female?.length && !n.geometry?.models?.length && !n.geometry?.model) fail(n.id, 'no geometry in any body or model');
   if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');
-  for (const t of n.ladder?.organ?.tissue ?? []) if (!fs.existsSync(path.join(root, 'public', t))) fail(n.id, `tissue board ${t} missing`);
   if (n.ladder?.organ && !byId.has(n.ladder.organ.id)) fail(n.id, `ladder organ ${n.ladder.organ.id} is not a node`);
   if (n.content?.tier1?.status === 'missing') fail(n.id, 'no tier-1 text');
   if (!index.has(n.conceptId)) fail(n.id, 'missing from public/content/index.json');
   let served = null;
-  try { served = JSON.parse(read(`public/content/${n.conceptId}.json`)); } catch { fail(n.id, 'served content file missing or invalid'); }
+  if (requirePath(`/content/${n.conceptId}.json`, `graph node ${n.id}`, 'content file'))
+    try { served = JSON.parse(read(`public/content/${n.conceptId}.json`)); } catch { fail(n.id, 'served content file is not valid JSON'); }
   if (served && (served.id !== n.id || 'ancestors' in served)) fail(n.id, 'served file does not match node');
+  // What the app opens from this file: organ interiors (this body's and the ladder organ's), the cell model, tissue boards.
+  for (const [where, urls] of [...Object.entries(served?.geometry?.interior ?? {}), ...Object.entries(served?.ladder?.organ?.interior ?? {}).map(([k, v]) => [`ladder ${k}`, v])])
+    for (const u of urls) requireManifest(u, `${n.conceptId}.json ${where} interior`);
+  if (served?.geometry?.model) requireManifest(served.geometry.model, `${n.conceptId}.json model`);
+  for (const t of served?.ladder?.organ?.tissue ?? []) requirePath(t, `${n.conceptId}.json tissue board`, 'tissue board');
   for (const c of served?.connections ?? []) {
     const where = `connection ${c.rel} ${c.id}`;
     if (!CONNECTIONS.includes(c.rel) || !['in', 'out'].includes(c.dir)) fail(n.id, `${where}: bad relation or direction`);
@@ -114,12 +140,36 @@ for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
   for (const g of b.groups ?? []) for (const c of g.cells) if (!byId.has(c.id)) fail(where, `cell type ${c.id} is not a node`);
   for (const t of b.tables ?? []) if (!t.doi || !t.version) fail(where, `table ${t.name} needs version and DOI`);
   for (const m of b.media ?? []) {
-    if (!m.url || !fs.existsSync(path.join(root, 'public', m.url))) fail(where, `media ${m.url} missing`);
+    requirePath(m.url, where, 'board image');
     if (!m.license || !m.attribution || !m.caption || !m.alt) fail(where, `media ${m.url} needs license, attribution, caption and alt text`);
     if (m.kind === 'histology' && (!m.gene?.symbol || !m.gene?.ensembl || !m.imageUrl || !m.pageUrl)) fail(where, `histology ${m.url} needs its gene and exact image link`);
     if (mentionsWikipedia(m)) fail(where, 'Wikipedia media is not allowed');
   }
 }
+// Files the app can request, continued (standalone organs, content files and board images are checked above).
+// Paths written in the app's code: the body manifest, the cell model, standalone.json, content/index.json.
+for (const f of fs.readdirSync(path.join(root, 'app')).filter(f => /\.tsx?$/.test(f))) {
+  for (const [, url] of fs.readFileSync(path.join(root, 'app', f), 'utf8').matchAll(/['"`](\/(?:models|content|tissue|histology|ftu)\/[^'"`$\s]+)['"`]/g)) {
+    if (/^\/models\/.+\.json$/.test(url) && !url.endsWith('/standalone.json')) requireManifest(url, `app/${f}`); else requirePath(url, `app/${f}`);
+  }
+}
+// Every model manifest deployed under public/models (so an orphaned one cannot ship with missing chunks), and the HRA models.
+const walk = dir => fs.readdirSync(dir, {withFileTypes: true}).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]);
+for (const f of walk(path.join(root, 'public/models')).filter(f => f.endsWith('.json'))) {
+  const url = '/' + path.relative(path.join(root, 'public'), f).split(path.sep).join('/');
+  let m = null;
+  try { m = JSON.parse(fs.readFileSync(f, 'utf8')); } catch { fail(url, 'not valid JSON'); continue; }
+  if (!Array.isArray(m) && 'chunks' in m) requireManifest(url, url);
+}
+for (const [object, m] of Object.entries(hraModels)) {
+  if (!m.archived) requireManifest(m.manifest, `graph/hra-models.json ${object}`);
+  else if (fs.existsSync(publicPath(m.manifest))) fail(object, `archived model ${m.manifest} is still under public/, so it would be deployed`);
+}
+for (const [url, {what, from}] of missing) {
+  const [first, ...rest] = from;
+  fail(url, `${what} is not under public/ (referenced by ${first}${rest.length ? ` and ${rest.length} more` : ''})`);
+}
+
 const relCount = {}, relSources = {};
 for (const e of edges) {
   if (!byId.has(e.from) || !byId.has(e.to)) fail(`${e.from}→${e.to}`, 'dangling edge');
@@ -139,6 +189,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Nodes: ${nodes.length} (male atlas concepts: ${conceptIds.size}; HRA concepts: ${hraConceptIds.size})`,
   `- Organs (${ORGAN} Organ and its is_a descendants): ${organs}`,
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
+  `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,
   `- Validation errors: ${errors.length}`, '',
   '## Edges by relation', '',
   ...table(['Relation', 'Edges', 'FMA only', 'HRA VCCF only', 'Both'], RELS.filter(r => relCount[r]).map(r => [r, relCount[r],

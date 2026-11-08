@@ -15,13 +15,15 @@ Commands:
 | --- | --- |
 | `npm run dev` | Dev server on http://localhost:3016 |
 | `npm run check` | `tsc --noEmit` |
-| `npm run build` | Production build to `dist/`; `prebuild` runs `pipeline/12-validate.mjs` first and fails on any content or graph error |
-| `npm run validate` | Graph/content validation only; rewrites `reports/coverage.md` |
+| `npm run build` | Production build to `dist/`; `prebuild` runs `pipeline/12-validate.mjs` first and fails on any content, graph or missing-file error |
+| `npm run validate` | Graph, content and file validation (every file the app can request, including each model manifest's chunks, must exist under `public/`); rewrites `reports/coverage.md` |
 | `npm run pipeline` | Every pipeline step from raw downloads to validated `public/` (network on first run; cached in `data/cache/` after) |
 | `node scripts/validate-atlas.mjs` | Checks `public/models/atlas.json` and chunk buffers |
 | `node scripts/validate-interactions.mjs` | Checks tap-vs-drag and layout contracts |
 
 Run `npm run check && node scripts/validate-atlas.mjs && node scripts/validate-interactions.mjs && npm run build` before calling a change done.
+
+Restart `npm run dev` after switching branches or re-running pipeline steps that rewrite `public/`. The dev server lists the files in `public/` at startup and keeps that list current from file-watcher events, which can miss a file that is deleted and recreated while it runs. It then answers that file with `index.html` (status 200), and the app reports "the server sent a web page instead of data" for it (JSON.parse's "Unexpected token '<'").
 
 ## Layout
 

@@ -328,7 +328,7 @@ for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0
       ...(uberonOf(nid) ? {alternates: [uberonOf(nid)]} : {})};
   }).sort((a, b) => a.label.localeCompare(b.label));
   nodes.push({id: cl, conceptId: cl.replace(':', ''), label: upperFirst(d?.label ?? cellLabel.get(cl)), scale: 'cell', system: null, synonyms: d?.synonyms ?? [],
-    xrefs: {CL: cl.slice(3)}, geometry: {models: [CELL_MODEL]}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
+    xrefs: {CL: cl.slice(3)}, geometry: {model: CELL_MODEL}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
     ladder: {system: first?.ladder?.system ?? null, isOrgan: false, organ: first?.ladder?.organ ?? null}});
 }
 // The generic cell (CL:0000000) and its organelles (GO), from the cell model.
@@ -337,12 +337,12 @@ const organelleNodes = organelleMap.organelles.map(o => {
   const content = tiersFor(o.id), d = goDefs.get(o.id);
   cellEdges.push({from: o.id, to: organelleMap.cell.id, rel: 'component_of', source: 'Bio Map cell model', license: 'CC BY 4.0', evidence: 'pipeline/13-cell.mjs; GO cellular component'});
   return {id: o.id, conceptId: o.id.replace(':', ''), label: o.label, scale: 'organelle', system: null, synonyms: d?.synonyms ?? [], xrefs: {GO: o.id.slice(3)},
-    geometry: {models: [CELL_MODEL]}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: [organelleMap.cell.id]},
+    geometry: {model: CELL_MODEL}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: [organelleMap.cell.id]},
     connections: [{rel: 'component_of', dir: 'out', id: organelleMap.cell.id, conceptId: organelleMap.cell.id.replace(':', ''), label: 'Cell', modeled: true, sources: [{name: 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm('go', o.id)}]}],
     ancestors: [], ladder: {system: null, isOrgan: false, organ: null}};
 });
 nodes.push({id: organelleMap.cell.id, conceptId: organelleMap.cell.id.replace(':', ''), label: 'Cell', scale: 'cell', system: null, synonyms: [], xrefs: {CL: organelleMap.cell.id.slice(3)},
-  geometry: {models: [CELL_MODEL]}, content: cellContent, media: [], sources: sourcesOf(cellContent), zoom: {in: organelleMap.organelles.map(o => o.id), out: []},
+  geometry: {model: CELL_MODEL}, content: cellContent, media: [], sources: sourcesOf(cellContent), zoom: {in: organelleMap.organelles.map(o => o.id), out: []},
   connections: organelleMap.organelles.map(o => ({rel: 'component_of', dir: 'in', id: o.id, conceptId: o.id.replace(':', ''), label: o.label, modeled: true, sources: [{name: 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm('go', o.id)}]})),
   ancestors: [], ladder: {system: null, isOrgan: false, organ: null}}, ...organelleNodes);
 for (const n of nodes.slice(-1 - organelleNodes.length).concat(nodes.filter(n => n.scale === 'cell'))) byId.set(n.id, n);

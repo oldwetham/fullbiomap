@@ -16,8 +16,16 @@ const writeHash=(hash:string)=>{if(location.hash===hash||(!hash&&!location.hash)
 const canInflate=typeof DecompressionStream!=='undefined';
 /** Default systems per body. The female reference has no muscle layer, so its see-through skin (Body surface) is on by default as the body outline; the male's muscles already give one. */
 const defaultVisible=(b:Body):SystemId[]=>b==='female'?[...DEFAULT_VISIBLE,'integumentary']:DEFAULT_VISIBLE;
-// female: archived (archive/public/models/female, not deployed) while the female whole-body view is disabled.
-const BODY_URL:Record<Body,string>={male:'/models/atlas.json',female:'/models/female/atlas.json'};
+// The male body. The female whole-body view is disabled and its files are archived outside public/ (archive/README.md).
+const BODY_MANIFEST='/models/atlas.json';
+/** Fetches a JSON file the app ships in public/. Vite's dev server answers an unknown path with index.html and
+ * status 200, which JSON.parse reports as "Unexpected token '<'"; say which file failed instead. */
+async function fetchJson<T>(url:string,signal?:AbortSignal):Promise<T>{
+ const r=await fetch(url,{signal}),type=r.headers.get('content-type')??'';
+ if(!r.ok)throw new Error(`Could not load ${url} (HTTP ${r.status}).`);
+ if(!type.includes('json'))throw new Error(`Could not load ${url}: the server sent a web page instead of data. If this is the development server, restart it (it can miss files that changed while it was running).`);
+ return await r.json() as T;
+}
 /** Organs opened on their own stage, outside any body (public/models/organs/standalone.json, step 11). */
 interface Standalone {object:string;group:string;groupLabel:string;label:string;terms:string[];manifest:string;conceptId:string}
 /** The organ stage: one organ's interior model, with the body view saved for Zoom out. */
@@ -42,14 +50,14 @@ export default function Home(){
  const stageRootId=stage?stageAtlas?.stage?.rootConceptId??null:null;
  const cellHash=(cellId:string,organelle:string)=>tissue?formatHash({body,id:tissue.base.id,organ:tissue.base.organ,inside:false,part:'',tissue:true,cell:cellId,organelle}):'';
  const hashFor=(id:string)=>cell?cellHash(cell.type.conceptId,id&&id!==cell.type.conceptId&&id!=='CL0000000'?id:''):tissue?cellHash('',''):stage?.standalone?formatHash({body,id:'',inside:false,part:id&&id!==stageRootId?id:'',organ:stage.standalone.object}):stage?formatHash({body,id:stage.bodyConceptId,inside:true,part:id&&id!==stageRootId?id:''}):formatHash({body,id,inside:false,part:''});
- useEffect(()=>{fetch('/models/organs/standalone.json').then(r=>r.ok?r.json():[]).then(d=>setStandaloneOrgans(canInflate?d as Standalone[]:[])).catch(()=>setStandaloneOrgans([]));},[]);
+ useEffect(()=>{fetchJson<Standalone[]>('/models/organs/standalone.json').then(d=>setStandaloneOrgans(canInflate?d:[])).catch(e=>{setStandaloneOrgans([]);console.warn(e.message);});},[]);
  useEffect(()=>{try{localStorage.setItem(LEVEL_KEY,String(level));}catch{/* storage unavailable: keep the choice for this visit */}},[level]);
- useEffect(()=>{const abort=new AbortController();setBodyProgress(0);setError('');setBodyAtlas(null);setStage(null);setStageAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:defaultVisible(body)});fetch(BODY_URL[body],{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>setBodyAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[body]);
+ useEffect(()=>{const abort=new AbortController();setBodyProgress(0);setError('');setBodyAtlas(null);setStage(null);setStageAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:defaultVisible(body)});fetchJson<Atlas>(BODY_MANIFEST,abort.signal).then(setBodyAtlas).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[body]);
  // The generic cell loads the first time you zoom into a cell type; its organelles are its visible systems.
- useEffect(()=>{if(!cell||cellAtlas)return;setCellProgress(0);fetch(CELL_URL).then(r=>{if(!r.ok)throw new Error('The cell model could not be loaded.');return r.json();}).then(d=>setCellAtlas(d as Atlas)).catch(e=>setError(e.message));},[cell,cellAtlas]);
+ useEffect(()=>{if(!cell||cellAtlas)return;setCellProgress(0);fetchJson<Atlas>(CELL_URL).then(setCellAtlas).catch(e=>setError(e.message));},[cell,cellAtlas]);
  useEffect(()=>{if(cell&&cellAtlas)setState(s=>({...s,visible:[...SYSTEMS.map(x=>x.id),...(cellAtlas.palette??[]).map(x=>x.id as SystemId)]}));},[cell?.type.id,cellAtlas]);
  // Organ interiors load only when you zoom in.
- useEffect(()=>{if(!stage)return;const abort=new AbortController();setStageProgress(0);setStageAtlas(null);fetch(stage.url,{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('This organ\'s interior could not be loaded.');return r.json();}).then(data=>setStageAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[stage?.url]);
+ useEffect(()=>{if(!stage)return;const abort=new AbortController();setStageProgress(0);setStageAtlas(null);fetchJson<Atlas>(stage.url,abort.signal).then(setStageAtlas).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[stage?.url]);
  useEffect(()=>{const zoom=(e:KeyboardEvent)=>{if(e.target instanceof HTMLInputElement||e.target instanceof HTMLTextAreaElement||e.metaKey||e.ctrlKey||e.altKey)return;if(e.key==='+'||e.key==='='){e.preventDefault();zoomRef.current.zoomIn.run?.();}else if(e.key==='-'||e.key==='_'){e.preventDefault();zoomRef.current.zoomOut.run?.();}};window.addEventListener('keydown',zoom);return()=>window.removeEventListener('keydown',zoom);},[]);
  useEffect(()=>{const key=(e:KeyboardEvent)=>{if(e.key==='/'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();setPanel('search');setDetails(false);}};window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);},[]);
  const parts=useMemo(()=>new Map(atlas?.parts.map(p=>[p.id,p])),[atlas]);
@@ -94,7 +102,7 @@ export default function Home(){
   const base=stage?.standalone?{id:'',organ:stage.standalone.object}:{id:resolve(organ,bodyConcepts)?.id??organ.conceptId};
   if(!fromHash)writeHash(formatHash({body,id:base.id,organ:base.organ,inside:false,part:'',tissue:true}));
   setTissue({organ,system,standalone:stage?.standalone,base,board:null});setPanel(null);
-  Promise.all(urls.map(u=>fetch(u).then(r=>r.ok?r.json():null).catch(()=>null))).then(list=>setTissue(t=>t&&t.organ.id===organ.id?{...t,board:mergeBoards(list.filter(Boolean) as TissueBoard[])}:t));
+  Promise.all(urls.map(u=>fetchJson<TissueBoard>(u).catch(e=>{console.warn(e.message);return null;}))).then(list=>setTissue(t=>t&&t.organ.id===organ.id?{...t,board:mergeBoards(list.filter(Boolean) as TissueBoard[])}:t));
  };
  const closeCell=(writeBack=true)=>{if(!cell)return;const sv=cell.saved;setCell(null);setState(sv.state);setChosen(sv.chosen);setDetails(sv.details);if(writeBack)writeHash(cellHash('',''));};
  const closeTissue=()=>{if(cell)closeCell(false);setTissue(null);writeHash(stage?.standalone?formatHash({body,id:'',inside:false,part:chosen&&chosen.id!==stageRootId?chosen.id:'',organ:stage.standalone.object}):stage?formatHash({body,id:stage.bodyConceptId,inside:true,part:chosen&&chosen.id!==stageRootId?chosen.id:''}):formatHash({body,id:chosen?.id??'',inside:false,part:''}));};
@@ -171,7 +179,7 @@ export default function Home(){
  const reset=()=>{writeHash(hashFor(''));setState(s=>({...initial,visible:defaultVisible(body),reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
  return <main className="studio">
-  {bodyAtlas&&<div className={`scene-layer${stage||cell?' is-hidden':''}`} aria-hidden={!!(stage||cell)}><AnatomyScene key={BODY_URL[body]} atlas={bodyAtlas} state={stage?stage.saved:cell?cell.saved.state:{...state,highlighted,inspectorOpen:details&&selectedParts.length>0}} onSelect={id=>{if(!stage&&!cell)choosePart(id);}} onProgress={n=>{setBodyProgress(n);if(n===100)setError('');}} onError={setError}/></div>}
+  {bodyAtlas&&<div className={`scene-layer${stage||cell?' is-hidden':''}`} aria-hidden={!!(stage||cell)}><AnatomyScene key={BODY_MANIFEST} atlas={bodyAtlas} state={stage?stage.saved:cell?cell.saved.state:{...state,highlighted,inspectorOpen:details&&selectedParts.length>0}} onSelect={id=>{if(!stage&&!cell)choosePart(id);}} onProgress={n=>{setBodyProgress(n);if(n===100)setError('');}} onError={setError}/></div>}
   {stage&&stageAtlas&&<div className={`scene-layer${cell?' is-hidden':''}`} aria-hidden={!!cell}><AnatomyScene key={stage.url} atlas={stageAtlas} state={cell?cell.saved.state:{...state,highlighted,inspectorOpen:details&&selectedParts.length>0}} onSelect={id=>{if(!cell)choosePart(id);}} onProgress={n=>{setStageProgress(n);if(n===100)setError('');}} onError={setError}/></div>}
   {cell&&cellAtlas&&<div className="scene-layer"><AnatomyScene key="cell" atlas={cellAtlas} state={{...state,highlighted,inspectorOpen:details}} onSelect={id=>choosePart(id)} onProgress={n=>{setCellProgress(n);if(n===100)setError('');}} onError={setError}/></div>}
   {tissue&&!cell&&<section className="tissue-board" aria-label={`${tissue.organ.label} tissue`}><div className="tissue-scroll">

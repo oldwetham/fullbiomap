@@ -397,7 +397,9 @@ const standalone = JSON.parse(read('pipeline/maps/standalone-organs.json'));
 fs.writeFileSync(path.join(root, 'public/models/organs/standalone.json'), JSON.stringify(standalone.organs.map(o => {
   const m = hraModels[o.object];
   if (!m?.rootConceptId) throw new Error(`standalone organ ${o.object} has no model or root concept`);
-  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId};
+  const node = byId.get(m.rootConceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
+  return {object: o.object, group: o.group, groupLabel: standalone.groups[o.group].label, label: o.label, terms: o.terms, manifest: m.manifest, conceptId: m.rootConceptId,
+    tissue: node?.ladder?.organ?.tissue ?? []};  // its tissue boards (Zoom in from the organ on its own stage)
 }), null, 1) + '\n');
 fs.writeFileSync(path.join(root, 'graph/interiors.json'), JSON.stringify(interiorReport.sort((a, b) => a.object.localeCompare(b.object)), null, 1) + '\n');
 // reports/hra.md: bodies, and which organs have interiors in each.

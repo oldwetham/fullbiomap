@@ -8,7 +8,10 @@
    "womb"
   ],
   "manifest": "/models/organs/uterus-female.json",
-  "conceptId": "UBERON0000995"
+  "conceptId": "UBERON0000995",
+  "tissue": [
+   "/tissue/UBERON0000995.json"
+  ]
  },
  {
   "object": "ovary-female-left",
@@ -20,7 +23,8 @@
    "ovaries"
   ],
   "manifest": "/models/organs/ovary-female-left.json",
-  "conceptId": "UBERON0002119"
+  "conceptId": "UBERON0002119",
+  "tissue": []
  },
  {
   "object": "ovary-female-right",
@@ -32,7 +36,8 @@
    "ovaries"
   ],
   "manifest": "/models/organs/ovary-female-right.json",
-  "conceptId": "UBERON0002118"
+  "conceptId": "UBERON0002118",
+  "tissue": []
  },
  {
   "object": "fallopian-tube-female-left",
@@ -45,7 +50,10 @@
    "oviduct"
   ],
   "manifest": "/models/organs/fallopian-tube-female-left.json",
-  "conceptId": "UBERON0001303"
+  "conceptId": "UBERON0001303",
+  "tissue": [
+   "/tissue/UBERON0001303.json"
+  ]
  },
  {
   "object": "fallopian-tube-female-right",
@@ -58,7 +66,10 @@
    "oviduct"
   ],
   "manifest": "/models/organs/fallopian-tube-female-right.json",
-  "conceptId": "UBERON0001302"
+  "conceptId": "UBERON0001302",
+  "tissue": [
+   "/tissue/UBERON0001302.json"
+  ]
  },
  {
   "object": "mammary-gland-female-left",
@@ -71,7 +82,10 @@
    "lactiferous"
   ],
   "manifest": "/models/organs/mammary-gland-female-left.json",
-  "conceptId": "FMA57991"
+  "conceptId": "FMA57991",
+  "tissue": [
+   "/tissue/FMA57991.json"
+  ]
  },
  {
   "object": "mammary-gland-female-right",
@@ -84,6 +98,9 @@
    "lactiferous"
   ],
   "manifest": "/models/organs/mammary-gland-female-right.json",
-  "conceptId": "FMA57987"
+  "conceptId": "FMA57987",
+  "tissue": [
+   "/tissue/FMA57987.json"
+  ]
  }
 ]

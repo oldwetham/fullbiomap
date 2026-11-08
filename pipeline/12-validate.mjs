@@ -69,6 +69,7 @@ for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
 for (const o of fs.existsSync(standaloneFile) ? JSON.parse(fs.readFileSync(standaloneFile, 'utf8')) : []) {
   requireManifest(o.manifest, `standalone organ ${o.object}`);
+  for (const t of o.tissue ?? []) requirePath(t, `standalone organ ${o.object}`, 'tissue board');
   const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
   if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);
 }

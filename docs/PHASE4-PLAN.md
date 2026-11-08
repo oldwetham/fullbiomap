@@ -34,7 +34,8 @@ Body › System › Organ › **Tissue** › **Cell type** › **Organelle** (fe
 | Lysosomes (GO:0005764) | About 8 small spheres |
 | Cytoskeleton (GO:0005856) | Thin filaments radiating from near the nucleus to the membrane |
 
-- **Same cell for every type.** Every cell type opens the same generic cell, and the stage caption says so ("A generic cell: organelles typical of most cells; sizes and numbers are illustrative"). The spec's specialized variants (muscle, neuron and so on) are left for later.
+- **Update, Nov 8 2026: cell families.** Cell types now open one of ten simplified cell families (round immune cell, red blood cell, platelet, neuron, skeletal muscle fiber, cardiac muscle cell, flat, cube-shaped and column-shaped epithelial cells with microvilli or cilia where the cell type has them, fat cell), chosen from each cell type's Cell Ontology ancestors by `pipeline/maps/cell-families.json`; the generic cell below is the fallback, and the caption names the family. Cell types without a nucleus are drawn without one (step 12 checks against both the family rules and Cell Ontology).
+- **Same cell for every type** (the first version). Every cell type opens the same generic cell, and the stage caption says so ("A generic cell: organelles typical of most cells; sizes and numbers are illustrative"). The spec's specialized variants (muscle, neuron and so on) are left for later.
 - **Organelle nodes:** each organelle is a graph node (`GO:` id, scale organelle) with tier-1 text from its GO definition (all ten are available, none cites Wikipedia; GO is CC BY 4.0). It also gets a `component_of` edge to the generic cell node (`BIOMAP:cell-generic-v1`).
 - **Clicking:** clicking an organelle selects all instances of that organelle (all mitochondria), the same way a shell selects its whole lung.
 

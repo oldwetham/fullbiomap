@@ -11,7 +11,19 @@
   "CL": "4033022"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002202",
+    "label": "epithelial cell of tracheobronchial tree"
+   },
+   "note": "The airways are lined by a pseudostratified columnar epithelium."
+  }
  },
  "content": {
   "tier1": {

@@ -9,7 +9,19 @@
   "CL": "1000417"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000185",
+    "label": "myoepithelial cell"
+   },
+   "note": "Contractile, star-shaped cells around gland units."
+  }
  },
  "content": {
   "tier1": {

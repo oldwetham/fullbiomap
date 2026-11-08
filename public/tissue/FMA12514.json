@@ -20,42 +20,135 @@
     {
      "id": "CL:0000561",
      "conceptId": "CL0000561",
-     "label": "Amacrine cell"
+     "label": "Amacrine cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000099",
      "conceptId": "CL0000099",
-     "label": "Interneuron"
+     "label": "Interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000636",
      "conceptId": "CL0000636",
-     "label": "Mueller cell"
+     "label": "Mueller cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000750",
      "conceptId": "CL0000750",
-     "label": "OFF-bipolar cell"
+     "label": "OFF-bipolar cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000749",
      "conceptId": "CL0000749",
-     "label": "ON-bipolar cell"
+     "label": "ON-bipolar cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000745",
      "conceptId": "CL0000745",
-     "label": "Retina horizontal cell"
+     "label": "Retina horizontal cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000748",
      "conceptId": "CL0000748",
-     "label": "Retinal bipolar neuron"
+     "label": "Retinal bipolar neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -65,22 +158,70 @@
     {
      "id": "CL:4023188",
      "conceptId": "CL4023188",
-     "label": "Midget ganglion cell of retina"
+     "label": "Midget ganglion cell of retina",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023189",
      "conceptId": "CL4023189",
-     "label": "Parasol ganglion cell of retina"
+     "label": "Parasol ganglion cell of retina",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000740",
      "conceptId": "CL0000740",
-     "label": "Retinal ganglion cell"
+     "label": "Retinal ganglion cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -90,22 +231,70 @@
     {
      "id": "CL:0000287",
      "conceptId": "CL0000287",
-     "label": "Eye photoreceptor cell"
+     "label": "Eye photoreceptor cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000573",
      "conceptId": "CL0000573",
-     "label": "Retinal cone cell"
+     "label": "Retinal cone cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000604",
      "conceptId": "CL0000604",
-     "label": "Retinal rod cell"
+     "label": "Retinal rod cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -115,17 +304,48 @@
     {
      "id": "CL:0008034",
      "conceptId": "CL0008034",
-     "label": "Mural cell"
+     "label": "Mural cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002585",
      "conceptId": "CL0002585",
-     "label": "Retinal blood vessel endothelial cell"
+     "label": "Retinal blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -135,12 +355,30 @@
     {
      "id": "CL:0002363",
      "conceptId": "CL0002363",
-     "label": "Keratocyte"
+     "label": "Keratocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -150,12 +388,30 @@
     {
      "id": "CL:0000036",
      "conceptId": "CL0000036",
-     "label": "Epithelial fate stem cell"
+     "label": "Epithelial fate stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4033093",
      "conceptId": "CL4033093",
-     "label": "Limbal epithelial stem cell of cornea"
+     "label": "Limbal epithelial stem cell of cornea",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -165,12 +421,30 @@
     {
      "id": "CL:0002304",
      "conceptId": "CL0002304",
-     "label": "Non-pigmented ciliary epithelial cell"
+     "label": "Non-pigmented ciliary epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002303",
      "conceptId": "CL0002303",
-     "label": "Pigmented ciliary epithelial cell"
+     "label": "Pigmented ciliary epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -180,12 +454,30 @@
     {
      "id": "CL:0000066",
      "conceptId": "CL0000066",
-     "label": "Epithelial cell"
+     "label": "Epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002565",
      "conceptId": "CL0002565",
-     "label": "Iris pigment epithelial cell"
+     "label": "Iris pigment epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -195,12 +487,32 @@
     {
      "id": "CL:0011004",
      "conceptId": "CL0011004",
-     "label": "Lens fiber cell"
+     "label": "Lens fiber cell",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     },
     {
      "id": "CL:0002228",
      "conceptId": "CL0002228",
-     "label": "Primary lens fiber"
+     "label": "Primary lens fiber",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     }
    ]
   },
@@ -210,12 +522,32 @@
     {
      "id": "CL:0011004",
      "conceptId": "CL0011004",
-     "label": "Lens fiber cell"
+     "label": "Lens fiber cell",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     },
     {
      "id": "CL:0002225",
      "conceptId": "CL0002225",
-     "label": "Secondary lens fiber"
+     "label": "Secondary lens fiber",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     }
    ]
   },
@@ -225,12 +557,36 @@
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -240,7 +596,20 @@
     {
      "id": "CL:0000132",
      "conceptId": "CL0000132",
-     "label": "Corneal endothelial cell"
+     "label": "Corneal endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -250,7 +619,19 @@
     {
      "id": "CL:0000575",
      "conceptId": "CL0000575",
-     "label": "Corneal epithelial cell"
+     "label": "Corneal epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -260,7 +641,16 @@
     {
      "id": "CL:0000125",
      "conceptId": "CL0000125",
-     "label": "Glial cell"
+     "label": "Glial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -270,7 +660,20 @@
     {
      "id": "CL:0002224",
      "conceptId": "CL0002224",
-     "label": "Lens epithelial cell"
+     "label": "Lens epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002224",
+       "label": "lens epithelial cell"
+      },
+      "note": "Cell Ontology: 'A cell of the cuboidal epithelium that covers the lens'."
+     }
     }
    ]
   },
@@ -280,7 +683,16 @@
     {
      "id": "CL:0000125",
      "conceptId": "CL0000125",
-     "label": "Glial cell"
+     "label": "Glial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -290,7 +702,17 @@
     {
      "id": "CL:0011004",
      "conceptId": "CL0011004",
-     "label": "Lens fiber cell"
+     "label": "Lens fiber cell",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     }
    ]
   },
@@ -300,7 +722,17 @@
     {
      "id": "CL:0011004",
      "conceptId": "CL0011004",
-     "label": "Lens fiber cell"
+     "label": "Lens fiber cell",
+     "model": "/models/cell/generic-cell-no-nucleus.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": null,
+      "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+     }
     }
    ]
   },
@@ -310,7 +742,16 @@
     {
      "id": "CL:0002586",
      "conceptId": "CL0002586",
-     "label": "Retinal pigment epithelial cell"
+     "label": "Retinal pigment epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -320,7 +761,16 @@
     {
      "id": "CL:0000125",
      "conceptId": "CL0000125",
-     "label": "Glial cell"
+     "label": "Glial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

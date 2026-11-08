@@ -20,112 +20,360 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000910",
      "conceptId": "CL0000910",
-     "label": "Cytotoxic T cell"
+     "label": "Cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001006",
      "conceptId": "CL0001006",
-     "label": "Dermal dendritic cell"
+     "label": "Dermal dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001067",
      "conceptId": "CL0001067",
-     "label": "Group 1 innate lymphoid cell"
+     "label": "Group 1 innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001069",
      "conceptId": "CL0001069",
-     "label": "Group 2 innate lymphoid cell"
+     "label": "Group 2 innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001071",
      "conceptId": "CL0001071",
-     "label": "Group 3 innate lymphoid cell"
+     "label": "Group 3 innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000417",
      "conceptId": "CL1000417",
-     "label": "Myoepithelial cell of sweat gland"
+     "label": "Myoepithelial cell of sweat gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002576",
      "conceptId": "CL0002576",
-     "label": "Perineurial cell"
+     "label": "Perineurial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002620",
      "conceptId": "CL0002620",
-     "label": "Skin fibroblast"
+     "label": "Skin fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000545",
      "conceptId": "CL0000545",
-     "label": "T-helper 1 cell"
+     "label": "T-helper 1 cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002292",
      "conceptId": "CL0002292",
-     "label": "Type I cell of carotid body"
+     "label": "Type I cell of carotid body",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -135,77 +383,243 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000910",
      "conceptId": "CL0000910",
-     "label": "Cytotoxic T cell"
+     "label": "Cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002576",
      "conceptId": "CL0002576",
-     "label": "Perineurial cell"
+     "label": "Perineurial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002620",
      "conceptId": "CL0002620",
-     "label": "Skin fibroblast"
+     "label": "Skin fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002521",
      "conceptId": "CL0002521",
-     "label": "Subcutaneous adipocyte"
+     "label": "Subcutaneous adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000545",
      "conceptId": "CL0000545",
-     "label": "T-helper 1 cell"
+     "label": "T-helper 1 cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002292",
      "conceptId": "CL0002292",
-     "label": "Type I cell of carotid body"
+     "label": "Type I cell of carotid body",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -215,27 +629,83 @@
     {
      "id": "CL:0000646",
      "conceptId": "CL0000646",
-     "label": "Basal cell"
+     "label": "Basal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000646",
+       "label": "basal cell"
+      },
+      "note": "Basal cells of layered epithelia are low, cube-like cells."
+     }
     },
     {
      "id": "CL:0002457",
      "conceptId": "CL0002457",
-     "label": "Epidermal Langerhans cell"
+     "label": "Epidermal Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     },
     {
      "id": "CL:1000458",
      "conceptId": "CL1000458",
-     "label": "Melanocyte of skin"
+     "label": "Melanocyte of skin",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000242",
      "conceptId": "CL0000242",
-     "label": "Merkel cell"
+     "label": "Merkel cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -245,17 +715,51 @@
     {
      "id": "CL:0002457",
      "conceptId": "CL0002457",
-     "label": "Epidermal Langerhans cell"
+     "label": "Epidermal Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000242",
      "conceptId": "CL0000242",
-     "label": "Merkel cell"
+     "label": "Merkel cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000649",
      "conceptId": "CL0000649",
-     "label": "Spinous cell of epidermis"
+     "label": "Spinous cell of epidermis",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     }
    ]
   },
@@ -265,12 +769,30 @@
     {
      "id": "CL:0002483",
      "conceptId": "CL0002483",
-     "label": "Hair follicle melanocyte"
+     "label": "Hair follicle melanocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002562",
      "conceptId": "CL0002562",
-     "label": "Hair germinal matrix cell"
+     "label": "Hair germinal matrix cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -280,12 +802,38 @@
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     },
     {
      "id": "CL:4033056",
      "conceptId": "CL4033056",
-     "label": "Onychocyte"
+     "label": "Onychocyte",
+     "model": "/models/cell/flat-epithelial-cell-no-nucleus.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": {
+       "id": "CL:4033056",
+       "label": "onychocyte"
+      },
+      "noNucleus": "Nail plate cells are fully keratinized, flattened dead cells without a nucleus, like the corneocytes of the skin."
+     }
     }
    ]
   },
@@ -295,12 +843,37 @@
     {
      "id": "CL:0002457",
      "conceptId": "CL0002457",
-     "label": "Epidermal Langerhans cell"
+     "label": "Epidermal Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     }
    ]
   },
@@ -310,7 +883,20 @@
     {
      "id": "CL:1000417",
      "conceptId": "CL1000417",
-     "label": "Myoepithelial cell of sweat gland"
+     "label": "Myoepithelial cell of sweat gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     }
    ]
   },
@@ -320,7 +906,20 @@
     {
      "id": "CL:1000417",
      "conceptId": "CL1000417",
-     "label": "Myoepithelial cell of sweat gland"
+     "label": "Myoepithelial cell of sweat gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     }
    ]
   },
@@ -330,7 +929,20 @@
     {
      "id": "CL:0002337",
      "conceptId": "CL0002337",
-     "label": "Keratinocyte stem cell"
+     "label": "Keratinocyte stem cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002337",
+       "label": "keratinocyte stem cell"
+      },
+      "note": "These cells sit in the basal layer of the epidermis."
+     }
     }
    ]
   },
@@ -340,7 +952,16 @@
     {
      "id": "CL:0000317",
      "conceptId": "CL0000317",
-     "label": "Sebocyte"
+     "label": "Sebocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -350,7 +971,19 @@
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -360,7 +993,20 @@
     {
      "id": "CL:0002153",
      "conceptId": "CL0002153",
-     "label": "Corneocyte"
+     "label": "Corneocyte",
+     "model": "/models/cell/flat-epithelial-cell-no-nucleus.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell-no-nucleus",
+      "apical": null,
+      "nucleus": false,
+      "from": {
+       "id": "CL:0002153",
+       "label": "corneocyte"
+      },
+      "noNucleus": "Cell Ontology classes it as an anucleate cell."
+     }
     }
    ]
   },
@@ -370,7 +1016,20 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   }

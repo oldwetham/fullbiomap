@@ -20,112 +20,365 @@
     {
      "id": "CL:0002394",
      "conceptId": "CL0002394",
-     "label": "CD141-positive myeloid dendritic cell"
+     "label": "CD141-positive myeloid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002399",
      "conceptId": "CL0002399",
-     "label": "CD1c-positive myeloid dendritic cell"
+     "label": "CD1c-positive myeloid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000492",
      "conceptId": "CL0000492",
-     "label": "CD4-positive helper T cell"
+     "label": "CD4-positive helper T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000897",
      "conceptId": "CL0000897",
-     "label": "CD4-positive, alpha-beta memory T cell"
+     "label": "CD4-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000794",
      "conceptId": "CL0000794",
-     "label": "CD8-positive, alpha-beta cytotoxic T cell"
+     "label": "CD8-positive, alpha-beta cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000909",
      "conceptId": "CL0000909",
-     "label": "CD8-positive, alpha-beta memory T cell"
+     "label": "CD8-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001050",
      "conceptId": "CL0001050",
-     "label": "Effector CD8-positive, alpha-beta T cell"
+     "label": "Effector CD8-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000798",
      "conceptId": "CL0000798",
-     "label": "Gamma-delta T cell"
+     "label": "Gamma-delta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000895",
      "conceptId": "CL0000895",
-     "label": "Naive thymus-derived CD4-positive, alpha-beta T cell"
+     "label": "Naive thymus-derived CD4-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000900",
      "conceptId": "CL0000900",
-     "label": "Naive thymus-derived CD8-positive, alpha-beta T cell"
+     "label": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000980",
      "conceptId": "CL0000980",
-     "label": "Plasmablast"
+     "label": "Plasmablast",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001058",
      "conceptId": "CL0001058",
-     "label": "Plasmacytoid dendritic cell, human"
+     "label": "Plasmacytoid dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000489",
      "conceptId": "CL1000489",
-     "label": "Reticular cell of splenic cord"
+     "label": "Reticular cell of splenic cord",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000876",
      "conceptId": "CL0000876",
-     "label": "Splenic white pulp macrophage"
+     "label": "Splenic white pulp macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000818",
      "conceptId": "CL0000818",
-     "label": "Transitional stage B cell"
+     "label": "Transitional stage B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -135,72 +388,235 @@
     {
      "id": "CL:0000492",
      "conceptId": "CL0000492",
-     "label": "CD4-positive helper T cell"
+     "label": "CD4-positive helper T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000972",
      "conceptId": "CL0000972",
-     "label": "Class switched memory B cell"
+     "label": "Class switched memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000442",
      "conceptId": "CL0000442",
-     "label": "Follicular dendritic cell"
+     "label": "Follicular dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001078",
      "conceptId": "CL0001078",
-     "label": "Group 3 innate lymphoid cell, human"
+     "label": "Group 3 innate lymphoid cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000845",
      "conceptId": "CL0000845",
-     "label": "Marginal zone B cell of spleen"
+     "label": "Marginal zone B cell of spleen",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000787",
      "conceptId": "CL0000787",
-     "label": "Memory B cell"
+     "label": "Memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001058",
      "conceptId": "CL0001058",
-     "label": "Plasmacytoid dendritic cell, human"
+     "label": "Plasmacytoid dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000489",
      "conceptId": "CL1000489",
-     "label": "Reticular cell of splenic cord"
+     "label": "Reticular cell of splenic cord",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000872",
      "conceptId": "CL0000872",
-     "label": "Splenic marginal zone macrophage"
+     "label": "Splenic marginal zone macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000818",
      "conceptId": "CL0000818",
-     "label": "Transitional stage B cell"
+     "label": "Transitional stage B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -210,72 +626,233 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001055",
      "conceptId": "CL0001055",
-     "label": "CD14-positive, CD16-low monocyte"
+     "label": "CD14-positive, CD16-low monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000909",
      "conceptId": "CL0000909",
-     "label": "CD8-positive, alpha-beta memory T cell"
+     "label": "CD8-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000625",
      "conceptId": "CL0000625",
-     "label": "CD8-positive, alpha-beta T cell"
+     "label": "CD8-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000232",
      "conceptId": "CL0000232",
-     "label": "Erythrocyte"
+     "label": "Erythrocyte",
+     "model": "/models/cell/red-blood-cell.json",
+     "shape": {
+      "family": "red-blood-cell",
+      "label": "Red blood cell",
+      "variant": "red-blood-cell",
+      "apical": null,
+      "nucleus": false,
+      "from": {
+       "id": "CL:0000232",
+       "label": "erythrocyte"
+      },
+      "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin')."
+     }
     },
     {
      "id": "CL:0000037",
      "conceptId": "CL0000037",
-     "label": "Hematopoietic stem cell"
+     "label": "Hematopoietic stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000980",
      "conceptId": "CL0000980",
-     "label": "Plasmablast"
+     "label": "Plasmablast",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000233",
      "conceptId": "CL0000233",
-     "label": "Platelet"
+     "label": "Platelet",
+     "model": "/models/cell/platelet.json",
+     "shape": {
+      "family": "platelet",
+      "label": "Platelet",
+      "variant": "platelet",
+      "apical": null,
+      "nucleus": false,
+      "from": {
+       "id": "CL:0000233",
+       "label": "platelet"
+      },
+      "noNucleus": "Platelets have no nucleus (Cell Ontology: 'A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes')."
+     }
     },
     {
      "id": "CL:1000489",
      "conceptId": "CL1000489",
-     "label": "Reticular cell of splenic cord"
+     "label": "Reticular cell of splenic cord",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000874",
      "conceptId": "CL0000874",
-     "label": "Splenic red pulp macrophage"
+     "label": "Splenic red pulp macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -285,52 +862,170 @@
     {
      "id": "CL:0001055",
      "conceptId": "CL0001055",
-     "label": "CD14-positive, CD16-low monocyte"
+     "label": "CD14-positive, CD16-low monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002394",
      "conceptId": "CL0002394",
-     "label": "CD141-positive myeloid dendritic cell"
+     "label": "CD141-positive myeloid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002399",
      "conceptId": "CL0002399",
-     "label": "CD1c-positive myeloid dendritic cell"
+     "label": "CD1c-positive myeloid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000232",
      "conceptId": "CL0000232",
-     "label": "Erythrocyte"
+     "label": "Erythrocyte",
+     "model": "/models/cell/red-blood-cell.json",
+     "shape": {
+      "family": "red-blood-cell",
+      "label": "Red blood cell",
+      "variant": "red-blood-cell",
+      "apical": null,
+      "nucleus": false,
+      "from": {
+       "id": "CL:0000232",
+       "label": "erythrocyte"
+      },
+      "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin')."
+     }
     },
     {
      "id": "CL:0000738",
      "conceptId": "CL0000738",
-     "label": "Leukocyte"
+     "label": "Leukocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0011031",
      "conceptId": "CL0011031",
-     "label": "Monocyte-derived dendritic cell"
+     "label": "Monocyte-derived dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001058",
      "conceptId": "CL0001058",
-     "label": "Plasmacytoid dendritic cell, human"
+     "label": "Plasmacytoid dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -340,37 +1035,116 @@
     {
      "id": "CL:0000972",
      "conceptId": "CL0000972",
-     "label": "Class switched memory B cell"
+     "label": "Class switched memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000787",
      "conceptId": "CL0000787",
-     "label": "Memory B cell"
+     "label": "Memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0008034",
      "conceptId": "CL0008034",
-     "label": "Mural cell"
+     "label": "Mural cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000788",
      "conceptId": "CL0000788",
-     "label": "Naive B cell"
+     "label": "Naive B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000874",
      "conceptId": "CL0000874",
-     "label": "Splenic red pulp macrophage"
+     "label": "Splenic red pulp macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -380,37 +1154,119 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000442",
      "conceptId": "CL0000442",
-     "label": "Follicular dendritic cell"
+     "label": "Follicular dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000787",
      "conceptId": "CL0000787",
-     "label": "Memory B cell"
+     "label": "Memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0008034",
      "conceptId": "CL0008034",
-     "label": "Mural cell"
+     "label": "Mural cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000788",
      "conceptId": "CL0000788",
-     "label": "Naive B cell"
+     "label": "Naive B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000818",
      "conceptId": "CL0000818",
-     "label": "Transitional stage B cell"
+     "label": "Transitional stage B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -420,32 +1276,99 @@
     {
      "id": "CL:0000972",
      "conceptId": "CL0000972",
-     "label": "Class switched memory B cell"
+     "label": "Class switched memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000787",
      "conceptId": "CL0000787",
-     "label": "Memory B cell"
+     "label": "Memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000788",
      "conceptId": "CL0000788",
-     "label": "Naive B cell"
+     "label": "Naive B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -455,32 +1378,104 @@
     {
      "id": "CL:0000442",
      "conceptId": "CL0000442",
-     "label": "Follicular dendritic cell"
+     "label": "Follicular dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000844",
      "conceptId": "CL0000844",
-     "label": "Germinal center B cell"
+     "label": "Germinal center B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000980",
      "conceptId": "CL0000980",
-     "label": "Plasmablast"
+     "label": "Plasmablast",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000877",
      "conceptId": "CL0000877",
-     "label": "Splenic tingible body macrophage"
+     "label": "Splenic tingible body macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002038",
      "conceptId": "CL0002038",
-     "label": "T follicular helper cell"
+     "label": "T follicular helper cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009113",
      "conceptId": "CL0009113",
-     "label": "T follicular regulatory cell"
+     "label": "T follicular regulatory cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -490,27 +1485,87 @@
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000442",
      "conceptId": "CL0000442",
-     "label": "Follicular dendritic cell"
+     "label": "Follicular dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000787",
      "conceptId": "CL0000787",
-     "label": "Memory B cell"
+     "label": "Memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000788",
      "conceptId": "CL0000788",
-     "label": "Naive B cell"
+     "label": "Naive B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000876",
      "conceptId": "CL0000876",
-     "label": "Splenic white pulp macrophage"
+     "label": "Splenic white pulp macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -520,17 +1575,51 @@
     {
      "id": "CL:4033050",
      "conceptId": "CL4033050",
-     "label": "Catecholaminergic neuron"
+     "label": "Catecholaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -540,12 +1629,33 @@
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -555,12 +1665,34 @@
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -570,12 +1702,38 @@
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -585,7 +1743,20 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -595,7 +1766,20 @@
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -605,7 +1789,20 @@
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -615,7 +1812,20 @@
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -625,7 +1835,20 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -635,7 +1858,20 @@
     {
      "id": "CL:2000053",
      "conceptId": "CL2000053",
-     "label": "Splenic endothelial cell"
+     "label": "Splenic endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -645,7 +1881,19 @@
     {
      "id": "CL:4033050",
      "conceptId": "CL4033050",
-     "label": "Catecholaminergic neuron"
+     "label": "Catecholaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -655,7 +1903,16 @@
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -665,7 +1922,20 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   }

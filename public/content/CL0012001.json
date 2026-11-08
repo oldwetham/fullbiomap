@@ -11,7 +11,18 @@
   "CL": "0012001"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/neuron.json",
+  "shape": {
+   "family": "neuron",
+   "label": "Neuron",
+   "variant": "neuron",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000540",
+    "label": "neuron"
+   }
+  }
  },
  "content": {
   "tier1": {

@@ -20,17 +20,53 @@
     {
      "id": "CL:4033140",
      "conceptId": "CL4033140",
-     "label": "Ciliary ganglion TH neuron"
+     "label": "Ciliary ganglion TH neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:2000032",
      "conceptId": "CL2000032",
-     "label": "Peripheral nervous system neuron"
+     "label": "Peripheral nervous system neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   }

@@ -20,27 +20,91 @@
     {
      "id": "CL:1000348",
      "conceptId": "CL1000348",
-     "label": "Basal cell of epithelium of trachea"
+     "label": "Basal cell of epithelium of trachea",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000646",
+       "label": "basal cell"
+      },
+      "note": "Basal cells of layered epithelia are low, cube-like cells."
+     }
     },
     {
      "id": "CL:0002207",
      "conceptId": "CL0002207",
-     "label": "Brush cell of trachea"
+     "label": "Brush cell of trachea",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002202",
+       "label": "epithelial cell of tracheobronchial tree"
+      },
+      "note": "The airways are lined by a pseudostratified columnar epithelium."
+     }
     },
     {
      "id": "CL:0002145",
      "conceptId": "CL0002145",
-     "label": "Multiciliated columnar cell of tracheobronchial tree"
+     "label": "Multiciliated columnar cell of tracheobronchial tree",
+     "model": "/models/cell/column-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002202",
+       "label": "epithelial cell of tracheobronchial tree"
+      },
+      "note": "The airways are lined by a pseudostratified columnar epithelium."
+     }
     },
     {
      "id": "CL:1000223",
      "conceptId": "CL1000223",
-     "label": "Pulmonary neuroendocrine cell"
+     "label": "Pulmonary neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     },
     {
      "id": "CL:1000329",
      "conceptId": "CL1000329",
-     "label": "Tracheal goblet cell"
+     "label": "Tracheal goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     }
    ]
   },
@@ -50,17 +114,44 @@
     {
      "id": "CL:4023154",
      "conceptId": "CL4023154",
-     "label": "Myelinating glial cell"
+     "label": "Myelinating glial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002319",
      "conceptId": "CL0002319",
-     "label": "Neural cell"
+     "label": "Neural cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002376",
      "conceptId": "CL0002376",
-     "label": "Non-myelinating Schwann cell"
+     "label": "Non-myelinating Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -70,12 +161,38 @@
     {
      "id": "CL:4033020",
      "conceptId": "CL4033020",
-     "label": "Mucus secreting cell of trachea gland"
+     "label": "Mucus secreting cell of trachea gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002202",
+       "label": "epithelial cell of tracheobronchial tree"
+      },
+      "note": "The airways are lined by a pseudostratified columnar epithelium."
+     }
     },
     {
      "id": "CL:4033021",
      "conceptId": "CL4033021",
-     "label": "Myoepithelial cell of trachea gland"
+     "label": "Myoepithelial cell of trachea gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     }
    ]
   },
@@ -85,12 +202,34 @@
     {
      "id": "CL:4033023",
      "conceptId": "CL4033023",
-     "label": "Airway submucosal gland collecting duct epithelial cell"
+     "label": "Airway submucosal gland collecting duct epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4033024",
      "conceptId": "CL4033024",
-     "label": "Airway submucosal gland duct basal cell"
+     "label": "Airway submucosal gland duct basal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000646",
+       "label": "basal cell"
+      },
+      "note": "Basal cells of layered epithelia are low, cube-like cells."
+     }
     }
    ]
   },
@@ -100,7 +239,16 @@
     {
      "id": "CL:0019002",
      "conceptId": "CL0019002",
-     "label": "Tracheobronchial chondrocyte"
+     "label": "Tracheobronchial chondrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -110,7 +258,20 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -120,7 +281,16 @@
     {
      "id": "CL:0019018",
      "conceptId": "CL0019018",
-     "label": "Blood vessel smooth muscle cell"
+     "label": "Blood vessel smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -130,7 +300,20 @@
     {
      "id": "CL:4033008",
      "conceptId": "CL4033008",
-     "label": "Vein endothelial cell of respiratory system"
+     "label": "Vein endothelial cell of respiratory system",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -140,7 +323,16 @@
     {
      "id": "CL:0019018",
      "conceptId": "CL0019018",
-     "label": "Blood vessel smooth muscle cell"
+     "label": "Blood vessel smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -150,7 +342,16 @@
     {
      "id": "CL:1000330",
      "conceptId": "CL1000330",
-     "label": "Serous cell of epithelium of trachea"
+     "label": "Serous cell of epithelium of trachea",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -160,7 +361,16 @@
     {
      "id": "CL:0019002",
      "conceptId": "CL0019002",
-     "label": "Tracheobronchial chondrocyte"
+     "label": "Tracheobronchial chondrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -170,7 +380,16 @@
     {
      "id": "CL:4033025",
      "conceptId": "CL4033025",
-     "label": "Perichondrial fibroblast"
+     "label": "Perichondrial fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -180,7 +399,20 @@
     {
      "id": "CL:4033055",
      "conceptId": "CL4033055",
-     "label": "Airway submucosal gland duct multiciliated cell"
+     "label": "Airway submucosal gland duct multiciliated cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     }
    ]
   },
@@ -190,7 +422,16 @@
     {
      "id": "CL:0019019",
      "conceptId": "CL0019019",
-     "label": "Tracheobronchial smooth muscle cell"
+     "label": "Tracheobronchial smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

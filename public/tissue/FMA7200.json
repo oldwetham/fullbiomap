@@ -20,127 +20,410 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000624",
      "conceptId": "CL0000624",
-     "label": "CD4-positive, alpha-beta T cell"
+     "label": "CD4-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000625",
      "conceptId": "CL0000625",
-     "label": "CD8-positive, alpha-beta T cell"
+     "label": "CD8-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000163",
      "conceptId": "CL0000163",
-     "label": "Endocrine cell"
+     "label": "Endocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000584",
      "conceptId": "CL0000584",
-     "label": "Enterocyte"
+     "label": "Enterocyte",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000036",
      "conceptId": "CL0000036",
-     "label": "Epithelial fate stem cell"
+     "label": "Epithelial fate stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000326",
      "conceptId": "CL1000326",
-     "label": "Ileal goblet cell"
+     "label": "Ileal goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000317",
      "conceptId": "CL1000317",
-     "label": "Intestinal villus goblet cell"
+     "label": "Intestinal villus goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000682",
      "conceptId": "CL0000682",
-     "label": "M cell of gut"
+     "label": "M cell of gut",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000212",
      "conceptId": "CL0000212",
-     "label": "Obsolete absorptive cell"
+     "label": "Obsolete absorptive cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000344",
      "conceptId": "CL1000344",
-     "label": "Paneth cell of epithelium proper of small intestine"
+     "label": "Paneth cell of epithelium proper of small intestine",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009080",
      "conceptId": "CL0009080",
-     "label": "Tuft cell of small intestine"
+     "label": "Tuft cell of small intestine",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -150,82 +433,269 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000624",
      "conceptId": "CL0000624",
-     "label": "CD4-positive, alpha-beta T cell"
+     "label": "CD4-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000625",
      "conceptId": "CL0000625",
-     "label": "CD8-positive, alpha-beta T cell"
+     "label": "CD8-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000682",
      "conceptId": "CL0000682",
-     "label": "M cell of gut"
+     "label": "M cell of gut",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -235,42 +705,129 @@
     {
      "id": "CL:1000324",
      "conceptId": "CL1000324",
-     "label": "Duodenal goblet cell"
+     "label": "Duodenal goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000163",
      "conceptId": "CL0000163",
-     "label": "Endocrine cell"
+     "label": "Endocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000584",
      "conceptId": "CL0000584",
-     "label": "Enterocyte"
+     "label": "Enterocyte",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:1000317",
      "conceptId": "CL1000317",
-     "label": "Intestinal villus goblet cell"
+     "label": "Intestinal villus goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000212",
      "conceptId": "CL0000212",
-     "label": "Obsolete absorptive cell"
+     "label": "Obsolete absorptive cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000344",
      "conceptId": "CL1000344",
-     "label": "Paneth cell of epithelium proper of small intestine"
+     "label": "Paneth cell of epithelium proper of small intestine",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000034",
      "conceptId": "CL0000034",
-     "label": "Stem cell"
+     "label": "Stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009080",
      "conceptId": "CL0009080",
-     "label": "Tuft cell of small intestine"
+     "label": "Tuft cell of small intestine",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -280,42 +837,129 @@
     {
      "id": "CL:0000163",
      "conceptId": "CL0000163",
-     "label": "Endocrine cell"
+     "label": "Endocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000584",
      "conceptId": "CL0000584",
-     "label": "Enterocyte"
+     "label": "Enterocyte",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000036",
      "conceptId": "CL0000036",
-     "label": "Epithelial fate stem cell"
+     "label": "Epithelial fate stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000317",
      "conceptId": "CL1000317",
-     "label": "Intestinal villus goblet cell"
+     "label": "Intestinal villus goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:1000325",
      "conceptId": "CL1000325",
-     "label": "Jejunal goblet cell"
+     "label": "Jejunal goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000212",
      "conceptId": "CL0000212",
-     "label": "Obsolete absorptive cell"
+     "label": "Obsolete absorptive cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000344",
      "conceptId": "CL1000344",
-     "label": "Paneth cell of epithelium proper of small intestine"
+     "label": "Paneth cell of epithelium proper of small intestine",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0009080",
      "conceptId": "CL0009080",
-     "label": "Tuft cell of small intestine"
+     "label": "Tuft cell of small intestine",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -325,32 +969,96 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002088",
      "conceptId": "CL0002088",
-     "label": "Interstitial cell of Cajal"
+     "label": "Interstitial cell of Cajal",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000077",
      "conceptId": "CL0000077",
-     "label": "Mesothelial cell"
+     "label": "Mesothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -360,27 +1068,79 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002088",
      "conceptId": "CL0002088",
-     "label": "Interstitial cell of Cajal"
+     "label": "Interstitial cell of Cajal",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -390,17 +1150,51 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000077",
      "conceptId": "CL0000077",
-     "label": "Mesothelial cell"
+     "label": "Mesothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -410,17 +1204,51 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000077",
      "conceptId": "CL0000077",
-     "label": "Mesothelial cell"
+     "label": "Mesothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -430,17 +1258,51 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -450,12 +1312,33 @@
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -465,7 +1348,16 @@
     {
      "id": "CL:0000187",
      "conceptId": "CL0000187",
-     "label": "Muscle cell"
+     "label": "Muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

@@ -20,12 +20,34 @@
     {
      "id": "CL:2000040",
      "conceptId": "CL2000040",
-     "label": "Bladder microvascular endothelial cell"
+     "label": "Bladder microvascular endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002597",
      "conceptId": "CL0002597",
-     "label": "Smooth muscle cell of bladder"
+     "label": "Smooth muscle cell of bladder",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -35,7 +57,16 @@
     {
      "id": "CL:1001319",
      "conceptId": "CL1001319",
-     "label": "Bladder cell"
+     "label": "Bladder cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -45,7 +76,16 @@
     {
      "id": "CL:0002597",
      "conceptId": "CL0002597",
-     "label": "Smooth muscle cell of bladder"
+     "label": "Smooth muscle cell of bladder",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -55,7 +95,20 @@
     {
      "id": "CL:1001428",
      "conceptId": "CL1001428",
-     "label": "Bladder urothelial cell"
+     "label": "Bladder urothelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000731",
+       "label": "urothelial cell"
+      },
+      "note": "Transitional epithelium; a cube is the nearest of the three epithelial shapes."
+     }
     }
    ]
   }

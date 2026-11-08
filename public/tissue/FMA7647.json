@@ -20,32 +20,99 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000100",
      "conceptId": "CL0000100",
-     "label": "Motor neuron"
+     "label": "Motor neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -55,27 +122,82 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -85,27 +207,82 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -115,27 +292,79 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002453",
      "conceptId": "CL0002453",
-     "label": "Oligodendrocyte precursor cell"
+     "label": "Oligodendrocyte precursor cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -145,7 +374,20 @@
     {
      "id": "CL:0000065",
      "conceptId": "CL0000065",
-     "label": "Ependymal cell"
+     "label": "Ependymal cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000065",
+       "label": "ependymal cell"
+      },
+      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer."
+     }
     }
    ]
   }

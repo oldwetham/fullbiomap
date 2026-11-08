@@ -20,57 +20,189 @@
     {
      "id": "CL:0002399",
      "conceptId": "CL0002399",
-     "label": "CD1c-positive myeloid dendritic cell"
+     "label": "CD1c-positive myeloid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000624",
      "conceptId": "CL0000624",
-     "label": "CD4-positive, alpha-beta T cell"
+     "label": "CD4-positive, alpha-beta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000909",
      "conceptId": "CL0000909",
-     "label": "CD8-positive, alpha-beta memory T cell"
+     "label": "CD8-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001203",
      "conceptId": "CL0001203",
-     "label": "CD8-positive, alpha-beta memory T cell, CD45RO-positive"
+     "label": "CD8-positive, alpha-beta memory T cell, CD45RO-positive",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000798",
      "conceptId": "CL0000798",
-     "label": "Gamma-delta T cell"
+     "label": "Gamma-delta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:2000054",
      "conceptId": "CL2000054",
-     "label": "Hepatic pit cell"
+     "label": "Hepatic pit cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000784",
      "conceptId": "CL0000784",
-     "label": "Plasmacytoid dendritic cell"
+     "label": "Plasmacytoid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000921",
      "conceptId": "CL0000921",
-     "label": "Type I NK T cell"
+     "label": "Type I NK T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -80,22 +212,74 @@
     {
      "id": "CL:0019029",
      "conceptId": "CL0019029",
-     "label": "Centrilobular region hepatocyte"
+     "label": "Centrilobular region hepatocyte",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000182",
+       "label": "hepatocyte"
+      },
+      "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes."
+     }
     },
     {
      "id": "CL:0000182",
      "conceptId": "CL0000182",
-     "label": "Hepatocyte"
+     "label": "Hepatocyte",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000182",
+       "label": "hepatocyte"
+      },
+      "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes."
+     }
     },
     {
      "id": "CL:0019028",
      "conceptId": "CL0019028",
-     "label": "Midzonal region hepatocyte"
+     "label": "Midzonal region hepatocyte",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000182",
+       "label": "hepatocyte"
+      },
+      "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes."
+     }
     },
     {
      "id": "CL:0019026",
      "conceptId": "CL0019026",
-     "label": "Periportal region hepatocyte"
+     "label": "Periportal region hepatocyte",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000182",
+       "label": "hepatocyte"
+      },
+      "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes."
+     }
     }
    ]
   },
@@ -105,12 +289,30 @@
     {
      "id": "CL:0000075",
      "conceptId": "CL0000075",
-     "label": "Columnar/cuboidal epithelial cell"
+     "label": "Columnar/cuboidal epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000241",
      "conceptId": "CL0000241",
-     "label": "Stratified cuboidal epithelial cell"
+     "label": "Stratified cuboidal epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -120,12 +322,34 @@
     {
      "id": "CL:0019018",
      "conceptId": "CL0019018",
-     "label": "Blood vessel smooth muscle cell"
+     "label": "Blood vessel smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -135,12 +359,37 @@
     {
      "id": "CL:1000398",
      "conceptId": "CL1000398",
-     "label": "Endothelial cell of hepatic sinusoid"
+     "label": "Endothelial cell of hepatic sinusoid",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000091",
      "conceptId": "CL0000091",
-     "label": "Kupffer cell"
+     "label": "Kupffer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -150,12 +399,33 @@
     {
      "id": "CL:0000632",
      "conceptId": "CL0000632",
-     "label": "Hepatic stellate cell"
+     "label": "Hepatic stellate cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000738",
      "conceptId": "CL0000738",
-     "label": "Leukocyte"
+     "label": "Leukocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -165,7 +435,20 @@
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -175,7 +458,20 @@
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -185,7 +481,16 @@
     {
      "id": "CL:0009100",
      "conceptId": "CL0009100",
-     "label": "Hepatic portal fibroblast"
+     "label": "Hepatic portal fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -195,7 +500,16 @@
     {
      "id": "CL:0002196",
      "conceptId": "CL0002196",
-     "label": "Hepatic oval stem cell"
+     "label": "Hepatic oval stem cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -205,7 +519,20 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -215,7 +542,19 @@
     {
      "id": "CL:0000526",
      "conceptId": "CL0000526",
-     "label": "Afferent neuron"
+     "label": "Afferent neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   }

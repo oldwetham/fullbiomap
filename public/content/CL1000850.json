@@ -11,7 +11,19 @@
   "CL": "1000850"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:1000850",
+    "label": "macula densa epithelial cell"
+   },
+   "note": "Tall, closely packed cells."
+  }
  },
  "content": {
   "tier1": {

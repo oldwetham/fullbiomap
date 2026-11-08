@@ -11,7 +11,19 @@
   "CL": "4030011"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell-microvilli",
+   "apical": "microvilli",
+   "nucleus": true,
+   "from": {
+    "id": "CL:1000507",
+    "label": "kidney tubule cell"
+   },
+   "note": "Kidney tubules are lined by cuboidal epithelium."
+  }
  },
  "content": {
   "tier1": {

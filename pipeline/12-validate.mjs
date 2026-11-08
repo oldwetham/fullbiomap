@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {shapeOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -61,9 +62,19 @@ for (const [object, m] of Object.entries(hraModels)) {
   for (const c of JSON.parse(read(`${where}${m.manifest}`)).concepts) { hraConceptIds.add(c.id); if (!index.has(c.id)) fail(`${object} ${c.id}`, 'HRA concept has no content file'); }
 }
 // Phase 4: the generic cell model's concepts need nodes too.
-const cellModel = 'public/models/cell/generic-cell.json';
-const cellConceptIds = new Set(fs.existsSync(path.join(root, cellModel)) ? JSON.parse(read(cellModel)).concepts.map(c => c.id) : []);
-for (const c of cellConceptIds) if (!index.has(c)) fail(`cell model ${c}`, 'concept has no content file');
+// Phase 4: the 3D cells (step 13): every part they draw needs a node, and a cell type's model must follow the
+// family rules (pipeline/maps/cell-families.json) and never draw a nucleus where the cell type has none.
+const cellDir = path.join(root, 'public/models/cell');
+const cellModels = new Map(fs.existsSync(cellDir) ? fs.readdirSync(cellDir).filter(f => f.endsWith('.json')).map(f => [`/models/cell/${f}`, JSON.parse(read(`public/models/cell/${f}`))]) : []);
+const cellConceptIds = new Set([...cellModels.values()].flatMap(m => m.concepts.map(c => c.id)));
+for (const [url, m] of cellModels) for (const c of m.concepts) if (!index.has(c.id)) fail(`${url} ${c.id}`, 'concept has no content file');
+const NUCLEAR = new Set(['GO0005634', 'GO0005730']);  // nucleus, nucleolus
+const drawsNucleus = m => m.concepts.some(c => NUCLEAR.has(c.id) && c.elements.length) || m.parts.some(p => NUCLEAR.has(p.conceptId));
+for (const [url, m] of cellModels) if (m.cell && m.cell.nucleus !== drawsNucleus(m)) fail(url, `says nucleus: ${m.cell.nucleus} but ${drawsNucleus(m) ? 'draws' : 'does not draw'} one`);
+const cellTerms = new Map(fs.readFileSync(path.join(root, 'graph/defs.cells.jsonl'), 'utf8').split('\n').filter(Boolean).map(l => JSON.parse(l)).map(d => [d.id, d]));
+// Independent of the family map: Cell Ontology's own word that a cell type has no nucleus.
+const ontologySaysNoNucleus = id => { const d = cellTerms.get(id); return !!d && ((d.ancestors ?? []).includes('CL:0000225') || /\b(lacks? a nucleus|non-nucleated|anucleate|enucleated?)\b/i.test(d.definition ?? '')); };
+let cellShapesChecked = 0;
 for (const n of nodes) if (!conceptIds.has(n.conceptId) && !hraConceptIds.has(n.conceptId) && !CELL_SCALES.has(n.scale)) fail(n.id, 'node is neither an atlas nor an HRA concept');
 // Organs opened on their own (female organs): model present, organ has a node with tier-1 text.
 const standaloneFile = path.join(root, 'public/models/organs/standalone.json');
@@ -98,6 +109,18 @@ for (const n of nodes) {
   if (n.scale === 'organelle' && !(n.connections ?? []).some(c => c.rel === 'component_of')) fail(n.id, 'organelle has no component_of');
   if (!n.label?.trim()) fail(n.id, 'no label');
   if (!n.geometry?.male?.length && !n.geometry?.female?.length && !n.geometry?.models?.length && !n.geometry?.model) fail(n.id, 'no geometry in any body or model');
+  if (CELL_SCALES.has(n.scale)) {
+    const m = cellModels.get(n.geometry?.model);
+    if (!m) fail(n.id, `cell model ${n.geometry?.model} is not one step 13 built`);
+    else if (!m.concepts.some(c => c.id === n.conceptId) && n.scale === 'organelle') fail(n.id, `organelle is not drawn in ${n.geometry.model}`);
+    if (n.scale === 'cell' && n.id !== 'CL:0000000' && m) {
+      cellShapesChecked++;
+      const want = shapeOf(n.id, cellTerms.get(n.id)?.ancestors ?? []);
+      if (n.geometry.model !== want.model || n.geometry.shape?.variant !== want.variant) fail(n.id, `3D model ${n.geometry.model} is not the one the family rules give (${want.model}); rerun step 11`);
+      if (n.geometry.shape?.nucleus !== drawsNucleus(m)) fail(n.id, `shape says nucleus: ${n.geometry.shape?.nucleus} but ${n.geometry.model} ${drawsNucleus(m) ? 'draws' : 'does not draw'} one`);
+      if (ontologySaysNoNucleus(n.id) && drawsNucleus(m)) fail(n.id, `Cell Ontology says this cell type has no nucleus, but ${n.geometry.model} draws one`);
+    }
+  }
   if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');
   if (n.ladder?.organ && !byId.has(n.ladder.organ.id)) fail(n.id, `ladder organ ${n.ladder.organ.id} is not a node`);
   if (n.content?.tier1?.status === 'missing') fail(n.id, 'no tier-1 text');
@@ -143,7 +166,7 @@ const tissueDir = path.join(root, 'public/tissue');
 for (const f of fs.existsSync(tissueDir) ? fs.readdirSync(tissueDir) : []) {
   const b = JSON.parse(fs.readFileSync(path.join(tissueDir, f), 'utf8')), where = `tissue/${f}`;
   if (!byId.has(b.organ?.id)) fail(where, 'board organ is not a node');
-  for (const g of b.groups ?? []) for (const c of g.cells) if (!byId.has(c.id)) fail(where, `cell type ${c.id} is not a node`);
+  for (const g of b.groups ?? []) for (const c of g.cells) { if (!byId.has(c.id)) fail(where, `cell type ${c.id} is not a node`); else if (c.model !== byId.get(c.id).geometry?.model) fail(where, `cell type ${c.id} opens ${c.model}, its node says ${byId.get(c.id).geometry?.model}`); }
   for (const t of b.tables ?? []) if (!t.doi || !t.version) fail(where, `table ${t.name} needs version and DOI`);
   for (const m of b.media ?? []) {
     requirePath(m.url, where, 'board image');
@@ -207,6 +230,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Nodes: ${nodes.length} (male atlas concepts: ${conceptIds.size}; HRA concepts: ${hraConceptIds.size})`,
   `- Organs (${ORGAN} Organ and its is_a descendants): ${organs}`,
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
+  `- 3D cells: ${cellModels.size} models; ${cellShapesChecked} cell types checked against the shape rules, none drawing a nucleus where its family or Cell Ontology says it has none`,
   `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,
   `- Validation errors: ${errors.length}`, '',
   '## Edges by relation', '',

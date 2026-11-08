@@ -20,107 +20,359 @@
     {
      "id": "CL:0000934",
      "conceptId": "CL0000934",
-     "label": "CD4-positive, alpha-beta cytotoxic T cell"
+     "label": "CD4-positive, alpha-beta cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000897",
      "conceptId": "CL0000897",
-     "label": "CD4-positive, alpha-beta memory T cell"
+     "label": "CD4-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002460",
      "conceptId": "CL0002460",
-     "label": "CD8-alpha-negative thymic conventional dendritic cell"
+     "label": "CD8-alpha-negative thymic conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002059",
      "conceptId": "CL0002059",
-     "label": "CD8-alpha-positive thymic conventional dendritic cell"
+     "label": "CD8-alpha-positive thymic conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000909",
      "conceptId": "CL0000909",
-     "label": "CD8-positive, alpha-beta memory T cell"
+     "label": "CD8-positive, alpha-beta memory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009068",
      "conceptId": "CL0009068",
-     "label": "CD8aa(I) thymocyte"
+     "label": "CD8aa(I) thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009069",
      "conceptId": "CL0009069",
-     "label": "CD8aa(II) thymocyte"
+     "label": "CD8aa(II) thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000798",
      "conceptId": "CL0000798",
-     "label": "Gamma-delta T cell"
+     "label": "Gamma-delta T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001078",
      "conceptId": "CL0001078",
-     "label": "Group 3 innate lymphoid cell, human"
+     "label": "Group 3 innate lymphoid cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000914",
      "conceptId": "CL0000914",
-     "label": "Immature NK T cell"
+     "label": "Immature NK T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002436",
      "conceptId": "CL0002436",
-     "label": "Mature CD4 single-positive thymocyte"
+     "label": "Mature CD4 single-positive thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002437",
      "conceptId": "CL0002437",
-     "label": "Mature CD8 single-positive thymocyte"
+     "label": "Mature CD8 single-positive thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000940",
      "conceptId": "CL0000940",
-     "label": "Mucosal-associated invariant T cell"
+     "label": "Mucosal-associated invariant T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000788",
      "conceptId": "CL0000788",
-     "label": "Naive B cell"
+     "label": "Naive B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002677",
      "conceptId": "CL0002677",
-     "label": "Naive regulatory T cell"
+     "label": "Naive regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002038",
      "conceptId": "CL0002038",
-     "label": "T follicular helper cell"
+     "label": "T follicular helper cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000899",
      "conceptId": "CL0000899",
-     "label": "T-helper 17 cell"
+     "label": "T-helper 17 cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000882",
      "conceptId": "CL0000882",
-     "label": "Thymic medullary macrophage"
+     "label": "Thymic medullary macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000942",
      "conceptId": "CL0000942",
-     "label": "Thymic plasmacytoid dendritic cell"
+     "label": "Thymic plasmacytoid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -130,72 +382,238 @@
     {
      "id": "CL:0001070",
      "conceptId": "CL0001070",
-     "label": "Beige adipocyte"
+     "label": "Beige adipocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0001070",
+       "label": "beige adipocyte"
+      },
+      "note": "Its many small lipid droplets do not fit the fat cell shape, which has one large droplet."
+     }
     },
     {
      "id": "CL:0002460",
      "conceptId": "CL0002460",
-     "label": "CD8-alpha-negative thymic conventional dendritic cell"
+     "label": "CD8-alpha-negative thymic conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002059",
      "conceptId": "CL0002059",
-     "label": "CD8-alpha-positive thymic conventional dendritic cell"
+     "label": "CD8-alpha-positive thymic conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000972",
      "conceptId": "CL0000972",
-     "label": "Class switched memory B cell"
+     "label": "Class switched memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009070",
      "conceptId": "CL0009070",
-     "label": "Corticomedullary thymic epithelial cell"
+     "label": "Corticomedullary thymic epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002436",
      "conceptId": "CL0002436",
-     "label": "Mature CD4 single-positive thymocyte"
+     "label": "Mature CD4 single-positive thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002437",
      "conceptId": "CL0002437",
-     "label": "Mature CD8 single-positive thymocyte"
+     "label": "Mature CD8 single-positive thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000576",
      "conceptId": "CL0000576",
-     "label": "Monocyte"
+     "label": "Monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000980",
      "conceptId": "CL0000980",
-     "label": "Plasmablast"
+     "label": "Plasmablast",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:3000002",
      "conceptId": "CL3000002",
-     "label": "Sympathetic noradrenergic neuron"
+     "label": "Sympathetic noradrenergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000866",
      "conceptId": "CL0000866",
-     "label": "Thymic macrophage"
+     "label": "Thymic macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000970",
      "conceptId": "CL0000970",
-     "label": "Unswitched memory B cell"
+     "label": "Unswitched memory B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -205,37 +623,100 @@
     {
      "id": "CL:0002364",
      "conceptId": "CL0002364",
-     "label": "Cortical thymic epithelial cell"
+     "label": "Cortical thymic epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009071",
      "conceptId": "CL0009071",
-     "label": "Medullary thymic epithelial cell type 1"
+     "label": "Medullary thymic epithelial cell type 1",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009072",
      "conceptId": "CL0009072",
-     "label": "Medullary thymic epithelial cell type 2"
+     "label": "Medullary thymic epithelial cell type 2",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009073",
      "conceptId": "CL0009073",
-     "label": "Medullary thymic epithelial cell type 3"
+     "label": "Medullary thymic epithelial cell type 3",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009074",
      "conceptId": "CL0009074",
-     "label": "Medullary thymic epithelial cell type 4"
+     "label": "Medullary thymic epithelial cell type 4",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009075",
      "conceptId": "CL0009075",
-     "label": "Myo-medullary thymic epithelial cell"
+     "label": "Myo-medullary thymic epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009076",
      "conceptId": "CL0009076",
-     "label": "Neuro-medullary thymic epithelial cell"
+     "label": "Neuro-medullary thymic epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -245,32 +726,98 @@
     {
      "id": "CL:0009082",
      "conceptId": "CL0009082",
-     "label": "Committed double negative thymocyte (Homo sapiens)"
+     "label": "Committed double negative thymocyte (Homo sapiens)",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002425",
      "conceptId": "CL0002425",
-     "label": "Early T lineage precursor"
+     "label": "Early T lineage precursor",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009083",
      "conceptId": "CL0009083",
-     "label": "Rearranging double negative thymocyte (Homo sapiens)"
+     "label": "Rearranging double negative thymocyte (Homo sapiens)",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009081",
      "conceptId": "CL0009081",
-     "label": "Specified double negative thymocyte (Homo sapiens)"
+     "label": "Specified double negative thymocyte (Homo sapiens)",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0009077",
      "conceptId": "CL0009077",
-     "label": "Subcapsular thymic epithelial cell"
+     "label": "Subcapsular thymic epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000883",
      "conceptId": "CL0000883",
-     "label": "Thymic cortical macrophage"
+     "label": "Thymic cortical macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -280,22 +827,67 @@
     {
      "id": "CL:0000771",
      "conceptId": "CL0000771",
-     "label": "Eosinophil"
+     "label": "Eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000764",
      "conceptId": "CL0000764",
-     "label": "Erythroid lineage cell"
+     "label": "Erythroid lineage cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000866",
      "conceptId": "CL0000866",
-     "label": "Thymic macrophage"
+     "label": "Thymic macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -305,17 +897,50 @@
     {
      "id": "CL:0000809",
      "conceptId": "CL0000809",
-     "label": "Double-positive, alpha-beta thymocyte"
+     "label": "Double-positive, alpha-beta thymocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000764",
      "conceptId": "CL0000764",
-     "label": "Erythroid lineage cell"
+     "label": "Erythroid lineage cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000942",
      "conceptId": "CL0000942",
-     "label": "Thymic plasmacytoid dendritic cell"
+     "label": "Thymic plasmacytoid dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -325,12 +950,30 @@
     {
      "id": "CL:0009078",
      "conceptId": "CL0009078",
-     "label": "Thymic fibroblast type 1"
+     "label": "Thymic fibroblast type 1",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0009079",
      "conceptId": "CL0009079",
-     "label": "Thymic fibroblast type 2"
+     "label": "Thymic fibroblast type 2",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -340,7 +983,20 @@
     {
      "id": "CL:0001070",
      "conceptId": "CL0001070",
-     "label": "Beige adipocyte"
+     "label": "Beige adipocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0001070",
+       "label": "beige adipocyte"
+      },
+      "note": "Its many small lipid droplets do not fit the fat cell shape, which has one large droplet."
+     }
     }
    ]
   },
@@ -350,7 +1006,19 @@
     {
      "id": "CL:0000866",
      "conceptId": "CL0000866",
-     "label": "Thymic macrophage"
+     "label": "Thymic macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -360,7 +1028,20 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -370,7 +1051,16 @@
     {
      "id": "CL:0009073",
      "conceptId": "CL0009073",
-     "label": "Medullary thymic epithelial cell type 3"
+     "label": "Medullary thymic epithelial cell type 3",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -380,7 +1070,19 @@
     {
      "id": "CL:3000002",
      "conceptId": "CL3000002",
-     "label": "Sympathetic noradrenergic neuron"
+     "label": "Sympathetic noradrenergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -390,7 +1092,20 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -400,7 +1115,20 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   }

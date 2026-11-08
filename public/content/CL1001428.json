@@ -9,7 +9,19 @@
   "CL": "1001428"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000731",
+    "label": "urothelial cell"
+   },
+   "note": "Transitional epithelium; a cube is the nearest of the three epithelial shapes."
+  }
  },
  "content": {
   "tier1": {

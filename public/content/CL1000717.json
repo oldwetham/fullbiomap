@@ -9,7 +9,19 @@
   "CL": "1000717"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:1001225",
+    "label": "kidney collecting duct cell"
+   },
+   "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+  }
  },
  "content": {
   "tier1": {

@@ -11,7 +11,18 @@
   "CL": "4030006"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:4052018",
+    "label": "fallopian tube epithelial cell"
+   }
+  }
  },
  "content": {
   "tier1": {

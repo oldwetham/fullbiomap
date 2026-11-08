@@ -9,7 +9,19 @@
   "CL": "0002079"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000068",
+    "label": "duct epithelial cell"
+   },
+   "note": "Small ducts are lined by cuboidal cells."
+  }
  },
  "content": {
   "tier1": {

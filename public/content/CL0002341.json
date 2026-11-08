@@ -9,7 +9,18 @@
   "CL": "0002341"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002341",
+    "label": "basal cell of prostate epithelium"
+   }
+  }
  },
  "content": {
   "tier1": {

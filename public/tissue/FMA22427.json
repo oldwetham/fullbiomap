@@ -20,7 +20,20 @@
     {
      "id": "CL:0000188",
      "conceptId": "CL0000188",
-     "label": "Cell of skeletal muscle"
+     "label": "Cell of skeletal muscle",
+     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "shape": {
+      "family": "skeletal-muscle-fiber",
+      "label": "Skeletal muscle fiber",
+      "variant": "skeletal-muscle-fiber",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000188",
+       "label": "cell of skeletal muscle"
+      },
+      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles."
+     }
     }
    ]
   },
@@ -30,7 +43,20 @@
     {
      "id": "CL:0000188",
      "conceptId": "CL0000188",
-     "label": "Cell of skeletal muscle"
+     "label": "Cell of skeletal muscle",
+     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "shape": {
+      "family": "skeletal-muscle-fiber",
+      "label": "Skeletal muscle fiber",
+      "variant": "skeletal-muscle-fiber",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000188",
+       "label": "cell of skeletal muscle"
+      },
+      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles."
+     }
     }
    ]
   }

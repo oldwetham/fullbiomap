@@ -20,72 +20,236 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002068",
      "conceptId": "CL0002068",
-     "label": "Purkinje myocyte"
+     "label": "Purkinje myocyte",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -95,72 +259,236 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:2000066",
      "conceptId": "CL2000066",
-     "label": "Cardiac ventricle fibroblast"
+     "label": "Cardiac ventricle fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002068",
      "conceptId": "CL0002068",
-     "label": "Purkinje myocyte"
+     "label": "Purkinje myocyte",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -170,67 +498,219 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:2000066",
      "conceptId": "CL2000066",
-     "label": "Cardiac ventricle fibroblast"
+     "label": "Cardiac ventricle fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002068",
      "conceptId": "CL0002068",
-     "label": "Purkinje myocyte"
+     "label": "Purkinje myocyte",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -240,47 +720,146 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:1000477",
      "conceptId": "CL1000477",
-     "label": "Cardiac pacemaker cell of sinoatrial node"
+     "label": "Cardiac pacemaker cell of sinoatrial node",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -290,47 +869,147 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002068",
      "conceptId": "CL0002068",
-     "label": "Purkinje myocyte"
+     "label": "Purkinje myocyte",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -340,42 +1019,129 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0017004",
      "conceptId": "CL0017004",
-     "label": "Telocyte"
+     "label": "Telocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -385,37 +1151,123 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000746",
      "conceptId": "CL0000746",
-     "label": "Cardiac muscle cell"
+     "label": "Cardiac muscle cell",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     },
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -425,37 +1277,113 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000309",
      "conceptId": "CL1000309",
-     "label": "Epicardial adipocyte"
+     "label": "Epicardial adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000077",
      "conceptId": "CL0000077",
-     "label": "Mesothelial cell"
+     "label": "Mesothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -465,32 +1393,94 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0010008",
      "conceptId": "CL0010008",
-     "label": "Cardiac endothelial cell"
+     "label": "Cardiac endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000066",
      "conceptId": "CL2000066",
-     "label": "Cardiac ventricle fibroblast"
+     "label": "Cardiac ventricle fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -500,22 +1490,62 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -525,17 +1555,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -545,17 +1606,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -565,17 +1657,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -585,17 +1708,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -605,17 +1759,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -625,17 +1810,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -645,17 +1861,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -665,17 +1912,48 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -685,17 +1963,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -705,17 +2014,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -725,17 +2065,48 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -745,17 +2116,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -765,17 +2167,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -785,17 +2218,48 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -805,17 +2269,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -825,17 +2320,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -845,17 +2371,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -865,17 +2422,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -885,17 +2473,48 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -905,17 +2524,48 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:2000067",
      "conceptId": "CL2000067",
-     "label": "Cardiac atrium fibroblast"
+     "label": "Cardiac atrium fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -925,17 +2575,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -945,17 +2626,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -965,17 +2677,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -985,17 +2728,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002592",
      "conceptId": "CL0002592",
-     "label": "Smooth muscle cell of the coronary artery"
+     "label": "Smooth muscle cell of the coronary artery",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1005,17 +2779,48 @@
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1025,12 +2830,34 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:4030032",
      "conceptId": "CL4030032",
-     "label": "Valve interstitial cell"
+     "label": "Valve interstitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1040,12 +2867,36 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0002072",
      "conceptId": "CL0002072",
-     "label": "Nodal myocyte"
+     "label": "Nodal myocyte",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1055,12 +2906,34 @@
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1070,12 +2943,34 @@
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:4030032",
      "conceptId": "CL4030032",
-     "label": "Valve interstitial cell"
+     "label": "Valve interstitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1085,12 +2980,34 @@
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:4030032",
      "conceptId": "CL4030032",
-     "label": "Valve interstitial cell"
+     "label": "Valve interstitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1100,12 +3017,34 @@
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:4030032",
      "conceptId": "CL4030032",
-     "label": "Valve interstitial cell"
+     "label": "Valve interstitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1115,12 +3054,34 @@
     {
      "id": "CL:0002350",
      "conceptId": "CL0002350",
-     "label": "Endocardial cell"
+     "label": "Endocardial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:4030032",
      "conceptId": "CL4030032",
-     "label": "Valve interstitial cell"
+     "label": "Valve interstitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -1130,7 +3091,19 @@
     {
      "id": "CL:1000287",
      "conceptId": "CL1000287",
-     "label": "Myocyte of anterior internodal tract"
+     "label": "Myocyte of anterior internodal tract",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1140,7 +3113,19 @@
     {
      "id": "CL:1000477",
      "conceptId": "CL1000477",
-     "label": "Cardiac pacemaker cell of sinoatrial node"
+     "label": "Cardiac pacemaker cell of sinoatrial node",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1150,7 +3135,19 @@
     {
      "id": "CL:1000290",
      "conceptId": "CL1000290",
-     "label": "Myocyte of middle internodal tract"
+     "label": "Myocyte of middle internodal tract",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1160,7 +3157,19 @@
     {
      "id": "CL:1000291",
      "conceptId": "CL1000291",
-     "label": "Myocyte of posterior internodal tract"
+     "label": "Myocyte of posterior internodal tract",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1170,7 +3179,19 @@
     {
      "id": "CL:1000477",
      "conceptId": "CL1000477",
-     "label": "Cardiac pacemaker cell of sinoatrial node"
+     "label": "Cardiac pacemaker cell of sinoatrial node",
+     "model": "/models/cell/cardiac-muscle-cell.json",
+     "shape": {
+      "family": "cardiomyocyte",
+      "label": "Cardiac muscle cell",
+      "variant": "cardiac-muscle-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000746",
+       "label": "cardiac muscle cell"
+      }
+     }
     }
    ]
   },
@@ -1180,7 +3201,16 @@
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

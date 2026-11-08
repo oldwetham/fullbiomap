@@ -8,6 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {shapeOf} from './_cell-families.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -270,6 +271,13 @@ const tissueMap = JSON.parse(read('pipeline/maps/tissue-media.json'));
 const organelleMap = JSON.parse(read('pipeline/maps/organelles.json'));
 const hraRelease = JSON.parse(read('pipeline/maps/hra-release.json'));
 const CELL_MODEL = '/models/cell/generic-cell.json';
+// Each cell type's 3D shape: a cell family chosen from its Cell Ontology ancestors (pipeline/maps/cell-families.json);
+// step 13 built one model per family variant. `shape` is the summary the panel shows (and step 12 checks).
+const cellShape = cl => { const s = shapeOf(cl, cellDefs.get(cl)?.ancestors ?? []); return {model: s.model, shape: {family: s.family, label: s.label, variant: s.variant, apical: s.apical?.kind ?? null, nucleus: s.nucleus,
+  from: s.from ? {id: s.from.id, label: s.from.label} : null, ...(s.from?.note ? {note: s.from.note} : {}), ...(s.noNucleus ? {noNucleus: s.noNucleus.why} : {})}}; };
+const cellModels = fs.readdirSync(path.join(root, 'public/models/cell')).filter(f => f.endsWith('.json')).sort().map(f => [`/models/cell/${f}`, JSON.parse(read(`public/models/cell/${f}`))]);
+/** An organelle's model: the generic cell if it draws it, else the first family model that does. */
+const organelleModel = key => [[CELL_MODEL], ...cellModels.filter(([u]) => u !== CELL_MODEL)].map(([u]) => [u, cellModels.find(([x]) => x === u)?.[1]]).find(([, m]) => m?.palette?.some(x => x.id === key))?.[0] ?? CELL_MODEL;
 const maleByUberon = new Map();
 for (const d of defs.values()) if (d.uberon) maleByUberon.set(d.uberon.id, [...(maleByUberon.get(d.uberon.id) ?? []), d.id]);
 // Female aliases resolve to their male equivalent (one board per organ, not one per body).
@@ -328,7 +336,7 @@ for (const [cl, places] of [...cellPlaces].sort((a, b) => a[0].localeCompare(b[0
       ...(uberonOf(nid) ? {alternates: [uberonOf(nid)]} : {})};
   }).sort((a, b) => a.label.localeCompare(b.label));
   nodes.push({id: cl, conceptId: cl.replace(':', ''), label: upperFirst(d?.label ?? cellLabel.get(cl)), scale: 'cell', system: null, synonyms: d?.synonyms ?? [],
-    xrefs: {CL: cl.slice(3)}, geometry: {model: CELL_MODEL}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
+    xrefs: {CL: cl.slice(3)}, geometry: cellShape(cl), content, media: [], sources: sourcesOf(content), zoom: {in: [], out: []}, connections, ancestors: [],
     ladder: {system: first?.ladder?.system ?? null, isOrgan: false, organ: first?.ladder?.organ ?? null}});
 }
 // The generic cell (CL:0000000) and its organelles (GO), from the cell model.
@@ -337,7 +345,7 @@ const organelleNodes = organelleMap.organelles.map(o => {
   const content = tiersFor(o.id), d = goDefs.get(o.id);
   cellEdges.push({from: o.id, to: organelleMap.cell.id, rel: 'component_of', source: 'Bio Map cell model', license: 'CC BY 4.0', evidence: 'pipeline/13-cell.mjs; GO cellular component'});
   return {id: o.id, conceptId: o.id.replace(':', ''), label: o.label, scale: 'organelle', system: null, synonyms: d?.synonyms ?? [], xrefs: {GO: o.id.slice(3)},
-    geometry: {model: CELL_MODEL}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: [organelleMap.cell.id]},
+    geometry: {model: organelleModel(o.key)}, content, media: [], sources: sourcesOf(content), zoom: {in: [], out: [organelleMap.cell.id]},
     connections: [{rel: 'component_of', dir: 'out', id: organelleMap.cell.id, conceptId: organelleMap.cell.id.replace(':', ''), label: 'Cell', modeled: true, sources: [{name: 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm('go', o.id)}]}],
     ancestors: [], ladder: {system: null, isOrgan: false, organ: null}};
 });
@@ -354,7 +362,7 @@ const boardUrl = id => `/tissue/${byId.get(id).conceptId}.json`;
 const keepBoards = new Set();
 const cellRows = [];
 for (const [id, b] of boards) {
-  const groups = [...b.groups].map(([structure, cells]) => ({structure: upperFirst(structure), cells: [...cells.keys()].filter(c => byId.has(c)).map(c => ({id: c, conceptId: c.replace(':', ''), label: byId.get(c).label})).sort((x, y) => x.label.localeCompare(y.label))}))
+  const groups = [...b.groups].map(([structure, cells]) => ({structure: upperFirst(structure), cells: [...cells.keys()].filter(c => byId.has(c)).map(c => ({id: c, conceptId: c.replace(':', ''), label: byId.get(c).label, model: byId.get(c).geometry?.model ?? CELL_MODEL, shape: byId.get(c).geometry?.shape})).sort((x, y) => x.label.localeCompare(y.label))}))
     .filter(g => g.cells.length).sort((x, y) => y.cells.length - x.cells.length || x.structure.localeCompare(y.structure));
   const cellCount = new Set(groups.flatMap(g => g.cells.map(c => c.id))).size;
   const body = JSON.stringify({organ: b.organ, tables: [...b.tables.values()].sort((x, y) => x.name.localeCompare(y.name)), cellCount, groups, media: b.media}, null, 1) + '\n';
@@ -368,7 +376,8 @@ const tissueOf = organ => organ ? [organ.id, ...organ.ancestors].filter(x => boa
 for (const n of nodes) if (n.ladder?.organ) { const t = tissueOf(byId.get(n.ladder.organ.id)); if (t.length) n.ladder.organ.tissue = t; }
 const cellReport = ['# Cell types and tissue boards', '', 'Generated by `pipeline/11-build-graph.mjs` from the HRA v2.5 ASCT+B tables (step 06) and tissue media (step 08).', '',
   `- Cell types (Cell Ontology): ${cellPlaces.size - (cellPlaces.has('CL:0000000') ? 1 : 0)}; located_in edges: ${cellEdges.filter(e => e.rel === 'located_in').length}`,
-  `- ASCT+B rows with no structure or organ of ours (skipped): ${rowsUnplaced}`, '',
+  `- ASCT+B rows with no structure or organ of ours (skipped): ${rowsUnplaced}`,
+  `- 3D shapes (pipeline/maps/cell-families.json): ${Object.entries(nodes.filter(n => n.scale === 'cell' && n.geometry?.shape).reduce((m, n) => ({...m, [n.geometry.shape.variant]: (m[n.geometry.shape.variant] ?? 0) + 1}), {})).sort((a, b) => b[1] - a[1]).map(([v, k]) => `${v} ${k}`).join(', ')}`, '',
   '| Organ (tissue board) | Cell types | ASCT+B tables | Media |', '| --- | --- | --- | --- |',
   ...cellRows.sort((a, b) => b.cells - a.cells || a.label.localeCompare(b.label)).map(r => `| ${r.label} | ${r.cells} | ${r.tables.join(', ') || '-'} | ${r.media.join(', ') || '-'} |`)];
 fs.writeFileSync(path.join(root, 'reports/cells.md'), cellReport.join('\n') + '\n');

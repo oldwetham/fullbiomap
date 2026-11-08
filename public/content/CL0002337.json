@@ -9,7 +9,19 @@
   "CL": "0002337"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002337",
+    "label": "keratinocyte stem cell"
+   },
+   "note": "These cells sit in the basal layer of the epidermis."
+  }
  },
  "content": {
   "tier1": {

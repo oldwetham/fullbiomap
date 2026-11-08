@@ -11,7 +11,19 @@
   "CL": "1000413"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/flat-epithelial-cell.json",
+  "shape": {
+   "family": "flat-epithelial",
+   "label": "Flat epithelial cell",
+   "variant": "flat-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000115",
+    "label": "endothelial cell"
+   },
+   "note": "Endothelium is a single layer of flat cells."
+  }
  },
  "content": {
   "tier1": {

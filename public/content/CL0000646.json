@@ -9,7 +9,19 @@
   "CL": "0000646"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000646",
+    "label": "basal cell"
+   },
+   "note": "Basal cells of layered epithelia are low, cube-like cells."
+  }
  },
  "content": {
   "tier1": {

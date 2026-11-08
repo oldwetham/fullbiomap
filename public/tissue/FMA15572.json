@@ -20,12 +20,38 @@
     {
      "id": "CL:1000308",
      "conceptId": "CL1000308",
-     "label": "Fibrocyte of adventitia of ureter"
+     "label": "Fibrocyte of adventitia of ureter",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000708",
+       "label": "ureter adventitial cell"
+      },
+      "note": "Cell Ontology files it under endothelial cell, but it is a fibroblast-like cell of the ureter's outer coat."
+     }
     },
     {
      "id": "CL:1000708",
      "conceptId": "CL1000708",
-     "label": "Ureter adventitial cell"
+     "label": "Ureter adventitial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000708",
+       "label": "ureter adventitial cell"
+      },
+      "note": "Cell Ontology files it under endothelial cell, but it is a fibroblast-like cell of the ureter's outer coat."
+     }
     }
    ]
   },
@@ -35,7 +61,20 @@
     {
      "id": "CL:1001428",
      "conceptId": "CL1001428",
-     "label": "Bladder urothelial cell"
+     "label": "Bladder urothelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000731",
+       "label": "urothelial cell"
+      },
+      "note": "Transitional epithelium; a cube is the nearest of the three epithelial shapes."
+     }
     }
    ]
   }

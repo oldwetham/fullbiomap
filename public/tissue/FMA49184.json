@@ -20,92 +20,298 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002621",
      "conceptId": "CL0002621",
-     "label": "Gingival epithelial cell"
+     "label": "Gingival epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0001065",
      "conceptId": "CL0001065",
-     "label": "Innate lymphoid cell"
+     "label": "Innate lymphoid cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900004",
      "conceptId": "CL9900004",
-     "label": "Junctional epithelial cell"
+     "label": "Junctional epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     },
     {
      "id": "CL:0000453",
      "conceptId": "CL0000453",
-     "label": "Langerhans cell"
+     "label": "Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000148",
      "conceptId": "CL0000148",
-     "label": "Melanocyte"
+     "label": "Melanocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000242",
      "conceptId": "CL0000242",
-     "label": "Merkel cell"
+     "label": "Merkel cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000084",
      "conceptId": "CL0000084",
-     "label": "T cell"
+     "label": "T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -115,92 +321,285 @@
     {
      "id": "CL:9900002",
      "conceptId": "CL9900002",
-     "label": "Basal duct cell of salivary gland"
+     "label": "Basal duct cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000912",
      "conceptId": "CL0000912",
-     "label": "Helper T cell"
+     "label": "Helper T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000987",
      "conceptId": "CL0000987",
-     "label": "IgA plasma cell"
+     "label": "IgA plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4052048",
      "conceptId": "CL4052048",
-     "label": "Intercalated cell of salivary gland"
+     "label": "Intercalated cell of salivary gland",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     },
     {
      "id": "CL:9900007",
      "conceptId": "CL9900007",
-     "label": "Ionocyte of salivary gland"
+     "label": "Ionocyte of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900008",
      "conceptId": "CL9900008",
-     "label": "Myoepithelial cell of salivary gland"
+     "label": "Myoepithelial cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:9900003",
      "conceptId": "CL9900003",
-     "label": "Periductal fibroblast of salivary gland"
+     "label": "Periductal fibroblast of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4052067",
      "conceptId": "CL4052067",
-     "label": "Seromucous acinar cell of salivary gland"
+     "label": "Seromucous acinar cell of salivary gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002251",
+       "label": "epithelial cell of alimentary canal"
+      },
+      "note": "The stomach and intestine are lined by columnar cells."
+     }
     },
     {
      "id": "CL:9900001",
      "conceptId": "CL9900001",
-     "label": "Serous demilune cell of salivary gland"
+     "label": "Serous demilune cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4052049",
      "conceptId": "CL4052049",
-     "label": "Striated cell of salivary gland"
+     "label": "Striated cell of salivary gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:4052049",
+       "label": "striated cell of salivary gland"
+      },
+      "note": "Striated ducts are lined by columnar cells."
+     }
     },
     {
      "id": "CL:9900006",
      "conceptId": "CL9900006",
-     "label": "Tuft cell of sublingual gland"
+     "label": "Tuft cell of sublingual gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -210,82 +609,252 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:9900002",
      "conceptId": "CL9900002",
-     "label": "Basal duct cell of salivary gland"
+     "label": "Basal duct cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000912",
      "conceptId": "CL0000912",
-     "label": "Helper T cell"
+     "label": "Helper T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000987",
      "conceptId": "CL0000987",
-     "label": "IgA plasma cell"
+     "label": "IgA plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900007",
      "conceptId": "CL9900007",
-     "label": "Ionocyte of salivary gland"
+     "label": "Ionocyte of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900008",
      "conceptId": "CL9900008",
-     "label": "Myoepithelial cell of salivary gland"
+     "label": "Myoepithelial cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:9900003",
      "conceptId": "CL9900003",
-     "label": "Periductal fibroblast of salivary gland"
+     "label": "Periductal fibroblast of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4052065",
      "conceptId": "CL4052065",
-     "label": "Serous acinar cell of salivary gland"
+     "label": "Serous acinar cell of salivary gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002251",
+       "label": "epithelial cell of alimentary canal"
+      },
+      "note": "The stomach and intestine are lined by columnar cells."
+     }
     },
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:9900005",
      "conceptId": "CL9900005",
-     "label": "Tuft cell of parotid gland"
+     "label": "Tuft cell of parotid gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -295,72 +864,221 @@
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000912",
      "conceptId": "CL0000912",
-     "label": "Helper T cell"
+     "label": "Helper T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000987",
      "conceptId": "CL0000987",
-     "label": "IgA plasma cell"
+     "label": "IgA plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900007",
      "conceptId": "CL9900007",
-     "label": "Ionocyte of salivary gland"
+     "label": "Ionocyte of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:9900008",
      "conceptId": "CL9900008",
-     "label": "Myoepithelial cell of salivary gland"
+     "label": "Myoepithelial cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:9900003",
      "conceptId": "CL9900003",
-     "label": "Periductal fibroblast of salivary gland"
+     "label": "Periductal fibroblast of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4052067",
      "conceptId": "CL4052067",
-     "label": "Seromucous acinar cell of salivary gland"
+     "label": "Seromucous acinar cell of salivary gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002251",
+       "label": "epithelial cell of alimentary canal"
+      },
+      "note": "The stomach and intestine are lined by columnar cells."
+     }
     },
     {
      "id": "CL:9900001",
      "conceptId": "CL9900001",
-     "label": "Serous demilune cell of salivary gland"
+     "label": "Serous demilune cell of salivary gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -370,7 +1088,20 @@
     {
      "id": "CL:4052048",
      "conceptId": "CL4052048",
-     "label": "Intercalated cell of salivary gland"
+     "label": "Intercalated cell of salivary gland",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     }
    ]
   },
@@ -380,7 +1111,20 @@
     {
      "id": "CL:4052049",
      "conceptId": "CL4052049",
-     "label": "Striated cell of salivary gland"
+     "label": "Striated cell of salivary gland",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:4052049",
+       "label": "striated cell of salivary gland"
+      },
+      "note": "Striated ducts are lined by columnar cells."
+     }
     }
    ]
   },
@@ -390,7 +1134,20 @@
     {
      "id": "CL:4052048",
      "conceptId": "CL4052048",
-     "label": "Intercalated cell of salivary gland"
+     "label": "Intercalated cell of salivary gland",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     }
    ]
   }

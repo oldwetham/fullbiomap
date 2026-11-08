@@ -427,9 +427,13 @@ def fetch_term(ontology, iri, oid):
         return oid, None
     defs = [(clean(v), axioms) for v, axioms in values(d.get(DEF))]
     cites = defs and cites_wikipedia([x for a in defs[0][1] for x in (a.get(DBXREF) if isinstance(a.get(DBXREF), list) else [a.get(DBXREF)] if a.get(DBXREF) else [])])
-    return oid, {'id': oid, 'iri': iri, 'label': (d.get('label') or [None])[0], 'definition': defs[0][0] if defs else None,
-                 'definitionCitesWikipedia': bool(cites) or bool(defs and 'wikipedia' in defs[0][0].lower()),
-                 'synonyms': sorted({clean(v) for v, _ in values(d.get('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'))})}
+    term = {'id': oid, 'iri': iri, 'label': (d.get('label') or [None])[0], 'definition': defs[0][0] if defs else None,
+            'definitionCitesWikipedia': bool(cites) or bool(defs and 'wikipedia' in defs[0][0].lower()),
+            'synonyms': sorted({clean(v) for v, _ in values(d.get('http://www.geneontology.org/formats/oboInOwl#hasExactSynonym'))})}
+    if ontology == 'cl':  # every Cell Ontology class above it: pipeline/maps/cell-families.json picks a 3D shape from these
+        found = set(d.get('hierarchicalAncestor') or []) | set(d.get('directAncestor') or [])
+        term['ancestors'] = sorted({'CL:' + a.rsplit('_', 1)[1] for a in found if '/obo/CL_' in a and a.rsplit('_', 1)[1] != oid[3:]})
+    return oid, term
 
 with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
     cells = dict(pool.map(lambda c: fetch_term('cl', CL_IRI + c[3:], c), cl_ids))

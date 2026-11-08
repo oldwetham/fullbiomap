@@ -20,57 +20,188 @@
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002652",
      "conceptId": "CL0002652",
-     "label": "Endothelial cell of high endothelial venule"
+     "label": "Endothelial cell of high endothelial venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0009018",
      "conceptId": "CL0009018",
-     "label": "Lymphocyte of large intestine lamina propria"
+     "label": "Lymphocyte of large intestine lamina propria",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000682",
      "conceptId": "CL0000682",
-     "label": "M cell of gut"
+     "label": "M cell of gut",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000041",
      "conceptId": "CL0000041",
-     "label": "Mature eosinophil"
+     "label": "Mature eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000096",
      "conceptId": "CL0000096",
-     "label": "Mature neutrophil"
+     "label": "Mature neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -80,47 +211,147 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002088",
      "conceptId": "CL0002088",
-     "label": "Interstitial cell of Cajal"
+     "label": "Interstitial cell of Cajal",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -130,42 +361,129 @@
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000935",
      "conceptId": "CL0000935",
-     "label": "CD4-negative, CD8-negative, alpha-beta intraepithelial T cell"
+     "label": "CD4-negative, CD8-negative, alpha-beta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000165",
      "conceptId": "CL0000165",
-     "label": "Neuroendocrine cell"
+     "label": "Neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -175,42 +493,138 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000910",
      "conceptId": "CL0000910",
-     "label": "Cytotoxic T cell"
+     "label": "Cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000041",
      "conceptId": "CL0000041",
-     "label": "Mature eosinophil"
+     "label": "Mature eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000545",
      "conceptId": "CL0000545",
-     "label": "T-helper 1 cell"
+     "label": "T-helper 1 cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -220,37 +634,115 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -260,37 +752,112 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000279",
      "conceptId": "CL1000279",
-     "label": "Smooth muscle cell of large intestine"
+     "label": "Smooth muscle cell of large intestine",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -300,37 +867,121 @@
     {
      "id": "CL:0000935",
      "conceptId": "CL0000935",
-     "label": "CD4-negative, CD8-negative, alpha-beta intraepithelial T cell"
+     "label": "CD4-negative, CD8-negative, alpha-beta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000793",
      "conceptId": "CL0000793",
-     "label": "CD4-positive, alpha-beta intraepithelial T cell"
+     "label": "CD4-positive, alpha-beta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000802",
      "conceptId": "CL0000802",
-     "label": "CD8-alpha alpha positive, gamma-delta intraepithelial T cell"
+     "label": "CD8-alpha alpha positive, gamma-delta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000915",
      "conceptId": "CL0000915",
-     "label": "CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell"
+     "label": "CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000796",
      "conceptId": "CL0000796",
-     "label": "CD8-alpha-beta-positive, alpha-beta intraepithelial T cell"
+     "label": "CD8-alpha-beta-positive, alpha-beta intraepithelial T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0002071",
      "conceptId": "CL0002071",
-     "label": "Enterocyte of epithelium of large intestine"
+     "label": "Enterocyte of epithelium of large intestine",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:1000321",
      "conceptId": "CL1000321",
-     "label": "Large intestine crypt goblet cell"
+     "label": "Large intestine crypt goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     }
    ]
   },
@@ -340,37 +991,122 @@
     {
      "id": "CL:0002071",
      "conceptId": "CL0002071",
-     "label": "Enterocyte of epithelium of large intestine"
+     "label": "Enterocyte of epithelium of large intestine",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0009016",
      "conceptId": "CL0009016",
-     "label": "Intestinal crypt stem cell of large intestine"
+     "label": "Intestinal crypt stem cell of large intestine",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0019032",
      "conceptId": "CL0019032",
-     "label": "Intestinal tuft cell"
+     "label": "Intestinal tuft cell",
+     "model": "/models/cell/column-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:1000321",
      "conceptId": "CL1000321",
-     "label": "Large intestine crypt goblet cell"
+     "label": "Large intestine crypt goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000165",
      "conceptId": "CL0000165",
-     "label": "Neuroendocrine cell"
+     "label": "Neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     },
     {
      "id": "CL:0009009",
      "conceptId": "CL0009009",
-     "label": "Paneth cell of colon"
+     "label": "Paneth cell of colon",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0009011",
      "conceptId": "CL0009011",
-     "label": "Transit amplifying cell of colon"
+     "label": "Transit amplifying cell of colon",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002563",
+       "label": "intestinal epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -380,37 +1116,112 @@
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000165",
      "conceptId": "CL0000165",
-     "label": "Neuroendocrine cell"
+     "label": "Neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -420,37 +1231,112 @@
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000186",
      "conceptId": "CL0000186",
-     "label": "Myofibroblast cell"
+     "label": "Myofibroblast cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000165",
      "conceptId": "CL0000165",
-     "label": "Neuroendocrine cell"
+     "label": "Neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -460,37 +1346,112 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000279",
      "conceptId": "CL1000279",
-     "label": "Smooth muscle cell of large intestine"
+     "label": "Smooth muscle cell of large intestine",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -500,37 +1461,112 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000279",
      "conceptId": "CL1000279",
-     "label": "Smooth muscle cell of large intestine"
+     "label": "Smooth muscle cell of large intestine",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -540,37 +1576,112 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002088",
      "conceptId": "CL0002088",
-     "label": "Interstitial cell of Cajal"
+     "label": "Interstitial cell of Cajal",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -580,37 +1691,115 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -620,37 +1809,115 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -660,37 +1927,115 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000414",
      "conceptId": "CL1000414",
-     "label": "Endothelial cell of venule"
+     "label": "Endothelial cell of venule",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -700,32 +2045,97 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002042",
      "conceptId": "CL0002042",
-     "label": "Immature NK T cell stage IV, mouse"
+     "label": "Immature NK T cell stage IV, mouse",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002292",
      "conceptId": "CL0002292",
-     "label": "Type I cell of carotid body"
+     "label": "Type I cell of carotid body",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -735,27 +2145,80 @@
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -765,22 +2228,64 @@
     {
      "id": "CL:0000453",
      "conceptId": "CL0000453",
-     "label": "Langerhans cell"
+     "label": "Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000148",
      "conceptId": "CL0000148",
-     "label": "Melanocyte"
+     "label": "Melanocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000242",
      "conceptId": "CL0000242",
-     "label": "Merkel cell"
+     "label": "Merkel cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000240",
      "conceptId": "CL0000240",
-     "label": "Stratified squamous epithelial cell"
+     "label": "Stratified squamous epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -790,22 +2295,65 @@
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     },
     {
      "id": "CL:0000453",
      "conceptId": "CL0000453",
-     "label": "Langerhans cell"
+     "label": "Langerhans cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000148",
      "conceptId": "CL0000148",
-     "label": "Melanocyte"
+     "label": "Melanocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000242",
      "conceptId": "CL0000242",
-     "label": "Merkel cell"
+     "label": "Merkel cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -815,17 +2363,51 @@
     {
      "id": "CL:0000146",
      "conceptId": "CL0000146",
-     "label": "Simple columnar epithelial cell"
+     "label": "Simple columnar epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000240",
      "conceptId": "CL0000240",
-     "label": "Stratified squamous epithelial cell"
+     "label": "Stratified squamous epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0000244",
      "conceptId": "CL0000244",
-     "label": "Transitional epithelial cell"
+     "label": "Transitional epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000244",
+       "label": "transitional epithelial cell"
+      },
+      "note": "Transitional epithelium; a cube is the nearest of the three epithelial shapes."
+     }
     }
    ]
   },
@@ -835,17 +2417,48 @@
     {
      "id": "CL:1000412",
      "conceptId": "CL1000412",
-     "label": "Endothelial cell of arteriole"
+     "label": "Endothelial cell of arteriole",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002576",
      "conceptId": "CL0002576",
-     "label": "Perineurial cell"
+     "label": "Perineurial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -855,12 +2468,34 @@
     {
      "id": "CL:0000033",
      "conceptId": "CL0000033",
-     "label": "Apocrine cell"
+     "label": "Apocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000417",
      "conceptId": "CL1000417",
-     "label": "Myoepithelial cell of sweat gland"
+     "label": "Myoepithelial cell of sweat gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     }
    ]
   },
@@ -870,12 +2505,33 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -885,12 +2541,34 @@
     {
      "id": "CL:0000434",
      "conceptId": "CL0000434",
-     "label": "Eccrine cell"
+     "label": "Eccrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000417",
      "conceptId": "CL1000417",
-     "label": "Myoepithelial cell of sweat gland"
+     "label": "Myoepithelial cell of sweat gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000185",
+       "label": "myoepithelial cell"
+      },
+      "note": "Contractile, star-shaped cells around gland units."
+     }
     }
    ]
   },
@@ -900,7 +2578,19 @@
     {
      "id": "CL:0000041",
      "conceptId": "CL0000041",
-     "label": "Mature eosinophil"
+     "label": "Mature eosinophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -910,7 +2600,20 @@
     {
      "id": "CL:0000188",
      "conceptId": "CL0000188",
-     "label": "Cell of skeletal muscle"
+     "label": "Cell of skeletal muscle",
+     "model": "/models/cell/skeletal-muscle-fiber.json",
+     "shape": {
+      "family": "skeletal-muscle-fiber",
+      "label": "Skeletal muscle fiber",
+      "variant": "skeletal-muscle-fiber",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000188",
+       "label": "cell of skeletal muscle"
+      },
+      "note": "HRA's ASCT+B tables use this term for the fibers of named skeletal muscles."
+     }
     }
    ]
   },
@@ -920,7 +2623,20 @@
     {
      "id": "CL:0000312",
      "conceptId": "CL0000312",
-     "label": "Keratinocyte"
+     "label": "Keratinocyte",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000312",
+       "label": "keratinocyte"
+      },
+      "note": "The epidermis is a stratified squamous (flat-celled) epithelium."
+     }
     }
    ]
   },
@@ -930,7 +2646,16 @@
     {
      "id": "CL:0000317",
      "conceptId": "CL0000317",
-     "label": "Sebocyte"
+     "label": "Sebocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -940,7 +2665,19 @@
     {
      "id": "CL:1000457",
      "conceptId": "CL1000457",
-     "label": "Mesothelial cell of visceral peritoneum"
+     "label": "Mesothelial cell of visceral peritoneum",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -950,7 +2687,19 @@
     {
      "id": "CL:1000457",
      "conceptId": "CL1000457",
-     "label": "Mesothelial cell of visceral peritoneum"
+     "label": "Mesothelial cell of visceral peritoneum",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   },
@@ -960,7 +2709,16 @@
     {
      "id": "CL:0002088",
      "conceptId": "CL0002088",
-     "label": "Interstitial cell of Cajal"
+     "label": "Interstitial cell of Cajal",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -970,7 +2728,16 @@
     {
      "id": "CL:0002573",
      "conceptId": "CL0002573",
-     "label": "Schwann cell"
+     "label": "Schwann cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -980,7 +2747,16 @@
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

@@ -11,7 +11,18 @@
   "CL": "0000706"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell-cilia.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell-cilia",
+   "apical": "cilia",
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000706",
+    "label": "choroid plexus epithelial cell"
+   }
+  }
  },
  "content": {
   "tier1": {

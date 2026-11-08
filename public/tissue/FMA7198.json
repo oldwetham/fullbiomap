@@ -20,62 +20,209 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000509",
      "conceptId": "CL0000509",
-     "label": "Gastrin secreting cell"
+     "label": "Gastrin secreting cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000171",
      "conceptId": "CL0000171",
-     "label": "Pancreatic A cell"
+     "label": "Pancreatic A cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     },
     {
      "id": "CL:0000173",
      "conceptId": "CL0000173",
-     "label": "Pancreatic D cell"
+     "label": "Pancreatic D cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     },
     {
      "id": "CL:0008024",
      "conceptId": "CL0008024",
-     "label": "Pancreatic endocrine cell"
+     "label": "Pancreatic endocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     },
     {
      "id": "CL:0005019",
      "conceptId": "CL0005019",
-     "label": "Pancreatic epsilon cell"
+     "label": "Pancreatic epsilon cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     },
     {
      "id": "CL:0002275",
      "conceptId": "CL0002275",
-     "label": "Pancreatic PP cell"
+     "label": "Pancreatic PP cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     },
     {
      "id": "CL:0000084",
      "conceptId": "CL0000084",
-     "label": "T cell"
+     "label": "T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000169",
      "conceptId": "CL0000169",
-     "label": "Type B pancreatic cell"
+     "label": "Type B pancreatic cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0008024",
+       "label": "pancreatic endocrine cell"
+      },
+      "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+     }
     }
    ]
   },
@@ -85,37 +232,121 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000451",
      "conceptId": "CL0000451",
-     "label": "Dendritic cell"
+     "label": "Dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000094",
      "conceptId": "CL0000094",
-     "label": "Granulocyte"
+     "label": "Granulocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000542",
      "conceptId": "CL0000542",
-     "label": "Lymphocyte"
+     "label": "Lymphocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000235",
      "conceptId": "CL0000235",
-     "label": "Macrophage"
+     "label": "Macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000084",
      "conceptId": "CL0000084",
-     "label": "T cell"
+     "label": "T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -125,32 +356,97 @@
     {
      "id": "CL:0000075",
      "conceptId": "CL0000075",
-     "label": "Columnar/cuboidal epithelial cell"
+     "label": "Columnar/cuboidal epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1001433",
      "conceptId": "CL1001433",
-     "label": "Epithelial cell of exocrine pancreas"
+     "label": "Epithelial cell of exocrine pancreas",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002080",
      "conceptId": "CL0002080",
-     "label": "Pancreatic centro-acinar cell"
+     "label": "Pancreatic centro-acinar cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002079",
      "conceptId": "CL0002079",
-     "label": "Pancreatic ductal cell"
+     "label": "Pancreatic ductal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     },
     {
      "id": "CL:1000322",
      "conceptId": "CL1000322",
-     "label": "Pancreatic goblet cell"
+     "label": "Pancreatic goblet cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000160",
+       "label": "goblet cell"
+      }
+     }
     },
     {
      "id": "CL:0000577",
      "conceptId": "CL0000577",
-     "label": "Type EC enteroendocrine cell"
+     "label": "Type EC enteroendocrine cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000164",
+       "label": "enteroendocrine cell"
+      },
+      "note": "Hormone-making cells within the gut lining."
+     }
     }
    ]
   },
@@ -160,22 +456,61 @@
     {
      "id": "CL:0000136",
      "conceptId": "CL0000136",
-     "label": "Adipocyte"
+     "label": "Adipocyte",
+     "model": "/models/cell/fat-cell.json",
+     "shape": {
+      "family": "fat-cell",
+      "label": "Fat cell",
+      "variant": "fat-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000136",
+       "label": "adipocyte"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002410",
      "conceptId": "CL0002410",
-     "label": "Pancreatic stellate cell"
+     "label": "Pancreatic stellate cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002574",
      "conceptId": "CL0002574",
-     "label": "Stromal cell of pancreas"
+     "label": "Stromal cell of pancreas",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -185,17 +520,48 @@
     {
      "id": "CL:1001433",
      "conceptId": "CL1001433",
-     "label": "Epithelial cell of exocrine pancreas"
+     "label": "Epithelial cell of exocrine pancreas",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002079",
      "conceptId": "CL0002079",
-     "label": "Pancreatic ductal cell"
+     "label": "Pancreatic ductal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     },
     {
      "id": "CL:0000146",
      "conceptId": "CL0000146",
-     "label": "Simple columnar epithelial cell"
+     "label": "Simple columnar epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -205,17 +571,48 @@
     {
      "id": "CL:1001433",
      "conceptId": "CL1001433",
-     "label": "Epithelial cell of exocrine pancreas"
+     "label": "Epithelial cell of exocrine pancreas",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002079",
      "conceptId": "CL0002079",
-     "label": "Pancreatic ductal cell"
+     "label": "Pancreatic ductal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     },
     {
      "id": "CL:0000146",
      "conceptId": "CL0000146",
-     "label": "Simple columnar epithelial cell"
+     "label": "Simple columnar epithelial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -225,12 +622,34 @@
     {
      "id": "CL:1001433",
      "conceptId": "CL1001433",
-     "label": "Epithelial cell of exocrine pancreas"
+     "label": "Epithelial cell of exocrine pancreas",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002079",
      "conceptId": "CL0002079",
-     "label": "Pancreatic ductal cell"
+     "label": "Pancreatic ductal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000068",
+       "label": "duct epithelial cell"
+      },
+      "note": "Small ducts are lined by cuboidal cells."
+     }
     }
    ]
   },
@@ -240,12 +659,34 @@
     {
      "id": "CL:1001599",
      "conceptId": "CL1001599",
-     "label": "Pancreas exocrine glandular cell"
+     "label": "Pancreas exocrine glandular cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002064",
      "conceptId": "CL0002064",
-     "label": "Pancreatic acinar cell"
+     "label": "Pancreatic acinar cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000622",
+       "label": "acinar cell"
+      },
+      "note": "Acinar cells are pyramid-shaped; a column is the nearest of the three epithelial shapes."
+     }
     }
    ]
   },
@@ -255,7 +696,16 @@
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -265,7 +715,16 @@
     {
      "id": "CL:0000192",
      "conceptId": "CL0000192",
-     "label": "Smooth muscle cell"
+     "label": "Smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

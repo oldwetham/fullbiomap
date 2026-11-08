@@ -20,137 +20,441 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4023072",
      "conceptId": "CL4023072",
-     "label": "Brain vascular cell"
+     "label": "Brain vascular cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023064",
      "conceptId": "CL4023064",
-     "label": "Caudal ganglionic eminence derived interneuron"
+     "label": "Caudal ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000706",
      "conceptId": "CL0000706",
-     "label": "Choroid plexus epithelial cell"
+     "label": "Choroid plexus epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000706",
+       "label": "choroid plexus epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:4023059",
      "conceptId": "CL4023059",
-     "label": "Committed oligodendrocyte precursor"
+     "label": "Committed oligodendrocyte precursor",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000065",
      "conceptId": "CL0000065",
-     "label": "Ependymal cell"
+     "label": "Ependymal cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000065",
+       "label": "ependymal cell"
+      },
+      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer."
+     }
     },
     {
      "id": "CL:4023009",
      "conceptId": "CL4023009",
-     "label": "Extratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Extratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000057",
      "conceptId": "CL0000057",
-     "label": "Fibroblast"
+     "label": "Fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042040",
      "conceptId": "CL4042040",
-     "label": "Glutamatergic neuron of the basal ganglia"
+     "label": "Glutamatergic neuron of the basal ganglia",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023061",
      "conceptId": "CL4023061",
-     "label": "Hippocampal CA4 neuron"
+     "label": "Hippocampal CA4 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023011",
      "conceptId": "CL4023011",
-     "label": "Lamp5 GABAergic interneuron"
+     "label": "Lamp5 GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042013",
      "conceptId": "CL4042013",
-     "label": "Lamp5 Lhx6 neuron"
+     "label": "Lamp5 Lhx6 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4023079",
      "conceptId": "CL4023079",
-     "label": "Midbrain-derived inhibitory neuron"
+     "label": "Midbrain-derived inhibitory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000576",
      "conceptId": "CL0000576",
-     "label": "Monocyte"
+     "label": "Monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000402",
      "conceptId": "CL0000402",
-     "label": "Obsolete CNS interneuron"
+     "label": "Obsolete CNS interneuron",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002453",
      "conceptId": "CL0002453",
-     "label": "Oligodendrocyte precursor cell"
+     "label": "Oligodendrocyte precursor cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000084",
      "conceptId": "CL0000084",
-     "label": "T cell"
+     "label": "T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4023068",
      "conceptId": "CL4023068",
-     "label": "Thalamic excitatory neuron"
+     "label": "Thalamic excitatory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023016",
      "conceptId": "CL4023016",
-     "label": "VIP GABAergic interneuron"
+     "label": "VIP GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -160,107 +464,345 @@
     {
      "id": "CL:4023039",
      "conceptId": "CL4023039",
-     "label": "Amygdala excitatory neuron"
+     "label": "Amygdala excitatory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0012000",
      "conceptId": "CL0012000",
-     "label": "Astrocyte of the forebrain"
+     "label": "Astrocyte of the forebrain",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023064",
      "conceptId": "CL4023064",
-     "label": "Caudal ganglionic eminence derived interneuron"
+     "label": "Caudal ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000108",
      "conceptId": "CL0000108",
-     "label": "Cholinergic neuron"
+     "label": "Cholinergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023059",
      "conceptId": "CL4023059",
-     "label": "Committed oligodendrocyte precursor"
+     "label": "Committed oligodendrocyte precursor",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000065",
      "conceptId": "CL0000065",
-     "label": "Ependymal cell"
+     "label": "Ependymal cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000065",
+       "label": "ependymal cell"
+      },
+      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer."
+     }
     },
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023060",
      "conceptId": "CL4023060",
-     "label": "Hippocampal CA1-3 neuron"
+     "label": "Hippocampal CA1-3 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023008",
      "conceptId": "CL4023008",
-     "label": "Intratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Intratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023063",
      "conceptId": "CL4023063",
-     "label": "Medial ganglionic eminence derived interneuron"
+     "label": "Medial ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023079",
      "conceptId": "CL4023079",
-     "label": "Midbrain-derived inhibitory neuron"
+     "label": "Midbrain-derived inhibitory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023012",
      "conceptId": "CL4023012",
-     "label": "Near-projecting glutamatergic cortical neuron"
+     "label": "Near-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0012001",
      "conceptId": "CL0012001",
-     "label": "Neuron of the forebrain"
+     "label": "Neuron of the forebrain",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000402",
      "conceptId": "CL0000402",
-     "label": "Obsolete CNS interneuron"
+     "label": "Obsolete CNS interneuron",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002453",
      "conceptId": "CL0002453",
-     "label": "Oligodendrocyte precursor cell"
+     "label": "Oligodendrocyte precursor cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4042001",
      "conceptId": "CL4042001",
-     "label": "TAC3-positive striatal interneuron"
+     "label": "TAC3-positive striatal interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023068",
      "conceptId": "CL4023068",
-     "label": "Thalamic excitatory neuron"
+     "label": "Thalamic excitatory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -270,62 +812,194 @@
     {
      "id": "CL:0002605",
      "conceptId": "CL0002605",
-     "label": "Astrocyte of the cerebral cortex"
+     "label": "Astrocyte of the cerebral cortex",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023072",
      "conceptId": "CL4023072",
-     "label": "Brain vascular cell"
+     "label": "Brain vascular cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023064",
      "conceptId": "CL4023064",
-     "label": "Caudal ganglionic eminence derived interneuron"
+     "label": "Caudal ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023013",
      "conceptId": "CL4023013",
-     "label": "Corticothalamic-projecting glutamatergic cortical neuron"
+     "label": "Corticothalamic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023009",
      "conceptId": "CL4023009",
-     "label": "Extratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Extratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023008",
      "conceptId": "CL4023008",
-     "label": "Intratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Intratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023038",
      "conceptId": "CL4023038",
-     "label": "L6b glutamatergic cortical neuron"
+     "label": "L6b glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023063",
      "conceptId": "CL4023063",
-     "label": "Medial ganglionic eminence derived interneuron"
+     "label": "Medial ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000129",
      "conceptId": "CL0000129",
-     "label": "Microglial cell"
+     "label": "Microglial cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4023012",
      "conceptId": "CL4023012",
-     "label": "Near-projecting glutamatergic cortical neuron"
+     "label": "Near-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0002453",
      "conceptId": "CL0002453",
-     "label": "Oligodendrocyte precursor cell"
+     "label": "Oligodendrocyte precursor cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -335,57 +1009,183 @@
     {
      "id": "CL:4023039",
      "conceptId": "CL4023039",
-     "label": "Amygdala excitatory neuron"
+     "label": "Amygdala excitatory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0002605",
      "conceptId": "CL0002605",
-     "label": "Astrocyte of the cerebral cortex"
+     "label": "Astrocyte of the cerebral cortex",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023064",
      "conceptId": "CL4023064",
-     "label": "Caudal ganglionic eminence derived interneuron"
+     "label": "Caudal ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0010012",
      "conceptId": "CL0010012",
-     "label": "Cerebral cortex neuron"
+     "label": "Cerebral cortex neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023009",
      "conceptId": "CL4023009",
-     "label": "Extratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Extratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023060",
      "conceptId": "CL4023060",
-     "label": "Hippocampal CA1-3 neuron"
+     "label": "Hippocampal CA1-3 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023008",
      "conceptId": "CL4023008",
-     "label": "Intratelencephalic-projecting glutamatergic cortical neuron"
+     "label": "Intratelencephalic-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023063",
      "conceptId": "CL4023063",
-     "label": "Medial ganglionic eminence derived interneuron"
+     "label": "Medial ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023012",
      "conceptId": "CL4023012",
-     "label": "Near-projecting glutamatergic cortical neuron"
+     "label": "Near-projecting glutamatergic cortical neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000402",
      "conceptId": "CL0000402",
-     "label": "Obsolete CNS interneuron"
+     "label": "Obsolete CNS interneuron",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -395,52 +1195,166 @@
     {
      "id": "CL:4023039",
      "conceptId": "CL4023039",
-     "label": "Amygdala excitatory neuron"
+     "label": "Amygdala excitatory neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023062",
      "conceptId": "CL4023062",
-     "label": "Dentate gyrus neuron"
+     "label": "Dentate gyrus neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0002604",
      "conceptId": "CL0002604",
-     "label": "Hippocampal astrocyte"
+     "label": "Hippocampal astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023060",
      "conceptId": "CL4023060",
-     "label": "Hippocampal CA1-3 neuron"
+     "label": "Hippocampal CA1-3 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023061",
      "conceptId": "CL4023061",
-     "label": "Hippocampal CA4 neuron"
+     "label": "Hippocampal CA4 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023063",
      "conceptId": "CL4023063",
-     "label": "Medial ganglionic eminence derived interneuron"
+     "label": "Medial ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000402",
      "conceptId": "CL0000402",
-     "label": "Obsolete CNS interneuron"
+     "label": "Obsolete CNS interneuron",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -450,47 +1364,155 @@
     {
      "id": "CL:0000108",
      "conceptId": "CL0000108",
-     "label": "Cholinergic neuron"
+     "label": "Cholinergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030050",
      "conceptId": "CL4030050",
-     "label": "D1/D2-hybrid medium spiny neuron"
+     "label": "D1/D2-hybrid medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023121",
      "conceptId": "CL4023121",
-     "label": "Sst chodl GABAergic interneuron"
+     "label": "Sst chodl GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023017",
      "conceptId": "CL4023017",
-     "label": "Sst GABAergic interneuron"
+     "label": "Sst GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020008",
      "conceptId": "CL0020008",
-     "label": "Striatal cholinergic-GABAergic neuron"
+     "label": "Striatal cholinergic-GABAergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042023",
      "conceptId": "CL4042023",
-     "label": "Striatal pthlh-expressing interneuron"
+     "label": "Striatal pthlh-expressing interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042001",
      "conceptId": "CL4042001",
-     "label": "TAC3-positive striatal interneuron"
+     "label": "TAC3-positive striatal interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -500,37 +1522,121 @@
     {
      "id": "CL:0000108",
      "conceptId": "CL0000108",
-     "label": "Cholinergic neuron"
+     "label": "Cholinergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020007",
      "conceptId": "CL0020007",
-     "label": "Dorso-striatal cholinergic-GABAergic neuron"
+     "label": "Dorso-striatal cholinergic-GABAergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030043",
      "conceptId": "CL4030043",
-     "label": "Matrix D1 medium spiny neuron"
+     "label": "Matrix D1 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030047",
      "conceptId": "CL4030047",
-     "label": "Matrix D2 medium spiny neuron"
+     "label": "Matrix D2 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030048",
      "conceptId": "CL4030048",
-     "label": "Striosomal D1 medium spiny neuron"
+     "label": "Striosomal D1 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030049",
      "conceptId": "CL4030049",
-     "label": "Striosomal D2 medium spiny neuron"
+     "label": "Striosomal D2 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -540,27 +1646,87 @@
     {
      "id": "CL:0000706",
      "conceptId": "CL0000706",
-     "label": "Choroid plexus epithelial cell"
+     "label": "Choroid plexus epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000706",
+       "label": "choroid plexus epithelial cell"
+      }
+     }
     },
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042040",
      "conceptId": "CL4042040",
-     "label": "Glutamatergic neuron of the basal ganglia"
+     "label": "Glutamatergic neuron of the basal ganglia",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -570,22 +1736,70 @@
     {
      "id": "CL:0020010",
      "conceptId": "CL0020010",
-     "label": "Arkypallidal neuron"
+     "label": "Arkypallidal neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:2000029",
      "conceptId": "CL2000029",
-     "label": "Central nervous system neuron"
+     "label": "Central nervous system neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020009",
      "conceptId": "CL0020009",
-     "label": "Prototypic neuron"
+     "label": "Prototypic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -595,22 +1809,64 @@
     {
      "id": "CL:0000127",
      "conceptId": "CL0000127",
-     "label": "Astrocyte"
+     "label": "Astrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023074",
      "conceptId": "CL4023074",
-     "label": "Mammillary body neuron"
+     "label": "Mammillary body neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000128",
      "conceptId": "CL0000128",
-     "label": "Oligodendrocyte"
+     "label": "Oligodendrocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -620,22 +1876,70 @@
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000617",
      "conceptId": "CL0000617",
-     "label": "GABAergic neuron"
+     "label": "GABAergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:2000097",
      "conceptId": "CL2000097",
-     "label": "Midbrain dopaminergic neuron"
+     "label": "Midbrain dopaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042025",
      "conceptId": "CL4042025",
-     "label": "Substantia nigra dopaminergic neuron"
+     "label": "Substantia nigra dopaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -645,22 +1949,70 @@
     {
      "id": "CL:4030054",
      "conceptId": "CL4030054",
-     "label": "D1-NUDAP medium spiny neuron"
+     "label": "D1-NUDAP medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:1001474",
      "conceptId": "CL1001474",
-     "label": "Medium spiny neuron"
+     "label": "Medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030051",
      "conceptId": "CL4030051",
-     "label": "Nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron"
+     "label": "Nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030052",
      "conceptId": "CL4030052",
-     "label": "Nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron"
+     "label": "Nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -670,17 +2022,50 @@
     {
      "id": "CL:0000644",
      "conceptId": "CL0000644",
-     "label": "Bergmann glial cell"
+     "label": "Bergmann glial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:4023057",
      "conceptId": "CL4023057",
-     "label": "Cerebellar inhibitory GABAergic interneuron"
+     "label": "Cerebellar inhibitory GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -690,17 +2075,53 @@
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020003",
      "conceptId": "CL0020003",
-     "label": "Internal globus pallidus core projecting neuron"
+     "label": "Internal globus pallidus core projecting neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020004",
      "conceptId": "CL0020004",
-     "label": "Internal globus pallidus shell projection neuron"
+     "label": "Internal globus pallidus shell projection neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -710,17 +2131,54 @@
     {
      "id": "CL:4023057",
      "conceptId": "CL4023057",
-     "label": "Cerebellar inhibitory GABAergic interneuron"
+     "label": "Cerebellar inhibitory GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000065",
      "conceptId": "CL0000065",
-     "label": "Ependymal cell"
+     "label": "Ependymal cell",
+     "model": "/models/cell/cube-epithelial-cell-cilia.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-cilia",
+      "apical": "cilia",
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000065",
+       "label": "ependymal cell"
+      },
+      "note": "Ependymal cells line the brain's ventricles as a cuboidal-to-columnar layer."
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -730,17 +2188,53 @@
     {
      "id": "CL:0000700",
      "conceptId": "CL0000700",
-     "label": "Dopaminergic neuron"
+     "label": "Dopaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:2000097",
      "conceptId": "CL2000097",
-     "label": "Midbrain dopaminergic neuron"
+     "label": "Midbrain dopaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042025",
      "conceptId": "CL4042025",
-     "label": "Substantia nigra dopaminergic neuron"
+     "label": "Substantia nigra dopaminergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -750,17 +2244,53 @@
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000617",
      "conceptId": "CL0000617",
-     "label": "GABAergic neuron"
+     "label": "GABAergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0020006",
      "conceptId": "CL0020006",
-     "label": "OB-Dopa-GABA"
+     "label": "OB-Dopa-GABA",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -770,12 +2300,36 @@
     {
      "id": "CL:4042013",
      "conceptId": "CL4042013",
-     "label": "Lamp5 Lhx6 neuron"
+     "label": "Lamp5 Lhx6 neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4023063",
      "conceptId": "CL4023063",
-     "label": "Medial ganglionic eminence derived interneuron"
+     "label": "Medial ganglionic eminence derived interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -785,12 +2339,36 @@
     {
      "id": "CL:2000029",
      "conceptId": "CL2000029",
-     "label": "Central nervous system neuron"
+     "label": "Central nervous system neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4030053",
      "conceptId": "CL4030053",
-     "label": "Islands of Calleja granule cell"
+     "label": "Islands of Calleja granule cell",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -800,12 +2378,36 @@
     {
      "id": "CL:4023057",
      "conceptId": "CL4023057",
-     "label": "Cerebellar inhibitory GABAergic interneuron"
+     "label": "Cerebellar inhibitory GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -815,12 +2417,36 @@
     {
      "id": "CL:0000679",
      "conceptId": "CL0000679",
-     "label": "Glutamatergic neuron"
+     "label": "Glutamatergic neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     },
     {
      "id": "CL:4042040",
      "conceptId": "CL4042040",
-     "label": "Glutamatergic neuron of the basal ganglia"
+     "label": "Glutamatergic neuron of the basal ganglia",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -830,7 +2456,19 @@
     {
      "id": "CL:0011005",
      "conceptId": "CL0011005",
-     "label": "GABAergic interneuron"
+     "label": "GABAergic interneuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -840,7 +2478,19 @@
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   },
@@ -850,7 +2500,19 @@
     {
      "id": "CL:0000540",
      "conceptId": "CL0000540",
-     "label": "Neuron"
+     "label": "Neuron",
+     "model": "/models/cell/neuron.json",
+     "shape": {
+      "family": "neuron",
+      "label": "Neuron",
+      "variant": "neuron",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000540",
+       "label": "neuron"
+      }
+     }
     }
    ]
   }

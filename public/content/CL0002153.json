@@ -9,7 +9,19 @@
   "CL": "0002153"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/flat-epithelial-cell-no-nucleus.json",
+  "shape": {
+   "family": "flat-epithelial",
+   "label": "Flat epithelial cell",
+   "variant": "flat-epithelial-cell-no-nucleus",
+   "apical": null,
+   "nucleus": false,
+   "from": {
+    "id": "CL:0002153",
+    "label": "corneocyte"
+   },
+   "noNucleus": "Cell Ontology classes it as an anucleate cell."
+  }
  },
  "content": {
   "tier1": {

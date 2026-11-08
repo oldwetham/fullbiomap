@@ -9,7 +9,18 @@
   "CL": "0000876"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/round-immune-cell.json",
+  "shape": {
+   "family": "immune",
+   "label": "Round immune cell",
+   "variant": "round-immune-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000738",
+    "label": "leukocyte"
+   }
+  }
  },
  "content": {
   "tier1": {

@@ -9,7 +9,19 @@
   "CL": "4052067"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002251",
+    "label": "epithelial cell of alimentary canal"
+   },
+   "note": "The stomach and intestine are lined by columnar cells."
+  }
  },
  "content": {
   "tier1": {

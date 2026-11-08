@@ -20,102 +20,333 @@
     {
      "id": "CL:0000236",
      "conceptId": "CL0000236",
-     "label": "B cell"
+     "label": "B cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000990",
      "conceptId": "CL0000990",
-     "label": "Conventional dendritic cell"
+     "label": "Conventional dendritic cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000910",
      "conceptId": "CL0000910",
-     "label": "Cytotoxic T cell"
+     "label": "Cytotoxic T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001056",
      "conceptId": "CL0001056",
-     "label": "Dendritic cell, human"
+     "label": "Dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000695",
      "conceptId": "CL1000695",
-     "label": "Kidney interstitial alternatively activated macrophage"
+     "label": "Kidney interstitial alternatively activated macrophage",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:1000692",
      "conceptId": "CL1000692",
-     "label": "Kidney interstitial fibroblast"
+     "label": "Kidney interstitial fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000691",
      "conceptId": "CL1000691",
-     "label": "Kidney interstitial myofibroblast"
+     "label": "Kidney interstitial myofibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000738",
      "conceptId": "CL0000738",
-     "label": "Leukocyte"
+     "label": "Leukocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000097",
      "conceptId": "CL0000097",
-     "label": "Mast cell"
+     "label": "Mast cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000814",
      "conceptId": "CL0000814",
-     "label": "Mature NK T cell"
+     "label": "Mature NK T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000576",
      "conceptId": "CL0000576",
-     "label": "Monocyte"
+     "label": "Monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000113",
      "conceptId": "CL0000113",
-     "label": "Mononuclear phagocyte"
+     "label": "Mononuclear phagocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000623",
      "conceptId": "CL0000623",
-     "label": "Natural killer cell"
+     "label": "Natural killer cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000775",
      "conceptId": "CL0000775",
-     "label": "Neutrophil"
+     "label": "Neutrophil",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000875",
      "conceptId": "CL0000875",
-     "label": "Non-classical monocyte"
+     "label": "Non-classical monocyte",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000786",
      "conceptId": "CL0000786",
-     "label": "Plasma cell"
+     "label": "Plasma cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0001058",
      "conceptId": "CL0001058",
-     "label": "Plasmacytoid dendritic cell, human"
+     "label": "Plasmacytoid dendritic cell, human",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:0000815",
      "conceptId": "CL0000815",
-     "label": "Regulatory T cell"
+     "label": "Regulatory T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     },
     {
      "id": "CL:4030022",
      "conceptId": "CL4030022",
-     "label": "Renal medullary fibroblast"
+     "label": "Renal medullary fibroblast",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0000084",
      "conceptId": "CL0000084",
-     "label": "T cell"
+     "label": "T cell",
+     "model": "/models/cell/round-immune-cell.json",
+     "shape": {
+      "family": "immune",
+      "label": "Round immune cell",
+      "variant": "round-immune-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000738",
+       "label": "leukocyte"
+      }
+     }
     }
    ]
   },
@@ -125,27 +356,88 @@
     {
      "id": "CL:4030015",
      "conceptId": "CL4030015",
-     "label": "Kidney collecting duct alpha-intercalated cell"
+     "label": "Kidney collecting duct alpha-intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1000454",
      "conceptId": "CL1000454",
-     "label": "Kidney collecting duct epithelial cell"
+     "label": "Kidney collecting duct epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1001432",
      "conceptId": "CL1001432",
-     "label": "Kidney collecting duct intercalated cell"
+     "label": "Kidney collecting duct intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1001431",
      "conceptId": "CL1001431",
-     "label": "Kidney collecting duct principal cell"
+     "label": "Kidney collecting duct principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:0002201",
      "conceptId": "CL0002201",
-     "label": "Renal beta-intercalated cell"
+     "label": "Renal beta-intercalated cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -155,27 +447,92 @@
     {
      "id": "CL:4030020",
      "conceptId": "CL4030020",
-     "label": "Kidney connecting tubule alpha-intercalated cell"
+     "label": "Kidney connecting tubule alpha-intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:4030021",
      "conceptId": "CL4030021",
-     "label": "Kidney connecting tubule beta-intercalated cell"
+     "label": "Kidney connecting tubule beta-intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:1000768",
      "conceptId": "CL1000768",
-     "label": "Kidney connecting tubule epithelial cell"
+     "label": "Kidney connecting tubule epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:4030019",
      "conceptId": "CL4030019",
-     "label": "Kidney connecting tubule intercalated cell"
+     "label": "Kidney connecting tubule intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:4030018",
      "conceptId": "CL4030018",
-     "label": "Kidney connecting tubule principal cell"
+     "label": "Kidney connecting tubule principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -185,17 +542,56 @@
     {
      "id": "CL:4030016",
      "conceptId": "CL4030016",
-     "label": "Epithelial cell of early distal convoluted tubule"
+     "label": "Epithelial cell of early distal convoluted tubule",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:4030017",
      "conceptId": "CL4030017",
-     "label": "Epithelial cell of late distal convoluted tubule"
+     "label": "Epithelial cell of late distal convoluted tubule",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:1000849",
      "conceptId": "CL1000849",
-     "label": "Kidney distal convoluted tubule epithelial cell"
+     "label": "Kidney distal convoluted tubule epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -205,17 +601,56 @@
     {
      "id": "CL:0000115",
      "conceptId": "CL0000115",
-     "label": "Endothelial cell"
+     "label": "Endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1001131",
      "conceptId": "CL1001131",
-     "label": "Vasa recta ascending limb cell"
+     "label": "Vasa recta ascending limb cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1001285",
      "conceptId": "CL1001285",
-     "label": "Vasa recta descending limb cell"
+     "label": "Vasa recta descending limb cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -225,17 +660,56 @@
     {
      "id": "CL:1001109",
      "conceptId": "CL1001109",
-     "label": "Kidney loop of Henle cortical thick ascending limb epithelial cell"
+     "label": "Kidney loop of Henle cortical thick ascending limb epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:1001108",
      "conceptId": "CL1001108",
-     "label": "Kidney loop of Henle medullary thick ascending limb epithelial cell"
+     "label": "Kidney loop of Henle medullary thick ascending limb epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     },
     {
      "id": "CL:1001106",
      "conceptId": "CL1001106",
-     "label": "Kidney loop of Henle thick ascending limb epithelial cell"
+     "label": "Kidney loop of Henle thick ascending limb epithelial cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -245,12 +719,38 @@
     {
      "id": "CL:1000715",
      "conceptId": "CL1000715",
-     "label": "Kidney cortex collecting duct intercalated cell"
+     "label": "Kidney cortex collecting duct intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1000714",
      "conceptId": "CL1000714",
-     "label": "Kidney cortex collecting duct principal cell"
+     "label": "Kidney cortex collecting duct principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     }
    ]
   },
@@ -260,12 +760,30 @@
     {
      "id": "CL:0019018",
      "conceptId": "CL0019018",
-     "label": "Blood vessel smooth muscle cell"
+     "label": "Blood vessel smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1001318",
      "conceptId": "CL1001318",
-     "label": "Renal interstitial pericyte"
+     "label": "Renal interstitial pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -275,12 +793,38 @@
     {
      "id": "CL:1000717",
      "conceptId": "CL1000717",
-     "label": "Kidney outer medulla collecting duct intercalated cell"
+     "label": "Kidney outer medulla collecting duct intercalated cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1000716",
      "conceptId": "CL1000716",
-     "label": "Kidney outer medulla collecting duct principal cell"
+     "label": "Kidney outer medulla collecting duct principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     }
    ]
   },
@@ -290,12 +834,34 @@
     {
      "id": "CL:1000718",
      "conceptId": "CL1000718",
-     "label": "Kidney inner medulla collecting duct principal cell"
+     "label": "Kidney inner medulla collecting duct principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     },
     {
      "id": "CL:1000597",
      "conceptId": "CL1000597",
-     "label": "Papillary tips cell"
+     "label": "Papillary tips cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -305,7 +871,20 @@
     {
      "id": "CL:1001111",
      "conceptId": "CL1001111",
-     "label": "Kidney loop of Henle thin descending limb epithelial cell"
+     "label": "Kidney loop of Henle thin descending limb epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001111",
+       "label": "kidney loop of Henle thin descending limb epithelial cell"
+      },
+      "note": "The thin limbs of the loop of Henle are lined by flat cells."
+     }
     }
    ]
   },
@@ -315,7 +894,20 @@
     {
      "id": "CL:1001285",
      "conceptId": "CL1001285",
-     "label": "Vasa recta descending limb cell"
+     "label": "Vasa recta descending limb cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -325,7 +917,20 @@
     {
      "id": "CL:1001033",
      "conceptId": "CL1001033",
-     "label": "Peritubular capillary endothelial cell"
+     "label": "Peritubular capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -335,7 +940,20 @@
     {
      "id": "CL:1001005",
      "conceptId": "CL1001005",
-     "label": "Glomerular capillary endothelial cell"
+     "label": "Glomerular capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -345,7 +963,16 @@
     {
      "id": "CL:1000742",
      "conceptId": "CL1000742",
-     "label": "Glomerular mesangial cell"
+     "label": "Glomerular mesangial cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -355,7 +982,20 @@
     {
      "id": "CL:1000452",
      "conceptId": "CL1000452",
-     "label": "Parietal epithelial cell"
+     "label": "Parietal epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000452",
+       "label": "parietal epithelial cell"
+      },
+      "note": "Bowman's capsule is lined by flat cells."
+     }
     }
    ]
   },
@@ -365,7 +1005,16 @@
     {
      "id": "CL:0000653",
      "conceptId": "CL0000653",
-     "label": "Podocyte"
+     "label": "Podocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -375,7 +1024,20 @@
     {
      "id": "CL:1000718",
      "conceptId": "CL1000718",
-     "label": "Kidney inner medulla collecting duct principal cell"
+     "label": "Kidney inner medulla collecting duct principal cell",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001225",
+       "label": "kidney collecting duct cell"
+      },
+      "note": "Collecting ducts are lined by cuboidal epithelium (taller in the inner medulla)."
+     }
     }
    ]
   },
@@ -385,7 +1047,16 @@
     {
      "id": "CL:0000648",
      "conceptId": "CL0000648",
-     "label": "Kidney granular cell"
+     "label": "Kidney granular cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -395,7 +1066,16 @@
     {
      "id": "CL:0000499",
      "conceptId": "CL0000499",
-     "label": "Stromal cell"
+     "label": "Stromal cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -405,7 +1085,20 @@
     {
      "id": "CL:4030014",
      "conceptId": "CL4030014",
-     "label": "Kidney loop of Henle long descending thin limb inner medulla epithelial cell"
+     "label": "Kidney loop of Henle long descending thin limb inner medulla epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001111",
+       "label": "kidney loop of Henle thin descending limb epithelial cell"
+      },
+      "note": "The thin limbs of the loop of Henle are lined by flat cells."
+     }
     }
    ]
   },
@@ -415,7 +1108,20 @@
     {
      "id": "CL:4030013",
      "conceptId": "CL4030013",
-     "label": "Kidney loop of Henle long descending thin limb outer medulla epithelial cell"
+     "label": "Kidney loop of Henle long descending thin limb outer medulla epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001111",
+       "label": "kidney loop of Henle thin descending limb epithelial cell"
+      },
+      "note": "The thin limbs of the loop of Henle are lined by flat cells."
+     }
     }
    ]
   },
@@ -425,7 +1131,20 @@
     {
      "id": "CL:1001107",
      "conceptId": "CL1001107",
-     "label": "Kidney loop of Henle thin ascending limb epithelial cell"
+     "label": "Kidney loop of Henle thin ascending limb epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1001107",
+       "label": "kidney loop of Henle thin ascending limb epithelial cell"
+      },
+      "note": "The thin limbs of the loop of Henle are lined by flat cells."
+     }
     }
    ]
   },
@@ -435,7 +1154,20 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -445,7 +1177,20 @@
     {
      "id": "CL:1000850",
      "conceptId": "CL1000850",
-     "label": "Macula densa epithelial cell"
+     "label": "Macula densa epithelial cell",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000850",
+       "label": "macula densa epithelial cell"
+      },
+      "note": "Tall, closely packed cells."
+     }
     }
    ]
   },
@@ -455,7 +1200,20 @@
     {
      "id": "CL:4030009",
      "conceptId": "CL4030009",
-     "label": "Epithelial cell of proximal tubule segment 1"
+     "label": "Epithelial cell of proximal tubule segment 1",
+     "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -465,7 +1223,20 @@
     {
      "id": "CL:4030010",
      "conceptId": "CL4030010",
-     "label": "Epithelial cell of proximal tubule segment 2"
+     "label": "Epithelial cell of proximal tubule segment 2",
+     "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -475,7 +1246,20 @@
     {
      "id": "CL:4030011",
      "conceptId": "CL4030011",
-     "label": "Epithelial cell of proximal tubule segment 3"
+     "label": "Epithelial cell of proximal tubule segment 3",
+     "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -485,7 +1269,20 @@
     {
      "id": "CL:0002306",
      "conceptId": "CL0002306",
-     "label": "Epithelial cell of proximal tubule"
+     "label": "Epithelial cell of proximal tubule",
+     "model": "/models/cell/cube-epithelial-cell-microvilli.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell-microvilli",
+      "apical": "microvilli",
+      "nucleus": true,
+      "from": {
+       "id": "CL:1000507",
+       "label": "kidney tubule cell"
+      },
+      "note": "Kidney tubules are lined by cuboidal epithelium."
+     }
     }
    ]
   },
@@ -495,7 +1292,20 @@
     {
      "id": "CL:1001096",
      "conceptId": "CL1001096",
-     "label": "Kidney afferent arteriole endothelial cell"
+     "label": "Kidney afferent arteriole endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -505,7 +1315,20 @@
     {
      "id": "CL:1001099",
      "conceptId": "CL1001099",
-     "label": "Kidney efferent arteriole endothelial cell"
+     "label": "Kidney efferent arteriole endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -515,7 +1338,19 @@
     {
      "id": "CL:4030012",
      "conceptId": "CL4030012",
-     "label": "Kidney loop of Henle short descending thin limb epithelial cell"
+     "label": "Kidney loop of Henle short descending thin limb epithelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000076",
+       "label": "squamous epithelial cell"
+      }
+     }
     }
    ]
   }

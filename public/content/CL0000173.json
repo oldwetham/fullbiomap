@@ -16,7 +16,19 @@
   "CL": "0000173"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0008024",
+    "label": "pancreatic endocrine cell"
+   },
+   "note": "Islet cells are neither nerve cells nor lining cells, so no simplified shape fits them."
+  }
  },
  "content": {
   "tier1": {

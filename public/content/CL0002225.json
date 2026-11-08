@@ -11,7 +11,16 @@
   "CL": "0002225"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/generic-cell-no-nucleus.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell-no-nucleus",
+   "apical": null,
+   "nucleus": false,
+   "from": null,
+   "noNucleus": "Lens fibers lose their nuclei and organelles as they mature into the bulk of the lens (Cell Ontology, secondary lens fiber: 'cell organelles are normally degraded or in the process of being degraded')."
+  }
  },
  "content": {
   "tier1": {

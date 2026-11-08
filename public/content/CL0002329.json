@@ -9,7 +9,19 @@
   "CL": "0002329"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002329",
+    "label": "basal epithelial cell of tracheobronchial tree"
+   },
+   "note": "Basal cells of the airway lining."
+  }
  },
  "content": {
   "tier1": {

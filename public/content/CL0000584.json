@@ -9,7 +9,18 @@
   "CL": "0000584"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell-microvilli.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell-microvilli",
+   "apical": "microvilli",
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002563",
+    "label": "intestinal epithelial cell"
+   }
+  }
  },
  "content": {
   "tier1": {

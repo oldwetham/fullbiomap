@@ -20,22 +20,74 @@
     {
      "id": "CL:0000071",
      "conceptId": "CL0000071",
-     "label": "Blood vessel endothelial cell"
+     "label": "Blood vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002144",
      "conceptId": "CL0002144",
-     "label": "Capillary endothelial cell"
+     "label": "Capillary endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:1000413",
      "conceptId": "CL1000413",
-     "label": "Endothelial cell of artery"
+     "label": "Endothelial cell of artery",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0002543",
      "conceptId": "CL0002543",
-     "label": "Vein endothelial cell"
+     "label": "Vein endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -45,17 +97,48 @@
     {
      "id": "CL:1000486",
      "conceptId": "CL1000486",
-     "label": "Basal cell of urothelium"
+     "label": "Basal cell of urothelium",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000646",
+       "label": "basal cell"
+      },
+      "note": "Basal cells of layered epithelia are low, cube-like cells."
+     }
     },
     {
      "id": "CL:4032000",
      "conceptId": "CL4032000",
-     "label": "Club-like cell of the urethral epithelium"
+     "label": "Club-like cell of the urethral epithelium",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0017011",
      "conceptId": "CL0017011",
-     "label": "Hillock cell of prostatic urethral epithelium"
+     "label": "Hillock cell of prostatic urethral epithelium",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -65,12 +148,38 @@
     {
      "id": "CL:0002138",
      "conceptId": "CL0002138",
-     "label": "Endothelial cell of lymphatic vessel"
+     "label": "Endothelial cell of lymphatic vessel",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     },
     {
      "id": "CL:0009115",
      "conceptId": "CL0009115",
-     "label": "Lymph node lymphatic vessel endothelial cell"
+     "label": "Lymph node lymphatic vessel endothelial cell",
+     "model": "/models/cell/flat-epithelial-cell.json",
+     "shape": {
+      "family": "flat-epithelial",
+      "label": "Flat epithelial cell",
+      "variant": "flat-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000115",
+       "label": "endothelial cell"
+      },
+      "note": "Endothelium is a single layer of flat cells."
+     }
     }
    ]
   },
@@ -80,12 +189,34 @@
     {
      "id": "CL:0005006",
      "conceptId": "CL0005006",
-     "label": "Ionocyte"
+     "label": "Ionocyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:0017002",
      "conceptId": "CL0017002",
-     "label": "Prostate neuroendocrine cell"
+     "label": "Prostate neuroendocrine cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0000165",
+       "label": "neuroendocrine cell"
+      },
+      "note": "Cell Ontology files neuroendocrine cells under neuron, but they have no axon or dendrites."
+     }
     }
    ]
   },
@@ -95,12 +226,30 @@
     {
      "id": "CL:1000299",
      "conceptId": "CL1000299",
-     "label": "Fibroblast of connective tissue of prostate"
+     "label": "Fibroblast of connective tissue of prostate",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     },
     {
      "id": "CL:1000301",
      "conceptId": "CL1000301",
-     "label": "Fibroblast of subepithelial connective tissue of prostatic gland"
+     "label": "Fibroblast of subepithelial connective tissue of prostatic gland",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -110,12 +259,37 @@
     {
      "id": "CL:0002341",
      "conceptId": "CL0002341",
-     "label": "Basal cell of prostate epithelium"
+     "label": "Basal cell of prostate epithelium",
+     "model": "/models/cell/cube-epithelial-cell.json",
+     "shape": {
+      "family": "cube-epithelial",
+      "label": "Cube-shaped epithelial cell",
+      "variant": "cube-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002341",
+       "label": "basal cell of prostate epithelium"
+      }
+     }
     },
     {
      "id": "CL:0002340",
      "conceptId": "CL0002340",
-     "label": "Luminal cell of prostate epithelium"
+     "label": "Luminal cell of prostate epithelium",
+     "model": "/models/cell/column-epithelial-cell.json",
+     "shape": {
+      "family": "column-epithelial",
+      "label": "Column-shaped epithelial cell",
+      "variant": "column-epithelial-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": {
+       "id": "CL:0002231",
+       "label": "epithelial cell of prostate"
+      },
+      "note": "The prostate glands are lined by columnar cells."
+     }
     }
    ]
   },
@@ -125,7 +299,16 @@
     {
      "id": "CL:0000669",
      "conceptId": "CL0000669",
-     "label": "Pericyte"
+     "label": "Pericyte",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -135,7 +318,16 @@
     {
      "id": "CL:0000359",
      "conceptId": "CL0000359",
-     "label": "Vascular associated smooth muscle cell"
+     "label": "Vascular associated smooth muscle cell",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   },
@@ -145,7 +337,16 @@
     {
      "id": "CL:1000487",
      "conceptId": "CL1000487",
-     "label": "Smooth muscle cell of prostate"
+     "label": "Smooth muscle cell of prostate",
+     "model": "/models/cell/generic-cell.json",
+     "shape": {
+      "family": "generic",
+      "label": "Generic cell",
+      "variant": "generic-cell",
+      "apical": null,
+      "nucleus": true,
+      "from": null
+     }
     }
    ]
   }

@@ -13,7 +13,18 @@
   "CL": "0002068"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cardiac-muscle-cell.json",
+  "shape": {
+   "family": "cardiomyocyte",
+   "label": "Cardiac muscle cell",
+   "variant": "cardiac-muscle-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000746",
+    "label": "cardiac muscle cell"
+   }
+  }
  },
  "content": {
   "tier1": {

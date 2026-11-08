@@ -1,5 +1,5 @@
 {
- "_comment": "Organelles of the generic 3D cell (pipeline/13-cell.mjs builds the geometry; step 06 fetches the GO definitions). Colors are the cell model's palette.",
+ "_comment": "Organelles and other cell parts drawn in the 3D cells (pipeline/13-cell.mjs builds the geometry; step 06 fetches the GO definitions). Colors are the cell models' palette; each model lists only the parts it draws.",
  "cell": {
   "id": "CL:0000000",
   "label": "Cell",
@@ -65,6 +65,72 @@
    "key": "cytoskeleton",
    "label": "Cytoskeleton",
    "color": "#b9b2a4"
+  },
+  {
+   "id": "GO:0005737",
+   "key": "cytoplasm",
+   "label": "Cytoplasm",
+   "color": "#c0392b"
+  },
+  {
+   "id": "GO:0005811",
+   "key": "lipid-droplet",
+   "label": "Lipid droplet",
+   "color": "#f0cf72"
+  },
+  {
+   "id": "GO:0030016",
+   "key": "myofibril",
+   "label": "Myofibrils",
+   "color": "#b4545f"
+  },
+  {
+   "id": "GO:0016529",
+   "key": "sarcoplasmic-reticulum",
+   "label": "Sarcoplasmic reticulum",
+   "color": "#86cbbb"
+  },
+  {
+   "id": "GO:0014704",
+   "key": "intercalated-disc",
+   "label": "Intercalated discs",
+   "color": "#5c2a3e"
+  },
+  {
+   "id": "GO:0005902",
+   "key": "microvillus",
+   "label": "Microvilli",
+   "color": "#d68fa6"
+  },
+  {
+   "id": "GO:0005929",
+   "key": "cilium",
+   "label": "Cilia",
+   "color": "#7fa9d4"
+  },
+  {
+   "id": "GO:0030424",
+   "key": "axon",
+   "label": "Axon",
+   "color": "#d4a03f"
+  },
+  {
+   "id": "GO:0030425",
+   "key": "dendrite",
+   "label": "Dendrites",
+   "color": "#9a86c8"
+  },
+  {
+   "id": "GO:0031091",
+   "key": "alpha-granule",
+   "label": "Alpha granules",
+   "color": "#8a69b0"
+  },
+  {
+   "id": "GO:0042827",
+   "key": "dense-granule",
+   "label": "Dense granules",
+   "color": "#3a2f47"
   }
  ]
 }

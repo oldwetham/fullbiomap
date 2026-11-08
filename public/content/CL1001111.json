@@ -9,7 +9,19 @@
   "CL": "1001111"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/flat-epithelial-cell.json",
+  "shape": {
+   "family": "flat-epithelial",
+   "label": "Flat epithelial cell",
+   "variant": "flat-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:1001111",
+    "label": "kidney loop of Henle thin descending limb epithelial cell"
+   },
+   "note": "The thin limbs of the loop of Henle are lined by flat cells."
+  }
  },
  "content": {
   "tier1": {

@@ -11,7 +11,19 @@
   "CL": "1000452"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/flat-epithelial-cell.json",
+  "shape": {
+   "family": "flat-epithelial",
+   "label": "Flat epithelial cell",
+   "variant": "flat-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:1000452",
+    "label": "parietal epithelial cell"
+   },
+   "note": "Bowman's capsule is lined by flat cells."
+  }
  },
  "content": {
   "tier1": {

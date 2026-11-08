@@ -11,7 +11,19 @@
   "CL": "1000271"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell-cilia.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell-cilia",
+   "apical": "cilia",
+   "nucleus": true,
+   "from": {
+    "id": "CL:0002368",
+    "label": "respiratory tract epithelial cell"
+   },
+   "note": "The airways are lined by columnar cells."
+  }
  },
  "content": {
   "tier1": {

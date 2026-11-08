@@ -11,7 +11,19 @@
   "CL": "0002064"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/column-epithelial-cell.json",
+  "shape": {
+   "family": "column-epithelial",
+   "label": "Column-shaped epithelial cell",
+   "variant": "column-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000622",
+    "label": "acinar cell"
+   },
+   "note": "Acinar cells are pyramid-shaped; a column is the nearest of the three epithelial shapes."
+  }
  },
  "content": {
   "tier1": {

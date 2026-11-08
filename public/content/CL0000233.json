@@ -13,7 +13,19 @@
   "CL": "0000233"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/platelet.json",
+  "shape": {
+   "family": "platelet",
+   "label": "Platelet",
+   "variant": "platelet",
+   "apical": null,
+   "nucleus": false,
+   "from": {
+    "id": "CL:0000233",
+    "label": "platelet"
+   },
+   "noNucleus": "Platelets have no nucleus (Cell Ontology: 'A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes')."
+  }
  },
  "content": {
   "tier1": {

@@ -16,7 +16,19 @@
   "CL": "0001070"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/generic-cell.json",
+  "shape": {
+   "family": "generic",
+   "label": "Generic cell",
+   "variant": "generic-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0001070",
+    "label": "beige adipocyte"
+   },
+   "note": "Its many small lipid droplets do not fit the fat cell shape, which has one large droplet."
+  }
  },
  "content": {
   "tier1": {

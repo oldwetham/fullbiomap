@@ -9,7 +9,19 @@
   "CL": "0000182"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/cube-epithelial-cell.json",
+  "shape": {
+   "family": "cube-epithelial",
+   "label": "Cube-shaped epithelial cell",
+   "variant": "cube-epithelial-cell",
+   "apical": null,
+   "nucleus": true,
+   "from": {
+    "id": "CL:0000182",
+    "label": "hepatocyte"
+   },
+   "note": "Hepatocytes are many-sided; a cube is the nearest of the three epithelial shapes."
+  }
  },
  "content": {
   "tier1": {

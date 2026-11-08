@@ -12,7 +12,19 @@
   "CL": "0000232"
  },
  "geometry": {
-  "model": "/models/cell/generic-cell.json"
+  "model": "/models/cell/red-blood-cell.json",
+  "shape": {
+   "family": "red-blood-cell",
+   "label": "Red blood cell",
+   "variant": "red-blood-cell",
+   "apical": null,
+   "nucleus": false,
+   "from": {
+    "id": "CL:0000232",
+    "label": "erythrocyte"
+   },
+   "noNucleus": "Mature human red blood cells have no nucleus (Cell Ontology: 'In mammals, mature erythrocytes are biconcave disks containing hemoglobin')."
+  }
  },
  "content": {
   "tier1": {

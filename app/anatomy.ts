@@ -18,7 +18,9 @@ export const SYSTEMS: {id:SystemId;name:string;color:string;description:string}[
 ];
 export interface Part {id:string;name:string;conceptId:string;system:SystemId;chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
 export interface Concept {id:string;name:string;elements:string[]}
-export interface Atlas {version:string;sex?:'male';source?:string;scope?:string;parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
+export type Body = 'male'|'female';
+/** stage: an organ interior normalized onto the stage (HRA); gzipOnly: chunks ship only as .gz and need DecompressionStream. */
+export interface Atlas {version:string;sex?:Body;source?:string;scope?:string;gzipOnly?:boolean;stage?:{magnification:number;rootConceptId:string|null};parts:Part[];concepts:Concept[];chunks:{url:string;bytes:number;gzip?:string;gzipBytes?:number}[];triangles:number}
 export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;/** Part ids tinted as related to the selection (second highlight color). */highlighted?:string[];explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
@@ -31,8 +33,14 @@ export interface ContentTier {status:ContentStatus;file?:string;text?:string;sou
 /** Per-node record served from public/content/<conceptId>.json (built by pipeline/11-build-graph.mjs); ids with a file are listed in public/content/index.json. */
 export interface ConnectionSource {name:string;license:string;url:string}
 /** One related structure: dir 'out' reads "this <rel> other", 'in' reads "other <rel> this". modeled=false means FMA names it but there is no 3D mesh. */
-export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[]}
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[]}
+export interface Connection {rel:string;dir:'in'|'out';id:string;conceptId:string|null;label:string;modeled:boolean;sources:ConnectionSource[];/** The same structure's id in other bodies or models (e.g. its Uberon id). */alternates?:string[]}
+/** The organ a structure belongs to on the scale ladder, with the interior models that exist for it per body. */
+export interface LadderOrgan {id:string;conceptId:string;label:string;alternates?:string[];interior?:Partial<Record<Body,string[]>>}
+export interface Ladder {system:SystemId;isOrgan:boolean;organ:LadderOrgan|null}
+/** Breadcrumb names per display system: the display system for the heart is itself called "Heart". */
+export const LADDER_SYSTEM_NAMES:Partial<Record<SystemId,string>> = {cardiac:'Cardiovascular',arterial:'Arteries',venous:'Veins'};
+export const ladderSystemName=(id:SystemId)=>LADDER_SYSTEM_NAMES[id]??SYSTEMS.find(s=>s.id===id)?.name??id;
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string}
 export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
  arterial_supply:{out:'Supplied by',in:'Supplies'},
  venous_drainage:{out:'Drains to',in:'Drains'},
@@ -51,7 +59,7 @@ export function connectionGroups(list:Connection[]):ConnectionGroup[]{
  for(const c of list){const key=`${c.rel}:${c.dir}`;const g=groups.get(key)??{key,label:RELATION_LABELS[c.rel]?.[c.dir]??c.rel,items:[]};g.items.push(c);groups.set(key,g);}
  return [...groups.values()];
 }
-export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[]}
+export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[];ladder:Ladder|null}
 export const isUnreviewed=(t?:ContentTier)=>t?.status==='auto'||t?.status==='drafted';
 let contentIndex:Promise<Set<string>>|null=null;
 const contentCache=new Map<string,Promise<NodeContent|null>>();
@@ -68,7 +76,23 @@ export async function explanationFor(conceptId:string,system:SystemId,preferred:
  const tierOf=(l:Level)=>node?.content?.[`tier${l}`];
  const available=LEVELS.map(x=>x.level).filter(l=>{const t=tierOf(l);return !!t&&t.status!=='missing'&&!!t.text;});
  const level=available.includes(preferred)?preferred:available[0]??null;
- const connections=node?.connections??[];
- if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections};
- return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections};
+ const connections=node?.connections??[],ladder=node?.ladder??null;
+ if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections,ladder};
+ return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder};
+}
+
+/** Deep links: [female/]<id>[/inside[/<part>]]. <id> is a concept or mesh id (FMA7088, UBERON0000948, FJ1252);
+ * FMA:7088 and FMA_7088 spellings are accepted. Every Phase 0-2 link (#FMA7088) still parses. */
+export interface HashState {body:Body;id:string;inside:boolean;part:string}
+const cleanId=(s:string)=>s.replace(/[:_]/g,'');
+export function parseHash(hash:string):HashState{
+ let raw='';try{raw=decodeURIComponent(hash.replace(/^#/,''));}catch{raw='';}
+ const bits=raw.split('/').filter(Boolean);let body:Body='male';
+ if(bits[0]==='female'||bits[0]==='male')body=bits.shift() as Body;
+ const id=bits[0]?cleanId(bits[0]):'',inside=bits[1]==='inside',part=inside&&bits[2]?cleanId(bits[2]):'';
+ return {body,id,inside,part};
+}
+export function formatHash(h:HashState){
+ if(!h.id)return h.body==='female'?'#female':'';
+ return `#${h.body==='female'?'female/':''}${h.id}${h.inside?`/inside${h.part?`/${h.part}`:''}`:''}`;
 }

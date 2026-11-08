@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ1317"
+  ],
+  "female": [
+   "female-VH_F_sclera_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-male-left",
+   "united-female"
   ]
  },
  "content": {
@@ -53,8 +61,29 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:58106"
+   "FMA:58106",
+   "UBERON:0004548"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "alternates": [
+    "UBERON0004548"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-left.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
 }

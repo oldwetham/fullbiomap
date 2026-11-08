@@ -72,6 +72,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14331"
     }
+   ],
+   "alternates": [
+    "UBERON0003713"
    ]
   },
   {
@@ -87,6 +90,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14332"
     }
+   ],
+   "alternates": [
+    "UBERON0001138"
    ]
   },
   {
@@ -104,5 +110,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:45847",
+   "conceptId": "FMA45847",
+   "label": "Portal venous tree"
+  }
+ }
 }

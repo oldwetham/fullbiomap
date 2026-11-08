@@ -1,0 +1,97 @@
+{
+ "id": "UBERON:0002203",
+ "conceptId": "UBERON0002203",
+ "label": "Vasculature of eye",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002203"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_ophthalmic_vein_L",
+   "female-VH_F_superior_ophthalmic_vein_L",
+   "female-VH_F_inferior_ophthalmic_vein_L",
+   "female-VH_F_central_retinal_vein_L",
+   "female-VH_F_ophthalmic_vein_R",
+   "female-VH_F_superior_ophthalmic_vein_R",
+   "female-VH_F_inferior_ophthalmic_vein_R",
+   "female-VH_F_central_retinal_vein_R",
+   "female-VH_F_long_posterior_ciliary_artery_L",
+   "female-VH_F_opthalmic_artery_L",
+   "female-VH_F_central_retinal_artery_L",
+   "female-VH_F_long_posterior_ciliary_artery_R",
+   "female-VH_F_opthalmic_artery_R",
+   "female-VH_F_central_retinal_artery_R"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002203/tier1.auto.md",
+   "text": "Vasculature that is part of the eye region.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0002203",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002203",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0002203",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002203",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0002203. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0002203",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002203",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:49880",
+   "FMA:49881",
+   "FMA:49957",
+   "FMA:49958",
+   "FMA:51248",
+   "FMA:51249",
+   "FMA:51250",
+   "FMA:51251",
+   "FMA:51884",
+   "FMA:51885",
+   "UBERON:0001619",
+   "UBERON:0011191"
+  ],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
+}

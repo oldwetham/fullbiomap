@@ -1,0 +1,138 @@
+{
+ "id": "UBERON:0004549",
+ "conceptId": "UBERON0004549",
+ "label": "Right eye",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004549",
+  "NCIT": "C119333",
+  "FMA": "12514"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_retina_R",
+   "female-VH_F_fovea_R",
+   "female-VH_F_macula_lutea_R",
+   "female-VH_F_optic_disc_R",
+   "female-VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+   "female-VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+   "female-VH_F_sclera_R",
+   "female-VH_F_optic_choroid_R",
+   "female-VH_F_pupil_R",
+   "female-VH_F_ciliary_processes_R",
+   "female-VH_F_suspensory_ligament_of_lens_R",
+   "female-VH_F_ora_serrata_of_retina_R",
+   "female-VH_F_corneo_scleral_junction_R",
+   "female-VH_F_lens_R",
+   "female-VH_F_schlemms_canal_R",
+   "female-VH_F_aqueous_humor_R",
+   "female-VH_F_ciliary_body_R",
+   "female-VH_F_ciliary_muscle_R",
+   "female-VH_F_trabecular_meshwork_R",
+   "female-VH_F_iris_R",
+   "female-VH_F_bulbar_conjunctiva_R",
+   "female-VH_F_cornea_R",
+   "female-VH_F_vitreous_humor_R"
+  ],
+  "models": [
+   "eye-female-right",
+   "eye-male-right",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/eye-female-right.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_12514/tier1.auto.md",
+   "text": "The eye positioned in the right orbit.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C119333",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C119333",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C119333, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C119333",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:223074",
+   "FMA:223076",
+   "FMA:261236",
+   "FMA:51874",
+   "FMA:58236",
+   "FMA:58239",
+   "FMA:58242",
+   "FMA:58271",
+   "FMA:58296",
+   "FMA:58299",
+   "FMA:58302",
+   "FMA:58343",
+   "FMA:58601",
+   "FMA:58820",
+   "FMA:58839",
+   "FMA:59028",
+   "UBERON:0005969",
+   "UBERON:0010224",
+   "UBERON:0010427"
+  ],
+  "out": [
+   "UBERON:0000970"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:12514",
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "alternates": [
+    "UBERON0004549"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-right.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-right.json"
+    ]
+   }
+  }
+ }
+}

@@ -13,7 +13,12 @@
  "geometry": {
   "male": [
    "FJ3139"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/prostate-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -256,5 +261,22 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9600",
+   "conceptId": "FMA9600",
+   "label": "Prostate",
+   "alternates": [
+    "UBERON0002367"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/prostate-male.json"
+    ]
+   }
+  }
+ }
 }

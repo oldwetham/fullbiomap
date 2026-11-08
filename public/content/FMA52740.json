@@ -78,6 +78,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma52734"
     }
+   ],
+   "alternates": [
+    "UBERON0000209"
    ]
   },
   {
@@ -243,6 +246,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma52736"
     }
+   ],
+   "alternates": [
+    "UBERON0001677"
    ]
   },
   {
@@ -258,7 +264,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9710"
     }
+   ],
+   "alternates": [
+    "UBERON0002396"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:52740",
+   "conceptId": "FMA52740",
+   "label": "Ethmoid",
+   "alternates": [
+    "UBERON0001679"
+   ]
+  }
+ }
 }

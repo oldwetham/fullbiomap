@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0022276",
+ "conceptId": "UBERON0022276",
+ "label": "Splenic flexure of colon",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0022276",
+  "NCIT": "C12267"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_splenic_flexure_of_colon"
+  ],
+  "models": [
+   "large-intestine-female",
+   "large-intestine-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0022276/tier1.auto.md",
+   "text": "The bend at the junction of the transverse and descending colon.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12267",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12267",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12267",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12267",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12267, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12267",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12267",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000059"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000059",
+   "conceptId": "UBERON0000059",
+   "label": "Large intestine",
+   "interior": {
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   }
+  }
+ }
+}

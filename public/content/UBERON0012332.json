@@ -1,0 +1,81 @@
+{
+ "id": "UBERON:0012332",
+ "conceptId": "UBERON0012332",
+ "label": "Broad ligament of uterus",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0012332",
+  "NCIT": "C12318"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_broad_ligament",
+   "female-VH_F_mesosalpinx_L",
+   "female-VH_F_mesosalpinx_R",
+   "female-VH_F_mesovarium_R",
+   "female-VH_F_mesovarium_L"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0012332/tier1.auto.md",
+   "text": "A wide fold of peritoneum that connects the uterus to the lateral walls and floor of the pelvis, and contains the ovaries, fallopian tubes, ovarian ligaments, round ligament of the uterus, and ovarian and uterine arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12318",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12318",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12318",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12318",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12318, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12318",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12318",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:19809",
+   "FMA:19810",
+   "FMA:19817",
+   "FMA:19818"
+  ],
+  "out": [
+   "UBERON:0000474"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

@@ -170,6 +170,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50873"
     }
+   ],
+   "alternates": [
+    "UBERON0001652"
    ]
   },
   {
@@ -185,6 +188,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50872"
     }
+   ],
+   "alternates": [
+    "UBERON0001651"
    ]
   },
   {
@@ -200,6 +206,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7165"
     }
+   ],
+   "alternates": [
+    "UBERON0035554"
    ]
   },
   {
@@ -217,5 +226,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:45842",
+   "conceptId": "FMA45842",
+   "label": "Pulmonary arterial tree"
+  }
+ }
 }

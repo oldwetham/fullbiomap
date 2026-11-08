@@ -1,0 +1,92 @@
+{
+ "id": "UBERON:0001117",
+ "conceptId": "UBERON0001117",
+ "label": "Caudate lobe of liver",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001117",
+  "NCIT": "C33000",
+  "FMA": "13365"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_caudate_lobe"
+  ],
+  "models": [
+   "liver-female",
+   "liver-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13365/tier1.auto.md",
+   "text": "Couinaud segment I, located on the posterior surface of the liver between the sulcus for the vena cava and the ligamentum venosum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33000",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33000",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33000",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33000",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33000, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33000",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33000",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001114",
+   "UBERON:0002107"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:13365",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
+}

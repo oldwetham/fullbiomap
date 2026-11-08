@@ -1,0 +1,184 @@
+{
+ "id": "UBERON:0003713",
+ "conceptId": "UBERON0003713",
+ "label": "Splenic vein",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0003713",
+  "NCIT": "C33608",
+  "FMA": "14331"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_splenic_vein"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14331/tier1.auto.md",
+   "text": "A vein arising from the splenic trabecular vein in the hilum of the spleen that drains into the portal vein.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33608",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33608",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33608",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33608",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33608, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33608",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33608",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15391",
+   "conceptId": "FMA15391",
+   "label": "Inferior mesenteric vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15391"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001215"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15390",
+   "conceptId": "FMA15390",
+   "label": "Left gastroepiploic vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15390"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON8920047"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15388",
+   "conceptId": null,
+   "label": "Pancreatic tributary of splenic vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15388"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15389",
+   "conceptId": null,
+   "label": "Short gastric vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15389"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:50735",
+   "conceptId": "FMA50735",
+   "label": "Hepatic portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001639"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:71904",
+   "conceptId": "FMA71904",
+   "label": "Pre-hepatic portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma71904"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:14331",
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0006448",
+ "conceptId": "UBERON0006448",
+ "label": "L1 segment of lumbar spinal cord",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0006448"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_first_lumbar_spinal_cord_segment"
+  ],
+  "models": [
+   "spinal-cord-female",
+   "spinal-cord-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0006448/tier1.auto.md",
+   "text": "The segment of the spinal cord that corresponds to the first lumbar vertebra in most mammals.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0006448",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0006448",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0006448",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0006448",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0006448. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0006448",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0006448",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002240"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002240",
+   "conceptId": "UBERON0002240",
+   "label": "Spinal cord",
+   "interior": {
+    "female": [
+     "/models/organs/spinal-cord-female.json"
+    ]
+   }
+  }
+ }
+}

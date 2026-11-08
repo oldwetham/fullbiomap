@@ -1,0 +1,164 @@
+{
+ "id": "UBERON:0001514",
+ "conceptId": "UBERON0001514",
+ "label": "Descending aorta",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001514",
+  "NCIT": "C32455",
+  "FMA": "3784"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_descending_aorta_a",
+   "female-VH_F_descending_aorta_b"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3784/tier1.auto.md",
+   "text": "The portion of the aorta following the aortic arch passing into the chest and abdomen creating the thoracic and abdominal segments.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32455",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32455",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32455, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32455",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000947"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:87217",
+   "conceptId": "FMA87217",
+   "label": "Descending thoracic aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0002345"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:3768",
+   "conceptId": "FMA3768",
+   "label": "Arch of aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001508"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:3768",
+   "conceptId": "FMA3768",
+   "label": "Arch of aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3768"
+    }
+   ],
+   "alternates": [
+    "UBERON0001508"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:69384",
+   "conceptId": null,
+   "label": "Trunk of left common iliac artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma69384"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:69383",
+   "conceptId": null,
+   "label": "Trunk of right common iliac artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma69383"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:3784",
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
+}

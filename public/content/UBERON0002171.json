@@ -1,0 +1,111 @@
+{
+ "id": "UBERON:0002171",
+ "conceptId": "UBERON0002171",
+ "label": "Lower lobe of right lung",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002171",
+  "NCIT": "C33022",
+  "FMA": "7337"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_medial_basal_bronchopulmonary_segment",
+   "female-VH_F_right_posterior_basal_bronchopulmonary_segment",
+   "female-VH_F_right_anterior_basal_bronchopulmonary_segment",
+   "female-VH_F_right_lateral_basal_bronchopulmonary_segment",
+   "female-VH_F_right_superior_bronchopulmonary_segment",
+   "female-VH_F_hilum_lower_R"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7337/tier1.auto.md",
+   "text": "The lobe of the right lung situated below the oblique fissure.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33022",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33022",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33022",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33022",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33022, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33022",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33022",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7362",
+   "FMA:7363",
+   "FMA:7364",
+   "FMA:7365",
+   "FMA:7366",
+   "UBERON:0004888"
+  ],
+  "out": [
+   "UBERON:0002167"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:68246",
+   "conceptId": null,
+   "label": "Lymphatic chain of lower lobe of right lung",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma68246"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7337",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ }
+}

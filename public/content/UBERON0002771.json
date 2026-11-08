@@ -1,0 +1,184 @@
+{
+ "id": "UBERON:0002771",
+ "conceptId": "UBERON0002771",
+ "label": "Middle temporal gyrus",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002771",
+  "NCIT": "C33125",
+  "FMA": "61906"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_middle_temporal_gyrus_L",
+   "female-Allen_middle_temporal_gyrus_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_61906/tier1.auto.md",
+   "text": "A gyrus or ridge on the outer surface of the temporal lobe between the superior and middle temporal sulci.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33125",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33125",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33125",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33125",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33125, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33125",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33125",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002812",
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50382",
+   "conceptId": "FMA50382",
+   "label": "Anterior temporal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50382"
+    }
+   ],
+   "alternates": [
+    "UBERON0035225"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50379",
+   "conceptId": "FMA50379",
+   "label": "Polar temporal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50379"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50458",
+   "conceptId": null,
+   "label": "Posterior temporal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50458"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:61907",
+   "conceptId": "FMA61907",
+   "label": "Inferior temporal gyrus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61907"
+    }
+   ],
+   "alternates": [
+    "UBERON0002751"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:61902",
+   "conceptId": null,
+   "label": "Lateral occipital gyrus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61902"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:61905",
+   "conceptId": null,
+   "label": "Superior temporal gyrus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61905"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:61906",
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
+   "interior": {
+    "female": [
+     "/models/organs/brain-female.json"
+    ]
+   }
+  }
+ }
+}

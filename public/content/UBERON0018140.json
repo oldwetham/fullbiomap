@@ -1,0 +1,85 @@
+{
+ "id": "UBERON:0018140",
+ "conceptId": "UBERON0018140",
+ "label": "Mammary lobe",
+ "scale": "organ",
+ "system": "integumentary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0018140",
+  "NCIT": "C93232"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_mammary_lobes_L",
+   "female-VH_F_mammary_lobes_R"
+  ],
+  "models": [
+   "mammary-gland-female-left",
+   "mammary-gland-female-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0018140/tier1.auto.md",
+   "text": "A unit of the female breast made up of a group of terminal secretory lobules. On average there are 15-20 lobes in each breast.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C93232",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C93232",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C93232",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C93232",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C93232, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C93232",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C93232",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:57987",
+   "FMA:57991"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "integumentary",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:57991",
+   "conceptId": "FMA57991",
+   "label": "Set of lactiferous glands in left breast",
+   "interior": {
+    "female": [
+     "/models/organs/mammary-gland-female-left.json"
+    ]
+   }
+  }
+ }
+}

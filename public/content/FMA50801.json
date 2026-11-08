@@ -71,7 +71,12 @@
    "FJ1836",
    "FJ1841",
    "FJ1842"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/brain-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -124,5 +129,17 @@
    "FMA:7154"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
 }

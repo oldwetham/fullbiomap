@@ -82,6 +82,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7201"
     }
+   ],
+   "alternates": [
+    "UBERON0000059"
    ]
   },
   {
@@ -97,6 +100,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14816"
     }
+   ],
+   "alternates": [
+    "UBERON8920032"
    ]
   },
   {
@@ -112,6 +118,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14818"
     }
+   ],
+   "alternates": [
+    "UBERON0039215"
    ]
   },
   {
@@ -142,6 +151,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14819"
     }
+   ],
+   "alternates": [
+    "UBERON8920042"
    ]
   },
   {
@@ -157,6 +169,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14824"
     }
+   ],
+   "alternates": [
+    "UBERON8920035"
    ]
   },
   {
@@ -172,6 +187,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14817"
     }
+   ],
+   "alternates": [
+    "UBERON8920033"
    ]
   },
   {
@@ -187,7 +205,19 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14815"
     }
+   ],
+   "alternates": [
+    "UBERON0001197"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
 }

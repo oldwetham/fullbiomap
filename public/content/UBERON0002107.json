@@ -1,0 +1,271 @@
+{
+ "id": "UBERON:0002107",
+ "conceptId": "UBERON0002107",
+ "label": "Liver",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002107",
+  "NCIT": "C12392",
+  "FMA": "7197"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_gastric_impression_of_liver",
+   "female-VH_F_suprarenal_impression_of_liver",
+   "female-VH_F_renal_impression_of_liver",
+   "female-VH_F_duodenal_impression_of_liver",
+   "female-VH_F_esophageal_impression_of_liver",
+   "female-VH_F_porta_hepatis",
+   "female-VH_F_colic_impression_of_liver",
+   "female-VH_F_capsule_of_the_liver",
+   "female-VH_F_bare_area_of_liver",
+   "female-VH_F_diaphragmatic_surface_of_liver",
+   "female-VH_F_left_anterolateral_segment",
+   "female-VH_F_left_superomedial_segment",
+   "female-VH_F_left_superomedial_segment1",
+   "female-VH_F_left_inferomedial_segment",
+   "female-VH_F_quadrate_lobe",
+   "female-VH_F_right_anterosuperior_segment",
+   "female-VH_F_right_posteroinferior_segment",
+   "female-VH_F_right_posterosuperior_segment",
+   "female-VH_F_right_anteroinferior_segment",
+   "female-VH_F_caudate_lobe",
+   "female-VH_F_coronary_ligament_of_liver",
+   "female-VH_F_falciform_ligament",
+   "female-VH_F_triangular_ligament_of_liver",
+   "female-VH_F_ligamentum_venosum",
+   "female-VH_F_round_ligament_of_liver",
+   "female-VH_F_hepataduodenal_ligament"
+  ],
+  "models": [
+   "liver-female",
+   "liver-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/liver-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "drafted",
+   "file": "content/FMA_7197/tier1.md",
+   "text": "A large organ beneath the right side of the diaphragm. It processes absorbed nutrients, produces bile, and synthesizes many proteins carried in the blood.",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
+   "sources": [
+    {
+     "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+     "url": "https://github.com/ashemag/human-atlas",
+     "license": "MIT"
+    }
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14484",
+   "FMA:14485",
+   "FMA:14486",
+   "FMA:14487",
+   "FMA:14488",
+   "FMA:14489",
+   "FMA:15729",
+   "FMA:15758",
+   "UBERON:0001114",
+   "UBERON:0001115",
+   "UBERON:0001117",
+   "UBERON:0001149",
+   "UBERON:0001247",
+   "UBERON:0006587",
+   "UBERON:0006588",
+   "UBERON:0012472",
+   "UBERON:0013138",
+   "UBERON:0016479",
+   "UBERON:0035444"
+  ],
+  "out": [
+   "UBERON:0001007"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14772",
+   "conceptId": "FMA14772",
+   "label": "Hepatic artery proper",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14772"
+    }
+   ],
+   "alternates": [
+    "UBERON0015480"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:14339",
+   "conceptId": "FMA14339",
+   "label": "Left hepatic vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14339"
+    }
+   ],
+   "alternates": [
+    "UBERON0011955"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:14338",
+   "conceptId": "FMA14338",
+   "label": "Right hepatic vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14338"
+    }
+   ],
+   "alternates": [
+    "UBERON0011956"
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6632",
+   "conceptId": null,
+   "label": "Hepatic nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6632"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:234361",
+   "conceptId": null,
+   "label": "Anterior diaphragmatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma234361"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:234356",
+   "conceptId": null,
+   "label": "Diaphragmatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma234356"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224309",
+   "conceptId": null,
+   "label": "Hepatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224309"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:235068",
+   "conceptId": null,
+   "label": "Parasternal lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma235068"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7197",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
+}

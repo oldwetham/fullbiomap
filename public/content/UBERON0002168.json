@@ -1,0 +1,223 @@
+{
+ "id": "UBERON:0002168",
+ "conceptId": "UBERON0002168",
+ "label": "Left lung",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002168",
+  "NCIT": "C32967",
+  "FMA": "7310"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_hilum_L",
+   "female-VH_F_hilum_upper_L",
+   "female-VH_F_lingula_superior_bronchopulmonary_segment",
+   "female-VH_F_left_anterior_bronchopulmonary_segment",
+   "female-VH_F_left_apical_bronchopulmonary_segment",
+   "female-VH_F_left_posterior_bronchopulmonary_segment",
+   "female-VH_F_lingula_inferior_bronchopulmonary_segment",
+   "female-VH_F_left_superior_bronchopulmonary_segment",
+   "female-VH_F_left_posterior_basal_bronchopulmonary_segment",
+   "female-VH_F_left_anterior_basal_bronchopulmonary_segment",
+   "female-VH_F_left_lateral_basal_bronchopulmonary_segment",
+   "female-VH_F_left_medial_basal_bronchopulmonary_segment",
+   "female-VH_F_hilum_lower_L"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7310/tier1.auto.md",
+   "text": "The 2-lobed lung located on the left side of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32967",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32967",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32967",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32967",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32967, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32967",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32967",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0004887",
+   "UBERON:0008952",
+   "UBERON:0008953"
+  ],
+  "out": [
+   "UBERON:0002048"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:4146",
+   "conceptId": null,
+   "label": "Left first bronchial artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4146"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:4147",
+   "conceptId": null,
+   "label": "Left second bronchial artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4147"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:4837",
+   "conceptId": null,
+   "label": "Left bronchial vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4837"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6657",
+   "conceptId": null,
+   "label": "Left anterior pulmonary nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6657"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6659",
+   "conceptId": null,
+   "label": "Left posterior pulmonary nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6659"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:66148",
+   "conceptId": null,
+   "label": "Left bronchomediastinal lymphatic tree",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma66148"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:233382",
+   "conceptId": null,
+   "label": "Left bronchopulmonary lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma233382"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7393"
+    }
+   ],
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ ],
+ "equivalent": "FMA:7310",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "alternates": [
+    "UBERON0002168"
+   ]
+  }
+ }
+}

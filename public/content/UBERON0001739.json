@@ -1,0 +1,92 @@
+{
+ "id": "UBERON:0001739",
+ "conceptId": "UBERON0001739",
+ "label": "Laryngeal cartilage",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001739",
+  "NCIT": "C12281",
+  "FMA": "55108"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_arytenoid_cartilage_R",
+   "female-VH_F_arytenoid_cartilage_L",
+   "female-VH_F_epiglotic_cartilage",
+   "female-VH_F_cricoid_cartilage",
+   "female-VH_F_thyroid_cartilage"
+  ],
+  "models": [
+   "larynx-female",
+   "larynx-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_55108/tier1.auto.md",
+   "text": "The nine cartilages that comprise the skeleton of the larynx, including the single thyroid, epiglottic, and cricoid cartilages, and the paired arytenoid, corniculate, and cuneiform cartilages.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12281",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12281",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12281",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12281",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12281, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12281",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12281",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001738",
+   "UBERON:0001740",
+   "UBERON:0001742",
+   "UBERON:0002375"
+  ],
+  "out": [
+   "UBERON:0001737"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:55108",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:55108",
+   "conceptId": "FMA55108",
+   "label": "Laryngeal cartilage",
+   "alternates": [
+    "UBERON0001739"
+   ]
+  }
+ }
+}

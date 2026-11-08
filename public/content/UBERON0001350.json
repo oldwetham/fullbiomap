@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0001350",
+ "conceptId": "UBERON0001350",
+ "label": "Coccyx",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001350",
+  "NCIT": "C12696"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_coccyx"
+  ],
+  "models": [
+   "pelvis-female",
+   "pelvis-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001350/tier1.auto.md",
+   "text": "A small bone located at the bottom of the spine. The coccyx is a result of 3-5 fused rudimentary vertebrae.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12696",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12696",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12696",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12696",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12696, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12696",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12696",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001270"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001270",
+   "conceptId": "UBERON0001270",
+   "label": "Bony pelvis",
+   "interior": {
+    "female": [
+     "/models/organs/pelvis-female.json"
+    ]
+   }
+  }
+ }
+}

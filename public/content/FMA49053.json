@@ -11,6 +11,12 @@
  "geometry": {
   "male": [
    "FJ1322"
+  ],
+  "female": [
+   "female-VH_F_superior_oblique_extraocular_muscle_L"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -54,7 +60,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "FMA:49149"
+  ]
  },
  "connections": [
   {
@@ -72,5 +80,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49053",
+   "conceptId": "FMA49053",
+   "label": "Left superior oblique"
+  }
+ }
 }

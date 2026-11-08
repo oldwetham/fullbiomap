@@ -1,0 +1,81 @@
+{
+ "id": "UBERON:0013773",
+ "conceptId": "UBERON0013773",
+ "label": "Right nipple",
+ "scale": "organ",
+ "system": "integumentary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0013773"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_nipple_R"
+  ],
+  "models": [
+   "mammary-gland-female-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0013773/tier1.auto.md",
+   "text": "A nipple that is in_the_right_side_of a body proper.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0013773",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013773",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0013773",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013773",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0013773. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0013773",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013773",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "FMA:57987"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "integumentary",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:57987",
+   "conceptId": "FMA57987",
+   "label": "Set of lactiferous glands in right breast",
+   "interior": {
+    "female": [
+     "/models/organs/mammary-gland-female-right.json"
+    ]
+   }
+  }
+ }
+}

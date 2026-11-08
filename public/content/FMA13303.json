@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23463"
     }
+   ],
+   "alternates": [
+    "UBERON0001423"
    ]
   },
   {
@@ -88,6 +91,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13394"
     }
+   ],
+   "alternates": [
+    "UBERON0006849"
    ]
   },
   {
@@ -103,7 +109,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23466"
     }
+   ],
+   "alternates": [
+    "UBERON0001424"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13303",
+   "conceptId": "FMA13303",
+   "label": "Humerus",
+   "alternates": [
+    "UBERON0000976"
+   ]
+  }
+ }
 }

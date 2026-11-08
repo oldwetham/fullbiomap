@@ -16,7 +16,12 @@
  "geometry": {
   "male": [
    "FJ2450"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/main-bronchus-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -75,6 +80,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7394"
     }
+   ],
+   "alternates": [
+    "UBERON0003126"
    ]
   },
   {
@@ -92,5 +100,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7405",
+   "conceptId": "FMA7405",
+   "label": "Main bronchus",
+   "alternates": [
+    "UBERON0002182"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/main-bronchus-male.json"
+    ],
+    "female": [
+     "/models/organs/main-bronchus-female.json"
+    ]
+   }
+  }
+ }
 }

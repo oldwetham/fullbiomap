@@ -1,0 +1,130 @@
+{
+ "id": "UBERON:0001898",
+ "conceptId": "UBERON0001898",
+ "label": "Hypothalamus",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001898",
+  "NCIT": "C12458",
+  "FMA": "62008"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_hypothalamus_L",
+   "female-Allen_hypothalamus_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_62008/tier1.auto.md",
+   "text": "A small, cone shaped collection of nuclei in the brain that is located below the thalamus and forms the lower side wall and floor of the third ventricle. It regulates homeostasis, the sleep-wake cycle, and metabolism, and plays a role in autonomic, endocrine, and motor function control.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12458",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12458",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12458",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12458",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12458, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12458",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12458",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50427",
+   "conceptId": "FMA50427",
+   "label": "Hypothalamic branch of posterior communicating artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50427"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50624",
+   "conceptId": "FMA50624",
+   "label": "Thalamoperforating artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50624"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50129",
+   "conceptId": null,
+   "label": "Branch of anterior choroidal artery to hypothalamus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50129"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:62008",
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
+}

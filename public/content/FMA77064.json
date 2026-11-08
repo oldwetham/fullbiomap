@@ -1,0 +1,73 @@
+{
+ "id": "FMA:77064",
+ "conceptId": "FMA77064",
+ "label": "Cardinal ligament",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [
+  "Mackenrodt's ligament",
+  "Transverse cervical ligament"
+ ],
+ "xrefs": {},
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_cardinal_ligament_of_uterus",
+   "female-VH_F_left_cardinal_ligament_of_uterus"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_77064/tier1.auto.md",
+   "text": "Mesentery, each instance of which attaches the lateral side of some vagina and cervix to some lateral pelvic wall.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:77064",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77064",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:77064",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77064",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:77064, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:77064",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77064",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000474"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

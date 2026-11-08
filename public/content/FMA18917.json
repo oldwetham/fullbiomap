@@ -72,15 +72,18 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21354"
     }
+   ],
+   "alternates": [
+    "UBERON0006656"
    ]
   },
   {
    "rel": "tributary_of",
    "dir": "in",
    "id": "FMA:21242",
-   "conceptId": null,
+   "conceptId": "FMA21242",
    "label": "Inferior rectal vein",
-   "modeled": false,
+   "modeled": true,
    "sources": [
     {
      "name": "Foundational Model of Anatomy 5.1",
@@ -197,7 +200,15 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001317"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
 }

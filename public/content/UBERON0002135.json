@@ -1,0 +1,140 @@
+{
+ "id": "UBERON:0002135",
+ "conceptId": "UBERON0002135",
+ "label": "Mitral valve",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002135",
+  "NCIT": "C12753",
+  "FMA": "7235"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_mitral_valve"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7235/tier1.auto.md",
+   "text": "A dual-flap valve of the heart that regulates the flow of blood between the left atrium and the left ventricle of the heart.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12753",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12753",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12753",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12753",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12753, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12753",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12753",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0003978"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:9498",
+   "conceptId": "FMA9498",
+   "label": "Fibrous ring of mitral valve",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9498"
+    }
+   ],
+   "alternates": [
+    "UBERON0005995"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7286",
+   "conceptId": null,
+   "label": "Endocardium of left atrium",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7286"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:9559",
+   "conceptId": null,
+   "label": "Endocardium of left ventricle",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9559"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7235",
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
+}

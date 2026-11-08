@@ -1,0 +1,88 @@
+{
+ "id": "FMA:15077",
+ "conceptId": "FMA15077",
+ "label": "Sphincter of hepatopancreatic ampulla",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [
+  "Hepatopancreatic ampullary sphincter",
+  "Musculus sphincter ampullae",
+  "Sphincter of Oddi",
+  "Sphincter of ampulla of Vater"
+ ],
+ "xrefs": {
+  "UBERON": "0004915",
+  "NCIT": "C13065"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_sphincter_of_heptopancreatic_ampulla"
+  ],
+  "models": [
+   "small-intestine-female",
+   "small-intestine-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_15077/tier1.auto.md",
+   "text": "The muscle fibres around the opening of the common bile duct (ductus choledochus) into the duodenum at the papilla of Vater.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C13065",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13065",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C13065",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13065",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C13065, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C13065",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13065",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002114"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002108",
+   "conceptId": "UBERON0002108",
+   "label": "Small intestine",
+   "interior": {
+    "female": [
+     "/models/organs/small-intestine-female.json"
+    ]
+   }
+  }
+ }
+}

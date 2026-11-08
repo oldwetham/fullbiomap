@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3223"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_second_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26094"
+   "FMA:26094",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13495",
+   "conceptId": "FMA13495",
+   "label": "Intervertebral disk of second thoracic vertebra"
+  }
+ }
 }

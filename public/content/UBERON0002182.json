@@ -1,0 +1,130 @@
+{
+ "id": "UBERON:0002182",
+ "conceptId": "UBERON0002182",
+ "label": "Main bronchus",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002182",
+  "NCIT": "C12284",
+  "FMA": "7405"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_main_bronchus",
+   "female-VH_F_cartilage_of_main_bronchus_R",
+   "female-VH_F_left_main_bronchus",
+   "female-VH_F_cartilage_of_main_bronchus_L"
+  ],
+  "models": [
+   "main-bronchus-female",
+   "main-bronchus-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/main-bronchus-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7405/tier1.auto.md",
+   "text": "One of two major branches of the trachea. Bifurcation of the trachea at the carina forms the left main bronchus and the right main bronchus.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12284",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12284",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12284, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12284",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0002177",
+   "UBERON:0002178"
+  ],
+  "out": [
+   "UBERON:0002185"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7394",
+   "conceptId": "FMA7394",
+   "label": "Trachea",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7394"
+    }
+   ],
+   "alternates": [
+    "UBERON0003126"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7406",
+   "conceptId": null,
+   "label": "Lobar bronchus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7406"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7405",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "UBERON:0002182",
+   "conceptId": "UBERON0002182",
+   "label": "Main bronchus",
+   "interior": {
+    "female": [
+     "/models/organs/main-bronchus-female.json"
+    ]
+   }
+  }
+ }
+}

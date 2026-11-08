@@ -63,5 +63,22 @@
    "FMA:7485"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7485",
+   "conceptId": "FMA7485",
+   "label": "Sternum",
+   "alternates": [
+    "UBERON0000975"
+   ],
+   "interior": {
+    "female": [
+     "/models/organs/sternum-female.json"
+    ]
+   }
+  }
+ }
 }

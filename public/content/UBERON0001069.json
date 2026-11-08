@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0001069",
+ "conceptId": "UBERON0001069",
+ "label": "Head of pancreas",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001069",
+  "NCIT": "C12269"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_head_of_pancreas"
+  ],
+  "models": [
+   "pancreas-female",
+   "pancreas-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001069/tier1.auto.md",
+   "text": "That portion of the pancreas lying in the concavity of the duodenum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12269",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12269",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12269",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12269",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12269, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12269",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12269",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001264"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001264",
+   "conceptId": "UBERON0001264",
+   "label": "Pancreas",
+   "interior": {
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   }
+  }
+ }
+}

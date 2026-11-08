@@ -1,0 +1,332 @@
+{
+ "id": "UBERON:0002080",
+ "conceptId": "UBERON0002080",
+ "label": "Heart right ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002080",
+  "NCIT": "C12870",
+  "FMA": "7098"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_ventricle"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7098/tier1.auto.md",
+   "text": "The lower chamber of the heart located in the right side. It receives blood from the right atrium that is no longer oxygenated and it pumps it to the pulmonary artery.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12870",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12870",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12870",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12870",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12870, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12870",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12870",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000948"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:13914",
+   "conceptId": "FMA13914",
+   "label": "Anterior branch of anterior interventricular branch of left coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13914"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3862",
+   "conceptId": "FMA3862",
+   "label": "Anterior interventricular branch of left coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3862"
+    }
+   ],
+   "alternates": [
+    "UBERON8600102"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3840",
+   "conceptId": "FMA3840",
+   "label": "Posterior interventricular branch of right coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3840"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:13912",
+   "conceptId": "FMA13912",
+   "label": "Ventricular branch of right coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13912"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3931",
+   "conceptId": null,
+   "label": "Absent left coronary artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3931"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3930",
+   "conceptId": null,
+   "label": "Absent right coronary artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3930"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3924",
+   "conceptId": null,
+   "label": "Posterior interventricular branch of left coronary artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3924"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:4707",
+   "conceptId": "FMA4707",
+   "label": "Great cardiac vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4707"
+    }
+   ],
+   "alternates": [
+    "UBERON0006958"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:4714",
+   "conceptId": "FMA4714",
+   "label": "Small cardiac vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4714"
+    }
+   ],
+   "alternates": [
+    "UBERON0035374"
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6650",
+   "conceptId": null,
+   "label": "Deep cardiac nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6650"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6652",
+   "conceptId": null,
+   "label": "Right coronary nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6652"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:5831",
+   "conceptId": null,
+   "label": "Right bronchomediastinal lymphatic trunk",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma5831"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:8612",
+   "conceptId": "FMA8612",
+   "label": "Pulmonary trunk",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8612"
+    }
+   ],
+   "alternates": [
+    "UBERON0002333"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7133",
+   "conceptId": null,
+   "label": "Interventricular septum",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7133"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7098",
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
+}

@@ -9,6 +9,29 @@
  "geometry": {
   "male": [
    "FJ3259"
+  ],
+  "female": [
+   "female-VH_F_femur_L",
+   "female-VH_F_intercondylar_fossa_L",
+   "female-VH_F_anterior_cruciate_enthesis_L",
+   "female-VH_F_posterior_cruciate_enthesis_L",
+   "female-VH_F_lateral_perichondular_surface_L",
+   "female-VH_F_lateral_epicondylar_enthesis_L",
+   "female-VH_F_medial_epicondylar_enthesis_L",
+   "female-VH_F_trochlear_groove_L",
+   "female-VH_F_medial_perichondular_surface_L",
+   "female-VH_F_articular_cartilage_of_knee_L",
+   "female-VH_F_medial_condyle_of_left_femur_inf",
+   "female-VH_F_lateral_condyle_of_femur_inf_L",
+   "female-VH_F_lateral_condyle_of_femur_frontal_L",
+   "female-VH_F_distal_most_point_of_medial_condyle_L",
+   "female-VH_F_lateral_condyle_of_femur_sup_L",
+   "female-VH_F_medial_condyle_of_left_femur_sup"
+  ],
+  "models": [
+   "knee-female-left",
+   "knee-male-left",
+   "united-female"
   ]
  },
  "content": {
@@ -51,9 +74,17 @@
   }
  ],
  "zoom": {
-  "in": [],
+  "in": [
+   "FMA:32861",
+   "FMA:32863",
+   "FMA:33190",
+   "FMA:43747",
+   "FMA:43750",
+   "UBERON:7500033"
+  ],
   "out": [
-   "FMA:24969"
+   "FMA:24969",
+   "FMA:35177"
   ]
  },
  "connections": [
@@ -102,5 +133,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24475",
+   "conceptId": "FMA24475",
+   "label": "Left femur"
+  }
+ }
 }

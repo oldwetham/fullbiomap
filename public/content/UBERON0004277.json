@@ -1,0 +1,94 @@
+{
+ "id": "UBERON:0004277",
+ "conceptId": "UBERON0004277",
+ "label": "Eye muscle",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004277"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_medial_rectus_extraocular_muscle_L",
+   "female-VH_F_inferior_rectus_extraocular_muscle_L",
+   "female-VH_F_superior_rectus_extraocular_muscle_L",
+   "female-VH_F_inferior_oblique_extraocular_muscle_L",
+   "female-VH_F_lateral_rectus_extraocular_muscle_L",
+   "female-VH_F_superior_oblique_extraocular_muscle_L",
+   "female-VH_F_medial_rectus_extraocular_muscle_R",
+   "female-VH_F_inferior_rectus_extraocular_muscle_R",
+   "female-VH_F_superior_rectus_extraocular_muscle_R",
+   "female-VH_F_inferior_oblique_extraocular_muscle_R",
+   "female-VH_F_lateral_rectus_extraocular_muscle_R",
+   "female-VH_F_superior_oblique_extraocular_muscle_R"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0004277/tier1.auto.md",
+   "text": "A muscle that is part of the eye region.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0004277",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004277",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0004277",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004277",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0004277. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0004277",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004277",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:49044",
+   "FMA:49046",
+   "FMA:49050",
+   "FMA:49052",
+   "FMA:49054",
+   "FMA:49056",
+   "FMA:49149"
+  ],
+  "out": [
+   "UBERON:0001630"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001630",
+   "conceptId": "UBERON0001630",
+   "label": "Muscle organ"
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0007371",
+ "conceptId": "UBERON0007371",
+ "label": "Superior surface of tongue",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007371"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_dorsal_tongue"
+  ],
+  "models": [
+   "mouth-female",
+   "mouth-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0007371/tier1.auto.md",
+   "text": "The upper (superior) side of the tongue.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007371",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007371",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007371",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007371",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007371. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007371",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007371",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001723"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000165",
+   "conceptId": "UBERON0000165",
+   "label": "Mouth",
+   "interior": {
+    "female": [
+     "/models/organs/mouth-female.json"
+    ]
+   }
+  }
+ }
+}

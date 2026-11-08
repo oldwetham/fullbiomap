@@ -1,0 +1,271 @@
+{
+ "id": "UBERON:0004538",
+ "conceptId": "UBERON0004538",
+ "label": "Left kidney",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004538",
+  "NCIT": "C34006",
+  "FMA": "7205"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_kidney_capsule_L",
+   "female-VH_F_hilum_of_kidney_L",
+   "female-VH_F_renal_papilla_L_a",
+   "female-VH_F_renal_papilla_L_b",
+   "female-VH_F_renal_papilla_L_c",
+   "female-VH_F_renal_papilla_L_d",
+   "female-VH_F_renal_papilla_L_e",
+   "female-VH_F_renal_papilla_L_f",
+   "female-VH_F_renal_papilla_L_g",
+   "female-VH_F_renal_papilla_L_h",
+   "female-VH_F_renal_papilla_L_i",
+   "female-VH_F_renal_papilla_L_j",
+   "female-VH_F_renal_papilla_L_k",
+   "female-VH_F_renal_pyramid_L_a",
+   "female-VH_F_renal_pyramid_L_b",
+   "female-VH_F_renal_pyramid_L_c",
+   "female-VH_F_renal_pyramid_L_d",
+   "female-VH_F_renal_pyramid_L_e",
+   "female-VH_F_renal_pyramid_L_f",
+   "female-VH_F_renal_pyramid_L_g",
+   "female-VH_F_renal_pyramid_L_h",
+   "female-VH_F_renal_pyramid_L_i",
+   "female-VH_F_renal_pyramid_L_j",
+   "female-VH_F_renal_pyramid_L_k",
+   "female-VH_F_renal_column_L",
+   "female-VH_F_outer_cortex_of_kidney_L"
+  ],
+  "models": [
+   "kidney-female-left",
+   "kidney-male-left",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/kidney-female-left.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7205/tier1.auto.md",
+   "text": "A bean-shaped retroperitoneal organ situated below the diaphragm and posterior to the spleen.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C34006",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C34006",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C34006",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C34006",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C34006, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C34006",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C34006",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0000362",
+   "UBERON:0001225",
+   "UBERON:0002015",
+   "UBERON:0008716"
+  ],
+  "out": [
+   "UBERON:0002113"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14753",
+   "conceptId": "FMA14753",
+   "label": "Left renal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14753"
+    }
+   ],
+   "alternates": [
+    "UBERON0001186"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:75822",
+   "conceptId": null,
+   "label": "Left accessory renal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma75822"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:14336",
+   "conceptId": "FMA14336",
+   "label": "Left renal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14336"
+    }
+   ],
+   "alternates": [
+    "UBERON0001142"
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:75820",
+   "conceptId": null,
+   "label": "Left renal nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma75820"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:223903",
+   "conceptId": null,
+   "label": "Left lateral aortic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma223903"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:222861",
+   "conceptId": null,
+   "label": "Lymphatic plexus of hilum of left kidney",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma222861"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:222863",
+   "conceptId": null,
+   "label": "Perirenal lymphatic plexus of left kidney",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma222863"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:222859",
+   "conceptId": null,
+   "label": "Subcapsular lymphatic plexus of left kidney",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma222859"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:15572",
+   "conceptId": "FMA15572",
+   "label": "Left ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15572"
+    }
+   ],
+   "alternates": [
+    "UBERON0001223"
+   ]
+  }
+ ],
+ "equivalent": "FMA:7205",
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7205",
+   "conceptId": "FMA7205",
+   "label": "Left kidney",
+   "alternates": [
+    "UBERON0004538"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/kidney-male-left.json"
+    ],
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   }
+  }
+ }
+}

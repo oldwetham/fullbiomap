@@ -1,0 +1,93 @@
+{
+ "id": "UBERON:0007255",
+ "conceptId": "UBERON0007255",
+ "label": "Intervertebral disk of lumbar vertebra",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007255",
+  "FMA": "13894"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_first_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_second_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_third_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_lumbar_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13894/tier1.auto.md",
+   "text": "An intervertebral disk that is part of a lumbar region of vertebral column. A lumbar intervertebral disk connects at least one lumbar vertebra, either to another thoracic vertebra, or at one point on the vertebral colummn, to a sacral vertebra.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007255",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007255",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007255",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007255",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007255. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007255",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007255",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:16033",
+   "FMA:16034",
+   "FMA:16035",
+   "FMA:16036",
+   "FMA:16037"
+  ],
+  "out": [
+   "UBERON:0001066"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:13894",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13894",
+   "conceptId": "FMA13894",
+   "label": "Intervertebral disk of lumbar vertebra",
+   "alternates": [
+    "UBERON0007255"
+   ]
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "UBERON:0005969",
+ "conceptId": "UBERON0005969",
+ "label": "Eye trabecular meshwork",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0005969",
+  "NCIT": "C12803"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_trabecular_meshwork_R",
+   "female-VH_F_trabecular_meshwork_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-female-right",
+   "eye-male-left",
+   "eye-male-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0005969/tier1.auto.md",
+   "text": "Mesh-like tissue responsible for draining the aqueous humor from the eye that is located at the iridocorneal angle of the eye, between the anterior chamber and the venous sinus of the sclera.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12803",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12803",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12803",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12803",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12803, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12803",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12803",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004548",
+   "UBERON:0004549"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004548",
+   "conceptId": "UBERON0004548",
+   "label": "Left eye",
+   "interior": {
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
+}

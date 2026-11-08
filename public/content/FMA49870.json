@@ -60,6 +60,36 @@
   {
    "rel": "branch_of",
    "dir": "in",
+   "id": "FMA:49881",
+   "conceptId": "FMA49881",
+   "label": "Left central retinal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49881"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:49958",
+   "conceptId": "FMA49958",
+   "label": "Left long posterior ciliary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49958"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
    "id": "FMA:49988",
    "conceptId": null,
    "label": "Left anterior ethmoidal artery",
@@ -69,21 +99,6 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49988"
-    }
-   ]
-  },
-  {
-   "rel": "branch_of",
-   "dir": "in",
-   "id": "FMA:49881",
-   "conceptId": null,
-   "label": "Left central retinal artery",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49881"
     }
    ]
   },
@@ -114,21 +129,6 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49929"
-    }
-   ]
-  },
-  {
-   "rel": "branch_of",
-   "dir": "in",
-   "id": "FMA:49958",
-   "conceptId": null,
-   "label": "Left long posterior ciliary artery",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49958"
     }
    ]
   },
@@ -250,7 +250,19 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4062"
     }
+   ],
+   "alternates": [
+    "UBERON0007142"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
 }

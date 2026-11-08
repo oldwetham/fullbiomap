@@ -1,0 +1,85 @@
+{
+ "id": "UBERON:0002769",
+ "conceptId": "UBERON0002769",
+ "label": "Superior temporal gyrus",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002769",
+  "NCIT": "C33698"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_superior_temporal_gyrus_L",
+   "female-Allen_superior_temporal_gyrus_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002769/tier1.auto.md",
+   "text": "A gyrus or ridge on the outer surface of the temporal lobe between the horizontal portion of the fissure of Sylvius and the superior temporal sulcus.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33698",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33698",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33698",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33698",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33698, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33698",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33698",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002812",
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
+   "interior": {
+    "female": [
+     "/models/organs/brain-female.json"
+    ]
+   }
+  }
+ }
+}

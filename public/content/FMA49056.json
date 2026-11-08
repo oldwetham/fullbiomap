@@ -11,6 +11,12 @@
  "geometry": {
   "male": [
    "FJ1359"
+  ],
+  "female": [
+   "female-VH_F_medial_rectus_extraocular_muscle_R"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -54,7 +60,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0004277"
+  ]
  },
  "connections": [
   {
@@ -72,5 +80,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49056",
+   "conceptId": "FMA49056",
+   "label": "Right medial rectus"
+  }
+ }
 }

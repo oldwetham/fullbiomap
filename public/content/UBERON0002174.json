@@ -1,0 +1,105 @@
+{
+ "id": "UBERON:0002174",
+ "conceptId": "UBERON0002174",
+ "label": "Middle lobe of right lung",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002174",
+  "NCIT": "C12286",
+  "FMA": "7383"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_medial_bronchopulmonary_segment",
+   "female-VH_F_right_lateral_bronchopulmonary_segmennt",
+   "female-VH_F_hilum_middle_R"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7383/tier1.auto.md",
+   "text": "The smallest lobe of the right lung, situated above the oblique fissure and below the horizontal fissure.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12286",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12286",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12286, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12286",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12286",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7360",
+   "FMA:7361",
+   "UBERON:0004888"
+  ],
+  "out": [
+   "UBERON:0002167"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:68244",
+   "conceptId": null,
+   "label": "Lymphatic chain of middle lobe of lung",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma68244"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7383",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ }
+}

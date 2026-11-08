@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0010396",
+ "conceptId": "UBERON0010396",
+ "label": "Afferent lymphatic vessel",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0010396"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Yao_afferent_lymphatic_vessel"
+  ],
+  "models": [
+   "lymph-node-female",
+   "lymph-node-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0010396/tier1.auto.md",
+   "text": "Lymphatic vessel that enters the lymph node. The afferent lymph vessels enter at all parts of the periphery of the lymph node, and after branching and forming a dense plexus in the substance of the capsule, open into the lymph sinuses of the cortical part. In doing this they lose all their coats except their endothelial lining, which is continuous with a layer of similar cells lining the lymph paths.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0010396",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010396",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0010396",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010396",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0010396. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0010396",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010396",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002509"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002509",
+   "conceptId": "UBERON0002509",
+   "label": "Mesenteric lymph node",
+   "interior": {
+    "female": [
+     "/models/organs/lymph-node-female.json"
+    ]
+   }
+  }
+ }
+}

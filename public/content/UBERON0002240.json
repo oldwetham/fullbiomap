@@ -1,0 +1,214 @@
+{
+ "id": "UBERON:0002240",
+ "conceptId": "UBERON0002240",
+ "label": "Spinal cord",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002240",
+  "NCIT": "C12464",
+  "FMA": "7647"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_C1_segment_of_cervical_spinal_cord",
+   "female-VH_F_C2_segment_of_cervical_spinal_cord",
+   "female-VH_F_C3_segment_of_cervical_spinal_cord",
+   "female-VH_F_C4_segment_of_cervical_spinal_cord",
+   "female-VH_F_C5_segment_of_cervical_spinal_cord",
+   "female-VH_F_C6_segment_of_cervical_spinal_cord",
+   "female-VH_F_C7_segment_of_cervical_spinal_cord",
+   "female-VH_F_C8_segment_of_cervical_spinal_cord",
+   "female-VH_F_first_thoracic_spinal_cord_segment",
+   "female-VH_F_second_thoracic_spinal_cord_segment",
+   "female-VH_F_third_thoracic_spinal_cord_segment",
+   "female-VH_F_fourth_thoracic_spinal_cord_segment",
+   "female-VH_F_fifth_thoracic_spinal_cord_segment",
+   "female-VH_F_seventh_thoracic_spinal_cord_segment",
+   "female-VH_F_eigth_thoracic_spinal_cord_segment",
+   "female-VH_F_sixth_thoracic_spinal_cord_segment",
+   "female-VH_F_ninth_thoracic_spinal_cord_segment",
+   "female-VH_F_tenth_thoracic_spinal_cord_segment",
+   "female-VH_F_eleventh_thoracic_spinal_cord_segment",
+   "female-VH_F_twelfth_thoracic_spinal_cord_segment",
+   "female-VH_F_first_lumbar_spinal_cord_segment",
+   "female-VH_F_second_lumbar_spinal_cord_segment",
+   "female-VH_F_third_lumbar_spinal_cord_segment",
+   "female-VH_F_fourth_lumbar_spinal_cord_segment",
+   "female-VH_F_fifth_lumbar_spinal_cord_segment",
+   "female-VH_F_first_sacral_spinal_cord_segment",
+   "female-VH_F_second_sacral_spinal_cord_segment",
+   "female-VH_F_third_sacral_spinal_cord_segment",
+   "female-VH_F_fourth_sacral_spinal_cord_segment"
+  ],
+  "models": [
+   "spinal-cord-female",
+   "spinal-cord-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/spinal-cord-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7647/tier1.auto.md",
+   "text": "The elongated, approximately cylindrical part of the central nervous system of vertebrates that lies in the vertebral canal and from which the spinal nerves emerge.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12464",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12464",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12464",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12464",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12464, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12464",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12464",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0006447",
+   "UBERON:0006448",
+   "UBERON:0006449",
+   "UBERON:0006450",
+   "UBERON:0006451",
+   "UBERON:0006452",
+   "UBERON:0006453",
+   "UBERON:0006454",
+   "UBERON:0006455",
+   "UBERON:0006456",
+   "UBERON:0006457",
+   "UBERON:0006458",
+   "UBERON:0006459",
+   "UBERON:0006460",
+   "UBERON:0006461",
+   "UBERON:0006462",
+   "UBERON:0006463",
+   "UBERON:0006464",
+   "UBERON:0006465",
+   "UBERON:0006466",
+   "UBERON:0006467",
+   "UBERON:0006468",
+   "UBERON:0006469",
+   "UBERON:0006470",
+   "UBERON:0006488",
+   "UBERON:0006489",
+   "UBERON:0006490",
+   "UBERON:0006491",
+   "UBERON:0006492",
+   "UBERON:0006493"
+  ],
+  "out": [
+   "UBERON:0001017"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50531",
+   "conceptId": "FMA50531",
+   "label": "Anterior spinal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50531"
+    }
+   ],
+   "alternates": [
+    "UBERON0005431"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:3956",
+   "conceptId": "FMA3956",
+   "label": "Vertebral artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3956"
+    }
+   ],
+   "alternates": [
+    "UBERON0001535"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50522",
+   "conceptId": null,
+   "label": "Posterior spinal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50522"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:76736",
+   "conceptId": null,
+   "label": "Intervertebral vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma76736"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7647",
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
+}

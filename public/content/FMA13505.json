@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3207"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_eighth_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26100"
+   "FMA:26100",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13505",
+   "conceptId": "FMA13505",
+   "label": "Intervertebral disk of eighth thoracic vertebra"
+  }
+ }
 }

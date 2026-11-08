@@ -1,0 +1,210 @@
+{
+ "id": "UBERON:0001639",
+ "conceptId": "UBERON0001639",
+ "label": "Hepatic portal vein",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001639",
+  "FMA": "50735"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_hepatic_portal_vein"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_50735/tier1.auto.md",
+   "text": "Portal vein, each instance of which is the confluence of some superior mesenteric and splenic veins behind the neck of aome pancrea; it carries blood from some gastro-intestinal tract, pancreas, spleen and gallbladder to some liver.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:50735",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:50735",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:50735, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:50735",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:15415",
+   "conceptId": "FMA15415",
+   "label": "Left portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15415"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:15414",
+   "conceptId": "FMA15414",
+   "label": "Right portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15414"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15399",
+   "conceptId": "FMA15399",
+   "label": "Left gastric vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0014690"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:15400",
+   "conceptId": "FMA15400",
+   "label": "Right gastric vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0014691"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:14331",
+   "conceptId": "FMA14331",
+   "label": "Splenic vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0003713"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:14332",
+   "conceptId": "FMA14332",
+   "label": "Superior mesenteric vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001138"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:15415",
+   "conceptId": "FMA15415",
+   "label": "Left portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:15414",
+   "conceptId": "FMA15414",
+   "label": "Right portal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:50735",
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:45847",
+   "conceptId": "FMA45847",
+   "label": "Portal venous tree"
+  }
+ }
+}

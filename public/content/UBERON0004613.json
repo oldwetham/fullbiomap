@@ -1,0 +1,118 @@
+{
+ "id": "UBERON:0004613",
+ "conceptId": "UBERON0004613",
+ "label": "Mammalian cervical vertebra 4",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004613",
+  "NCIT": "C32242",
+  "FMA": "12522"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_cervical_vertebra_4"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_12522/tier1.auto.md",
+   "text": "The fourth of the seven cervical vertebrae.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32242",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32242",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32242",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32242",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32242, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32242",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32242",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002412"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:12523",
+   "conceptId": "FMA12523",
+   "label": "Fifth cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12523"
+    }
+   ],
+   "alternates": [
+    "UBERON0004614"
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:12521",
+   "conceptId": "FMA12521",
+   "label": "Third cervical vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12521"
+    }
+   ],
+   "alternates": [
+    "UBERON0004612"
+   ]
+  }
+ ],
+ "equivalent": "FMA:12522",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12522",
+   "conceptId": "FMA12522",
+   "label": "Fourth cervical vertebra",
+   "alternates": [
+    "UBERON0004613"
+   ]
+  }
+ }
+}

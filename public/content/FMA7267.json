@@ -1,0 +1,80 @@
+{
+ "id": "FMA:7267",
+ "conceptId": "FMA7267",
+ "label": "Posteromedial head of posterior papillary muscle of left ventricle",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [],
+ "xrefs": {},
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_papillary_muscle_of_heart_posmed"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7267/tier1.auto.md",
+   "text": "Region of posterior papillary muscle of left ventricle which is attached to the posterior commissural leaflet of mitral valve through the chorda tendinea of left ventricle.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:7267",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7267",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:7267",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7267",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:7267, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:7267",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7267",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002494"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000948",
+   "conceptId": "UBERON0000948",
+   "label": "Heart",
+   "interior": {
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
+}

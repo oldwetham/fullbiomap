@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ3282"
+  ],
+  "female": [
+   "female-VH_F_tibia_L"
+  ],
+  "models": [
+   "knee-female-left",
+   "knee-male-left",
+   "united-female"
   ]
  },
  "content": {
@@ -53,7 +61,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:24981"
+   "FMA:24981",
+   "FMA:35177"
   ]
  },
  "connections": [
@@ -102,5 +111,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24478",
+   "conceptId": "FMA24478",
+   "label": "Left tibia"
+  }
+ }
 }

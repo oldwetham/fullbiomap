@@ -1,0 +1,148 @@
+{
+ "id": "UBERON:0004628",
+ "conceptId": "UBERON0004628",
+ "label": "Thoracic vertebra 3",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004628",
+  "NCIT": "C33725",
+  "FMA": "9209"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_thoracic_vertebra_3"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9209/tier1.auto.md",
+   "text": "The third thoracic vertebra counting from the top down.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33725",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33725",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33725",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33725",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33725, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33725",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33725",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002412"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:9248",
+   "conceptId": "FMA9248",
+   "label": "Fourth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9248"
+    }
+   ],
+   "alternates": [
+    "UBERON0004629"
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:8039",
+   "conceptId": "FMA8039",
+   "label": "Left third rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8039"
+    }
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:7909",
+   "conceptId": "FMA7909",
+   "label": "Right third rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7909"
+    }
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:9187",
+   "conceptId": "FMA9187",
+   "label": "Second thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9187"
+    }
+   ],
+   "alternates": [
+    "UBERON0004627"
+   ]
+  }
+ ],
+ "equivalent": "FMA:9209",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9209",
+   "conceptId": "FMA9209",
+   "label": "Third thoracic vertebra",
+   "alternates": [
+    "UBERON0004628"
+   ]
+  }
+ }
+}

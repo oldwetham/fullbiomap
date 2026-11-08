@@ -117,6 +117,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0039850"
    ]
   },
   {
@@ -162,6 +165,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0039262"
    ]
   },
   {
@@ -207,7 +213,19 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0002333"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:45842",
+   "conceptId": "FMA45842",
+   "label": "Pulmonary arterial tree"
+  }
+ }
 }

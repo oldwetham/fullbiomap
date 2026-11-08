@@ -1,0 +1,447 @@
+{
+ "id": "UBERON:0001255",
+ "conceptId": "UBERON0001255",
+ "label": "Urinary bladder",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001255",
+  "NCIT": "C12414",
+  "FMA": "15900"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_fundus_of_urinary_bladder_dome",
+   "female-VH_F_urinary_bladder_neck_smooth_muscle",
+   "female-VH_F_fundus_of_urinary_bladder_base",
+   "female-VH_F_trigone_of_urinary_bladder",
+   "female-VH_F_ureteral_orifice_R",
+   "female-VH_F_ureteral_orifice_L"
+  ],
+  "models": [
+   "united-female",
+   "urinary-bladder-female",
+   "urinary-bladder-male"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/urinary-bladder-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "drafted",
+   "file": "content/FMA_15900/tier1.md",
+   "text": "A muscular reservoir in the pelvis that stores urine arriving from the kidneys through the ureters.",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
+   "sources": [
+    {
+     "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+     "url": "https://github.com/ashemag/human-atlas",
+     "license": "MIT"
+    }
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0004230",
+   "UBERON:0006082"
+  ],
+  "out": [
+   "UBERON:0001008"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:18873",
+   "conceptId": null,
+   "label": "Left inferior gluteal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18873"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:18841",
+   "conceptId": null,
+   "label": "Left superior vesical artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18841"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:18872",
+   "conceptId": null,
+   "label": "Right inferior gluteal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18872"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:18840",
+   "conceptId": null,
+   "label": "Right superior vesical artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18840"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:20987",
+   "conceptId": null,
+   "label": "Vesical fundus part of left vaginal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma20987"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:20986",
+   "conceptId": null,
+   "label": "Vesical fundus part of right vaginal artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma20986"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:21037",
+   "conceptId": null,
+   "label": "Vesical part of left obturator artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21037"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:79195",
+   "conceptId": null,
+   "label": "Vesical part of left uterine artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma79195"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:21036",
+   "conceptId": null,
+   "label": "Vesical part of right obturator artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21036"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:79194",
+   "conceptId": null,
+   "label": "Vesical part of right uterine artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma79194"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:18892",
+   "conceptId": null,
+   "label": "Left inferior vesical vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18892"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:18891",
+   "conceptId": null,
+   "label": "Right inferior vesical vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18891"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:21371",
+   "conceptId": null,
+   "label": "Vesical tributary of left middle rectal vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21371"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:21370",
+   "conceptId": null,
+   "label": "Vesical tributary of right middle rectal vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21370"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:18934",
+   "conceptId": null,
+   "label": "Vesical venous plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18934"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6643",
+   "conceptId": null,
+   "label": "Inferior hypogastric nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6643"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6646",
+   "conceptId": null,
+   "label": "Vesical nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6646"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:229177",
+   "conceptId": null,
+   "label": "External iliac lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma229177"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:15572",
+   "conceptId": "FMA15572",
+   "label": "Left ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15572"
+    }
+   ],
+   "alternates": [
+    "UBERON0001223"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:15571",
+   "conceptId": "FMA15571",
+   "label": "Right ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15571"
+    }
+   ],
+   "alternates": [
+    "UBERON0001222"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:9704",
+   "conceptId": "FMA9704",
+   "label": "Ureter",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9704"
+    }
+   ],
+   "alternates": [
+    "UBERON0000056"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:19667",
+   "conceptId": "FMA19667",
+   "label": "Urethra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma19667"
+    }
+   ],
+   "alternates": [
+    "UBERON0000057"
+   ]
+  }
+ ],
+ "equivalent": "FMA:15900",
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:15900",
+   "conceptId": "FMA15900",
+   "label": "Urinary bladder",
+   "alternates": [
+    "UBERON0001255"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/urinary-bladder-male.json"
+    ],
+    "female": [
+     "/models/organs/urinary-bladder-female.json"
+    ]
+   }
+  }
+ }
+}

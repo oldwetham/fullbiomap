@@ -71,6 +71,21 @@
   {
    "rel": "continuous_with",
    "dir": "out",
+   "id": "FMA:7397",
+   "conceptId": "FMA7397",
+   "label": "Lobar bronchus of right lung cranial lobe",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7397"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
    "id": "FMA:7394",
    "conceptId": "FMA7394",
    "label": "Trachea",
@@ -81,22 +96,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7394"
     }
-   ]
-  },
-  {
-   "rel": "continuous_with",
-   "dir": "out",
-   "id": "FMA:7397",
-   "conceptId": null,
-   "label": "Right superior lobar bronchus",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7397"
-    }
+   ],
+   "alternates": [
+    "UBERON0003126"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ }
 }

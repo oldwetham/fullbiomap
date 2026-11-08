@@ -1,0 +1,85 @@
+{
+ "id": "UBERON:0000052",
+ "conceptId": "UBERON0000052",
+ "label": "Fornix of brain",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000052",
+  "NCIT": "C32289"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_fornix_L",
+   "female-Allen_fornix_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0000052/tier1.auto.md",
+   "text": "The C-shaped bundle of axons in the midline of the brain which originate in both hemispheres of the hippocampus and project to the contralateral hippocampus and septum, mammillary body, and the anterior nucleus of the thalamus.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32289",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32289",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32289",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32289",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32289, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32289",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32289",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002812",
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
+   "interior": {
+    "female": [
+     "/models/organs/brain-female.json"
+    ]
+   }
+  }
+ }
+}

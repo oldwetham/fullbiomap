@@ -16,7 +16,12 @@
    "FJ1896",
    "FJ2629",
    "FJ2630"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/pancreas-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -80,6 +85,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14793"
     }
+   ],
+   "alternates": [
+    "UBERON8920022"
    ]
   },
   {
@@ -95,6 +103,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14787"
     }
+   ],
+   "alternates": [
+    "UBERON8920020"
    ]
   },
   {
@@ -110,6 +121,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14792"
     }
+   ],
+   "alternates": [
+    "UBERON8920021"
    ]
   },
   {
@@ -155,6 +169,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15398"
     }
+   ],
+   "alternates": [
+    "UBERON0004690"
    ]
   },
   {
@@ -247,5 +264,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "alternates": [
+    "UBERON0001264"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pancreas-male.json"
+    ],
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   }
+  }
+ }
 }

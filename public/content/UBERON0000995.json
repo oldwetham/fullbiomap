@@ -1,0 +1,104 @@
+{
+ "id": "UBERON:0000995",
+ "conceptId": "UBERON0000995",
+ "label": "Uterus",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000995",
+  "NCIT": "C12405"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_abdominal_ostium_of_uterine_tube",
+   "female-VH_F_body_of_uterus",
+   "female-VH_F_fundus_of_uterus",
+   "female-VH_F_cornua",
+   "female-VH_F_lower_uterine_segment",
+   "female-VH_F_posterior_wall_of_uterus",
+   "female-VH_F_anterior_wall_of_uterus",
+   "female-VH_F_cervix",
+   "female-VH_F_internal_cervical_os",
+   "female-VH_F_external_cervical_os"
+  ],
+  "models": [
+   "united-female",
+   "uterus-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/uterus-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0000995/tier1.auto.md",
+   "text": "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12405",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12405",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12405, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12405",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:17561",
+   "FMA:17752",
+   "FMA:224876",
+   "FMA:224878",
+   "FMA:77049",
+   "UBERON:0000002",
+   "UBERON:0009853"
+  ],
+  "out": [
+   "UBERON:0000474"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": true,
+  "organ": {
+   "id": "UBERON:0000995",
+   "conceptId": "UBERON0000995",
+   "label": "Uterus",
+   "interior": {
+    "female": [
+     "/models/organs/uterus-female.json"
+    ]
+   }
+  }
+ }
+}

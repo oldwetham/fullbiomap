@@ -77,6 +77,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50040"
     }
+   ],
+   "alternates": [
+    "UBERON0001626"
    ]
   },
   {
@@ -92,6 +95,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12846"
     }
+   ],
+   "alternates": [
+    "UBERON0004148"
    ]
   },
   {
@@ -107,6 +113,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4706"
     }
+   ],
+   "alternates": [
+    "UBERON0005438"
    ]
   },
   {
@@ -137,6 +146,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9498"
     }
+   ],
+   "alternates": [
+    "UBERON0005995"
    ]
   },
   {
@@ -214,5 +226,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
 }

@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ2776"
+  ],
+  "female": [
+   "female-VH_F_corniculate_cartilage_L"
+  ],
+  "models": [
+   "larynx-female",
+   "larynx-male",
+   "united-female"
   ]
  },
  "content": {
@@ -52,7 +60,18 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0001741"
+  ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:55116",
+   "conceptId": "FMA55116",
+   "label": "Left corniculate cartilage"
+  }
+ }
 }

@@ -134,6 +134,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14339"
     }
+   ],
+   "alternates": [
+    "UBERON0011955"
    ]
   },
   {
@@ -149,6 +152,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14336"
     }
+   ],
+   "alternates": [
+    "UBERON0001142"
    ]
   },
   {
@@ -164,6 +170,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14340"
     }
+   ],
+   "alternates": [
+    "UBERON0011957"
    ]
   },
   {
@@ -194,6 +203,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14338"
     }
+   ],
+   "alternates": [
+    "UBERON0011956"
    ]
   },
   {
@@ -209,6 +221,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14335"
     }
+   ],
+   "alternates": [
+    "UBERON0001141"
    ]
   },
   {
@@ -224,6 +239,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14343"
     }
+   ],
+   "alternates": [
+    "UBERON0035435"
    ]
   },
   {
@@ -239,6 +257,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14341"
     }
+   ],
+   "alternates": [
+    "UBERON0000442"
    ]
   },
   {
@@ -419,7 +440,19 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7165"
     }
+   ],
+   "alternates": [
+    "UBERON0035554"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:82673",
+   "conceptId": "FMA82673",
+   "label": "Inferior systemic venous tree"
+  }
+ }
 }

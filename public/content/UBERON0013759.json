@@ -1,0 +1,81 @@
+{
+ "id": "UBERON:0013759",
+ "conceptId": "UBERON0013759",
+ "label": "Internal cervical os",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0013759"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_internal_cervical_os"
+  ],
+  "models": [
+   "united-female",
+   "uterus-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0013759/tier1.auto.md",
+   "text": "Opening of uterine cervix into the body of the uterus.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0013759",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013759",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0013759",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013759",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0013759. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0013759",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013759",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000002"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000995",
+   "conceptId": "UBERON0000995",
+   "label": "Uterus",
+   "interior": {
+    "female": [
+     "/models/organs/uterus-female.json"
+    ]
+   }
+  }
+ }
+}

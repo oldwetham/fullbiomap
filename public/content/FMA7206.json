@@ -13,6 +13,15 @@
  "geometry": {
   "male": [
    "FJ2573"
+  ],
+  "female": [
+   "female-VH_F_duodenum_superior",
+   "female-VH_F_duodenal_ampulla"
+  ],
+  "models": [
+   "small-intestine-female",
+   "small-intestine-male",
+   "united-female"
   ]
  },
  "content": {
@@ -55,10 +64,13 @@
   }
  ],
  "zoom": {
-  "in": [],
+  "in": [
+   "UBERON:0013644"
+  ],
   "out": [
    "FMA:49177",
-   "FMA:7200"
+   "FMA:7200",
+   "UBERON:0002114"
   ]
  },
  "connections": [
@@ -90,6 +102,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7207"
     }
+   ],
+   "alternates": [
+    "UBERON0002115"
    ]
   },
   {
@@ -107,5 +122,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7200",
+   "conceptId": "FMA7200",
+   "label": "Small intestine",
+   "alternates": [
+    "UBERON0002108"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/small-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/small-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

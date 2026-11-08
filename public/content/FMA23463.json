@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13303"
     }
+   ],
+   "alternates": [
+    "UBERON0000976"
    ]
   },
   {
@@ -88,6 +91,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23712"
     }
+   ],
+   "alternates": [
+    "UBERON0001428"
    ]
   },
   {
@@ -103,6 +109,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23709"
     }
+   ],
+   "alternates": [
+    "UBERON0001427"
    ]
   },
   {
@@ -118,7 +127,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23466"
     }
+   ],
+   "alternates": [
+    "UBERON0001424"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:23463",
+   "conceptId": "FMA23463",
+   "label": "Radius",
+   "alternates": [
+    "UBERON0001423"
+   ]
+  }
+ }
 }

@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0004888",
+ "conceptId": "UBERON0004888",
+ "label": "Right lung hilus",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004888"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_hilum_R",
+   "female-VH_F_hilum_lower_R",
+   "female-VH_F_hilum_middle_R",
+   "female-VH_F_hilum_upper_R"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0004888/tier1.auto.md",
+   "text": "A lung hilus that is part of the right lung.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0004888",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004888",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0004888",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004888",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0004888. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0004888",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004888",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002167",
+   "UBERON:0002170",
+   "UBERON:0002171",
+   "UBERON:0002174"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002167",
+   "conceptId": "UBERON0002167",
+   "label": "Right lung"
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "UBERON:0008716",
+ "conceptId": "UBERON0008716",
+ "label": "Hilum of kidney",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0008716",
+  "NCIT": "C32740"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_hilum_of_kidney_L",
+   "female-VH_F_hilum_of_kidney_R"
+  ],
+  "models": [
+   "kidney-female-left",
+   "kidney-female-right",
+   "kidney-male-left",
+   "kidney-male-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0008716/tier1.auto.md",
+   "text": "The concave area of the kidney through which the renal artery enters and the renal vein and ureter exit the organ.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32740",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32740",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32740",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32740",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32740, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32740",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32740",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004538",
+   "UBERON:0004539"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004538",
+   "conceptId": "UBERON0004538",
+   "label": "Left kidney",
+   "interior": {
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   }
+  }
+ }
+}

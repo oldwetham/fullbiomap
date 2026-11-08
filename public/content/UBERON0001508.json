@@ -1,0 +1,240 @@
+{
+ "id": "UBERON:0001508",
+ "conceptId": "UBERON0001508",
+ "label": "Arch of aorta",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001508",
+  "FMA": "3768"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_aortic_arch"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3768/tier1.auto.md",
+   "text": "The convex portion of the aorta between the ascending and descending parts of the aorta; branches from it include the brachiocephalic trunk, the left common carotid artery, and the left subclavian artery; the brachiocephalic trunk further splits to form the right subclavian artery and the right common carotid artery.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0001508",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0001508",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001508. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0001508",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001508",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000947"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:3932",
+   "conceptId": "FMA3932",
+   "label": "Brachiocephalic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001529"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:3939",
+   "conceptId": "FMA3939",
+   "label": "Common carotid artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001530"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:3784",
+   "conceptId": "FMA3784",
+   "label": "Descending aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001514"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:4058",
+   "conceptId": "FMA4058",
+   "label": "Left common carotid artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001536"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:4694",
+   "conceptId": "FMA4694",
+   "label": "Left subclavian artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001584"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:3951",
+   "conceptId": "FMA3951",
+   "label": "Subclavian artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001533"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:3736",
+   "conceptId": "FMA3736",
+   "label": "Ascending aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001496"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:3736",
+   "conceptId": "FMA3736",
+   "label": "Ascending aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3736"
+    }
+   ],
+   "alternates": [
+    "UBERON0001496"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:3784",
+   "conceptId": "FMA3784",
+   "label": "Descending aorta",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3784"
+    }
+   ],
+   "alternates": [
+    "UBERON0001514"
+   ]
+  }
+ ],
+ "equivalent": "FMA:3768",
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
+}

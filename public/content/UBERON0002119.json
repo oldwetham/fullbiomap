@@ -1,0 +1,68 @@
+{
+ "id": "UBERON:0002119",
+ "conceptId": "UBERON0002119",
+ "label": "Left ovary",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002119",
+  "NCIT": "C32969"
+ },
+ "geometry": {
+  "male": [],
+  "female": [],
+  "models": [
+   "ovary-female-left"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002119/tier1.auto.md",
+   "text": "The ovary that is located in the left side of the pelvis.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32969",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32969",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32969",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32969",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32969, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32969",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32969",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": []
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

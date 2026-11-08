@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0001257",
+ "conceptId": "UBERON0001257",
+ "label": "Trigone of urinary bladder",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001257",
+  "NCIT": "C12331"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_trigone_of_urinary_bladder"
+  ],
+  "models": [
+   "united-female",
+   "urinary-bladder-female",
+   "urinary-bladder-male"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001257/tier1.auto.md",
+   "text": "The triangular area in the bladder mucosa that is formed by the two ureteral orifices and the urethral orifice.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12331",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12331",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12331",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12331",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12331, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12331",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12331",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0006082"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001255",
+   "conceptId": "UBERON0001255",
+   "label": "Urinary bladder",
+   "interior": {
+    "female": [
+     "/models/organs/urinary-bladder-female.json"
+    ]
+   }
+  }
+ }
+}

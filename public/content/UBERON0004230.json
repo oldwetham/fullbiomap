@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0004230",
+ "conceptId": "UBERON0004230",
+ "label": "Urinary bladder neck smooth muscle",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004230"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_urinary_bladder_neck_smooth_muscle"
+  ],
+  "models": [
+   "united-female",
+   "urinary-bladder-female",
+   "urinary-bladder-male"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0004230/tier1.auto.md",
+   "text": "A portion of smooth muscle tissue that is part of a neck of urinary bladder.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0004230",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004230",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0004230",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004230",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0004230. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0004230",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004230",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001255"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001255",
+   "conceptId": "UBERON0001255",
+   "label": "Urinary bladder",
+   "interior": {
+    "female": [
+     "/models/organs/urinary-bladder-female.json"
+    ]
+   }
+  }
+ }
+}

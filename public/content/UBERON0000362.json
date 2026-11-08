@@ -1,0 +1,130 @@
+{
+ "id": "UBERON:0000362",
+ "conceptId": "UBERON0000362",
+ "label": "Renal medulla",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000362",
+  "NCIT": "C12740"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_renal_papilla_L_a",
+   "female-VH_F_renal_papilla_L_b",
+   "female-VH_F_renal_papilla_L_c",
+   "female-VH_F_renal_papilla_L_d",
+   "female-VH_F_renal_papilla_L_e",
+   "female-VH_F_renal_papilla_L_f",
+   "female-VH_F_renal_papilla_L_g",
+   "female-VH_F_renal_papilla_L_h",
+   "female-VH_F_renal_papilla_L_i",
+   "female-VH_F_renal_papilla_L_j",
+   "female-VH_F_renal_papilla_L_k",
+   "female-VH_F_renal_pyramid_L_a",
+   "female-VH_F_renal_pyramid_L_b",
+   "female-VH_F_renal_pyramid_L_c",
+   "female-VH_F_renal_pyramid_L_d",
+   "female-VH_F_renal_pyramid_L_e",
+   "female-VH_F_renal_pyramid_L_f",
+   "female-VH_F_renal_pyramid_L_g",
+   "female-VH_F_renal_pyramid_L_h",
+   "female-VH_F_renal_pyramid_L_i",
+   "female-VH_F_renal_pyramid_L_j",
+   "female-VH_F_renal_pyramid_L_k",
+   "female-VH_F_renal_papilla_R_a",
+   "female-VH_F_renal_papilla_R_b",
+   "female-VH_F_renal_papilla_R_c",
+   "female-VH_F_renal_papilla_R_d",
+   "female-VH_F_renal_papilla_R_e",
+   "female-VH_F_renal_papilla_R_f",
+   "female-VH_F_renal_papilla_R_g",
+   "female-VH_F_renal_papilla_R_h",
+   "female-VH_F_renal_papilla_R_i",
+   "female-VH_F_renal_papilla_R_j",
+   "female-VH_F_renal_pyramid_R_a",
+   "female-VH_F_renal_pyramid_R_b",
+   "female-VH_F_renal_pyramid_R_c",
+   "female-VH_F_renal_pyramid_R_d",
+   "female-VH_F_renal_pyramid_R_e",
+   "female-VH_F_renal_pyramid_R_f",
+   "female-VH_F_renal_pyramid_R_g",
+   "female-VH_F_renal_pyramid_R_h",
+   "female-VH_F_renal_pyramid_R_i",
+   "female-VH_F_renal_pyramid_R_j"
+  ],
+  "models": [
+   "kidney-female-left",
+   "kidney-female-right",
+   "kidney-male-left",
+   "kidney-male-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0000362/tier1.auto.md",
+   "text": "The inner part of the renal parenchyma. It consists mostly of collecting tubules and is organized in sections called pyramids.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12740",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12740",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12740",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12740",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12740, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12740",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12740",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001228",
+   "UBERON:0004200"
+  ],
+  "out": [
+   "UBERON:0004538",
+   "UBERON:0004539"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004538",
+   "conceptId": "UBERON0004538",
+   "label": "Left kidney",
+   "interior": {
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   }
+  }
+ }
+}

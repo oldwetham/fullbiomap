@@ -54,6 +54,12 @@ const atlas = JSON.parse(read('public/models/atlas.json'));
 const defs = new Map(jsonl('graph/defs.jsonl').map(d => [d.id, d]));
 const partSystem = new Map(atlas.parts.map(p => [p.id, p.system]));
 const upperFirst = s => s.charAt(0).toUpperCase() + s.slice(1);
+// The ladder's System crumb ignores vessels that run through a structure: the heart's 83 meshes include its
+// coronary vessels, but it belongs under Cardiovascular, not Arteries. Vessels themselves keep their system.
+const ladderSystemOf = counts => {
+  const own = Object.entries(counts).filter(([k]) => k !== 'arterial' && k !== 'venous');
+  return (own.length ? own : Object.entries(counts)).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+};
 
 const nodes = [];
 for (const c of atlas.concepts) {
@@ -62,6 +68,7 @@ for (const c of atlas.concepts) {
   for (const e of c.elements) counts[partSystem.get(e)] = (counts[partSystem.get(e)] ?? 0) + 1;
   const system = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
   const ancestors = fma?.ancestors ?? [];
+  const ladderSystem = ladderSystemOf(counts);
   const scale = SCALE_ROOTS.find(([, roots]) => roots.some(r => r === id || ancestors.includes(r)))?.[0] ?? 'organ';
   const xrefs = {};
   if (d.uberon) xrefs.UBERON = d.uberon.id.slice(7);
@@ -79,7 +86,59 @@ for (const c of atlas.concepts) {
     zoom: {in: [], out: []},
     connections: [],
     ancestors,
+    ladderSystem,
   });
+}
+
+// Phase 3: HRA structures (female body, organ interiors) ---------------------------------
+// A concept that is a male FMA concept joins that node; a Uberon concept with exactly one male
+// equivalent becomes an alias node that reuses its text and connections; anything else is a new node.
+const exists = p => fs.existsSync(path.join(root, p));
+const hraDefs = new Map(exists('graph/defs.hra.jsonl') ? jsonl('graph/defs.hra.jsonl').map(d => [d.id, d]) : []);
+const hraModels = exists('graph/hra-models.json') ? JSON.parse(read('graph/hra-models.json')).models : {};
+const hraTree = exists('graph/hra-tree.jsonl') ? jsonl('graph/hra-tree.jsonl') : [];
+const graphId = cid => cid.startsWith('UBERON') ? `UBERON:${cid.slice(6)}` : `FMA:${cid.slice(3)}`;
+const majority = counts => Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+const maleByConcept = new Map(nodes.map(n => [n.conceptId, n]));
+const hraConcepts = new Map();
+for (const [object, m] of Object.entries(hraModels)) {
+  const data = JSON.parse(read(`public${m.manifest}`)), sys = new Map(data.parts.map(p => [p.id, p.system]));
+  for (const c of data.concepts) {
+    const e = hraConcepts.get(c.id) ?? {name: c.name, female: [], objects: [], systems: {}};
+    if (m.kind === 'body') e.female.push(...c.elements);
+    if (!e.objects.includes(object)) e.objects.push(object);
+    for (const el of c.elements) e.systems[sys.get(el)] = (e.systems[sys.get(el)] ?? 0) + 1;
+    hraConcepts.set(c.id, e);
+  }
+}
+const aliases = [];
+for (const [cid, e] of [...hraConcepts].sort((a, b) => a[0].localeCompare(b[0]))) {
+  const same = maleByConcept.get(cid);
+  if (same) {
+    if (e.female.length) same.geometry.female = e.female;
+    same.geometry.models = e.objects.sort();
+    continue;
+  }
+  const id = graphId(cid), d = hraDefs.get(id) ?? {}, fma = d.fma ?? null, eq = d.equivalent ? maleByConcept.get(d.equivalent) : null;
+  const ancestors = fma?.ancestors ?? eq?.ancestors ?? [];
+  const xrefs = {};
+  if (d.uberon) xrefs.UBERON = d.uberon.id.slice(7);
+  if (d.ncit) xrefs.NCIT = d.ncit.id.slice(5);
+  if (eq) xrefs.FMA = eq.id.slice(4);
+  const content = eq ? eq.content : {tier1: tierEntry(id.replace(':', '_'), 1), tier2: tierEntry(id.replace(':', '_'), 2), tier3: tierEntry(id.replace(':', '_'), 3)};
+  const sources = [];
+  for (const t of Object.values(content)) for (const s of t.sources ?? []) if (!sources.some(x => x.url === s.url)) sources.push(s);
+  const node = {
+    id, conceptId: cid, label: upperFirst(d.uberon?.label ?? fma?.label ?? e.name),
+    scale: SCALE_ROOTS.find(([, r]) => r.some(x => x === id || ancestors.includes(x)))?.[0] ?? 'organ',
+    system: eq?.system ?? majority(e.systems), synonyms: fma?.synonyms ?? [], xrefs,
+    geometry: {male: [], female: e.female, models: e.objects.sort()},
+    content, media: [], sources, zoom: {in: [], out: []}, connections: [], ancestors,
+    ladderSystem: eq?.ladderSystem ?? ladderSystemOf(e.systems),
+    ...(eq ? {equivalent: eq.id} : {}),
+  };
+  nodes.push(node);
+  if (eq) aliases.push([node, eq]);
 }
 
 const byId = new Map(nodes.map(n => [n.id, n]));
@@ -89,6 +148,11 @@ for (const n of nodes) {
   if (!fma) continue;
   for (const p of fma.isA) if (byId.has(p.id)) edges.push({from: n.id, to: p.id, rel: 'is_a', source: 'FMA', evidence: 'rdfs:subClassOf'});
   for (const p of fma.partOf) if (byId.has(p.id)) edges.push({from: n.id, to: p.id, rel: 'part_of', source: 'FMA', evidence: p.rel});
+}
+const nodeOfHra = id => byId.get(id) ?? byId.get(maleByConcept.get(id.replace(':', ''))?.id);
+for (const e of hraTree) {
+  const a = nodeOfHra(e.from), b = nodeOfHra(e.to);
+  if (a && b && a !== b) edges.push({from: a.id, to: b.id, rel: 'part_of', source: 'HRA', license: 'CC BY 4.0', evidence: `HRA ${e.object} node hierarchy`});
 }
 const seen = new Set();
 const uniqueEdges = edges.filter(e => { const k = `${e.from}|${e.rel}|${e.to}`; if (seen.has(k)) return false; seen.add(k); return true; })
@@ -128,8 +192,8 @@ for (const m of [...merged.values()].sort((a, b) => a.from.localeCompare(b.from)
     const sources = m.sources.map(x => x.source);
     connectionEdges.push({from: m.from, to: m.to, rel: m.rel, source: sources.join('; '),
       license: [...new Set(sources.map(x => SOURCE_INFO[x].license))].join('; '), evidence: m.sources.map(x => x.evidence).join(' | ')});
-    fromNode.connections.push({rel: m.rel, dir: 'out', id: m.to, conceptId: toNode.conceptId, label: atlasName.get(m.to), modeled: true, sources: entrySources(m, m.to)});
-    toNode.connections.push({rel: m.rel, dir: SYMMETRIC.has(m.rel) ? 'out' : 'in', id: m.from, conceptId: fromNode.conceptId, label: atlasName.get(m.from), modeled: true, sources: entrySources(m, m.from)});
+    fromNode.connections.push({rel: m.rel, dir: 'out', id: m.to, conceptId: toNode.conceptId, label: atlasName.get(m.to) ?? toNode.label, modeled: true, sources: entrySources(m, m.to)});
+    toNode.connections.push({rel: m.rel, dir: SYMMETRIC.has(m.rel) ? 'out' : 'in', id: m.from, conceptId: fromNode.conceptId, label: atlasName.get(m.from) ?? fromNode.label, modeled: true, sources: entrySources(m, m.from)});
   } else if ((fromNode || toNode) && UNMODELED === 'text') {
     const [node, other, dir] = fromNode ? [fromNode, m.to, 'out'] : [toNode, m.from, SYMMETRIC.has(m.rel) ? 'out' : 'in'];
     node.connections.push({rel: m.rel, dir, id: other, conceptId: null, label: labelOf.get(other) ?? other, modeled: false, sources: entrySources(m, other)});
@@ -137,6 +201,48 @@ for (const m of [...merged.values()].sort((a, b) => a.from.localeCompare(b.from)
 }
 const relOrder = r => CONNECTIONS.indexOf(r);
 for (const n of nodes) n.connections.sort((a, b) => relOrder(a.rel) - relOrder(b.rel) || a.dir.localeCompare(b.dir) || Number(b.modeled) - Number(a.modeled) || a.label.localeCompare(b.label));
+
+// Phase 3: the same structure in another body or model. The panel selects whichever of
+// conceptId / alternates exists in the manifest on screen, and shows a label otherwise.
+const uberonOf = id => { const u = defs.get(id)?.uberon?.id; return u ? u.replace(':', '') : null; };
+for (const n of nodes) for (const c of n.connections) { const u = c.modeled && uberonOf(c.id); if (u) c.alternates = [u]; }
+for (const [alias, eq] of aliases) alias.connections = eq.connections;
+
+// Interiors: organ models attach to the structure they show (male: the BodyParts3D concept; female: the HRA concept).
+const interiorReport = [];
+for (const [object, m] of Object.entries(hraModels)) {
+  if (m.kind !== 'organ') continue;
+  let target = m.attachTo && (m.sex === 'male' ? maleByConcept.get(m.attachTo) : byId.get(graphId(m.attachTo)) ?? maleByConcept.get(m.attachTo));
+  // The female body sometimes names the same organ by its FMA id (ovary model UBERON:0002119, body FMA:7214).
+  if (m.sex === 'female' && !target?.geometry.female?.length) target = (hraDefs.get(graphId(m.attachTo ?? ''))?.fmaXrefs ?? []).map(x => byId.get(graphId(x))).find(t => t?.geometry.female?.length) ?? target;
+  const ok = target && (m.sex === 'male' || target.geometry.female?.length);
+  interiorReport.push({object, sex: m.sex, attachTo: ok ? target.id : null, label: ok ? target.label : null});
+  if (ok) (target.geometry.interior ??= {})[m.sex] = (target.geometry.interior[m.sex] ?? []).concat(m.manifest);
+}
+
+// Scale ladder: Body > System > Organ > Part. A male structure's organ comes from step 06 (itself if
+// an FMA Organ, else the nearest modeled organ up its part_of chain). An HRA structure's organ is the
+// nearest structure up the HRA hierarchy that is an FMA Organ or carries an interior; an alias uses
+// its male equivalent's. alternates lets the panel find the organ in whichever body is on screen.
+const hraParent = new Map();
+for (const e of hraTree) { const a = nodeOfHra(e.from), b = nodeOfHra(e.to); if (a && b && a !== b && !hraParent.has(a.id)) hraParent.set(a.id, b); }
+const isOrganNode = n => n.ancestors.includes('FMA:67498') || n.id === 'FMA:67498' || !!n.geometry.interior;
+const aliasOf = new Map(aliases.map(([alias, eq]) => [eq.id, alias]));
+// An organ's interiors include its alias's (the male heart FMA:7088 and the female heart UBERON:0000948
+// are one organ on the ladder, each with its own body's model).
+const organRef = n => {
+  if (!n) return null;
+  const alt = aliasOf.get(n.id), interior = {...(n.geometry.interior ?? {}), ...(alt?.geometry.interior ?? {})};
+  const alternates = [...new Set([uberonOf(n.id), alt?.conceptId].filter(Boolean))];
+  return {id: n.id, conceptId: n.conceptId, label: n.label, ...(alternates.length ? {alternates} : {}), ...(Object.keys(interior).length ? {interior} : {})};
+};
+for (const n of nodes) {
+  let organ = null;
+  if (n.id.startsWith('FMA:') && defs.has(n.id)) organ = byId.get(defs.get(n.id).organ?.id);
+  else if (n.equivalent) organ = byId.get(defs.get(n.equivalent)?.organ?.id);
+  if (!organ) for (let k = n, hops = 0; k && hops < 12; k = hraParent.get(k.id), hops++) if (isOrganNode(k)) { organ = k; break; }
+  n.ladder = {system: n.ladderSystem, isOrgan: !!organ && (organ.id === n.id || organ.id === n.equivalent), organ: organRef(organ)};
+}
 
 // graph/: node records without tier text (text lives in content/ files).
 const stripText = content => Object.fromEntries(Object.entries(content).map(([k, t]) => [k, Object.fromEntries(Object.entries(t).filter(([f]) => f !== 'text'))]));
@@ -146,9 +252,9 @@ fs.writeFileSync(path.join(root, 'graph/edges.jsonl'), [...uniqueEdges, ...conne
 // public/content/: what the app reads; ancestors are graph-internal.
 const out = path.join(root, 'public/content');
 fs.mkdirSync(out, {recursive: true});
-const keep = new Set(['index.json']);
+const keep = new Set(['index.json', 'interiors.json']);
 for (const n of nodes) {
-  const {ancestors, ...served} = n;
+  const {ancestors, ladderSystem, ...served} = n;
   const file = `${n.conceptId}.json`;
   keep.add(file);
   const body = JSON.stringify(served, null, 1) + '\n';
@@ -157,6 +263,21 @@ for (const n of nodes) {
 }
 for (const f of fs.readdirSync(out)) if (f.endsWith('.json') && !keep.has(f)) fs.unlinkSync(path.join(out, f));
 fs.writeFileSync(path.join(out, 'index.json'), JSON.stringify({ids: nodes.map(n => n.conceptId).sort()}) + '\n');
+fs.writeFileSync(path.join(root, 'graph/interiors.json'), JSON.stringify(interiorReport.sort((a, b) => a.object.localeCompare(b.object)), null, 1) + '\n');
+// reports/hra.md: bodies, and which organs have interiors in each.
+if (Object.keys(hraModels).length) {
+  const rows = interiorReport.map(r => ({...hraModels[r.object], ...r}));
+  const female = Object.values(hraModels).find(m => m.kind === 'body');
+  const lines = ['# HRA report', '', 'Generated by `pipeline/11-build-graph.mjs` from the HRA v2.5 manifests built by step 05.', '',
+    '| Body | Parts | Concepts | Source |', '| --- | --- | --- | --- |',
+    `| Male | ${atlas.parts.length} | ${atlas.concepts.length} | BodyParts3D 4.0 |`,
+    ...(female ? [`| Female | ${female.parts} | ${female.concepts} | HRA v2.5 united female ${female.version} |`] : []), '',
+    '## Organs with interiors', '', '| Body | Organ | Model | Parts |', '| --- | --- | --- | --- |',
+    ...rows.filter(r => r.attachTo).sort((a, b) => a.sex.localeCompare(b.sex) || a.label.localeCompare(b.label)).map(r => `| ${r.sex} | ${r.label} | ${r.object} ${r.version} | ${r.parts} |`), '',
+    '## Models not attached', '', 'No structure in that body to zoom into (BodyParts3D has no larynx, lymph node, palatine tonsil or renal pelvis mesh; the female body has no separate renal pelvis per side).', '',
+    ...rows.filter(r => !r.attachTo).map(r => `- ${r.object} (${r.parts} parts)`)];
+  fs.writeFileSync(path.join(root, 'reports/hra.md'), lines.join('\n') + '\n');
+}
 const byRel = {};
 for (const e of [...uniqueEdges, ...connectionEdges]) byRel[e.rel] = (byRel[e.rel] ?? 0) + 1;
 console.log(JSON.stringify({nodes: nodes.length, edges: uniqueEdges.length + connectionEdges.length, unmodeled: UNMODELED, byRel}));

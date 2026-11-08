@@ -118,6 +118,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50040"
     }
+   ],
+   "alternates": [
+    "UBERON0001626"
    ]
   },
   {
@@ -133,6 +136,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4706"
     }
+   ],
+   "alternates": [
+    "UBERON0005438"
    ]
   },
   {
@@ -178,6 +184,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49913"
     }
+   ],
+   "alternates": [
+    "UBERON8920017"
    ]
   },
   {
@@ -193,6 +202,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49916"
     }
+   ],
+   "alternates": [
+    "UBERON8920019"
    ]
   },
   {
@@ -208,6 +220,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49911"
     }
+   ],
+   "alternates": [
+    "UBERON8920016"
    ]
   },
   {
@@ -223,6 +238,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7165"
     }
+   ],
+   "alternates": [
+    "UBERON0035554"
    ]
   },
   {
@@ -238,6 +256,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49914"
     }
+   ],
+   "alternates": [
+    "UBERON8920018"
    ]
   },
   {
@@ -255,5 +276,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
 }

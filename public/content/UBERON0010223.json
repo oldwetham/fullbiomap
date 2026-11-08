@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0010223",
+ "conceptId": "UBERON0010223",
+ "label": "Left pupil",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0010223"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_pupil_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-male-left",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0010223/tier1.auto.md",
+   "text": "A pupil that is part of a left eye.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0010223",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010223",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0010223",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010223",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0010223. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0010223",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010223",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004548"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004548",
+   "conceptId": "UBERON0004548",
+   "label": "Left eye",
+   "interior": {
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
+}

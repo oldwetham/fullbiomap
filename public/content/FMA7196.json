@@ -13,7 +13,12 @@
  "geometry": {
   "male": [
    "FJ2561"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/spleen-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -194,5 +199,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7196",
+   "conceptId": "FMA7196",
+   "label": "Spleen",
+   "alternates": [
+    "UBERON0002106"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/spleen-male.json"
+    ],
+    "female": [
+     "/models/organs/spleen-female.json"
+    ]
+   }
+  }
+ }
 }

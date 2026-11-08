@@ -1,0 +1,103 @@
+{
+ "id": "UBERON:0035040",
+ "conceptId": "UBERON0035040",
+ "label": "Superior rectal artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0035040",
+  "NCIT": "C33677",
+  "FMA": "14832"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_superior_rectal_vein",
+   "female-VH_F_superior_rectal_artery"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14832/tier1.auto.md",
+   "text": "The continuation of the inferior mesenteric artery with two branches that descend down either side of the rectum and anastomose with the middle and inferior hemorrhoidal arteries.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33677",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33677",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33677",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33677",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33677, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33677",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33677",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:14750",
+   "conceptId": "FMA14750",
+   "label": "Inferior mesenteric artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14750"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001183"
+   ]
+  }
+ ],
+ "equivalent": "FMA:14832",
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
+}

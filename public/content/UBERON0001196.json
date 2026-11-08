@@ -1,0 +1,165 @@
+{
+ "id": "UBERON:0001196",
+ "conceptId": "UBERON0001196",
+ "label": "Middle colic artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001196",
+  "NCIT": "C52981",
+  "FMA": "14810"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_middle_colic_artery"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14810/tier1.auto.md",
+   "text": "An artery arising from the superior mesenteric artery that supplies the transverse colon.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52981",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52981",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52981",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52981",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52981, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52981",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52981",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7201"
+    }
+   ],
+   "alternates": [
+    "UBERON0000059"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:21519",
+   "conceptId": null,
+   "label": "Left middle colic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21519"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:21518",
+   "conceptId": null,
+   "label": "Right middle colic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21518"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14827",
+   "conceptId": null,
+   "label": "Splenic flexure branch of middle colic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14827"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:14749",
+   "conceptId": "FMA14749",
+   "label": "Superior mesenteric artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14749"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001182"
+   ]
+  }
+ ],
+ "equivalent": "FMA:14810",
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
+}

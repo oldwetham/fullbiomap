@@ -327,7 +327,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7393"
     }
+   ],
+   "alternates": [
+    "UBERON0007196"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ }
 }

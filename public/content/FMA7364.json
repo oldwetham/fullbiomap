@@ -22,6 +22,14 @@
    "FJ3003",
    "FJ3049",
    "FJ3056"
+  ],
+  "female": [
+   "female-VH_F_right_anterior_basal_bronchopulmonary_segment"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
   ]
  },
  "content": {
@@ -70,8 +78,21 @@
    "FMA:8673"
   ],
   "out": [
-   "FMA:7337"
+   "FMA:7337",
+   "UBERON:0002171"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "alternates": [
+    "UBERON0002167"
+   ]
+  }
+ }
 }

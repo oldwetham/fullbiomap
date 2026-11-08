@@ -25,6 +25,12 @@
    "FJ2640",
    "FJ2642",
    "FJ2648"
+  ],
+  "female": [
+   "female-VH_F_diagonal_branch_of_left_anterior_descending_artery"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -69,7 +75,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:3862"
+   "FMA:3862",
+   "UBERON:0004537"
   ]
  },
  "connections": [
@@ -86,6 +93,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9560"
     }
+   ],
+   "alternates": [
+    "UBERON0036288"
    ]
   },
   {
@@ -116,6 +126,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7101"
     }
+   ],
+   "alternates": [
+    "UBERON0002084"
    ]
   },
   {
@@ -131,6 +144,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9558"
     }
+   ],
+   "alternates": [
+    "UBERON0006566"
    ]
   },
   {
@@ -196,6 +212,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON8600102"
    ]
   },
   {
@@ -226,7 +245,19 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3862"
     }
+   ],
+   "alternates": [
+    "UBERON8600102"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
 }

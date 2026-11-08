@@ -22,7 +22,12 @@
    "FJ2571",
    "FJ2572",
    "FJ2599"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/large-intestine-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -102,6 +107,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14750"
     }
+   ],
+   "alternates": [
+    "UBERON0001183"
    ]
   },
   {
@@ -117,6 +125,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14810"
     }
+   ],
+   "alternates": [
+    "UBERON0001196"
    ]
   },
   {
@@ -132,6 +143,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14811"
     }
+   ],
+   "alternates": [
+    "UBERON8410023"
    ]
   },
   {
@@ -237,6 +251,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15408"
     }
+   ],
+   "alternates": [
+    "UBERON0001219"
    ]
   },
   {
@@ -251,6 +268,24 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15394"
+    }
+   ],
+   "alternates": [
+    "UBERON8410017"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:18895",
+   "conceptId": "FMA18895",
+   "label": "Left middle rectal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18895"
     }
    ]
   },
@@ -267,6 +302,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15406"
     }
+   ],
+   "alternates": [
+    "UBERON0001218"
    ]
   },
   {
@@ -281,6 +319,24 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15407"
+    }
+   ],
+   "alternates": [
+    "UBERON8410018"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:18894",
+   "conceptId": "FMA18894",
+   "label": "Right middle rectal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18894"
     }
    ]
   },
@@ -297,6 +353,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15395"
     }
+   ],
+   "alternates": [
+    "UBERON0039228"
    ]
   },
   {
@@ -312,6 +371,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15393"
     }
+   ],
+   "alternates": [
+    "UBERON8920053"
    ]
   },
   {
@@ -332,21 +394,6 @@
   {
    "rel": "venous_drainage",
    "dir": "out",
-   "id": "FMA:18895",
-   "conceptId": null,
-   "label": "Left middle rectal vein",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18895"
-    }
-   ]
-  },
-  {
-   "rel": "venous_drainage",
-   "dir": "out",
    "id": "FMA:21313",
    "conceptId": null,
    "label": "Right inferior rectal vein",
@@ -356,21 +403,6 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21313"
-    }
-   ]
-  },
-  {
-   "rel": "venous_drainage",
-   "dir": "out",
-   "id": "FMA:18894",
-   "conceptId": null,
-   "label": "Right middle rectal vein",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18894"
     }
    ]
   },
@@ -552,6 +584,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7200"
     }
+   ],
+   "alternates": [
+    "UBERON0002108"
    ]
   },
   {
@@ -569,5 +604,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

@@ -1,0 +1,332 @@
+{
+ "id": "UBERON:0001194",
+ "conceptId": "UBERON0001194",
+ "label": "Splenic artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001194",
+  "NCIT": "C33597",
+  "FMA": "14773"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_splenic_artery"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14773/tier1.auto.md",
+   "text": "An artery arising from the celiac trunk with four main branches that supply the spleen, stomach and pancreas.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33597",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33597",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33597",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33597",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33597, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33597",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33597",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14793",
+   "conceptId": "FMA14793",
+   "label": "Caudal pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14793"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON8920022"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14787",
+   "conceptId": "FMA14787",
+   "label": "Dorsal pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14787"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON8920020"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14792",
+   "conceptId": "FMA14792",
+   "label": "Great pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14792"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON8920021"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14790",
+   "conceptId": "FMA14790",
+   "label": "Inferior pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14790"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14796",
+   "conceptId": "FMA14796",
+   "label": "Left gastro-epiploic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14796"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0035830"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:70471",
+   "conceptId": "FMA70471",
+   "label": "Pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0039261"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14802",
+   "conceptId": null,
+   "label": "Hilar branch of splenic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14802"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14795",
+   "conceptId": null,
+   "label": "Posterior gastric artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14795"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14791",
+   "conceptId": null,
+   "label": "Prepancreatic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14791"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14803",
+   "conceptId": null,
+   "label": "Segmental branch of splenic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14803"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14794",
+   "conceptId": null,
+   "label": "Short gastric artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14794"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:14801",
+   "conceptId": null,
+   "label": "Splenic branch of splenic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14801"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "in",
+   "id": "FMA:70477",
+   "conceptId": null,
+   "label": "Terminal part of splenic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma70477"
+    }
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:50737",
+   "conceptId": "FMA50737",
+   "label": "Celiac artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50737"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0001640"
+   ]
+  }
+ ],
+ "equivalent": "FMA:14773",
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
+}

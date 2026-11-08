@@ -1,0 +1,103 @@
+{
+ "id": "UBERON:0001908",
+ "conceptId": "UBERON0001908",
+ "label": "Optic tract",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001908",
+  "NCIT": "C33218",
+  "FMA": "62046"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_optic_tract_L",
+   "female-Allen_optic_tract_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_62046/tier1.auto.md",
+   "text": "A continuation of the optic nerves just dorsal to the optic chiasm, formed by temporal fibers of the ipsilateral optic nerve and nasal fibers of the contralateral optic nerve, that carries axons to nuclei within the thalamus and relays visual information to the primary visual cortex of the occipital lobe.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33218",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33218",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33218, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33218",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002812",
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50116",
+   "conceptId": null,
+   "label": "Branch of anterior choroidal artery to optic tract",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50116"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:62046",
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
+   "interior": {
+    "female": [
+     "/models/organs/brain-female.json"
+    ]
+   }
+  }
+ }
+}

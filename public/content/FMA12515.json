@@ -20,7 +20,12 @@
    "FJ1317",
    "FJ1320",
    "FJ1331"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/eye-male-left.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -74,5 +79,25 @@
    "FMA:260127"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "alternates": [
+    "UBERON0004548"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-left.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
 }

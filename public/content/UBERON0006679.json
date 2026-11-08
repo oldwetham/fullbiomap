@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0006679",
+ "conceptId": "UBERON0006679",
+ "label": "Carina of trachea",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0006679",
+  "NCIT": "C25264"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_carina"
+  ],
+  "models": [
+   "trachea-female",
+   "trachea-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0006679/tier1.auto.md",
+   "text": "A ridge or ridge-like structure. In humans it usually refers to the trachea. The carina of trachea is part of the lowest tracheal cartilage which is placed between the orifices of the two bronchi.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C25264",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C25264",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C25264",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C25264",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C25264, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C25264",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C25264",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0003126"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0003126",
+   "conceptId": "UBERON0003126",
+   "label": "Trachea",
+   "interior": {
+    "female": [
+     "/models/organs/trachea-female.json"
+    ]
+   }
+  }
+ }
+}

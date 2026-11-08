@@ -72,7 +72,12 @@
    "FJ3126",
    "FJ3127",
    "FJ3128"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/liver-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -136,6 +141,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14772"
     }
+   ],
+   "alternates": [
+    "UBERON0015480"
    ]
   },
   {
@@ -151,6 +159,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14339"
     }
+   ],
+   "alternates": [
+    "UBERON0011955"
    ]
   },
   {
@@ -166,6 +177,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14338"
     }
+   ],
+   "alternates": [
+    "UBERON0011956"
    ]
   },
   {
@@ -243,5 +257,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
 }

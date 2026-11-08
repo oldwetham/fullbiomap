@@ -196,6 +196,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001545"
    ]
   },
   {
@@ -211,6 +214,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma21376"
     }
+   ],
+   "alternates": [
+    "UBERON0001363"
    ]
   },
   {
@@ -231,7 +237,19 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001547"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:82673",
+   "conceptId": "FMA82673",
+   "label": "Inferior systemic venous tree"
+  }
+ }
 }

@@ -1,0 +1,140 @@
+{
+ "id": "UBERON:0001158",
+ "conceptId": "UBERON0001158",
+ "label": "Descending colon",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001158",
+  "NCIT": "C12268",
+  "FMA": "14547"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_descending_colon"
+  ],
+  "models": [
+   "large-intestine-female",
+   "large-intestine-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14547/tier1.auto.md",
+   "text": "The fourth portion of the large intestine (colon) that communicates with the transverse colon in the left-upper quadrant of the abdomen and the rectum below.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12268",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12268",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12268",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12268",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12268, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12268",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12268",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000059"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224298",
+   "conceptId": null,
+   "label": "Inferior mesenteric lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224298"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:14546",
+   "conceptId": "FMA14546",
+   "label": "Transverse colon",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14546"
+    }
+   ],
+   "alternates": [
+    "UBERON0001157"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:14548",
+   "conceptId": null,
+   "label": "Sigmoid colon",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14548"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:14547",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   }
+  }
+ }
+}

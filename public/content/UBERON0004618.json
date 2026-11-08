@@ -1,0 +1,118 @@
+{
+ "id": "UBERON:0004618",
+ "conceptId": "UBERON0004618",
+ "label": "Lumbar vertebra 2",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004618",
+  "NCIT": "C32900",
+  "FMA": "13073"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_lumbar_vertebra_2"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13073/tier1.auto.md",
+   "text": "The second lumbar vertebra counting from the top down.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32900",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32900",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32900",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32900",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32900, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32900",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32900",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002412"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:13072",
+   "conceptId": "FMA13072",
+   "label": "First lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13072"
+    }
+   ],
+   "alternates": [
+    "UBERON0004617"
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:13074",
+   "conceptId": "FMA13074",
+   "label": "Third lumbar vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13074"
+    }
+   ],
+   "alternates": [
+    "UBERON0004619"
+   ]
+  }
+ ],
+ "equivalent": "FMA:13073",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13073",
+   "conceptId": "FMA13073",
+   "label": "Second lumbar vertebra",
+   "alternates": [
+    "UBERON0004618"
+   ]
+  }
+ }
+}

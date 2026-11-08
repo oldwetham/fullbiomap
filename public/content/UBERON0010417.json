@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0010417",
+ "conceptId": "UBERON0010417",
+ "label": "Lymph node T cell domain",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0010417"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Yao_paracortex"
+  ],
+  "models": [
+   "lymph-node-female",
+   "lymph-node-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0010417/tier1.auto.md",
+   "text": "The paracortex and interfollicular cortex of the lymph node in which T lymphocytes home to survey dendritic cells.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0010417",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010417",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0010417",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010417",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0010417. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0010417",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010417",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002509"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002509",
+   "conceptId": "UBERON0002509",
+   "label": "Mesenteric lymph node",
+   "interior": {
+    "female": [
+     "/models/organs/lymph-node-female.json"
+    ]
+   }
+  }
+ }
+}

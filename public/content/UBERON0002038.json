@@ -1,0 +1,85 @@
+{
+ "id": "UBERON:0002038",
+ "conceptId": "UBERON0002038",
+ "label": "Substantia nigra",
+ "scale": "organ",
+ "system": "nervous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002038",
+  "NCIT": "C12453"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Allen_substantia_nigra_L",
+   "female-Allen_substantia_nigra_R"
+  ],
+  "models": [
+   "brain-female",
+   "brain-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002038/tier1.auto.md",
+   "text": "A large cell mass extending forward, over the dorsal surface of the crus cerebri, from the rostral border of the pons into the subthalamic region. It is composed of a dorsal stratum of closely spaced pigmented cells, the pars compacta, and a larger ventral region of widely scattered cells, the pars reticulata. The pars compacta includes numerous cells that project forward to the striatum (caudate nucleus and putamen) and contain dopamine, which acts as the primary neurotransmitter at the synaptic endings. Other, apparently non-dopaminergic cells project to portions of the ventral nucleus of thalamus, the superior colliculus and reticular formation. The nigrostriatal projection is reciprocated by a striatonigral fiber system with multiple neurotransmitters, chief among which is gamma-aminobutyric acid (GABA). The substantia nigra is involved in the metabolic disturbances associated with Parkinson's disease and Huntington's disease.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12453",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12453",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12453",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12453",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12453, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12453",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12453",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002812",
+   "UBERON:0002813"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000955",
+   "conceptId": "UBERON0000955",
+   "label": "Brain",
+   "interior": {
+    "female": [
+     "/models/organs/brain-female.json"
+    ]
+   }
+  }
+ }
+}

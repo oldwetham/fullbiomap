@@ -76,6 +76,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma10059"
     }
+   ],
+   "alternates": [
+    "UBERON0004635"
    ]
   },
   {
@@ -91,6 +94,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13072"
     }
+   ],
+   "alternates": [
+    "UBERON0004617"
    ]
   },
   {
@@ -123,5 +129,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:10081",
+   "conceptId": "FMA10081",
+   "label": "Twelfth thoracic vertebra",
+   "alternates": [
+    "UBERON0004636"
+   ]
+  }
+ }
 }

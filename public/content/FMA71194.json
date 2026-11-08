@@ -60,5 +60,25 @@
    "FMA:9607"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "alternates": [
+    "UBERON0002370"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/thymus-male.json"
+    ],
+    "female": [
+     "/models/organs/thymus-female.json"
+    ]
+   }
+  }
+ }
 }

@@ -36,7 +36,12 @@
    "FJ3222",
    "FJ3223",
    "FJ3224"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/intervertebral-disk-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -83,5 +88,25 @@
    "FMA:25511"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:10446",
+   "conceptId": "FMA10446",
+   "label": "Intervertebral disk",
+   "alternates": [
+    "UBERON0001066"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/intervertebral-disk-male.json"
+    ],
+    "female": [
+     "/models/organs/intervertebral-disk-female.json"
+    ]
+   }
+  }
+ }
 }

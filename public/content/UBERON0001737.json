@@ -1,0 +1,97 @@
+{
+ "id": "UBERON:0001737",
+ "conceptId": "UBERON0001737",
+ "label": "Larynx",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001737",
+  "NCIT": "C12420"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_arytenoid_cartilage_R",
+   "female-VH_F_arytenoid_cartilage_L",
+   "female-VH_F_epiglotic_cartilage",
+   "female-VH_F_cricoid_cartilage",
+   "female-VH_F_thyroid_cartilage",
+   "female-VH_F_corniculate_cartilage_L",
+   "female-VH_F_corniculate_cartilage_R"
+  ],
+  "models": [
+   "larynx-female",
+   "larynx-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/larynx-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001737/tier1.auto.md",
+   "text": "The cartilaginous structure of the respiratory tract between the pharynx and the trachea. It contains elastic vocal cords required for sound production.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12420",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12420",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12420",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12420",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12420, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12420",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12420",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001739",
+   "UBERON:0001741"
+  ],
+  "out": [
+   "UBERON:0001004"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "UBERON:0001737",
+   "conceptId": "UBERON0001737",
+   "label": "Larynx",
+   "interior": {
+    "female": [
+     "/models/organs/larynx-female.json"
+    ]
+   }
+  }
+ }
+}

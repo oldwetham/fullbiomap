@@ -1,0 +1,304 @@
+{
+ "id": "UBERON:0000948",
+ "conceptId": "UBERON0000948",
+ "label": "Heart",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000948",
+  "NCIT": "C12727",
+  "FMA": "7088"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_interventricular_septum",
+   "female-VH_F_left_cardiac_atrium",
+   "female-VH_F_left_ventricle",
+   "female-VH_F_right_cardiac_atrium",
+   "female-VH_F_right_ventricle",
+   "female-VH_F_papillary_muscle_of_heart_ant",
+   "female-VH_F_papillary_muscle_of_heart_antlat",
+   "female-VH_F_papillary_muscle_of_heart_med",
+   "female-VH_F_papillary_muscle_of_heart_pos",
+   "female-VH_F_papillary_muscle_of_heart_posmed",
+   "female-VH_F_aortic_valve",
+   "female-VH_F_pulmonary_valve",
+   "female-VH_F_mitral_valve",
+   "female-VH_F_tricuspid_valve"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/heart-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "drafted",
+   "file": "content/FMA_7088/tier1.md",
+   "text": "A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
+   "sources": [
+    {
+     "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+     "url": "https://github.com/ashemag/human-atlas",
+     "license": "MIT"
+    }
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0002078",
+   "UBERON:0002079",
+   "UBERON:0002080",
+   "UBERON:0002084",
+   "UBERON:0002094",
+   "UBERON:0002494",
+   "UBERON:0003978"
+  ],
+  "out": [
+   "UBERON:0001009"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50040",
+   "conceptId": "FMA50040",
+   "label": "Left coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50040"
+    }
+   ],
+   "alternates": [
+    "UBERON0001626"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:50039",
+   "conceptId": "FMA50039",
+   "label": "Right coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50039"
+    }
+   ],
+   "alternates": [
+    "UBERON0001625"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:49895",
+   "conceptId": null,
+   "label": "Systemic venous tree organ",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49895"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6653",
+   "conceptId": null,
+   "label": "Atrial nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6653"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6650",
+   "conceptId": null,
+   "label": "Deep cardiac nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6650"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6651",
+   "conceptId": null,
+   "label": "Left coronary nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6651"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6652",
+   "conceptId": null,
+   "label": "Right coronary nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6652"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6649",
+   "conceptId": null,
+   "label": "Superficial cardiac nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6649"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:75631",
+   "conceptId": null,
+   "label": "Brachiocephalic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma75631"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:75630",
+   "conceptId": null,
+   "label": "Left cardiac tributary of tracheobronchial lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma75630"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:75633",
+   "conceptId": null,
+   "label": "Right cardiac tributary of brachiocephalic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma75633"
+    }
+   ]
+  },
+  {
+   "rel": "attaches_to",
+   "dir": "out",
+   "id": "FMA:9868",
+   "conceptId": null,
+   "label": "Pericardial sac",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9868"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7088",
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
+}

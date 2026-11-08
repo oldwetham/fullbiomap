@@ -1,0 +1,148 @@
+{
+ "id": "UBERON:0004631",
+ "conceptId": "UBERON0004631",
+ "label": "Thoracic vertebra 6",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004631",
+  "NCIT": "C33728",
+  "FMA": "9945"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_thoracic_vertebra_6"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_9945/tier1.auto.md",
+   "text": "The sixth thoracic vertebra counting from the top down.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33728",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33728",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33728",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33728",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33728, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33728",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33728",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002412"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:9922",
+   "conceptId": "FMA9922",
+   "label": "Fifth thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9922"
+    }
+   ],
+   "alternates": [
+    "UBERON0004630"
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:8202",
+   "conceptId": "FMA8202",
+   "label": "Left sixth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8202"
+    }
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:8175",
+   "conceptId": "FMA8175",
+   "label": "Right sixth rib",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8175"
+    }
+   ]
+  },
+  {
+   "rel": "articulates_with",
+   "dir": "out",
+   "id": "FMA:9968",
+   "conceptId": "FMA9968",
+   "label": "Seventh thoracic vertebra",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9968"
+    }
+   ],
+   "alternates": [
+    "UBERON0004632"
+   ]
+  }
+ ],
+ "equivalent": "FMA:9945",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9945",
+   "conceptId": "FMA9945",
+   "label": "Sixth thoracic vertebra",
+   "alternates": [
+    "UBERON0004631"
+   ]
+  }
+ }
+}

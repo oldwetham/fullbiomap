@@ -9,7 +9,42 @@
  "geometry": {
   "male": [
    "FJ3381"
-  ]
+  ],
+  "female": [
+   "female-VH_F_meniscus_R",
+   "female-VH_F_femur_R",
+   "female-VH_F_trochlear_groove_R",
+   "female-VH_F_medial_perichondular_surface_R",
+   "female-VH_F_articular_cartilage_of_knee_R",
+   "female-VH_F_medial_condyle_of_right_femur_sup",
+   "female-VH_F_lateral_condyle_of_femur_sup_R",
+   "female-VH_F_medial_condyle_of_right_femur_inf",
+   "female-VH_F_lateral_condyle_of_femur_inf_R",
+   "female-VH_F_lateral_condyle_of_femur_frontal_R",
+   "female-VH_F_distal_most_point_of_medial_condyle_R",
+   "female-VH_F_intercondylar_fossa_R",
+   "female-VH_F_posterior_cruciate_enthesis_R",
+   "female-VH_F_anterior_cruciate_enthesis_R",
+   "female-VH_F_lateral_perichondular_surface_R",
+   "female-VH_F_lateral_epicondylar_enthesis_R",
+   "female-VH_F_medial_epicondylar_enthesis_R",
+   "female-VH_F_tibia_R",
+   "female-VH_F_fibula_R",
+   "female-VH_F_patella_R"
+  ],
+  "models": [
+   "knee-female-right",
+   "knee-male-right",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/knee-female-right.json"
+   ],
+   "male": [
+    "/models/organs/knee-male-right.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -52,9 +87,28 @@
  ],
  "zoom": {
   "in": [
+   "FMA:35176",
+   "FMA:64019",
    "FMA:73055"
   ],
   "out": []
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24977",
+   "conceptId": "FMA24977",
+   "label": "Right knee",
+   "interior": {
+    "female": [
+     "/models/organs/knee-female-right.json"
+    ],
+    "male": [
+     "/models/organs/knee-male-right.json"
+    ]
+   }
+  }
+ }
 }

@@ -12,6 +12,12 @@
  "geometry": {
   "male": [
    "FJ3494"
+  ],
+  "female": [
+   "female-VH_F_left_colic_artery"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -56,7 +62,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:14750"
+   "FMA:14750",
+   "UBERON:0004537"
   ]
  },
  "connections": [
@@ -78,6 +85,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON8920036"
    ]
   },
   {
@@ -98,6 +108,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON8920037"
    ]
   },
   {
@@ -118,7 +131,19 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001183"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
 }

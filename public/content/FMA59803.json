@@ -11,6 +11,14 @@
  "geometry": {
   "male": [
    "FJ2766"
+  ],
+  "female": [
+   "female-VH_F_submandibular_gland_L"
+  ],
+  "models": [
+   "mouth-female",
+   "mouth-male",
+   "united-female"
   ]
  },
  "content": {
@@ -55,8 +63,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:59398"
+   "FMA:59398",
+   "UBERON:0001736"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:59803",
+   "conceptId": "FMA59803",
+   "label": "Left submandibular gland"
+  }
+ }
 }

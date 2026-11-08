@@ -1,0 +1,171 @@
+{
+ "id": "UBERON:0007196",
+ "conceptId": "UBERON0007196",
+ "label": "Tracheobronchial tree",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007196",
+  "NCIT": "C117875",
+  "FMA": "7393"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_trachea",
+   "female-VH_F_tracheal_cartilage",
+   "female-VH_F_carina",
+   "female-VH_F_right_main_bronchus",
+   "female-VH_F_cartilage_of_main_bronchus_R",
+   "female-VH_F_left_main_bronchus",
+   "female-VH_F_cartilage_of_main_bronchus_L",
+   "female-VH_F_cartilage_of_lobar_bronchus_L",
+   "female-VH_F_cartilage_of_tertiary_bronchus_L",
+   "female-VH_F_left_superior_lobar_bronchus",
+   "female-VH_F_left_inferior_lobar_bronchus",
+   "female-VH_F_left_anterior_basal_bronchus",
+   "female-VH_F_left_lingula_superior_bronchus",
+   "female-VH_F_left_apical_bronchus",
+   "female-VH_F_left_posterior_basal_bronchus",
+   "female-VH_F_left_medial_basal_bronchus",
+   "female-VH_F_left_superior_bronchus",
+   "female-VH_F_left_anterior_bronchus",
+   "female-VH_F_left_posterior_bronchus",
+   "female-VH_F_left_lateral_basal_bronchus",
+   "female-VH_F_left_lingula_inferior_bronchi",
+   "female-VH_F_cartilage_of_lobar_bronchus_R",
+   "female-VH_F_cartilage_of_tertiary_bronchus_R",
+   "female-VH_F_right_middle_lobar_bronchus",
+   "female-VH_F_right_superior_lobar_bronchus",
+   "female-VH_F_right_inferior_lobar_bronchus",
+   "female-VH_F_right_anterior_bronchus",
+   "female-VH_F_right_lateral_basal_bronchus",
+   "female-VH_F_right_lateral_bronchus",
+   "female-VH_F_right_medial_bronchus",
+   "female-VH_F_right_medial_basal_bronchus",
+   "female-VH_F_right_posterior_basal_bronchus",
+   "female-VH_F_right_posterior_bronchus",
+   "female-VH_F_right_superior_bronchus",
+   "female-VH_F_right_apical_bronchus",
+   "female-VH_F_right_anterior_basal_bronchus"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7393/tier1.auto.md",
+   "text": "An anatomical structure comprising of trachea, bronchi, and bronchioles that terminate with the alveolar ducts, sacs, and alveoli.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C117875",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C117875",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C117875",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C117875",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C117875, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C117875",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C117875",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0002185",
+   "UBERON:0003126"
+  ],
+  "out": [
+   "UBERON:0001004"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7310"
+    }
+   ],
+   "alternates": [
+    "UBERON0002168"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7309",
+   "conceptId": "FMA7309",
+   "label": "Right lung",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7309"
+    }
+   ],
+   "alternates": [
+    "UBERON0002167"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7195",
+   "conceptId": null,
+   "label": "Lung",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7195"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7393",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ }
+}

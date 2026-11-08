@@ -70,7 +70,12 @@
    "FJ2626",
    "FJ2627",
    "FJ2628"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/small-intestine-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -136,6 +141,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14776"
     }
+   ],
+   "alternates": [
+    "UBERON8920045"
    ]
   },
   {
@@ -151,6 +159,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14781"
     }
+   ],
+   "alternates": [
+    "UBERON0035829"
    ]
   },
   {
@@ -166,6 +177,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma70437"
     }
+   ],
+   "alternates": [
+    "UBERON0002070"
    ]
   },
   {
@@ -196,6 +210,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15405"
     }
+   ],
+   "alternates": [
+    "UBERON0001217"
    ]
   },
   {
@@ -211,6 +228,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15398"
     }
+   ],
+   "alternates": [
+    "UBERON0004690"
    ]
   },
   {
@@ -271,6 +291,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7201"
     }
+   ],
+   "alternates": [
+    "UBERON0000059"
    ]
   },
   {
@@ -286,7 +309,30 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7148"
     }
+   ],
+   "alternates": [
+    "UBERON0000945"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7200",
+   "conceptId": "FMA7200",
+   "label": "Small intestine",
+   "alternates": [
+    "UBERON0002108"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/small-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/small-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

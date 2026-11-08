@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0013760",
+ "conceptId": "UBERON0013760",
+ "label": "External cervical os",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0013760",
+  "NCIT": "C32491"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_external_cervical_os"
+  ],
+  "models": [
+   "united-female",
+   "uterus-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0013760/tier1.auto.md",
+   "text": "The cervical opening on the side of the vagina.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32491",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32491",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32491",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32491",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32491, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32491",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32491",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000002"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000995",
+   "conceptId": "UBERON0000995",
+   "label": "Uterus",
+   "interior": {
+    "female": [
+     "/models/organs/uterus-female.json"
+    ]
+   }
+  }
+ }
+}

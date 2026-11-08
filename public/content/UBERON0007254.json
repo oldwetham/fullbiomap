@@ -1,0 +1,106 @@
+{
+ "id": "UBERON:0007254",
+ "conceptId": "UBERON0007254",
+ "label": "Intervertebral disk of thoracic vertebra",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007254",
+  "FMA": "10455"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_first_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_second_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_third_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_seventh_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_eighth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_ninth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_tenth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_eleventh_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_twelfth_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_10455/tier1.auto.md",
+   "text": "An intervertebral disk that is part of a thoracic region of vertebral column. A thoracic intervertebral disk connects at least one thoracic vertebra, either to another thoracic vertebra, or at one point on the vertebral colummn, to a lumbar vertebra.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007254",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007254",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007254",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007254",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007254. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007254",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007254",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:10458",
+   "FMA:13495",
+   "FMA:13500",
+   "FMA:13501",
+   "FMA:13502",
+   "FMA:13503",
+   "FMA:13504",
+   "FMA:13505",
+   "FMA:13506",
+   "FMA:13507",
+   "FMA:13508",
+   "FMA:13509"
+  ],
+  "out": [
+   "UBERON:0001066"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:10455",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:10455",
+   "conceptId": "FMA10455",
+   "label": "Intervertebral disk of thoracic vertebra",
+   "alternates": [
+    "UBERON0007254"
+   ]
+  }
+ }
+}

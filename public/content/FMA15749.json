@@ -64,5 +64,25 @@
    "FMA:15809"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
 }

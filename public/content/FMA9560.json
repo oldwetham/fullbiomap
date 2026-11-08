@@ -82,6 +82,21 @@
   {
    "rel": "arterial_supply",
    "dir": "out",
+   "id": "FMA:3902",
+   "conceptId": "FMA3902",
+   "label": "Left marginal artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3902"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
    "id": "FMA:3818",
    "conceptId": "FMA3818",
    "label": "Marginal branch of right coronary artery",
@@ -92,6 +107,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3818"
     }
+   ],
+   "alternates": [
+    "UBERON8920003"
    ]
   },
   {
@@ -110,21 +128,6 @@
    ]
   },
   {
-   "rel": "arterial_supply",
-   "dir": "out",
-   "id": "FMA:3902",
-   "conceptId": null,
-   "label": "Left marginal artery",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3902"
-    }
-   ]
-  },
-  {
    "rel": "venous_drainage",
    "dir": "out",
    "id": "FMA:12846",
@@ -137,6 +140,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12846"
     }
+   ],
+   "alternates": [
+    "UBERON0004148"
    ]
   },
   {
@@ -152,6 +158,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4706"
     }
+   ],
+   "alternates": [
+    "UBERON0005438"
    ]
   },
   {
@@ -167,6 +176,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4707"
     }
+   ],
+   "alternates": [
+    "UBERON0006958"
    ]
   },
   {
@@ -244,5 +256,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
 }

@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9560"
     }
+   ],
+   "alternates": [
+    "UBERON0036288"
    ]
   },
   {
@@ -135,6 +138,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7166"
     }
+   ],
+   "alternates": [
+    "UBERON0035553"
    ]
   },
   {
@@ -150,6 +156,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7101"
     }
+   ],
+   "alternates": [
+    "UBERON0002084"
    ]
   },
   {
@@ -275,6 +284,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0006958"
    ]
   },
   {
@@ -290,6 +302,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4708"
     }
+   ],
+   "alternates": [
+    "UBERON8920010"
    ]
   },
   {
@@ -309,6 +324,24 @@
      "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0009687"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:4715",
+   "conceptId": "FMA4715",
+   "label": "Oblique vein of left atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4715"
     }
    ]
   },
@@ -350,21 +383,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
-   ]
-  },
-  {
-   "rel": "tributary_of",
-   "dir": "in",
-   "id": "FMA:4715",
-   "conceptId": null,
-   "label": "Oblique vein of left atrium",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4715"
-    }
+   ],
+   "alternates": [
+    "UBERON0035374"
    ]
   },
   {
@@ -380,6 +401,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
     }
+   ],
+   "alternates": [
+    "UBERON0002078"
    ]
   },
   {
@@ -397,5 +421,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:50308",
+   "conceptId": "FMA50308",
+   "label": "Coronary sinus tree"
+  }
+ }
 }

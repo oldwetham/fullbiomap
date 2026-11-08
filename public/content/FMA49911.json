@@ -38,6 +38,12 @@
    "FJ3063",
    "FJ3065",
    "FJ3066"
+  ],
+  "female": [
+   "female-VH_F_pulmonary_vein_L_inf"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -86,7 +92,8 @@
   ],
   "out": [
    "FMA:228642",
-   "FMA:7161"
+   "FMA:7161",
+   "UBERON:0002016"
   ]
  },
  "connections": [
@@ -148,6 +155,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7097"
     }
+   ],
+   "alternates": [
+    "UBERON0002079"
    ]
   },
   {
@@ -163,7 +173,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7166"
     }
+   ],
+   "alternates": [
+    "UBERON0035553"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49911",
+   "conceptId": "FMA49911",
+   "label": "Right inferior pulmonary vein",
+   "alternates": [
+    "UBERON8920016"
+   ]
+  }
+ }
 }

@@ -1,0 +1,92 @@
+{
+ "id": "UBERON:0001115",
+ "conceptId": "UBERON0001115",
+ "label": "Left lobe of liver",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001115",
+  "NCIT": "C32965",
+  "FMA": "13363"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_left_anterolateral_segment",
+   "female-VH_F_left_superomedial_segment",
+   "female-VH_F_left_superomedial_segment1",
+   "female-VH_F_left_inferomedial_segment",
+   "female-VH_F_quadrate_lobe"
+  ],
+  "models": [
+   "liver-female",
+   "liver-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13363/tier1.auto.md",
+   "text": "The smaller lobe of the liver extending into the left side of the body.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32965",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32965",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32965",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32965",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32965, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32965",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32965",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0006727",
+   "UBERON:0006728"
+  ],
+  "out": [
+   "UBERON:0002107"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:13363",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002107",
+   "conceptId": "UBERON0002107",
+   "label": "Liver",
+   "interior": {
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
+}

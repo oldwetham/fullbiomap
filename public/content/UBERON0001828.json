@@ -1,0 +1,135 @@
+{
+ "id": "UBERON:0001828",
+ "conceptId": "UBERON0001828",
+ "label": "Gingiva",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001828",
+  "NCIT": "C32677",
+  "FMA": "59762"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_ginviva_of_upper_jaw",
+   "female-VH_F_gingiva_of_lower_jaw"
+  ],
+  "models": [
+   "mouth-female",
+   "mouth-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_59762/tier1.auto.md",
+   "text": "The soft tissue surrounding the neck of individual teeth as well as covering the alveolar bone. The tissue is fibrous and continuous with the periodontal ligament and mucosal covering.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32677",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32677",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32677",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32677",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32677, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32677",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32677",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0011601",
+   "UBERON:0011602"
+  ],
+  "out": [
+   "UBERON:0000165"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224001",
+   "conceptId": null,
+   "label": "Left submandibular lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224001"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:223999",
+   "conceptId": null,
+   "label": "Right submandibular lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma223999"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:223782",
+   "conceptId": null,
+   "label": "Submandibular lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma223782"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:59762",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000165",
+   "conceptId": "UBERON0000165",
+   "label": "Mouth",
+   "interior": {
+    "female": [
+     "/models/organs/mouth-female.json"
+    ]
+   }
+  }
+ }
+}

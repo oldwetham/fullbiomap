@@ -16,6 +16,13 @@
   "male": [
    "FJ3441",
    "FJ3659"
+  ],
+  "female": [
+   "female-VH_F_inferior_vena_cava_a",
+   "female-VH_F_inferior_vena_cava_b"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -60,7 +67,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:82673"
+   "FMA:82673",
+   "UBERON:0004087"
   ]
  },
  "connections": [
@@ -82,6 +90,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001139"
    ]
   },
   {
@@ -97,6 +108,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14337"
     }
+   ],
+   "alternates": [
+    "UBERON0001143"
    ]
   },
   {
@@ -137,6 +151,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0011955"
    ]
   },
   {
@@ -157,6 +174,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001142"
    ]
   },
   {
@@ -192,6 +212,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0011957"
    ]
   },
   {
@@ -212,6 +235,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001140"
    ]
   },
   {
@@ -252,6 +278,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0011956"
    ]
   },
   {
@@ -272,6 +301,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001141"
    ]
   },
   {
@@ -292,6 +324,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0035435"
    ]
   },
   {
@@ -312,6 +347,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0000442"
    ]
   },
   {
@@ -327,6 +365,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14344"
     }
+   ],
+   "alternates": [
+    "UBERON0001144"
    ]
   },
   {
@@ -537,6 +578,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
     }
+   ],
+   "alternates": [
+    "UBERON0002078"
    ]
   },
   {
@@ -569,5 +613,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:82673",
+   "conceptId": "FMA82673",
+   "label": "Inferior systemic venous tree"
+  }
+ }
 }

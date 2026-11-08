@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13303"
     }
+   ],
+   "alternates": [
+    "UBERON0000976"
    ]
   },
   {
@@ -88,7 +91,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma23463"
     }
+   ],
+   "alternates": [
+    "UBERON0001423"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:23466",
+   "conceptId": "FMA23466",
+   "label": "Ulna",
+   "alternates": [
+    "UBERON0001424"
+   ]
+  }
+ }
 }

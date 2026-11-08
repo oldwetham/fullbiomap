@@ -75,7 +75,30 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14778"
     }
+   ],
+   "alternates": [
+    "UBERON0015482"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
 }

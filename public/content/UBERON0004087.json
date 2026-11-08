@@ -1,0 +1,77 @@
+{
+ "id": "UBERON:0004087",
+ "conceptId": "UBERON0004087",
+ "label": "Vena cava",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004087",
+  "NCIT": "C12817"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_superior_vena_cava",
+   "female-VH_F_inferior_vena_cava_a",
+   "female-VH_F_inferior_vena_cava_b"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0004087/tier1.auto.md",
+   "text": "A large vein which returns blood from the head, neck and extremities to the heart.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12817",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12817",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12817",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12817",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12817, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12817",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12817",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:10951",
+   "FMA:4720"
+  ],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
+}

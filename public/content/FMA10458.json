@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3222"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_first_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26089"
+   "FMA:26089",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:10458",
+   "conceptId": "FMA10458",
+   "label": "Intervertebral disk of first thoracic vertebra"
+  }
+ }
 }

@@ -1,0 +1,90 @@
+{
+ "id": "FMA:58303",
+ "conceptId": "FMA58303",
+ "label": "Left retina",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [
+  "Inner layer of left eyeball",
+  "Retina of left eye"
+ ],
+ "xrefs": {},
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_retina_L",
+   "female-VH_F_fovea_L",
+   "female-VH_F_macula_lutea_L",
+   "female-VH_F_optic_disc_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-male-left",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_58303/tier1.auto.md",
+   "text": "Layer of wall of left eyeball which is continuous with left optic nerve.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:58303",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma58303",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:58303",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma58303",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:58303, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:58303",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma58303",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:58636",
+   "FMA:58639",
+   "FMA:58663"
+  ],
+  "out": [
+   "UBERON:0004548"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004548",
+   "conceptId": "UBERON0004548",
+   "label": "Left eye",
+   "interior": {
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
+}

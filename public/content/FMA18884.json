@@ -80,6 +80,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0006656"
    ]
   },
   {
@@ -95,6 +98,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18902"
     }
+   ],
+   "alternates": [
+    "UBERON0001320"
    ]
   },
   {
@@ -135,6 +141,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0018252"
    ]
   },
   {
@@ -154,6 +163,24 @@
      "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON8600056"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
+   "id": "FMA:18893",
+   "conceptId": "FMA18893",
+   "label": "Middle hemorrhoidal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18893"
     }
    ]
   },
@@ -175,6 +202,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001321"
    ]
   },
   {
@@ -209,21 +239,6 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18890"
-    }
-   ]
-  },
-  {
-   "rel": "tributary_of",
-   "dir": "in",
-   "id": "FMA:18893",
-   "conceptId": null,
-   "label": "Middle rectal vein",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18893"
     }
    ]
   },
@@ -290,6 +305,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001139"
    ]
   },
   {
@@ -305,6 +323,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18905"
     }
+   ],
+   "alternates": [
+    "UBERON8600056"
    ]
   },
   {
@@ -322,5 +343,10 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
 }

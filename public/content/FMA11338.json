@@ -60,5 +60,25 @@
    "FMA:7208"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

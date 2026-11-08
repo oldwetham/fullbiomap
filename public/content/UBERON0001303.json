@@ -1,0 +1,95 @@
+{
+ "id": "UBERON:0001303",
+ "conceptId": "UBERON0001303",
+ "label": "Left fallopian tube",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001303",
+  "NCIT": "C32959"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_uterine_tube_infundibulum_L",
+   "female-VH_F_fibria_of_uterine_tube_L",
+   "female-VH_F_isthmus_of_fallopian_tube_L",
+   "female-VH_F_ampulla_of_uterine_tube_L"
+  ],
+  "models": [
+   "fallopian-tube-female-left",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/fallopian-tube-female-left.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001303/tier1.auto.md",
+   "text": "The fallopian tube that extends from the uterus to the ovary in the left side of the pelvic cavity.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32959",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32959",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32959, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32959",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:18490",
+   "FMA:18492",
+   "FMA:18494",
+   "FMA:18498"
+  ],
+  "out": [
+   "UBERON:0000474"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": true,
+  "organ": {
+   "id": "UBERON:0001303",
+   "conceptId": "UBERON0001303",
+   "label": "Left fallopian tube",
+   "interior": {
+    "female": [
+     "/models/organs/fallopian-tube-female-left.json"
+    ]
+   }
+  }
+ }
+}

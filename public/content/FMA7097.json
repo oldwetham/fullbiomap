@@ -87,6 +87,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3895"
     }
+   ],
+   "alternates": [
+    "UBERON0035422"
    ]
   },
   {
@@ -207,15 +210,18 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4707"
     }
+   ],
+   "alternates": [
+    "UBERON0006958"
    ]
   },
   {
    "rel": "venous_drainage",
    "dir": "out",
    "id": "FMA:4715",
-   "conceptId": null,
+   "conceptId": "FMA4715",
    "label": "Oblique vein of left atrium",
-   "modeled": false,
+   "modeled": true,
    "sources": [
     {
      "name": "Foundational Model of Anatomy 5.1",
@@ -297,6 +303,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49913"
     }
+   ],
+   "alternates": [
+    "UBERON8920017"
    ]
   },
   {
@@ -312,6 +321,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49916"
     }
+   ],
+   "alternates": [
+    "UBERON8920019"
    ]
   },
   {
@@ -327,6 +339,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7101"
     }
+   ],
+   "alternates": [
+    "UBERON0002084"
    ]
   },
   {
@@ -342,6 +357,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49911"
     }
+   ],
+   "alternates": [
+    "UBERON8920016"
    ]
   },
   {
@@ -357,6 +375,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma49914"
     }
+   ],
+   "alternates": [
+    "UBERON8920018"
    ]
   },
   {
@@ -449,5 +470,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
 }

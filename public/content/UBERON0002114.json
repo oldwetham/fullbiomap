@@ -1,0 +1,152 @@
+{
+ "id": "UBERON:0002114",
+ "conceptId": "UBERON0002114",
+ "label": "Duodenum",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002114",
+  "NCIT": "C12263",
+  "FMA": "7206"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_duodenum_superior",
+   "female-VH_F_duodenal_ampulla",
+   "female-VH_F_duodenum_descending",
+   "female-VH_F_sphincter_of_heptopancreatic_ampulla",
+   "female-VH_F_duodenum_ascending",
+   "female-VH_F_duodenum_horizontal"
+  ],
+  "models": [
+   "small-intestine-female",
+   "small-intestine-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7206/tier1.auto.md",
+   "text": "A jointed tube 25-30 cm long that connects the stomach to the jejunum.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12263",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12263",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12263",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12263",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12263, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12263",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12263",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14928",
+   "FMA:14929",
+   "FMA:14930",
+   "FMA:15077",
+   "FMA:7206",
+   "UBERON:0004914"
+  ],
+  "out": [
+   "UBERON:0002108"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224309",
+   "conceptId": null,
+   "label": "Hepatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224309"
+    }
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7207",
+   "conceptId": "FMA7207",
+   "label": "Jejunum",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7207"
+    }
+   ],
+   "alternates": [
+    "UBERON0002115"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:322099",
+   "conceptId": null,
+   "label": "Pyloric part of stomach",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma322099"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7206",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7200",
+   "conceptId": "FMA7200",
+   "label": "Small intestine",
+   "alternates": [
+    "UBERON0002108"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/small-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/small-intestine-female.json"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "UBERON:0007252",
+ "conceptId": "UBERON0007252",
+ "label": "Intervertebral disk of cervical vertebra",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007252",
+  "FMA": "13895"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_axis",
+   "female-VH_F_intervertebral_disk_of_third_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_seventh_cervical_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13895/tier1.auto.md",
+   "text": "An intervertebral disk that is part of a cervical region of vertebral column. A cervical intervertebral disk connects at least one cervical vertebra, either to another cervical vertebra, or at one point on the vertebral colummn, to a thoracic vertebra.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007252",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007252",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007252",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007252",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007252. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007252",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007252",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0007260",
+   "UBERON:0007261",
+   "UBERON:0007262",
+   "UBERON:0007263",
+   "UBERON:0007264",
+   "UBERON:0007265"
+  ],
+  "out": [
+   "UBERON:0001066"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:13895",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13895",
+   "conceptId": "FMA13895",
+   "label": "Intervertebral disk of cervical vertebra",
+   "alternates": [
+    "UBERON0007252"
+   ]
+  }
+ }
+}

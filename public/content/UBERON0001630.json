@@ -1,0 +1,97 @@
+{
+ "id": "UBERON:0001630",
+ "conceptId": "UBERON0001630",
+ "label": "Muscle organ",
+ "scale": "organ",
+ "system": "muscular",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001630",
+  "FMA": "5022"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_medial_rectus_extraocular_muscle_L",
+   "female-VH_F_inferior_rectus_extraocular_muscle_L",
+   "female-VH_F_superior_rectus_extraocular_muscle_L",
+   "female-VH_F_inferior_oblique_extraocular_muscle_L",
+   "female-VH_F_lateral_rectus_extraocular_muscle_L",
+   "female-VH_F_superior_oblique_extraocular_muscle_L",
+   "female-VH_F_medial_rectus_extraocular_muscle_R",
+   "female-VH_F_inferior_rectus_extraocular_muscle_R",
+   "female-VH_F_superior_rectus_extraocular_muscle_R",
+   "female-VH_F_inferior_oblique_extraocular_muscle_R",
+   "female-VH_F_lateral_rectus_extraocular_muscle_R",
+   "female-VH_F_superior_oblique_extraocular_muscle_R",
+   "female-VH_F_rectus_femoris_L",
+   "female-VH_F_tendon_of_quadriceps_femoris_L",
+   "female-VH_F_rectus_femoris_R",
+   "female-VH_F_tendon_of_quadriceps_femoris_R"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_5022/tier1.auto.md",
+   "text": "Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO].",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0001630",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001630",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0001630",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001630",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001630. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0001630",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001630",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:38928",
+   "FMA:38929",
+   "UBERON:0004277"
+  ],
+  "out": []
+ },
+ "connections": [],
+ "equivalent": "FMA:5022",
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:5022",
+   "conceptId": "FMA5022",
+   "label": "Muscle organ",
+   "alternates": [
+    "UBERON0001630"
+   ]
+  }
+ }
+}

@@ -245,6 +245,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001585"
    ]
   },
   {
@@ -262,5 +265,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:82672",
+   "conceptId": "FMA82672",
+   "label": "Superior systemic venous tree"
+  }
+ }
 }

@@ -12,6 +12,13 @@
  "geometry": {
   "male": [
    "FJ3217"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_fifth_lumbar_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +63,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26109"
+   "FMA:26109",
+   "UBERON:0007255"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:16037",
+   "conceptId": "FMA16037",
+   "label": "Intervertebral disk of fifth lumbar vertebra"
+  }
+ }
 }

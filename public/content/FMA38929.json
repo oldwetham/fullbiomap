@@ -9,6 +9,13 @@
  "geometry": {
   "male": [
    "FJ1433M"
+  ],
+  "female": [
+   "female-VH_F_rectus_femoris_L",
+   "female-VH_F_tendon_of_quadriceps_femoris_L"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -51,8 +58,12 @@
   }
  ],
  "zoom": {
-  "in": [],
-  "out": []
+  "in": [
+   "FMA:46902"
+  ],
+  "out": [
+   "UBERON:0001630"
+  ]
  },
  "connections": [
   {
@@ -70,5 +81,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:38929",
+   "conceptId": "FMA38929",
+   "label": "Left rectus femoris"
+  }
+ }
 }

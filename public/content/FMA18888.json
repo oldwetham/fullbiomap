@@ -122,6 +122,21 @@
   {
    "rel": "tributary_of",
    "dir": "in",
+   "id": "FMA:18895",
+   "conceptId": "FMA18895",
+   "label": "Left middle rectal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18895"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
    "id": "FMA:18916",
    "conceptId": "FMA18916",
    "label": "Left obturator vein",
@@ -152,6 +167,21 @@
   {
    "rel": "tributary_of",
    "dir": "in",
+   "id": "FMA:18898",
+   "conceptId": "FMA18898",
+   "label": "Left uterine vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18898"
+    }
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "in",
    "id": "FMA:18892",
    "conceptId": null,
    "label": "Left inferior vesical vein",
@@ -161,36 +191,6 @@
      "name": "Foundational Model of Anatomy 5.1",
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18892"
-    }
-   ]
-  },
-  {
-   "rel": "tributary_of",
-   "dir": "in",
-   "id": "FMA:18895",
-   "conceptId": null,
-   "label": "Left middle rectal vein",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18895"
-    }
-   ]
-  },
-  {
-   "rel": "tributary_of",
-   "dir": "in",
-   "id": "FMA:18898",
-   "conceptId": null,
-   "label": "Left uterine vein",
-   "modeled": false,
-   "sources": [
-    {
-     "name": "Foundational Model of Anatomy 5.1",
-     "license": "CC BY 3.0",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18898"
     }
    ]
   },
@@ -224,5 +224,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:82673",
+   "conceptId": "FMA82673",
+   "label": "Inferior systemic venous tree"
+  }
+ }
 }

@@ -1,0 +1,83 @@
+{
+ "id": "UBERON:0001274",
+ "conceptId": "UBERON0001274",
+ "label": "Ischium",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001274",
+  "NCIT": "C32884"
+ },
+ "geometry": {
+  "male": [],
+  "female": [],
+  "models": [
+   "pelvis-female",
+   "pelvis-male"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001274/tier1.auto.md",
+   "text": "The most posterior and ventral bone making up the pelvis.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32884",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32884",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32884",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32884",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32884, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32884",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32884",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001439",
+   "UBERON:0002483"
+  ],
+  "out": [
+   "UBERON:0001270"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001270",
+   "conceptId": "UBERON0001270",
+   "label": "Bony pelvis",
+   "interior": {
+    "female": [
+     "/models/organs/pelvis-female.json"
+    ]
+   }
+  }
+ }
+}

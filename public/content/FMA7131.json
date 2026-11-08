@@ -76,6 +76,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4149"
     }
+   ],
+   "alternates": [
+    "UBERON0035539"
    ]
   },
   {
@@ -286,6 +289,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7148"
     }
+   ],
+   "alternates": [
+    "UBERON0000945"
    ]
   },
   {
@@ -303,5 +309,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7131",
+   "conceptId": "FMA7131",
+   "label": "Esophagus",
+   "alternates": [
+    "UBERON0001043"
+   ]
+  }
+ }
 }

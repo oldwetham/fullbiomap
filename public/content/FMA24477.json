@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ3387"
+  ],
+  "female": [
+   "female-VH_F_tibia_R"
+  ],
+  "models": [
+   "knee-female-right",
+   "knee-male-right",
+   "united-female"
   ]
  },
  "content": {
@@ -53,7 +61,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:24980"
+   "FMA:24980",
+   "FMA:35176"
   ]
  },
  "connections": [
@@ -102,5 +111,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24477",
+   "conceptId": "FMA24477",
+   "label": "Right tibia"
+  }
+ }
 }

@@ -25,7 +25,12 @@
    "FJ2766",
    "FJ2768",
    "FJ3289"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/mouth-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -88,5 +93,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49184",
+   "conceptId": "FMA49184",
+   "label": "Mouth",
+   "alternates": [
+    "UBERON0000165"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/mouth-male.json"
+    ],
+    "female": [
+     "/models/organs/mouth-female.json"
+    ]
+   }
+  }
+ }
 }

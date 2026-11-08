@@ -1,0 +1,92 @@
+{
+ "id": "UBERON:0001225",
+ "conceptId": "UBERON0001225",
+ "label": "Cortex of kidney",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001225",
+  "NCIT": "C12739"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_renal_column_L",
+   "female-VH_F_outer_cortex_of_kidney_L",
+   "female-VH_F_outer_cortex_of_kidney_R",
+   "female-VH_F_renal_column_R"
+  ],
+  "models": [
+   "kidney-female-left",
+   "kidney-female-right",
+   "kidney-male-left",
+   "kidney-male-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001225/tier1.auto.md",
+   "text": "The outer part of the renal parenchyma beneath the renal capsule. It contains glomeruli and tubules.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12739",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12739",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12739",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12739",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12739, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12739",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12739",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001284",
+   "UBERON:0002189"
+  ],
+  "out": [
+   "UBERON:0004538",
+   "UBERON:0004539"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004538",
+   "conceptId": "UBERON0004538",
+   "label": "Left kidney",
+   "interior": {
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   }
+  }
+ }
+}

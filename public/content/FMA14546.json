@@ -89,6 +89,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14545"
     }
+   ],
+   "alternates": [
+    "UBERON0001156"
    ]
   },
   {
@@ -104,6 +107,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14547"
     }
+   ],
+   "alternates": [
+    "UBERON0001158"
    ]
   },
   {
@@ -121,5 +127,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7201",
+   "conceptId": "FMA7201",
+   "label": "Large intestine",
+   "alternates": [
+    "UBERON0000059"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/large-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/large-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

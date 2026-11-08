@@ -1,0 +1,112 @@
+{
+ "id": "UBERON:0001173",
+ "conceptId": "UBERON0001173",
+ "label": "Biliary tree",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001173",
+  "FMA": "14665"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_right_hepatic_duct",
+   "female-VH_F_left_hepatic_duct",
+   "female-VH_F_common_hepatic_duct",
+   "female-VH_F_hepatopancreatic_ampulla",
+   "female-VH_F_dorsal_pancreatic_duct",
+   "female-VH_F_common_bile_duct",
+   "female-VH_F_ventral_pancreatic_duct",
+   "female-VH_F_cystic_duct"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_14665/tier1.auto.md",
+   "text": "A complex network of conduits that begins with the canals of Hering (intralobar bile duct) and progressively merges into a system of interlobular, septal, and major ducts which then coalesce to form the extrahepatic bile ducts, which finally deliver bile to the intestine, and in some species to the gallbladder.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0001173",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001173",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0001173",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001173",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001173. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0001173",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001173",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001064",
+   "UBERON:0001152",
+   "UBERON:0001174",
+   "UBERON:0001175",
+   "UBERON:0001176",
+   "UBERON:0001177",
+   "UBERON:0004913",
+   "UBERON:0005429"
+  ],
+  "out": [
+   "UBERON:0001007"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224309",
+   "conceptId": null,
+   "label": "Hepatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224309"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:14665",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:14665",
+   "conceptId": "FMA14665",
+   "label": "Biliary tree",
+   "alternates": [
+    "UBERON0001173"
+   ]
+  }
+ }
+}

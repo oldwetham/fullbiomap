@@ -1,0 +1,85 @@
+{
+ "id": "UBERON:0002483",
+ "conceptId": "UBERON0002483",
+ "label": "Trabecular bone tissue",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002483"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_ilium_spongy_bone_L",
+   "female-VH_F_ilium_spongy_bone_R"
+  ],
+  "models": [
+   "pelvis-female",
+   "pelvis-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002483/tier1.auto.md",
+   "text": "Bone tissue that has a lattice-like or spongy structure; it is highly vascular and contains intercommunicating spaces filled with bone marrow.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0002483",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002483",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0002483",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002483",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0002483. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0002483",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002483",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001273",
+   "UBERON:0001274",
+   "UBERON:0001275"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001270",
+   "conceptId": "UBERON0001270",
+   "label": "Bony pelvis",
+   "interior": {
+    "female": [
+     "/models/organs/pelvis-female.json"
+    ]
+   }
+  }
+ }
+}

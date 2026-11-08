@@ -12,6 +12,12 @@
   "male": [
    "FJ1313",
    "FJ1772"
+  ],
+  "female": [
+   "female-VH_F_left_optic_nerve"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -55,7 +61,29 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0001017"
+  ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "alternates": [
+    "UBERON0004548"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-left.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
 }

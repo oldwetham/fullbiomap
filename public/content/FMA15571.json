@@ -12,7 +12,12 @@
  "geometry": {
   "male": [
    "FJ3146"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/ureter-male-right.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -73,6 +78,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14759"
     }
+   ],
+   "alternates": [
+    "UBERON0001188"
    ]
   },
   {
@@ -178,6 +186,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7204"
     }
+   ],
+   "alternates": [
+    "UBERON0004539"
    ]
   },
   {
@@ -193,7 +204,30 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15900"
     }
+   ],
+   "alternates": [
+    "UBERON0001255"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:15571",
+   "conceptId": "FMA15571",
+   "label": "Right ureter",
+   "alternates": [
+    "UBERON0001222"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/ureter-male-right.json"
+    ],
+    "female": [
+     "/models/organs/ureter-female-right.json"
+    ]
+   }
+  }
+ }
 }

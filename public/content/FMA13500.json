@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3224"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_third_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26095"
+   "FMA:26095",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13500",
+   "conceptId": "FMA13500",
+   "label": "Intervertebral disk of third thoracic vertebra"
+  }
+ }
 }

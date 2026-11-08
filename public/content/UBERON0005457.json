@@ -1,0 +1,90 @@
+{
+ "id": "UBERON:0005457",
+ "conceptId": "UBERON0005457",
+ "label": "Left thymus lobe",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0005457",
+  "FMA": "71195"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_thymus_lobe_L"
+  ],
+  "models": [
+   "thymus-female",
+   "thymus-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_71195/tier1.auto.md",
+   "text": "A thymus lobe that is in the left side of a thymus.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0005457",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005457",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0005457",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005457",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0005457. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0005457",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0005457",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002370"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:71195",
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "alternates": [
+    "UBERON0002370"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/thymus-male.json"
+    ],
+    "female": [
+     "/models/organs/thymus-female.json"
+    ]
+   }
+  }
+ }
+}

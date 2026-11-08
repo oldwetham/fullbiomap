@@ -11,6 +11,12 @@
  "geometry": {
   "male": [
    "FJ2414"
+  ],
+  "female": [
+   "female-VH_F_middle_hepatic_vein"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -57,7 +63,9 @@
    "FMA:15800",
    "FMA:15801"
   ],
-  "out": []
+  "out": [
+   "UBERON:0004537"
+  ]
  },
  "connections": [
   {
@@ -148,7 +156,30 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0001072"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
 }

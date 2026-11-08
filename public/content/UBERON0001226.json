@@ -1,0 +1,81 @@
+{
+ "id": "UBERON:0001226",
+ "conceptId": "UBERON0001226",
+ "label": "Major calyx",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001226"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_major_calyx_R_a",
+   "female-VH_F_major_calyx_R_b",
+   "female-VH_F_major_calyx_R_c",
+   "female-VH_F_major_calyx_L_a",
+   "female-VH_F_major_calyx_L_b",
+   "female-VH_F_major_calyx_L_c",
+   "female-VH_F_major_calyx_L_d"
+  ],
+  "models": [
+   "united-female",
+   "ureter-female-left",
+   "ureter-female-right",
+   "ureter-male-left",
+   "ureter-male-right"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001226/tier1.auto.md",
+   "text": "Portion of the urinary collecting system within the kidney that drains several minor calyces.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0001226",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001226",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0001226",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001226",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001226. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0001226",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001226",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0006517"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": null
+ }
+}

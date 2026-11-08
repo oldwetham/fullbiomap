@@ -21,6 +21,14 @@
    "FJ2897",
    "FJ2934",
    "FJ2935"
+  ],
+  "female": [
+   "female-VH_F_lingula_inferior_bronchopulmonary_segment"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
   ]
  },
  "content": {
@@ -69,8 +77,21 @@
    "FMA:8669"
   ],
   "out": [
-   "FMA:7370"
+   "FMA:7370",
+   "UBERON:0008952"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "alternates": [
+    "UBERON0002168"
+   ]
+  }
+ }
 }

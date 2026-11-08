@@ -1,0 +1,299 @@
+{
+ "id": "UBERON:0001264",
+ "conceptId": "UBERON0001264",
+ "label": "Pancreas",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001264",
+  "NCIT": "C12393",
+  "FMA": "7198"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_tail_of_pancreas",
+   "female-VH_F_body_of_pancreas",
+   "female-VH_F_ucinate_process1",
+   "female-VH_F_head_of_pancreas",
+   "female-VH_F_neck_of_pancreas"
+  ],
+  "models": [
+   "pancreas-female",
+   "pancreas-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/pancreas-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "drafted",
+   "file": "content/FMA_7198/tier1.md",
+   "text": "An abdominal organ with digestive and endocrine roles. It supplies enzymes to the small intestine and releases hormones including insulin and glucagon.",
+   "source": {
+    "kind": "curated",
+    "name": "Human Atlas",
+    "term": null,
+    "url": "https://github.com/ashemag/human-atlas",
+    "license": "MIT"
+   },
+   "sources": [
+    {
+     "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+     "url": "https://github.com/ashemag/human-atlas",
+     "license": "MIT"
+    }
+   ],
+   "license": "MIT",
+   "attribution": "Text from Human Atlas by ashemag (github.com/ashemag/human-atlas), MIT License",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Human Atlas, app/anatomy.ts EXPLANATIONS",
+   "url": "https://github.com/ashemag/human-atlas",
+   "license": "MIT"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14517",
+   "UBERON:0001069",
+   "UBERON:0001150",
+   "UBERON:0001151",
+   "UBERON:0010373"
+  ],
+  "out": [
+   "UBERON:0001007"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14793",
+   "conceptId": "FMA14793",
+   "label": "Caudal pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14793"
+    }
+   ],
+   "alternates": [
+    "UBERON8920022"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14787",
+   "conceptId": "FMA14787",
+   "label": "Dorsal pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14787"
+    }
+   ],
+   "alternates": [
+    "UBERON8920020"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14792",
+   "conceptId": "FMA14792",
+   "label": "Great pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14792"
+    }
+   ],
+   "alternates": [
+    "UBERON8920021"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14790",
+   "conceptId": "FMA14790",
+   "label": "Inferior pancreatic artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14790"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "out",
+   "id": "FMA:14791",
+   "conceptId": null,
+   "label": "Prepancreatic artery",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14791"
+    }
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:15398",
+   "conceptId": "FMA15398",
+   "label": "Pancreaticoduodenal vein",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15398"
+    }
+   ],
+   "alternates": [
+    "UBERON0004690"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "out",
+   "id": "FMA:15388",
+   "conceptId": null,
+   "label": "Pancreatic tributary of splenic vein",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15388"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:77211",
+   "conceptId": null,
+   "label": "Branch of celiac nerve plexus to pancreas",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77211"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:77213",
+   "conceptId": null,
+   "label": "Branch of right vagus nerve to pancreas",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77213"
+    }
+   ]
+  },
+  {
+   "rel": "nerve_supply",
+   "dir": "out",
+   "id": "FMA:6630",
+   "conceptId": null,
+   "label": "Celiac nerve plexus",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma6630"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224309",
+   "conceptId": null,
+   "label": "Hepatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224309"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:224311",
+   "conceptId": null,
+   "label": "Pancreatic lymphatic chain",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma224311"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7198",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "alternates": [
+    "UBERON0001264"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pancreas-male.json"
+    ],
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   }
+  }
+ }
+}

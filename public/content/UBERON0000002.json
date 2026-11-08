@@ -1,0 +1,87 @@
+{
+ "id": "UBERON:0000002",
+ "conceptId": "UBERON0000002",
+ "label": "Uterine cervix",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000002",
+  "NCIT": "C12311"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_cervix",
+   "female-VH_F_internal_cervical_os",
+   "female-VH_F_external_cervical_os"
+  ],
+  "models": [
+   "united-female",
+   "uterus-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0000002/tier1.auto.md",
+   "text": "The lower part of the uterus occupying the region between the isthmus of the uterus and the vagina. It is divided into supravaginal and vaginal portions.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12311",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12311",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12311",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12311",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12311, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12311",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12311",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0013759",
+   "UBERON:0013760"
+  ],
+  "out": [
+   "UBERON:0000995"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000995",
+   "conceptId": "UBERON0000995",
+   "label": "Uterus",
+   "interior": {
+    "female": [
+     "/models/organs/uterus-female.json"
+    ]
+   }
+  }
+ }
+}

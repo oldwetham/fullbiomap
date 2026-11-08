@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma16585"
     }
+   ],
+   "alternates": [
+    "UBERON0001272"
    ]
   },
   {
@@ -90,6 +93,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma24485"
     }
+   ],
+   "alternates": [
+    "UBERON0002446"
    ]
   },
   {
@@ -105,7 +111,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma24476"
     }
+   ],
+   "alternates": [
+    "UBERON0000979"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9611",
+   "conceptId": "FMA9611",
+   "label": "Femur",
+   "alternates": [
+    "UBERON0000981"
+   ]
+  }
+ }
 }

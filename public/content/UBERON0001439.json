@@ -1,0 +1,86 @@
+{
+ "id": "UBERON:0001439",
+ "conceptId": "UBERON0001439",
+ "label": "Compact bone tissue",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001439",
+  "NCIT": "C52714"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_ilium_compact_bone_R",
+   "female-VH_F_ilium_compact_bone_L"
+  ],
+  "models": [
+   "pelvis-female",
+   "pelvis-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0001439/tier1.auto.md",
+   "text": "The dense or compact outer layer of tissue that covers the bone.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C52714",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52714",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C52714",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52714",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52714, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C52714",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52714",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0001273",
+   "UBERON:0001274",
+   "UBERON:0001275"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001270",
+   "conceptId": "UBERON0001270",
+   "label": "Bony pelvis",
+   "interior": {
+    "female": [
+     "/models/organs/pelvis-female.json"
+    ]
+   }
+  }
+ }
+}

@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ3275"
+  ],
+  "female": [
+   "female-VH_F_patella_L"
+  ],
+  "models": [
+   "knee-female-left",
+   "knee-male-left",
+   "united-female"
   ]
  },
  "content": {
@@ -53,6 +61,7 @@
  "zoom": {
   "in": [],
   "out": [
+   "FMA:35177",
    "FMA:79066"
   ]
  },
@@ -72,5 +81,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24487",
+   "conceptId": "FMA24487",
+   "label": "Left patella"
+  }
+ }
 }

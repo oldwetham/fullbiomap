@@ -12,6 +12,12 @@
   "male": [
    "FJ2725",
    "FJ2730"
+  ],
+  "female": [
+   "female-VH_F_anterior_cardiac_vein"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -55,7 +61,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0004148"
+  ]
  },
  "connections": [
   {
@@ -86,7 +94,15 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
     }
+   ],
+   "alternates": [
+    "UBERON0002078"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": null
+ }
 }

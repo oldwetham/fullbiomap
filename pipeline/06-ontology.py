@@ -179,8 +179,37 @@ def pick(candidates, label, table):
 chosen_uberon = {cid: pick(sorted(set(uberon_by_fma.get(cid, []))), (fma.get(cid) or {}).get('label'), uberon)
                  for cid in concepts}
 
+# HRA 3D concepts (Phase 3) ------------------------------------------------------------
+# Every ontology id in the pinned HRA crosswalks (step 04). Uberon ids use the Uberon scan
+# above; FMA ids that are not atlas concepts are fetched from OLS4 like the atlas ones.
+import csv
+hra_ids = set()
+release_file = ROOT / 'pipeline/maps/hra-release.json'
+if release_file.exists():
+    hra_release = json.loads(release_file.read_text())
+    for obj in hra_release['objects']:
+        cw = ROOT / 'data/raw/hra' / hra_release['release'] / obj / 'crosswalk.csv'
+        if cw.exists():
+            with open(cw, encoding='utf-8', newline='') as fh:
+                for row in csv.DictReader(fh):
+                    oid = (row.get('OntologyID') or '').strip()
+                    if re.fullmatch(r'(UBERON|FMA):\d+', oid):
+                        hra_ids.add(oid)
+atlas_set = set(concepts)
+hra_fma = sorted({'FMA' + i[4:] for i in hra_ids if i.startswith('FMA:')} - atlas_set)
+with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+    fma.update(dict(pool.map(fetch_fma, hra_fma)))
+hra_uberon = {}
+for oid in sorted(hra_ids):
+    if oid.startswith('UBERON:'):
+        hra_uberon[oid] = oid if oid in uberon else None
+    else:
+        cid = 'FMA' + oid[4:]
+        hra_uberon[oid] = chosen_uberon.get(cid) if cid in atlas_set else pick(sorted(set(uberon_by_fma.get(cid, []))), (fma.get(cid) or {}).get('label'), uberon)
+print(f'HRA concept ids: {len(hra_ids)} ({len(hra_fma)} FMA ids outside the atlas fetched)', flush=True)
+
 # NCIt definitions through Uberon -----------------------------------------------------
-ncit_wanted = sorted({n for u in chosen_uberon.values() if u for n in uberon[u]['ncit']})
+ncit_wanted = sorted({n for u in [*chosen_uberon.values(), *hra_uberon.values()] if u for n in uberon[u]['ncit']})
 
 
 def fetch_ncit(code):
@@ -203,6 +232,40 @@ with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) 
     ncit = {k: v for k, v in pool.map(fetch_ncit, ncit_wanted) if v}
 print(f'NCIt terms: {len(ncit)}/{len(ncit_wanted)} found', flush=True)
 
+# Organ for the scale ladder (Phase 3) -------------------------------------------------
+# A concept's organ is itself if it is an FMA Organ (FMA:67498 or an is_a descendant), else the
+# nearest atlas concept up its part_of chain that is one. Terms outside the atlas on the way are
+# fetched from OLS4 (cached).
+ORGAN = 'FMA:67498'
+extra_terms = {}
+def term_of(fid):
+    cid = 'FMA' + fid[4:]
+    return fma.get(cid) if cid in fma else extra_terms.get(cid)
+organ_of, frontier = {}, {}
+for cid in concepts:
+    f = fma[cid]
+    if f and (ORGAN in f['ancestors'] or cid == 'FMA67498'):
+        organ_of[cid] = {'id': 'FMA:' + cid[3:], 'label': f['label']}
+    elif f:
+        frontier[cid] = [p['id'] for p in f['partOf']]
+for depth in range(8):
+    need = sorted({'FMA' + i[4:] for ids in frontier.values() for i in ids} - set(fma) - set(extra_terms))
+    with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+        extra_terms.update(dict(pool.map(fetch_fma, need)))
+    nxt = {}
+    for cid, ids in frontier.items():
+        hit = next((i for i in ids if 'FMA' + i[4:] in atlas_set and term_of(i) and (ORGAN in term_of(i)['ancestors'])), None)
+        if hit:
+            organ_of[cid] = {'id': hit, 'label': term_of(hit)['label']}
+            continue
+        up = list(dict.fromkeys(p['id'] for i in ids if term_of(i) for p in term_of(i)['partOf']))[:24]
+        if up:
+            nxt[cid] = up
+    frontier = nxt
+    if not frontier:
+        break
+print(f'Organ for the ladder: {len(organ_of)}/{len(concepts)} concepts ({len(extra_terms)} extra FMA terms)', flush=True)
+
 # Write -------------------------------------------------------------------------------
 graph = ROOT / 'graph'
 graph.mkdir(exist_ok=True)
@@ -216,7 +279,7 @@ for cid in concepts:
     n = ncit.get(n_code) if n_code else None
     gid = 'FMA:' + cid[3:]
     defs_lines.append(json.dumps({
-        'id': gid, 'conceptId': cid, 'fma': f, 'uberon': urec, 'ncit': n,
+        'id': gid, 'conceptId': cid, 'fma': f, 'uberon': urec, 'ncit': n, 'organ': organ_of.get(cid),
     }, ensure_ascii=False, sort_keys=True))
     counts['concepts'] += 1
     counts['fma found'] += f is not None
@@ -245,6 +308,45 @@ for (a, rel, b), evidence in connection_edges.items():
     counts[f'connection {rel}'] += 1
     edge_lines.append(json.dumps({'from': a, 'to': b, 'rel': rel, 'source': 'FMA', 'evidence': ', '.join(sorted(evidence))}))
 (graph / 'defs.jsonl').write_text('\n'.join(defs_lines) + '\n')
+
+# HRA concepts: same record shape, plus the male (atlas) concept it is equivalent to, if any.
+male_by_uberon = defaultdict(list)
+for cid in concepts:
+    if chosen_uberon[cid]:
+        male_by_uberon[chosen_uberon[cid]].append(cid)
+# Vessels without a male equivalent: artery or vein from the Uberon is_a ancestors (OLS4, cached).
+ARTERY, VEIN = 'http://purl.obolibrary.org/obo/UBERON_0001637', 'http://purl.obolibrary.org/obo/UBERON_0001638'
+def vessel_kind(oid):
+    try:
+        d = get_json(entity_url('uberon', UBERON_IRI + oid[7:]))
+    except NotFound:
+        return oid, None
+    anc = set(d.get('hierarchicalAncestor') or []) | set(d.get('directAncestor') or [])
+    return oid, 'artery' if ARTERY in anc else 'vein' if VEIN in anc else None
+lone_uberon = [oid for oid in sorted(hra_ids) if oid.startswith('UBERON:') and len(male_by_uberon.get(oid, [])) != 1]
+with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
+    vessel = dict(pool.map(vessel_kind, lone_uberon))
+fma_by_uberon = defaultdict(list)
+for f_id, u_ids in uberon_by_fma.items():
+    for u_id in set(u_ids):
+        fma_by_uberon[u_id].append(f_id)
+hra_lines = []
+for oid in sorted(hra_ids):
+    cid = oid.replace(':', '')
+    f = fma.get(cid) if oid.startswith('FMA:') else None
+    u = hra_uberon[oid]
+    urec = dict(uberon[u], candidates=[u]) if u else None
+    found = [x for x in (urec or {}).get('ncit', []) if x in ncit]
+    n_code = pick(found, (f or {}).get('label') or urec.get('label'), ncit) if found else None
+    if oid.startswith('FMA:'):
+        equivalent = cid if cid in atlas_set else None
+    else:
+        equivalent = male_by_uberon[oid][0] if len(male_by_uberon.get(oid, [])) == 1 else None
+    counts['hra concepts'] += 1
+    counts['hra concepts with a male equivalent'] += equivalent is not None
+    hra_lines.append(json.dumps({'id': oid, 'conceptId': cid, 'fma': f, 'uberon': urec, 'ncit': ncit.get(n_code) if n_code else None,
+                                 'equivalent': equivalent, 'vessel': vessel.get(oid), 'fmaXrefs': sorted(fma_by_uberon.get(oid, []))}, ensure_ascii=False, sort_keys=True))
+(graph / 'defs.hra.jsonl').write_text('\n'.join(hra_lines) + '\n' if hra_lines else '')
 (graph / 'edges.fma.jsonl').write_text('\n'.join(sorted(set(edge_lines))) + '\n')
 
 # HRA vasculature (VCCF) branching -----------------------------------------------------

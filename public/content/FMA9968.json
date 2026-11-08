@@ -76,6 +76,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9991"
     }
+   ],
+   "alternates": [
+    "UBERON0011050"
    ]
   },
   {
@@ -121,7 +124,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9945"
     }
+   ],
+   "alternates": [
+    "UBERON0004631"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9968",
+   "conceptId": "FMA9968",
+   "label": "Seventh thoracic vertebra",
+   "alternates": [
+    "UBERON0004632"
+   ]
+  }
+ }
 }

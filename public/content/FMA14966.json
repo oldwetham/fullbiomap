@@ -23,6 +23,14 @@
    "FJ2597",
    "FJ2598",
    "FJ2599"
+  ],
+  "female": [
+   "female-VH_F_ileum_terminal"
+  ],
+  "models": [
+   "small-intestine-female",
+   "small-intestine-male",
+   "united-female"
   ]
  },
  "content": {
@@ -69,7 +77,8 @@
    "FMA:17181"
   ],
   "out": [
-   "FMA:7208"
+   "FMA:7208",
+   "UBERON:0002116"
   ]
  },
  "connections": [
@@ -88,5 +97,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7200",
+   "conceptId": "FMA7200",
+   "label": "Small intestine",
+   "alternates": [
+    "UBERON0002108"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/small-intestine-male.json"
+    ],
+    "female": [
+     "/models/organs/small-intestine-female.json"
+    ]
+   }
+  }
+ }
 }

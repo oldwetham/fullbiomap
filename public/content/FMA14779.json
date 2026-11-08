@@ -20,6 +20,12 @@
    "FJ3095",
    "FJ3106",
    "FJ3107"
+  ],
+  "female": [
+   "female-VH_F_left_hepatic_artery"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -69,7 +75,8 @@
    "FMA:70457"
   ],
   "out": [
-   "FMA:14772"
+   "FMA:14772",
+   "UBERON:0004537"
   ]
  },
  "connections": [
@@ -86,6 +93,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma70455"
     }
+   ],
+   "alternates": [
+    "UBERON8920039"
    ]
   },
   {
@@ -196,7 +206,30 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0015480"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7197",
+   "conceptId": "FMA7197",
+   "label": "Liver",
+   "alternates": [
+    "UBERON0002107"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/liver-male.json"
+    ],
+    "female": [
+     "/models/organs/liver-female.json"
+    ]
+   }
+  }
+ }
 }

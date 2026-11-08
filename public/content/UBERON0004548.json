@@ -1,0 +1,138 @@
+{
+ "id": "UBERON:0004548",
+ "conceptId": "UBERON0004548",
+ "label": "Left eye",
+ "scale": "organ",
+ "system": "sensory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004548",
+  "NCIT": "C119334",
+  "FMA": "12515"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_retina_L",
+   "female-VH_F_fovea_L",
+   "female-VH_F_macula_lutea_L",
+   "female-VH_F_optic_disc_L",
+   "female-VH_F_palpebral_conjunctiva_of_left_upper_eyelid",
+   "female-VH_F_palpebral_conjunctiva_of_left_lower_eyelid",
+   "female-VH_F_vitreous_humor_L",
+   "female-VH_F_cornea_L",
+   "female-VH_F_bulbar_conjunctiva_L",
+   "female-VH_F_iris_L",
+   "female-VH_F_trabecular_meshwork_L",
+   "female-VH_F_ciliary_body_L",
+   "female-VH_F_ciliary_muscle_L",
+   "female-VH_F_aqueous_humor_L",
+   "female-VH_F_schlemms_canal_L",
+   "female-VH_F_lens_L",
+   "female-VH_F_corneo_scleral_junction_L",
+   "female-VH_F_ora_serrata_of_retina_L",
+   "female-VH_F_suspensory_ligament_of_lens_L",
+   "female-VH_F_ciliary_processes_L",
+   "female-VH_F_pupil_L",
+   "female-VH_F_optic_choroid_L",
+   "female-VH_F_sclera_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-male-left",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/eye-female-left.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_12515/tier1.auto.md",
+   "text": "The eye positioned in the left orbit.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C119334",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119334",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C119334",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119334",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C119334, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C119334",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119334",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:223075",
+   "FMA:223078",
+   "FMA:261238",
+   "FMA:51875",
+   "FMA:58237",
+   "FMA:58240",
+   "FMA:58243",
+   "FMA:58272",
+   "FMA:58297",
+   "FMA:58300",
+   "FMA:58303",
+   "FMA:58344",
+   "FMA:58602",
+   "FMA:58821",
+   "FMA:58840",
+   "FMA:59029",
+   "UBERON:0005969",
+   "UBERON:0010223",
+   "UBERON:0010427"
+  ],
+  "out": [
+   "UBERON:0000970"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:12515",
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "alternates": [
+    "UBERON0004548"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-left.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
+}

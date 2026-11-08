@@ -1,0 +1,125 @@
+{
+ "id": "UBERON:0000474",
+ "conceptId": "UBERON0000474",
+ "label": "Female reproductive system",
+ "scale": "organ",
+ "system": "reproductive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0000474",
+  "NCIT": "C12402"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_vagina",
+   "female-VH_F_cervicovaginal_junction",
+   "female-VH_F_ampulla_of_uterine_tube_R",
+   "female-VH_F_isthmus_of_fallopian_tube_R",
+   "female-VH_F_fibria_of_uterine_tube_R",
+   "female-VH_F_uterine_tube_infundibulum_R",
+   "female-VH_F_uterine_tube_infundibulum_L",
+   "female-VH_F_fibria_of_uterine_tube_L",
+   "female-VH_F_isthmus_of_fallopian_tube_L",
+   "female-VH_F_ampulla_of_uterine_tube_L",
+   "female-VH_F_uterovesical_pouch",
+   "female-VH_F_right_round_ligament_of_uterus",
+   "female-VH_F_left_round_ligament_of_uterus",
+   "female-VH_F_right_uterosacral_ligament",
+   "female-VH_F_left_uterosacral_ligament",
+   "female-VH_F_right_cardinal_ligament_of_uterus",
+   "female-VH_F_left_cardinal_ligament_of_uterus",
+   "female-VH_F_suspensory_ligament_of_ovary_R",
+   "female-VH_F_suspensory_ligament_of_ovary_L",
+   "female-VH_F_ovarian_ligament_L",
+   "female-VH_F_ovarian_ligament_R",
+   "female-VH_F_broad_ligament",
+   "female-VH_F_mesosalpinx_L",
+   "female-VH_F_mesosalpinx_R",
+   "female-VH_F_mesovarium_R",
+   "female-VH_F_mesovarium_L",
+   "female-VH_F_left_ovary",
+   "female-VH_F_right_ovary",
+   "female-VH_F_abdominal_ostium_of_uterine_tube",
+   "female-VH_F_body_of_uterus",
+   "female-VH_F_fundus_of_uterus",
+   "female-VH_F_cornua",
+   "female-VH_F_lower_uterine_segment",
+   "female-VH_F_posterior_wall_of_uterus",
+   "female-VH_F_anterior_wall_of_uterus",
+   "female-VH_F_cervix",
+   "female-VH_F_internal_cervical_os",
+   "female-VH_F_external_cervical_os"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0000474/tier1.auto.md",
+   "text": "The collection of organs and tissues, including the ovaries, genital tract, and breasts, that have several functions, including sexual maturation, pregnancy, and childbirth.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12402",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12402",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12402",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12402",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12402, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12402",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12402",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:14729",
+   "FMA:19119",
+   "FMA:19120",
+   "FMA:19823",
+   "FMA:19824",
+   "FMA:55423",
+   "FMA:55424",
+   "FMA:57789",
+   "FMA:57790",
+   "FMA:7213",
+   "FMA:7214",
+   "FMA:77064",
+   "UBERON:0000995",
+   "UBERON:0000996",
+   "UBERON:0001302",
+   "UBERON:0001303",
+   "UBERON:0012332"
+  ],
+  "out": []
+ },
+ "connections": [],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": false,
+  "organ": null
+ }
+}

@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14768"
     }
+   ],
+   "alternates": [
+    "UBERON0001192"
    ]
   },
   {
@@ -90,6 +93,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14776"
     }
+   ],
+   "alternates": [
+    "UBERON8920045"
    ]
   },
   {
@@ -165,6 +171,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15399"
     }
+   ],
+   "alternates": [
+    "UBERON0014690"
    ]
   },
   {
@@ -180,6 +189,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15390"
     }
+   ],
+   "alternates": [
+    "UBERON8920047"
    ]
   },
   {
@@ -195,6 +207,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15400"
     }
+   ],
+   "alternates": [
+    "UBERON0014691"
    ]
   },
   {
@@ -210,6 +225,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15397"
     }
+   ],
+   "alternates": [
+    "UBERON8920048"
    ]
   },
   {
@@ -360,6 +378,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7131"
     }
+   ],
+   "alternates": [
+    "UBERON0001043"
    ]
   },
   {
@@ -375,7 +396,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7200"
     }
+   ],
+   "alternates": [
+    "UBERON0002108"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7148",
+   "conceptId": "FMA7148",
+   "label": "Stomach",
+   "alternates": [
+    "UBERON0000945"
+   ]
+  }
+ }
 }

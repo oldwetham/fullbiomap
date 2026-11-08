@@ -59,5 +59,25 @@
    "FMA:63103"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7198",
+   "conceptId": "FMA7198",
+   "label": "Pancreas",
+   "alternates": [
+    "UBERON0001264"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pancreas-male.json"
+    ],
+    "female": [
+     "/models/organs/pancreas-female.json"
+    ]
+   }
+  }
+ }
 }

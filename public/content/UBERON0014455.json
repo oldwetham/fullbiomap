@@ -1,0 +1,73 @@
+{
+ "id": "UBERON:0014455",
+ "conceptId": "UBERON0014455",
+ "label": "Subcutaneous abdominal adipose tissue",
+ "scale": "organ",
+ "system": "integumentary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0014455"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_subcutaneous_abdominal_adipose_tissue_umbilicus_area",
+   "female-VH_F_subcutaneous_abdominal_adipose_tissue_RUQ_area",
+   "female-VH_F_subcutaneous_abdominal_adipose_tissue_LUQ_area"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0014455/tier1.auto.md",
+   "text": "Subcutaneous adipose tissue that is located in the abdominal region.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0014455",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0014455",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0014455",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0014455",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0014455. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0014455",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0014455",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0013754"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "integumentary",
+  "isOrgan": false,
+  "organ": null
+ }
+}

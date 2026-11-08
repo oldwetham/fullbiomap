@@ -15,7 +15,12 @@
  "geometry": {
   "male": [
    "FJ2541"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/trachea-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -76,6 +81,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7396"
     }
+   ],
+   "alternates": [
+    "UBERON0002178"
    ]
   },
   {
@@ -91,6 +99,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7405"
     }
+   ],
+   "alternates": [
+    "UBERON0002182"
    ]
   },
   {
@@ -106,6 +117,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7395"
     }
+   ],
+   "alternates": [
+    "UBERON0002177"
    ]
   },
   {
@@ -123,5 +137,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7393",
+   "conceptId": "FMA7393",
+   "label": "Tracheobronchial tree",
+   "alternates": [
+    "UBERON0007196"
+   ]
+  }
+ }
 }

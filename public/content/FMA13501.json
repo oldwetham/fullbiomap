@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3203"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_fourth_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26096"
+   "FMA:26096",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13501",
+   "conceptId": "FMA13501",
+   "label": "Intervertebral disk of fourth thoracic vertebra"
+  }
+ }
 }

@@ -60,5 +60,25 @@
    "FMA:58099"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "alternates": [
+    "UBERON0004549"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-right.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-right.json"
+    ]
+   }
+  }
+ }
 }

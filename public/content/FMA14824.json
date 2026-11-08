@@ -17,6 +17,12 @@
  "geometry": {
   "male": [
    "FJ2025"
+  ],
+  "female": [
+   "female-VH_F_marginal_artery_of_Drummond"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -61,7 +67,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:14823"
+   "FMA:14823",
+   "UBERON:0004537"
   ]
  },
  "connections": [
@@ -78,6 +85,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON8920036"
    ]
   },
   {
@@ -95,5 +105,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:49894",
+   "conceptId": "FMA49894",
+   "label": "Systemic arterial tree"
+  }
+ }
 }

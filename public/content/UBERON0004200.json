@@ -1,0 +1,105 @@
+{
+ "id": "UBERON:0004200",
+ "conceptId": "UBERON0004200",
+ "label": "Kidney pyramid",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0004200",
+  "NCIT": "C12886"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_renal_pyramid_L_a",
+   "female-VH_F_renal_pyramid_L_b",
+   "female-VH_F_renal_pyramid_L_c",
+   "female-VH_F_renal_pyramid_L_d",
+   "female-VH_F_renal_pyramid_L_e",
+   "female-VH_F_renal_pyramid_L_f",
+   "female-VH_F_renal_pyramid_L_g",
+   "female-VH_F_renal_pyramid_L_h",
+   "female-VH_F_renal_pyramid_L_i",
+   "female-VH_F_renal_pyramid_L_j",
+   "female-VH_F_renal_pyramid_L_k",
+   "female-VH_F_renal_pyramid_R_a",
+   "female-VH_F_renal_pyramid_R_b",
+   "female-VH_F_renal_pyramid_R_c",
+   "female-VH_F_renal_pyramid_R_d",
+   "female-VH_F_renal_pyramid_R_e",
+   "female-VH_F_renal_pyramid_R_f",
+   "female-VH_F_renal_pyramid_R_g",
+   "female-VH_F_renal_pyramid_R_h",
+   "female-VH_F_renal_pyramid_R_i",
+   "female-VH_F_renal_pyramid_R_j"
+  ],
+  "models": [
+   "kidney-female-left",
+   "kidney-female-right",
+   "kidney-male-left",
+   "kidney-male-right",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0004200/tier1.auto.md",
+   "text": "A cone-shaped structure of the kidney. It is located in the medullary portion of the kidney (pyramid of Malpighi) or the cortical portion of the kidney (pyramid of Ferrein).",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12886",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12886",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12886",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12886",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12886, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12886",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12886",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0000362"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0004538",
+   "conceptId": "UBERON0004538",
+   "label": "Left kidney",
+   "interior": {
+    "female": [
+     "/models/organs/kidney-female-left.json"
+    ]
+   }
+  }
+ }
+}

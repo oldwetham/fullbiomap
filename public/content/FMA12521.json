@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12520"
     }
+   ],
+   "alternates": [
+    "UBERON0001093"
    ]
   },
   {
@@ -90,7 +93,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12522"
     }
+   ],
+   "alternates": [
+    "UBERON0004613"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12521",
+   "conceptId": "FMA12521",
+   "label": "Third cervical vertebra",
+   "alternates": [
+    "UBERON0004612"
+   ]
+  }
+ }
 }

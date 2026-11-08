@@ -11,6 +11,12 @@
  "geometry": {
   "male": [
    "FJ1374"
+  ],
+  "female": [
+   "female-VH_F_superior_rectus_extraocular_muscle_R"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -54,7 +60,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0004277"
+  ]
  },
  "connections": [
   {
@@ -72,5 +80,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49044",
+   "conceptId": "FMA49044",
+   "label": "Right superior rectus"
+  }
+ }
 }

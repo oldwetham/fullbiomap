@@ -298,7 +298,12 @@
    "FJ3069",
    "FJ3070",
    "FJ3131"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/lung-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -346,5 +351,25 @@
   ],
   "out": []
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7158",
+   "conceptId": "FMA7158",
+   "label": "Respiratory system",
+   "alternates": [
+    "UBERON0001004"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/lung-male.json"
+    ],
+    "female": [
+     "/models/organs/lung-female.json"
+    ]
+   }
+  }
+ }
 }

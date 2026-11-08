@@ -10,6 +10,14 @@
   "male": [
    "FJ1336",
    "FJ1337"
+  ],
+  "female": [
+   "female-VH_F_optic_choroid_R"
+  ],
+  "models": [
+   "eye-female-right",
+   "eye-male-right",
+   "united-female"
   ]
  },
  "content": {
@@ -55,8 +63,29 @@
   "in": [],
   "out": [
    "FMA:58099",
-   "FMA:58107"
+   "FMA:58107",
+   "UBERON:0004549"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12514",
+   "conceptId": "FMA12514",
+   "label": "Right eyeball",
+   "alternates": [
+    "UBERON0004549"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-right.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-right.json"
+    ]
+   }
+  }
+ }
 }

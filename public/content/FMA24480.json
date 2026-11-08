@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ3366"
+  ],
+  "female": [
+   "female-VH_F_fibula_R"
+  ],
+  "models": [
+   "knee-female-right",
+   "knee-male-right",
+   "united-female"
   ]
  },
  "content": {
@@ -53,7 +61,8 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:24980"
+   "FMA:24980",
+   "FMA:35176"
   ]
  },
  "connections": [
@@ -87,5 +96,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24480",
+   "conceptId": "FMA24480",
+   "label": "Right fibula"
+  }
+ }
 }

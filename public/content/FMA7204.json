@@ -12,7 +12,12 @@
  "geometry": {
   "male": [
    "FJ3147"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/kidney-male-right.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -73,6 +78,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14752"
     }
+   ],
+   "alternates": [
+    "UBERON0001185"
    ]
   },
   {
@@ -103,6 +111,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14335"
     }
+   ],
+   "alternates": [
+    "UBERON0001141"
    ]
   },
   {
@@ -193,7 +204,30 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15571"
     }
+   ],
+   "alternates": [
+    "UBERON0001222"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7204",
+   "conceptId": "FMA7204",
+   "label": "Right kidney",
+   "alternates": [
+    "UBERON0004539"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/kidney-male-right.json"
+    ],
+    "female": [
+     "/models/organs/kidney-female-right.json"
+    ]
+   }
+  }
+ }
 }

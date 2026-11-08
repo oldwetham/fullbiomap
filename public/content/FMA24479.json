@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9708"
     }
+   ],
+   "alternates": [
+    "UBERON0002395"
    ]
   },
   {
@@ -88,7 +91,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma24476"
     }
+   ],
+   "alternates": [
+    "UBERON0000979"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:24479",
+   "conceptId": "FMA24479",
+   "label": "Fibula",
+   "alternates": [
+    "UBERON0001446"
+   ]
+  }
+ }
 }

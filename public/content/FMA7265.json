@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ2418"
+  ],
+  "female": [
+   "female-VH_F_papillary_muscle_of_heart_antlat"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,7 +64,8 @@
    "FMA:7264",
    "FMA:86064",
    "FMA:9560",
-   "FMA:9563"
+   "FMA:9563",
+   "UBERON:0002494"
   ]
  },
  "connections": [
@@ -75,5 +84,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7088",
+   "conceptId": "FMA7088",
+   "label": "Heart",
+   "alternates": [
+    "UBERON0000948"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/heart-male.json"
+    ],
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
 }

@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9560"
     }
+   ],
+   "alternates": [
+    "UBERON0036288"
    ]
   },
   {
@@ -90,6 +93,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7097"
     }
+   ],
+   "alternates": [
+    "UBERON0002079"
    ]
   },
   {
@@ -105,6 +111,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7098"
     }
+   ],
+   "alternates": [
+    "UBERON0002080"
    ]
   },
   {
@@ -125,6 +134,9 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON8920010"
    ]
   },
   {
@@ -190,7 +202,19 @@
      "license": "CC BY 4.0",
      "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
     }
+   ],
+   "alternates": [
+    "UBERON0005438"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:50308",
+   "conceptId": "FMA50308",
+   "label": "Coronary sinus tree"
+  }
+ }
 }

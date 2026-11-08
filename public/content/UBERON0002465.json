@@ -1,0 +1,87 @@
+{
+ "id": "UBERON:0002465",
+ "conceptId": "UBERON0002465",
+ "label": "Lymphoid system",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002465",
+  "NCIT": "C12746"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_gastric_surface_of_spleen",
+   "female-VH_F_diaphragmatic_surface_of_spleen",
+   "female-VH_F_colic_surface_of_spleen",
+   "female-VH_F_hilum_of_spleen",
+   "female-VH_F_renal_surface_of_spleen",
+   "female-VH_F_thymus_lobe_L",
+   "female-VH_F_thymus_lobe_R",
+   "female-Yao_afferent_lymphatic_vessel",
+   "female-Yao_capsule_of_lymph_node",
+   "female-Yao_follicles",
+   "female-Yao_efferent_lymph_node",
+   "female-Yao_medulla_of_lymph_node",
+   "female-Yao_paracortex",
+   "female-Yao_blood_vasculature"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002465/tier1.auto.md",
+   "text": "The anatomic system that includes the lymph nodes, lymphoid tissues in various organs (spleen, thymus, tonsils, gastrointestinal tract), and lymphatic vessels. It is part of the immune system that offers protection against infections.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12746",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12746",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12746",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12746",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12746, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12746",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12746",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0002106",
+   "UBERON:0002370",
+   "UBERON:0002509"
+  ],
+  "out": []
+ },
+ "connections": [],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": null
+ }
+}

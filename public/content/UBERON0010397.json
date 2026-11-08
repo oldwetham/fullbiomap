@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0010397",
+ "conceptId": "UBERON0010397",
+ "label": "Efferent lymphatic vessel",
+ "scale": "organ",
+ "system": "lymphatic",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0010397"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-Yao_efferent_lymph_node"
+  ],
+  "models": [
+   "lymph-node-female",
+   "lymph-node-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0010397/tier1.auto.md",
+   "text": "Lymphatic vessel that exits the lymph node. The efferent lymphatic vessel commences from the lymph sinuses of the medullary portion of the lymph nodes and leave the lymph nodes either to veins or greater nodes. Efferent lymphatic vessels are also found in the thymus and spleen. This is in contrast to afferent lymphatic vessels, which are found only in lymph nodes.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0010397",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010397",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0010397",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010397",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0010397. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0010397",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0010397",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0002509"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0002509",
+   "conceptId": "UBERON0002509",
+   "label": "Mesenteric lymph node",
+   "interior": {
+    "female": [
+     "/models/organs/lymph-node-female.json"
+    ]
+   }
+  }
+ }
+}

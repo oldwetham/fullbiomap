@@ -13,7 +13,12 @@
  "geometry": {
   "male": [
    "FJ1737"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/spinal-cord-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -76,6 +81,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50531"
     }
+   ],
+   "alternates": [
+    "UBERON0005431"
    ]
   },
   {
@@ -91,6 +99,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3956"
     }
+   ],
+   "alternates": [
+    "UBERON0001535"
    ]
   },
   {
@@ -123,5 +134,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "nervous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:55675",
+   "conceptId": "FMA55675",
+   "label": "Neuraxis",
+   "alternates": [
+    "UBERON0001017"
+   ]
+  }
+ }
 }

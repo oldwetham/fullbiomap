@@ -1,0 +1,82 @@
+{
+ "id": "UBERON:0007262",
+ "conceptId": "UBERON0007262",
+ "label": "Intervertebral disk of fifth cervical vertebra",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0007262",
+  "FMA": "13898"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_fifth_cervical_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_13898/tier1.auto.md",
+   "text": "An intervertebral disk that connects a mammalian cervical vertebra 5 and connects a mammalian cervical vertebra 6.",
+   "source": {
+    "kind": "uberon",
+    "name": "Uberon",
+    "term": "UBERON:0007262",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007262",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon UBERON:0007262",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007262",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007262. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Uberon UBERON:0007262",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007262",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0007252"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:13898",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13898",
+   "conceptId": "FMA13898",
+   "label": "Intervertebral disk of fifth cervical vertebra",
+   "alternates": [
+    "UBERON0007262"
+   ]
+  }
+ }
+}

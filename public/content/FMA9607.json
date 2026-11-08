@@ -16,7 +16,12 @@
   "male": [
    "FJ3150",
    "FJ3151"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/thymus-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -293,5 +298,25 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "lymphatic",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:9607",
+   "conceptId": "FMA9607",
+   "label": "Thymus",
+   "alternates": [
+    "UBERON0002370"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/thymus-male.json"
+    ],
+    "female": [
+     "/models/organs/thymus-female.json"
+    ]
+   }
+  }
+ }
 }

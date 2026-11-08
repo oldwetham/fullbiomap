@@ -1,0 +1,92 @@
+{
+ "id": "UBERON:0001829",
+ "conceptId": "UBERON0001829",
+ "label": "Major salivary gland",
+ "scale": "organ",
+ "system": "digestive",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001829",
+  "NCIT": "C12999",
+  "FMA": "59788"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_submandibular_gland_L",
+   "female-VH_F_submandibular_gland_R",
+   "female-VH_F_parotid_gland_R",
+   "female-VH_F_parotid_gland_L",
+   "female-VH_F_sublingual_gland_R",
+   "female-VH_F_sublingual_gland_L"
+  ],
+  "models": [
+   "mouth-female",
+   "mouth-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_59788/tier1.auto.md",
+   "text": "One of the three larger salivary glands including the parotid, submandibular and sublingual glands.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12999",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12999",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12999",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12999",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12999, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12999",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12999",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "UBERON:0001736",
+   "UBERON:0001831",
+   "UBERON:0001832"
+  ],
+  "out": [
+   "UBERON:0000165"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:59788",
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:59788",
+   "conceptId": "FMA59788",
+   "label": "Major salivary gland",
+   "alternates": [
+    "UBERON0001829"
+   ]
+  }
+ }
+}

@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13075"
     }
+   ],
+   "alternates": [
+    "UBERON0004620"
    ]
   },
   {
@@ -88,7 +91,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13073"
     }
+   ],
+   "alternates": [
+    "UBERON0004618"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13074",
+   "conceptId": "FMA13074",
+   "label": "Third lumbar vertebra",
+   "alternates": [
+    "UBERON0004619"
+   ]
+  }
+ }
 }

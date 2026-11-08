@@ -1,0 +1,91 @@
+{
+ "id": "UBERON:0006082",
+ "conceptId": "UBERON0006082",
+ "label": "Fundus of urinary bladder",
+ "scale": "organ",
+ "system": "urinary",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0006082",
+  "NCIT": "C48939"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_fundus_of_urinary_bladder_dome",
+   "female-VH_F_fundus_of_urinary_bladder_base",
+   "female-VH_F_trigone_of_urinary_bladder",
+   "female-VH_F_ureteral_orifice_R",
+   "female-VH_F_ureteral_orifice_L"
+  ],
+  "models": [
+   "united-female",
+   "urinary-bladder-female",
+   "urinary-bladder-male"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0006082/tier1.auto.md",
+   "text": "The portion of the bladder that is formed by the posterior wall and is located opposite to the bladder opening.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C48939",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C48939",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C48939",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C48939",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C48939, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C48939",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C48939",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:15939",
+   "FMA:15940",
+   "UBERON:0001257"
+  ],
+  "out": [
+   "UBERON:0001255"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "urinary",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001255",
+   "conceptId": "UBERON0001255",
+   "label": "Urinary bladder",
+   "interior": {
+    "female": [
+     "/models/organs/urinary-bladder-female.json"
+    ]
+   }
+  }
+ }
+}

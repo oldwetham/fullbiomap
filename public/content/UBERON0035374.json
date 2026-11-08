@@ -1,0 +1,156 @@
+{
+ "id": "UBERON:0035374",
+ "conceptId": "UBERON0035374",
+ "label": "Small cardiac vein",
+ "scale": "organ",
+ "system": "venous",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0035374",
+  "NCIT": "C12881",
+  "FMA": "4714"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_small_cardiac_vein"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_4714/tier1.auto.md",
+   "text": "A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C12881",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C12881",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12881, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C12881",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004148"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "venous_drainage",
+   "dir": "in",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  },
+  {
+   "rel": "venous_drainage",
+   "dir": "in",
+   "id": "FMA:7098",
+   "conceptId": "FMA7098",
+   "label": "Right ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7098"
+    }
+   ],
+   "alternates": [
+    "UBERON0002080"
+   ]
+  },
+  {
+   "rel": "tributary_of",
+   "dir": "out",
+   "id": "FMA:4706",
+   "conceptId": "FMA4706",
+   "label": "Coronary sinus",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4706"
+    },
+    {
+     "name": "HRA ASCT+B Blood Vasculature v1.10 (VCCF)",
+     "license": "CC BY 4.0",
+     "url": "https://doi.org/10.48539/HBM497.DSBZ.627"
+    }
+   ],
+   "alternates": [
+    "UBERON0005438"
+   ]
+  },
+  {
+   "rel": "continuous_with",
+   "dir": "out",
+   "id": "FMA:7096",
+   "conceptId": "FMA7096",
+   "label": "Right atrium",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7096"
+    }
+   ],
+   "alternates": [
+    "UBERON0002078"
+   ]
+  }
+ ],
+ "equivalent": "FMA:4714",
+ "ladder": {
+  "system": "venous",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:50308",
+   "conceptId": "FMA50308",
+   "label": "Coronary sinus tree"
+  }
+ }
+}

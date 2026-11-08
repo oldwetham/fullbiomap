@@ -75,6 +75,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12523"
     }
+   ],
+   "alternates": [
+    "UBERON0004614"
    ]
   },
   {
@@ -90,7 +93,22 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12525"
     }
+   ],
+   "alternates": [
+    "UBERON0004616"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:12524",
+   "conceptId": "FMA12524",
+   "label": "Sixth cervical vertebra",
+   "alternates": [
+    "UBERON0004615"
+   ]
+  }
+ }
 }

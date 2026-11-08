@@ -1,0 +1,87 @@
+{
+ "id": "UBERON:0001740",
+ "conceptId": "UBERON0001740",
+ "label": "Arytenoid cartilage",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001740",
+  "NCIT": "C32148",
+  "FMA": "55109"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_arytenoid_cartilage_R",
+   "female-VH_F_arytenoid_cartilage_L"
+  ],
+  "models": [
+   "larynx-female",
+   "larynx-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_55109/tier1.auto.md",
+   "text": "Either of a pair of small pyramidal laryngeal cartilages that articulate with the lamina of the cricoid cartilage and give attachment to the posterior part of the corresponding vocal ligament and to several muscles.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C32148",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32148",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C32148",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32148",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32148, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C32148",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32148",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:55113",
+   "FMA:55114"
+  ],
+  "out": [
+   "UBERON:0001739"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:55109",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:55109",
+   "conceptId": "FMA55109",
+   "label": "Arytenoid cartilage",
+   "alternates": [
+    "UBERON0001740"
+   ]
+  }
+ }
+}

@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ2792"
+  ],
+  "female": [
+   "female-VH_F_arytenoid_cartilage_R"
+  ],
+  "models": [
+   "larynx-female",
+   "larynx-male",
+   "united-female"
   ]
  },
  "content": {
@@ -52,7 +60,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0001740"
+  ]
  },
  "connections": [
   {
@@ -68,7 +78,19 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9615"
     }
+   ],
+   "alternates": [
+    "UBERON0002375"
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:55113",
+   "conceptId": "FMA55113",
+   "label": "Right arytenoid cartilage"
+  }
+ }
 }

@@ -1,0 +1,125 @@
+{
+ "id": "UBERON:0002184",
+ "conceptId": "UBERON0002184",
+ "label": "Segmental bronchus",
+ "scale": "organ",
+ "system": "respiratory",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002184",
+  "NCIT": "C33526"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_left_anterior_basal_bronchus",
+   "female-VH_F_left_lingula_superior_bronchus",
+   "female-VH_F_left_apical_bronchus",
+   "female-VH_F_left_posterior_basal_bronchus",
+   "female-VH_F_left_medial_basal_bronchus",
+   "female-VH_F_left_superior_bronchus",
+   "female-VH_F_left_anterior_bronchus",
+   "female-VH_F_left_posterior_bronchus",
+   "female-VH_F_left_lateral_basal_bronchus",
+   "female-VH_F_left_lingula_inferior_bronchi",
+   "female-VH_F_right_anterior_bronchus",
+   "female-VH_F_right_lateral_basal_bronchus",
+   "female-VH_F_right_lateral_bronchus",
+   "female-VH_F_right_medial_bronchus",
+   "female-VH_F_right_medial_basal_bronchus",
+   "female-VH_F_right_posterior_basal_bronchus",
+   "female-VH_F_right_posterior_bronchus",
+   "female-VH_F_right_superior_bronchus",
+   "female-VH_F_right_apical_bronchus",
+   "female-VH_F_right_anterior_basal_bronchus"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002184/tier1.auto.md",
+   "text": "One of the divisions of the lobar bronchus that supplies a bronchopulmonary segment.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33526",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33526",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33526",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33526",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33526, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33526",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33526",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7398",
+   "FMA:7399",
+   "FMA:7400",
+   "FMA:7402",
+   "FMA:7403",
+   "FMA:7404",
+   "FMA:7416",
+   "FMA:7417",
+   "FMA:7418",
+   "FMA:7419",
+   "FMA:7420",
+   "FMA:7426",
+   "FMA:7427",
+   "FMA:7428",
+   "FMA:7430",
+   "FMA:7431",
+   "FMA:7504",
+   "FMA:7505",
+   "FMA:7506",
+   "FMA:7507",
+   "FMA:7508",
+   "UBERON:0002185"
+  ],
+  "out": [
+   "UBERON:0002185"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0001004",
+   "conceptId": "UBERON0001004",
+   "label": "Respiratory system",
+   "interior": {
+    "female": [
+     "/models/organs/lung-female.json"
+    ]
+   }
+  }
+ }
+}

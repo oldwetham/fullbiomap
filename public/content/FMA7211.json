@@ -73,6 +73,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14759"
     }
+   ],
+   "alternates": [
+    "UBERON0001188"
    ]
   },
   {
@@ -88,6 +91,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14341"
     }
+   ],
+   "alternates": [
+    "UBERON0000442"
    ]
   },
   {
@@ -120,5 +126,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "reproductive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:7211",
+   "conceptId": "FMA7211",
+   "label": "Right testis",
+   "alternates": [
+    "UBERON0004534"
+   ]
+  }
+ }
 }

@@ -1,0 +1,127 @@
+{
+ "id": "UBERON:0008953",
+ "conceptId": "UBERON0008953",
+ "label": "Lower lobe of left lung",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0008953",
+  "NCIT": "C33020",
+  "FMA": "7371"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_left_superior_bronchopulmonary_segment",
+   "female-VH_F_left_posterior_basal_bronchopulmonary_segment",
+   "female-VH_F_left_anterior_basal_bronchopulmonary_segment",
+   "female-VH_F_left_lateral_basal_bronchopulmonary_segment",
+   "female-VH_F_left_medial_basal_bronchopulmonary_segment",
+   "female-VH_F_hilum_lower_L"
+  ],
+  "models": [
+   "lung-female",
+   "lung-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_7371/tier1.auto.md",
+   "text": "The larger lobe of the left lung, situated below and behind the oblique fissure.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33020",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33020",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33020, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33020",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33020",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7376",
+   "FMA:7377",
+   "FMA:7378",
+   "FMA:7379",
+   "FMA:7380",
+   "FMA:7508",
+   "UBERON:0004887"
+  ],
+  "out": [
+   "UBERON:0002168"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:68247",
+   "conceptId": null,
+   "label": "Lymphatic chain of lower lobe of left lung",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma68247"
+    }
+   ]
+  },
+  {
+   "rel": "lymphatic_drainage",
+   "dir": "out",
+   "id": "FMA:66147",
+   "conceptId": null,
+   "label": "Right bronchomediastinal lymphatic tree",
+   "modeled": false,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma66147"
+    }
+   ]
+  }
+ ],
+ "equivalent": "FMA:7371",
+ "ladder": {
+  "system": "respiratory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:7310",
+   "conceptId": "FMA7310",
+   "label": "Left lung",
+   "alternates": [
+    "UBERON0002168"
+   ]
+  }
+ }
+}

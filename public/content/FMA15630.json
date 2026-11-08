@@ -133,6 +133,9 @@
      "license": "CC BY 3.0",
      "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14349"
     }
+   ],
+   "alternates": [
+    "UBERON0035483"
    ]
   },
   {
@@ -150,5 +153,17 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "endocrine",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:15630",
+   "conceptId": "FMA15630",
+   "label": "Left adrenal gland",
+   "alternates": [
+    "UBERON0001234"
+   ]
+  }
+ }
 }

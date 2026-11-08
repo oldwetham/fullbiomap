@@ -1,0 +1,176 @@
+{
+ "id": "FMA:3902",
+ "conceptId": "FMA3902",
+ "label": "Left marginal artery",
+ "scale": "organ",
+ "system": "arterial",
+ "synonyms": [
+  "Left marginal artery of left coronary artery",
+  "Obtuse marginal artery",
+  "Obtuse marginal branch of circumflex branch of left coronary artery"
+ ],
+ "xrefs": {},
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_left_marginal_branch"
+  ],
+  "models": [
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_3902/tier1.auto.md",
+   "text": "Branch of circumflex coronary artery which courses downward along the obtuse margin of heart to the apex and supplies the left ventricle.",
+   "source": {
+    "kind": "fma",
+    "name": "Foundational Model of Anatomy",
+    "term": "FMA:3902",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3902",
+    "license": "CC BY 3.0"
+   },
+   "sources": [
+    {
+     "title": "Foundational Model of Anatomy FMA:3902",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3902",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 3.0",
+   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:3902, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "Foundational Model of Anatomy FMA:3902",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3902",
+   "license": "CC BY 3.0"
+  }
+ ],
+ "zoom": {
+  "in": [],
+  "out": [
+   "UBERON:0004537"
+  ]
+ },
+ "connections": [
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:9560",
+   "conceptId": "FMA9560",
+   "label": "Anterior wall of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9560"
+    }
+   ],
+   "alternates": [
+    "UBERON0036288"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:84850",
+   "conceptId": "FMA84850",
+   "label": "Free wall of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma84850"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:9563",
+   "conceptId": "FMA9563",
+   "label": "Lateral wall of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9563"
+    }
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:7101",
+   "conceptId": "FMA7101",
+   "label": "Left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7101"
+    }
+   ],
+   "alternates": [
+    "UBERON0002084"
+   ]
+  },
+  {
+   "rel": "arterial_supply",
+   "dir": "in",
+   "id": "FMA:9558",
+   "conceptId": "FMA9558",
+   "label": "Myocardium of left ventricle",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9558"
+    }
+   ],
+   "alternates": [
+    "UBERON0006566"
+   ]
+  },
+  {
+   "rel": "branch_of",
+   "dir": "out",
+   "id": "FMA:3895",
+   "conceptId": "FMA3895",
+   "label": "Circumflex branch of left coronary artery",
+   "modeled": true,
+   "sources": [
+    {
+     "name": "Foundational Model of Anatomy 5.1",
+     "license": "CC BY 3.0",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3895"
+    }
+   ],
+   "alternates": [
+    "UBERON0035422"
+   ]
+  }
+ ],
+ "ladder": {
+  "system": "arterial",
+  "isOrgan": false,
+  "organ": null
+ }
+}

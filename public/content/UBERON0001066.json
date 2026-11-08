@@ -1,0 +1,150 @@
+{
+ "id": "UBERON:0001066",
+ "conceptId": "UBERON0001066",
+ "label": "Intervertebral disk",
+ "scale": "organ",
+ "system": "skeletal",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0001066",
+  "NCIT": "C49571",
+  "FMA": "10446"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_axis",
+   "female-VH_F_intervertebral_disk_of_third_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_cervical_vertebra",
+   "female-VH_F_intervertebral_disk_of_seventh_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_axis",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_cervical_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_eighth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_ninth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_tenth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_eleventh_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_twelfth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_first_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_second_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_third_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_seventh_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_eighth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_ninth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_tenth_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_eleventh_thoracic_vertebra",
+   "female-VH_F_intervertebral_disk_of_twelfth_thoracic_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_lumbar_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_lumbar_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_lumbar_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_lumbar_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_lumbar_vertebra",
+   "female-VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_first_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_second_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_third_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_fourth_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_fifth_lumbar_vertebra",
+   "female-VH_F_intervertebral_disk_of_sixth_lumbar_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
+  ],
+  "interior": {
+   "female": [
+    "/models/organs/intervertebral-disk-female.json"
+   ]
+  }
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/FMA_10446/tier1.auto.md",
+   "text": "Spongy discs located between the vertebrae of the spinal column; composed of the outer annulus fibrosus and inner nucleus pulposus.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C49571",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C49571",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C49571, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C49571",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:10456",
+   "FMA:13554",
+   "FMA:16062",
+   "UBERON:0007252",
+   "UBERON:0007254",
+   "UBERON:0007255"
+  ],
+  "out": [
+   "UBERON:0001468"
+  ]
+ },
+ "connections": [],
+ "equivalent": "FMA:10446",
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:10446",
+   "conceptId": "FMA10446",
+   "label": "Intervertebral disk",
+   "alternates": [
+    "UBERON0001066"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/intervertebral-disk-male.json"
+    ],
+    "female": [
+     "/models/organs/intervertebral-disk-female.json"
+    ]
+   }
+  }
+ }
+}

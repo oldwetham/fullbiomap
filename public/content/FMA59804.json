@@ -9,6 +9,14 @@
  "geometry": {
   "male": [
    "FJ2767"
+  ],
+  "female": [
+   "female-VH_F_sublingual_gland_R"
+  ],
+  "models": [
+   "mouth-female",
+   "mouth-male",
+   "united-female"
   ]
  },
  "content": {
@@ -52,7 +60,18 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0001832"
+  ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "digestive",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:59804",
+   "conceptId": "FMA59804",
+   "label": "Right sublingual gland"
+  }
+ }
 }

@@ -11,6 +11,12 @@
  "geometry": {
   "male": [
    "FJ1345"
+  ],
+  "female": [
+   "female-VH_F_inferior_oblique_extraocular_muscle_R"
+  ],
+  "models": [
+   "united-female"
   ]
  },
  "content": {
@@ -54,7 +60,9 @@
  ],
  "zoom": {
   "in": [],
-  "out": []
+  "out": [
+   "UBERON:0004277"
+  ]
  },
  "connections": [
   {
@@ -72,5 +80,14 @@
     }
    ]
   }
- ]
+ ],
+ "ladder": {
+  "system": "muscular",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:49050",
+   "conceptId": "FMA49050",
+   "label": "Right inferior oblique"
+  }
+ }
 }

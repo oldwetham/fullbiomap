@@ -10,6 +10,14 @@
   "male": [
    "FJ1285",
    "FJ1286"
+  ],
+  "female": [
+   "female-VH_F_optic_choroid_L"
+  ],
+  "models": [
+   "eye-female-left",
+   "eye-male-left",
+   "united-female"
   ]
  },
  "content": {
@@ -55,8 +63,29 @@
   "in": [],
   "out": [
    "FMA:58100",
-   "FMA:58108"
+   "FMA:58108",
+   "UBERON:0004548"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "sensory",
+  "isOrgan": false,
+  "organ": {
+   "id": "FMA:12515",
+   "conceptId": "FMA12515",
+   "label": "Left eyeball",
+   "alternates": [
+    "UBERON0004548"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/eye-male-left.json"
+    ],
+    "female": [
+     "/models/organs/eye-female-left.json"
+    ]
+   }
+  }
+ }
 }

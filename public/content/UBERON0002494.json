@@ -1,0 +1,93 @@
+{
+ "id": "UBERON:0002494",
+ "conceptId": "UBERON0002494",
+ "label": "Papillary muscle of heart",
+ "scale": "organ",
+ "system": "cardiac",
+ "synonyms": [],
+ "xrefs": {
+  "UBERON": "0002494",
+  "NCIT": "C33259"
+ },
+ "geometry": {
+  "male": [],
+  "female": [
+   "female-VH_F_papillary_muscle_of_heart_ant",
+   "female-VH_F_papillary_muscle_of_heart_antlat",
+   "female-VH_F_papillary_muscle_of_heart_med",
+   "female-VH_F_papillary_muscle_of_heart_pos",
+   "female-VH_F_papillary_muscle_of_heart_posmed"
+  ],
+  "models": [
+   "heart-female",
+   "heart-male",
+   "united-female"
+  ]
+ },
+ "content": {
+  "tier1": {
+   "status": "auto",
+   "file": "content/UBERON_0002494/tier1.auto.md",
+   "text": "Any one of the group of small muscles located in the ventricles of the heart that insert onto the ventricular wall and are continuous at the opposite end with the chordae tendineae, which insert onto the free edge of the atrioventricular valves, functioning to keep the valves closed during ventricular systole.",
+   "source": {
+    "kind": "ncit",
+    "name": "NCI Thesaurus",
+    "term": "NCIT:C33259",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33259",
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus NCIT:C33259",
+     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33259",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33259, National Cancer Institute. CC BY 4.0.",
+   "reviewer": null,
+   "reviewedOn": null
+  },
+  "tier2": {
+   "status": "missing"
+  },
+  "tier3": {
+   "status": "missing"
+  }
+ },
+ "media": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus NCIT:C33259",
+   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33259",
+   "license": "CC BY 4.0"
+  }
+ ],
+ "zoom": {
+  "in": [
+   "FMA:7261",
+   "FMA:7262",
+   "FMA:7264",
+   "FMA:7265",
+   "FMA:7267"
+  ],
+  "out": [
+   "UBERON:0000948"
+  ]
+ },
+ "connections": [],
+ "ladder": {
+  "system": "cardiac",
+  "isOrgan": false,
+  "organ": {
+   "id": "UBERON:0000948",
+   "conceptId": "UBERON0000948",
+   "label": "Heart",
+   "interior": {
+    "female": [
+     "/models/organs/heart-female.json"
+    ]
+   }
+  }
+ }
+}

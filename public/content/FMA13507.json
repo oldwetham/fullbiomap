@@ -12,6 +12,14 @@
  "geometry": {
   "male": [
    "FJ3209"
+  ],
+  "female": [
+   "female-VH_F_intervertebral_disk_of_tenth_thoracic_vertebra"
+  ],
+  "models": [
+   "intervertebral-disk-female",
+   "intervertebral-disk-male",
+   "united-female"
   ]
  },
  "content": {
@@ -56,8 +64,18 @@
  "zoom": {
   "in": [],
   "out": [
-   "FMA:26102"
+   "FMA:26102",
+   "UBERON:0007254"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:13507",
+   "conceptId": "FMA13507",
+   "label": "Intervertebral disk of tenth thoracic vertebra"
+  }
+ }
 }

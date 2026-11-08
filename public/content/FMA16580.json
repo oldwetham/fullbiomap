@@ -15,7 +15,12 @@
    "FJ3152",
    "FJ3288",
    "FJ3393"
-  ]
+  ],
+  "interior": {
+   "male": [
+    "/models/organs/pelvis-male.json"
+   ]
+  }
  },
  "content": {
   "tier1": {
@@ -67,5 +72,25 @@
    "FMA:87598"
   ]
  },
- "connections": []
+ "connections": [],
+ "ladder": {
+  "system": "skeletal",
+  "isOrgan": true,
+  "organ": {
+   "id": "FMA:16580",
+   "conceptId": "FMA16580",
+   "label": "Bony pelvis",
+   "alternates": [
+    "UBERON0001270"
+   ],
+   "interior": {
+    "male": [
+     "/models/organs/pelvis-male.json"
+    ],
+    "female": [
+     "/models/organs/pelvis-female.json"
+    ]
+   }
+  }
+ }
 }

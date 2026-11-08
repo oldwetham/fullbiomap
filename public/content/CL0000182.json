@@ -330,27 +330,36 @@
  },
  "figures": [
   {
-   "id": "hpa-abat-hepatocytes-liver",
+   "id": "hpa-abcb11-hepatocytes-liver",
    "source": "hpa",
    "sourceName": "Human Protein Atlas 25.1",
    "kind": "micrograph",
-   "title": "Hepatocytes in liver: ABAT immunohistochemistry",
-   "caption": "Liver stained for the ABAT protein, which HPA scores high in hepatocytes here (reliability enhanced), and not detected in the tissue's other cell types. Brown: ABAT protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of liver with ABAT protein stained brown in hepatocytes and cell nuclei stained blue.",
+   "title": "Hepatocytes in liver: ABCB11 immunohistochemistry",
+   "caption": "Liver stained for the ABCB11 protein, which HPA scores high in hepatocytes here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists ABCB11 as a biomarker of hepatocytes (ASCT+B table: liver). Brown: ABCB11 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of liver with ABCB11 protein stained brown in hepatocytes and cell nuclei stained blue.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Hepatocytes in liver: ABAT immunohistochemistry, https://images.proteinatlas.org/41690/91008_A_8_4.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000183044-ABAT/tissue/liver",
-   "imageUrl": "https://images.proteinatlas.org/41690/91008_A_8_4.jpg",
-   "thumb": "/figures/hpa-abat-hepatocytes-liver-thumb.webp",
-   "url": "/figures/hpa-abat-hepatocytes-liver.webp",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Hepatocytes in liver: ABCB11 immunohistochemistry, https://images.proteinatlas.org/19035/49515_A_9_4.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000073734-ABCB11/tissue/liver",
+   "imageUrl": "https://images.proteinatlas.org/19035/49515_A_9_4.jpg",
+   "marker": {
+    "hgnc": "HGNC:42",
+    "ensembl": "ENSG00000073734",
+    "symbol": "ABCB11",
+    "cell": "CL:0000182",
+    "tables": [
+     "liver"
+    ]
+   },
+   "thumb": "/figures/hpa-abcb11-hepatocytes-liver-thumb.webp",
+   "url": "/figures/hpa-abcb11-hepatocytes-liver.webp",
    "width": 1400,
    "height": 1400,
    "thumbWidth": 240,
    "thumbHeight": 240,
    "status": "auto",
-   "match": "HPA cell type “hepatocytes” in liver = “hepatocyte”"
+   "match": "HPA cell type “hepatocytes” in liver = “hepatocyte”; ABCB11 is HGNC:42, an ASCT+B biomarker of CL:0000182"
   },
   {
    "id": "hra-liver-liver-lobule",

@@ -388,27 +388,36 @@
  },
  "figures": [
   {
-   "id": "hpa-acta1-cardiomyocytes-heart-muscle",
+   "id": "hpa-fhl2-cardiomyocytes-heart-muscle",
    "source": "hpa",
    "sourceName": "Human Protein Atlas 25.1",
    "kind": "micrograph",
-   "title": "Cardiomyocytes in heart muscle: ACTA1 immunohistochemistry",
-   "caption": "Heart muscle stained for the ACTA1 protein, which HPA scores high in cardiomyocytes here (reliability enhanced), and not detected in the tissue's other cell types. Brown: ACTA1 protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of heart muscle with ACTA1 protein stained brown in cardiomyocytes and cell nuclei stained blue.",
+   "title": "Cardiomyocytes in heart muscle: FHL2 immunohistochemistry",
+   "caption": "Heart muscle stained for the FHL2 protein, which HPA scores high in cardiomyocytes here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists FHL2 as a biomarker of cardiomyocytes (ASCT+B table: heart). Brown: FHL2 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of heart muscle with FHL2 protein stained brown in cardiomyocytes and cell nuclei stained blue.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Cardiomyocytes in heart muscle: ACTA1 immunohistochemistry, https://images.proteinatlas.org/45/300_B_5_6.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000143632-ACTA1/tissue/heart%20muscle",
-   "imageUrl": "https://images.proteinatlas.org/45/300_B_5_6.jpg",
-   "thumb": "/figures/hpa-acta1-cardiomyocytes-heart-muscle-thumb.webp",
-   "url": "/figures/hpa-acta1-cardiomyocytes-heart-muscle.webp",
-   "width": 1373,
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Cardiomyocytes in heart muscle: FHL2 immunohistochemistry, https://images.proteinatlas.org/6028/18417_B_5_6.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000115641-FHL2/tissue/heart%20muscle",
+   "imageUrl": "https://images.proteinatlas.org/6028/18417_B_5_6.jpg",
+   "marker": {
+    "hgnc": "HGNC:3703",
+    "ensembl": "ENSG00000115641",
+    "symbol": "FHL2",
+    "cell": "CL:0000746",
+    "tables": [
+     "heart"
+    ]
+   },
+   "thumb": "/figures/hpa-fhl2-cardiomyocytes-heart-muscle-thumb.webp",
+   "url": "/figures/hpa-fhl2-cardiomyocytes-heart-muscle.webp",
+   "width": 1400,
    "height": 1400,
-   "thumbWidth": 235,
+   "thumbWidth": 240,
    "thumbHeight": 240,
    "status": "auto",
-   "match": "HPA cell type “cardiomyocytes” in heart muscle = “cardiomyocyte”"
+   "match": "HPA cell type “cardiomyocytes” in heart muscle = “cardiomyocyte”; FHL2 is HGNC:3703, an ASCT+B biomarker of CL:0000746"
   },
   {
    "id": "servier-smart-heart-cells",

@@ -793,27 +793,40 @@
  },
  "figures": [
   {
-   "id": "hpa-acp5-macrophages-lung",
+   "id": "hpa-cd163-macrophages-lung",
    "source": "hpa",
    "sourceName": "Human Protein Atlas 25.1",
    "kind": "micrograph",
-   "title": "Macrophages in lung: ACP5 immunohistochemistry",
-   "caption": "Lung stained for the ACP5 protein, which HPA scores high in macrophages here (reliability enhanced), and not detected in the tissue's other cell types. Brown: ACP5 protein. Blue: cell nuclei (hematoxylin counterstain).",
-   "alt": "Microscope image of lung with ACP5 protein stained brown in macrophages and cell nuclei stained blue.",
+   "title": "Macrophages in lung: CD163 immunohistochemistry",
+   "caption": "Lung stained for the CD163 protein, which HPA scores high in macrophages here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists CD163 as a biomarker of macrophages (ASCT+B tables: fallopian tube, large intestine, lymph node, pancreas, skin). Brown: CD163 protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "alt": "Microscope image of lung with CD163 protein stained brown in macrophages and cell nuclei stained blue.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "terms": "https://www.proteinatlas.org/about/licence",
-   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Macrophages in lung: ACP5 immunohistochemistry, https://images.proteinatlas.org/59463/139573_A_3_4.jpg. CC BY 4.0.",
-   "pageUrl": "https://v25.proteinatlas.org/ENSG00000102575-ACP5/tissue/lung",
-   "imageUrl": "https://images.proteinatlas.org/59463/139573_A_3_4.jpg",
-   "thumb": "/figures/hpa-acp5-macrophages-lung-thumb.webp",
-   "url": "/figures/hpa-acp5-macrophages-lung.webp",
+   "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Macrophages in lung: CD163 immunohistochemistry, https://images.proteinatlas.org/46404/134927_A_3_4.jpg. CC BY 4.0.",
+   "pageUrl": "https://v25.proteinatlas.org/ENSG00000177575-CD163/tissue/lung",
+   "imageUrl": "https://images.proteinatlas.org/46404/134927_A_3_4.jpg",
+   "marker": {
+    "hgnc": "HGNC:1631",
+    "ensembl": "ENSG00000177575",
+    "symbol": "CD163",
+    "cell": "CL:0000235",
+    "tables": [
+     "fallopian-tube",
+     "large-intestine",
+     "lymph-node",
+     "pancreas",
+     "skin"
+    ]
+   },
+   "thumb": "/figures/hpa-cd163-macrophages-lung-thumb.webp",
+   "url": "/figures/hpa-cd163-macrophages-lung.webp",
    "width": 1400,
    "height": 1400,
    "thumbWidth": 240,
    "thumbHeight": 240,
    "status": "auto",
-   "match": "HPA cell type “macrophages” in lung = “macrophage”"
+   "match": "HPA cell type “macrophages” in lung = “macrophage”; CD163 is HGNC:1631, an ASCT+B biomarker of CL:0000235"
   },
   {
    "id": "hra-small-intestine-villus",

@@ -8,6 +8,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "terms": "https://www.proteinatlas.org/about/licence"
  },
+ "hgnc": {
+  "name": "HGNC (HUGO Gene Nomenclature Committee)",
+  "_note": "Not a figure source. For a cell type's HPA image, step 10 prefers a protein that HRA's ASCT+B tables list as a biomarker of that cell type. The tables name biomarkers by HGNC id and HPA by Ensembl gene id, so step 10 reads HGNC's own record of each such id (its ensembl_gene_id, for an approved symbol) to join the two. Some rows give a biomarker another gene's id, so a row counts only where HGNC's record also carries one of the names the row gives that biomarker (its symbol, approved name, a previous symbol or an alias, ignoring case, spaces and punctuation). Nothing from HGNC is shown. HGNC's terms (genenames.org/about): its data are freely available to all; it asks to be credited as the HUGO Gene Nomenclature Committee at the University of Cambridge, with its website URL.",
+  "fetch": "https://rest.genenames.org/fetch/hgnc_id/",
+  "site": "https://www.genenames.org",
+  "terms": "https://www.genenames.org/about/",
+  "credit": "HUGO Gene Nomenclature Committee at the University of Cambridge, https://www.genenames.org (RRID:SCR_002827)"
+ },
  "hra": {
   "name": "Human Reference Atlas (HuBMAP)",
   "license": "CC BY 4.0",
@@ -74,11 +82,10 @@
  },
  "grays": {
   "name": "Gray's Anatomy (1918)",
-  "_note": "A last resort (decision 1, approved): only for bones, muscles, vessels and nerves (an atlas structure under one of `classes` in FMA: bone organ, muscle organ, segment of vascular tree organ, nerve), never for tissues, cells or organelles, and only where no other source has a figure. A plate matches when its own legend title, the text before the legend's first period in the scan's OCR, is one of the structure's names. The plate is cropped by the Internet Archive's IIIF server from the page, between the nearest line of text above it and its legend. The 1918 edition is in the public domain in the United States by date; its editor W. H. Lewis died in 1964, so plates he added may still be in copyright elsewhere.",
+  "_note": "A last resort (decision 1, approved): only for bones, muscles, vessels and nerves (an atlas structure under one of `classes` in FMA: bone organ, muscle organ, segment of vascular tree organ, nerve), never for tissues, cells or organelles, and only where no other source has a figure. A plate matches when its own legend title, the text before the legend's first period in the scan's OCR, is one of the structure's names. The plate is cropped from the scan's page image (the Internet Archive's BookReader JPEG, cropped locally with sharp), between the nearest line of text above it and its legend. The 1918 edition is in the public domain in the United States by date; its editor W. H. Lewis died in 1964, so plates he added may still be in copyright elsewhere.",
   "item": "anatomyofhumanbo1918gray",
   "download": "https://archive.org/download/anatomyofhumanbo1918gray",
   "details": "https://archive.org/details/anatomyofhumanbo1918gray",
-  "iiif": "https://iiif.archive.org/iiif",
   "classes": [
    "FMA:5018",
    "FMA:5022",

@@ -123,6 +123,7 @@ const FIGURE_LICENCES = new Set(['CC BY 4.0', 'Public Domain', 'Public Domain (U
 const figureSources = JSON.parse(read('pipeline/maps/figure-sources.json')), lookAlike = JSON.parse(read('pipeline/maps/look-alike.json'));
 const OPENSTAX_RIGHTS = /©|\bcopyright\b|all rights reserved|Regents of (?:the )?University of Michigan|\bprovided by\b/i, OPENSTAX_PD = new RegExp(figureSources.openstax.publicDomainCredits);
 const lookAlikeOf = new Map(lookAlike.groups.flatMap(g => g.members.map(m => [m, g.sentence])));
+const ASCTB_TABLES = new Set(Object.keys(JSON.parse(read('pipeline/maps/hra-release.json')).tables));
 for (const g of lookAlike.groups) {  // every protein the sentence names has a cited source (step 10 checks each one in it)
   for (const e of g.evidence) if (!['openstax', 'cl-definition', 'cl-axiom', 'asctb'].includes(e.kind) || !(e.quote || e.term || e.text) || !(e.file || e.term || e.table)) fail(`look-alike ${g.id}`, `evidence ${JSON.stringify(e).slice(0, 80)} names no source`);
   for (const [cd] of g.sentence.matchAll(/\bCD\d+\b|\bAQP\d\b/g)) if (!g.evidence.some(e => e.protein?.toLowerCase() === cd.toLowerCase())) fail(`look-alike ${g.id}`, `${cd} has no source`);
@@ -158,6 +159,16 @@ function checkFigures(list, where, nodeId, max = 3) {
     }
     if (f.focus && !(f.ftu?.hits ?? []).some(h => h.cl === f.focus)) fail(what, `highlights ${f.focus}, which the illustration does not draw`);
     if (nodeId && lookAlikeOf.has(nodeId) && !f.caption.includes(lookAlikeOf.get(nodeId))) fail(what, 'caption lacks the sentence naming the proteins that tell this cell type from its look-alikes');
+    // An HPA image of a protein the ASCT+B tables list as a biomarker of the cell type (step 10 checks the tables): shown
+    // only for that cell type, its page is that gene's, and its caption says so.
+    if (f.marker) {
+      const m = f.marker;
+      if (f.source !== 'hpa' || !/^HGNC:\d+$/.test(m.hgnc ?? '') || !/^ENSG\d+$/.test(m.ensembl ?? '') || !m.symbol || !m.tables?.length) fail(what, 'biomarker record needs an HPA source, HGNC id, Ensembl id, gene symbol and ASCT+B tables');
+      for (const t of m.tables ?? []) if (!ASCTB_TABLES.has(t)) fail(what, `biomarker table "${t}" is not an ASCT+B table in pipeline/maps/hra-release.json`);
+      if (nodeId && m.cell !== nodeId) fail(what, `shows a biomarker of ${m.cell}, not of ${nodeId}`);
+      if (!f.pageUrl.includes(`/${m.ensembl}-`)) fail(what, `page link is not the HPA page of ${m.ensembl}`);
+      if (!f.caption.includes(`lists ${m.symbol} as a biomarker`)) fail(what, 'caption does not say the protein is an ASCT+B biomarker');
+    }
     // Gray's Anatomy (1918): a last resort, only for bones, muscles, vessels and nerves, never beside another source's
     // figure, and always with its fixed caption (pipeline/maps/figure-sources.json `grays`).
     if (f.source === 'grays') {

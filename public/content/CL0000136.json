@@ -532,7 +532,7 @@
    "sourceName": "Human Protein Atlas 25.1",
    "kind": "micrograph",
    "title": "Adipocytes in breast: LIPE immunohistochemistry",
-   "caption": "Breast stained for the LIPE protein, which HPA scores high in adipocytes here (reliability enhanced), and not detected in the tissue's other cell types. Brown: LIPE protein. Blue: cell nuclei (hematoxylin counterstain).",
+   "caption": "Breast stained for the LIPE protein, which HPA scores high in adipocytes here (reliability enhanced), and not detected in the tissue's other cell types. The Human Reference Atlas lists LIPE as a biomarker of adipocytes (ASCT+B table: pancreas). Brown: LIPE protein. Blue: cell nuclei (hematoxylin counterstain).",
    "alt": "Microscope image of breast with LIPE protein stained brown in adipocytes and cell nuclei stained blue.",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -540,6 +540,15 @@
    "credit": "Image from the Human Protein Atlas 25.1 (proteinatlas.org): Adipocytes in breast: LIPE immunohistochemistry, https://images.proteinatlas.org/17700/132029_B_2_4.jpg. CC BY 4.0.",
    "pageUrl": "https://v25.proteinatlas.org/ENSG00000079435-LIPE/tissue/breast",
    "imageUrl": "https://images.proteinatlas.org/17700/132029_B_2_4.jpg",
+   "marker": {
+    "hgnc": "HGNC:6621",
+    "ensembl": "ENSG00000079435",
+    "symbol": "LIPE",
+    "cell": "CL:0000136",
+    "tables": [
+     "pancreas"
+    ]
+   },
    "thumb": "/figures/hpa-lipe-adipocytes-breast-thumb.webp",
    "url": "/figures/hpa-lipe-adipocytes-breast.webp",
    "width": 1400,
@@ -547,7 +556,7 @@
    "thumbWidth": 240,
    "thumbHeight": 240,
    "status": "auto",
-   "match": "HPA cell type “adipocytes” in breast = “adipocyte”"
+   "match": "HPA cell type “adipocytes” in breast = “adipocyte”; LIPE is HGNC:6621, an ASCT+B biomarker of CL:0000136"
   },
   {
    "id": "hra-mouth-parotid-gland",

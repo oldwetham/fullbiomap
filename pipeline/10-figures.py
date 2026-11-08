@@ -5,7 +5,10 @@ pipeline/maps/figures.json; where a match is doubtful there is no figure.
 Usage: python3 -I pipeline/10-figures.py
 
 Sources (pipeline/maps/figure-sources.json); each image's licence comes from the source's own record or page:
-- Human Protein Atlas 25.1 (CC BY 4.0): each organ's histology micrograph, as step 08 chose it.
+- Human Protein Atlas 25.1 (CC BY 4.0): each organ's histology micrograph, as step 08 chose it; for a cell type HPA names
+  in a tissue, HPA's image of a protein it scores high there, preferring a biomarker that HRA's ASCT+B tables list for
+  that cell type (their HGNC ids joined to HPA's Ensembl genes through HGNC's own records); for an organelle, HPA's
+  immunofluorescence image of a protein it locates only there.
 - HRA v2.5 2D functional tissue units (CC BY 4.0 in each illustration's own HRA record): labeled diagrams for their organ
   (the crosswalk's Uberon id) and for every cell type they draw (the crosswalk's Cell Ontology id). They open as their
   interactive SVG, with that cell type highlighted.
@@ -41,7 +44,7 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _http import get_file, get_json  # noqa: E402
+from _http import NotFound, get_file, get_json  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 MAPS = ROOT / 'pipeline/maps'
@@ -152,11 +155,18 @@ def hpa_table(name):
         return list(csv.DictReader(io.TextIOWrapper(fh, encoding='utf-8'), delimiter='\t'))
 
 
+hpa_failed = set()
+
+
 def hpa_entry(ensg):
-    """A gene's HPA record (the file step 08 also caches), or None if it will not download: that candidate is skipped."""
+    """A gene's HPA record (the file step 08 also caches), or None if it will not download: that candidate is skipped
+    (and reported once)."""
+    if ensg in hpa_failed:
+        return None
     try:
         return ET.parse(get_file(f'https://www.proteinatlas.org/{ensg}.xml', HPA_RAW / f'{ensg}.xml')).getroot().find('entry')
     except Exception as e:  # noqa: BLE001 - a record that will not download is skipped and reported, as in step 08
+        hpa_failed.add(ensg)
         reject('hpa', ensg, f'record did not download ({type(e).__name__}); skipped')
         return None
 
@@ -205,14 +215,98 @@ for organ, cfg in TISSUE['organs'].items():
                               f"{HPA['site']}/{g['ensembl']}-{g['symbol']}/tissue/{urllib.parse.quote(tissue)}")
     offer(f'organ:{organ}', fid, f"HPA tissue “{tissue}” is this organ's tissue in pipeline/maps/tissue-media.json", 'title')
 
-# Cell types: a cell type HPA annotates in a tissue whose name is one of ours. The image is HPA's representative one for a
-# protein HPA scores high in that cell type (reliability enhanced, else supported); proteins that stain nothing else in
-# that tissue come first, then tissues of our organs.
+# HRA ASCT+B tables (cached by step 04): the header row (the one starting AS/1) and the rows below it.
+asctb_cache = {}
+
+
+def asctb_table(table):
+    if table not in asctb_cache:
+        with open(ROOT / 'data/raw/hra' / RELEASE['release'] / 'asct-b' / table / RELEASE['tables'][table]['files'][0], encoding='utf-8', newline='') as fh:
+            rows = list(csv.reader(fh))
+        head = next((i for i, r in enumerate(rows) if r and r[0].startswith('AS/1')), None)
+        asctb_cache[table] = (rows[head], rows[head + 1:]) if head is not None else (None, [])
+    return asctb_cache[table]
+
+
+# ASCT+B biomarkers of each cell type. A row's gene and protein biomarkers (BGene and BProtein columns with an HGNC id)
+# belong to its last cell type: CT/1 is the broadest, so in a "glial cell, Schwann cell" row they are the Schwann cell's.
+# A last cell type without a Cell Ontology id (a subtype the table names but cannot identify) keeps them: they count for
+# none of ours. A row whose last cell type is, in Cell Ontology, an ancestor of another of its cell types lists them out
+# of order; it is skipped. Each biomarker keeps the names the row gives it (its BGene/n and BGene/n/LABEL cells).
+cell_ancestors = {cl: set(d.get('ancestors') or []) for cl, d in cell_defs.items()}
+biomarkers = defaultdict(lambda: defaultdict(list))  # cell type -> HGNC id -> [(table, the row's names for it)]
+for table in RELEASE['tables']:
+    header, rows = asctb_table(table)
+    if header is None:
+        continue
+    col = {}
+    for i, c in enumerate(header):
+        col.setdefault(c.strip(), i)
+    groups = sorted({int(m.group(1)) for c in col if (m := re.fullmatch(r'CT/(\d+)(?:/LABEL|/ID)?', c))})
+    marker_cols = [c[:-3] for c in col if re.fullmatch(r'B(?:Gene|Protein)/\d+/ID', c)]
+    for r in rows:
+        at = lambda c: r[col[c]].strip() if c in col and col[c] < len(r) else ''
+        named = [n for n in groups if any(at(f'CT/{n}{part}') for part in ('', '/LABEL', '/ID'))]
+        ids = [at(f'CT/{n}/ID') for n in named]
+        if not ids or not re.fullmatch(r'CL:\d+', ids[-1]) or any(ids[-1] in cell_ancestors.get(x, ()) for x in ids[:-1]):
+            continue
+        for base in marker_cols:
+            if re.fullmatch(r'HGNC:\d+', at(base + '/ID')):
+                biomarkers[ids[-1]][at(base + '/ID')].append((table, {at(base), at(base + '/LABEL')} - {''}))
+
+# The tables name biomarkers by HGNC id and HPA names genes by Ensembl id: HGNC's own record of an approved HGNC id gives
+# its Ensembl gene (pipeline/maps/figure-sources.json `hgnc`). Some rows give a biomarker another gene's id (the
+# bone-marrow table gives LIPE the id of LHFPL1), so a row counts only where the id and the name agree: one of the row's
+# names for it is the record's symbol, approved name, a previous symbol or an alias, ignoring case, spaces and
+# punctuation ("melanA" is MLANA's "melan-A").
+HGNC = SRC['hgnc']
+hgnc_genes = {}
+gene_key = lambda s: re.sub(r'[^0-9a-z]', '', s.lower())
+
+
+def hgnc_record(hgnc_id):
+    """(Ensembl gene, symbol, the keys of every name it goes by) from HGNC's record; None unless approved with an Ensembl gene."""
+    if hgnc_id not in hgnc_genes:
+        try:
+            docs = get_json(HGNC['fetch'] + hgnc_id.removeprefix('HGNC:'))['response']['docs']
+        except NotFound:
+            docs = []
+        d = docs[0] if len(docs) == 1 else {}
+        names = [d.get('symbol'), d.get('name'), *(d.get('prev_symbol') or []), *(d.get('alias_symbol') or [])]
+        hgnc_genes[hgnc_id] = ((d['ensembl_gene_id'], d['symbol'], {gene_key(n) for n in names if n and gene_key(n)})
+                               if d.get('status') == 'Approved' and d.get('hgnc_id') == hgnc_id and d.get('ensembl_gene_id') else None)
+    return hgnc_genes[hgnc_id]
+
+
+# Cell types: a cell type HPA annotates in a tissue whose name is one of ours. The image is HPA's representative one of
+# that tissue for a protein HPA scores high in that cell type (reliability enhanced, else supported). A protein that the
+# ASCT+B tables list as a biomarker of that cell type comes first. Without a usable image of one, the rule without
+# biomarkers picks from the first twelve proteins: those that stain nothing else in that tissue first, then enhanced
+# reliability, then tissues of our organs, then tissue and gene name. reports/figures.md lists both picks.
 ihc = hpa_table('normal_ihc_data')
 levels = defaultdict(dict)
 for r in ihc:
     levels[(r['Gene'], r['IHC tissue name'])][r['Cell type']] = r['Level']
 our_tissues = {cfg['hpa'] for cfg in TISSUE['organs'].values() if cfg.get('hpa')}
+tissue_images = {}
+
+
+def hpa_tissue_image(rows):
+    """The first row whose protein has HPA's representative image of the row's tissue at full resolution, as
+    (row, image URL, local file); None if no row has one."""
+    for r in rows:
+        if (r['Gene'], r['IHC tissue name']) not in tissue_images:
+            entry = hpa_entry(r['Gene'])
+            block = entry.find("tissueExpression[@technology='IHC'][@assayType='tissue']") if entry is not None else None
+            image = next((i for i in block.findall("image[@imageType='selected']") if same_tissue(i.findtext('tissue'), r['IHC tissue name'])), None) if block is not None else None
+            tissue_images[(r['Gene'], r['IHC tissue name'])] = hpa_full(image.findtext('imageUrl')) if image is not None else (None, None)
+        image_url, path = tissue_images[(r['Gene'], r['IHC tissue name'])]
+        if path:
+            return r, image_url, path
+    return None
+
+
+hpa_cells = []  # per cell type: the image shown and the one the rule without biomarkers picks (reports/figures.md)
 for name in sorted({r['Cell type'] for r in ihc}):
     hits = [u for u in matches(name) if units[u]['scope'] == 'cell']
     if not hits:
@@ -220,30 +314,45 @@ for name in sorted({r['Cell type'] for r in ihc}):
     specific = lambda r: all(level == 'Not detected' for cell, level in levels[(r['Gene'], r['IHC tissue name'])].items() if cell != name)
     rows = sorted((r for r in ihc if r['Cell type'] == name and r['Level'] == 'High' and r['Reliability'] in ('Enhanced', 'Supported')),
                   key=lambda r: (not specific(r), r['Reliability'] != 'Enhanced', r['Tissue'].lower() not in our_tissues, r['IHC tissue name'], r['Gene name']))
-    found = None
-    for r in rows[:12]:
-        entry = hpa_entry(r['Gene'])
-        block = entry.find("tissueExpression[@technology='IHC'][@assayType='tissue']") if entry is not None else None
-        image = next((i for i in block.findall("image[@imageType='selected']") if same_tissue(i.findtext('tissue'), r['IHC tissue name'])), None) if block is not None else None
-        if image is None:
-            continue
-        image_url, path = hpa_full(image.findtext('imageUrl'))
-        if path:
-            found = (r, image_url, path)
-            break
-    if not found:
-        reject('hpa', f'cell type “{name}”', f'none of the first {min(12, len(rows))} of {len(rows)} proteins scored high in it has a representative image of that tissue')
-        continue
-    r, image_url, path = found
-    gene, tissue = r['Gene name'], r['Tissue']
-    fid = f"hpa-{slug(gene)}-{slug(name)}-{slug(r['IHC tissue name'])}"
-    figures[fid] = hpa_figure(fid, 'micrograph', f"{upper_first(name)} in {tissue.lower()}: {gene} immunohistochemistry",
-                              f"{tissue} stained for the {gene} protein, which HPA scores high in {name} here (reliability {r['Reliability'].lower()})"
-                              + (', and not detected in the tissue\'s other cell types' if specific(r) else '') + f". Brown: {gene} protein. Blue: cell nuclei (hematoxylin counterstain).",
-                              f"Microscope image of {tissue.lower()} with {gene} protein stained brown in {name} and cell nuclei stained blue.", image_url, path,
-                              f"{HPA['site']}/{r['Gene']}-{gene}/tissue/{urllib.parse.quote(tissue.lower())}")
+    plain = hpa_tissue_image(rows[:12])
     for uid in hits:
-        offer(uid, fid, f"HPA cell type “{name}” in {tissue.lower()} = “{units[uid]['names'][key(name)]}”", 'title')
+        listed, disagree = {}, set()  # Ensembl gene -> (HGNC id, the tables whose rows give it that id and one of its names)
+        for hgnc_id, entries in sorted(biomarkers.get(uid, {}).items()):
+            rec = hgnc_record(hgnc_id)
+            if not rec:
+                continue
+            agree = lambda names: bool({gene_key(n) for n in names} & rec[2])
+            if tables := sorted({t for t, names in entries if agree(names)}):
+                listed.setdefault(rec[0], (hgnc_id, tables))
+            disagree |= {f"{t}: {' / '.join(sorted(names)) or 'no name'} has {hgnc_id}, which is {rec[1]}" for t, names in entries if not agree(names)}
+        high = sorted({r['Gene name'] for r in rows if r['Gene'] in listed})
+        found = hpa_tissue_image([r for r in rows if r['Gene'] in listed])
+        marker = listed[found[0]['Gene']] if found else None
+        found = found or plain
+        pick = lambda f: f and (f[0]['Gene name'], f[0]['Tissue'])
+        hpa_cells.append({'unit': uid, 'name': name, 'listed': len(biomarkers.get(uid, {})), 'joined': len(listed), 'high': high,
+                          'disagree': sorted(disagree), 'marker': marker, 'shown': pick(found), 'plain': pick(plain)})
+        if not found:
+            reject('hpa', f'cell type “{name}”', f'none of the {len(high)} ASCT+B biomarkers of {uid} that HPA scores high in it, nor the first {min(12, len(rows))} '
+                   f'of the {len(rows)} proteins HPA scores high in it, has a representative image of that tissue')
+            continue
+        r, image_url, path = found
+        gene, tissue = r['Gene name'], r['Tissue']
+        fid = f"hpa-{slug(gene)}-{slug(name)}-{slug(r['IHC tissue name'])}"
+        listing = (f" The Human Reference Atlas lists {gene} as a biomarker of {name} (ASCT+B {'table' if len(marker[1]) == 1 else 'tables'}: "
+                   f"{', '.join(t.replace('-', ' ') for t in marker[1])})." if marker else '')
+        rec = hpa_figure(fid, 'micrograph', f"{upper_first(name)} in {tissue.lower()}: {gene} immunohistochemistry",
+                         f"{tissue} stained for the {gene} protein, which HPA scores high in {name} here (reliability {r['Reliability'].lower()})"
+                         + (', and not detected in the tissue\'s other cell types' if specific(r) else '') + f".{listing} Brown: {gene} protein. Blue: cell nuclei (hematoxylin counterstain).",
+                         f"Microscope image of {tissue.lower()} with {gene} protein stained brown in {name} and cell nuclei stained blue.", image_url, path,
+                         f"{HPA['site']}/{r['Gene']}-{gene}/tissue/{urllib.parse.quote(tissue.lower())}")
+        if marker:
+            rec['marker'] = {'hgnc': marker[0], 'ensembl': r['Gene'], 'symbol': gene, 'cell': uid, 'tables': marker[1]}
+        if figures.get(fid, rec) != rec:
+            raise SystemExit(f'10-figures: {fid} would need two captions: HPA cell type “{name}” names more than one of our cell types, with different biomarkers')
+        figures[fid] = rec
+        offer(uid, fid, f"HPA cell type “{name}” in {tissue.lower()} = “{units[uid]['names'][key(name)]}”"
+              + (f"; {gene} is {marker[0]}, an ASCT+B biomarker of {uid}" if marker else ''), 'title')
 
 # Organelles: an HPA subcellular location whose GO id is the organelle's own, shown by a protein HPA locates only there
 # (no other location; reliability enhanced, else supported), in HPA's representative immunofluorescence field.
@@ -308,16 +417,13 @@ organ_of_node = {gid(c): f'organ:{organ}' for organ, cfg in TISSUE['organs'].ite
 # illustrations rank by how many rows of its tables name the illustration's tissue; a cell type's by how many rows name
 # that cell type with that tissue, then by how many shapes draw it.
 asctb_ftu = defaultdict(int)  # (table, tissue id) and (cell type, tissue id) -> rows
-for table, info in RELEASE['tables'].items():
-    with open(ROOT / 'data/raw/hra' / RELEASE['release'] / 'asct-b' / table / info['files'][0], encoding='utf-8', newline='') as fh:
-        rows = list(csv.reader(fh))
-    head = next((i for i, r in enumerate(rows) if r and r[0].startswith('AS/1')), None)
-    if head is None:
+for table in RELEASE['tables']:
+    header, rows = asctb_table(table)
+    if header is None:
         continue
-    header = rows[head]
     ftu_cols = [i for i, c in enumerate(header) if re.fullmatch(r'FTU/\d+/ID', c)]
     ct_cols = [i for i, c in enumerate(header) if re.fullmatch(r'CT/\d+/ID', c)]
-    for r in rows[head + 1:]:
+    for r in rows:
         tissues = {r[i].strip() for i in ftu_cols if i < len(r) and r[i].strip()}
         for tissue in tissues:
             asctb_ftu[(table, tissue)] += 1
@@ -502,7 +608,7 @@ for entry in BIOART['entries']:
         offer(uid, fid, f"BioArt title “{title}” = “{units[uid]['names'][key(title)]}”", 'title', rank=(eid,))
 
 # Gray's Anatomy (1918), the Internet Archive scan: a plate whose own legend title (the text before the legend's first
-# period, from the scan's OCR) is a bone's, muscle's, vessel's or nerve's name, cropped from its page by IIIF between the
+# period, from the scan's OCR) is a bone's, muscle's, vessel's or nerve's name, cropped from its page image between the
 # nearest line of text above it and its legend. Only a last resort: see the selection below.
 LEGEND = re.compile(r'^F[iI1l][gG]\.?\s*(\d{1,4})\s*[.,:]?\s*[—–-]+\s*(.+)$')
 ANY_LEGEND = re.compile(r'^F[iI1l][gG]\.?\s*\d{1,4}\b')  # also a bare "FIG. 102." under or over a drawing
@@ -655,15 +761,10 @@ def axioms(record):
     return out
 
 
-asctb_cache = {}
 def asctb_cells(table, cl, column):
-    if table not in asctb_cache:
-        info = RELEASE['tables'][table]
-        with open(ROOT / 'data/raw/hra' / RELEASE['release'] / 'asct-b' / table / info['files'][0], encoding='utf-8', newline='') as fh:
-            rows = list(csv.reader(fh))
-        head = next(i for i, r in enumerate(rows) if r and r[0].startswith('AS/1'))
-        asctb_cache[table] = (rows[head], rows[head + 1:])
-    header, rows = asctb_cache[table]
+    header, rows = asctb_table(table)
+    if header is None:
+        return []
     ct = [i for i, c in enumerate(header) if re.fullmatch(r'CT/\d+/ID', c)]
     col = [i for i, c in enumerate(header) if c == column]
     return [r[i] for r in rows if any(i < len(r) and r[i].strip() == cl for i in ct) for i in col if i < len(r)]
@@ -810,6 +911,31 @@ for scope, title in (('organ', 'Organs'), ('cell', 'Cell types with a morphology
         how = '<br>'.join(e['match'] for e in es) or '-'
         lines.append(f"| {u['label']} ({u['id'].removeprefix('organ:')}) | {shown} | {how} |")
     lines.append('')
+# HPA images of cell types: what each shows, what the rule without biomarkers picks, and which the biomarker rule changed.
+at_cell = lambda p: f'{p[0]} in {p[1].lower()}' if p else 'no image'
+label_of = lambda c: units[c['unit']]['label']
+changed = [c for c in hpa_cells if c['shown'] != c['plain']]
+same = [c for c in hpa_cells if c['marker'] and c['shown'] == c['plain']]
+lines += ['## HPA images of cell types', '',
+          "A cell type HPA names in a tissue shows HPA's image of a protein HPA scores high there (reliability enhanced, else supported). "
+          "A protein that HRA's ASCT+B tables list as a biomarker of that cell type comes first: a row's gene and protein biomarkers belong to its last cell type, "
+          "and HGNC's record of each biomarker's HGNC id gives the Ensembl gene HPA uses; a row counts only where that record also carries one of the row's names "
+          "for the biomarker. Without a usable image of one, the rule without biomarkers picks from the first twelve proteins: those not detected in the "
+          "tissue's other cell types first, then enhanced reliability, our organs' tissues, tissue name and gene name.", '',
+          '- Changed by the biomarker rule (rule without biomarkers → now): ' + ('; '.join(f'{label_of(c)}: {at_cell(c["plain"])} → {at_cell(c["shown"])}' for c in changed) or 'none') + '.',
+          '- Same image, its protein itself a listed biomarker (the caption now says so): ' + ('; '.join(f'{label_of(c)}: {at_cell(c["shown"])}' for c in same) or 'none') + '.',
+          '- No listed biomarker with a usable HPA image (the rule without biomarkers picks): ' + ('; '.join(label_of(c) for c in hpa_cells if not c['marker']) or 'none') + '.', '',
+          '| Cell type | HPA cell type | Shown | Biomarker (ASCT+B tables) | ASCT+B biomarkers: listed / id and name agree / scored high by HPA | Rule without biomarkers |',
+          '| --- | --- | --- | --- | --- | --- |']
+for c in sorted(hpa_cells, key=lambda c: label_of(c).lower()):
+    m = c['marker']
+    marker_cell = '{} ({})'.format(m[0], ', '.join(m[1])) if m else '-'
+    counts = '{} / {} / {}'.format(c['listed'], c['joined'], len(c['high'])) + (': ' + ', '.join(c['high']) if c['high'] else '')
+    lines.append(f"| {label_of(c)} ({c['unit']}) | {c['name']} | {at_cell(c['shown'])} | {marker_cell} | {counts} | {at_cell(c['plain'])} |")
+lines += ['', "ASCT+B rows whose biomarker id and name disagree for these cell types (HGNC's record of the id does not carry the name the row gives it; "
+          "mostly another gene's id), not used:", '']
+lines += [f'- {label_of(c)}: {d}' for c in sorted(hpa_cells, key=lambda c: label_of(c).lower()) for d in c['disagree']] or ['- None.']
+lines.append('')
 lines += ['## Matched but not shown', '', 'Candidates that matched a structure but lost to a better-ranked figure (up to three per structure).', '']
 lines += [f"- {u['label']}: {figures[o['figure']]['sourceName']} “{figures[o['figure']]['title']}” ({o['match']})"
           + ('; listed with the tissue board\'s other tissue units' if any(e['figure'] == o['figure'] for e in u.get('units', [])) else '') for u, o in not_chosen] or ['- None.']
@@ -843,6 +969,9 @@ for source, heading in (('hpa', f"Human Protein Atlas {HPA['release']} (CC BY 4.
     if fs:
         section += ['', f'- {heading}:', '']
         section += [f"  - {f['title']}: {f['credit']} {f['pageUrl']}" for f in sorted(fs, key=lambda f: f['title'].lower())]
+if hgnc_genes:
+    section += ['', f"- Gene ids: {HGNC['credit']}. Its records join the HGNC ids of the HRA ASCT+B tables' biomarkers to the Ensembl genes the Human Protein Atlas uses, "
+                f"to choose which protein a cell type's HPA image shows; nothing from HGNC is shown. HGNC data are freely available to all ({HGNC['terms']})."]
 att = ROOT / 'public/ATTRIBUTION.md'
 text = att.read_text()
 block = '\n'.join(section) + '\n'
@@ -855,4 +984,5 @@ else:
     text = text.replace(anchor, block + '\n' + anchor) if anchor in text else text.rstrip('\n') + '\n\n' + block
 att.write_text(text)
 print(json.dumps({'figures': len(used), **{s: by_source[s] for s in SOURCE_ORDER if by_source[s]}, 'MB': round(total / 2**20, 1),
-                  'with figures': sum(1 for es in unit_figures.values() if es), 'units': len(units), 'rejected': len(rejected)}))
+                  'with figures': sum(1 for es in unit_figures.values() if es), 'units': len(units), 'rejected': len(rejected),
+                  'cell types showing a biomarker': sum(1 for c in hpa_cells if c['marker']), 'changed by the biomarker rule': len(changed)}))

@@ -1,0 +1,274 @@
+{
+ "_comment": "Tissue media per organ: which Human Protein Atlas normal tissue and which HRA 2D tissue unit organ (Uberon id) belong to which of our organ nodes (concept ids: male BodyParts3D concepts, or the root concept of an organ shown on its own). Media attach to these nodes; is_a descendants inherit them (left kidney gets the kidney's). Read by pipeline/08-histology.py. `tables`: ASCT+B tables whose cell types belong on these organs' tissue boards; a cell type is placed in the deepest structure of its row when that structure lies inside the organ, else in the organ itself. `hpa` is the HPA IHC tissue the image must show; `hpaRna` (when different) is HPA's consensus RNA tissue used to find enriched genes (e.g. the spleen is under 'lymphoid tissue').",
+ "hpa": {
+  "release": "25.1",
+  "released": "2026-05-25",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://www.proteinatlas.org/about/licence"
+ },
+ "organs": {
+  "kidney": {
+   "nodes": [
+    "FMA7203"
+   ],
+   "hpa": "kidney",
+   "uberon": "UBERON:0002113",
+   "tables": [
+    "kidney"
+   ]
+  },
+  "heart": {
+   "nodes": [
+    "FMA7088"
+   ],
+   "hpa": "heart muscle",
+   "uberon": "UBERON:0000948",
+   "tables": [
+    "heart"
+   ]
+  },
+  "liver": {
+   "nodes": [
+    "FMA7197"
+   ],
+   "hpa": "liver",
+   "uberon": "UBERON:0002107",
+   "tables": [
+    "liver"
+   ]
+  },
+  "lung": {
+   "nodes": [
+    "FMA7309",
+    "FMA7310"
+   ],
+   "hpa": "lung",
+   "uberon": "UBERON:0002048",
+   "tables": [
+    "lung"
+   ]
+  },
+  "pancreas": {
+   "nodes": [
+    "FMA7198"
+   ],
+   "hpa": "pancreas",
+   "uberon": "UBERON:0001264",
+   "tables": [
+    "pancreas"
+   ]
+  },
+  "spleen": {
+   "nodes": [
+    "FMA7196"
+   ],
+   "hpa": "spleen",
+   "uberon": "UBERON:0002106",
+   "tables": [
+    "spleen"
+   ],
+   "hpaRna": "lymphoid tissue"
+  },
+  "stomach": {
+   "nodes": [
+    "FMA7148"
+   ],
+   "hpa": "stomach"
+  },
+  "small intestine": {
+   "nodes": [
+    "FMA7200"
+   ],
+   "hpa": "small intestine",
+   "uberon": "UBERON:0002108",
+   "tables": [
+    "small-intestine"
+   ],
+   "hpaRna": "intestine"
+  },
+  "large intestine": {
+   "nodes": [
+    "FMA7201"
+   ],
+   "hpa": "colon",
+   "uberon": "UBERON:0000059",
+   "tables": [
+    "large-intestine"
+   ],
+   "hpaRna": "intestine"
+  },
+  "esophagus": {
+   "nodes": [
+    "FMA7131"
+   ],
+   "hpa": "esophagus"
+  },
+  "gallbladder": {
+   "nodes": [
+    "FMA7202"
+   ],
+   "hpa": "gallbladder"
+  },
+  "urinary bladder": {
+   "nodes": [
+    "FMA15900"
+   ],
+   "hpa": "urinary bladder",
+   "tables": [
+    "urinary-bladder"
+   ]
+  },
+  "brain": {
+   "nodes": [
+    "FMA50801"
+   ],
+   "hpa": "cerebral cortex",
+   "tables": [
+    "allen-brain"
+   ],
+   "hpaRna": "brain"
+  },
+  "adrenal gland": {
+   "nodes": [
+    "FMA9604"
+   ],
+   "hpa": "adrenal gland"
+  },
+  "prostate": {
+   "nodes": [
+    "FMA9600"
+   ],
+   "hpa": "prostate",
+   "uberon": "UBERON:0002367",
+   "tables": [
+    "prostate"
+   ]
+  },
+  "testis": {
+   "nodes": [
+    "FMA7210"
+   ],
+   "hpa": "testis"
+  },
+  "skin": {
+   "nodes": [
+    "FMA7163"
+   ],
+   "hpa": "skin",
+   "uberon": "UBERON:0002097",
+   "tables": [
+    "skin"
+   ]
+  },
+  "skeletal muscle": {
+   "nodes": [
+    "FMA5022"
+   ],
+   "hpa": "skeletal muscle"
+  },
+  "thymus": {
+   "nodes": [
+    "FMA9607"
+   ],
+   "uberon": "UBERON:0002370",
+   "tables": [
+    "thymus"
+   ]
+  },
+  "mouth": {
+   "nodes": [
+    "FMA49184"
+   ],
+   "hpa": "oral mucosa",
+   "uberon": "UBERON:0000165",
+   "tables": [
+    "mouth"
+   ]
+  },
+  "uterus": {
+   "nodes": [
+    "UBERON0000995"
+   ],
+   "hpa": "endometrium",
+   "tables": [
+    "uterus"
+   ]
+  },
+  "ovary": {
+   "nodes": [
+    "UBERON0002119",
+    "UBERON0002118"
+   ],
+   "hpa": "ovary",
+   "tables": [
+    "ovary"
+   ]
+  },
+  "fallopian tube": {
+   "nodes": [
+    "UBERON0001303",
+    "UBERON0001302"
+   ],
+   "hpa": "fallopian tube",
+   "tables": [
+    "fallopian-tube"
+   ]
+  },
+  "breast": {
+   "nodes": [
+    "FMA57991",
+    "FMA57987"
+   ],
+   "hpa": "breast"
+  },
+  "placenta": {
+   "nodes": [],
+   "uberon": "UBERON:0001987",
+   "reason": "pregnancy anatomy is not shown"
+  },
+  "eye": {
+   "nodes": [
+    "FMA12514",
+    "FMA12515"
+   ],
+   "tables": [
+    "eye"
+   ]
+  },
+  "trachea": {
+   "nodes": [
+    "FMA7394"
+   ],
+   "tables": [
+    "trachea"
+   ]
+  },
+  "main bronchus": {
+   "nodes": [
+    "FMA7405"
+   ],
+   "tables": [
+    "main-bronchus"
+   ],
+   "hpa": "bronchus",
+   "hpaRna": "lung"
+  },
+  "spinal cord": {
+   "nodes": [
+    "FMA7647"
+   ],
+   "tables": [
+    "spinal-cord"
+   ]
+  },
+  "ureter": {
+   "nodes": [
+    "FMA15571",
+    "FMA15572"
+   ],
+   "tables": [
+    "ureter"
+   ]
+  }
+ }
+}

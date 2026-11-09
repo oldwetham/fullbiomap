@@ -9,7 +9,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Group | Subjects | Plain written | Core written | Structures covered |
 | --- | --- | --- | --- | --- |
 | Organs | 48 | 1 of 39 | 2 of 48 | 90 |
-| Cell types | 70 | 2 of 70 | 2 of 70 | 70 |
+| Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
 | Organelles | 40 | 4 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 5 of 49 | 0 of 0 | 210 |
 | Muscles | 106 | 5 of 106 | 0 of 0 | 304 |
@@ -76,7 +76,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Adipocyte (CL:0000136): Plain: not written; Core: not written
 - B cell (CL:0000236): Plain: not written; Core: not written
 - Basal cell (CL:0000646): Plain: not written; Core: not written
-- Basophil (CL:0000767): Plain: not written; Core: not written
+- Basophil (CL:0000767): Plain: not written; Core: drafted
 - Bladder urothelial cell (CL:1001428): Plain: not written; Core: not written
 - Cardiac muscle cell (CL:0000746): Plain: drafted, grade 8.9; Core: drafted
 - Cardiac pacemaker cell of sinoatrial node (CL:1000477): Plain: not written; Core: not written
@@ -105,7 +105,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Kidney collecting duct principal cell (CL:1001431): Plain: not written; Core: not written
 - Leydig cell (CL:0000178): Plain: not written; Core: not written
 - Lung megakaryocyte (CL:4033018): Plain: not written; Core: not written
-- Macrophage (CL:0000235): Plain: not written; Core: not written
+- Macrophage (CL:0000235): Plain: drafted, grade 6.8; Core: drafted
 - Mast cell (CL:0000097): Plain: not written; Core: not written
 - Melanocyte (CL:0000148): Plain: not written; Core: not written
 - Merkel cell (CL:0000242): Plain: not written; Core: not written
@@ -556,6 +556,29 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Cell types
 
+#### Basophil: Core (drafted; grade 10.9; `content/CL_0000767/tier2.md`)
+
+1. A basophil is a white blood cell that releases chemicals to stimulate inflammation, a basic immune response. *(defines “inflammation”)*
+   > “A basophil is a leukocyte that, like a neutrophil, releases chemicals to stimulate the inflammatory response” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “inflammation: basic innate immune response characterized by heat, redness, pain, and swelling” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+2. It is a granular leukocyte, a white blood cell with abundant granules inside it. *(defines “granular leukocyte”)*
+   > “Granular leukocytes contain abundant granules within the cytoplasm. They include neutrophils, eosinophils, and basophils” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+3. Its granules release histamine, which contributes to inflammation, and heparin, which opposes blood clotting.
+   > “The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+4. Basophils hold serotonin as well as histamine, and they release these chemicals when properly stimulated.
+   > “Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation.” ([CL:0000767 basophil](http://purl.obolibrary.org/obo/CL_0000767), CC BY 4.0)
+5. They also produce other inflammatory chemicals that recruit more white blood cells.
+   > “Eosinophils and basophils produce additional inflammatory mediators to recruit more leukocytes.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+6. Mast cells, immune cells that produce histamine, share the basophil's role of intensifying the inflammatory response, but the two cell types develop from different cell lines. *(defines “mast cells”)*
+   > “In general, basophils intensify the inflammatory response. They share this trait with mast cells. In the past, mast cells were considered to be basophils that left the circulation. However, this appears not to be the case, as the two cell types develop from different lineages.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “mast cell: leukocyte that produces inflammatory molecules, such as histamine, in response to large pathogens and allergens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+7. Basophils are the least common white blood cells, typically less than one percent of the total, and measure 8–10 µm in diameter.
+   > “Basophils are the least common leukocytes, typically comprising less than one percent of the total leukocyte count. They are slightly smaller than neutrophils and eosinophils at 8–10 µm in diameter.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+8. Their large granules stain best with basic, or alkaline, stains and turn dark blue; they are so common that they can make the two-lobed nucleus hard to see.
+   > “The granules of basophils stain best with basic (alkaline) stains. Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+9. Basophils arise from myeloid stem cells, which also give rise to red blood cells and some other white blood cells. *(defines “myeloid stem cells”)*
+   > “Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.” ([18.2 Production of the Formed Elements](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements), CC BY 4.0)
+
 #### Cardiac muscle cell: Plain (drafted; grade 8.9; `content/CL_0000746/tier1.md`)
 
 1. Cardiac muscle cells, also called cardiomyocytes, do the heart's pumping and make up the heart muscle.
@@ -641,6 +664,47 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 10. After up to 120 days in the blood, worn-out erythrocytes are removed by macrophages, large engulfing cells found mainly in the bone marrow, liver and spleen. *(defines “macrophages”)*
    > “Erythrocytes live up to 120 days in the circulation, after which the worn-out cells are removed by a type of myeloid phagocytic cell called a macrophage, located primarily within the bone marrow, liver, and spleen.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
    > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+
+#### Macrophage: Plain (drafted; grade 6.8; `content/CL_0000235/tier1.md`)
+
+1. A macrophage is a large cell that engulfs foreign particles and pathogens, agents that can cause disease. *(defines “pathogens”)*
+   > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. It also cleans up dead and damaged cells in the body.
+   > “Monocytes give rise to phagocytic macrophages that clean up dead and damaged cells in the body, whether they are foreign or from the host animal.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+3. Macrophages live in many tissues of the body; some roam freely, while others stay fixed in place.
+   > “Macrophages exist in many tissues of the body, either freely roaming through connective tissues or fixed to reticular fibers within specific tissues such as lymph nodes.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+4. They are monocytes, a type of white blood cell, that have left the bloodstream. *(defines “monocytes”)*
+   > “Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+
+#### Macrophage: Core (drafted; grade 12; `content/CL_0000235/tier2.md`)
+
+1. A macrophage engulfs pathogens, which are agents that can cause disease, as well as debris, worn-out red blood cells and other dead or damaged cells. *(defines “pathogens”)*
+   > “Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. Macrophages are monocytes, a type of white blood cell, that have left the bloodstream. *(defines “monocytes”)*
+   > “Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+3. They live in many tissues of the body; some roam freely, while others stay fixed in place.
+   > “Macrophages exist in many tissues of the body, either freely roaming through connective tissues or fixed to reticular fibers within specific tissues such as lymph nodes.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+4. Their names differ by tissue: Kupffer cells in the liver, alveolar macrophages in the lungs, and histiocytes in connective tissue, the tissue that holds the body's organs in place. *(defines “connective tissue”)*
+   > “They are called different names, depending on the tissue: Kupffer cells in the liver, histiocytes in connective tissue, and alveolar macrophages in the lungs.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. A macrophage has an irregular shape and moves through tissues using pseudopodia, extensions of the cell. *(defines “pseudopodia”)*
+   > “A macrophage is an irregularly shaped phagocyte that is amoeboid in nature and is the most versatile of the phagocytes in the body. Macrophages move through tissues and squeeze through capillary walls using pseudopodia.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “Still others form cytoplasmic extensions called pseudopodia anywhere on the cell, anchor the pseudopodia to a substrate, and pull themselves forward.” ([23.2 Characteristics of Protists](https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists), CC BY 4.0)
+6. To engulf a pathogen, a macrophage uses phagocytosis: a section of its plasma membrane, the boundary between the cell and its surroundings, folds in around the pathogen. *(defines “plasma membrane”)*
+   > “In a process that scientists call phagocytosis or endocytosis, a section of the macrophage's plasma membrane invaginates (folds in) and engulfs a pathogen.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+   > “plasma membrane: phospholipid bilayer with embedded (integral) or attached (peripheral) proteins, and separates the cell's internal content from its surrounding environment” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+7. The folded-in section pinches off with the pathogen inside and fuses with a lysosome, a part of the cell that contains digestive enzymes; these enzymes then destroy the pathogen. *(defines “lysosome”)*
+   > “The invaginated section, with the pathogen inside, then pinches itself off from the plasma membrane and becomes a vesicle. The vesicle fuses with a lysosome. The lysosome’s hydrolytic enzymes then destroy the pathogen” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+   > “lysosome: membrane-bound cellular organelle originating from the Golgi apparatus and containing digestive enzymes” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+8. When stimulated, macrophages release cytokines, small proteins that act as chemical messengers and recruit other immune cells to infected sites. *(defines “cytokines”)*
+   > “When stimulated, macrophages release cytokines, small proteins that act as chemical messengers. Cytokines recruit other cells of the immune system to infected sites and stimulate their activities.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+9. They also stimulate T cells, white blood cells that physically attack foreign or diseased cells, to release cytokines that strengthen phagocytosis. *(defines “T cells”)*
+   > “Macrophages stimulate T cells to release cytokines that enhance phagocytosis.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “T lymphocytes: (also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
 
 ### Muscular
 

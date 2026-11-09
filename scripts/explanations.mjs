@@ -2,7 +2,8 @@
 // and mark texts reviewed.
 //
 //   node scripts/explanations.mjs assemble <journal.jsonl>... [--repairs <out.json>] [--final]
-//     Reads each workflow journal (later journals replace earlier drafts of the same subject and tier). A sentence is kept
+//     Reads each workflow journal (later journals replace earlier drafts of the same subject and tier); a job's checks may come
+//     from one agent or from one agent per text. A sentence is kept
 //     only if the independent checker passed it, every quote is in the cited file word for word, the file is in an allowed
 //     folder, and every number it states is in a quote. A text that is too short, lost its lead sentence, reads badly, leaves
 //     a term undefined or is over the Plain grade limit is not written: it goes to --repairs (one more draft and check), or
@@ -42,8 +43,14 @@ if (cmd === 'assemble') {
       if (e.type === 'started') labels.set(e.agentId, e.label);
       else if (e.type === 'result') results.set(e.agentId, e.result);
     }
+    // "check <key>" checks a whole job; "check <key> | <id> <tier>" checks one text of it (organs and cell types).
     const drafts = new Map(), checks = new Map();
-    for (const [aid, label] of labels) { const r = results.get(aid); if (!r) continue; const [kind, ...key] = label.split(' '); (kind === 'draft' ? drafts : checks).set(key.join(' '), r); }
+    for (const [aid, label] of labels) {
+      const r = results.get(aid); if (!r) continue;
+      const [kind, ...rest] = label.split(' '), key = rest.join(' ').split(' | ')[0];
+      if (kind === 'draft') drafts.set(key, r);
+      else { const c = checks.get(key) ?? {verdicts: [], texts: []}; c.verdicts.push(...(r.verdicts ?? [])); c.texts.push(...(r.texts ?? [])); checks.set(key, c); }
+    }
     for (const [key, d] of drafts) {
       const c = checks.get(key);
       for (const s of d.subjects ?? []) for (const [tierName, tier] of [['plain', 1], ['core', 2]]) {

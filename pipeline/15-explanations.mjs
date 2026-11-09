@@ -115,13 +115,19 @@ for (const s of Object.values(subjects).flat()) {
   delete s.profileFiles;
 }
 
-// Batches for the groups drafted several at a time: subjects that share a home section, then the rest of their chapter, up to
-// 5 (organelles 4); a group no bigger than one batch is one batch.
+// Batches: subjects drafted together by one agent. Organs: within one system; cell types: within one tissue group (the map's
+// cellGroups); the rest: subjects that share the section defining their key term, then the rest of that chapter. Up to the
+// map's batchSize per group; a group no bigger than one batch is one batch. Organs and cell types are still checked one
+// text at a time (docs/EXPLANATIONS-PLAN.md, pilot results).
+const cellGroupOf = new Map(Object.entries(MAP.cellGroups ?? {}).flatMap(([g, ids]) => ids.map(id => [id, g])));
+const systemOf0 = s => { const n = byId.get(s.id) ?? s.appliesTo.map(id => byId.get(id)).find(Boolean); return n?.ladder?.system ?? n?.system ?? 'other'; };
+const unitOf = {organs: systemOf0, cellTypes: s => cellGroupOf.get(s.id) ?? 'other', default: s => (s.home ?? '').split('/').pop().slice(0, 2)};
 const batches = {};
-for (const g of ['bones', 'muscles', 'vessels', 'nerves', 'brainRegions', 'organelles']) {
-  const size = g === 'organelles' ? 4 : 5, list = [...subjects[g]].sort((a, b) => (a.home ?? '~').localeCompare(b.home ?? '~') || a.label.localeCompare(b.label));
-  const chapter = s => (s.home ?? '').split('/').pop().slice(0, 2), out = [];
-  for (const s of list) { const last = out.at(-1); if (last && last.length < size && (chapter(last[0]) === chapter(s) || list.length <= size)) last.push(s); else out.push([s]); }
+for (const g of Object.keys(subjects)) {
+  const size = MAP.batchSize?.[g] ?? 1, unit = unitOf[g] ?? unitOf.default;
+  const list = [...subjects[g]].sort((a, b) => unit(a).localeCompare(unit(b)) || (a.home ?? '~').localeCompare(b.home ?? '~') || a.label.localeCompare(b.label));
+  const out = [];
+  for (const s of list) { const last = out.at(-1); if (last && last.length < size && (unit(last[0]) === unit(s) || list.length <= size)) last.push(s); else out.push([s]); }
   batches[g] = out.map(b => b.map(s => s.id));
 }
 const all = Object.values(subjects).flat();

@@ -242,30 +242,388 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000235/tier1.auto.md",
-   "text": "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",
+   "status": "drafted",
+   "file": "content/CL_0000235/tier1.md",
+   "text": "A macrophage is a large cell that engulfs foreign particles and pathogens, agents that can cause disease. It also cleans up dead and damaged cells in the body. Macrophages live in many tissues of the body; some roam freely, while others stay fixed in place. They are monocytes, a type of white blood cell, that have left the bloodstream.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000235",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000235",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000235",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000235",
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+     "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000235. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A macrophage is a large cell that engulfs foreign particles and pathogens, agents that can cause disease.",
+     "defines": "pathogens",
+     "quotes": [
+      {
+       "quote": "macrophage: large phagocytic cell that engulfs foreign particles and pathogens",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pathogen: agent with the ability to cause disease",
+       "section": "Chapter 21 Key Terms (Viruses)",
+       "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It also cleans up dead and damaged cells in the body.",
+     "quotes": [
+      {
+       "quote": "Monocytes give rise to phagocytic macrophages that clean up dead and damaged cells in the body, whether they are foreign or from the host animal.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Macrophages live in many tissues of the body; some roam freely, while others stay fixed in place.",
+     "quotes": [
+      {
+       "quote": "Macrophages exist in many tissues of the body, either freely roaming through connective tissues or fixed to reticular fibers within specific tissues such as lymph nodes.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They are monocytes, a type of white blood cell, that have left the bloodstream.",
+     "defines": "monocytes",
+     "quotes": [
+      {
+       "quote": "Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-08"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000235/tier2.md",
+   "text": "A macrophage engulfs pathogens, which are agents that can cause disease, as well as debris, worn-out red blood cells and other dead or damaged cells. Macrophages are monocytes, a type of white blood cell, that have left the bloodstream. They live in many tissues of the body; some roam freely, while others stay fixed in place. Their names differ by tissue: Kupffer cells in the liver, alveolar macrophages in the lungs, and histiocytes in connective tissue, the tissue that holds the body's organs in place. A macrophage has an irregular shape and moves through tissues using pseudopodia, extensions of the cell. To engulf a pathogen, a macrophage uses phagocytosis: a section of its plasma membrane, the boundary between the cell and its surroundings, folds in around the pathogen. The folded-in section pinches off with the pathogen inside and fuses with a lysosome, a part of the cell that contains digestive enzymes; these enzymes then destroy the pathogen. When stimulated, macrophages release cytokines, small proteins that act as chemical messengers and recruit other immune cells to infected sites. They also stimulate T cells, white blood cells that physically attack foreign or diseased cells, to release cytokines that strengthen phagocytosis.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+     "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 23.2 Characteristics of Protists",
+     "url": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.4 The Endomembrane System and Proteins",
+     "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A macrophage engulfs pathogens, which are agents that can cause disease, as well as debris, worn-out red blood cells and other dead or damaged cells.",
+     "defines": "pathogens",
+     "quotes": [
+      {
+       "quote": "Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pathogen: agent with the ability to cause disease",
+       "section": "Chapter 21 Key Terms (Viruses)",
+       "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Macrophages are monocytes, a type of white blood cell, that have left the bloodstream.",
+     "defines": "monocytes",
+     "quotes": [
+      {
+       "quote": "Macrophages are monocytes that have left the circulation and phagocytize debris, foreign pathogens, worn-out erythrocytes, and many other dead, worn out, or damaged cells.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They live in many tissues of the body; some roam freely, while others stay fixed in place.",
+     "quotes": [
+      {
+       "quote": "Macrophages exist in many tissues of the body, either freely roaming through connective tissues or fixed to reticular fibers within specific tissues such as lymph nodes.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Their names differ by tissue: Kupffer cells in the liver, alveolar macrophages in the lungs, and histiocytes in connective tissue, the tissue that holds the body's organs in place.",
+     "defines": "connective tissue",
+     "quotes": [
+      {
+       "quote": "They are called different names, depending on the tissue: Kupffer cells in the liver, histiocytes in connective tissue, and alveolar macrophages in the lungs.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A macrophage has an irregular shape and moves through tissues using pseudopodia, extensions of the cell.",
+     "defines": "pseudopodia",
+     "quotes": [
+      {
+       "quote": "A macrophage is an irregularly shaped phagocyte that is amoeboid in nature and is the most versatile of the phagocytes in the body. Macrophages move through tissues and squeeze through capillary walls using pseudopodia.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Still others form cytoplasmic extensions called pseudopodia anywhere on the cell, anchor the pseudopodia to a substrate, and pull themselves forward.",
+       "section": "23.2 Characteristics of Protists",
+       "url": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "To engulf a pathogen, a macrophage uses phagocytosis: a section of its plasma membrane, the boundary between the cell and its surroundings, folds in around the pathogen.",
+     "defines": "plasma membrane",
+     "quotes": [
+      {
+       "quote": "In a process that scientists call phagocytosis or endocytosis, a section of the macrophage's plasma membrane invaginates (folds in) and engulfs a pathogen.",
+       "section": "4.4 The Endomembrane System and Proteins",
+       "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "plasma membrane: phospholipid bilayer with embedded (integral) or attached (peripheral) proteins, and separates the cell's internal content from its surrounding environment",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The folded-in section pinches off with the pathogen inside and fuses with a lysosome, a part of the cell that contains digestive enzymes; these enzymes then destroy the pathogen.",
+     "defines": "lysosome",
+     "quotes": [
+      {
+       "quote": "The invaginated section, with the pathogen inside, then pinches itself off from the plasma membrane and becomes a vesicle. The vesicle fuses with a lysosome. The lysosome’s hydrolytic enzymes then destroy the pathogen",
+       "section": "4.4 The Endomembrane System and Proteins",
+       "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lysosome: membrane-bound cellular organelle originating from the Golgi apparatus and containing digestive enzymes",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When stimulated, macrophages release cytokines, small proteins that act as chemical messengers and recruit other immune cells to infected sites.",
+     "defines": "cytokines",
+     "quotes": [
+      {
+       "quote": "When stimulated, macrophages release cytokines, small proteins that act as chemical messengers. Cytokines recruit other cells of the immune system to infected sites and stimulate their activities.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They also stimulate T cells, white blood cells that physically attack foreign or diseased cells, to release cytokines that strengthen phagocytosis.",
+     "defines": "T cells",
+     "quotes": [
+      {
+       "quote": "Macrophages stimulate T cells to release cytokines that enhance phagocytosis.",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "T lymphocytes: (also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells",
+       "section": "Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-08"
   },
   "tier3": {
    "status": "missing"
@@ -274,8 +632,68 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000235",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000235",
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+   "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+   "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 23.2 Characteristics of Protists",
+   "url": "https://openstax.org/books/biology-2e/pages/23-2-characteristics-of-protists",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.4 The Endomembrane System and Proteins",
+   "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
    "license": "CC BY 4.0"
   }
  ],

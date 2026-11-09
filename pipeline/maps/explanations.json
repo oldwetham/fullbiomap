@@ -1,9 +1,24 @@
 {
- "_comment": "Written explanations (docs/EXPLANATIONS-PLAN.md): which structures get them and the limits they must meet. Organs are listed here by hand; bones, muscles, vessels, nerves and brain regions are chosen by step 15's rule (the structure's name, its name without left/right, or its numbered class is a key term of the pinned OpenStax A&P 2e), minus the generic terms in `exclude`; cell types are the 70 with morphology profiles; organelles are every organelle a cell model draws. `tiers`: 1 Plain, 2 Core. An organ whose Plain is one of the nine Human Atlas texts gets Core only. `appliesTo`: structures that share the text (left and right, numbered), for a class with no node of its own; step 15 adds left and right instances of a class that is a node. `humanAtlas`: the nine original texts, pinned by checksum (step 12 fails if one changes).",
+ "_comment": "Written explanations (docs/EXPLANATIONS-PLAN.md): which structures get them and the limits they must meet. Organs are listed here by hand; bones, muscles, vessels, nerves and brain regions are chosen by step 15's rule (the structure's name, its name without left/right, or its numbered class is a key term of the pinned OpenStax A&P 2e), minus the generic terms in `exclude`; cell types are the 70 with morphology profiles; organelles are every organelle a cell model draws. `tiers`: 1 Plain, 2 Core. An organ whose Plain is one of the nine Human Atlas texts gets Core only. `appliesTo`: structures that share the text (left and right, numbered), for a class with no node of its own; step 15 adds left and right instances of a class that is a node. `humanAtlas`: the nine original texts, pinned by checksum (step 12 fails if one changes). `cellGroups`: the tissue groups of the profiled cell types (docs/CELLS-PLAN.md); organs and cell types are drafted three at a time within one system or tissue group, and each of their texts is checked by its own agent.",
  "gradeLimit": 10,
- "plainSentences": [2, 4],
- "coreSentences": [5, 10],
- "sourceFolders": ["openstax-ap2e", "openstax-bio2e", "seer", "cell-ontology", "fma", "uberon", "ncit", "go"],
+ "plainSentences": [
+  2,
+  4
+ ],
+ "coreSentences": [
+  5,
+  10
+ ],
+ "sourceFolders": [
+  "openstax-ap2e",
+  "openstax-bio2e",
+  "seer",
+  "cell-ontology",
+  "fma",
+  "uberon",
+  "ncit",
+  "go"
+ ],
  "humanAtlas": {
   "content/FMA_13295/tier1.md": "ed228c673ebd1d40f22263f13bf91f4445bfa214c85ef965d99904441b5e8645",
   "content/FMA_15900/tier1.md": "75421055c0584af2eea7e90cf644cc46b66f7cbceeef1bbca95c0abc3fabfb67",
@@ -15,55 +30,756 @@
   "content/FMA_7198/tier1.md": "83d912629b509a11b8353faa4bb2ab23f2eaffece8020d7b00c45c930903ff7f",
   "content/FMA_7394/tier1.md": "d4e31a9ad4bb14cb60af0a55a123ae62d046fe72b0642b1a561f923e8103eb53"
  },
- "exclude": ["arm", "trunk", "organ", "pelvis", "perineum", "anastomosis", "tendon", "nerve", "ganglion", "cranial nerve", "neuraxis", "hand", "foot", "leg", "forearm", "thigh", "flat bone", "long bone", "short bone", "irregular bone", "sesamoid bone", "skeletal system", "axial skeleton", "carpal bone", "tarsal bone", "true ribs", "false ribs", "floating ribs", "external nose", "integumentary system", "endocrine system", "parenchyma", "loose connective tissue", "atrium", "ventricle", "ventricles", "pectoral girdle"],
+ "exclude": [
+  "arm",
+  "trunk",
+  "organ",
+  "pelvis",
+  "perineum",
+  "anastomosis",
+  "tendon",
+  "nerve",
+  "ganglion",
+  "cranial nerve",
+  "neuraxis",
+  "hand",
+  "foot",
+  "leg",
+  "forearm",
+  "thigh",
+  "flat bone",
+  "long bone",
+  "short bone",
+  "irregular bone",
+  "sesamoid bone",
+  "skeletal system",
+  "axial skeleton",
+  "carpal bone",
+  "tarsal bone",
+  "true ribs",
+  "false ribs",
+  "floating ribs",
+  "external nose",
+  "integumentary system",
+  "endocrine system",
+  "parenchyma",
+  "loose connective tissue",
+  "atrium",
+  "ventricle",
+  "ventricles",
+  "pectoral girdle"
+ ],
  "organs": [
-  {"id": "FMA:7088", "label": "Heart", "tiers": [2], "hints": ["heart", "cardiac"]},
-  {"id": "UBERON:0002048", "label": "Lung", "tiers": [1, 2], "appliesTo": ["FMA:7309", "FMA:7310"], "hints": ["lung", "lungs", "pulmonary"]},
-  {"id": "FMA:7394", "label": "Trachea", "tiers": [2], "hints": ["trachea", "windpipe"]},
-  {"id": "UBERON:0001737", "label": "Larynx", "tiers": [1, 2], "hints": ["larynx", "laryngeal", "vocal cords"]},
-  {"id": "FMA:7405", "label": "Main bronchus", "tiers": [1, 2], "appliesTo": ["FMA:7395", "FMA:7396"], "hints": ["main bronchus", "primary bronchus", "bronchi"]},
-  {"id": "FMA:49184", "label": "Mouth", "tiers": [1, 2], "hints": ["mouth", "oral cavity"]},
-  {"id": "FMA:54640", "label": "Tongue", "tiers": [1, 2], "hints": ["tongue"]},
-  {"id": "UBERON:0001831", "label": "Parotid gland", "tiers": [1, 2], "appliesTo": ["FMA:59797", "FMA:59798"], "hints": ["parotid gland", "salivary gland"]},
-  {"id": "FMA:55093", "label": "Submandibular gland", "tiers": [1, 2], "hints": ["submandibular gland", "salivary gland"]},
-  {"id": "FMA:59791", "label": "Sublingual gland", "tiers": [1, 2], "hints": ["sublingual gland", "salivary gland"]},
-  {"id": "FMA:7131", "label": "Esophagus", "tiers": [1, 2], "hints": ["esophagus", "esophageal"]},
-  {"id": "FMA:7148", "label": "Stomach", "tiers": [2], "hints": ["stomach", "gastric"]},
-  {"id": "FMA:7200", "label": "Small intestine", "tiers": [1, 2], "hints": ["small intestine", "duodenum", "jejunum", "ileum"]},
-  {"id": "FMA:7201", "label": "Large intestine", "tiers": [1, 2], "hints": ["large intestine", "colon"]},
-  {"id": "FMA:14542", "label": "Appendix", "tiers": [1, 2], "hints": ["appendix", "vermiform appendix"]},
-  {"id": "FMA:14544", "label": "Rectum", "tiers": [1, 2], "hints": ["rectum", "rectal"]},
-  {"id": "FMA:7197", "label": "Liver", "tiers": [2], "hints": ["liver", "hepatic", "hepatocyte"]},
-  {"id": "FMA:7202", "label": "Gallbladder", "tiers": [1, 2], "hints": ["gallbladder", "bile"]},
-  {"id": "FMA:7198", "label": "Pancreas", "tiers": [2], "hints": ["pancreas", "pancreatic"]},
-  {"id": "FMA:7203", "label": "Kidney", "tiers": [1, 2], "hints": ["kidney", "kidneys", "renal", "nephron"]},
-  {"id": "FMA:9704", "label": "Ureter", "tiers": [1, 2], "hints": ["ureter", "ureters"]},
-  {"id": "FMA:15900", "label": "Urinary bladder", "tiers": [2], "hints": ["urinary bladder", "bladder"]},
-  {"id": "FMA:19667", "label": "Urethra", "tiers": [1, 2], "hints": ["urethra"]},
-  {"id": "FMA:9600", "label": "Prostate", "tiers": [1, 2], "hints": ["prostate"]},
-  {"id": "FMA:7210", "label": "Testis", "tiers": [1, 2], "hints": ["testis", "testes", "testicle"]},
-  {"id": "FMA:18255", "label": "Epididymis", "tiers": [1, 2], "hints": ["epididymis"]},
-  {"id": "FMA:19386", "label": "Seminal vesicle", "tiers": [1, 2], "hints": ["seminal vesicle", "seminal vesicles"]},
-  {"id": "UBERON:0000995", "label": "Uterus", "tiers": [1, 2], "hints": ["uterus", "uterine"]},
-  {"id": "UBERON:0000992", "label": "Ovary", "tiers": [1, 2], "appliesTo": ["UBERON:0002118", "UBERON:0002119", "FMA:7213", "FMA:7214"], "hints": ["ovary", "ovaries"]},
-  {"id": "UBERON:0003889", "label": "Fallopian tube", "tiers": [1, 2], "appliesTo": ["UBERON:0001302", "UBERON:0001303"], "hints": ["uterine tube", "fallopian tube", "oviduct"]},
-  {"id": "UBERON:0001911", "label": "Mammary gland", "tiers": [1, 2], "appliesTo": ["FMA:57987", "FMA:57991"], "hints": ["mammary gland", "breast", "lactiferous"]},
-  {"id": "FMA:13889", "label": "Pituitary gland", "tiers": [1, 2], "hints": ["pituitary gland", "hypophysis"]},
-  {"id": "FMA:9604", "label": "Adrenal gland", "tiers": [1, 2], "hints": ["adrenal gland", "adrenal glands", "suprarenal"]},
-  {"id": "FMA:62033", "label": "Pineal body", "tiers": [1, 2], "hints": ["pineal gland", "pineal body", "melatonin"]},
-  {"id": "FMA:9607", "label": "Thymus", "tiers": [1, 2], "hints": ["thymus"]},
-  {"id": "FMA:7196", "label": "Spleen", "tiers": [2], "hints": ["spleen", "splenic"]},
-  {"id": "UBERON:0002509", "label": "Mesenteric lymph node", "tiers": [1, 2], "hints": ["lymph node", "lymph nodes", "mesenteric"]},
-  {"id": "UBERON:0002373", "label": "Palatine tonsil", "tiers": [1, 2], "appliesTo": ["FMA:54973", "FMA:54974"], "hints": ["palatine tonsil", "tonsils"]},
-  {"id": "FMA:50801", "label": "Brain", "tiers": [2], "hints": ["brain"]},
-  {"id": "FMA:7647", "label": "Spinal cord", "tiers": [1, 2], "hints": ["spinal cord"]},
-  {"id": "UBERON:0000970", "label": "Eye", "tiers": [1, 2], "appliesTo": ["FMA:12514", "FMA:12515"], "hints": ["eye", "eyeball"]},
-  {"id": "FMA:7163", "label": "Skin", "tiers": [1, 2], "hints": ["skin", "epidermis", "dermis"]},
-  {"id": "FMA:13295", "label": "Diaphragm", "tiers": [2], "hints": ["diaphragm"]},
-  {"id": "FMA:10446", "label": "Intervertebral disk", "tiers": [1, 2], "hints": ["intervertebral disc", "intervertebral disk"]},
-  {"id": "UBERON:0001485", "label": "Knee joint", "tiers": [1, 2], "appliesTo": ["FMA:35176", "FMA:35177", "FMA:24977", "FMA:24978"], "hints": ["knee joint", "knee"]},
-  {"id": "UBERON:0003688", "label": "Omentum", "tiers": [1, 2], "hints": ["omentum", "greater omentum"]},
-  {"id": "FMA:59101", "label": "Lacrimal gland", "tiers": [1, 2], "hints": ["lacrimal gland", "tears"]},
-  {"id": "FMA:52781", "label": "External ear", "tiers": [1, 2], "hints": ["external ear", "auricle", "pinna"]}
- ]
+  {
+   "id": "FMA:7088",
+   "label": "Heart",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "heart",
+    "cardiac"
+   ]
+  },
+  {
+   "id": "UBERON:0002048",
+   "label": "Lung",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:7309",
+    "FMA:7310"
+   ],
+   "hints": [
+    "lung",
+    "lungs",
+    "pulmonary"
+   ]
+  },
+  {
+   "id": "FMA:7394",
+   "label": "Trachea",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "trachea",
+    "windpipe"
+   ]
+  },
+  {
+   "id": "UBERON:0001737",
+   "label": "Larynx",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "larynx",
+    "laryngeal",
+    "vocal cords"
+   ]
+  },
+  {
+   "id": "FMA:7405",
+   "label": "Main bronchus",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:7395",
+    "FMA:7396"
+   ],
+   "hints": [
+    "main bronchus",
+    "primary bronchus",
+    "bronchi"
+   ]
+  },
+  {
+   "id": "FMA:49184",
+   "label": "Mouth",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "mouth",
+    "oral cavity"
+   ]
+  },
+  {
+   "id": "FMA:54640",
+   "label": "Tongue",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "tongue"
+   ]
+  },
+  {
+   "id": "UBERON:0001831",
+   "label": "Parotid gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:59797",
+    "FMA:59798"
+   ],
+   "hints": [
+    "parotid gland",
+    "salivary gland"
+   ]
+  },
+  {
+   "id": "FMA:55093",
+   "label": "Submandibular gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "submandibular gland",
+    "salivary gland"
+   ]
+  },
+  {
+   "id": "FMA:59791",
+   "label": "Sublingual gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "sublingual gland",
+    "salivary gland"
+   ]
+  },
+  {
+   "id": "FMA:7131",
+   "label": "Esophagus",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "esophagus",
+    "esophageal"
+   ]
+  },
+  {
+   "id": "FMA:7148",
+   "label": "Stomach",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "stomach",
+    "gastric"
+   ]
+  },
+  {
+   "id": "FMA:7200",
+   "label": "Small intestine",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "small intestine",
+    "duodenum",
+    "jejunum",
+    "ileum"
+   ]
+  },
+  {
+   "id": "FMA:7201",
+   "label": "Large intestine",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "large intestine",
+    "colon"
+   ]
+  },
+  {
+   "id": "FMA:14542",
+   "label": "Appendix",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "appendix",
+    "vermiform appendix"
+   ]
+  },
+  {
+   "id": "FMA:14544",
+   "label": "Rectum",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "rectum",
+    "rectal"
+   ]
+  },
+  {
+   "id": "FMA:7197",
+   "label": "Liver",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "liver",
+    "hepatic",
+    "hepatocyte"
+   ]
+  },
+  {
+   "id": "FMA:7202",
+   "label": "Gallbladder",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "gallbladder",
+    "bile"
+   ]
+  },
+  {
+   "id": "FMA:7198",
+   "label": "Pancreas",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "pancreas",
+    "pancreatic"
+   ]
+  },
+  {
+   "id": "FMA:7203",
+   "label": "Kidney",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "kidney",
+    "kidneys",
+    "renal",
+    "nephron"
+   ]
+  },
+  {
+   "id": "FMA:9704",
+   "label": "Ureter",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "ureter",
+    "ureters"
+   ]
+  },
+  {
+   "id": "FMA:15900",
+   "label": "Urinary bladder",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "urinary bladder",
+    "bladder"
+   ]
+  },
+  {
+   "id": "FMA:19667",
+   "label": "Urethra",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "urethra"
+   ]
+  },
+  {
+   "id": "FMA:9600",
+   "label": "Prostate",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "prostate"
+   ]
+  },
+  {
+   "id": "FMA:7210",
+   "label": "Testis",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "testis",
+    "testes",
+    "testicle"
+   ]
+  },
+  {
+   "id": "FMA:18255",
+   "label": "Epididymis",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "epididymis"
+   ]
+  },
+  {
+   "id": "FMA:19386",
+   "label": "Seminal vesicle",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "seminal vesicle",
+    "seminal vesicles"
+   ]
+  },
+  {
+   "id": "UBERON:0000995",
+   "label": "Uterus",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "uterus",
+    "uterine"
+   ]
+  },
+  {
+   "id": "UBERON:0000992",
+   "label": "Ovary",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "UBERON:0002118",
+    "UBERON:0002119",
+    "FMA:7213",
+    "FMA:7214"
+   ],
+   "hints": [
+    "ovary",
+    "ovaries"
+   ]
+  },
+  {
+   "id": "UBERON:0003889",
+   "label": "Fallopian tube",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "UBERON:0001302",
+    "UBERON:0001303"
+   ],
+   "hints": [
+    "uterine tube",
+    "fallopian tube",
+    "oviduct"
+   ]
+  },
+  {
+   "id": "UBERON:0001911",
+   "label": "Mammary gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:57987",
+    "FMA:57991"
+   ],
+   "hints": [
+    "mammary gland",
+    "breast",
+    "lactiferous"
+   ]
+  },
+  {
+   "id": "FMA:13889",
+   "label": "Pituitary gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "pituitary gland",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "FMA:9604",
+   "label": "Adrenal gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "adrenal gland",
+    "adrenal glands",
+    "suprarenal"
+   ]
+  },
+  {
+   "id": "FMA:62033",
+   "label": "Pineal body",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "pineal gland",
+    "pineal body",
+    "melatonin"
+   ]
+  },
+  {
+   "id": "FMA:9607",
+   "label": "Thymus",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "thymus"
+   ]
+  },
+  {
+   "id": "FMA:7196",
+   "label": "Spleen",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "spleen",
+    "splenic"
+   ]
+  },
+  {
+   "id": "UBERON:0002509",
+   "label": "Mesenteric lymph node",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "lymph node",
+    "lymph nodes",
+    "mesenteric"
+   ]
+  },
+  {
+   "id": "UBERON:0002373",
+   "label": "Palatine tonsil",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:54973",
+    "FMA:54974"
+   ],
+   "hints": [
+    "palatine tonsil",
+    "tonsils"
+   ]
+  },
+  {
+   "id": "FMA:50801",
+   "label": "Brain",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "brain"
+   ]
+  },
+  {
+   "id": "FMA:7647",
+   "label": "Spinal cord",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "spinal cord"
+   ]
+  },
+  {
+   "id": "UBERON:0000970",
+   "label": "Eye",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:12514",
+    "FMA:12515"
+   ],
+   "hints": [
+    "eye",
+    "eyeball"
+   ]
+  },
+  {
+   "id": "FMA:7163",
+   "label": "Skin",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "skin",
+    "epidermis",
+    "dermis"
+   ]
+  },
+  {
+   "id": "FMA:13295",
+   "label": "Diaphragm",
+   "tiers": [
+    2
+   ],
+   "hints": [
+    "diaphragm"
+   ]
+  },
+  {
+   "id": "FMA:10446",
+   "label": "Intervertebral disk",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "intervertebral disc",
+    "intervertebral disk"
+   ]
+  },
+  {
+   "id": "UBERON:0001485",
+   "label": "Knee joint",
+   "tiers": [
+    1,
+    2
+   ],
+   "appliesTo": [
+    "FMA:35176",
+    "FMA:35177",
+    "FMA:24977",
+    "FMA:24978"
+   ],
+   "hints": [
+    "knee joint",
+    "knee"
+   ]
+  },
+  {
+   "id": "UBERON:0003688",
+   "label": "Omentum",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "omentum",
+    "greater omentum"
+   ]
+  },
+  {
+   "id": "FMA:59101",
+   "label": "Lacrimal gland",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "lacrimal gland",
+    "tears"
+   ]
+  },
+  {
+   "id": "FMA:52781",
+   "label": "External ear",
+   "tiers": [
+    1,
+    2
+   ],
+   "hints": [
+    "external ear",
+    "auricle",
+    "pinna"
+   ]
+  }
+ ],
+ "batchSize": {
+  "organs": 3,
+  "cellTypes": 3,
+  "organelles": 4,
+  "bones": 5,
+  "muscles": 5,
+  "vessels": 5,
+  "nerves": 5,
+  "brainRegions": 5
+ },
+ "cellGroups": {
+  "Blood and immune": [
+   "CL:0000232",
+   "CL:0000233",
+   "CL:0000775",
+   "CL:0000771",
+   "CL:0000767",
+   "CL:0000576",
+   "CL:0000235",
+   "CL:0000236",
+   "CL:0000624",
+   "CL:0000625",
+   "CL:0000623",
+   "CL:0000786",
+   "CL:0000097",
+   "CL:0000451",
+   "CL:4033018",
+   "CL:0000037"
+  ],
+  "Glia": [
+   "CL:0002573",
+   "CL:0002376",
+   "CL:0000516",
+   "CL:0000065"
+  ],
+  "Muscle": [
+   "CL:0000188",
+   "CL:0000746",
+   "CL:0002068",
+   "CL:1000477",
+   "CL:0000192",
+   "CL:0000669"
+  ],
+  "Epithelia and glands": [
+   "CL:0000584",
+   "CL:1000317",
+   "CL:1000344",
+   "CL:0000577",
+   "CL:0000182",
+   "CL:0002064",
+   "CL:0000169",
+   "CL:0000171",
+   "CL:0002062",
+   "CL:0002063",
+   "CL:0002145",
+   "CL:0000158",
+   "CL:0000646",
+   "CL:0000312",
+   "CL:0002153",
+   "CL:0000148",
+   "CL:0000653",
+   "CL:0002306",
+   "CL:1001431",
+   "CL:1001432",
+   "CL:1001428",
+   "CL:0000115",
+   "CL:0000077",
+   "CL:0000162",
+   "CL:0000155",
+   "CL:0002258"
+  ],
+  "Bone, cartilage, connective": [
+   "CL:0000062",
+   "CL:0000092",
+   "CL:0000137",
+   "CL:0000138",
+   "CL:0000057",
+   "CL:0000136"
+  ],
+  "Gametes and reproductive": [
+   "CL:0000019",
+   "CL:0000654",
+   "CL:0000711",
+   "CL:0000216",
+   "CL:0000178"
+  ],
+  "Sensory": [
+   "CL:0000604",
+   "CL:0000573",
+   "CL:0000589",
+   "CL:0000601",
+   "CL:0000207",
+   "CL:0000209",
+   "CL:0000242"
+  ]
+ }
 }

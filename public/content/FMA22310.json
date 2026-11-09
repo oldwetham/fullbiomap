@@ -22,27 +22,122 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_22310/tier1.auto.md",
-   "text": "A triangular muscle within the iliac fossa that flexes the thigh and rotates the leg medially.",
+   "status": "drafted",
+   "file": "content/FMA_22310/tier1.md",
+   "text": "Each iliacus flexes the thigh, lifting the thigh forward and up at the hip. With the psoas major muscle, the iliacus forms a group called the iliopsoas. The iliacus lies in the iliac fossa, a shallow dip on the inner surface of the hip bone. The iliacus also helps form the back wall of the abdomen.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C32762",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32762",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C32762",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32762",
+     "title": "NCI Thesaurus, NCIT:C32762 Iliacus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C32762",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 9.5 Types of Body Movements",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 8.3 The Pelvic Girdle and Pelvis",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.4 Axial Muscles of the Abdominal Wall, and Thorax",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32762, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each iliacus flexes the thigh, lifting the thigh forward and up at the hip.",
+     "defines": "flex",
+     "quotes": [
+      {
+       "quote": "A triangular muscle within the iliac fossa that flexes the thigh and rotates the leg medially.",
+       "section": "NCIT:C32762 Iliacus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32762",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "In the lower limb, bringing the thigh forward and upward is flexion at the hip joint",
+       "section": "9.5 Types of Body Movements",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "With the psoas major muscle, the iliacus forms a group called the iliopsoas.",
+     "defines": "iliopsoas",
+     "quotes": [
+      {
+       "quote": "iliopsoas group: muscle group consisting of iliacus and psoas major muscles",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The iliacus lies in the iliac fossa, a shallow dip on the inner surface of the hip bone.",
+     "defines": "iliac fossa",
+     "quotes": [
+      {
+       "quote": "A triangular muscle within the iliac fossa that flexes the thigh and rotates the leg medially.",
+       "section": "NCIT:C32762 Iliacus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32762",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "The shallow depression located on the anteromedial (internal) surface of the upper ilium is called the iliac fossa.",
+       "section": "8.3 The Pelvic Girdle and Pelvis",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The iliacus also helps form the back wall of the abdomen.",
+     "quotes": [
+      {
+       "quote": "The posterior abdominal wall is formed by the lumbar vertebrae, parts of the ilia of the hip bones, psoas major and iliacus muscles, and quadratus lumborum muscle.",
+       "section": "11.4 Axial Muscles of the Abdominal Wall, and Thorax",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -54,8 +149,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C32762",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32762",
+   "title": "NCI Thesaurus, NCIT:C32762 Iliacus",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C32762",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 9.5 Types of Body Movements",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 8.3 The Pelvic Girdle and Pelvis",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.4 Axial Muscles of the Abdominal Wall, and Thorax",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
    "license": "CC BY 4.0"
   }
  ],

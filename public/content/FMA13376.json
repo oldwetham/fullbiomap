@@ -15,7 +15,100 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_13109/tier1.md",
+   "text": "Each pectoralis minor moves the scapula, or shoulder blade, and helps you breathe in. The pectoralis minor pulls the scapula down and lifts the ribs. This thin muscle lies beneath the pectoralis major, a thick muscle at the front of the chest.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33286 Pectoralis Muscle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33286",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each pectoralis minor moves the scapula, or shoulder blade, and helps you breathe in.",
+     "defines": "scapula",
+     "quotes": [
+      {
+       "quote": "pectoralis minor: muscle that moves the scapula and assists in inhalation",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "scapula: shoulder blade bone located on the posterior side of the shoulder",
+       "section": "Chapter 8 Key Terms (The Appendicular Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The pectoralis minor pulls the scapula down and lifts the ribs.",
+     "quotes": [
+      {
+       "quote": "Anterior thorax | Rotates shoulder anteriorly (throwing motion); assists with inhalation | Scapula; ribs | Scapula: depresses; ribs: elevates | Pectoralis minor | Anterior surfaces of certain ribs (2–4 or 3–5) | Coracoid process of scapula",
+       "section": "11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This thin muscle lies beneath the pectoralis major, a thick muscle at the front of the chest.",
+     "quotes": [
+      {
+       "quote": "the pectoralis major and pectoralis minor. The former is a thick muscle in the anterior portion of the chest. Its action involves flexion, medial rotation, and adduction of the humerus. The latter is a thin muscle located beneath the pectoralis major.",
+       "section": "NCIT:C33286 Pectoralis Muscle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33286",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    }
+   ],
+   "grade": 7.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:13109",
+    "label": "Pectoralis minor",
+    "conceptId": "FMA13109"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -25,7 +118,28 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33286 Pectoralis Muscle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33286",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": [

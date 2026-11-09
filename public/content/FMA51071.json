@@ -20,27 +20,115 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_51071/tier1.auto.md",
-   "text": "A muscle in the lower leg and foot beginning at the tibia and ending with four tendons proceeding to the second, third, fourth, and fifth toes acting to curl the toes into the foot.",
+   "status": "drafted",
+   "file": "content/FMA_51071/tier1.md",
+   "text": "Each flexor digitorum longus curls the four small toes into the foot. The flexor digitorum longus lies deep in the back of the lower leg. The flexor digitorum longus starts on the tibia, the shin bone. The muscle ends in four tendons, strong bands linking muscle to bone, one per small toe.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C52921",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52921",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C52921",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52921",
+     "title": "NCI Thesaurus, NCIT:C52921 Flexor Digitorum Longus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C52921",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52921, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each flexor digitorum longus curls the four small toes into the foot.",
+     "quotes": [
+      {
+       "quote": "ending with four tendons proceeding to the second, third, fourth, and fifth toes acting to curl the toes into the foot",
+       "section": "NCIT:C52921 Flexor Digitorum Longus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52921",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The flexor digitorum longus lies deep in the back of the lower leg.",
+     "quotes": [
+      {
+       "quote": "There are four deep muscles in the posterior compartment of the leg as well: the popliteus, flexor digitorum longus, flexor hallucis longus, and tibialis posterior.",
+       "section": "11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The flexor digitorum longus starts on the tibia, the shin bone.",
+     "defines": "tibia",
+     "quotes": [
+      {
+       "quote": "A muscle in the lower leg and foot beginning at the tibia",
+       "section": "NCIT:C52921 Flexor Digitorum Longus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52921",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg",
+       "section": "Chapter 8 Key Terms (The Appendicular Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The muscle ends in four tendons, strong bands linking muscle to bone, one per small toe.",
+     "defines": "tendon",
+     "quotes": [
+      {
+       "quote": "ending with four tendons proceeding to the second, third, fourth, and fifth toes",
+       "section": "NCIT:C52921 Flexor Digitorum Longus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52921",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "The tendons are strong bands of dense, regular connective tissue that connect muscles to bones.",
+       "section": "11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +140,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C52921",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52921",
+   "title": "NCI Thesaurus, NCIT:C52921 Flexor Digitorum Longus",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C52921",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
    "license": "CC BY 4.0"
   }
  ],

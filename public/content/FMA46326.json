@@ -15,7 +15,103 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_46325/tier1.md",
+   "text": "Each geniohyoid muscle pulls the hyoid bone, a U-shaped bone in the upper neck, forward when you swallow. The geniohyoid also lifts the hyoid bone and pulls down the mandible, the lower jaw bone. Each geniohyoid runs from the chin to the hyoid bone.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "NCI Thesaurus, NCIT:C52930 Geniohyoid",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C52930",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each geniohyoid muscle pulls the hyoid bone, a U-shaped bone in the upper neck, forward when you swallow.",
+     "defines": "hyoid bone",
+     "quotes": [
+      {
+       "quote": "A muscle extending from the chin to the hyoid bone that brings the hyoid bone forward when swallowing and depresses the mandible.",
+       "section": "NCIT:C52930 Geniohyoid",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52930",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The geniohyoid also lifts the hyoid bone and pulls down the mandible, the lower jaw bone.",
+     "defines": "mandible",
+     "quotes": [
+      {
+       "quote": "geniohyoid: muscle that depresses the mandible, and raises and pulls the hyoid bone anteriorly",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each geniohyoid runs from the chin to the hyoid bone.",
+     "quotes": [
+      {
+       "quote": "A muscle extending from the chin to the hyoid bone that brings the hyoid bone forward when swallowing and depresses the mandible.",
+       "section": "NCIT:C52930 Geniohyoid",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52930",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:46325",
+    "label": "Geniohyoid",
+    "conceptId": "FMA46325"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -25,7 +121,23 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "NCI Thesaurus, NCIT:C52930 Geniohyoid",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C52930",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": []

@@ -23,27 +23,108 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_64829/tier1.auto.md",
-   "text": "Any one of three pairs of vertebral muscles (anterior, middle, and posterior scalenes), which attach to the transverse process of the five lower cervical vertebrae and the first two ribs, and which function to elevate the ribs during breathing and to laterally flex the neck.",
+   "status": "drafted",
+   "file": "content/FMA_64829/tier1.md",
+   "text": "The scalene muscles work together to tilt the head forward or sideways and to turn it. During a forceful breath in, the scalene muscles help lift the chest wall to expand the lungs. The scalene muscles link the lower cervical vertebrae, the spine's neck bones, to the first two ribs. From front to back, the scalene muscles are the anterior, middle and posterior scalenes.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33517",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33517",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33517",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33517",
+     "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33517 Scalene Muscle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33517",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33517, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The scalene muscles work together to tilt the head forward or sideways and to turn it.",
+     "quotes": [
+      {
+       "quote": "the scalene muscles work together to flex, laterally flex, and rotate the head.",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "During a forceful breath in, the scalene muscles help lift the chest wall to expand the lungs.",
+     "quotes": [
+      {
+       "quote": "During forced inspiration, muscles of the neck, including the scalenes, contract and lift the thoracic wall, increasing lung volume.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The scalene muscles link the lower cervical vertebrae, the spine's neck bones, to the first two ribs.",
+     "defines": "cervical vertebrae",
+     "quotes": [
+      {
+       "quote": "Any one of three pairs of vertebral muscles (anterior, middle, and posterior scalenes), which attach to the transverse process of the five lower cervical vertebrae and the first two ribs",
+       "section": "NCIT:C33517 Scalene Muscle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33517",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From front to back, the scalene muscles are the anterior, middle and posterior scalenes.",
+     "quotes": [
+      {
+       "quote": "The scalene muscles include the anterior scalene muscle (anterior to the middle scalene), the middle scalene muscle (the longest, intermediate between the anterior and posterior scalenes), and the posterior scalene muscle (the smallest, posterior to the middle scalene).",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -55,8 +136,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33517",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33517",
+   "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33517 Scalene Muscle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33517",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
    "license": "CC BY 4.0"
   }
  ],

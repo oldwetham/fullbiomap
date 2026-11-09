@@ -12,7 +12,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
 | Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 49 of 49 | 0 of 0 | 210 |
-| Muscles | 106 | 5 of 106 | 0 of 0 | 304 |
+| Muscles | 106 | 106 of 106 | 0 of 0 | 304 |
 | Vessels | 90 | 5 of 90 | 0 of 0 | 206 |
 | Nerves | 3 | 3 of 3 | 0 of 0 | 9 |
 | Brain regions | 31 | 4 of 31 | 0 of 0 | 65 |
@@ -241,112 +241,112 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Muscles (106)
 
-- Abductor pollicis brevis (FMA:37373; also Right abductor pollicis brevis, Left abductor pollicis brevis): Plain: not written
-- Abductor pollicis longus (FMA:38515; also Right abductor pollicis longus, Left abductor pollicis longus): Plain: not written
-- Adductor brevis (FMA:22442; also Right adductor brevis, Left adductor brevis): Plain: not written
-- Adductor longus (FMA:22441; also Right adductor longus, Left adductor longus): Plain: not written
-- Adductor magnus (FMA:22443; also Right adductor magnus, Left adductor magnus): Plain: not written
-- Anconeus (FMA:37704; also Right anconeus, Left anconeus): Plain: not written
-- Brachialis (FMA:37667; also Right brachialis, Left brachialis): Plain: not written
-- Brachioradialis (FMA:38485; also Right brachioradialis, Left brachioradialis): Plain: not written
-- Coracobrachialis (FMA:37664; also Right coracobrachialis, Left coracobrachialis): Plain: not written
-- Digastric (FMA:46291; also Right digastric, Left digastric): Plain: not written
-- Extensor carpi radialis brevis (FMA:38497; also Right extensor carpi radialis brevis, Left extensor carpi radialis brevis): Plain: not written
-- Extensor carpi ulnaris (FMA:38506; also Right extensor carpi ulnaris, Left extensor carpi ulnaris): Plain: not written
-- Extensor digiti minimi (FMA:38503; also Right extensor digiti minimi, Left extensor digiti minimi): Plain: not written
-- Extensor digitorum (FMA:38500; also Right extensor digitorum, Left extensor digitorum): Plain: not written
-- Extensor digitorum longus (FMA:22534; also Right extensor digitorum longus, Left extensor digitorum longus): Plain: not written
-- Extensor hallucis longus (FMA:22533; also Right extensor hallucis longus, Left extensor hallucis longus): Plain: not written
-- Extensor indicis (FMA:38524; also Right extensor indicis, Left extensor indicis): Plain: not written
-- Extensor pollicis brevis (FMA:38518; also Right extensor pollicis brevis, Left extensor pollicis brevis): Plain: not written
-- Extensor pollicis longus (FMA:38521; also Right extensor pollicis longus, Left extensor pollicis longus): Plain: not written
-- External anal sphincter (FMA:21930): Plain: not written
-- External oblique (FMA:13335; also Right external oblique, Left external oblique): Plain: not written
-- Fibularis brevis (FMA:22540; also Right fibularis brevis, Left fibularis brevis): Plain: not written
-- Fibularis longus (FMA:22539; also Right fibularis longus, Left fibularis longus): Plain: not written
-- Fibularis tertius (FMA:22538; also Right fibularis tertius, Left fibularis tertius): Plain: not written
-- Flexor carpi radialis (FMA:38459; also Right flexor carpi radialis, Left flexor carpi radialis): Plain: not written
-- Flexor digitorum longus (FMA:51071; also Right flexor digitorum longus, Left flexor digitorum longus): Plain: not written
-- Flexor digitorum profundus (FMA:38478; also Right flexor digitorum profundus, Left flexor digitorum profundus): Plain: not written
-- Flexor digitorum superficialis (FMA:38469; also Right flexor digitorum superficialis, Left flexor digitorum superficialis): Plain: not written
-- Flexor hallucis longus (FMA:22593; also Right flexor hallucis longus, Left flexor hallucis longus): Plain: not written
-- Flexor pollicis brevis (FMA:37378; also Right flexor pollicis brevis, Left flexor pollicis brevis): Plain: not written
-- Flexor pollicis longus (FMA:38481; also Right flexor pollicis longus, Left flexor pollicis longus): Plain: not written
-- Genioglossus (FMA:46690; also Right genioglossus, Left genioglossus): Plain: not written
-- Geniohyoid (FMA:46325; also Right geniohyoid, Left geniohyoid): Plain: not written
-- Gluteus maximus (FMA:22314; also Right gluteus maximus, Left gluteus maximus): Plain: not written
-- Gluteus medius (FMA:22315; also Right gluteus medius, Left gluteus medius): Plain: not written
-- Gluteus minimus (FMA:22317; also Right gluteus minimus, Left gluteus minimus): Plain: not written
-- Gracilis (FMA:43882; also Right gracilis, Left gracilis): Plain: not written
-- Hyoglossus (FMA:46691; also Right hyoglossus, Left hyoglossus): Plain: not written
-- Iliacus (FMA:22310; also Right iliacus, Left iliacus): Plain: not written
-- Iliococcygeus (FMA:19092; also Right iliococcygeus, Left iliococcygeus): Plain: not written
-- Iliocostalis cervicis (FMA:22704; also Right iliocostalis cervicis, Left iliocostalis cervicis): Plain: not written
-- Iliocostalis lumborum (FMA:22702; also Right iliocostalis lumborum, Left iliocostalis lumborum): Plain: not written
-- Iliocostalis thoracis (FMA:22703; also Right iliocostalis thoracis, Left iliocostalis thoracis): Plain: not written
-- Inferior oblique (FMA:49040; also Right inferior oblique, Left inferior oblique): Plain: not written
-- Inferior rectus (FMA:49036; also Right inferior rectus, Left inferior rectus): Plain: not written
-- Infrahyoid muscle (FMA:13338): Plain: not written
-- Infraspinatus (FMA:32546; also Right infraspinatus, Left infraspinatus): Plain: not written
-- Intercostal muscle (FMA:13354): Plain: not written
-- Lateral rectus (FMA:49038; also Right lateral rectus, Left lateral rectus): Plain: not written
-- Levator palpebrae superioris (FMA:49041; also Right levator palpebrae superioris, Left levator palpebrae superioris): Plain: not written
-- Longissimus capitis (FMA:22714; also Right longissimus capitis, Left longissimus capitis): Plain: not written
-- Longissimus cervicis (FMA:22711; also Right longissimus cervicis, Left longissimus cervicis): Plain: not written
-- Longissimus thoracis (FMA:22709; also Right longissimus thoracis, Left longissimus thoracis): Plain: not written
-- Medial rectus (FMA:49037; also Right medial rectus, Left medial rectus): Plain: not written
-- Mylohyoid (FMA:46320; also Right mylohyoid, Left mylohyoid): Plain: not written
-- Obturator externus (FMA:22299; also Right obturator externus, Left obturator externus): Plain: not written
-- Obturator internus (FMA:22298; also Right obturator internus, Left obturator internus): Plain: not written
-- Omohyoid (FMA:13342; also Right omohyoid, Left omohyoid): Plain: not written
-- Opponens pollicis (FMA:37379; also Right opponens pollicis, Left opponens pollicis): Plain: not written
-- Palmaris longus (FMA:38462; also Right palmaris longus, Left palmaris longus): Plain: not written
-- Pectineus (FMA:22440; also Right pectineus, Left pectineus): Plain: not written
-- Pectoralis major (FMA:9627; also Right pectoralis major, Left pectoralis major): Plain: not written
-- Pectoralis minor (FMA:13109; also Right pectoralis minor, Left pectoralis minor): Plain: not written
-- Piriformis (FMA:19082; also Right piriformis, Left piriformis): Plain: not written
-- Plantaris (FMA:22543; also Right plantaris, Left plantaris): Plain: not written
-- Popliteus (FMA:22590; also Right popliteus, Left popliteus): Plain: not written
-- Pronator quadratus (FMA:38453; also Right pronator quadratus, Left pronator quadratus): Plain: not written
+- Abductor pollicis brevis (FMA:37373; also Right abductor pollicis brevis, Left abductor pollicis brevis): Plain: drafted, grade 7.4
+- Abductor pollicis longus (FMA:38515; also Right abductor pollicis longus, Left abductor pollicis longus): Plain: drafted, grade 5.8
+- Adductor brevis (FMA:22442; also Right adductor brevis, Left adductor brevis): Plain: drafted, grade 8.6
+- Adductor longus (FMA:22441; also Right adductor longus, Left adductor longus): Plain: drafted, grade 6.9
+- Adductor magnus (FMA:22443; also Right adductor magnus, Left adductor magnus): Plain: drafted, grade 6.8
+- Anconeus (FMA:37704; also Right anconeus, Left anconeus): Plain: drafted, grade 6.7
+- Brachialis (FMA:37667; also Right brachialis, Left brachialis): Plain: drafted, grade 6.7
+- Brachioradialis (FMA:38485; also Right brachioradialis, Left brachioradialis): Plain: drafted, grade 7.6
+- Coracobrachialis (FMA:37664; also Right coracobrachialis, Left coracobrachialis): Plain: drafted, grade 7.6
+- Digastric (FMA:46291; also Right digastric, Left digastric): Plain: drafted, grade 7.3
+- Extensor carpi radialis brevis (FMA:38497; also Right extensor carpi radialis brevis, Left extensor carpi radialis brevis): Plain: drafted, grade 7.6
+- Extensor carpi ulnaris (FMA:38506; also Right extensor carpi ulnaris, Left extensor carpi ulnaris): Plain: drafted, grade 7.4
+- Extensor digiti minimi (FMA:38503; also Right extensor digiti minimi, Left extensor digiti minimi): Plain: drafted, grade 7
+- Extensor digitorum (FMA:38500; also Right extensor digitorum, Left extensor digitorum): Plain: drafted, grade 7.2
+- Extensor digitorum longus (FMA:22534; also Right extensor digitorum longus, Left extensor digitorum longus): Plain: drafted, grade 8
+- Extensor hallucis longus (FMA:22533; also Right extensor hallucis longus, Left extensor hallucis longus): Plain: drafted, grade 9.3
+- Extensor indicis (FMA:38524; also Right extensor indicis, Left extensor indicis): Plain: drafted, grade 8.6
+- Extensor pollicis brevis (FMA:38518; also Right extensor pollicis brevis, Left extensor pollicis brevis): Plain: drafted, grade 5.9
+- Extensor pollicis longus (FMA:38521; also Right extensor pollicis longus, Left extensor pollicis longus): Plain: drafted, grade 5.6
+- External anal sphincter (FMA:21930): Plain: drafted, grade 7.6
+- External oblique (FMA:13335; also Right external oblique, Left external oblique): Plain: drafted, grade 7.8
+- Fibularis brevis (FMA:22540; also Right fibularis brevis, Left fibularis brevis): Plain: drafted, grade 8.2
+- Fibularis longus (FMA:22539; also Right fibularis longus, Left fibularis longus): Plain: drafted, grade 8.6
+- Fibularis tertius (FMA:22538; also Right fibularis tertius, Left fibularis tertius): Plain: drafted, grade 8.2
+- Flexor carpi radialis (FMA:38459; also Right flexor carpi radialis, Left flexor carpi radialis): Plain: drafted, grade 7.1
+- Flexor digitorum longus (FMA:51071; also Right flexor digitorum longus, Left flexor digitorum longus): Plain: drafted, grade 6.3
+- Flexor digitorum profundus (FMA:38478; also Right flexor digitorum profundus, Left flexor digitorum profundus): Plain: drafted, grade 6.1
+- Flexor digitorum superficialis (FMA:38469; also Right flexor digitorum superficialis, Left flexor digitorum superficialis): Plain: drafted, grade 8.9
+- Flexor hallucis longus (FMA:22593; also Right flexor hallucis longus, Left flexor hallucis longus): Plain: drafted, grade 6.5
+- Flexor pollicis brevis (FMA:37378; also Right flexor pollicis brevis, Left flexor pollicis brevis): Plain: drafted, grade 6.5
+- Flexor pollicis longus (FMA:38481; also Right flexor pollicis longus, Left flexor pollicis longus): Plain: drafted, grade 7.3
+- Genioglossus (FMA:46690; also Right genioglossus, Left genioglossus): Plain: drafted, grade 8.5
+- Geniohyoid (FMA:46325; also Right geniohyoid, Left geniohyoid): Plain: drafted, grade 7.6
+- Gluteus maximus (FMA:22314; also Right gluteus maximus, Left gluteus maximus): Plain: drafted, grade 8
+- Gluteus medius (FMA:22315; also Right gluteus medius, Left gluteus medius): Plain: drafted, grade 8.4
+- Gluteus minimus (FMA:22317; also Right gluteus minimus, Left gluteus minimus): Plain: drafted, grade 8.7
+- Gracilis (FMA:43882; also Right gracilis, Left gracilis): Plain: drafted, grade 7.4
+- Hyoglossus (FMA:46691; also Right hyoglossus, Left hyoglossus): Plain: drafted, grade 7.4
+- Iliacus (FMA:22310; also Right iliacus, Left iliacus): Plain: drafted, grade 6.5
+- Iliococcygeus (FMA:19092; also Right iliococcygeus, Left iliococcygeus): Plain: drafted, grade 8.3
+- Iliocostalis cervicis (FMA:22704; also Right iliocostalis cervicis, Left iliocostalis cervicis): Plain: drafted, grade 8.7
+- Iliocostalis lumborum (FMA:22702; also Right iliocostalis lumborum, Left iliocostalis lumborum): Plain: drafted, grade 9.1
+- Iliocostalis thoracis (FMA:22703; also Right iliocostalis thoracis, Left iliocostalis thoracis): Plain: drafted, grade 9.4
+- Inferior oblique (FMA:49040; also Right inferior oblique, Left inferior oblique): Plain: drafted, grade 7.2
+- Inferior rectus (FMA:49036; also Right inferior rectus, Left inferior rectus): Plain: drafted, grade 6.9
+- Infrahyoid muscle (FMA:13338): Plain: drafted, grade 5.8
+- Infraspinatus (FMA:32546; also Right infraspinatus, Left infraspinatus): Plain: drafted, grade 8.7
+- Intercostal muscle (FMA:13354): Plain: drafted, grade 6.5
+- Lateral rectus (FMA:49038; also Right lateral rectus, Left lateral rectus): Plain: drafted, grade 7.1
+- Levator palpebrae superioris (FMA:49041; also Right levator palpebrae superioris, Left levator palpebrae superioris): Plain: drafted, grade 8
+- Longissimus capitis (FMA:22714; also Right longissimus capitis, Left longissimus capitis): Plain: drafted, grade 8.5
+- Longissimus cervicis (FMA:22711; also Right longissimus cervicis, Left longissimus cervicis): Plain: drafted, grade 8.4
+- Longissimus thoracis (FMA:22709; also Right longissimus thoracis, Left longissimus thoracis): Plain: drafted, grade 7.4
+- Medial rectus (FMA:49037; also Right medial rectus, Left medial rectus): Plain: drafted, grade 7
+- Mylohyoid (FMA:46320; also Right mylohyoid, Left mylohyoid): Plain: drafted, grade 6.5
+- Obturator externus (FMA:22299; also Right obturator externus, Left obturator externus): Plain: drafted, grade 8.2
+- Obturator internus (FMA:22298; also Right obturator internus, Left obturator internus): Plain: drafted, grade 8.8
+- Omohyoid (FMA:13342; also Right omohyoid, Left omohyoid): Plain: drafted, grade 8.2
+- Opponens pollicis (FMA:37379; also Right opponens pollicis, Left opponens pollicis): Plain: drafted, grade 7.4
+- Palmaris longus (FMA:38462; also Right palmaris longus, Left palmaris longus): Plain: drafted, grade 6.3
+- Pectineus (FMA:22440; also Right pectineus, Left pectineus): Plain: drafted, grade 7.7
+- Pectoralis major (FMA:9627; also Right pectoralis major, Left pectoralis major): Plain: drafted, grade 8.7
+- Pectoralis minor (FMA:13109; also Right pectoralis minor, Left pectoralis minor): Plain: drafted, grade 7.3
+- Piriformis (FMA:19082; also Right piriformis, Left piriformis): Plain: drafted, grade 8.1
+- Plantaris (FMA:22543; also Right plantaris, Left plantaris): Plain: drafted, grade 9
+- Popliteus (FMA:22590; also Right popliteus, Left popliteus): Plain: drafted, grade 6.5
+- Pronator quadratus (FMA:38453; also Right pronator quadratus, Left pronator quadratus): Plain: drafted, grade 6.9
 - Psoas major (FMA:18060; also Right psoas major, Left psoas major): Plain: drafted, grade 4.2
-- Pubococcygeus (FMA:19090; also Right pubococcygeus, Left pubococcygeus): Plain: not written
+- Pubococcygeus (FMA:19090; also Right pubococcygeus, Left pubococcygeus): Plain: drafted, grade 8.9
 - Quadratus femoris (FMA:22321; also Right quadratus femoris, Left quadratus femoris): Plain: drafted, grade 8.7
 - Rectus femoris (FMA:22430; also Right rectus femoris, Left rectus femoris): Plain: drafted, grade 4.6
-- Rhomboid major (FMA:13379; also Right rhomboid major, Left rhomboid major): Plain: not written
-- Rhomboid minor (FMA:13380; also Right rhomboid minor, Left rhomboid minor): Plain: not written
+- Rhomboid major (FMA:13379; also Right rhomboid major, Left rhomboid major): Plain: drafted, grade 8
+- Rhomboid minor (FMA:13380; also Right rhomboid minor, Left rhomboid minor): Plain: drafted, grade 7.8
 - Sartorius (FMA:22353; also Right sartorius, Left sartorius): Plain: drafted, grade 3.8
-- Scalene muscle (FMA:64829): Plain: not written
+- Scalene muscle (FMA:64829): Plain: drafted, grade 7.6
 - Semimembranosus (FMA:22438; also Right semimembranosus, Left semimembranosus): Plain: drafted, grade 4.5
-- Semispinalis capitis (FMA:22830; also Right semispinalis capitis, Left semispinalis capitis): Plain: not written
-- Semispinalis cervicis (FMA:22829; also Right semispinalis cervicis, Left semispinalis cervicis): Plain: not written
-- Semispinalis thoracis (FMA:22828; also Right semispinalis thoracis, Left semispinalis thoracis): Plain: not written
-- Semitendinosus (FMA:22357; also Right semitendinosus, Left semitendinosus): Plain: not written
-- Serratus anterior (FMA:13397; also Right serratus anterior, Left serratus anterior): Plain: not written
-- Soft palate (FMA:55021): Plain: not written
-- Soleus (FMA:22542; also Right soleus, Left soleus): Plain: not written
-- Spinalis thoracis (FMA:22765; also Right spinalis thoracis, Left spinalis thoracis): Plain: not written
-- Splenius (FMA:77180): Plain: not written
-- Splenius capitis (FMA:22653; also Right splenius capitis, Left splenius capitis): Plain: not written
-- Splenius cervicis (FMA:22681; also Right splenius cervicis, Left splenius cervicis): Plain: not written
-- Sternocleidomastoid (FMA:13407; also Right sternocleidomastoid, Left sternocleidomastoid): Plain: not written
-- Sternohyoid (FMA:13341; also Right sternohyoid, Left sternohyoid): Plain: not written
-- Sternothyroid (FMA:13343; also Right sternothyroid, Left sternothyroid): Plain: not written
-- Stylohyoid (FMA:9625; also Right stylohyoid, Left stylohyoid): Plain: not written
-- Subclavius (FMA:13410; also Left subclavius, Right subclavius): Plain: not written
-- Subscapularis (FMA:13413; also Right subscapularis, Left subscapularis): Plain: not written
-- Superior oblique (FMA:49039; also Right superior oblique, Left superior oblique): Plain: not written
-- Superior rectus (FMA:49035; also Right superior rectus, Left superior rectus): Plain: not written
-- Supinator (FMA:38512; also Right supinator, Left supinator): Plain: not written
-- Suprahyoid muscle (FMA:46290): Plain: not written
-- Supraspinatus (FMA:9629; also Right supraspinatus, Left supraspinatus): Plain: not written
-- Teres major (FMA:32549; also Right teres major, Left teres major): Plain: not written
-- Teres minor (FMA:32550; also Right teres minor, Left teres minor): Plain: not written
-- Thyrohyoid (FMA:13344; also Right thyrohyoid, Left thyrohyoid): Plain: not written
-- Tibialis anterior (FMA:22532; also Right tibialis anterior, Left tibialis anterior): Plain: not written
-- Tibialis posterior (FMA:51099; also Right tibialis posterior, Left tibialis posterior): Plain: not written
-- Vastus intermedius (FMA:22433; also Right vastus intermedius, Left vastus intermedius): Plain: not written
-- Vastus lateralis (FMA:22431; also Right vastus lateralis, Left vastus lateralis): Plain: not written
-- Vastus medialis (FMA:22432; also Right vastus medialis, Left vastus medialis): Plain: not written
+- Semispinalis capitis (FMA:22830; also Right semispinalis capitis, Left semispinalis capitis): Plain: drafted, grade 7.9
+- Semispinalis cervicis (FMA:22829; also Right semispinalis cervicis, Left semispinalis cervicis): Plain: drafted, grade 8.9
+- Semispinalis thoracis (FMA:22828; also Right semispinalis thoracis, Left semispinalis thoracis): Plain: drafted, grade 8.6
+- Semitendinosus (FMA:22357; also Right semitendinosus, Left semitendinosus): Plain: drafted, grade 6.7
+- Serratus anterior (FMA:13397; also Right serratus anterior, Left serratus anterior): Plain: drafted, grade 6.5
+- Soft palate (FMA:55021): Plain: drafted, grade 7.2
+- Soleus (FMA:22542; also Right soleus, Left soleus): Plain: drafted, grade 6.4
+- Spinalis thoracis (FMA:22765; also Right spinalis thoracis, Left spinalis thoracis): Plain: drafted, grade 8.9
+- Splenius (FMA:77180): Plain: drafted, grade 6.1
+- Splenius capitis (FMA:22653; also Right splenius capitis, Left splenius capitis): Plain: drafted, grade 6.9
+- Splenius cervicis (FMA:22681; also Right splenius cervicis, Left splenius cervicis): Plain: drafted, grade 6.3
+- Sternocleidomastoid (FMA:13407; also Right sternocleidomastoid, Left sternocleidomastoid): Plain: drafted, grade 9.3
+- Sternohyoid (FMA:13341; also Right sternohyoid, Left sternohyoid): Plain: drafted, grade 8.3
+- Sternothyroid (FMA:13343; also Right sternothyroid, Left sternothyroid): Plain: drafted, grade 8.2
+- Stylohyoid (FMA:9625; also Right stylohyoid, Left stylohyoid): Plain: drafted, grade 6.5
+- Subclavius (FMA:13410; also Left subclavius, Right subclavius): Plain: drafted, grade 7.4
+- Subscapularis (FMA:13413; also Right subscapularis, Left subscapularis): Plain: drafted, grade 9
+- Superior oblique (FMA:49039; also Right superior oblique, Left superior oblique): Plain: drafted, grade 8.1
+- Superior rectus (FMA:49035; also Right superior rectus, Left superior rectus): Plain: drafted, grade 7.4
+- Supinator (FMA:38512; also Right supinator, Left supinator): Plain: drafted, grade 9
+- Suprahyoid muscle (FMA:46290): Plain: drafted, grade 5.6
+- Supraspinatus (FMA:9629; also Right supraspinatus, Left supraspinatus): Plain: drafted, grade 8.5
+- Teres major (FMA:32549; also Right teres major, Left teres major): Plain: drafted, grade 6.4
+- Teres minor (FMA:32550; also Right teres minor, Left teres minor): Plain: drafted, grade 7.4
+- Thyrohyoid (FMA:13344; also Right thyrohyoid, Left thyrohyoid): Plain: drafted, grade 7
+- Tibialis anterior (FMA:22532; also Right tibialis anterior, Left tibialis anterior): Plain: drafted, grade 6.7
+- Tibialis posterior (FMA:51099; also Right tibialis posterior, Left tibialis posterior): Plain: drafted, grade 9
+- Vastus intermedius (FMA:22433; also Right vastus intermedius, Left vastus intermedius): Plain: drafted, grade 9.2
+- Vastus lateralis (FMA:22431; also Right vastus lateralis, Left vastus lateralis): Plain: drafted, grade 8.1
+- Vastus medialis (FMA:22432; also Right vastus medialis, Left vastus medialis): Plain: drafted, grade 6.3
 
 ### Vessels (90)
 
@@ -708,6 +708,872 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Muscular
 
+#### Abductor pollicis brevis: Plain (drafted; grade 7.4; `content/FMA_37373/tier1.md`; also Right abductor pollicis brevis, Left abductor pollicis brevis)
+
+1. Each abductor pollicis brevis moves the thumb away from the body.
+   > “Thenar muscles | Moves thumb away from body | Thumb | Abduction | Abductor pollicis brevis” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+2. This movement, called abduction, swings the thumb forward to point straight out from the palm. *(defines “abduction”)*
+   > “abductor pollicis brevis: muscle that abducts the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the thumb, abduction is the anterior movement that brings the thumb to a 90° perpendicular position, pointing straight out from the palm.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. This muscle belongs to the thenar muscles, which form the rounded bulge at the base of the thumb. *(defines “thenar muscles”)*
+   > “The thenar muscles include the abductor pollicis brevis, opponens pollicis, flexor pollicis brevis, and the adductor pollicis. These muscles form the thenar eminence, the rounded contour of the base of the thumb, and all act on the thumb.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+4. Like the other thenar muscles, the abductor pollicis brevis starts and ends within the hand.
+   > “They both originate and insert within the hand. The thenar muscles, which are located on the lateral part of the palm, are the abductor pollicis brevis, opponens pollicis, flexor pollicis brevis, and adductor pollicis.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+
+#### Abductor pollicis longus: Plain (drafted; grade 5.8; `content/FMA_38515/tier1.md`; also Right abductor pollicis longus, Left abductor pollicis longus)
+
+1. Each abductor pollicis longus inserts into the first metacarpal, which means the muscle moves that bone. *(defines “insert”)*
+   > “abductor pollicis longus: muscle that inserts into the first metacarpal” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “insertion: end of a skeletal muscle that is attached to the structure (usually a bone) that is moved when the muscle contracts” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. The first metacarpal is the palm bone on the thumb side of the hand. *(defines “metacarpal”)*
+   > “metacarpal bone: one of the five long bones that form the palm of the hand; numbered 1–5, starting on the lateral (thumb) side of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. This muscle lies deep in the back of the forearm.
+   > “deep posterior compartment of the forearm: (deep posterior extensor compartment of the forearm) the abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. The muscle starts on the radius and ulna, the bones of the forearm. *(defines “radius and ulna”)*
+   > “The muscles of the deep posterior compartment of the forearm (deep posterior extensor compartment of the forearm) originate on the radius and ulna. These include the abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, and extensor indicis” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints; contains the radius and ulna bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Adductor brevis: Plain (drafted; grade 8.6; `content/FMA_22442/tier1.md`; also Right adductor brevis, Left adductor brevis)
+
+1. The adductor brevis adducts the thigh, pulling the thigh toward the body's midline. *(defines “adduct”)*
+   > “adductor brevis: muscle that adducts and medially rotates the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “adduction: movement in the coronal plane that moves a limb medially toward or across the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The adductor brevis can also rotate the thigh inward or outward, depending on the foot's position.
+   > “The adductor longus, adductor brevis, and adductor magnus can both medially and laterally rotate the thigh depending on the placement of the foot.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+3. The adductor brevis lies on the inner thigh, along with other adductor muscles.
+   > “On the medial part of the thigh, the adductor longus, adductor brevis, and adductor magnus adduct the thigh and medially rotate it.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+4. In the name adductor brevis, brevis means “short.” *(defines “brevis”)*
+   > “brevis: short” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Adductor longus: Plain (drafted; grade 6.9; `content/FMA_22441/tier1.md`; also Right adductor longus, Left adductor longus)
+
+1. The adductor longus adducts the thigh, pulling the thigh toward the midline of the body. *(defines “adduct”)*
+   > “adductor longus: muscle that adducts, medially rotates, and flexes the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “adduction: movement in the coronal plane that moves a limb medially toward or across the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle also flexes the thigh, bringing the thigh forward and upward at the hip. *(defines “flex”)*
+   > “The adductor longus flexes the thigh, whereas the adductor magnus extends it.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. In addition, the adductor longus rotates the thigh inward.
+   > “adductor longus: muscle that adducts, medially rotates, and flexes the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. This muscle lies on the medial side of the thigh, the side toward the body's middle. *(defines “medial”)*
+   > “On the medial part of the thigh, the adductor longus, adductor brevis, and adductor magnus adduct the thigh and medially rotate it.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “medial: describes the middle or direction toward the middle of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+
+#### Adductor magnus: Plain (drafted; grade 6.8; `content/FMA_22443/tier1.md`; also Right adductor magnus, Left adductor magnus)
+
+1. The adductor magnus adducts the thigh, pulling the thigh toward the body's midline. *(defines “adduct”)*
+   > “On the medial part of the thigh, the adductor longus, adductor brevis, and adductor magnus adduct the thigh and medially rotate it.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “adduction: movement in the coronal plane that moves a limb medially toward or across the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The front part of this muscle also flexes the thigh, bringing the thigh forward and upward. *(defines “flex”)*
+   > “adductor magnus: muscle with an anterior fascicle that adducts, medially rotates and flexes the thigh, and a posterior fascicle that assists in thigh extension” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. But the back part of the adductor magnus helps extend the thigh, moving the thigh backward. *(defines “extend”)*
+   > “adductor magnus: muscle with an anterior fascicle that adducts, medially rotates and flexes the thigh, and a posterior fascicle that assists in thigh extension” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint, while any posterior-going motion of the thigh is extension.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+4. This muscle lies on the medial side of the thigh, the side toward the body's middle. *(defines “medial”)*
+   > “On the medial part of the thigh, the adductor longus, adductor brevis, and adductor magnus adduct the thigh and medially rotate it.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “medial: describes the middle or direction toward the middle of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+
+#### Anconeus: Plain (drafted; grade 6.7; `content/FMA_37704/tier1.md`; also Right anconeus, Left anconeus)
+
+1. Each anconeus extends the forearm, which straightens the elbow. *(defines “extend”)*
+   > “The forearm, made of the radius and ulna bones, has four main types of action at the hinge of the elbow joint: flexion, extension, pronation, and supination. The forearm flexors include the biceps brachii, brachialis, and brachioradialis. The extensors are the triceps brachii and anconeus.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The anconeus shares this job with the triceps brachii, a muscle at the back of the upper arm. *(defines “triceps brachii”)*
+   > “The forearm flexors include the biceps brachii, brachialis, and brachioradialis. The extensors are the triceps brachii and anconeus.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “Triceps brachii: in the posterior compartment of the arm” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+3. The anconeus is a small muscle at the back of the elbow, toward the outer side.
+   > “anconeus: small muscle on the lateral posterior elbow that extends the forearm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Brachialis: Plain (drafted; grade 6.7; `content/FMA_37667/tier1.md`; also Right brachialis, Left brachialis)
+
+1. Each brachialis adds power when you flex the forearm, or bend the elbow. *(defines “flex”)*
+   > “Deep to the biceps brachii, the brachialis provides additional power in flexing the forearm.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “During forearm flexion—bending the elbow—the brachioradialis assists the brachialis.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+2. The brachialis lies beneath the biceps brachii, a muscle at the front of the upper arm. *(defines “biceps brachii”)*
+   > “brachialis: muscle deep to the biceps brachii that provides power in flexing the forearm.” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “Biceps brachii: in the anterior compartment of the arm” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+3. The brachialis starts on the front of the humerus, the upper arm bone. *(defines “humerus”)*
+   > “A muscle that originates from the lower two-thirds of the anterior surface of the humerus that flexes the elbow.” ([NCIT:C53149 Brachialis](http://purl.obolibrary.org/obo/NCIT_C53149), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. When you lift a cup, the brachialis is a synergist, or helper, to the biceps brachii. *(defines “synergist”)*
+   > “To lift a cup, a muscle called the biceps brachii is actually the prime mover; however, because it can be assisted by the brachialis, the brachialis is called a synergist in this action” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+   > “synergist: muscle whose contraction helps a prime mover in an action” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Brachioradialis: Plain (drafted; grade 7.6; `content/FMA_38485/tier1.md`; also Right brachioradialis, Left brachioradialis)
+
+1. The brachioradialis is a muscle that helps bend the elbow, a movement called forearm flexion. *(defines “forearm flexion”)*
+   > “During forearm flexion—bending the elbow—the brachioradialis assists the brachialis.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+2. This muscle can bend the elbow quickly, or help lift a load slowly.
+   > “brachioradialis: muscle that can flex the forearm quickly or help lift a load slowly” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. The brachioradialis runs from the arm to the radius, the forearm bone on the thumb side. *(defines “radius”)*
+   > “brachioradialis (origin on the brachium or arm, insertion on the radius)” ([SEER Training Modules: Muscle Groups](https://training.seer.cancer.gov/anatomy/muscular/groups/), Free of copyright (NCI reuse policy))
+   > “The radius runs parallel to the ulna, on the lateral (thumb) side of the forearm” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Coracobrachialis: Plain (drafted; grade 7.6; `content/FMA_37664/tier1.md`; also Right coracobrachialis, Left coracobrachialis)
+
+1. The coracobrachialis flexes the arm, moving the arm forward at the shoulder. *(defines “flex”)*
+   > “coracobrachialis: muscle that flexes and adducts the arm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the upper limb, all anterior-going motions are flexion and all posterior-going motions are extension. These include anterior-posterior movements of the arm at the shoulder” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also adducts the arm, bringing the arm down to the body's side. *(defines “adduct”)*
+   > “Finally, the coracobrachialis flexes and adducts the arm.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “For example, abduction is raising the arm at the shoulder joint, moving it laterally away from the body, while adduction brings the arm down to the side of the body.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The coracobrachialis starts on the scapula, or shoulder blade. *(defines “scapula”)*
+   > “The deltoid, subscapularis, supraspinatus, infraspinatus, teres major, teres minor, and coracobrachialis originate on the scapula.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle's other end attaches to the humerus, the upper arm bone. *(defines “humerus”)*
+   > “A muscle arising from the coracoid process of the scapula, inserted in the medial border of the humerus, and acts to adduct and flex the arm.” ([NCIT:C53151 Coracobrachialis](http://purl.obolibrary.org/obo/NCIT_C53151), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Digastric: Plain (drafted; grade 7.3; `content/FMA_46291/tier1.md`; also Right digastric, Left digastric)
+
+1. Each digastric muscle lifts the hyoid bone, a U-shaped bone in the upper neck, when you swallow. *(defines “hyoid bone”)*
+   > “digastric: muscle that has anterior and posterior bellies and elevates the hyoid bone and larynx when one swallows; it also depresses the mandible” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The digastric also lifts the larynx, or voice box, during a swallow. *(defines “larynx”)*
+   > “digastric: muscle that has anterior and posterior bellies and elevates the hyoid bone and larynx when one swallows; it also depresses the mandible” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “The muscles of the anterior neck assist in deglutition (swallowing) and speech by controlling the positions of the larynx (voice box)” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. Each digastric lies under the mandible, the bone that forms the lower jaw, and pulls the jaw down. *(defines “mandible”)*
+   > “A small, striated muscle located under the mandible. It arises from the mastoid process and extends to the symphysis menti, and functions to lower the mandible and elevation of the hyoid bone.” ([NCIT:C32462 Digastric Muscle](http://purl.obolibrary.org/obo/NCIT_C32462), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. Each digastric has two bellies, front and back; a belly is the bulky middle part of a muscle. *(defines “belly”)*
+   > “digastric: muscle that has anterior and posterior bellies and elevates the hyoid bone and larynx when one swallows; it also depresses the mandible” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “belly: bulky central body of a muscle” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Extensor carpi radialis brevis: Plain (drafted; grade 7.6; `content/FMA_38497/tier1.md`; also Right extensor carpi radialis brevis, Left extensor carpi radialis brevis)
+
+1. The extensor carpi radialis brevis extends the hand at the wrist, moving the hand backward. *(defines “extend”)*
+   > “extensor carpi radialis brevis: muscle that extends and abducts the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the upper limb, all anterior-going motions are flexion and all posterior-going motions are extension. These include anterior-posterior movements of the arm at the shoulder, the forearm at the elbow, the hand at the wrist” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also abducts the hand, moving the hand away from the body's midline. *(defines “abduct”)*
+   > “extensor carpi radialis brevis: muscle that extends and abducts the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “Similarly, abduction and adduction at the wrist moves the hand away from or toward the midline of the body.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The muscle runs from the humerus, the upper arm bone, along the back of the forearm. *(defines “humerus”)*
+   > “The muscles in the superficial posterior compartment of the forearm (superficial posterior extensor compartment of the forearm) originate on the humerus. These are the extensor radialis longus, extensor carpi radialis brevis” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle's other end attaches to the third metacarpal, a long bone of the palm. *(defines “metacarpal”)*
+   > “A muscle originating at the lateral epicondyle of the humerus and inserted at the third metacarpal bone” ([NCIT:C52911 Extensor Carpi Radialis Brevis](http://purl.obolibrary.org/obo/NCIT_C52911), CC BY 4.0)
+   > “metacarpal bone: one of the five long bones that form the palm of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Extensor carpi ulnaris: Plain (drafted; grade 7.4; `content/FMA_38506/tier1.md`; also Right extensor carpi ulnaris, Left extensor carpi ulnaris)
+
+1. The extensor carpi ulnaris extends the hand at the wrist, moving the hand backward. *(defines “extend”)*
+   > “extensor carpi ulnaris: muscle that extends and adducts the hand” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the upper limb, all anterior-going motions are flexion and all posterior-going motions are extension. These include anterior-posterior movements of the arm at the shoulder, the forearm at the elbow, the hand at the wrist” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also adducts the hand, moving the hand toward the body's midline. *(defines “adduct”)*
+   > “extensor carpi ulnaris: muscle that extends and adducts the hand” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “Similarly, abduction and adduction at the wrist moves the hand away from or toward the midline of the body.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The muscle runs from the humerus, the upper arm bone, along the back of the forearm. *(defines “humerus”)*
+   > “muscles in the superficial posterior compartment of the forearm (superficial posterior extensor compartment of the forearm) originate on the humerus. These are the extensor radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi, and the extensor carpi ulnaris.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle's other end attaches to the fifth metacarpal, a long bone of the palm. *(defines “metacarpal”)*
+   > “A muscle originating at the humeral and ulnar heads and inserted at the base of the fifth metacarpal bone” ([NCIT:C52914 Extensor Carpi Ulnaris](http://purl.obolibrary.org/obo/NCIT_C52914), CC BY 4.0)
+   > “metacarpal bone: one of the five long bones that form the palm of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Extensor digiti minimi: Plain (drafted; grade 7; `content/FMA_38503/tier1.md`; also Right extensor digiti minimi, Left extensor digiti minimi)
+
+1. The extensor digiti minimi extends, or straightens, the little finger. *(defines “extend”)*
+   > “extensor digiti minimi: muscle that extends the little finger” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle lies on the back, or posterior side, of the forearm. *(defines “posterior”)*
+   > “superficial posterior compartment of the forearm: extensor radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “posterior: describes the back or direction toward the back of the body; also referred to as dorsal” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+3. The muscle starts on the humerus, the upper arm bone. *(defines “humerus”)*
+   > “The muscles in the superficial posterior compartment of the forearm (superficial posterior extensor compartment of the forearm) originate on the humerus. These are the extensor radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Extensor digitorum: Plain (drafted; grade 7.2; `content/FMA_38500/tier1.md`; also Right extensor digitorum, Left extensor digitorum)
+
+1. Each extensor digitorum extends, or straightens, the fingers and the hand at the wrist. *(defines “extend”)*
+   > “whereas the extensor digitorum extends the fingers and the hand at the wrist” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle lies near the surface at the back of the forearm, between the elbow and the wrist. *(defines “forearm”)*
+   > “superficial posterior compartment of the forearm: extensor radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The extensor digitorum starts on the humerus, the bone of the upper arm. *(defines “humerus”)*
+   > “The muscles in the superficial posterior compartment of the forearm (superficial posterior extensor compartment of the forearm) originate on the humerus. These are the extensor radialis longus, extensor carpi radialis brevis, extensor digitorum” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle's other end attaches to the phalanges, the bones of the fingers. *(defines “phalanges”)*
+   > “inserted at the base of the proximal and middle phalanges as well as the base of the distal phalanges” ([NCIT:C52916 Extensor Digitorum Communis](http://purl.obolibrary.org/obo/NCIT_C52916), CC BY 4.0)
+   > “phalanx bone of the hand: (plural = phalanges) one of the 14 bones that form the thumb and fingers” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Extensor digitorum longus: Plain (drafted; grade 8; `content/FMA_22534/tier1.md`; also Right extensor digitorum longus, Left extensor digitorum longus)
+
+1. The extensor digitorum longus extends, or straightens, the second through fifth toes. *(defines “extend”)*
+   > “A muscle originating at the lateral condyle of the tibia and the upper portion of the anterior margin of the fibula and inserted at the dorsal surface of the proximal, middle and distal phalanges of the second, third, fourth, and fifth toes which controls their extension.” ([NCIT:C52918 Extensor Digitorum Longus](http://purl.obolibrary.org/obo/NCIT_C52918), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle also helps raise the front of the foot, a movement called dorsiflexion. *(defines “dorsiflexion”)*
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Lifting the front of the foot, so that the top of the foot moves toward the anterior leg is dorsiflexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The extensor digitorum longus sits at the front of the leg, between the knee and the ankle. *(defines “leg”)*
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “leg: portion of the lower limb located between the knee and ankle joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. This muscle runs from the tibia and fibula, the leg bones, to the second through fifth toes. *(defines “tibia and fibula”)*
+   > “A muscle originating at the lateral condyle of the tibia and the upper portion of the anterior margin of the fibula and inserted at the dorsal surface of the proximal, middle and distal phalanges of the second, third, fourth, and fifth toes which controls their extension.” ([NCIT:C52918 Extensor Digitorum Longus](http://purl.obolibrary.org/obo/NCIT_C52918), CC BY 4.0)
+   > “The bones of the lower limb are the femur (thigh bone), patella (kneecap), tibia and fibula (bones of the leg), tarsals (bones of the ankle), and metatarsals and phalanges (bones of the foot)” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+
+#### Extensor hallucis longus: Plain (drafted; grade 9.3; `content/FMA_22533/tier1.md`; also Right extensor hallucis longus, Left extensor hallucis longus)
+
+1. The extensor hallucis longus helps raise the front of the foot, a movement called dorsiflexion. *(defines “dorsiflexion”)*
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Lifting the front of the foot, so that the top of the foot moves toward the anterior leg is dorsiflexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle sits at the front of the leg, between the knee and the ankle. *(defines “leg”)*
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “leg: portion of the lower limb located between the knee and ankle joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. There, the extensor hallucis longus lies under another muscle, the tibialis anterior.
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Extensor indicis: Plain (drafted; grade 8.6; `content/FMA_38524/tier1.md`; also Right extensor indicis, Left extensor indicis)
+
+1. Each extensor indicis moves the index finger tendon it inserts on, or attaches to. *(defines “insert”)*
+   > “extensor indicis: muscle that inserts onto the tendon of the extensor digitorum of the index finger” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “insertion: end of a skeletal muscle that is attached to the structure (usually a bone) that is moved when the muscle contracts” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. This tendon is a strong band that links another muscle, the extensor digitorum, to bone. *(defines “tendon”)*
+   > “extensor indicis: muscle that inserts onto the tendon of the extensor digitorum of the index finger” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “The tendons are strong bands of dense, regular connective tissue that connect muscles to bones.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+3. The extensor indicis lies deep in the back of the forearm, between the elbow and the wrist. *(defines “forearm”)*
+   > “deep posterior compartment of the forearm: (deep posterior extensor compartment of the forearm) the abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+Dropped:
+- “This muscle starts on the radius and ulna, the two bones of the forearm.” (checker: 11.5 says only that the deep posterior compartment's muscles, as a group, originate on the radius and ulna. It does not say that the extensor indicis itself starts on both bones, and no allowed source gives this muscle's own origin.)
+
+#### Extensor pollicis brevis: Plain (drafted; grade 5.9; `content/FMA_38518/tier1.md`; also Right extensor pollicis brevis, Left extensor pollicis brevis)
+
+1. Each extensor pollicis brevis moves the thumb bone it inserts on, or attaches to. *(defines “insert”)*
+   > “extensor pollicis brevis: muscle that inserts onto the base of the proximal phalanx of the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “insertion: end of a skeletal muscle that is attached to the structure (usually a bone) that is moved when the muscle contracts” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. That bone is the thumb's proximal phalanx, the bone nearer the wrist. *(defines “proximal”)*
+   > “extensor pollicis brevis: muscle that inserts onto the base of the proximal phalanx of the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “proximal: describes a position nearer to the point of attachment or the trunk of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+3. This muscle lies deep in the back of the forearm, between the elbow and the wrist. *(defines “forearm”)*
+   > “deep posterior compartment of the forearm: (deep posterior extensor compartment of the forearm) the abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+Dropped:
+- “The muscle starts on the radius and ulna, the two bones of the forearm.” (checker: 11.5 says only that the deep posterior compartment's muscles, as a group, originate on the radius and ulna. It does not say that the extensor pollicis brevis itself starts on both bones, and no allowed source gives this muscle's own origin.)
+
+#### Extensor pollicis longus: Plain (drafted; grade 5.6; `content/FMA_38521/tier1.md`; also Right extensor pollicis longus, Left extensor pollicis longus)
+
+1. Each extensor pollicis longus moves the thumb bone it inserts on, or attaches to. *(defines “insert”)*
+   > “extensor pollicis longus: muscle that inserts onto the base of the distal phalanx of the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “insertion: end of a skeletal muscle that is attached to the structure (usually a bone) that is moved when the muscle contracts” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. That bone is the thumb's distal phalanx, the bone farther from the wrist. *(defines “distal”)*
+   > “extensor pollicis longus: muscle that inserts onto the base of the distal phalanx of the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “distal: describes a position farther from the point of attachment or the trunk of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+3. This muscle lies deep in the back of the forearm, between the elbow and the wrist. *(defines “forearm”)*
+   > “deep posterior compartment of the forearm: (deep posterior extensor compartment of the forearm) the abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+Dropped:
+- “The muscle starts on the radius and ulna, the two bones of the forearm.” (checker: 11.5 says only that the deep posterior compartment's muscles, as a group, originate on the radius and ulna. It does not say that the extensor pollicis longus itself starts on both bones, and no allowed source gives this muscle's own origin.)
+
+#### External anal sphincter: Plain (drafted; grade 7.6; `content/FMA_21930/tier1.md`)
+
+1. The external anal sphincter lets you choose when to pass feces, the waste product of digestion. *(defines “feces”)*
+   > “The presence of feces in the anal canal sends a signal to the brain, which gives you the choice of voluntarily opening the external anal sphincter (defecating) or keeping it temporarily closed.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “feces: semisolid waste product of digestion” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. This sphincter is a ring of muscle around the anus, outside the internal anal sphincter. *(defines “sphincter”)*
+   > “A ring of striated muscular fibers surrounding the anus on the outside of the internal anal sphincter.” ([NCIT:C32548 External Anal Sphincter](http://purl.obolibrary.org/obo/NCIT_C32548), CC BY 4.0)
+   > “A ring-like muscle called a sphincter forms valves in the digestive system.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+3. The external anal sphincter is made of skeletal muscle, which you can control at will. *(defines “skeletal muscle”)*
+   > “The external anal sphincter is made of skeletal muscle, which is under voluntary control.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “skeletal muscle: usually attached to bone, under voluntary control, each cell is a fiber that is multinucleated and striated” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Except when you pass feces, both sphincters usually stay closed.
+   > “The anal canal includes two sphincters. The internal anal sphincter is made of smooth muscle, and its contractions are involuntary. The external anal sphincter is made of skeletal muscle, which is under voluntary control. Except when defecating, both usually remain closed.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### External oblique: Plain (drafted; grade 7.8; `content/FMA_13335/tier1.md`; also Right external oblique, Left external oblique)
+
+1. Each external oblique helps you twist at the waist and bend to the side.
+   > “Twisting at waist; also bending to the side | Vertebral column | Supination; lateral flexion | External obliques; internal obliques” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+2. This muscle also squeezes the abdomen and pulls the chest downward.
+   > “The largest and most superficial muscle on the lateral side of the anterior abdomen which compresses the abdomen and pulls the chest downward.” ([NCIT:C32567 External Oblique Muscle](http://purl.obolibrary.org/obo/NCIT_C32567), CC BY 4.0)
+3. The external oblique is the outermost of three flat muscles in the front and side wall of the abdomen.
+   > “There are three flat skeletal muscles in the antero-lateral wall of the abdomen. The external oblique, closest to the surface, extend inferiorly and medially, in the direction of sliding one’s four fingers into pants pockets.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+4. This outermost muscle runs downward and toward the midline, like fingers sliding into pants pockets.
+   > “The external oblique, closest to the surface, extend inferiorly and medially, in the direction of sliding one’s four fingers into pants pockets.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Fibularis brevis: Plain (drafted; grade 8.2; `content/FMA_22540/tier1.md`; also Right fibularis brevis, Left fibularis brevis)
+
+1. The fibularis brevis plantar flexes the foot at the ankle, pointing the toes downward. *(defines “plantar flex”)*
+   > “fibularis brevis: (also, peroneus brevis) muscle that plantar flexes the foot at the ankle and everts it at the intertarsal joints” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lifting the heel of the foot from the ground or pointing the toes downward is plantar flexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also everts the foot, turning the bottom of the foot away from the midline. *(defines “evert”)*
+   > “fibularis brevis: (also, peroneus brevis) muscle that plantar flexes the foot at the ankle and everts it at the intertarsal joints” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “eversion turns the bottom of the foot away from the midline” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The fibularis brevis lies on the outer side of the leg, between the knee and the ankle. *(defines “leg”)*
+   > “The lateral compartment of the leg includes two muscles: the fibularis longus (peroneus longus) and the fibularis brevis (peroneus brevis).” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “leg: portion of the lower limb located between the knee and ankle joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. Another name for the fibularis brevis is the peroneus brevis.
+   > “fibularis brevis: (also, peroneus brevis) muscle that plantar flexes the foot at the ankle and everts it at the intertarsal joints” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Fibularis longus: Plain (drafted; grade 8.6; `content/FMA_22539/tier1.md`; also Right fibularis longus, Left fibularis longus)
+
+1. Each fibularis longus lifts the heel or points the toes down, a movement called plantar flexion. *(defines “plantar flexion”)*
+   > “fibularis longus: (also, peroneus longus) muscle that plantar flexes the foot at the ankle and everts it at the intertarsal joints” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lifting the heel of the foot from the ground or pointing the toes downward is plantar flexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. The muscle also turns the bottom of the foot outward, a movement called eversion. *(defines “eversion”)*
+   > “fibularis longus: (also, peroneus longus) muscle that plantar flexes the foot at the ankle and everts it at the intertarsal joints” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “eversion: foot movement involving the intertarsal joints of the foot in which the bottom of the foot is turned laterally, away from the midline” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. In addition, the fibularis longus supports the arches of the foot.
+   > “functioning to plantar flex and evert the foot, and which supports the lateral, longitudinal, and transverse arches” ([NCIT:C53171 Peroneus Longus](http://purl.obolibrary.org/obo/NCIT_C53171), CC BY 4.0)
+4. The fibularis longus starts high on the fibula, the thin outer bone of the lower leg. *(defines “fibula”)*
+   > “which originates at the superior, lateral shaft of the fibula” ([NCIT:C53171 Peroneus Longus](http://purl.obolibrary.org/obo/NCIT_C53171), CC BY 4.0)
+   > “fibula: thin, non-weight-bearing bone found on the lateral side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Fibularis tertius: Plain (drafted; grade 8.2; `content/FMA_22538/tier1.md`; also Right fibularis tertius, Left fibularis tertius)
+
+1. The fibularis tertius belongs to the front group of lower-leg muscles that move the foot and toes.
+   > “The muscles of the leg that move the foot and toes are divided into anterior, lateral, superficial- and deep-posterior compartments. The anterior compartment includes the tibialis anterior, the extensor hallucis longus, the extensor digitorum longus, and the fibularis (peroneus) tertius.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+2. This small muscle starts on the front of the fibula, the thin outer bone of the leg. *(defines “fibula”)*
+   > “The fibularis tertius, a small muscle that originates on the anterior surface of the fibula” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “fibula: thin, non-weight-bearing bone found on the lateral side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The fibularis tertius is linked to the extensor digitorum longus, which helps lift the front of the foot. *(defines “extensor digitorum longus”)*
+   > “The fibularis tertius, a small muscle that originates on the anterior surface of the fibula, is associated with the extensor digitorum longus” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia, the extensor hallucis longus, deep under it, and the extensor digitorum longus, lateral to it, all contribute to raising the front of the foot when they contract.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+4. The fibularis tertius is sometimes fused to that muscle and is missing in some people.
+   > “The fibularis tertius, a small muscle that originates on the anterior surface of the fibula, is associated with the extensor digitorum longus and sometimes fused to it, but is not present in all people.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Flexor carpi radialis: Plain (drafted; grade 7.1; `content/FMA_38459/tier1.md`; also Right flexor carpi radialis, Left flexor carpi radialis)
+
+1. Each flexor carpi radialis flexes, or bends, the hand at the wrist. *(defines “flex”)*
+   > “flexor carpi radialis: muscle that flexes and abducts the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle also abducts the hand, moving it away from the midline of the body. *(defines “abduct”)*
+   > “flexor carpi radialis: muscle that flexes and abducts the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “abduction and adduction at the wrist moves the hand away from or toward the midline of the body” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The flexor carpi radialis lies near the surface at the front of the forearm, between the elbow and the wrist. *(defines “forearm”)*
+   > “superficial anterior compartment of the forearm: flexor carpi radialis, palmaris longus, flexor carpi ulnaris, flexor digitorum superficialis, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Flexor digitorum longus: Plain (drafted; grade 6.3; `content/FMA_51071/tier1.md`; also Right flexor digitorum longus, Left flexor digitorum longus)
+
+1. Each flexor digitorum longus curls the four small toes into the foot.
+   > “ending with four tendons proceeding to the second, third, fourth, and fifth toes acting to curl the toes into the foot” ([NCIT:C52921 Flexor Digitorum Longus](http://purl.obolibrary.org/obo/NCIT_C52921), CC BY 4.0)
+2. The flexor digitorum longus lies deep in the back of the lower leg.
+   > “There are four deep muscles in the posterior compartment of the leg as well: the popliteus, flexor digitorum longus, flexor hallucis longus, and tibialis posterior.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+3. The flexor digitorum longus starts on the tibia, the shin bone. *(defines “tibia”)*
+   > “A muscle in the lower leg and foot beginning at the tibia” ([NCIT:C52921 Flexor Digitorum Longus](http://purl.obolibrary.org/obo/NCIT_C52921), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle ends in four tendons, strong bands linking muscle to bone, one per small toe. *(defines “tendon”)*
+   > “ending with four tendons proceeding to the second, third, fourth, and fifth toes” ([NCIT:C52921 Flexor Digitorum Longus](http://purl.obolibrary.org/obo/NCIT_C52921), CC BY 4.0)
+   > “The tendons are strong bands of dense, regular connective tissue that connect muscles to bones.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+
+#### Flexor digitorum profundus: Plain (drafted; grade 6.1; `content/FMA_38478/tier1.md`; also Right flexor digitorum profundus, Left flexor digitorum profundus)
+
+1. Each flexor digitorum profundus flexes, or bends, the fingers and the hand at the wrist. *(defines “flex”)*
+   > “flexor digitorum profundus: muscle that flexes the phalanges of the fingers and the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle lies in the deep anterior compartment, the group of deep muscles at the front of the forearm. *(defines “deep anterior compartment”)*
+   > “deep anterior compartment: flexor pollicis longus, flexor digitorum profundus, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “anterior compartment of the forearm: (anterior flexor compartment of the forearm) deep and superficial muscles that originate on the humerus and insert into the hand” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. The muscle ends in four tendons, strong bands that connect muscle to bone. *(defines “tendon”)*
+   > “ending with four tendons projecting to the second, third, fourth, and fifth fingers” ([NCIT:C52923 Flexor Digitorum Profundus](http://purl.obolibrary.org/obo/NCIT_C52923), CC BY 4.0)
+   > “The tendons are strong bands of dense, regular connective tissue that connect muscles to bones.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+4. These tendons run to the second, third, fourth and fifth fingers.
+   > “ending with four tendons projecting to the second, third, fourth, and fifth fingers” ([NCIT:C52923 Flexor Digitorum Profundus](http://purl.obolibrary.org/obo/NCIT_C52923), CC BY 4.0)
+
+#### Flexor digitorum superficialis: Plain (drafted; grade 8.9; `content/FMA_38469/tier1.md`; also Right flexor digitorum superficialis, Left flexor digitorum superficialis)
+
+1. Each flexor digitorum superficialis flexes, or bends, the fingers and the hand at the wrist. *(defines “flex”)*
+   > “The flexor digitorum superficialis and flexor digitorum profundus flex the fingers and the hand at the wrist” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The muscle bends the fingers at the knuckles, allowing quick finger movements, as in typing or playing an instrument.
+   > “The flexor digitorum superficialis flexes the hand as well as the digits at the knuckles, which allows for rapid finger movements, as in typing or playing a musical instrument” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. This muscle belongs to the group of muscles near the surface at the front of the forearm.
+   > “From lateral to medial, the superficial anterior compartment of the forearm includes the flexor carpi radialis, palmaris longus, flexor carpi ulnaris, and flexor digitorum superficialis.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+
+#### Flexor hallucis longus: Plain (drafted; grade 6.5; `content/FMA_22593/tier1.md`; also Right flexor hallucis longus, Left flexor hallucis longus)
+
+1. Each flexor hallucis longus bends the big toe, a movement called flexion. *(defines “flexion”)*
+   > “flexor hallucis longus: muscle that flexes the big toe” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The flexor hallucis longus lies deep in the back of the lower leg.
+   > “There are four deep muscles in the posterior compartment of the leg as well: the popliteus, flexor digitorum longus, flexor hallucis longus, and tibialis posterior.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+3. The flexor hallucis longus starts on the fibula, the thin outer bone of the leg. *(defines “fibula”)*
+   > “A muscle in the lower leg and foot beginning at the fibula” ([NCIT:C52925 Flexor Hallucis Longus](http://purl.obolibrary.org/obo/NCIT_C52925), CC BY 4.0)
+   > “fibula: thin, non-weight-bearing bone found on the lateral side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The muscle ends in a tendon, a strong band that attaches to the big toe. *(defines “tendon”)*
+   > “ending with a tendon attaching to the distal surface of the great toe phalanx in order to flex the toe” ([NCIT:C52925 Flexor Hallucis Longus](http://purl.obolibrary.org/obo/NCIT_C52925), CC BY 4.0)
+   > “The tendons are strong bands of dense, regular connective tissue that connect muscles to bones.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+
+#### Flexor pollicis brevis: Plain (drafted; grade 6.5; `content/FMA_37378/tier1.md`; also Right flexor pollicis brevis, Left flexor pollicis brevis)
+
+1. Each flexor pollicis brevis flexes the thumb, bringing the thumb into the palm. *(defines “flex”)*
+   > “flexor pollicis brevis: muscle that flexes the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the thumb, extension moves the thumb away from the palm of the hand, within the same plane as the palm, while flexion brings the thumb back against the index finger or into the palm.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. The thenar muscles, including this one, form the fleshy pad at the base of the thumb. *(defines “thenar muscles”)*
+   > “The thenar muscles include the abductor pollicis brevis, opponens pollicis, flexor pollicis brevis, and the adductor pollicis. These muscles form the thenar eminence, the rounded contour of the base of the thumb” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “Any of the muscles of the thenar eminence, a raised fleshy area on the palm of the hand near the base of the thumb.” ([UBERON:0014376 thenar muscle](http://purl.obolibrary.org/obo/UBERON_0014376), CC BY 3.0)
+3. These muscles all act on the thumb, whose movements are key to most precise hand movements.
+   > “These muscles form the thenar eminence, the rounded contour of the base of the thumb, and all act on the thumb. The movements of the thumb play an integral role in most precise movements of the hand.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+
+#### Flexor pollicis longus: Plain (drafted; grade 7.3; `content/FMA_38481/tier1.md`; also Right flexor pollicis longus, Left flexor pollicis longus)
+
+1. Each flexor pollicis longus flexes, or bends, the thumb. *(defines “flex”)*
+   > “flexor pollicis longus: muscle that flexes the distal phalanx of the thumb” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle lies in the deep anterior compartment, the group of deep muscles at the front of the forearm. *(defines “deep anterior compartment”)*
+   > “deep anterior compartment: flexor pollicis longus, flexor digitorum profundus, and their associated blood vessels and nerves” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “anterior compartment of the forearm: (anterior flexor compartment of the forearm) deep and superficial muscles that originate on the humerus and insert into the hand” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. This group, which also includes the flexor digitorum profundus, bends the fingers to make a fist.
+   > “The deep anterior compartment produces flexion and bends fingers to make a fist. These are the flexor pollicis longus and the flexor digitorum profundus.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+
+#### Genioglossus: Plain (drafted; grade 8.5; `content/FMA_46690/tier1.md`; also Right genioglossus, Left genioglossus)
+
+1. Each genioglossus muscle pulls the tongue down and forward.
+   > “genioglossus: muscle that originates on the mandible and allows the tongue to move downward and forward” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. The genioglossus lets you stick your tongue out.
+   > “The genioglossus muscle is responsible for protrusion of the tongue.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. The fan-shaped genioglossus runs from the mandible, or lower jaw bone, to the underside of the tongue. *(defines “mandible”)*
+   > “A fan shaped muscle running from the underside of the tongue to the mandible which depresses and protrudes the tongue.” ([NCIT:C52928 Genioglossus](http://purl.obolibrary.org/obo/NCIT_C52928), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The genioglossus is an extrinsic tongue muscle, which means it starts outside the tongue but attaches inside the tongue. *(defines “extrinsic tongue muscle”)*
+   > “the extrinsic muscles of the tongue are the palatoglossus, hyoglossus, styloglossus, and genioglossus muscles. These muscles originate outside the tongue and insert into connective tissues within the tongue.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+
+#### Geniohyoid: Plain (drafted; grade 7.6; `content/FMA_46325/tier1.md`; also Right geniohyoid, Left geniohyoid)
+
+1. Each geniohyoid muscle pulls the hyoid bone, a U-shaped bone in the upper neck, forward when you swallow. *(defines “hyoid bone”)*
+   > “A muscle extending from the chin to the hyoid bone that brings the hyoid bone forward when swallowing and depresses the mandible.” ([NCIT:C52930 Geniohyoid](http://purl.obolibrary.org/obo/NCIT_C52930), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The geniohyoid also lifts the hyoid bone and pulls down the mandible, the lower jaw bone. *(defines “mandible”)*
+   > “geniohyoid: muscle that depresses the mandible, and raises and pulls the hyoid bone anteriorly” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Each geniohyoid runs from the chin to the hyoid bone.
+   > “A muscle extending from the chin to the hyoid bone that brings the hyoid bone forward when swallowing and depresses the mandible.” ([NCIT:C52930 Geniohyoid](http://purl.obolibrary.org/obo/NCIT_C52930), CC BY 4.0)
+
+#### Gluteus maximus: Plain (drafted; grade 8; `content/FMA_22314/tier1.md`; also Right gluteus maximus, Left gluteus maximus)
+
+1. Each gluteus maximus pulls the thigh backward at the hip, a movement called extension. *(defines “extension”)*
+   > “gluteus maximus: largest of the gluteus muscles that extends the femur” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint, while any posterior-going motion of the thigh is extension.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. Of all the buttock muscles, the gluteus maximus lies closest to the surface.
+   > “The outermost and largest muscle of the buttocks.” ([NCIT:C52560 Gluteus Maximus](http://purl.obolibrary.org/obo/NCIT_C52560), CC BY 4.0)
+3. The gluteus maximus is also the largest of the gluteal muscles, the muscles that form the buttocks. *(defines “gluteal muscles”)*
+   > “Some of the largest and most powerful muscles in the body are the gluteal muscles or gluteal group. The gluteus maximus is the largest” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Any of the skeletal muscles that form the buttocks.” ([NCIT:C78205 Gluteal Muscle](http://purl.obolibrary.org/obo/NCIT_C78205), CC BY 4.0)
+4. These muscles rank among the most powerful in the body.
+   > “Some of the largest and most powerful muscles in the body are the gluteal muscles or gluteal group.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Gluteus medius: Plain (drafted; grade 8.4; `content/FMA_22315/tier1.md`; also Right gluteus medius, Left gluteus medius)
+
+1. Each gluteus medius moves the thigh out to the side, a movement called abduction. *(defines “abduction”)*
+   > “One of the three gluteal muscles on the lateral surface of the pelvic bone that abducts and rotates the thigh.” ([NCIT:C52933 Gluteus Medius](http://purl.obolibrary.org/obo/NCIT_C52933), CC BY 4.0)
+   > “abduction: movement in the coronal plane that moves a limb laterally away from the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. Of the gluteus muscles in the buttock, the gluteus medius is the medium-sized one.
+   > “For the buttocks, the size of the muscles influences the names: gluteus maximus (largest), gluteus medius (medium), and the gluteus minimus (smallest).” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+3. The gluteus medius lies under the gluteus maximus and over the gluteus minimus.
+   > “The gluteus maximus is the largest; deep to the gluteus maximus is the gluteus medius, and deep to the gluteus medius is the gluteus minimus, the smallest of the trio” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Gluteus minimus: Plain (drafted; grade 8.7; `content/FMA_22317/tier1.md`; also Right gluteus minimus, Left gluteus minimus)
+
+1. Each gluteus minimus helps move the thigh out to the side, a movement called abduction. *(defines “abduction”)*
+   > “The large and strong gluteus maximus, gluteus medius, and gluteus minimus extend and abduct the femur.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “abduction: movement in the coronal plane that moves a limb laterally away from the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. Of the gluteus muscles in the buttock, the gluteus minimus is the smallest.
+   > “For the buttocks, the size of the muscles influences the names: gluteus maximus (largest), gluteus medius (medium), and the gluteus minimus (smallest).” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+3. The gluteus minimus lies under the gluteus medius, which lies under the gluteus maximus.
+   > “The gluteus maximus is the largest; deep to the gluteus maximus is the gluteus medius, and deep to the gluteus medius is the gluteus minimus, the smallest of the trio” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Gracilis: Plain (drafted; grade 7.4; `content/FMA_43882/tier1.md`; also Right gracilis, Left gracilis)
+
+1. Each gracilis pulls the thigh in toward the body, a movement called adduction. *(defines “adduction”)*
+   > “gracilis: muscle that adducts the thigh and flexes the leg at the knee” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “adduction is the opposing movement that brings the limb toward the body or across the midline” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. The strap-like gracilis also flexes, or bends, the knee. *(defines “flex”)*
+   > “Along with the adductor longus, adductor brevis, adductor magnus, and pectineus, the strap-like gracilis adducts the thigh in addition to flexing the leg at the knee.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. The gracilis runs straight down the inner thigh, nearer the surface than any other muscle there.
+   > “The most superficial muscle extending vertically downward along the inner thigh which adducts the thigh, rotates the leg medially and flexes the knee.” ([NCIT:C52935 Gracilis](http://purl.obolibrary.org/obo/NCIT_C52935), CC BY 4.0)
+
+#### Hyoglossus: Plain (drafted; grade 7.4; `content/FMA_46691/tier1.md`; also Right hyoglossus, Left hyoglossus)
+
+1. Each hyoglossus muscle lowers and flattens the tongue.
+   > “hyoglossus: muscle that originates on the hyoid bone to move the tongue downward and flatten it” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. The hyoglossus also pulls the tongue back.
+   > “The mylohyoid is responsible for raising the tongue, the hyoglossus pulls it down and back, the styloglossus pulls it up and back, and the genioglossus pulls it forward.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+3. Each hyoglossus runs from the hyoid bone, a U-shaped bone in the upper neck, to the side of the tongue. *(defines “hyoid bone”)*
+   > “A muscle extending from the hyoid bone to the side of the tongue that retracts and pulls the side of the tongue downward.” ([NCIT:C53161 Hyoglossus Muscle](http://purl.obolibrary.org/obo/NCIT_C53161), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The hyoglossus is an extrinsic tongue muscle, which means it starts outside the tongue but attaches inside the tongue. *(defines “extrinsic tongue muscle”)*
+   > “the extrinsic muscles of the tongue are the palatoglossus, hyoglossus, styloglossus, and genioglossus muscles. These muscles originate outside the tongue and insert into connective tissues within the tongue.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+
+#### Iliacus: Plain (drafted; grade 6.5; `content/FMA_22310/tier1.md`; also Right iliacus, Left iliacus)
+
+1. Each iliacus flexes the thigh, lifting the thigh forward and up at the hip. *(defines “flex”)*
+   > “A triangular muscle within the iliac fossa that flexes the thigh and rotates the leg medially.” ([NCIT:C32762 Iliacus](http://purl.obolibrary.org/obo/NCIT_C32762), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. With the psoas major muscle, the iliacus forms a group called the iliopsoas. *(defines “iliopsoas”)*
+   > “iliopsoas group: muscle group consisting of iliacus and psoas major muscles” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. The iliacus lies in the iliac fossa, a shallow dip on the inner surface of the hip bone. *(defines “iliac fossa”)*
+   > “A triangular muscle within the iliac fossa that flexes the thigh and rotates the leg medially.” ([NCIT:C32762 Iliacus](http://purl.obolibrary.org/obo/NCIT_C32762), CC BY 4.0)
+   > “The shallow depression located on the anteromedial (internal) surface of the upper ilium is called the iliac fossa.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+4. The iliacus also helps form the back wall of the abdomen.
+   > “The posterior abdominal wall is formed by the lumbar vertebrae, parts of the ilia of the hip bones, psoas major and iliacus muscles, and quadratus lumborum muscle.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Iliococcygeus: Plain (drafted; grade 8.3; `content/FMA_19092/tier1.md`; also Right iliococcygeus, Left iliococcygeus)
+
+1. Each iliococcygeus forms part of the levator ani, a muscle that holds up the pelvic organs. *(defines “levator ani”)*
+   > “iliococcygeus: muscle that makes up the levator ani along with the pubococcygeus” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “levator ani: pelvic muscle that resists intra-abdominal pressure and supports the pelvic viscera” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. The other part is a muscle called the pubococcygeus.
+   > “The large levator ani consists of two skeletal muscles, the pubococcygeus and the iliococcygeus” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+3. The levator ani is the main muscle of the pelvic floor, the muscle sheet at the base of the pelvis. *(defines “pelvic floor”)*
+   > “The levator ani is considered the most important muscle of the pelvic floor because it supports the pelvic viscera.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “The pelvic floor is a muscular sheet that defines the inferior portion of the pelvic cavity.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+4. By resisting pressure from the belly muscles, the levator ani also helps in passing stool and in childbirth.
+   > “The levator ani is considered the most important muscle of the pelvic floor because it supports the pelvic viscera. It resists the pressure produced by contraction of the abdominal muscles so that the pressure is applied to the colon to aid in defecation and to the uterus to aid in childbirth” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Iliocostalis cervicis: Plain (drafted; grade 8.7; `content/FMA_22704/tier1.md`; also Right iliocostalis cervicis, Left iliocostalis cervicis)
+
+1. The iliocostalis cervicis is one of the back and neck muscles that move the spine.
+   > “The muscles of the back and neck that move the vertebral column are complex, overlapping, and can be divided into five groups. The splenius group includes the splenius capitis and the splenius cervicis. The erector spinae has three subgroups. The iliocostalis group includes the iliocostalis cervicis” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. This muscle is part of the erector spinae, the large back muscles that keep you upright. *(defines “erector spinae”)*
+   > “The lateral portion of the erector spinae muscle in the back with three subdivisions: the iliocostalis cervicis, the iliocostalis lumborum and the iliocostalis thoracis.” ([NCIT:C32763 Iliocostal Muscle](http://purl.obolibrary.org/obo/NCIT_C32763), CC BY 4.0)
+   > “The erector spinae group of muscles on each side of the vertebral column is a large muscle mass that extends from the sacrum to the skull. These muscles are primarily responsible for extending the vertebral column to maintain erect posture.” ([SEER Training Modules: Muscles of the Trunk](https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html), Free of copyright (NCI reuse policy))
+3. This muscle belongs to the iliocostalis group, the part of the erector spinae placed toward the side. *(defines “iliocostalis group”)*
+   > “iliocostalis cervicis: muscle of the iliocostalis group associated with the cervical region” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “iliocostalis group: laterally placed muscles of the erector spinae” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. Within that group, the iliocostalis cervicis is the one linked to the cervical region, the neck area of the spine. *(defines “cervical region”)*
+   > “The iliocostalis group includes the iliocostalis cervicis, associated with the cervical region; the iliocostalis thoracis, associated with the thoracic region; and the iliocostalis lumborum, associated with the lumbar region.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “That portion of the spine comprising the cervical vertebrae. The neck area of the spine.” ([UBERON:0006072 cervical region of vertebral column](http://purl.obolibrary.org/obo/UBERON_0006072), CC BY 3.0)
+
+#### Iliocostalis lumborum: Plain (drafted; grade 9.1; `content/FMA_22702/tier1.md`; also Right iliocostalis lumborum, Left iliocostalis lumborum)
+
+1. Each iliocostalis lumborum is part of the erector spinae, the back muscles that keep the body upright. *(defines “erector spinae”)*
+   > “The lateral portion of the erector spinae muscle in the back with three subdivisions: the iliocostalis cervicis, the iliocostalis lumborum and the iliocostalis thoracis.” ([NCIT:C32763 Iliocostal Muscle](http://purl.obolibrary.org/obo/NCIT_C32763), CC BY 4.0)
+   > “The erector spinae group of muscles on each side of the vertebral column is a large muscle mass that extends from the sacrum to the skull. These muscles are primarily responsible for extending the vertebral column to maintain erect posture.” ([SEER Training Modules: Muscles of the Trunk](https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html), Free of copyright (NCI reuse policy))
+2. The iliocostalis muscles, including this one, form the outer part of the erector spinae.
+   > “The lateral portion of the erector spinae muscle in the back with three subdivisions: the iliocostalis cervicis, the iliocostalis lumborum and the iliocostalis thoracis.” ([NCIT:C32763 Iliocostal Muscle](http://purl.obolibrary.org/obo/NCIT_C32763), CC BY 4.0)
+3. Of these, this muscle is the one linked to the lumbar region, or lower back. *(defines “lumbar region”)*
+   > “The iliocostalis group includes the iliocostalis cervicis, associated with the cervical region; the iliocostalis thoracis, associated with the thoracic region; and the iliocostalis lumborum, associated with the lumbar region.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “lumbar vertebrae: five vertebrae numbered as L1–L5 that are located in lumbar region (lower back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Iliocostalis thoracis: Plain (drafted; grade 9.4; `content/FMA_22703/tier1.md`; also Right iliocostalis thoracis, Left iliocostalis thoracis)
+
+1. Each iliocostalis thoracis is part of the erector spinae, the back muscles that keep the body upright. *(defines “erector spinae”)*
+   > “The lateral portion of the erector spinae muscle in the back with three subdivisions: the iliocostalis cervicis, the iliocostalis lumborum and the iliocostalis thoracis.” ([NCIT:C32763 Iliocostal Muscle](http://purl.obolibrary.org/obo/NCIT_C32763), CC BY 4.0)
+   > “The erector spinae group of muscles on each side of the vertebral column is a large muscle mass that extends from the sacrum to the skull. These muscles are primarily responsible for extending the vertebral column to maintain erect posture.” ([SEER Training Modules: Muscles of the Trunk](https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html), Free of copyright (NCI reuse policy))
+2. The iliocostalis muscles, including this one, form the outer part of the erector spinae.
+   > “The lateral portion of the erector spinae muscle in the back with three subdivisions: the iliocostalis cervicis, the iliocostalis lumborum and the iliocostalis thoracis.” ([NCIT:C32763 Iliocostal Muscle](http://purl.obolibrary.org/obo/NCIT_C32763), CC BY 4.0)
+3. Of these, this muscle is the one linked to the thoracic region, or upper back. *(defines “thoracic region”)*
+   > “The iliocostalis group includes the iliocostalis cervicis, associated with the cervical region; the iliocostalis thoracis, associated with the thoracic region; and the iliocostalis lumborum, associated with the lumbar region.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Inferior oblique: Plain (drafted; grade 7.2; `content/FMA_49040/tier1.md`; also Right inferior oblique, Left inferior oblique)
+
+1. The inferior oblique is one of six extraocular muscles, the muscles that move the eye. *(defines “extraocular muscle”)*
+   > “inferior oblique: extraocular muscle responsible for lateral rotation of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. This muscle mainly twists the eyeball but can also move the eye up and away from the nose.
+   > “A thin muscle attached to the bottom portions of the eye and orbit that primarily rotates the eye laterally but can also elevate and abduct the eye.” ([NCIT:C32783 Inferior Oblique Muscle](http://purl.obolibrary.org/obo/NCIT_C32783), CC BY 4.0)
+3. In this twist, the top of the eyeball tips toward the side, like a clock hand.
+   > “Moves eyes up and away from nose; rotates eyeball from 12 o’clock to 9 o’clock | Eyeballs | Superior (elevates); lateral (abducts) | Inferior oblique” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+4. This muscle runs from the floor of the orbit, the bony eye socket, to the eye's lower, outer side. *(defines “orbit”)*
+   > “The inferior oblique muscle originates from the floor of the orbit and inserts into the inferolateral surface of the eye.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Inferior rectus: Plain (drafted; grade 6.9; `content/FMA_49036/tier1.md`; also Right inferior rectus, Left inferior rectus)
+
+1. The inferior rectus moves the eye down and toward the nose.
+   > “Moves eyes down and toward nose; rotates eyes from 6 o’clock to 3 o’clock | Eyeballs | Inferior (depresses); medial (adducts) | Inferior rectus” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The inferior rectus is one of six extraocular muscles, the muscles that move the eye. *(defines “extraocular muscle”)*
+   > “inferior rectus: extraocular muscle responsible for looking down” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Inferior means below, and this muscle lies below the eyeball. *(defines “inferior”)*
+   > “Four of the muscles are arranged at the cardinal points around the eye and are named for those locations. They are the superior rectus, medial rectus, inferior rectus, and lateral rectus.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “inferior: describes a position below or lower than another part of the body proper” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. This muscle runs from the back of the orbit, the bony eye socket, to the front part of the eyeball. *(defines “orbit”)*
+   > “One of the extraoculomotor muscles, which arises from a common tendinous ring in the posterior portion of the orbit, inserts on the anterior globe, is innervated by CN III, and functions to depress and adduct the eye.” ([NCIT:C32790 Inferior Rectus Muscle](http://purl.obolibrary.org/obo/NCIT_C32790), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Infrahyoid muscle: Plain (drafted; grade 5.8; `content/FMA_13338/tier1.md`)
+
+1. The infrahyoid muscles pull down the hyoid bone, a U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “The muscles of the anterior neck are arranged to facilitate swallowing and speech. They work on the hyoid bone, with the suprahyoid muscles pulling up and the infrahyoid muscles pulling down.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Their pull on the hyoid bone helps with swallowing and speech.
+   > “The muscles of the anterior neck are arranged to facilitate swallowing and speech. They work on the hyoid bone, with the suprahyoid muscles pulling up and the infrahyoid muscles pulling down.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. These strap-like muscles also control the position of the larynx, or voice box. *(defines “larynx”)*
+   > “The strap-like infrahyoid muscles generally depress the hyoid bone and control the position of the larynx.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+4. They attach to the hyoid bone from below, in the front of the neck.
+   > “infrahyoid muscles: anterior neck muscles that are attached to, and inferior to the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Infraspinatus: Plain (drafted; grade 8.7; `content/FMA_32546/tier1.md`; also Right infraspinatus, Left infraspinatus)
+
+1. Each infraspinatus rotates the arm laterally, turning the front of the arm away from the body's midline. *(defines “lateral rotation”)*
+   > “infraspinatus: muscle that laterally rotates the arm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle starts on the scapula, the shoulder blade bone at the back of the shoulder. *(defines “scapula”)*
+   > “The deltoid, subscapularis, supraspinatus, infraspinatus, teres major, teres minor, and coracobrachialis originate on the scapula.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The muscle sits below the spine of the scapula, a long ridge across the scapula's back. *(defines “spine of the scapula”)*
+   > “Named for their locations, the supraspinatus (superior to the spine of the scapula) and the infraspinatus (inferior to the spine of the scapula) abduct the arm, and laterally rotate the arm, respectively.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “On the posterior aspect, the spine of the scapula is a long and prominent ridge that runs across its upper portion.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+4. The infraspinatus is one of four rotator cuff muscles, which provide the main support for the shoulder joint.
+   > “the primary support for the shoulder joint is provided by muscles crossing the joint, particularly the four rotator cuff muscles. These muscles (supraspinatus, infraspinatus, teres minor, and subscapularis) arise from the scapula” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+
+#### Intercostal muscle: Plain (drafted; grade 6.5; `content/FMA_13354/tier1.md`)
+
+1. The intercostal muscles help you breathe by changing the size of the rib cage.
+   > “The principal role of the intercostal muscles is to assist in breathing by changing the dimensions of the rib cage” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+2. The intercostal muscles are three sets of muscles that stretch across the spaces between the ribs. *(defines “intercostal muscles”)*
+   > “There are three sets of muscles, called intercostal muscles, which span each of the intercostal spaces.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “intercostal muscles: muscles that span the spaces between the ribs” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. The outer set, the external intercostals, raises the rib cage to help you breathe in.
+   > “The 11 pairs of superficial external intercostal muscles aid in inspiration of air during breathing because when they contract, they raise the rib cage, which expands it.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+4. The deeper sets, however, pull the ribs together to help you breathe out.
+   > “The 11 pairs of internal intercostal muscles, just under the externals, are used for expiration because they draw the ribs together to constrict the rib cage. The innermost intercostal muscles are the deepest, and they act as synergists for the action of the internal intercostals.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Lateral rectus: Plain (drafted; grade 7.1; `content/FMA_49038/tier1.md`; also Right lateral rectus, Left lateral rectus)
+
+1. The lateral rectus moves the eye away from the nose.
+   > “Moves eyes away from nose | Eyeballs | Lateral (abducts) | Lateral rectus” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The lateral rectus is one of six extraocular muscles, the muscles that move the eye. *(defines “extraocular muscle”)*
+   > “lateral rectus: extraocular muscle responsible for abduction of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Lateral means toward the side, and this muscle lies on the outer side of the eyeball. *(defines “lateral”)*
+   > “Four of the muscles are arranged at the cardinal points around the eye and are named for those locations. They are the superior rectus, medial rectus, inferior rectus, and lateral rectus.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “lateral: describes the side or direction toward the side of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. The abducens nerve, one of the cranial nerves connected to the brain, controls this muscle. *(defines “cranial nerve”)*
+   > “The extraocular muscles are innervated by three cranial nerves. The lateral rectus, which causes abduction of the eye, is innervated by the abducens nerve.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “cranial nerve: one of twelve nerves connected to the brain that are responsible for sensory or motor functions of the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Levator palpebrae superioris: Plain (drafted; grade 8; `content/FMA_49041/tier1.md`; also Right levator palpebrae superioris, Left levator palpebrae superioris)
+
+1. The levator palpebrae superioris lifts the upper eyelid, which opens the eye.
+   > “Opens eyes | Upper eyelid | Superior (elevates) | Levator palpabrae superioris” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. This muscle runs from the roof of the orbit, the bony eye socket, to the skin of the upper eyelid. *(defines “orbit”)*
+   > “Opens eyes | Upper eyelid | Superior (elevates) | Levator palpabrae superioris | Roof of orbit (sphenoid bone) | Skin of upper eyelids” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The oculomotor nerve controls this muscle and four of the muscles that move the eye. *(defines “oculomotor nerve”)*
+   > “oculomotor nerve: third cranial nerve; responsible for contraction of four of the extraocular muscles, the muscle in the upper eyelid, and pupillary constriction” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. The upper eyelid usually lifts at the same time as the eye looks up.
+   > “A seventh muscle in the orbit is the levator palpebrae superioris, which is responsible for elevating and retracting the upper eyelid, a movement that usually occurs in concert with elevation of the eye by the superior rectus” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### Longissimus capitis: Plain (drafted; grade 8.5; `content/FMA_22714/tier1.md`; also Right longissimus capitis, Left longissimus capitis)
+
+1. Each longissimus capitis keeps the head upright and moves the head backward or to one side.
+   > “A muscle originating from the transverse processes of the upper thoracic vertebrae and the articular processes of the lower cervical vertebrae which inserts into the mastoid process acting to keep the head upright and to move it backward or to one side.” ([NCIT:C53166 Longissimus Capitis](http://purl.obolibrary.org/obo/NCIT_C53166), CC BY 4.0)
+2. Working alone, one longissimus capitis tilts and turns the head toward the muscle’s own side.
+   > “Rotates and tilts head to the side; tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Longissimus capitis” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. This muscle reaches up from the spine to the mastoid process, a bony bump behind the earlobe. *(defines “mastoid process”)*
+   > “A muscle originating from the transverse processes of the upper thoracic vertebrae and the articular processes of the lower cervical vertebrae which inserts into the mastoid process acting to keep the head upright and to move it backward or to one side.” ([NCIT:C53166 Longissimus Capitis](http://purl.obolibrary.org/obo/NCIT_C53166), CC BY 4.0)
+   > “mastoid process: large bony prominence on the inferior, lateral skull, just behind the earlobe” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The longissimus capitis is part of the erector spinae, the back muscles that keep the body upright. *(defines “erector spinae”)*
+   > “The erector spinae has three subgroups. The iliocostalis group includes the iliocostalis cervicis, the iliocostalis thoracis, and the iliocostalis lumborum. The longissimus group includes the longissimus capitis, the longissimus cervicis, and the longissimus thoracis.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “The erector spinae group of muscles on each side of the vertebral column is a large muscle mass that extends from the sacrum to the skull. These muscles are primarily responsible for extending the vertebral column to maintain erect posture.” ([SEER Training Modules: Muscles of the Trunk](https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html), Free of copyright (NCI reuse policy))
+
+#### Longissimus cervicis: Plain (drafted; grade 8.4; `content/FMA_22711/tier1.md`; also Right longissimus cervicis, Left longissimus cervicis)
+
+1. Each longissimus cervicis extends, or straightens, the spine in the neck. *(defines “extend”)*
+   > “A muscle originating for the transverse processes of the upper thoracic vertebrae which inserts into the transverse process of the upper and middle cervical vertebrae acting to extend the cervical spine.” ([NCIT:C53167 Longissimus Cervicis](http://purl.obolibrary.org/obo/NCIT_C53167), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle runs from the spine in the upper back to the middle and upper neck.
+   > “A muscle with origin in transverse processes of upper thoracic vertebrae, and insertion in transverse processes of middle and upper cervical vertebrae that extends cervical vertebrae.” ([UBERON:0001402 longissimus cervicis muscle](http://purl.obolibrary.org/obo/UBERON_0001402), CC BY 3.0)
+3. The longissimus cervicis is part of the erector spinae, the back muscles that keep the body upright. *(defines “erector spinae”)*
+   > “The erector spinae has three subgroups. The iliocostalis group includes the iliocostalis cervicis, the iliocostalis thoracis, and the iliocostalis lumborum. The longissimus group includes the longissimus capitis, the longissimus cervicis, and the longissimus thoracis.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “The erector spinae group of muscles on each side of the vertebral column is a large muscle mass that extends from the sacrum to the skull. These muscles are primarily responsible for extending the vertebral column to maintain erect posture.” ([SEER Training Modules: Muscles of the Trunk](https://training.seer.cancer.gov/anatomy/muscular/groups/trunk.html), Free of copyright (NCI reuse policy))
+4. This muscle belongs to the longissimus group, the middle muscles of the erector spinae. *(defines “longissimus group”)*
+   > “longissimus cervicis: muscle of the longissimus group associated with the cervical region” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “longissimus group: intermediately placed muscles of the erector spinae” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Longissimus thoracis: Plain (drafted; grade 7.4; `content/FMA_22709/tier1.md`; also Right longissimus thoracis, Left longissimus thoracis)
+
+1. Each longissimus thoracis extends the spine, which means bending the spine backward or straightening it up. *(defines “extend”)*
+   > “A muscle originating from the transverse processes of the lower thoracic vertebrae which inserts into the ribs between the angles and tubercles as well as the transverse and accessory processes of the upper lumbar vertebrae acting to extend the spine.” ([NCIT:C53169 Longissimus Thoracis](http://purl.obolibrary.org/obo/NCIT_C53169), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. Each longissimus thoracis attaches to the ribs and to vertebrae, the bones of the spine. *(defines “vertebrae”)*
+   > “A muscle originating from the transverse processes of the lower thoracic vertebrae which inserts into the ribs between the angles and tubercles as well as the transverse and accessory processes of the upper lumbar vertebrae acting to extend the spine.” ([NCIT:C53169 Longissimus Thoracis](http://purl.obolibrary.org/obo/NCIT_C53169), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. This muscle is part of the erector spinae, the large muscle mass of the back. *(defines “erector spinae”)*
+   > “The erector spinae has three subgroups. The iliocostalis group includes the iliocostalis cervicis, the iliocostalis thoracis, and the iliocostalis lumborum. The longissimus group includes the longissimus capitis, the longissimus cervicis, and the longissimus thoracis.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “erector spinae group: large muscle mass of the back; primary extensor of the vertebral column” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. The word longissimus means “longest.” *(defines “longissimus”)*
+   > “longissimus | longest” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+
+#### Medial rectus: Plain (drafted; grade 7; `content/FMA_49037/tier1.md`; also Right medial rectus, Left medial rectus)
+
+1. The medial rectus moves the eye toward the nose.
+   > “Moves eyes toward nose | Eyeballs | Medial (adducts) | Medial rectus” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The medial rectus is one of six extraocular muscles, the muscles that move the eye. *(defines “extraocular muscle”)*
+   > “medial rectus: extraocular muscle responsible for adduction of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Medial means toward the middle, and this muscle attaches to the side of the eyeball nearest the nose. *(defines “medial”)*
+   > “Moves eyes toward nose | Eyeballs | Medial (adducts) | Medial rectus | Common tendinous ring (ring attaches to optic foramen) | Medial surface of eyeball” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “medial: describes the middle or direction toward the middle of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. To look at something close to the face, both medial rectus muscles turn the eyes toward the nose.
+   > “As visual stimuli move closer to the face, the two medial recti muscles cause the eyes to move in the one nonconjugate movement that is part of gaze control. When the two eyes move to look at something closer to the face, they both adduct, which is referred to as convergence.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+
+#### Mylohyoid: Plain (drafted; grade 6.5; `content/FMA_46320/tier1.md`; also Right mylohyoid, Left mylohyoid)
+
+1. Each mylohyoid helps press the tongue to the top of the mouth.
+   > “mylohyoid: muscle that lifts the hyoid bone and helps press the tongue to the top of the mouth” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. Each mylohyoid also lifts the hyoid bone, a small U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “mylohyoid: muscle that lifts the hyoid bone and helps press the tongue to the top of the mouth” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The mylohyoid muscles lie beneath the floor of the mouth.
+   > “The horseshoe-shaped part of the oral cavity bounded superiorly by the ventral surface of the tongue, inferiorly by the mylohyoid muscle, anterolaterally by the gingival surfaces of the mandible, and posteriorly by the anterior tonsillar pillar.” ([NCIT:C54187 Floor of Mouth](http://purl.obolibrary.org/obo/NCIT_C54187), CC BY 4.0)
+4. Each mylohyoid runs from the mandible, or lower jaw, to the hyoid bone. *(defines “mandible”)*
+   > “One of the suprahyoid muscles located superior to the anterior belly of the digastric muscle that has its origin on the mandible, its insertion on the hyoid bone, and functions to elevate the hyoid, the tongue, and the floor of the mouth.” ([NCIT:C52962 Mylohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C52962), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Obturator externus: Plain (drafted; grade 8.2; `content/FMA_22299/tier1.md`; also Right obturator externus, Left obturator externus)
+
+1. Each obturator externus turns the thigh outward at the hip, a movement called lateral rotation. *(defines “lateral rotation”)*
+   > “obturator externus: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The obturator externus lies on the front surface of the pelvis.
+   > “A striated muscle located on the anterior surface of the pelvis” ([NCIT:C33191 Obturator Externus Muscle](http://purl.obolibrary.org/obo/NCIT_C33191), CC BY 4.0)
+3. This muscle starts at the obturator foramen, a large opening in the hip bone. *(defines “obturator foramen”)*
+   > “with its origin on the obturator foramen and obturatory membrane” ([NCIT:C33191 Obturator Externus Muscle](http://purl.obolibrary.org/obo/NCIT_C33191), CC BY 4.0)
+   > “obturator foramen: large opening located in the anterior hip bone, between the pubis and ischium regions” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. This muscle ends on the femur, or thigh bone. *(defines “femur”)*
+   > “insertion on the trochanteric fossa of the femur” ([NCIT:C33191 Obturator Externus Muscle](http://purl.obolibrary.org/obo/NCIT_C33191), CC BY 4.0)
+   > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Obturator internus: Plain (drafted; grade 8.8; `content/FMA_22298/tier1.md`; also Right obturator internus, Left obturator internus)
+
+1. The obturator internus turns the thigh outward at the hip.
+   > “obturator internus: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. This turn, called lateral rotation, moves the front of the thigh away from the body's midline. *(defines “lateral rotation”)*
+   > “obturator internus: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. Each obturator internus covers most of the side wall of the pelvis.
+   > “A striated muscle covering the majority of the lateral wall of the pelvis” ([NCIT:C33192 Obturator Internus Muscle](http://purl.obolibrary.org/obo/NCIT_C33192), CC BY 4.0)
+4. The obturator internus lies deeper than the gluteus maximus, the largest buttock muscle. *(defines “gluteus maximus”)*
+   > “Deep to the gluteus maximus, the piriformis, obturator internus, obturator externus, superior gemellus, inferior gemellus, and quadratus femoris laterally rotate the femur at the hip.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “For the buttocks, the size of the muscles influences the names: gluteus maximus (largest), gluteus medius (medium), and the gluteus minimus (smallest).” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+
+#### Omohyoid: Plain (drafted; grade 8.2; `content/FMA_13342/tier1.md`; also Right omohyoid, Left omohyoid)
+
+1. Each omohyoid pulls down the hyoid bone, a small U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “omohyoid: muscle that has superior and inferior bellies and depresses the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The omohyoid is an infrahyoid muscle, one of the front neck muscles below the hyoid bone. *(defines “infrahyoid muscle”)*
+   > “A skeletal muscle belonging to the infrahydoid muscle group, located in the anterior part of the neck with its origin on the upper border of the scapula and insertion on the hyoid bone; it functions to depress the hyoid bone.” ([NCIT:C52971 Omohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C52971), CC BY 4.0)
+   > “infrahyoid muscles: anterior neck muscles that are attached to, and inferior to the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. Each omohyoid runs from the top edge of the scapula, or shoulder blade, to the hyoid bone. *(defines “scapula”)*
+   > “A skeletal muscle belonging to the infrahydoid muscle group, located in the anterior part of the neck with its origin on the upper border of the scapula and insertion on the hyoid bone; it functions to depress the hyoid bone.” ([NCIT:C52971 Omohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C52971), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. This muscle has two fleshy parts, called bellies: an upper belly and a lower belly. *(defines “belly”)*
+   > “omohyoid: muscle that has superior and inferior bellies and depresses the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “the fleshy part of the muscle, the belly or gaster” ([SEER Training Modules: Structure of Skeletal Muscle](https://training.seer.cancer.gov/anatomy/muscular/structure.html), Free of copyright (NCI reuse policy))
+
+#### Opponens pollicis: Plain (drafted; grade 7.4; `content/FMA_37379/tier1.md`; also Right opponens pollicis, Left opponens pollicis)
+
+1. Each opponens pollicis moves the thumb across the palm toward the other fingers.
+   > “opponens pollicis: muscle that moves the thumb across the palm to meet another finger” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. This movement, called opposition, brings the tip of the thumb to the tip of a finger. *(defines “opposition”)*
+   > “Moves thumb across palm to touch other fingers | Thumb | Opposition | Opponens pollicis” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “opposition: thumb movement that brings the tip of the thumb in contact with the tip of a finger” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. Thumb movements like this play a key part in most precise movements of the hand.
+   > “The movements of the thumb play an integral role in most precise movements of the hand.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+4. The opponens pollicis is a thenar muscle, part of the fleshy mound at the base of the thumb. *(defines “thenar muscle”)*
+   > “The thenar muscles include the abductor pollicis brevis, opponens pollicis, flexor pollicis brevis, and the adductor pollicis. These muscles form the thenar eminence, the rounded contour of the base of the thumb, and all act on the thumb.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “Any of the muscles of the thenar eminence, a raised fleshy area on the palm of the hand near the base of the thumb.” ([UBERON:0014376 thenar muscle](http://purl.obolibrary.org/obo/UBERON_0014376), CC BY 3.0)
+
+#### Palmaris longus: Plain (drafted; grade 6.3; `content/FMA_38462/tier1.md`; also Right palmaris longus, Left palmaris longus)
+
+1. Each palmaris longus flexes, or bends, the hand at the wrist, though only weakly. *(defines “flex”)*
+   > “palmaris longus: muscle that provides weak flexion of the hand at the wrist” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The palmaris longus is one of the muscles near the surface on the front of the forearm.
+   > “From lateral to medial, the superficial anterior compartment of the forearm includes the flexor carpi radialis, palmaris longus, flexor carpi ulnaris, and flexor digitorum superficialis.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. These front forearm muscles run from the humerus, the upper arm bone, to the hand. *(defines “humerus”)*
+   > “The muscles in the anterior compartment of the forearm (anterior flexor compartment of the forearm) originate on the humerus and insert onto different parts of the hand.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Pectineus: Plain (drafted; grade 7.7; `content/FMA_22440/tier1.md`; also Right pectineus, Left pectineus)
+
+1. The pectineus moves the thigh toward the body's midline, a movement called adduction. *(defines “adduction”)*
+   > “The pectineus adducts and flexes the femur at the hip as well.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “adduction: movement in the coronal plane that moves a limb medially toward or across the midline of the body; bringing fingers together” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The pectineus also bends the hip, a movement called flexion. *(defines “flexion”)*
+   > “The pectineus muscle adducts and flexes the femur at the hip.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint); motion involving anterior bending of the vertebral column” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. Each pectineus runs from the pubic bone to the femur, or thigh bone. *(defines “femur”)*
+   > “A skeletal muscle located in the anterior and medial region of the thigh, with origin on the pubic bone and insertion on the femur” ([NCIT:C52978 Pectineus](http://purl.obolibrary.org/obo/NCIT_C52978), CC BY 4.0)
+   > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The pectineus lies within the femoral triangle, an area where the hip meets the leg. *(defines “femoral triangle”)*
+   > “The pectineus is located in the femoral triangle, which is formed at the junction between the hip and the leg and also includes the femoral nerve, the femoral artery, the femoral vein, and the deep inguinal lymph nodes.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Pectoralis major: Plain (drafted; grade 8.7; `content/FMA_9627/tier1.md`; also Right pectoralis major, Left pectoralis major)
+
+1. Each pectoralis major crosses the shoulder joint to move the humerus, the upper arm bone. *(defines “humerus”)*
+   > “Nine muscles cross the shoulder joint to move the humerus. The ones that originate on the axial skeleton are the pectoralis major and the latissimus dorsi.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The pectoralis major adducts the arm, drawing it toward or across the middle of the body. *(defines “adduct”)*
+   > “The term may refer to one of two muscles, the pectoralis major and pectoralis minor. The former is a thick muscle in the anterior portion of the chest. Its action involves flexion, medial rotation, and adduction of the humerus.” ([NCIT:C33286 Pectoralis Muscle](http://purl.obolibrary.org/obo/NCIT_C33286), CC BY 4.0)
+   > “adduction: movement in the coronal plane that moves a limb medially toward or across the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. This thick, fan-shaped muscle covers much of the upper front of the chest.
+   > “The pectoralis major is thick and fan-shaped, covering much of the superior portion of the anterior thorax.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+4. The pectoralis major is a convergent muscle: its fiber bundles spread wide, then meet in a tendon on the humerus. *(defines “convergent”)*
+   > “The large muscle on the chest, the pectoralis major, is an example of a convergent muscle because it converges on the greater tubercle of the humerus via a tendon.” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+   > “convergent: fascicles that extend over a broad area and converge on a common attachment site” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Pectoralis minor: Plain (drafted; grade 7.3; `content/FMA_13109/tier1.md`; also Right pectoralis minor, Left pectoralis minor)
+
+1. Each pectoralis minor moves the scapula, or shoulder blade, and helps you breathe in. *(defines “scapula”)*
+   > “pectoralis minor: muscle that moves the scapula and assists in inhalation” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The pectoralis minor pulls the scapula down and lifts the ribs.
+   > “Anterior thorax | Rotates shoulder anteriorly (throwing motion); assists with inhalation | Scapula; ribs | Scapula: depresses; ribs: elevates | Pectoralis minor | Anterior surfaces of certain ribs (2–4 or 3–5) | Coracoid process of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. This thin muscle lies beneath the pectoralis major, a thick muscle at the front of the chest.
+   > “the pectoralis major and pectoralis minor. The former is a thick muscle in the anterior portion of the chest. Its action involves flexion, medial rotation, and adduction of the humerus. The latter is a thin muscle located beneath the pectoralis major.” ([NCIT:C33286 Pectoralis Muscle](http://purl.obolibrary.org/obo/NCIT_C33286), CC BY 4.0)
+
+#### Piriformis: Plain (drafted; grade 8.1; `content/FMA_19082/tier1.md`; also Right piriformis, Left piriformis)
+
+1. The piriformis turns the thigh outward at the hip.
+   > “piriformis: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. This turn, called lateral rotation, moves the front of the thigh away from the body's midline. *(defines “lateral rotation”)*
+   > “piriformis: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. The piriformis shares this job with several other hip muscles.
+   > “The lateral rotators of the femur at the hip are the piriformis, obturator internus, obturator externus, superior gemellus, inferior gemellus, and quadratus femoris.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+4. Each piriformis lies deeper than the gluteus maximus, the largest buttock muscle. *(defines “gluteus maximus”)*
+   > “Deep to the gluteus maximus, the piriformis, obturator internus, obturator externus, superior gemellus, inferior gemellus, and quadratus femoris laterally rotate the femur at the hip.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “For the buttocks, the size of the muscles influences the names: gluteus maximus (largest), gluteus medius (medium), and the gluteus minimus (smallest).” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+
+#### Plantaris: Plain (drafted; grade 9; `content/FMA_22543/tier1.md`; also Right plantaris, Left plantaris)
+
+1. The plantaris belongs to a group of calf muscles that keep humans upright.
+   > “The muscles in this compartment are large and strong and keep humans upright. The most superficial and visible muscle of the calf is the gastrocnemius. Deep to the gastrocnemius is the wide, flat soleus. The plantaris runs obliquely between the two;” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+2. Each plantaris runs at an angle between the gastrocnemius, the outermost calf muscle, and the deeper soleus.
+   > “The most superficial and visible muscle of the calf is the gastrocnemius. Deep to the gastrocnemius is the wide, flat soleus. The plantaris runs obliquely between the two;” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+3. The calcaneal tendon, a fibrous cord, attaches each plantaris to the calcaneus, or heel bone. *(defines “calcaneus”)*
+   > “Skeletal ligament, each instance of which is a fibrous cord of connective tissue that attaches some triceps sura and plantaris muscles to the tuberosity of some calcaneus.” ([FMA:51061 Calcaneal tendon](http://purl.org/sig/ont/fma/fma51061), CC BY 3.0)
+   > “calcaneus: heel bone; posterior, inferior tarsal bone that forms the heel of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. But dissections find no plantaris in about seven percent of bodies.
+   > “The plantaris runs obliquely between the two; some people may have two of these muscles, whereas no plantaris is observed in about seven percent of other cadaver dissections.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Popliteus: Plain (drafted; grade 6.5; `content/FMA_22590/tier1.md`; also Right popliteus, Left popliteus)
+
+1. The popliteus bends the leg at the knee, a movement called flexion. *(defines “flexion”)*
+   > “popliteus: muscle that flexes the leg at the knee and creates the floor of the popliteal fossa” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint); motion involving anterior bending of the vertebral column” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. To begin a knee bend, the popliteus makes a slight twist that unlocks the knee.
+   > “Flexion of the knee is initiated by a slight lateral rotation of the femur on the tibia, which “unlocks” the knee. This lateral rotation motion is produced by the popliteus muscle of the posterior leg.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+3. The popliteus also steadies the back and outer side of the knee.
+   > “which functions to rotate the tibia medially on the femur or, when the tibia is fixed, rotates the femur laterally on the tibia and provides dynamic stability to the posterolateral part of the knee” ([NCIT:C33340 Popliteus Muscle](http://purl.obolibrary.org/obo/NCIT_C33340), CC BY 4.0)
+4. Each popliteus forms the floor of the popliteal fossa, a diamond-shaped space behind the knee. *(defines “popliteal fossa”)*
+   > “popliteus: muscle that flexes the leg at the knee and creates the floor of the popliteal fossa” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “popliteal fossa: diamond-shaped space at the back of the knee” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Pronator quadratus: Plain (drafted; grade 6.9; `content/FMA_38453/tier1.md`; also Right pronator quadratus, Left pronator quadratus)
+
+1. Each pronator quadratus turns the forearm so the palm faces backward, a movement called pronation. *(defines “pronation”)*
+   > “The pronators are the pronator teres and the pronator quadratus, and the supinator is the only one that turns the forearm anteriorly. When the forearm faces anteriorly, it is supinated. When the forearm faces posteriorly, it is pronated.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “pronation: forearm motion that moves the palm of the hand from the palm forward to the palm backward position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The pronator teres is the other muscle that does this.
+   > “The pronators are the pronator teres and the pronator quadratus.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. The pronator quadratus runs from the ulna to the radius, the bones of the forearm. *(defines “radius and ulna”)*
+   > “pronator quadratus: pronator that originates on the ulna and inserts on the radius” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “forearm: region of the upper limb located between the elbow and wrist joints; contains the radius and ulna bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. With the palm turned backward, the radius and ulna cross in an X shape.
+   > “When the palm of the hand faces backward, the forearm is in the pronated position, and the radius and ulna form an X-shape.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+
 #### Psoas major: Plain (drafted; grade 4.2; `content/FMA_18060/tier1.md`; also Right psoas major, Left psoas major)
 
 1. Each psoas major is a muscle that flexes, or bends, the hip joint. *(defines “flex”)*
@@ -720,6 +1586,17 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
    > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
 4. It also helps form the back wall of the abdomen.
    > “The posterior abdominal wall is formed by the lumbar vertebrae, parts of the ilia of the hip bones, psoas major and iliacus muscles, and quadratus lumborum muscle.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Pubococcygeus: Plain (drafted; grade 8.9; `content/FMA_19090/tier1.md`; also Right pubococcygeus, Left pubococcygeus)
+
+1. Each pubococcygeus helps form the levator ani, a muscle that supports the organs in the pelvis. *(defines “levator ani”)*
+   > “pubococcygeus: muscle that makes up the levator ani along with the iliococcygeus” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “levator ani: pelvic muscle that resists intra-abdominal pressure and supports the pelvic viscera” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. The other muscle in the levator ani is the iliococcygeus.
+   > “The large levator ani consists of two skeletal muscles, the pubococcygeus and the iliococcygeus” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+3. The pubococcygeus lies in the pelvic floor, the sheet of muscle at the bottom of the pelvis. *(defines “pelvic floor”)*
+   > “The large levator ani consists of two skeletal muscles, the pubococcygeus and the iliococcygeus (). The levator ani is considered the most important muscle of the pelvic floor because it supports the pelvic viscera.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “The pelvic floor is a muscular sheet that defines the inferior portion of the pelvic cavity.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
 
 #### Quadratus femoris: Plain (drafted; grade 8.7; `content/FMA_22321/tier1.md`; also Right quadratus femoris, Left quadratus femoris)
 
@@ -748,6 +1625,34 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
    > “while the rectus femoris is the straight muscle in the anterior compartment of the thigh” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
    > “rectus: straight” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
 
+#### Rhomboid major: Plain (drafted; grade 8; `content/FMA_13379/tier1.md`; also Right rhomboid major, Left rhomboid major)
+
+1. The rhomboid major holds the scapula, or shoulder blade, steady as the shoulder moves. *(defines “scapula”)*
+   > “Posterior thorax | Stabilizes scapula during pectoral girdle movement | Scapula | Retracts; rotates inferiorly | Rhomboid major | Thoracic vertebrae (T2–T5) | Medial border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. This muscle also pulls the shoulder blade back toward the spine, a movement called retraction. *(defines “retraction”)*
+   > “Posterior thorax | Stabilizes scapula during pectoral girdle movement | Scapula | Retracts; rotates inferiorly | Rhomboid major | Thoracic vertebrae (T2–T5) | Medial border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “Retraction is the opposite motion, with the scapula being pulled posteriorly and medially, toward the vertebral column.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. Each rhomboid major links the shoulder blade to the thoracic vertebrae, the spine bones of the upper back. *(defines “thoracic vertebrae”)*
+   > “rhomboid major: muscle that attaches the vertebral border of the scapula to the spinous process of the thoracic vertebrae” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The word rhomboid means the muscle is shaped like a rhombus, with equal and parallel sides.
+   > “Shape: deltoid (triangular); rhomboid (like a rhombus with equal and parallel sides)” ([SEER Training Modules: Muscle Groups](https://training.seer.cancer.gov/anatomy/muscular/groups/), Free of copyright (NCI reuse policy))
+
+#### Rhomboid minor: Plain (drafted; grade 7.8; `content/FMA_13380/tier1.md`; also Right rhomboid minor, Left rhomboid minor)
+
+1. The rhomboid minor holds the scapula, or shoulder blade, steady as the shoulder moves. *(defines “scapula”)*
+   > “Posterior thorax | Stabilizes scapula during pectoral girdle movement | Scapula | Retracts; rotates inferiorly | Rhomboid minor | Cervical and thoracic vertebrae (C7 and T1) | Medial border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. This muscle also pulls the shoulder blade back toward the spine, a movement called retraction. *(defines “retraction”)*
+   > “Posterior thorax | Stabilizes scapula during pectoral girdle movement | Scapula | Retracts; rotates inferiorly | Rhomboid minor | Cervical and thoracic vertebrae (C7 and T1) | Medial border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “Retraction is the opposite motion, with the scapula being pulled posteriorly and medially, toward the vertebral column.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The word rhomboid means the muscle is shaped like a rhombus, with equal and parallel sides.
+   > “Shape: deltoid (triangular); rhomboid (like a rhombus with equal and parallel sides)” ([SEER Training Modules: Muscle Groups](https://training.seer.cancer.gov/anatomy/muscular/groups/), Free of copyright (NCI reuse policy))
+
+Dropped:
+- “Each rhomboid minor links the shoulder blade to the spine, where the neck meets the upper back.” (checker: The only quote gives the origin as 'Cervical and thoracic vertebrae (C7 and T1)'. It does not say that this is where the neck meets the upper back: the quote does not state that cervical means neck, that thoracic means upper back, or that C7 and T1 meet there. The sentence adds that place.)
+
 #### Sartorius: Plain (drafted; grade 3.8; `content/FMA_22353/tier1.md`; also Right sartorius, Left sartorius)
 
 1. Each sartorius is a muscle that lets us sit cross-legged.
@@ -761,6 +1666,18 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 4. This long, thin muscle runs from the pelvic bone to the top of the tibia, or shin bone. *(defines “tibia”)*
    > “A long, thin striated muscle of the anterior compartment of the thigh, which takes its origin from the anterior superior iliac spine of the pelvic bone, and inserts on the anteromedial surface of the upper tibia” ([NCIT:C33515 Sartorius Muscle](http://purl.obolibrary.org/obo/NCIT_C33515), CC BY 4.0)
    > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Scalene muscle: Plain (drafted; grade 7.6; `content/FMA_64829/tier1.md`)
+
+1. The scalene muscles work together to tilt the head forward or sideways and to turn it.
+   > “the scalene muscles work together to flex, laterally flex, and rotate the head.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. During a forceful breath in, the scalene muscles help lift the chest wall to expand the lungs.
+   > “During forced inspiration, muscles of the neck, including the scalenes, contract and lift the thoracic wall, increasing lung volume.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+3. The scalene muscles link the lower cervical vertebrae, the spine's neck bones, to the first two ribs. *(defines “cervical vertebrae”)*
+   > “Any one of three pairs of vertebral muscles (anterior, middle, and posterior scalenes), which attach to the transverse process of the five lower cervical vertebrae and the first two ribs” ([NCIT:C33517 Scalene Muscle](http://purl.obolibrary.org/obo/NCIT_C33517), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. From front to back, the scalene muscles are the anterior, middle and posterior scalenes.
+   > “The scalene muscles include the anterior scalene muscle (anterior to the middle scalene), the middle scalene muscle (the longest, intermediate between the anterior and posterior scalenes), and the posterior scalene muscle (the smallest, posterior to the middle scalene).” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
 
 #### Semimembranosus: Plain (drafted; grade 4.5; `content/FMA_22438/tier1.md`; also Right semimembranosus, Left semimembranosus)
 
@@ -776,6 +1693,401 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 4. It starts on the ischial tuberosity, the part of the hip bone we sit on. *(defines “ischial tuberosity”)*
    > “originates from the ischial tuberosity” ([NCIT:C52987 Semimembranosus Muscle](http://purl.obolibrary.org/obo/NCIT_C52987), CC BY 4.0)
    > “ischial tuberosity: large, roughened protuberance that forms the posteroinferior portion of the hip bone; weight-bearing region of the pelvis when sitting” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Semispinalis capitis: Plain (drafted; grade 7.9; `content/FMA_22830/tier1.md`; also Right semispinalis capitis, Left semispinalis capitis)
+
+1. The semispinalis capitis muscles on both sides work together to tilt the head back.
+   > “Rotates and tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Semispinalis capitis | Transverse and articular processes of cervical and thoracic vertebra | Occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. But when only one of these muscles works, the head tilts and turns toward that muscle's side.
+   > “Rotates and tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Semispinalis capitis | Transverse and articular processes of cervical and thoracic vertebra | Occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. Each semispinalis capitis runs from the spine to the occipital bone at the back of the skull. *(defines “occipital bone”)*
+   > “Rotates and tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Semispinalis capitis | Transverse and articular processes of cervical and thoracic vertebra | Occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “occipital bone: unpaired bone that forms the posterior portions of the brain case and base of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Semispinalis cervicis: Plain (drafted; grade 8.9; `content/FMA_22829/tier1.md`; also Right semispinalis cervicis, Left semispinalis cervicis)
+
+1. Each semispinalis cervicis moves the second to fifth cervical vertebrae, the neck bones of the spine. *(defines “cervical vertebrae”)*
+   > “One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.” ([NCIT:C52991 Semispinalis Cervicis](http://purl.obolibrary.org/obo/NCIT_C52991), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The movement is extension: bending this part of the spine backward or bringing it back upright. *(defines “extension”)*
+   > “One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.” ([NCIT:C52991 Semispinalis Cervicis](http://purl.obolibrary.org/obo/NCIT_C52991), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. From those neck bones, this muscle runs down to the upper thoracic vertebrae, in the upper back. *(defines “thoracic vertebrae”)*
+   > “One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.” ([NCIT:C52991 Semispinalis Cervicis](http://purl.obolibrary.org/obo/NCIT_C52991), CC BY 4.0)
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. This muscle lies under the semispinalis capitis, which sits in the upper neck.
+   > “One of the transversospinales group of muscles, located in the superior portion of the neck and covering the semispinalis cervicis.” ([NCIT:C52989 Semispinalis Capitis](http://purl.obolibrary.org/obo/NCIT_C52989), CC BY 4.0)
+
+#### Semispinalis thoracis: Plain (drafted; grade 8.6; `content/FMA_22828/tier1.md`; also Right semispinalis thoracis, Left semispinalis thoracis)
+
+1. Each semispinalis thoracis extends, or bends back, the spine. *(defines “extend”)*
+   > “One of the transversospinales group of muscles that arises from C6-C7 cervical and T1-T4 spinous processes, and inserts into the transverse processes of the T6-T10 vertebrae; it functions to extend the spine and rotate it toward the contralateral side.” ([NCIT:C53006 Semispinalis Thoracis](http://purl.obolibrary.org/obo/NCIT_C53006), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. This muscle also turns the spine toward the contralateral, or opposite, side. *(defines “contralateral”)*
+   > “One of the transversospinales group of muscles that arises from C6-C7 cervical and T1-T4 spinous processes, and inserts into the transverse processes of the T6-T10 vertebrae; it functions to extend the spine and rotate it toward the contralateral side.” ([NCIT:C53006 Semispinalis Thoracis](http://purl.obolibrary.org/obo/NCIT_C53006), CC BY 4.0)
+   > “contralateral: word meaning “on the opposite side,” as in axons that cross the midline in a fiber tract” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. The semispinalis thoracis is a muscle of the thoracic region, the upper back. *(defines “thoracic region”)*
+   > “semispinalis thoracis: transversospinales muscle associated with the thoracic region” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. This muscle attaches to spinous processes, the bumps you can feel down the middle of the back. *(defines “spinous processes”)*
+   > “One of the transversospinales group of muscles that arises from C6-C7 cervical and T1-T4 spinous processes, and inserts into the transverse processes of the T6-T10 vertebrae; it functions to extend the spine and rotate it toward the contralateral side.” ([NCIT:C53006 Semispinalis Thoracis](http://purl.obolibrary.org/obo/NCIT_C53006), CC BY 4.0)
+   > “The single spinous process (vertebral spine) projects posteriorly at the midline of the back. The vertebral spines can easily be felt as a series of bumps just under the skin down the middle of the back.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Semitendinosus: Plain (drafted; grade 6.7; `content/FMA_22357/tier1.md`; also Right semitendinosus, Left semitendinosus)
+
+1. The semitendinosus bends the knee, a movement called knee flexion. *(defines “knee flexion”)*
+   > “A muscle located at the posterior and medial aspect of the thigh that extends the hip joint, flexes the knee joint and assists in medially rotating the knee.” ([NCIT:C53176 Semitendinosus](http://purl.obolibrary.org/obo/NCIT_C53176), CC BY 4.0)
+   > “Knee flexion is the bending of the knee to bring the foot toward the posterior thigh, and extension is the straightening of the knee.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also extends the hip, moving the thigh backward. *(defines “hip extension”)*
+   > “A muscle located at the posterior and medial aspect of the thigh that extends the hip joint, flexes the knee joint and assists in medially rotating the knee.” ([NCIT:C53176 Semitendinosus](http://purl.obolibrary.org/obo/NCIT_C53176), CC BY 4.0)
+   > “In the lower limb, bringing the thigh forward and upward is flexion at the hip joint, while any posterior-going motion of the thigh is extension.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The semitendinosus lies at the back of the thigh, toward the inner side.
+   > “A muscle located at the posterior and medial aspect of the thigh that extends the hip joint, flexes the knee joint and assists in medially rotating the knee.” ([NCIT:C53176 Semitendinosus](http://purl.obolibrary.org/obo/NCIT_C53176), CC BY 4.0)
+4. This muscle is one of the hamstrings, a group of three muscles that all bend the knee. *(defines “hamstrings”)*
+   > “The posterior compartment of the thigh includes the hamstrings: the biceps femoris, semitendinosus, and the semimembranosus, which all flex the knee.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Hamstrings: group of three muscles in the posterior compartment of the thigh” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+
+#### Serratus anterior: Plain (drafted; grade 6.5; `content/FMA_13397/tier1.md`; also Right serratus anterior, Left serratus anterior)
+
+1. The serratus anterior moves the arm from the side of the body to the front.
+   > “Anterior thorax | Moves arm from side of body to front of body; assists with inhalation | Scapula; ribs | Scapula: protracts; ribs: elevates | Serratus anterior | Muscle slips from certain ribs (1–8 or 1–9) | Anterior surface of vertebral border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+2. This muscle pulls the shoulder blade forward, a movement called protraction. *(defines “protraction”)*
+   > “Anterior thorax | Moves arm from side of body to front of body; assists with inhalation | Scapula; ribs | Scapula: protracts; ribs: elevates | Serratus anterior | Muscle slips from certain ribs (1–8 or 1–9) | Anterior surface of vertebral border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “protraction: anterior motion of the scapula or mandible” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. The muscle also lifts the ribs and helps with inhalation, which draws air into the lungs. *(defines “inhalation”)*
+   > “Anterior thorax | Moves arm from side of body to front of body; assists with inhalation | Scapula; ribs | Scapula: protracts; ribs: elevates | Serratus anterior | Muscle slips from certain ribs (1–8 or 1–9) | Anterior surface of vertebral border of scapula” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “inspiration: (also, inhalation) process that causes air to enter the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+4. This large, flat muscle runs from the ribs to the scapula, or shoulder blade. *(defines “scapula”)*
+   > “serratus anterior: large and flat muscle that originates on the ribs and inserts onto the scapula” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Soft palate: Plain (drafted; grade 7.2; `content/FMA_55021/tier1.md`)
+
+1. The soft palate rises when you swallow, helping keep food out of the nasal cavity, the space inside the nose. *(defines “nasal cavity”)*
+   > “When you swallow, the soft palate and uvula move upward, helping to keep foods and liquid from entering the nasal cavity.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “When discussing the nose, it is helpful to divide it into two major sections: the external nose, and the nasal cavity or internal nose.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+2. The soft palate is the fleshy back part of the palate, the roof of the mouth. *(defines “palate”)*
+   > “If you run your tongue along the roof of your mouth, you’ll notice that the hard palate ends in the posterior oral cavity, and the tissue becomes fleshier. This part of the palate, known as the soft palate, is composed mainly of skeletal muscle.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “notice how the arched shape of the roof of your mouth allows you to handle both digestion and respiration at the same time. This arch is called the palate.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+3. Most of the soft palate is skeletal muscle, which needs a signal from the nervous system to contract. *(defines “skeletal muscle”)*
+   > “This part of the palate, known as the soft palate, is composed mainly of skeletal muscle.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “skeletal muscle: striated, multinucleated muscle that requires signaling from the nervous system to trigger contraction” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+4. The uvula, a fleshy bead of tissue, hangs down from the middle of the soft palate's back edge. *(defines “uvula”)*
+   > “A fleshy bead of tissue called the uvula drops down from the center of the posterior edge of the soft palate.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “The fleshy lobe that hangs at the back of the soft palate.” ([NCIT:C12232 Uvula](http://purl.obolibrary.org/obo/NCIT_C12232), CC BY 4.0)
+
+#### Soleus: Plain (drafted; grade 6.4; `content/FMA_22542/tier1.md`; also Right soleus, Left soleus)
+
+1. The soleus lifts the heel off the ground, a movement called plantar flexion. *(defines “plantar flexion”)*
+   > “The tibialis anterior, which dorsiflexes the foot, is antagonistic to the gastrocnemius and soleus muscles, which plantar flex the foot.” ([SEER Training Modules: Muscles of the Lower Extremity](https://training.seer.cancer.gov/anatomy/muscular/groups/lower.html), Free of copyright (NCI reuse policy))
+   > “plantar flexion: foot movement at the ankle in which the heel is lifted off of the ground” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The soleus sits in the back of the lower leg and helps with standing.
+   > “A muscle located in the back of the lower leg beneath the gastrocnemius muscle. Its actions involve the flexion of the ankle joint and standing.” ([NCIT:C53075 Soleus](http://purl.obolibrary.org/obo/NCIT_C53075), CC BY 4.0)
+3. This wide, flat muscle lies under the gastrocnemius, the calf muscle nearest the surface. *(defines “gastrocnemius”)*
+   > “soleus: wide, flat muscle deep to the gastrocnemius” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “gastrocnemius: most superficial muscle of the calf” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Spinalis thoracis: Plain (drafted; grade 8.9; `content/FMA_22765/tier1.md`; also Right spinalis thoracis, Left spinalis thoracis)
+
+1. Each spinalis thoracis supports and extends the spine, bending the spine back or bringing it upright. *(defines “extend”)*
+   > “it functions to support and extend the vertebral column.” ([NCIT:C53038 Spinalis Thoracis](http://purl.obolibrary.org/obo/NCIT_C53038), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. Each spinalis thoracis is a spinalis muscle of the thoracic region, the upper back. *(defines “thoracic region”)*
+   > “spinalis thoracis: muscle of the spinalis group associated with the thoracic region” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The spinalis muscles are part of the erector spinae, the large muscle mass of the back. *(defines “erector spinae”)*
+   > “spinalis group: medially placed muscles of the erector spinae” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “erector spinae group: large muscle mass of the back; primary extensor of the vertebral column” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. Each spinalis thoracis runs between spinous processes, the bumps you can feel down the middle of the back. *(defines “spinous processes”)*
+   > “Origin: spinous processes of two upper lumbar and two lower thoracic; insertion: spines of upper thoracic vertebrae” ([UBERON:0001405 spinalis thoracis muscle](http://purl.obolibrary.org/obo/UBERON_0001405), CC BY 3.0)
+   > “The single spinous process (vertebral spine) projects posteriorly at the midline of the back. The vertebral spines can easily be felt as a series of bumps just under the skin down the middle of the back.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Splenius: Plain (drafted; grade 6.1; `content/FMA_77180/tier1.md`)
+
+1. Together, the splenius muscles extend, or bend back, the head and neck. *(defines “extend”)*
+   > “Either of the two superficial, posterior vertebral muscles located in the neck and upper thorax: the splenius capitis (cranial portion) or splenius cervicis (cervical portion). Together these muscles extend the head and neck.” ([NCIT:C53177 Splenius Muscle Group](http://purl.obolibrary.org/obo/NCIT_C53177), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The splenius muscles can also turn the head and tilt it to the side.
+   > “From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region. These muscles can extend the head, laterally flex it, and rotate it” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. The splenius muscles, the splenius capitis and splenius cervicis, lie at the back of the neck.
+   > “splenius: posterior neck muscles; includes the splenius capitis and splenius cervicis” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. Each splenius muscle starts at the midline and runs upward and outward.
+   > “The splenius muscles originate at the midline and run laterally and superiorly to their insertions. From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+
+#### Splenius capitis: Plain (drafted; grade 6.9; `content/FMA_22653/tier1.md`; also Right splenius capitis, Left splenius capitis)
+
+1. Working alone, each splenius capitis turns and tilts the head toward that muscle's side.
+   > “Rotates and tilts head to the side; tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Splenius capitis | Spinous processes of cervical and thoracic vertebra | Temporal bone (mastoid process); occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. Working together, the right and left muscles tilt the head backward.
+   > “Rotates and tilts head to the side; tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Splenius capitis | Spinous processes of cervical and thoracic vertebra | Temporal bone (mastoid process); occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. Each splenius capitis starts at the midline and runs up and out to the head.
+   > “The splenius muscles originate at the midline and run laterally and superiorly to their insertions. From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+4. Each splenius capitis attaches to the mastoid process, a bony bump just behind the earlobe. *(defines “mastoid process”)*
+   > “Rotates and tilts head to the side; tilts head backward | Skull; vertebrae | Individually: laterally flexes and rotates head to same side; bilaterally: extension | Splenius capitis | Spinous processes of cervical and thoracic vertebra | Temporal bone (mastoid process); occipital bone” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “mastoid process: large bony prominence on the inferior, lateral skull, just behind the earlobe” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Splenius cervicis: Plain (drafted; grade 6.3; `content/FMA_22681/tier1.md`; also Right splenius cervicis, Left splenius cervicis)
+
+1. Each splenius cervicis helps the head tip back, tilt to the side and turn.
+   > “From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region. These muscles can extend the head, laterally flex it, and rotate it” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The splenius cervicis and the splenius capitis are the two splenius muscles at the back of the neck.
+   > “Either of the two superficial, posterior vertebral muscles located in the neck and upper thorax: the splenius capitis (cranial portion) or splenius cervicis (cervical portion).” ([NCIT:C53177 Splenius Muscle Group](http://purl.obolibrary.org/obo/NCIT_C53177), CC BY 4.0)
+3. The splenius muscles start at the midline and run upward and out to the sides.
+   > “The splenius muscles originate at the midline and run laterally and superiorly to their insertions.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+4. The splenius cervicis ends in the cervical region, the part of the spine in the neck. *(defines “cervical region”)*
+   > “splenius cervicis: neck muscle that inserts into the cervical region” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “The vertebral column is subdivided into five regions, with the vertebrae in each area named for that region and numbered in descending order. In the neck, there are seven cervical vertebrae, each designated with the letter “C” followed by its number.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Sternocleidomastoid: Plain (drafted; grade 9.3; `content/FMA_13407/tier1.md`; also Right sternocleidomastoid, Left sternocleidomastoid)
+
+1. Each sternocleidomastoid is a major muscle that turns the head and tilts it to the side.
+   > “sternocleidomastoid: major muscle that laterally flexes and rotates the head” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. Working alone, one sternocleidomastoid turns the head toward the opposite side, but both together bend the head forward.
+   > “When both the sternocleidomastoids contract, the head flexes forward; individually, they cause rotation to the opposite side.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. Each muscle runs from the breastbone and collarbone to the mastoid process, a bony bump just behind the earlobe. *(defines “mastoid process”)*
+   > “For instance, the sternocleidomastoid muscle of the neck has a dual origin on the sternum (sterno) and clavicle (cleido), and it inserts on the mastoid process of the temporal bone.” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+   > “mastoid process: large bony prominence on the inferior, lateral skull, just behind the earlobe” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The sternocleidomastoid divides the neck into front and back triangles.
+   > “The sternocleidomastoid divides the neck into anterior and posterior triangles.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+
+#### Sternohyoid: Plain (drafted; grade 8.3; `content/FMA_13341/tier1.md`; also Right sternohyoid, Left sternohyoid)
+
+1. Each sternohyoid pulls down the hyoid bone, a U-shaped bone that supports the tongue. *(defines “hyoid bone”)*
+   > “sternohyoid: muscle that depresses the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “A U-shaped bone supporting the tongue.” ([NCIT:C32752 Hyoid Bone](http://purl.obolibrary.org/obo/NCIT_C32752), CC BY 4.0)
+2. The sternohyoid also pulls down the larynx, or voice box, during swallowing and speaking. *(defines “larynx”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the hyoid bone; it functions to depress the hyoid bone and larynx during swallowing and speaking.” ([NCIT:C53044 Sternohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C53044), CC BY 4.0)
+   > “The larynx, commonly called the voice box, is the passageway for air between the pharynx above and the trachea below.” ([SEER Training Modules: Review: Introduction to the Respiratory System](https://training.seer.cancer.gov/anatomy/respiratory/review.html), Free of copyright (NCI reuse policy))
+3. Each sternohyoid runs from the sternum, or breastbone, to the hyoid bone at the front of the neck. *(defines “sternum”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the hyoid bone; it functions to depress the hyoid bone and larynx during swallowing and speaking.” ([NCIT:C53044 Sternohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C53044), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. The sternohyoid is one of the infrahyoid muscles, a group of neck muscles below the hyoid bone. *(defines “infrahyoid muscles”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the hyoid bone; it functions to depress the hyoid bone and larynx during swallowing and speaking.” ([NCIT:C53044 Sternohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C53044), CC BY 4.0)
+   > “infrahyoid muscles: anterior neck muscles that are attached to, and inferior to the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Sternothyroid: Plain (drafted; grade 8.2; `content/FMA_13343/tier1.md`; also Right sternothyroid, Left sternothyroid)
+
+1. Each sternothyroid pulls down the thyroid cartilage, which forms the Adam's apple. *(defines “thyroid cartilage”)*
+   > “sternothyroid: muscle that depresses the larynx’s thyroid cartilage” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “The thyroid cartilage is the largest piece of cartilage that makes up the larynx. The thyroid cartilage consists of the laryngeal prominence, or “Adam’s apple,” which tends to be more prominent in males.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+2. By lowering this part of the larynx, or voice box, the sternothyroid helps create different tones of voice. *(defines “larynx”)*
+   > “The thyrohyoid muscle also elevates the larynx’s thyroid cartilage, whereas the sternothyroid depresses it to create different tones of voice.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “The larynx, commonly called the voice box, is the passageway for air between the pharynx above and the trachea below.” ([SEER Training Modules: Review: Introduction to the Respiratory System](https://training.seer.cancer.gov/anatomy/respiratory/review.html), Free of copyright (NCI reuse policy))
+3. The sternothyroid also pulls the larynx down when a person swallows.
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the thyroid cartilage; it functions to depress the hyoid bone and larynx during swallowing and speaking.” ([NCIT:C53070 Sternothyroid Muscle](http://purl.obolibrary.org/obo/NCIT_C53070), CC BY 4.0)
+4. Each sternothyroid runs from the sternum, or breastbone, to the thyroid cartilage at the front of the neck. *(defines “sternum”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the thyroid cartilage; it functions to depress the hyoid bone and larynx during swallowing and speaking.” ([NCIT:C53070 Sternothyroid Muscle](http://purl.obolibrary.org/obo/NCIT_C53070), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+
+#### Stylohyoid: Plain (drafted; grade 6.5; `content/FMA_9625/tier1.md`; also Right stylohyoid, Left stylohyoid)
+
+1. Each stylohyoid pulls up and back on the hyoid bone, a small U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “stylohyoid: muscle that elevates the hyoid bone posteriorly” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The stylohyoid also lifts the larynx, or voice box. *(defines “larynx”)*
+   > “The stylohyoid muscle moves the hyoid bone posteriorly, elevating the larynx” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “The larynx, commonly called the voice box, is the passageway for air between the pharynx above and the trachea below.” ([SEER Training Modules: Review: Introduction to the Respiratory System](https://training.seer.cancer.gov/anatomy/respiratory/review.html), Free of copyright (NCI reuse policy))
+3. The facial nerve, which makes the muscles of the face contract, sends a branch to the stylohyoid. *(defines “facial nerve”)*
+   > “The stylohyoid is a pharyngeal arch II muscle that participates in oral/pharygeal behaviors and is innervated by the stylohoid branch of the facial nerve and attaches to the stylohyal and the non-stylohyal part of the hyoid apparatus.” ([UBERON:0008712 stylohyoid muscle](http://purl.obolibrary.org/obo/UBERON_0008712), CC BY 3.0)
+   > “facial nerve: seventh cranial nerve; responsible for contraction of the facial muscles and for part of the sense of taste, as well as causing saliva production” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Subclavius: Plain (drafted; grade 7.4; `content/FMA_13410/tier1.md`; also Left subclavius, Right subclavius)
+
+1. The subclavius steadies the clavicle, or collarbone, by pulling it down during movement. *(defines “clavicle”)*
+   > “Anterior thorax | Stabilizes clavicle during movement by depressing it | Clavicle | Depression | Subclavius | First rib | Inferior surface of clavicle” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “clavicle: collarbone; elongated bone that articulates with the manubrium of the sternum medially and the acromion of the scapula laterally” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. This small muscle lies between the collarbone and the first rib.
+   > “A small muscle located between the clavicle and the first rib” ([NCIT:C33644 Subclavius Muscle](http://purl.obolibrary.org/obo/NCIT_C33644), CC BY 4.0)
+3. The muscle runs from the first rib to the underside of the collarbone.
+   > “Anterior thorax | Stabilizes clavicle during movement by depressing it | Clavicle | Depression | Subclavius | First rib | Inferior surface of clavicle” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+
+#### Subscapularis: Plain (drafted; grade 9; `content/FMA_13413/tier1.md`; also Right subscapularis, Left subscapularis)
+
+1. The subscapularis turns the arm inward, a movement called medial rotation. *(defines “medial rotation”)*
+   > “The subscapularis originates on the anterior scapula and medially rotates the arm.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “medial (internal) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that brings the anterior surface of the limb toward the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The subscapularis is one of four rotator cuff muscles, which wrap around and support the shoulder joint. *(defines “rotator cuff”)*
+   > “One of four rotator cuff muscles that form a musculotendinous cuff around the glenohumeral joint, which provides muscular support to the shoulder.” ([NCIT:C33651 Subscapularis Muscle](http://purl.obolibrary.org/obo/NCIT_C33651), CC BY 4.0)
+   > “rotator cuff: (also, musculotendinous cuff) the circle of tendons around the shoulder joint” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. These muscles hold the top of the humerus, the upper arm bone, in the shoulder socket. *(defines “humerus”)*
+   > “In addition to their individual actions of moving the upper limb, the rotator cuff muscles also serve to hold the head of the humerus in position within the glenoid cavity.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The subscapularis starts on the front surface of the scapula, or shoulder blade. *(defines “scapula”)*
+   > “The subscapularis originates on the anterior scapula and medially rotates the arm.” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Superior oblique: Plain (drafted; grade 8.1; `content/FMA_49039/tier1.md`; also Right superior oblique, Left superior oblique)
+
+1. Each superior oblique is an eye muscle that twists the eye around its own axis, helping the eyes focus on close objects.
+   > “The trochlear nerve controls the superior oblique muscle to rotate the eye along its axis in the orbit medially, which is called intorsion, and is a component of focusing the eyes on an object close to the face.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+2. But the superior oblique also moves the eye down and away from the nose.
+   > “Moves eyes down and away from nose; rotates eyeball from 6 o’clock to 9 o’clock | Eyeballs | Inferior (depress); lateral (abducts) | Superior oblique | Sphenoid bone | Surface of eyeball between superior rectus and lateral rectus” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+3. This muscle starts at the back of the orbit, the bony socket that holds the eyeball. *(defines “orbit”)*
+   > “The superior oblique originates at the posterior orbit, near the origin of the four rectus muscles.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The muscle's tendon passes through the trochlea, a pulley made of cartilage, and attaches to the top of the eye. *(defines “trochlea”)*
+   > “However, the tendon of the oblique muscles threads through a pulley-like piece of cartilage known as the trochlea. The tendon inserts obliquely into the superior surface of the eye.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “trochlea: cartilaginous structure that acts like a pulley for the superior oblique muscle” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Superior rectus: Plain (drafted; grade 7.4; `content/FMA_49035/tier1.md`; also Right superior rectus, Left superior rectus)
+
+1. Each superior rectus is an eye muscle that moves the eye up and toward the nose.
+   > “Moves eyes up and toward nose; rotates eyes from 1 o’clock to 3 o’clock | Eyeballs | Superior (elevates); medial (adducts) | Superior rectus | Common tendinous ring (ring attaches to optic foramen) | Superior surface of eyeball” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. To raise the eyes, the superior rectus muscles of both eyes contract.
+   > “To elevate the eyes, the oculomotor nerve on either side stimulates the contraction of both superior rectus muscles” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. When the superior rectus raises the eye, the upper eyelid usually lifts too.
+   > “the levator palpebrae superioris, which is responsible for elevating and retracting the upper eyelid, a movement that usually occurs in concert with elevation of the eye by the superior rectus” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+4. The superior rectus runs from the back of the orbit, or eye socket, to the top of the eyeball. *(defines “orbit”)*
+   > “One of the extraoculomotor muscles, which arises from a common tendinous ring in the posterior portion of the orbit, inserts on the upper part of the sclera, is innervated by CN III, and functions to elevate, adduct, and medially rotate the eye.” ([NCIT:C33694 Superior Rectus Muscle](http://purl.obolibrary.org/obo/NCIT_C33694), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Supinator: Plain (drafted; grade 9; `content/FMA_38512/tier1.md`; also Right supinator, Left supinator)
+
+1. The supinator turns the forearm so the palm faces forward, a motion called supination. *(defines “supination”)*
+   > “supinator: muscle that moves the palm and forearm anteriorly” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “supination: forearm motion that moves the palm of the hand from the palm backward to the palm forward position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The forearm runs from the elbow to the wrist and contains the radius and ulna bones. *(defines “forearm”)*
+   > “forearm: region of the upper limb located between the elbow and wrist joints; contains the radius and ulna bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. During supination, the radius rotates until the radius and ulna lie parallel.
+   > “This crossing over brings the radius and ulna into an X-shape position. Supination is the opposite motion, in which rotation of the radius returns the bones to their parallel positions and moves the palm to the anterior facing (supinated) position” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+
+#### Suprahyoid muscle: Plain (drafted; grade 5.6; `content/FMA_46290/tier1.md`)
+
+1. The suprahyoid muscles help you swallow and speak.
+   > “The muscles of the anterior neck are arranged to facilitate swallowing and speech. They work on the hyoid bone, with the suprahyoid muscles pulling up and the infrahyoid muscles pulling down.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. They pull up on the hyoid bone, a small U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “They work on the hyoid bone, with the suprahyoid muscles pulling up and the infrahyoid muscles pulling down.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. When you swallow, these muscles also raise the floor of the mouth and the larynx, or voice box. *(defines “larynx”)*
+   > “The suprahyoid muscles raise the hyoid bone, the floor of the mouth, and the larynx during deglutition.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+   > “The muscles of the anterior neck assist in deglutition (swallowing) and speech by controlling the positions of the larynx (voice box)” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+4. The suprahyoid muscles are the neck muscles that sit above the hyoid bone.
+   > “suprahyoid muscles: neck muscles that are superior to the hyoid bone” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Supraspinatus: Plain (drafted; grade 8.5; `content/FMA_9629/tier1.md`; also Right supraspinatus, Left supraspinatus)
+
+1. The supraspinatus helps abduct the arm, raising the arm out to the side, away from the body. *(defines “abduct”)*
+   > “It arises from the supraspinous fossa of the scapula, inserts into the greater tubercle of the humerus, and assists to abduct the arm.” ([NCIT:C33709 Supraspinatus Muscle](http://purl.obolibrary.org/obo/NCIT_C33709), CC BY 4.0)
+   > “abduction is raising the arm at the shoulder joint, moving it laterally away from the body” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. The supraspinatus runs from the scapula, or shoulder blade, to the humerus, or arm bone. *(defines “scapula”)*
+   > “These muscles (supraspinatus, infraspinatus, teres minor, and subscapularis) arise from the scapula and attach to the greater or lesser tubercles of the humerus.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “The scapula (shoulder blade) lies on the posterior aspect of the shoulder. It is supported by the clavicle and articulates with the humerus (arm bone) to form the shoulder joint.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+3. The muscle is named for its place above a ridge called the spine of the scapula. *(defines “spine of the scapula”)*
+   > “Named for their locations, the supraspinatus (superior to the spine of the scapula)” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “spine of the scapula: prominent ridge passing mediolaterally across the upper portion of the posterior scapular surface” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The supraspinatus is one of four rotator cuff muscles, whose tendons circle and support the shoulder. *(defines “rotator cuff”)*
+   > “One of four rotator cuff muscles that form a musculotendinous cuff around the glenohumeral joint, which provides muscular support to the shoulder.” ([NCIT:C33709 Supraspinatus Muscle](http://purl.obolibrary.org/obo/NCIT_C33709), CC BY 4.0)
+   > “rotator cuff: (also, musculotendinous cuff) the circle of tendons around the shoulder joint” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Teres major: Plain (drafted; grade 6.4; `content/FMA_32549/tier1.md`; also Right teres major, Left teres major)
+
+1. The teres major extends the arm, moving the arm backward, and helps turn the arm inward. *(defines “extend”)*
+   > “teres major: muscle that extends the arm and assists in adduction and medial rotation of it” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the upper limb, all anterior-going motions are flexion and all posterior-going motions are extension. These include anterior-posterior movements of the arm at the shoulder” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. The teres major also helps adduct the arm, bringing the arm down to the side of the body. *(defines “adduct”)*
+   > “teres major: muscle that extends the arm and assists in adduction and medial rotation of it” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “adduction brings the arm down to the side of the body” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The teres major starts on the lower corner of the scapula, or shoulder blade. *(defines “scapula”)*
+   > “A thick scapulohumeral muscle of the upper limb arising from the inferior angle of the scapula” ([NCIT:C33750 Teres Major Muscle](http://purl.obolibrary.org/obo/NCIT_C33750), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The thick, flat teres major lies below the teres minor, a muscle that turns the arm outward. *(defines “teres minor”)*
+   > “The thick and flat teres major is inferior to the teres minor” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+   > “teres minor: muscle that laterally rotates and extends the arm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Teres minor: Plain (drafted; grade 7.4; `content/FMA_32550/tier1.md`; also Right teres minor, Left teres minor)
+
+1. The teres minor turns the arm outward at the shoulder, a motion called lateral rotation. *(defines “lateral rotation”)*
+   > “teres minor: muscle that laterally rotates and extends the arm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The teres minor also extends the arm, moving the arm backward. *(defines “extend”)*
+   > “teres minor: muscle that laterally rotates and extends the arm” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “For the upper limb, all anterior-going motions are flexion and all posterior-going motions are extension. These include anterior-posterior movements of the arm at the shoulder” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+3. The teres minor starts on the outer edge of the scapula, or shoulder blade. *(defines “scapula”)*
+   > “it arises from the lateral border of the scapula with insertion on the greater tubercle of the humerus” ([NCIT:C33751 Teres Minor Muscle](http://purl.obolibrary.org/obo/NCIT_C33751), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The teres minor is one of four rotator cuff muscles, whose tendons circle and support the shoulder. *(defines “rotator cuff”)*
+   > “One of four rotator cuff muscles that form a musculotendinous cuff around the glenohumeral joint, which provides muscular support to the shoulder” ([NCIT:C33751 Teres Minor Muscle](http://purl.obolibrary.org/obo/NCIT_C33751), CC BY 4.0)
+   > “rotator cuff: (also, musculotendinous cuff) the circle of tendons around the shoulder joint” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Thyrohyoid: Plain (drafted; grade 7; `content/FMA_13344/tier1.md`; also Right thyrohyoid, Left thyrohyoid)
+
+1. Each thyrohyoid pulls down the hyoid bone, a small U-shaped bone in the upper neck. *(defines “hyoid bone”)*
+   > “thyrohyoid: muscle that depresses the hyoid bone and elevates the larynx’s thyroid cartilage” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. When you swallow or speak, each thyrohyoid also lifts the larynx, or voice box. *(defines “larynx”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the thyroid cartilage and its insertion on the hyoid bone; it functions to depress the hyoid bone and elevate the larynx during swallowing and speaking.” ([NCIT:C53178 Thyrohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C53178), CC BY 4.0)
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+3. This front neck muscle runs from the thyroid cartilage, or Adam's apple, to the hyoid bone. *(defines “thyroid cartilage”)*
+   > “A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the thyroid cartilage and its insertion on the hyoid bone; it functions to depress the hyoid bone and elevate the larynx during swallowing and speaking.” ([NCIT:C53178 Thyrohyoid Muscle](http://purl.obolibrary.org/obo/NCIT_C53178), CC BY 4.0)
+   > “The thyroid cartilage is the Adam's apple.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+
+#### Tibialis anterior: Plain (drafted; grade 6.7; `content/FMA_22532/tier1.md`; also Right tibialis anterior, Left tibialis anterior)
+
+1. The tibialis anterior lifts the front of the foot, a movement called dorsiflexion. *(defines “dorsiflexion”)*
+   > “The tibialis anterior, which dorsiflexes the foot, is antagonistic to the gastrocnemius and soleus muscles, which plantar flex the foot.” ([SEER Training Modules: Muscles of the Lower Extremity](https://training.seer.cancer.gov/anatomy/muscular/groups/lower.html), Free of copyright (NCI reuse policy))
+   > “Lifting the front of the foot, so that the top of the foot moves toward the anterior leg is dorsiflexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This long, thick muscle sits at the front of the lower leg.
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+3. The tibialis anterior lies on the outer side of the tibia, or shin bone. *(defines “tibia”)*
+   > “tibialis anterior: muscle located on the lateral surface of the tibia” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Tibialis posterior: Plain (drafted; grade 9; `content/FMA_51099/tier1.md`; also Right tibialis posterior, Left tibialis posterior)
+
+1. The tibialis posterior points the toes downward, a movement called plantar flexion. *(defines “plantar flexion”)*
+   > “tibialis posterior: muscle that plantar flexes and inverts the foot” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lifting the heel of the foot from the ground or pointing the toes downward is plantar flexion” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle also turns the sole of the foot inward, a movement called inversion. *(defines “inversion”)*
+   > “tibialis posterior: muscle that plantar flexes and inverts the foot” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “Inversion involves the soles of the feet moving inward, toward the midline of the body.” ([38.3 Joints and Skeletal Movement](https://openstax.org/books/biology-2e/pages/38-3-joints-and-skeletal-movement), CC BY 4.0)
+3. The tibialis posterior lies deep in the back of the lower leg, away from the surface. *(defines “deep”)*
+   > “There are four deep muscles in the posterior compartment of the leg as well: the popliteus, flexor digitorum longus, flexor hallucis longus, and tibialis posterior.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “deep: describes a position farther from the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+
+#### Vastus intermedius: Plain (drafted; grade 9.2; `content/FMA_22433/tier1.md`; also Right vastus intermedius, Left vastus intermedius)
+
+1. The vastus intermedius helps straighten the knee, a movement called knee extension. *(defines “knee extension”)*
+   > “The quadriceps femoris is made of four muscles: the rectus femoris, the vastus lateralis, the vastus medius, and the vastus intermedius, which together extend the knee.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Knee flexion is the bending of the knee to bring the foot toward the posterior thigh, and extension is the straightening of the knee.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. This muscle is one of the quadriceps, four muscles at the front of the thigh. *(defines “quadriceps”)*
+   > “The rectus femoris, vastus medialis, vastus lateralis, and vastus intermedius form the quadriceps.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “Quadriceps femoris: group of four muscles in the anterior compartment of the thigh” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+3. The vastus intermedius lies under the rectus femoris, another quadriceps muscle. *(defines “rectus femoris”)*
+   > “vastus intermedius: quadricep muscle that is between the vastus lateralis and vastus medialis and is deep to the rectus femoris” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “rectus femoris: quadricep muscle on the anterior aspect of the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. All four quadriceps muscles share one tendon, which attaches to the patella, or kneecap. *(defines “patella”)*
+   > “quadriceps tendon: (also, patellar tendon) tendon common to all four quadriceps muscles, inserts into the patella” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Vastus lateralis: Plain (drafted; grade 8.1; `content/FMA_22431/tier1.md`; also Right vastus lateralis, Left vastus lateralis)
+
+1. Each vastus lateralis extends, or straightens, the knee and also keeps the knee stable. *(defines “extend”)*
+   > “The largest muscle in the quadriceps femoris that is responsible for extending and stabilizing the knee.” ([NCIT:C53073 Vastus Lateralis](http://purl.obolibrary.org/obo/NCIT_C53073), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The vastus lateralis is the largest of the four quadriceps muscles at the front of the thigh. *(defines “quadriceps”)*
+   > “The largest muscle in the quadriceps femoris that is responsible for extending and stabilizing the knee.” ([NCIT:C53073 Vastus Lateralis](http://purl.obolibrary.org/obo/NCIT_C53073), CC BY 4.0)
+   > “One example of this is the quadriceps, a group of four muscles located on the anterior (front) thigh.” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+3. Of these four, the vastus lateralis lies on the lateral, or outer, side of the thigh. *(defines “lateral”)*
+   > “vastus lateralis: quadricep muscle on the lateral aspect of the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “lateralis: to the outside” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+Dropped:
+- “The patella, or kneecap, sits inside the quadriceps tendon, the tissue that anchors these muscles to bone.” (checker: The main quote (Biology 2e 38.1) is about the patella and the shared tendon of the quadriceps group: a different structure, not the vastus lateralis or its exact class. The sentence states nothing the quote says about the vastus lateralis itself.)
+
+#### Vastus medialis: Plain (drafted; grade 6.3; `content/FMA_22432/tier1.md`; also Right vastus medialis, Left vastus medialis)
+
+1. Each vastus medialis helps extend, or straighten, the knee and keep the knee stable. *(defines “extend”)*
+   > “the quadriceps femoris group, which actually comprises four muscles that extend and stabilize the knee. The rectus femoris is on the anterior aspect of the thigh, the vastus lateralis is on the lateral aspect of the thigh, the vastus medialis is on the medial aspect of the thigh” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. The vastus medialis is one of the four quadriceps muscles at the front of the thigh. *(defines “quadriceps”)*
+   > “The rectus femoris, vastus medialis, vastus lateralis, and vastus intermedius form the quadriceps.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “One example of this is the quadriceps, a group of four muscles located on the anterior (front) thigh.” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+3. Of these four, the vastus medialis lies on the medial, or inner, side of the thigh. *(defines “medial”)*
+   > “vastus medialis: quadricep muscle on the medial aspect of the thigh” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “medialis: to the inside” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. This muscle reaches the medial side of the patella, or kneecap. *(defines “patella”)*
+   > “The portion of the quadriceps femoris muscle group that extends medially from the intertrochanteric line of the femur to the medial aspects of the quadriceps femoris tendon and patella.” ([NCIT:C117736 Vastus Medialis Muscle](http://purl.obolibrary.org/obo/NCIT_C117736), CC BY 4.0)
+   > “patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
 
 ### Nervous
 

@@ -15,7 +15,95 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_13410/tier1.md",
+   "text": "The subclavius steadies the clavicle, or collarbone, by pulling it down during movement. This small muscle lies between the collarbone and the first rib. The muscle runs from the first rib to the underside of the collarbone.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33644 Subclavius Muscle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33644",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The subclavius steadies the clavicle, or collarbone, by pulling it down during movement.",
+     "defines": "clavicle",
+     "quotes": [
+      {
+       "quote": "Anterior thorax | Stabilizes clavicle during movement by depressing it | Clavicle | Depression | Subclavius | First rib | Inferior surface of clavicle",
+       "section": "11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "clavicle: collarbone; elongated bone that articulates with the manubrium of the sternum medially and the acromion of the scapula laterally",
+       "section": "Chapter 8 Key Terms (The Appendicular Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This small muscle lies between the collarbone and the first rib.",
+     "quotes": [
+      {
+       "quote": "A small muscle located between the clavicle and the first rib",
+       "section": "NCIT:C33644 Subclavius Muscle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33644",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The muscle runs from the first rib to the underside of the collarbone.",
+     "quotes": [
+      {
+       "quote": "Anterior thorax | Stabilizes clavicle during movement by depressing it | Clavicle | Depression | Subclavius | First rib | Inferior surface of clavicle",
+       "section": "11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:13410",
+    "label": "Subclavius",
+    "conceptId": "FMA13410"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -25,7 +113,23 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.5 Muscles of the Pectoral Girdle and Upper Limbs",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33644 Subclavius Muscle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33644",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": [

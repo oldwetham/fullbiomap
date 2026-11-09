@@ -20,27 +20,134 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_13343/tier1.auto.md",
-   "text": "A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the thyroid cartilage; it functions to depress the hyoid bone and larynx during swallowing and speaking.",
+   "status": "drafted",
+   "file": "content/FMA_13343/tier1.md",
+   "text": "Each sternothyroid pulls down the thyroid cartilage, which forms the Adam's apple. By lowering this part of the larynx, or voice box, the sternothyroid helps create different tones of voice. The sternothyroid also pulls the larynx down when a person swallows. Each sternothyroid runs from the sternum, or breastbone, to the thyroid cartilage at the front of the neck.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C53070",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53070",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C53070",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53070",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Respiratory System",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/review.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C53070 Sternothyroid Muscle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C53070",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C53070, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Review: Introduction to the Respiratory System. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each sternothyroid pulls down the thyroid cartilage, which forms the Adam's apple.",
+     "defines": "thyroid cartilage",
+     "quotes": [
+      {
+       "quote": "sternothyroid: muscle that depresses the larynx’s thyroid cartilage",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The thyroid cartilage is the largest piece of cartilage that makes up the larynx. The thyroid cartilage consists of the laryngeal prominence, or “Adam’s apple,” which tends to be more prominent in males.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "By lowering this part of the larynx, or voice box, the sternothyroid helps create different tones of voice.",
+     "defines": "larynx",
+     "quotes": [
+      {
+       "quote": "The thyrohyoid muscle also elevates the larynx’s thyroid cartilage, whereas the sternothyroid depresses it to create different tones of voice.",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The larynx, commonly called the voice box, is the passageway for air between the pharynx above and the trachea below.",
+       "section": "SEER Training Modules: Review: Introduction to the Respiratory System",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/review.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Review: Introduction to the Respiratory System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The sternothyroid also pulls the larynx down when a person swallows.",
+     "quotes": [
+      {
+       "quote": "A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the thyroid cartilage; it functions to depress the hyoid bone and larynx during swallowing and speaking.",
+       "section": "NCIT:C53070 Sternothyroid Muscle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C53070",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Each sternothyroid runs from the sternum, or breastbone, to the thyroid cartilage at the front of the neck.",
+     "defines": "sternum",
+     "quotes": [
+      {
+       "quote": "A skeletal muscle belonging to the infrahyoid muscle group, located in the anterior part of the neck, with its origin on the sternum and its insertion on the thyroid cartilage; it functions to depress the hyoid bone and larynx during swallowing and speaking.",
+       "section": "NCIT:C53070 Sternothyroid Muscle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C53070",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "sternum: (also, breastbone) long, flat bone located at the front of the chest",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +159,33 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C53070",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53070",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Respiratory System",
+   "url": "https://training.seer.cancer.gov/anatomy/respiratory/review.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C53070 Sternothyroid Muscle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C53070",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+   "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
    "license": "CC BY 4.0"
   }
  ],

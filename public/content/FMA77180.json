@@ -22,27 +22,108 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_77180/tier1.auto.md",
-   "text": "Either of the two superficial, posterior vertebral muscles located in the neck and upper thorax: the splenius capitis (cranial portion) or splenius cervicis (cervical portion). Together these muscles extend the head and neck.",
+   "status": "drafted",
+   "file": "content/FMA_77180/tier1.md",
+   "text": "Together, the splenius muscles extend, or bend back, the head and neck. The splenius muscles can also turn the head and tilt it to the side. The splenius muscles, the splenius capitis and splenius cervicis, lie at the back of the neck. Each splenius muscle starts at the midline and runs upward and outward.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C53177",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53177",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C53177",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53177",
+     "title": "NCI Thesaurus, NCIT:C53177 Splenius Muscle Group",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C53177",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 9 Key Terms (Joints)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C53177, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Together, the splenius muscles extend, or bend back, the head and neck.",
+     "defines": "extend",
+     "quotes": [
+      {
+       "quote": "Either of the two superficial, posterior vertebral muscles located in the neck and upper thorax: the splenius capitis (cranial portion) or splenius cervicis (cervical portion). Together these muscles extend the head and neck.",
+       "section": "NCIT:C53177 Splenius Muscle Group",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C53177",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position",
+       "section": "Chapter 9 Key Terms (Joints)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The splenius muscles can also turn the head and tilt it to the side.",
+     "quotes": [
+      {
+       "quote": "From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region. These muscles can extend the head, laterally flex it, and rotate it",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The splenius muscles, the splenius capitis and splenius cervicis, lie at the back of the neck.",
+     "quotes": [
+      {
+       "quote": "splenius: posterior neck muscles; includes the splenius capitis and splenius cervicis",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each splenius muscle starts at the midline and runs upward and outward.",
+     "quotes": [
+      {
+       "quote": "The splenius muscles originate at the midline and run laterally and superiorly to their insertions. From the sides and the back of the neck, the splenius capitis inserts onto the head region, and the splenius cervicis extends onto the cervical region.",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -54,8 +135,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C53177",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C53177",
+   "title": "NCI Thesaurus, NCIT:C53177 Splenius Muscle Group",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C53177",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 9 Key Terms (Joints)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
    "license": "CC BY 4.0"
   }
  ],

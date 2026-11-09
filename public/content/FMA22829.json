@@ -20,27 +20,123 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_22829/tier1.auto.md",
-   "text": "One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.",
+   "status": "drafted",
+   "file": "content/FMA_22829/tier1.md",
+   "text": "Each semispinalis cervicis moves the second to fifth cervical vertebrae, the neck bones of the spine. The movement is extension: bending this part of the spine backward or bringing it back upright. From those neck bones, this muscle runs down to the upper thoracic vertebrae, in the upper back. This muscle lies under the semispinalis capitis, which sits in the upper neck.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C52991",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52991",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C52991",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52991",
+     "title": "NCI Thesaurus, NCIT:C52991 Semispinalis Cervicis",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C52991",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 9 Key Terms (Joints)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C52989 Semispinalis Capitis",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C52989",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52991, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each semispinalis cervicis moves the second to fifth cervical vertebrae, the neck bones of the spine.",
+     "defines": "cervical vertebrae",
+     "quotes": [
+      {
+       "quote": "One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.",
+       "section": "NCIT:C52991 Semispinalis Cervicis",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52991",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The movement is extension: bending this part of the spine backward or bringing it back upright.",
+     "defines": "extension",
+     "quotes": [
+      {
+       "quote": "One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.",
+       "section": "NCIT:C52991 Semispinalis Cervicis",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52991",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint); motion involving posterior bending of the vertebral column or returning to the upright position from a flexed position",
+       "section": "Chapter 9 Key Terms (Joints)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From those neck bones, this muscle runs down to the upper thoracic vertebrae, in the upper back.",
+     "defines": "thoracic vertebrae",
+     "quotes": [
+      {
+       "quote": "One of the transversospinales group of muscles that arises from the spinous processes of the second to fifth cervical vertebrae and inserts into the posterior surfaces of the upper five or six thoracic transverse processes; it functions to extend the vertebrae from which it arises.",
+       "section": "NCIT:C52991 Semispinalis Cervicis",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52991",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This muscle lies under the semispinalis capitis, which sits in the upper neck.",
+     "quotes": [
+      {
+       "quote": "One of the transversospinales group of muscles, located in the superior portion of the neck and covering the semispinalis cervicis.",
+       "section": "NCIT:C52989 Semispinalis Capitis",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C52989",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +148,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C52991",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52991",
+   "title": "NCI Thesaurus, NCIT:C52991 Semispinalis Cervicis",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C52991",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 9 Key Terms (Joints)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C52989 Semispinalis Capitis",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C52989",
    "license": "CC BY 4.0"
   }
  ],

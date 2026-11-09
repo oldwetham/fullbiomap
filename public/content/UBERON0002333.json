@@ -21,27 +21,113 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_8612/tier1.auto.md",
-   "text": "An artery arising from the right ventricle of the heart that bifurcates into the left and right pulmonary arteries.",
+   "status": "drafted",
+   "file": "content/FMA_8612/tier1.md",
+   "text": "The pulmonary trunk carries blood low in oxygen toward the lungs. The pulmonary trunk is the only vessel leaving the right ventricle, the heart's lower right pumping chamber. A valve at the base of the pulmonary trunk keeps blood from flowing back into the right ventricle. At the top of the heart, the pulmonary trunk splits into two pulmonary arteries, one for each lung.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C116918",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C116918",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C116918, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The pulmonary trunk carries blood low in oxygen toward the lungs.",
+     "quotes": [
+      {
+       "quote": "The right ventricle pumps deoxygenated blood into the pulmonary trunk, which leads toward the lungs and bifurcates into the left and right pulmonary arteries.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The pulmonary trunk is the only vessel leaving the right ventricle, the heart's lower right pumping chamber.",
+     "defines": "right ventricle",
+     "quotes": [
+      {
+       "quote": "The single vessel exiting the right ventricle is the pulmonary trunk.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the right ventricle is the major pumping chamber on the lower right side of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A valve at the base of the pulmonary trunk keeps blood from flowing back into the right ventricle.",
+     "quotes": [
+      {
+       "quote": "At the base of the pulmonary trunk is the pulmonary semilunar valve, which prevents backflow of blood into the right ventricle during ventricular diastole.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At the top of the heart, the pulmonary trunk splits into two pulmonary arteries, one for each lung.",
+     "defines": "pulmonary arteries",
+     "quotes": [
+      {
+       "quote": "As the pulmonary trunk reaches the superior surface of the heart, it curves posteriorly and rapidly bifurcates (divides) into two branches, a left and a right pulmonary artery.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pulmonary arteries: left and right branches of the pulmonary trunk that carry deoxygenated blood from the heart to each of the lungs",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +139,18 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C116918",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C116918",
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
    "license": "CC BY 4.0"
   }
  ],

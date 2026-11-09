@@ -1,0 +1,20 @@
+---
+id: "FMA:43925"
+label: "Medial plantar artery"
+tier: 1
+kind: "explanation"
+status: "drafted"
+applies_to: ["FMA:43929","FMA:43930"]
+grade: 7.6
+sentences: [{"text":"Each medial plantar artery brings blood to the muscles in the sole of the foot.","quotes":[{"quote":"One of the terminal branches of the posterior tibial artery that runs along the inside of the foot to supply the muscles of the sole.","file":"ncit/NCIT_C52968.txt","section":"NCIT:C52968 Medial Plantar Artery","url":"http://purl.obolibrary.org/obo/NCIT_C52968","license":"CC BY 4.0","citation":"NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"}]},{"text":"This artery runs along the inner side of the foot.","quotes":[{"quote":"One of the terminal branches of the posterior tibial artery that runs along the inside of the foot to supply the muscles of the sole.","file":"ncit/NCIT_C52968.txt","section":"NCIT:C52968 Medial Plantar Artery","url":"http://purl.obolibrary.org/obo/NCIT_C52968","license":"CC BY 4.0","citation":"NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"}]},{"text":"The medial plantar artery forms where the posterior tibial artery, which supplies the lower leg and foot, splits in two.","defines":"posterior tibial artery","quotes":[{"quote":"medial plantar artery: arises from the bifurcation of the posterior tibial arteries; supplies blood to the medial plantar surfaces of the foot","file":"openstax-ap2e/20-key-terms.txt","section":"Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)","url":"https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms","license":"CC BY 4.0","citation":"Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.","access":"Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"},{"quote":"A terminal branch of the popliteal artery that runs along the tibia from the lower portion of the popliteus muscle to the lower ankle with numerous branches supplying the lower leg and foot.","file":"ncit/NCIT_C12826.txt","section":"NCIT:C12826 Posterior Tibial Artery","url":"http://purl.obolibrary.org/obo/NCIT_C12826","license":"CC BY 4.0","citation":"NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"}]}]
+dropped: []
+source: {"kind":"explanation","name":"Bio Map, written from quoted sources","term":null,"url":null,"license":"CC BY 4.0"}
+sources: [{"title":"NCI Thesaurus, NCIT:C52968 Medial Plantar Artery","url":"http://purl.obolibrary.org/obo/NCIT_C52968","license":"CC BY 4.0"},{"title":"OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)","url":"https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms","license":"CC BY 4.0"},{"title":"NCI Thesaurus, NCIT:C12826 Posterior Tibial Artery","url":"http://purl.obolibrary.org/obo/NCIT_C12826","license":"CC BY 4.0"}]
+license: "CC BY 4.0"
+attribution: "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences."
+method: "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet."
+drafted_on: "2026-11-09"
+reviewer: null
+reviewed_on: null
+---
+Each medial plantar artery brings blood to the muscles in the sole of the foot. This artery runs along the inner side of the foot. The medial plantar artery forms where the posterior tibial artery, which supplies the lower leg and foot, splits in two.

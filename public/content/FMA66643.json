@@ -101,27 +101,109 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_66643/tier1.auto.md",
-   "text": "One of four veins that carries oxygen-rich blood from the lungs to the cardiac left atrium.",
+   "status": "drafted",
+   "file": "content/FMA_66643/tier1.md",
+   "text": "The pulmonary veins carry blood rich in oxygen from the lungs to the heart. Blood from the lungs flows through vessels that join together to form the pulmonary veins. Four pulmonary veins, two on each side, empty into the left atrium, an upper chamber of the heart. After birth, the pulmonary veins are the only veins that carry blood rich in oxygen.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12776",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12776",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12776",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12776",
+     "title": "OpenStax Anatomy and Physiology 2e, 20.1 Structure and Function of Blood Vessels",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12776, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The pulmonary veins carry blood rich in oxygen from the lungs to the heart.",
+     "quotes": [
+      {
+       "quote": "Pulmonary veins then return freshly oxygenated blood from the lungs to the heart",
+       "section": "20.1 Structure and Function of Blood Vessels",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Blood from the lungs flows through vessels that join together to form the pulmonary veins.",
+     "quotes": [
+      {
+       "quote": "Highly oxygenated blood returning from the pulmonary capillaries in the lungs passes through a series of vessels that join together to form the pulmonary veins",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Four pulmonary veins, two on each side, empty into the left atrium, an upper chamber of the heart.",
+     "defines": "left atrium",
+     "quotes": [
+      {
+       "quote": "Four pulmonary veins, two on the left and two on the right, return blood to the left atrium.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "atrium: (plural = atria) upper or receiving chamber of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "After birth, the pulmonary veins are the only veins that carry blood rich in oxygen.",
+     "quotes": [
+      {
+       "quote": "the pulmonary veins—the only post-natal veins in the body that carry highly oxygenated blood",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -133,8 +215,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12776",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12776",
+   "title": "OpenStax Anatomy and Physiology 2e, 20.1 Structure and Function of Blood Vessels",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
    "license": "CC BY 4.0"
   }
  ],

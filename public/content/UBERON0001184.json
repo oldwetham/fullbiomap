@@ -22,27 +22,129 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_14751/tier1.auto.md",
-   "text": "Either of two arteries (right or left) that arise from the aorta to supply the kidneys.",
+   "status": "drafted",
+   "file": "content/FMA_14751/tier1.md",
+   "text": "Each renal artery carries blood to a kidney, an organ that filters the blood. The right and left renal arteries branch off the aorta, the largest artery in the body. The right renal artery is longer than the left, because the aorta lies to the left of the spine. Each renal artery enters its kidney at the hilum, the curved-in part of the kidney's bean shape.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12778",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12778",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Kidneys",
+     "url": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12778 Renal Artery",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12778",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 41.2 The Kidneys and Osmoregulatory Organs",
+     "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12778, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Kidneys. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each renal artery carries blood to a kidney, an organ that filters the blood.",
+     "defines": "kidney",
+     "quotes": [
+      {
+       "quote": "Renal arteries branch repeatedly to supply blood to the kidneys.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The kidneys are the organs that filter the blood, remove the wastes, and excrete the wastes in the urine.",
+       "section": "SEER Training Modules: Kidneys",
+       "url": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Kidneys. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The right and left renal arteries branch off the aorta, the largest artery in the body.",
+     "defines": "aorta",
+     "quotes": [
+      {
+       "quote": "Either of two arteries (right or left) that arise from the aorta to supply the kidneys.",
+       "section": "NCIT:C12778 Renal Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12778",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "aorta: largest artery in the body",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The right renal artery is longer than the left, because the aorta lies to the left of the spine.",
+     "quotes": [
+      {
+       "quote": "The right renal artery is longer than the left since the aorta lies to the left of the vertebral column and the vessel must travel a greater distance to reach its target.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each renal artery enters its kidney at the hilum, the curved-in part of the kidney's bean shape.",
+     "defines": "hilum",
+     "quotes": [
+      {
+       "quote": "The ureter and renal vein leave the kidney, and the renal artery enters the kidney at the hilum.",
+       "section": "SEER Training Modules: Kidneys",
+       "url": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Kidneys. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The hilum is the concave part of the bean-shape where blood vessels and nerves enter and exit the kidney",
+       "section": "41.2 The Kidneys and Osmoregulatory Organs",
+       "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -54,8 +156,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12778",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12778",
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Kidneys",
+   "url": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12778 Renal Artery",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12778",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 41.2 The Kidneys and Osmoregulatory Organs",
+   "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
    "license": "CC BY 4.0"
   }
  ],

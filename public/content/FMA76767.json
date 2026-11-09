@@ -22,27 +22,113 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_76767/tier1.auto.md",
-   "text": "Cardiac vein, each instance of which drains blood from the anterior aspect of some right ventricle.",
+   "status": "drafted",
+   "file": "content/FMA_76767/tier1.md",
+   "text": "The anterior cardiac veins drain blood from the front of the right ventricle, the heart's lower right pumping chamber. Most heart veins drain into the coronary sinus, a large vein on the back of the heart. But the anterior cardiac veins bypass the coronary sinus and drain straight into the right atrium. The right atrium is an upper chamber of the heart that receives blood.",
    "source": {
-    "kind": "fma",
-    "name": "Foundational Model of Anatomy",
-    "term": "FMA:76767",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma76767",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Foundational Model of Anatomy FMA:76767",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma76767",
-     "license": "CC BY 3.0"
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Structure of the Heart",
+     "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html",
+     "license": "Free of copyright (NCI reuse policy)"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:76767, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Structure of the Heart. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The anterior cardiac veins drain blood from the front of the right ventricle, the heart's lower right pumping chamber.",
+     "defines": "right ventricle",
+     "quotes": [
+      {
+       "quote": "The anterior cardiac veins parallel the small cardiac arteries and drain the anterior surface of the right ventricle.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the right ventricle is the major pumping chamber on the lower right side of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Most heart veins drain into the coronary sinus, a large vein on the back of the heart.",
+     "defines": "coronary sinus",
+     "quotes": [
+      {
+       "quote": "Most of the cardiac veins drain into the coronary sinus, which opens into the right atrium.",
+       "section": "SEER Training Modules: Structure of the Heart",
+       "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Structure of the Heart. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "But the anterior cardiac veins bypass the coronary sinus and drain straight into the right atrium.",
+     "quotes": [
+      {
+       "quote": "anterior cardiac veins: vessels that parallel the small cardiac arteries and drain the anterior surface of the right ventricle; bypass the coronary sinus and drain directly into the right atrium",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The right atrium is an upper chamber of the heart that receives blood.",
+     "defines": "right atrium",
+     "quotes": [
+      {
+       "quote": "atrium: (plural = atria) upper or receiving chamber of the heart that pumps blood into the lower chambers just prior to their contraction; the right atrium receives blood from the systemic circuit that flows into the right ventricle",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -54,9 +140,19 @@
  "media": [],
  "sources": [
   {
-   "title": "Foundational Model of Anatomy FMA:76767",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma76767",
-   "license": "CC BY 3.0"
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Structure of the Heart",
+   "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html",
+   "license": "Free of copyright (NCI reuse policy)"
   }
  ],
  "zoom": {

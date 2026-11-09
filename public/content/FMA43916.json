@@ -15,7 +15,95 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_43915/tier1.md",
+   "text": "Each dorsalis pedis artery branches many times to send blood to the top of the foot. This artery comes from the anterior tibial artery, which feeds the front of the lower leg. With other foot arteries, the dorsalis pedis artery forms two arches that feed the rest of the foot and the toes.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12825 Anterior Tibial Artery",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12825",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each dorsalis pedis artery branches many times to send blood to the top of the foot.",
+     "quotes": [
+      {
+       "quote": "dorsalis pedis artery: forms from the anterior tibial artery; branches repeatedly to supply blood to the tarsal and dorsal regions of the foot",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This artery comes from the anterior tibial artery, which feeds the front of the lower leg.",
+     "defines": "anterior tibial artery",
+     "quotes": [
+      {
+       "quote": "dorsalis pedis artery: forms from the anterior tibial artery",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An artery of the lower extremity that supplies blood to the anterior part of the leg and the foot.",
+       "section": "NCIT:C12825 Anterior Tibial Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12825",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "With other foot arteries, the dorsalis pedis artery forms two arches that feed the rest of the foot and the toes.",
+     "quotes": [
+      {
+       "quote": "There is an anastomosis with the dorsalis pedis artery, and the medial and lateral plantar arteries form two arches called the dorsal arch (also called the arcuate arch) and the plantar arch, which provide blood to the remainder of the foot and toes.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:43915",
+    "label": "Dorsalis pedis artery",
+    "conceptId": "FMA43915"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -25,7 +113,23 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12825 Anterior Tibial Artery",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12825",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [
    "FMA:69490",

@@ -28,27 +28,115 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_3949/tier1.auto.md",
-   "text": "An internal carotid artery that branching_part_of a right common carotid artery plus branches.",
+   "status": "drafted",
+   "file": "content/FMA_3947/tier1.md",
+   "text": "Each internal carotid artery carries oxygen-rich blood to the brain and eyes. This artery branches off a common carotid artery, which supplies the head and neck. The internal carotid artery reaches the brain through the carotid canal, a zig-zag tunnel through the base of the skull. The artery's branches then help form the circle of Willis, which keeps the brain's blood supply steady.",
    "source": {
-    "kind": "uberon",
-    "name": "Uberon",
-    "term": "UBERON:0007143",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Uberon UBERON:0007143",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
+     "title": "Uberon, UBERON:0001532 internal carotid artery",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001532",
      "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0007143. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each internal carotid artery carries oxygen-rich blood to the brain and eyes.",
+     "quotes": [
+      {
+       "quote": "A terminal branch of the left or right common carotid artery which supplies oxygenated blood to the brain and eyes",
+       "section": "UBERON:0001532 internal carotid artery",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001532",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    },
+    {
+     "text": "This artery branches off a common carotid artery, which supplies the head and neck.",
+     "defines": "common carotid artery",
+     "quotes": [
+      {
+       "quote": "internal carotid artery: branch from the common carotid artery that enters the cranium and supplies blood to the brain",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "common carotid artery: blood vessel that branches off the aorta (or the brachiocephalic artery on the right) and supplies blood to the head and neck",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The internal carotid artery reaches the brain through the carotid canal, a zig-zag tunnel through the base of the skull.",
+     "defines": "carotid canal",
+     "quotes": [
+      {
+       "quote": "carotid canal: zig-zag tunnel providing passage through the base of the skull for the internal carotid artery to the brain",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The artery's branches then help form the circle of Willis, which keeps the brain's blood supply steady.",
+     "defines": "circle of Willis",
+     "quotes": [
+      {
+       "quote": "circle of Willis: (also, arterial circle) anastomosis located at the base of the brain that ensures continual blood supply; formed from branches of the internal carotid and vertebral arteries; supplies blood to the brain",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:3947",
+    "label": "Internal carotid artery",
+    "conceptId": "FMA3947"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -60,9 +148,24 @@
  "media": [],
  "sources": [
   {
-   "title": "Uberon UBERON:0007143",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007143",
+   "title": "Uberon, UBERON:0001532 internal carotid artery",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0001532",
    "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
   }
  ],
  "zoom": {

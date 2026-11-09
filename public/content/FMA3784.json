@@ -21,27 +21,117 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_3784/tier1.auto.md",
-   "text": "The portion of the aorta following the aortic arch passing into the chest and abdomen creating the thoracic and abdominal segments.",
+   "status": "drafted",
+   "file": "content/FMA_3784/tier1.md",
+   "text": "Through its branches, the descending aorta sends blood to the internal organs. The descending aorta is the part of the aorta, the body's largest artery, that runs down through the chest and abdomen. The descending aorta passes through the diaphragm, the muscle between the chest and the abdomen. The part above the diaphragm is called the thoracic aorta, and the part below is the abdominal aorta.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C32455",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C32455",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Circulatory Pathways",
+     "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32455, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Circulatory Pathways. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Through its branches, the descending aorta sends blood to the internal organs.",
+     "quotes": [
+      {
+       "quote": "visceral branches: branches of the descending aorta that supply blood to the viscera",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The descending aorta is the part of the aorta, the body's largest artery, that runs down through the chest and abdomen.",
+     "defines": "aorta",
+     "quotes": [
+      {
+       "quote": "The aorta ascends from the left ventricle, curves posteriorly and to the left, then descends through the thorax and abdomen. This geography divides the aorta into three portions: ascending aorta, arotic arch, and descending aorta.",
+       "section": "SEER Training Modules: Circulatory Pathways",
+       "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Circulatory Pathways. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "aorta: largest artery in the body",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The descending aorta passes through the diaphragm, the muscle between the chest and the abdomen.",
+     "defines": "diaphragm",
+     "quotes": [
+      {
+       "quote": "the descending aorta continues close to the bodies of the vertebrae and passes through an opening in the diaphragm known as the aortic hiatus",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "diaphragm: skeletal muscle that separates the thoracic and abdominal cavities and is dome-shaped at rest",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The part above the diaphragm is called the thoracic aorta, and the part below is the abdominal aorta.",
+     "quotes": [
+      {
+       "quote": "Superior to the diaphragm, the aorta is called the thoracic aorta, and inferior to the diaphragm, it is called the abdominal aorta.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +143,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C32455",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32455",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Circulatory Pathways",
+   "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
    "license": "CC BY 4.0"
   }
  ],

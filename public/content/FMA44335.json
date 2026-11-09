@@ -13,7 +13,103 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_44333/tier1.md",
+   "text": "Each small saphenous vein drains blood from the superficial, or near-surface, parts of the lower leg and foot. This vein starts on the foot and runs up the back of the leg. At the knee, the small saphenous vein empties into the popliteal vein, which drains the area behind the knee.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33546 Short Saphenous Vein",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33546",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each small saphenous vein drains blood from the superficial, or near-surface, parts of the lower leg and foot.",
+     "defines": "superficial",
+     "quotes": [
+      {
+       "quote": "small saphenous vein: located on the lateral surface of the leg; drains blood from the superficial regions of the lower leg and foot, and leads to the popliteal vein",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "superficial: describes a position nearer to the surface of the body",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This vein starts on the foot and runs up the back of the leg.",
+     "quotes": [
+      {
+       "quote": "A superficial vein originating from the dorsal vein at the fifth toe and the dorsal venous arch of the foot and extends up the back of the leg to empty into the popliteal vein at the knee joint.",
+       "section": "NCIT:C33546 Short Saphenous Vein",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33546",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "At the knee, the small saphenous vein empties into the popliteal vein, which drains the area behind the knee.",
+     "defines": "popliteal vein",
+     "quotes": [
+      {
+       "quote": "A superficial vein originating from the dorsal vein at the fifth toe and the dorsal venous arch of the foot and extends up the back of the leg to empty into the popliteal vein at the knee joint.",
+       "section": "NCIT:C33546 Short Saphenous Vein",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33546",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:44333",
+    "label": "Small saphenous vein",
+    "conceptId": "FMA44333"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -23,7 +119,23 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33546 Short Saphenous Vein",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33546",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": []

@@ -22,27 +22,104 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_3932/tier1.auto.md",
-   "text": "An artery arising from the aortic arch that divides into the right common carotid and right subclavian arteries.",
+   "status": "drafted",
+   "file": "content/FMA_3932/tier1.md",
+   "text": "The brachiocephalic artery carries blood to the head, neck, arm and chest wall. Found only on the right side, it is the first branch off the arch of the aorta, the body's largest artery. One branch of the brachiocephalic artery, the right common carotid artery, supplies the head and neck. The other branch, the right subclavian artery, supplies the right arm and chest.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C32814",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32814",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C32814",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32814",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33473 Right Common Carotid Artery",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33473",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33490 Right Subclavian Artery",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33490",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32814, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The brachiocephalic artery carries blood to the head, neck, arm and chest wall.",
+     "quotes": [
+      {
+       "quote": "brachiocephalic artery: single vessel located on the right side of the body; the first vessel branching from the aortic arch; gives rise to the right subclavian artery and the right common carotid artery; supplies blood to the head, neck, upper limb, and wall of the thoracic region",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Found only on the right side, it is the first branch off the arch of the aorta, the body's largest artery.",
+     "defines": "aorta",
+     "quotes": [
+      {
+       "quote": "brachiocephalic artery: single vessel located on the right side of the body; the first vessel branching from the aortic arch",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "aorta: largest artery in the body",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "One branch of the brachiocephalic artery, the right common carotid artery, supplies the head and neck.",
+     "defines": "right common carotid artery",
+     "quotes": [
+      {
+       "quote": "An artery arising from the bifurcation of the brachiocephalic artery that supplies the head and neck.",
+       "section": "NCIT:C33473 Right Common Carotid Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33473",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The other branch, the right subclavian artery, supplies the right arm and chest.",
+     "defines": "right subclavian artery",
+     "quotes": [
+      {
+       "quote": "An artery arising from the bifurcation of the brachiocephalic artery that supplies the right arm and thoracic region.",
+       "section": "NCIT:C33490 Right Subclavian Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33490",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    }
+   ],
+   "grade": 8.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -54,8 +131,18 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C32814",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32814",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33473 Right Common Carotid Artery",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33473",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33490 Right Subclavian Artery",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33490",
    "license": "CC BY 4.0"
   }
  ],

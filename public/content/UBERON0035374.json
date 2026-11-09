@@ -21,27 +21,125 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_4714/tier1.auto.md",
-   "text": "A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.",
+   "status": "drafted",
+   "file": "content/FMA_4714/tier1.md",
+   "text": "The small cardiac vein drains blood from the back surfaces of the heart's right side. This vein runs beside the right coronary artery, a vessel that supplies blood to the heart. The small cardiac vein lies in the coronary sulcus, a deep, fat-filled groove on the heart's surface. The small cardiac vein empties into the coronary sinus, a large vein on the back of the heart.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12881",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12881",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0035374 small cardiac vein",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0035374",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12881 Small Cardiac Vein",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12881",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12881, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The small cardiac vein drains blood from the back surfaces of the heart's right side.",
+     "quotes": [
+      {
+       "quote": "The small cardiac vein parallels the right coronary artery and drains the blood from the posterior surfaces of the right atrium and ventricle.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This vein runs beside the right coronary artery, a vessel that supplies blood to the heart.",
+     "defines": "right coronary artery",
+     "quotes": [
+      {
+       "quote": "small cardiac vein: parallels the right coronary artery",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "coronary arteries: branches of the ascending aorta that supply blood to the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The small cardiac vein lies in the coronary sulcus, a deep, fat-filled groove on the heart's surface.",
+     "defines": "coronary sulcus",
+     "quotes": [
+      {
+       "quote": "A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.",
+       "section": "UBERON:0035374 small cardiac vein",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0035374",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "Also prominent is a series of fat-filled grooves, each of which is known as a sulcus (plural = sulci), along the superior surfaces of the heart. Major coronary blood vessels are located in these sulci. The deep coronary sulcus is located between the atria and ventricles.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The small cardiac vein empties into the coronary sinus, a large vein on the back of the heart.",
+     "defines": "coronary sinus",
+     "quotes": [
+      {
+       "quote": "A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.",
+       "section": "NCIT:C12881 Small Cardiac Vein",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12881",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "coronary sinus: large, thin-walled vein on the posterior surface of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +151,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12881",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12881",
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0035374 small cardiac vein",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0035374",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12881 Small Cardiac Vein",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12881",
    "license": "CC BY 4.0"
   }
  ],

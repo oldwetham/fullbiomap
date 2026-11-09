@@ -35,27 +35,99 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_50735/tier1.auto.md",
-   "text": "Portal vein, each instance of which is the confluence of some superior mesenteric and splenic veins behind the neck of aome pancrea; it carries blood from some gastro-intestinal tract, pancreas, spleen and gallbladder to some liver.",
+   "status": "drafted",
+   "file": "content/FMA_50735/tier1.md",
+   "text": "The hepatic portal vein carries nutrient-rich blood from the digestive tract to the liver. The liver processes this blood, removing certain wastes and storing extra nutrients for later use. The hepatic portal vein begins behind the pancreas, where two veins join. The hepatic portal vein enters the liver at the porta hepatis, the “gate to the liver.”",
    "source": {
-    "kind": "fma",
-    "name": "Foundational Model of Anatomy",
-    "term": "FMA:50735",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Foundational Model of Anatomy FMA:50735",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Foundational Model of Anatomy, FMA:50735 Hepatic portal vein",
+     "url": "http://purl.org/sig/ont/fma/fma50735",
      "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from the Foundational Model of Anatomy (FMA 5.1.0), FMA:50735, University of Washington Structural Informatics Group. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The hepatic portal vein carries nutrient-rich blood from the digestive tract to the liver.",
+     "quotes": [
+      {
+       "quote": "Blood that is rich in nutrients from the digestive tract is carried to the liver by the hepatic portal vein.",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The liver processes this blood, removing certain wastes and storing extra nutrients for later use.",
+     "quotes": [
+      {
+       "quote": "The liver processes the blood from the portal system to remove certain wastes and excess nutrients, which are stored for later use.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The hepatic portal vein begins behind the pancreas, where two veins join.",
+     "quotes": [
+      {
+       "quote": "Portal vein, each instance of which is the confluence of some superior mesenteric and splenic veins behind the neck of aome pancrea",
+       "section": "FMA:50735 Hepatic portal vein",
+       "url": "http://purl.org/sig/ont/fma/fma50735",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      }
+     ]
+    },
+    {
+     "text": "The hepatic portal vein enters the liver at the porta hepatis, the “gate to the liver.”",
+     "defines": "porta hepatis",
+     "quotes": [
+      {
+       "quote": "The porta hepatis (“gate to the liver”) is where the hepatic artery and hepatic portal vein enter the liver.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -67,9 +139,24 @@
  "media": [],
  "sources": [
   {
-   "title": "Foundational Model of Anatomy FMA:50735",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50735",
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Foundational Model of Anatomy, FMA:50735 Hepatic portal vein",
+   "url": "http://purl.org/sig/ont/fma/fma50735",
    "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+   "license": "CC BY 4.0"
   }
  ],
  "zoom": {

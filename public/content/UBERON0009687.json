@@ -21,27 +21,111 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_4713/tier1.auto.md",
-   "text": "A vein originating at the apex of the heart that ascends along the posterior interventricular sulcus and drains into the coronary sinus.",
+   "status": "drafted",
+   "file": "content/FMA_4713/tier1.md",
+   "text": "The middle cardiac vein drains blood from parts of both ventricles, the heart's lower pumping chambers. This vein starts at the apex, the heart's lower tip, and runs up the back of the heart. The middle cardiac vein empties into the coronary sinus, a large vein that drains the heart.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12880",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12880",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12880",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12880",
+     "title": "Foundational Model of Anatomy, FMA:4713 Middle cardiac vein",
+     "url": "http://purl.org/sig/ont/fma/fma4713",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12880 Middle Cardiac Vein",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12880",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12880, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The middle cardiac vein drains blood from parts of both ventricles, the heart's lower pumping chambers.",
+     "defines": "ventricles",
+     "quotes": [
+      {
+       "quote": "a tributary of some coronary sinus situated in some posterior longitudinal sulcus that collects blood from the diaphragmatic region of some right and left ventricles",
+       "section": "FMA:4713 Middle cardiac vein",
+       "url": "http://purl.org/sig/ont/fma/fma4713",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      },
+      {
+       "quote": "ventricle: one of the primary pumping chambers of the heart located in the lower portion of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This vein starts at the apex, the heart's lower tip, and runs up the back of the heart.",
+     "defines": "apex",
+     "quotes": [
+      {
+       "quote": "A vein originating at the apex of the heart that ascends along the posterior interventricular sulcus and drains into the coronary sinus.",
+       "section": "NCIT:C12880 Middle Cardiac Vein",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12880",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "The inferior tip of the heart, the apex, lies just to the left of the sternum",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The middle cardiac vein empties into the coronary sinus, a large vein that drains the heart.",
+     "defines": "coronary sinus",
+     "quotes": [
+      {
+       "quote": "A vein originating at the apex of the heart that ascends along the posterior interventricular sulcus and drains into the coronary sinus.",
+       "section": "NCIT:C12880 Middle Cardiac Vein",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12880",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +137,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12880",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12880",
+   "title": "Foundational Model of Anatomy, FMA:4713 Middle cardiac vein",
+   "url": "http://purl.org/sig/ont/fma/fma4713",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12880 Middle Cardiac Vein",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12880",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
    "license": "CC BY 4.0"
   }
  ],

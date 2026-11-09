@@ -37,7 +37,135 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_14772/tier1.md",
+   "text": "The hepatic artery proper supplies the liver with systemic blood, oxygen-rich blood sent out from the heart. This artery branches off the common hepatic artery, which also feeds parts of the stomach. The hepatic artery proper then gives rise to the left hepatic artery, which is part of the liver's left lobe. The hepatic artery proper also gives rise to the right hepatic artery, which is part of the right lobe.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Circulatory Pathways",
+     "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C32729 Common Hepatic Artery",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C32729",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0015481 left hepatic artery",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0015481",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "Uberon, UBERON:0015482 right hepatic artery",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0015482",
+     "license": "CC BY 3.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Circulatory Pathways. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The hepatic artery proper supplies the liver with systemic blood, oxygen-rich blood sent out from the heart.",
+     "defines": "systemic blood",
+     "quotes": [
+      {
+       "quote": "hepatic artery proper: branch of the common hepatic artery; supplies systemic blood to the liver",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Systemic circulation carries oxygenated blood from the left ventricle, through the arteries, to the capillaries in the tissues of the body.",
+       "section": "SEER Training Modules: Circulatory Pathways",
+       "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Circulatory Pathways. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "This artery branches off the common hepatic artery, which also feeds parts of the stomach.",
+     "defines": "common hepatic artery",
+     "quotes": [
+      {
+       "quote": "hepatic artery proper: branch of the common hepatic artery",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An artery arising from the celiac trunk that supplies portions of the stomach, small intestines, liver and gallbladder.",
+       "section": "NCIT:C32729 Common Hepatic Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32729",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The hepatic artery proper then gives rise to the left hepatic artery, which is part of the liver's left lobe.",
+     "defines": "left hepatic artery",
+     "quotes": [
+      {
+       "quote": "It branches off to form the right gastric artery and the gastroduodenal artery and continues distally as the proper hepatic artery, whose branches give rise to the cystic artery, and the left and right hepatic arteries.",
+       "section": "NCIT:C32729 Common Hepatic Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32729",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "A hepatic artery that is part of a left lobe of liver.",
+       "section": "UBERON:0015481 left hepatic artery",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0015481",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    },
+    {
+     "text": "The hepatic artery proper also gives rise to the right hepatic artery, which is part of the right lobe.",
+     "defines": "right hepatic artery",
+     "quotes": [
+      {
+       "quote": "It branches off to form the right gastric artery and the gastroduodenal artery and continues distally as the proper hepatic artery, whose branches give rise to the cystic artery, and the left and right hepatic arteries.",
+       "section": "NCIT:C32729 Common Hepatic Artery",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32729",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "A hepatic artery that is part of a right lobe of liver.",
+       "section": "UBERON:0015482 right hepatic artery",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0015482",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    }
+   ],
+   "grade": 9.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,7 +175,33 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Circulatory Pathways",
+   "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C32729 Common Hepatic Artery",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C32729",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0015481 left hepatic artery",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0015481",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "Uberon, UBERON:0015482 right hepatic artery",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0015482",
+   "license": "CC BY 3.0"
+  }
+ ],
  "zoom": {
   "in": [
    "FMA:14778",

@@ -13,7 +13,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 49 of 49 | 0 of 0 | 210 |
 | Muscles | 106 | 106 of 106 | 0 of 0 | 304 |
-| Vessels | 90 | 5 of 90 | 0 of 0 | 206 |
+| Vessels | 90 | 89 of 90 | 0 of 0 | 206 |
 | Nerves | 3 | 3 of 3 | 0 of 0 | 9 |
 | Brain regions | 31 | 4 of 31 | 0 of 0 | 65 |
 | All | 437 | | | 994 |
@@ -350,96 +350,96 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Vessels (90)
 
-- Abdominal aorta (FMA:3789): Plain: not written
-- Anterior cardiac vein (FMA:76767): Plain: not written
-- Anterior cerebral artery (FMA:50028; also Right anterior cerebral artery, Left anterior cerebral artery): Plain: not written
-- Anterior communicating artery (FMA:50169): Plain: not written
-- Anterior spinal artery (FMA:50531; also Right anterior spinal artery, Left anterior spinal artery): Plain: not written
-- Anterior tibial artery (FMA:43894; also Right anterior tibial artery, Left anterior tibial artery): Plain: not written
-- Anterior tibial vein (FMA:44331; also Right anterior tibial vein, Left anterior tibial vein): Plain: not written
+- Abdominal aorta (FMA:3789): Plain: drafted, grade 9.1
+- Anterior cardiac vein (FMA:76767): Plain: drafted, grade 7.4
+- Anterior cerebral artery (FMA:50028; also Right anterior cerebral artery, Left anterior cerebral artery): Plain: drafted, grade 9.3
+- Anterior communicating artery (FMA:50169): Plain: drafted, grade 8.4
+- Anterior spinal artery (FMA:50531; also Right anterior spinal artery, Left anterior spinal artery): Plain: drafted, grade 7.6
+- Anterior tibial artery (FMA:43894; also Right anterior tibial artery, Left anterior tibial artery): Plain: drafted, grade 8.7
+- Anterior tibial vein (FMA:44331; also Right anterior tibial vein, Left anterior tibial vein): Plain: drafted, grade 8.1
 - Aorta (FMA:3734): Plain: drafted, grade 7
 - Ascending aorta (FMA:3736): Plain: drafted, grade 6.8
 - Axillary artery (FMA:22654; also Right axillary artery, Left axillary artery): Plain: drafted, grade 8.9
 - Axillary vein (FMA:13329; also Right axillary vein, Left axillary vein): Plain: drafted, grade 5.4
 - Azygos vein (FMA:4838): Plain: drafted, grade 6.9
-- Basilar artery (FMA:50542): Plain: not written
-- Basilic vein (FMA:22908; also Right basilic vein, Left basilic vein): Plain: not written
-- Brachial artery (FMA:22689; also Right brachial artery, Left brachial artery): Plain: not written
-- Brachial vein (FMA:22934): Plain: not written
-- Brachiocephalic artery (FMA:3932): Plain: not written
-- Brachiocephalic vein (FMA:4723; also Right brachiocephalic vein, Left brachiocephalic vein): Plain: not written
-- Bronchial artery (FMA:68109): Plain: not written
-- Celiac trunk (FMA:14812): Plain: not written
-- Cephalic vein (FMA:13324; also Right cephalic vein, Left cephalic vein): Plain: not written
-- Common carotid artery (FMA:3939; also Right common carotid artery, Left common carotid artery): Plain: not written
-- Common hepatic artery (FMA:14771): Plain: not written
-- Common iliac artery (FMA:14764; also Right common iliac artery, Left common iliac artery): Plain: not written
-- Common iliac vein (FMA:14333; also Right common iliac vein, Left common iliac vein): Plain: not written
-- Coronary sinus (FMA:4706): Plain: not written
-- Deep femoral artery (FMA:20741; also Right deep femoral artery, Left deep femoral artery): Plain: not written
-- Deep femoral vein (FMA:51041; also Right deep femoral vein, Left deep femoral vein): Plain: not written
-- Descending aorta (FMA:3784): Plain: not written
-- Dorsalis pedis artery (FMA:43915; also Right dorsalis pedis artery, Left dorsalis pedis artery): Plain: not written
-- Esophageal artery (FMA:4149): Plain: not written
-- External iliac artery (FMA:18805; also Right external iliac artery, Left external iliac artery): Plain: not written
-- External iliac vein (FMA:18883; also Right external iliac vein, Left external iliac vein): Plain: not written
-- Femoral artery (FMA:70248; also Right femoral artery, Left femoral artery): Plain: not written
-- Femoral vein (FMA:21185; also Right femoral vein, Left femoral vein): Plain: not written
-- Fibular vein (FMA:44558; also Right fibular vein, Left fibular vein): Plain: not written
-- Great cardiac vein (FMA:4707): Plain: not written
-- Great saphenous vein (FMA:21376; also Right great saphenous vein, Left great saphenous vein): Plain: not written
-- Hemiazygos vein (FMA:4944): Plain: not written
-- Hepatic artery (FMA:14769; also Right hepatic artery, Left hepatic artery): Plain: not written
-- Hepatic artery proper (FMA:14772): Plain: not written
-- Hepatic portal vein (FMA:50735): Plain: not written
-- Hepatic vein (FMA:14337; also Right hepatic vein, Left hepatic vein): Plain: not written
-- Inferior mesenteric artery (FMA:14750): Plain: not written
-- Inferior phrenic artery (FMA:14734; also Right inferior phrenic artery, Left inferior phrenic artery): Plain: not written
-- Inferior vena cava (FMA:10951): Plain: not written
-- Internal carotid artery (FMA:3947; also Right internal carotid artery, Left internal carotid artery): Plain: not written
-- Internal iliac artery (FMA:18808; also Right internal iliac artery, Left internal iliac artery): Plain: not written
-- Internal iliac vein (FMA:18884; also Right internal iliac vein, Left internal iliac vein): Plain: not written
-- Internal jugular vein (FMA:4724; also Right internal jugular vein, Left internal jugular vein): Plain: not written
-- Internal thoracic artery (FMA:3960; also Right internal thoracic artery, Left internal thoracic artery): Plain: not written
-- Internal thoracic vein (FMA:4729; also Right internal thoracic vein): Plain: not written
-- Lateral plantar artery (FMA:43926; also Right lateral plantar artery, Left lateral plantar artery): Plain: not written
-- Left gastric artery (FMA:14768): Plain: not written
-- Lumbar vein (FMA:15370): Plain: not written
-- Medial plantar artery (FMA:43925; also Right medial plantar artery, Left medial plantar artery): Plain: not written
-- Median antebrachial vein (FMA:22967; also Right median antebrachial vein, Left median antebrachial vein): Plain: not written
-- Median cubital vein (FMA:22963; also Right median cubital vein, Left median cubital vein): Plain: not written
-- Middle cardiac vein (FMA:4713): Plain: not written
-- Middle cerebral artery (FMA:50079; also Right middle cerebral artery): Plain: not written
-- Ophthalmic artery (FMA:49868; also Right ophthalmic artery, Left ophthalmic artery): Plain: not written
-- Plantar arch (FMA:43942; also Right plantar arch, Left plantar arch): Plain: not written
-- Popliteal artery (FMA:77155; also Right popliteal artery, Left popliteal artery): Plain: not written
-- Popliteal vein (FMA:44327; also Right popliteal vein, Left popliteal vein): Plain: not written
-- Posterior cerebral artery (FMA:50583; also Right posterior cerebral artery, Left posterior cerebral artery): Plain: not written
-- Posterior communicating artery (FMA:50084; also Right posterior communicating artery, Left posterior communicating artery): Plain: not written
-- Posterior tibial artery (FMA:43895; also Right posterior tibial artery, Left posterior tibial artery): Plain: not written
-- Posterior tibial vein (FMA:44332; also Right posterior tibial vein, Left posterior tibial vein): Plain: not written
-- Pulmonary artery (FMA:66326; also Right pulmonary artery, Left pulmonary artery): Plain: not written
-- Pulmonary trunk (FMA:8612): Plain: not written
-- Pulmonary vein (FMA:66643): Plain: not written
-- Radial artery (FMA:22730; also Right radial artery, Left radial artery): Plain: not written
-- Radial vein (FMA:22947; also Right radial vein, Left radial vein): Plain: not written
-- Renal artery (FMA:14751; also Right renal artery, Left renal artery): Plain: not written
-- Renal vein (FMA:14334; also Right renal vein, Left renal vein): Plain: not written
-- Right gastric artery (FMA:14776): Plain: not written
-- Small cardiac vein (FMA:4714): Plain: not written
-- Small saphenous vein (FMA:44333; also Right small saphenous vein, Left small saphenous vein): Plain: not written
-- Splenic artery (FMA:14773): Plain: not written
-- Subclavian artery (FMA:3951; also Right subclavian artery, Left subclavian artery): Plain: not written
-- Subclavian vein (FMA:4725; also Right subclavian vein, Left subclavian vein): Plain: not written
+- Basilar artery (FMA:50542): Plain: drafted, grade 8.4
+- Basilic vein (FMA:22908; also Right basilic vein, Left basilic vein): Plain: drafted, grade 7.4
+- Brachial artery (FMA:22689; also Right brachial artery, Left brachial artery): Plain: drafted, grade 8.9
+- Brachial vein (FMA:22934): Plain: drafted, grade 7.6
+- Brachiocephalic artery (FMA:3932): Plain: drafted, grade 8.2
+- Brachiocephalic vein (FMA:4723; also Right brachiocephalic vein, Left brachiocephalic vein): Plain: drafted, grade 7.4
+- Bronchial artery (FMA:68109): Plain: drafted, grade 7.6
+- Celiac trunk (FMA:14812): Plain: drafted, grade 6
+- Cephalic vein (FMA:13324; also Right cephalic vein, Left cephalic vein): Plain: drafted, grade 5.9
+- Common carotid artery (FMA:3939; also Right common carotid artery, Left common carotid artery): Plain: drafted, grade 9.3
+- Common hepatic artery (FMA:14771): Plain: drafted, grade 8.5
+- Common iliac artery (FMA:14764; also Right common iliac artery, Left common iliac artery): Plain: drafted, grade 9
+- Common iliac vein (FMA:14333; also Right common iliac vein, Left common iliac vein): Plain: drafted, grade 6.7
+- Coronary sinus (FMA:4706): Plain: drafted, grade 6.3
+- Deep femoral artery (FMA:20741; also Right deep femoral artery, Left deep femoral artery): Plain: drafted, grade 8.6
+- Deep femoral vein (FMA:51041; also Right deep femoral vein, Left deep femoral vein): Plain: drafted, grade 6.8
+- Descending aorta (FMA:3784): Plain: drafted, grade 8.9
+- Dorsalis pedis artery (FMA:43915; also Right dorsalis pedis artery, Left dorsalis pedis artery): Plain: drafted, grade 8
+- Esophageal artery (FMA:4149): Plain: drafted, grade 8.4
+- External iliac artery (FMA:18805; also Right external iliac artery, Left external iliac artery): Plain: drafted, grade 8.9
+- External iliac vein (FMA:18883; also Right external iliac vein, Left external iliac vein): Plain: drafted, grade 8.4
+- Femoral artery (FMA:70248; also Right femoral artery, Left femoral artery): Plain: drafted, grade 8.7
+- Femoral vein (FMA:21185; also Right femoral vein, Left femoral vein): Plain: drafted, grade 7.4
+- Fibular vein (FMA:44558; also Right fibular vein, Left fibular vein): Plain: drafted, grade 7.3
+- Great cardiac vein (FMA:4707): Plain: drafted, grade 6.2
+- Great saphenous vein (FMA:21376; also Right great saphenous vein, Left great saphenous vein): Plain: drafted, grade 6.7
+- Hemiazygos vein (FMA:4944): Plain: drafted, grade 8
+- Hepatic artery (FMA:14769; also Right hepatic artery, Left hepatic artery): Plain: drafted, grade 9.7
+- Hepatic artery proper (FMA:14772): Plain: drafted, grade 9.9
+- Hepatic portal vein (FMA:50735): Plain: drafted, grade 8.6
+- Hepatic vein (FMA:14337; also Right hepatic vein, Left hepatic vein): Plain: drafted, grade 7
+- Inferior mesenteric artery (FMA:14750): Plain: drafted, grade 9.5
+- Inferior phrenic artery (FMA:14734; also Right inferior phrenic artery, Left inferior phrenic artery): Plain: drafted, grade 9.4
+- Inferior vena cava (FMA:10951): Plain: drafted, grade 8.6
+- Internal carotid artery (FMA:3947; also Right internal carotid artery, Left internal carotid artery): Plain: drafted, grade 9.1
+- Internal iliac artery (FMA:18808; also Right internal iliac artery, Left internal iliac artery): Plain: drafted, grade 9
+- Internal iliac vein (FMA:18884; also Right internal iliac vein, Left internal iliac vein): Plain: drafted, grade 7.4
+- Internal jugular vein (FMA:4724; also Right internal jugular vein, Left internal jugular vein): Plain: drafted, grade 6.7
+- Internal thoracic artery (FMA:3960; also Right internal thoracic artery, Left internal thoracic artery): Plain: drafted, grade 8.7
+- Internal thoracic vein (FMA:4729; also Right internal thoracic vein): Plain: drafted, grade 8.2
+- Lateral plantar artery (FMA:43926; also Right lateral plantar artery, Left lateral plantar artery): Plain: drafted, grade 7.5
+- Left gastric artery (FMA:14768): Plain: drafted, grade 8.5
+- Lumbar vein (FMA:15370): Plain: drafted, grade 8.4
+- Medial plantar artery (FMA:43925; also Right medial plantar artery, Left medial plantar artery): Plain: drafted, grade 7.6
+- Median antebrachial vein (FMA:22967; also Right median antebrachial vein, Left median antebrachial vein): Plain: drafted, grade 8
+- Median cubital vein (FMA:22963; also Right median cubital vein, Left median cubital vein): Plain: drafted, grade 5.8
+- Middle cardiac vein (FMA:4713): Plain: drafted, grade 6.7
+- Middle cerebral artery (FMA:50079; also Right middle cerebral artery): Plain: drafted, grade 9.3
+- Ophthalmic artery (FMA:49868; also Right ophthalmic artery, Left ophthalmic artery): Plain: drafted, grade 7.5
+- Plantar arch (FMA:43942; also Right plantar arch, Left plantar arch): Plain: drafted, grade 7
+- Popliteal artery (FMA:77155; also Right popliteal artery, Left popliteal artery): Plain: drafted, grade 9.3
+- Popliteal vein (FMA:44327; also Right popliteal vein, Left popliteal vein): Plain: drafted, grade 6.9
+- Posterior cerebral artery (FMA:50583; also Right posterior cerebral artery, Left posterior cerebral artery): Plain: drafted, grade 7.3
+- Posterior communicating artery (FMA:50084; also Right posterior communicating artery, Left posterior communicating artery): Plain: drafted, grade 7.1
+- Posterior tibial artery (FMA:43895; also Right posterior tibial artery, Left posterior tibial artery): Plain: drafted, grade 7.4
+- Posterior tibial vein (FMA:44332; also Right posterior tibial vein, Left posterior tibial vein): Plain: drafted, grade 7.6
+- Pulmonary artery (FMA:66326; also Right pulmonary artery, Left pulmonary artery): Plain: drafted, grade 9.3
+- Pulmonary trunk (FMA:8612): Plain: drafted, grade 8.7
+- Pulmonary vein (FMA:66643): Plain: drafted, grade 7.6
+- Radial artery (FMA:22730; also Right radial artery, Left radial artery): Plain: drafted, grade 7.8
+- Radial vein (FMA:22947; also Right radial vein, Left radial vein): Plain: drafted, grade 6.3
+- Renal artery (FMA:14751; also Right renal artery, Left renal artery): Plain: drafted, grade 8
+- Renal vein (FMA:14334; also Right renal vein, Left renal vein): Plain: drafted, grade 8.2
+- Right gastric artery (FMA:14776): Plain: drafted, grade 9.4
+- Small cardiac vein (FMA:4714): Plain: drafted, grade 7.1
+- Small saphenous vein (FMA:44333; also Right small saphenous vein, Left small saphenous vein): Plain: drafted, grade 6.5
+- Splenic artery (FMA:14773): Plain: drafted, grade 8.6
+- Subclavian artery (FMA:3951; also Right subclavian artery, Left subclavian artery): Plain: drafted, grade 9.1
+- Subclavian vein (FMA:4725; also Right subclavian vein, Left subclavian vein): Plain: drafted, grade 7.7
 - Subscapular vein (FMA:23113; also Right subscapular vein, Left subscapular vein): Plain: not published (see below)
-- Superior mesenteric artery (FMA:14749): Plain: not written
-- Superior vena cava (FMA:4720): Plain: not written
-- Testicular artery (FMA:14758; also Right testicular artery, Left testicular artery): Plain: not written
-- Testicular vein (FMA:14344; also Right testicular vein, Left testicular vein): Plain: not written
-- Thyrocervical artery (FMA:70346; also Right thyrocervical artery, Left thyrocervical artery): Plain: not written
-- Ulnar artery (FMA:22796; also Right ulnar artery, Left ulnar artery): Plain: not written
-- Ulnar vein (FMA:22950; also Right ulnar vein, Left ulnar vein): Plain: not written
-- Vertebral artery (FMA:3956; also Right vertebral artery, Left vertebral artery): Plain: not written
+- Superior mesenteric artery (FMA:14749): Plain: drafted, grade 9.1
+- Superior vena cava (FMA:4720): Plain: drafted, grade 8.2
+- Testicular artery (FMA:14758; also Right testicular artery, Left testicular artery): Plain: drafted, grade 9.5
+- Testicular vein (FMA:14344; also Right testicular vein, Left testicular vein): Plain: drafted, grade 8.4
+- Thyrocervical artery (FMA:70346; also Right thyrocervical artery, Left thyrocervical artery): Plain: drafted, grade 8.4
+- Ulnar artery (FMA:22796; also Right ulnar artery, Left ulnar artery): Plain: drafted, grade 9.1
+- Ulnar vein (FMA:22950; also Right ulnar vein, Left ulnar vein): Plain: drafted, grade 7.4
+- Vertebral artery (FMA:3956; also Right vertebral artery, Left vertebral artery): Plain: drafted, grade 9
 
 ### Nerves (3)
 
@@ -485,6 +485,71 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Arterial
 
+#### Abdominal aorta: Plain (drafted; grade 9.1; `content/FMA_3789/tier1.md`)
+
+1. The abdominal aorta sends blood through its branches to the organs of the abdomen.
+   > “The celiac, superior mesenteric, suprarenal, renal, gonadal, and inferior mesenteric arteries branch from the abdominal aorta to supply the abdominal viscera.” ([SEER Training Modules: Circulatory Pathways](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html), Free of copyright (NCI reuse policy))
+2. This vessel is part of the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “abdominal aorta: portion of the aorta inferior to the aortic hiatus and superior to the common iliac arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The abdominal aorta begins below the diaphragm, the dome-shaped muscle that separates the chest from the abdomen. *(defines “diaphragm”)*
+   > “The portion of the descending aorta that lies within the abdomen, beginning below the diaphragm and ending at its division into the right and left common iliac arteries.” ([NCIT:C32038 Abdominal Aorta](http://purl.obolibrary.org/obo/NCIT_C32038), CC BY 4.0)
+   > “diaphragm: skeletal muscle that separates the thoracic and abdominal cavities and is dome-shaped at rest” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. This artery ends by splitting into the right and left common iliac arteries, which feed the pelvis and legs. *(defines “common iliac arteries”)*
+   > “The portion of the descending aorta that lies within the abdomen, beginning below the diaphragm and ending at its division into the right and left common iliac arteries.” ([NCIT:C32038 Abdominal Aorta](http://purl.obolibrary.org/obo/NCIT_C32038), CC BY 4.0)
+   > “The common iliac arteries provide blood to the pelvic region and ultimately to the lower limbs.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Anterior cerebral artery: Plain (drafted; grade 9.3; `content/FMA_50028/tier1.md`; also Right anterior cerebral artery, Left anterior cerebral artery)
+
+1. Each anterior cerebral artery feeds the frontal lobe, the front part of the brain above the eyes. *(defines “frontal lobe”)*
+   > “One of these branches is the anterior cerebral artery that supplies blood to the frontal lobe of the cerebrum.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The frontal lobe is located at the front of the brain, over the eyes.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. This artery is part of the circle of Willis, a ring of arteries at the base of the brain. *(defines “circle of Willis”)*
+   > “One of the two arteries arising from the internal carotid artery and being part of the Circle of Willis.” ([NCIT:C12829 Anterior Cerebral Artery](http://purl.obolibrary.org/obo/NCIT_C12829), CC BY 4.0)
+   > “circle of Willis: (also, arterial circle) anastomosis located at the base of the brain that ensures continual blood supply; formed from branches of the internal carotid and vertebral arteries; supplies blood to the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. This artery branches off the internal carotid artery, a main source of blood for the brain. *(defines “internal carotid artery”)*
+   > “anterior cerebral artery: arises from the internal carotid artery; supplies the frontal lobe of the cerebrum” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The internal carotid arteries along with the vertebral arteries are the two primary suppliers of blood to the human brain.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. The right and left anterior cerebral arteries are joined by the anterior communicating artery.
+   > “Both left and right anterior cerebral arteries are connected by the anterior communicating artery.” ([NCIT:C12829 Anterior Cerebral Artery](http://purl.obolibrary.org/obo/NCIT_C12829), CC BY 4.0)
+
+#### Anterior communicating artery: Plain (drafted; grade 8.4; `content/FMA_50169/tier1.md`)
+
+1. The anterior communicating artery joins the right and left anterior cerebral arteries, which feed the front of the brain. *(defines “anterior cerebral arteries”)*
+   > “The right and left anterior cerebral arteries join together to form an anastomosis called the anterior communicating artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “anterior cerebral artery: arises from the internal carotid artery; supplies the frontal lobe of the cerebrum” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This artery helps form the front of the circle of Willis, a ring of arteries at the base of the brain. *(defines “circle of Willis”)*
+   > “The initial segments of the anterior cerebral arteries and the anterior communicating artery form the anterior portion of the arterial circle.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “circle of Willis: (also, arterial circle) anastomosis located at the base of the brain that ensures continual blood supply; formed from branches of the internal carotid and vertebral arteries; supplies blood to the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. This artery also supplies blood to the brain.
+   > “anterior communicating artery: anastomosis of the right and left internal carotid arteries; supplies blood to the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Anterior spinal artery: Plain (drafted; grade 7.6; `content/FMA_50531/tier1.md`; also Right anterior spinal artery, Left anterior spinal artery)
+
+1. The anterior spinal artery carries blood to the anterior, or front, part of the spinal cord. *(defines “anterior”)*
+   > “The artery that delivers blood to the anterior portion of the spinal cord.” ([NCIT:C12833 Anterior Spinal Artery](http://purl.obolibrary.org/obo/NCIT_C12833), CC BY 4.0)
+   > “anterior: describes the front or direction toward the front of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+2. This artery runs along the front surface of the spinal cord.
+   > “anterior spinal artery: blood vessel from the merged branches of the vertebral arteries that runs along the anterior surface of the spinal cord” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+3. The vertebral arteries pass through the neck and enter the skull. *(defines “vertebral arteries”)*
+   > “A second set of vessels that supply the CNS are the vertebral arteries, which are protected as they pass through the neck region by the transverse foramina of the cervical vertebrae. The vertebral arteries enter the cranium through the foramen magnum of the occipital bone.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+4. Branches from the left and right vertebral arteries merge to form the anterior spinal artery.
+   > “Branches off the left and right vertebral arteries merge into the anterior spinal artery supplying the anterior aspect of the spinal cord, found along the anterior median fissure.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+
+#### Anterior tibial artery: Plain (drafted; grade 8.7; `content/FMA_43894/tier1.md`; also Right anterior tibial artery, Left anterior tibial artery)
+
+1. Each anterior tibial artery feeds the muscles and skin on the front of the lower leg.
+   > “The anterior tibial artery is located between the tibia and fibula, and supplies blood to the muscles and integument of the anterior tibial region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This artery branches off the popliteal artery, which runs down behind the knee. *(defines “popliteal artery”)*
+   > “anterior tibial artery: branches from the popliteal artery; supplies blood to the anterior tibial region; becomes the dorsalis pedis artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “A continuation of the femoral artery that descends behind the knee joint before branching into the anterior and posterior tibial arteries.” ([NCIT:C33337 Popliteal Artery](http://purl.obolibrary.org/obo/NCIT_C33337), CC BY 4.0)
+3. The anterior tibial artery lies between the tibia and fibula, the bones of the lower leg. *(defines “tibia and fibula”)*
+   > “The anterior tibial artery is located between the tibia and fibula, and supplies blood to the muscles and integument of the anterior tibial region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “tibia and fibula (bones of the leg)” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+4. At the ankle, this artery becomes the dorsalis pedis artery, which supplies the top of the foot. *(defines “dorsalis pedis artery”)*
+   > “Upon reaching the tarsal region, it becomes the dorsalis pedis artery, which branches repeatedly and provides blood to the tarsal and dorsal regions of the foot.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “dorsalis pedis artery: forms from the anterior tibial artery; branches repeatedly to supply blood to the tarsal and dorsal regions of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
 #### Aorta: Plain (drafted; grade 7; `content/FMA_3734/tier1.md`)
 
 1. The aorta is the body's largest artery, a blood vessel that carries blood away from the heart. *(defines “artery”)*
@@ -523,6 +588,536 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 3. It begins where the subclavian artery, which supplies the arms and shoulders, enters the armpit. *(defines “subclavian artery”)*
    > “As the subclavian artery exits the thorax into the axillary region, it is renamed the axillary artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
    > “Each subclavian artery supplies blood to the arms, chest, shoulders, back, and central nervous system.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Basilar artery: Plain (drafted; grade 8.4; `content/FMA_50542/tier1.md`)
+
+1. The basilar artery is the main blood supply to the brain stem.
+   > “basilar artery: formed from the fusion of the two vertebral arteries; sends branches to the cerebellum, brain stem, and the posterior cerebral arteries; the main blood supply to the brain stem” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The brain stem, the part of the brain that joins the spinal cord, controls breathing and heart rate. *(defines “brain stem”)*
+   > “brainstem: portion of the brain that connects with the spinal cord; controls basic nervous system functions like breathing, heart rate, and swallowing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The basilar artery also sends branches to the cerebellum, which controls balance and helps coordinate movement. *(defines “cerebellum”)*
+   > “The basilar artery is an anastomosis that begins at the junction of the two vertebral arteries and sends branches to the cerebellum and brain stem.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The cerebellum controls balance and aids in coordinating movement and learning new motor tasks.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. The basilar artery forms where the two vertebral arteries merge after they pass through the neck into the skull. *(defines “vertebral arteries”)*
+   > “The two vertebral arteries then merge into the basilar artery, which gives rise to branches to the brain stem and cerebellum.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “A second set of vessels that supply the CNS are the vertebral arteries, which are protected as they pass through the neck region by the transverse foramina of the cervical vertebrae. The vertebral arteries enter the cranium through the foramen magnum of the occipital bone.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+
+#### Brachial artery: Plain (drafted; grade 8.9; `content/FMA_22689/tier1.md`; also Right brachial artery, Left brachial artery)
+
+1. Each brachial artery supplies blood to much of the upper arm.
+   > “The brachial artery supplies blood to much of the brachial region” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. Smaller branches of the brachial artery supply the back of the arm and the elbow.
+   > “The brachial artery supplies blood to much of the brachial region and divides at the elbow into several smaller branches, including the deep brachial arteries, which provide blood to the posterior surface of the arm, and the ulnar collateral arteries, which supply blood to the region of the elbow.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. This artery continues from the axillary artery, which supplies the armpit. *(defines “axillary artery”)*
+   > “brachial artery: continuation of the axillary artery in the brachium” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “Artery that supplies the axilla.” ([UBERON:0001394 axillary artery](http://purl.obolibrary.org/obo/UBERON_0001394), CC BY 3.0)
+4. The brachial artery then splits into the radial and ulnar arteries, which continue into the forearm.
+   > “As the brachial artery approaches the coronoid fossa, it bifurcates into the radial and ulnar arteries, which continue into the forearm, or antebrachium.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Brachiocephalic artery: Plain (drafted; grade 8.2; `content/FMA_3932/tier1.md`)
+
+1. The brachiocephalic artery carries blood to the head, neck, arm and chest wall.
+   > “brachiocephalic artery: single vessel located on the right side of the body; the first vessel branching from the aortic arch; gives rise to the right subclavian artery and the right common carotid artery; supplies blood to the head, neck, upper limb, and wall of the thoracic region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Found only on the right side, it is the first branch off the arch of the aorta, the body's largest artery. *(defines “aorta”)*
+   > “brachiocephalic artery: single vessel located on the right side of the body; the first vessel branching from the aortic arch” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. One branch of the brachiocephalic artery, the right common carotid artery, supplies the head and neck. *(defines “right common carotid artery”)*
+   > “An artery arising from the bifurcation of the brachiocephalic artery that supplies the head and neck.” ([NCIT:C33473 Right Common Carotid Artery](http://purl.obolibrary.org/obo/NCIT_C33473), CC BY 4.0)
+4. The other branch, the right subclavian artery, supplies the right arm and chest. *(defines “right subclavian artery”)*
+   > “An artery arising from the bifurcation of the brachiocephalic artery that supplies the right arm and thoracic region.” ([NCIT:C33490 Right Subclavian Artery](http://purl.obolibrary.org/obo/NCIT_C33490), CC BY 4.0)
+
+#### Bronchial artery: Plain (drafted; grade 7.6; `content/FMA_68109/tier1.md`)
+
+1. The bronchial arteries bring oxygen-rich blood to the lungs.
+   > “bronchial artery: systemic branch from the aorta that provides oxygenated blood to the lungs in addition to the pulmonary circuit” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This supply comes in addition to the blood pumped to the lungs to pick up oxygen.
+   > “Each bronchial artery (typically two on the left and one on the right) supplies systemic blood to the lungs and visceral pleura, in addition to the blood pumped to the lungs for oxygenation via the pulmonary circuit.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. Like vessels elsewhere in the body, the bronchial arteries feed the lung tissue with nutrients.
+   > “the systemic vessels also deliver nutrients to the lung tissue just as they do elsewhere in the body” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. In the chest, the bronchial arteries branch off the aorta, the body's largest artery. *(defines “aorta”)*
+   > “the thoracic aorta gives rise to several branches, which are collectively referred to as visceral branches and parietal branches (). Those branches that supply blood primarily to visceral organs are known as the visceral branches and include the bronchial arteries” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Celiac trunk: Plain (drafted; grade 6; `content/FMA_14812/tier1.md`)
+
+1. The celiac trunk supplies blood to the stomach, liver, gallbladder, pancreas and spleen.
+   > “the arterial trunk that arises from some abdominal aorta, gives off trunks of some left gastric, common hepatic, and splenic arteries, and supplies the abdominal segment of some esophagus, stomach, duodenum, spleen, pancreas, liver, and gallbladder.” ([FMA:14812 Celiac trunk](http://purl.org/sig/ont/fma/fma14812), CC BY 3.0)
+2. In the abdomen, the celiac trunk branches off the aorta, the body's largest artery. *(defines “aorta”)*
+   > “the arterial trunk that arises from some abdominal aorta” ([FMA:14812 Celiac trunk](http://purl.org/sig/ont/fma/fma14812), CC BY 3.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. A trunk, like the celiac trunk, is a large vessel that gives rise to smaller vessels. *(defines “trunk”)*
+   > “there is an occasional, very large artery referred to as a trunk, a term indicating that the vessel gives rise to several smaller arteries. For example, the celiac trunk gives rise to the left gastric, common hepatic, and splenic arteries.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “trunk: large vessel that gives rise to smaller vessels” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The celiac trunk has three major branches.
+   > “It has three major branches, left gastric artery, common hepatic artery, and splenic artery.” ([NCIT:C52846 Celiac Artery](http://purl.obolibrary.org/obo/NCIT_C52846), CC BY 4.0)
+
+#### Common carotid artery: Plain (drafted; grade 9.3; `content/FMA_3939/tier1.md`; also Right common carotid artery, Left common carotid artery)
+
+1. Each common carotid artery carries blood to its own side of the head and neck.
+   > “common carotid artery: right common carotid artery arises from the brachiocephalic artery, and the left common carotid arises from the aortic arch; gives rise to the external and internal carotid arteries; supplies the respective sides of the head and neck” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The left common carotid artery branches off the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “common carotid artery: blood vessel that branches off the aorta (or the brachiocephalic artery on the right) and supplies blood to the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. But the right one branches off the brachiocephalic artery, which is found only on the right side. *(defines “brachiocephalic artery”)*
+   > “The brachiocephalic artery is located only on the right side of the body; there is no corresponding artery on the left. The brachiocephalic artery branches into the right subclavian artery and the right common carotid artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. Each common carotid artery then splits into the internal and external carotid arteries.
+   > “The common carotid artery divides into internal and external carotid arteries.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Common hepatic artery: Plain (drafted; grade 8.5; `content/FMA_14771/tier1.md`)
+
+1. The common hepatic artery brings fresh, oxygen-rich blood to the liver.
+   > “Freshly oxygenated blood is brought to the liver by the common hepatic artery, a branch of the celiac trunk from the abdominal aorta.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+2. The liver gets blood from two sources, and this artery is one of them.
+   > “The liver receives blood from two sources. Freshly oxygenated blood is brought to the liver by the common hepatic artery, a branch of the celiac trunk from the abdominal aorta.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+3. This artery also supplies parts of the stomach, small intestine and gallbladder.
+   > “An artery arising from the celiac trunk that supplies portions of the stomach, small intestines, liver and gallbladder.” ([NCIT:C32729 Common Hepatic Artery](http://purl.obolibrary.org/obo/NCIT_C32729), CC BY 4.0)
+4. The common hepatic artery branches off the celiac trunk, a major artery in the abdomen. *(defines “celiac trunk”)*
+   > “common hepatic artery: branch of the celiac trunk that forms the hepatic artery, the right gastric artery, and the cystic artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “celiac trunk: (also, celiac artery) major branch of the abdominal aorta” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Common iliac artery: Plain (drafted; grade 9; `content/FMA_14764/tier1.md`; also Right common iliac artery, Left common iliac artery)
+
+1. The common iliac arteries carry blood to the pelvis and on to the legs.
+   > “The common iliac arteries provide blood to the pelvic region and ultimately to the lower limbs.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The aorta, the body's largest artery, ends by splitting into the two common iliac arteries. *(defines “aorta”)*
+   > “The abdominal aorta terminates when it bifurcates into the two common iliac arteries at the level of the fourth lumbar vertebra.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. Each common iliac artery then splits into an internal and an external branch.
+   > “An artery arising from the bifurcation of the abdominal aorta which then bifurcates forming the internal and external iliac arteries.” ([NCIT:C32357 Common Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32357), CC BY 4.0)
+
+Dropped:
+- “The internal iliac artery supplies the pelvic organs, while the external one supplies the leg.” (checker: The quote is about the internal and external iliac arteries, which are different structures, and it never mentions the common iliac artery. It also says the external iliac artery's branches, not the artery itself, supply the lower limb.)
+
+#### Deep femoral artery: Plain (drafted; grade 8.6; `content/FMA_20741/tier1.md`; also Right deep femoral artery, Left deep femoral artery)
+
+1. Through its branches, each deep femoral artery supplies blood to the deep muscles of the thigh and parts of the skin.
+   > “lateral circumflex artery: branch of the deep femoral artery; supplies blood to the deep muscles of the thigh and the ventral and lateral regions of the integument” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Each deep femoral artery branches off the femoral artery, which runs from the groin down the leg. *(defines “femoral artery”)*
+   > “deep femoral artery: branch of the femoral artery; gives rise to the lateral circumflex arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “An artery that starts within the inguinal region and extends to the lower extremities.” ([NCIT:C12715 Femoral Artery](http://purl.obolibrary.org/obo/NCIT_C12715), CC BY 4.0)
+3. The branches of each deep femoral artery include the lateral circumflex arteries. *(defines “lateral circumflex arteries”)*
+   > “deep femoral artery: branch of the femoral artery; gives rise to the lateral circumflex arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Descending aorta: Plain (drafted; grade 8.9; `content/FMA_3784/tier1.md`)
+
+1. Through its branches, the descending aorta sends blood to the internal organs.
+   > “visceral branches: branches of the descending aorta that supply blood to the viscera” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The descending aorta is the part of the aorta, the body's largest artery, that runs down through the chest and abdomen. *(defines “aorta”)*
+   > “The aorta ascends from the left ventricle, curves posteriorly and to the left, then descends through the thorax and abdomen. This geography divides the aorta into three portions: ascending aorta, arotic arch, and descending aorta.” ([SEER Training Modules: Circulatory Pathways](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html), Free of copyright (NCI reuse policy))
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The descending aorta passes through the diaphragm, the muscle between the chest and the abdomen. *(defines “diaphragm”)*
+   > “the descending aorta continues close to the bodies of the vertebrae and passes through an opening in the diaphragm known as the aortic hiatus” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “diaphragm: skeletal muscle that separates the thoracic and abdominal cavities and is dome-shaped at rest” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. The part above the diaphragm is called the thoracic aorta, and the part below is the abdominal aorta.
+   > “Superior to the diaphragm, the aorta is called the thoracic aorta, and inferior to the diaphragm, it is called the abdominal aorta.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Dorsalis pedis artery: Plain (drafted; grade 8; `content/FMA_43915/tier1.md`; also Right dorsalis pedis artery, Left dorsalis pedis artery)
+
+1. Each dorsalis pedis artery branches many times to send blood to the top of the foot.
+   > “dorsalis pedis artery: forms from the anterior tibial artery; branches repeatedly to supply blood to the tarsal and dorsal regions of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This artery comes from the anterior tibial artery, which feeds the front of the lower leg. *(defines “anterior tibial artery”)*
+   > “dorsalis pedis artery: forms from the anterior tibial artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “An artery of the lower extremity that supplies blood to the anterior part of the leg and the foot.” ([NCIT:C12825 Anterior Tibial Artery](http://purl.obolibrary.org/obo/NCIT_C12825), CC BY 4.0)
+3. With other foot arteries, the dorsalis pedis artery forms two arches that feed the rest of the foot and the toes.
+   > “There is an anastomosis with the dorsalis pedis artery, and the medial and lateral plantar arteries form two arches called the dorsal arch (also called the arcuate arch) and the plantar arch, which provide blood to the remainder of the foot and toes.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Esophageal artery: Plain (drafted; grade 8.4; `content/FMA_4149/tier1.md`)
+
+1. An esophageal artery brings blood to the esophagus, the tube from the mouth to the stomach. *(defines “esophagus”)*
+   > “the esophageal artery provides blood to the esophagus” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “esophagus: tubular organ that connects the mouth to the stomach” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+2. There are several of these arteries, and each branches off the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “Any of several arteries that arise from the aorta and supply blood to the esophagus.” ([NCIT:C32535 Esophageal Artery](http://purl.obolibrary.org/obo/NCIT_C32535), CC BY 4.0)
+   > “The aorta is the largest artery in the body” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. They come off the thoracic aorta, the part of the aorta whose branches supply the organs of the chest. *(defines “thoracic aorta”)*
+   > “esophageal artery: branch of the thoracic aorta; supplies blood to the esophagus” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The part of the aorta that extends from the arch of the aorta to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest.” ([UBERON:0002345 descending thoracic aorta](http://purl.obolibrary.org/obo/UBERON_0002345), CC BY 3.0)
+
+#### External iliac artery: Plain (drafted; grade 8.9; `content/FMA_18805/tier1.md`; also Right external iliac artery, Left external iliac artery)
+
+1. The external iliac artery is the main source of blood for the leg.
+   > “The external iliac artery becomes the femoral artery and is the main blood supply for the leg.” ([NCIT:C32558 External Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32558), CC BY 4.0)
+2. In the lower torso, the external iliac artery branches off the common iliac artery, which supplies the pelvis and leg. *(defines “common iliac artery”)*
+   > “An artery arising from the bifurcation of the common iliac artery in the lower torso.” ([NCIT:C32558 External Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32558), CC BY 4.0)
+   > “The common iliac arteries provide blood to the pelvic region and ultimately to the lower limbs.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. After crossing the body wall, the external iliac artery is renamed the femoral artery.
+   > “The external iliac artery exits the body cavity and enters the femoral region of the lower leg (). As it passes through the body wall, it is renamed the femoral artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. Arteries can change names at landmarks like this, just as a street changes names at a crossing.
+   > “Like a street that changes name as it passes through an intersection, an artery or vein can change names as it passes an anatomical landmark.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Femoral artery: Plain (drafted; grade 8.7; `content/FMA_70248/tier1.md`; also Right femoral artery, Left femoral artery)
+
+1. The femoral artery gives off branches that bring blood to the deep muscles of the thigh.
+   > “it is renamed the femoral artery. It gives off several smaller branches as well as the lateral deep femoral artery that in turn gives rise to a lateral circumflex artery. These arteries supply blood to the deep muscles of the thigh as well as ventral and lateral regions of the integument.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The femoral artery begins where the external iliac artery, the leg's main blood supply, crosses the body wall. *(defines “external iliac artery”)*
+   > “The external iliac artery exits the body cavity and enters the femoral region of the lower leg (). As it passes through the body wall, it is renamed the femoral artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The external iliac artery becomes the femoral artery and is the main blood supply for the leg.” ([NCIT:C32558 External Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32558), CC BY 4.0)
+3. The femoral artery lies in the femoral triangle, the area where the hip meets the leg. *(defines “femoral triangle”)*
+   > “femoral triangle: region formed at the junction between the hip and the leg and includes the pectineus, femoral nerve, femoral artery, femoral vein, and deep inguinal lymph nodes” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. Behind the knee, the femoral artery takes a new name: the popliteal artery.
+   > “As the femoral artery passes posterior to the knee near the popliteal fossa, it is called the popliteal artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Hepatic artery: Plain (drafted; grade 9.7; `content/FMA_14769/tier1.md`; also Right hepatic artery, Left hepatic artery)
+
+1. Each hepatic artery brings oxygen-rich blood from the heart to the liver.
+   > “the hepatic artery delivers oxygenated blood from the heart to the liver.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+2. The liver's other blood supply is the hepatic portal vein, which carries nutrient-rich blood. *(defines “hepatic portal vein”)*
+   > “the liver receives its blood supply from two different sources: from normal systemic circulation via the hepatic artery and from the hepatic portal vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “hepatic portal vein: vein that supplies deoxygenated nutrient-rich blood to the liver” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The left and right hepatic arteries branch off the hepatic artery proper, which supplies the liver. *(defines “hepatic artery proper”)*
+   > “continues distally as the proper hepatic artery, whose branches give rise to the cystic artery, and the left and right hepatic arteries.” ([NCIT:C32729 Common Hepatic Artery](http://purl.obolibrary.org/obo/NCIT_C32729), CC BY 4.0)
+   > “hepatic artery proper: branch of the common hepatic artery; supplies systemic blood to the liver” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. Hepatic arteries enter the liver at the porta hepatis, the “gate to the liver.” *(defines “porta hepatis”)*
+   > “The porta hepatis (“gate to the liver”) is where the hepatic artery and hepatic portal vein enter the liver.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+
+#### Hepatic artery proper: Plain (drafted; grade 9.9; `content/FMA_14772/tier1.md`)
+
+1. The hepatic artery proper supplies the liver with systemic blood, oxygen-rich blood sent out from the heart. *(defines “systemic blood”)*
+   > “hepatic artery proper: branch of the common hepatic artery; supplies systemic blood to the liver” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “Systemic circulation carries oxygenated blood from the left ventricle, through the arteries, to the capillaries in the tissues of the body.” ([SEER Training Modules: Circulatory Pathways](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html), Free of copyright (NCI reuse policy))
+2. This artery branches off the common hepatic artery, which also feeds parts of the stomach. *(defines “common hepatic artery”)*
+   > “hepatic artery proper: branch of the common hepatic artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “An artery arising from the celiac trunk that supplies portions of the stomach, small intestines, liver and gallbladder.” ([NCIT:C32729 Common Hepatic Artery](http://purl.obolibrary.org/obo/NCIT_C32729), CC BY 4.0)
+3. The hepatic artery proper then gives rise to the left hepatic artery, which is part of the liver's left lobe. *(defines “left hepatic artery”)*
+   > “It branches off to form the right gastric artery and the gastroduodenal artery and continues distally as the proper hepatic artery, whose branches give rise to the cystic artery, and the left and right hepatic arteries.” ([NCIT:C32729 Common Hepatic Artery](http://purl.obolibrary.org/obo/NCIT_C32729), CC BY 4.0)
+   > “A hepatic artery that is part of a left lobe of liver.” ([UBERON:0015481 left hepatic artery](http://purl.obolibrary.org/obo/UBERON_0015481), CC BY 3.0)
+4. The hepatic artery proper also gives rise to the right hepatic artery, which is part of the right lobe. *(defines “right hepatic artery”)*
+   > “It branches off to form the right gastric artery and the gastroduodenal artery and continues distally as the proper hepatic artery, whose branches give rise to the cystic artery, and the left and right hepatic arteries.” ([NCIT:C32729 Common Hepatic Artery](http://purl.obolibrary.org/obo/NCIT_C32729), CC BY 4.0)
+   > “A hepatic artery that is part of a right lobe of liver.” ([UBERON:0015482 right hepatic artery](http://purl.obolibrary.org/obo/UBERON_0015482), CC BY 3.0)
+
+#### Inferior mesenteric artery: Plain (drafted; grade 9.5; `content/FMA_14750/tier1.md`)
+
+1. The inferior mesenteric artery brings blood to the last part of the large intestine, including the rectum.
+   > “The inferior mesenteric artery supplies blood to the distal segment of the large intestine, including the rectum.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. In the abdomen, this artery branches off the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “inferior mesenteric artery: branch of the abdominal aorta; supplies blood to the distal segment of the large intestine and rectum” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. This branch starts about 5 cm above where the aorta splits into the left and right common iliac arteries. *(defines “common iliac arteries”)*
+   > “The inferior mesenteric artery supplies blood to the distal segment of the large intestine, including the rectum. It arises approximately 5 cm superior to the common iliac arteries.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The aorta divides at approximately the level of vertebra L4 into a left and a right common iliac artery” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Inferior phrenic artery: Plain (drafted; grade 9.4; `content/FMA_14734/tier1.md`; also Right inferior phrenic artery, Left inferior phrenic artery)
+
+1. Each inferior phrenic artery brings blood to the underside of the diaphragm, the dome-shaped breathing muscle. *(defines “diaphragm”)*
+   > “Each inferior phrenic artery is a counterpart of a superior phrenic artery and supplies blood to the inferior surface of the diaphragm.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “the diaphragm, a dome-shaped respiratory muscle” ([SEER Training Modules: Anatomical Terminology](https://training.seer.cancer.gov/anatomy/body/terminology.html), Free of copyright (NCI reuse policy))
+2. These arteries come as a pair from the aorta, the body's largest artery. *(defines “aorta”)*
+   > “In addition to these single branches, the abdominal aorta gives rise to several significant paired arteries along the way. These include the inferior phrenic arteries, the adrenal arteries, the renal arteries, the gonadal arteries, and the lumbar arteries.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. Each one has a counterpart, a superior phrenic artery, which feeds the top of the diaphragm instead. *(defines “superior phrenic artery”)*
+   > “Each inferior phrenic artery is a counterpart of a superior phrenic artery and supplies blood to the inferior surface of the diaphragm.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “superior phrenic artery: branch of the thoracic aorta; supplies blood to the superior surface of the diaphragm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Internal carotid artery: Plain (drafted; grade 9.1; `content/FMA_3947/tier1.md`; also Right internal carotid artery, Left internal carotid artery)
+
+1. Each internal carotid artery carries oxygen-rich blood to the brain and eyes.
+   > “A terminal branch of the left or right common carotid artery which supplies oxygenated blood to the brain and eyes” ([UBERON:0001532 internal carotid artery](http://purl.obolibrary.org/obo/UBERON_0001532), CC BY 3.0)
+2. This artery branches off a common carotid artery, which supplies the head and neck. *(defines “common carotid artery”)*
+   > “internal carotid artery: branch from the common carotid artery that enters the cranium and supplies blood to the brain” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “common carotid artery: blood vessel that branches off the aorta (or the brachiocephalic artery on the right) and supplies blood to the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+3. The internal carotid artery reaches the brain through the carotid canal, a zig-zag tunnel through the base of the skull. *(defines “carotid canal”)*
+   > “carotid canal: zig-zag tunnel providing passage through the base of the skull for the internal carotid artery to the brain” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The artery's branches then help form the circle of Willis, which keeps the brain's blood supply steady. *(defines “circle of Willis”)*
+   > “circle of Willis: (also, arterial circle) anastomosis located at the base of the brain that ensures continual blood supply; formed from branches of the internal carotid and vertebral arteries; supplies blood to the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Internal iliac artery: Plain (drafted; grade 9; `content/FMA_18808/tier1.md`; also Right internal iliac artery, Left internal iliac artery)
+
+1. Each internal iliac artery brings blood to the pelvis and the inner thigh.
+   > “A short thick blood vessel arising from the bifurcation of the common iliac artery with numerous branches that supply the organs, walls and viscera of the pelvis as well as the inner thigh.” ([NCIT:C32845 Internal Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32845), CC BY 4.0)
+2. Branches of this artery reach the bladder, the pelvic walls and the external genitals.
+   > “Each internal iliac artery sends branches to the urinary bladder, the walls of the pelvis, the external genitalia, and the medial portion of the femoral region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. In females, this artery also supplies the uterus and vagina.
+   > “Each internal iliac artery sends branches to the urinary bladder, the walls of the pelvis, the external genitalia, and the medial portion of the femoral region. In females, they also provide blood to the uterus and vagina.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. Each internal iliac artery is a short, thick branch of a common iliac artery, which feeds the pelvis and legs. *(defines “common iliac artery”)*
+   > “A short thick blood vessel arising from the bifurcation of the common iliac artery” ([NCIT:C32845 Internal Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32845), CC BY 4.0)
+   > “The common iliac arteries provide blood to the pelvic region and ultimately to the lower limbs.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Internal thoracic artery: Plain (drafted; grade 8.7; `content/FMA_3960/tier1.md`; also Right internal thoracic artery, Left internal thoracic artery)
+
+1. Each internal thoracic artery supplies blood to the front of the chest wall and the breast.
+   > “The blood vessel that supplies the breast and the anterior chest wall with arterial blood.” ([NCIT:C52941 Internal Mammary Artery](http://purl.obolibrary.org/obo/NCIT_C52941), CC BY 4.0)
+2. This artery also feeds the thymus, a gland whose hormones help the immune system develop. *(defines “thymus”)*
+   > “The internal thoracic artery, or mammary artery, supplies blood to the thymus, the pericardium of the heart, and the anterior chest wall.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “thymus: gland located behind the sternum that produces thymosin hormones that contribute to the development of the immune system” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+3. The pericardium, the sac that encloses the heart, also gets blood from this artery. *(defines “pericardium”)*
+   > “internal thoracic artery: (also, mammary artery) arises from the subclavian artery; supplies blood to the thymus, pericardium of the heart, and the anterior chest wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “pericardium: sac that encloses the heart” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. Each internal thoracic artery branches off a subclavian artery, which feeds the arm and shoulder. *(defines “subclavian artery”)*
+   > “subclavian artery: right subclavian arises from the brachiocephalic artery, whereas the left subclavian artery arises from the aortic arch; gives rise to the internal thoracic, vertebral, and thyrocervical arteries; supplies blood to the arms, chest, shoulders, back, and central nervous system” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Lateral plantar artery: Plain (drafted; grade 7.5; `content/FMA_43926/tier1.md`; also Right lateral plantar artery, Left lateral plantar artery)
+
+1. Each lateral plantar artery supplies blood to the outer part of the sole of the foot.
+   > “lateral plantar artery: arises from the bifurcation of the posterior tibial arteries; supplies blood to the lateral plantar surfaces of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This artery also helps form an arch of vessels that feeds the toes and the rest of the foot.
+   > “There is an anastomosis with the dorsalis pedis artery, and the medial and lateral plantar arteries form two arches called the dorsal arch (also called the arcuate arch) and the plantar arch, which provide blood to the remainder of the foot and toes.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. This artery branches from the posterior tibial artery, which feeds the back of the lower leg. *(defines “posterior tibial artery”)*
+   > “lateral plantar artery: arises from the bifurcation of the posterior tibial arteries; supplies blood to the lateral plantar surfaces of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The posterior tibial artery provides blood to the muscles and integument on the posterior surface of the tibial region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Left gastric artery: Plain (drafted; grade 8.5; `content/FMA_14768/tier1.md`)
+
+1. The left gastric artery supplies blood to the stomach.
+   > “left gastric artery: branch of the celiac trunk; supplies blood to the stomach” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This artery also feeds the esophagus, the tube that connects the mouth to the stomach. *(defines “esophagus”)*
+   > “A single celiac trunk (artery) emerges and divides into the left gastric artery to supply blood to the stomach and esophagus” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “esophagus: tubular organ that connects the mouth to the stomach” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+3. The left gastric artery branches off the celiac artery, a major artery of the abdomen. *(defines “celiac artery”)*
+   > “An artery that arises from the celiac artery and supplies the stomach.” ([UBERON:0001192 left gastric artery](http://purl.obolibrary.org/obo/UBERON_0001192), CC BY 3.0)
+   > “A major abdominal artery that arises from the abdominal aorta below the diaphragm.” ([NCIT:C52846 Celiac Artery](http://purl.obolibrary.org/obo/NCIT_C52846), CC BY 4.0)
+
+#### Medial plantar artery: Plain (drafted; grade 7.6; `content/FMA_43925/tier1.md`; also Right medial plantar artery, Left medial plantar artery)
+
+1. Each medial plantar artery brings blood to the muscles in the sole of the foot.
+   > “One of the terminal branches of the posterior tibial artery that runs along the inside of the foot to supply the muscles of the sole.” ([NCIT:C52968 Medial Plantar Artery](http://purl.obolibrary.org/obo/NCIT_C52968), CC BY 4.0)
+2. This artery runs along the inner side of the foot.
+   > “One of the terminal branches of the posterior tibial artery that runs along the inside of the foot to supply the muscles of the sole.” ([NCIT:C52968 Medial Plantar Artery](http://purl.obolibrary.org/obo/NCIT_C52968), CC BY 4.0)
+3. The medial plantar artery forms where the posterior tibial artery, which supplies the lower leg and foot, splits in two. *(defines “posterior tibial artery”)*
+   > “medial plantar artery: arises from the bifurcation of the posterior tibial arteries; supplies blood to the medial plantar surfaces of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “A terminal branch of the popliteal artery that runs along the tibia from the lower portion of the popliteus muscle to the lower ankle with numerous branches supplying the lower leg and foot.” ([NCIT:C12826 Posterior Tibial Artery](http://purl.obolibrary.org/obo/NCIT_C12826), CC BY 4.0)
+
+#### Middle cerebral artery: Plain (drafted; grade 9.3; `content/FMA_50079/tier1.md`; also Right middle cerebral artery)
+
+1. Each middle cerebral artery brings blood to the temporal and parietal lobes of the brain.
+   > “middle cerebral artery: another branch of the internal carotid artery; supplies blood to the temporal and parietal lobes of the cerebrum” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The temporal lobe processes hearing and also has a role in speech, memory and emotion. *(defines “temporal lobe”)*
+   > “temporal lobe: part of the cerebral cortex that processes auditory input; parts of the temporal lobe are involved in speech, memory, and emotion processing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The parietal lobe helps process touch and the sense of the body's position in space. *(defines “parietal lobe”)*
+   > “parietal lobe: part of the cerebral cortex involved in processing touch and the sense of the body in space” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. The middle cerebral artery branches off the internal carotid artery, which supplies blood to the brain. *(defines “internal carotid artery”)*
+   > “middle cerebral artery: another branch of the internal carotid artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “internal carotid artery: branch from the common carotid artery that enters the cranium and supplies blood to the brain” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Ophthalmic artery: Plain (drafted; grade 7.5; `content/FMA_49868/tier1.md`; also Right ophthalmic artery, Left ophthalmic artery)
+
+1. Each ophthalmic artery brings blood to the eye.
+   > “ophthalmic artery: branch of the internal carotid artery; supplies blood to the eyes” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This artery branches off the internal carotid artery, which supplies blood to the brain. *(defines “internal carotid artery”)*
+   > “ophthalmic artery: branch of the internal carotid artery; supplies blood to the eyes” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “internal carotid artery: branch from the common carotid artery that enters the cranium and supplies blood to the brain” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+3. The ophthalmic artery divides into two groups of branches.
+   > “An artery arising from the internal carotid artery that branches into two groups of vessels; the orbital group that supplies the orbit and surrounding parts and the ocular group that supplies the globe and muscles of the eye.” ([NCIT:C33216 Ophthalmic Artery](http://purl.obolibrary.org/obo/NCIT_C33216), CC BY 4.0)
+4. One group feeds the eyeball and the eye muscles, and the other feeds the orbit, the eye's bony socket. *(defines “orbit”)*
+   > “An artery arising from the internal carotid artery that branches into two groups of vessels; the orbital group that supplies the orbit and surrounding parts and the ocular group that supplies the globe and muscles of the eye.” ([NCIT:C33216 Ophthalmic Artery](http://purl.obolibrary.org/obo/NCIT_C33216), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Plantar arch: Plain (drafted; grade 7; `content/FMA_43942/tier1.md`; also Right plantar arch, Left plantar arch)
+
+1. The plantar arch is an arch of arteries that brings blood to the toes and the rest of the foot.
+   > “the medial and lateral plantar arteries form two arches called the dorsal arch (also called the arcuate arch) and the plantar arch, which provide blood to the remainder of the foot and toes” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. An artery is a blood vessel that carries blood away from the heart. *(defines “artery”)*
+   > “artery: blood vessel that conducts blood away from the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The plantar arch forms where the plantar arteries join the dorsalis pedis artery, an artery of the foot. *(defines “dorsalis pedis artery”)*
+   > “plantar arch: formed from the anastomosis of the dorsalis pedis artery and medial and plantar arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “An artery of the dorsal surface of the foot” ([NCIT:C32478 Dorsalis Pedis Artery](http://purl.obolibrary.org/obo/NCIT_C32478), CC BY 4.0)
+4. A place where blood vessels join like this is called an anastomosis. *(defines “anastomosis”)*
+   > “plantar arch: formed from the anastomosis of the dorsalis pedis artery and medial and plantar arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “anastomosis: (plural = anastomoses) area where vessels unite to allow blood to circulate even if there may be partial blockage in another branch” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Popliteal artery: Plain (drafted; grade 9.3; `content/FMA_77155/tier1.md`; also Right popliteal artery, Left popliteal artery)
+
+1. The popliteal artery carries blood from the femoral artery down behind the knee.
+   > “A continuation of the femoral artery that descends behind the knee joint before branching into the anterior and posterior tibial arteries.” ([NCIT:C33337 Popliteal Artery](http://purl.obolibrary.org/obo/NCIT_C33337), CC BY 4.0)
+2. An artery is a blood vessel that carries blood away from the heart. *(defines “artery”)*
+   > “artery: blood vessel that conducts blood away from the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The popliteal artery runs through the popliteal fossa, a diamond-shaped space at the back of the knee. *(defines “popliteal fossa”)*
+   > “The continuation of the femoral artery coursing through the popliteal fossa; it divides into the anterior and posterior tibial arteries.” ([UBERON:0002250 popliteal artery](http://purl.obolibrary.org/obo/UBERON_0002250), CC BY 3.0)
+   > “popliteal fossa: diamond-shaped space at the back of the knee” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. Then the popliteal artery splits into the anterior and posterior tibial arteries.
+   > “A continuation of the femoral artery that descends behind the knee joint before branching into the anterior and posterior tibial arteries.” ([NCIT:C33337 Popliteal Artery](http://purl.obolibrary.org/obo/NCIT_C33337), CC BY 4.0)
+
+#### Posterior cerebral artery: Plain (drafted; grade 7.3; `content/FMA_50583/tier1.md`; also Right posterior cerebral artery, Left posterior cerebral artery)
+
+1. The posterior cerebral artery supplies blood to the back of the cerebrum and to the brain stem.
+   > “posterior cerebral artery: branch of the basilar artery that forms a portion of the posterior segment of the arterial circle; supplies blood to the posterior portion of the cerebrum and brain stem” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The cerebrum is the largest part of the brain. *(defines “cerebrum”)*
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. The brain stem is the part of the brain that connects with the spinal cord and controls breathing. *(defines “brain stem”)*
+   > “brainstem: portion of the brain that connects with the spinal cord; controls basic nervous system functions like breathing, heart rate, and swallowing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. The posterior cerebral artery forms part of the circle of Willis, a group of blood vessels around the base of the brain. *(defines “circle of Willis”)*
+   > “Branch of the basilar artery that forms a portion of the posterior segment of the arterial circle of Willis; supplies blood to the posterior portion of the cerebrum and brain stem” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “circle of Willis: unique anatomical arrangement of blood vessels around the base of the brain” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Posterior communicating artery: Plain (drafted; grade 7.1; `content/FMA_50084/tier1.md`; also Right posterior communicating artery, Left posterior communicating artery)
+
+1. The posterior communicating artery helps supply blood to the brain.
+   > “posterior communicating artery: branch of the posterior cerebral artery that forms part of the posterior portion of the arterial circle; supplies blood to the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. There is one on each side of the base of the brain.
+   > “An artery on the left and right side of the base of the brain that forms part of the Circle of Willis by connecting to the internal carotid artery, anterior cerebral artery, and middle cerebral artery, anteriorly and the posterior cerebral artery, posteriorly.” ([NCIT:C33357 Posterior Communicating Artery](http://purl.obolibrary.org/obo/NCIT_C33357), CC BY 4.0)
+3. Each one links the posterior cerebral artery to the internal carotid artery, a main source of blood for the brain. *(defines “internal carotid artery”)*
+   > “An artery on the left and right side of the base of the brain that forms part of the Circle of Willis by connecting to the internal carotid artery, anterior cerebral artery, and middle cerebral artery, anteriorly and the posterior cerebral artery, posteriorly.” ([NCIT:C33357 Posterior Communicating Artery](http://purl.obolibrary.org/obo/NCIT_C33357), CC BY 4.0)
+   > “The internal carotid arteries along with the vertebral arteries are the two primary suppliers of blood to the human brain.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. In this way, each one forms part of the circle of Willis, a group of blood vessels around the base of the brain. *(defines “circle of Willis”)*
+   > “An artery on the left and right side of the base of the brain that forms part of the Circle of Willis by connecting to the internal carotid artery, anterior cerebral artery, and middle cerebral artery, anteriorly and the posterior cerebral artery, posteriorly.” ([NCIT:C33357 Posterior Communicating Artery](http://purl.obolibrary.org/obo/NCIT_C33357), CC BY 4.0)
+   > “circle of Willis: unique anatomical arrangement of blood vessels around the base of the brain” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Posterior tibial artery: Plain (drafted; grade 7.4; `content/FMA_43895/tier1.md`; also Right posterior tibial artery, Left posterior tibial artery)
+
+1. Each posterior tibial artery brings blood to the muscles and skin at the back of the lower leg.
+   > “The posterior tibial artery provides blood to the muscles and integument on the posterior surface of the tibial region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This artery branches off the popliteal artery, which runs behind the knee. *(defines “popliteal artery”)*
+   > “popliteal artery: continuation of the femoral artery posterior to the knee; branches into the anterior and posterior tibial arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The posterior tibial artery runs down along the tibia, or shinbone, to the ankle. *(defines “tibia”)*
+   > “A terminal branch of the popliteal artery that runs along the tibia from the lower portion of the popliteus muscle to the lower ankle” ([NCIT:C12826 Posterior Tibial Artery](http://purl.obolibrary.org/obo/NCIT_C12826), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The artery's branches also supply the foot.
+   > “A terminal branch of the popliteal artery that runs along the tibia from the lower portion of the popliteus muscle to the lower ankle with numerous branches supplying the lower leg and foot.” ([NCIT:C12826 Posterior Tibial Artery](http://purl.obolibrary.org/obo/NCIT_C12826), CC BY 4.0)
+
+#### Pulmonary artery: Plain (drafted; grade 9.3; `content/FMA_66326/tier1.md`; also Right pulmonary artery, Left pulmonary artery)
+
+1. Each pulmonary artery carries blood that is low in oxygen from the heart to one lung.
+   > “The right ventricle pumps oxygen-depleted blood into the pulmonary trunk and right and left pulmonary arteries, which carry it to the right and left lungs for gas exchange.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The pulmonary trunk, a large vessel that leaves the heart, splits to form both pulmonary arteries. *(defines “pulmonary trunk”)*
+   > “pulmonary trunk: single large vessel exiting the right ventricle that divides to form the right and left pulmonary arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. In the lung, each artery branches many times and leads to capillaries, the smallest blood vessels. *(defines “capillaries”)*
+   > “The pulmonary arteries in turn branch many times within the lung, forming a series of smaller arteries and arterioles that eventually lead to the pulmonary capillaries.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. These capillaries wrap around alveoli, tiny air sacs where oxygen and carbon dioxide are exchanged. *(defines “alveoli”)*
+   > “The pulmonary capillaries surround lung structures known as alveoli that are the sites of oxygen and carbon dioxide exchange.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The bronchi branch into smaller and smaller passageways until they terminate in tiny air sacs called alveoli.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+
+#### Pulmonary trunk: Plain (drafted; grade 8.7; `content/FMA_8612/tier1.md`)
+
+1. The pulmonary trunk carries blood low in oxygen toward the lungs.
+   > “The right ventricle pumps deoxygenated blood into the pulmonary trunk, which leads toward the lungs and bifurcates into the left and right pulmonary arteries.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+2. The pulmonary trunk is the only vessel leaving the right ventricle, the heart's lower right pumping chamber. *(defines “right ventricle”)*
+   > “The single vessel exiting the right ventricle is the pulmonary trunk.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “the right ventricle is the major pumping chamber on the lower right side of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. A valve at the base of the pulmonary trunk keeps blood from flowing back into the right ventricle.
+   > “At the base of the pulmonary trunk is the pulmonary semilunar valve, which prevents backflow of blood into the right ventricle during ventricular diastole.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. At the top of the heart, the pulmonary trunk splits into two pulmonary arteries, one for each lung. *(defines “pulmonary arteries”)*
+   > “As the pulmonary trunk reaches the superior surface of the heart, it curves posteriorly and rapidly bifurcates (divides) into two branches, a left and a right pulmonary artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “pulmonary arteries: left and right branches of the pulmonary trunk that carry deoxygenated blood from the heart to each of the lungs” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Radial artery: Plain (drafted; grade 7.8; `content/FMA_22730/tier1.md`; also Right radial artery, Left radial artery)
+
+1. Each radial artery supplies blood to the forearm and wrist.
+   > “radial artery: formed at the bifurcation of the brachial artery; parallels the radius; gives off smaller branches until it reaches the carpal region where it fuses with the ulnar artery to form the superficial and deep palmar arches; supplies blood to the lower arm and carpal region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Below the elbow, this artery branches off the brachial artery, the artery of the upper arm. *(defines “brachial artery”)*
+   > “Branch of the brachial artery beginning below the elbow and extending down the forearm around the wrist and into the palm.” ([UBERON:0001404 radial artery](http://purl.obolibrary.org/obo/UBERON_0001404), CC BY 3.0)
+   > “the majority of the vessel continues into the upper arm, or brachium, and becomes the brachial artery” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The radial artery runs beside the radius, the forearm bone that gives this artery its name. *(defines “radius”)*
+   > “The radial artery and ulnar artery parallel their namesake bones, giving off smaller branches until they reach the wrist, or carpal region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “radius: bone located on the lateral side of the forearm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. You can feel the pulse, an artery's stretch and recoil, at the radial artery in the wrist. *(defines “pulse”)*
+   > “Pulse can be palpated manually by placing the tips of the fingers across an artery that runs close to the body surface and pressing lightly. While this procedure is normally performed using the radial artery in the wrist” ([20.2 Blood Flow, Blood Pressure, and Resistance](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance), CC BY 4.0)
+   > “pulse: alternating expansion and recoil of an artery as blood moves through the vessel; an indicator of heart rate” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Renal artery: Plain (drafted; grade 8; `content/FMA_14751/tier1.md`; also Right renal artery, Left renal artery)
+
+1. Each renal artery carries blood to a kidney, an organ that filters the blood. *(defines “kidney”)*
+   > “Renal arteries branch repeatedly to supply blood to the kidneys.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The kidneys are the organs that filter the blood, remove the wastes, and excrete the wastes in the urine.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+2. The right and left renal arteries branch off the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “Either of two arteries (right or left) that arise from the aorta to supply the kidneys.” ([NCIT:C12778 Renal Artery](http://purl.obolibrary.org/obo/NCIT_C12778), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The right renal artery is longer than the left, because the aorta lies to the left of the spine.
+   > “The right renal artery is longer than the left since the aorta lies to the left of the vertebral column and the vessel must travel a greater distance to reach its target.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. Each renal artery enters its kidney at the hilum, the curved-in part of the kidney's bean shape. *(defines “hilum”)*
+   > “The ureter and renal vein leave the kidney, and the renal artery enters the kidney at the hilum.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+   > “The hilum is the concave part of the bean-shape where blood vessels and nerves enter and exit the kidney” ([41.2 The Kidneys and Osmoregulatory Organs](https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs), CC BY 4.0)
+
+#### Right gastric artery: Plain (drafted; grade 9.4; `content/FMA_14776/tier1.md`)
+
+1. The right gastric artery supplies blood to the stomach.
+   > “right gastric artery: branch of the common hepatic artery; supplies blood to the stomach” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The right and left gastric arteries both supply the lesser curvature, the curved-in edge of the stomach. *(defines “lesser curvature”)*
+   > “Either of two arteries (left gastric and right gastric) that supply blood to the stomach and lesser curvature.” ([NCIT:C32654 Gastric Artery](http://purl.obolibrary.org/obo/NCIT_C32654), CC BY 4.0)
+   > “the concave medial border is the lesser curvature” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+3. The right gastric artery comes off the common hepatic artery, which also sends arteries to the liver and gall bladder. *(defines “common hepatic artery”)*
+   > “the common hepatic artery, which in turn gives rise to the hepatic artery proper to supply blood to the liver, the right gastric artery to supply blood to the stomach, the cystic artery to supply blood to the gall bladder” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Splenic artery: Plain (drafted; grade 8.6; `content/FMA_14773/tier1.md`)
+
+1. The splenic artery brings blood into the spleen, where the blood is filtered.
+   > “Blood enters the spleen through the splenic artery, moves through the sinuses where it is filtered, then leaves through the splenic vein.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+2. The splenic artery's four main branches supply the spleen, the stomach and the pancreas, a gland that releases digestive juices. *(defines “pancreas”)*
+   > “An artery arising from the celiac trunk with four main branches that supply the spleen, stomach and pancreas.” ([NCIT:C33597 Splenic Artery](http://purl.obolibrary.org/obo/NCIT_C33597), CC BY 4.0)
+   > “pancreas: gland that secretes digestive juices” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+3. The splenic artery branches off the celiac trunk, a major artery that supplies blood to the digestive organs. *(defines “celiac trunk”)*
+   > “splenic artery: branch of the celiac trunk; supplies blood to the spleen” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “A major abdominal artery that arises from the abdominal aorta below the diaphragm. It supplies blood to the digestive organs. It has three major branches, left gastric artery, common hepatic artery, and splenic artery.” ([NCIT:C52846 Celiac Artery](http://purl.obolibrary.org/obo/NCIT_C52846), CC BY 4.0)
+
+#### Subclavian artery: Plain (drafted; grade 9.1; `content/FMA_3951/tier1.md`; also Right subclavian artery, Left subclavian artery)
+
+1. The subclavian arteries carry blood to the arms, chest, shoulders and back, and to the brain and spinal cord, which form the central nervous system. *(defines “central nervous system”)*
+   > “Each subclavian artery supplies blood to the arms, chest, shoulders, back, and central nervous system.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “central nervous system (CNS): anatomical division of the nervous system located within the cranial and vertebral cavities, namely the brain and spinal cord” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+2. Each subclavian artery runs below the clavicle, or collarbone. *(defines “clavicle”)*
+   > “An artery located below the clavicle that supplies blood to the head and the arms.” ([NCIT:C33643 Subclavian Artery](http://purl.obolibrary.org/obo/NCIT_C33643), CC BY 4.0)
+   > “clavicle: collarbone” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The left subclavian artery branches directly off the arch of the aorta, the body's largest artery. *(defines “aorta”)*
+   > “The brachiocephalic artery branches into the right subclavian artery and the right common carotid artery. The left subclavian and left common carotid arteries arise independently from the aortic arch” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. But the right one branches off the brachiocephalic artery, the first branch of that arch. *(defines “brachiocephalic artery”)*
+   > “subclavian artery: right subclavian arises from the brachiocephalic artery, whereas the left subclavian artery arises from the aortic arch” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “brachiocephalic artery: single vessel located on the right side of the body; the first vessel branching from the aortic arch” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Superior mesenteric artery: Plain (drafted; grade 9.1; `content/FMA_14749/tier1.md`)
+
+1. The superior mesenteric artery is the main blood supply of the small intestine, where most digestion and absorption take place. *(defines “small intestine”)*
+   > “Parasympathetic nerve fibers from the vagus nerve and sympathetic nerve fibers from the thoracic splanchnic nerve provide extrinsic innervation to the small intestine. The superior mesenteric artery is its main arterial supply.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “small intestine: section of the alimentary canal where most digestion and absorption occurs” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. Branches of this artery also feed most of the large intestine, the last part of the digestive tract. *(defines “large intestine”)*
+   > “The superior mesenteric artery arises approximately 2.5 cm after the celiac trunk and branches into several major vessels that supply blood to the small intestine (duodenum, jejunum, and ileum), the pancreas, and a majority of the large intestine.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “large intestine: terminal portion of the alimentary canal” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The pancreas, an organ behind the stomach, gets blood from this artery too. *(defines “pancreas”)*
+   > “superior mesenteric artery: branch of the abdominal aorta; supplies blood to the small intestine (duodenum, jejunum, and ileum), the pancreas, and a majority of the large intestine” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+4. In the abdomen, this artery branches off the aorta, the body's largest artery. *(defines “aorta”)*
+   > “superior mesenteric artery: branch of the abdominal aorta” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Testicular artery: Plain (drafted; grade 9.5; `content/FMA_14758/tier1.md`; also Right testicular artery, Left testicular artery)
+
+1. The testicular arteries carry blood to the testes, the male reproductive organs. *(defines “testes”)*
+   > “Each gonadal artery supplies blood to the gonads, or reproductive organs, and is also described as either an ovarian artery or a testicular artery (internal spermatic), depending upon the sex of the individual.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The testes (singular = testis) are the male gonads—that is, the male reproductive organs.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. In the abdomen, each testicular artery branches off the aorta, the body's largest artery. *(defines “aorta”)*
+   > “testicular artery: branch of the abdominal aorta” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. Each testicular artery then leaves the body cavity to reach the testes.
+   > “testicular artery: branch of the abdominal aorta; will ultimately travel outside the body cavity to the testes and form one component of the spermatic cord” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. On the way, each artery forms part of the spermatic cord, a bundle of nerves and blood vessels. *(defines “spermatic cord”)*
+   > “It is considerably shorter than a testicular artery, which ultimately travels outside the body cavity to the testes, forming one component of the spermatic cord.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “spermatic cord: bundle of nerves and blood vessels that supplies the testes; contains ductus deferens” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Thyrocervical artery: Plain (drafted; grade 8.4; `content/FMA_70346/tier1.md`; also Right thyrocervical artery, Left thyrocervical artery)
+
+1. Each thyrocervical artery carries blood to the thyroid gland, an organ in the neck just below the voice box. *(defines “thyroid gland”)*
+   > “The subclavian artery also gives rise to the thyrocervical artery that provides blood to the thyroid, the cervical region of the neck, and the upper back and shoulder.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The thyroid gland is a very vascular organ that is located in the neck. It consists of two lobes, one on each side of the trachea, just below the larynx or voice box.” ([SEER Training Modules: Thyroid & Parathyroid Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/thyroid.html), Free of copyright (NCI reuse policy))
+2. This artery also feeds the neck, the upper back and the shoulder.
+   > “The subclavian artery also gives rise to the thyrocervical artery that provides blood to the thyroid, the cervical region of the neck, and the upper back and shoulder.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The artery is one of three major branches of the subclavian artery, an artery that feeds the arm and chest. *(defines “subclavian artery”)*
+   > “Each subclavian artery supplies blood to the arms, chest, shoulders, back, and central nervous system. It then gives rise to three major branches: the internal thoracic artery, the vertebral artery, and the thyrocervical artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Ulnar artery: Plain (drafted; grade 9.1; `content/FMA_22796/tier1.md`; also Right ulnar artery, Left ulnar artery)
+
+1. Each ulnar artery carries blood to the forearm, wrist and hand.
+   > “A terminal branch of the brachial artery arising just below the elbow that runs along the ulna into the wrist with numerous branches supplying the forearm, wrist and hand.” ([NCIT:C12839 Ulnar Artery](http://purl.obolibrary.org/obo/NCIT_C12839), CC BY 4.0)
+2. This artery begins where the brachial artery, the artery of the upper arm, splits into the radial and ulnar arteries. *(defines “brachial artery”)*
+   > “As the brachial artery approaches the coronoid fossa, it bifurcates into the radial and ulnar arteries, which continue into the forearm, or antebrachium.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “then becomes the brachial artery as it flows from the axillary region into the upper arm (or brachium)” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The ulnar artery runs along the ulna, the forearm bone on the pinky-finger side. *(defines “ulna”)*
+   > “ulnar artery: formed at the bifurcation of the brachial artery; parallels the ulna” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “ulna: bone located on the medial aspect (pinky-finger side) of the forearm” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. At the wrist, the ulnar artery joins the radial artery to form the palmar arches, which supply blood to the hand. *(defines “palmar arches”)*
+   > “The radial artery and ulnar artery parallel their namesake bones, giving off smaller branches until they reach the wrist, or carpal region. At this level, they fuse to form the superficial and deep palmar arches that supply blood to the hand” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “palmar arches: superficial and deep arches formed from anastomoses of the radial and ulnar arteries; supply blood to the hand and digital arteries” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Vertebral artery: Plain (drafted; grade 9; `content/FMA_3956/tier1.md`; also Right vertebral artery, Left vertebral artery)
+
+1. Each vertebral artery carries blood to the brain and spinal cord.
+   > “The vertebral artery passes through the vertebral foramen in the cervical vertebrae and then through the foramen magnum into the cranial cavity to supply blood to the brain and spinal cord.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This artery runs up through openings in the cervical vertebrae, the bones of the spine in the neck. *(defines “cervical vertebrae”)*
+   > “vertebral arteries: arteries that ascend along either side of the vertebral column through the transverse foramina of the cervical vertebrae and enter the cranium through the foramen magnum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The vertebral artery enters the skull through the foramen magnum, a large opening that the spinal cord passes through. *(defines “foramen magnum”)*
+   > “foramen magnum: large opening in the occipital bone of the skull through which the spinal cord emerges and the vertebral arteries enter the cranium” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. Both vertebral arteries then merge into the basilar artery, which feeds the brain stem, the part of the brain joined to the spinal cord. *(defines “brain stem”)*
+   > “The two vertebral arteries then merge into the basilar artery, which gives rise to branches to the brain stem and cerebellum.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “brainstem: portion of the brain that connects with the spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
 
 ### Cardiac
 
@@ -3349,6 +3944,34 @@ Dropped:
 
 ### Venous
 
+#### Anterior cardiac vein: Plain (drafted; grade 7.4; `content/FMA_76767/tier1.md`)
+
+1. The anterior cardiac veins drain blood from the front of the right ventricle, the heart's lower right pumping chamber. *(defines “right ventricle”)*
+   > “The anterior cardiac veins parallel the small cardiac arteries and drain the anterior surface of the right ventricle.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+   > “the right ventricle is the major pumping chamber on the lower right side of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. Most heart veins drain into the coronary sinus, a large vein on the back of the heart. *(defines “coronary sinus”)*
+   > “Most of the cardiac veins drain into the coronary sinus, which opens into the right atrium.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+   > “coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. But the anterior cardiac veins bypass the coronary sinus and drain straight into the right atrium.
+   > “anterior cardiac veins: vessels that parallel the small cardiac arteries and drain the anterior surface of the right ventricle; bypass the coronary sinus and drain directly into the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. The right atrium is an upper chamber of the heart that receives blood. *(defines “right atrium”)*
+   > “atrium: (plural = atria) upper or receiving chamber of the heart that pumps blood into the lower chambers just prior to their contraction; the right atrium receives blood from the systemic circuit that flows into the right ventricle” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Anterior tibial vein: Plain (drafted; grade 8.1; `content/FMA_44331/tier1.md`; also Right anterior tibial vein, Left anterior tibial vein)
+
+1. Each anterior tibial vein collects blood from around the tibialis anterior, a muscle at the front of the lower leg. *(defines “tibialis anterior”)*
+   > “anterior tibial vein: forms from the dorsal venous arch; drains the area near the tibialis anterior muscle and leads to the popliteal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The muscles in the anterior compartment of the leg: the tibialis anterior, a long and thick muscle on the lateral surface of the tibia” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+2. This vein starts at the dorsal venous arch, which drains blood from the top of the foot. *(defines “dorsal venous arch”)*
+   > “anterior tibial vein: forms from the dorsal venous arch; drains the area near the tibialis anterior muscle and leads to the popliteal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “dorsal venous arch: drains blood from digital veins and vessels on the superior surface of the foot” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The anterior tibial vein runs alongside the anterior tibial artery, which feeds the front of the lower leg and the foot. *(defines “anterior tibial artery”)*
+   > “The vein that runs parallel to the anterior tibial artery and empties into the popliteal vein.” ([NCIT:C32115 Anterior Tibial Vein](http://purl.obolibrary.org/obo/NCIT_C32115), CC BY 4.0)
+   > “An artery of the lower extremity that supplies blood to the anterior part of the leg and the foot.” ([NCIT:C12825 Anterior Tibial Artery](http://purl.obolibrary.org/obo/NCIT_C12825), CC BY 4.0)
+4. This vein empties into the popliteal vein, which drains the area behind the knee. *(defines “popliteal vein”)*
+   > “The vein that runs parallel to the anterior tibial artery and empties into the popliteal vein.” ([NCIT:C32115 Anterior Tibial Vein](http://purl.obolibrary.org/obo/NCIT_C32115), CC BY 4.0)
+   > “popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee and forms from the fusion of the fibular and anterior and posterior tibial veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
 #### Axillary vein: Plain (drafted; grade 5.4; `content/FMA_13329/tier1.md`; also Right axillary vein, Left axillary vein)
 
 1. Each axillary vein carries blood from the arm back toward the heart.
@@ -3374,6 +3997,432 @@ Dropped:
 4. It empties into the superior vena cava, a large vein that returns blood to the heart from the upper body. *(defines “superior vena cava”)*
    > “It flows into the superior vena cava at approximately the level of T2, making a significant contribution to the flow of blood.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
    > “superior vena cava: large systemic vein that returns blood to the heart from the superior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Basilic vein: Plain (drafted; grade 7.4; `content/FMA_22908/tier1.md`; also Right basilic vein, Left basilic vein)
+
+1. Each basilic vein carries blood from the hand and the medial forearm, the side toward the body's middle. *(defines “medial”)*
+   > “One of the moderately large superficial veins of the forearm that transports blood from the hand and the medial aspect of the forearm to the axillary vein.” ([NCIT:C32197 Basilic Vein](http://purl.obolibrary.org/obo/NCIT_C32197), CC BY 4.0)
+   > “medial: describes the middle or direction toward the middle of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+2. This vein then runs up the arm to the axillary vein, a major vein in the armpit. *(defines “axillary vein”)*
+   > “The basilic vein continues through the arm medially and superficially to the axillary vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “axillary vein: major vein in the axillary region; drains the upper limb and becomes the subclavian vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The basilic vein is a superficial vein, which means it lies near the body's surface. *(defines “superficial”)*
+   > “basilic vein: superficial vein of the arm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “superficial: describes a position nearer to the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+
+Dropped:
+- “Like other superficial veins, the basilic vein also helps maintain body temperature.” (checker: The quote, in its paragraph, is about the superficial veins of the neck and limbs as a group. It never names the basilic vein, which is neither this subject nor its exact class. The sentence applies a group statement to this vein and assumes it is superficial, which this quote does not say.)
+
+#### Brachial vein: Plain (drafted; grade 7.6; `content/FMA_22934/tier1.md`)
+
+1. The brachial vein carries blood into the axillary vein, which returns blood from the arm to the heart. *(defines “axillary vein”)*
+   > “the brachial vein, a deep vein that flows into the axillary vein in the brachium” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “A large blood vessel which returns blood to the heart from the lateral thorax, axilla, and upper limb.” ([NCIT:C32171 Axillary Vein](http://purl.obolibrary.org/obo/NCIT_C32171), CC BY 4.0)
+2. The brachial vein is a deep vein of the upper arm, lying farther from the body's surface. *(defines “deep”)*
+   > “Deep vein of the upper arm that forms at the junction of the radial and ulnar veins and ends at the inferior border of the teres major.” ([NCIT:C12883 Brachial Vein](http://purl.obolibrary.org/obo/NCIT_C12883), CC BY 4.0)
+   > “deep: describes a position farther from the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+3. This vein forms where the radial and ulnar veins, which run along the forearm bones, join together. *(defines “radial and ulnar veins”)*
+   > “Deep vein of the upper arm that forms at the junction of the radial and ulnar veins and ends at the inferior border of the teres major.” ([NCIT:C12883 Brachial Vein](http://purl.obolibrary.org/obo/NCIT_C12883), CC BY 4.0)
+   > “The radial vein and the ulnar vein parallel the bones of the forearm” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. Between the shoulder and elbow, it runs beside the brachial artery, which supplies much of the upper arm. *(defines “brachial artery”)*
+   > “A vein that accompanies the brachial artery between the shoulder and the elbow.” ([UBERON:0001413 brachial vein](http://purl.obolibrary.org/obo/UBERON_0001413), CC BY 3.0)
+   > “brachial artery: continuation of the axillary artery in the brachium; supplies blood to much of the brachial region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Brachiocephalic vein: Plain (drafted; grade 7.4; `content/FMA_4723/tier1.md`; also Right brachiocephalic vein, Left brachiocephalic vein)
+
+1. Each brachiocephalic vein drains blood from the upper chest.
+   > “Brachiocephalic veins | Pair of veins that form from a fusion of the external and internal jugular veins and the subclavian vein; subclavian, external and internal jugulars, vertebral, and internal thoracic veins flow into it; drain the upper thoracic region and lead to the superior vena cava” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This vein begins where the subclavian vein from the armpit meets the jugular veins from the head and neck.
+   > “On both the left and right sides, the subclavian vein forms when the axillary vein passes through the body wall from the axillary region. It fuses with the external and internal jugular veins from the head and neck to form the brachiocephalic vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. Veins draining the front of the chest wall also flow into each brachiocephalic vein.
+   > “Each internal thoracic vein, also known as an internal mammary vein, drains the anterior surface of the chest wall and flows into the brachiocephalic vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. The right and left brachiocephalic veins join to form the superior vena cava, which returns blood to the heart. *(defines “superior vena cava”)*
+   > “Trunk of systemic vein which is formed by the union of the right and left brachiocephalic veins and terminates in the right atrium.” ([FMA:4720 Superior vena cava](http://purl.org/sig/ont/fma/fma4720), CC BY 3.0)
+   > “superior vena cava: large systemic vein that returns blood to the heart from the superior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Cephalic vein: Plain (drafted; grade 5.9; `content/FMA_13324/tier1.md`; also Right cephalic vein, Left cephalic vein)
+
+1. Each cephalic vein drains blood from near the surface of the arm.
+   > “The cephalic vein begins in the antebrachium and drains blood from the superficial surface of the arm into the axillary vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The cephalic vein starts near the wrist and wraps around the forearm.
+   > “One of five superficial veins of the upper extremity, beginning at the radial aspect of the wrist area, wrapping around the forearm and emptying into the axillary vein.” ([NCIT:C32286 Cephalic Vein](http://purl.obolibrary.org/obo/NCIT_C32286), CC BY 4.0)
+3. The cephalic vein runs through the upper arm to the axillary vein, a major vein that drains the arm. *(defines “axillary vein”)*
+   > “cephalic vein: superficial vessel in the upper arm; leads to the axillary vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “axillary vein: major vein in the axillary region; drains the upper limb” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. In lean, toned arms, the cephalic vein is easy to see along the biceps muscle.
+   > “It is extremely superficial and easily seen along the surface of the biceps brachii muscle in individuals with good muscle tone and in those without excessive subcutaneous adipose tissue in the arms.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Common iliac vein: Plain (drafted; grade 6.7; `content/FMA_14333/tier1.md`; also Right common iliac vein, Left common iliac vein)
+
+1. Each common iliac vein carries blood into the inferior vena cava, a large vein that returns blood to the heart from the lower body. *(defines “inferior vena cava”)*
+   > “common iliac vein: one of a pair of veins that flows into the inferior vena cava at the level of L5” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. Each common iliac vein forms at the rim of the pelvis, where two veins join.
+   > “A blood vessel containing deoxygenated blood formed by the joining of the internal and external iliac veins at the pelvic brim” ([NCIT:C32359 Common Iliac Vein](http://purl.obolibrary.org/obo/NCIT_C32359), CC BY 4.0)
+3. One, the external iliac vein, brings blood from the leg. *(defines “external iliac vein”)*
+   > “it becomes the external iliac vein, a large vein that drains blood from the leg to the common iliac vein” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. The other, the internal iliac vein, brings blood from the organs of the pelvis. *(defines “internal iliac vein”)*
+   > “internal iliac vein: drains the pelvic organs and integument; formed from several smaller veins in the region; leads to the common iliac vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Coronary sinus: Plain (drafted; grade 6.3; `content/FMA_4706/tier1.md`)
+
+1. The coronary sinus carries oxygen-poor blood from the heart itself into the right atrium.
+   > “In addition, the right atrium receives blood from the coronary sinus which drains deoxygenated blood from the heart itself.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+2. The right atrium is an upper chamber of the heart that receives blood. *(defines “right atrium”)*
+   > “atrium: (plural = atria) upper or receiving chamber of the heart that pumps blood into the lower chambers just prior to their contraction; the right atrium receives blood from the systemic circuit that flows into the right ventricle” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. Most of the heart's veins drain into the coronary sinus.
+   > “Most of the cardiac veins drain into the coronary sinus, which opens into the right atrium.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+4. This large, thin-walled vein lies on the back of the heart.
+   > “coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Deep femoral vein: Plain (drafted; grade 6.8; `content/FMA_51041/tier1.md`; also Right deep femoral vein, Left deep femoral vein)
+
+1. Each deep femoral vein drains blood from the deeper parts of the thigh, those farther from the body's surface. *(defines “deep”)*
+   > “deep femoral vein: drains blood from the deeper portions of the thigh and leads to the femoral vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “deep: describes a position farther from the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+2. Each deep femoral vein empties into the femoral vein, which drains the upper leg. *(defines “femoral vein”)*
+   > “Close to the body wall, the great saphenous vein, the deep femoral vein, and the femoral circumflex vein drain into the femoral vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “femoral vein: drains the upper leg; receives blood from the great saphenous vein, the deep femoral vein, and the femoral circumflex vein; becomes the external iliac vein when it crosses the body wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. Like other veins, each deep femoral vein carries blood toward the heart. *(defines “vein”)*
+   > “vein: blood vessel that conducts blood toward the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### External iliac vein: Plain (drafted; grade 8.4; `content/FMA_18883/tier1.md`; also Right external iliac vein, Left external iliac vein)
+
+1. The external iliac vein is a large vein that carries blood away from the leg.
+   > “it becomes the external iliac vein, a large vein that drains blood from the leg to the common iliac vein” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This vein lies in the lower torso, beside the external iliac artery, the leg's main blood supply. *(defines “external iliac artery”)*
+   > “A vein in the lower torso accompanying the external iliac artery that connects the femoral vein with the common iliac vein.” ([NCIT:C32560 External Iliac Vein](http://purl.obolibrary.org/obo/NCIT_C32560), CC BY 4.0)
+   > “The external iliac artery becomes the femoral artery and is the main blood supply for the leg.” ([NCIT:C32558 External Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32558), CC BY 4.0)
+3. The external iliac vein begins where the femoral vein, which drains the upper leg, crosses the body wall. *(defines “femoral vein”)*
+   > “femoral vein: drains the upper leg; receives blood from the great saphenous vein, the deep femoral vein, and the femoral circumflex vein; becomes the external iliac vein when it crosses the body wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The external iliac vein then merges with the internal iliac vein from the pelvis, forming the common iliac vein. *(defines “internal iliac vein”)*
+   > “The external and internal iliac veins combine near the inferior portion of the sacroiliac joint to form the common iliac vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “internal iliac vein: drains the pelvic organs and integument; formed from several smaller veins in the region; leads to the common iliac vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Femoral vein: Plain (drafted; grade 7.4; `content/FMA_21185/tier1.md`; also Right femoral vein, Left femoral vein)
+
+1. The femoral vein carries blood away from the upper leg.
+   > “femoral vein: drains the upper leg; receives blood from the great saphenous vein, the deep femoral vein, and the femoral circumflex vein; becomes the external iliac vein when it crosses the body wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Behind the knee, the popliteal vein, which drains that area, becomes the femoral vein. *(defines “popliteal vein”)*
+   > “As the popliteal vein passes behind the knee in the popliteal region, it becomes the femoral vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee and forms from the fusion of the fibular and anterior and posterior tibial veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The femoral vein lies in the femoral triangle, the area where the hip meets the leg. *(defines “femoral triangle”)*
+   > “femoral triangle: region formed at the junction between the hip and the leg and includes the pectineus, femoral nerve, femoral artery, femoral vein, and deep inguinal lymph nodes” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+4. After crossing the body wall, the femoral vein becomes the external iliac vein.
+   > “femoral vein: drains the upper leg; receives blood from the great saphenous vein, the deep femoral vein, and the femoral circumflex vein; becomes the external iliac vein when it crosses the body wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Fibular vein: Plain (drafted; grade 7.3; `content/FMA_44558/tier1.md`; also Right fibular vein, Left fibular vein)
+
+1. Each fibular vein drains blood from muscles near the fibula, the thin bone on the leg's outer side. *(defines “fibula”)*
+   > “fibular vein: drains the muscles and integument near the fibula and leads to the popliteal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “fibula: thin, non-weight-bearing bone found on the lateral side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. Each fibular vein also drains blood from the integument, or skin, near the fibula. *(defines “integument”)*
+   > “fibular vein: drains the muscles and integument near the fibula and leads to the popliteal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “the integument (skin) of mammals” ([29.6 Mammals](https://openstax.org/books/biology-2e/pages/29-6-mammals), CC BY 4.0)
+3. Each fibular vein then joins the popliteal vein, which drains the region behind the knee. *(defines “popliteal vein”)*
+   > “popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee and forms from the fusion of the fibular and anterior and posterior tibial veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Great cardiac vein: Plain (drafted; grade 6.2; `content/FMA_4707/tier1.md`)
+
+1. The great cardiac vein collects blood from the front of both ventricles, the heart's lower pumping chambers. *(defines “ventricles”)*
+   > “Cardiac vein, each instance of which is a tributary of some coronary sinus situated in some anterior longitudinal sulcus that collects blood from the anterior region of some right and left ventricles.” ([FMA:4707 Great cardiac vein](http://purl.org/sig/ont/fma/fma4707), CC BY 3.0)
+   > “ventricle: one of the primary pumping chambers of the heart located in the lower portion of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. This vein runs along the front of the heart, then curves around to the back.
+   > “great cardiac vein: vessel that follows the interventricular sulcus on the anterior surface of the heart and flows along the coronary sulcus into the coronary sinus on the posterior surface” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. There, the great cardiac vein empties into the coronary sinus, a large vein that drains the heart. *(defines “coronary sinus”)*
+   > “The great cardiac vein can be seen initially on the surface of the heart following the interventricular sulcus, but it eventually flows along the coronary sulcus into the coronary sinus on the posterior surface.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+   > “coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. Many other veins flow into the great cardiac vein along its path.
+   > “A vein originating at the apex of the heart that receives numerous tributaries as it ascends before draining into the left extremity of the coronary sinus.” ([NCIT:C12879 Great Cardiac Vein](http://purl.obolibrary.org/obo/NCIT_C12879), CC BY 4.0)
+
+#### Great saphenous vein: Plain (drafted; grade 6.7; `content/FMA_21376/tier1.md`; also Right great saphenous vein, Left great saphenous vein)
+
+1. Each great saphenous vein drains blood from the superficial, or near-surface, parts of the inner leg and thigh. *(defines “superficial”)*
+   > “great saphenous vein: prominent surface vessel located on the medial surface of the leg and thigh; drains the superficial portions of these areas and leads to the femoral vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “superficial: describes a position nearer to the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+2. This long vein begins at veins on the big toe and foot, then runs up the inner leg.
+   > “A long superficial vein originating from the dorsal vein at the big toe and the dorsal venous arch of the foot and extending up the inner leg” ([NCIT:C33004 Long Saphenous Vein](http://purl.obolibrary.org/obo/NCIT_C33004), CC BY 4.0)
+3. Each great saphenous vein empties into the femoral vein, which drains the upper leg. *(defines “femoral vein”)*
+   > “femoral vein: drains the upper leg; receives blood from the great saphenous vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+Dropped:
+- “Like other superficial veins, the great saphenous vein also helps keep body temperature steady.” (checker: In context the quote is about superficial veins of the neck and limbs in general, a broader class rather than the great saphenous vein or its exact class, and the quote never names the great saphenous vein. The temperature role is not stated for this structure.)
+
+#### Hemiazygos vein: Plain (drafted; grade 8; `content/FMA_4944/tier1.md`)
+
+1. The hemiazygos vein drains blood from the chest, along the left side of the backbone.
+   > “These veins flow into the azygos vein, and with the smaller hemiazygos vein (hemi- = “half”) on the left of the vertebral column, drain blood from the thoracic region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The hemiazygos vein is a smaller partner of the azygos vein, which runs up the backbone's right side. *(defines “azygos vein”)*
+   > “hemiazygos vein: smaller vein complementary to the azygos vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “azygos vein: originates in the lumbar region and passes through the diaphragm into the thoracic cavity on the right side of the vertebral column” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The hemiazygos vein collects blood from the left intercostal veins, which drain the chest wall muscles. *(defines “intercostal veins”)*
+   > “hemiazygos vein: smaller vein complementary to the azygos vein; drains the esophageal veins from the esophagus and the left intercostal veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “intercostal vein: drains the muscles of the thoracic wall” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The hemiazygos vein also drains blood from the esophagus, the tube that connects the mouth to the stomach. *(defines “esophagus”)*
+   > “hemiazygos vein: smaller vein complementary to the azygos vein; drains the esophageal veins from the esophagus and the left intercostal veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “esophagus: tubular organ that connects the mouth to the stomach” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+
+#### Hepatic portal vein: Plain (drafted; grade 8.6; `content/FMA_50735/tier1.md`)
+
+1. The hepatic portal vein carries nutrient-rich blood from the digestive tract to the liver.
+   > “Blood that is rich in nutrients from the digestive tract is carried to the liver by the hepatic portal vein.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+2. The liver processes this blood, removing certain wastes and storing extra nutrients for later use.
+   > “The liver processes the blood from the portal system to remove certain wastes and excess nutrients, which are stored for later use.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The hepatic portal vein begins behind the pancreas, where two veins join.
+   > “Portal vein, each instance of which is the confluence of some superior mesenteric and splenic veins behind the neck of aome pancrea” ([FMA:50735 Hepatic portal vein](http://purl.org/sig/ont/fma/fma50735), CC BY 3.0)
+4. The hepatic portal vein enters the liver at the porta hepatis, the “gate to the liver.” *(defines “porta hepatis”)*
+   > “The porta hepatis (“gate to the liver”) is where the hepatic artery and hepatic portal vein enter the liver.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+
+#### Hepatic vein: Plain (drafted; grade 7; `content/FMA_14337/tier1.md`; also Right hepatic vein, Left hepatic vein)
+
+1. Blood leaves the liver through the right, left and middle hepatic veins.
+   > “This processed blood, as well as the systemic blood that came from the hepatic artery, exits the liver via the right, left, and middle hepatic veins, and flows into the inferior vena cava.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The liver has already processed the nutrients and toxins in this blood.
+   > “After processing the bloodborne nutrients and toxins, the liver releases nutrients needed by other cells back into the blood, which drains into the central vein and then through the hepatic vein to the inferior vena cava.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+3. Each hepatic vein empties into the inferior vena cava, a large vein that returns blood to the heart. *(defines “inferior vena cava”)*
+   > “hepatic vein: drains systemic blood from the liver and flows into the inferior vena cava” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Inferior vena cava: Plain (drafted; grade 8.6; `content/FMA_10951/tier1.md`)
+
+1. The inferior vena cava is a large vein that returns blood from the lower body to the heart.
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. Blood from the legs, abdomen and pelvis flows into this vein.
+   > “Beneath the diaphragm, systemic venous flow enters the inferior vena cava, that is, blood from the abdominal and pelvic regions and the lower limbs.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. In the abdomen, the inferior vena cava runs alongside the aorta, the body's largest artery. *(defines “aorta”)*
+   > “Lying just beneath the parietal peritoneum in the abdominal cavity, the inferior vena cava parallels the abdominal aorta, where it can receive blood from abdominal veins.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The inferior vena cava empties into the right atrium, an upper chamber of the heart. *(defines “right atrium”)*
+   > “inferior vena cava: large systemic vein that drains blood from areas largely inferior to the diaphragm; empties into the right atrium” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “atrium: (plural = atria) upper or receiving chamber of the heart that pumps blood into the lower chambers just prior to their contraction; the right atrium receives blood from the systemic circuit that flows into the right ventricle” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Internal iliac vein: Plain (drafted; grade 7.4; `content/FMA_18884/tier1.md`; also Right internal iliac vein, Left internal iliac vein)
+
+1. Each internal iliac vein drains blood from the pelvic organs and the inner thigh.
+   > “A blood vessel running parallel to the internal iliac artery that joins with the external iliac vein to drain blood into the common iliac vein from the pelvic organs as well as the inner thigh.” ([NCIT:C32847 Internal Iliac Vein](http://purl.obolibrary.org/obo/NCIT_C32847), CC BY 4.0)
+2. Several smaller veins in the pelvis join to form this vein.
+   > “internal iliac vein: drains the pelvic organs and integument; formed from several smaller veins in the region; leads to the common iliac vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. This vein runs beside the internal iliac artery, which supplies the organs and walls of the pelvis. *(defines “internal iliac artery”)*
+   > “A blood vessel running parallel to the internal iliac artery” ([NCIT:C32847 Internal Iliac Vein](http://purl.obolibrary.org/obo/NCIT_C32847), CC BY 4.0)
+   > “A short thick blood vessel arising from the bifurcation of the common iliac artery with numerous branches that supply the organs, walls and viscera of the pelvis as well as the inner thigh.” ([NCIT:C32845 Internal Iliac Artery](http://purl.obolibrary.org/obo/NCIT_C32845), CC BY 4.0)
+4. Each internal iliac vein then joins the external iliac vein, which drains the leg, to form the common iliac vein. *(defines “external iliac vein”)*
+   > “The external and internal iliac veins combine near the inferior portion of the sacroiliac joint to form the common iliac vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “external iliac vein: formed when the femoral vein passes into the body cavity; drains the legs and leads to the common iliac vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Internal jugular vein: Plain (drafted; grade 6.7; `content/FMA_4724/tier1.md`; also Right internal jugular vein, Left internal jugular vein)
+
+1. Each internal jugular vein is a major vein that mainly drains blood from the brain.
+   > “internal jugular vein: one of a pair of major veins located in the neck region that passes through the jugular foramen and canal, flows parallel to the common carotid artery that is more or less its counterpart; primarily drains blood from the brain” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. This vein passes through the jugular foramen, an opening in the skull's base where blood from the brain exits. *(defines “jugular foramen”)*
+   > “internal jugular vein: one of a pair of major veins located in the neck region that passes through the jugular foramen and canal” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “Immediately inferior to the internal acoustic meatus is the large, irregularly shaped jugular foramen (see a). Several cranial nerves from the brain exit the skull via this opening. It is also the exit point through the base of the skull for all the venous return blood leaving the brain.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+3. In the neck, this vein runs beside the common carotid artery, which feeds the head and neck. *(defines “common carotid artery”)*
+   > “internal jugular vein: one of a pair of major veins located in the neck region that passes through the jugular foramen and canal, flows parallel to the common carotid artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “common carotid artery: blood vessel that branches off the aorta (or the brachiocephalic artery on the right) and supplies blood to the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. Blood in this vein flows on toward the heart, to be pumped to the lungs for fresh oxygen.
+   > “The transverse sinuses connect to the sigmoid sinuses, which then connect to the jugular veins. From there, the blood continues toward the heart to be pumped to the lungs for reoxygenation.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+
+#### Internal thoracic vein: Plain (drafted; grade 8.2; `content/FMA_4729/tier1.md`; also Right internal thoracic vein)
+
+1. Each internal thoracic vein drains blood from the front of the chest wall.
+   > “Each internal thoracic vein, also known as an internal mammary vein, drains the anterior surface of the chest wall and flows into the brachiocephalic vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. This vein travels with the internal thoracic artery and also drains the breast.
+   > “Subdivision of brachiocephalic vein, each instance of which is a vena comitans of some internal thoracic artery that drains some chest all and breast.” ([FMA:4729 Internal thoracic vein](http://purl.org/sig/ont/fma/fma4729), CC BY 3.0)
+3. Each internal thoracic vein then empties into a brachiocephalic vein, which drains the upper chest. *(defines “brachiocephalic vein”)*
+   > “brachiocephalic vein: one of a pair of veins that form from a fusion of the external and internal jugular veins and the subclavian vein; subclavian, external and internal jugulars, vertebral, and internal thoracic veins lead to it; drains the upper thoracic region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Lumbar vein: Plain (drafted; grade 8.4; `content/FMA_15370/tier1.md`)
+
+1. Lumbar veins drain blood from the lumbar, or lower back, parts of the abdominal wall and spinal cord. *(defines “lumbar”)*
+   > “The lumbar portions of the abdominal wall and spinal cord are drained by a series of lumbar veins, usually four on each side.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “lumbar vertebrae: five vertebrae numbered as L1–L5 that are located in lumbar region (lower back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. There are usually four lumbar veins on each side.
+   > “The lumbar portions of the abdominal wall and spinal cord are drained by a series of lumbar veins, usually four on each side.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. Blood from the upper lumbar veins reaches the superior vena cava, which drains the upper body. *(defines “superior vena cava”)*
+   > “lumbar veins: drain the lumbar portion of the abdominal wall and spinal cord; the superior lumbar veins drain into the azygos vein on the right or the hemiazygos vein on the left; blood from these vessels is returned to the superior vena cava rather than the inferior vena cava” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “superior vena cava: large systemic vein that returns blood to the heart from the superior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. The other lumbar veins, however, empty directly into the inferior vena cava, which drains the lower body. *(defines “inferior vena cava”)*
+   > “The remaining lumbar veins drain directly into the inferior vena cava.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Median antebrachial vein: Plain (drafted; grade 8; `content/FMA_22967/tier1.md`; also Right median antebrachial vein, Left median antebrachial vein)
+
+1. Each median antebrachial vein carries blood that drains from the hand and fingers.
+   > “Palmar venous arches | Drain the hand and digits, and lead to the radial vein, ulnar veins, and the median antebrachial vein” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. The median antebrachial vein runs alongside the ulnar vein, which follows the bones of the forearm. *(defines “ulnar vein”)*
+   > “The median antebrachial vein parallels the ulnar vein, is more medial in location, and joins the basilic vein in the forearm.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “The radial vein and the ulnar vein parallel the bones of the forearm” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. In the forearm, or antebrachium, the median antebrachial vein joins the basilic vein. *(defines “antebrachium”)*
+   > “The median antebrachial vein parallels the ulnar vein, is more medial in location, and joins the basilic vein in the forearm.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “Notice that the term “brachium” or “arm” is reserved for the “upper arm” and “antebrachium” or “forearm” is used rather than “lower arm.”” ([1.6 Anatomical Terminology](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology), CC BY 4.0)
+4. The basilic vein is a surface vein that runs up into the upper arm. *(defines “basilic vein”)*
+   > “basilic vein: superficial vein of the arm that arises from the palmar venous arches, intersects with the median cubital vein, parallels the ulnar vein, and continues into the upper arm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Median cubital vein: Plain (drafted; grade 5.8; `content/FMA_22963/tier1.md`; also Right median cubital vein, Left median cubital vein)
+
+1. Each median cubital vein is a surface vein that links the cephalic vein to the basilic vein.
+   > “median cubital vein: superficial vessel located in the antecubital region that links the cephalic vein to the basilic vein in the form of a v” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The cephalic vein drains blood from the surface of the arm. *(defines “cephalic vein”)*
+   > “The cephalic vein begins in the antebrachium and drains blood from the superficial surface of the arm into the axillary vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The basilic vein is a surface vein that runs up into the upper arm. *(defines “basilic vein”)*
+   > “basilic vein: superficial vein of the arm that arises from the palmar venous arches, intersects with the median cubital vein, parallels the ulnar vein, and continues into the upper arm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The median cubital vein crosses at a slant between these two veins.
+   > “As the basilic vein reaches the antecubital region, it gives off a branch called the median cubital vein that crosses at an angle to join the cephalic vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Middle cardiac vein: Plain (drafted; grade 6.7; `content/FMA_4713/tier1.md`)
+
+1. The middle cardiac vein drains blood from parts of both ventricles, the heart's lower pumping chambers. *(defines “ventricles”)*
+   > “a tributary of some coronary sinus situated in some posterior longitudinal sulcus that collects blood from the diaphragmatic region of some right and left ventricles” ([FMA:4713 Middle cardiac vein](http://purl.org/sig/ont/fma/fma4713), CC BY 3.0)
+   > “ventricle: one of the primary pumping chambers of the heart located in the lower portion of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. This vein starts at the apex, the heart's lower tip, and runs up the back of the heart. *(defines “apex”)*
+   > “A vein originating at the apex of the heart that ascends along the posterior interventricular sulcus and drains into the coronary sinus.” ([NCIT:C12880 Middle Cardiac Vein](http://purl.obolibrary.org/obo/NCIT_C12880), CC BY 4.0)
+   > “The inferior tip of the heart, the apex, lies just to the left of the sternum” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+3. The middle cardiac vein empties into the coronary sinus, a large vein that drains the heart. *(defines “coronary sinus”)*
+   > “A vein originating at the apex of the heart that ascends along the posterior interventricular sulcus and drains into the coronary sinus.” ([NCIT:C12880 Middle Cardiac Vein](http://purl.obolibrary.org/obo/NCIT_C12880), CC BY 4.0)
+   > “coronary sinus: large, thin-walled vein on the posterior surface of the heart that lies within the atrioventricular sulcus and drains the heart myocardium directly into the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Popliteal vein: Plain (drafted; grade 6.9; `content/FMA_44327/tier1.md`; also Right popliteal vein, Left popliteal vein)
+
+1. The popliteal vein collects blood from the calf and the knee joint.
+   > “A vein originating from the anterior and posterior tibial veins that ascends the popliteal space to drain blood from the calf, knee joint, and thigh.” ([NCIT:C33339 Popliteal Vein](http://purl.obolibrary.org/obo/NCIT_C33339), CC BY 4.0)
+2. Like every vein, the popliteal vein carries blood toward the heart. *(defines “vein”)*
+   > “vein: blood vessel that conducts blood toward the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The popliteal vein forms where the anterior and posterior tibial veins and the fibular vein join.
+   > “The anterior tibial vein drains the area near the tibialis anterior muscle and combines with the posterior tibial vein and the fibular vein to form the popliteal vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+4. The popliteal vein passes behind the knee and becomes the femoral vein, which drains the upper leg. *(defines “femoral vein”)*
+   > “As the popliteal vein passes behind the knee in the popliteal region, it becomes the femoral vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “femoral vein: drains the upper leg” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Posterior tibial vein: Plain (drafted; grade 7.6; `content/FMA_44332/tier1.md`; also Right posterior tibial vein, Left posterior tibial vein)
+
+1. Each posterior tibial vein collects blood along the back of the tibia, or shinbone. *(defines “tibia”)*
+   > “The posterior tibial vein drains the posterior surface of the tibia and joins the popliteal vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The posterior tibial vein begins where two plantar veins from the underside of the foot meet. *(defines “plantar veins”)*
+   > “A vein in the foot that is formed by the union of the external and internal plantar veins and which becomes the popliteal vein.” ([NCIT:C33386 Posterior Tibial Vein](http://purl.obolibrary.org/obo/NCIT_C33386), CC BY 4.0)
+   > “The superior surface of the foot drains into the digital veins, and the inferior surface drains into the plantar veins” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The posterior tibial vein then joins two other leg veins to form the popliteal vein behind the knee. *(defines “popliteal vein”)*
+   > “popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee and forms from the fusion of the fibular and anterior and posterior tibial veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Pulmonary vein: Plain (drafted; grade 7.6; `content/FMA_66643/tier1.md`)
+
+1. The pulmonary veins carry blood rich in oxygen from the lungs to the heart.
+   > “Pulmonary veins then return freshly oxygenated blood from the lungs to the heart” ([20.1 Structure and Function of Blood Vessels](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels), CC BY 4.0)
+2. Blood from the lungs flows through vessels that join together to form the pulmonary veins.
+   > “Highly oxygenated blood returning from the pulmonary capillaries in the lungs passes through a series of vessels that join together to form the pulmonary veins” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+3. Four pulmonary veins, two on each side, empty into the left atrium, an upper chamber of the heart. *(defines “left atrium”)*
+   > “Four pulmonary veins, two on the left and two on the right, return blood to the left atrium.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “atrium: (plural = atria) upper or receiving chamber of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. After birth, the pulmonary veins are the only veins that carry blood rich in oxygen.
+   > “the pulmonary veins—the only post-natal veins in the body that carry highly oxygenated blood” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+
+#### Radial vein: Plain (drafted; grade 6.3; `content/FMA_22947/tier1.md`; also Right radial vein, Left radial vein)
+
+1. Each radial vein carries blood away from the hand and fingers.
+   > “palmar venous arches: drain the hand and digits, and feed into the radial and ulnar veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The radial vein runs along the radius, a forearm bone, beside the artery of the same name. *(defines “radius”)*
+   > “radial vein: parallels the radius and radial artery; arises from the palmar venous arches and leads to the brachial vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “radius: bone located on the lateral side of the forearm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The radial vein then joins another forearm vein to form the brachial vein, deep in the arm. *(defines “brachial vein”)*
+   > “brachial vein: deeper vein of the arm that forms from the radial and ulnar veins in the lower arm; leads to the axillary vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Renal vein: Plain (drafted; grade 8.2; `content/FMA_14334/tier1.md`; also Right renal vein, Left renal vein)
+
+1. Each renal vein carries blood away from a kidney, an organ that filters the blood and removes wastes. *(defines “kidney”)*
+   > “renal vein: largest vein entering the inferior vena cava; drains the kidneys and leads to the inferior vena cava” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The kidneys are the organs that filter the blood, remove the wastes, and excrete the wastes in the urine.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+2. Each renal vein leaves its kidney at the hilum, the curved-in part of the kidney's bean shape. *(defines “hilum”)*
+   > “The concave area of the kidney through which the renal artery enters and the renal vein and ureter exit the organ.” ([NCIT:C32740 Hilar Area of the Kidney](http://purl.obolibrary.org/obo/NCIT_C32740), CC BY 4.0)
+   > “The hilum is the concave part of the bean-shape where blood vessels and nerves enter and exit the kidney” ([41.2 The Kidneys and Osmoregulatory Organs](https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs), CC BY 4.0)
+3. The renal vein then empties the cleaned blood into the inferior vena cava, a large vein leading to the heart. *(defines “inferior vena cava”)*
+   > “The renal arteries form directly from the descending aorta, whereas the renal veins return cleansed blood directly to the inferior vena cava.” ([25.3 Gross Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. The left renal vein is longer than the right, because the inferior vena cava lies mostly to the right of the spine.
+   > “Since the inferior vena cava lies primarily to the right of the vertebral column and aorta, the left renal vein is longer, as are the left phrenic, adrenal, and gonadal veins.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Small cardiac vein: Plain (drafted; grade 7.1; `content/FMA_4714/tier1.md`)
+
+1. The small cardiac vein drains blood from the back surfaces of the heart's right side.
+   > “The small cardiac vein parallels the right coronary artery and drains the blood from the posterior surfaces of the right atrium and ventricle.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+2. This vein runs beside the right coronary artery, a vessel that supplies blood to the heart. *(defines “right coronary artery”)*
+   > “small cardiac vein: parallels the right coronary artery” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “coronary arteries: branches of the ascending aorta that supply blood to the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. The small cardiac vein lies in the coronary sulcus, a deep, fat-filled groove on the heart's surface. *(defines “coronary sulcus”)*
+   > “A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.” ([UBERON:0035374 small cardiac vein](http://purl.obolibrary.org/obo/UBERON_0035374), CC BY 3.0)
+   > “Also prominent is a series of fat-filled grooves, each of which is known as a sulcus (plural = sulci), along the superior surfaces of the heart. Major coronary blood vessels are located in these sulci. The deep coronary sulcus is located between the atria and ventricles.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+4. The small cardiac vein empties into the coronary sinus, a large vein on the back of the heart. *(defines “coronary sinus”)*
+   > “A vein running parallel to the right coronary artery in the coronary sulcus that drains into the right extremity of the coronary sinus.” ([NCIT:C12881 Small Cardiac Vein](http://purl.obolibrary.org/obo/NCIT_C12881), CC BY 4.0)
+   > “coronary sinus: large, thin-walled vein on the posterior surface of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Small saphenous vein: Plain (drafted; grade 6.5; `content/FMA_44333/tier1.md`; also Right small saphenous vein, Left small saphenous vein)
+
+1. Each small saphenous vein drains blood from the superficial, or near-surface, parts of the lower leg and foot. *(defines “superficial”)*
+   > “small saphenous vein: located on the lateral surface of the leg; drains blood from the superficial regions of the lower leg and foot, and leads to the popliteal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “superficial: describes a position nearer to the surface of the body” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+2. This vein starts on the foot and runs up the back of the leg.
+   > “A superficial vein originating from the dorsal vein at the fifth toe and the dorsal venous arch of the foot and extends up the back of the leg to empty into the popliteal vein at the knee joint.” ([NCIT:C33546 Short Saphenous Vein](http://purl.obolibrary.org/obo/NCIT_C33546), CC BY 4.0)
+3. At the knee, the small saphenous vein empties into the popliteal vein, which drains the area behind the knee. *(defines “popliteal vein”)*
+   > “A superficial vein originating from the dorsal vein at the fifth toe and the dorsal venous arch of the foot and extends up the back of the leg to empty into the popliteal vein at the knee joint.” ([NCIT:C33546 Short Saphenous Vein](http://purl.obolibrary.org/obo/NCIT_C33546), CC BY 4.0)
+   > “popliteal vein: continuation of the femoral vein behind the knee; drains the region behind the knee” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+Dropped:
+- “Like other superficial veins, the small saphenous vein also helps maintain body temperature.” (checker: The quote is a general statement about the superficial veins of the neck and limbs and never names the small saphenous vein. That group is broader than this subject's exact class, and this quote does not support the sentence's claim that this vein is one of them and shares the role.)
+
+#### Subclavian vein: Plain (drafted; grade 7.7; `content/FMA_4725/tier1.md`; also Right subclavian vein, Left subclavian vein)
+
+1. Each subclavian vein collects blood from the axillary vein, the main vein draining the arm. *(defines “axillary vein”)*
+   > “The vein that drains the axillary vein and joins the internal jugular vein to form the brachiocephalic vein.” ([NCIT:C12794 Subclavian Vein](http://purl.obolibrary.org/obo/NCIT_C12794), CC BY 4.0)
+   > “axillary vein: major vein in the axillary region; drains the upper limb and becomes the subclavian vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Each subclavian vein lies deep in the chest, starting where the axillary vein enters from the armpit.
+   > “Subclavian vein | Located deep in the thoracic cavity; formed by the axillary vein as it enters the thoracic cavity from the axillary region” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. Each subclavian vein then joins veins from the head and neck to form a brachiocephalic vein. *(defines “brachiocephalic vein”)*
+   > “On both the left and right sides, the subclavian vein forms when the axillary vein passes through the body wall from the axillary region. It fuses with the external and internal jugular veins from the head and neck to form the brachiocephalic vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “brachiocephalic vein: one of a pair of veins that form from a fusion of the external and internal jugular veins and the subclavian vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The subclavian veins are also where lymph, extra fluid drained from body tissues, flows back into the blood. *(defines “lymph”)*
+   > “The surplus fluid in the interstitial space that is not returned directly back to the capillaries is drained from tissues by the lymphatic system, and then re-enters the vascular system at the subclavian veins.” ([26.1 Body Fluids and Fluid Compartments](https://openstax.org/books/anatomy-and-physiology-2e/pages/26-1-body-fluids-and-fluid-compartments), CC BY 4.0)
+   > “Lymph is the term used to describe interstitial fluid once it has entered the lymphatic system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+
+#### Superior vena cava: Plain (drafted; grade 8.2; `content/FMA_4720/tier1.md`)
+
+1. The superior vena cava carries blood from the head, neck, arms and chest back to the heart.
+   > “The large vein that terminates in the right atrium and transports deoxygenated blood from the head, neck, arms, and chest to the heart.” ([NCIT:C12816 Superior Vena Cava](http://purl.obolibrary.org/obo/NCIT_C12816), CC BY 4.0)
+2. This blood is low in oxygen because the body's tissues have used much of the oxygen.
+   > “This blood is relatively low in oxygen and relatively high in carbon dioxide, since much of the oxygen has been extracted for use by the tissues” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. The left and right brachiocephalic veins, which drain the upper chest, join to form the superior vena cava. *(defines “brachiocephalic veins”)*
+   > “Trunk of systemic vein which is formed by the union of the right and left brachiocephalic veins and terminates in the right atrium.” ([FMA:4720 Superior vena cava](http://purl.org/sig/ont/fma/fma4720), CC BY 3.0)
+   > “brachiocephalic vein: one of a pair of veins that form from a fusion of the external and internal jugular veins and the subclavian vein; subclavian, external and internal jugulars, vertebral, and internal thoracic veins lead to it; drains the upper thoracic region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. The superior vena cava empties into the right atrium, an upper chamber of the heart that receives blood. *(defines “right atrium”)*
+   > “superior vena cava: large systemic vein; drains blood from most areas superior to the diaphragm; empties into the right atrium” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “atrium: (plural = atria) upper or receiving chamber of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Testicular vein: Plain (drafted; grade 8.4; `content/FMA_14344/tier1.md`; also Right testicular vein, Left testicular vein)
+
+1. Each testicular vein carries blood away from a testis, one of the male organs that make sperm. *(defines “testis”)*
+   > “testicular vein: drains the testes and forms part of the spermatic cord” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “The testes (singular = testis) are the male gonads—that is, the male reproductive organs. They produce both sperm and androgens” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. This vein is part of the spermatic cord, a bundle of nerves and blood vessels that supplies the testes. *(defines “spermatic cord”)*
+   > “From the male reproductive organs, each testicular vein flows from the scrotum, forming a portion of the spermatic cord.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “spermatic cord: bundle of nerves and blood vessels that supplies the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. The right testicular vein empties straight into the inferior vena cava, a large vein that returns blood to the heart. *(defines “inferior vena cava”)*
+   > “the right testicular vein empties directly into the inferior vena cava and the left testicular vein empties into the left renal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. But the left testicular vein empties into the left renal vein, a vein that carries blood out of the kidney. *(defines “renal vein”)*
+   > “the right testicular vein empties directly into the inferior vena cava and the left testicular vein empties into the left renal vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “renal vein: largest vein entering the inferior vena cava; drains the kidneys and leads to the inferior vena cava” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Ulnar vein: Plain (drafted; grade 7.4; `content/FMA_22950/tier1.md`; also Right ulnar vein, Left ulnar vein)
+
+1. Each ulnar vein is a vein, a blood vessel that carries blood toward the heart. *(defines “vein”)*
+   > “Ulnar vein | Vein that parallels the ulna and ulnar artery; arises from the palmar venous arches and leads to the brachial vein” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “vein: blood vessel that conducts blood toward the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. The ulnar vein starts at the palmar venous arches, which drain blood from the hand and fingers. *(defines “palmar venous arches”)*
+   > “ulnar vein: parallels the ulna and ulnar artery; arises from the palmar venous arches and leads to the brachial vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “palmar venous arches: drain the hand and digits, and feed into the radial and ulnar veins” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. The ulnar vein runs up the forearm along the ulna, the bone on the pinky-finger side, beside the ulnar artery. *(defines “ulna”)*
+   > “ulnar vein: parallels the ulna and ulnar artery” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “ulna: bone located on the medial aspect (pinky-finger side) of the forearm” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. The ulnar vein then joins the radial vein, another forearm vein, to form the brachial vein, a deep vein of the arm.
+   > “The radial vein and the ulnar vein parallel the bones of the forearm and join together at the antebrachium to form the brachial vein, a deep vein that flows into the axillary vein in the brachium.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
 
 ## Not published
 

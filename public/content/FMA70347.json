@@ -18,7 +18,90 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_70346/tier1.md",
+   "text": "Each thyrocervical artery carries blood to the thyroid gland, an organ in the neck just below the voice box. This artery also feeds the neck, the upper back and the shoulder. The artery is one of three major branches of the subclavian artery, an artery that feeds the arm and chest.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Thyroid & Parathyroid Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/thyroid.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Thyroid & Parathyroid Glands. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each thyrocervical artery carries blood to the thyroid gland, an organ in the neck just below the voice box.",
+     "defines": "thyroid gland",
+     "quotes": [
+      {
+       "quote": "The subclavian artery also gives rise to the thyrocervical artery that provides blood to the thyroid, the cervical region of the neck, and the upper back and shoulder.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The thyroid gland is a very vascular organ that is located in the neck. It consists of two lobes, one on each side of the trachea, just below the larynx or voice box.",
+       "section": "SEER Training Modules: Thyroid & Parathyroid Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/thyroid.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Thyroid & Parathyroid Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "This artery also feeds the neck, the upper back and the shoulder.",
+     "quotes": [
+      {
+       "quote": "The subclavian artery also gives rise to the thyrocervical artery that provides blood to the thyroid, the cervical region of the neck, and the upper back and shoulder.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The artery is one of three major branches of the subclavian artery, an artery that feeds the arm and chest.",
+     "defines": "subclavian artery",
+     "quotes": [
+      {
+       "quote": "Each subclavian artery supplies blood to the arms, chest, shoulders, back, and central nervous system. It then gives rise to three major branches: the internal thoracic artery, the vertebral artery, and the thyrocervical artery.",
+       "section": "20.5 Circulatory Pathways",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:70346",
+    "label": "Thyrocervical artery"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -28,7 +111,18 @@
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Thyroid & Parathyroid Glands",
+   "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/thyroid.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  }
+ ],
  "zoom": {
   "in": [
    "FMA:10697",

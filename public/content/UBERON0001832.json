@@ -24,30 +24,287 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_59791/tier1.auto.md",
-   "text": "A salivary gland located under the tongue in the floor of the oral cavity.",
+   "status": "drafted",
+   "file": "content/FMA_59791/tier1.md",
+   "text": "Each sublingual gland makes saliva and releases it into the mouth. The two sublingual glands are major salivary glands that lie beneath the tongue. Sublingual gland saliva is rich in mucus, a thick, slippery substance. This mucus makes food slippery for swallowing.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12234",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12234",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12234",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12234",
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12234, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each sublingual gland makes saliva and releases it into the mouth.",
+     "quotes": [
+      {
+       "quote": "The sublingual glands, which lie below the tongue, use the lesser sublingual ducts to secrete saliva into the oral cavity.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The two sublingual glands are major salivary glands that lie beneath the tongue.",
+     "quotes": [
+      {
+       "quote": "sublingual gland: one of a pair of major salivary glands located beneath the tongue",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sublingual gland saliva is rich in mucus, a thick, slippery substance.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This mucus makes food slippery for swallowing.",
+     "quotes": [
+      {
+       "quote": "sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands. The high mucus content serves to lubricate the food for swallowing.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_59791/tier2.md",
+   "text": "Each sublingual gland makes saliva and sends it into the mouth through the lesser sublingual ducts, tubes through which a gland releases its contents. Each sublingual gland lies in the floor of the mouth beneath the tongue, in front of the submandibular gland. The sublingual glands are one of the three pairs of major salivary glands; the other two are the parotid and submandibular glands. Each sublingual gland contains mostly mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist. The sublingual glands secrete the thickest saliva, with the least salivary amylase, which breaks down starch. The high mucus content of this saliva lubricates food for swallowing. Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation. The impulses that reach each sublingual gland travel through the facial nerve.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0001832 sublingual gland",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001832",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each sublingual gland makes saliva and sends it into the mouth through the lesser sublingual ducts, tubes through which a gland releases its contents.",
+     "defines": "duct",
+     "quotes": [
+      {
+       "quote": "The sublingual glands, which lie below the tongue, use the lesser sublingual ducts to secrete saliva into the oral cavity.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Other multicellular exocrine glands release their contents through a tubular duct.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each sublingual gland lies in the floor of the mouth beneath the tongue, in front of the submandibular gland.",
+     "quotes": [
+      {
+       "quote": "The small mucin-producing salivary glands in the floor of the mouth beneath the tongue, anterior to the submandibular gland.",
+       "section": "UBERON:0001832 sublingual gland",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001832",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    },
+    {
+     "text": "The sublingual glands are one of the three pairs of major salivary glands; the other two are the parotid and submandibular glands.",
+     "quotes": [
+      {
+       "quote": "Three pairs of major salivary glands (parotid, submandibular, and sublingual glands) and numerous smaller ones secrete saliva into the oral cavity",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each sublingual gland contains mostly mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The sublingual glands contain mostly mucous cells, and they secrete the thickest saliva with the least amount of salivary amylase.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The sublingual glands secrete the thickest saliva, with the least salivary amylase, which breaks down starch.",
+     "defines": "salivary amylase",
+     "quotes": [
+      {
+       "quote": "The sublingual glands contain mostly mucous cells, and they secrete the thickest saliva with the least amount of salivary amylase.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Salivary amylase breaks down starch",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The high mucus content of this saliva lubricates food for swallowing.",
+     "quotes": [
+      {
+       "quote": "sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands. The high mucus content serves to lubricate the food for swallowing.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation.",
+     "quotes": [
+      {
+       "quote": "Food contains chemicals that stimulate taste receptors on the tongue, which send impulses to the superior and inferior salivatory nuclei in the brain stem. These two nuclei then send back parasympathetic impulses through fibers in the glossopharyngeal and facial nerves, which stimulate salivation.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The impulses that reach each sublingual gland travel through the facial nerve.",
+     "quotes": [
+      {
+       "quote": "The parasympathetic fibers of the facial nerve synapse in the pterygopalatine ganglion, which projects to the submandibular gland and sublingual gland.",
+       "section": "16.3 The Cranial Nerve Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -56,8 +313,38 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12234",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12234",
+   "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0001832 sublingual gland",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0001832",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
    "license": "CC BY 4.0"
   }
  ],

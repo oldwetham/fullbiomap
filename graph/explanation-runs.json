@@ -49,6 +49,110 @@
     "Like other dendrites, an apical dendrite carries signals to the cell body, while the axon carries them away.",
     "In a bipolar nerve cell, which has just two branches, the apical dendrite lies opposite the axon."
    ]
+  },
+  "CL:0000037|2": {
+   "id": "CL:0000037",
+   "label": "Hematopoietic stem cell",
+   "tier": 2,
+   "issues": [
+    "does not read well: Sentence 3 mostly repeats sentence 0 (blood cells arise from hematopoietic stem cells). Its only new content is the definition of differentiation, which could be folded into sentence 0 or 4."
+   ],
+   "dropped": [],
+   "kept": [
+    "A hematopoietic stem cell, also called a hemocytoblast, is the cell from which all the formed elements of blood arise: the red blood cells, white blood cells and platelets.",
+    "Hematopoietic stem cells sit in the red bone marrow, the tissue inside bones where blood cells are made.",
+    "Unlike embryonic stem cells, hematopoietic stem cells remain throughout adulthood, so new blood cells can keep forming to replace those lost to age or use.",
+    "Blood cells arise from hematopoietic stem cells along various paths of differentiation, the process by which cells become specialized in structure and function.",
+    "Hemopoiesis, the production of the formed elements, starts when chemical signals called hemopoietic growth factors prompt a hematopoietic stem cell to divide and differentiate.",
+    "The division yields two daughter cells: one stays a hematopoietic stem cell so hemopoiesis can continue, while the other becomes one of two more specialized kinds of stem cell.",
+    "These two kinds are myeloid stem cells, which produce most formed elements, and lymphoid stem cells, which produce only lymphocytes, a group of white blood cells many of which work in immunity."
+   ]
+  },
+  "CL:0000136|2": {
+   "id": "CL:0000136",
+   "label": "Adipocyte",
+   "tier": 2,
+   "issues": [
+    "terms left undefined: glycerol"
+   ],
+   "dropped": [],
+   "kept": [
+    "An adipocyte, or fat cell, is a cell whose main job is to store fat for later use.",
+    "This stored fat holds surplus energy, and adipocytes also help insulate the body.",
+    "About half of the body's excess fat is stored in adipocytes in the tissue under the skin, and the rest is stored in adipocytes in other tissues and organs.",
+    "Adipocytes make up adipose tissue and store fat as triglycerides, which are lipids, or fats, made of three fatty acid chains attached to glycerol.",
+    "Inside an adipocyte, these lipids fill most of the cytoplasm, the material between the cell membrane and the nucleus.",
+    "The two basic types of adipocytes hold these lipids differently: white adipocytes store lipids as a single large drop, while brown adipocytes store lipids as many droplets.",
+    "Insulin, a hormone released when blood glucose levels are high, stimulates adipocytes to convert glucose to fat.",
+    "When blood glucose is low, however, the hormone glucagon stimulates adipocytes to release fatty acids into the blood.",
+    "Adipocytes also make leptin, a hormone that reduces hunger; the more body fat a person has, the more leptin circulates."
+   ]
+  },
+  "CL:0000192|2": {
+   "id": "CL:0000192",
+   "label": "Smooth muscle cell",
+   "tier": 2,
+   "issues": [
+    "terms left undefined: local factors"
+   ],
+   "dropped": [],
+   "kept": [
+    "Smooth muscle cells move food and regulate blood flow in arteries through involuntary movements, which are not under conscious control.",
+    "These cells lie in the walls of hollow organs, such as the stomach, intestines, bladder and uterus, and of passageways such as arteries and veins.",
+    "Each cell is spindle-shaped, wide in the middle and tapered at both ends like a football, with a single nucleus, and is about 30 to 200 micrometers long.",
+    "Inside each cell are thick and thin filaments: the thick filaments are made of the protein myosin, and the thin filaments of the protein actin.",
+    "These filaments do not line up inside the cell, so smooth muscle cells show no striations, the bands formed by actin and myosin filaments aligned in parallel.",
+    "Smooth muscle contraction can be triggered by hormones, local factors, stretching in some organs, or the autonomic nervous system, which controls heart muscle, smooth muscle and glands.",
+    "Inside the cell, contraction begins when calcium ions bind to calmodulin, a protein that aids smooth muscle contraction; this lets myosin heads attach to actin and pull on the thin filaments.",
+    "Sliding past the thick filaments, the thin filaments pull on dense bodies, structures fastened to the cell membrane.",
+    "The dense bodies then pull on a network of intermediate filaments, protein strands that bear tension, drawing the cell's ends toward its center so the middle bulges in a corkscrew motion.",
+    "In single-unit smooth muscle, the cells are joined by gap junctions, channels that let ions pass between neighboring cells, so the muscle contracts as a single unit."
+   ]
+  },
+  "CL:0000576|2": {
+   "id": "CL:0000576",
+   "label": "Monocyte",
+   "tier": 2,
+   "issues": [
+    "does not read well: All 8 sentences pass, but sentence 4 ('After moving into infected tissue, a monocyte turns into a macrophage') repeats sentence 0's macrophage point after the dendritic-cell and osteoclast sentences; move sentences 3-4 to follow sentence 0, or fold 4 into 0."
+   ],
+   "dropped": [],
+   "kept": [
+    "A monocyte is a white blood cell that gives rise to macrophages, cells that clean up dead and damaged cells in the body.",
+    "Instead of a macrophage, a monocyte can become a dendritic cell, an immune cell that processes foreign material and presents that material to start an immune response.",
+    "Osteoclasts, the cells that break down bone, also come from monocytes and macrophages.",
+    "Monocytes circulate in the blood and in lymph, a watery fluid that bathes tissues and organs.",
+    "After moving into infected tissue, a monocyte turns into a macrophage.",
+    "Normally, monocytes make up 2–8 percent of all white blood cells.",
+    "A large size of 12–20 µm and an indented or horseshoe-shaped nucleus usually make a monocyte easy to recognize.",
+    "Monocytes come from myeloid stem cells, which also give rise to red blood cells and some other white blood cells."
+   ]
+  },
+  "UBERON:0003688|2": {
+   "id": "UBERON:0003688",
+   "label": "Omentum",
+   "tier": 2,
+   "issues": [
+    "does not read well: With sentences 2 and 4 removed, the text jumps from the omentum's definition to 'The greater omentum runs...'. No sentence says what the greater and lesser omentum are or how they relate to the omentum, and the role of holding the stomach in place is also lost."
+   ],
+   "dropped": [
+    {
+     "text": "The omentum has two parts, the greater omentum and the lesser omentum, and both help hold the stomach in place.",
+     "reason": "checker: The quote (23.4) appears word for word and supports that both omenta hold the stomach in place. It never says the omentum 'has two parts', or that the greater and lesser omentum are parts of it. The number and the part-whole claim are new. OpenStax 23.1 lists the two as separate folds among five peritoneal folds, and the Uberon definition calls the omentum one fold."
+    },
+    {
+     "text": "Shaped like an apron, the greater omentum lies in front of the small intestine.",
+     "reason": "checker: The quote appears word for word in the 23.1 peritoneal-fold table, and 'shaped like an apron' is supported. But the quote says the greater omentum lies 'superficial to' the small intestine, which OpenStax defines as 'nearer to the surface of the body'. 'In front of' is the plain word for anterior, a different direction the quote does not give."
+    }
+   ],
+   "kept": [
+    "The omentum helps support the internal organs, and it starts at the stomach.",
+    "The omentum is a fold of the peritoneum, the membrane that lines the abdominal and pelvic cavity and covers the organs there.",
+    "The greater omentum runs from the greater curvature, the convex outer surface of the stomach, to the back wall of the abdomen.",
+    "The lesser omentum runs from the liver to the lesser curvature, the concave inner border of the stomach.",
+    "The lesser omentum also provides a pathway for structures that connect to the liver.",
+    "Two blood vessels that enter the liver, the hepatic artery and the hepatic portal vein, run behind the side edge of the lesser omentum."
+   ]
   }
  },
  "defined": {

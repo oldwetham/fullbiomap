@@ -36,30 +36,324 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7200/tier1.auto.md",
-   "text": "The section of the intestines between the pylorus and cecum. The small intestine is approximately 20 feet long and consists of the duodenum, the jejunum, and the ileum. Its main function is to absorb nutrients from food as the food is transported to the large intestine.",
+   "status": "drafted",
+   "file": "content/FMA_7200/tier1.md",
+   "text": "The small intestine finishes digesting food and absorbs the nutrients. This hollow organ runs from the stomach to the large intestine. The small intestine's lining has folds called villi, which increase the surface area for absorbing nutrients. Nutrients pass through the cells of this lining into the bloodstream.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12386",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12386",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12386",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12386",
+     "title": "SEER Training Modules, SEER Training Modules: Small & Large Intestine",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "Foundational Model of Anatomy, FMA:7200 Small intestine",
+     "url": "http://purl.org/sig/ont/fma/fma7200",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+     "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12386, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: SEER Training Modules: Small & Large Intestine. U.S. National Institutes of Health, National Cancer Institute; Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The small intestine finishes digesting food and absorbs the nutrients.",
+     "quotes": [
+      {
+       "quote": "The small intestine finishes the process of digestion, absorbs the nutrients, and passes the residue on to the large intestine.",
+       "section": "SEER Training Modules: Small & Large Intestine",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Small & Large Intestine. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "This hollow organ runs from the stomach to the large intestine.",
+     "quotes": [
+      {
+       "quote": "Organ with organ cavity, each instance of which is proximally continuous_with some stomach; distally continuous_with some large intestine.",
+       "section": "FMA:7200 Small intestine",
+       "url": "http://purl.org/sig/ont/fma/fma7200",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      }
+     ]
+    },
+    {
+     "text": "The small intestine's lining has folds called villi, which increase the surface area for absorbing nutrients.",
+     "defines": "villi",
+     "quotes": [
+      {
+       "quote": "Villi are folds on the small intestine lining that increase the surface area to facilitate the absorption of nutrients.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "villi: folds on the inner surface of the small intestine whose role is to increase absorption area",
+       "section": "Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+       "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Nutrients pass through the cells of this lining into the bloodstream.",
+     "quotes": [
+      {
+       "quote": "The nutrients are absorbed into the bloodstream across the epithelial cells lining the walls of the small intestines.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_7200/tier2.md",
+   "text": "The small intestine is the body's main digestive organ, where most digestion and nearly all absorption, the uptake of nutrients by cells, take place. This hollow organ runs from the stomach to the large intestine. The small intestine is a coiled tube with three regions: the duodenum next to the stomach, then the jejunum, then the ileum. The lining of the small intestine is covered with villi (singular, villus), small hairlike projections that give the lining a furry texture. The absorptive cells of the lining have microvilli, tiny projections of the cell membrane. Enzymes, proteins that speed up chemical reactions, are fixed to the microvilli and finish digesting carbohydrates and proteins. Together with circular folds, which are deep folds in the lining, the villi and microvilli increase the absorbing surface more than 600-fold. Each villus contains a bed of tiny blood vessels and a lymph vessel called a lacteal. Sugars and amino acids from digested carbohydrates and proteins enter the blood directly, but fat breakdown products enter the lacteals. In segmentation, sections of the intestine contract and relax in turn, mixing food with digestive juices and pressing it against the lining for absorption.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Foundational Model of Anatomy, FMA:7200 Small intestine",
+     "url": "http://purl.org/sig/ont/fma/fma7200",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The small intestine is the body's main digestive organ, where most digestion and nearly all absorption, the uptake of nutrients by cells, take place.",
+     "defines": "absorption",
+     "quotes": [
+      {
+       "quote": "Chyme released from the stomach enters the small intestine, which is the primary digestive organ in the body. Not only is this where most digestion occurs, it is also where practically all absorption occurs.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "absorption (cellular uptake of nutrients)",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This hollow organ runs from the stomach to the large intestine.",
+     "quotes": [
+      {
+       "quote": "Organ with organ cavity, each instance of which is proximally continuous_with some stomach; distally continuous_with some large intestine.",
+       "section": "FMA:7200 Small intestine",
+       "url": "http://purl.org/sig/ont/fma/fma7200",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      }
+     ]
+    },
+    {
+     "text": "The small intestine is a coiled tube with three regions: the duodenum next to the stomach, then the jejunum, then the ileum.",
+     "quotes": [
+      {
+       "quote": "The coiled tube of the small intestine is subdivided into three regions. From proximal (at the stomach) to distal, these are the duodenum, jejunum, and ileum",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lining of the small intestine is covered with villi (singular, villus), small hairlike projections that give the lining a furry texture.",
+     "defines": "villi",
+     "quotes": [
+      {
+       "quote": "Within the circular folds are small (0.5–1 mm long) hairlike vascularized projections called villi (singular = villus) that give the mucosa a furry texture.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The absorptive cells of the lining have microvilli, tiny projections of the cell membrane.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "microvillus: small projection of the plasma membrane of the absorptive cells of the small intestinal mucosa",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Enzymes, proteins that speed up chemical reactions, are fixed to the microvilli and finish digesting carbohydrates and proteins.",
+     "defines": "enzyme",
+     "quotes": [
+      {
+       "quote": "Fixed to the surface of the microvilli membranes are enzymes that finish digesting carbohydrates and proteins.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Together with circular folds, which are deep folds in the lining, the villi and microvilli increase the absorbing surface more than 600-fold.",
+     "defines": "circular folds",
+     "quotes": [
+      {
+       "quote": "These features, which increase the absorptive surface area of the small intestine more than 600-fold, include circular folds, villi, and microvilli",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "circular fold: (also, plica circulare) deep fold in the mucosa and submucosa of the small intestine",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each villus contains a bed of tiny blood vessels and a lymph vessel called a lacteal.",
+     "defines": "lacteal",
+     "quotes": [
+      {
+       "quote": "each villus contains a capillary bed composed of one arteriole and one venule, as well as a lymphatic capillary called a lacteal.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sugars and amino acids from digested carbohydrates and proteins enter the blood directly, but fat breakdown products enter the lacteals.",
+     "quotes": [
+      {
+       "quote": "The breakdown products of carbohydrates and proteins (sugars and amino acids) can enter the bloodstream directly, but lipid breakdown products are absorbed by the lacteals and transported to the bloodstream via the lymphatic system.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In segmentation, sections of the intestine contract and relax in turn, mixing food with digestive juices and pressing it against the lining for absorption.",
+     "defines": "segmentation",
+     "quotes": [
+      {
+       "quote": "Segmentation in the small intestine does not force chyme through the tract. Instead, it combines the chyme with digestive juices and pushes food particles against the mucosa to be absorbed.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "segmentation: alternating contractions and relaxations of non-adjacent segments of the intestine that move food forward and backward, breaking it apart and mixing it with digestive juices",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -68,8 +362,38 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12386",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12386",
+   "title": "SEER Training Modules, SEER Training Modules: Small & Large Intestine",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "Foundational Model of Anatomy, FMA:7200 Small intestine",
+   "url": "http://purl.org/sig/ont/fma/fma7200",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+   "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+   "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
    "license": "CC BY 4.0"
   }
  ],

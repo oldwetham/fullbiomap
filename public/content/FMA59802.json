@@ -23,17 +23,405 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_55093/tier1.md",
+   "text": "Each submandibular gland makes saliva and releases it into the mouth. The two submandibular glands sit beneath the mandible, the lower jaw bone. Their saliva contains amylase, a substance that breaks down starch. This saliva is also thickened with mucus, a slippery substance that keeps tissues moist.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0001736 submandibular gland",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each submandibular gland makes saliva and releases it into the mouth.",
+     "quotes": [
+      {
+       "quote": "The submandibular glands, which are in the floor of the mouth, secrete saliva into the mouth through the submandibular ducts.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The two submandibular glands sit beneath the mandible, the lower jaw bone.",
+     "defines": "mandible",
+     "quotes": [
+      {
+       "quote": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.",
+       "section": "UBERON:0001736 submandibular gland",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Their saliva contains amylase, a substance that breaks down starch.",
+     "defines": "amylase",
+     "quotes": [
+      {
+       "quote": "Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Salivary amylase breaks down starch",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This saliva is also thickened with mucus, a slippery substance that keeps tissues moist.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:55093",
+    "label": "Submandibular gland",
+    "conceptId": "FMA55093"
+   }
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_55093/tier2.md",
+   "text": "Each submandibular gland makes saliva and sends it into the mouth through the submandibular duct, a tube through which a gland releases its contents. Each submandibular gland lies beneath the mandible, the bone of the lower jaw. The submandibular glands are one of the three pairs of major salivary glands; the other two are the parotid and sublingual glands. Each submandibular gland is a compound tubuloalveolar gland, a gland built from a combination of tubes and pockets. The gland's secretory cells include serous cells, which secrete a watery fluid containing amylase for digesting starch. The gland also has mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist. As a result, submandibular saliva contains amylase, but in a liquid thickened with mucus. Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation. The impulses that reach each submandibular gland travel through the facial nerve.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0001736 submandibular gland",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "Cell Ontology, CL:4052065 serous acinar cell of salivary gland",
+     "url": "http://purl.obolibrary.org/obo/CL_4052065",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute; Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each submandibular gland makes saliva and sends it into the mouth through the submandibular duct, a tube through which a gland releases its contents.",
+     "defines": "duct",
+     "quotes": [
+      {
+       "quote": "The submandibular glands, which are in the floor of the mouth, secrete saliva into the mouth through the submandibular ducts.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Other multicellular exocrine glands release their contents through a tubular duct.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each submandibular gland lies beneath the mandible, the bone of the lower jaw.",
+     "defines": "mandible",
+     "quotes": [
+      {
+       "quote": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.",
+       "section": "UBERON:0001736 submandibular gland",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The submandibular glands are one of the three pairs of major salivary glands; the other two are the parotid and sublingual glands.",
+     "quotes": [
+      {
+       "quote": "Three pairs of major salivary glands (parotid, submandibular, and sublingual glands) and numerous smaller ones secrete saliva into the oral cavity",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each submandibular gland is a compound tubuloalveolar gland, a gland built from a combination of tubes and pockets.",
+     "defines": "compound tubuloalveolar gland",
+     "quotes": [
+      {
+       "quote": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.",
+       "section": "UBERON:0001736 submandibular gland",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "Combinations of tubes and pockets are known as tubuloalveolar (tubuloacinar) compound glands.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gland's secretory cells include serous cells, which secrete a watery fluid containing amylase for digesting starch.",
+     "defines": "serous cell",
+     "quotes": [
+      {
+       "quote": "Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.",
+       "section": "UBERON:0001736 submandibular gland",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "This cell secretes watery, enzyme‐rich fluid containing α-amylase, proline-rich proteins, and secretory immunoglobulins for starch digestion and antimicrobial defence.",
+       "section": "CL:4052065 serous acinar cell of salivary gland",
+       "url": "http://purl.obolibrary.org/obo/CL_4052065",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "The gland also has mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The submandibular glands have cells similar to those of the parotid glands, as well as mucus-secreting cells.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As a result, submandibular saliva contains amylase, but in a liquid thickened with mucus.",
+     "quotes": [
+      {
+       "quote": "Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation.",
+     "quotes": [
+      {
+       "quote": "Food contains chemicals that stimulate taste receptors on the tongue, which send impulses to the superior and inferior salivatory nuclei in the brain stem. These two nuclei then send back parasympathetic impulses through fibers in the glossopharyngeal and facial nerves, which stimulate salivation.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The impulses that reach each submandibular gland travel through the facial nerve.",
+     "quotes": [
+      {
+       "quote": "The parasympathetic fibers of the facial nerve synapse in the pterygopalatine ganglion, which projects to the submandibular gland and sublingual gland.",
+       "section": "16.3 The Cranial Nerve Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:55093",
+    "label": "Submandibular gland",
+    "conceptId": "FMA55093"
+   }
   },
   "tier3": {
    "status": "missing"
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0001736 submandibular gland",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0001736",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "Cell Ontology, CL:4052065 serous acinar cell of salivary gland",
+   "url": "http://purl.obolibrary.org/obo/CL_4052065",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": [

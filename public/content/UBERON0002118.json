@@ -18,30 +18,339 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/UBERON_0002118/tier1.auto.md",
-   "text": "The ovary that is located in the right side of the pelvis.",
+   "status": "drafted",
+   "file": "content/UBERON_0000992/tier1.md",
+   "text": "Each ovary makes eggs, called oocytes, and sex hormones such as estrogen and progesterone. The ovaries sit in the pelvis, one on each side of the uterus. Each oocyte grows with supporting cells around it, and this group is called a follicle. About every 28 days, one follicle releases its oocyte in a process called ovulation.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33487",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33487",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33487",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33487",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 introduction: Introduction",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33487, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each ovary makes eggs, called oocytes, and sex hormones such as estrogen and progesterone.",
+     "defines": "oocytes",
+     "quotes": [
+      {
+       "quote": "ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the female gamete, an oocyte (egg)",
+       "section": "Chapter 27 introduction: Introduction",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The ovaries sit in the pelvis, one on each side of the uterus.",
+     "quotes": [
+      {
+       "quote": "The female gonads are the ovaries, which are located on each side of the uterus in the pelvic cavity.",
+       "section": "SEER Training Modules: Review: Introduction to the Reproductive System",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each oocyte grows with supporting cells around it, and this group is called a follicle.",
+     "defines": "follicle",
+     "quotes": [
+      {
+       "quote": "Oocytes develop within the outer layer of this stroma, each surrounded by supporting cells. This grouping of an oocyte and its supporting cells is called a follicle.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "About every 28 days, one follicle releases its oocyte in a process called ovulation.",
+     "defines": "ovulation",
+     "quotes": [
+      {
+       "quote": "They grow and develop in a process called folliculogenesis, which typically leads to ovulation of one follicle approximately every 28 days, along with death to multiple other follicles.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0000992",
+    "label": "Ovary"
+   }
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0000992/tier2.md",
+   "text": "Each ovary makes oocytes, or eggs, and sex hormones, notably estrogen and progesterone. The ovaries lie in shallow hollows in the side walls of the pelvic cavity, one on each side of the uterus. Each ovary is about the size and shape of an almond. The ovary's tissue is divided into an outer cortex and an inner medulla. In the cortex, each oocyte develops surrounded by supporting cells, and an oocyte with its supporting cells is called a follicle. The medulla, beneath the cortex, holds the ovary's blood vessels, lymph vessels and nerves. At birth the ovaries hold one to two million oocytes, and the number declines throughout life until menopause, the end of reproductive function, when no follicles remain. Follicle-stimulating hormone (FSH) promotes the growth of follicles, which then release estrogens. About every 28 days, one follicle releases its oocyte from the ovary, an event called ovulation, while several other follicles die. After ovulation, the follicle left behind becomes the corpus luteum, which makes large amounts of progesterone, a hormone critical for establishing and maintaining pregnancy.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 introduction: Introduction",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Ovaries",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.3 The Pituitary Gland and Hypothalamus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each ovary makes oocytes, or eggs, and sex hormones, notably estrogen and progesterone.",
+     "defines": "oocytes",
+     "quotes": [
+      {
+       "quote": "ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the female gamete, an oocyte (egg)",
+       "section": "Chapter 27 introduction: Introduction",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The ovaries lie in shallow hollows in the side walls of the pelvic cavity, one on each side of the uterus.",
+     "quotes": [
+      {
+       "quote": "The ovaries are located in shallow depressions, called ovarian fossae, one on each side of the uterus, in the lateral walls of the pelvic cavity.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each ovary is about the size and shape of an almond.",
+     "quotes": [
+      {
+       "quote": "Each ovary is a solid, ovoid structure about the size and shape of an almond, about 3.5 cm in length, 2 cm wide, and 1 cm thick.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The ovary's tissue is divided into an outer cortex and an inner medulla.",
+     "quotes": [
+      {
+       "quote": "The substance of the ovaries is distinctly divided into an outer cortex and an inner medulla.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "In the cortex, each oocyte develops surrounded by supporting cells, and an oocyte with its supporting cells is called a follicle.",
+     "defines": "follicle",
+     "quotes": [
+      {
+       "quote": "The cortex is composed of a tissue framework called the ovarian stroma that forms the bulk of the adult ovary. Oocytes develop within the outer layer of this stroma, each surrounded by supporting cells. This grouping of an oocyte and its supporting cells is called a follicle.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The medulla, beneath the cortex, holds the ovary's blood vessels, lymph vessels and nerves.",
+     "quotes": [
+      {
+       "quote": "Beneath the cortex lies the inner ovarian medulla, the site of blood vessels, lymph vessels, and the nerves of the ovary.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At birth the ovaries hold one to two million oocytes, and the number declines throughout life until menopause, the end of reproductive function, when no follicles remain.",
+     "defines": "menopause",
+     "quotes": [
+      {
+       "quote": "Recall that, a female infant at birth will have one to two million oocytes within the ovarian follicles, and that this number declines throughout life until menopause, when no follicles remain.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "menopause (the cessation of a female's reproductive functions)",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Follicle-stimulating hormone (FSH) promotes the growth of follicles, which then release estrogens.",
+     "quotes": [
+      {
+       "quote": "follicle-stimulating hormone (FSH) stimulates the production and maturation of sex cells, or gametes, including ova and sperm. FSH also promotes follicular growth; these follicles then release estrogens in ovaries.",
+       "section": "17.3 The Pituitary Gland and Hypothalamus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "About every 28 days, one follicle releases its oocyte from the ovary, an event called ovulation, while several other follicles die.",
+     "defines": "ovulation",
+     "quotes": [
+      {
+       "quote": "They grow and develop in a process called folliculogenesis, which typically leads to ovulation of one follicle approximately every 28 days, along with death to multiple other follicles.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "After ovulation, the follicle left behind becomes the corpus luteum, which makes large amounts of progesterone, a hormone critical for establishing and maintaining pregnancy.",
+     "defines": "corpus luteum",
+     "quotes": [
+      {
+       "quote": "Instead of estrogen, the luteinized granulosa and theca cells of the corpus luteum begin to produce large amounts of the sex steroid hormone progesterone, a hormone that is critical for the establishment and maintenance of pregnancy.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "corpus luteum: transformed follicle after ovulation that secretes progesterone",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0000992",
+    "label": "Ovary"
+   }
   },
   "tier3": {
    "status": "missing"
@@ -50,8 +359,33 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33487",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33487",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 introduction: Introduction",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Ovaries",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 17.3 The Pituitary Gland and Hypothalamus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus",
    "license": "CC BY 4.0"
   }
  ],

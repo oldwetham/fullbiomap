@@ -19,30 +19,351 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_19386/tier1.auto.md",
-   "text": "One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland, that produces fructose-rich seminal fluid which is a component of semen. These glands join the ipsilateral ductus deferens to form the ejaculatory duct.",
+   "status": "drafted",
+   "file": "content/FMA_19386/tier1.md",
+   "text": "The seminal vesicle is one of two glands that together make about 60 percent of semen. Each seminal vesicle sits behind the bladder and above the prostate gland. During ejaculation, sperm mix with fluid from the seminal vesicle. This fluid is rich in fructose, a simple sugar that fuels sperm movement.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12787",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12787",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12787",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12787",
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12787 Seminal Vesicle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12787",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 24.2 Carbohydrate Metabolism",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12787, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The seminal vesicle is one of two glands that together make about 60 percent of semen.",
+     "quotes": [
+      {
+       "quote": "The paired seminal vesicles are glands that contribute approximately 60 percent of the semen volume.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each seminal vesicle sits behind the bladder and above the prostate gland.",
+     "quotes": [
+      {
+       "quote": "One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland",
+       "section": "NCIT:C12787 Seminal Vesicle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12787",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "During ejaculation, sperm mix with fluid from the seminal vesicle.",
+     "quotes": [
+      {
+       "quote": "As sperm pass through the ampulla of the ductus deferens at ejaculation, they mix with fluid from the associated seminal vesicle",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This fluid is rich in fructose, a simple sugar that fuels sperm movement.",
+     "defines": "fructose",
+     "quotes": [
+      {
+       "quote": "Seminal vesicle fluid contains large amounts of fructose, which is used by the sperm mitochondria to generate ATP to allow movement through the female reproductive tract.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Glucose and fructose are examples of simple sugars",
+       "section": "24.2 Carbohydrate Metabolism",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_19386/tier2.md",
+   "text": "The seminal vesicle is a gland whose fluid becomes part of semen, the ejaculated mix of sperm and gland secretions. Together, the two seminal vesicles supply about 60 percent of the volume of semen. Each seminal vesicle lies behind the bladder and above the prostate gland. Each seminal vesicle has a short duct that joins the ductus deferens (vas deferens), the duct that carries sperm, to form an ejaculatory duct. As sperm pass through the ductus deferens during ejaculation, they mix with fluid from the seminal vesicle. Each ejaculatory duct then passes through the prostate and empties into the urethra, which carries both urine and semen in males. Seminal vesicle fluid is thick, yellowish and alkaline, meaning its pH is above 7. Because sperm can move only in an alkaline setting, this fluid helps reverse the acidity of the vagina. The fluid also contains large amounts of fructose, a simple sugar that sperm use to power their movement through the female reproductive tract. In addition, the fluid holds prostaglandins, hormones that act locally and help sperm move and survive.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12787 Seminal Vesicle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12787",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Duct System",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Urethra",
+     "url": "https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 2.2 Water",
+     "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 24.2 Carbohydrate Metabolism",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; SEER Training Modules: Accessory Glands. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Duct System. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Urethra. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The seminal vesicle is a gland whose fluid becomes part of semen, the ejaculated mix of sperm and gland secretions.",
+     "defines": "semen",
+     "quotes": [
+      {
+       "quote": "seminal vesicle: gland that produces seminal fluid, which contributes to semen",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "semen: ejaculatory fluid composed of sperm and secretions from the seminal vesicles, prostate, and bulbourethral glands",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Together, the two seminal vesicles supply about 60 percent of the volume of semen.",
+     "quotes": [
+      {
+       "quote": "The paired seminal vesicles are glands that contribute approximately 60 percent of the semen volume.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each seminal vesicle lies behind the bladder and above the prostate gland.",
+     "quotes": [
+      {
+       "quote": "One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland",
+       "section": "NCIT:C12787 Seminal Vesicle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12787",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Each seminal vesicle has a short duct that joins the ductus deferens (vas deferens), the duct that carries sperm, to form an ejaculatory duct.",
+     "defines": "ductus deferens",
+     "quotes": [
+      {
+       "quote": "The paired seminal vesicles are saccular glands posterior to the urinary bladder. Each gland has a short duct that joins with the ductus deferens at the ampulla to form an ejaculatory duct, which then empties into the urethra.",
+       "section": "SEER Training Modules: Accessory Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Glands. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "ductus deferens: (also, vas deferens) duct that transports sperm",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As sperm pass through the ductus deferens during ejaculation, they mix with fluid from the seminal vesicle.",
+     "quotes": [
+      {
+       "quote": "As sperm pass through the ampulla of the ductus deferens at ejaculation, they mix with fluid from the associated seminal vesicle",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each ejaculatory duct then passes through the prostate and empties into the urethra, which carries both urine and semen in males.",
+     "defines": "urethra",
+     "quotes": [
+      {
+       "quote": "Each ejaculatory duct passes through the prostate gland and empties into the urethra.",
+       "section": "SEER Training Modules: Duct System",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Duct System. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.",
+       "section": "SEER Training Modules: Urethra",
+       "url": "https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Urethra. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Seminal vesicle fluid is thick, yellowish and alkaline, meaning its pH is above 7.",
+     "defines": "alkaline",
+     "quotes": [
+      {
+       "quote": "The seminal vesicles are a pair of glands that lie along the posterior border of the urinary bladder. The glands make a solution that is thick, yellowish, and alkaline.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The pH scale is, as we previously mentioned, an inverse logarithm and ranges from 0 to 14 (). Anything below 7.0 (ranging from 0.0 to 6.9) is acidic, and anything above 7.0 (from 7.1 to 14.0) is alkaline.",
+       "section": "2.2 Water",
+       "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Because sperm can move only in an alkaline setting, this fluid helps reverse the acidity of the vagina.",
+     "quotes": [
+      {
+       "quote": "As sperm are only motile in an alkaline environment, a basic pH is important to reverse the acidity of the vaginal environment.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The fluid also contains large amounts of fructose, a simple sugar that sperm use to power their movement through the female reproductive tract.",
+     "defines": "fructose",
+     "quotes": [
+      {
+       "quote": "Seminal vesicle fluid contains large amounts of fructose, which is used by the sperm mitochondria to generate ATP to allow movement through the female reproductive tract.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Glucose and fructose are examples of simple sugars",
+       "section": "24.2 Carbohydrate Metabolism",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In addition, the fluid holds prostaglandins, hormones that act locally and help sperm move and survive.",
+     "defines": "prostaglandins",
+     "quotes": [
+      {
+       "quote": "prostaglandins, which contribute to the mobility and viability of the sperm",
+       "section": "SEER Training Modules: Accessory Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Glands. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The solution also contains mucus, fructose (a sperm mitochondrial nutrient), a coagulating enzyme, ascorbic acid, and local-acting hormones called prostaglandins.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -51,8 +372,48 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12787",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12787",
+   "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12787 Seminal Vesicle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12787",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 24.2 Carbohydrate Metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Glands",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Duct System",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Urethra",
+   "url": "https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 2.2 Water",
+   "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
    "license": "CC BY 4.0"
   }
  ],

@@ -18,30 +18,381 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7131/tier1.auto.md",
-   "text": "The portion of the digestive canal between the pharynx and stomach. It is about 25 cm long and consists of three parts: the cervical part, from the cricoid cartilage to the thoracic inlet; thoracic part, from thoracic inlet to the diaphragm; and abdominal part, below the diaphragm to the cardiac opening of the stomach.",
+   "status": "drafted",
+   "file": "content/FMA_7131/tier1.md",
+   "text": "The esophagus is a muscular tube that pushes swallowed food to the stomach. Waves of muscle contraction, called peristalsis, do the pushing. The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing. Along the way down, the esophagus lies behind the trachea, or windpipe.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12389",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12389",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+     "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Pharynx & Esophagus",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The esophagus is a muscular tube that pushes swallowed food to the stomach.",
+     "quotes": [
+      {
+       "quote": "The esophagus is a tubular organ that connects the mouth to the stomach. The chewed and softened food passes through the esophagus after being swallowed. The smooth muscles of the esophagus undergo a series of wave like movements called peristalsis that push the food toward the stomach",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Waves of muscle contraction, called peristalsis, do the pushing.",
+     "defines": "peristalsis",
+     "quotes": [
+      {
+       "quote": "Using peristalsis, or wave-like smooth muscle contractions, the muscles of the esophagus push the food towards the stomach.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "peristalsis: wave-like movements of muscle tissue",
+       "section": "Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+       "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing.",
+     "defines": "pharynx",
+     "quotes": [
+      {
+       "quote": "The esophagus is a muscular tube that connects the pharynx to the stomach. It is approximately 25.4 cm (10 in) in length, located posterior to the trachea, and remains in a collapsed form when not engaged in swallowing.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pharynx: throat",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Along the way down, the esophagus lies behind the trachea, or windpipe.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "As it descends, it is posterior to the trachea and anterior to the vertebral column.",
+       "section": "SEER Training Modules: Pharynx & Esophagus",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    }
+   ],
+   "grade": 8.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
+  },
+  "tier2": {
+   "status": "drafted",
+   "file": "content/FMA_7131/tier2.md",
+   "text": "The esophagus is a muscular tube that carries swallowed food to the stomach. The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing. Along the way down, the esophagus lies behind the trachea, or windpipe. The esophagus then passes through an opening in the diaphragm, a dome-shaped breathing muscle, and empties into the stomach. Peristalsis, waves of muscle contraction and relaxation, starts in the upper esophagus and pushes food toward the stomach. During peristalsis, a circular muscle layer squeezes the wall to force the food forward, while a lengthwise layer shortens the wall and widens it to receive the food. Upper and lower sphincters, muscles that ring the tube and act as valves, control food moving into and out of the esophagus. The lower esophageal sphincter relaxes to let food into the stomach, then contracts to keep stomach acid from backing up into the esophagus. A tissue called stratified squamous epithelium, made of many layers of cells, lines the esophagus and protects it from wear by food. Glands in the inner lining release mucus, a thick, slippery substance that keeps the lining moist and helps food pass.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Pharynx & Esophagus",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Anatomical Terminology",
+     "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12389, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Anatomical Terminology. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
-  },
-  "tier2": {
-   "status": "missing"
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The esophagus is a muscular tube that carries swallowed food to the stomach.",
+     "quotes": [
+      {
+       "quote": "The esophagus is a tubular organ that connects the mouth to the stomach. The chewed and softened food passes through the esophagus after being swallowed. The smooth muscles of the esophagus undergo a series of wave like movements called peristalsis that push the food toward the stomach",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing.",
+     "defines": "pharynx",
+     "quotes": [
+      {
+       "quote": "The esophagus is a muscular tube that connects the pharynx to the stomach. It is approximately 25.4 cm (10 in) in length, located posterior to the trachea, and remains in a collapsed form when not engaged in swallowing.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pharynx: throat",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Along the way down, the esophagus lies behind the trachea, or windpipe.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "As it descends, it is posterior to the trachea and anterior to the vertebral column.",
+       "section": "SEER Training Modules: Pharynx & Esophagus",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The esophagus then passes through an opening in the diaphragm, a dome-shaped breathing muscle, and empties into the stomach.",
+     "defines": "diaphragm",
+     "quotes": [
+      {
+       "quote": "It passes through an opening in the diaphragm, called the esophageal hiatus, and then empties into the stomach.",
+       "section": "SEER Training Modules: Pharynx & Esophagus",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "the diaphragm, a dome-shaped respiratory muscle",
+       "section": "SEER Training Modules: Anatomical Terminology",
+       "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Anatomical Terminology. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Peristalsis, waves of muscle contraction and relaxation, starts in the upper esophagus and pushes food toward the stomach.",
+     "defines": "peristalsis",
+     "quotes": [
+      {
+       "quote": "Rhythmic waves of peristalsis, which begin in the upper esophagus, propel the bolus of food toward the stomach.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "peristalsis: muscular contractions and relaxations that propel food through the GI tract",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "During peristalsis, a circular muscle layer squeezes the wall to force the food forward, while a lengthwise layer shortens the wall and widens it to receive the food.",
+     "quotes": [
+      {
+       "quote": "The circular muscle layer of the muscularis contracts, pinching the esophageal wall and forcing the bolus forward. At the same time, the longitudinal muscle layer of the muscularis also contracts, shortening this area and pushing out its walls to receive the bolus.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Upper and lower sphincters, muscles that ring the tube and act as valves, control food moving into and out of the esophagus.",
+     "defines": "sphincter",
+     "quotes": [
+      {
+       "quote": "Upper and lower esophageal sphincters control the movement of food into and out of the esophagus.",
+       "section": "SEER Training Modules: Pharynx & Esophagus",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "Recall that sphincters are muscles that surround tubes and serve as valves, closing the tube when the sphincters contract and opening it when they relax.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lower esophageal sphincter relaxes to let food into the stomach, then contracts to keep stomach acid from backing up into the esophagus.",
+     "quotes": [
+      {
+       "quote": "The lower esophageal sphincter relaxes to let food pass into the stomach, and then contracts to prevent stomach acids from backing up into the esophagus.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A tissue called stratified squamous epithelium, made of many layers of cells, lines the esophagus and protects it from wear by food.",
+     "defines": "stratified squamous epithelium",
+     "quotes": [
+      {
+       "quote": "The mucosa of the esophagus is made up of an epithelial lining that contains non-keratinized, stratified squamous epithelium, with a layer of basal and parabasal cells. This epithelium protects against erosion from food particles.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "stratified squamous epithelium: tissue that consists of multiple layers of cells with the most apical being flat scale-like cells; protects surfaces from abrasion",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Glands in the inner lining release mucus, a thick, slippery substance that keeps the lining moist and helps food pass.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The mucosa has glands that secrete mucus to keep the lining moist and well lubricated to ease the passage of food.",
+       "section": "SEER Training Modules: Pharynx & Esophagus",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pharynx & Esophagus. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -50,8 +401,43 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12389",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12389",
+   "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+   "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+   "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Pharynx & Esophagus",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+   "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Anatomical Terminology",
+   "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
    "license": "CC BY 4.0"
   }
  ],

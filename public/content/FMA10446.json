@@ -45,30 +45,310 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_10446/tier1.auto.md",
-   "text": "Spongy discs located between the vertebrae of the spinal column; composed of the outer annulus fibrosus and inner nucleus pulposus.",
+   "status": "drafted",
+   "file": "content/FMA_10446/tier1.md",
+   "text": "An intervertebral disk firmly joins two neighboring vertebrae, the bones of the neck and back. The disk absorbs shocks from walking and running and lets the spine move a little. The disk's tough, fibrous outer ring is called the anulus fibrosus. Inside the ring is the nucleus pulposus, a soft, watery gel that resists squeezing.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C49571",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C49571",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 38.1 Types of Skeletal Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 7.3 The Vertebral Column",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C49571, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "An intervertebral disk firmly joins two neighboring vertebrae, the bones of the neck and back.",
+     "defines": "vertebrae",
+     "quotes": [
+      {
+       "quote": "intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "vertebra: individual bone in the neck and back regions of the vertebral column",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The disk absorbs shocks from walking and running and lets the spine move a little.",
+     "quotes": [
+      {
+       "quote": "Each disc is part of a joint that allows for some movement of the spine and acts as a cushion to absorb shocks from movements such as walking and running.",
+       "section": "38.1 Types of Skeletal Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The disk's tough, fibrous outer ring is called the anulus fibrosus.",
+     "defines": "anulus fibrosus",
+     "quotes": [
+      {
+       "quote": "The anulus fibrosus is the tough, fibrous outer layer of the disc. It forms a circle (anulus = “ring” or “circle”) and is firmly anchored to the outer margins of the adjacent vertebral bodies.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside the ring is the nucleus pulposus, a soft, watery gel that resists squeezing.",
+     "defines": "nucleus pulposus",
+     "quotes": [
+      {
+       "quote": "Inside is the nucleus pulposus, consisting of a softer, more gel-like material. It has a high water content that serves to resist compression and thus is important for weight bearing.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_10446/tier2.md",
+   "text": "Each intervertebral disk strongly joins two neighboring vertebrae, the individual bones of the neck and back. The disk pads the vertebrae during weight bearing, and its ability to change shape lets them move. The disk fills the gap between two vertebral bodies, the front part of each vertebra that bears body weight. Each disk is a thick pad of fibrocartilage, a tough form of cartilage. Because fibrocartilage contains bundles of thick collagen fibers, which are flexible proteins, it is very strong and resists pulling and bending forces. The disk's tough, fibrous outer ring, the anulus fibrosus, is firmly anchored to the outer edges of the neighboring vertebral bodies. Inside the ring is the nucleus pulposus, a softer gel whose high water content resists squeezing and so helps bear weight. This gel lets the disk change shape when one vertebra rocks forward, back or side to side against a neighboring vertebra. For example, bending forward squeezes the front of the disk but expands the back of the disk.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 7.3 The Vertebral Column",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 9.1 Classification of Joints",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 9.3 Cartilaginous Joints",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each intervertebral disk strongly joins two neighboring vertebrae, the individual bones of the neck and back.",
+     "defines": "vertebrae",
+     "quotes": [
+      {
+       "quote": "intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "vertebra: individual bone in the neck and back regions of the vertebral column",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The disk pads the vertebrae during weight bearing, and its ability to change shape lets them move.",
+     "quotes": [
+      {
+       "quote": "The bodies of adjacent vertebrae are strongly anchored to each other by an intervertebral disc. This structure provides padding between the bones during weight bearing, and because it can change shape, also allows for movement between the vertebrae.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The disk fills the gap between two vertebral bodies, the front part of each vertebra that bears body weight.",
+     "defines": "vertebral bodies",
+     "quotes": [
+      {
+       "quote": "An intervertebral disc is a fibrocartilaginous pad that fills the gap between adjacent vertebral bodies",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The body is the anterior portion of each vertebra and is the part that supports the body weight.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each disk is a thick pad of fibrocartilage, a tough form of cartilage.",
+     "defines": "fibrocartilage",
+     "quotes": [
+      {
+       "quote": "Filling the gap between the vertebrae is a thick pad of fibrocartilage called an intervertebral disc",
+       "section": "9.1 Classification of Joints",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "fibrocartilage: tough form of cartilage, made of thick bundles of collagen fibers embedded in chondroitin sulfate ground substance",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Because fibrocartilage contains bundles of thick collagen fibers, which are flexible proteins, it is very strong and resists pulling and bending forces.",
+     "defines": "collagen fibers",
+     "quotes": [
+      {
+       "quote": "Fibrocartilage is very strong because it contains numerous bundles of thick collagen fibers, thus giving it a much greater ability to resist pulling and bending forces when compared with hyaline cartilage.",
+       "section": "9.3 Cartilaginous Joints",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "collagen fiber: flexible fibrous proteins that give connective tissue tensile strength",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The disk's tough, fibrous outer ring, the anulus fibrosus, is firmly anchored to the outer edges of the neighboring vertebral bodies.",
+     "defines": "anulus fibrosus",
+     "quotes": [
+      {
+       "quote": "The anulus fibrosus is the tough, fibrous outer layer of the disc. It forms a circle (anulus = “ring” or “circle”) and is firmly anchored to the outer margins of the adjacent vertebral bodies.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside the ring is the nucleus pulposus, a softer gel whose high water content resists squeezing and so helps bear weight.",
+     "defines": "nucleus pulposus",
+     "quotes": [
+      {
+       "quote": "Inside is the nucleus pulposus, consisting of a softer, more gel-like material. It has a high water content that serves to resist compression and thus is important for weight bearing.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This gel lets the disk change shape when one vertebra rocks forward, back or side to side against a neighboring vertebra.",
+     "quotes": [
+      {
+       "quote": "The gel-like nature of the nucleus pulposus also allows the intervertebral disc to change shape as one vertebra rocks side to side or forward and back in relation to its neighbors during movements of the vertebral column.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "For example, bending forward squeezes the front of the disk but expands the back of the disk.",
+     "quotes": [
+      {
+       "quote": "Thus, bending forward causes compression of the anterior portion of the disc but expansion of the posterior disc.",
+       "section": "7.3 The Vertebral Column",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -77,8 +357,33 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C49571",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C49571",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 38.1 Types of Skeletal Systems",
+   "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 7.3 The Vertebral Column",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 9.1 Classification of Joints",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 9.3 Cartilaginous Joints",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints",
    "license": "CC BY 4.0"
   }
  ],

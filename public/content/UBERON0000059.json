@@ -37,30 +37,312 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7201/tier1.auto.md",
-   "text": "A muscular tube that extends from the end of the small intestine to the anus.",
+   "status": "drafted",
+   "file": "content/FMA_7201/tier1.md",
+   "text": "The large intestine finishes absorbing water and nutrients and forms feces, the semisolid waste of digestion. The large intestine frames the small intestine on three sides and ends at the anus. The large intestine has three parts: the cecum, a pouch at the start; the colon; and the rectum. The colon is home to many bacteria that help with digestion.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12379",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12379",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12379",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12379",
+     "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12379, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The large intestine finishes absorbing water and nutrients and forms feces, the semisolid waste of digestion.",
+     "defines": "feces",
+     "quotes": [
+      {
+       "quote": "The large intestine is the terminal part of the alimentary canal. The primary function of this organ is to finish absorption of nutrients and water, synthesize certain vitamins, form feces, and eliminate feces from the body.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "feces: semisolid waste product of digestion",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The large intestine frames the small intestine on three sides and ends at the anus.",
+     "quotes": [
+      {
+       "quote": "The large intestine runs from the appendix to the anus. It frames the small intestine on three sides.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The large intestine has three parts: the cecum, a pouch at the start; the colon; and the rectum.",
+     "defines": "cecum",
+     "quotes": [
+      {
+       "quote": "The human large intestine is much smaller in length compared to the small intestine but larger in diameter. It has three parts: the cecum, the colon, and the rectum.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cecum: pouch forming the beginning of the large intestine",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The colon is home to many bacteria that help with digestion.",
+     "quotes": [
+      {
+       "quote": "The colon is home to many bacteria or “intestinal flora” that aid in the digestive processes.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_7201/tier2.md",
+   "text": "The large intestine, the last part of the digestive tract, finishes absorbing nutrients and water, makes certain vitamins, and forms and eliminates feces, the semisolid waste of digestion. The large intestine frames the small intestine on three sides. Although shorter than the small intestine, the large intestine is called large because it is more than twice as wide, about 3 inches across. The large intestine starts with the cecum, a sac-like pouch that takes in the contents of the ileum, the end of the small intestine, and keeps absorbing water and salts. The colon, the part between the cecum and the rectum, is divided into four regions: the ascending, transverse, descending and sigmoid colon. The rectum leads into the anal canal, the last stretch of the digestive tract, which opens to the outside at the anus. In the colon wall, the lengthwise muscle forms just three bands, the teniae coli, and their contraction presses on the wall, creating a series of pouches called haustra. Chemical digestion in the large intestine is done entirely by bacteria inside the colon, which break down some of the leftover carbohydrates. Goblet cells in the lining secrete mucus that eases the passage of feces, while absorptive cells called enterocytes take up water, salts and vitamins made by gut bacteria. Usually three or four times a day, during a meal or right after, strong waves called mass movements quickly push the contents from the middle of the transverse colon toward the rectum.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Small & Large Intestine",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Small & Large Intestine. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The large intestine, the last part of the digestive tract, finishes absorbing nutrients and water, makes certain vitamins, and forms and eliminates feces, the semisolid waste of digestion.",
+     "defines": "feces",
+     "quotes": [
+      {
+       "quote": "The large intestine is the terminal part of the alimentary canal. The primary function of this organ is to finish absorption of nutrients and water, synthesize certain vitamins, form feces, and eliminate feces from the body.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "feces: semisolid waste product of digestion",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The large intestine frames the small intestine on three sides.",
+     "quotes": [
+      {
+       "quote": "The large intestine runs from the appendix to the anus. It frames the small intestine on three sides.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Although shorter than the small intestine, the large intestine is called large because it is more than twice as wide, about 3 inches across.",
+     "quotes": [
+      {
+       "quote": "Despite its being about one-half as long as the small intestine, it is called large because it is more than twice the diameter of the small intestine, about 3 inches.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The large intestine starts with the cecum, a sac-like pouch that takes in the contents of the ileum, the end of the small intestine, and keeps absorbing water and salts.",
+     "defines": "ileum",
+     "quotes": [
+      {
+       "quote": "The first part of the large intestine is the cecum, a sac-like structure that is suspended inferior to the ileocecal valve. It is about 6 cm (2.4 in) long, receives the contents of the ileum, and continues the absorption of water and salts.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ileum: end of the small intestine between the jejunum and the large intestine",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The colon, the part between the cecum and the rectum, is divided into four regions: the ascending, transverse, descending and sigmoid colon.",
+     "defines": "colon",
+     "quotes": [
+      {
+       "quote": "The colon can be divided into four regions, the ascending colon, the transverse colon, the descending colon, and the sigmoid colon.",
+       "section": "34.1 Digestive Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "colon: part of the large intestine between the cecum and the rectum",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The rectum leads into the anal canal, the last stretch of the digestive tract, which opens to the outside at the anus.",
+     "quotes": [
+      {
+       "quote": "The last 2 to 3 cm of the digestive tract is the anal canal, which continues from the rectum and opens to the outside at the anus.",
+       "section": "SEER Training Modules: Small & Large Intestine",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Small & Large Intestine. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "In the colon wall, the lengthwise muscle forms just three bands, the teniae coli, and their contraction presses on the wall, creating a series of pouches called haustra.",
+     "quotes": [
+      {
+       "quote": "The longitudinal muscle is limited to three distinct bands, called teniae coli, that run the entire length of the colon. Contraction of the teniae coli exerts pressure on the wall and creates a series of pouches, called haustra, along the colon.",
+       "section": "SEER Training Modules: Small & Large Intestine",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Small & Large Intestine. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Chemical digestion in the large intestine is done entirely by bacteria inside the colon, which break down some of the leftover carbohydrates.",
+     "quotes": [
+      {
+       "quote": "Therefore, chemical digestion in the large intestine occurs exclusively because of bacteria in the lumen of the colon. Through the process of saccharolytic fermentation, bacteria break down some of the remaining carbohydrates.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Goblet cells in the lining secrete mucus that eases the passage of feces, while absorptive cells called enterocytes take up water, salts and vitamins made by gut bacteria.",
+     "quotes": [
+      {
+       "quote": "These goblet cells secrete mucus that eases the movement of feces and protects the intestine from the effects of the acids and gases produced by enteric bacteria. The enterocytes absorb water and salts as well as vitamins produced by your intestinal bacteria.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Usually three or four times a day, during a meal or right after, strong waves called mass movements quickly push the contents from the middle of the transverse colon toward the rectum.",
+     "quotes": [
+      {
+       "quote": "The third type is a mass movement. These strong waves start midway through the transverse colon and quickly force the contents toward the rectum. Mass movements usually occur three or four times per day, either while you eat or immediately afterward.",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -69,9 +351,24 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12379",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12379",
+   "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
    "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 34.1 Digestive Systems",
+   "url": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Small & Large Intestine",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html",
+   "license": "Free of copyright (NCI reuse policy)"
   }
  ],
  "zoom": {

@@ -27,27 +27,113 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/UBERON_0003688/tier1.auto.md",
-   "text": "A fold of peritoneum originating at the stomach and supporting the viscera.",
+   "status": "drafted",
+   "file": "content/UBERON_0003688/tier1.md",
+   "text": "The omentum helps hold the stomach in place. The omentum is a fold of the peritoneum, the membrane that lines the abdomen and covers its organs. The greater omentum lies like an apron over the small intestine. The lesser omentum connects the liver to the stomach.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33209",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33209",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33209",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33209",
+     "title": "OpenStax Anatomy and Physiology 2e, 23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0003688 omentum",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0003688",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.1 Overview of the Digestive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33209, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The omentum helps hold the stomach in place.",
+     "quotes": [
+      {
+       "quote": "The stomach is held in place by the lesser omentum, which extends from the liver to the lesser curvature, and the greater omentum, which runs from the greater curvature to the posterior abdominal wall.",
+       "section": "23.4 The Stomach",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The omentum is a fold of the peritoneum, the membrane that lines the abdomen and covers its organs.",
+     "defines": "peritoneum",
+     "quotes": [
+      {
+       "quote": "A fold of peritoneum originating at the stomach and supporting the viscera.",
+       "section": "UBERON:0003688 omentum",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0003688",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "peritoneum: serous membrane that lines the abdominopelvic cavity and covers the organs found there",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The greater omentum lies like an apron over the small intestine.",
+     "quotes": [
+      {
+       "quote": "Greater omentum | Apron-like structure that lies superficial to the small intestine and transverse colon",
+       "section": "23.1 Overview of the Digestive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lesser omentum connects the liver to the stomach.",
+     "quotes": [
+      {
+       "quote": "The lesser omentum tethers the liver to the lesser curvature of the stomach.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -59,8 +145,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33209",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33209",
+   "title": "OpenStax Anatomy and Physiology 2e, 23.4 The Stomach",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0003688 omentum",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0003688",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.1 Overview of the Digestive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
    "license": "CC BY 4.0"
   }
  ],

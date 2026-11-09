@@ -31,30 +31,396 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7405/tier1.auto.md",
-   "text": "One of two major branches of the trachea. Bifurcation of the trachea at the carina forms the left main bronchus and the right main bronchus.",
+   "status": "drafted",
+   "file": "content/FMA_7405/tier1.md",
+   "text": "Each main bronchus is a tube that carries air into and out of a lung. The trachea, or windpipe, splits into the right and left main bronchi. Rings of cartilage, a firm but flexible tissue, keep each main bronchus from collapsing. Each main bronchus is lined with cells that make mucus, a sticky fluid that traps tiny particles.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12284",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12284",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12284, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each main bronchus is a tube that carries air into and out of a lung.",
+     "defines": "bronchus",
+     "quotes": [
+      {
+       "quote": "bronchus: tube connected to the trachea that branches into many subsidiaries and provides a passageway for air to enter and leave the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The trachea, or windpipe, splits into the right and left main bronchi.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "The trachea branches into the right and left primary bronchi at the carina.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Rings of cartilage, a firm but flexible tissue, keep each main bronchus from collapsing.",
+     "defines": "cartilage",
+     "quotes": [
+      {
+       "quote": "Rings of cartilage, similar to those of the trachea, support the structure of the bronchi and prevent their collapse.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each main bronchus is lined with cells that make mucus, a sticky fluid that traps tiny particles.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The trachea branches into the right and left primary bronchi at the carina. These bronchi are also lined by pseudostratified ciliated columnar epithelium containing mucus-producing goblet cells",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_7405/tier2.md",
+   "text": "Each main bronchus is a tube that carries air from the trachea, or windpipe, into a lung and back out again. The trachea splits into the right and left main bronchi at the carina, a raised structure whose nerve tissue triggers strong coughing if food or another foreign object is present. This split happens in the mediastinum, the space in the chest between the two lungs. The right main bronchus, which connects to the right lung, is wider but shorter than the left main bronchus. Each main bronchus enters its lung at the hilum, an indented region where blood vessels and nerves also enter the lung. Rings of cartilage, a firm but flexible tissue, support each main bronchus and stop the airway from collapsing, much like the rings of the trachea. The lining of each main bronchus contains goblet cells, which make mucus, a sticky fluid that traps tiny particles. Cilia, tiny hair-like projections on the lining, beat together to sweep the mucus and trapped particles up to the throat to be swallowed. Inside the lung, each main bronchus divides into secondary bronchi, then tertiary bronchi, and then bronchioles, small branches 1 mm or less across. The branches keep getting smaller until they end in tiny air sacs called alveoli.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12284 Main Bronchus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12284",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Bronchi, Bronchial Tree, & Lungs",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33486 Right Main Bronchus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33486",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+     "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; SEER Training Modules: Bronchi, Bronchial Tree, & Lungs. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each main bronchus is a tube that carries air from the trachea, or windpipe, into a lung and back out again.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "bronchus: tube connected to the trachea that branches into many subsidiaries and provides a passageway for air to enter and leave the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The trachea splits into the right and left main bronchi at the carina, a raised structure whose nerve tissue triggers strong coughing if food or another foreign object is present.",
+     "defines": "carina",
+     "quotes": [
+      {
+       "quote": "Bifurcation of the trachea at the carina forms the left main bronchus and the right main bronchus.",
+       "section": "NCIT:C12284 Main Bronchus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12284",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "The carina is a raised structure that contains specialized nervous tissue that induces violent coughing if a foreign body, such as food, is present.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This split happens in the mediastinum, the space in the chest between the two lungs.",
+     "defines": "mediastinum",
+     "quotes": [
+      {
+       "quote": "In the mediastinum, at the level of the fifth thoracic vertebra, the trachea divides into the right and left primary bronchi.",
+       "section": "SEER Training Modules: Bronchi, Bronchial Tree, & Lungs",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Bronchi, Bronchial Tree, & Lungs. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The human heart is located within the thoracic cavity, medially between the lungs in the space known as the mediastinum.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The right main bronchus, which connects to the right lung, is wider but shorter than the left main bronchus.",
+     "quotes": [
+      {
+       "quote": "One of the two main bronchi. It is wider but shorter than the left main bronchus and connects to the right lung.",
+       "section": "NCIT:C33486 Right Main Bronchus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33486",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Each main bronchus enters its lung at the hilum, an indented region where blood vessels and nerves also enter the lung.",
+     "defines": "hilum",
+     "quotes": [
+      {
+       "quote": "The primary bronchi enter the lungs at the hilum, a concave region where blood vessels, lymphatic vessels, and nerves also enter the lungs.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rings of cartilage, a firm but flexible tissue, support each main bronchus and stop the airway from collapsing, much like the rings of the trachea.",
+     "defines": "cartilage",
+     "quotes": [
+      {
+       "quote": "Rings of cartilage, similar to those of the trachea, support the structure of the bronchi and prevent their collapse.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lining of each main bronchus contains goblet cells, which make mucus, a sticky fluid that traps tiny particles.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The trachea branches into the right and left primary bronchi at the carina. These bronchi are also lined by pseudostratified ciliated columnar epithelium containing mucus-producing goblet cells",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Cilia, tiny hair-like projections on the lining, beat together to sweep the mucus and trapped particles up to the throat to be swallowed.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The bronchi and bronchioles contain cilia, small hair-like projections that line the walls of the bronchi and bronchioles",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside the lung, each main bronchus divides into secondary bronchi, then tertiary bronchi, and then bronchioles, small branches 1 mm or less across.",
+     "defines": "bronchioles",
+     "quotes": [
+      {
+       "quote": "Air enters the lungs through the two primary (main) bronchi (singular: bronchus). Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "bronchiole: branch of bronchi that are 1 mm or less in diameter and terminate at alveolar sacs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The branches keep getting smaller until they end in tiny air sacs called alveoli.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "The bronchi branch into smaller and smaller passageways until they terminate in tiny air sacs called alveoli.",
+       "section": "SEER Training Modules: Bronchi, Bronchial Tree, & Lungs",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Bronchi, Bronchial Tree, & Lungs. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    }
+   ],
+   "grade": 9.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -63,8 +429,53 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12284",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12284",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+   "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12284 Main Bronchus",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12284",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Bronchi, Bronchial Tree, & Lungs",
+   "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33486 Right Main Bronchus",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33486",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+   "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
    "license": "CC BY 4.0"
   }
  ],

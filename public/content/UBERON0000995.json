@@ -35,30 +35,355 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/UBERON_0000995/tier1.auto.md",
-   "text": "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.",
+   "status": "drafted",
+   "file": "content/UBERON_0000995/tier1.md",
+   "text": "The uterus is a hollow, muscular organ where a fetus, a developing human, grows during pregnancy. The uterus sits in the pelvis, with an ovary on each side. Part of the endometrium, the inner lining of the uterus, is shed during each menstrual period and then grows back. During labor, the muscle of the uterus contracts to help push the baby out.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12405",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12405",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+     "title": "NCI Thesaurus, NCIT:C12405 Uterus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12405",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12405, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The uterus is a hollow, muscular organ where a fetus, a developing human, grows during pregnancy.",
+     "defines": "fetus",
+     "quotes": [
+      {
+       "quote": "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.",
+       "section": "NCIT:C12405 Uterus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12405",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "fetus: developing human during the time from the end of the embryonic period (week 9) to birth",
+       "section": "Chapter 28 Key Terms (Development and Inheritance)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The uterus sits in the pelvis, with an ovary on each side.",
+     "quotes": [
+      {
+       "quote": "The female gonads are the ovaries, which are located on each side of the uterus in the pelvic cavity.",
+       "section": "SEER Training Modules: Review: Introduction to the Reproductive System",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Part of the endometrium, the inner lining of the uterus, is shed during each menstrual period and then grows back.",
+     "defines": "endometrium",
+     "quotes": [
+      {
+       "quote": "A portion of the lining of the uterus sloughs off during each menstrual period, and then builds up again in preparation for an implantation.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "endometrium: inner lining of the uterus, part of which builds up during the secretory phase of the menstrual cycle and then sheds with menses",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "During labor, the muscle of the uterus contracts to help push the baby out.",
+     "quotes": [
+      {
+       "quote": "Contractions of the smooth muscle in the uterus aid in passing the baby through the vagina during labor.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0000995/tier2.md",
+   "text": "The uterus is the muscular organ in which a developing human, called an embryo and later a fetus, is nourished until birth. This hollow, thick-walled organ lies in the pelvic cavity, the space that houses the reproductive organs. Before a first pregnancy, the uterus is about the size and shape of a pear, with the narrow end pointing down. The uterus has three regions: the fundus at the top, the body in the middle, and the cervix, a narrow lower part that projects into the vagina. From outside to inside, the uterus has three layers: the perimetrium, the muscular myometrium and the endometrium. Most of the uterus is myometrium, whose muscle fibers run horizontally, vertically and diagonally, allowing strong contractions in labor and weaker ones that help expel menstrual blood. The endometrium has two layers: a basal layer, which lies against the myometrium and is not shed during menstruation, and a functional layer. Rising levels of estrogen and progesterone, sex hormones made by the ovaries, make the functional layer grow and thicken. A fertilized egg implants, or embeds itself, in the functional layer; if no egg is fertilized, only this layer is shed during menstruation. As pregnancy goes on, the uterus grows dramatically to hold the fetus.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Uberon, UBERON:0000995 uterus",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0000995",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.2 Embryonic Development",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12405 Uterus",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12405",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 1.6 Anatomical Terminology",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Genital Tract",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.4 Changes During Pregnancy, Labor, and Birth",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The uterus is the muscular organ in which a developing human, called an embryo and later a fetus, is nourished until birth.",
+     "defines": "embryo",
+     "quotes": [
+      {
+       "quote": "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.",
+       "section": "UBERON:0000995 uterus",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0000995",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "A developing human is referred to as an embryo during weeks 3–8, and a fetus from the ninth week of gestation until birth.",
+       "section": "28.2 Embryonic Development",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This hollow, thick-walled organ lies in the pelvic cavity, the space that houses the reproductive organs.",
+     "defines": "pelvic cavity",
+     "quotes": [
+      {
+       "quote": "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman.",
+       "section": "NCIT:C12405 Uterus",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12405",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "the pelvic cavity, the division that houses the organs of reproduction.",
+       "section": "1.6 Anatomical Terminology",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Before a first pregnancy, the uterus is about the size and shape of a pear, with the narrow end pointing down.",
+     "quotes": [
+      {
+       "quote": "Before the first pregnancy, the uterus is about the size and shape of a pear, with the narrow portion directed inferiorly.",
+       "section": "SEER Training Modules: Genital Tract",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The uterus has three regions: the fundus at the top, the body in the middle, and the cervix, a narrow lower part that projects into the vagina.",
+     "defines": "fundus",
+     "quotes": [
+      {
+       "quote": "It has three sections. The portion of the uterus superior to the opening of the uterine tubes is called the fundus. The middle section of the uterus is called the body of uterus (or corpus). The cervix is the narrow inferior portion of the uterus that projects into the vagina.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From outside to inside, the uterus has three layers: the perimetrium, the muscular myometrium and the endometrium.",
+     "defines": "perimetrium",
+     "quotes": [
+      {
+       "quote": "The uterus has three regions: the fundus, the body, and the cervix. It has three layers: the outer perimetrium, the muscular myometrium, and the inner endometrium.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Most of the uterus is myometrium, whose muscle fibers run horizontally, vertically and diagonally, allowing strong contractions in labor and weaker ones that help expel menstrual blood.",
+     "quotes": [
+      {
+       "quote": "Most of the uterus is myometrial tissue, and the muscle fibers run horizontally, vertically, and diagonally, allowing the powerful contractions that occur during labor and the less powerful contractions (or cramps) that help to expel menstrual blood during a woman’s period.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The endometrium has two layers: a basal layer, which lies against the myometrium and is not shed during menstruation, and a functional layer.",
+     "quotes": [
+      {
+       "quote": "Structurally, the endometrium consists of two layers: the stratum basalis and the stratum functionalis (the basal and functional layers). The stratum basalis layer is part of the lamina propria and is adjacent to the myometrium; this layer does not shed during menses.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rising levels of estrogen and progesterone, sex hormones made by the ovaries, make the functional layer grow and thicken.",
+     "defines": "estrogen and progesterone",
+     "quotes": [
+      {
+       "quote": "It is the stratum functionalis that grows and thickens in response to increased levels of estrogen and progesterone.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A fertilized egg implants, or embeds itself, in the functional layer; if no egg is fertilized, only this layer is shed during menstruation.",
+     "defines": "implantation",
+     "quotes": [
+      {
+       "quote": "This inner functional layer provides the proper site of implantation for the fertilized egg, and—should fertilization not occur—it is only the stratum functionalis layer of the endometrium that sheds during menstruation.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "implantation: process by which a blastocyst embeds itself in the uterine endometrium",
+       "section": "Chapter 28 Key Terms (Development and Inheritance)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As pregnancy goes on, the uterus grows dramatically to hold the fetus.",
+     "quotes": [
+      {
+       "quote": "During the second and third trimesters, the pre-pregnancy uterus—about the size of a fist—grows dramatically to contain the fetus",
+       "section": "28.4 Changes During Pregnancy, Labor, and Birth",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -67,8 +392,58 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12405",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12405",
+   "title": "NCI Thesaurus, NCIT:C12405 Uterus",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12405",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0000995 uterus",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0000995",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 28.2 Embryonic Development",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 1.6 Anatomical Terminology",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Genital Tract",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 28.4 Changes During Pregnancy, Labor, and Birth",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
    "license": "CC BY 4.0"
   }
  ],

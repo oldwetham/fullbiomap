@@ -29,30 +29,366 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/UBERON_0001303/tier1.auto.md",
-   "text": "The fallopian tube that extends from the uterus to the ovary in the left side of the pelvic cavity.",
+   "status": "drafted",
+   "file": "content/UBERON_0003889/tier1.md",
+   "text": "Each fallopian tube uses tiny, hair-like cilia to move eggs from the ovary toward the uterus. Each tube reaches from the uterus to the ovary but does not touch the ovary. Instead, finger-like projections called fimbriae help a released egg enter the tube. Fertilization, when a sperm joins an egg, usually happens inside the tube.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C32959",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C32959",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+     "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Genital Tract",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32959, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each fallopian tube uses tiny, hair-like cilia to move eggs from the ovary toward the uterus.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "Beating cilia on cells in the female fallopian tubes move egg cells from the ovary towards the uterus.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each tube reaches from the uterus to the ovary but does not touch the ovary.",
+     "quotes": [
+      {
+       "quote": "The oviducts, or fallopian tubes, extend from the uterus in the lower abdominal cavity to the ovaries, but they are not in contact with the ovaries.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Instead, finger-like projections called fimbriae help a released egg enter the tube.",
+     "defines": "fimbriae",
+     "quotes": [
+      {
+       "quote": "The lateral ends of the oviducts flare out into a trumpet-like structure and have a fringe of finger-like projections called fimbriae, illustrated in b. When an egg is released at ovulation, the fimbrae help the nonmotile egg enter into the tube and passage to the uterus.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fertilization, when a sperm joins an egg, usually happens inside the tube.",
+     "defines": "fertilization",
+     "quotes": [
+      {
+       "quote": "Because the oocyte is fertile for only 24 to 48 hours, fertilization usually occurs in the Fallopian tube.",
+       "section": "SEER Training Modules: Genital Tract",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse.",
+       "section": "28.1 Fertilization",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0003889",
+    "label": "Fallopian tube"
+   }
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0003889/tier2.md",
+   "text": "Each fallopian tube, also called a uterine tube or oviduct, carries the oocyte, or egg, from the ovary to the uterus. Each tube reaches from the uterus to the ovary but is not in contact with the ovary. The isthmus is the narrow end that joins the uterus, while the wide far end, the infundibulum, flares out into slender, finger-like projections called fimbriae. The middle region, called the ampulla, is where fertilization, the joining of a sperm and an egg, often takes place. The tube wall has three layers: an outer covering called the serosa, a middle layer of muscle, and an inner lining called the mucosa. Besides cells that secrete mucus, the mucosa has cells with cilia, short hair-like structures that can move substances along a cell's surface. At ovulation, when the ovary releases an oocyte, the fimbriae become more active and create currents that help draw the oocyte into the tube. Once the oocyte is inside the tube, muscle contractions and beating cilia move the oocyte slowly toward the uterus. If the oocyte is fertilized, the zygote, or fertilized egg, divides into two cells, then four, as it moves through the tube into the uterus.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 introduction: Introduction",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Genital Tract",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each fallopian tube, also called a uterine tube or oviduct, carries the oocyte, or egg, from the ovary to the uterus.",
+     "defines": "oocyte",
+     "quotes": [
+      {
+       "quote": "The uterine tubes (also called fallopian tubes or oviducts) serve as the conduit of the oocyte from the ovary to the uterus",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the female gamete, an oocyte (egg)",
+       "section": "Chapter 27 introduction: Introduction",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each tube reaches from the uterus to the ovary but is not in contact with the ovary.",
+     "quotes": [
+      {
+       "quote": "The oviducts, or fallopian tubes, extend from the uterus in the lower abdominal cavity to the ovaries, but they are not in contact with the ovaries.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The isthmus is the narrow end that joins the uterus, while the wide far end, the infundibulum, flares out into slender, finger-like projections called fimbriae.",
+     "defines": "fimbriae",
+     "quotes": [
+      {
+       "quote": "The isthmus is the narrow medial end of each uterine tube that is connected to the uterus. The wide distal infundibulum flares out with slender, finger-like projections called fimbriae.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The middle region, called the ampulla, is where fertilization, the joining of a sperm and an egg, often takes place.",
+     "defines": "fertilization",
+     "quotes": [
+      {
+       "quote": "The middle region of the tube, called the ampulla, is where fertilization often occurs.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse.",
+       "section": "28.1 Fertilization",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The tube wall has three layers: an outer covering called the serosa, a middle layer of muscle, and an inner lining called the mucosa.",
+     "defines": "serosa",
+     "quotes": [
+      {
+       "quote": "The uterine tubes also have three layers: an outer serosa, a middle smooth muscle layer, and an inner mucosal layer.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "serosa: membrane that covers organs and reduces friction; also referred to as serous membrane",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Besides cells that secrete mucus, the mucosa has cells with cilia, short hair-like structures that can move substances along a cell's surface.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "In addition to its mucus-secreting cells, the inner mucosa contains ciliated cells that beat in the direction of the uterus, producing a current that will be critical to move the oocyte.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At ovulation, when the ovary releases an oocyte, the fimbriae become more active and create currents that help draw the oocyte into the tube.",
+     "defines": "ovulation",
+     "quotes": [
+      {
+       "quote": "At the time of ovulation, the fimbriae increase their activity and create currents in the peritoneal fluid that help propel the oocyte into the Fallopian tube.",
+       "section": "SEER Training Modules: Genital Tract",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Genital Tract. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Once the oocyte is inside the tube, muscle contractions and beating cilia move the oocyte slowly toward the uterus.",
+     "quotes": [
+      {
+       "quote": "Once inside, the muscular contractions and beating cilia move the oocyte slowly toward the uterus.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "If the oocyte is fertilized, the zygote, or fertilized egg, divides into two cells, then four, as it moves through the tube into the uterus.",
+     "defines": "zygote",
+     "quotes": [
+      {
+       "quote": "If the oocyte is successfully fertilized, the resulting zygote will begin to divide into two cells, then four, and so on, as it makes its way through the uterine tube and into the uterus.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "zygote: fertilized egg; a diploid cell resulting from the fertilization of haploid gametes from the male and female lines",
+       "section": "Chapter 28 Key Terms (Development and Inheritance)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0003889",
+    "label": "Fallopian tube"
+   }
   },
   "tier3": {
    "status": "missing"
@@ -61,8 +397,48 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C32959",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32959",
+   "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Genital Tract",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 introduction: Introduction",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
    "license": "CC BY 4.0"
   }
  ],

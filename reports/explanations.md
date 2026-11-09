@@ -8,7 +8,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 
 | Group | Subjects | Plain written | Core written | Structures covered |
 | --- | --- | --- | --- | --- |
-| Organs | 48 | 1 of 39 | 2 of 48 | 90 |
+| Organs | 48 | 39 of 39 | 47 of 48 | 90 |
 | Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
 | Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 49 of 49 | 0 of 0 | 210 |
@@ -22,58 +22,58 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Organs (48)
 
-- Adrenal gland (FMA:9604; also Right adrenal gland, Left adrenal gland): Plain: not written; Core: not written
-- Appendix (FMA:14542): Plain: not written; Core: not written
-- Brain (FMA:50801): Core: not written
-- Diaphragm (FMA:13295): Core: not written
-- Epididymis (FMA:18255; also Right epididymis, Left epididymis): Plain: not written; Core: not written
-- Esophagus (FMA:7131): Plain: not written; Core: not written
-- External ear (FMA:52781): Plain: not written; Core: not written
-- Eye (UBERON:0000970; also Right eyeball, Left eyeball, Right eye, Left eye): Plain: not written; Core: not written
-- Fallopian tube (UBERON:0003889; also Right fallopian tube, Left fallopian tube): Plain: not written; Core: not written
-- Gallbladder (FMA:7202): Plain: not written; Core: not written
+- Adrenal gland (FMA:9604; also Right adrenal gland, Left adrenal gland): Plain: drafted, grade 8.7; Core: drafted
+- Appendix (FMA:14542): Plain: drafted, grade 9.4; Core: drafted
+- Brain (FMA:50801): Core: drafted
+- Diaphragm (FMA:13295): Core: drafted
+- Epididymis (FMA:18255; also Right epididymis, Left epididymis): Plain: drafted, grade 8.4; Core: drafted
+- Esophagus (FMA:7131): Plain: drafted, grade 8.2; Core: drafted
+- External ear (FMA:52781): Plain: drafted, grade 7.9; Core: drafted
+- Eye (UBERON:0000970; also Right eyeball, Left eyeball, Right eye, Left eye): Plain: drafted, grade 6.3; Core: drafted
+- Fallopian tube (UBERON:0003889; also Right fallopian tube, Left fallopian tube): Plain: drafted, grade 8.9; Core: drafted
+- Gallbladder (FMA:7202): Plain: drafted, grade 8.6; Core: drafted
 - Heart (FMA:7088): Core: drafted
-- Intervertebral disk (FMA:10446): Plain: not written; Core: not written
+- Intervertebral disk (FMA:10446): Plain: drafted, grade 7.8; Core: drafted
 - Kidney (FMA:7203; also Right kidney, Left kidney): Plain: drafted, grade 7.2; Core: drafted
-- Knee joint (UBERON:0001485; also Right knee joint, Left knee joint, Right knee, Left knee): Plain: not written; Core: not written
-- Lacrimal gland (FMA:59101; also Right lacrimal gland, Left lacrimal gland): Plain: not written; Core: not written
-- Large intestine (FMA:7201): Plain: not written; Core: not written
-- Larynx (UBERON:0001737): Plain: not written; Core: not written
-- Liver (FMA:7197): Core: not written
-- Lung (UBERON:0002048; also Right lung, Left lung): Plain: not written; Core: not written
-- Main bronchus (FMA:7405; also Right main bronchus, Left main bronchus): Plain: not written; Core: not written
-- Mammary gland (UBERON:0001911; also Set of lactiferous glands in right breast, Set of lactiferous glands in left breast): Plain: not written; Core: not written
-- Mesenteric lymph node (UBERON:0002509): Plain: not written; Core: not written
-- Mouth (FMA:49184): Plain: not written; Core: not written
-- Omentum (UBERON:0003688): Plain: not written; Core: not written
-- Ovary (UBERON:0000992; also Right ovary, Left ovary, Right ovary, Left ovary): Plain: not written; Core: not written
-- Palatine tonsil (UBERON:0002373; also Right palatine tonsil, Left palatine tonsil): Plain: not written; Core: not written
-- Pancreas (FMA:7198): Core: not written
-- Parotid gland (UBERON:0001831; also Right parotid gland, Left parotid gland): Plain: not written; Core: not written
-- Pineal body (FMA:62033): Plain: not written; Core: not written
-- Pituitary gland (FMA:13889): Plain: not written; Core: not written
-- Prostate (FMA:9600): Plain: not written; Core: not written
-- Rectum (FMA:14544): Plain: not written; Core: not written
-- Seminal vesicle (FMA:19386; also Right seminal vesicle, Left seminal vesicle): Plain: not written; Core: not written
-- Skin (FMA:7163): Plain: not written; Core: not written
-- Small intestine (FMA:7200): Plain: not written; Core: not written
-- Spinal cord (FMA:7647): Plain: not written; Core: not written
-- Spleen (FMA:7196): Core: not written
-- Stomach (FMA:7148): Core: not written
-- Sublingual gland (FMA:59791; also Right sublingual gland, Left sublingual gland): Plain: not written; Core: not written
-- Submandibular gland (FMA:55093; also Right submandibular gland, Left submandibular gland): Plain: not written; Core: not written
-- Testis (FMA:7210; also Right testis, Left testis): Plain: not written; Core: not written
-- Thymus (FMA:9607): Plain: not written; Core: not written
-- Tongue (FMA:54640): Plain: not written; Core: not written
-- Trachea (FMA:7394): Core: not written
-- Ureter (FMA:9704; also Right ureter, Left ureter): Plain: not written; Core: not written
-- Urethra (FMA:19667): Plain: not written; Core: not written
-- Urinary bladder (FMA:15900): Core: not written
-- Uterus (UBERON:0000995): Plain: not written; Core: not written
+- Knee joint (UBERON:0001485; also Right knee joint, Left knee joint, Right knee, Left knee): Plain: drafted, grade 7.4; Core: drafted
+- Lacrimal gland (FMA:59101; also Right lacrimal gland, Left lacrimal gland): Plain: drafted, grade 5.8; Core: drafted
+- Large intestine (FMA:7201): Plain: drafted, grade 7.6; Core: drafted
+- Larynx (UBERON:0001737): Plain: drafted, grade 6.4; Core: drafted
+- Liver (FMA:7197): Core: drafted
+- Lung (UBERON:0002048; also Right lung, Left lung): Plain: drafted, grade 6.3; Core: drafted
+- Main bronchus (FMA:7405; also Right main bronchus, Left main bronchus): Plain: drafted, grade 6.1; Core: drafted
+- Mammary gland (UBERON:0001911; also Set of lactiferous glands in right breast, Set of lactiferous glands in left breast): Plain: drafted, grade 6.7; Core: drafted
+- Mesenteric lymph node (UBERON:0002509): Plain: drafted, grade 6.7; Core: drafted
+- Mouth (FMA:49184): Plain: drafted, grade 7.2; Core: drafted
+- Omentum (UBERON:0003688): Plain: drafted, grade 7.4; Core: not published (see below)
+- Ovary (UBERON:0000992; also Right ovary, Left ovary, Right ovary, Left ovary): Plain: drafted, grade 8.8; Core: drafted
+- Palatine tonsil (UBERON:0002373; also Right palatine tonsil, Left palatine tonsil): Plain: drafted, grade 8.4; Core: drafted
+- Pancreas (FMA:7198): Core: drafted
+- Parotid gland (UBERON:0001831; also Right parotid gland, Left parotid gland): Plain: drafted, grade 8.6; Core: drafted
+- Pineal body (FMA:62033): Plain: drafted, grade 8.8; Core: drafted
+- Pituitary gland (FMA:13889): Plain: drafted, grade 7.8; Core: drafted
+- Prostate (FMA:9600): Plain: drafted, grade 5.3; Core: drafted
+- Rectum (FMA:14544): Plain: drafted, grade 5.4; Core: drafted
+- Seminal vesicle (FMA:19386; also Right seminal vesicle, Left seminal vesicle): Plain: drafted, grade 8.4; Core: drafted
+- Skin (FMA:7163): Plain: drafted, grade 8.7; Core: drafted
+- Small intestine (FMA:7200): Plain: drafted, grade 7.5; Core: drafted
+- Spinal cord (FMA:7647): Plain: drafted, grade 7.2; Core: drafted
+- Spleen (FMA:7196): Core: drafted
+- Stomach (FMA:7148): Core: drafted
+- Sublingual gland (FMA:59791; also Right sublingual gland, Left sublingual gland): Plain: drafted, grade 7.9; Core: drafted
+- Submandibular gland (FMA:55093; also Right submandibular gland, Left submandibular gland): Plain: drafted, grade 8.6; Core: drafted
+- Testis (FMA:7210; also Right testis, Left testis): Plain: drafted, grade 7.8; Core: drafted
+- Thymus (FMA:9607): Plain: drafted, grade 5.6; Core: drafted
+- Tongue (FMA:54640): Plain: drafted, grade 5.6; Core: drafted
+- Trachea (FMA:7394): Core: drafted
+- Ureter (FMA:9704; also Right ureter, Left ureter): Plain: drafted, grade 7; Core: drafted
+- Urethra (FMA:19667): Plain: drafted, grade 8.6; Core: drafted
+- Urinary bladder (FMA:15900): Core: drafted
+- Uterus (UBERON:0000995): Plain: drafted, grade 9.1; Core: drafted
 
 ### Cell types (70)
 
-- Adipocyte (CL:0000136): Plain: not written; Core: not written
+- Adipocyte (CL:0000136): Plain: not written; Core: not published (see below)
 - B cell (CL:0000236): Plain: not written; Core: not written
 - Basal cell (CL:0000646): Plain: not written; Core: not written
 - Basophil (CL:0000767): Plain: not written; Core: drafted
@@ -97,7 +97,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Epithelial cell of proximal tubule (CL:0002306): Plain: not written; Core: not written
 - Erythrocyte (CL:0000232): Plain: drafted, grade 6.9; Core: drafted
 - Fibroblast (CL:0000057): Plain: not written; Core: not written
-- Hematopoietic stem cell (CL:0000037): Plain: not written; Core: not written
+- Hematopoietic stem cell (CL:0000037): Plain: not written; Core: not published (see below)
 - Hepatocyte (CL:0000182): Plain: not written; Core: not written
 - Intestinal villus goblet cell (CL:1000317): Plain: not written; Core: not written
 - Keratinocyte (CL:0000312): Plain: not written; Core: not written
@@ -110,7 +110,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Melanocyte (CL:0000148): Plain: not written; Core: not written
 - Merkel cell (CL:0000242): Plain: not written; Core: not written
 - Mesothelial cell (CL:0000077): Plain: not written; Core: not written
-- Monocyte (CL:0000576): Plain: not written; Core: not written
+- Monocyte (CL:0000576): Plain: not written; Core: not published (see below)
 - Multiciliated columnar cell of tracheobronchial tree (CL:0002145): Plain: not written; Core: not written
 - Natural killer cell (CL:0000623): Plain: not written; Core: not written
 - Neutrophil (CL:0000775): Plain: not written; Core: not written
@@ -137,7 +137,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Retinal rod cell (CL:0000604): Plain: not written; Core: not written
 - Schwann cell (CL:0002573): Plain: not written; Core: not written
 - Sertoli cell (CL:0000216): Plain: not written; Core: not written
-- Smooth muscle cell (CL:0000192): Plain: not written; Core: not written
+- Smooth muscle cell (CL:0000192): Plain: not written; Core: not published (see below)
 - Sperm (CL:0000019): Plain: not written; Core: not written
 - Taste receptor cell (CL:0000209): Plain: not written; Core: not written
 - Thyroid follicular cell (CL:0002258): Plain: not written; Core: not written
@@ -1301,6 +1301,902 @@ Dropped:
    > “Macrophages stimulate T cells to release cytokines that enhance phagocytosis.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
    > “T lymphocytes: (also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
 
+### Digestive
+
+#### Appendix: Plain (drafted; grade 9.4; `content/FMA_14542/tier1.md`)
+
+1. With its lymphoid tissue, clusters of immune cells, the appendix may help the immune system. *(defines “lymphoid tissue”)*
+   > “Although the 7.6-cm (3-in) long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered vestigial.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “The lamina propria also serves an immune function by housing clusters of lymphocytes, making up the mucosa-associated lymphoid tissue (MALT).” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+2. Still, most see the appendix as vestigial: a leftover from a distant ancestor, with no clear use. *(defines “vestigial”)*
+   > “Although the 7.6-cm (3-in) long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered vestigial.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “vestigial structure: physical structure present in an organism but that has no apparent function and appears to be from a functional structure in a distant ancestor” ([Chapter 18 Key Terms (Evolution and the Origin of Species)](https://openstax.org/books/biology-2e/pages/18-key-terms), CC BY 4.0)
+3. However, one report suggests a possible use: storing gut bacteria to restock the gut after diarrheal illness.
+   > “However, at least one recent report postulates a survival advantage conferred by the appendix: In diarrheal illness, the appendix may serve as a bacterial reservoir to repopulate the enteric bacteria for those surviving the initial phases of the illness.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+4. The appendix is a coiled tube attached to the cecum, the pouch where the large intestine begins. *(defines “cecum”)*
+   > “appendix: (vermiform appendix) coiled tube attached to the cecum” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+   > “cecum: pouch forming the beginning of the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Appendix: Core (drafted; grade 13.3; `content/FMA_14542/tier2.md`)
+
+1. The appendix may play a part in immunity, because it contains lymphoid tissue, clusters of immune cells called lymphocytes. *(defines “lymphoid tissue”)*
+   > “Although the 7.6-cm (3-in) long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered vestigial.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “The lamina propria also serves an immune function by housing clusters of lymphocytes, making up the mucosa-associated lymphoid tissue (MALT).” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+2. In the inner layers of the appendix wall, this tissue takes part in sampling material from inside the gut, so the body can mount immune responses to potential pathogens, agents that can cause disease. *(defines “pathogens”)*
+   > “M (or microfold) cells that sample material from the intestinal lumen and transport it to nearby follicles so that adaptive immune responses to potential pathogens can be mounted. A similar process occurs involving MALT in the mucosa and submucosa of the appendix.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+3. Even so, the appendix is generally considered vestigial, a structure with no apparent function that seems left over from a working part in a distant ancestor. *(defines “vestigial”)*
+   > “Although the 7.6-cm (3-in) long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered vestigial.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “vestigial structure: physical structure present in an organism but that has no apparent function and appears to be from a functional structure in a distant ancestor” ([Chapter 18 Key Terms (Evolution and the Origin of Species)](https://openstax.org/books/biology-2e/pages/18-key-terms), CC BY 4.0)
+4. The appendix is a winding tube about 7.6 cm (3 in) long, attached to the cecum, the pouch that forms the beginning of the large intestine. *(defines “cecum”)*
+   > “The appendix (or vermiform appendix) is a winding tube that attaches to the cecum. Although the 7.6-cm (3-in) long appendix contains lymphoid tissue, suggesting an immunologic function, this organ is generally considered vestigial.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “cecum: pouch forming the beginning of the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+5. Also called the vermiform, or worm-like, appendix, it sits at the ileocecal valve, where the ileum, the end of the small intestine, gives way to the large intestine. *(defines “ileum”)*
+   > “The ileum ends and the large intestine begins at the ileocecal valve. The vermiform, “worm-like,” appendix is located at the ileocecal valve.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “ileum: end of the small intestine between the jejunum and the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. A mesentery is a double sheet of membrane that suspends digestive organs; the appendix's own mesentery, the mesoappendix, tethers the appendix to the mesentery of the ileum. *(defines “mesentery”)*
+   > “The mesoappendix, the mesentery of the appendix, tethers it to the mesentery of the ileum.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “A fourth, the peritoneum, is the serous membrane in the abdominal cavity that covers abdominal organs and forms double sheets of mesenteries that suspend many of the digestive organs.” ([4.1 Types of Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues), CC BY 4.0)
+7. The appendix's twisted shape gives gut bacteria a sheltered place to gather and multiply.
+   > “Moreover, its twisted anatomy provides a haven for the accumulation and multiplication of enteric bacteria.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### Esophagus: Plain (drafted; grade 8.2; `content/FMA_7131/tier1.md`)
+
+1. The esophagus is a muscular tube that pushes swallowed food to the stomach.
+   > “The esophagus is a tubular organ that connects the mouth to the stomach. The chewed and softened food passes through the esophagus after being swallowed. The smooth muscles of the esophagus undergo a series of wave like movements called peristalsis that push the food toward the stomach” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. Waves of muscle contraction, called peristalsis, do the pushing. *(defines “peristalsis”)*
+   > “Using peristalsis, or wave-like smooth muscle contractions, the muscles of the esophagus push the food towards the stomach.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “peristalsis: wave-like movements of muscle tissue” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+3. The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing. *(defines “pharynx”)*
+   > “The esophagus is a muscular tube that connects the pharynx to the stomach. It is approximately 25.4 cm (10 in) in length, located posterior to the trachea, and remains in a collapsed form when not engaged in swallowing.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “pharynx: throat” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Along the way down, the esophagus lies behind the trachea, or windpipe. *(defines “trachea”)*
+   > “As it descends, it is posterior to the trachea and anterior to the vertebral column.” ([SEER Training Modules: Pharynx & Esophagus](https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html), Free of copyright (NCI reuse policy))
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+
+#### Esophagus: Core (drafted; grade 10.8; `content/FMA_7131/tier2.md`)
+
+1. The esophagus is a muscular tube that carries swallowed food to the stomach.
+   > “The esophagus is a tubular organ that connects the mouth to the stomach. The chewed and softened food passes through the esophagus after being swallowed. The smooth muscles of the esophagus undergo a series of wave like movements called peristalsis that push the food toward the stomach” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. The esophagus begins at the pharynx, or throat, and stays collapsed when you are not swallowing. *(defines “pharynx”)*
+   > “The esophagus is a muscular tube that connects the pharynx to the stomach. It is approximately 25.4 cm (10 in) in length, located posterior to the trachea, and remains in a collapsed form when not engaged in swallowing.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “pharynx: throat” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. Along the way down, the esophagus lies behind the trachea, or windpipe. *(defines “trachea”)*
+   > “As it descends, it is posterior to the trachea and anterior to the vertebral column.” ([SEER Training Modules: Pharynx & Esophagus](https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html), Free of copyright (NCI reuse policy))
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+4. The esophagus then passes through an opening in the diaphragm, a dome-shaped breathing muscle, and empties into the stomach. *(defines “diaphragm”)*
+   > “It passes through an opening in the diaphragm, called the esophageal hiatus, and then empties into the stomach.” ([SEER Training Modules: Pharynx & Esophagus](https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html), Free of copyright (NCI reuse policy))
+   > “the diaphragm, a dome-shaped respiratory muscle” ([SEER Training Modules: Anatomical Terminology](https://training.seer.cancer.gov/anatomy/body/terminology.html), Free of copyright (NCI reuse policy))
+5. Peristalsis, waves of muscle contraction and relaxation, starts in the upper esophagus and pushes food toward the stomach. *(defines “peristalsis”)*
+   > “Rhythmic waves of peristalsis, which begin in the upper esophagus, propel the bolus of food toward the stomach.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “peristalsis: muscular contractions and relaxations that propel food through the GI tract” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. During peristalsis, a circular muscle layer squeezes the wall to force the food forward, while a lengthwise layer shortens the wall and widens it to receive the food.
+   > “The circular muscle layer of the muscularis contracts, pinching the esophageal wall and forcing the bolus forward. At the same time, the longitudinal muscle layer of the muscularis also contracts, shortening this area and pushing out its walls to receive the bolus.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+7. Upper and lower sphincters, muscles that ring the tube and act as valves, control food moving into and out of the esophagus. *(defines “sphincter”)*
+   > “Upper and lower esophageal sphincters control the movement of food into and out of the esophagus.” ([SEER Training Modules: Pharynx & Esophagus](https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html), Free of copyright (NCI reuse policy))
+   > “Recall that sphincters are muscles that surround tubes and serve as valves, closing the tube when the sphincters contract and opening it when they relax.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+8. The lower esophageal sphincter relaxes to let food into the stomach, then contracts to keep stomach acid from backing up into the esophagus.
+   > “The lower esophageal sphincter relaxes to let food pass into the stomach, and then contracts to prevent stomach acids from backing up into the esophagus.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+9. A tissue called stratified squamous epithelium, made of many layers of cells, lines the esophagus and protects it from wear by food. *(defines “stratified squamous epithelium”)*
+   > “The mucosa of the esophagus is made up of an epithelial lining that contains non-keratinized, stratified squamous epithelium, with a layer of basal and parabasal cells. This epithelium protects against erosion from food particles.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “stratified squamous epithelium: tissue that consists of multiple layers of cells with the most apical being flat scale-like cells; protects surfaces from abrasion” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+10. Glands in the inner lining release mucus, a thick, slippery substance that keeps the lining moist and helps food pass. *(defines “mucus”)*
+   > “The mucosa has glands that secrete mucus to keep the lining moist and well lubricated to ease the passage of food.” ([SEER Training Modules: Pharynx & Esophagus](https://training.seer.cancer.gov/anatomy/digestive/regions/pharynx.html), Free of copyright (NCI reuse policy))
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Gallbladder: Plain (drafted; grade 8.6; `content/FMA_7202/tier1.md`)
+
+1. The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver. *(defines “bile”)*
+   > “The gallbladder primarily stores, concentrates, and releases bile.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “bile: digestive juice produced by the liver; important for digestion of lipids” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+2. This pear-shaped organ sits under the liver.
+   > “A pear-shaped organ located under the liver that stores and concentrates bile secreted by the liver.” ([NCIT:C12377 Gallbladder](http://purl.obolibrary.org/obo/NCIT_C12377), CC BY 4.0)
+3. The gallbladder's lining removes water, making bile up to 10 times more concentrated.
+   > “The gallbladder's mucosa absorbs water and ions from bile, concentrating it by up to 10-fold.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+4. A hormone from the small intestine makes the gallbladder contract and release bile.
+   > “The mucosa of the small intestine secretes the hormones secretin and cholecystokinin. Secreting stimulates the pancreas to produce a bicarbonate-rich fluid that neutralizes the stomach acid. Cholecystokinin stimulates contraction of the gallbladder, which releases bile.” ([SEER Training Modules: Other Endocrine Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/other.html), Free of copyright (NCI reuse policy))
+
+#### Gallbladder: Core (drafted; grade 11; `content/FMA_7202/tier2.md`)
+
+1. The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver. *(defines “bile”)*
+   > “The gallbladder primarily stores, concentrates, and releases bile.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “bile: digestive juice produced by the liver; important for digestion of lipids” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+2. Bile helps digest fats through emulsification, the breaking of large fat drops into several smaller ones. *(defines “emulsification”)*
+   > “Bile aids in the digestion of lipids, primarily triglycerides by emulsification. Emulsification is a process in which large lipid globules are broken down into several small lipid globules.” ([34.3 Digestive System Processes](https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes), CC BY 4.0)
+3. The gallbladder is 8–10 cm long and sits in a shallow area on the back of the liver's right lobe.
+   > “The gallbladder is 8–10 cm (~3–4 in) long and is nested in a shallow area on the posterior aspect of the right lobe of the liver.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+4. A layer of peritoneum, the membrane that covers the abdominal organs, forms the gallbladder's outer coat and holds the gallbladder against the liver. *(defines “peritoneum”)*
+   > “Visceral peritoneum reflected from the liver capsule holds the gallbladder against the liver and forms the outer coat of the gallbladder.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “peritoneum: serous membrane that lines the abdominopelvic cavity and covers the organs found there” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+5. The gallbladder has three regions: the wide fundus tapers into the body, which narrows into the neck.
+   > “It is divided into three regions. The fundus is the widest portion and tapers medially into the body, which in turn narrows to become the neck.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+6. The gallbladder's cystic duct joins the common hepatic duct from the liver to form the common bile duct, which carries bile into the small intestine.
+   > “The bile ducts unite to form the larger right and left hepatic ducts, which themselves merge and exit the liver as the common hepatic duct. This duct then joins with the cystic duct from the gallbladder, forming the common bile duct through which bile flows into the small intestine.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+7. Between meals, bile is diverted into the gallbladder, where the bile is concentrated and stored until the next meal.
+   > “Between meals, bile is produced but conserved. The valve-like hepatopancreatic ampulla closes, allowing bile to divert to the gallbladder, where it is concentrated and stored until the next meal.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+8. The gallbladder's lining absorbs water from the bile, concentrating the bile up to 10-fold.
+   > “The gallbladder's mucosa absorbs water and ions from bile, concentrating it by up to 10-fold.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+9. When food reaches the small intestine, cells in the intestinal lining release a hormone called cholecystokinin, which makes the gallbladder contract. *(defines “cholecystokinin”)*
+   > “When food reaches the small intestine in the form of chyme, a digestive hormone called cholecystokinin (CCK) is released by intestinal cells in the intestinal mucosa. CCK stimulates the release of pancreatic lipase from the pancreas and stimulates the contraction of the gallbladder” ([24.3 Lipid Metabolism](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism), CC BY 4.0)
+10. The gallbladder wall's middle layer is involuntary smooth muscle; when it contracts, bile is pushed through the cystic duct into the bile duct. *(defines “smooth muscle”)*
+   > “The wall’s middle, muscular coat is made of smooth muscle fibers. When these fibers contract, the gallbladder’s contents are ejected through the cystic duct and into the bile duct” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “smooth muscle: under involuntary control, moves internal organs, cells contain a single nucleus, are spindle-shaped, and do not appear striated; each cell is a fiber” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Large intestine: Plain (drafted; grade 7.6; `content/FMA_7201/tier1.md`)
+
+1. The large intestine finishes absorbing water and nutrients and forms feces, the semisolid waste of digestion. *(defines “feces”)*
+   > “The large intestine is the terminal part of the alimentary canal. The primary function of this organ is to finish absorption of nutrients and water, synthesize certain vitamins, form feces, and eliminate feces from the body.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “feces: semisolid waste product of digestion” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. The large intestine frames the small intestine on three sides and ends at the anus.
+   > “The large intestine runs from the appendix to the anus. It frames the small intestine on three sides.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+3. The large intestine has three parts: the cecum, a pouch at the start; the colon; and the rectum. *(defines “cecum”)*
+   > “The human large intestine is much smaller in length compared to the small intestine but larger in diameter. It has three parts: the cecum, the colon, and the rectum.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “cecum: pouch forming the beginning of the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. The colon is home to many bacteria that help with digestion.
+   > “The colon is home to many bacteria or “intestinal flora” that aid in the digestive processes.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+
+#### Large intestine: Core (drafted; grade 12; `content/FMA_7201/tier2.md`)
+
+1. The large intestine, the last part of the digestive tract, finishes absorbing nutrients and water, makes certain vitamins, and forms and eliminates feces, the semisolid waste of digestion. *(defines “feces”)*
+   > “The large intestine is the terminal part of the alimentary canal. The primary function of this organ is to finish absorption of nutrients and water, synthesize certain vitamins, form feces, and eliminate feces from the body.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “feces: semisolid waste product of digestion” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. The large intestine frames the small intestine on three sides.
+   > “The large intestine runs from the appendix to the anus. It frames the small intestine on three sides.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+3. Although shorter than the small intestine, the large intestine is called large because it is more than twice as wide, about 3 inches across.
+   > “Despite its being about one-half as long as the small intestine, it is called large because it is more than twice the diameter of the small intestine, about 3 inches.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+4. The large intestine starts with the cecum, a sac-like pouch that takes in the contents of the ileum, the end of the small intestine, and keeps absorbing water and salts. *(defines “ileum”)*
+   > “The first part of the large intestine is the cecum, a sac-like structure that is suspended inferior to the ileocecal valve. It is about 6 cm (2.4 in) long, receives the contents of the ileum, and continues the absorption of water and salts.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “ileum: end of the small intestine between the jejunum and the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+5. The colon, the part between the cecum and the rectum, is divided into four regions: the ascending, transverse, descending and sigmoid colon. *(defines “colon”)*
+   > “The colon can be divided into four regions, the ascending colon, the transverse colon, the descending colon, and the sigmoid colon.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “colon: part of the large intestine between the cecum and the rectum” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. The rectum leads into the anal canal, the last stretch of the digestive tract, which opens to the outside at the anus.
+   > “The last 2 to 3 cm of the digestive tract is the anal canal, which continues from the rectum and opens to the outside at the anus.” ([SEER Training Modules: Small & Large Intestine](https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html), Free of copyright (NCI reuse policy))
+7. In the colon wall, the lengthwise muscle forms just three bands, the teniae coli, and their contraction presses on the wall, creating a series of pouches called haustra.
+   > “The longitudinal muscle is limited to three distinct bands, called teniae coli, that run the entire length of the colon. Contraction of the teniae coli exerts pressure on the wall and creates a series of pouches, called haustra, along the colon.” ([SEER Training Modules: Small & Large Intestine](https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html), Free of copyright (NCI reuse policy))
+8. Chemical digestion in the large intestine is done entirely by bacteria inside the colon, which break down some of the leftover carbohydrates.
+   > “Therefore, chemical digestion in the large intestine occurs exclusively because of bacteria in the lumen of the colon. Through the process of saccharolytic fermentation, bacteria break down some of the remaining carbohydrates.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+9. Goblet cells in the lining secrete mucus that eases the passage of feces, while absorptive cells called enterocytes take up water, salts and vitamins made by gut bacteria.
+   > “These goblet cells secrete mucus that eases the movement of feces and protects the intestine from the effects of the acids and gases produced by enteric bacteria. The enterocytes absorb water and salts as well as vitamins produced by your intestinal bacteria.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+10. Usually three or four times a day, during a meal or right after, strong waves called mass movements quickly push the contents from the middle of the transverse colon toward the rectum.
+   > “The third type is a mass movement. These strong waves start midway through the transverse colon and quickly force the contents toward the rectum. Mass movements usually occur three or four times per day, either while you eat or immediately afterward.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### Liver: Core (drafted; grade 12.2; `content/FMA_7197/tier2.md`)
+
+1. The liver, the largest internal organ in humans, plays a key part in digesting fats by making bile, a digestive juice needed to break down the fat in food. *(defines “bile”)*
+   > “The liver is the largest internal organ in humans and it plays a very important role in digestion of fats and detoxifying blood. The liver produces bile, a digestive juice that is required for the breakdown of fatty components of the food in the duodenum.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. As the body's chemical processing plant, the liver also packages nutrients from digestion, makes proteins carried in the blood, and gets rid of worn-out cell parts and wastes.
+   > “The liver is a complex biochemical processing plant. It packages nutrients absorbed by the digestive system; produces plasma proteins, clotting factors, and bile; and disposes of worn-out cell components and waste products.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. Protected by the surrounding ribs, the liver lies in the upper right part of the abdomen, below the diaphragm, the dome-shaped muscle under the lungs. *(defines “diaphragm”)*
+   > “The liver lies inferior to the diaphragm in the right upper quadrant of the abdominal cavity and receives protection from the surrounding ribs.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “diaphragm: domed-shaped skeletal muscle located under lungs that separates the thoracic cavity from the abdominal cavity” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+4. Two main parts, or lobes, make up the liver: a large right lobe and a much smaller left lobe. *(defines “lobe”)*
+   > “The liver is divided into two primary lobes: a large right lobe and a much smaller left lobe.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+5. Blood reaches the liver through the hepatic artery, which brings oxygen-rich blood from the heart, and through the hepatic portal vein, which brings nutrients absorbed from the small intestine. *(defines “hepatic portal vein”)*
+   > “the hepatic artery delivers oxygenated blood from the heart to the liver. The hepatic portal vein delivers partially deoxygenated blood containing nutrients absorbed from the small intestine” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “hepatic portal vein: vein that supplies deoxygenated nutrient-rich blood to the liver” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. The liver controls how these nutrients are distributed to the rest of the body and removes toxic substances, such as drugs and alcohol.
+   > “Absorbed nutrients in the blood are carried into the hepatic portal vein, which leads to the liver. There, the liver regulates the distribution of nutrients to the rest of the body and removes toxic substances, including drugs, alcohol, and some pathogens.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+7. The liver's working units are lobules, where blood flows from the edge of each lobule to a central vein through open, porous blood spaces called sinusoids. *(defines “sinusoid”)*
+   > “The functional units of the liver are lobules with sinusoids that carry blood from the periphery to the central vein of the lobule.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+   > “A hepatic sinusoid is an open, porous blood space formed by fenestrated capillaries from nutrient-rich hepatic portal veins and oxygen-rich hepatic arteries.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+8. Hepatocytes, the liver's main cells, are packed tightly around the sinusoids and process the nutrients, toxins and wastes carried by the blood. *(defines “hepatocyte”)*
+   > “Hepatocytes are tightly packed around the fenestrated endothelium of these spaces, giving them easy access to the blood. From their central position, hepatocytes process the nutrients, toxins, and waste materials carried by the blood.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “A hepatocyte is the liver’s main cell type, accounting for around 80 percent of the liver's volume.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+9. The sinusoids also contain star-shaped Kupffer cells, which remove dead red and white blood cells, bacteria and other foreign material that enter the sinusoids. *(defines “Kupffer cell”)*
+   > “The hepatic sinusoids also contain star-shaped reticuloendothelial cells (Kupffer cells), phagocytes that remove dead red and white blood cells, bacteria, and other foreign material that enter the sinusoids.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+10. Bile made by hepatocytes collects in bile canaliculi, small ducts between the hepatocytes, and then flows through larger ducts that join and leave the liver as the common hepatic duct. *(defines “bile canaliculus”)*
+   > “These small ducts accumulate the bile produced by hepatocytes. From here, bile flows first into bile ductules and then into bile ducts. The bile ducts unite to form the larger right and left hepatic ducts, which themselves merge and exit the liver as the common hepatic duct.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “bile canaliculus: small duct between hepatocytes that collects bile” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Mouth: Plain (drafted; grade 7.2; `content/FMA_49184/tier1.md`)
+
+1. The mouth takes in food and starts breaking it down.
+   > “The mouth is the point of ingestion and the location where both mechanical and chemical breakdown of food begins.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. The lips, cheeks and palate form the borders of the mouth, with the palate as the roof. *(defines “palate”)*
+   > “The lips, cheeks, and palate form the boundaries.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+   > “The palate is the roof of the oral cavity.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+3. Saliva, a watery fluid that salivary glands release into the mouth, moistens food and begins the breakdown of carbohydrates. *(defines “saliva”)*
+   > “Secretion increases when you eat, because saliva is essential to moisten food and initiate the chemical breakdown of carbohydrates.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “saliva: aqueous solution of proteins and ions secreted into the mouth by the salivary glands” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Chewing and tongue movements break food into small bits and mix the bits with saliva.
+   > “It includes mastication, or chewing, as well as tongue movements that help break food into smaller bits and mix food with saliva.” ([23.2 Digestive System Processes and Regulation](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation), CC BY 4.0)
+
+#### Mouth: Core (drafted; grade 8.3; `content/FMA_49184/tier2.md`)
+
+1. The mouth takes in food and is the place where food begins to be broken down.
+   > “The mouth is the point of ingestion and the location where both mechanical and chemical breakdown of food begins.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. Also called the oral cavity, the mouth is the first part of the digestive tract, a long tube that runs from the mouth to the anus. *(defines “digestive tract”)*
+   > “The mouth, or oral cavity, is the first part of the digestive tract.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+   > “The digestive tract, also called the alimentary canal or gastrointestinal (GI) tract, consists of a long continuous tube that extends from the mouth to the anus.” ([SEER Training Modules: Introduction to the Digestive System](https://training.seer.cancer.gov/anatomy/digestive/), Free of copyright (NCI reuse policy))
+3. The lips, cheeks and palate form the borders of the mouth, with the palate as the roof. *(defines “palate”)*
+   > “The lips, cheeks, and palate form the boundaries.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+   > “The palate is the roof of the oral cavity.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+4. The lips and cheeks hold food in place for chewing, and they also help form words when you speak.
+   > “The lips and cheeks help hold food in the mouth and keep it in place for chewing. They are also used in the formation of words for speech.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+5. At the back, an opening called the fauces leads from the mouth into the throat. *(defines “fauces”)*
+   > “Moving farther into the mouth, the opening between the oral cavity and throat (oropharynx) is called the fauces” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+6. The mouth is lined with stratified squamous epithelium, a tissue of several cell layers that protects surfaces from wear. *(defines “stratified squamous epithelium”)*
+   > “The lining of the mouth cavity is an example of an unkeratinized, stratified squamous epithelium.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “stratified squamous epithelium: tissue that consists of multiple layers of cells with the most apical being flat scale-like cells; protects surfaces from abrasion” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. The mouth holds the teeth and tongue and receives saliva, a digestive fluid made by the salivary glands. *(defines “saliva”)*
+   > “The oral cavity contains the teeth and tongue and receives the secretions from the salivary glands.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+   > “salivary gland: an exocrine gland that secretes a digestive fluid called saliva” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+8. The teeth and tongue begin mechanical digestion, which makes food smaller without changing it chemically. *(defines “mechanical digestion”)*
+   > “In the mouth, the tongue and the teeth begin mechanical digestion, and saliva begins chemical digestion.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Mechanical digestion is a purely physical process that does not change the chemical nature of the food. Instead, it makes the food smaller to increase both surface area and mobility.” ([23.2 Digestive System Processes and Regulation](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation), CC BY 4.0)
+9. Saliva begins chemical digestion, in which digestive fluids break complex food molecules into their chemical building blocks. *(defines “chemical digestion”)*
+   > “In the mouth, the tongue and the teeth begin mechanical digestion, and saliva begins chemical digestion.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “In chemical digestion, starting in the mouth, digestive secretions break down complex food molecules into their chemical building blocks (for example, proteins into separate amino acids).” ([23.2 Digestive System Processes and Regulation](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation), CC BY 4.0)
+10. To swallow, the tongue presses up and back against the palate, pushing the bolus, or mass of chewed food, to the back of the mouth. *(defines “bolus”)*
+   > “In this phase, chewing has been completed and swallowing is set in motion. The tongue moves upward and backward against the palate, pushing the bolus to the back of the oral cavity and into the oropharynx.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “bolus: mass of chewed food” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Omentum: Plain (drafted; grade 7.4; `content/UBERON_0003688/tier1.md`)
+
+1. The omentum helps hold the stomach in place.
+   > “The stomach is held in place by the lesser omentum, which extends from the liver to the lesser curvature, and the greater omentum, which runs from the greater curvature to the posterior abdominal wall.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+2. The omentum is a fold of the peritoneum, the membrane that lines the abdomen and covers its organs. *(defines “peritoneum”)*
+   > “A fold of peritoneum originating at the stomach and supporting the viscera.” ([UBERON:0003688 omentum](http://purl.obolibrary.org/obo/UBERON_0003688), CC BY 3.0)
+   > “peritoneum: serous membrane that lines the abdominopelvic cavity and covers the organs found there” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+3. The greater omentum lies like an apron over the small intestine.
+   > “Greater omentum | Apron-like structure that lies superficial to the small intestine and transverse colon” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+4. The lesser omentum connects the liver to the stomach.
+   > “The lesser omentum tethers the liver to the lesser curvature of the stomach.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+
+#### Palatine tonsil: Plain (drafted; grade 8.4; `content/UBERON_0002373/tier1.md`; also Right palatine tonsil, Left palatine tonsil)
+
+1. Each palatine tonsil traps and destroys pathogens (things that can cause disease) entering through the mouth or nose. *(defines “pathogen”)*
+   > “the palatine and lingual tonsils are composed of lymphoid tissue, and trap and destroy pathogens entering the body through the oral or nasal cavities” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. The palatine tonsils sit on either side of the throat.
+   > “the palatine tonsils on either side of the throat” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+3. Inside the tonsils, white blood cells called lymphocytes help protect against harmful substances and pathogens. *(defines “lymphocyte”)*
+   > “Lymphocytes and macrophages in the tonsils provide protection against harmful substances and pathogens that may enter the body through the nose or mouth.” ([SEER Training Modules: Tonsils](https://training.seer.cancer.gov/anatomy/lymphatic/components/tonsils.html), Free of copyright (NCI reuse policy))
+   > “lymphocytes: white blood cells characterized by a large nucleus and small rim of cytoplasm” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+
+#### Palatine tonsil: Core (drafted; grade 11.3; `content/UBERON_0002373/tier2.md`; also Right palatine tonsil, Left palatine tonsil)
+
+1. Each palatine tonsil traps and destroys pathogens (agents that can cause disease) entering the body through the mouth or nose. *(defines “pathogen”)*
+   > “the palatine and lingual tonsils are composed of lymphoid tissue, and trap and destroy pathogens entering the body through the oral or nasal cavities” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. The main job of tonsils seems to be helping children's bodies recognize, destroy and build immunity to common pathogens in the environment, so that children are protected later in life.
+   > “This seems to be the major function of tonsils—to help children’s bodies recognize, destroy, and develop immunity to common environmental pathogens so that they will be protected in their later lives.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+3. The palatine tonsils are a pair, one on each side of the oropharynx, the part of the throat behind the mouth. *(defines “oropharynx”)*
+   > “Two masses of lymphatic tissue located one on either side of the oropharynx in the oropharyngeal isthmus.” ([NCIT:C33250 Palatine Tonsil](http://purl.obolibrary.org/obo/NCIT_C33250), CC BY 4.0)
+   > “The oropharynx is the portion of the pharynx that is posterior to the oral cavity.” ([SEER Training Modules: Pharynx](https://training.seer.cancer.gov/anatomy/respiratory/passages/pharynx.html), Free of copyright (NCI reuse policy))
+4. Each palatine tonsil sits between two arches: the palatoglossal arch in front, next to the base of the tongue, and the palatopharyngeal arch farther back.
+   > “Toward the front, the palatoglossal arch lies next to the base of the tongue; behind it, the palatopharyngeal arch forms the superior and lateral margins of the fauces. Between these two arches are the palatine tonsils” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+5. Lymphocytes, a type of white blood cell, are among the cells in the tonsils that protect against harmful substances and pathogens. *(defines “lymphocyte”)*
+   > “Lymphocytes and macrophages in the tonsils provide protection against harmful substances and pathogens that may enter the body through the nose or mouth.” ([SEER Training Modules: Tonsils](https://training.seer.cancer.gov/anatomy/lymphatic/components/tonsils.html), Free of copyright (NCI reuse policy))
+   > “lymphocytes: white blood cells characterized by a large nucleus and small rim of cytoplasm” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+6. Tonsils are lymphoid nodules, which are dense clusters of lymphocytes. *(defines “lymphoid nodule”)*
+   > “Tonsils are lymphoid nodules located along the inner surface of the pharynx and are important in developing immunity to oral pathogens” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “the lymphoid nodules, have a simpler architecture than the spleen and lymph nodes in that they consist of a dense cluster of lymphocytes without a surrounding fibrous capsule” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+7. The surface layer of each tonsil folds deep into the tonsil's interior, forming tonsillar crypts. *(defines “tonsillar crypt”)*
+   > “the epithelial layer invaginates deeply into the interior of the tonsil to form tonsillar crypts” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+8. These crypts collect all sorts of material taken in through eating and breathing, and they encourage pathogens to move deep into the tonsil, where the pathogens are eliminated.
+   > “These structures, which accumulate all sorts of materials taken into the body through eating and breathing, actually “encourage” pathogens to penetrate deep into the tonsillar tissues where they are acted upon by numerous lymphoid follicles and eliminated.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+
+Dropped:
+- “Tonsils do not have a complete capsule, which is a fibrous covering that protects delicate organs.” (checker: The first quote supports 'do not contain a complete capsule'. The second quote, cited for 'defines' capsule, is from 04-03 and only says connective tissue protects 'in the form of fibrous capsules and bones that protect delicate organs'. It does not define what a capsule is, and the gloss 'a fibrous covering' adds 'covering', which is not in either quote.)
+
+#### Pancreas: Core (drafted; grade 11.9; `content/FMA_7198/tier2.md`)
+
+1. The pancreas plays an important part in digestion and in controlling blood glucose; glucose is the preferred fuel for all body cells. *(defines “glucose”)*
+   > “pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “Glucose is required for cellular respiration and is the preferred fuel for all body cells.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+2. The pancreas is a long, soft organ that lies crosswise behind the stomach and reaches from the duodenum, the first part of the small intestine, to the spleen. *(defines “duodenum”)*
+   > “The pancreas is a long, soft organ that lies transversely along the posterior abdominal wall, posterior to the stomach, and extends from the region of the duodenum to the spleen.” ([SEER Training Modules: Pancreas—Islets of Langerhans](https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html), Free of copyright (NCI reuse policy))
+   > “duodenum: first part of the small intestine, which starts at the pyloric sphincter and ends at the jejunum” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The pancreas has a head that nestles in the C-shaped curve of the duodenum, a body that extends to the left, and a tail that tapers to an end at the spleen.
+   > “The soft, oblong, glandular pancreas lies transversely in the retroperitoneum behind the stomach. Its head is nestled into the “c-shaped” curvature of the duodenum with the body extending to the left about 15.2 cm (6 in) and ending as a tapering tail in the hilum of the spleen.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+4. Most cells of the pancreas are exocrine, meaning they release their secretions through ducts: they send pancreatic juice through the pancreatic ducts into the small intestine. *(defines “exocrine”)*
+   > “the pancreas also has an exocrine function: most of its cells secrete pancreatic juice through the pancreatic and accessory ducts to the lumen of the small intestine.” ([17.1 An Overview of the Endocrine System](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system), CC BY 4.0)
+   > “the body’s exocrine system, whose glands release their secretions through ducts” ([17.1 An Overview of the Endocrine System](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system), CC BY 4.0)
+5. These exocrine cells sit in small grape-like clusters, each called an acinus (plural acini), at the ends of the pancreatic ducts. *(defines “acinus”)*
+   > “The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini), located at the terminal ends of pancreatic ducts.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+6. Pancreatic juice is rich in bicarbonate, which neutralizes chyme, the acidic mixture of partly digested food and stomach juices. *(defines “chyme”)*
+   > “The chyme produced from the stomach is highly acidic in nature; the pancreatic juices contain high levels of bicarbonate, an alkali that neutralizes the acidic chyme.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “chyme: mixture of partially digested food and stomach juices” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+7. Pancreatic enzymes, which are proteins that speed up chemical reactions, help digest sugars, proteins and fats. *(defines “enzyme”)*
+   > “Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+8. Scattered among the acini are small islands of endocrine cells, the islets of Langerhans, which release hormones into the blood, without ducts, to be carried to distant organs. *(defines “endocrine”)*
+   > “Scattered through the sea of exocrine acini are small islands of endocrine cells, the islets of Langerhans.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “endocrine gland: tissue or organ that secretes hormones into the blood and lymph without ducts such that they may be transported to organs distant from the site of secretion” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+9. Beta cells, the islet cells that make insulin, release it when blood glucose rises, as after a meal; insulin then lowers blood glucose by speeding glucose uptake into most body cells. *(defines “beta cell”)*
+   > “When blood glucose levels rise, such as after a meal, beta cells release insulin to lower blood glucose levels by increasing the rate of glucose uptake in most body cells” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “beta cell: pancreatic islet cell type that produces the hormone insulin” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+10. In contrast, alpha cells, the islet cells that make glucagon, release it when blood glucose falls; glucagon then raises blood glucose by speeding the release of glucose from the liver. *(defines “alpha cell”)*
+   > “As blood glucose levels decline, alpha cells release glucagon to raise the blood glucose levels by increasing rates of glycogen breakdown and glucose release by the liver.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “alpha cell: pancreatic islet cell type that produces the hormone glucagon” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Parotid gland: Plain (drafted; grade 8.6; `content/UBERON_0001831/tier1.md`; also Right parotid gland, Left parotid gland)
+
+1. Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth. *(defines “saliva”)*
+   > “The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “salivary gland: an exocrine gland that secretes a digestive fluid called saliva” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear.
+   > “The largest of the three paired salivary glands, located in front of the ear.” ([NCIT:C12427 Parotid Gland](http://purl.obolibrary.org/obo/NCIT_C12427), CC BY 4.0)
+3. Saliva from the parotid gland is watery, mixes freely with food and starts the digestion of carbohydrates.
+   > “Parotid gland saliva is watery with little mucus but a lot of amylase, which allows it to mix freely with food during mastication and begin the digestion of carbohydrates.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+
+#### Parotid gland: Core (drafted; grade 10.1; `content/UBERON_0001831/tier2.md`; also Right parotid gland, Left parotid gland)
+
+1. Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth. *(defines “saliva”)*
+   > “The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “salivary gland: an exocrine gland that secretes a digestive fluid called saliva” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. The parotid gland is an accessory organ: it helps with digestion but is not part of the digestive tract, the tube that runs from the mouth to the anus. *(defines “digestive tract”)*
+   > “The salivary glands, liver, gallbladder, and pancreas are not part of the digestive tract, but they have a role in digestive activities and are considered accessory organs.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+   > “The digestive tract, also called the alimentary canal or gastrointestinal (GI) tract, consists of a long continuous tube that extends from the mouth to the anus.” ([SEER Training Modules: Introduction to the Digestive System](https://training.seer.cancer.gov/anatomy/digestive/), Free of copyright (NCI reuse policy))
+3. The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear.
+   > “The largest of the three paired salivary glands, located in front of the ear.” ([NCIT:C12427 Parotid Gland](http://purl.obolibrary.org/obo/NCIT_C12427), CC BY 4.0)
+4. The parotid gland lies between the skin and the masseter, the main muscle for chewing. *(defines “masseter”)*
+   > “The parotid glands lie between the skin and the masseter muscle, near the ears.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “masseter: main muscle for chewing that elevates the mandible to close the mouth” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+5. Saliva from the parotid gland enters the mouth through the parotid duct, which is near the second upper molar, a tooth for crushing and grinding food. *(defines “molar”)*
+   > “The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “molar: tooth used for crushing and grinding food” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. The parotid gland makes a watery saliva that contains salivary amylase, which begins the digestion of carbohydrates in the mouth. *(defines “salivary amylase”)*
+   > “For example, the parotid glands secrete a watery solution that contains salivary amylase.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “salivary amylase: digestive enzyme that is found in the saliva and begins the digestion of carbohydrates in the mouth” ([Chapter 24 Key Terms (Metabolism and Nutrition)](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms), CC BY 4.0)
+7. Because this saliva is watery and has little mucus, a thick, slippery substance, the saliva mixes freely with food. *(defines “mucus”)*
+   > “Parotid gland saliva is watery with little mucus but a lot of amylase, which allows it to mix freely with food during mastication and begin the digestion of carbohydrates.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. The parotid gland receives nerve fibers from the otic ganglion, a cluster of nerve cell bodies. *(defines “otic ganglion”)*
+   > “The parasympathetic fibers of the glossopharyngeal nerve synapse in the otic ganglion, which projects to the parotid gland.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “ganglion: localized collection of neuron cell bodies in the peripheral nervous system” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+9. That ganglion in turn receives fibers from the glossopharyngeal nerve, a nerve that causes saliva production. *(defines “glossopharyngeal nerve”)*
+   > “The parasympathetic fibers of the glossopharyngeal nerve synapse in the otic ganglion, which projects to the parotid gland.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “glossopharyngeal nerve: ninth cranial nerve; responsible for contraction of muscles in the tongue and throat and for part of the sense of taste, as well as causing saliva production” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Rectum: Plain (drafted; grade 5.4; `content/FMA_14544/tier1.md`)
+
+1. The rectum stores feces, the semisolid waste of digestion, until they leave the body. *(defines “feces”)*
+   > “The primary role of the rectum is to store the feces until defecation.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “feces: semisolid waste product of digestion” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. Waste from the colon enters the rectum, which lies in the pelvis.
+   > “Food residue leaving the sigmoid colon enters the rectum in the pelvis, near the third sacral vertebra.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+3. As the rectum fills and stretches, nerve signals create the urge to pass feces.
+   > “As the rectum expands in response to storage of fecal matter, it triggers the neural signals required to set up the urge to eliminate.” ([34.3 Digestive System Processes](https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes), CC BY 4.0)
+4. Feces are pushed out of the body when the muscles of the rectum contract.
+   > “Feces are eliminated through contractions of the rectal muscles.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### Rectum: Core (drafted; grade 9.2; `content/FMA_14544/tier2.md`)
+
+1. The rectum's main job is to store feces, the semisolid waste of digestion, until they leave the body. *(defines “feces”)*
+   > “The primary role of the rectum is to store the feces until defecation.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “feces: semisolid waste product of digestion” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. Waste leaving the sigmoid colon, the last part of the colon, enters the rectum inside the pelvis. *(defines “sigmoid colon”)*
+   > “Food residue leaving the sigmoid colon enters the rectum in the pelvis, near the third sacral vertebra.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “sigmoid colon: end portion of the colon, which terminates at the rectum” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The rectum has a thick muscular layer and continues to the anal canal, the final segment of the large intestine. *(defines “anal canal”)*
+   > “The rectum continues from the sigmoid colon to the anal canal and has a thick muscular layer.” ([SEER Training Modules: Small & Large Intestine](https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html), Free of copyright (NCI reuse policy))
+   > “anal canal: final segment of the large intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Although the name rectum is Latin for “straight,” the rectum curves along the sacrum, the bone that forms the back of the pelvis. *(defines “sacrum”)*
+   > “Even though rectum is Latin for “straight,” this structure follows the curved contour of the sacrum” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “sacrum: single bone located near the inferior end of the adult vertebral column that is formed by the fusion of five sacral vertebrae; forms the posterior portion of the pelvis” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+5. Connective tissue, the tissue that holds organs in place, firmly attaches the rectum to the sacrum. *(defines “connective tissue”)*
+   > “The rectum continues from the sigmoid colon to the anal canal and has a thick muscular layer. It follows the curvature of the sacrum and is firmly attached to it by connective tissue.” ([SEER Training Modules: Small & Large Intestine](https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html), Free of copyright (NCI reuse policy))
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+6. Three sideways bends in the rectum form internal folds called rectal valves, which help keep feces and gas from passing at the same time. *(defines “rectal valves”)*
+   > “this structure follows the curved contour of the sacrum and has three lateral bends that create a trio of internal transverse folds called the rectal valves. These valves help separate the feces from gas to prevent the simultaneous passage of feces and gas.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+7. Defecation, the removal of feces from the body, begins when movements of the colon force feces into the rectum and stretch the rectal wall. *(defines “defecation”)*
+   > “The process of defecation begins when mass movements force feces from the colon into the rectum, stretching the rectal wall and provoking the defecation reflex, which eliminates feces from the rectum.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “defecation: elimination of undigested substances from the body in the form of feces” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+8. This push also sets off the defecation reflex, which clears feces from the rectum. *(defines “defecation reflex”)*
+   > “The process of defecation begins when mass movements force feces from the colon into the rectum, stretching the rectal wall and provoking the defecation reflex, which eliminates feces from the rectum.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+9. The defecation reflex makes the sigmoid colon and the rectum contract.
+   > “provoking the defecation reflex, which eliminates feces from the rectum. This parasympathetic reflex is mediated by the spinal cord. It contracts the sigmoid colon and rectum, relaxes the internal anal sphincter, and initially contracts the external anal sphincter.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+10. If a person delays defecation, the reflex contractions stop within a few seconds and the rectal walls relax.
+   > “If you decide to delay defecation, it takes a few seconds for the reflex contractions to stop and the rectal walls to relax.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### Small intestine: Plain (drafted; grade 7.5; `content/FMA_7200/tier1.md`)
+
+1. The small intestine finishes digesting food and absorbs the nutrients.
+   > “The small intestine finishes the process of digestion, absorbs the nutrients, and passes the residue on to the large intestine.” ([SEER Training Modules: Small & Large Intestine](https://training.seer.cancer.gov/anatomy/digestive/regions/intestine.html), Free of copyright (NCI reuse policy))
+2. This hollow organ runs from the stomach to the large intestine.
+   > “Organ with organ cavity, each instance of which is proximally continuous_with some stomach; distally continuous_with some large intestine.” ([FMA:7200 Small intestine](http://purl.org/sig/ont/fma/fma7200), CC BY 3.0)
+3. The small intestine's lining has folds called villi, which increase the surface area for absorbing nutrients. *(defines “villi”)*
+   > “Villi are folds on the small intestine lining that increase the surface area to facilitate the absorption of nutrients.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “villi: folds on the inner surface of the small intestine whose role is to increase absorption area” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+4. Nutrients pass through the cells of this lining into the bloodstream.
+   > “The nutrients are absorbed into the bloodstream across the epithelial cells lining the walls of the small intestines.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+
+#### Small intestine: Core (drafted; grade 11.1; `content/FMA_7200/tier2.md`)
+
+1. The small intestine is the body's main digestive organ, where most digestion and nearly all absorption, the uptake of nutrients by cells, take place. *(defines “absorption”)*
+   > “Chyme released from the stomach enters the small intestine, which is the primary digestive organ in the body. Not only is this where most digestion occurs, it is also where practically all absorption occurs.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “absorption (cellular uptake of nutrients)” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. This hollow organ runs from the stomach to the large intestine.
+   > “Organ with organ cavity, each instance of which is proximally continuous_with some stomach; distally continuous_with some large intestine.” ([FMA:7200 Small intestine](http://purl.org/sig/ont/fma/fma7200), CC BY 3.0)
+3. The small intestine is a coiled tube with three regions: the duodenum next to the stomach, then the jejunum, then the ileum.
+   > “The coiled tube of the small intestine is subdivided into three regions. From proximal (at the stomach) to distal, these are the duodenum, jejunum, and ileum” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+4. The lining of the small intestine is covered with villi (singular, villus), small hairlike projections that give the lining a furry texture. *(defines “villi”)*
+   > “Within the circular folds are small (0.5–1 mm long) hairlike vascularized projections called villi (singular = villus) that give the mucosa a furry texture.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+5. The absorptive cells of the lining have microvilli, tiny projections of the cell membrane. *(defines “microvilli”)*
+   > “microvillus: small projection of the plasma membrane of the absorptive cells of the small intestinal mucosa” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. Enzymes, proteins that speed up chemical reactions, are fixed to the microvilli and finish digesting carbohydrates and proteins. *(defines “enzyme”)*
+   > “Fixed to the surface of the microvilli membranes are enzymes that finish digesting carbohydrates and proteins.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+7. Together with circular folds, which are deep folds in the lining, the villi and microvilli increase the absorbing surface more than 600-fold. *(defines “circular folds”)*
+   > “These features, which increase the absorptive surface area of the small intestine more than 600-fold, include circular folds, villi, and microvilli” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “circular fold: (also, plica circulare) deep fold in the mucosa and submucosa of the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+8. Each villus contains a bed of tiny blood vessels and a lymph vessel called a lacteal. *(defines “lacteal”)*
+   > “each villus contains a capillary bed composed of one arteriole and one venule, as well as a lymphatic capillary called a lacteal.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+9. Sugars and amino acids from digested carbohydrates and proteins enter the blood directly, but fat breakdown products enter the lacteals.
+   > “The breakdown products of carbohydrates and proteins (sugars and amino acids) can enter the bloodstream directly, but lipid breakdown products are absorbed by the lacteals and transported to the bloodstream via the lymphatic system.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+10. In segmentation, sections of the intestine contract and relax in turn, mixing food with digestive juices and pressing it against the lining for absorption. *(defines “segmentation”)*
+   > “Segmentation in the small intestine does not force chyme through the tract. Instead, it combines the chyme with digestive juices and pushes food particles against the mucosa to be absorbed.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “segmentation: alternating contractions and relaxations of non-adjacent segments of the intestine that move food forward and backward, breaking it apart and mixing it with digestive juices” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Stomach: Core (drafted; grade 13.1; `content/FMA_7148/tier2.md`)
+
+1. The stomach helps digest food from the esophagus, both mechanically and chemically, turning the food into chyme, a soupy liquid of food mixed with digestive juices. *(defines “chyme”)*
+   > “stomach: alimentary canal organ that contributes to chemical and mechanical digestion of food from the esophagus before releasing it, as chyme, to the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+   > “chyme: soupy liquid created when food is mixed with digestive juices” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. The stomach holds the chyme and releases it gradually into the small intestine through the pyloric sphincter, a muscle around the passage that acts as a valve. *(defines “pyloric sphincter”)*
+   > “The stomach begins the digestion of protein and continues the digestion of carbohydrates and fats. It stores food as an acidic liquid called chyme, and releases it gradually into the small intestine through the pyloric sphincter.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “Recall that sphincters are muscles that surround tubes and serve as valves, closing the tube when the sphincters contract and opening it when they relax.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+3. The only stomach function that is necessary for life is making intrinsic factor, which the intestine needs in order to absorb vitamin B12.
+   > “there is only one stomach function necessary to life: the production of intrinsic factor. The intestinal absorption of vitamin B12, which is necessary for both the production of mature red blood cells and normal neurological functioning, cannot occur without intrinsic factor.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+4. The stomach lies between the liver and the spleen, under the diaphragm, the dome-shaped muscle beneath the lungs. *(defines “diaphragm”)*
+   > “It is located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine.” ([NCIT:C12391 Stomach](http://purl.obolibrary.org/obo/NCIT_C12391), CC BY 4.0)
+   > “diaphragm: domed-shaped skeletal muscle located under lungs that separates the thoracic cavity from the abdominal cavity” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+5. The stomach has four main regions, the cardia, fundus, body and pylorus; food enters through the cardia, where the esophagus joins the stomach.
+   > “There are four main regions in the stomach: the cardia, fundus, body, and pylorus (). The cardia (or cardiac region) is the point where the esophagus connects to the stomach and through which food passes into the stomach.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+6. Besides the usual circular and lengthwise muscle layers, the stomach wall has an inner oblique layer, running at an angle, that lets the stomach churn food vigorously and break it into smaller pieces. *(defines “oblique”)*
+   > “In addition to the typical circular and longitudinal smooth muscle layers, the muscularis has an inner oblique smooth muscle layer (). As a result, in addition to moving food through the canal, the stomach can vigorously churn food, mechanically breaking it down into smaller particles.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “oblique: at an angle” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+7. A vast number of gastric pits, narrow channels in the stomach lining, lead into gastric glands, which secrete a digestive fluid called gastric juice. *(defines “gastric pits”)*
+   > “A vast number of gastric pits dot the surface of the epithelium, giving it the appearance of a well-used pincushion, and mark the entry to each gastric gland, which secretes a complex digestive fluid referred to as gastric juice.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “gastric pit: narrow channel formed by the epithelial lining of the stomach mucosa” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+8. The stomach's chief cells release pepsin, an enzyme (a protein that speeds up chemical reactions) that digests protein, in an inactive form called pepsinogen. *(defines “enzyme”)*
+   > “Protein digestion is mediated by an enzyme called pepsin in the stomach chamber. Pepsin is secreted by the chief cells in the stomach in an inactive form called pepsinogen.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+9. Hydrochloric acid, a digestive acid secreted by the stomach's parietal cells, is needed to activate pepsin and also kills much of the bacteria swallowed with food. *(defines “hydrochloric acid”)*
+   > “HCl is responsible for the high acidity (pH 1.5 to 3.5) of the stomach contents and is needed to activate the protein-digesting enzyme, pepsin. The acidity also kills much of the bacteria you ingest with food and helps to denature proteins, making them more available for enzymatic digestion.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “hydrochloric acid (HCl): digestive acid secreted by parietal cells in the stomach” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+10. The stomach is kept from digesting itself by a mucosal barrier, which includes a thick coat of mucus whose bicarbonate neutralizes acid.
+   > “The stomach is protected from self-digestion by the mucosal barrier. This barrier has several components. First, the stomach wall is covered by a thick coating of bicarbonate-rich mucus. This mucus forms a physical barrier, and its bicarbonate ions neutralize acid.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+
+#### Sublingual gland: Plain (drafted; grade 7.9; `content/FMA_59791/tier1.md`; also Right sublingual gland, Left sublingual gland)
+
+1. Each sublingual gland makes saliva and releases it into the mouth.
+   > “The sublingual glands, which lie below the tongue, use the lesser sublingual ducts to secrete saliva into the oral cavity.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+2. The two sublingual glands are major salivary glands that lie beneath the tongue.
+   > “sublingual gland: one of a pair of major salivary glands located beneath the tongue” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. Sublingual gland saliva is rich in mucus, a thick, slippery substance. *(defines “mucus”)*
+   > “sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. This mucus makes food slippery for swallowing.
+   > “sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands. The high mucus content serves to lubricate the food for swallowing.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+
+#### Sublingual gland: Core (drafted; grade 9.8; `content/FMA_59791/tier2.md`; also Right sublingual gland, Left sublingual gland)
+
+1. Each sublingual gland makes saliva and sends it into the mouth through the lesser sublingual ducts, tubes through which a gland releases its contents. *(defines “duct”)*
+   > “The sublingual glands, which lie below the tongue, use the lesser sublingual ducts to secrete saliva into the oral cavity.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Other multicellular exocrine glands release their contents through a tubular duct.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+2. Each sublingual gland lies in the floor of the mouth beneath the tongue, in front of the submandibular gland.
+   > “The small mucin-producing salivary glands in the floor of the mouth beneath the tongue, anterior to the submandibular gland.” ([UBERON:0001832 sublingual gland](http://purl.obolibrary.org/obo/UBERON_0001832), CC BY 3.0)
+3. The sublingual glands are one of the three pairs of major salivary glands; the other two are the parotid and submandibular glands.
+   > “Three pairs of major salivary glands (parotid, submandibular, and sublingual glands) and numerous smaller ones secrete saliva into the oral cavity” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+4. Each sublingual gland contains mostly mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist. *(defines “mucus”)*
+   > “The sublingual glands contain mostly mucous cells, and they secrete the thickest saliva with the least amount of salivary amylase.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. The sublingual glands secrete the thickest saliva, with the least salivary amylase, which breaks down starch. *(defines “salivary amylase”)*
+   > “The sublingual glands contain mostly mucous cells, and they secrete the thickest saliva with the least amount of salivary amylase.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Salivary amylase breaks down starch” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+6. The high mucus content of this saliva lubricates food for swallowing.
+   > “sublingual gland saliva has a lot of mucus with the least amount of amylase of all the salivary glands. The high mucus content serves to lubricate the food for swallowing.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+7. Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation.
+   > “Food contains chemicals that stimulate taste receptors on the tongue, which send impulses to the superior and inferior salivatory nuclei in the brain stem. These two nuclei then send back parasympathetic impulses through fibers in the glossopharyngeal and facial nerves, which stimulate salivation.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+8. The impulses that reach each sublingual gland travel through the facial nerve.
+   > “The parasympathetic fibers of the facial nerve synapse in the pterygopalatine ganglion, which projects to the submandibular gland and sublingual gland.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+
+#### Submandibular gland: Plain (drafted; grade 8.6; `content/FMA_55093/tier1.md`; also Right submandibular gland, Left submandibular gland)
+
+1. Each submandibular gland makes saliva and releases it into the mouth.
+   > “The submandibular glands, which are in the floor of the mouth, secrete saliva into the mouth through the submandibular ducts.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+2. The two submandibular glands sit beneath the mandible, the lower jaw bone. *(defines “mandible”)*
+   > “Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.” ([UBERON:0001736 submandibular gland](http://purl.obolibrary.org/obo/UBERON_0001736), CC BY 3.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Their saliva contains amylase, a substance that breaks down starch. *(defines “amylase”)*
+   > “Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Salivary amylase breaks down starch” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+4. This saliva is also thickened with mucus, a slippery substance that keeps tissues moist. *(defines “mucus”)*
+   > “Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Submandibular gland: Core (drafted; grade 10.7; `content/FMA_55093/tier2.md`; also Right submandibular gland, Left submandibular gland)
+
+1. Each submandibular gland makes saliva and sends it into the mouth through the submandibular duct, a tube through which a gland releases its contents. *(defines “duct”)*
+   > “The submandibular glands, which are in the floor of the mouth, secrete saliva into the mouth through the submandibular ducts.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Other multicellular exocrine glands release their contents through a tubular duct.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+2. Each submandibular gland lies beneath the mandible, the bone of the lower jaw. *(defines “mandible”)*
+   > “Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.” ([UBERON:0001736 submandibular gland](http://purl.obolibrary.org/obo/UBERON_0001736), CC BY 3.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The submandibular glands are one of the three pairs of major salivary glands; the other two are the parotid and sublingual glands.
+   > “Three pairs of major salivary glands (parotid, submandibular, and sublingual glands) and numerous smaller ones secrete saliva into the oral cavity” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+4. Each submandibular gland is a compound tubuloalveolar gland, a gland built from a combination of tubes and pockets. *(defines “compound tubuloalveolar gland”)*
+   > “Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.” ([UBERON:0001736 submandibular gland](http://purl.obolibrary.org/obo/UBERON_0001736), CC BY 3.0)
+   > “Combinations of tubes and pockets are known as tubuloalveolar (tubuloacinar) compound glands.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+5. The gland's secretory cells include serous cells, which secrete a watery fluid containing amylase for digesting starch. *(defines “serous cell”)*
+   > “Either of the paired compound tubuloalveolar (aka tubuloacinar) major salivary glands composed of both serous and mucous secretory cells and situated beneath the mandible.” ([UBERON:0001736 submandibular gland](http://purl.obolibrary.org/obo/UBERON_0001736), CC BY 3.0)
+   > “This cell secretes watery, enzyme‐rich fluid containing α-amylase, proline-rich proteins, and secretory immunoglobulins for starch digestion and antimicrobial defence.” ([CL:4052065 serous acinar cell of salivary gland](http://purl.obolibrary.org/obo/CL_4052065), CC BY 4.0)
+6. The gland also has mucous cells, which secrete mucus, a thick, slippery substance that keeps tissues moist. *(defines “mucus”)*
+   > “The submandibular glands have cells similar to those of the parotid glands, as well as mucus-secreting cells.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. As a result, submandibular saliva contains amylase, but in a liquid thickened with mucus.
+   > “Therefore, saliva secreted by the submandibular glands also contains amylase but in a liquid thickened with mucus.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+8. Chemicals in food stimulate taste receptors on the tongue, which signal the brain stem to send back nerve impulses that stimulate salivation.
+   > “Food contains chemicals that stimulate taste receptors on the tongue, which send impulses to the superior and inferior salivatory nuclei in the brain stem. These two nuclei then send back parasympathetic impulses through fibers in the glossopharyngeal and facial nerves, which stimulate salivation.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+9. The impulses that reach each submandibular gland travel through the facial nerve.
+   > “The parasympathetic fibers of the facial nerve synapse in the pterygopalatine ganglion, which projects to the submandibular gland and sublingual gland.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+
+#### Tongue: Plain (drafted; grade 5.6; `content/FMA_54640/tier1.md`)
+
+1. The tongue helps you taste, chew, swallow and speak.
+   > “Although the tongue is obviously important for tasting food, it is also necessary for mastication, deglutition (swallowing), and speech” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The tongue is a muscular organ in the floor of the mouth.
+   > “A muscular organ in the floor of the mouth.” ([UBERON:0001723 tongue](http://purl.obolibrary.org/obo/UBERON_0001723), CC BY 3.0)
+3. Tongue muscles gather food into a bolus, a rounded mass of chewed food, for swallowing. *(defines “bolus”)*
+   > “Working in concert, these muscles perform three important digestive functions in the mouth: (1) position food for optimal chewing, (2) gather food into a bolus (rounded mass), and (3) position food so it can be swallowed.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “bolus: mass of chewed food” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. The tongue is covered with papillae, small bumps that provide grip and hold taste buds. *(defines “papillae”)*
+   > “The surface is covered with papillae that provide friction and contain the taste buds.” ([SEER Training Modules: Mouth](https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html), Free of copyright (NCI reuse policy))
+   > “papilla: one of the small bump-like projections from the tongue” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+
+#### Tongue: Core (drafted; grade 11; `content/FMA_54640/tier2.md`)
+
+1. The tongue is important for tasting food and is also needed for chewing, swallowing and speech.
+   > “Although the tongue is obviously important for tasting food, it is also necessary for mastication, deglutition (swallowing), and speech” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. The tongue sits over the floor of the mouth, and a dividing wall called the medial septum splits the tongue into symmetrical halves. *(defines “septum”)*
+   > “The tongue is positioned over the floor of the oral cavity. A medial septum extends the entire length of the tongue, dividing it into symmetrical halves.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “serves as a wall (or septum) between the oral and nasal cavities” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+3. The bulk of the tongue is skeletal muscle, the type of muscle under voluntary control. *(defines “skeletal muscle”)*
+   > “tongue: accessory digestive organ of the mouth, the bulk of which is composed of skeletal muscle” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+   > “skeletal muscle: usually attached to bone, under voluntary control, each cell is a fiber that is multinucleated and striated” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Each half of the tongue has the same set of extrinsic muscles, which start outside the tongue, and intrinsic muscles, which start within the tongue. *(defines “extrinsic and intrinsic muscles”)*
+   > “each half of the tongue is composed of the same number and type of intrinsic and extrinsic skeletal muscles” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “Extrinsic tongue muscles insert into the tongue from outside origins, and the intrinsic tongue muscles insert into the tongue from origins within it.” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+5. The extrinsic muscles move the whole tongue in different directions, while the intrinsic muscles change its shape, for example by curling or flattening the tongue.
+   > “The extrinsic muscles move the whole tongue in different directions, whereas the intrinsic muscles allow the tongue to change its shape (such as, curling the tongue in a loop or flattening it).” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+6. The top and sides of the tongue are studded with papillae, small bump-like projections. *(defines “papillae”)*
+   > “The top and sides of the tongue are studded with papillae” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “papilla: one of the small bump-like projections from the tongue” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+7. Fungiform papillae contain taste buds, clusters of taste cells, while filiform papillae have touch receptors that help the tongue move food around. *(defines “taste bud”)*
+   > “Fungiform papillae contain taste buds, and filiform papillae have touch receptors that help the tongue move food around in the mouth.” ([23.3 The Mouth, Pharynx, and Esophagus](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus), CC BY 4.0)
+   > “taste bud: clusters of taste cells” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+8. Taste buds in the front two-thirds of the tongue connect to the facial nerve, and those in the back third connect to the glossopharyngeal nerve.
+   > “The facial nerve connects to taste buds in the anterior two thirds of the tongue. The glossopharyngeal nerve connects to taste buds in the posterior one third of the tongue.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+9. The hypoglossal nerve controls the tongue's muscles, except the palatoglossus, which is controlled by the vagus nerve.
+   > “The hypoglossal nerve is the motor nerve that controls the muscles of the tongue, except for the palatoglossus muscle, which is controlled by the vagus nerve.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+
+Dropped:
+- “Working together, the tongue's muscles position food for chewing, gather it into a bolus, a rounded mass of chewed food, and position it for swallowing.” (checker: Both quotes are verbatim, and the bolus gloss is supported ('rounded mass' plus 'mass of chewed food'). The problem is the subject. In 23-03, 'Working in concert, these muscles' closes the paragraph on the extrinsic muscles: it names palatoglossus, hyoglossus, styloglossus and genioglossus, then the mylohyoid, which raises the tongue. The intrinsic muscles are in the paragraph before. This sentence follows the extrinsic/intrinsic contrast and opens 'Working together, the tongue's muscles', so it gives the three food-handling jobs to all the tongue's muscles, intrinsic included. The quote does not say that.)
+
+### Endocrine
+
+#### Adrenal gland: Plain (drafted; grade 8.7; `content/FMA_9604/tier1.md`; also Right adrenal gland, Left adrenal gland)
+
+1. Each adrenal gland makes hormones, substances carried by the blood, that help the body cope with stress and control blood pressure. *(defines “hormone”)*
+   > “adrenal glands: endocrine glands located at the top of each kidney that are important for the regulation of the stress response, blood pressure and blood volume, water homeostasis, and electrolyte levels” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “hormone: secretion of an endocrine organ that travels via the bloodstream or lymphatics to induce a response in target cells or tissues in another part of the body” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. The gland sits near the top of a kidney, with an outer cortex and an inner medulla.
+   > “The adrenal, or suprarenal, gland is paired with one gland located near the upper portion of each kidney. Each gland is divided into an outer cortex and an inner medulla.” ([SEER Training Modules: Adrenal Gland](https://training.seer.cancer.gov/anatomy/endocrine/glands/adrenal.html), Free of copyright (NCI reuse policy))
+3. The cortex makes aldosterone, a hormone that helps the body keep sodium and fluid and raises blood pressure. *(defines “aldosterone”)*
+   > “aldosterone: hormone produced and secreted by the adrenal cortex that stimulates sodium and fluid retention and increases blood volume and blood pressure” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+4. In short-term stress, the medulla sends out its main hormone, epinephrine, which is also known as adrenaline. *(defines “epinephrine”)*
+   > “epinephrine: primary and most potent catecholamine hormone secreted by the adrenal medulla in response to short-term stress; also called adrenaline” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Adrenal gland: Core (drafted; grade 12.6; `content/FMA_9604/tier2.md`; also Right adrenal gland, Left adrenal gland)
+
+1. Each adrenal gland helps control the stress response, blood pressure, blood volume and water balance by making hormones, substances that travel in the blood to act on cells in other parts of the body. *(defines “hormone”)*
+   > “adrenal glands: endocrine glands located at the top of each kidney that are important for the regulation of the stress response, blood pressure and blood volume, water homeostasis, and electrolyte levels” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “hormone: secretion of an endocrine organ that travels via the bloodstream or lymphatics to induce a response in target cells or tissues in another part of the body” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. Each gland is a wedge of tissue attached to the top of a kidney by a fibrous capsule.
+   > “The adrenal glands are wedges of glandular and neuroendocrine tissue adhering to the top of the kidneys by a fibrous capsule” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+3. Inside, the gland has an outer cortex made of glandular tissue and an inner medulla made of nervous tissue.
+   > “The adrenal gland consists of an outer cortex of glandular tissue and an inner medulla of nervous tissue.” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+4. The cortex is made of layers: the outer zona glomerulosa makes hormones such as aldosterone; the next, the zona fasciculata, makes hormones such as cortisol; and the inner zona reticularis makes androgens, a class of sex hormones. *(defines “androgens”)*
+   > “The outer region is the zona glomerulosa, which produces mineralocorticoids such as aldosterone; the next region is the zona fasciculata, which produces glucocorticoids such as cortisol; the inner region is the zona reticularis, which produces androgens.” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+   > “The deepest region of the adrenal cortex is the zona reticularis, which produces small amounts of a class of steroid sex hormones called androgens.” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+5. Aldosterone makes the body hold on to sodium and fluid, raising blood volume and blood pressure.
+   > “The mineralocorticoids, chiefly aldosterone, cause sodium and fluid retention, which increases blood volume and blood pressure.” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+6. Cortisol raises the blood level of glucose, the simple sugar that cells use for energy. *(defines “glucose”)*
+   > “The principal glucocorticoid is cortisol, which increases blood glucose levels.” ([SEER Training Modules: Adrenal Gland](https://training.seer.cancer.gov/anatomy/endocrine/glands/adrenal.html), Free of copyright (NCI reuse policy))
+   > “glucose, the simple sugar that cells use for energy” ([2.1 Elements and Atoms: The Building Blocks of Matter](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-1-elements-and-atoms-the-building-blocks-of-matter), CC BY 4.0)
+7. The cortex releases cortisol and related hormones during long-term stress, whereas the medulla responds to sudden, short-term stress.
+   > “As noted earlier, the adrenal cortex releases glucocorticoids in response to long-term stress such as severe illness. In contrast, the adrenal medulla releases its hormones in response to acute, short-term stress mediated by the sympathetic nervous system (SNS).” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+8. The medulla is made of large, irregularly shaped nerve cells called chromaffin cells, which make epinephrine, also called adrenaline, and norepinephrine. *(defines “chromaffin cells”)*
+   > “The medullary tissue is composed of unique postganglionic SNS neurons called chromaffin cells, which are large and irregularly shaped, and produce the neurotransmitters epinephrine (also called adrenaline) and norepinephrine (or noradrenaline).” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+9. Epinephrine and norepinephrine speed up the heart and raise blood pressure, readying the body to fight a threat or run from it.
+   > “These hormones increase the heart rate, pulse, and blood pressure to prepare the body to fight the perceived threat or flee from it.” ([17.6 The Adrenal Glands](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands), CC BY 4.0)
+10. The hypothalamus, a part of the brain, controls both parts of the gland in different ways: the cortex through adrenocorticotropic hormone (ACTH), a pituitary hormone, and the medulla through nerve impulses. *(defines “adrenocorticotropic hormone (ACTH)”)*
+   > “The hypothalamus of the brain influences both portions of the adrenal gland but by different mechanisms. The adrenal cortex is regulated by negative feedback involving the hypothalamus and adrenocorticotropic hormone; the medulla is regulated by nerve impulses from the hypothalamus.” ([SEER Training Modules: Adrenal Gland](https://training.seer.cancer.gov/anatomy/endocrine/glands/adrenal.html), Free of copyright (NCI reuse policy))
+   > “adrenocorticotropic hormone (ACTH): anterior pituitary hormone that stimulates the adrenal cortex to secrete corticosteroid hormones (also called corticotropin)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Pineal body: Plain (drafted; grade 8.8; `content/FMA_62033/tier1.md`)
+
+1. The pineal body releases melatonin, a hormone that makes people drowsy and helps regulate the sleep-wake cycle. *(defines “melatonin”)*
+   > “pineal gland: endocrine gland that secretes melatonin, which is important in regulating the sleep-wake cycle” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “melatonin: amino acid–derived hormone that is secreted in response to low light and causes drowsiness” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. The pineal body makes less melatonin in bright light and more in dim light.
+   > “Bright light inhibits the production of melatonin, whereas low light levels promote the production of melatonin.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+3. The pineal body, also called the pineal gland, is a small cone-shaped structure in the brain.
+   > “The pineal gland, also called pineal body or epiphysis cerebri, is a small cone-shaped structure that extends posteriorly from the third ventricle of the brain.” ([SEER Training Modules: Pituitary & Pineal Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html), Free of copyright (NCI reuse policy))
+
+#### Pineal body: Core (drafted; grade 14; `content/FMA_62033/tier2.md`)
+
+1. The pineal body releases melatonin, a hormone that causes drowsiness and is important in regulating the sleep-wake cycle. *(defines “melatonin”)*
+   > “pineal gland: endocrine gland that secretes melatonin, which is important in regulating the sleep-wake cycle” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “melatonin: amino acid–derived hormone that is secreted in response to low light and causes drowsiness” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. Also called the pineal gland, the pineal body is a small cone-shaped structure that extends backward from the third ventricle, a fluid-filled cavity in the brain. *(defines “third ventricle”)*
+   > “The pineal gland, also called pineal body or epiphysis cerebri, is a small cone-shaped structure that extends posteriorly from the third ventricle of the brain.” ([SEER Training Modules: Pituitary & Pineal Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html), Free of copyright (NCI reuse policy))
+   > “ventricle: cavity within brain that contains cerebrospinal fluid” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. Besides parts of nerve cells and supporting cells called neuroglia, the gland holds specialized secreting cells called pinealocytes. *(defines “neuroglia”)*
+   > “The pineal gland consists of portions of neurons, neuroglial cells, and specialized secretory cells called pinealocytes.” ([SEER Training Modules: Pituitary & Pineal Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html), Free of copyright (NCI reuse policy))
+   > “neuroglia: supportive neural cells” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Pinealocytes make melatonin and release it straight into the cerebrospinal fluid, the clear liquid around the brain and spinal cord, and this fluid carries the melatonin into the blood. *(defines “cerebrospinal fluid”)*
+   > “The pinealocytes synthesize the hormone melatonin and secrete it directly into the cerebrospinal fluid, which takes it into the blood.” ([SEER Training Modules: Pituitary & Pineal Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html), Free of copyright (NCI reuse policy))
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+5. When light reaches the eyes, a nerve signal travels to the suprachiasmatic nucleus, a region in the brain's hypothalamus that helps regulate biological rhythms. *(defines “hypothalamus”)*
+   > “When photons of light stimulate the retinas of the eyes, a nerve impulse is sent to a region of the hypothalamus called the suprachiasmatic nucleus (SCN), which is important in regulating biological rhythms.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+   > “Recall that the hypothalamus, part of the diencephalon of the brain, sits inferior and somewhat anterior to the thalamus.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+6. The signal then passes to the spinal cord and on to the pineal body, where melatonin production slows; as blood levels of melatonin fall, a person becomes more wakeful.
+   > “From the SCN, the nerve signal is carried to the spinal cord and eventually to the pineal gland, where the production of melatonin is inhibited. As a result, blood levels of melatonin fall, promoting wakefulness.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+7. In contrast, as light fades in the evening, melatonin production rises, and the higher blood levels cause drowsiness.
+   > “In contrast, as light levels decline—such as during the evening—melatonin production increases, boosting blood levels and causing drowsiness.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+8. Melatonin may also influence circadian rhythms, the body’s ups and downs with dark and light; these rhythms affect sleepiness and wakefulness as well as appetite and body temperature. *(defines “circadian rhythms”)*
+   > “The secretion of melatonin may influence the body’s circadian rhythms, the dark-light fluctuations that affect not only sleepiness and wakefulness, but also appetite and body temperature.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+9. Children have higher melatonin levels than adults, which may delay puberty by blocking the release of certain hormones from the pituitary gland, a bean-sized organ that secretes hormones. *(defines “pituitary gland”)*
+   > “Interestingly, children have higher melatonin levels than adults, which may prevent the release of gonadotropins from the anterior pituitary, thereby inhibiting the onset of puberty.” ([17.7 The Pineal Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland), CC BY 4.0)
+   > “pituitary gland: bean-sized organ suspended from the hypothalamus that produces, stores, and secretes hormones in response to hypothalamic stimulation (also called hypophysis)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Pituitary gland: Plain (drafted; grade 7.8; `content/FMA_13889/tier1.md`)
+
+1. The pituitary gland makes, stores and releases hormones, substances that travel in the blood to act on other body parts. *(defines “hormone”)*
+   > “pituitary gland: bean-sized organ suspended from the hypothalamus that produces, stores, and secretes hormones in response to hypothalamic stimulation (also called hypophysis)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “hormone: secretion of an endocrine organ that travels via the bloodstream or lymphatics to induce a response in target cells or tissues in another part of the body” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. Some of these hormones turn other hormone-making glands on or off.
+   > “Of the hormones of the anterior pituitary, TSH, ACTH, FSH, and LH are collectively referred to as tropic hormones (trope- = “turning”) because they turn on or off the function of other endocrine glands.” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+3. Sometimes called the “master gland,” the pituitary sits at the base of the brain in a groove of a skull bone.
+   > “The pituitary gland, sometimes called the hypophysis or “master gland” is located at the base of the brain in the sella turcica, a groove of the sphenoid bone of the skull” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+4. The gland hangs from the hypothalamus, a part of the brain that tells the gland when to release hormones. *(defines “hypothalamus”)*
+   > “pituitary gland: bean-sized organ suspended from the hypothalamus that produces, stores, and secretes hormones in response to hypothalamic stimulation (also called hypophysis)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “The hypothalamus is an endocrine organ located in the diencephalon of the brain.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+
+#### Pituitary gland: Core (drafted; grade 11.4; `content/FMA_13889/tier2.md`)
+
+1. The pituitary gland, also called the hypophysis, makes, stores and releases hormones, substances that travel in the blood to act on cells in other parts of the body. *(defines “hormone”)*
+   > “pituitary gland: bean-sized organ suspended from the hypothalamus that produces, stores, and secretes hormones in response to hypothalamic stimulation (also called hypophysis)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “hormone: secretion of an endocrine organ that travels via the bloodstream or lymphatics to induce a response in target cells or tissues in another part of the body” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. Sometimes called the “master gland,” the pituitary sits at the base of the brain in the sella turcica, a groove of the sphenoid bone, which forms the central base of the skull. *(defines “sphenoid bone”)*
+   > “The pituitary gland, sometimes called the hypophysis or “master gland” is located at the base of the brain in the sella turcica, a groove of the sphenoid bone of the skull” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “sphenoid bone: unpaired bone that forms the central base of skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. A stem called the infundibulum suspends the bean-sized gland from the hypothalamus, a hormone-making part of the brain. *(defines “hypothalamus”)*
+   > “In addition, the hypothalamus is anatomically and functionally related to the pituitary gland (or hypophysis), a bean-sized organ suspended from it by a stem called the infundibulum (or pituitary stalk).” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+   > “The hypothalamus is an endocrine organ located in the diencephalon of the brain.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+4. The gland has two lobes that grow from different kinds of embryonic tissue; the anterior lobe, toward the front, is glandular tissue that forms from the early digestive tract. *(defines “anterior”)*
+   > “It consists of two lobes that arise from distinct parts of embryonic tissue: the posterior pituitary (neurohypophysis) is neural tissue, whereas the anterior pituitary (also known as the adenohypophysis) is glandular tissue that develops from the primitive digestive tract.” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+   > “anterior: describes the front or direction toward the front of the body; also referred to as ventral” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+5. The posterior lobe, toward the back, is instead made of nerve tissue. *(defines “posterior”)*
+   > “It consists of two lobes that arise from distinct parts of embryonic tissue: the posterior pituitary (neurohypophysis) is neural tissue, whereas the anterior pituitary (also known as the adenohypophysis) is glandular tissue that develops from the primitive digestive tract.” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+   > “posterior: describes the back or direction toward the back of the body; also referred to as dorsal” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+6. Releasing and inhibiting hormones from the hypothalamus travel to the anterior lobe through the hypophyseal portal system, a network of blood vessels, and make the lobe secrete more or less of its hormones. *(defines “hypophyseal portal system”)*
+   > “These regulatory hormones can be releasing hormones or inhibiting hormones, causing more or less of the anterior pituitary hormones to be secreted. These travel from the hypothalamus through the hypophyseal portal system to the anterior pituitary where they exert their effect.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “hypophyseal portal system: network of blood vessels that enables hypothalamic hormones to travel into the anterior lobe of the pituitary without entering the systemic circulation” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+7. One of the anterior lobe's hormones, growth hormone, promotes tissue building and influences how the body uses nutrients.
+   > “growth hormone (GH): anterior pituitary hormone that promotes tissue building and influences nutrient metabolism (also called somatotropin)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+8. Some anterior lobe hormones are called tropic hormones because they turn other hormone-making glands on or off. *(defines “tropic hormones”)*
+   > “Of the hormones of the anterior pituitary, TSH, ACTH, FSH, and LH are collectively referred to as tropic hormones (trope- = “turning”) because they turn on or off the function of other endocrine glands.” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+9. Rather than making hormones, the posterior lobe stores ones made by the hypothalamus and releases them into the blood.
+   > “The posterior pituitary itself does not produce hormones, but instead stores hormones produced by the hypothalamus and releases them into the bloodstream.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+10. One of these stored hormones, antidiuretic hormone (ADH), signals the kidneys to take back water.
+   > “antidiuretic hormone (ADH): hypothalamic hormone that is stored by the posterior pituitary and that signals the kidneys to reabsorb water” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+### Integumentary
+
+#### Mammary gland: Plain (drafted; grade 6.7; `content/UBERON_0001911/tier1.md`; also Set of lactiferous glands in right breast, Set of lactiferous glands in left breast)
+
+1. The mammary gland makes milk to feed newborns.
+   > “Mammary glands produce milk that is used to feed newborns.” ([29.6 Mammals](https://openstax.org/books/biology-2e/pages/29-6-mammals), CC BY 4.0)
+2. Both sexes have mammary glands in the breast, but the glands usually work only in females.
+   > “Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+3. Tubes called lactiferous ducts carry the milk to the nipple. *(defines “lactiferous ducts”)*
+   > “lactiferous ducts: ducts that connect the mammary glands to the nipple and allow for the transport of milk” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+4. The hormone prolactin makes the gland produce milk, and the hormone oxytocin pushes the milk out. *(defines “prolactin”)*
+   > “Prolactin from the anterior pituitary stimulates the production of milk within the glandular tissue, and oxytocin causes the ejection of milk from the glands.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+   > “prolactin (PRL): anterior pituitary hormone that promotes development of the mammary glands and the production of breast milk” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Mammary gland: Core (drafted; grade 10.1; `content/UBERON_0001911/tier2.md`; also Set of lactiferous glands in right breast, Set of lactiferous glands in left breast)
+
+1. The mammary gland makes milk to feed newborns.
+   > “Mammary glands produce milk that is used to feed newborns.” ([29.6 Mammals](https://openstax.org/books/biology-2e/pages/29-6-mammals), CC BY 4.0)
+2. After childbirth, the gland makes and releases milk in response to an infant sucking at the nipple, a process called lactation. *(defines “lactation”)*
+   > “Lactation is the process by which milk is synthesized and secreted from the mammary glands of the postpartum female breast in response to an infant sucking at the nipple.” ([28.6 Lactation](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation), CC BY 4.0)
+3. The mammary gland lies in the breast, over the pectoralis major, the large muscle on the chest. *(defines “pectoralis major”)*
+   > “Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+   > “The large muscle on the chest, the pectoralis major” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+4. Mammary glands are modified sweat glands found in both sexes, but the glands usually work only in females.
+   > “Functionally, the mammary glands produce milk; structurally, they are modified sweat glands. Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+5. In the adult female breast, the glandular tissue forms 15 to 20 lobes that fan out around the nipple.
+   > “Internally, the adult female breast contains 15 to 20 lobes of glandular tissue that radiate around the nipple.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+6. Milk is made in alveoli, balloon-like structures lined with milk-secreting cells and wrapped in a net of cells that can contract. *(defines “alveoli”)*
+   > “Breast alveoli are balloon-like structures lined with milk-secreting cuboidal cells, or lactocytes, that are surrounded by a net of contractile myoepithelial cells. Milk is secreted from the lactocytes, fills the alveoli, and is squeezed into the ducts.” ([28.6 Lactation](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation), CC BY 4.0)
+7. Tubes called lactiferous ducts carry milk from each lobe to the nipple, and just before the nipple each duct widens into a lactiferous sinus that stores milk. *(defines “lactiferous ducts”)*
+   > “A lactiferous duct collects the milk from the lobules within each lobe and carries it to the nipple. Just before the nipple, the lactiferous duct enlarges to form a lactiferous sinus (ampulla), which serves as a reservoir for milk.” ([SEER Training Modules: Mammary Glands](https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html), Free of copyright (NCI reuse policy))
+   > “lactiferous ducts: ducts that connect the mammary glands to the nipple and allow for the transport of milk” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+8. The female sex hormones estrogen and progesterone make the glandular tissue and ducts of the breast develop. *(defines “estrogen and progesterone”)*
+   > “Estrogen and progesterone stimulate the development of glandular tissue and ducts in the breast.” ([SEER Training Modules: Review: Introduction to the Reproductive System](https://training.seer.cancer.gov/anatomy/reproductive/review.html), Free of copyright (NCI reuse policy))
+   > “Two groups of female sex hormones are produced in the ovaries, the estrogens and progesterone.” ([SEER Training Modules: Gonads](https://training.seer.cancer.gov/anatomy/endocrine/glands/gonads.html), Free of copyright (NCI reuse policy))
+9. The hormone prolactin helps the glandular tissue develop during pregnancy and stimulates milk production after the infant is born.
+   > “Prolactin hormone promotes the development of glandular tissue in the female breast during pregnancy and stimulates milk production after the birth of the infant.” ([SEER Training Modules: Pituitary & Pineal Glands](https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html), Free of copyright (NCI reuse policy))
+10. When an infant suckles, the hormone oxytocin is released and makes the cells around the alveoli squeeze milk out toward the nipple. *(defines “oxytocin”)*
+   > “Following childbirth, suckling triggers oxytocin release, which stimulates myoepithelial cells to squeeze milk from alveoli. Breast milk then drains toward the nipple pores to be consumed by the infant.” ([28.6 Lactation](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation), CC BY 4.0)
+   > “oxytocin: hypothalamic hormone stored in the posterior pituitary gland and important in stimulating uterine contractions in labor, milk ejection during breastfeeding, and feelings of attachment (produced by males and females)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Skin: Plain (drafted; grade 8.7; `content/FMA_7163/tier1.md`)
+
+1. The skin protects the body, senses changes in the environment, helps control body temperature and makes vitamin D.
+   > “The skin plays important roles in protection, sensing stimuli, thermoregulation, and vitamin D synthesis.” ([5.3 Functions of the Integumentary System](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system), CC BY 4.0)
+2. The skin surrounds the entire body and forms the body's outer layer.
+   > “Nonparenchymatous organ that consists of the epidermis, dermis and sets of hair and nails and which surrounds the entire body. Subdivisions of the skin surround various body parts; as a whole, the skin constitutes the external layer of the body.” ([FMA:7163 Skin](http://purl.org/sig/ont/fma/fma7163), CC BY 3.0)
+3. The skin's outermost layer, the epidermis, is fairly thin and has no blood supply. *(defines “epidermis”)*
+   > “Recall that the epidermis is the outermost layer of skin in mammals. It is relatively thin, is composed of keratin-filled cells, and has no blood supply.” ([36.2 Somatosensation](https://openstax.org/books/biology-2e/pages/36-2-somatosensation), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. In contrast, the dermis below the epidermis is much thicker and holds blood vessels and sweat glands. *(defines “dermis”)*
+   > “The epidermis serves as a barrier to water and to invasion by pathogens. Below this, the much thicker dermis contains blood vessels, sweat glands, hair follicles, lymph vessels, and lipid-secreting sebaceous glands” ([36.2 Somatosensation](https://openstax.org/books/biology-2e/pages/36-2-somatosensation), CC BY 4.0)
+   > “dermis: layer of skin between the epidermis and hypodermis, composed mainly of connective tissue and containing blood vessels, hair follicles, sweat glands, and other structures” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+
+#### Skin: Core (drafted; grade 9.9; `content/FMA_7163/tier2.md`)
+
+1. The skin protects the body, senses changes in the environment, helps control body temperature and makes vitamin D.
+   > “The skin plays important roles in protection, sensing stimuli, thermoregulation, and vitamin D synthesis.” ([5.3 Functions of the Integumentary System](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system), CC BY 4.0)
+2. The skin surrounds the entire body and forms the body's outer layer.
+   > “Nonparenchymatous organ that consists of the epidermis, dermis and sets of hair and nails and which surrounds the entire body. Subdivisions of the skin surround various body parts; as a whole, the skin constitutes the external layer of the body.” ([FMA:7163 Skin](http://purl.org/sig/ont/fma/fma7163), CC BY 3.0)
+3. The skin's outermost layer, the epidermis, is fairly thin and has no blood supply. *(defines “epidermis”)*
+   > “Recall that the epidermis is the outermost layer of skin in mammals. It is relatively thin, is composed of keratin-filled cells, and has no blood supply.” ([36.2 Somatosensation](https://openstax.org/books/biology-2e/pages/36-2-somatosensation), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. The main type of cell in the epidermis produces keratin, a protein that makes skin hard and water-resistant. *(defines “keratin”)*
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+   > “keratin: type of structural protein that gives skin, hair, and nails its hard, water-resistant properties” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+5. The top layer of the epidermis is made of dead cells, which are shed from time to time and replaced by cells made in the deepest layer.
+   > “The topmost layer, the stratum corneum, consists of dead cells that shed periodically and is progressively replaced by cells formed from the basal layer.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+6. Cells called melanocytes make melanin, a pigment that gives skin its color and helps protect living cells in the epidermis from ultraviolet (UV) radiation. *(defines “melanin”)*
+   > “The second is a melanocyte, a cell that produces the pigment melanin. Melanin gives hair and skin its color, and also helps protect the living cells of the epidermis from ultraviolet (UV) radiation damage.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “melanin: pigment that determines the color of hair and skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+7. Below the epidermis lies the much thicker dermis, which contains blood vessels, sweat glands and hair follicles, the sacs from which hairs grow. *(defines “hair follicle”)*
+   > “The epidermis serves as a barrier to water and to invasion by pathogens. Below this, the much thicker dermis contains blood vessels, sweat glands, hair follicles, lymph vessels, and lipid-secreting sebaceous glands” ([36.2 Somatosensation](https://openstax.org/books/biology-2e/pages/36-2-somatosensation), CC BY 4.0)
+   > “hair follicle: cavity or sac from which hair originates” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+8. Fibers of collagen and elastin in the dermis give the skin strength and elasticity.
+   > “The dermis connects the epidermis to the hypodermis, and provides strength and elasticity due to the presence of collagen and elastin fibers.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+9. Nerve structures in the layers of the skin detect touch, surface temperature and pain, so the skin works as a sense organ.
+   > “The skin acts as a sense organ because the epidermis, dermis, and the hypodermis contain specialized sensory nerve structures that detect touch, surface temperature, and pain.” ([5.3 Functions of the Integumentary System](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system), CC BY 4.0)
+10. When the body warms up, blood vessels in the dermis widen and sweat glands release more sweat, and evaporation of that sweat cools the body.
+   > “When the body temperature rises, such as when exercising on a hot day, the dermal blood vessels dilate, and the sweat glands begin to secrete more sweat. The evaporation of the sweat from the surface of the skin cools the body by dissipating heat.” ([5.3 Functions of the Integumentary System](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system), CC BY 4.0)
+
+### Lymphatic
+
+#### Mesenteric lymph node: Plain (drafted; grade 6.7; `content/UBERON_0002509/tier1.md`)
+
+1. Mesenteric lymph nodes clean lymph, a watery fluid that bathes the body's tissues. *(defines “lymph”)*
+   > “lymph node: specialized organ that contains a large number of macrophages that clean the lymph before the fluid is returned to the heart” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+2. These nodes remove debris and pathogens, agents that can cause disease, from the lymph. *(defines “pathogens”)*
+   > “Lymph nodes function to remove debris and pathogens from the lymph, and are thus sometimes referred to as the “filters of the lymph”” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+3. Mesenteric lymph nodes lie in the mesentery, a band of tissue that anchors most of the small intestine. *(defines “mesentery”)*
+   > “The lymph nodes located in the mesentery, of which there are 3 classes: ileocolic, juxtaintestinal mesenteric, and central superior group.” ([UBERON:0002509 mesenteric lymph node](http://purl.obolibrary.org/obo/UBERON_0002509), CC BY 3.0)
+   > “Mesentery | Vertical band of tissue anterior to the lumbar vertebrae and anchoring all of the small intestine except the initial portion (the duodenum)” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+4. Like other lymph nodes, each one is small and shaped like a bean.
+   > “Lymph nodes are small bean-shaped structures that are usually less than 2.5 cm in length.” ([SEER Training Modules: Lymph Nodes](https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html), Free of copyright (NCI reuse policy))
+
+#### Mesenteric lymph node: Core (drafted; grade 9.2; `content/UBERON_0002509/tier2.md`)
+
+1. Mesenteric lymph nodes filter lymph, a watery fluid that bathes tissues and organs, before the lymph returns to the blood. *(defines “lymph”)*
+   > “Lymph nodes are small bean-shaped structures that are usually less than 2.5 cm in length. They are widely distributed throughout the body along the lymphatic pathways where they filter the lymph before it is returned to the blood.” ([SEER Training Modules: Lymph Nodes](https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html), Free of copyright (NCI reuse policy))
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+2. These nodes remove debris and pathogens, agents that can cause disease, from the lymph. *(defines “pathogens”)*
+   > “Lymph nodes function to remove debris and pathogens from the lymph, and are thus sometimes referred to as the “filters of the lymph”” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+3. Each node is also a site of immune responses carried out by T cells and B cells, two types of white blood cell. *(defines “T cells and B cells”)*
+   > “The lymph node is also the site of adaptive immune responses mediated by T cells, B cells, and accessory cells of the adaptive immune system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “B cells (B lymphocytes) are a type of white blood cell that gives rise to antibodies, whereas T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+4. The mesenteric lymph nodes of the intestine are among the places where T cells detect antigens, foreign proteins that trigger an immune response. *(defines “antigens”)*
+   > “Processed antigens displayed on APCs are detected by T cells in the MALT and at various mucosal induction sites, such as the tonsils, adenoids, appendix, or the mesenteric lymph nodes of the intestine.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “antigen: foreign or “non-self” protein that triggers the immune response” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+5. Mesenteric lymph nodes lie in the mesentery, a band of tissue that anchors most of the small intestine. *(defines “mesentery”)*
+   > “The lymph nodes located in the mesentery, of which there are 3 classes: ileocolic, juxtaintestinal mesenteric, and central superior group.” ([UBERON:0002509 mesenteric lymph node](http://purl.obolibrary.org/obo/UBERON_0002509), CC BY 3.0)
+   > “Mesentery | Vertical band of tissue anterior to the lumbar vertebrae and anchoring all of the small intestine except the initial portion (the duodenum)” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+6. Like other lymph nodes, each one is small and bean-shaped, usually less than 2.5 cm long.
+   > “Lymph nodes are small bean-shaped structures that are usually less than 2.5 cm in length.” ([SEER Training Modules: Lymph Nodes](https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html), Free of copyright (NCI reuse policy))
+7. Each node is wrapped in a tough capsule of connective tissue, the tissue that holds organs in place, and extensions of the capsule divide the node into compartments. *(defines “connective tissue”)*
+   > “Like the thymus, the bean-shaped lymph nodes are surrounded by a tough capsule of connective tissue and are separated into compartments by trabeculae, the extensions of the capsule.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. Inside the node, lymph seeps through connective tissue filled with white blood cells, which remove bacteria and viruses.
+   > “The lymph nodes filter the lymph by percolation through connective tissue filled with white blood cells. The white blood cells remove infectious agents, such as bacteria and viruses, to clean the lymph before it returns to the bloodstream.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+9. Lymph then leaves through an efferent vessel at an indented region of the node called the hilum.
+   > “The lymph moves through the lymph sinuses and enters an efferent lymphatic vessel, which, located at an indented region called the hilum, carries the lymph away from the node.” ([SEER Training Modules: Lymph Nodes](https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html), Free of copyright (NCI reuse policy))
+
+Dropped:
+- “Lymph enters each node through afferent vessels at many points on the node's rounded side.” (checker: Quote verbatim, but it says the afferent lymphatics enter 'at different parts of its periphery'; the sentence's 'at many points' adds a quantity the quote does not state ('several' or 'different' would be faithful). Rest ('convex side' as 'rounded side') is fine.)
+
+#### Spleen: Core (drafted; grade 8.8; `content/FMA_7196/tier2.md`)
+
+1. The spleen filters pathogens, agents that can cause disease, out of the blood and removes worn-out or damaged blood cells. *(defines “pathogens”)*
+   > “spleen: secondary lymphoid organ that filters pathogens from the blood (white pulp) and removes degenerating or damaged blood cells (red pulp)” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. The spleen also stores red blood cells and platelets, small cell fragments that help prevent blood loss. *(defines “platelets”)*
+   > “The organ that functions to filter blood and to store red corpuscles and platelets.” ([UBERON:0002106 spleen](http://purl.obolibrary.org/obo/UBERON_0002106), CC BY 3.0)
+   > “platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+3. The spleen lies in the upper left abdomen, behind the stomach and just below the diaphragm, the dome-shaped muscle under the lungs. *(defines “diaphragm”)*
+   > “The spleen is located in the upper left abdominal cavity, just beneath the diaphragm, and posterior to the stomach.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+   > “diaphragm: domed-shaped skeletal muscle located under lungs that separates the thoracic cavity from the abdominal cavity” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+4. About 12 cm (5 in) long, the spleen is dark red because of its many blood vessels.
+   > “It is about 12 cm (5 in) long and is attached to the lateral border of the stomach via the gastrosplenic ligament. The spleen is a fragile organ without a strong capsule, and is dark red due to its extensive vascularization.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+5. A capsule of connective tissue, the tissue that holds organs in place, surrounds the spleen, which is made of two types of tissue: white pulp and red pulp. *(defines “connective tissue”)*
+   > “Surrounded by a connective tissue capsule, which extends inward to divide the organ into lobules, the spleen consists of two types of tissue called white pulp and red pulp.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+6. The white pulp is made mainly of lymphocytes, a type of white blood cell, gathered around arteries. *(defines “lymphocytes”)*
+   > “The white pulp is lymphatic tissue consisting mainly of lymphocytes around arteries.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+   > “lymphocytes: white blood cells characterized by a large nucleus and small rim of cytoplasm” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+7. The red pulp is made of cords of cells, such as lymphocytes, and venous sinuses, which are reservoirs filled with blood. *(defines “venous sinuses”)*
+   > “The red pulp consists of venous sinuses filled with blood and cords of lymphatic cells, such as lymphocytes and macrophages.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+   > “The sinuses in the spleen are a reservoir for blood.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+8. Blood enters the spleen through the splenic artery, is filtered in the sinuses, and leaves through the splenic vein.
+   > “Blood enters the spleen through the splenic artery, moves through the sinuses where it is filtered, then leaves through the splenic vein.” ([SEER Training Modules: Spleen](https://training.seer.cancer.gov/anatomy/lymphatic/components/spleen.html), Free of copyright (NCI reuse policy))
+9. The red pulp mainly filters the blood, while the white pulp is where T cells and B cells, the two basic types of lymphocyte, mount immune responses. *(defines “T cells and B cells”)*
+   > “Thus, the red pulp primarily functions as a filtration system of the blood, using cells of the relatively nonspecific immune response, and white pulp is where adaptive T and B cell responses are mounted.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+10. Red blood cells last 120 days on average; then macrophages, large cells that engulf foreign particles, break down and recycle the old cells in the spleen and liver. *(defines “macrophages”)*
+   > “Red blood cells have an average life span of 120 days, at which time they are broken down and recycled in the liver and spleen by phagocytic macrophages, a type of white blood cell.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+
+#### Thymus: Plain (drafted; grade 5.6; `content/FMA_9607/tier1.md`)
+
+1. The thymus is the organ where T cells, a type of white blood cell, mature. *(defines “T cells”)*
+   > “thymus: primary lymphoid organ; where T lymphocytes proliferate and mature” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Mature T cells then travel in the blood to other organs to help fight disease.
+   > “While in the thymus, the lymphocytes do not respond to pathogens and foreign agents. After the lymphocytes have matured, they enter the blood and go to other lymphatic organs where they help provide defense against disease.” ([SEER Training Modules: Thymus](https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html), Free of copyright (NCI reuse policy))
+3. The thymus sits in the upper chest, behind the sternum, or breastbone. *(defines “sternum”)*
+   > “It is located in the upper anterior portion of the chest, behind the sternum.” ([NCIT:C12433 Thymus Gland](http://purl.obolibrary.org/obo/NCIT_C12433), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. The thymus is fairly large in children but starts to shrink after puberty.
+   > “The thymus is a soft organ with two lobes that is located anterior to the ascending aorta and posterior to the sternum. It is relatively large in infants and children but after puberty it begins to decrease in size so that in older adults it is quite small.” ([SEER Training Modules: Thymus](https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html), Free of copyright (NCI reuse policy))
+
+#### Thymus: Core (drafted; grade 10.5; `content/FMA_9607/tier2.md`)
+
+1. The thymus is where T cells, white blood cells with an important role in the immune response, multiply and mature. *(defines “T cells”)*
+   > “thymus: primary lymphoid organ; where T lymphocytes proliferate and mature” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Immature T cells, called thymocytes, leave the bone marrow, the tissue inside bones where blood cells develop, and mature mostly in the thymus. *(defines “bone marrow”)*
+   > “the immature T cell, called a thymocyte, leaves the bone marrow and matures largely in the thymus gland.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. The thymus also makes hormones called thymosins, chemical signals that help T cells develop. *(defines “hormones”)*
+   > “thymosins: hormones produced and secreted by the thymus that play an important role in the development and differentiation of T cells” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+   > “hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+4. The thymus has two lobes and sits in front of the heart, behind the sternum, or breastbone. *(defines “sternum”)*
+   > “Corticomedullary organ, each instance of which is some lymphoid organ consisting of two pyramidal lobes located in some anterior superior mediastinum, anterior to some heart and posterior to some sternum.” ([FMA:9607 Thymus](http://purl.org/sig/ont/fma/fma9607), CC BY 3.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+5. The thymus is large and very active in infancy and early childhood, when the immune system is still developing, but shrinks in adulthood.
+   > “During infancy and early childhood, the thymus gland is large and very active, as the immune system is still developing. During adulthood, the thymus gland atrophies because the immune system is already developed.” ([17.10 Organs with Secondary Endocrine Functions](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-10-organs-with-secondary-endocrine-functions), CC BY 4.0)
+6. A capsule of connective tissue, the tissue that holds organs in place, divides the thymus into lobules through extensions called trabeculae. *(defines “connective tissue”)*
+   > “The connective tissue capsule further divides the thymus into lobules via extensions called trabeculae.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. The outer region of the thymus, called the cortex, holds large numbers of thymocytes.
+   > “The outer region of the organ is known as the cortex and contains large numbers of thymocytes with some epithelial cells, macrophages, and dendritic cells” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+8. Before leaving the thymus, thymocytes move into the medulla, a region where cells are packed less densely.
+   > “The medulla, where thymocytes migrate before leaving the thymus, contains a less dense collection of thymocytes, epithelial cells, and dendritic cells.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+9. In the thymus, T cells are also selected so that they can attack pathogens, agents that can cause disease, without harming the body's own cells. *(defines “pathogens”)*
+   > “The primary lymphoid organs are the bone marrow and thymus gland. The lymphoid organs are where lymphocytes mature, proliferate, and are selected, which enables them to attack pathogens without harming the cells of the body.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+10. This selection kills many thymocytes: only two percent of those that enter the thymus leave it as mature, working T cells.
+   > “This mechanism kills many thymocytes during T cell differentiation. In fact, only two percent of the thymocytes that enter the thymus leave it as mature, functional T cells.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+
 ### Muscular
 
 #### Abductor pollicis brevis: Plain (drafted; grade 7.4; `content/FMA_37373/tier1.md`; also Right abductor pollicis brevis, Left abductor pollicis brevis)
@@ -1419,6 +2315,37 @@ Dropped:
 4. The muscle's other end attaches to the humerus, the upper arm bone. *(defines “humerus”)*
    > “A muscle arising from the coracoid process of the scapula, inserted in the medial border of the humerus, and acts to adduct and flex the arm.” ([NCIT:C53151 Coracobrachialis](http://purl.obolibrary.org/obo/NCIT_C53151), CC BY 4.0)
    > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Diaphragm: Core (drafted; grade 11.1; `content/FMA_13295/tier2.md`)
+
+1. The diaphragm is the main muscle of breathing and also separates the thoracic cavity, the chest space that holds the heart and lungs, from the abdomen. *(defines “thoracic cavity”)*
+   > “The diaphragm separating the thoracic and abdominal cavities is the primary muscle of breathing.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “The upper ventral, thoracic, or chest cavity contains the heart, lungs, trachea, esophagus, large blood vessels, and nerves.” ([SEER Training Modules: Anatomical Terminology](https://training.seer.cancer.gov/anatomy/body/terminology.html), Free of copyright (NCI reuse policy))
+2. At rest the diaphragm is shaped like a dome, with a curved underside that forms the roof of the abdominal cavity, the space that holds the digestive organs. *(defines “abdominal cavity”)*
+   > “It separates the thoracic and abdominal cavities, and is dome-shaped at rest. The superior surface of the diaphragm is convex, creating the elevated floor of the thoracic cavity. The inferior surface is concave, creating the curved roof of the abdominal cavity.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “the abdominal cavity, the division that houses the digestive organs” ([1.6 Anatomical Terminology](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology), CC BY 4.0)
+3. At the middle of the diaphragm is the central tendon, and the surrounding muscle attaches into this tendon.
+   > “The inferior surface of the pericardial sac and the inferior surfaces of the pleural membranes (parietal pleura) fuse onto the central tendon of the diaphragm. To the sides of the tendon are the skeletal muscle portions of the diaphragm, which insert into the tendon” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+4. This muscle starts at the breastbone, the lower six ribs and the lumbar vertebrae of the lower back. *(defines “lumbar vertebrae”)*
+   > “the skeletal muscle portions of the diaphragm, which insert into the tendon while having a number of origins including the xiphoid process of the sternum anteriorly, the inferior six ribs and their cartilages laterally, and the lumbar vertebrae and 12th ribs posteriorly.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “lumbar vertebrae: five vertebrae numbered as L1–L5 that are located in lumbar region (lower back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+5. The diaphragm has three openings for structures passing between the chest and the abdomen, and one of these openings lets through the inferior vena cava, the large vein that returns blood to the heart from the lower body. *(defines “inferior vena cava”)*
+   > “The diaphragm also includes three openings for the passage of structures between the thorax and the abdomen. The inferior vena cava passes through the caval opening” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “inferior vena cava: large systemic vein that returns blood to the heart from the inferior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+6. The esophagus passes through another opening, and the aorta, the largest artery in the body, passes through the last one. *(defines “aorta”)*
+   > “the esophagus and attached nerves pass through the esophageal hiatus. The aorta, thoracic duct, and azygous vein pass through the aortic hiatus of the posterior diaphragm.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+7. The phrenic nerve, the nerve that supplies the diaphragm, sets off the muscle contractions that drive breathing. *(defines “phrenic nerve”)*
+   > “The phrenic nerve is connected to the spinal cord at cervical levels 3 to 5. The motor fibers that make up this nerve are responsible for the muscle contractions that drive ventilation.” ([15.2 Autonomic Reflexes and Homeostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-2-autonomic-reflexes-and-homeostasis), CC BY 4.0)
+   > “phrenic nerve: systemic nerve from the cervical plexus that innervates the diaphragm” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+8. During inspiration, or breathing in, the diaphragm contracts, flattens and drops toward the abdominal cavity; this movement helps enlarge the thoracic cavity. *(defines “inspiration”)*
+   > “For inspiration, the diaphragm contracts, causing the diaphragm to flatten and drop towards the abdominal cavity, helping to expand the thoracic cavity.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+   > “inspiration: (also, inhalation) process that causes air to enter the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+9. The bigger thoracic cavity lowers the air pressure inside the lungs, so air flows in.
+   > “During inspiration, the diaphragm contracts and the thoracic cavity increases in volume. This decreases the intraalveolar pressure so that air flows into the lungs.” ([SEER Training Modules: Mechanics of Ventilation](https://training.seer.cancer.gov/anatomy/respiratory/mechanics.html), Free of copyright (NCI reuse policy))
+
+Dropped:
+- “In contrast, expiration, or breathing out, is passive: when the diaphragm relaxes, the lungs spring back and shrink, so the pressure inside the lungs rises and air leaves.” (checker: The quotes are verbatim, but in its file "In contrast, expiration is a passive process" answers "Outline the steps involved in quiet breathing". The same file says "The process of normal expiration is passive" and "During forced breathing, inspiration and expiration both occur due to muscle contractions". The sentence says breathing out is passive with no limit, which goes beyond the quote in context. Minor: the quote has the diaphragm and the intercostal muscles relaxing together.)
 
 #### Digastric: Plain (drafted; grade 7.3; `content/FMA_46291/tier1.md`; also Right digastric, Left digastric)
 
@@ -2699,6 +3626,35 @@ Dropped:
    > “when you are anxious or scared, the amygdala will send signals to the hypothalamus along the medial forebrain bundle that will stimulate the sympathetic fight-or-flight response” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
    > “fight-or-flight response: set of responses induced by sympathetic activity that lead to either fleeing a threat or standing up to it” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
 
+#### Brain: Core (drafted; grade 13.8; `content/FMA_50801/tier2.md`)
+
+1. The brain's activity is the basis of a person's conscious experiences, and a specialized brain region governs homeostasis, the body's ability to keep its internal conditions constant. *(defines “homeostasis”)*
+   > “A person’s conscious experiences are based on neural activity in the brain. The regulation of homeostasis is governed by a specialized region in the brain.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “homeostasis: ability of an organism to maintain constant internal conditions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+2. The brain and the spinal cord make up the central nervous system, and the brain is the part housed inside the skull. *(defines “central nervous system”)*
+   > “The brain is the part of the central nervous system that is contained in the cranial cavity of the skull.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+   > “The central nervous system (CNS) is the brain and spinal cord” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+3. The adult brain has four major regions: the cerebrum, the diencephalon, the brain stem and the cerebellum.
+   > “the adult brain is described in terms of four major regions: the cerebrum, the diencephalon, the brain stem, and the cerebellum.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. The cerebrum, the largest part of the brain, is divided into two halves, the cerebral hemispheres, which are connected by the corpus callosum, a thick bundle of fibers. *(defines “corpus callosum”)*
+   > “The largest and most obvious portion of the brain is the cerebrum, which is divided by a deep longitudinal fissure into two cerebral hemispheres.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+   > “corpus callosum: thick fiber bundle that connects the cerebral hemispheres” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+5. The cerebrum's wrinkled outer layer, the cerebral cortex, is a thin sheet of gray matter, tissue containing the cell bodies of nerve cells, and is responsible for the nervous system's higher functions. *(defines “gray matter”)*
+   > “The cerebrum is covered by a continuous layer of gray matter that wraps around either side of the forebrain—the cerebral cortex. This thin, extensive region of wrinkled gray matter is responsible for the higher functions of the nervous system.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “gray matter: regions of the nervous system containing cell bodies of neurons with few or no myelinated axons” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+6. The cortex in turn has four major regions, called lobes; the frontal lobe handles movement, from planning movements to sending commands to the spinal cord. *(defines “lobes”)*
+   > “The cortex is separated into the frontal, parietal, temporal, and occipital lobes. The frontal lobe is responsible for motor functions, from planning movements through executing commands to be sent to the spinal cord and periphery.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “the cortex can be separated into four major regions, or lobes” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+7. The parietal lobe processes somatosensation, the body's general senses such as touch; the occipital lobe is where the processing of vision begins; and the temporal lobe holds the area for hearing and regions crucial for forming memories. *(defines “somatosensation”)*
+   > “parietal lobe is where somatosensation is processed. The occipital lobe is where visual processing begins, although the other parts of the brain can contribute to visual function. The temporal lobe contains the cortical area for auditory processing, but also has regions crucial for memory formation.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “somatosensation: general senses related to the body, usually thought of as the senses of touch, which would include pain, temperature, and proprioception” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+8. The diencephalon contains the thalamus, which relays information between the cerebrum and the rest of the nervous system, and the hypothalamus, which coordinates homeostasis.
+   > “The diencephalon includes the thalamus and the hypothalamus, along with some other structures. The thalamus is a relay between the cerebrum and the rest of the nervous system. The hypothalamus coordinates homeostatic functions through the autonomic and endocrine systems.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+9. The brain stem, the part of the brain that connects with the spinal cord, controls basic functions such as breathing, heart rate and swallowing.
+   > “brainstem: portion of the brain that connects with the spinal cord; controls basic nervous system functions like breathing, heart rate, and swallowing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+10. The cerebellum, at the base of the brain on top of the brain stem, controls balance and helps with coordinating movement and learning new movement skills.
+   > “sits at the base of the brain on top of the brainstem. The cerebellum controls balance and aids in coordinating movement and learning new motor tasks.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
 #### Cerebellum: Plain (drafted; grade 9.3; `content/FMA_67944/tier1.md`)
 
 1. The cerebellum controls balance and helps you coordinate movements and learn new movement skills.
@@ -3037,6 +3993,44 @@ Dropped:
    > “striatum: the caudate and putamen collectively, as part of the basal nuclei, which receive input from the cerebral cortex” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
 4. The putamen and the globus pallidus, a layered nucleus, fit together like curved lenses. *(defines “globus pallidus”)*
    > “The globus pallidus is a layered nucleus that lies just medial to the putamen; they are called the lenticular nuclei because they look like curved pieces fitting together like lenses.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Spinal cord: Plain (drafted; grade 7.2; `content/FMA_7647/tier1.md`)
+
+1. The spinal cord carries messages both ways between the brain and the body.
+   > “The spinal cord is a thick bundle of nerve tissue that carries information about the body to the brain and from the brain to the body.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. The spinal cord also controls reflexes, quick movements made without thinking, like pulling a hand away from a hot object. *(defines “reflexes”)*
+   > “The spinal cord also controls motor reflexes. These reflexes are quick, unconscious movements—like automatically removing a hand from a hot object.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. The spinal cord lies inside the spine, which surrounds and protects the cord.
+   > “vertebral column: (also, spine) surrounds and protects the spinal cord” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. Together, the brain and the spinal cord make up the central nervous system. *(defines “central nervous system”)*
+   > “The central nervous system (CNS) is the brain and spinal cord” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+
+#### Spinal cord: Core (drafted; grade 10.2; `content/FMA_7647/tier2.md`)
+
+1. The spinal cord, a thick bundle of nerve tissue, carries information both ways: from the body to the brain, and from the brain back to the body.
+   > “The spinal cord is a thick bundle of nerve tissue that carries information about the body to the brain and from the brain to the body.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. The spinal cord also controls reflexes, quick movements made without conscious thought, such as pulling a hand away from a hot object. *(defines “reflexes”)*
+   > “The spinal cord also controls motor reflexes. These reflexes are quick, unconscious movements—like automatically removing a hand from a hot object.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. Many reflexes are handled within the spinal cord itself, without involving the higher centers of the brain.
+   > “Many reflexes are mediated in the spinal cord without going to the higher brain centers.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+4. Together, the brain and the spinal cord make up the central nervous system. *(defines “central nervous system”)*
+   > “The central nervous system (CNS) is the brain and spinal cord” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+5. The spinal cord lies within the vertebral column, the series of bones joined together as the backbone. *(defines “vertebral column”)*
+   > “The brain is in the cranial vault, and the spinal cord is in the vertebral canal of the vertebral column.” ([SEER Training Modules: Organization of the Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/), Free of copyright (NCI reuse policy))
+   > “vertebral column: series of separate bones joined together as a backbone” ([Chapter 29 Key Terms (Vertebrates)](https://openstax.org/books/biology-2e/pages/29-key-terms), CC BY 4.0)
+6. The spinal cord runs from the base of the skull down to the level of the first lumbar vertebra, one of the bones of the lower back. *(defines “lumbar vertebra”)*
+   > “The spinal cord extends from the foramen magnum at the base of the skull to the level of the first lumbar vertebra.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+   > “lumbar vertebrae: five vertebrae numbered as L1–L5 that are located in lumbar region (lower back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+7. The cord is divided into 31 segments, and each segment gives rise to a pair of spinal nerves, which run between the cord and the skin or muscles. *(defines “spinal nerves”)*
+   > “The spinal cord is divided into 31 segments with each segment giving rise to a pair of spinal nerves.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+   > “spinal nerve: nerve projecting between skin or muscle and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+8. In cross-section, the spinal cord looks like a white oval around a gray, butterfly-shaped core.
+   > “A cross-section of the spinal cord looks like a white oval containing a gray butterfly-shape” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+9. The gray core, called gray matter, holds the cell bodies of nerve cells, while the white part, called white matter, is made of nerve fibers wrapped in myelin, a fatty insulating substance. *(defines “myelin”)*
+   > “A cross-section of the spinal cord looks like a white oval containing a gray butterfly-shape, as illustrated in . Myelinated axons make up the “white matter” and neuron and glial cell bodies make up the “gray matter.”” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+   > “myelin: fatty substance produced by glia that insulates axons” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+10. The back side of the cord mostly carries sensory information from the body to the brain, while the front side mainly carries signals that control movement from the brain to the body.
+   > “Axons and cell bodies in the dorsal (facing the back of the animal) spinal cord convey mostly sensory information from the body to the brain. Axons and cell bodies in the ventral (facing the front of the animal) spinal cord primarily transmit signals controlling movement from the brain to the body.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
 
 #### Superior colliculus: Plain (drafted; grade 8.2; `content/FMA_62403/tier1.md`; also Right superior colliculus, Left superior colliculus)
 
@@ -3618,6 +4612,523 @@ Dropped:
 4. After fertilization, the egg releases material into the zona pellucida, creating a barrier that blocks more sperm.
    > “cortical reaction: following fertilization, the release of cortical granules from the oocyte’s plasma membrane into the zona pellucida creating a fertilization membrane that prevents any further attachment or penetration of sperm; part of the slow block to polyspermy” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
 
+### Reproductive
+
+#### Epididymis: Plain (drafted; grade 8.4; `content/FMA_18255/tier1.md`; also Right epididymis, Left epididymis)
+
+1. The epididymis is a coiled tube where sperm mature and are stored until ejaculation.
+   > “epididymis: (plural = epididymides) coiled tubular structure in which sperm start to mature and are stored until ejaculation” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+2. As sperm pass through the epididymis, they gain the power to move on their own.
+   > “As they are moved along the length of the epididymis, the sperm further mature and acquire the ability to move under their own power.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+3. The epididymis lies along the top and back of the testis, the organ that makes sperm. *(defines “testis”)*
+   > “Each epididymis is a long (about 6 meters) tube that is tightly coiled to form a comma-shaped organ located along the superior and posterior margins of the testes.” ([SEER Training Modules: Duct System](https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html), Free of copyright (NCI reuse policy))
+   > “The testes are a pair of male reproductive organs that produce sperm and some reproductive hormones.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+4. Straightened out, the tightly coiled epididymis would be about 6 meters (20 feet) long.
+   > “Though the epididymis does not take up much room in its tightly coiled state, it would be approximately 6 m (20 feet) long if straightened.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+
+#### Epididymis: Core (drafted; grade 11; `content/FMA_18255/tier2.md`; also Right epididymis, Left epididymis)
+
+1. The epididymis carries, stores and matures sperm on their way from the testis, the male organ that produces sperm. *(defines “testis”)*
+   > “The elongated structure connected to the posterior surface of the testis that transports, stores, and matures spermatozoa between testis and vas deferens.” ([UBERON:0001301 epididymis](http://purl.obolibrary.org/obo/UBERON_0001301), CC BY 3.0)
+   > “The testes are a pair of male reproductive organs that produce sperm and some reproductive hormones.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+2. Each epididymis is a comma-shaped organ along the top and back edges of a testis.
+   > “Each epididymis is a long (about 6 meters) tube that is tightly coiled to form a comma-shaped organ located along the superior and posterior margins of the testes.” ([SEER Training Modules: Duct System](https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html), Free of copyright (NCI reuse policy))
+3. The head of the epididymis receives several efferent ductules, the ducts through which sperm leave the testis. *(defines “efferent ductules”)*
+   > “Convoluted duct structure posterior to the testis where one end (head of epidydimis) receives multiple efferent ductules from the testis” ([FMA:18255 Epididymis](http://purl.org/sig/ont/fma/fma18255), CC BY 3.0)
+   > “Sperm leave the rete testes, and the testis itself, through the 15 to 20 efferent ductules that cross the tunica albuginea.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. The head then drains into a single, wider duct that forms the body and tail of the epididymis.
+   > “one end (head of epidydimis) receives multiple efferent ductules from the testis and then drains to a single, larger caliber duct (body and tail of epidydimis)” ([FMA:18255 Epididymis](http://purl.org/sig/ont/fma/fma18255), CC BY 3.0)
+5. Tightly coiled, the epididymis takes up little room, but straightened out, the whole tube would be about 6 meters (20 feet) long.
+   > “Though the epididymis does not take up much room in its tightly coiled state, it would be approximately 6 m (20 feet) long if straightened.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+6. Smooth muscle, a muscle under involuntary control that moves internal organs, lines the tubes of the epididymis and pushes sperm along by contracting. *(defines “smooth muscle”)*
+   > “Sperm enter the head of the epididymis and are moved along predominantly by the contraction of smooth muscles lining the epididymal tubes.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “smooth muscle: under involuntary control, moves internal organs” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. On average, sperm take 12 days to pass through the coils of the epididymis.
+   > “It takes an average of 12 days for sperm to move through the coils of the epididymis” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+8. As sperm travel the length of the epididymis, they mature further and gain the ability to move under their own power.
+   > “As they are moved along the length of the epididymis, the sperm further mature and acquire the ability to move under their own power.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+9. The more mature sperm are then stored in the tail, the final section of the epididymis, until ejaculation.
+   > “The more mature sperm are then stored in the tail of the epididymis (the final section) until ejaculation occurs.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+10. During ejaculation, smooth muscle contractions push sperm out of the tail into the ductus deferens (vas deferens), the duct that carries sperm away from the epididymis. *(defines “ductus deferens”)*
+   > “During ejaculation, sperm exit the tail of the epididymis and are pushed by smooth muscle contraction to the ductus deferens (also called the vas deferens).” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “ductus deferens: (also, vas deferens) duct that transports sperm from the epididymis” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Fallopian tube: Plain (drafted; grade 8.9; `content/UBERON_0003889/tier1.md`; also Right fallopian tube, Left fallopian tube)
+
+1. Each fallopian tube uses tiny, hair-like cilia to move eggs from the ovary toward the uterus. *(defines “cilia”)*
+   > “Beating cilia on cells in the female fallopian tubes move egg cells from the ovary towards the uterus.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+2. Each tube reaches from the uterus to the ovary but does not touch the ovary.
+   > “The oviducts, or fallopian tubes, extend from the uterus in the lower abdominal cavity to the ovaries, but they are not in contact with the ovaries.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+3. Instead, finger-like projections called fimbriae help a released egg enter the tube. *(defines “fimbriae”)*
+   > “The lateral ends of the oviducts flare out into a trumpet-like structure and have a fringe of finger-like projections called fimbriae, illustrated in b. When an egg is released at ovulation, the fimbrae help the nonmotile egg enter into the tube and passage to the uterus.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+4. Fertilization, when a sperm joins an egg, usually happens inside the tube. *(defines “fertilization”)*
+   > “Because the oocyte is fertile for only 24 to 48 hours, fertilization usually occurs in the Fallopian tube.” ([SEER Training Modules: Genital Tract](https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html), Free of copyright (NCI reuse policy))
+   > “Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+
+#### Fallopian tube: Core (drafted; grade 11.5; `content/UBERON_0003889/tier2.md`; also Right fallopian tube, Left fallopian tube)
+
+1. Each fallopian tube, also called a uterine tube or oviduct, carries the oocyte, or egg, from the ovary to the uterus. *(defines “oocyte”)*
+   > “The uterine tubes (also called fallopian tubes or oviducts) serve as the conduit of the oocyte from the ovary to the uterus” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “the female gamete, an oocyte (egg)” ([Chapter 27 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction), CC BY 4.0)
+2. Each tube reaches from the uterus to the ovary but is not in contact with the ovary.
+   > “The oviducts, or fallopian tubes, extend from the uterus in the lower abdominal cavity to the ovaries, but they are not in contact with the ovaries.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+3. The isthmus is the narrow end that joins the uterus, while the wide far end, the infundibulum, flares out into slender, finger-like projections called fimbriae. *(defines “fimbriae”)*
+   > “The isthmus is the narrow medial end of each uterine tube that is connected to the uterus. The wide distal infundibulum flares out with slender, finger-like projections called fimbriae.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+4. The middle region, called the ampulla, is where fertilization, the joining of a sperm and an egg, often takes place. *(defines “fertilization”)*
+   > “The middle region of the tube, called the ampulla, is where fertilization often occurs.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+5. The tube wall has three layers: an outer covering called the serosa, a middle layer of muscle, and an inner lining called the mucosa. *(defines “serosa”)*
+   > “The uterine tubes also have three layers: an outer serosa, a middle smooth muscle layer, and an inner mucosal layer.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “serosa: membrane that covers organs and reduces friction; also referred to as serous membrane” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+6. Besides cells that secrete mucus, the mucosa has cells with cilia, short hair-like structures that can move substances along a cell's surface. *(defines “cilia”)*
+   > “In addition to its mucus-secreting cells, the inner mucosa contains ciliated cells that beat in the direction of the uterus, producing a current that will be critical to move the oocyte.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+7. At ovulation, when the ovary releases an oocyte, the fimbriae become more active and create currents that help draw the oocyte into the tube. *(defines “ovulation”)*
+   > “At the time of ovulation, the fimbriae increase their activity and create currents in the peritoneal fluid that help propel the oocyte into the Fallopian tube.” ([SEER Training Modules: Genital Tract](https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html), Free of copyright (NCI reuse policy))
+   > “The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+8. Once the oocyte is inside the tube, muscle contractions and beating cilia move the oocyte slowly toward the uterus.
+   > “Once inside, the muscular contractions and beating cilia move the oocyte slowly toward the uterus.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+9. If the oocyte is fertilized, the zygote, or fertilized egg, divides into two cells, then four, as it moves through the tube into the uterus. *(defines “zygote”)*
+   > “If the oocyte is successfully fertilized, the resulting zygote will begin to divide into two cells, then four, and so on, as it makes its way through the uterine tube and into the uterus.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “zygote: fertilized egg; a diploid cell resulting from the fertilization of haploid gametes from the male and female lines” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
+
+#### Ovary: Plain (drafted; grade 8.8; `content/UBERON_0000992/tier1.md`; also Right ovary, Left ovary, Right ovary, Left ovary)
+
+1. Each ovary makes eggs, called oocytes, and sex hormones such as estrogen and progesterone. *(defines “oocytes”)*
+   > “ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “the female gamete, an oocyte (egg)” ([Chapter 27 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction), CC BY 4.0)
+2. The ovaries sit in the pelvis, one on each side of the uterus.
+   > “The female gonads are the ovaries, which are located on each side of the uterus in the pelvic cavity.” ([SEER Training Modules: Review: Introduction to the Reproductive System](https://training.seer.cancer.gov/anatomy/reproductive/review.html), Free of copyright (NCI reuse policy))
+3. Each oocyte grows with supporting cells around it, and this group is called a follicle. *(defines “follicle”)*
+   > “Oocytes develop within the outer layer of this stroma, each surrounded by supporting cells. This grouping of an oocyte and its supporting cells is called a follicle.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+4. About every 28 days, one follicle releases its oocyte in a process called ovulation. *(defines “ovulation”)*
+   > “They grow and develop in a process called folliculogenesis, which typically leads to ovulation of one follicle approximately every 28 days, along with death to multiple other follicles.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+
+#### Ovary: Core (drafted; grade 11.8; `content/UBERON_0000992/tier2.md`; also Right ovary, Left ovary, Right ovary, Left ovary)
+
+1. Each ovary makes oocytes, or eggs, and sex hormones, notably estrogen and progesterone. *(defines “oocytes”)*
+   > “ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “the female gamete, an oocyte (egg)” ([Chapter 27 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction), CC BY 4.0)
+2. The ovaries lie in shallow hollows in the side walls of the pelvic cavity, one on each side of the uterus.
+   > “The ovaries are located in shallow depressions, called ovarian fossae, one on each side of the uterus, in the lateral walls of the pelvic cavity.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+3. Each ovary is about the size and shape of an almond.
+   > “Each ovary is a solid, ovoid structure about the size and shape of an almond, about 3.5 cm in length, 2 cm wide, and 1 cm thick.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+4. The ovary's tissue is divided into an outer cortex and an inner medulla.
+   > “The substance of the ovaries is distinctly divided into an outer cortex and an inner medulla.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+5. In the cortex, each oocyte develops surrounded by supporting cells, and an oocyte with its supporting cells is called a follicle. *(defines “follicle”)*
+   > “The cortex is composed of a tissue framework called the ovarian stroma that forms the bulk of the adult ovary. Oocytes develop within the outer layer of this stroma, each surrounded by supporting cells. This grouping of an oocyte and its supporting cells is called a follicle.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+6. The medulla, beneath the cortex, holds the ovary's blood vessels, lymph vessels and nerves.
+   > “Beneath the cortex lies the inner ovarian medulla, the site of blood vessels, lymph vessels, and the nerves of the ovary.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+7. At birth the ovaries hold one to two million oocytes, and the number declines throughout life until menopause, the end of reproductive function, when no follicles remain. *(defines “menopause”)*
+   > “Recall that, a female infant at birth will have one to two million oocytes within the ovarian follicles, and that this number declines throughout life until menopause, when no follicles remain.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “menopause (the cessation of a female's reproductive functions)” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+8. Follicle-stimulating hormone (FSH) promotes the growth of follicles, which then release estrogens.
+   > “follicle-stimulating hormone (FSH) stimulates the production and maturation of sex cells, or gametes, including ova and sperm. FSH also promotes follicular growth; these follicles then release estrogens in ovaries.” ([17.3 The Pituitary Gland and Hypothalamus](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus), CC BY 4.0)
+9. About every 28 days, one follicle releases its oocyte from the ovary, an event called ovulation, while several other follicles die. *(defines “ovulation”)*
+   > “They grow and develop in a process called folliculogenesis, which typically leads to ovulation of one follicle approximately every 28 days, along with death to multiple other follicles.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+10. After ovulation, the follicle left behind becomes the corpus luteum, which makes large amounts of progesterone, a hormone critical for establishing and maintaining pregnancy. *(defines “corpus luteum”)*
+   > “Instead of estrogen, the luteinized granulosa and theca cells of the corpus luteum begin to produce large amounts of the sex steroid hormone progesterone, a hormone that is critical for the establishment and maintenance of pregnancy.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “corpus luteum: transformed follicle after ovulation that secretes progesterone” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Prostate: Plain (drafted; grade 5.3; `content/FMA_9600/tier1.md`)
+
+1. The prostate is a gland that makes part of the fluid in semen.
+   > “The prostate gland secretes a fluid which is part of the semen.” ([NCIT:C12410 Prostate Gland](http://purl.obolibrary.org/obo/NCIT_C12410), CC BY 4.0)
+2. The prostate's thin, milky fluid helps sperm move.
+   > “The secretions of the prostate are thin, milky colored, and alkaline. They function to enhance the motility of the sperm.” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+3. The prostate sits below the bladder, wrapped around the urethra, which carries urine and semen. *(defines “urethra”)*
+   > “The prostate gland is a firm, dense structure that is located just inferior to the urinary bladder. It is about the size of a walnut and encircles the urethra as it leaves the urinary bladder.” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+   > “In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+4. About the size of a walnut, the prostate is made of muscle and gland tissue.
+   > “About the size of a walnut, the prostate is formed of both muscular and glandular tissues.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+
+#### Prostate: Core (drafted; grade 10.1; `content/FMA_9600/tier2.md`)
+
+1. The prostate is a gland whose secretions make up about 30 percent of semen, the ejaculated mix of sperm and gland secretions. *(defines “semen”)*
+   > “Prostate gland secretions account for about 30 percent of the bulk of semen.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+   > “semen: ejaculatory fluid composed of sperm and secretions from the seminal vesicles, prostate, and bulbourethral glands” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+2. The prostate's thin, milky secretions help sperm move.
+   > “The secretions of the prostate are thin, milky colored, and alkaline. They function to enhance the motility of the sperm.” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+3. The prostate sits at the base of the bladder, in front of the rectum.
+   > “the centrally located prostate gland sits anterior to the rectum at the base of the bladder” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. About the size of a walnut, the prostate wraps around the urethra, which carries both urine and semen in males. *(defines “urethra”)*
+   > “The prostate gland is a firm, dense structure that is located just inferior to the urinary bladder. It is about the size of a walnut and encircles the urethra as it leaves the urinary bladder.” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+   > “In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+5. The prostate is made of both muscle and glandular tissue, and the muscle provides much of the force needed for ejaculation.
+   > “The gland is a mixture of smooth muscle and glandular tissue. The muscle provides much of the force needed for ejaculation to occur.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+6. The glandular tissue makes the prostate's fluid, which contains citrate, a nutrient, along with prostate-specific antigen (PSA).
+   > “The glandular tissue makes a thin, milky fluid that contains citrate (a nutrient), enzymes, and prostate specific antigen (PSA).” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+7. Tiny ducts carry the prostate's secretions into the urethra.
+   > “The minute canals that pass the prostatic secretions to the urethra.” ([UBERON:0002485 prostate duct](http://purl.obolibrary.org/obo/UBERON_0002485), CC BY 3.0)
+8. After ejaculation, the prostate's fluid is key to making the semen first thicken and then turn liquid again.
+   > “the prostate is formed of both muscular and glandular tissues. It excretes an alkaline, milky fluid to the passing seminal fluid—now called semen—that is critical to first coagulate and then decoagulate the semen following ejaculation.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+9. The brief thickening helps hold semen in the female reproductive tract, and once the semen is liquid again, sperm can travel farther in.
+   > “The temporary thickening of semen helps retain it within the female reproductive tract, providing time for sperm to utilize the fructose provided by seminal vesicle secretions. When the semen regains its fluid state, sperm can then pass farther into the female reproductive tract.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+10. PSA is an enzyme, a protein that speeds up chemical reactions; several minutes after ejaculation, PSA helps liquefy the semen. *(defines “enzyme”)*
+   > “PSA is a proteolytic enzyme that helps to liquefy the ejaculate several minutes after release from the male.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+
+#### Seminal vesicle: Plain (drafted; grade 8.4; `content/FMA_19386/tier1.md`; also Right seminal vesicle, Left seminal vesicle)
+
+1. The seminal vesicle is one of two glands that together make about 60 percent of semen.
+   > “The paired seminal vesicles are glands that contribute approximately 60 percent of the semen volume.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. Each seminal vesicle sits behind the bladder and above the prostate gland.
+   > “One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland” ([NCIT:C12787 Seminal Vesicle](http://purl.obolibrary.org/obo/NCIT_C12787), CC BY 4.0)
+3. During ejaculation, sperm mix with fluid from the seminal vesicle.
+   > “As sperm pass through the ampulla of the ductus deferens at ejaculation, they mix with fluid from the associated seminal vesicle” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. This fluid is rich in fructose, a simple sugar that fuels sperm movement. *(defines “fructose”)*
+   > “Seminal vesicle fluid contains large amounts of fructose, which is used by the sperm mitochondria to generate ATP to allow movement through the female reproductive tract.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “Glucose and fructose are examples of simple sugars” ([24.2 Carbohydrate Metabolism](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism), CC BY 4.0)
+
+#### Seminal vesicle: Core (drafted; grade 10.8; `content/FMA_19386/tier2.md`; also Right seminal vesicle, Left seminal vesicle)
+
+1. The seminal vesicle is a gland whose fluid becomes part of semen, the ejaculated mix of sperm and gland secretions. *(defines “semen”)*
+   > “seminal vesicle: gland that produces seminal fluid, which contributes to semen” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “semen: ejaculatory fluid composed of sperm and secretions from the seminal vesicles, prostate, and bulbourethral glands” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+2. Together, the two seminal vesicles supply about 60 percent of the volume of semen.
+   > “The paired seminal vesicles are glands that contribute approximately 60 percent of the semen volume.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+3. Each seminal vesicle lies behind the bladder and above the prostate gland.
+   > “One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland” ([NCIT:C12787 Seminal Vesicle](http://purl.obolibrary.org/obo/NCIT_C12787), CC BY 4.0)
+4. Each seminal vesicle has a short duct that joins the ductus deferens (vas deferens), the duct that carries sperm, to form an ejaculatory duct. *(defines “ductus deferens”)*
+   > “The paired seminal vesicles are saccular glands posterior to the urinary bladder. Each gland has a short duct that joins with the ductus deferens at the ampulla to form an ejaculatory duct, which then empties into the urethra.” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+   > “ductus deferens: (also, vas deferens) duct that transports sperm” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+5. As sperm pass through the ductus deferens during ejaculation, they mix with fluid from the seminal vesicle.
+   > “As sperm pass through the ampulla of the ductus deferens at ejaculation, they mix with fluid from the associated seminal vesicle” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+6. Each ejaculatory duct then passes through the prostate and empties into the urethra, which carries both urine and semen in males. *(defines “urethra”)*
+   > “Each ejaculatory duct passes through the prostate gland and empties into the urethra.” ([SEER Training Modules: Duct System](https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html), Free of copyright (NCI reuse policy))
+   > “In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+7. Seminal vesicle fluid is thick, yellowish and alkaline, meaning its pH is above 7. *(defines “alkaline”)*
+   > “The seminal vesicles are a pair of glands that lie along the posterior border of the urinary bladder. The glands make a solution that is thick, yellowish, and alkaline.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+   > “The pH scale is, as we previously mentioned, an inverse logarithm and ranges from 0 to 14 (). Anything below 7.0 (ranging from 0.0 to 6.9) is acidic, and anything above 7.0 (from 7.1 to 14.0) is alkaline.” ([2.2 Water](https://openstax.org/books/biology-2e/pages/2-2-water), CC BY 4.0)
+8. Because sperm can move only in an alkaline setting, this fluid helps reverse the acidity of the vagina.
+   > “As sperm are only motile in an alkaline environment, a basic pH is important to reverse the acidity of the vaginal environment.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+9. The fluid also contains large amounts of fructose, a simple sugar that sperm use to power their movement through the female reproductive tract. *(defines “fructose”)*
+   > “Seminal vesicle fluid contains large amounts of fructose, which is used by the sperm mitochondria to generate ATP to allow movement through the female reproductive tract.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “Glucose and fructose are examples of simple sugars” ([24.2 Carbohydrate Metabolism](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism), CC BY 4.0)
+10. In addition, the fluid holds prostaglandins, hormones that act locally and help sperm move and survive. *(defines “prostaglandins”)*
+   > “prostaglandins, which contribute to the mobility and viability of the sperm” ([SEER Training Modules: Accessory Glands](https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html), Free of copyright (NCI reuse policy))
+   > “The solution also contains mucus, fructose (a sperm mitochondrial nutrient), a coagulating enzyme, ascorbic acid, and local-acting hormones called prostaglandins.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Testis: Plain (drafted; grade 7.8; `content/FMA_7210/tier1.md`; also Right testis, Left testis)
+
+1. Each testis makes sperm and male hormones such as testosterone.
+   > “The paired testes are a crucial component in this process, as they produce both sperm and androgens, the hormones that support male reproductive physiology. In male humans, the most important androgen is testosterone.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. Each testis sits in the scrotum, a pouch of skin and muscle outside the body. *(defines “scrotum”)*
+   > “scrotum: external pouch of skin and muscle that houses the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. This location matters because sperm form best when the testes are a little cooler than the body's core.
+   > “This location is important in sperm production, which occurs within the testes, and proceeds more efficiently when the testes are kept 2 to 4°C below core body temperature.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. Inside each testis, sperm are made in tightly coiled tubes called seminiferous tubules. *(defines “seminiferous tubules”)*
+   > “Spermatogenesis, the production of sperm, occurs within the seminiferous tubules that make up most of the testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “The tightly coiled seminiferous tubules form the bulk of each testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+
+#### Testis: Core (drafted; grade 11.4; `content/FMA_7210/tier2.md`; also Right testis, Left testis)
+
+1. Each testis makes sperm and androgens, the hormones that support male reproduction. *(defines “androgens”)*
+   > “The paired testes are a crucial component in this process, as they produce both sperm and androgens, the hormones that support male reproductive physiology.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. Each testis sits in its own compartment of the scrotum, an external pouch of skin and muscle. *(defines “scrotum”)*
+   > “It continues internally to make up the scrotal septum, a wall that divides the scrotum into two compartments, each housing one testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “scrotum: external pouch of skin and muscle that houses the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. A tough, white layer called the tunica albuginea covers each testis and folds inward, dividing the testis into sections called lobules. *(defines “tunica albuginea”)*
+   > “Beneath the tunica vaginalis is the tunica albuginea, a tough, white, dense connective tissue layer covering the testis itself. Not only does the tunica albuginea cover the outside of the testis, it also invaginates to form septa that divide the testis into 300 to 400 structures called lobules.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. Inside the lobules, sperm develop in seminiferous tubules, the tightly coiled tubes that make up most of each testis. *(defines “seminiferous tubules”)*
+   > “Within the lobules, sperm develop in structures called seminiferous tubules.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “The tightly coiled seminiferous tubules form the bulk of each testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+5. Between the seminiferous tubules lie Leydig cells, which make the androgen testosterone. *(defines “Leydig cells”)*
+   > “Testosterone, an androgen, is a steroid hormone produced by Leydig cells. The alternate term for Leydig cells, interstitial cells, reflects their location between the seminiferous tubules in the testes.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+6. Within the tubules, sperm come from stem cells called spermatogonia, which divide so that one daughter cell becomes a sperm cell and the other gives rise to the next generation of sperm. *(defines “spermatogonia”)*
+   > “Immediately under the capsule of the tubule are diploid, undifferentiated cells. These stem cells, called spermatogonia (singular: spermatagonium), go through mitosis with one offspring going on to differentiate into a sperm cell and the other giving rise to the next generation of sperm.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+7. As sperm cells develop, they are pushed toward the tubule's hollow center, called the lumen. *(defines “lumen”)*
+   > “Each successive stage in spermatogenesis is pushed toward the center of the tubule so that the more immature cells are at the periphery and the more differentiated cells are nearer the center.” ([SEER Training Modules: Testes](https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html), Free of copyright (NCI reuse policy))
+   > “a lumen, the hollow center of the tubule” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+8. Large Sertoli cells, found among the developing cells, reach from the tubule's outer edge to the lumen and support and nourish the other cells. *(defines “Sertoli cells”)*
+   > “Interspersed with these cells, there are large cells that extend from the periphery of the tubule to the lumen. These large cells are the supporting, or sustentacular cells (Sertoli's cells), which support and nourish the other cells.” ([SEER Training Modules: Testes](https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html), Free of copyright (NCI reuse policy))
+9. Newly formed sperm are released into the lumen and moved along a series of ducts to the epididymis, a coiled tube attached to the testis. *(defines “epididymis”)*
+   > “Eventually, the sperm are released into the lumen and are moved along a series of ducts in the testis toward a structure called the epididymis for the next step of sperm maturation.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “the epididymis (plural = epididymides), a coiled tube attached to the testis where newly formed sperm continue to mature” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+10. However, these sperm are still immature and cannot fertilize an egg; they finish maturing as they move through the epididymis.
+   > “When the sperm leave the testes, they are immature and incapable of fertilizing ova. They complete their maturation process and become fertile as they move through the epididymis.” ([SEER Training Modules: Duct System](https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html), Free of copyright (NCI reuse policy))
+
+#### Uterus: Plain (drafted; grade 9.1; `content/UBERON_0000995/tier1.md`)
+
+1. The uterus is a hollow, muscular organ where a fetus, a developing human, grows during pregnancy. *(defines “fetus”)*
+   > “A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.” ([NCIT:C12405 Uterus](http://purl.obolibrary.org/obo/NCIT_C12405), CC BY 4.0)
+   > “fetus: developing human during the time from the end of the embryonic period (week 9) to birth” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
+2. The uterus sits in the pelvis, with an ovary on each side.
+   > “The female gonads are the ovaries, which are located on each side of the uterus in the pelvic cavity.” ([SEER Training Modules: Review: Introduction to the Reproductive System](https://training.seer.cancer.gov/anatomy/reproductive/review.html), Free of copyright (NCI reuse policy))
+3. Part of the endometrium, the inner lining of the uterus, is shed during each menstrual period and then grows back. *(defines “endometrium”)*
+   > “A portion of the lining of the uterus sloughs off during each menstrual period, and then builds up again in preparation for an implantation.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+   > “endometrium: inner lining of the uterus, part of which builds up during the secretory phase of the menstrual cycle and then sheds with menses” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+4. During labor, the muscle of the uterus contracts to help push the baby out.
+   > “Contractions of the smooth muscle in the uterus aid in passing the baby through the vagina during labor.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Uterus: Core (drafted; grade 12.2; `content/UBERON_0000995/tier2.md`)
+
+1. The uterus is the muscular organ in which a developing human, called an embryo and later a fetus, is nourished until birth. *(defines “embryo”)*
+   > “The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.” ([UBERON:0000995 uterus](http://purl.obolibrary.org/obo/UBERON_0000995), CC BY 3.0)
+   > “A developing human is referred to as an embryo during weeks 3–8, and a fetus from the ninth week of gestation until birth.” ([28.2 Embryonic Development](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development), CC BY 4.0)
+2. This hollow, thick-walled organ lies in the pelvic cavity, the space that houses the reproductive organs. *(defines “pelvic cavity”)*
+   > “A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman.” ([NCIT:C12405 Uterus](http://purl.obolibrary.org/obo/NCIT_C12405), CC BY 4.0)
+   > “the pelvic cavity, the division that houses the organs of reproduction.” ([1.6 Anatomical Terminology](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology), CC BY 4.0)
+3. Before a first pregnancy, the uterus is about the size and shape of a pear, with the narrow end pointing down.
+   > “Before the first pregnancy, the uterus is about the size and shape of a pear, with the narrow portion directed inferiorly.” ([SEER Training Modules: Genital Tract](https://training.seer.cancer.gov/anatomy/reproductive/female/tract.html), Free of copyright (NCI reuse policy))
+4. The uterus has three regions: the fundus at the top, the body in the middle, and the cervix, a narrow lower part that projects into the vagina. *(defines “fundus”)*
+   > “It has three sections. The portion of the uterus superior to the opening of the uterine tubes is called the fundus. The middle section of the uterus is called the body of uterus (or corpus). The cervix is the narrow inferior portion of the uterus that projects into the vagina.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+5. From outside to inside, the uterus has three layers: the perimetrium, the muscular myometrium and the endometrium. *(defines “perimetrium”)*
+   > “The uterus has three regions: the fundus, the body, and the cervix. It has three layers: the outer perimetrium, the muscular myometrium, and the inner endometrium.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+6. Most of the uterus is myometrium, whose muscle fibers run horizontally, vertically and diagonally, allowing strong contractions in labor and weaker ones that help expel menstrual blood.
+   > “Most of the uterus is myometrial tissue, and the muscle fibers run horizontally, vertically, and diagonally, allowing the powerful contractions that occur during labor and the less powerful contractions (or cramps) that help to expel menstrual blood during a woman’s period.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+7. The endometrium has two layers: a basal layer, which lies against the myometrium and is not shed during menstruation, and a functional layer.
+   > “Structurally, the endometrium consists of two layers: the stratum basalis and the stratum functionalis (the basal and functional layers). The stratum basalis layer is part of the lamina propria and is adjacent to the myometrium; this layer does not shed during menses.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+8. Rising levels of estrogen and progesterone, sex hormones made by the ovaries, make the functional layer grow and thicken. *(defines “estrogen and progesterone”)*
+   > “It is the stratum functionalis that grows and thickens in response to increased levels of estrogen and progesterone.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “ovaries: female gonads that produce oocytes and sex steroid hormones (notably estrogen and progesterone)” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+9. A fertilized egg implants, or embeds itself, in the functional layer; if no egg is fertilized, only this layer is shed during menstruation. *(defines “implantation”)*
+   > “This inner functional layer provides the proper site of implantation for the fertilized egg, and—should fertilization not occur—it is only the stratum functionalis layer of the endometrium that sheds during menstruation.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “implantation: process by which a blastocyst embeds itself in the uterine endometrium” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
+10. As pregnancy goes on, the uterus grows dramatically to hold the fetus.
+   > “During the second and third trimesters, the pre-pregnancy uterus—about the size of a fist—grows dramatically to contain the fetus” ([28.4 Changes During Pregnancy, Labor, and Birth](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth), CC BY 4.0)
+
+### Respiratory
+
+#### Lung: Plain (drafted; grade 6.3; `content/UBERON_0002048/tier1.md`; also Right lung, Left lung)
+
+1. Each lung lets the blood pick up oxygen and give off carbon dioxide, which we then breathe out.
+   > “The pulmonary circuit transports blood to and from the lungs, where it picks up oxygen and delivers carbon dioxide for exhalation.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+2. Each lung holds about 300 million alveoli, tiny grape-like sacs where the gases are swapped. *(defines “alveoli”)*
+   > “Because there are so many alveoli (~300 million per lung) within each alveolar sac and so many sacs at the end of each alveolar duct, the lungs have a sponge-like consistency.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+3. The right lung is larger and has three lobes, or sections, while the smaller left lung has two. *(defines “lobes”)*
+   > “The right lung is larger and contains three lobes, whereas the smaller left lung contains two lobes” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “Each lung is composed of smaller units called lobes.” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+
+Dropped:
+- “The two lungs sit in the chest, one on each side of the heart.” (checker: The quote appears word for word, but it is about where the heart is. It puts the heart, not the lungs, in the thoracic cavity. 'One on each side of the heart' fairly reverses 'between the lungs', but the quote never says the lungs sit in the chest or that there are two of them. Those are inferences about a different structure.)
+
+#### Lung: Core (drafted; grade 9.8; `content/UBERON_0002048/tier2.md`; also Right lung, Left lung)
+
+1. The main job of each lung is gas exchange: swapping oxygen and carbon dioxide with the outside air. *(defines “gas exchange”)*
+   > “The main function of the lungs is to perform the exchange of oxygen and carbon dioxide with air from the atmosphere.” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+   > “Gas exchange occurs at two sites in the body: in the lungs, where oxygen is picked up and carbon dioxide is released at the respiratory membrane, and at the tissues, where oxygen is released and carbon dioxide is picked up.” ([22.4 Gas Exchange](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange), CC BY 4.0)
+2. The lungs lie in the chest cavity, which also holds the heart in the mediastinum, the space between the lungs. *(defines “mediastinum”)*
+   > “The thoracic cavity contains the lungs and the heart, which is located in the mediastinum.” ([1.6 Anatomical Terminology](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology), CC BY 4.0)
+   > “The human heart is located within the thoracic cavity, medially between the lungs in the space known as the mediastinum.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+3. The right lung has three lobes, the smaller units a lung is made of, and is shorter, wider and larger than the left lung. *(defines “lobes”)*
+   > “The right lung is shorter, broader, and has a greater volume than the left lung. It is divided into three lobes and each lobe is supplied by one of the secondary bronchi.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+   > “Each lung is composed of smaller units called lobes.” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+4. The left lung, in contrast, is longer and narrower, with two lobes and a dent called the cardiac notch that makes room for the tip of the heart. *(defines “cardiac notch”)*
+   > “The left lung is longer and narrower than the right lung. It has an indentation, called the cardiac notch, on its medial surface for the apex of the heart. The left lung has two lobes.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+5. Each lung is attached only at the hilum, a point on the lung's inner side where the bronchi, the tubes that carry air in and out, enter with blood vessels and nerves. *(defines “bronchi”)*
+   > “The only point of attachment for each lung is at the hilum, or root, on the medial side. This is where the bronchi, blood vessels, lymphatics, and nerves enter the lungs.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+   > “bronchus: tube connected to the trachea that branches into many subsidiaries and provides a passageway for air to enter and leave the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+6. The bronchi branch into smaller and smaller passages that end in alveoli, tiny grape-like sacs in the lung where gas exchange takes place. *(defines “alveoli”)*
+   > “The bronchi branch into smaller and smaller passageways until they terminate in tiny air sacs called alveoli.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+7. Oxygen passes from the alveoli into the blood, while carbon dioxide, a waste product of the body's cells, passes from the blood into the alveoli to be breathed out.
+   > “Such intimate contact ensures that oxygen will diffuse from alveoli into the blood and be distributed to the cells of the body. In addition, the carbon dioxide that was produced by cells as a waste product will diffuse from the blood into alveoli to be exhaled.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+8. Each lung is enclosed in the pleura, a two-layered membrane: one layer is firmly attached to the lung, and the other lines the chest wall. *(defines “pleura”)*
+   > “Each lung is enclosed by a double-layered serous membrane, called the pleura. The visceral pleura is firmly attached to the surface of the lung. At the hilum, the visceral pleura is continuous with the parietal pleura that lines the wall of the thorax.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+9. The lungs do not move by themselves: sticky pleural fluid between the two layers makes the lungs follow the chest wall outward when we breathe in. *(defines “pleural fluid”)*
+   > “The lungs themselves are passive during breathing, meaning they are not involved in creating the movement that helps inspiration and expiration. This is because of the adhesive nature of the pleural fluid, which allows the lungs to be pulled outward when the thoracic wall moves during inspiration.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+   > “pleural fluid: substance that acts as a lubricant for the visceral and parietal layers of the pleura during the movement of breathing” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+10. Normal breathing out takes no energy, because the elastic lung tissue springs back as the breathing muscles relax.
+   > “The process of normal expiration is passive, meaning that energy is not required to push air out of the lungs. Instead, the elasticity of the lung tissue causes the lung to recoil, as the diaphragm and intercostal muscles relax following inspiration.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+
+#### Main bronchus: Plain (drafted; grade 6.1; `content/FMA_7405/tier1.md`; also Right main bronchus, Left main bronchus)
+
+1. Each main bronchus is a tube that carries air into and out of a lung. *(defines “bronchus”)*
+   > “bronchus: tube connected to the trachea that branches into many subsidiaries and provides a passageway for air to enter and leave the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+2. The trachea, or windpipe, splits into the right and left main bronchi. *(defines “trachea”)*
+   > “The trachea branches into the right and left primary bronchi at the carina.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+3. Rings of cartilage, a firm but flexible tissue, keep each main bronchus from collapsing. *(defines “cartilage”)*
+   > “Rings of cartilage, similar to those of the trachea, support the structure of the bronchi and prevent their collapse.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+4. Each main bronchus is lined with cells that make mucus, a sticky fluid that traps tiny particles. *(defines “mucus”)*
+   > “The trachea branches into the right and left primary bronchi at the carina. These bronchi are also lined by pseudostratified ciliated columnar epithelium containing mucus-producing goblet cells” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+
+#### Main bronchus: Core (drafted; grade 9.6; `content/FMA_7405/tier2.md`; also Right main bronchus, Left main bronchus)
+
+1. Each main bronchus is a tube that carries air from the trachea, or windpipe, into a lung and back out again. *(defines “trachea”)*
+   > “bronchus: tube connected to the trachea that branches into many subsidiaries and provides a passageway for air to enter and leave the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+2. The trachea splits into the right and left main bronchi at the carina, a raised structure whose nerve tissue triggers strong coughing if food or another foreign object is present. *(defines “carina”)*
+   > “Bifurcation of the trachea at the carina forms the left main bronchus and the right main bronchus.” ([NCIT:C12284 Main Bronchus](http://purl.obolibrary.org/obo/NCIT_C12284), CC BY 4.0)
+   > “The carina is a raised structure that contains specialized nervous tissue that induces violent coughing if a foreign body, such as food, is present.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+3. This split happens in the mediastinum, the space in the chest between the two lungs. *(defines “mediastinum”)*
+   > “In the mediastinum, at the level of the fifth thoracic vertebra, the trachea divides into the right and left primary bronchi.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+   > “The human heart is located within the thoracic cavity, medially between the lungs in the space known as the mediastinum.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+4. The right main bronchus, which connects to the right lung, is wider but shorter than the left main bronchus.
+   > “One of the two main bronchi. It is wider but shorter than the left main bronchus and connects to the right lung.” ([NCIT:C33486 Right Main Bronchus](http://purl.obolibrary.org/obo/NCIT_C33486), CC BY 4.0)
+5. Each main bronchus enters its lung at the hilum, an indented region where blood vessels and nerves also enter the lung. *(defines “hilum”)*
+   > “The primary bronchi enter the lungs at the hilum, a concave region where blood vessels, lymphatic vessels, and nerves also enter the lungs.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+6. Rings of cartilage, a firm but flexible tissue, support each main bronchus and stop the airway from collapsing, much like the rings of the trachea. *(defines “cartilage”)*
+   > “Rings of cartilage, similar to those of the trachea, support the structure of the bronchi and prevent their collapse.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+7. The lining of each main bronchus contains goblet cells, which make mucus, a sticky fluid that traps tiny particles. *(defines “mucus”)*
+   > “The trachea branches into the right and left primary bronchi at the carina. These bronchi are also lined by pseudostratified ciliated columnar epithelium containing mucus-producing goblet cells” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+8. Cilia, tiny hair-like projections on the lining, beat together to sweep the mucus and trapped particles up to the throat to be swallowed. *(defines “cilia”)*
+   > “These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “The bronchi and bronchioles contain cilia, small hair-like projections that line the walls of the bronchi and bronchioles” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+9. Inside the lung, each main bronchus divides into secondary bronchi, then tertiary bronchi, and then bronchioles, small branches 1 mm or less across. *(defines “bronchioles”)*
+   > “Air enters the lungs through the two primary (main) bronchi (singular: bronchus). Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “bronchiole: branch of bronchi that are 1 mm or less in diameter and terminate at alveolar sacs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+10. The branches keep getting smaller until they end in tiny air sacs called alveoli. *(defines “alveoli”)*
+   > “The bronchi branch into smaller and smaller passageways until they terminate in tiny air sacs called alveoli.” ([SEER Training Modules: Bronchi, Bronchial Tree, & Lungs](https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html), Free of copyright (NCI reuse policy))
+
+#### Trachea: Core (drafted; grade 9.4; `content/FMA_7394/tier2.md`)
+
+1. The trachea, or windpipe, funnels inhaled air to the lungs and carries exhaled air back out of the body. *(defines “trachea”)*
+   > “The main function of the trachea is to funnel the inhaled air to the lungs and the exhaled air back out of the body.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+2. The trachea is a tube about 10 to 12 cm long and 2 cm wide that runs from the larynx, or voice box, into the chest. *(defines “larynx”)*
+   > “The human trachea is a cylinder about 10 to 12 cm long and 2 cm in diameter that sits in front of the esophagus and extends from the larynx into the chest cavity where it divides into the two primary bronchi at the midthorax.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+3. The trachea divides into the right and left bronchi, which carry air to the right and left lungs.
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs. It divides into the right and left bronchi at the level of the fifth thoracic vertebra, channeling air to the right or left lung.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+4. The esophagus, the muscular tube that runs to the stomach, lies just behind the trachea. *(defines “esophagus”)*
+   > “The esophagus borders the trachea posteriorly.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “esophagus: muscular tube that runs from the pharynx to the stomach” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+5. The trachea is built from 16 to 20 stacked, C-shaped pieces of cartilage, a firm but flexible tissue. *(defines “cartilage”)*
+   > “The trachea is formed by 16 to 20 stacked, C-shaped pieces of hyaline cartilage that are connected by dense connective tissue.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+6. The fibroelastic membrane, a flexible layer of muscle and elastic tissue, closes the back of the trachea and links the C-shaped pieces. *(defines “fibroelastic membrane”)*
+   > “The trachealis muscle and elastic connective tissue together form the fibroelastic membrane, a flexible membrane that closes the posterior surface of the trachea, connecting the C-shaped cartilages.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+7. This membrane lets the trachea stretch and widen slightly as we breathe in and out, while the cartilage rings support the trachea and keep it from collapsing.
+   > “The fibroelastic membrane allows the trachea to stretch and expand slightly during inhalation and exhalation, whereas the rings of cartilage provide structural support and prevent the trachea from collapsing.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+8. Goblet cells in the lining of the trachea make mucus, a sticky fluid that traps particles and microorganisms from the air. *(defines “mucus”)*
+   > “The mucous membrane that lines the trachea is ciliated pseudostratified columnar epithelium similar to that in the nasal cavity and nasopharynx. Goblet cells produce mucus that traps airborne particles and microorganisms” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+   > “mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+9. Cilia, short hair-like structures on the lining cells, push the mucus upward so it can be swallowed or expelled. *(defines “cilia”)*
+   > “Goblet cells produce mucus that traps airborne particles and microorganisms, and the cilia propel the mucus upward, where it is either swallowed or expelled.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+10. The trachealis muscle in the fibroelastic membrane can contract to narrow the trachea, so exhaled air rushes up with great force and helps expel mucus in a cough. *(defines “trachealis muscle”)*
+   > “The smooth muscle can contract, decreasing the trachea’s diameter, which causes expired air to rush upwards from the lungs at a great force. The forced exhalation helps expel mucus when we cough.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “trachealis muscle: smooth muscle located in the fibroelastic membrane of the trachea” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+
+### Sensory
+
+#### External ear: Plain (drafted; grade 7.9; `content/FMA_52781/tier1.md`)
+
+1. The external ear collects sound waves and sends them through the ear canal to the eardrum.
+   > “In mammals, sound waves are collected by the external, cartilaginous part of the ear called the auricle, then travel through the auditory canal and cause vibration of the thin diaphragm called the tympanum or ear drum, the innermost part of the outer ear” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. On the side of the head, the external ear includes the ear canal and the auricle, the fleshy outer part of the ear. *(defines “auricle”)*
+   > “external ear: structures on the lateral surface of the head, including the auricle and the ear canal back to the tympanic membrane” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “auricle: fleshy external structure of the ear” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Cartilage, a firm but bendable tissue, gives the external ear flexible strength and support. *(defines “cartilage”)*
+   > “Cartilage provides flexible strength and support for body structures such as the thoracic cage, the external ear, and the trachea and larynx.” ([Chapter 7 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-introduction), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+4. Sound from one spot reaches the two auricles at slightly different times, which lets the brain tell where the sound came from.
+   > “Since the waves originate from a single site, the two auricles will not collect the sound at the exact same time. When the sound is processed by the auditory system, the brain is able to use this slight difference in timing to determine the location of the sound.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+
+#### External ear: Core (drafted; grade 8.6; `content/FMA_52781/tier2.md`)
+
+1. The external ear collects sound waves and funnels them through the ear canal to the eardrum.
+   > “In mammals, sound waves are collected by the external, cartilaginous part of the ear called the auricle, then travel through the auditory canal and cause vibration of the thin diaphragm called the tympanum or ear drum, the innermost part of the outer ear” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. The external ear lies on the side of the head and includes the ear canal and the auricle, the fleshy outer part of the ear. *(defines “auricle”)*
+   > “external ear: structures on the lateral surface of the head, including the auricle and the ear canal back to the tympanic membrane” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “auricle: fleshy external structure of the ear” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Some sources call the auricle the pinna, but that name better fits an ear that can move, such as a cat's. *(defines “pinna”)*
+   > “The large, fleshy structure on the lateral aspect of the head is known as the auricle. Some sources will also refer to this structure as the pinna, though that term is more appropriate for a structure that can be moved, such as the external ear of a cat.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+4. The external ear contains elastic cartilage, a type of cartilage that gives firm support yet can stretch and spring back. *(defines “elastic cartilage”)*
+   > “The external ear contains elastic cartilage.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “elastic cartilage: type of cartilage, with elastin as the major protein, characterized by rigid support as well as elasticity” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. The auricle's C-shaped curves steer incoming sound waves toward the ear canal.
+   > “The C-shaped curves of the auricle direct sound waves toward the auditory canal.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+6. Because sound from one spot reaches the two auricles at slightly different times, the brain can use this gap to work out where the sound came from.
+   > “Since the waves originate from a single site, the two auricles will not collect the sound at the exact same time. When the sound is processed by the auditory system, the brain is able to use this slight difference in timing to determine the location of the sound.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+7. The ear canal passes into the skull through an opening in the temporal bone, one of the paired bones that form the lower sides of the skull. *(defines “temporal bone”)*
+   > “The canal enters the skull through the external auditory meatus of the temporal bone.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “temporal bone: paired bones that form the lateral, inferior portions of the skull, with squamous, mastoid, and petrous portions” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+8. At the inner end of the ear canal lies the eardrum, or tympanic membrane, a thin sheet that vibrates when sound waves strike it. *(defines “tympanic membrane”)*
+   > “At the end of the auditory canal is the tympanic membrane, or ear drum, which vibrates after it is struck by sound waves.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “tympanum: (also, tympanic membrane or ear drum) thin diaphragm between the outer and middle ears” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+9. The vibrating eardrum passes the sound's energy on to the middle ear, a space in the temporal bone where the sound waves are amplified. *(defines “middle ear”)*
+   > “The sound wave energy reaches the outer ear (auricle, canal, tympanum), and vibrations of the tympanum send the energy to the middle ear.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “middle ear: space within the temporal bone between the ear canal and bony labyrinth where the ossicles amplify sound waves from the tympanic membrane to the oval window” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Eye: Plain (drafted; grade 6.3; `content/UBERON_0000970/tier1.md`; also Right eyeball, Left eyeball, Right eye, Left eye)
+
+1. Each eye detects light, which gives us the sense of sight.
+   > “Vision is the special sense of sight that is based on the transduction of light stimuli received through the eyes.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+2. Each eye sits in a bony socket of the skull called the orbit, which protects the eyeball. *(defines “orbit”)*
+   > “The eyes are located within either orbit in the skull. The bony orbits surround the eyeballs, protecting them and anchoring the soft tissues of the eye” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The retina, a layer of light-sensing cells at the back of the eye, changes light into nerve signals. *(defines “retina”)*
+   > “The photoreceptive cells of the eye, where transduction of light to nervous impulses occurs, are located in the retina (shown in ) on the inner surface of the back of the eye.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. The clear cornea at the front of the eye and the lens bend light to focus an image on the retina.
+   > “The cornea, the front transparent layer of the eye, and the crystalline lens, a transparent convex structure behind the cornea, both refract (bend) light to focus the image on the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+
+#### Eye: Core (drafted; grade 9.9; `content/UBERON_0000970/tier2.md`; also Right eyeball, Left eyeball, Right eye, Left eye)
+
+1. Each eye detects light, which gives us vision, the sense of sight.
+   > “Vision is the special sense of sight that is based on the transduction of light stimuli received through the eyes.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+2. Each eye sits in a bony socket of the skull called the orbit, which surrounds and protects the eyeball and anchors the eye's soft tissues. *(defines “orbit”)*
+   > “The eyes are located within either orbit in the skull. The bony orbits surround the eyeballs, protecting them and anchoring the soft tissues of the eye” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Six extraocular muscles, which run from the bones of the orbit to the surface of the eyeball, move the eye within the orbit. *(defines “extraocular muscle”)*
+   > “Movement of the eye within the orbit is accomplished by the contraction of six extraocular muscles that originate from the bones of the orbit and insert into the surface of the eyeball” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+4. The eye is a hollow ball made of three layers of tissue; the outer layer includes the white sclera and, at the front, the clear cornea, which helps focus light. *(defines “cornea”)*
+   > “The eye itself is a hollow sphere composed of three layers of tissue. The outermost layer is the fibrous tunic, which includes the white sclera and clear cornea.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “cornea: transparent layer over the front of the eye that helps focus light waves” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+5. The middle layer includes the choroid, which is rich in blood vessels and supplies the eyeball with blood. *(defines “choroid”)*
+   > “The middle layer of the eye is the vascular tunic, which is mostly composed of the choroid, ciliary body, and iris. The choroid is a layer of highly vascularized connective tissue that provides a blood supply to the eyeball.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+6. The innermost layer, lining the back of the eye, is the retina, whose light-sensing cells change light into nerve impulses. *(defines “retina”)*
+   > “The photoreceptive cells of the eye, where transduction of light to nervous impulses occurs, are located in the retina (shown in ) on the inner surface of the back of the eye.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “The innermost layer of the eye is the neural tunic, or retina, which contains the nervous tissue responsible for photoreception.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+7. At the front of the eye is the iris, the colored muscle around the pupil, the central hole that lets light in; the iris narrows the pupil in bright light and widens it in dim light. *(defines “iris”)*
+   > “The iris is a smooth muscle that opens or closes the pupil, which is the hole at the center of the eye that allows light to enter. The iris constricts the pupil in response to bright light and dilates the pupil in response to dim light.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “iris: colored portion of the anterior eye that surrounds the pupil” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+8. The lens, a clear curved structure behind the cornea, focuses light on the retina, and muscles change the lens's shape so the lens can focus on near or far objects. *(defines “lens”)*
+   > “The lens is dynamic, focusing and re-focusing light as the eye rests on near and far objects in the visual field. The lens is operated by muscles that stretch it flat or allow it to thicken, changing the focal length of light coming through it to focus it sharply on the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “lens: transparent, convex structure behind the cornea that helps focus light waves on the retina” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+9. Behind the lens, the space that reaches back to the retina is filled with a thick fluid called the vitreous humor. *(defines “vitreous humor”)*
+   > “The posterior cavity is the space behind the lens that extends to the posterior side of the interior eyeball, where the retina is located. The posterior cavity is filled with a more viscous fluid called the vitreous humor.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+10. The optic nerve, the nerve responsible for vision, runs from the retina to the brain through an opening at the back of the orbit. *(defines “optic nerve”)*
+   > “At the posterior apex of the orbit is the opening of the optic canal, which allows for passage of the optic nerve from the retina to the brain.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “optic nerve: second cranial nerve, which is responsible visual sensation” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Lacrimal gland: Plain (drafted; grade 5.8; `content/FMA_59101/tier1.md`; also Right lacrimal gland, Left lacrimal gland)
+
+1. Each lacrimal gland makes tears, which wash across the surface of the eye.
+   > “lacrimal gland: gland lateral to the orbit that produces tears to wash across the surface of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. The gland lies just inside the eye socket, above and to the outer side of the eyeball.
+   > “Tears are produced by the lacrimal gland, located just inside the orbit, superior and lateral to the eyeball.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+3. Tears keep the surface of the eye moist.
+   > “The lacrimal fluid (tears of the eye), which serves to maintain the moist surface of the eye” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+4. As the tears flow over the eyeball to its inner corner, they wash away foreign particles.
+   > “Tears produced by this gland flow through the lacrimal ducts, then over the surface of the eyeball and conjunctiva to the medial corner of the eye, washing away foreign particles.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### Lacrimal gland: Core (drafted; grade 9.4; `content/FMA_59101/tier2.md`; also Right lacrimal gland, Left lacrimal gland)
+
+1. Each lacrimal gland produces tears, which wash across the surface of the eye.
+   > “lacrimal gland: gland lateral to the orbit that produces tears to wash across the surface of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. The gland lies just inside the orbit, the bony socket of the eye, above and to the outer side of the eyeball. *(defines “orbit”)*
+   > “Tears are produced by the lacrimal gland, located just inside the orbit, superior and lateral to the eyeball.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Each lacrimal gland is an almond-shaped exocrine gland that makes the watery part of tears; like other exocrine glands, it releases its contents through ducts. *(defines “exocrine gland”)*
+   > “Paired, almond-shaped exocrine glands situated superior and posterior to each orbit of the eye that produce and secrete the watery serous component of tears.” ([NCIT:C12346 Lacrimal Gland](http://purl.obolibrary.org/obo/NCIT_C12346), CC BY 4.0)
+   > “Exocrine glands release their contents through a duct that leads to the epithelial surface.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+4. Tears keep the surface of the eye moist.
+   > “The lacrimal fluid (tears of the eye), which serves to maintain the moist surface of the eye” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+5. Tears from the gland flow over the surface of the eyeball to the inner corner of the eye, washing away foreign particles.
+   > “Tears produced by this gland flow through the lacrimal ducts, then over the surface of the eyeball and conjunctiva to the medial corner of the eye, washing away foreign particles.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+6. Tears also help defend the eyes, which skin does not protect, by trapping and rinsing away pathogens, agents such as microorganisms that cause disease. *(defines “pathogen”)*
+   > “Regions of the body that are not protected by skin (such as the eyes and mucus membranes) have alternative methods of defense, such as tears and mucus secretions that trap and rinse away pathogens” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: an agent, usually a microorganism, that causes disease in the organisms that it invades” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+7. At the eye's inner corner, the tears drain into the nasolacrimal canal, which runs down into the nasal cavity, the inside of the nose. *(defines “nasal cavity”)*
+   > “The lacrimal fluid (tears of the eye), which serves to maintain the moist surface of the eye, drains at the medial corner of the eye into the nasolacrimal canal. This duct then extends downward to open into the nasal cavity, behind the inferior nasal concha.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “the external nose, and the nasal cavity or internal nose” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+8. Nerve fibers in the facial nerve, the nerve that also controls the muscles of the face, influence tear production. *(defines “facial nerve”)*
+   > “Tear production is influenced by parasympathetic fibers in the facial nerve, which activate a ganglion, and ultimately the lacrimal (tear) gland.” ([15.1 Divisions of the Autonomic Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system), CC BY 4.0)
+   > “facial nerve: seventh cranial nerve; responsible for contraction of the facial muscles and for part of the sense of taste, as well as causing saliva production” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
 ### Skeletal
 
 #### Atlas: Plain (drafted; grade 5.9; `content/FMA_12519/tier1.md`)
@@ -3809,6 +5320,87 @@ Dropped:
 4. These muscles move the hyoid up, down, forward and back as you swallow and speak.
    > “These muscles act to move the hyoid up/down or forward/back. Movements of the hyoid are coordinated with movements of the tongue, larynx, and pharynx during swallowing and speaking.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
 
+#### Intervertebral disk: Plain (drafted; grade 7.8; `content/FMA_10446/tier1.md`)
+
+1. An intervertebral disk firmly joins two neighboring vertebrae, the bones of the neck and back. *(defines “vertebrae”)*
+   > “intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The disk absorbs shocks from walking and running and lets the spine move a little.
+   > “Each disc is part of a joint that allows for some movement of the spine and acts as a cushion to absorb shocks from movements such as walking and running.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+3. The disk's tough, fibrous outer ring is called the anulus fibrosus. *(defines “anulus fibrosus”)*
+   > “The anulus fibrosus is the tough, fibrous outer layer of the disc. It forms a circle (anulus = “ring” or “circle”) and is firmly anchored to the outer margins of the adjacent vertebral bodies.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+4. Inside the ring is the nucleus pulposus, a soft, watery gel that resists squeezing. *(defines “nucleus pulposus”)*
+   > “Inside is the nucleus pulposus, consisting of a softer, more gel-like material. It has a high water content that serves to resist compression and thus is important for weight bearing.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Intervertebral disk: Core (drafted; grade 9.6; `content/FMA_10446/tier2.md`)
+
+1. Each intervertebral disk strongly joins two neighboring vertebrae, the individual bones of the neck and back. *(defines “vertebrae”)*
+   > “intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The disk pads the vertebrae during weight bearing, and its ability to change shape lets them move.
+   > “The bodies of adjacent vertebrae are strongly anchored to each other by an intervertebral disc. This structure provides padding between the bones during weight bearing, and because it can change shape, also allows for movement between the vertebrae.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+3. The disk fills the gap between two vertebral bodies, the front part of each vertebra that bears body weight. *(defines “vertebral bodies”)*
+   > “An intervertebral disc is a fibrocartilaginous pad that fills the gap between adjacent vertebral bodies” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “The body is the anterior portion of each vertebra and is the part that supports the body weight.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+4. Each disk is a thick pad of fibrocartilage, a tough form of cartilage. *(defines “fibrocartilage”)*
+   > “Filling the gap between the vertebrae is a thick pad of fibrocartilage called an intervertebral disc” ([9.1 Classification of Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints), CC BY 4.0)
+   > “fibrocartilage: tough form of cartilage, made of thick bundles of collagen fibers embedded in chondroitin sulfate ground substance” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. Because fibrocartilage contains bundles of thick collagen fibers, which are flexible proteins, it is very strong and resists pulling and bending forces. *(defines “collagen fibers”)*
+   > “Fibrocartilage is very strong because it contains numerous bundles of thick collagen fibers, thus giving it a much greater ability to resist pulling and bending forces when compared with hyaline cartilage.” ([9.3 Cartilaginous Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints), CC BY 4.0)
+   > “collagen fiber: flexible fibrous proteins that give connective tissue tensile strength” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+6. The disk's tough, fibrous outer ring, the anulus fibrosus, is firmly anchored to the outer edges of the neighboring vertebral bodies. *(defines “anulus fibrosus”)*
+   > “The anulus fibrosus is the tough, fibrous outer layer of the disc. It forms a circle (anulus = “ring” or “circle”) and is firmly anchored to the outer margins of the adjacent vertebral bodies.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+7. Inside the ring is the nucleus pulposus, a softer gel whose high water content resists squeezing and so helps bear weight. *(defines “nucleus pulposus”)*
+   > “Inside is the nucleus pulposus, consisting of a softer, more gel-like material. It has a high water content that serves to resist compression and thus is important for weight bearing.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+8. This gel lets the disk change shape when one vertebra rocks forward, back or side to side against a neighboring vertebra.
+   > “The gel-like nature of the nucleus pulposus also allows the intervertebral disc to change shape as one vertebra rocks side to side or forward and back in relation to its neighbors during movements of the vertebral column.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+9. For example, bending forward squeezes the front of the disk but expands the back of the disk.
+   > “Thus, bending forward causes compression of the anterior portion of the disc but expansion of the posterior disc.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+Dropped:
+- “The movement between any two vertebrae is small, but added together along the whole vertebral column, or spine, these movements produce large body movements.” (checker: Both quotes are word for word in 07-03, but the source limits the small movement to 'any two ADJACENT vertebrae'. 'The movement between any two vertebrae is small' drops that limit and claims it for every pair, which the quote does not say. For pairs far apart it is false, and the sentence's own second half contradicts it. The synonym quote for 'vertebral column' (also called the spine) is acceptable.)
+
+#### Knee joint: Plain (drafted; grade 7.4; `content/UBERON_0001485/tier1.md`; also Right knee joint, Left knee joint, Right knee, Left knee)
+
+1. Each knee joint works mainly as a hinge, letting the leg bend and straighten.
+   > “The knee functions primarily as a hinge joint, allowing flexion and extension of the leg.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+2. Three bones form each knee joint: the thighbone (femur), the shinbone (tibia) and the kneecap (patella). *(defines “tibia”)*
+   > “The femur, or thighbone, is the longest, heaviest, and strongest bone in the body. The femur and pelvis form the hip joint at the proximal end. At the distal end, the femur, tibia, and patella form the knee joint. The patella, or kneecap, is a triangular bone that lies anterior to the knee joint.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+   > “tibia: (also, shinbone) large bone of the leg that is located directly below the knee” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+3. Between the femur and tibia sit two cartilage pads called menisci, which cushion the bones. *(defines “menisci”)*
+   > “The medial and lateral menisci, located between the femoral and tibial condyles, are articular discs that provide padding and improve the fit between the bones.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “articular disc: meniscus; a fibrocartilage structure found between the bones of some synovial joints; provides padding or smooths movements between the bones; strongly unites the bones together” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+4. Strong bands called ligaments span between the bones and support the knee, especially when it is straight. *(defines “ligaments”)*
+   > “The knee joint has multiple ligaments that provide support, particularly in the extended position” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “ligament: strong band of dense connective tissue spanning between bones” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+
+#### Knee joint: Core (drafted; grade 9.8; `content/UBERON_0001485/tier2.md`; also Right knee joint, Left knee joint, Right knee, Left knee)
+
+1. Each knee joint works mainly as a hinge, letting the leg bend and straighten.
+   > “The knee functions primarily as a hinge joint, allowing flexion and extension of the leg.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+2. The knee joint is the body's largest joint.
+   > “The knee joint is the largest joint of the body” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+3. Three bones form each knee joint: the thighbone (femur), the shinbone (tibia) and the kneecap (patella). *(defines “tibia”)*
+   > “The femur, or thighbone, is the longest, heaviest, and strongest bone in the body. The femur and pelvis form the hip joint at the proximal end. At the distal end, the femur, tibia, and patella form the knee joint. The patella, or kneecap, is a triangular bone that lies anterior to the knee joint.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+   > “tibia: (also, shinbone) large bone of the leg that is located directly below the knee” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. As the knee bends and straightens, the femur rolls and glides on the tibia, keeping the two bones in stable contact.
+   > “the flexion and extension of the knee, as the femur both rolls and glides on the tibia to maintain stable contact between the bones in all knee positions.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+5. When the knee straightens fully, a slight rotation of the femur locks the knee into the most stable position for bearing weight.
+   > “As the knee comes into full extension, a slight medial rotation of the femur serves to “lock” the knee into its most stable, weight-bearing position.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+6. Between the femur and tibia sit two cartilage pads called menisci, which provide padding and improve the fit between the two bones. *(defines “menisci”)*
+   > “The medial and lateral menisci, located between the femoral and tibial condyles, are articular discs that provide padding and improve the fit between the bones.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “articular disc: meniscus; a fibrocartilage structure found between the bones of some synovial joints; provides padding or smooths movements between the bones; strongly unites the bones together” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+7. The knee's ligaments, strong bands spanning between bones, include a collateral ligament on each side and two cruciate ligaments inside the joint. *(defines “ligaments”)*
+   > “The tibial collateral ligament is located on the medial side of the knee and the fibular collateral ligament is located on the lateral side. The anterior and posterior cruciate ligaments are located inside the knee joint.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “ligament: strong band of dense connective tissue spanning between bones” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+8. The anterior cruciate ligament resists hyperextension, or straightening too far, while the posterior cruciate ligament keeps the femur from sliding forward when the bent knee bears weight. *(defines “hyperextension”)*
+   > “The anterior cruciate ligament resists hyperextension of the knee, while the posterior cruciate ligament prevents anterior sliding of the femur, thus supporting the knee when it is flexed and weight bearing.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “hyperextension: excessive extension of joint, beyond the normal range of movement” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+9. The patella sits inside the tendon of the quadriceps femoris, the large muscle at the front of the thigh, and protects that tendon from friction against the femur.
+   > “The patella is a sesamoid bone incorporated into the tendon of the quadriceps femoris muscle, the large muscle of the anterior thigh. The patella serves to protect the quadriceps tendon from friction against the distal femur.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+10. The quadriceps femoris muscle group straightens the leg at the knee, while the opposing hamstrings bend the leg.
+   > “The quadriceps femoris muscle group straightens the leg at the knee. The hamstrings are antagonists to the quadriceps femoris muscle group, which are used to flex the leg at the knee.” ([SEER Training Modules: Muscles of the Lower Extremity](https://training.seer.cancer.gov/anatomy/muscular/groups/lower.html), Free of copyright (NCI reuse policy))
+
 #### Lacrimal bone: Plain (drafted; grade 6.5; `content/FMA_52741/tier1.md`; also Right lacrimal bone, Left lacrimal bone)
 
 1. Each lacrimal bone forms a shallow dip that leads into the nasolacrimal canal, which drains tears. *(defines “nasolacrimal canal”)*
@@ -3819,6 +5411,48 @@ Dropped:
 3. Each lacrimal bone also helps form the inner wall of the orbit, or eye socket. *(defines “orbit”)*
    > “lacrimal bone: paired bones that contribute to the anterior-medial wall of each orbit” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
    > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Larynx: Plain (drafted; grade 6.4; `content/UBERON_0001737/tier1.md`)
+
+1. The larynx makes your voice and keeps food and drink out of the trachea, or windpipe. *(defines “trachea”)*
+   > “larynx: cartilaginous structure that produces the voice, prevents food and beverages from entering the trachea, and regulates the volume of air that enters and leaves the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+2. Also called the voice box, the larynx links the pharynx, or throat, to the trachea. *(defines “pharynx”)*
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+   > “pharynx: throat” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The larynx holds the vocal cords, two folded membranes that vibrate as air passes to make sound. *(defines “vocal cords”)*
+   > “The cartilaginous structure of the respiratory tract between the pharynx and the trachea. It contains elastic vocal cords required for sound production.” ([NCIT:C12420 Larynx](http://purl.obolibrary.org/obo/NCIT_C12420), CC BY 4.0)
+   > “true vocal cord: one of the pair of folded, white membranes that have a free inner edge that oscillates as air passes through to produce sound” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+4. When you swallow, a leaf-shaped part of the larynx called the epiglottis swings to close the trachea. *(defines “epiglottis”)*
+   > “epiglottis: leaf-shaped piece of elastic cartilage that is a portion of the larynx that swings to close the trachea during swallowing” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+
+#### Larynx: Core (drafted; grade 9.2; `content/UBERON_0001737/tier2.md`)
+
+1. The larynx produces the voice, keeps food and drink out of the trachea, or windpipe, and helps control how much air enters and leaves the lungs. *(defines “trachea”)*
+   > “larynx: cartilaginous structure that produces the voice, prevents food and beverages from entering the trachea, and regulates the volume of air that enters and leaves the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+2. Often called the voice box, the larynx is the air passage below the pharynx, or throat, and above the trachea. *(defines “pharynx”)*
+   > “The larynx, commonly called the voice box or glottis, is the passageway for air between the pharynx above and the trachea below.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+   > “pharynx: throat” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. The larynx is built from nine pieces of cartilage, a tough but flexible tissue; muscles and ligaments link the pieces together. *(defines “cartilage”)*
+   > “The larynx is often divided into three sections: sublarynx, larynx, and supralarynx. It is formed by nine cartilages that are connected to each other by muscles and ligaments.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+   > “cartilage, a tough but flexible type of connective tissue” ([9.3 Cartilaginous Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints), CC BY 4.0)
+4. The largest piece is the thyroid cartilage, which includes the laryngeal prominence, or Adam's apple. *(defines “thyroid cartilage”)*
+   > “The thyroid cartilage is the largest piece of cartilage that makes up the larynx. The thyroid cartilage consists of the laryngeal prominence, or “Adam’s apple,” which tends to be more prominent in males.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+5. The cricoid cartilage is a ring of cartilage in the larynx, wide at the back and thinner at the front. *(defines “cricoid cartilage”)*
+   > “cricoid cartilage: portion of the larynx composed of a ring of cartilage with a wide posterior region and a thinner anterior region; attached to the esophagus” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+6. The true vocal cords are white folds of membrane whose outer edges are attached by muscle to cartilages of the larynx. *(defines “true vocal cords”)*
+   > “A true vocal cord is one of the white, membranous folds attached by muscle to the thyroid and arytenoid cartilages of the larynx on their outer edges.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+7. To make sound, the vocal cords close together and vibrate as air from the lungs passes between the cords.
+   > “During sound production, the vocal cords close together and vibrate as air expelled from the lungs passes between them.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+8. The size of the vocal cords differs between people, giving voices different pitch ranges, and males tend to have larger folds and deeper voices.
+   > “The size of the membranous folds of the true vocal cords differs between individuals, producing voices with different pitch ranges. Folds in males tend to be larger than those in females, which create a deeper voice.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+9. When you swallow, the larynx lifts and the epiglottis, a leaf-shaped piece of cartilage, swings down to close the opening to the trachea. *(defines “epiglottis”)*
+   > “The act of swallowing causes the pharynx and larynx to lift upward, allowing the pharynx to expand and the epiglottis of the larynx to swing downward, closing the opening to the trachea.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “epiglottis: leaf-shaped piece of elastic cartilage that is a portion of the larynx that swings to close the trachea during swallowing” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+10. The false vocal cords, another pair of membrane folds, play no part in making sound but help close off the larynx when food is swallowed. *(defines “false vocal cords”)*
+   > “The false vocal cords have no role in sound production, but help close off the larynx when food is swallowed.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+   > “A vestibular fold, or false vocal cord, is one of a pair of folded sections of mucous membrane.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
 
 #### Lumbar vertebra: Plain (drafted; grade 6.3; `content/FMA_9921/tier1.md`; also First lumbar vertebra, Second lumbar vertebra, Third lumbar vertebra, Fourth lumbar vertebra, Fifth lumbar vertebra)
 
@@ -4274,6 +5908,119 @@ Dropped:
 10. Urine collects in the renal pelvis, a large cavity at the center of the kidney that leads into the ureter, the tube that carries urine to the bladder. *(defines “ureter”)*
    > “The central region of the kidney contains the renal pelvis, which is located in the renal sinus, and is continuous with the ureter. The renal pelvis is a large cavity that collects the urine as it is produced.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
    > “ureter: urine-bearing tube coming out of the kidney; carries urine to the bladder” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+
+#### Ureter: Plain (drafted; grade 7; `content/FMA_9704/tier1.md`; also Right ureter, Left ureter)
+
+1. Each ureter is a tube that carries urine from a kidney to the bladder.
+   > “The thick-walled tube that carries urine from each kidney to the bladder.” ([NCIT:C12416 Ureter](http://purl.obolibrary.org/obo/NCIT_C12416), CC BY 4.0)
+2. Each ureter runs down the back wall of the abdomen.
+   > “It descends from the renal pelvis, along the posterior abdominal wall” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+3. Muscle in the ureter wall pushes urine along in waves called peristalsis. *(defines “peristalsis”)*
+   > “The muscular layer of the ureter consists of longitudinal and circular smooth muscles that create the peristaltic contractions to move the urine into the bladder without the aid of gravity.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “peristalsis: wave-like movements of muscle tissue” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+4. Each ureter enters the bladder wall at a slant, which stops urine from flowing back.
+   > “they turn medially and pierce the bladder wall obliquely. This is important because it creates a one-way valve (a physiological sphincter rather than an anatomical sphincter) that allows urine into the bladder but prevents reflux of urine from the bladder back into the ureter.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+
+#### Ureter: Core (drafted; grade 10; `content/FMA_9704/tier2.md`; also Right ureter, Left ureter)
+
+1. Each ureter is a small tube that carries urine to the bladder from the renal pelvis, a large space in the center of the kidney where urine collects. *(defines “renal pelvis”)*
+   > “Each ureter is a small tube, about 25 cm long, that carries urine from the renal pelvis to the urinary bladder.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+   > “The central region of the kidney contains the renal pelvis, which is located in the renal sinus, and is continuous with the ureter. The renal pelvis is a large cavity that collects the urine as it is produced.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+2. From the renal pelvis, each ureter runs down the back wall of the abdomen.
+   > “It descends from the renal pelvis, along the posterior abdominal wall” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+3. Each ureter enters the pelvis, the bony ring at the hips, and curves outward along the pelvic wall. *(defines “pelvis”)*
+   > “As the ureters enter the pelvis, they sweep laterally, hugging the pelvic walls.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “pelvis: ring of bone consisting of the right and left hip bones, the sacrum, and the coccyx” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. Each ureter then turns inward and passes through the bladder wall at a slant, forming a one-way valve that keeps urine from flowing back.
+   > “they turn medially and pierce the bladder wall obliquely. This is important because it creates a one-way valve (a physiological sphincter rather than an anatomical sphincter) that allows urine into the bladder but prevents reflux of urine from the bladder back into the ureter.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+5. The wall of each ureter has three layers.
+   > “The wall of the ureter consists of three layers.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+6. The inner layer is transitional epithelium, a lining of stacked cells whose top cells change shape in response to urine. *(defines “transitional epithelium”)*
+   > “The inner layer, the mucosa, is transitional epithelium that is continuous with the lining of the renal pelvis and the urinary bladder.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+   > “transitional epithelium: form of stratified epithelium found in the urinary tract, characterized by an apical layer of cells that change shape in response to the presence of urine” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. This inner layer makes mucus, a thick, slippery substance that coats and protects the surface of the lining's cells. *(defines “mucus”)*
+   > “This layer secretes mucus, which coats and protects the surface of the cells.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. The middle layer is smooth muscle, a kind of muscle that cannot be controlled consciously, with circular muscle on the inside and lengthwise muscle on the outside. *(defines “smooth muscle”)*
+   > “The middle layer, the muscular coat, consists of the inner circular and outer longitudinal smooth muscle.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+   > “Smooth muscle cannot be controlled consciously and thus acts involuntarily.” ([SEER Training Modules: Muscle Types](https://training.seer.cancer.gov/anatomy/muscular/types.html), Free of copyright (NCI reuse policy))
+9. These muscles produce peristalsis, wave-like movements of muscle tissue that push urine into the bladder without help from gravity. *(defines “peristalsis”)*
+   > “The muscular layer of the ureter consists of longitudinal and circular smooth muscles that create the peristaltic contractions to move the urine into the bladder without the aid of gravity.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “peristalsis: wave-like movements of muscle tissue” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+10. The outer layer is a supporting coat of fibrous connective tissue, a type of tissue that holds organs in place and connects them. *(defines “connective tissue”)*
+   > “The outer layer, the fibrous coat, is a supporting layer of fibrous connective tissue.” ([SEER Training Modules: Ureters](https://training.seer.cancer.gov/anatomy/urinary/components/ureters.html), Free of copyright (NCI reuse policy))
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Urethra: Plain (drafted; grade 8.6; `content/FMA_19667/tier1.md`)
+
+1. The urethra carries urine from the bladder to the outside of the body.
+   > “The urethra transports urine from the bladder to the outside of the body for disposal.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+2. Two rings of muscle, called sphincters, control the flow of urine through the urethra. *(defines “sphincter”)*
+   > “These two sphincters control the flow of urine through the urethra.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+   > “anatomical sphincter: smooth or skeletal muscle surrounding the lumen of a vessel or hollow organ that can restrict flow when contracted” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+3. The inner sphincter works automatically, while the outer one is under your control.
+   > “The flow of urine through the urethra is controlled by an involuntary internal urethral sphincter and voluntary external urethral sphincter.” ([SEER Training Modules: Review: Introduction to the Urinary System](https://training.seer.cancer.gov/anatomy/urinary/review.html), Free of copyright (NCI reuse policy))
+4. In males, the urethra is much longer and also carries semen, the fluid that contains sperm. *(defines “semen”)*
+   > “In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+   > “semen: ejaculatory fluid composed of sperm and secretions from the seminal vesicles, prostate, and bulbourethral glands” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Urethra: Core (drafted; grade 9.9; `content/FMA_19667/tier2.md`)
+
+1. The urethra, the final passageway for urine, is a thin-walled tube that carries urine from the floor of the bladder to the outside of the body.
+   > “The final passageway for the flow of urine is the urethra, a thin-walled tube that conveys urine from the floor of the urinary bladder to the outside.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+2. The urethra begins at the trigone, a triangle-shaped area at the base of the bladder. *(defines “trigone”)*
+   > “The urethra arises from the trigone area at the base of the bladder.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “trigone: area at the base of the bladder marked by the two ureters in the posterior–lateral aspect and the urethral orifice in the anterior aspect oriented like points on a triangle” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+3. From there, the urethra runs behind and below the pubic symphysis, the joint where the right and left hip bones meet. *(defines “pubic symphysis”)*
+   > “The urethra tracks posterior and inferior to the pubic symphysis” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “pubic symphysis: joint formed by the articulation between the pubic bodies of the right and left hip bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. Two sphincters control the flow of urine through the urethra; a sphincter is a ring of muscle that can tighten to restrict flow. *(defines “sphincter”)*
+   > “These two sphincters control the flow of urine through the urethra.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+   > “anatomical sphincter: smooth or skeletal muscle surrounding the lumen of a vessel or hollow organ that can restrict flow when contracted” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+5. In females, the urethra is short, only 3 to 4 cm long, and opens to the outside just in front of the vaginal opening.
+   > “In females, the urethra is short, only 3 to 4 cm (about 1.5 inches) long. The external urethral orifice opens to the outside just anterior to the opening for the vagina.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+6. In males, the urethra is much longer, about 20 cm, and carries both urine and semen, the fluid that contains sperm. *(defines “semen”)*
+   > “In males, the urethra is much longer, about 20 cm (7 to 8 inches) in length, and transports both urine and semen.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+   > “semen: ejaculatory fluid composed of sperm and secretions from the seminal vesicles, prostate, and bulbourethral glands” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+7. The male urethra first passes through the prostate gland, which adds fluid to semen, and then through the floor of the pelvis into the penis. *(defines “prostate gland”)*
+   > “The first part, next to the urinary bladder, passes through the prostate gland and is called the prostatic urethra. The second part, a short region that penetrates the pelvic floor and enters the penis, is called the membranous urethra.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+   > “prostate gland: doughnut-shaped gland at the base of the bladder surrounding the urethra and contributing fluid to semen during ejaculation” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+8. The longest part of the male urethra runs the whole length of the penis and opens to the outside at the tip of the penis.
+   > “The third part, the spongy urethra, is the longest region. This portion of the urethra extends the entire length of the penis, and the external urethral orifice opens to the outside at the tip of the penis.” ([SEER Training Modules: Urethra](https://training.seer.cancer.gov/anatomy/urinary/components/urethra.html), Free of copyright (NCI reuse policy))
+9. While reproductive fluids pass through the male urethra, sphincters squeeze tightly to keep urine out.
+   > “While reproductive fluids are passing through the urethra, sphincters contract tightly to keep urine from entering the urethra.” ([SEER Training Modules: Duct System](https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html), Free of copyright (NCI reuse policy))
+
+Dropped:
+- “The internal sphincter is smooth muscle that works involuntarily, while the external sphincter, just below the internal one, is skeletal muscle under voluntary control.” (checker: Quote verbatim, but it places the external sphincter only 'below' the internal one. 'Just below' adds a closeness the quote does not state, and the SEER urethra file puts the external sphincter at the pelvic floor, with the prostatic urethra between the two sphincters in males.)
+
+#### Urinary bladder: Core (drafted; grade 10.9; `content/FMA_15900/tier2.md`)
+
+1. The urinary bladder is a stretchy, sac-like organ that stores urine and then releases the urine through the urethra, the tube leading to the outside of the body. *(defines “urethra”)*
+   > “The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra.” ([NCIT:C12414 Bladder](http://purl.obolibrary.org/obo/NCIT_C12414), CC BY 4.0)
+   > “The tube carrying urine from the bladder to outside of the body.” ([NCIT:C12417 Urethra](http://purl.obolibrary.org/obo/NCIT_C12417), CC BY 4.0)
+2. Urine reaches the bladder through the two ureters, the tubes that carry urine from the kidneys. *(defines “ureter”)*
+   > “The urinary bladder collects urine from both ureters” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “ureter: urine-bearing tube coming out of the kidney; carries urine to the bladder” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+3. The bladder sits behind the pubic bone and in front of the rectum; in females, the bladder also lies in front of the uterus.
+   > “The bladder lies anterior to the uterus in females, posterior to the pubic bone and anterior to the rectum.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+4. The bladder's inner lining is transitional epithelium, a lining of stacked cells whose top cells change shape in response to urine. *(defines “transitional epithelium”)*
+   > “The inner lining of the urinary bladder is a mucous membrane of transitional epithelium that is continuous with that in the ureters.” ([SEER Training Modules: Urinary Bladder](https://training.seer.cancer.gov/anatomy/urinary/components/bladder.html), Free of copyright (NCI reuse policy))
+   > “transitional epithelium: form of stratified epithelium found in the urinary tract, characterized by an apical layer of cells that change shape in response to the presence of urine” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. When the bladder is empty, its lining has many folds called rugae; the rugae and the transitional epithelium let the bladder expand as it fills. *(defines “rugae”)*
+   > “When the bladder is empty, the mucosa has numerous folds called rugae. The rugae and transitional epithelium allow the bladder to expand as it fills.” ([SEER Training Modules: Urinary Bladder](https://training.seer.cancer.gov/anatomy/urinary/components/bladder.html), Free of copyright (NCI reuse policy))
+6. In adults, the volume of urine in the bladder ranges from nearly zero to 500–600 mL.
+   > “Volumes in adults can range from nearly zero to 500–600 mL.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+7. Three openings in the bladder floor, two from the ureters and one into the urethra, mark the corners of a triangle called the trigone. *(defines “trigone”)*
+   > “There is a triangular area, called the trigone, formed by three openings in the floor of the urinary bladder. Two of the openings are from the ureters and form the base of the trigone.” ([SEER Training Modules: Urinary Bladder](https://training.seer.cancer.gov/anatomy/urinary/components/bladder.html), Free of copyright (NCI reuse policy))
+   > “trigone: area at the base of the bladder marked by the two ureters in the posterior–lateral aspect and the urethral orifice in the anterior aspect oriented like points on a triangle” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+8. The bladder wall contains the detrusor muscle, whose fibers run in all directions and contract to push urine out of the bladder. *(defines “detrusor muscle”)*
+   > “The smooth muscle fibers are interwoven in all directions and, collectively, these are called the detrusor muscle. Contraction of this muscle expels urine from the bladder.” ([SEER Training Modules: Urinary Bladder](https://training.seer.cancer.gov/anatomy/urinary/components/bladder.html), Free of copyright (NCI reuse policy))
+   > “detrusor muscle: smooth muscle in the bladder wall; fibers run in all directions to reduce the size of the organ when emptying it of urine” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+9. Urination starts with stretch sensors in the bladder wall, which send nerve signals to the spinal cord to trigger a reflex.
+   > “Normal micturition is a result of stretch receptors in the bladder wall that transmit nerve impulses to the sacral region of the spinal cord to generate a spinal reflex.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+10. In response, the detrusor muscle contracts while the internal urethral sphincter relaxes; this sphincter is the muscle where the bladder joins the urethra. *(defines “internal urethral sphincter”)*
+   > “The resulting parasympathetic neural outflow causes contraction of the detrusor muscle and relaxation of the involuntary internal urethral sphincter.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+   > “internal urinary sphincter: smooth muscle at the juncture of the bladder and urethra; relaxes as the bladder fills to allow urine into the urethra” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
 
 ### Venous
 
@@ -4761,6 +6508,22 @@ Dropped:
 
 Drafted, checked, repaired once and still short of the rules, so the structure keeps its definition or fact card. The last attempt and why it fell short:
 
+### Adipocyte: Core (CL:0000136)
+
+- terms left undefined: glycerol
+
+Sentences that passed the check:
+
+1. An adipocyte, or fat cell, is a cell whose main job is to store fat for later use.
+2. This stored fat holds surplus energy, and adipocytes also help insulate the body.
+3. About half of the body's excess fat is stored in adipocytes in the tissue under the skin, and the rest is stored in adipocytes in other tissues and organs.
+4. Adipocytes make up adipose tissue and store fat as triglycerides, which are lipids, or fats, made of three fatty acid chains attached to glycerol.
+5. Inside an adipocyte, these lipids fill most of the cytoplasm, the material between the cell membrane and the nucleus.
+6. The two basic types of adipocytes hold these lipids differently: white adipocytes store lipids as a single large drop, while brown adipocytes store lipids as many droplets.
+7. Insulin, a hormone released when blood glucose levels are high, stimulates adipocytes to convert glucose to fat.
+8. When blood glucose is low, however, the hormone glucagon stimulates adipocytes to release fatty acids into the blood.
+9. Adipocytes also make leptin, a hormone that reduces hunger; the more body fat a person has, the more leptin circulates.
+
 ### Apical dendrite: Plain (GO:0097440)
 
 - does not read well: Without sentence 1 the text never says where an apical dendrite grows out in most neurons or what 'apical' means, and sentence 3 jumps straight to bipolar cells. Sentences 0 and 2 also partly repeat the receiving-signals point, and 'branches' means dendrites only in sentence 0 but includes the axon in sentence 3.
@@ -4775,6 +6538,20 @@ Sentences that passed the check:
 Dropped:
 - “This dendrite grows out near the cell's apical pole, the part that generally faces an open space.” (checker: Both quotes appear verbatim, but the second does not fit this subject. The OpenStax ch. 4 'apical' entry is the epithelial sense: chapter 4.2 uses it only for the exposed surface of epithelial cells facing a lumen or free space, and OpenStax never uses it for neurons. Defining a neuron's apical pole as 'the part that generally faces an open space' says something about neurons that no quote supports, and it is misleading because neurons sit inside tissue. So the second quote does not define 'apical pole' in the GO sense.)
 
+### Hematopoietic stem cell: Core (CL:0000037)
+
+- does not read well: Sentence 3 mostly repeats sentence 0 (blood cells arise from hematopoietic stem cells). Its only new content is the definition of differentiation, which could be folded into sentence 0 or 4.
+
+Sentences that passed the check:
+
+1. A hematopoietic stem cell, also called a hemocytoblast, is the cell from which all the formed elements of blood arise: the red blood cells, white blood cells and platelets.
+2. Hematopoietic stem cells sit in the red bone marrow, the tissue inside bones where blood cells are made.
+3. Unlike embryonic stem cells, hematopoietic stem cells remain throughout adulthood, so new blood cells can keep forming to replace those lost to age or use.
+4. Blood cells arise from hematopoietic stem cells along various paths of differentiation, the process by which cells become specialized in structure and function.
+5. Hemopoiesis, the production of the formed elements, starts when chemical signals called hemopoietic growth factors prompt a hematopoietic stem cell to divide and differentiate.
+6. The division yields two daughter cells: one stays a hematopoietic stem cell so hemopoiesis can continue, while the other becomes one of two more specialized kinds of stem cell.
+7. These two kinds are myeloid stem cells, which produce most formed elements, and lymphoid stem cells, which produce only lymphocytes, a group of white blood cells many of which work in immunity.
+
 ### Hypothalamus: Plain (FMA:62008)
 
 - does not read well: In the last sentence, 'which relays signals from the senses' can be read as describing the hypothalamus (the cited SEER sentence uses 'which' that way), and leaving 'brain area' out of the thalamus definition means the text never says the hypothalamus is in the brain.
@@ -4785,6 +6562,55 @@ Sentences that passed the check:
 2. Like a thermostat, it keeps body temperature and food and water intake at the right levels.
 3. It also signals the pituitary gland, a pea-sized gland that sends out chemical messengers called hormones.
 4. It is a small area below the thalamus, which relays signals from the senses.
+
+### Monocyte: Core (CL:0000576)
+
+- does not read well: All 8 sentences pass, but sentence 4 ('After moving into infected tissue, a monocyte turns into a macrophage') repeats sentence 0's macrophage point after the dendritic-cell and osteoclast sentences; move sentences 3-4 to follow sentence 0, or fold 4 into 0.
+
+Sentences that passed the check:
+
+1. A monocyte is a white blood cell that gives rise to macrophages, cells that clean up dead and damaged cells in the body.
+2. Instead of a macrophage, a monocyte can become a dendritic cell, an immune cell that processes foreign material and presents that material to start an immune response.
+3. Osteoclasts, the cells that break down bone, also come from monocytes and macrophages.
+4. Monocytes circulate in the blood and in lymph, a watery fluid that bathes tissues and organs.
+5. After moving into infected tissue, a monocyte turns into a macrophage.
+6. Normally, monocytes make up 2–8 percent of all white blood cells.
+7. A large size of 12–20 µm and an indented or horseshoe-shaped nucleus usually make a monocyte easy to recognize.
+8. Monocytes come from myeloid stem cells, which also give rise to red blood cells and some other white blood cells.
+
+### Omentum: Core (UBERON:0003688)
+
+- does not read well: With sentences 2 and 4 removed, the text jumps from the omentum's definition to 'The greater omentum runs...'. No sentence says what the greater and lesser omentum are or how they relate to the omentum, and the role of holding the stomach in place is also lost.
+
+Sentences that passed the check:
+
+1. The omentum helps support the internal organs, and it starts at the stomach.
+2. The omentum is a fold of the peritoneum, the membrane that lines the abdominal and pelvic cavity and covers the organs there.
+3. The greater omentum runs from the greater curvature, the convex outer surface of the stomach, to the back wall of the abdomen.
+4. The lesser omentum runs from the liver to the lesser curvature, the concave inner border of the stomach.
+5. The lesser omentum also provides a pathway for structures that connect to the liver.
+6. Two blood vessels that enter the liver, the hepatic artery and the hepatic portal vein, run behind the side edge of the lesser omentum.
+
+Dropped:
+- “The omentum has two parts, the greater omentum and the lesser omentum, and both help hold the stomach in place.” (checker: The quote (23.4) appears word for word and supports that both omenta hold the stomach in place. It never says the omentum 'has two parts', or that the greater and lesser omentum are parts of it. The number and the part-whole claim are new. OpenStax 23.1 lists the two as separate folds among five peritoneal folds, and the Uberon definition calls the omentum one fold.)
+- “Shaped like an apron, the greater omentum lies in front of the small intestine.” (checker: The quote appears word for word in the 23.1 peritoneal-fold table, and 'shaped like an apron' is supported. But the quote says the greater omentum lies 'superficial to' the small intestine, which OpenStax defines as 'nearer to the surface of the body'. 'In front of' is the plain word for anterior, a different direction the quote does not give.)
+
+### Smooth muscle cell: Core (CL:0000192)
+
+- terms left undefined: local factors
+
+Sentences that passed the check:
+
+1. Smooth muscle cells move food and regulate blood flow in arteries through involuntary movements, which are not under conscious control.
+2. These cells lie in the walls of hollow organs, such as the stomach, intestines, bladder and uterus, and of passageways such as arteries and veins.
+3. Each cell is spindle-shaped, wide in the middle and tapered at both ends like a football, with a single nucleus, and is about 30 to 200 micrometers long.
+4. Inside each cell are thick and thin filaments: the thick filaments are made of the protein myosin, and the thin filaments of the protein actin.
+5. These filaments do not line up inside the cell, so smooth muscle cells show no striations, the bands formed by actin and myosin filaments aligned in parallel.
+6. Smooth muscle contraction can be triggered by hormones, local factors, stretching in some organs, or the autonomic nervous system, which controls heart muscle, smooth muscle and glands.
+7. Inside the cell, contraction begins when calcium ions bind to calmodulin, a protein that aids smooth muscle contraction; this lets myosin heads attach to actin and pull on the thin filaments.
+8. Sliding past the thick filaments, the thin filaments pull on dense bodies, structures fastened to the cell membrane.
+9. The dense bodies then pull on a network of intermediate filaments, protein strands that bear tension, drawing the cell's ends toward its center so the middle bulges in a corkscrew motion.
+10. In single-unit smooth muscle, the cells are joined by gap junctions, channels that let ions pass between neighboring cells, so the muscle contracts as a single unit.
 
 ### Subscapular vein: Plain (FMA:23113)
 

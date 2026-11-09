@@ -29,30 +29,382 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_9607/tier1.auto.md",
-   "text": "A bi-lobed organ surrounded by a connective tissue capsule. It is located in the upper anterior portion of the chest, behind the sternum. It is composed predominantly of lymphocytes and fewer epithelial cells. Connective tissue septa separate the lobes into lobules. The lobules contain an outer portion (cortical zone) which is rich in lymphocytes and an inner portion (medullary zone) which is rich in epithelial cells. It is an organ essential for the development of the immune system. Its function is the maturation of the progenitor lymphoid cells to thymocytes and subsequently to mature T-cells. It reaches its greatest weight at puberty and subsequently begins to involute.",
+   "status": "drafted",
+   "file": "content/FMA_9607/tier1.md",
+   "text": "The thymus is the organ where T cells, a type of white blood cell, mature. Mature T cells then travel in the blood to other organs to help fight disease. The thymus sits in the upper chest, behind the sternum, or breastbone. The thymus is fairly large in children but starts to shrink after puberty.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12433",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12433",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12433",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12433",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Thymus",
+     "url": "https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12433 Thymus Gland",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12433",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12433, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Thymus. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The thymus is the organ where T cells, a type of white blood cell, mature.",
+     "defines": "T cells",
+     "quotes": [
+      {
+       "quote": "thymus: primary lymphoid organ; where T lymphocytes proliferate and mature",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mature T cells then travel in the blood to other organs to help fight disease.",
+     "quotes": [
+      {
+       "quote": "While in the thymus, the lymphocytes do not respond to pathogens and foreign agents. After the lymphocytes have matured, they enter the blood and go to other lymphatic organs where they help provide defense against disease.",
+       "section": "SEER Training Modules: Thymus",
+       "url": "https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Thymus. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The thymus sits in the upper chest, behind the sternum, or breastbone.",
+     "defines": "sternum",
+     "quotes": [
+      {
+       "quote": "It is located in the upper anterior portion of the chest, behind the sternum.",
+       "section": "NCIT:C12433 Thymus Gland",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12433",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "sternum: (also, breastbone) long, flat bone located at the front of the chest",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The thymus is fairly large in children but starts to shrink after puberty.",
+     "quotes": [
+      {
+       "quote": "The thymus is a soft organ with two lobes that is located anterior to the ascending aorta and posterior to the sternum. It is relatively large in infants and children but after puberty it begins to decrease in size so that in older adults it is quite small.",
+       "section": "SEER Training Modules: Thymus",
+       "url": "https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Thymus. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    }
+   ],
+   "grade": 5.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_9607/tier2.md",
+   "text": "The thymus is where T cells, white blood cells with an important role in the immune response, multiply and mature. Immature T cells, called thymocytes, leave the bone marrow, the tissue inside bones where blood cells develop, and mature mostly in the thymus. The thymus also makes hormones called thymosins, chemical signals that help T cells develop. The thymus has two lobes and sits in front of the heart, behind the sternum, or breastbone. The thymus is large and very active in infancy and early childhood, when the immune system is still developing, but shrinks in adulthood. A capsule of connective tissue, the tissue that holds organs in place, divides the thymus into lobules through extensions called trabeculae. The outer region of the thymus, called the cortex, holds large numbers of thymocytes. Before leaving the thymus, thymocytes move into the medulla, a region where cells are packed less densely. In the thymus, T cells are also selected so that they can attack pathogens, agents that can cause disease, without harming the body's own cells. This selection kills many thymocytes: only two percent of those that enter the thymus leave it as mature, working T cells.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Foundational Model of Anatomy, FMA:9607 Thymus",
+     "url": "http://purl.org/sig/ont/fma/fma9607",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.10 Organs with Secondary Endocrine Functions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-10-organs-with-secondary-endocrine-functions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+     "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The thymus is where T cells, white blood cells with an important role in the immune response, multiply and mature.",
+     "defines": "T cells",
+     "quotes": [
+      {
+       "quote": "thymus: primary lymphoid organ; where T lymphocytes proliferate and mature",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Immature T cells, called thymocytes, leave the bone marrow, the tissue inside bones where blood cells develop, and mature mostly in the thymus.",
+     "defines": "bone marrow",
+     "quotes": [
+      {
+       "quote": "the immature T cell, called a thymocyte, leaves the bone marrow and matures largely in the thymus gland.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The thymus also makes hormones called thymosins, chemical signals that help T cells develop.",
+     "defines": "hormones",
+     "quotes": [
+      {
+       "quote": "thymosins: hormones produced and secreted by the thymus that play an important role in the development and differentiation of T cells",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The thymus has two lobes and sits in front of the heart, behind the sternum, or breastbone.",
+     "defines": "sternum",
+     "quotes": [
+      {
+       "quote": "Corticomedullary organ, each instance of which is some lymphoid organ consisting of two pyramidal lobes located in some anterior superior mediastinum, anterior to some heart and posterior to some sternum.",
+       "section": "FMA:9607 Thymus",
+       "url": "http://purl.org/sig/ont/fma/fma9607",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      },
+      {
+       "quote": "sternum: (also, breastbone) long, flat bone located at the front of the chest",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The thymus is large and very active in infancy and early childhood, when the immune system is still developing, but shrinks in adulthood.",
+     "quotes": [
+      {
+       "quote": "During infancy and early childhood, the thymus gland is large and very active, as the immune system is still developing. During adulthood, the thymus gland atrophies because the immune system is already developed.",
+       "section": "17.10 Organs with Secondary Endocrine Functions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-10-organs-with-secondary-endocrine-functions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A capsule of connective tissue, the tissue that holds organs in place, divides the thymus into lobules through extensions called trabeculae.",
+     "defines": "connective tissue",
+     "quotes": [
+      {
+       "quote": "The connective tissue capsule further divides the thymus into lobules via extensions called trabeculae.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The outer region of the thymus, called the cortex, holds large numbers of thymocytes.",
+     "quotes": [
+      {
+       "quote": "The outer region of the organ is known as the cortex and contains large numbers of thymocytes with some epithelial cells, macrophages, and dendritic cells",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Before leaving the thymus, thymocytes move into the medulla, a region where cells are packed less densely.",
+     "quotes": [
+      {
+       "quote": "The medulla, where thymocytes migrate before leaving the thymus, contains a less dense collection of thymocytes, epithelial cells, and dendritic cells.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the thymus, T cells are also selected so that they can attack pathogens, agents that can cause disease, without harming the body's own cells.",
+     "defines": "pathogens",
+     "quotes": [
+      {
+       "quote": "The primary lymphoid organs are the bone marrow and thymus gland. The lymphoid organs are where lymphocytes mature, proliferate, and are selected, which enables them to attack pathogens without harming the cells of the body.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pathogen: agent with the ability to cause disease",
+       "section": "Chapter 21 Key Terms (Viruses)",
+       "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This selection kills many thymocytes: only two percent of those that enter the thymus leave it as mature, working T cells.",
+     "quotes": [
+      {
+       "quote": "This mechanism kills many thymocytes during T cell differentiation. In fact, only two percent of the thymocytes that enter the thymus leave it as mature, functional T cells.",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -61,8 +413,68 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12433",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12433",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+   "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Thymus",
+   "url": "https://training.seer.cancer.gov/anatomy/lymphatic/components/thymus.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12433 Thymus Gland",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12433",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+   "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+   "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Foundational Model of Anatomy, FMA:9607 Thymus",
+   "url": "http://purl.org/sig/ont/fma/fma9607",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 17.10 Organs with Secondary Endocrine Functions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-10-organs-with-secondary-endocrine-functions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+   "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
    "license": "CC BY 4.0"
   }
  ],

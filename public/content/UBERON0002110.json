@@ -21,30 +21,320 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7202/tier1.auto.md",
-   "text": "A pear-shaped organ located under the liver that stores and concentrates bile secreted by the liver. From the gallbladder the bile is delivered through the bile ducts into the intestine thereby aiding the digestion of fat-containing foods.",
+   "status": "drafted",
+   "file": "content/FMA_7202/tier1.md",
+   "text": "The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver. This pear-shaped organ sits under the liver. The gallbladder's lining removes water, making bile up to 10 times more concentrated. A hormone from the small intestine makes the gallbladder contract and release bile.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12377",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12377",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12377",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12377",
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+     "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12377 Gallbladder",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12377",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Other Endocrine Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/other.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; SEER Training Modules: Other Endocrine Glands. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver.",
+     "defines": "bile",
+     "quotes": [
+      {
+       "quote": "The gallbladder primarily stores, concentrates, and releases bile.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "bile: digestive juice produced by the liver; important for digestion of lipids",
+       "section": "Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+       "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This pear-shaped organ sits under the liver.",
+     "quotes": [
+      {
+       "quote": "A pear-shaped organ located under the liver that stores and concentrates bile secreted by the liver.",
+       "section": "NCIT:C12377 Gallbladder",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12377",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder's lining removes water, making bile up to 10 times more concentrated.",
+     "quotes": [
+      {
+       "quote": "The gallbladder's mucosa absorbs water and ions from bile, concentrating it by up to 10-fold.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A hormone from the small intestine makes the gallbladder contract and release bile.",
+     "quotes": [
+      {
+       "quote": "The mucosa of the small intestine secretes the hormones secretin and cholecystokinin. Secreting stimulates the pancreas to produce a bicarbonate-rich fluid that neutralizes the stomach acid. Cholecystokinin stimulates contraction of the gallbladder, which releases bile.",
+       "section": "SEER Training Modules: Other Endocrine Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/other.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Other Endocrine Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    }
+   ],
+   "grade": 8.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
+  },
+  "tier2": {
+   "status": "drafted",
+   "file": "content/FMA_7202/tier2.md",
+   "text": "The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver. Bile helps digest fats through emulsification, the breaking of large fat drops into several smaller ones. The gallbladder is 8–10 cm long and sits in a shallow area on the back of the liver's right lobe. A layer of peritoneum, the membrane that covers the abdominal organs, forms the gallbladder's outer coat and holds the gallbladder against the liver. The gallbladder has three regions: the wide fundus tapers into the body, which narrows into the neck. The gallbladder's cystic duct joins the common hepatic duct from the liver to form the common bile duct, which carries bile into the small intestine. Between meals, bile is diverted into the gallbladder, where the bile is concentrated and stored until the next meal. The gallbladder's lining absorbs water from the bile, concentrating the bile up to 10-fold. When food reaches the small intestine, cells in the intestinal lining release a hormone called cholecystokinin, which makes the gallbladder contract. The gallbladder wall's middle layer is involuntary smooth muscle; when it contracts, bile is pushed through the cystic duct into the bile duct.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+     "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 34.3 Digestive System Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 24.3 Lipid Metabolism",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12377, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
-  },
-  "tier2": {
-   "status": "missing"
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The gallbladder stores, concentrates, and releases bile, a digestive juice made by the liver.",
+     "defines": "bile",
+     "quotes": [
+      {
+       "quote": "The gallbladder primarily stores, concentrates, and releases bile.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "bile: digestive juice produced by the liver; important for digestion of lipids",
+       "section": "Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+       "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Bile helps digest fats through emulsification, the breaking of large fat drops into several smaller ones.",
+     "defines": "emulsification",
+     "quotes": [
+      {
+       "quote": "Bile aids in the digestion of lipids, primarily triglycerides by emulsification. Emulsification is a process in which large lipid globules are broken down into several small lipid globules.",
+       "section": "34.3 Digestive System Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder is 8–10 cm long and sits in a shallow area on the back of the liver's right lobe.",
+     "quotes": [
+      {
+       "quote": "The gallbladder is 8–10 cm (~3–4 in) long and is nested in a shallow area on the posterior aspect of the right lobe of the liver.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A layer of peritoneum, the membrane that covers the abdominal organs, forms the gallbladder's outer coat and holds the gallbladder against the liver.",
+     "defines": "peritoneum",
+     "quotes": [
+      {
+       "quote": "Visceral peritoneum reflected from the liver capsule holds the gallbladder against the liver and forms the outer coat of the gallbladder.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "peritoneum: serous membrane that lines the abdominopelvic cavity and covers the organs found there",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder has three regions: the wide fundus tapers into the body, which narrows into the neck.",
+     "quotes": [
+      {
+       "quote": "It is divided into three regions. The fundus is the widest portion and tapers medially into the body, which in turn narrows to become the neck.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder's cystic duct joins the common hepatic duct from the liver to form the common bile duct, which carries bile into the small intestine.",
+     "quotes": [
+      {
+       "quote": "The bile ducts unite to form the larger right and left hepatic ducts, which themselves merge and exit the liver as the common hepatic duct. This duct then joins with the cystic duct from the gallbladder, forming the common bile duct through which bile flows into the small intestine.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Between meals, bile is diverted into the gallbladder, where the bile is concentrated and stored until the next meal.",
+     "quotes": [
+      {
+       "quote": "Between meals, bile is produced but conserved. The valve-like hepatopancreatic ampulla closes, allowing bile to divert to the gallbladder, where it is concentrated and stored until the next meal.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder's lining absorbs water from the bile, concentrating the bile up to 10-fold.",
+     "quotes": [
+      {
+       "quote": "The gallbladder's mucosa absorbs water and ions from bile, concentrating it by up to 10-fold.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When food reaches the small intestine, cells in the intestinal lining release a hormone called cholecystokinin, which makes the gallbladder contract.",
+     "defines": "cholecystokinin",
+     "quotes": [
+      {
+       "quote": "When food reaches the small intestine in the form of chyme, a digestive hormone called cholecystokinin (CCK) is released by intestinal cells in the intestinal mucosa. CCK stimulates the release of pancreatic lipase from the pancreas and stimulates the contraction of the gallbladder",
+       "section": "24.3 Lipid Metabolism",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The gallbladder wall's middle layer is involuntary smooth muscle; when it contracts, bile is pushed through the cystic duct into the bile duct.",
+     "defines": "smooth muscle",
+     "quotes": [
+      {
+       "quote": "The wall’s middle, muscular coat is made of smooth muscle fibers. When these fibers contract, the gallbladder’s contents are ejected through the cystic duct and into the bile duct",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "smooth muscle: under involuntary control, moves internal organs, cells contain a single nucleus, are spindle-shaped, and do not appear striated; each cell is a fiber",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -53,8 +343,43 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12377",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12377",
+   "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 34 Key Terms (Animal Nutrition and the Digestive System)",
+   "url": "https://openstax.org/books/biology-2e/pages/34-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12377 Gallbladder",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12377",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Other Endocrine Glands",
+   "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/other.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, 34.3 Digestive System Processes",
+   "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 24.3 Lipid Metabolism",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
    "license": "CC BY 4.0"
   }
  ],

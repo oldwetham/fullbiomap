@@ -50,30 +50,377 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_12514/tier1.auto.md",
-   "text": "The eye positioned in the right orbit.",
+   "status": "drafted",
+   "file": "content/UBERON_0000970/tier1.md",
+   "text": "Each eye detects light, which gives us the sense of sight. Each eye sits in a bony socket of the skull called the orbit, which protects the eyeball. The retina, a layer of light-sensing cells at the back of the eye, changes light into nerve signals. The clear cornea at the front of the eye and the lens bend light to focus an image on the retina.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C119333",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C119333",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C119333",
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C119333, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each eye detects light, which gives us the sense of sight.",
+     "quotes": [
+      {
+       "quote": "Vision is the special sense of sight that is based on the transduction of light stimuli received through the eyes.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each eye sits in a bony socket of the skull called the orbit, which protects the eyeball.",
+     "defines": "orbit",
+     "quotes": [
+      {
+       "quote": "The eyes are located within either orbit in the skull. The bony orbits surround the eyeballs, protecting them and anchoring the soft tissues of the eye",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "orbit: bony socket that contains the eyeball and associated muscles",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The retina, a layer of light-sensing cells at the back of the eye, changes light into nerve signals.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "The photoreceptive cells of the eye, where transduction of light to nervous impulses occurs, are located in the retina (shown in ) on the inner surface of the back of the eye.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The clear cornea at the front of the eye and the lens bend light to focus an image on the retina.",
+     "quotes": [
+      {
+       "quote": "The cornea, the front transparent layer of the eye, and the crystalline lens, a transparent convex structure behind the cornea, both refract (bend) light to focus the image on the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0000970",
+    "label": "Eye",
+    "conceptId": "UBERON0000970"
+   }
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0000970/tier2.md",
+   "text": "Each eye detects light, which gives us vision, the sense of sight. Each eye sits in a bony socket of the skull called the orbit, which surrounds and protects the eyeball and anchors the eye's soft tissues. Six extraocular muscles, which run from the bones of the orbit to the surface of the eyeball, move the eye within the orbit. The eye is a hollow ball made of three layers of tissue; the outer layer includes the white sclera and, at the front, the clear cornea, which helps focus light. The middle layer includes the choroid, which is rich in blood vessels and supplies the eyeball with blood. The innermost layer, lining the back of the eye, is the retina, whose light-sensing cells change light into nerve impulses. At the front of the eye is the iris, the colored muscle around the pupil, the central hole that lets light in; the iris narrows the pupil in bright light and widens it in dim light. The lens, a clear curved structure behind the cornea, focuses light on the retina, and muscles change the lens's shape so the lens can focus on near or far objects. Behind the lens, the space that reaches back to the retina is filled with a thick fluid called the vitreous humor. The optic nerve, the nerve responsible for vision, runs from the retina to the brain through an opening at the back of the orbit.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 7.2 The Skull",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each eye detects light, which gives us vision, the sense of sight.",
+     "quotes": [
+      {
+       "quote": "Vision is the special sense of sight that is based on the transduction of light stimuli received through the eyes.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each eye sits in a bony socket of the skull called the orbit, which surrounds and protects the eyeball and anchors the eye's soft tissues.",
+     "defines": "orbit",
+     "quotes": [
+      {
+       "quote": "The eyes are located within either orbit in the skull. The bony orbits surround the eyeballs, protecting them and anchoring the soft tissues of the eye",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "orbit: bony socket that contains the eyeball and associated muscles",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Six extraocular muscles, which run from the bones of the orbit to the surface of the eyeball, move the eye within the orbit.",
+     "defines": "extraocular muscle",
+     "quotes": [
+      {
+       "quote": "Movement of the eye within the orbit is accomplished by the contraction of six extraocular muscles that originate from the bones of the orbit and insert into the surface of the eyeball",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "extraocular muscle: one of six muscles originating out of the bones of the orbit and inserting into the surface of the eye which are responsible for moving the eye",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The eye is a hollow ball made of three layers of tissue; the outer layer includes the white sclera and, at the front, the clear cornea, which helps focus light.",
+     "defines": "cornea",
+     "quotes": [
+      {
+       "quote": "The eye itself is a hollow sphere composed of three layers of tissue. The outermost layer is the fibrous tunic, which includes the white sclera and clear cornea.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cornea: transparent layer over the front of the eye that helps focus light waves",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The middle layer includes the choroid, which is rich in blood vessels and supplies the eyeball with blood.",
+     "defines": "choroid",
+     "quotes": [
+      {
+       "quote": "The middle layer of the eye is the vascular tunic, which is mostly composed of the choroid, ciliary body, and iris. The choroid is a layer of highly vascularized connective tissue that provides a blood supply to the eyeball.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The innermost layer, lining the back of the eye, is the retina, whose light-sensing cells change light into nerve impulses.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "The photoreceptive cells of the eye, where transduction of light to nervous impulses occurs, are located in the retina (shown in ) on the inner surface of the back of the eye.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The innermost layer of the eye is the neural tunic, or retina, which contains the nervous tissue responsible for photoreception.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At the front of the eye is the iris, the colored muscle around the pupil, the central hole that lets light in; the iris narrows the pupil in bright light and widens it in dim light.",
+     "defines": "iris",
+     "quotes": [
+      {
+       "quote": "The iris is a smooth muscle that opens or closes the pupil, which is the hole at the center of the eye that allows light to enter. The iris constricts the pupil in response to bright light and dilates the pupil in response to dim light.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "iris: colored portion of the anterior eye that surrounds the pupil",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lens, a clear curved structure behind the cornea, focuses light on the retina, and muscles change the lens's shape so the lens can focus on near or far objects.",
+     "defines": "lens",
+     "quotes": [
+      {
+       "quote": "The lens is dynamic, focusing and re-focusing light as the eye rests on near and far objects in the visual field. The lens is operated by muscles that stretch it flat or allow it to thicken, changing the focal length of light coming through it to focus it sharply on the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lens: transparent, convex structure behind the cornea that helps focus light waves on the retina",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Behind the lens, the space that reaches back to the retina is filled with a thick fluid called the vitreous humor.",
+     "defines": "vitreous humor",
+     "quotes": [
+      {
+       "quote": "The posterior cavity is the space behind the lens that extends to the posterior side of the interior eyeball, where the retina is located. The posterior cavity is filled with a more viscous fluid called the vitreous humor.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The optic nerve, the nerve responsible for vision, runs from the retina to the brain through an opening at the back of the orbit.",
+     "defines": "optic nerve",
+     "quotes": [
+      {
+       "quote": "At the posterior apex of the orbit is the opening of the optic canal, which allows for passage of the optic nerve from the retina to the brain.",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "optic nerve: second cranial nerve, which is responsible visual sensation",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0000970",
+    "label": "Eye",
+    "conceptId": "UBERON0000970"
+   }
   },
   "tier3": {
    "status": "missing"

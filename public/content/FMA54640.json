@@ -17,30 +17,347 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_54640/tier1.auto.md",
-   "text": "The muscular organ located in the floor of the mouth and serving as the principal organ of taste and modification of the voice in speech.",
+   "status": "drafted",
+   "file": "content/FMA_54640/tier1.md",
+   "text": "The tongue helps you taste, chew, swallow and speak. The tongue is a muscular organ in the floor of the mouth. Tongue muscles gather food into a bolus, a rounded mass of chewed food, for swallowing. The tongue is covered with papillae, small bumps that provide grip and hold taste buds.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12422",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12422",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12422",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12422",
+     "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0001723 tongue",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001723",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Mouth",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12422, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; SEER Training Modules: Mouth. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The tongue helps you taste, chew, swallow and speak.",
+     "quotes": [
+      {
+       "quote": "Although the tongue is obviously important for tasting food, it is also necessary for mastication, deglutition (swallowing), and speech",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The tongue is a muscular organ in the floor of the mouth.",
+     "quotes": [
+      {
+       "quote": "A muscular organ in the floor of the mouth.",
+       "section": "UBERON:0001723 tongue",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001723",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    },
+    {
+     "text": "Tongue muscles gather food into a bolus, a rounded mass of chewed food, for swallowing.",
+     "defines": "bolus",
+     "quotes": [
+      {
+       "quote": "Working in concert, these muscles perform three important digestive functions in the mouth: (1) position food for optimal chewing, (2) gather food into a bolus (rounded mass), and (3) position food so it can be swallowed.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "bolus: mass of chewed food",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The tongue is covered with papillae, small bumps that provide grip and hold taste buds.",
+     "defines": "papillae",
+     "quotes": [
+      {
+       "quote": "The surface is covered with papillae that provide friction and contain the taste buds.",
+       "section": "SEER Training Modules: Mouth",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mouth. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "papilla: one of the small bump-like projections from the tongue",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 5.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/FMA_54640/tier2.md",
+   "text": "The tongue is important for tasting food and is also needed for chewing, swallowing and speech. The tongue sits over the floor of the mouth, and a dividing wall called the medial septum splits the tongue into symmetrical halves. The bulk of the tongue is skeletal muscle, the type of muscle under voluntary control. Each half of the tongue has the same set of extrinsic muscles, which start outside the tongue, and intrinsic muscles, which start within the tongue. The extrinsic muscles move the whole tongue in different directions, while the intrinsic muscles change its shape, for example by curling or flattening the tongue. The top and sides of the tongue are studded with papillae, small bump-like projections. Fungiform papillae contain taste buds, clusters of taste cells, while filiform papillae have touch receptors that help the tongue move food around. Taste buds in the front two-thirds of the tongue connect to the facial nerve, and those in the back third connect to the glossopharyngeal nerve. The hypoglossal nerve controls the tongue's muscles, except the palatoglossus, which is controlled by the vagus nerve.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The tongue is important for tasting food and is also needed for chewing, swallowing and speech.",
+     "quotes": [
+      {
+       "quote": "Although the tongue is obviously important for tasting food, it is also necessary for mastication, deglutition (swallowing), and speech",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The tongue sits over the floor of the mouth, and a dividing wall called the medial septum splits the tongue into symmetrical halves.",
+     "defines": "septum",
+     "quotes": [
+      {
+       "quote": "The tongue is positioned over the floor of the oral cavity. A medial septum extends the entire length of the tongue, dividing it into symmetrical halves.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "serves as a wall (or septum) between the oral and nasal cavities",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The bulk of the tongue is skeletal muscle, the type of muscle under voluntary control.",
+     "defines": "skeletal muscle",
+     "quotes": [
+      {
+       "quote": "tongue: accessory digestive organ of the mouth, the bulk of which is composed of skeletal muscle",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "skeletal muscle: usually attached to bone, under voluntary control, each cell is a fiber that is multinucleated and striated",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each half of the tongue has the same set of extrinsic muscles, which start outside the tongue, and intrinsic muscles, which start within the tongue.",
+     "defines": "extrinsic and intrinsic muscles",
+     "quotes": [
+      {
+       "quote": "each half of the tongue is composed of the same number and type of intrinsic and extrinsic skeletal muscles",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Extrinsic tongue muscles insert into the tongue from outside origins, and the intrinsic tongue muscles insert into the tongue from origins within it.",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The extrinsic muscles move the whole tongue in different directions, while the intrinsic muscles change its shape, for example by curling or flattening the tongue.",
+     "quotes": [
+      {
+       "quote": "The extrinsic muscles move the whole tongue in different directions, whereas the intrinsic muscles allow the tongue to change its shape (such as, curling the tongue in a loop or flattening it).",
+       "section": "11.3 Axial Muscles of the Head, Neck, and Back",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The top and sides of the tongue are studded with papillae, small bump-like projections.",
+     "defines": "papillae",
+     "quotes": [
+      {
+       "quote": "The top and sides of the tongue are studded with papillae",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "papilla: one of the small bump-like projections from the tongue",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fungiform papillae contain taste buds, clusters of taste cells, while filiform papillae have touch receptors that help the tongue move food around.",
+     "defines": "taste bud",
+     "quotes": [
+      {
+       "quote": "Fungiform papillae contain taste buds, and filiform papillae have touch receptors that help the tongue move food around in the mouth.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "taste bud: clusters of taste cells",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Taste buds in the front two-thirds of the tongue connect to the facial nerve, and those in the back third connect to the glossopharyngeal nerve.",
+     "quotes": [
+      {
+       "quote": "The facial nerve connects to taste buds in the anterior two thirds of the tongue. The glossopharyngeal nerve connects to taste buds in the posterior one third of the tongue.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The hypoglossal nerve controls the tongue's muscles, except the palatoglossus, which is controlled by the vagus nerve.",
+     "quotes": [
+      {
+       "quote": "The hypoglossal nerve is the motor nerve that controls the muscles of the tongue, except for the palatoglossus muscle, which is controlled by the vagus nerve.",
+       "section": "16.3 The Cranial Nerve Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -49,8 +366,48 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12422",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12422",
+   "title": "OpenStax Anatomy and Physiology 2e, 11.3 Axial Muscles of the Head, Neck, and Back",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0001723 tongue",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0001723",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Mouth",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/mouth.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
    "license": "CC BY 4.0"
   }
  ],

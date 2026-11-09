@@ -23,30 +23,355 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/UBERON_0001831/tier1.auto.md",
-   "text": "The largest of the three paired salivary glands, located in front of the ear.",
+   "status": "drafted",
+   "file": "content/UBERON_0001831/tier1.md",
+   "text": "Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth. The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear. Saliva from the parotid gland is watery, mixes freely with food and starts the digestion of carbohydrates.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12427",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12427",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12427",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12427",
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12427 Parotid Gland",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12427",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12427, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth.",
+     "defines": "saliva",
+     "quotes": [
+      {
+       "quote": "The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "salivary gland: an exocrine gland that secretes a digestive fluid called saliva",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear.",
+     "quotes": [
+      {
+       "quote": "The largest of the three paired salivary glands, located in front of the ear.",
+       "section": "NCIT:C12427 Parotid Gland",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12427",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Saliva from the parotid gland is watery, mixes freely with food and starts the digestion of carbohydrates.",
+     "quotes": [
+      {
+       "quote": "Parotid gland saliva is watery with little mucus but a lot of amylase, which allows it to mix freely with food during mastication and begin the digestion of carbohydrates.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0001831/tier2.md",
+   "text": "Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth. The parotid gland is an accessory organ: it helps with digestion but is not part of the digestive tract, the tube that runs from the mouth to the anus. The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear. The parotid gland lies between the skin and the masseter, the main muscle for chewing. Saliva from the parotid gland enters the mouth through the parotid duct, which is near the second upper molar, a tooth for crushing and grinding food. The parotid gland makes a watery saliva that contains salivary amylase, which begins the digestion of carbohydrates in the mouth. Because this saliva is watery and has little mucus, a thick, slippery substance, the saliva mixes freely with food. The parotid gland receives nerve fibers from the otic ganglion, a cluster of nerve cell bodies. That ganglion in turn receives fibers from the glossopharyngeal nerve, a nerve that causes saliva production.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Introduction to the Digestive System",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12427 Parotid Gland",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12427",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Introduction to the Digestive System. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each parotid gland makes saliva, a digestive fluid, and sends it into the mouth.",
+     "defines": "saliva",
+     "quotes": [
+      {
+       "quote": "The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "salivary gland: an exocrine gland that secretes a digestive fluid called saliva",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The parotid gland is an accessory organ: it helps with digestion but is not part of the digestive tract, the tube that runs from the mouth to the anus.",
+     "defines": "digestive tract",
+     "quotes": [
+      {
+       "quote": "The salivary glands, liver, gallbladder, and pancreas are not part of the digestive tract, but they have a role in digestive activities and are considered accessory organs.",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The digestive tract, also called the alimentary canal or gastrointestinal (GI) tract, consists of a long continuous tube that extends from the mouth to the anus.",
+       "section": "SEER Training Modules: Introduction to the Digestive System",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Introduction to the Digestive System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The parotid glands are the biggest of the three pairs of salivary glands, and each sits in front of an ear.",
+     "quotes": [
+      {
+       "quote": "The largest of the three paired salivary glands, located in front of the ear.",
+       "section": "NCIT:C12427 Parotid Gland",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12427",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The parotid gland lies between the skin and the masseter, the main muscle for chewing.",
+     "defines": "masseter",
+     "quotes": [
+      {
+       "quote": "The parotid glands lie between the skin and the masseter muscle, near the ears.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "masseter: main muscle for chewing that elevates the mandible to close the mouth",
+       "section": "Chapter 11 Key Terms (The Muscular System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Saliva from the parotid gland enters the mouth through the parotid duct, which is near the second upper molar, a tooth for crushing and grinding food.",
+     "defines": "molar",
+     "quotes": [
+      {
+       "quote": "The parotid glands lie between the skin and the masseter muscle, near the ears. They secrete saliva into the mouth through the parotid duct, which is located near the second upper molar tooth",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "molar: tooth used for crushing and grinding food",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The parotid gland makes a watery saliva that contains salivary amylase, which begins the digestion of carbohydrates in the mouth.",
+     "defines": "salivary amylase",
+     "quotes": [
+      {
+       "quote": "For example, the parotid glands secrete a watery solution that contains salivary amylase.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "salivary amylase: digestive enzyme that is found in the saliva and begins the digestion of carbohydrates in the mouth",
+       "section": "Chapter 24 Key Terms (Metabolism and Nutrition)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Because this saliva is watery and has little mucus, a thick, slippery substance, the saliva mixes freely with food.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "Parotid gland saliva is watery with little mucus but a lot of amylase, which allows it to mix freely with food during mastication and begin the digestion of carbohydrates.",
+       "section": "23.3 The Mouth, Pharynx, and Esophagus",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The parotid gland receives nerve fibers from the otic ganglion, a cluster of nerve cell bodies.",
+     "defines": "otic ganglion",
+     "quotes": [
+      {
+       "quote": "The parasympathetic fibers of the glossopharyngeal nerve synapse in the otic ganglion, which projects to the parotid gland.",
+       "section": "16.3 The Cranial Nerve Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ganglion: localized collection of neuron cell bodies in the peripheral nervous system",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "That ganglion in turn receives fibers from the glossopharyngeal nerve, a nerve that causes saliva production.",
+     "defines": "glossopharyngeal nerve",
+     "quotes": [
+      {
+       "quote": "The parasympathetic fibers of the glossopharyngeal nerve synapse in the otic ganglion, which projects to the parotid gland.",
+       "section": "16.3 The Cranial Nerve Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "glossopharyngeal nerve: ninth cranial nerve; responsible for contraction of muscles in the tongue and throat and for part of the sense of taste, as well as causing saliva production",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -55,8 +380,58 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12427",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12427",
+   "title": "OpenStax Anatomy and Physiology 2e, 23.3 The Mouth, Pharynx, and Esophagus",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12427 Parotid Gland",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12427",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Introduction to the Digestive System",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 11 Key Terms (The Muscular System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 16.3 The Cranial Nerve Exam",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
    "license": "CC BY 4.0"
   }
  ],

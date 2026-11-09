@@ -30,17 +30,399 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0001911/tier1.md",
+   "text": "The mammary gland makes milk to feed newborns. Both sexes have mammary glands in the breast, but the glands usually work only in females. Tubes called lactiferous ducts carry the milk to the nipple. The hormone prolactin makes the gland produce milk, and the hormone oxytocin pushes the milk out.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 29.6 Mammals",
+     "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Mammary Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The mammary gland makes milk to feed newborns.",
+     "quotes": [
+      {
+       "quote": "Mammary glands produce milk that is used to feed newborns.",
+       "section": "29.6 Mammals",
+       "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Both sexes have mammary glands in the breast, but the glands usually work only in females.",
+     "quotes": [
+      {
+       "quote": "Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Tubes called lactiferous ducts carry the milk to the nipple.",
+     "defines": "lactiferous ducts",
+     "quotes": [
+      {
+       "quote": "lactiferous ducts: ducts that connect the mammary glands to the nipple and allow for the transport of milk",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The hormone prolactin makes the gland produce milk, and the hormone oxytocin pushes the milk out.",
+     "defines": "prolactin",
+     "quotes": [
+      {
+       "quote": "Prolactin from the anterior pituitary stimulates the production of milk within the glandular tissue, and oxytocin causes the ejection of milk from the glands.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "prolactin (PRL): anterior pituitary hormone that promotes development of the mammary glands and the production of breast milk",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0001911",
+    "label": "Mammary gland"
+   }
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/UBERON_0001911/tier2.md",
+   "text": "The mammary gland makes milk to feed newborns. After childbirth, the gland makes and releases milk in response to an infant sucking at the nipple, a process called lactation. The mammary gland lies in the breast, over the pectoralis major, the large muscle on the chest. Mammary glands are modified sweat glands found in both sexes, but the glands usually work only in females. In the adult female breast, the glandular tissue forms 15 to 20 lobes that fan out around the nipple. Milk is made in alveoli, balloon-like structures lined with milk-secreting cells and wrapped in a net of cells that can contract. Tubes called lactiferous ducts carry milk from each lobe to the nipple, and just before the nipple each duct widens into a lactiferous sinus that stores milk. The female sex hormones estrogen and progesterone make the glandular tissue and ducts of the breast develop. The hormone prolactin helps the glandular tissue develop during pregnancy and stimulates milk production after the infant is born. When an infant suckles, the hormone oxytocin is released and makes the cells around the alveoli squeeze milk out toward the nipple.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 29.6 Mammals",
+     "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.6 Lactation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Mammary Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Gonads",
+     "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/gonads.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Pituitary & Pineal Glands",
+     "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Gonads. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Pituitary & Pineal Glands. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The mammary gland makes milk to feed newborns.",
+     "quotes": [
+      {
+       "quote": "Mammary glands produce milk that is used to feed newborns.",
+       "section": "29.6 Mammals",
+       "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "After childbirth, the gland makes and releases milk in response to an infant sucking at the nipple, a process called lactation.",
+     "defines": "lactation",
+     "quotes": [
+      {
+       "quote": "Lactation is the process by which milk is synthesized and secreted from the mammary glands of the postpartum female breast in response to an infant sucking at the nipple.",
+       "section": "28.6 Lactation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The mammary gland lies in the breast, over the pectoralis major, the large muscle on the chest.",
+     "defines": "pectoralis major",
+     "quotes": [
+      {
+       "quote": "Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The large muscle on the chest, the pectoralis major",
+       "section": "11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mammary glands are modified sweat glands found in both sexes, but the glands usually work only in females.",
+     "quotes": [
+      {
+       "quote": "Functionally, the mammary glands produce milk; structurally, they are modified sweat glands. Mammary glands, which are located in the breast overlying the pectoralis major muscles, are present in both sexes, but usually are functional only in the female.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "In the adult female breast, the glandular tissue forms 15 to 20 lobes that fan out around the nipple.",
+     "quotes": [
+      {
+       "quote": "Internally, the adult female breast contains 15 to 20 lobes of glandular tissue that radiate around the nipple.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Milk is made in alveoli, balloon-like structures lined with milk-secreting cells and wrapped in a net of cells that can contract.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "Breast alveoli are balloon-like structures lined with milk-secreting cuboidal cells, or lactocytes, that are surrounded by a net of contractile myoepithelial cells. Milk is secreted from the lactocytes, fills the alveoli, and is squeezed into the ducts.",
+       "section": "28.6 Lactation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Tubes called lactiferous ducts carry milk from each lobe to the nipple, and just before the nipple each duct widens into a lactiferous sinus that stores milk.",
+     "defines": "lactiferous ducts",
+     "quotes": [
+      {
+       "quote": "A lactiferous duct collects the milk from the lobules within each lobe and carries it to the nipple. Just before the nipple, the lactiferous duct enlarges to form a lactiferous sinus (ampulla), which serves as a reservoir for milk.",
+       "section": "SEER Training Modules: Mammary Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Mammary Glands. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "lactiferous ducts: ducts that connect the mammary glands to the nipple and allow for the transport of milk",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The female sex hormones estrogen and progesterone make the glandular tissue and ducts of the breast develop.",
+     "defines": "estrogen and progesterone",
+     "quotes": [
+      {
+       "quote": "Estrogen and progesterone stimulate the development of glandular tissue and ducts in the breast.",
+       "section": "SEER Training Modules: Review: Introduction to the Reproductive System",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Review: Introduction to the Reproductive System. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "Two groups of female sex hormones are produced in the ovaries, the estrogens and progesterone.",
+       "section": "SEER Training Modules: Gonads",
+       "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/gonads.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Gonads. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The hormone prolactin helps the glandular tissue develop during pregnancy and stimulates milk production after the infant is born.",
+     "quotes": [
+      {
+       "quote": "Prolactin hormone promotes the development of glandular tissue in the female breast during pregnancy and stimulates milk production after the birth of the infant.",
+       "section": "SEER Training Modules: Pituitary & Pineal Glands",
+       "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Pituitary & Pineal Glands. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "When an infant suckles, the hormone oxytocin is released and makes the cells around the alveoli squeeze milk out toward the nipple.",
+     "defines": "oxytocin",
+     "quotes": [
+      {
+       "quote": "Following childbirth, suckling triggers oxytocin release, which stimulates myoepithelial cells to squeeze milk from alveoli. Breast milk then drains toward the nipple pores to be consumed by the infant.",
+       "section": "28.6 Lactation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "oxytocin: hypothalamic hormone stored in the posterior pituitary gland and important in stimulating uterine contractions in labor, milk ejection during breastfeeding, and feelings of attachment (produced by males and females)",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "UBERON:0001911",
+    "label": "Mammary gland"
+   }
   },
   "tier3": {
    "status": "missing"
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Biology 2e, 29.6 Mammals",
+   "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Mammary Glands",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 28.6 Lactation",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Reproductive System",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/review.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Gonads",
+   "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/gonads.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Pituitary & Pineal Glands",
+   "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pituitary.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  }
+ ],
  "zoom": {
   "in": [
    "FMA:223677",

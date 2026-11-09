@@ -181,6 +181,14 @@ The basis is the morphology run on `cells`: 71 cell types, 141 agents, 11.4M tok
   - I report their actual tokens, pass rates and grades, with sample texts.
   - If the projection comes out more than 25% over this estimate, I stop and ask before the full run.
 
+### Pilot results (2026-11-08)
+
+- **Run:** 31 subjects in 10 jobs (20 agents), then one repair round (3 texts, 6 agents). 3.21M tokens in all (2.72M first round, 0.50M repairs), about 33 minutes.
+- **Outcome:** 34 texts drafted; 160 sentences, 158 passed the independent check; every quote found word for word (238). 31 texts passed first time, 3 were repaired, 2 of those passed. 33 published; the hypothalamus Plain text was not (reads ambiguously after its repair) and keeps its definition and fact card.
+- **Reading level:** Plain grades 3.8–9.0 (median 7.0), all within the limit of 10 with their technical terms defined; Core 10.3–12.9.
+- **Cost per job:** an organ or cell type costs about 270k tokens (a 200k draft and a 65–75k check), not the 160k assumed from the morphology run; a batch of 3–5 bones, muscles, vessels, nerves, organelles or brain regions costs about the same per job (240–320k), so about 50–60k per subject. A repaired text costs about 166k.
+- **Projection for the whole run:** about 59–60M tokens (first round 50.8M, repairs about 8M), 52% over the 39.5M estimate, so the full run waits for a decision (section 7).
+
 ## 8. Order of work
 
 Each step is checked and committed before the next; nothing is pushed.

@@ -20,27 +20,122 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_24485/tier1.auto.md",
-   "text": "A small flat triangular bone in front of the knee that articulates with the femur and protects the knee joint.",
+   "status": "drafted",
+   "file": "content/FMA_24485/tier1.md",
+   "text": "The patella, or kneecap, protects a large thigh muscle's tendon from rubbing on the thigh bone. It is the largest sesamoid bone in the body, a bone that sits inside a tendon. It lies in front of the knee and forms a joint with the thigh bone. It also lifts the tendon away from the knee joint, which gives the muscle more leverage.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33282",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33282",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33282",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33282",
+     "title": "OpenStax Anatomy and Physiology 2e, 9.6 Anatomy of Selected Synovial Joints",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33282 Patella",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33282",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 8.4 Bones of the Lower Limb",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33282, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The patella, or kneecap, protects a large thigh muscle's tendon from rubbing on the thigh bone.",
+     "defines": "patella",
+     "quotes": [
+      {
+       "quote": "The patella is a sesamoid bone incorporated into the tendon of the quadriceps femoris muscle, the large muscle of the anterior thigh. The patella serves to protect the quadriceps tendon from friction against the distal femur.",
+       "section": "9.6 Anatomy of Selected Synovial Joints",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur",
+       "section": "Chapter 8 Key Terms (The Appendicular Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It is the largest sesamoid bone in the body, a bone that sits inside a tendon.",
+     "defines": "sesamoid bone",
+     "quotes": [
+      {
+       "quote": "patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur",
+       "section": "Chapter 8 Key Terms (The Appendicular Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "sesamoid bone: small, round bone embedded in a tendon; protects the tendon from compressive forces",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It lies in front of the knee and forms a joint with the thigh bone.",
+     "quotes": [
+      {
+       "quote": "A small flat triangular bone in front of the knee that articulates with the femur and protects the knee joint.",
+       "section": "NCIT:C33282 Patella",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33282",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "It also lifts the tendon away from the knee joint, which gives the muscle more leverage.",
+     "quotes": [
+      {
+       "quote": "The patella also lifts the tendon away from the knee joint, which increases the leverage power of the quadriceps femoris muscle as it acts across the knee.",
+       "section": "8.4 Bones of the Lower Limb",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 5.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-08"
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +147,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33282",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33282",
+   "title": "OpenStax Anatomy and Physiology 2e, 9.6 Anatomy of Selected Synovial Joints",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 8 Key Terms (The Appendicular Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33282 Patella",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33282",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 8.4 Bones of the Lower Limb",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
    "license": "CC BY 4.0"
   }
  ],

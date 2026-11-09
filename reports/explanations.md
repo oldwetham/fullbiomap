@@ -8,14 +8,14 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 
 | Group | Subjects | Plain written | Core written | Structures covered |
 | --- | --- | --- | --- | --- |
-| Organs | 48 | 0 of 39 | 0 of 48 | 90 |
-| Cell types | 70 | 0 of 70 | 0 of 70 | 70 |
-| Organelles | 40 | 0 of 40 | 0 of 0 | 40 |
-| Bones and cartilages | 49 | 0 of 49 | 0 of 0 | 210 |
-| Muscles | 106 | 0 of 106 | 0 of 0 | 304 |
-| Vessels | 90 | 0 of 90 | 0 of 0 | 206 |
-| Nerves | 3 | 0 of 3 | 0 of 0 | 9 |
-| Brain regions | 31 | 0 of 31 | 0 of 0 | 65 |
+| Organs | 48 | 1 of 39 | 2 of 48 | 90 |
+| Cell types | 70 | 2 of 70 | 2 of 70 | 70 |
+| Organelles | 40 | 4 of 40 | 0 of 0 | 40 |
+| Bones and cartilages | 49 | 5 of 49 | 0 of 0 | 210 |
+| Muscles | 106 | 5 of 106 | 0 of 0 | 304 |
+| Vessels | 90 | 5 of 90 | 0 of 0 | 206 |
+| Nerves | 3 | 3 of 3 | 0 of 0 | 9 |
+| Brain regions | 31 | 4 of 31 | 0 of 0 | 65 |
 | All | 437 | | | 994 |
 
 Key-term matches left out as generic or as organs listed above: anastomosis, arm, axial skeleton, brain, carpal bone, cranial nerve, diaphragm, external nose, false ribs, flat bone, floating ribs, foot, forearm, ganglion, hand, irregular bone, leg, long bone, nerve, neuraxis, organ, pectoral girdle, pelvis, perineum, sesamoid bone, short bone, skeletal system, spinal cord, tarsal bone, thigh, true ribs, trunk.
@@ -32,9 +32,9 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Eye (UBERON:0000970; also Right eyeball, Left eyeball, Right eye, Left eye): Plain: not written; Core: not written
 - Fallopian tube (UBERON:0003889; also Right fallopian tube, Left fallopian tube): Plain: not written; Core: not written
 - Gallbladder (FMA:7202): Plain: not written; Core: not written
-- Heart (FMA:7088): Core: not written
+- Heart (FMA:7088): Core: drafted
 - Intervertebral disk (FMA:10446): Plain: not written; Core: not written
-- Kidney (FMA:7203; also Right kidney, Left kidney): Plain: not written; Core: not written
+- Kidney (FMA:7203; also Right kidney, Left kidney): Plain: drafted, grade 7.2; Core: drafted
 - Knee joint (UBERON:0001485; also Right knee joint, Left knee joint, Right knee, Left knee): Plain: not written; Core: not written
 - Lacrimal gland (FMA:59101; also Right lacrimal gland, Left lacrimal gland): Plain: not written; Core: not written
 - Large intestine (FMA:7201): Plain: not written; Core: not written
@@ -78,7 +78,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Basal cell (CL:0000646): Plain: not written; Core: not written
 - Basophil (CL:0000767): Plain: not written; Core: not written
 - Bladder urothelial cell (CL:1001428): Plain: not written; Core: not written
-- Cardiac muscle cell (CL:0000746): Plain: not written; Core: not written
+- Cardiac muscle cell (CL:0000746): Plain: drafted, grade 8.9; Core: drafted
 - Cardiac pacemaker cell of sinoatrial node (CL:1000477): Plain: not written; Core: not written
 - CD4-positive, alpha-beta T cell (CL:0000624): Plain: not written; Core: not written
 - CD8-positive, alpha-beta T cell (CL:0000625): Plain: not written; Core: not written
@@ -95,7 +95,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Eosinophil (CL:0000771): Plain: not written; Core: not written
 - Ependymal cell (CL:0000065): Plain: not written; Core: not written
 - Epithelial cell of proximal tubule (CL:0002306): Plain: not written; Core: not written
-- Erythrocyte (CL:0000232): Plain: not written; Core: not written
+- Erythrocyte (CL:0000232): Plain: drafted, grade 6.9; Core: drafted
 - Fibroblast (CL:0000057): Plain: not written; Core: not written
 - Hematopoietic stem cell (CL:0000037): Plain: not written; Core: not written
 - Hepatocyte (CL:0000182): Plain: not written; Core: not written
@@ -169,15 +169,15 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Lysosomes (GO:0005764): Plain: not written
 - Melanosomes (GO:0042470): Plain: not written
 - Microvilli (GO:0005902): Plain: not written
-- Mitochondria (GO:0005739): Plain: not written
+- Mitochondria (GO:0005739): Plain: drafted, grade 9
 - Myofibrils (GO:0030016): Plain: not written
 - Neurites (GO:0043005): Plain: not written
 - Nucleolus (GO:0005730): Plain: not written
-- Nucleus (GO:0005634): Plain: not written
+- Nucleus (GO:0005634): Plain: drafted, grade 7.4
 - Outer segment (GO:0001750): Plain: not written
-- Peroxisomes (GO:0005777): Plain: not written
+- Peroxisomes (GO:0005777): Plain: drafted, grade 8.9
 - Pseudopodia (GO:0031143): Plain: not written
-- Ribosomes (GO:0005840): Plain: not written
+- Ribosomes (GO:0005840): Plain: drafted, grade 7.8
 - Rough endoplasmic reticulum (GO:0005791): Plain: not written
 - Sarcoplasmic reticulum (GO:0016529): Plain: not written
 - Secretory granules (GO:0030141): Plain: not written
@@ -191,14 +191,14 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 - Atlas (FMA:12519): Plain: not written
 - Axis (FMA:12520): Plain: not written
-- Calcaneus (FMA:24496; also Right calcaneus, Left calcaneus): Plain: not written
+- Calcaneus (FMA:24496; also Right calcaneus, Left calcaneus): Plain: drafted, grade 5.7
 - Capitate (FMA:23727; also Right capitate, Left capitate): Plain: not written
 - Cervical vertebra (FMA:9915; also Third cervical vertebra, Fourth cervical vertebra, Fifth cervical vertebra, Sixth cervical vertebra, Seventh cervical vertebra): Plain: not written
 - Clavicle (FMA:13321; also Right clavicle, Left clavicle): Plain: not written
 - Costal cartilage (FMA:7591; also First costal cartilage, Second costal cartilage, Third costal cartilage, Fourth costal cartilage, Fifth costal cartilage, Sixth costal cartilage, Seventh costal cartilage, Right first costal cartilage, Right second costal cartilage, Right third costal cartilage, Right fourth costal cartilage, Left first costal cartilage, Left second costal cartilage, Left third costal cartilage, Right fifth costal cartilage, Left fifth costal cartilage, Left fourth costal cartilage, Right sixth costal cartilage, Left sixth costal cartilage, Right seventh costal cartilage, Left seventh costal cartilage): Plain: not written
 - Cricoid cartilage (FMA:9615): Plain: not written
-- Femur (FMA:9611; also Right femur, Left femur): Plain: not written
-- Fibula (FMA:24479; also Right fibula, Left fibula): Plain: not written
+- Femur (FMA:9611; also Right femur, Left femur): Plain: drafted, grade 4
+- Fibula (FMA:24479; also Right fibula, Left fibula): Plain: drafted, grade 4.8
 - Frontal bone (FMA:52734): Plain: not written
 - Hamate (FMA:23730; also Right hamate, Left hamate): Plain: not written
 - Hip bone (FMA:16585; also Right hip bone, Left hip bone): Plain: not written
@@ -210,12 +210,12 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Mandible (FMA:52748): Plain: not written
 - Manubrium (FMA:7486): Plain: not written
 - Metacarpal bone (FMA:9612; also First metacarpal bone, Second metacarpal bone, Third metacarpal bone, Fourth metacarpal bone, Fifth metacarpal bone, Right first metacarpal bone, Left first metacarpal bone, Right second metacarpal bone, Left second metacarpal bone, Right third metacarpal bone, Left third metacarpal bone, Right fourth metacarpal bone, Left fourth metacarpal bone, Right fifth metacarpal bone, Left fifth metacarpal bone): Plain: not written
-- Metatarsal bone (FMA:24492; also First metatarsal bone, Second metatarsal bone, Third metatarsal bone, Fourth metatarsal bone, Fifth metatarsal bone, Right first metatarsal bone, Left first metatarsal bone, Right second metatarsal bone, Left second metatarsal bone, Right third metatarsal bone, Left third metatarsal bone, Right fourth metatarsal bone, Left fourth metatarsal bone, Right fifth metatarsal bone, Left fifth metatarsal bone): Plain: not written
+- Metatarsal bone (FMA:24492; also First metatarsal bone, Second metatarsal bone, Third metatarsal bone, Fourth metatarsal bone, Fifth metatarsal bone, Right first metatarsal bone, Left first metatarsal bone, Right second metatarsal bone, Left second metatarsal bone, Right third metatarsal bone, Left third metatarsal bone, Right fourth metatarsal bone, Left fourth metatarsal bone, Right fifth metatarsal bone, Left fifth metatarsal bone): Plain: drafted, grade 4
 - Nasal bone (FMA:52745; also Right nasal bone, Left nasal bone): Plain: not written
 - Occipital bone (FMA:52735): Plain: not written
 - Palatine bone (FMA:52746; also Right palatine bone, Left palatine bone): Plain: not written
 - Parietal bone (FMA:9613; also Right parietal bone, Left parietal bone): Plain: not written
-- Patella (FMA:24485; also Right patella, Left patella): Plain: not written
+- Patella (FMA:24485; also Right patella, Left patella): Plain: drafted, grade 5.9
 - Pelvic girdle (FMA:16581; also Right pelvic girdle, Left pelvic girdle): Plain: not written
 - Pisiform (FMA:23718; also Right pisiform, Left pisiform): Plain: not written
 - Radius (FMA:23463; also Right radius, Left radius): Plain: not written
@@ -308,15 +308,15 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Plantaris (FMA:22543; also Right plantaris, Left plantaris): Plain: not written
 - Popliteus (FMA:22590; also Right popliteus, Left popliteus): Plain: not written
 - Pronator quadratus (FMA:38453; also Right pronator quadratus, Left pronator quadratus): Plain: not written
-- Psoas major (FMA:18060; also Right psoas major, Left psoas major): Plain: not written
+- Psoas major (FMA:18060; also Right psoas major, Left psoas major): Plain: drafted, grade 4.2
 - Pubococcygeus (FMA:19090; also Right pubococcygeus, Left pubococcygeus): Plain: not written
-- Quadratus femoris (FMA:22321; also Right quadratus femoris, Left quadratus femoris): Plain: not written
-- Rectus femoris (FMA:22430; also Right rectus femoris, Left rectus femoris): Plain: not written
+- Quadratus femoris (FMA:22321; also Right quadratus femoris, Left quadratus femoris): Plain: drafted, grade 8.7
+- Rectus femoris (FMA:22430; also Right rectus femoris, Left rectus femoris): Plain: drafted, grade 4.6
 - Rhomboid major (FMA:13379; also Right rhomboid major, Left rhomboid major): Plain: not written
 - Rhomboid minor (FMA:13380; also Right rhomboid minor, Left rhomboid minor): Plain: not written
-- Sartorius (FMA:22353; also Right sartorius, Left sartorius): Plain: not written
+- Sartorius (FMA:22353; also Right sartorius, Left sartorius): Plain: drafted, grade 3.8
 - Scalene muscle (FMA:64829): Plain: not written
-- Semimembranosus (FMA:22438; also Right semimembranosus, Left semimembranosus): Plain: not written
+- Semimembranosus (FMA:22438; also Right semimembranosus, Left semimembranosus): Plain: drafted, grade 4.5
 - Semispinalis capitis (FMA:22830; also Right semispinalis capitis, Left semispinalis capitis): Plain: not written
 - Semispinalis cervicis (FMA:22829; also Right semispinalis cervicis, Left semispinalis cervicis): Plain: not written
 - Semispinalis thoracis (FMA:22828; also Right semispinalis thoracis, Left semispinalis thoracis): Plain: not written
@@ -357,11 +357,11 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Anterior spinal artery (FMA:50531; also Right anterior spinal artery, Left anterior spinal artery): Plain: not written
 - Anterior tibial artery (FMA:43894; also Right anterior tibial artery, Left anterior tibial artery): Plain: not written
 - Anterior tibial vein (FMA:44331; also Right anterior tibial vein, Left anterior tibial vein): Plain: not written
-- Aorta (FMA:3734): Plain: not written
-- Ascending aorta (FMA:3736): Plain: not written
-- Axillary artery (FMA:22654; also Right axillary artery, Left axillary artery): Plain: not written
-- Axillary vein (FMA:13329; also Right axillary vein, Left axillary vein): Plain: not written
-- Azygos vein (FMA:4838): Plain: not written
+- Aorta (FMA:3734): Plain: drafted, grade 7
+- Ascending aorta (FMA:3736): Plain: drafted, grade 6.8
+- Axillary artery (FMA:22654; also Right axillary artery, Left axillary artery): Plain: drafted, grade 8.9
+- Axillary vein (FMA:13329; also Right axillary vein, Left axillary vein): Plain: drafted, grade 5.4
+- Azygos vein (FMA:4838): Plain: drafted, grade 6.9
 - Basilar artery (FMA:50542): Plain: not written
 - Basilic vein (FMA:22908; also Right basilic vein, Left basilic vein): Plain: not written
 - Brachial artery (FMA:22689; also Right brachial artery, Left brachial artery): Plain: not written
@@ -443,9 +443,9 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Nerves (3)
 
-- Ciliary ganglion (FMA:6964; also Right ciliary ganglion, Left ciliary ganglion): Plain: not written
-- Optic nerve (FMA:50863; also Right optic nerve, Left optic nerve): Plain: not written
-- Trochlear nerve (FMA:50865; also Right trochlear nerve, Left trochlear nerve): Plain: not written
+- Ciliary ganglion (FMA:6964; also Right ciliary ganglion, Left ciliary ganglion): Plain: drafted, grade 7.7
+- Optic nerve (FMA:50863; also Right optic nerve, Left optic nerve): Plain: drafted, grade 7
+- Trochlear nerve (FMA:50865; also Right trochlear nerve, Left trochlear nerve): Plain: drafted, grade 7
 
 ### Brain regions (31)
 
@@ -458,17 +458,17 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Diencephalon (FMA:62001): Plain: not written
 - Forebrain (FMA:61992): Plain: not written
 - Fourth ventricle (FMA:78469): Plain: not written
-- Frontal lobe (FMA:61824; also Right frontal lobe, Left frontal lobe): Plain: not written
-- Globus pallidus (FMA:61835; also Right globus pallidus, Left globus pallidus): Plain: not written
+- Frontal lobe (FMA:61824; also Right frontal lobe, Left frontal lobe): Plain: drafted, grade 7
+- Globus pallidus (FMA:61835; also Right globus pallidus, Left globus pallidus): Plain: drafted, grade 7.6
 - Hindbrain (FMA:67687): Plain: not written
-- Hypothalamus (FMA:62008): Plain: not written
-- Inferior colliculus (FMA:62404; also Right inferior colliculus, Left inferior colliculus): Plain: not written
+- Hypothalamus (FMA:62008): Plain: not published (see below)
+- Inferior colliculus (FMA:62404; also Right inferior colliculus, Left inferior colliculus): Plain: drafted, grade 6.3
 - Internal capsule (FMA:61950; also Right internal capsule, Left internal capsule): Plain: not written
 - Lateral ventricle (FMA:78448; also Right lateral ventricle, Left lateral ventricle): Plain: not written
 - Limbic lobe (FMA:72719; also Right limbic lobe, Left limbic lobe): Plain: not written
 - Metencephalon (FMA:62003): Plain: not written
 - Midbrain (FMA:61993): Plain: not written
-- Occipital lobe (FMA:67325; also Right occipital lobe, Left occipital lobe): Plain: not written
+- Occipital lobe (FMA:67325; also Right occipital lobe, Left occipital lobe): Plain: drafted, grade 7.6
 - Optic chiasm (FMA:62045): Plain: not written
 - Optic tract (FMA:62046; also Right optic tract, Left optic tract): Plain: not written
 - Parietal lobe (FMA:61826; also Right parietal lobe, Left parietal lobe): Plain: not written
@@ -482,4 +482,530 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Third ventricle (FMA:78454): Plain: not written
 
 ## Texts
+
+### Arterial
+
+#### Aorta: Plain (drafted; grade 7; `content/FMA_3734/tier1.md`)
+
+1. The aorta is the body's largest artery, a blood vessel that carries blood away from the heart. *(defines “artery”)*
+   > “The aorta is the largest artery in the body” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “artery: blood vessel that conducts blood away from the heart” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Its branches carry blood to almost every organ of the body.
+   > “The aorta and its branches—the systemic arteries—send blood to virtually every organ of the body” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+3. It receives oxygen-rich blood from the left ventricle, the main pumping chamber on the heart's lower left side. *(defines “left ventricle”)*
+   > “the left ventricle, which in turn pumps oxygenated blood into the aorta” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+   > “the left ventricle is the major pumping chamber on the lower left side of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. It rises from the heart, curves to the left, then runs down through the chest and abdomen.
+   > “The aorta ascends from the left ventricle, curves posteriorly and to the left, then descends through the thorax and abdomen.” ([SEER Training Modules: Circulatory Pathways](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html), Free of copyright (NCI reuse policy))
+
+#### Ascending aorta: Plain (drafted; grade 6.8; `content/FMA_3736/tier1.md`)
+
+1. The ascending aorta sends blood to the heart itself through its only branches, the coronary arteries. *(defines “coronary arteries”)*
+   > “The coronary arteries are the only vessels that branch from the ascending aorta.” ([SEER Training Modules: Circulatory Pathways](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html), Free of copyright (NCI reuse policy))
+   > “coronary arteries: branches of the ascending aorta that supply blood to the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. It is the first part of the aorta, the largest artery in the body. *(defines “aorta”)*
+   > “ascending aorta: initial portion of the aorta, rising from the left ventricle for a distance of approximately 5 cm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “aorta: largest artery in the body” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. It rises about 5 cm from the left ventricle, the main pumping chamber on the heart's lower left side. *(defines “left ventricle”)*
+   > “ascending aorta: initial portion of the aorta, rising from the left ventricle for a distance of approximately 5 cm” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “the left ventricle is the major pumping chamber on the lower left side of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. There the aorta turns and curves to the left, forming the aortic arch.
+   > “After exiting the heart, the ascending aorta moves in a superior direction for approximately 5 cm and ends at the sternal angle. Following this ascent, it reverses direction, forming a graceful arc to the left, called the aortic arch.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+#### Axillary artery: Plain (drafted; grade 8.9; `content/FMA_22654/tier1.md`; also Right axillary artery, Left axillary artery)
+
+1. The axillary artery sends blood to the brachial artery, its continuation in the upper arm. *(defines “brachial artery”)*
+   > “An artery that originates from the subclavian artery at the lateral margin of the first rib that supplies the brachial artery.” ([NCIT:C32169 Axillary Artery](http://purl.obolibrary.org/obo/NCIT_C32169), CC BY 4.0)
+   > “the majority of the vessel continues into the upper arm, or brachium, and becomes the brachial artery” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+2. It also feeds the area near the top of the humerus, the upper arm bone. *(defines “humerus”)*
+   > “axillary artery: continuation of the subclavian artery as it penetrates the body wall and enters the axillary region; supplies blood to the region near the head of the humerus (humeral circumflex arteries)” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. It begins where the subclavian artery, which supplies the arms and shoulders, enters the armpit. *(defines “subclavian artery”)*
+   > “As the subclavian artery exits the thorax into the axillary region, it is renamed the axillary artery.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “Each subclavian artery supplies blood to the arms, chest, shoulders, back, and central nervous system.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+
+### Cardiac
+
+#### Heart: Core (drafted; grade 12.9; `content/FMA_7088/tier2.md`)
+
+1. The heart is a muscular pump whose force keeps blood circulating to every tissue in the body.
+   > “The heart is a muscular pump that provides the force necessary to circulate the blood to all the tissues in the body.” ([SEER Training Modules: Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/), Free of copyright (NCI reuse policy))
+2. It sits in the mediastinum, the space between the lungs, where a tough membrane called the pericardium separates it from the other structures there. *(defines “mediastinum”)*
+   > “Within the mediastinum, the heart is separated from the other mediastinal structures by a tough membrane known as the pericardium, or pericardial sac, and sits in its own space called the pericardial cavity.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+   > “The human heart is located within the thoracic cavity, medially between the lungs in the space known as the mediastinum.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+3. It is a four-chambered organ about the size and shape of a closed fist, with two-thirds of its mass to the left of the body's midline.
+   > “The human heart is a four-chambered muscular organ, shaped and sized roughly like a man's closed fist with two-thirds of the mass to the left of midline.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+4. Two of its chambers, the thin-walled atria, receive blood from the veins, and the other two, the thick-walled ventricles, pump blood forcefully out of the heart. *(defines “atria”)*
+   > “The two atria are thin-walled chambers that receive blood from the veins. The two ventricles are thick-walled chambers that forcefully pump blood out of the heart.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+5. Blood travels from the right atrium to the right ventricle, out to the lungs to pick up oxygen, back to the left atrium, and then to the left ventricle, which pumps it into the systemic circulation, the route to the rest of the body. *(defines “systemic circulation”)*
+   > “Blood flows from the right atrium to the right ventricle, and then is pumped to the lungs to receive oxygen. From the lungs, the blood flows to the left atrium, then to the left ventricle. From there it is pumped to the systemic circulation.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+   > “For pulmonary and systemic circulation, the heart has to pump blood to the lungs or the rest of the body, respectively.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+6. Two kinds of valves keep blood flowing in the right direction: atrioventricular valves between the atria and ventricles, and semilunar valves at the bases of the large vessels that leave the ventricles. *(defines “atrioventricular valves”)*
+   > “The heart has two types of valves that keep the blood flowing in the correct direction. The valves between the atria and ventricles are called atrioventricular valves (also called cuspid valves), while those at the bases of the large vessels leaving the ventricles are called semilunar valves.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+7. In each heartbeat, the myocardium, the thick layer of cardiac muscle cells in the heart wall, contracts in a phase called systole and then relaxes in a phase called diastole. *(defines “myocardium”)*
+   > “The cardiac cycle refers to the alternating contraction and relaxation of the myocardium in the walls of the heart chambers, coordinated by the conduction system, during one heartbeat. Systole is the contraction phase of the cardiac cycle, and diastole is the relaxation phase.” ([SEER Training Modules: Physiology of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/physiology.html), Free of copyright (NCI reuse policy))
+   > “myocardium: thickest layer of the heart composed of cardiac muscle cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+8. The sinoatrial (SA) node, near the wall of the right atrium, is the heart's built-in pacemaker and sets the basic rhythm of the heartbeat; electrical pulses arise there on their own and make both atria contract together. *(defines “sinoatrial (SA) node”)*
+   > “The internal pacemaker starts at the sinoatrial (SA) node, which is located near the wall of the right atrium. Electrical charges spontaneously pulse from the SA node causing the two atria to contract in unison.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+   > “Because it establishes the basic rhythm of the heartbeat, it is called the pacemaker of the heart.” ([SEER Training Modules: Physiology of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/physiology.html), Free of copyright (NCI reuse policy))
+9. Each pulse then reaches the atrioventricular (AV) node, between the right atrium and right ventricle, where it pauses so the atria can empty completely into the ventricles before the ventricles pump the blood out. *(defines “atrioventricular (AV) node”)*
+   > “then the pulse reaches the atrioventricular node between the right atrium and right ventricle. A pause in the electric signal allows the atria to empty completely into the ventricles before the ventricles pump out the blood.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+   > “atrioventricular (AV) node: clump of myocardial cells located in the inferior portion of the right atrium within the atrioventricular septum; receives the impulse from the SA node, pauses, and then transmits it into specialized conducting cells within the interventricular septum” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+10. The right and left coronary arteries supply the myocardium itself with blood. *(defines “coronary arteries”)*
+   > “The right and left coronary arteries, branches of the ascending aorta, supply blood to the walls of the myocardium.” ([SEER Training Modules: Structure of the Heart](https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html), Free of copyright (NCI reuse policy))
+
+### Cell types
+
+#### Cardiac muscle cell: Plain (drafted; grade 8.9; `content/CL_0000746/tier1.md`)
+
+1. Cardiac muscle cells, also called cardiomyocytes, do the heart's pumping and make up the heart muscle.
+   > “The pumping of the heart is a function of the cardiac muscle cells, or cardiomyocytes, that make up the heart muscle.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+2. They can contract in their own built-in rhythm, with no outside signal.
+   > “A principal characteristic of cardiomyocytes is that they contract on their own intrinsic rhythms without any external stimulation.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+3. Neighboring cells are joined by intercalated discs, junctions that help pass electrical signals from one cell to the next. *(defines “intercalated disc”)*
+   > “This line is called an intercalated disc: it assists in passing electrical impulse efficiently from one cell to the next and maintains the strong connection between neighboring cardiac cells.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “intercalated disc: physical junction between adjacent cardiac muscle cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. Because the cells are linked physically and electrically, the whole heart contracts as one unit.
+   > “Cardiac muscle fibers each have one to two nuclei and are physically and electrically connected to each other so that the entire heart contracts as one unit (called a syncytium).” ([10.1 Overview of Muscle Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-1-overview-of-muscle-tissues), CC BY 4.0)
+
+#### Cardiac muscle cell: Core (drafted; grade 10.3; `content/CL_0000746/tier2.md`)
+
+1. Cardiac muscle cells, or cardiomyocytes, make up the heart muscle and carry out the heart's pumping.
+   > “The pumping of the heart is a function of the cardiac muscle cells, or cardiomyocytes, that make up the heart muscle.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+2. Together they form the myocardium, the middle layer and the bulk of the heart wall. *(defines “myocardium”)*
+   > “myocardium: heart muscle cells that make up the middle layer and the bulk of the heart wall” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+3. Under a microscope they look striated, or striped, and each typically has a single nucleus in its center. *(defines “striated”)*
+   > “The cells of cardiac muscle, known as cardiomyocytes, also appear striated under the microscope. Unlike skeletal muscle fibers, cardiomyocytes are single cells typically with a single centrally located nucleus.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+   > “The actin and myosin proteins are arranged very regularly in the cytoplasm of individual muscle cells (referred to as fibers) in both skeletal muscle and cardiac muscle, which creates a pattern, or stripes, called striations.” ([10.1 Overview of Muscle Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-1-overview-of-muscle-tissues), CC BY 4.0)
+4. Their plentiful mitochondria, the cell parts that produce energy, power the heart's contractions. *(defines “mitochondria”)*
+   > “Mitochondria are plentiful, providing energy for the contractions of the heart.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+5. The cells branch and join end to end at intercalated discs, the junctions between neighboring cardiac muscle cells. *(defines “intercalated disc”)*
+   > “Cardiac muscle fibers cells also are extensively branched and are connected to one another at their ends by intercalated discs.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “intercalated disc: physical junction between adjacent cardiac muscle cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+6. Gap junctions in the discs form channels between neighboring cells, so electrical impulses spread from cell to cell and the cells contract in a coordinated way. *(defines “gap junction”)*
+   > “Gap junctions within the intercalated disks allow impulses to spread from one cardiac muscle cell to another, allowing sodium, potassium, and calcium ions to flow between adjacent cells, propagating the action potential, and ensuring coordinated contractions.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “A gap junction forms channels between adjacent cardiac muscle fibers” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+7. The rest of each disc is made of desmosomes, structures that anchor the ends of the cells together so they do not pull apart as they contract. *(defines “desmosome”)*
+   > “The remainder of the intercalated disc is composed of desmosomes. A desmosome is a cell structure that anchors the ends of cardiac muscle fibers together so the cells do not pull apart during the stress of individual fibers contracting” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+8. Cardiomyocytes can also contract in their own rhythm without outside stimulation, an ability called autorhythmicity. *(defines “autorhythmicity”)*
+   > “A principal characteristic of cardiomyocytes is that they contract on their own intrinsic rhythms without any external stimulation.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+   > “autorhythmicity: ability of cardiac muscle to initiate its own electrical impulse that triggers the mechanical contraction that pumps blood at a fixed pace without nervous or endocrine control” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+9. Most cardiac muscle cells are myocardial contractile cells, which contract to propel blood. *(defines “myocardial contractile cells”)*
+   > “myocardial contractile cells: bulk of the cardiac muscle cells in the atria and ventricles that conduct impulses and contract to propel blood” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+10. Myocardial conducting cells, the other major type, carry electrical impulses through the heart and trigger those contractions. *(defines “myocardial conducting cells”)*
+   > “There are two major types of cardiac muscle cells: myocardial contractile cells and myocardial conducting cells.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “myocardial conducting cells: specialized cells that transmit electrical impulses throughout the heart and trigger contraction by the myocardial contractile cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Erythrocyte: Plain (drafted; grade 6.9; `content/CL_0000232/tier1.md`)
+
+1. An erythrocyte, or red blood cell, carries oxygen from the lungs to the body's tissues. *(defines “erythrocyte”)*
+   > “The primary functions of erythrocytes are to pick up inhaled oxygen from the lungs and transport it to the body’s tissues, and to pick up some (about 24 percent) carbon dioxide waste at the tissues and transport it to the lungs for exhalation.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “erythrocyte: (also, red blood cell) mature myeloid blood cell that is composed mostly of hemoglobin and functions primarily in the transportation of oxygen and carbon dioxide” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. It also takes some carbon dioxide waste from the tissues back to the lungs.
+   > “The primary functions of erythrocytes are to pick up inhaled oxygen from the lungs and transport it to the body’s tissues, and to pick up some (about 24 percent) carbon dioxide waste at the tissues and transport it to the lungs for exhalation.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+3. It is made in the bone marrow, the tissue inside bones, and circulates through the body. *(defines “bone marrow”)*
+   > “Red blood cells, or erythrocytes (erythro- = “red”; -cyte = “cell”), are specialized cells that circulate through the body delivering oxygen to cells; they are formed from stem cells in the bone marrow.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+4. It is packed with hemoglobin, a compound that carries oxygen. *(defines “hemoglobin”)*
+   > “The most abundant formed elements in blood, erythrocytes are red, biconcave disks packed with an oxygen-carrying compound called hemoglobin.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “hemoglobin: oxygen-carrying compound in erythrocytes” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+
+#### Erythrocyte: Core (drafted; grade 10.7; `content/CL_0000232/tier2.md`)
+
+1. An erythrocyte, or red blood cell, carries oxygen from the lungs to the body's tissues and brings some carbon dioxide waste back to the lungs. *(defines “erythrocyte”)*
+   > “The primary functions of erythrocytes are to pick up inhaled oxygen from the lungs and transport it to the body’s tissues, and to pick up some (about 24 percent) carbon dioxide waste at the tissues and transport it to the lungs for exhalation.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “erythrocyte: (also, red blood cell) mature myeloid blood cell that is composed mostly of hemoglobin and functions primarily in the transportation of oxygen and carbon dioxide” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. It forms in the bone marrow, the tissue inside bones, and then circulates through the body. *(defines “bone marrow”)*
+   > “Red blood cells, or erythrocytes (erythro- = “red”; -cyte = “cell”), are specialized cells that circulate through the body delivering oxygen to cells; they are formed from stem cells in the bone marrow.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. As it matures in the red bone marrow, it pushes out its nucleus and most other organelles, the small working parts inside a cell. *(defines “organelles”)*
+   > “As an erythrocyte matures in the red bone marrow, it extrudes its nucleus and most of its other organelles.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+4. Lacking most organelles leaves it more room inside for hemoglobin, an oxygen-carrying compound. *(defines “hemoglobin”)*
+   > “Since they lack most organelles, there is more interior space for the presence of the hemoglobin molecules that, as you will see shortly, transport gases.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “hemoglobin: oxygen-carrying compound in erythrocytes” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+5. Each hemoglobin molecule holds four heme groups, iron-containing pigments that bind oxygen, so it can carry up to four oxygen molecules. *(defines “heme”)*
+   > “Each hemoglobin molecule contains four iron-containing heme molecules, and because of this, one hemoglobin molecule is capable of carrying up to four molecules of oxygen.” ([22.5 Transport of Gases](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases), CC BY 4.0)
+   > “heme: red, iron-containing pigment to which oxygen binds in hemoglobin” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+6. Because it has no mitochondria, the organelles whose main job is making cellular energy, it uses none of the oxygen it carries and can deliver it all to the tissues. *(defines “mitochondria”)*
+   > “Lacking mitochondria, for example, they rely on anaerobic respiration. This means that they do not utilize any of the oxygen they are transporting, so they can deliver it all to the tissues.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+7. Its shape is a biconcave disk, which means it is plump around the edge and very thin in the center. *(defines “biconcave”)*
+   > “Erythrocytes are biconcave disks; that is, they are plump at their periphery and very thin in the center” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+8. This shape gives it more surface area for exchanging gases, relative to its volume, than a sphere of similar width would have.
+   > “The biconcave shape also provides a greater surface area across which gas exchange can occur, relative to its volume; a sphere of a similar diameter would have a lower surface area-to-volume ratio.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+9. Structural proteins such as spectrin let it change shape to squeeze through capillaries, the smallest blood vessels. *(defines “capillaries”)*
+   > “Erythrocytes do, however, contain some structural proteins that help the blood cells maintain their unique structure and enable them to change their shape to squeeze through capillaries. This includes the protein spectrin, a cytoskeletal protein element.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+10. After up to 120 days in the blood, worn-out erythrocytes are removed by macrophages, large engulfing cells found mainly in the bone marrow, liver and spleen. *(defines “macrophages”)*
+   > “Erythrocytes live up to 120 days in the circulation, after which the worn-out cells are removed by a type of myeloid phagocytic cell called a macrophage, located primarily within the bone marrow, liver, and spleen.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
+   > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+
+### Muscular
+
+#### Psoas major: Plain (drafted; grade 4.2; `content/FMA_18060/tier1.md`; also Right psoas major, Left psoas major)
+
+1. Each psoas major is a muscle that flexes, or bends, the hip joint. *(defines “flex”)*
+   > “A striated muscle located in the iliac region that originates both on the transverse processes of the twelfth thoracic through fifth lumbar vertebrae and the lateral aspects of the discs between them, and inserts on the lesser trochanter of the femur; it functions to flex the hip joint.” ([NCIT:C33420 Psoas Major Muscle](http://purl.obolibrary.org/obo/NCIT_C33420), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. With the iliacus muscle, it forms the iliopsoas group, which also bends the trunk at the hip. *(defines “iliopsoas”)*
+   > “iliopsoas group: muscle group consisting of iliacus and psoas major muscles, that flexes the thigh at the hip, rotates it laterally, and flexes the trunk of the body onto the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+3. It runs from the lower spine to the femur, or thigh bone. *(defines “femur”)*
+   > “originates both on the transverse processes of the twelfth thoracic through fifth lumbar vertebrae and the lateral aspects of the discs between them, and inserts on the lesser trochanter of the femur” ([NCIT:C33420 Psoas Major Muscle](http://purl.obolibrary.org/obo/NCIT_C33420), CC BY 4.0)
+   > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. It also helps form the back wall of the abdomen.
+   > “The posterior abdominal wall is formed by the lumbar vertebrae, parts of the ilia of the hip bones, psoas major and iliacus muscles, and quadratus lumborum muscle.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Quadratus femoris: Plain (drafted; grade 8.7; `content/FMA_22321/tier1.md`; also Right quadratus femoris, Left quadratus femoris)
+
+1. Each quadratus femoris turns the thigh outward at the hip.
+   > “quadratus femoris: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+2. This movement is called lateral rotation. *(defines “lateral rotation”)*
+   > “lateral (external) rotation: movement of the arm at the shoulder joint or the thigh at the hip joint that moves the anterior surface of the limb away from the midline of the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. It sits on the outer thigh, under the gluteus maximus, the largest buttock muscle. *(defines “gluteus maximus”)*
+   > “quadratus femoris: muscle deep to the gluteus maximus on the lateral surface of the thigh that laterally rotates the femur at the hip” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+   > “The outermost and largest muscle of the buttocks.” ([NCIT:C52560 Gluteus Maximus](http://purl.obolibrary.org/obo/NCIT_C52560), CC BY 4.0)
+4. Several other muscles under the gluteus maximus also turn the thigh outward.
+   > “Deep to the gluteus maximus, the piriformis, obturator internus, obturator externus, superior gemellus, inferior gemellus, and quadratus femoris laterally rotate the femur at the hip.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Rectus femoris: Plain (drafted; grade 4.6; `content/FMA_22430/tier1.md`; also Right rectus femoris, Left rectus femoris)
+
+1. Each rectus femoris extends, or straightens, the knee. *(defines “extend”)*
+   > “Its actions involve the extension of the knee joint and flexion of the hip.” ([NCIT:C53175 Rectus Femoris](http://purl.obolibrary.org/obo/NCIT_C53175), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. It also flexes, or bends, the hip. *(defines “flex”)*
+   > “Its actions involve the extension of the knee joint and flexion of the hip.” ([NCIT:C53175 Rectus Femoris](http://purl.obolibrary.org/obo/NCIT_C53175), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. It is one of the four quadriceps muscles, in the middle of the front of the thigh. *(defines “quadriceps”)*
+   > “One of the four quadriceps muscles, located in the middle of the front of the thigh.” ([NCIT:C53175 Rectus Femoris](http://purl.obolibrary.org/obo/NCIT_C53175), CC BY 4.0)
+   > “One example of this is the quadriceps, a group of four muscles located on the anterior (front) thigh.” ([11.2 Naming Skeletal Muscles](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-2-naming-skeletal-muscles), CC BY 4.0)
+4. Rectus means “straight,” and the rectus femoris is the straight muscle at the front of the thigh. *(defines “rectus”)*
+   > “while the rectus femoris is the straight muscle in the anterior compartment of the thigh” ([11.1 Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems), CC BY 4.0)
+   > “rectus: straight” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Sartorius: Plain (drafted; grade 3.8; `content/FMA_22353/tier1.md`; also Right sartorius, Left sartorius)
+
+1. Each sartorius is a muscle that lets us sit cross-legged.
+   > “the sartorius is a band-like muscle that extends from the anterior superior iliac spine to the medial side of the proximal tibia. This versatile muscle flexes the leg at the knee and flexes, abducts, and laterally rotates the leg at the hip. This muscle allows us to sit cross-legged.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+2. It flexes, or bends, both the knee and the hip. *(defines “flex”)*
+   > “This versatile muscle flexes the leg at the knee and flexes, abducts, and laterally rotates the leg at the hip.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. It also abducts the thigh, moving it out to the side, and turns it outward. *(defines “abduct”)*
+   > “it functions to flex, abduct, and laterally rotate the thigh at the hip joint” ([NCIT:C33515 Sartorius Muscle](http://purl.obolibrary.org/obo/NCIT_C33515), CC BY 4.0)
+   > “abduction: movement in the coronal plane that moves a limb laterally away from the body” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+4. This long, thin muscle runs from the pelvic bone to the top of the tibia, or shin bone. *(defines “tibia”)*
+   > “A long, thin striated muscle of the anterior compartment of the thigh, which takes its origin from the anterior superior iliac spine of the pelvic bone, and inserts on the anteromedial surface of the upper tibia” ([NCIT:C33515 Sartorius Muscle](http://purl.obolibrary.org/obo/NCIT_C33515), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Semimembranosus: Plain (drafted; grade 4.5; `content/FMA_22438/tier1.md`; also Right semimembranosus, Left semimembranosus)
+
+1. Each semimembranosus flexes, or bends, the knee. *(defines “flex”)*
+   > “The posterior compartment of the thigh includes the hamstrings: the biceps femoris, semitendinosus, and the semimembranosus, which all flex the knee.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “flexion: movement in the sagittal plane that decreases the angle of a joint (bends the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+2. It also helps extend, or straighten, the hip. *(defines “extend”)*
+   > “functions, in conjunction with the other muscles of the hamstring group, to extend the leg at the hip and to flex the leg at the knee” ([NCIT:C52987 Semimembranosus Muscle](http://purl.obolibrary.org/obo/NCIT_C52987), CC BY 4.0)
+   > “extension: movement in the sagittal plane that increases the angle of a joint (straightens the joint)” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. It is one of the three hamstring muscles, which run down the back of the thigh. *(defines “hamstring”)*
+   > “One of the three muscles that compose the hamstring muscles (semitendinosus, semimembranosus, bicepsfemoris); it is located in the posterior compartment of the thigh” ([NCIT:C52987 Semimembranosus Muscle](http://purl.obolibrary.org/obo/NCIT_C52987), CC BY 4.0)
+   > “A group of muscles including the biceps femoris, semimembranosus and semitendinosus that extend down the back of the thigh.” ([NCIT:C53042 Hamstring](http://purl.obolibrary.org/obo/NCIT_C53042), CC BY 4.0)
+4. It starts on the ischial tuberosity, the part of the hip bone we sit on. *(defines “ischial tuberosity”)*
+   > “originates from the ischial tuberosity” ([NCIT:C52987 Semimembranosus Muscle](http://purl.obolibrary.org/obo/NCIT_C52987), CC BY 4.0)
+   > “ischial tuberosity: large, roughened protuberance that forms the posteroinferior portion of the hip bone; weight-bearing region of the pelvis when sitting” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+### Nervous
+
+#### Ciliary ganglion: Plain (drafted; grade 7.7; `content/FMA_6964/tier1.md`; also Right ciliary ganglion, Left ciliary ganglion)
+
+1. The ciliary ganglion helps control the size of the pupil, the opening that lets light into the eye. *(defines “pupil”)*
+   > “The preganglionic parasympathetic fibers within cranial nerve III terminate in the ciliary ganglion, which is located in the posterior orbit. The postganglionic parasympathetic fibers then project to the smooth muscle of the iris to control pupillary size.” ([15.1 Divisions of the Autonomic Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system), CC BY 4.0)
+   > “pupil: open hole at the center of the iris that light passes through into the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. This ganglion, a cluster of nerve cell bodies, sits at the back of the eye socket. *(defines “ganglion”)*
+   > “ciliary ganglion: one of the terminal ganglia of the parasympathetic system, located in the posterior orbit, axons from which project to the iris” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+   > “ganglion: localized collection of neuron cell bodies in the peripheral nervous system” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. It belongs to the parasympathetic system, the part of the nervous system for rest and digestion. *(defines “parasympathetic system”)*
+   > “ciliary ganglion: one of the terminal ganglia of the parasympathetic system, located in the posterior orbit, axons from which project to the iris” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+   > “parasympathetic division: division of the autonomic nervous system responsible for restful and digestive functions” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+4. In bright light, its fibers make the iris, the colored part of the eye, narrow the pupil. *(defines “iris”)*
+   > “Bright light hitting the retina leads to the parasympathetic response, through the oculomotor nerve, followed by the postganglionic fiber from the ciliary ganglion, which stimulates the circular fibers of the iris to contract and constrict the pupil.” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+   > “iris: colored portion of the anterior eye that surrounds the pupil” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Frontal lobe: Plain (drafted; grade 7; `content/FMA_61824/tier1.md`; also Right frontal lobe, Left frontal lobe)
+
+1. Each frontal lobe controls movement, from planning a move to sending out the commands.
+   > “The frontal lobe is responsible for motor functions, from planning movements through executing commands to be sent to the spinal cord and periphery.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+2. It also handles thinking skills, such as paying attention and making decisions.
+   > “Neurons in the frontal lobe also control cognitive functions like maintaining attention, speech, and decision-making.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. It sits at the front of the brain, above the eyes.
+   > “The frontal lobe is located at the front of the brain, over the eyes.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. It is a region of the cerebral cortex, the folded outer layer of the brain. *(defines “cerebral cortex”)*
+   > “frontal lobe: region of the cerebral cortex directly beneath the frontal bone of the cranium” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
+#### Globus pallidus: Plain (drafted; grade 7.6; `content/FMA_61835/tier1.md`; also Right globus pallidus, Left globus pallidus)
+
+1. Each globus pallidus helps control movement and lies deep inside the brain.
+   > “The major structures of the basal nuclei that control movement are the caudate, putamen, and globus pallidus, which are located deep in the cerebrum.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+2. It belongs to the basal nuclei, linked groups of brain cells involved in movement and motivation. *(defines “basal nuclei”)*
+   > “globus pallidus: nuclei deep in the cerebrum that are part of the basal nuclei and can be divided into the internal and external segments” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “basal ganglia: interconnected collections of cells in the brain that are involved in movement and motivation; also known as basal nuclei” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. It sits next to the putamen, another basal nucleus, and they fit together like curved lenses. *(defines “putamen”)*
+   > “The globus pallidus is a layered nucleus that lies just medial to the putamen; they are called the lenticular nuclei because they look like curved pieces fitting together like lenses.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “putamen: nucleus deep in the cerebrum that is part of the basal nuclei; along with the caudate, it is part of the striatum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. It has two parts, an outer segment and an inner segment.
+   > “The globus pallidus has two subdivisions, the external and internal segments, which are lateral and medial, respectively.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Inferior colliculus: Plain (drafted; grade 6.3; `content/FMA_62404/tier1.md`; also Right inferior colliculus, Left inferior colliculus)
+
+1. Each inferior colliculus is part of the brain's pathway for hearing.
+   > “inferior colliculus: half of the midbrain tectum that is part of the brain stem auditory pathway” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+2. It passes sound signals to the thalamus, which relays them on so we can hear them. *(defines “thalamus”)*
+   > “Neurons of the inferior colliculus project to the thalamus, which then sends auditory information to the cerebrum for the conscious perception of sound.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “thalamus: brain area that relays sensory information to the cortex” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. It sits on the back of the midbrain, the middle region of the brain. *(defines “midbrain”)*
+   > “Part of the midbrain tectum, consisting of paired predominantly gray matter elevations on the dorsal aspect of the midbrain” ([UBERON:0001946 inferior colliculus](http://purl.obolibrary.org/obo/UBERON_0001946), CC BY 3.0)
+   > “midbrain: middle region of the adult brain that develops from the mesencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. It belongs to the lower pair of four bumps called colliculi, Latin for “little hills.”
+   > “The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin. The inferior colliculus is the inferior pair of these enlargements and is part of the auditory brain stem pathway.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Occipital lobe: Plain (drafted; grade 7.6; `content/FMA_67325/tier1.md`; also Right occipital lobe, Left occipital lobe)
+
+1. Each occipital lobe works mainly on vision: seeing, recognizing and identifying the world we see.
+   > “The occipital lobe is located at the back of the brain. It is primarily involved in vision—seeing, recognizing, and identifying the visual world.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. It sits at the back of the brain.
+   > “The occipital lobe is located at the back of the brain.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. It is a region of the cerebral cortex, the folded outer layer of the brain. *(defines “cerebral cortex”)*
+   > “occipital lobe: region of the cerebral cortex directly beneath the occipital bone of the cranium” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. Signals from the eyes reach its primary visual cortex, where basic shapes start to be recognized. *(defines “primary visual cortex”)*
+   > “For example, the visual pathway projects from the retinae through the thalamus to the primary visual cortex in the occipital lobe. This area is primarily in the medial wall within the longitudinal fissure. Here, visual stimuli begin to be recognized as basic shapes.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+
+#### Optic nerve: Plain (drafted; grade 7; `content/FMA_50863/tier1.md`; also Right optic nerve, Left optic nerve)
+
+1. Each optic nerve carries visual information from the retina, the eye's light-sensing layer, to the brain. *(defines “retina”)*
+   > “Transmits visual information from the retina to the brain” ([UBERON:0000941 cranial nerve II](http://purl.obolibrary.org/obo/UBERON_0000941), CC BY 3.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+2. It is the second cranial nerve, one of twelve nerves connected to the brain. *(defines “cranial nerve”)*
+   > “optic nerve: second cranial nerve; responsible for visual sensation” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “cranial nerve: one of twelve nerves connected to the brain that are responsible for sensory or motor functions of the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+3. It begins at the very back of the eye, in a blind spot with no light-sensing cells.
+   > “Because these axons pass through the retina, there are no photoreceptors at the very back of the eye, where the optic nerve begins. This creates a “blind spot” in the retina, and a corresponding blind spot in our visual field.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+4. The two optic nerves meet at the optic chiasm, where some fibers cross to the other side of the brain. *(defines “optic chiasm”)*
+   > “The optic nerves from both sides enter the cranium through the respective optic canals and meet at the optic chiasm at which fibers sort such that the two halves of the visual field are processed by the opposite sides of the brain.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “optic chiasm: decussation point in the visual system at which medial retina fibers cross to the other side of the brain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Trochlear nerve: Plain (drafted; grade 7; `content/FMA_50865/tier1.md`; also Right trochlear nerve, Left trochlear nerve)
+
+1. The trochlear nerve controls the superior oblique, a muscle that rotates the eye. *(defines “superior oblique”)*
+   > “The trochlear nerve controls the superior oblique muscle to rotate the eye along its axis in the orbit medially, which is called intorsion, and is a component of focusing the eyes on an object close to the face.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “superior oblique: extraocular muscle responsible for medial rotation of the eye” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. This rotation helps the eyes focus on an object close to the face.
+   > “The trochlear nerve controls the superior oblique muscle to rotate the eye along its axis in the orbit medially, which is called intorsion, and is a component of focusing the eyes on an object close to the face.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. The trochlear nerve is the fourth cranial nerve, one of twelve nerves connected to the brain. *(defines “cranial nerve”)*
+   > “trochlear nerve: fourth cranial nerve; responsible for contraction of one of the extraocular muscles” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “cranial nerve: one of twelve nerves connected to the brain that are responsible for sensory or motor functions of the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. It and two other cranial nerves control the extraocular muscles, the six muscles that move the eye. *(defines “extraocular muscles”)*
+   > “The three nerves that control the extraocular muscles are the oculomotor, trochlear, and abducens nerves, which are the third, fourth, and sixth cranial nerves.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “extraocular muscles: six skeletal muscles that control eye movement within the orbit” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+### Organelles
+
+#### Mitochondria: Plain (drafted; grade 9; `content/GO_0005739/tier1.md`)
+
+1. Mitochondria make ATP, the cell's main energy-carrying molecule. *(defines “ATP”)*
+   > “Scientists often call mitochondria (singular = mitochondrion) “powerhouses” or “energy factories” of both plant and animal cells because they are responsible for making adenosine triphosphate (ATP), the cell’s main energy-carrying molecule.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+2. They do this by cellular respiration, which uses oxygen and the energy stored in nutrients. *(defines “cellular respiration”)*
+   > “Cellular respiration is the process of making ATP using the chemical energy in glucose and other nutrients. In mitochondria, this process uses oxygen and produces carbon dioxide as a waste product.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+3. Their inner membrane has many folds, called cristae, which add surface area for making ATP. *(defines “cristae”)*
+   > “In the mitochondria, the inner membrane is extensively folded, which increases surface area for ATP production.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “The inner membrane is highly folded into winding structures with a great deal of surface area, called cristae.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+4. Muscles use huge amounts of ATP, so muscle cells are packed full of mitochondria.
+   > “One of the organ systems in the body that uses huge amounts of ATP is the muscular system because ATP is required to sustain muscle contraction. As a result, muscle cells are packed full of mitochondria.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+
+#### Nucleus: Plain (drafted; grade 7.4; `content/GO_0005634/tier1.md`)
+
+1. The nucleus is the cell's control center because it stores the genetic instructions for making proteins.
+   > “The nucleus is generally considered the control center of the cell because it stores all of the genetic instructions for manufacturing proteins.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+2. These instructions are kept in DNA, the cell's genetic material. *(defines “DNA”)*
+   > “Inside the nucleus lies the blueprint that dictates everything a cell will do and all of the products it will make. This information is stored within DNA.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+   > “Threads of chromatin in the nucleus contain deoxyribonucleic acid (DNA), the genetic material of the cell.” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+3. The nucleus is wrapped in the nuclear envelope, a double membrane with pores that let materials in and out. *(defines “nuclear envelope”)*
+   > “The nucleus is encased within a membrane of two interconnected lipid bilayers, side-by-side. This nuclear envelope is studded with protein-lined pores that allow materials to be trafficked into and out of the nucleus.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+   > “nuclear envelope: double-membrane structure that constitutes the nucleus' outermost portion” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. Red blood cells have no nucleus, because they push it out as they mature.
+   > “Other cells, such as mammalian red blood cells (RBCs), do not contain nuclei at all. RBCs eject their nuclei as they mature, making space for the large numbers of hemoglobin molecules that carry oxygen throughout the body ().” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+
+#### Peroxisomes: Plain (drafted; grade 8.9; `content/GO_0005777/tier1.md`)
+
+1. Like tiny sewage treatment plants, peroxisomes make harmful toxins safe.
+   > “Like miniature sewage treatment plants, peroxisomes neutralize harmful toxins so that they do not wreak havoc in the cells.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+2. In liver cells, for example, they make alcohol harmless.
+   > “For example, peroxisomes in liver cells detoxify alcohol.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+3. Many of their reactions give off toxic hydrogen peroxide, which they safely break down into oxygen and water.
+   > “Many of these oxidation reactions release hydrogen peroxide, H2O2, which would be damaging to cells; however, when these reactions are confined to peroxisomes, enzymes safely break down the H2O2 into oxygen and water.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+4. Each peroxisome is small and round, with a single membrane around it.
+   > “Peroxisomes are small, round organelles enclosed by single membranes.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+
+#### Ribosomes: Plain (drafted; grade 7.8; `content/GO_0005840/tier1.md`)
+
+1. Ribosomes are the parts of a cell that build proteins.
+   > “Ribosomes are the cellular structures responsible for protein synthesis.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+2. Nearly every cell has them, and cells that make lots of protein have especially many.
+   > “Because protein synthesis is an essential function of all cells (including enzymes, hormones, antibodies, pigments, structural components, and surface receptors), there are ribosomes in practically every cell. Ribosomes are particularly abundant in cells that synthesize large amounts of protein.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+3. Ribosomes get their instructions from messenger RNA, a molecule that carries the code for making a protein. *(defines “messenger RNA”)*
+   > “Ribosomes receive their “orders” for protein synthesis from the nucleus where the DNA transcribes into messenger RNA (mRNA). The mRNA travels to the ribosomes, which translate the code provided by the sequence of the nitrogenous bases in the mRNA into a specific order of amino acids in a protein.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+   > “This intermediate messenger is messenger RNA (mRNA), a single-stranded nucleic acid that carries a copy of the genetic code for a single gene out of the nucleus and into the cytoplasm where it is used to produce proteins.” ([3.4 Protein Synthesis](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-4-protein-synthesis), CC BY 4.0)
+4. Each ribosome has a small part and a large part, which come together on the messenger RNA.
+   > “Ribosomes exist in the cytoplasm as two distinct components, a small and a large subunit. When an mRNA molecule is ready to be translated, the two subunits come together and attach to the mRNA.” ([3.4 Protein Synthesis](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-4-protein-synthesis), CC BY 4.0)
+
+### Skeletal
+
+#### Calcaneus: Plain (drafted; grade 5.7; `content/FMA_24496/tier1.md`; also Right calcaneus, Left calcaneus)
+
+1. The calcaneus, or heel bone, carries body weight to the ground. *(defines “calcaneus”)*
+   > “Body weight from the talus is transmitted to the ground by both ends of the medial and lateral longitudinal foot arches. Weight is passed posteriorly through both arches to the calcaneus bone, which forms the heel of the foot and is in contact with the ground.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “calcaneus: heel bone; posterior, inferior tarsal bone that forms the heel of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. It is the largest of the seven tarsal bones, which form the rear of the foot. *(defines “tarsal bone”)*
+   > “The irregular and largest tarsal bone that forms the heel.” ([NCIT:C32250 Calcaneum](http://purl.obolibrary.org/obo/NCIT_C32250), CC BY 4.0)
+   > “tarsal bone: one of the seven bones that make up the posterior foot; includes the calcaneus, talus, navicular, cuboid, medial cuneiform, intermediate cuneiform, and lateral cuneiform bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The calcaneal tendon, or Achilles tendon, joins muscles at the back of the leg to this bone. *(defines “calcaneal tendon”)*
+   > “The superficial muscles in the posterior compartment of the leg all insert onto the calcaneal tendon (Achilles tendon), a strong tendon that inserts into the calcaneal bone of the ankle.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+   > “calcaneal tendon: (also, Achilles tendon) strong tendon that inserts into the calcaneal bone of the ankle” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Femur: Plain (drafted; grade 4; `content/FMA_9611/tier1.md`; also Right femur, Left femur)
+
+1. The femur, or thigh bone, helps form both the hip joint and the knee joint. *(defines “femur”)*
+   > “The femur and pelvis form the hip joint at the proximal end. At the distal end, the femur, tibia, and patella form the knee joint.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+   > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. It is the longest, heaviest and strongest bone in the body.
+   > “The femur, or thighbone, is the longest, heaviest, and strongest bone in the body.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+3. Its rounded upper end, the head of the femur, meets the hip bone at the hip joint. *(defines “head of the femur”)*
+   > “head of the femur: rounded, proximal end of the femur that articulates with the acetabulum of the hip bone to form the hip joint” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. Many hip and thigh muscles attach to the femur.
+   > “Multiple muscles of the hip and thigh regions make long, thin attachments to the femur along the linea aspera.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Fibula: Plain (drafted; grade 4.8; `content/FMA_24479/tier1.md`; also Right fibula, Left fibula)
+
+1. The fibula, or calf bone, mainly gives muscles a place to attach. *(defines “fibula”)*
+   > “The fibula does not bear weight. It serves primarily for muscle attachments and thus is largely surrounded by muscles.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “The fibula, or calf bone, parallels and articulates with the tibia.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+2. It runs down the outer side of the calf, from the knee to the ankle.
+   > “The small, lateral calf bone extending from the knee to the ankle.” ([NCIT:C12718 Fibula](http://purl.obolibrary.org/obo/NCIT_C12718), CC BY 4.0)
+3. Unlike the tibia, or shin bone, it does not carry the body's weight. *(defines “tibia”)*
+   > “The tibia bears the weight of the body, whereas the fibula does not bear weight.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. Its lower end forms the bony bump on the outer side of the ankle.
+   > “The distal end of the fibula forms the lateral malleolus, which forms the easily palpated bony bump on the lateral side of the ankle.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Metatarsal bone: Plain (drafted; grade 4; `content/FMA_24492/tier1.md`; also First metatarsal bone, Second metatarsal bone, Third metatarsal bone, Fourth metatarsal bone, Fifth metatarsal bone, Right first metatarsal bone, Left first metatarsal bone, Right second metatarsal bone, Left second metatarsal bone, Right third metatarsal bone, Left third metatarsal bone, Right fourth metatarsal bone, Left fourth metatarsal bone, Right fifth metatarsal bone, Left fifth metatarsal bone)
+
+1. The front ends of the metatarsal bones rest on the ground and form the ball of the foot.
+   > “The expanded distal end of each metatarsal is the head of the metatarsal bone. Each metatarsal bone articulates with the proximal phalanx of a toe to form a metatarsophalangeal joint. The heads of the metatarsal bones also rest on the ground and form the ball (anterior end) of the foot.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+2. Each metatarsal bone is one of five long bones that make up the front half of the foot. *(defines “metatarsal bone”)*
+   > “metatarsal bone: one of the five elongated bones that forms the anterior half of the foot; numbered 1–5, starting on the medial side of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. They are numbered 1 to 5, starting on the inner side of the foot.
+   > “metatarsal bone: one of the five elongated bones that forms the anterior half of the foot; numbered 1–5, starting on the medial side of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. At its front end, each one forms a joint with a toe.
+   > “The metatarsal heads, at their distal ends, articulate with the proximal phalanges of the toes.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Patella: Plain (drafted; grade 5.9; `content/FMA_24485/tier1.md`; also Right patella, Left patella)
+
+1. The patella, or kneecap, protects a large thigh muscle's tendon from rubbing on the thigh bone. *(defines “patella”)*
+   > “The patella is a sesamoid bone incorporated into the tendon of the quadriceps femoris muscle, the large muscle of the anterior thigh. The patella serves to protect the quadriceps tendon from friction against the distal femur.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. It is the largest sesamoid bone in the body, a bone that sits inside a tendon. *(defines “sesamoid bone”)*
+   > “patella: kneecap; the largest sesamoid bone of the body; articulates with the distal femur” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “sesamoid bone: small, round bone embedded in a tendon; protects the tendon from compressive forces” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+3. It lies in front of the knee and forms a joint with the thigh bone.
+   > “A small flat triangular bone in front of the knee that articulates with the femur and protects the knee joint.” ([NCIT:C33282 Patella](http://purl.obolibrary.org/obo/NCIT_C33282), CC BY 4.0)
+4. It also lifts the tendon away from the knee joint, which gives the muscle more leverage.
+   > “The patella also lifts the tendon away from the knee joint, which increases the leverage power of the quadriceps femoris muscle as it acts across the knee.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+### Urinary
+
+#### Kidney: Plain (drafted; grade 7.2; `content/FMA_7203/tier1.md`; also Right kidney, Left kidney)
+
+1. Each kidney filters the blood, removes wastes, and sends the wastes out in urine.
+   > “The kidneys are the organs that filter the blood, remove the wastes, and excrete the wastes in the urine.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+2. It also helps control blood pressure and makes a hormone that drives red blood cell development.
+   > “The kidney hormone EPO stimulates erythrocyte development and promotes adequate O2 transport. The kidneys help regulate blood pressure through Na+ and water retention and loss.” ([25.10 The Urinary System and Homeostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-10-the-urinary-system-and-homeostasis), CC BY 4.0)
+3. It sits beside the spine at the back of the abdomen, protected by muscle, fat, and ribs.
+   > “The kidneys lie on either side of the spine in the retroperitoneal space between the parietal peritoneum and the posterior abdominal wall, well protected by muscle, fat, and ribs.” ([25.3 Gross Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney), CC BY 4.0)
+4. Each kidney holds over a million nephrons, the working units that do the filtering and make urine. *(defines “nephron”)*
+   > “Each kidney contains over a million functional units, called nephrons, in the parenchyma (cortex and medulla).” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+   > “nephrons: functional units of the kidney that carry out all filtration and modification to produce urine” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+
+#### Kidney: Core (drafted; grade 11.9; `content/FMA_7203/tier2.md`; also Right kidney, Left kidney)
+
+1. Each kidney filters the blood, removes wastes and passes them out in urine; the kidneys are the main organs of the urinary system.
+   > “The kidneys are the primary organs of the urinary system. The kidneys are the organs that filter the blood, remove the wastes, and excrete the wastes in the urine.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+2. The kidneys also help regulate blood pressure, carry out the last step in making active vitamin D, and make EPO, a hormone that triggers the bone marrow to produce red blood cells. *(defines “EPO”)*
+   > “The kidneys catalyze the final reaction in the synthesis of active vitamin D that in turn helps regulate Ca++. The kidney hormone EPO stimulates erythrocyte development and promotes adequate O2 transport. The kidneys help regulate blood pressure through Na+ and water retention and loss.” ([25.10 The Urinary System and Homeostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-10-the-urinary-system-and-homeostasis), CC BY 4.0)
+   > “erythropoietin (EPO): glycoprotein that triggers the bone marrow to produce RBCs; secreted by the kidney in response to low oxygen levels” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+3. Each kidney lies beside the spine, between the back wall of the abdomen and the peritoneum, the membrane that lines the abdominal and pelvic cavity. *(defines “peritoneum”)*
+   > “The kidneys lie on either side of the spine in the retroperitoneal space between the parietal peritoneum and the posterior abdominal wall, well protected by muscle, fat, and ribs.” ([25.3 Gross Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney), CC BY 4.0)
+   > “peritoneum: serous membrane that lines the abdominopelvic cavity and covers the organs found there” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. The kidney is bean-shaped, with a dent on its inner side, the hilum, where blood vessels and nerves enter and leave. *(defines “hilum”)*
+   > “The hilum is the concave part of the bean-shape where blood vessels and nerves enter and exit the kidney; it is also the point of exit for the ureters.” ([41.2 The Kidneys and Osmoregulatory Organs](https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs), CC BY 4.0)
+   > “renal hilum: recessed medial area of the kidney through which the renal artery, renal vein, ureters, lymphatics, and nerves pass” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+5. Inside, an outer reddish region, the renal cortex, surrounds a darker inner region, the renal medulla, which is made of cone-shaped renal pyramids. *(defines “renal pyramids”)*
+   > “The outer, reddish region, next to the capsule, is the renal cortex. This surrounds a darker reddish-brown region called the renal medulla. The renal medulla consists of a series of renal pyramids” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+   > “renal pyramids: six to eight cone-shaped tissues in the medulla of the kidney” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+6. The cortex and medulla hold over a million nephrons, the working units that carry out all the filtering and processing that produce urine. *(defines “nephron”)*
+   > “Each kidney contains over a million functional units, called nephrons, in the parenchyma (cortex and medulla).” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+   > “nephrons: functional units of the kidney that carry out all filtration and modification to produce urine” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+7. Each nephron starts with a glomerulus, a tuft of capillaries, and continues as a tube that sets the final makeup of the urine. *(defines “glomerulus”)*
+   > “The glomerulus is the first part of the nephron, which then continues as a highly specialized tubular structure responsible for creating the final urine composition.” ([25.1 Physical Characteristics of Urine](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-1-physical-characteristics-of-urine), CC BY 4.0)
+   > “glomerulus: tuft of capillaries surrounded by Bowman’s capsule; filters the blood based on size” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+8. The glomerulus filters the blood mainly by particle size, making a fluid called filtrate that lacks cells and large proteins. *(defines “filtrate”)*
+   > “The kidney glomerulus filters blood mainly based on particle size to produce a filtrate lacking cells or large proteins.” ([25.1 Physical Characteristics of Urine](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-1-physical-characteristics-of-urine), CC BY 4.0)
+9. Ninety-nine percent of this filtrate is reabsorbed, or taken back into the blood, so only about 1 to 2 liters of urine are made each day. *(defines “reabsorbed”)*
+   > “Ninety-nine percent of this filtrate is returned to the circulation by reabsorption so that only about 1–2 liters of urine are produced per day” ([25.5 Physiology of Urine Formation](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation), CC BY 4.0)
+   > “tubular reabsorption: reclamation of water and solutes that got filtered out in the glomerulus” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+10. Urine collects in the renal pelvis, a large cavity at the center of the kidney that leads into the ureter, the tube that carries urine to the bladder. *(defines “ureter”)*
+   > “The central region of the kidney contains the renal pelvis, which is located in the renal sinus, and is continuous with the ureter. The renal pelvis is a large cavity that collects the urine as it is produced.” ([SEER Training Modules: Kidneys](https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html), Free of copyright (NCI reuse policy))
+   > “ureter: urine-bearing tube coming out of the kidney; carries urine to the bladder” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+
+### Venous
+
+#### Axillary vein: Plain (drafted; grade 5.4; `content/FMA_13329/tier1.md`; also Right axillary vein, Left axillary vein)
+
+1. Each axillary vein carries blood from the arm back toward the heart.
+   > “A large blood vessel which returns blood to the heart from the lateral thorax, axilla, and upper limb.” ([NCIT:C32171 Axillary Vein](http://purl.obolibrary.org/obo/NCIT_C32171), CC BY 4.0)
+2. It receives blood from the cephalic vein, which drains the surface of the arm. *(defines “cephalic vein”)*
+   > “The cephalic vein begins in the antebrachium and drains blood from the superficial surface of the arm into the axillary vein.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “cephalic vein: superficial vessel in the upper arm; leads to the axillary vein” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. It then passes through the body wall and becomes the subclavian vein, which lies deep in the chest. *(defines “subclavian vein”)*
+   > “On both the left and right sides, the subclavian vein forms when the axillary vein passes through the body wall from the axillary region.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “subclavian vein: located deep in the thoracic cavity” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+Dropped:
+- “It is the main vein in the armpit, or axillary region.” (checker: The key-term quote supports 'major vein in the axillary region', but the defining quote 'the axillary nodes in the armpit' (SEER) is about lymph nodes. It does not define 'axillary region', and no source file here defines the term.)
+
+#### Azygos vein: Plain (drafted; grade 6.9; `content/FMA_4838/tier1.md`)
+
+1. The azygos vein carries blood from the back walls of the chest and abdomen toward the heart.
+   > “A blood vessel which returns blood to the heart from the posterior walls of the thorax and abdomen.” ([NCIT:C53029 Azygos Vein](http://purl.obolibrary.org/obo/NCIT_C53029), CC BY 4.0)
+2. It collects blood from veins of the chest wall, the esophagus and the lungs.
+   > “azygos vein: originates in the lumbar region and passes through the diaphragm into the thoracic cavity on the right side of the vertebral column; drains blood from the intercostal veins, esophageal veins, bronchial veins, and other veins draining the mediastinal region” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. It starts in the lower back and rises into the chest along the right side of the backbone.
+   > “azygos vein: originates in the lumbar region and passes through the diaphragm into the thoracic cavity on the right side of the vertebral column” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. It empties into the superior vena cava, a large vein that returns blood to the heart from the upper body. *(defines “superior vena cava”)*
+   > “It flows into the superior vena cava at approximately the level of T2, making a significant contribution to the flow of blood.” ([20.5 Circulatory Pathways](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways), CC BY 4.0)
+   > “superior vena cava: large systemic vein that returns blood to the heart from the superior portion of the body” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+## Not published
+
+Drafted, checked, repaired once and still short of the rules, so the structure keeps its definition or fact card. The last attempt and why it fell short:
+
+### Hypothalamus: Plain (FMA:62008)
+
+- does not read well: In the last sentence, 'which relays signals from the senses' can be read as describing the hypothalamus (the cited SEER sentence uses 'which' that way), and leaving 'brain area' out of the thalamus definition means the text never says the hypothalamus is in the brain.
+
+Sentences that passed the check:
+
+1. The hypothalamus helps keep the body in homeostasis, a steady state of its systems.
+2. Like a thermostat, it keeps body temperature and food and water intake at the right levels.
+3. It also signals the pituitary gland, a pea-sized gland that sends out chemical messengers called hormones.
+4. It is a small area below the thalamus, which relays signals from the senses.
 

@@ -21,27 +21,117 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_62404/tier1.auto.md",
-   "text": "Part of the midbrain tectum, consisting of paired predominantly gray matter elevations on the dorsal aspect of the midbrain, located caudal to the superior colliculus, dorsal to the periaqueductal gray of the cerebral aqueduct and rostral to the cerebellum. According to Neuronames, the inferior colliculus comprises the central, pericentral and external nucleus and two predominantly white matter structures, the brachium of the inferior colliculus and the commissure of the inferior colliculus (MM).",
+   "status": "drafted",
+   "file": "content/FMA_62404/tier1.md",
+   "text": "Each inferior colliculus is part of the brain's pathway for hearing. It passes sound signals to the thalamus, which relays them on so we can hear them. It sits on the back of the midbrain, the middle region of the brain. It belongs to the lower pair of four bumps called colliculi, Latin for “little hills.”",
    "source": {
-    "kind": "uberon",
-    "name": "Uberon",
-    "term": "UBERON:0001946",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001946",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Uberon UBERON:0001946",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001946",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0001946 inferior colliculus",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0001946",
      "license": "CC BY 3.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0001946. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each inferior colliculus is part of the brain's pathway for hearing.",
+     "quotes": [
+      {
+       "quote": "inferior colliculus: half of the midbrain tectum that is part of the brain stem auditory pathway",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It passes sound signals to the thalamus, which relays them on so we can hear them.",
+     "defines": "thalamus",
+     "quotes": [
+      {
+       "quote": "Neurons of the inferior colliculus project to the thalamus, which then sends auditory information to the cerebrum for the conscious perception of sound.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "thalamus: brain area that relays sensory information to the cortex",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It sits on the back of the midbrain, the middle region of the brain.",
+     "defines": "midbrain",
+     "quotes": [
+      {
+       "quote": "Part of the midbrain tectum, consisting of paired predominantly gray matter elevations on the dorsal aspect of the midbrain",
+       "section": "UBERON:0001946 inferior colliculus",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0001946",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "midbrain: middle region of the adult brain that develops from the mesencephalon",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "It belongs to the lower pair of four bumps called colliculi, Latin for “little hills.”",
+     "quotes": [
+      {
+       "quote": "The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin. The inferior colliculus is the inferior pair of these enlargements and is part of the auditory brain stem pathway.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-08"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +143,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Uberon UBERON:0001946",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001946",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0001946 inferior colliculus",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0001946",
    "license": "CC BY 3.0"
   }
  ],

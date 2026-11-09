@@ -64,6 +64,8 @@ if (cmd === 'assemble') {
     if (fs.existsSync(abs) && readFront(abs).meta.status !== 'drafted') { console.warn(`kept ${target}: already ${readFront(abs).meta.status}`); continue; }
     // Sentence by sentence: the checker's verdict, then the code checks.
     const kept = [], dropped = [];
+    // Paths relative to data/build/sources (an agent may give the full path).
+    for (const x of d.sentences) for (const q of x.quotes ?? []) q.file = String(q.file ?? '').replace(/^.*data\/build\/sources\//, '').replace(/^\.\//, '');
     d.sentences.forEach((x, i) => {
       const v = d.verdicts.find(y => y.index === i);
       const why = !d.checked ? 'not checked' : !v ? 'no verdict from the checker' : v.verdict !== 'pass' ? `checker: ${v.reason}`

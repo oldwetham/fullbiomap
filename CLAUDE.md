@@ -20,6 +20,7 @@ Commands:
 | `npm run pipeline` | Every pipeline step from raw downloads to validated `public/` (network on first run; cached in `data/cache/` after) |
 | `node scripts/validate-atlas.mjs` | Checks `public/models/atlas.json` and chunk buffers |
 | `node scripts/validate-interactions.mjs` | Checks tap-vs-drag and layout contracts |
+| `node scripts/explanations.mjs review --reviewer "<name>" <id>…` | Marks written explanations reviewed (`--tier 1`, `2`, or `facts` for fact cards; `--group organs` etc. for a whole group); then run steps 11, 15 and 12 |
 
 Run `npm run check && node scripts/validate-atlas.mjs && node scripts/validate-interactions.mjs && npm run build` before calling a change done.
 

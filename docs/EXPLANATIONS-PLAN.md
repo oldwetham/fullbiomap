@@ -193,6 +193,13 @@ The basis is the morphology run on `cells`: 71 cell types, 141 agents, 11.4M tok
 - **Projection with the test batch:** as decided, 60–67M tokens (repairs at 30–50% of organ and cell-type texts); with one checker per organ or cell type for both its texts, about 48M; as decided but cell types in Plain only, about 52.5M. Above 49.4M, so the work stopped again for a decision.
 - **Decision (2026-11-08, second):** keep one checker per organ and cell-type text and Core for cell types, raise the limit to 80M tokens as a hard stop, and add the test batch's three lessons to the drafting prompt (define everyday biology words such as "granules"; no "it", "they" or "their" that could point two ways; mark contrasts). The full run goes ahead in waves (organs and cell types, then the other groups), each with its repair round; the work stops and asks only if the projection passes 80M.
 
+### Full run results (2026-11-09)
+
+- **Run:** wave 1 (organs and cell types, one checker per text) and wave 2 (organelles, bones, muscles, vessels, brain regions, one checker per batch) ran side by side, then one repair round each. 58.0M tokens for the whole run including the pilot and test batch (pilot 3.2M, test batch 0.7M, wave 1 25.1M plus 7.0M repairs, wave 2 19.5M plus 2.5M repairs), under the 80M stop.
+- **Published:** 538 of 546 texts, 425 Plain and 113 Core, all unreviewed; 2,666 sentences resting on 4,170 quotes (OpenStax A&P 2,837, Biology 629, SEER 233, NCIt 220, Cell Ontology 144, GO 50, Uberon 37, FMA 20), every quote found word for word by step 09. Left, right and numbered structures share their class's text (597 of them), so 1,066 nodes show a written Plain text.
+- **Reading level:** Plain grades 2.7–9.9 (median 7.7); Core 8.3–14.0 (median 10.9).
+- **Not published (8), each keeping its definition and fact card:** Plain for the hypothalamus, subscapular vein and apical dendrite; Core for the hematopoietic stem cell, adipocyte, smooth muscle cell, monocyte and omentum. The reasons (reading problems after repair, or an undefined term) are in `reports/explanations.md` and `graph/explanation-runs.json`.
+
 ## 8. Order of work
 
 Each step is checked and committed before the next; nothing is pushed.

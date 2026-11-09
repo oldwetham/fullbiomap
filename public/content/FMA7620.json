@@ -20,27 +20,123 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_7620/tier1.auto.md",
-   "text": "The second rib counting from the top of the rib cage down.",
+   "status": "drafted",
+   "file": "content/FMA_7574/tier1.md",
+   "text": "Each rib helps form the rib cage, which protects the heart and lungs. Each rib is a thin, curved bone of the chest wall. At the back, the ribs join the vertebrae, the bones that make up the backbone. At the front, most ribs attach to the sternum, or breastbone.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C52766",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52766",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C52766",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52766",
+     "title": "OpenStax Anatomy and Physiology 2e, 7.4 The Thoracic Cage",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 29.1 Chordates",
+     "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 38.1 Types of Skeletal Systems",
+     "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C52766, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each rib helps form the rib cage, which protects the heart and lungs.",
+     "quotes": [
+      {
+       "quote": "The thoracic cage (rib cage) forms the thorax (chest) portion of the body. It consists of the 12 pairs of ribs with their costal cartilages and the sternum (). The ribs are anchored posteriorly to the 12 thoracic vertebrae (T1–T12). The thoracic cage protects the heart and lungs.",
+       "section": "7.4 The Thoracic Cage",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each rib is a thin, curved bone of the chest wall.",
+     "quotes": [
+      {
+       "quote": "ribs: thin, curved bones of the chest wall",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At the back, the ribs join the vertebrae, the bones that make up the backbone.",
+     "defines": "vertebrae",
+     "quotes": [
+      {
+       "quote": "The ribs articulate posteriorly with the T1–T12 thoracic vertebrae",
+       "section": "7.4 The Thoracic Cage",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "vertebrae—a series of separate, irregularly shaped bones joined together to form a backbone",
+       "section": "29.1 Chordates",
+       "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At the front, most ribs attach to the sternum, or breastbone.",
+     "defines": "sternum",
+     "quotes": [
+      {
+       "quote": "The ribs articulate posteriorly with the T1–T12 thoracic vertebrae, and most attach anteriorly via their costal cartilages to the sternum.",
+       "section": "7.4 The Thoracic Cage",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The sternum, or breastbone, is a long, flat bone located at the anterior of the chest.",
+       "section": "38.1 Types of Skeletal Systems",
+       "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 2.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:7574",
+    "label": "Rib",
+    "conceptId": "FMA7574"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +148,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C52766",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C52766",
+   "title": "OpenStax Anatomy and Physiology 2e, 7.4 The Thoracic Cage",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 29.1 Chordates",
+   "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 38.1 Types of Skeletal Systems",
+   "url": "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
    "license": "CC BY 4.0"
   }
  ],

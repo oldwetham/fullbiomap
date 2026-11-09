@@ -58,27 +58,91 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_46565/tier1.auto.md",
-   "text": "The bones that form the head, made up of the bones of the braincase and face.",
+   "status": "drafted",
+   "file": "content/FMA_46565/tier1.md",
+   "text": "The skull protects the brain and supports the face. The skull is made of 22 bones that form the head, face and jaws. In adults, 21 of these bones are locked into one unit, but the lower jaw can move. The locked bones meet at sutures, fixed joints filled with dense, fibrous tissue.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12789",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12789",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12789",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12789",
+     "title": "OpenStax Anatomy and Physiology 2e, 7.2 The Skull",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12789, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The skull protects the brain and supports the face.",
+     "quotes": [
+      {
+       "quote": "The cranium (skull) is the skeletal structure of the head that supports the face and protects the brain.",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The skull is made of 22 bones that form the head, face and jaws.",
+     "quotes": [
+      {
+       "quote": "skull: bony structure that forms the head, face, and jaws, and protects the brain; consists of 22 bones",
+       "section": "Chapter 7 Key Terms (Axial Skeleton)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In adults, 21 of these bones are locked into one unit, but the lower jaw can move.",
+     "quotes": [
+      {
+       "quote": "In the adult, the skull consists of 22 individual bones, 21 of which are immobile and united into a single unit. The 22nd bone is the mandible (lower jaw), which is the only moveable bone of the skull.",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The locked bones meet at sutures, fixed joints filled with dense, fibrous tissue.",
+     "defines": "suture",
+     "quotes": [
+      {
+       "quote": "A suture is an immobile joint between adjacent bones of the skull. The narrow gap between the bones is filled with dense, fibrous connective tissue that unites the bones.",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 3.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -90,8 +154,13 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12789",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12789",
+   "title": "OpenStax Anatomy and Physiology 2e, 7.2 The Skull",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 7 Key Terms (Axial Skeleton)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms",
    "license": "CC BY 4.0"
   }
  ],

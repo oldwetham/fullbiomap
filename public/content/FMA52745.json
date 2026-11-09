@@ -18,27 +18,90 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_52745/tier1.auto.md",
-   "text": "One of two small oblong bones placed side by side at the middle and upper part of the face.",
+   "status": "drafted",
+   "file": "content/FMA_52745/tier1.md",
+   "text": "Each nasal bone joins its partner to form the bony bridge of the nose. The two nasal bones sit side by side in the upper middle of the face. The nasal bones also support cartilage, a firm but flexible tissue, along the sides of the nose.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33157",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33157",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33157",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33157",
+     "title": "OpenStax Anatomy and Physiology 2e, 7.2 The Skull",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33157 Nasal Bone",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33157",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33157, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each nasal bone joins its partner to form the bony bridge of the nose.",
+     "quotes": [
+      {
+       "quote": "The nasal bone is one of two small bones that articulate (join) with each other to form the bony base (bridge) of the nose.",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The two nasal bones sit side by side in the upper middle of the face.",
+     "quotes": [
+      {
+       "quote": "One of two small oblong bones placed side by side at the middle and upper part of the face.",
+       "section": "NCIT:C33157 Nasal Bone",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33157",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The nasal bones also support cartilage, a firm but flexible tissue, along the sides of the nose.",
+     "defines": "cartilage",
+     "quotes": [
+      {
+       "quote": "The nasal bone is one of two small bones that articulate (join) with each other to form the bony base (bridge) of the nose. They also support the cartilages that form the lateral walls of the nose",
+       "section": "7.2 The Skull",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -50,8 +113,18 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33157",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33157",
+   "title": "OpenStax Anatomy and Physiology 2e, 7.2 The Skull",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33157 Nasal Bone",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33157",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
    "license": "CC BY 4.0"
   }
  ],

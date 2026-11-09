@@ -23,27 +23,127 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_55099/tier1.auto.md",
-   "text": "The largest of the laryngeal cartilages comprising two quadrilateral laminae that fuse to form a median elevation (\"Adam's apple\"). It lies inferior to the hyoid bone, its superior horn is attached to the tip of the greater horn of the hyoid bone, and its inferior horn articulates with the cricoid cartilage.",
+   "status": "drafted",
+   "file": "content/FMA_55099/tier1.md",
+   "text": "The thyroid cartilage forms the front of the larynx, or voice box. The thyroid cartilage is the larynx's largest piece of cartilage, a firm but flexible tissue. Two plates of the thyroid cartilage join to form a bump called the Adam's apple. The vocal cords, the folds that vibrate to make sound, are attached to the thyroid cartilage.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33780",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33780",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33780",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33780",
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33780, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The thyroid cartilage forms the front of the larynx, or voice box.",
+     "defines": "larynx",
+     "quotes": [
+      {
+       "quote": "Three large cartilage pieces—the thyroid cartilage (anterior), epiglottis (superior), and cricoid cartilage (inferior)—form the major structure of the larynx.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "larynx: voice box, a short passageway connecting the pharynx and the trachea",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The thyroid cartilage is the larynx's largest piece of cartilage, a firm but flexible tissue.",
+     "defines": "cartilage",
+     "quotes": [
+      {
+       "quote": "The thyroid cartilage is the largest piece of cartilage that makes up the larynx.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Two plates of the thyroid cartilage join to form a bump called the Adam's apple.",
+     "quotes": [
+      {
+       "quote": "laryngeal prominence: region where the two lamine of the thyroid cartilage join, forming a protrusion known as “Adam’s apple”",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The vocal cords, the folds that vibrate to make sound, are attached to the thyroid cartilage.",
+     "defines": "vocal cords",
+     "quotes": [
+      {
+       "quote": "A true vocal cord is one of the white, membranous folds attached by muscle to the thyroid and arytenoid cartilages of the larynx on their outer edges.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "true vocal cord: one of the pair of folded, white membranes that have a free inner edge that oscillates as air passes through to produce sound",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -55,8 +155,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33780",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33780",
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
    "license": "CC BY 4.0"
   }
  ],

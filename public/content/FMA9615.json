@@ -18,27 +18,139 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_9615/tier1.auto.md",
-   "text": "A cartilage ring around the trachea below the thyroid cartilage.",
+   "status": "drafted",
+   "file": "content/FMA_9615/tier1.md",
+   "text": "The cricoid cartilage forms the lower part of the larynx, or voice box. The cricoid cartilage is a ring of cartilage, a firm but flexible tissue. The ring is wide at the back and thinner at the front. The ring sits below the thyroid cartilage, which forms the Adam's apple.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C32400",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32400",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C32400",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32400",
+     "title": "Uberon, UBERON:0002375 cricoid cartilage",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0002375",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C32400 Cricoid Cartilage",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C32400",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C33780 Thyroid Cartilage",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33780",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C32400, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The cricoid cartilage forms the lower part of the larynx, or voice box.",
+     "defines": "larynx",
+     "quotes": [
+      {
+       "quote": "A cartilaginous ring that provides support for the arytenoid cartilages and forms the caudal part of the larynx.",
+       "section": "UBERON:0002375 cricoid cartilage",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0002375",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      },
+      {
+       "quote": "larynx: voice box, a short passageway connecting the pharynx and the trachea",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cricoid cartilage is a ring of cartilage, a firm but flexible tissue.",
+     "defines": "cartilage",
+     "quotes": [
+      {
+       "quote": "cricoid cartilage: portion of the larynx composed of a ring of cartilage with a wide posterior region and a thinner anterior region; attached to the esophagus",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The ring is wide at the back and thinner at the front.",
+     "quotes": [
+      {
+       "quote": "The thick cricoid cartilage forms a ring, with a wide posterior region and a thinner anterior region.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The ring sits below the thyroid cartilage, which forms the Adam's apple.",
+     "defines": "thyroid cartilage",
+     "quotes": [
+      {
+       "quote": "A cartilage ring around the trachea below the thyroid cartilage.",
+       "section": "NCIT:C32400 Cricoid Cartilage",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C32400",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "The largest of the laryngeal cartilages comprising two quadrilateral laminae that fuse to form a median elevation (\"Adam's apple\").",
+       "section": "NCIT:C33780 Thyroid Cartilage",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33780",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    }
+   ],
+   "grade": 5.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -50,8 +162,38 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C32400",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C32400",
+   "title": "Uberon, UBERON:0002375 cricoid cartilage",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0002375",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C32400 Cricoid Cartilage",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C32400",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C33780 Thyroid Cartilage",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33780",
    "license": "CC BY 4.0"
   }
  ],

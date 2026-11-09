@@ -11,7 +11,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Organs | 48 | 1 of 39 | 2 of 48 | 90 |
 | Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
 | Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
-| Bones and cartilages | 49 | 5 of 49 | 0 of 0 | 210 |
+| Bones and cartilages | 49 | 49 of 49 | 0 of 0 | 210 |
 | Muscles | 106 | 5 of 106 | 0 of 0 | 304 |
 | Vessels | 90 | 5 of 90 | 0 of 0 | 206 |
 | Nerves | 3 | 3 of 3 | 0 of 0 | 9 |
@@ -189,55 +189,55 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Bones and cartilages (49)
 
-- Atlas (FMA:12519): Plain: not written
-- Axis (FMA:12520): Plain: not written
+- Atlas (FMA:12519): Plain: drafted, grade 5.9
+- Axis (FMA:12520): Plain: drafted, grade 6.9
 - Calcaneus (FMA:24496; also Right calcaneus, Left calcaneus): Plain: drafted, grade 5.7
-- Capitate (FMA:23727; also Right capitate, Left capitate): Plain: not written
-- Cervical vertebra (FMA:9915; also Third cervical vertebra, Fourth cervical vertebra, Fifth cervical vertebra, Sixth cervical vertebra, Seventh cervical vertebra): Plain: not written
-- Clavicle (FMA:13321; also Right clavicle, Left clavicle): Plain: not written
-- Costal cartilage (FMA:7591; also First costal cartilage, Second costal cartilage, Third costal cartilage, Fourth costal cartilage, Fifth costal cartilage, Sixth costal cartilage, Seventh costal cartilage, Right first costal cartilage, Right second costal cartilage, Right third costal cartilage, Right fourth costal cartilage, Left first costal cartilage, Left second costal cartilage, Left third costal cartilage, Right fifth costal cartilage, Left fifth costal cartilage, Left fourth costal cartilage, Right sixth costal cartilage, Left sixth costal cartilage, Right seventh costal cartilage, Left seventh costal cartilage): Plain: not written
-- Cricoid cartilage (FMA:9615): Plain: not written
+- Capitate (FMA:23727; also Right capitate, Left capitate): Plain: drafted, grade 5.6
+- Cervical vertebra (FMA:9915; also Third cervical vertebra, Fourth cervical vertebra, Fifth cervical vertebra, Sixth cervical vertebra, Seventh cervical vertebra): Plain: drafted, grade 8.4
+- Clavicle (FMA:13321; also Right clavicle, Left clavicle): Plain: drafted, grade 6.5
+- Costal cartilage (FMA:7591; also First costal cartilage, Second costal cartilage, Third costal cartilage, Fourth costal cartilage, Fifth costal cartilage, Sixth costal cartilage, Seventh costal cartilage, Right first costal cartilage, Right second costal cartilage, Right third costal cartilage, Right fourth costal cartilage, Left first costal cartilage, Left second costal cartilage, Left third costal cartilage, Right fifth costal cartilage, Left fifth costal cartilage, Left fourth costal cartilage, Right sixth costal cartilage, Left sixth costal cartilage, Right seventh costal cartilage, Left seventh costal cartilage): Plain: drafted, grade 6.7
+- Cricoid cartilage (FMA:9615): Plain: drafted, grade 5.8
 - Femur (FMA:9611; also Right femur, Left femur): Plain: drafted, grade 4
 - Fibula (FMA:24479; also Right fibula, Left fibula): Plain: drafted, grade 4.8
-- Frontal bone (FMA:52734): Plain: not written
-- Hamate (FMA:23730; also Right hamate, Left hamate): Plain: not written
-- Hip bone (FMA:16585; also Right hip bone, Left hip bone): Plain: not written
-- Humerus (FMA:13303; also Right humerus, Left humerus): Plain: not written
-- Hyoid bone (FMA:52749): Plain: not written
-- Lacrimal bone (FMA:52741; also Right lacrimal bone, Left lacrimal bone): Plain: not written
-- Lumbar vertebra (FMA:9921; also First lumbar vertebra, Second lumbar vertebra, Third lumbar vertebra, Fourth lumbar vertebra, Fifth lumbar vertebra): Plain: not written
-- Lunate (FMA:23712; also Right lunate, Left lunate): Plain: not written
-- Mandible (FMA:52748): Plain: not written
-- Manubrium (FMA:7486): Plain: not written
-- Metacarpal bone (FMA:9612; also First metacarpal bone, Second metacarpal bone, Third metacarpal bone, Fourth metacarpal bone, Fifth metacarpal bone, Right first metacarpal bone, Left first metacarpal bone, Right second metacarpal bone, Left second metacarpal bone, Right third metacarpal bone, Left third metacarpal bone, Right fourth metacarpal bone, Left fourth metacarpal bone, Right fifth metacarpal bone, Left fifth metacarpal bone): Plain: not written
+- Frontal bone (FMA:52734): Plain: drafted, grade 7
+- Hamate (FMA:23730; also Right hamate, Left hamate): Plain: drafted, grade 4.2
+- Hip bone (FMA:16585; also Right hip bone, Left hip bone): Plain: drafted, grade 5.1
+- Humerus (FMA:13303; also Right humerus, Left humerus): Plain: drafted, grade 6.8
+- Hyoid bone (FMA:52749): Plain: drafted, grade 4.8
+- Lacrimal bone (FMA:52741; also Right lacrimal bone, Left lacrimal bone): Plain: drafted, grade 6.5
+- Lumbar vertebra (FMA:9921; also First lumbar vertebra, Second lumbar vertebra, Third lumbar vertebra, Fourth lumbar vertebra, Fifth lumbar vertebra): Plain: drafted, grade 6.3
+- Lunate (FMA:23712; also Right lunate, Left lunate): Plain: drafted, grade 5.3
+- Mandible (FMA:52748): Plain: drafted, grade 5.6
+- Manubrium (FMA:7486): Plain: drafted, grade 5.1
+- Metacarpal bone (FMA:9612; also First metacarpal bone, Second metacarpal bone, Third metacarpal bone, Fourth metacarpal bone, Fifth metacarpal bone, Right first metacarpal bone, Left first metacarpal bone, Right second metacarpal bone, Left second metacarpal bone, Right third metacarpal bone, Left third metacarpal bone, Right fourth metacarpal bone, Left fourth metacarpal bone, Right fifth metacarpal bone, Left fifth metacarpal bone): Plain: drafted, grade 5.4
 - Metatarsal bone (FMA:24492; also First metatarsal bone, Second metatarsal bone, Third metatarsal bone, Fourth metatarsal bone, Fifth metatarsal bone, Right first metatarsal bone, Left first metatarsal bone, Right second metatarsal bone, Left second metatarsal bone, Right third metatarsal bone, Left third metatarsal bone, Right fourth metatarsal bone, Left fourth metatarsal bone, Right fifth metatarsal bone, Left fifth metatarsal bone): Plain: drafted, grade 4
-- Nasal bone (FMA:52745; also Right nasal bone, Left nasal bone): Plain: not written
-- Occipital bone (FMA:52735): Plain: not written
-- Palatine bone (FMA:52746; also Right palatine bone, Left palatine bone): Plain: not written
-- Parietal bone (FMA:9613; also Right parietal bone, Left parietal bone): Plain: not written
+- Nasal bone (FMA:52745; also Right nasal bone, Left nasal bone): Plain: drafted, grade 6
+- Occipital bone (FMA:52735): Plain: drafted, grade 6.2
+- Palatine bone (FMA:52746; also Right palatine bone, Left palatine bone): Plain: drafted, grade 6.3
+- Parietal bone (FMA:9613; also Right parietal bone, Left parietal bone): Plain: drafted, grade 4.1
 - Patella (FMA:24485; also Right patella, Left patella): Plain: drafted, grade 5.9
-- Pelvic girdle (FMA:16581; also Right pelvic girdle, Left pelvic girdle): Plain: not written
-- Pisiform (FMA:23718; also Right pisiform, Left pisiform): Plain: not written
-- Radius (FMA:23463; also Right radius, Left radius): Plain: not written
-- Rib (FMA:7574; also First rib, Second rib, Third rib, Fourth rib, Fifth rib, Seventh rib, Right first rib, Right second rib, Right third rib, Right fourth rib, Left first rib, Left second rib, Left third rib, Right fifth rib, Left fifth rib, Eighth rib, Sixth rib, Left fourth rib, Right sixth rib, Left sixth rib, Right seventh rib, Left seventh rib, Right eighth rib, Left eighth rib, Ninth rib, Right ninth rib, Left ninth rib, Tenth rib, Right tenth rib, Left tenth rib, Eleventh rib, Twelfth rib, Right eleventh rib, Left eleventh rib, Right twelfth rib, Left twelfth rib): Plain: not written
-- Sacrum (FMA:16202): Plain: not written
-- Scaphoid (FMA:23709; also Right scaphoid, Left scaphoid): Plain: not written
-- Scapula (FMA:13394; also Right scapula, Left scapula): Plain: not written
-- Skull (FMA:46565): Plain: not written
-- Sphenoid bone (FMA:52736): Plain: not written
-- Sternum (FMA:7485): Plain: not written
-- Talus (FMA:9708; also Right talus, Left talus): Plain: not written
-- Temporal bone (FMA:52737; also Right temporal bone, Left temporal bone): Plain: not written
-- Thoracic vertebra (FMA:9139; also First thoracic vertebra, Second thoracic vertebra, Third thoracic vertebra, Fourth thoracic vertebra, Fifth thoracic vertebra, Sixth thoracic vertebra, Seventh thoracic vertebra, Eighth thoracic vertebra, Ninth thoracic vertebra, Tenth thoracic vertebra, Eleventh thoracic vertebra, Twelfth thoracic vertebra): Plain: not written
-- Thyroid cartilage (FMA:55099): Plain: not written
-- Tibia (FMA:24476; also Right tibia, Left tibia): Plain: not written
-- Trapezium (FMA:23721; also Right trapezium, Left trapezium): Plain: not written
-- Trapezoid (FMA:23724; also Right trapezoid, Left trapezoid): Plain: not written
-- Ulna (FMA:23466; also Right ulna, Left ulna): Plain: not written
-- Vertebra (FMA:9914): Plain: not written
-- Vertebral column (FMA:13478): Plain: not written
-- Xiphoid process (FMA:7488): Plain: not written
-- Zygomatic bone (FMA:52747; also Right zygomatic bone, Left zygomatic bone): Plain: not written
+- Pelvic girdle (FMA:16581; also Right pelvic girdle, Left pelvic girdle): Plain: drafted, grade 7.1
+- Pisiform (FMA:23718; also Right pisiform, Left pisiform): Plain: drafted, grade 6.7
+- Radius (FMA:23463; also Right radius, Left radius): Plain: drafted, grade 6.7
+- Rib (FMA:7574; also First rib, Second rib, Third rib, Fourth rib, Fifth rib, Seventh rib, Right first rib, Right second rib, Right third rib, Right fourth rib, Left first rib, Left second rib, Left third rib, Right fifth rib, Left fifth rib, Eighth rib, Sixth rib, Left fourth rib, Right sixth rib, Left sixth rib, Right seventh rib, Left seventh rib, Right eighth rib, Left eighth rib, Ninth rib, Right ninth rib, Left ninth rib, Tenth rib, Right tenth rib, Left tenth rib, Eleventh rib, Twelfth rib, Right eleventh rib, Left eleventh rib, Right twelfth rib, Left twelfth rib): Plain: drafted, grade 2.7
+- Sacrum (FMA:16202): Plain: drafted, grade 4.3
+- Scaphoid (FMA:23709; also Right scaphoid, Left scaphoid): Plain: drafted, grade 4.8
+- Scapula (FMA:13394; also Right scapula, Left scapula): Plain: drafted, grade 5.8
+- Skull (FMA:46565): Plain: drafted, grade 3.6
+- Sphenoid bone (FMA:52736): Plain: drafted, grade 4.8
+- Sternum (FMA:7485): Plain: drafted, grade 4
+- Talus (FMA:9708; also Right talus, Left talus): Plain: drafted, grade 5.6
+- Temporal bone (FMA:52737; also Right temporal bone, Left temporal bone): Plain: drafted, grade 6.5
+- Thoracic vertebra (FMA:9139; also First thoracic vertebra, Second thoracic vertebra, Third thoracic vertebra, Fourth thoracic vertebra, Fifth thoracic vertebra, Sixth thoracic vertebra, Seventh thoracic vertebra, Eighth thoracic vertebra, Ninth thoracic vertebra, Tenth thoracic vertebra, Eleventh thoracic vertebra, Twelfth thoracic vertebra): Plain: drafted, grade 6.3
+- Thyroid cartilage (FMA:55099): Plain: drafted, grade 7.2
+- Tibia (FMA:24476; also Right tibia, Left tibia): Plain: drafted, grade 4.9
+- Trapezium (FMA:23721; also Right trapezium, Left trapezium): Plain: drafted, grade 5.4
+- Trapezoid (FMA:23724; also Right trapezoid, Left trapezoid): Plain: drafted, grade 7.8
+- Ulna (FMA:23466; also Right ulna, Left ulna): Plain: drafted, grade 5.1
+- Vertebra (FMA:9914): Plain: drafted, grade 6.3
+- Vertebral column (FMA:13478): Plain: drafted, grade 7.2
+- Xiphoid process (FMA:7488): Plain: drafted, grade 6.9
+- Zygomatic bone (FMA:52747; also Right zygomatic bone, Left zygomatic bone): Plain: drafted, grade 8.6
 
 ### Muscles (106)
 
@@ -1380,6 +1380,34 @@ Dropped:
 
 ### Skeletal
 
+#### Atlas: Plain (drafted; grade 5.9; `content/FMA_12519/tier1.md`)
+
+1. The atlas holds up the skull on top of the vertebral column, or spine. *(defines “vertebral column”)*
+   > “The first cervical (C1) vertebra is also called the atlas, because this is the vertebra that supports the skull on top of the vertebral column” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “The vertebral column is also known as the spinal column or spine” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+2. The atlas is the first of the seven cervical vertebrae, the bones of the spine in the neck. *(defines “cervical vertebrae”)*
+   > “The first cervical (C1) vertebra is also called the atlas” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The atlas is a ring of bone, made of a front arch and a back arch.
+   > “The atlas (C1 vertebra) differs from the other cervical vertebrae in that it does not have a body, but instead consists of bony ring formed by the anterior and posterior arches.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+4. When you shake your head “no,” the atlas turns on top of the axis, the second cervical vertebra. *(defines “axis”)*
+   > “These articulations allow the atlas to rotate on top of the axis, moving the head toward the right or left, as when shaking your head “no.”” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “axis: second cervical (C2) vertebra” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Axis: Plain (drafted; grade 6.9; `content/FMA_12520/tier1.md`)
+
+1. The axis acts as the pivot when you turn your head to the right or left.
+   > “The second cervical (C2) vertebra is called the axis, because it serves as the axis for rotation when turning the head toward the right or left.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+2. The axis is the second of the seven cervical vertebrae, the bones of the spine in the neck. *(defines “cervical vertebrae”)*
+   > “axis: second cervical (C2) vertebra” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. The axis looks much like typical cervical vertebrae, but it has the dens, a bony part that sticks up. *(defines “dens”)*
+   > “The axis resembles typical cervical vertebrae in most respects, but is easily distinguished by the dens (odontoid process), a bony projection that extends upward from the vertebral body.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “dens: bony projection (odontoid process) that extends upward from the body of the C2 (axis) vertebra” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The atlas, the first cervical vertebra, turns around the dens when you shake your head “no.” *(defines “atlas”)*
+   > “For example, at the atlantoaxial joint, the first cervical (C1) vertebra (atlas) rotates around the dens, the upward projection from the second cervical (C2) vertebra (axis). This allows the head to rotate from side to side as when shaking the head “no.”” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+   > “atlas: first cervical (C1) vertebra” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
 #### Calcaneus: Plain (drafted; grade 5.7; `content/FMA_24496/tier1.md`; also Right calcaneus, Left calcaneus)
 
 1. The calcaneus, or heel bone, carries body weight to the ground. *(defines “calcaneus”)*
@@ -1391,6 +1419,69 @@ Dropped:
 3. The calcaneal tendon, or Achilles tendon, joins muscles at the back of the leg to this bone. *(defines “calcaneal tendon”)*
    > “The superficial muscles in the posterior compartment of the leg all insert onto the calcaneal tendon (Achilles tendon), a strong tendon that inserts into the calcaneal bone of the ankle.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
    > “calcaneal tendon: (also, Achilles tendon) strong tendon that inserts into the calcaneal bone of the ankle” ([Chapter 11 Key Terms (The Muscular System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms), CC BY 4.0)
+
+#### Capitate: Plain (drafted; grade 5.6; `content/FMA_23727/tier1.md`; also Right capitate, Left capitate)
+
+1. Each capitate is a carpal bone, one of the eight small bones that form the wrist and the base of the hand. *(defines “carpal bone”)*
+   > “capitate: from the lateral side, the third of the four distal carpal bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The capitate is the largest of the carpal bones and sits in the center of the hand.
+   > “The largest of eight carpal bones, located in the center of the hand.” ([NCIT:C12856 Capitate Bone](http://purl.obolibrary.org/obo/NCIT_C12856), CC BY 4.0)
+3. The capitate joins the third metacarpal, the palm bone that leads to the middle finger. *(defines “third metacarpal”)*
+   > “The third of five miniature long bones located in the palm of the hand, which articulates proximally with the capitate and second and fourth metacarpals at the carpometacarpal joint and distally with the middle finger phalanx at the metacarpophalangeal joint.” ([NCIT:C52794 Metacarpal Bone Digit 3](http://purl.obolibrary.org/obo/NCIT_C52794), CC BY 4.0)
+4. The name capitate means “head-shaped.”
+   > “The distal bones (lateral to medial) are the trapezium (“table”), trapezoid (“resembles a table”), capitate (“head-shaped”), and hamate (“hooked bone”) bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Cervical vertebra: Plain (drafted; grade 8.4; `content/FMA_9915/tier1.md`; also Third cervical vertebra, Fourth cervical vertebra, Fifth cervical vertebra, Sixth cervical vertebra, Seventh cervical vertebra)
+
+1. The cervical vertebrae, the seven bones of the spine in the neck, give the neck a wide range of motion. *(defines “cervical vertebrae”)*
+   > “In the neck, the articular processes of cervical vertebrae are flattened and generally face upward or downward. This orientation provides the cervical vertebral column with extensive ranges of motion for flexion, extension, lateral flexion, and rotation.” ([9.6 Anatomy of Selected Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints), CC BY 4.0)
+   > “cervical vertebrae: seven vertebrae numbered as C1–C7 that are located in the neck region of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Cervical vertebrae carry the least body weight, so they have small bodies, the weight-bearing front parts. *(defines “body”)*
+   > “Cervical vertebrae have a small body, reflecting the fact that they carry the least amount of body weight.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “The body is the anterior portion of each vertebra and is the part that supports the body weight.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+3. An artery that supplies the brain runs up the neck through openings in the cervical vertebrae.
+   > “Each transverse process also has an opening called the transverse foramen. An important artery that supplies the brain ascends up the neck by passing through these openings.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Clavicle: Plain (drafted; grade 6.5; `content/FMA_13321/tier1.md`; also Right clavicle, Left clavicle)
+
+1. Each clavicle, or collarbone, holds the shoulder joint up and out from the body's trunk, so the arm can move freely. *(defines “clavicle”)*
+   > “This in turn holds the shoulder joint superiorly and laterally from the body trunk, allowing for maximal freedom of motion for the upper limb.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+   > “clavicle: collarbone; elongated bone that articulates with the manubrium of the sternum medially and the acromion of the scapula laterally” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The clavicle also protects the nerves and blood vessels under it and passes forces from the arm to the trunk.
+   > “The clavicle supports the scapula, transmits the weight and forces from the upper limb to the body trunk, and protects the underlying nerves and blood vessels.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+3. The clavicle is an S-shaped bone at the front of the shoulder.
+   > “The clavicle (collarbone) is an S-shaped bone located on the anterior side of the shoulder.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+4. The clavicle's inner end joins the sternum, the flat bone at the center of the chest. *(defines “sternum”)*
+   > “The medial end, known as the sternal end of the clavicle, has a triangular shape and articulates with the manubrium portion of the sternum.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+   > “sternum: flattened bone located at the center of the anterior chest” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Costal cartilage: Plain (drafted; grade 6.7; `content/FMA_7591/tier1.md`; also First costal cartilage, Second costal cartilage, Third costal cartilage, Fourth costal cartilage, Fifth costal cartilage, Sixth costal cartilage, Seventh costal cartilage, Right first costal cartilage, Right second costal cartilage, Right third costal cartilage, Right fourth costal cartilage, Left first costal cartilage, Left second costal cartilage, Left third costal cartilage, Right fifth costal cartilage, Left fifth costal cartilage, Left fourth costal cartilage, Right sixth costal cartilage, Left sixth costal cartilage, Right seventh costal cartilage, Left seventh costal cartilage)
+
+1. Costal cartilages join most ribs to the sternum, or breastbone, at the front of the chest. *(defines “sternum”)*
+   > “costal cartilage: hyaline cartilage structure attached to the anterior end of each rib that provides for either direct or indirect attachment of most ribs to the sternum” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. Each costal cartilage is attached to the front end of a rib.
+   > “costal cartilage: hyaline cartilage structure attached to the anterior end of each rib that provides for either direct or indirect attachment of most ribs to the sternum” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Costal cartilage is made of hyaline cartilage, a smooth tissue that is strong and flexible. *(defines “hyaline cartilage”)*
+   > “Instead, each rib ends in a costal cartilage. These cartilages are made of hyaline cartilage and can extend for several inches.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “The surface of hyaline cartilage is smooth. Both strong and flexible, it is found in the rib cage and nose and covers bones where they meet to form moveable joints.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+4. The springiness of costal cartilage lets the rib cage expand when you breathe.
+   > “The cartilage positioned between the anterior end of the rib and the sternum. Its elasticity allows the ribcage to expand while breathing.” ([NCIT:C32391 Costal Cartilage](http://purl.obolibrary.org/obo/NCIT_C32391), CC BY 4.0)
+
+#### Cricoid cartilage: Plain (drafted; grade 5.8; `content/FMA_9615/tier1.md`)
+
+1. The cricoid cartilage forms the lower part of the larynx, or voice box. *(defines “larynx”)*
+   > “A cartilaginous ring that provides support for the arytenoid cartilages and forms the caudal part of the larynx.” ([UBERON:0002375 cricoid cartilage](http://purl.obolibrary.org/obo/UBERON_0002375), CC BY 3.0)
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+2. The cricoid cartilage is a ring of cartilage, a firm but flexible tissue. *(defines “cartilage”)*
+   > “cricoid cartilage: portion of the larynx composed of a ring of cartilage with a wide posterior region and a thinner anterior region; attached to the esophagus” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+3. The ring is wide at the back and thinner at the front.
+   > “The thick cricoid cartilage forms a ring, with a wide posterior region and a thinner anterior region.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+4. The ring sits below the thyroid cartilage, which forms the Adam's apple. *(defines “thyroid cartilage”)*
+   > “A cartilage ring around the trachea below the thyroid cartilage.” ([NCIT:C32400 Cricoid Cartilage](http://purl.obolibrary.org/obo/NCIT_C32400), CC BY 4.0)
+   > “The largest of the laryngeal cartilages comprising two quadrilateral laminae that fuse to form a median elevation ("Adam's apple").” ([NCIT:C33780 Thyroid Cartilage](http://purl.obolibrary.org/obo/NCIT_C33780), CC BY 4.0)
 
 #### Femur: Plain (drafted; grade 4; `content/FMA_9611/tier1.md`; also Right femur, Left femur)
 
@@ -1417,6 +1508,139 @@ Dropped:
 4. Its lower end forms the bony bump on the outer side of the ankle.
    > “The distal end of the fibula forms the lateral malleolus, which forms the easily palpated bony bump on the lateral side of the ankle.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
 
+#### Frontal bone: Plain (drafted; grade 7; `content/FMA_52734/tier1.md`)
+
+1. The frontal bone forms the forehead and the roof of each orbit, or eye socket. *(defines “orbit”)*
+   > “A bone of the skull forming the forehead, root of the nose and the roof of both orbits.” ([NCIT:C32635 Frontal Bone](http://purl.obolibrary.org/obo/NCIT_C32635), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The frontal bone is also part of the brain case, which holds and protects the brain. *(defines “brain case”)*
+   > “The brain case consists of eight bones. These include the paired parietal and temporal bones, plus the unpaired frontal, occipital, sphenoid, and ethmoid bones.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “brain case: portion of the skull that contains and protects the brain, consisting of the eight bones that form the cranial base and rounded upper skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Just behind the eyebrows, the frontal bone thickens into rounded brow ridges.
+   > “The frontal bone is thickened just above each supraorbital margin, forming rounded brow ridges. These are located just behind your eyebrows and vary in size among individuals, although they are generally larger in males.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+4. Inside the frontal bone, above the eyebrows, is an air-filled space called the frontal sinus. *(defines “frontal sinus”)*
+   > “The frontal sinus is located just above the eyebrows, within the frontal bone” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “frontal sinus: air-filled space within the frontal bone; most anterior of the paranasal sinuses” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Hamate: Plain (drafted; grade 4.2; `content/FMA_23730/tier1.md`; also Right hamate, Left hamate)
+
+1. Each hamate is a carpal bone, one of the eight small bones that form the wrist and the base of the hand. *(defines “carpal bone”)*
+   > “hamate: from the lateral side, the fourth of the four distal carpal bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. A muscle that bends the little finger is attached to the hamate.
+   > “Hypothenar muscles | Flexes little finger | Little finger | Flexion | Flexor digiti minimi brevis | Hamate bone; flexor retinaculum | Medial side of proximal phalanx of little finger” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. The front side of the hamate has a bony hook, called the hook of the hamate. *(defines “hook of the hamate”)*
+   > “The hamate bone is characterized by a prominent bony extension on its anterior side called the hook of the hamate bone.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+4. The name hamate means “hooked bone.”
+   > “The distal bones (lateral to medial) are the trapezium (“table”), trapezoid (“resembles a table”), capitate (“head-shaped”), and hamate (“hooked bone”) bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Hip bone: Plain (drafted; grade 5.1; `content/FMA_16585/tier1.md`; also Right hip bone, Left hip bone)
+
+1. Each hip bone is the attachment point for a lower limb.
+   > “The pelvic girdle (hip girdle) is formed by a single bone, the hip bone or coxal bone (coxal = “hip”), which serves as the attachment point for each lower limb.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+2. Each adult hip bone forms from three bones that fuse together in the late teenage years.
+   > “Each adult hip bone is formed by three separate bones that fuse together during the late teenage years.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+3. These three parts meet to form the acetabulum, a deep cup that is part of the hip joint. *(defines “acetabulum”)*
+   > “The three areas of each hip bone, the ilium, pubis, and ischium, converge centrally to form a deep, cup-shaped cavity called the acetabulum. This is located on the lateral side of the hip bone and is part of the hip joint.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+4. The ischium, the rear and lower part of each hip bone, supports the body when you sit. *(defines “ischium”)*
+   > “The ischium forms the posteroinferior region of each hip bone. It supports the body when sitting.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+
+#### Humerus: Plain (drafted; grade 6.8; `content/FMA_13303/tier1.md`; also Right humerus, Left humerus)
+
+1. Each humerus, the single bone of the upper arm, helps form both the shoulder and elbow joints. *(defines “humerus”)*
+   > “It articulates with the scapula at the shoulder and with the forearm at the elbow.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+   > “humerus: single bone of the upper arm” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The rounded head of the humerus meets the scapula, or shoulder blade, at the shoulder joint. *(defines “scapula”)*
+   > “head of the humerus: smooth, rounded region on the medial side of the proximal humerus; articulates with the glenoid fossa of the scapula to form the glenohumeral (shoulder) joint” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. The lower end of the humerus meets the ulna and radius, the forearm bones, at the elbow.
+   > “The distal end of the humerus has two articulation areas, which join the ulna and radius bones of the forearm to form the elbow joint.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+4. Muscles that move the arm attach to the humerus.
+   > “The pectoralis major, latissimus dorsi, deltoid, and rotator cuff muscles connect to the humerus and move the arm.” ([SEER Training Modules: Muscles of the Upper Extremity](https://training.seer.cancer.gov/anatomy/muscular/groups/upper.html), Free of copyright (NCI reuse policy))
+
+#### Hyoid bone: Plain (drafted; grade 4.8; `content/FMA_52749/tier1.md`)
+
+1. The hyoid bone gives the tongue a firm base to move on.
+   > “the hyoid bone, a horseshoe-shaped bone that functions as a solid foundation on which the tongue can move” ([11.3 Axial Muscles of the Head, Neck, and Back](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back), CC BY 4.0)
+2. This small, U-shaped bone sits in the upper neck and touches no other bone.
+   > “hyoid bone: small, U-shaped bone located in upper neck that does not contact any other bone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Instead, small muscles attached from above and below hold the hyoid in place.
+   > “The hyoid is held in position by a series of small muscles that attach to it either from above or below.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+4. These muscles move the hyoid up, down, forward and back as you swallow and speak.
+   > “These muscles act to move the hyoid up/down or forward/back. Movements of the hyoid are coordinated with movements of the tongue, larynx, and pharynx during swallowing and speaking.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+
+#### Lacrimal bone: Plain (drafted; grade 6.5; `content/FMA_52741/tier1.md`; also Right lacrimal bone, Left lacrimal bone)
+
+1. Each lacrimal bone forms a shallow dip that leads into the nasolacrimal canal, which drains tears. *(defines “nasolacrimal canal”)*
+   > “The anterior portion of the lacrimal bone forms a shallow depression called the lacrimal fossa, and extending inferiorly from this is the nasolacrimal canal.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “nasolacrimal canal: passage for drainage of tears that extends downward from the medial-anterior orbit to the nasal cavity, terminating behind the inferior nasal conchae” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Tears, which keep the eye moist, drain through this canal into the nose.
+   > “The lacrimal fluid (tears of the eye), which serves to maintain the moist surface of the eye, drains at the medial corner of the eye into the nasolacrimal canal. This duct then extends downward to open into the nasal cavity, behind the inferior nasal concha.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+3. Each lacrimal bone also helps form the inner wall of the orbit, or eye socket. *(defines “orbit”)*
+   > “lacrimal bone: paired bones that contribute to the anterior-medial wall of each orbit” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Lumbar vertebra: Plain (drafted; grade 6.3; `content/FMA_9921/tier1.md`; also First lumbar vertebra, Second lumbar vertebra, Third lumbar vertebra, Fourth lumbar vertebra, Fifth lumbar vertebra)
+
+1. Of all the vertebrae, or spine bones, the lumbar vertebrae carry the most body weight. *(defines “vertebra”)*
+   > “Lumbar vertebrae carry the greatest amount of body weight and are thus characterized by the large size and thickness of the vertebral body” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The five lumbar vertebrae, numbered L1 to L5, sit in the lower back.
+   > “lumbar vertebrae: five vertebrae numbered as L1–L5 that are located in lumbar region (lower back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Each lumbar vertebra has a large, thick body, the front part that bears weight. *(defines “body”)*
+   > “Lumbar vertebrae support the greatest amount of body weight and thus have a large, thick body.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “The body is the anterior portion of each vertebra and is the part that supports the body weight.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+4. The lumbar vertebrae also help form the back wall of the abdomen.
+   > “The posterior abdominal wall is formed by the lumbar vertebrae, parts of the ilia of the hip bones, psoas major and iliacus muscles, and quadratus lumborum muscle.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+
+#### Lunate: Plain (drafted; grade 5.3; `content/FMA_23712/tier1.md`; also Right lunate, Left lunate)
+
+1. Each lunate helps form the wrist joint with the radius, the forearm bone on the thumb side. *(defines “radius”)*
+   > “wrist joint, located between the forearm and hand regions of the upper limb; articulation formed proximally by the distal end of the radius and the fibrocartilaginous pad that unites the distal radius and ulna bone, and distally by the scaphoid, lunate, and triquetrum carpal bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “radius: bone located along the lateral (thumb) side of the forearm” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. At this joint, the rounded lunate meets a shallow hollow at the end of the radius.
+   > “Another example is the radiocarpal joint of the wrist, between the shallow depression at the distal end of the radius bone and the rounded scaphoid, lunate, and triquetrum carpal bones.” ([9.4 Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints), CC BY 4.0)
+3. The lunate is one of eight carpal bones, the small bones of the wrist. *(defines “carpal bone”)*
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand; these are grouped as a proximal row consisting of (from lateral to medial) the scaphoid, lunate, triquetrum, and pisiform bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The name lunate means “moon-shaped,” and this bone sits between the scaphoid and triquetrum bones.
+   > “The bones in the proximal row, running from the lateral (thumb) side to the medial side, are the scaphoid (“boat-shaped”), lunate (“moon-shaped”), triquetrum (“three-cornered”), and pisiform (“pea-shaped”) bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Mandible: Plain (drafted; grade 5.6; `content/FMA_52748/tier1.md`)
+
+1. The mandible, or lower jaw, moves up and down to close and open the mouth. *(defines “mandible”)*
+   > “elevation of the mandible is the upward movement of the lower jaw used to close the mouth or bite on something, and depression is the downward movement that produces opening of the mouth” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Of all the skull's bones, only the mandible can move.
+   > “The mandible forms the lower jaw and is the only moveable bone of the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+3. The upper edge of the mandible holds the lower teeth.
+   > “alveolar process of the mandible: upper border of mandibular body that contains the lower teeth” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. Four pairs of chewing muscles, among the strongest in the body, attach to the mandible.
+   > “There are four pairs of muscles that are responsible for chewing movements or mastication. All of these muscles connect to the mandible and they are some of the strongest muscles in the body.” ([SEER Training Modules: Muscles of the Head and Neck](https://training.seer.cancer.gov/anatomy/muscular/groups/head_neck.html), Free of copyright (NCI reuse policy))
+
+#### Manubrium: Plain (drafted; grade 5.1; `content/FMA_7486/tier1.md`)
+
+1. The manubrium forms joints with the clavicles, or collarbones, and the first ribs attach to it. *(defines “clavicle”)*
+   > “The manubrium forms the expanded, superior end of the sternum. It has a jugular (suprasternal) notch, a pair of clavicular notches for articulation with the clavicles, and receives the costal cartilage of the first rib.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “clavicle: collarbone; elongated bone that articulates with the manubrium of the sternum medially and the acromion of the scapula laterally” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. It is the wide top part of the sternum, or breastbone. *(defines “sternum”)*
+   > “The manubrium is the wider, superior portion of the sternum.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+3. The manubrium's top edge has a shallow notch you can feel at the base of the neck.
+   > “The top of the manubrium has a shallow, U-shaped border called the jugular (suprasternal) notch. This can be easily felt at the anterior base of the neck, between the medial ends of the clavicles.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+4. The manubrium meets the long middle part of the sternum at a slight bend.
+   > “The elongated, central portion of the sternum is the body. The manubrium and body join together at the sternal angle, so called because the junction between these two components is not flat, but forms a slight bend.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+
+#### Metacarpal bone: Plain (drafted; grade 5.4; `content/FMA_9612/tier1.md`; also First metacarpal bone, Second metacarpal bone, Third metacarpal bone, Fourth metacarpal bone, Fifth metacarpal bone, Right first metacarpal bone, Left first metacarpal bone, Right second metacarpal bone, Left second metacarpal bone, Right third metacarpal bone, Left third metacarpal bone, Right fourth metacarpal bone, Left fourth metacarpal bone, Right fifth metacarpal bone, Left fifth metacarpal bone)
+
+1. Each metacarpal bone is one of five bones that form the palm of the hand. *(defines “metacarpal bone”)*
+   > “metacarpal bone: one of the five long bones that form the palm of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The metacarpal bones lie between the wrist bones and the finger and thumb bones.
+   > “The palm of the hand contains five elongated metacarpal bones. These bones lie between the carpal bones of the wrist and the bones of the fingers and thumb” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+3. Each metacarpal bone ends in a knuckle that joins a thumb or finger bone.
+   > “The expanded distal end of each metacarpal bone articulates at the metacarpophalangeal joint with the proximal phalanx bone of the thumb or one of the fingers. The distal end also forms the knuckles of the hand, at the base of the fingers.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+4. The metacarpal bones are numbered 1 to 5, starting at the thumb.
+   > “The metacarpal bones are numbered 1–5, beginning at the thumb.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
 #### Metatarsal bone: Plain (drafted; grade 4; `content/FMA_24492/tier1.md`; also First metatarsal bone, Second metatarsal bone, Third metatarsal bone, Fourth metatarsal bone, Fifth metatarsal bone, Right first metatarsal bone, Left first metatarsal bone, Right second metatarsal bone, Left second metatarsal bone, Right third metatarsal bone, Left third metatarsal bone, Right fourth metatarsal bone, Left fourth metatarsal bone, Right fifth metatarsal bone, Left fifth metatarsal bone)
 
 1. The front ends of the metatarsal bones rest on the ground and form the ball of the foot.
@@ -1427,6 +1651,58 @@ Dropped:
    > “metatarsal bone: one of the five elongated bones that forms the anterior half of the foot; numbered 1–5, starting on the medial side of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
 4. At its front end, each one forms a joint with a toe.
    > “The metatarsal heads, at their distal ends, articulate with the proximal phalanges of the toes.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Nasal bone: Plain (drafted; grade 6; `content/FMA_52745/tier1.md`; also Right nasal bone, Left nasal bone)
+
+1. Each nasal bone joins its partner to form the bony bridge of the nose.
+   > “The nasal bone is one of two small bones that articulate (join) with each other to form the bony base (bridge) of the nose.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+2. The two nasal bones sit side by side in the upper middle of the face.
+   > “One of two small oblong bones placed side by side at the middle and upper part of the face.” ([NCIT:C33157 Nasal Bone](http://purl.obolibrary.org/obo/NCIT_C33157), CC BY 4.0)
+3. The nasal bones also support cartilage, a firm but flexible tissue, along the sides of the nose. *(defines “cartilage”)*
+   > “The nasal bone is one of two small bones that articulate (join) with each other to form the bony base (bridge) of the nose. They also support the cartilages that form the lateral walls of the nose” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+
+#### Occipital bone: Plain (drafted; grade 6.2; `content/FMA_52735/tier1.md`)
+
+1. The occipital bone forms the back of the brain case, which holds and protects the brain. *(defines “brain case”)*
+   > “occipital bone: unpaired bone that forms the posterior portions of the brain case and base of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “brain case: portion of the skull that contains and protects the brain, consisting of the eight bones that form the cranial base and rounded upper skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The occipital bone also forms part of the base of the skull.
+   > “The trapezoidal-shaped bone that forms the back and part of the base of the skull.” ([NCIT:C12757 Occipital Bone](http://purl.obolibrary.org/obo/NCIT_C12757), CC BY 4.0)
+3. There, a large hole called the foramen magnum lets the spinal cord leave the skull. *(defines “foramen magnum”)*
+   > “On the base of the skull, the occipital bone contains the large opening of the foramen magnum, which allows for passage of the spinal cord as it exits the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “foramen magnum: large opening in the occipital bone of the skull through which the spinal cord emerges and the vertebral arteries enter the cranium” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. Oval knobs beside this hole hold the skull on top of the vertebral column, or backbone. *(defines “vertebral column”)*
+   > “On either side of the foramen magnum is an oval-shaped occipital condyle. These condyles form joints with the first cervical vertebra and thus support the skull on top of the vertebral column.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “vertebral column: series of separate bones joined together as a backbone” ([Chapter 29 Key Terms (Vertebrates)](https://openstax.org/books/biology-2e/pages/29-key-terms), CC BY 4.0)
+
+#### Palatine bone: Plain (drafted; grade 6.3; `content/FMA_52746/tier1.md`; also Right palatine bone, Left palatine bone)
+
+1. Each palatine bone helps form the hard palate, the bony roof of the mouth. *(defines “hard palate”)*
+   > “palatine bone: paired bones that form the posterior quarter of the hard palate and a small area in floor of the orbit” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “hard palate: bony structure that forms the roof of the mouth and floor of the nasal cavity, formed by the palatine process of the maxillary bones and the horizontal plate of the palatine bones” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Together, the right and left palatine bones form the back quarter of the hard palate.
+   > “The plates from the right and left palatine bones join together at the midline to form the posterior quarter of the hard palate” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+3. Each palatine bone lies at the back of the nasal cavity, the inside of the nose. *(defines “nasal cavity”)*
+   > “An irregularly shaped bone positioned at the back part of the nasal cavity between the maxilla and the pterygoid process of the sphenoid.” ([NCIT:C52745 Palatine Bone](http://purl.obolibrary.org/obo/NCIT_C52745), CC BY 4.0)
+   > “When discussing the nose, it is helpful to divide it into two major sections: the external nose, and the nasal cavity or internal nose.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+4. Each palatine bone also forms a small part of the floor of the orbit, or eye socket. *(defines “orbit”)*
+   > “palatine bone: paired bones that form the posterior quarter of the hard palate and a small area in floor of the orbit” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Parietal bone: Plain (drafted; grade 4.1; `content/FMA_9613/tier1.md`; also Right parietal bone, Left parietal bone)
+
+1. The parietal bones belong to the brain case, which holds and protects the brain. *(defines “brain case”)*
+   > “The brain case is formed by eight bones, the paired parietal and temporal bones plus the unpaired frontal, occipital, sphenoid, and ethmoid bones.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “brain case: portion of the skull that contains and protects the brain, consisting of the eight bones that form the cranial base and rounded upper skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The right and left parietal bones meet at the top of the skull.
+   > “These are paired bones, with the right and left parietal bones joining together at the top of the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+3. The joint where they meet is the sagittal suture, which does not move. *(defines “sagittal suture”)*
+   > “sagittal suture: joint that unites the right and left parietal bones at the midline along the top of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “A suture is an immobile joint between adjacent bones of the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+
+Dropped:
+- “Each parietal bone forms most of the upper side of the skull.” (checker: The quote says the parietal bone forms most of the upper LATERAL side of the skull, meaning the upper part of each side. Without 'lateral', 'the upper side of the skull' reads as the top of the skull, a place the quote does not give, and 'each ... forms most of' the top is not stated.)
 
 #### Patella: Plain (drafted; grade 5.9; `content/FMA_24485/tier1.md`; also Right patella, Left patella)
 
@@ -1440,6 +1716,279 @@ Dropped:
    > “A small flat triangular bone in front of the knee that articulates with the femur and protects the knee joint.” ([NCIT:C33282 Patella](http://purl.obolibrary.org/obo/NCIT_C33282), CC BY 4.0)
 4. It also lifts the tendon away from the knee joint, which gives the muscle more leverage.
    > “The patella also lifts the tendon away from the knee joint, which increases the leverage power of the quadriceps femoris muscle as it acts across the knee.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Pelvic girdle: Plain (drafted; grade 7.1; `content/FMA_16581/tier1.md`; also Right pelvic girdle, Left pelvic girdle)
+
+1. The pelvic girdle attaches a lower limb to the axial skeleton, the bones of the head and trunk. *(defines “axial skeleton”)*
+   > “The pelvic girdle, consisting of a hip bone, serves to attach a lower limb to the axial skeleton.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+   > “The adult axial skeleton consists of 80 bones that form the head and body trunk.” ([Chapter 8 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-introduction), CC BY 4.0)
+2. The pelvic girdle, also called the hip girdle, is formed by a single bone, the hip bone.
+   > “The pelvic girdle (hip girdle) is formed by a single bone, the hip bone or coxal bone (coxal = “hip”), which serves as the attachment point for each lower limb.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+3. Built to steady and support the body, the pelvic girdle moves very little.
+   > “There is very little movement of the pelvic girdle because of its connection with the sacrum at the base of the axial skeleton. The pelvic girdle has less range of motion because it was designed to stabilize and support the body.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+4. Most muscles that attach to and move the femur, or thigh bone, start on the pelvic girdle. *(defines “femur”)*
+   > “Most muscles that insert on the femur (the thigh bone) and move it, originate on the pelvic girdle.” ([11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs), CC BY 4.0)
+
+#### Pisiform: Plain (drafted; grade 6.7; `content/FMA_23718/tier1.md`; also Right pisiform, Left pisiform)
+
+1. Each pisiform helps anchor a strong ligament that holds the wrist bones in a U-shaped group.
+   > “A strong ligament called the flexor retinaculum spans the top of this U-shaped area to maintain this grouping of the carpal bones. The flexor retinaculum is attached laterally to the trapezium and scaphoid bones, and medially to the hamate and pisiform bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+2. A muscle that moves the little finger away from the body also attaches to the pisiform.
+   > “Hypothenar muscles | Moves little finger away from body | Little finger | Abduction | Abductor digiti minimi | Pisiform bone | Medial side of proximal phalanx of little finger” ([11.5 Muscles of the Pectoral Girdle and Upper Limbs](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs), CC BY 4.0)
+3. The pisiform is one of eight carpal bones, the small bones of the wrist. *(defines “carpal bone”)*
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand; these are grouped as a proximal row consisting of (from lateral to medial) the scaphoid, lunate, triquetrum, and pisiform bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The pisiform sticks out forward, forming a bony bump you can feel at the base of your hand.
+   > “The pisiform thus projects anteriorly, where it forms the bony bump that can be felt at the medial base of your hand.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Radius: Plain (drafted; grade 6.7; `content/FMA_23463/tier1.md`; also Right radius, Left radius)
+
+1. Each radius joins two wrist bones to form the wrist joint.
+   > “The distal end of the radius has a smooth surface for articulation with two carpal bones to form the radiocarpal joint or wrist joint” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+2. Rotating the radius turns the palm from facing forward to facing backward, a movement called pronation. *(defines “pronation”)*
+   > “Pronation is the motion that moves the forearm from the supinated (anatomical) position to the pronated (palm backward) position. This motion is produced by rotation of the radius at the proximal radioulnar joint, accompanied by movement of the radius at the distal radioulnar joint.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+   > “pronation: forearm motion that moves the palm of the hand from the palm forward to the palm backward position” ([Chapter 9 Key Terms (Joints)](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-key-terms), CC BY 4.0)
+3. Supination is the opposite: the radius rotates back, and the palm faces forward again. *(defines “supination”)*
+   > “Supination is the opposite motion, in which rotation of the radius returns the bones to their parallel positions and moves the palm to the anterior facing (supinated) position.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+4. The forearm has two bones, and the radius is the one on the thumb side.
+   > “The forearm extends from the elbow to the wrist and consists of two bones: the ulna and the radius. The radius is located along the lateral (thumb) side of the forearm and articulates with the humerus at the elbow.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+
+#### Rib: Plain (drafted; grade 2.7; `content/FMA_7574/tier1.md`; also First rib, Second rib, Third rib, Fourth rib, Fifth rib, Seventh rib, Right first rib, Right second rib, Right third rib, Right fourth rib, Left first rib, Left second rib, Left third rib, Right fifth rib, Left fifth rib, Eighth rib, Sixth rib, Left fourth rib, Right sixth rib, Left sixth rib, Right seventh rib, Left seventh rib, Right eighth rib, Left eighth rib, Ninth rib, Right ninth rib, Left ninth rib, Tenth rib, Right tenth rib, Left tenth rib, Eleventh rib, Twelfth rib, Right eleventh rib, Left eleventh rib, Right twelfth rib, Left twelfth rib)
+
+1. Each rib helps form the rib cage, which protects the heart and lungs.
+   > “The thoracic cage (rib cage) forms the thorax (chest) portion of the body. It consists of the 12 pairs of ribs with their costal cartilages and the sternum (). The ribs are anchored posteriorly to the 12 thoracic vertebrae (T1–T12). The thoracic cage protects the heart and lungs.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+2. Each rib is a thin, curved bone of the chest wall.
+   > “ribs: thin, curved bones of the chest wall” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. At the back, the ribs join the vertebrae, the bones that make up the backbone. *(defines “vertebrae”)*
+   > “The ribs articulate posteriorly with the T1–T12 thoracic vertebrae” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “vertebrae—a series of separate, irregularly shaped bones joined together to form a backbone” ([29.1 Chordates](https://openstax.org/books/biology-2e/pages/29-1-chordates), CC BY 4.0)
+4. At the front, most ribs attach to the sternum, or breastbone. *(defines “sternum”)*
+   > “The ribs articulate posteriorly with the T1–T12 thoracic vertebrae, and most attach anteriorly via their costal cartilages to the sternum.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “The sternum, or breastbone, is a long, flat bone located at the anterior of the chest.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+
+#### Sacrum: Plain (drafted; grade 4.3; `content/FMA_16202/tier1.md`)
+
+1. The sacrum firmly links each hip bone to the spine.
+   > “Each hip bone, in turn, is firmly joined to the axial skeleton via its attachment to the sacrum of the vertebral column.” ([8.3 The Pelvic Girdle and Pelvis](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis), CC BY 4.0)
+2. The sacrum forms the back of the pelvis, a ring of bone that includes the hip bones. *(defines “pelvis”)*
+   > “sacrum: single bone located near the inferior end of the adult vertebral column that is formed by the fusion of five sacral vertebrae; forms the posterior portion of the pelvis” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “pelvis: ring of bone consisting of the right and left hip bones, the sacrum, and the coccyx” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. Low in the spine, the sacrum is a triangular bone made of five bones fused into one.
+   > “The triangular bone, made up of 5 fused bones of the spine, located in the lower area of the spine between the fifth lumbar vertebra and the coccyx.” ([NCIT:C33508 Sacrum](http://purl.obolibrary.org/obo/NCIT_C33508), CC BY 4.0)
+4. The sacrum's wide top bears weight, but its narrow bottom tip does not.
+   > “The sacrum is a triangular-shaped bone that is thick and wide across its superior base where it is weight bearing and then tapers down to an inferior, non-weight bearing apex” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Scaphoid: Plain (drafted; grade 4.8; `content/FMA_23709/tier1.md`; also Right scaphoid, Left scaphoid)
+
+1. Each scaphoid helps form the wrist joint with the radius, the forearm bone on the thumb side. *(defines “radius”)*
+   > “wrist joint, located between the forearm and hand regions of the upper limb; articulation formed proximally by the distal end of the radius and the fibrocartilaginous pad that unites the distal radius and ulna bone, and distally by the scaphoid, lunate, and triquetrum carpal bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “radius: bone located along the lateral (thumb) side of the forearm” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. The scaphoid also helps anchor a strong ligament that holds the wrist bones in a U-shaped group.
+   > “A strong ligament called the flexor retinaculum spans the top of this U-shaped area to maintain this grouping of the carpal bones. The flexor retinaculum is attached laterally to the trapezium and scaphoid bones, and medially to the hamate and pisiform bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+3. The scaphoid is one of eight carpal bones, the small bones of the wrist. *(defines “carpal bone”)*
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand; these are grouped as a proximal row consisting of (from lateral to medial) the scaphoid, lunate, triquetrum, and pisiform bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The name scaphoid means “boat-shaped,” and this bone sits on the thumb side of the wrist.
+   > “The bones in the proximal row, running from the lateral (thumb) side to the medial side, are the scaphoid (“boat-shaped”), lunate (“moon-shaped”), triquetrum (“three-cornered”), and pisiform (“pea-shaped”) bones.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Scapula: Plain (drafted; grade 5.8; `content/FMA_13394/tier1.md`; also Right scapula, Left scapula)
+
+1. Each scapula, or shoulder blade, helps anchor the arm to the body. *(defines “scapula”)*
+   > “The scapula is also part of the pectoral girdle and thus plays an important role in anchoring the upper limb to the body.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+   > “scapula: shoulder blade bone located on the posterior side of the shoulder” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The scapula joins the humerus, or arm bone, to form the shoulder joint. *(defines “humerus”)*
+   > “It is supported by the clavicle and articulates with the humerus (arm bone) to form the shoulder joint.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+3. Muscles that move the shoulder and arm attach to the scapula.
+   > “Both of these bones serve as important attachment sites for muscles that aid with movements of the shoulder and arm.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+4. The scapula is a flat, triangular bone with a raised ridge across the back of the bone.
+   > “The scapula is a flat, triangular-shaped bone with a prominent ridge running across its posterior surface.” ([8.1 The Pectoral Girdle](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle), CC BY 4.0)
+
+#### Skull: Plain (drafted; grade 3.6; `content/FMA_46565/tier1.md`)
+
+1. The skull protects the brain and supports the face.
+   > “The cranium (skull) is the skeletal structure of the head that supports the face and protects the brain.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+2. The skull is made of 22 bones that form the head, face and jaws.
+   > “skull: bony structure that forms the head, face, and jaws, and protects the brain; consists of 22 bones” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. In adults, 21 of these bones are locked into one unit, but the lower jaw can move.
+   > “In the adult, the skull consists of 22 individual bones, 21 of which are immobile and united into a single unit. The 22nd bone is the mandible (lower jaw), which is the only moveable bone of the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+4. The locked bones meet at sutures, fixed joints filled with dense, fibrous tissue. *(defines “suture”)*
+   > “A suture is an immobile joint between adjacent bones of the skull. The narrow gap between the bones is filled with dense, fibrous connective tissue that unites the bones.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+
+#### Sphenoid bone: Plain (drafted; grade 4.8; `content/FMA_52736/tier1.md`)
+
+1. The sphenoid bone joins with most of the other bones of the skull.
+   > “The sphenoid bone joins with most other bones of the skull.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+2. Shaped like a butterfly, the sphenoid bone lies at the base of the skull.
+   > “The butterfly-shaped bone located at the base of the skull that helps to form the orbit of the eye.” ([NCIT:C12790 Sphenoid Bone](http://purl.obolibrary.org/obo/NCIT_C12790), CC BY 4.0)
+3. A groove in the sphenoid bone holds the pituitary gland, a small organ that makes hormones. *(defines “pituitary gland”)*
+   > “The pituitary gland, sometimes called the hypophysis or “master gland” is located at the base of the brain in the sella turcica, a groove of the sphenoid bone of the skull” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “pituitary gland: bean-sized organ suspended from the hypothalamus that produces, stores, and secretes hormones in response to hypothalamic stimulation (also called hypophysis)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+4. The sphenoid bone also forms the back of each orbit, or eye socket. *(defines “orbit”)*
+   > “The ethmoid bone and lacrimal bone make up much of the medial wall and the sphenoid bone forms the posterior orbit.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Sternum: Plain (drafted; grade 4; `content/FMA_7485/tier1.md`)
+
+1. The sternum, or breastbone, anchors the front of the rib cage. *(defines “sternum”)*
+   > “The sternum is the elongated bony structure that anchors the anterior thoracic cage.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “The sternum, or breastbone, is a long, flat bone located at the anterior of the chest.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+2. This long, flat bone is formed from three bones that fuse in adults.
+   > “The sternum, or breastbone, is a long, flat bone located at the anterior of the chest. It is formed from three bones that fuse in the adult.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+3. The clavicles, or collarbones, and the first seven ribs connect to the sternum. *(defines “clavicle”)*
+   > “The long, flat bone connecting with the cartilages of the first seven ribs and the clavicle.” ([NCIT:C12793 Sternum](http://purl.obolibrary.org/obo/NCIT_C12793), CC BY 4.0)
+   > “clavicle: collarbone; elongated bone that articulates with the manubrium of the sternum medially and the acromion of the scapula laterally” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. The front of the heart sits behind the sternum.
+   > “The dorsal surface of the heart lies near the bodies of the vertebrae, and its anterior surface sits deep to the sternum and costal cartilages.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+
+#### Talus: Plain (drafted; grade 5.6; `content/FMA_9708/tier1.md`; also Right talus, Left talus)
+
+1. The talus receives the body's weight from the tibia, or shin bone. *(defines “tibia”)*
+   > “The talus bone of the foot receives the weight of the body from the tibia.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. The talus passes this weight backward to the calcaneus, or heel bone, and forward through the foot. *(defines “calcaneus”)*
+   > “The talus bone thus transmits body weight posteriorly to the calcaneus and anteriorly through the navicular, cuneiform, and cuboid bones, and metatarsals one through five.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “calcaneus: heel bone; posterior, inferior tarsal bone that forms the heel of the foot” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+3. Seven tarsal bones form the back half of the foot, and the talus is the highest. *(defines “tarsal bone”)*
+   > “The posterior half of the foot is formed by seven tarsal bones (). The most superior bone is the talus.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “tarsal bone: one of the seven bones that make up the posterior foot; includes the calcaneus, talus, navicular, cuboid, medial cuneiform, intermediate cuneiform, and lateral cuneiform bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. At the ankle joint, the talus meets the tibia and the fibula, a thin leg bone. *(defines “fibula”)*
+   > “talus: tarsal bone that articulates superiorly with the tibia and fibula at the ankle joint” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “fibula: thin, non-weight-bearing bone found on the lateral side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Temporal bone: Plain (drafted; grade 6.5; `content/FMA_52737/tier1.md`; also Right temporal bone, Left temporal bone)
+
+1. Each temporal bone helps form the brain case, the part of the skull that surrounds and protects the brain. *(defines “brain case”)*
+   > “The brain case surrounds and protects the brain, which occupies the cranial cavity inside the skull. It consists of the rounded calvaria and a complex base. The brain case is formed by eight bones, the paired parietal and temporal bones” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “brain case: portion of the skull that contains and protects the brain, consisting of the eight bones that form the cranial base and rounded upper skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Each temporal bone forms the lower part of one side of the skull.
+   > “temporal bone: paired bones that form the lateral, inferior portions of the skull, with squamous, mastoid, and petrous portions” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Inside each temporal bone is the inner ear, which contains the sense organs for hearing and balance. *(defines “inner ear”)*
+   > “inner ear: structure within the temporal bone that contains the sensory apparati of hearing and balance” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+4. The mandible, or lower jaw, joins each temporal bone at a joint that lets the mouth open and close. *(defines “mandible”)*
+   > “The condyle of the mandible articulates (joins) with the mandibular fossa and articular tubercle of the temporal bone. Together these articulations form the temporomandibular joint, which allows for opening and closing of the mouth” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “mandible: unpaired bone that forms the lower jaw bone; the only moveable bone of the skull” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Thoracic vertebra: Plain (drafted; grade 6.3; `content/FMA_9139/tier1.md`; also First thoracic vertebra, Second thoracic vertebra, Third thoracic vertebra, Fourth thoracic vertebra, Fifth thoracic vertebra, Sixth thoracic vertebra, Seventh thoracic vertebra, Eighth thoracic vertebra, Ninth thoracic vertebra, Tenth thoracic vertebra, Eleventh thoracic vertebra, Twelfth thoracic vertebra)
+
+1. Each thoracic vertebra is a spine bone that anchors ribs at the back of the chest. *(defines “vertebra”)*
+   > “The thoracic cage (rib cage) forms the thorax (chest) portion of the body. It consists of the 12 pairs of ribs with their costal cartilages and the sternum (). The ribs are anchored posteriorly to the 12 thoracic vertebrae (T1–T12).” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. The twelve thoracic vertebrae, numbered T1 to T12, sit in the upper back.
+   > “thoracic vertebrae: twelve vertebrae numbered as T1–T12 that are located in the thoracic region (upper back) of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Thoracic vertebrae have facets, small flat spots where the ribs are attached. *(defines “facet”)*
+   > “Thoracic vertebrae have several additional articulation sites, each of which is called a facet, where a rib is attached.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “facet: small, flattened area on a bone for an articulation (joint) with another bone, or for muscle attachment” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The thoracic vertebrae are part of the rib cage, which protects the heart and lungs.
+   > “The thoracic cage, also known as the ribcage, is the skeleton of the chest, and consists of the ribs, sternum, thoracic vertebrae, and costal cartilages (). The thoracic cage encloses and protects the organs of the thoracic cavity, including the heart and lungs.” ([38.1 Types of Skeletal Systems](https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems), CC BY 4.0)
+
+#### Thyroid cartilage: Plain (drafted; grade 7.2; `content/FMA_55099/tier1.md`)
+
+1. The thyroid cartilage forms the front of the larynx, or voice box. *(defines “larynx”)*
+   > “Three large cartilage pieces—the thyroid cartilage (anterior), epiglottis (superior), and cricoid cartilage (inferior)—form the major structure of the larynx.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “larynx: voice box, a short passageway connecting the pharynx and the trachea” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+2. The thyroid cartilage is the larynx's largest piece of cartilage, a firm but flexible tissue. *(defines “cartilage”)*
+   > “The thyroid cartilage is the largest piece of cartilage that makes up the larynx.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “cartilage: semi-rigid connective tissue found on the skeleton in areas where flexibility and smooth surfaces support movement” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+3. Two plates of the thyroid cartilage join to form a bump called the Adam's apple.
+   > “laryngeal prominence: region where the two lamine of the thyroid cartilage join, forming a protrusion known as “Adam’s apple”” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+4. The vocal cords, the folds that vibrate to make sound, are attached to the thyroid cartilage. *(defines “vocal cords”)*
+   > “A true vocal cord is one of the white, membranous folds attached by muscle to the thyroid and arytenoid cartilages of the larynx on their outer edges.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “true vocal cord: one of the pair of folded, white membranes that have a free inner edge that oscillates as air passes through to produce sound” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+
+#### Tibia: Plain (drafted; grade 4.9; `content/FMA_24476/tier1.md`; also Right tibia, Left tibia)
+
+1. The tibia, or shin bone, is the main weight-bearing bone of the lower leg. *(defines “tibia”)*
+   > “The tibia is the main weight-bearing bone of the lower leg and the second longest bone of the body, after the femur.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “tibia: shin bone; the large, weight-bearing bone located on the medial side of the leg” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. Along the inner side of the leg, you can feel the tibia just under the skin.
+   > “The medial side of the tibia is located immediately under the skin, allowing it to be easily palpated down the entire length of the medial leg.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+3. The top of the tibia meets the femur, or thigh bone, to form the knee joint. *(defines “femur”)*
+   > “The proximal tibia consists of the expanded medial and lateral condyles, which articulate with the medial and lateral condyles of the femur to form the knee joint.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+   > “femur: thigh bone; the single bone of the thigh” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+4. At the ankle, the bottom of the tibia meets the talus, a bone of the foot. *(defines “talus”)*
+   > “Both the smooth surface on the inside of the medial malleolus and the smooth area at the distal end of the tibia articulate with the talus bone of the foot as part of the ankle joint.” ([8.4 Bones of the Lower Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb), CC BY 4.0)
+
+#### Trapezium: Plain (drafted; grade 5.4; `content/FMA_23721/tier1.md`; also Right trapezium, Left trapezium)
+
+1. The trapezium forms part of the joint that lets the thumb tip touch a fingertip.
+   > “Opposition is the thumb movement that brings the tip of the thumb in contact with the tip of a finger. This movement is produced at the first carpometacarpal joint, which is a saddle joint formed between the trapezium carpal bone and the first metacarpal bone.” ([9.5 Types of Body Movements](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements), CC BY 4.0)
+2. At the base of the thumb, the bones of this joint fit together like a rider and a saddle.
+   > “At a saddle joint, the articulating bones fit together like a rider and a saddle. An example is the first carpometacarpal joint located at the base of the thumb.” ([9.4 Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints), CC BY 4.0)
+3. The trapezium is a carpal bone, a small wrist bone, on the thumb side of the hand. *(defines “carpal bone”)*
+   > “A carpal bone on the thumb side of the hand that articulates with the 1st and 2nd metacarpals.” ([NCIT:C12857 Trapezial Bone](http://purl.obolibrary.org/obo/NCIT_C12857), CC BY 4.0)
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+
+#### Trapezoid: Plain (drafted; grade 7.8; `content/FMA_23724/tier1.md`; also Right trapezoid, Left trapezoid)
+
+1. The trapezoid is a small carpal bone that helps form the wrist and the base of the hand. *(defines “carpal bone”)*
+   > “trapezoid: from the lateral side, the second of the four distal carpal bones” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+   > “carpal bone: one of the eight small bones that form the wrist and base of the hand” ([Chapter 8 Key Terms (The Appendicular Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-key-terms), CC BY 4.0)
+2. Carpal bones give stability and support while allowing some limited motion.
+   > “The only short bones in the human skeleton are in the carpals of the wrists and the tarsals of the ankles. Short bones provide stability and support as well as some limited motion.” ([6.2 Bone Classification](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-2-bone-classification), CC BY 4.0)
+3. The trapezoid lies between the trapezium and the capitate, which are also carpal bones.
+   > “The distal row of carpal bones contains (from medial to lateral) the hamate, capitate, trapezoid, and trapezium bones” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+4. The trapezoid also forms a joint with the palm bone that connects to the index finger.
+   > “The second and the longest of five miniature long bones located in the palm of the hand, which articulates proximally with the trapezoid, trapezium, and capitate at the carpometacarpal joint and distally with the index finger phalanx at the metacarpophalangeal joint.” ([NCIT:C52795 Metacarpal Bone Digit 2](http://purl.obolibrary.org/obo/NCIT_C52795), CC BY 4.0)
+
+#### Ulna: Plain (drafted; grade 5.1; `content/FMA_23466/tier1.md`; also Right ulna, Left ulna)
+
+1. The ulna helps form the elbow joint, a hinge that lets the elbow bend and straighten.
+   > “This type of joint allows only for bending and straightening motions along a single axis, and thus hinge joints are functionally classified as uniaxial joints. A good example is the elbow joint, with the articulation between the trochlea of the humerus and the trochlear notch of the ulna.” ([9.4 Synovial Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints), CC BY 4.0)
+2. The bony tip of the elbow is part of the ulna.
+   > “The posterior and superior portions of the proximal ulna make up the olecranon process, which forms the bony tip of the elbow.” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+3. The ulna is the forearm bone on the pinky-finger side.
+   > “ulna: bone located on the medial aspect (pinky-finger side) of the forearm” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+4. The ulna runs parallel to the radius, the forearm bone on the thumb side. *(defines “radius”)*
+   > “The radius runs parallel to the ulna, on the lateral (thumb) side of the forearm” ([8.2 Bones of the Upper Limb](https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb), CC BY 4.0)
+
+#### Vertebra: Plain (drafted; grade 6.3; `content/FMA_9914/tier1.md`)
+
+1. A vertebra bears weight and protects the spinal cord.
+   > “A typical vertebra consists of an anterior body and a posterior vertebral arch. The body serves for weight bearing. The vertebral arch surrounds and protects the spinal cord.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+2. Each vertebra is one bone of the vertebral column, or spine, in the neck and back. *(defines “vertebral column”)*
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “The vertebral column is also known as the spinal column or spine” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+3. The spinal cord runs down the back through an opening in each vertebra.
+   > “It also protects the spinal cord, which passes down the back through openings in the vertebrae.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+4. Neighboring vertebrae are joined by intervertebral discs, pads that let the spine move. *(defines “intervertebral disc”)*
+   > “intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+
+#### Vertebral column: Plain (drafted; grade 7.2; `content/FMA_13478/tier1.md`)
+
+1. The vertebral column, or spine, supports the head and body and protects the spinal cord. *(defines “vertebral column”)*
+   > “Together, the vertebrae and intervertebral discs form the vertebral column. It is a flexible column that supports the head, neck, and body and allows for their movements. It also protects the spinal cord, which passes down the back through openings in the vertebrae.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+   > “The vertebral column is also known as the spinal column or spine” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+2. The spine is a series of bones, called vertebrae, that runs from the skull to the tailbone. *(defines “vertebrae”)*
+   > “vertebral column: entire sequence of bones that extend from the skull to the tailbone” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “vertebra: individual bone in the neck and back regions of the vertebral column” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+3. Pads called intervertebral discs sit between the vertebrae and let the spine move. *(defines “intervertebral disc”)*
+   > “intervertebral disc: structure located between the bodies of adjacent vertebrae that strongly joins the vertebrae; provides padding, weight bearing ability, and enables vertebral column movements” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+4. The adult spine has four curves, which add strength and flexibility and help absorb shock.
+   > “The adult vertebral column does not form a straight line, but instead has four curvatures along its length (see ). These curves increase the vertebral column’s strength, flexibility, and ability to absorb shock.” ([7.3 The Vertebral Column](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column), CC BY 4.0)
+
+#### Xiphoid process: Plain (drafted; grade 6.9; `content/FMA_7488/tier1.md`)
+
+1. The xiphoid process is where the diaphragm, the main breathing muscle, attaches at the front. *(defines “diaphragm”)*
+   > “To the sides of the tendon are the skeletal muscle portions of the diaphragm, which insert into the tendon while having a number of origins including the xiphoid process of the sternum anteriorly” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+   > “The diaphragm separating the thoracic and abdominal cavities is the primary muscle of breathing.” ([11.4 Axial Muscles of the Abdominal Wall, and Thorax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax), CC BY 4.0)
+2. The xiphoid process is the small tip at the bottom of the sternum, or breastbone. *(defines “sternum”)*
+   > “xiphoid process: small process that forms the inferior tip of the sternum” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+   > “sternum: (also, breastbone) long, flat bone located at the front of the chest” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+3. Early in life, the xiphoid process is made of cartilage, a tough but flexible tissue. *(defines “cartilage”)*
+   > “The inferior tip of the sternum is the xiphoid process. This small structure is cartilaginous early in life, but gradually becomes ossified starting during middle age.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+   > “As the name indicates, at a cartilaginous joint, the adjacent bones are united by cartilage, a tough but flexible type of connective tissue.” ([9.3 Cartilaginous Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-3-cartilaginous-joints), CC BY 4.0)
+4. But starting in middle age, the xiphoid process slowly turns into bone.
+   > “The inferior tip of the sternum is the xiphoid process. This small structure is cartilaginous early in life, but gradually becomes ossified starting during middle age.” ([7.4 The Thoracic Cage](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-4-the-thoracic-cage), CC BY 4.0)
+
+#### Zygomatic bone: Plain (drafted; grade 8.6; `content/FMA_52747/tier1.md`; also Right zygomatic bone, Left zygomatic bone)
+
+1. Each zygomatic bone, or cheekbone, forms much of the outer wall of the orbit, the bony eye socket. *(defines “orbit”)*
+   > “The zygomatic bone is also known as the cheekbone. Each of the paired zygomatic bones forms much of the lateral wall of the orbit and the lateral-inferior margins of the anterior orbital opening” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “orbit: bony socket that contains the eyeball and associated muscles” ([Chapter 7 Key Terms (Axial Skeleton)](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-key-terms), CC BY 4.0)
+2. Each zygomatic bone also forms the front of the zygomatic arch, a bony bridge on the side of the skull. *(defines “zygomatic arch”)*
+   > “The short temporal process of the zygomatic bone projects posteriorly, where it forms the anterior portion of the zygomatic arch” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+   > “Separating these areas is the bridge of bone called the zygomatic arch. The zygomatic arch is the bony arch on the side of skull that spans from the area of the cheek to just above the ear canal.” ([7.2 The Skull](https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull), CC BY 4.0)
+
+Dropped:
+- “One of the main muscles used in biting and chewing starts on the zygomatic arch.” (checker: The quote is about the zygomatic arch, which the same passage says is formed by the zygomatic bone together with the temporal bone's longer zygomatic process; it never says the muscle arises from the zygomatic bone, so it describes a different structure.)
 
 ### Urinary
 

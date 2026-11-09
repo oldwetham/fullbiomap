@@ -6,9 +6,15 @@ Two parts:
 - **Fact cards** for every structure, cell type and organelle, built from the graph by code, with no AI writing.
 - **Written explanations** for the major structures, drafted and checked the way the morphology profiles were. Every sentence quotes an allowed source, and a sentence that can't be verified is dropped.
 
-This plan needs your approval before any code, downloads or agent runs. Four decisions are marked **Decision**, and section 7 estimates the usage.
+**Approved on 2026-11-08**, with these decisions:
+1. `cells` stays the base; main was fast-forwarded to `cells` and tagged v0.4.1.
+2. The 35 brain regions that are OpenStax key terms are included (Plain).
+3. SEER text is used, text only, credited to NCI; no SEER graphics.
+4. Plain must measure Flesch–Kincaid grade 10 or below, but a necessary technical term is never dropped to reach the number: it is kept and defined, and the sentences around it are made shorter and plainer instead.
 
-**Decision 1: base branch.**
+The pilot runs first; if it projects more than 25% over the estimate in section 7, the work stops for a decision.
+
+**Decision 1: base branch.** Decided: keep `cells`; main fast-forwarded to it and tagged v0.4.1.
 - You asked for `explanations` from main. Main is 14 commits behind `cells` and lacks what this plan builds on: the 70 morphology profiles and their workflow, the pinned OpenStax copies (step 09), figures and search.
 - Switching to main would also rewrite `public/` under your running dev server.
 - So I created `explanations` from `cells`; no files changed.
@@ -69,7 +75,7 @@ Built by step 11 into each content file (`facts`), in FMA's and HRA's own wordin
   - In all, about 440 texts cover roughly 1,000 structures.
 - **Exact lists first.** The selection script writes the lists to `reports/explanations.md` before any drafting, for you to check.
 
-**Decision 2: brain regions.**
+**Decision 2: brain regions.** Decided: include the 35.
 - The atlas's nervous system is mostly brain: 167 parts, 35 of them OpenStax key terms (cerebellum, hippocampus, hypothalamus, corpus callosum…).
 - They aren't in your list, and without them the nervous system gets only the brain, the spinal cord and three eye nerves.
 - Recommendation: include the 35 brain regions as Plain texts (adds about 1.5M tokens).
@@ -88,7 +94,7 @@ All local, pinned, read only from `data/build/sources/`, as for the profiles. Ag
 - **Quote check.** Step 09 checks every quote word for word against its file, as it does for profile claims. Step 12 rejects any source file outside these folders and any mention of Wikipedia.
 - **Credits.** Each explanation file lists the sources it quotes, with citations and licences, and the panel's credit line is built from them. The explanation text itself is original, CC BY 4.0. New sources go into `public/ATTRIBUTION.md` and the About panel in the same change.
 
-**Decision 3: SEER.** I could not confirm public-domain status on SEER's own pages.
+**Decision 3: SEER.** Decided: use SEER text only, credited to NCI, under NCI's policy (recorded in `pipeline/maps/seer.json`; step 09 stops if the policy page changes). I could not confirm public-domain status on SEER's own pages.
 - **What SEER's pages say:**
   - The module and topic pages (e.g. training.seer.cancer.gov/anatomy/urinary/components/kidney.html) carry no licence or copyright line, only a suggested citation: "SEER Training Modules: Kidneys. U.S. National Institutes of Health, National Cancer Institute."
   - SEER's policies page (seer.cancer.gov/policies/) and the training site's old citation page both return 404.
@@ -125,9 +131,10 @@ The same pipeline as the morphology profiles: one agent drafts, an independent a
    - Plain's reading level: the Flesch–Kincaid grade, computed by `pipeline/_readability.mjs` with one fixed formula and syllable counter for every text, so grades compare.
 4. **Repair, once.**
    - Failed sentences are dropped. A text that lost its lead sentence, fell below 2 sentences, reads badly after the drops, leaves a term undefined or measures above the grade limit gets one new draft and check.
+   - A repair for the grade limit keeps every technical term the text defined: it splits long sentences and plainer words go around the terms, never instead of them. Code checks that each defined term is still there.
    - If it still fails, it isn't published: the structure keeps its definition or fact card, and the report lists it with the reasons.
 
-**Decision 4: reading level.**
+**Decision 4: reading level.** Decided: grade 10 or below, without dropping necessary technical terms (see the repair rule below).
 - Recommendation: Plain must measure Flesch–Kincaid grade 10 or below (early high school; target 8–10).
 - Core's grade is reported but not limited.
 - The nine Human Atlas texts are exempt and untouched (the brain's measures 12.7).
@@ -170,7 +177,7 @@ The basis is the morphology run on `cells`: 71 cell types, 141 agents, 11.4M tok
 
 - About 3.3 times the morphology run.
 - Fact cards, the source step, the app and the validator use no agents, only ordinary session work.
-- **Pilot first.** Twelve subjects (2 organs, 2 cell types, 2 bones, 2 muscles, 2 vessels, 1 nerve, 1 organelle) run first, at about 2M tokens.
+- **Pilot first.** 2 organs and 2 cell types, and one full-size batch of each batched group (5 bones, 5 muscles, 5 vessels, the 3 nerves, 4 organelles, 5 brain regions), so batch costs are measured at the size the full run uses: 31 subjects, 20 agents, about 2.5M tokens. Its texts are kept as part of the run.
   - I report their actual tokens, pass rates and grades, with sample texts.
   - If the projection comes out more than 25% over this estimate, I stop and ask before the full run.
 

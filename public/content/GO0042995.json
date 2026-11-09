@@ -15,27 +15,118 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0042995/tier1.auto.md",
-   "text": "A prolongation or process extending from a cell, e.g. a flagellum or axon.",
+   "status": "drafted",
+   "file": "content/GO_0042995/tier1.md",
+   "text": "Cell processes are arms that reach out from a cell, and some join cells together. Bone cells called osteocytes use long processes to communicate with each other and get nutrients. Star-shaped support cells called astrocytes send processes out to nerve cells and blood vessels.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0042995",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042995",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0042995",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042995",
+     "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0042995 cell projection",
+     "url": "http://purl.obolibrary.org/obo/GO_0042995",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0042995. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Cell processes are arms that reach out from a cell, and some join cells together.",
+     "defines": "cell process",
+     "quotes": [
+      {
+       "quote": "As the name suggests, the stratum spinosum is spiny in appearance due to the protruding cell processes that join the cells via a structure called a desmosome.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A prolongation or process extending from a cell, e.g. a flagellum or axon.",
+       "section": "GO:0042995 cell projection",
+       "url": "http://purl.obolibrary.org/obo/GO_0042995",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Bone cells called osteocytes use long processes to communicate with each other and get nutrients.",
+     "defines": "osteocyte",
+     "quotes": [
+      {
+       "quote": "Like osteoblasts, osteocytes lack mitotic activity. They can communicate with each other and receive nutrients via long cytoplasmic processes that extend through canaliculi (singular = canaliculus), channels within the bone matrix.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "osteocyte: mature bone cells and the main cell in bone tissue",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Star-shaped support cells called astrocytes send processes out to nerve cells and blood vessels.",
+     "defines": "astrocyte",
+     "quotes": [
+      {
+       "quote": "Astrocytes have many processes extending from their main cell body (not axons or dendrites like neurons, just cell extensions). Those processes extend to interact with neurons, blood vessels, or the connective tissue covering the CNS that is called the pia mater ().",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "One cell providing support to neurons of the CNS is the astrocyte, so named because it appears to be star-shaped under the microscope",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,8 +138,28 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0042995",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042995",
+   "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0042995 cell projection",
+   "url": "http://purl.obolibrary.org/obo/GO_0042995",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+   "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
    "license": "CC BY 4.0"
   }
  ],

@@ -15,27 +15,90 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0014704/tier1.auto.md",
-   "text": "A complex cell-cell junction at which myofibrils terminate in cardiomyocytes; mediates mechanical and electrochemical integration between individual cardiomyocytes. The intercalated disc contains regions of tight mechanical attachment (fasciae adherentes and desmosomes) and electrical coupling (gap junctions) between adjacent cells.",
+   "status": "drafted",
+   "file": "content/GO_0014704/tier1.md",
+   "text": "Intercalated discs connect heart muscle cells end to end. The discs contain gap junctions, channels that let electrical current flow from cell to cell. The discs also contain desmosomes, anchors that keep the cells from pulling apart during contraction.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0014704",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0014704",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0014704",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0014704",
+     "title": "OpenStax Anatomy and Physiology 2e, 10.7 Cardiac Muscle Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0014704. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Intercalated discs connect heart muscle cells end to end.",
+     "quotes": [
+      {
+       "quote": "Cardiac muscle fibers cells also are extensively branched and are connected to one another at their ends by intercalated discs.",
+       "section": "10.7 Cardiac Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The discs contain gap junctions, channels that let electrical current flow from cell to cell.",
+     "defines": "gap junction",
+     "quotes": [
+      {
+       "quote": "Intercalated discs are part of the sarcolemma and contain two structures important in cardiac muscle contraction: gap junctions and desmosomes.",
+       "section": "10.7 Cardiac Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A gap junction forms channels between adjacent cardiac muscle fibers that allow the depolarizing current produced by cations to flow from one cardiac muscle cell to the next.",
+       "section": "10.7 Cardiac Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The discs also contain desmosomes, anchors that keep the cells from pulling apart during contraction.",
+     "defines": "desmosome",
+     "quotes": [
+      {
+       "quote": "Intercalated discs are part of the sarcolemma and contain two structures important in cardiac muscle contraction: gap junctions and desmosomes.",
+       "section": "10.7 Cardiac Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A desmosome is a cell structure that anchors the ends of cardiac muscle fibers together so the cells do not pull apart during the stress of individual fibers contracting",
+       "section": "10.7 Cardiac Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,8 +110,8 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0014704",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0014704",
+   "title": "OpenStax Anatomy and Physiology 2e, 10.7 Cardiac Muscle Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
    "license": "CC BY 4.0"
   }
  ],

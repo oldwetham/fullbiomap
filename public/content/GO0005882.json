@@ -13,27 +13,105 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0005882/tier1.auto.md",
-   "text": "A cytoskeletal structure that forms a distinct elongated structure, characteristically 10 nm in diameter, that occurs in the cytoplasm of eukaryotic cells. Intermediate filaments form a fibrous system, composed of chemically heterogeneous subunits and involved in mechanically integrating the various components of the cytoplasmic space. Intermediate filaments may be divided into five chemically distinct classes: Type I, acidic keratins; Type II, basic keratins; Type III, including desmin, vimentin and others; Type IV, neurofilaments and related filaments; and Type V, lamins.",
+   "status": "drafted",
+   "file": "content/GO_0005882/tier1.md",
+   "text": "Intermediate filaments help cells resist tension, the forces that pull cells apart. Each filament is made of long protein strands wound together like a rope. Several proteins can form these strands, and the best known is keratin, which strengthens hair, nails and skin. These filaments also hold parts of the cell in place and link neighboring cells together.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0005882",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0005882",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+     "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+     "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0005882. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Intermediate filaments help cells resist tension, the forces that pull cells apart.",
+     "defines": "tension",
+     "quotes": [
+      {
+       "quote": "Unlike the microtubules, which resist compression, intermediate filaments resist tension—the forces that pull apart cells.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each filament is made of long protein strands wound together like a rope.",
+     "quotes": [
+      {
+       "quote": "Intermediate filaments are made up of long fibrous subunits of a protein called keratin that are wound together like the threads that compose a rope.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Several proteins can form these strands, and the best known is keratin, which strengthens hair, nails and skin.",
+     "defines": "keratin",
+     "quotes": [
+      {
+       "quote": "Several fibrous protein types are in the intermediate filaments. You are probably most familiar with keratin, the fibrous protein that strengthens your hair, nails, and the skin's epidermis.",
+       "section": "4.5 The Cytoskeleton",
+       "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "keratin: type of structural protein that gives skin, hair, and nails its hard, water-resistant properties",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These filaments also hold parts of the cell in place and link neighboring cells together.",
+     "quotes": [
+      {
+       "quote": "Intermediate filaments help anchor organelles together within a cell and also link cells to other cells by forming special cell-to-cell junctions.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -45,8 +123,18 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0005882",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005882",
+   "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+   "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
    "license": "CC BY 4.0"
   }
  ],

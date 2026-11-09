@@ -13,27 +13,120 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0042470/tier1.auto.md",
-   "text": "A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells.",
+   "status": "drafted",
+   "file": "content/GO_0042470/tier1.md",
+   "text": "Melanosomes are where melanin, the pigment that colors skin and hair, is made and stored. Melanosomes form inside melanocytes, skin cells that make melanin. Melanosomes then carry melanin into keratinocytes, the main cells of the skin's outer layer. This transfer of melanin helps protect cells from UV rays.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0042470",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042470",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0042470",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042470",
+     "title": "Gene Ontology, GO:0042470 melanosome",
+     "url": "http://purl.obolibrary.org/obo/GO_0042470",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0042470. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Melanosomes are where melanin, the pigment that colors skin and hair, is made and stored.",
+     "defines": "melanin",
+     "quotes": [
+      {
+       "quote": "A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored.",
+       "section": "GO:0042470 melanosome",
+       "url": "http://purl.obolibrary.org/obo/GO_0042470",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "melanin: pigment that determines the color of hair and skin",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Melanosomes form inside melanocytes, skin cells that make melanin.",
+     "defines": "melanocyte",
+     "quotes": [
+      {
+       "quote": "Melanosomes are synthesized in melanocyte cells.",
+       "section": "GO:0042470 melanosome",
+       "url": "http://purl.obolibrary.org/obo/GO_0042470",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "melanocyte: cell found in the stratum basale of the epidermis that produces the pigment melanin",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Melanosomes then carry melanin into keratinocytes, the main cells of the skin's outer layer.",
+     "defines": "keratinocyte",
+     "quotes": [
+      {
+       "quote": "melanosome: intercellular vesicle that transfers melanin from melanocytes into keratinocytes of the epidermis",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This transfer of melanin helps protect cells from UV rays.",
+     "quotes": [
+      {
+       "quote": "Melanin is transferred to keratinocytes in the stratum spinosum to protect cells from UV rays.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -45,8 +138,18 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0042470",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042470",
+   "title": "Gene Ontology, GO:0042470 melanosome",
+   "url": "http://purl.obolibrary.org/obo/GO_0042470",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
    "license": "CC BY 4.0"
   }
  ],

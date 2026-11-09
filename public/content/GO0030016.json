@@ -13,27 +13,108 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0030016/tier1.auto.md",
-   "text": "The contractile element of skeletal and cardiac muscle; a long, highly organized bundle of actin, myosin, and other proteins that contracts by a sliding filament mechanism.",
+   "status": "drafted",
+   "file": "content/GO_0030016/tier1.md",
+   "text": "Myofibrils are the parts of skeletal muscle and heart muscle that contract. Each myofibril is a long rod that runs lengthwise inside a muscle cell. A myofibril is a row of many sarcomeres, the smallest contracting parts of a muscle. When the sarcomeres contract, the myofibril and the whole muscle cell shorten.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0030016",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030016",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0030016",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030016",
+     "title": "Gene Ontology, GO:0030016 myofibril",
+     "url": "http://purl.obolibrary.org/obo/GO_0030016",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 10.3 Muscle Fiber Contraction and Relaxation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 38.4 Muscle Contraction and Locomotion",
+     "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0030016. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Myofibrils are the parts of skeletal muscle and heart muscle that contract.",
+     "quotes": [
+      {
+       "quote": "The contractile element of skeletal and cardiac muscle",
+       "section": "GO:0030016 myofibril",
+       "url": "http://purl.obolibrary.org/obo/GO_0030016",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Each myofibril is a long rod that runs lengthwise inside a muscle cell.",
+     "quotes": [
+      {
+       "quote": "myofibril: long, cylindrical organelle that runs parallel within the muscle fiber and contains the sarcomeres",
+       "section": "Chapter 10 Key Terms (Muscle Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A myofibril is a row of many sarcomeres, the smallest contracting parts of a muscle.",
+     "defines": "sarcomere",
+     "quotes": [
+      {
+       "quote": "A myofibril is composed of many sarcomeres running along its length; thus, myofibrils and muscle cells contract as the sarcomeres contract.",
+       "section": "10.3 Muscle Fiber Contraction and Relaxation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A sarcomere is the smallest contractile portion of a muscle.",
+       "section": "10.3 Muscle Fiber Contraction and Relaxation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When the sarcomeres contract, the myofibril and the whole muscle cell shorten.",
+     "quotes": [
+      {
+       "quote": "A myofibril is composed of many sarcomeres running along its length, and as the sarcomeres individually contract, the myofibrils and muscle cells shorten",
+       "section": "38.4 Muscle Contraction and Locomotion",
+       "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -45,8 +126,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0030016",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030016",
+   "title": "Gene Ontology, GO:0030016 myofibril",
+   "url": "http://purl.obolibrary.org/obo/GO_0030016",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 10.3 Muscle Fiber Contraction and Relaxation",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 38.4 Muscle Contraction and Locomotion",
+   "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion",
    "license": "CC BY 4.0"
   }
  ],

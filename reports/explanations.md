@@ -10,7 +10,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | --- | --- | --- | --- | --- |
 | Organs | 48 | 1 of 39 | 2 of 48 | 90 |
 | Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
-| Organelles | 40 | 4 of 40 | 0 of 0 | 40 |
+| Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 5 of 49 | 0 of 0 | 210 |
 | Muscles | 106 | 5 of 106 | 0 of 0 | 304 |
 | Vessels | 90 | 5 of 90 | 0 of 0 | 206 |
@@ -146,46 +146,46 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Organelles (40)
 
-- Acrosome (GO:0001669): Plain: not written
-- Alpha granules (GO:0031091): Plain: not written
-- Apical dendrite (GO:0097440): Plain: not written
-- Axon (GO:0030424): Plain: not written
-- Cell body (GO:0044297): Plain: not written
-- Cell body (soma) (GO:0043025): Plain: not written
-- Cell membrane (GO:0005886): Plain: not written
-- Cell processes (GO:0042995): Plain: not written
-- Cilia (GO:0005929): Plain: not written
-- Cytoplasm (GO:0005737): Plain: not written
-- Cytoskeleton (GO:0005856): Plain: not written
-- Dendrites (GO:0030425): Plain: not written
-- Dense granules (GO:0042827): Plain: not written
-- Flagellum (GO:0036126): Plain: not written
-- Golgi apparatus (GO:0005794): Plain: not written
-- Inner segment (GO:0001917): Plain: not written
-- Intercalated discs (GO:0014704): Plain: not written
-- Intermediate filaments (keratin) (GO:0005882): Plain: not written
-- Intracellular canaliculi (GO:0046691): Plain: not written
-- Lipid droplet (GO:0005811): Plain: not written
-- Lysosomes (GO:0005764): Plain: not written
-- Melanosomes (GO:0042470): Plain: not written
-- Microvilli (GO:0005902): Plain: not written
+- Acrosome (GO:0001669): Plain: drafted, grade 6.1
+- Alpha granules (GO:0031091): Plain: drafted, grade 8.9
+- Apical dendrite (GO:0097440): Plain: not published (see below)
+- Axon (GO:0030424): Plain: drafted, grade 8.2
+- Cell body (GO:0044297): Plain: drafted, grade 7.2
+- Cell body (soma) (GO:0043025): Plain: drafted, grade 8.5
+- Cell membrane (GO:0005886): Plain: drafted, grade 8.4
+- Cell processes (GO:0042995): Plain: drafted, grade 7
+- Cilia (GO:0005929): Plain: drafted, grade 8.3
+- Cytoplasm (GO:0005737): Plain: drafted, grade 9
+- Cytoskeleton (GO:0005856): Plain: drafted, grade 8.8
+- Dendrites (GO:0030425): Plain: drafted, grade 6.7
+- Dense granules (GO:0042827): Plain: drafted, grade 6.8
+- Flagellum (GO:0036126): Plain: drafted, grade 7.6
+- Golgi apparatus (GO:0005794): Plain: drafted, grade 8.5
+- Inner segment (GO:0001917): Plain: drafted, grade 9.5
+- Intercalated discs (GO:0014704): Plain: drafted, grade 8.2
+- Intermediate filaments (keratin) (GO:0005882): Plain: drafted, grade 7.2
+- Intracellular canaliculi (GO:0046691): Plain: drafted, grade 8.7
+- Lipid droplet (GO:0005811): Plain: drafted, grade 7.6
+- Lysosomes (GO:0005764): Plain: drafted, grade 8.6
+- Melanosomes (GO:0042470): Plain: drafted, grade 9
+- Microvilli (GO:0005902): Plain: drafted, grade 9.4
 - Mitochondria (GO:0005739): Plain: drafted, grade 9
-- Myofibrils (GO:0030016): Plain: not written
-- Neurites (GO:0043005): Plain: not written
-- Nucleolus (GO:0005730): Plain: not written
+- Myofibrils (GO:0030016): Plain: drafted, grade 7.9
+- Neurites (GO:0043005): Plain: drafted, grade 7.1
+- Nucleolus (GO:0005730): Plain: drafted, grade 7.6
 - Nucleus (GO:0005634): Plain: drafted, grade 7.4
-- Outer segment (GO:0001750): Plain: not written
+- Outer segment (GO:0001750): Plain: drafted, grade 9.1
 - Peroxisomes (GO:0005777): Plain: drafted, grade 8.9
-- Pseudopodia (GO:0031143): Plain: not written
+- Pseudopodia (GO:0031143): Plain: drafted, grade 9.7
 - Ribosomes (GO:0005840): Plain: drafted, grade 7.8
-- Rough endoplasmic reticulum (GO:0005791): Plain: not written
-- Sarcoplasmic reticulum (GO:0016529): Plain: not written
-- Secretory granules (GO:0030141): Plain: not written
-- Smooth endoplasmic reticulum (GO:0005790): Plain: not written
-- Specific granules (GO:0042581): Plain: not written
-- Stereocilia (GO:0032420): Plain: not written
-- T tubules (GO:0030315): Plain: not written
-- Zona pellucida (GO:0035805): Plain: not written
+- Rough endoplasmic reticulum (GO:0005791): Plain: drafted, grade 7.8
+- Sarcoplasmic reticulum (GO:0016529): Plain: drafted, grade 9.2
+- Secretory granules (GO:0030141): Plain: drafted, grade 8.2
+- Smooth endoplasmic reticulum (GO:0005790): Plain: drafted, grade 8.2
+- Specific granules (GO:0042581): Plain: drafted, grade 9.7
+- Stereocilia (GO:0032420): Plain: drafted, grade 7.6
+- T tubules (GO:0030315): Plain: drafted, grade 8.3
+- Zona pellucida (GO:0035805): Plain: drafted, grade 9
 
 ### Bones and cartilages (49)
 
@@ -431,7 +431,7 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 - Splenic artery (FMA:14773): Plain: not written
 - Subclavian artery (FMA:3951; also Right subclavian artery, Left subclavian artery): Plain: not written
 - Subclavian vein (FMA:4725; also Right subclavian vein, Left subclavian vein): Plain: not written
-- Subscapular vein (FMA:23113; also Right subscapular vein, Left subscapular vein): Plain: not written
+- Subscapular vein (FMA:23113; also Right subscapular vein, Left subscapular vein): Plain: not published (see below)
 - Superior mesenteric artery (FMA:14749): Plain: not written
 - Superior vena cava (FMA:4720): Plain: not written
 - Testicular artery (FMA:14758; also Right testicular artery, Left testicular artery): Plain: not written
@@ -874,6 +874,294 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Organelles
 
+#### Acrosome: Plain (drafted; grade 6.1; `content/GO_0001669/tier1.md`)
+
+1. The acrosome helps a sperm enter and fertilize an egg.
+   > “This structure contains lysosomal enzymes that can digest the protective coverings that surround the egg to help the sperm penetrate and fertilize the egg.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+2. The acrosome is a cap that covers most of the sperm's head.
+   > “A structure called the acrosome covers most of the head of the sperm cell as a “cap” that is filled with lysosomal enzymes important for preparing sperm to participate in fertilization.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+3. This cap holds digestive enzymes, which are proteins that speed up chemical reactions. *(defines “enzyme”)*
+   > “the acrosome, the cap-like structure in the head of a sperm that contains the digestive enzymes needed for it to attach to and penetrate the oocyte.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+4. These enzymes break down the protective coverings around the egg.
+   > “This structure contains lysosomal enzymes that can digest the protective coverings that surround the egg to help the sperm penetrate and fertilize the egg.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Alpha granules: Plain (drafted; grade 8.9; `content/GO_0031091/tier1.md`)
+
+1. Alpha granules are tiny sacs, each wrapped in a membrane, that hold proteins and release them. *(defines “granule”)*
+   > “A secretory organelle found in blood platelets, which is unique in that it exhibits further compartmentalization and acquires its protein content via two distinct mechanisms” ([GO:0031091 platelet alpha granule](http://purl.obolibrary.org/obo/GO_0031091), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+2. These sacs sit inside platelets, small bits of cells that form a plug at wounds to stop bleeding. *(defines “platelet”)*
+   > “A secretory organelle found in blood platelets” ([GO:0031091 platelet alpha granule](http://purl.obolibrary.org/obo/GO_0031091), CC BY 4.0)
+   > “platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+3. Some alpha granule proteins are made mainly by megakaryocytes, the bone marrow cells that make platelets. *(defines “megakaryocyte”)*
+   > “acquires its protein content via two distinct mechanisms: (1) biosynthesis predominantly at the megakaryocyte (MK) level (with some vestigial platelet synthesis) (e.g. platelet factor 4) and (2) endocytosis and pinocytosis at both the MK and circulating platelet levels” ([GO:0031091 platelet alpha granule](http://purl.obolibrary.org/obo/GO_0031091), CC BY 4.0)
+   > “megakaryocyte: bone marrow cell that produces platelets” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+4. Other alpha granule proteins are taken in by endocytosis, which moves substances into a cell. *(defines “endocytosis”)*
+   > “acquires its protein content via two distinct mechanisms: (1) biosynthesis predominantly at the megakaryocyte (MK) level (with some vestigial platelet synthesis) (e.g. platelet factor 4) and (2) endocytosis and pinocytosis at both the MK and circulating platelet levels” ([GO:0031091 platelet alpha granule](http://purl.obolibrary.org/obo/GO_0031091), CC BY 4.0)
+   > “endocytosis: type of active transport that moves substances, including fluids and particles, into a cell” ([Chapter 5 Key Terms (Structure and Function of Plasma Membranes)](https://openstax.org/books/biology-2e/pages/5-key-terms), CC BY 4.0)
+
+#### Axon: Plain (drafted; grade 8.2; `content/GO_0030424/tier1.md`)
+
+1. The axon carries signals away from a neuron, or nerve cell, to other neurons, muscles or glands. *(defines “neuron”)*
+   > “a long tail called an axon, which relays signals away from the cell to other neurons, muscles, or glands.” ([4.5 Nervous Tissue Mediates Perception and Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-5-nervous-tissue-mediates-perception-and-response), CC BY 4.0)
+   > “The cells in nervous tissue that generate and conduct impulses are called neurons or nerve cells.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+2. A neuron usually has just one axon, which comes out of the cell body, the main part of the neuron. *(defines “cell body”)*
+   > “Neurons are usually described as having one, and only one, axon—a fiber that emerges from the cell body and projects to target cells.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “the main part of a neuron is the cell body, which is also known as the soma (soma = “body”).” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+3. Many axons are wrapped in myelin, a fatty coating that helps signals travel faster. *(defines “myelin”)*
+   > “myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+   > “myelin: fatty substance produced by glia that insulates axons” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. The axon ends in axon terminals, which release chemicals that pass the signal on to other cells. *(defines “axon terminal”)*
+   > “An axon is a tube-like structure that propagates the integrated signal to specialized endings called axon terminals. These terminals in turn synapse on other neurons, muscle, or target organs. Chemicals released at axon terminals allow signals to be communicated to these other cells.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+
+#### Cell body: Plain (drafted; grade 7.2; `content/GO_0044297/tier1.md`)
+
+1. The cell body holds the nucleus, which contains the cell's DNA. *(defines “nucleus”)*
+   > “The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.” ([GO:0044297 cell body](http://purl.obolibrary.org/obo/GO_0044297), CC BY 4.0)
+   > “nucleus: cell’s central organelle; contains the cell’s DNA” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+2. Extensions called processes reach out from the cell body, but they are not part of it. *(defines “process”)*
+   > “The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.” ([GO:0044297 cell body](http://purl.obolibrary.org/obo/GO_0044297), CC BY 4.0)
+   > “process: in cells, an extension of a cell body; in the case of neurons, this includes the axon and dendrites” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. Astrocytes, star-shaped cells that support nerve cells, have many processes reaching out from the main cell body. *(defines “astrocyte”)*
+   > “Astrocytes have many processes extending from their main cell body (not axons or dendrites like neurons, just cell extensions).” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “One cell providing support to neurons of the CNS is the astrocyte, so named because it appears to be star-shaped under the microscope (astro- = “star”).” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+4. By contrast, an oligodendrocyte, a cell that insulates nerve fibers, has just a few processes. *(defines “oligodendrocyte”)*
+   > “Also found in CNS tissue is the oligodendrocyte, sometimes called just “oligo,” which is the glial cell type that insulates axons in the CNS. The name means “cell of a few branches” (oligo- = “few”; dendro- = “branches”; -cyte = “cell”). There are a few processes that extend from the cell body.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+
+#### Cell body (soma): Plain (drafted; grade 8.5; `content/GO_0043025/tier1.md`)
+
+1. The cell body is the main part of a neuron, or nerve cell, and carries out the cell's general functions. *(defines “neuron”)*
+   > “The cells in nervous tissue that generate and conduct impulses are called neurons or nerve cells. These cells have three principal parts: the dendrites, the cell body, and one axon. The main part of the cell, the part that carries on the general functions, is the cell body.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+2. The cell body, also called the soma, holds the nucleus and most of the major organelles, the cell's small working parts. *(defines “organelles”)*
+   > “the main part of a neuron is the cell body, which is also known as the soma (soma = “body”). The cell body contains the nucleus and most of the major organelles.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+3. Extensions called dendrites carry signals to the cell body. *(defines “dendrites”)*
+   > “Dendrites are extensions, or processes, of the cytoplasm that carry impulses to the cell body.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+4. Another extension, called an axon, carries signals away from the cell body. *(defines “axon”)*
+   > “An extension or process called an axon carries impulses away from the cell body.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+
+#### Cell membrane: Plain (drafted; grade 8.4; `content/GO_0005886/tier1.md`)
+
+1. The cell membrane, also called the plasma membrane, separates the inside of a cell from the outside.
+   > “the cell membrane (also known as the plasma membrane) separates the inner contents of a cell from its exterior environment” ([3.1 The Cell Membrane](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane), CC BY 4.0)
+2. The membrane forms a protective barrier around the cell and controls what passes in or out.
+   > “This cell membrane provides a protective barrier around the cell and regulates which materials can pass in or out.” ([3.1 The Cell Membrane](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane), CC BY 4.0)
+3. Two layers of phospholipids, molecules with a head and two tails, make up the membrane. *(defines “phospholipid”)*
+   > “The cell membrane consists of two adjacent layers of phospholipids.” ([3.1 The Cell Membrane](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane), CC BY 4.0)
+   > “A single phospholipid molecule has a phosphate group on one end, called the “head,” and two side-by-side chains of fatty acids that make up the lipid tails” ([3.1 The Cell Membrane](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane), CC BY 4.0)
+4. Membrane proteins form channels that let materials through and act as markers that identify the cell.
+   > “Proteins in the cell membrane provide structural support, form channels for passage of materials, act as receptor sites, function as carrier molecules, and provide identification markers.” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+
+#### Cell processes: Plain (drafted; grade 7; `content/GO_0042995/tier1.md`)
+
+1. Cell processes are arms that reach out from a cell, and some join cells together. *(defines “cell process”)*
+   > “As the name suggests, the stratum spinosum is spiny in appearance due to the protruding cell processes that join the cells via a structure called a desmosome.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “A prolongation or process extending from a cell, e.g. a flagellum or axon.” ([GO:0042995 cell projection](http://purl.obolibrary.org/obo/GO_0042995), CC BY 4.0)
+2. Bone cells called osteocytes use long processes to communicate with each other and get nutrients. *(defines “osteocyte”)*
+   > “Like osteoblasts, osteocytes lack mitotic activity. They can communicate with each other and receive nutrients via long cytoplasmic processes that extend through canaliculi (singular = canaliculus), channels within the bone matrix.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “osteocyte: mature bone cells and the main cell in bone tissue” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+3. Star-shaped support cells called astrocytes send processes out to nerve cells and blood vessels. *(defines “astrocyte”)*
+   > “Astrocytes have many processes extending from their main cell body (not axons or dendrites like neurons, just cell extensions). Those processes extend to interact with neurons, blood vessels, or the connective tissue covering the CNS that is called the pia mater ().” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “One cell providing support to neurons of the CNS is the astrocyte, so named because it appears to be star-shaped under the microscope” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+
+#### Cilia: Plain (drafted; grade 8.3; `content/GO_0005929/tier1.md`)
+
+1. Cilia are short, hair-like structures that move substances along a cell's outer surface.
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+2. In the airways, cilia beat constantly, sweeping dust, mucus and bacteria away from the lungs.
+   > “Cilia move rhythmically; they beat constantly, moving waste materials such as dust, mucus, and bacteria upward through the airways, away from the lungs and toward the mouth.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+3. In the fallopian tubes, beating cilia move egg cells from the ovary toward the uterus.
+   > “Beating cilia on cells in the female fallopian tubes move egg cells from the ovary towards the uterus.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+4. Cilia are built from microtubules, which are small hollow tubes. *(defines “microtubule”)*
+   > “Microtubules also make up two types of cellular appendages important for motion: cilia and flagella.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “As their name implies, microtubules are small hollow tubes.” ([4.5 The Cytoskeleton](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton), CC BY 4.0)
+
+#### Cytoplasm: Plain (drafted; grade 9; `content/GO_0005737/tier1.md`)
+
+1. The cytoplasm is where many of a cell's chemical reactions take place, including making proteins.
+   > “Many metabolic reactions, including protein synthesis, take place in the cytoplasm.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+2. The cytoplasm fills the space between the cell membrane and the nucleus, the cell's control center. *(defines “nucleus”)*
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+   > “The nucleus, formed by a nuclear membrane around a fluid nucleoplasm, is the control center of the cell.” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+3. Most of the cytoplasm is cytosol, a clear, watery fluid. *(defines “cytosol”)*
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+   > “cytosol: clear, semi-fluid medium of the cytoplasm, made up mostly of water” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. Organelles, little structures with specific jobs, are suspended in the cytoplasm. *(defines “organelle”)*
+   > “Cytoplasmic organelles are "little organs" that are suspended in the cytoplasm of the cell. Each type of organelle has a definite structure and a specific role in the function of the cell.” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+
+#### Cytoskeleton: Plain (drafted; grade 8.8; `content/GO_0005856/tier1.md`)
+
+1. The cytoskeleton is a network of protein fibers that maintains a cell's shape.
+   > “cytoskeleton: protein fiber network that collectively maintains the cell's shape, secures some organelles in specific positions, allows cytoplasm and vesicles to move within the cell, and enables unicellular organisms to move independently” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+2. These fibers also help a cell move, reproduce and carry substances around inside it.
+   > “Cytoskeletal components are also critical for cell motility, cell reproduction, and transportation of substances within the cell.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+3. The fibers run throughout the cell and come in three kinds.
+   > “The cytoskeleton forms a complex thread-like network throughout the cell consisting of three different kinds of protein-based filaments: microfilaments, intermediate filaments, and microtubules” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+4. From thinnest to thickest, the three kinds are microfilaments, intermediate filaments and microtubules. *(defines “microfilaments, intermediate filaments and microtubules”)*
+   > “Three different kinds of filaments compose this cytoskeleton (in order of increasing thickness): microfilaments, intermediate filaments, and microtubules.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+
+#### Dendrites: Plain (drafted; grade 6.7; `content/GO_0030425/tier1.md`)
+
+1. Dendrites receive signals from other neurons, or nerve cells, at contact points called synapses. *(defines “neuron”)*
+   > “The other processes of the neuron are dendrites, which receive information from other neurons at specialized areas of contact called synapses.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “The cells in nervous tissue that generate and conduct impulses are called neurons or nerve cells.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+2. Dendrites extend from the cell body, the main part of a neuron. *(defines “cell body”)*
+   > “dendrite: one of many branchlike processes that extends from the neuron cell body and functions as a contact for incoming signals (synapses) from other neurons or sensory cells” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+   > “the main part of a neuron is the cell body, which is also known as the soma (soma = “body”).” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+3. Dendrites are usually short and branched, which gives them more surface area for receiving signals.
+   > “Dendrites are usually, but not always, short and branching, which increases their surface area to receive signals from other neurons.” ([SEER Training Modules: Nerve Tissue](https://training.seer.cancer.gov/anatomy/nervous/tissue.html), Free of copyright (NCI reuse policy))
+4. From the dendrites, signals travel on to the cell body.
+   > “Once a signal is received by the dendrite, it then travels passively to the cell body.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+
+#### Dense granules: Plain (drafted; grade 6.8; `content/GO_0042827/tier1.md`)
+
+1. Dense granules are tiny sacs, wrapped in a membrane, that store chemicals and release them. *(defines “granule”)*
+   > “Electron-dense granule occurring in blood platelets that stores and secretes adenosine nucleotides and serotonin.” ([GO:0042827 platelet dense granule](http://purl.obolibrary.org/obo/GO_0042827), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+2. These sacs sit inside platelets, small bits of cells that form a plug at wounds to stop bleeding. *(defines “platelet”)*
+   > “Electron-dense granule occurring in blood platelets” ([GO:0042827 platelet dense granule](http://purl.obolibrary.org/obo/GO_0042827), CC BY 4.0)
+   > “platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+3. Dense granules store ADP, which helps more platelets stick at a wound and makes the plug bigger. *(defines “ADP”)*
+   > “Electron-dense granule occurring in blood platelets that stores and secretes adenosine nucleotides and serotonin. They contain a highly condensed core consisting of serotonin, histamine, calcium, magnesium, ATP, ADP, pyrophosphate and membrane lysosomal proteins.” ([GO:0042827 platelet dense granule](http://purl.obolibrary.org/obo/GO_0042827), CC BY 4.0)
+   > “adenosine diphosphate (ADP), which helps additional platelets to adhere to the injury site, reinforcing and expanding the platelet plug” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+4. Dense granules also store serotonin, which keeps blood vessels narrowed. *(defines “serotonin”)*
+   > “Electron-dense granule occurring in blood platelets that stores and secretes adenosine nucleotides and serotonin.” ([GO:0042827 platelet dense granule](http://purl.obolibrary.org/obo/GO_0042827), CC BY 4.0)
+   > “serotonin, which maintains vasoconstriction” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+
+#### Flagellum: Plain (drafted; grade 7.6; `content/GO_0036126/tier1.md`)
+
+1. The flagellum is a long, hair-like structure that moves an entire sperm cell.
+   > “The flagella (singular = flagellum) are long, hair-like structures that extend from the plasma membrane and enable an entire cell to move (for example, sperm, Euglena, and some prokaryotes).” ([4.5 The Cytoskeleton](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton), CC BY 4.0)
+2. In humans, only the sperm cell has a flagellum, which propels the sperm toward an egg.
+   > “A flagellum (plural = flagella) is an appendage larger than a cilium and specialized for cell locomotion. The only flagellated cell in humans is the sperm cell that must propel itself towards female egg cells.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+3. Mitochondria, the cell's energy makers, power the flagellum, which runs through the sperm's tail. *(defines “mitochondria”)*
+   > “Tightly packed mitochondria fill the mid-piece of the sperm. ATP produced by these mitochondria will power the flagellum, which extends from the neck and the mid-piece through the tail of the sperm, enabling it to move the entire sperm cell.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. The flagellum is built from microtubules, which are small hollow tubes made of protein. *(defines “microtubules”)*
+   > “A microtubule-based flagellum (or cilium) that is part of a sperm, a mature male germ cell that develops from a spermatid.” ([GO:0036126 sperm flagellum](http://purl.obolibrary.org/obo/GO_0036126), CC BY 4.0)
+   > “As their name implies, microtubules are small hollow tubes. Polymerized dimers of α-tubulin and β-tubulin, two globular proteins, comprise the microtubule's walls” ([4.5 The Cytoskeleton](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton), CC BY 4.0)
+
+#### Golgi apparatus: Plain (drafted; grade 8.5; `content/GO_0005794/tier1.md`)
+
+1. The Golgi apparatus changes and packs new proteins for delivery inside or outside the cell.
+   > “The rough ER sends newly made proteins to the Golgi apparatus where they are modified and packaged for delivery to various locations within or outside of the cell.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+2. Cells that release a lot of material, such as salivary gland cells, have plenty of Golgi.
+   > “In another example of form following function, cells that engage in a great deal of secretory activity (such as salivary gland cells that secrete digestive enzymes or immune system cells that secrete antibodies) have an abundance of Golgi.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+3. The Golgi apparatus is a stack of flat discs made of membrane, like oddly shaped pancakes.
+   > “The Golgi apparatus looks like stacked flattened discs, almost like stacks of oddly shaped pancakes. Like the ER, these discs are membranous.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+4. Proteins arrive at one side in small sacs called vesicles and leave the other side in new vesicles. *(defines “vesicles”)*
+   > “One side of the apparatus receives products in vesicles. These products are sorted through the apparatus, and then they are released from the opposite side after being repackaged into new vesicles.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “vesicle: small, membrane-bound sac that functions in cellular storage and transport” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Inner segment: Plain (drafted; grade 9.5; `content/GO_0001917/tier1.md`)
+
+1. The inner segment handles the everyday work of a photoreceptor, an eye cell that responds to light. *(defines “photoreceptor”)*
+   > “inner segment: in the eye, the section of a photoreceptor that contains the nucleus and other major organelles for normal cellular functions” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “photoreceptor: receptor cell specialized to respond to light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. The inner segment holds the nucleus and other organelles, small structures that carry out cell functions. *(defines “organelles”)*
+   > “The inner segment contains the nucleus and other common organelles of a cell” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+3. But the photoreceptor's other part, the outer segment, is where light is sensed. *(defines “outer segment”)*
+   > “Photoreceptor cells have two parts, the inner segment and the outer segment (). The inner segment contains the nucleus and other common organelles of a cell, whereas the outer segment is a specialized region in which photoreception takes place.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+4. The inner segment also builds opsins, light-sensitive proteins, and passes them to the outer segment. *(defines “opsins”)*
+   > “The inner segment of a vertebrate photoreceptor containing mitochondria, ribosomes and membranes where opsin molecules are assembled and passed to be part of the outer segment discs.” ([GO:0001917 photoreceptor inner segment](http://purl.obolibrary.org/obo/GO_0001917), CC BY 4.0)
+   > “opsin: protein that contains the photosensitive cofactor retinal for phototransduction” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Intercalated discs: Plain (drafted; grade 8.2; `content/GO_0014704/tier1.md`)
+
+1. Intercalated discs connect heart muscle cells end to end.
+   > “Cardiac muscle fibers cells also are extensively branched and are connected to one another at their ends by intercalated discs.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+2. The discs contain gap junctions, channels that let electrical current flow from cell to cell. *(defines “gap junction”)*
+   > “Intercalated discs are part of the sarcolemma and contain two structures important in cardiac muscle contraction: gap junctions and desmosomes.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “A gap junction forms channels between adjacent cardiac muscle fibers that allow the depolarizing current produced by cations to flow from one cardiac muscle cell to the next.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+3. The discs also contain desmosomes, anchors that keep the cells from pulling apart during contraction. *(defines “desmosome”)*
+   > “Intercalated discs are part of the sarcolemma and contain two structures important in cardiac muscle contraction: gap junctions and desmosomes.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “A desmosome is a cell structure that anchors the ends of cardiac muscle fibers together so the cells do not pull apart during the stress of individual fibers contracting” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+
+Dropped:
+- “This lets electrical signals spread quickly, so the whole heart contracts in a coordinated way.” (checker: The quote is verbatim, but it says electric coupling allows two things: quick transmission of action potentials and coordinated contraction of the entire heart. The sentence's 'so' makes the quick spread the cause of the coordinated contraction. The quote does not state that causal link.)
+
+#### Intermediate filaments (keratin): Plain (drafted; grade 7.2; `content/GO_0005882/tier1.md`)
+
+1. Intermediate filaments help cells resist tension, the forces that pull cells apart. *(defines “tension”)*
+   > “Unlike the microtubules, which resist compression, intermediate filaments resist tension—the forces that pull apart cells.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+2. Each filament is made of long protein strands wound together like a rope.
+   > “Intermediate filaments are made up of long fibrous subunits of a protein called keratin that are wound together like the threads that compose a rope.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+3. Several proteins can form these strands, and the best known is keratin, which strengthens hair, nails and skin. *(defines “keratin”)*
+   > “Several fibrous protein types are in the intermediate filaments. You are probably most familiar with keratin, the fibrous protein that strengthens your hair, nails, and the skin's epidermis.” ([4.5 The Cytoskeleton](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton), CC BY 4.0)
+   > “keratin: type of structural protein that gives skin, hair, and nails its hard, water-resistant properties” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. These filaments also hold parts of the cell in place and link neighboring cells together.
+   > “Intermediate filaments help anchor organelles together within a cell and also link cells to other cells by forming special cell-to-cell junctions.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+
+#### Intracellular canaliculi: Plain (drafted; grade 8.7; `content/GO_0046691/tier1.md`)
+
+1. Intracellular canaliculi are a network of channels for releasing substances from parietal cells, the stomach cells that make acid. *(defines “parietal cell”)*
+   > “This cell is characterized by its pyramidal shape, abundant mitochondria, and a complex network of secretory canaliculi lined with microvilli.” ([CL:0000162 parietal cell](http://purl.obolibrary.org/obo/CL_0000162), CC BY 4.0)
+   > “Located primarily in the middle region of the gastric glands are parietal cells, which are among the most highly differentiated of the body’s epithelial cells. These relatively large cells produce both hydrochloric acid (HCl) and intrinsic factor.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+2. Each narrow channel forms where the cell membrane, which wraps around the cell, folds inward. *(defines “cell membrane”)*
+   > “An apical plasma membrane part that forms a narrow enfolded luminal membrane channel, lined with numerous microvilli, that appears to extend into the cytoplasm of the cell.” ([GO:0046691 intracellular canaliculus](http://purl.obolibrary.org/obo/GO_0046691), CC BY 4.0)
+   > “cell membrane: membrane surrounding all animal cells, composed of a lipid bilayer interspersed with various molecules; also known as plasma membrane” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+3. These channels seem to reach into the cell, but they are part of the cell membrane.
+   > “An apical plasma membrane part that forms a narrow enfolded luminal membrane channel, lined with numerous microvilli, that appears to extend into the cytoplasm of the cell.” ([GO:0046691 intracellular canaliculus](http://purl.obolibrary.org/obo/GO_0046691), CC BY 4.0)
+4. Many microvilli line each channel; these projections add to a cell's surface area. *(defines “microvilli”)*
+   > “An apical plasma membrane part that forms a narrow enfolded luminal membrane channel, lined with numerous microvilli, that appears to extend into the cytoplasm of the cell.” ([GO:0046691 intracellular canaliculus](http://purl.obolibrary.org/obo/GO_0046691), CC BY 4.0)
+   > “microvilli: cellular processes that increase the surface area of cells” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+
+#### Lipid droplet: Plain (drafted; grade 7.6; `content/GO_0005811/tier1.md`)
+
+1. Lipid droplets store lipids, a group that includes fats and oils, inside cells. *(defines “lipids”)*
+   > “Adipocytes are cells that store lipids as droplets that fill most of the cytoplasm.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “Lipids include fats, oils, waxes, phospholipids, and steroids.” ([3.3 Lipids](https://openstax.org/books/biology-2e/pages/3-3-lipids), CC BY 4.0)
+2. White fat cells hold their lipids in one large drop, while brown fat cells hold many droplets.
+   > “The brown adipocytes store lipids as many droplets, and have high metabolic activity. In contrast, white fat adipocytes store lipids as a single large drop and are metabolically less active.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+3. Heart muscle cells also store droplets of fatty acids, parts of fat molecules, as an extra supply of nutrients. *(defines “fatty acids”)*
+   > “Both fatty acid droplets and glycogen are stored within the sarcoplasm and provide additional nutrient supply.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “A fat molecule consists of two main components—glycerol and fatty acids.” ([3.3 Lipids](https://openstax.org/books/biology-2e/pages/3-3-lipids), CC BY 4.0)
+4. Each droplet's lipids are wrapped in a single layer of phospholipids, the main part of membranes. *(defines “phospholipids”)*
+   > “An intracellular non-membrane-bounded organelle comprising a matrix of coalesced lipids surrounded by a phospholipid monolayer.” ([GO:0005811 lipid droplet](http://purl.obolibrary.org/obo/GO_0005811), CC BY 4.0)
+   > “phospholipid: membranes' major constituent; comprised of two fatty acids and a phosphate-containing group attached to a glycerol backbone” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+
+#### Lysosomes: Plain (drafted; grade 8.6; `content/GO_0005764/tier1.md`)
+
+1. Lysosomes act as the cell's garbage disposal, breaking down worn-out cell parts.
+   > “The lysosomes are the cell’s “garbage disposal.” In plant cells, the digestive processes take place in vacuoles. Enzymes within the lysosomes aid in breaking down proteins, polysaccharides, lipids, nucleic acids, and even worn-out organelles.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+2. Lysosomes do this with digestive enzymes, which are proteins that speed up chemical reactions. *(defines “enzymes”)*
+   > “A lysosome is an organelle that contains enzymes that break down and digest unneeded cellular components, such as a damaged organelle.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+3. White blood cells that engulf bacteria are packed with lysosomes, which digest the bacteria.
+   > “For example, when certain immune defense cells (white blood cells) phagocytize bacteria, the bacterial cell is transported into a lysosome and digested by the enzymes inside. As one might imagine, such phagocytic defense cells contain large numbers of lysosomes.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+4. New lysosomes form from sacs of enzymes sent out by the Golgi apparatus, which packages proteins. *(defines “Golgi apparatus”)*
+   > “The enzyme-containing vesicles released by the Golgi may form new lysosomes, or fuse with existing, lysosomes.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “Golgi apparatus: cellular organelle formed by a series of flattened, membrane-bound sacs that functions in protein modification, tagging, packaging, and transport” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+
+#### Melanosomes: Plain (drafted; grade 9; `content/GO_0042470/tier1.md`)
+
+1. Melanosomes are where melanin, the pigment that colors skin and hair, is made and stored. *(defines “melanin”)*
+   > “A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored.” ([GO:0042470 melanosome](http://purl.obolibrary.org/obo/GO_0042470), CC BY 4.0)
+   > “melanin: pigment that determines the color of hair and skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+2. Melanosomes form inside melanocytes, skin cells that make melanin. *(defines “melanocyte”)*
+   > “Melanosomes are synthesized in melanocyte cells.” ([GO:0042470 melanosome](http://purl.obolibrary.org/obo/GO_0042470), CC BY 4.0)
+   > “melanocyte: cell found in the stratum basale of the epidermis that produces the pigment melanin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+3. Melanosomes then carry melanin into keratinocytes, the main cells of the skin's outer layer. *(defines “keratinocyte”)*
+   > “melanosome: intercellular vesicle that transfers melanin from melanocytes into keratinocytes of the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. This transfer of melanin helps protect cells from UV rays.
+   > “Melanin is transferred to keratinocytes in the stratum spinosum to protect cells from UV rays.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Microvilli: Plain (drafted; grade 9.4; `content/GO_0005902/tier1.md`)
+
+1. Microvilli are thin parts that stick out from a cell and give it more surface area. *(defines “microvilli”)*
+   > “microvilli: cellular processes that increase the surface area of cells” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+   > “Thin cylindrical membrane-covered projections on the surface of an animal cell” ([GO:0005902 microvillus](http://purl.obolibrary.org/obo/GO_0005902), CC BY 4.0)
+2. In the small intestine, microvilli give the lining a fuzzy look called the brush border. *(defines “brush border”)*
+   > “brush border: fuzzy appearance of the small intestinal mucosa created by microvilli” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. Each square millimeter of lining has about 200 million of them, so they greatly expand the surface area for absorption.
+   > “There are an estimated 200 million microvilli per square millimeter of small intestine, greatly expanding the surface area of the plasma membrane and thus greatly enhancing absorption.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+4. Enzymes, proteins that speed up reactions, are fixed to the microvilli and finish breaking down carbohydrates and proteins. *(defines “enzymes”)*
+   > “Fixed to the surface of the microvilli membranes are enzymes that finish digesting carbohydrates and proteins.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+
 #### Mitochondria: Plain (drafted; grade 9; `content/GO_0005739/tier1.md`)
 
 1. Mitochondria make ATP, the cell's main energy-carrying molecule. *(defines “ATP”)*
@@ -885,6 +1173,46 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
    > “The inner membrane is highly folded into winding structures with a great deal of surface area, called cristae.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
 4. Muscles use huge amounts of ATP, so muscle cells are packed full of mitochondria.
    > “One of the organ systems in the body that uses huge amounts of ATP is the muscular system because ATP is required to sustain muscle contraction. As a result, muscle cells are packed full of mitochondria.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+
+#### Myofibrils: Plain (drafted; grade 7.9; `content/GO_0030016/tier1.md`)
+
+1. Myofibrils are the parts of skeletal muscle and heart muscle that contract.
+   > “The contractile element of skeletal and cardiac muscle” ([GO:0030016 myofibril](http://purl.obolibrary.org/obo/GO_0030016), CC BY 4.0)
+2. Each myofibril is a long rod that runs lengthwise inside a muscle cell.
+   > “myofibril: long, cylindrical organelle that runs parallel within the muscle fiber and contains the sarcomeres” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+3. A myofibril is a row of many sarcomeres, the smallest contracting parts of a muscle. *(defines “sarcomere”)*
+   > “A myofibril is composed of many sarcomeres running along its length; thus, myofibrils and muscle cells contract as the sarcomeres contract.” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+   > “A sarcomere is the smallest contractile portion of a muscle.” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+4. When the sarcomeres contract, the myofibril and the whole muscle cell shorten.
+   > “A myofibril is composed of many sarcomeres running along its length, and as the sarcomeres individually contract, the myofibrils and muscle cells shorten” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+
+#### Neurites: Plain (drafted; grade 7.1; `content/GO_0043005/tier1.md`)
+
+1. Neurites are extensions that carry signals to and from a nerve cell's main part, the cell body. *(defines “neurite”)*
+   > “The main part of the cell, the part that carries on the general functions, is the cell body. Dendrites are extensions, or processes, of the cytoplasm that carry impulses to the cell body. An extension or process called an axon carries impulses away from the cell body.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+   > “A prolongation or process extending from a nerve cell, e.g. an axon or dendrite.” ([GO:0043005 neuron projection](http://purl.obolibrary.org/obo/GO_0043005), CC BY 4.0)
+2. An axon is a neurite that carries signals away from the cell body toward a target cell. *(defines “axon”)*
+   > “axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. One axon can branch many times to pass signals to many target cells.
+   > “That single axon can branch repeatedly to communicate with many target cells.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+
+Dropped:
+- “Dendrites are branching neurites that take in signals from other cells.” (checker: Quote is verbatim and supports 'take in signals from other cells', but it calls dendrites 'branchlike' (shaped like branches), not 'branching' (dividing into branches). The cited quote does not say dendrites branch; 'highly branched' is only in uncited 12-02-nervous-tissue.txt.)
+
+#### Nucleolus: Plain (drafted; grade 7.6; `content/GO_0005730/tier1.md`)
+
+1. The nucleolus makes ribosomes, the cell parts that build proteins. *(defines “ribosomes”)*
+   > “nucleolus: small region of the nucleus that functions in ribosome synthesis” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+   > “ribosome: cellular structure that carries out protein synthesis” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+2. The nucleolus is a dense area inside the nucleus, the cell's control center. *(defines “nucleus”)*
+   > “The nucleolus is a dense region of ribonucleic acid (RNA) in the nucleus” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+   > “The nucleus, formed by a nuclear membrane around a fluid nucleoplasm, is the control center of the cell.” ([SEER Training Modules: Cell Structure](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html), Free of copyright (NCI reuse policy))
+3. The nucleolus builds ribosome pieces from proteins and RNA, a molecule involved in making proteins. *(defines “RNA”)*
+   > “A darkly staining area within the nucleus called the nucleolus (plural = nucleoli) aggregates the ribosomal RNA with associated proteins to assemble the ribosomal subunits” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+   > “ribonucleic acid (RNA): single-stranded, often internally base paired, molecule that is involved in protein synthesis” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+4. These pieces then leave the nucleus through nuclear pores, small openings in its membrane. *(defines “nuclear pores”)*
+   > “Once synthesized, newly made ribosomal subunits exit the cell’s nucleus through the nuclear pores.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+   > “nuclear pore: one of the small, protein-lined openings found scattered throughout the nuclear envelope” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
 
 #### Nucleus: Plain (drafted; grade 7.4; `content/GO_0005634/tier1.md`)
 
@@ -899,6 +1227,21 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 4. Red blood cells have no nucleus, because they push it out as they mature.
    > “Other cells, such as mammalian red blood cells (RBCs), do not contain nuclei at all. RBCs eject their nuclei as they mature, making space for the large numbers of hemoglobin molecules that carry oxygen throughout the body ().” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
 
+#### Outer segment: Plain (drafted; grade 9.1; `content/GO_0001750/tier1.md`)
+
+1. The outer segment is where a photoreceptor, a sensory cell in the eye, detects light. *(defines “photoreceptor”)*
+   > “outer segment: in the eye, the section of a photoreceptor that contains opsin molecules that transduce light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “photoreceptor: receptor cell specialized to respond to light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. The outer segment holds opsins, light-sensitive proteins that change light into a signal. *(defines “opsins”)*
+   > “outer segment: in the eye, the section of a photoreceptor that contains opsin molecules that transduce light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “opsin: protein that contains the photosensitive cofactor retinal for phototransduction” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Rods, the photoreceptors for dim light, have outer segments with stacked discs that hold a light-sensitive pigment. *(defines “rods”)*
+   > “The rod-shaped outer segments of the rod photoreceptor contain a stack of membrane-bound discs that contain the photosensitive pigment rhodopsin.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “rod photoreceptor: one of the two types of retinal receptor cell that is specialized for low-light vision” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+4. But in cones, the photoreceptors for color vision, the pigments sit in folds of the cell membrane. *(defines “cones”)*
+   > “The cone-shaped outer segments of the cone photoreceptor contain their photosensitive pigments in infoldings of the cell membrane.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “cone photoreceptor: one of the two types of retinal receptor cell that is specialized for color vision through the use of three photopigments distributed through three separate populations of cells” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
 #### Peroxisomes: Plain (drafted; grade 8.9; `content/GO_0005777/tier1.md`)
 
 1. Like tiny sewage treatment plants, peroxisomes make harmful toxins safe.
@@ -909,6 +1252,20 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
    > “Many of these oxidation reactions release hydrogen peroxide, H2O2, which would be damaging to cells; however, when these reactions are confined to peroxisomes, enzymes safely break down the H2O2 into oxygen and water.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
 4. Each peroxisome is small and round, with a single membrane around it.
    > “Peroxisomes are small, round organelles enclosed by single membranes.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+
+#### Pseudopodia: Plain (drafted; grade 9.7; `content/GO_0031143/tier1.md`)
+
+1. Pseudopodia are temporary extensions of a cell that help it move and feed. *(defines “pseudopodia”)*
+   > “A temporary protrusion or retractile process of a cell, associated with flowing movements of the protoplasm, and serving for locomotion and feeding.” ([GO:0031143 pseudopodium](http://purl.obolibrary.org/obo/GO_0031143), CC BY 4.0)
+2. In the body, white blood cells called macrophages use pseudopodia to move through tissues. *(defines “macrophage”)*
+   > “A macrophage is an irregularly shaped phagocyte that is amoeboid in nature and is the most versatile of the phagocytes in the body. Macrophages move through tissues and squeeze through capillary walls using pseudopodia.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “macrophages, a group of white blood cells which are part of your body’s immune system” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+3. Pseudopodia also let macrophages squeeze through the walls of capillaries, the smallest blood vessels. *(defines “capillary”)*
+   > “Macrophages move through tissues and squeeze through capillary walls using pseudopodia.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “capillary: smallest blood vessel that allows the passage of individual blood cells” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+4. Cytoplasm, a cell's inner material, flows into a pseudopod, and the whole cell follows. *(defines “cytoplasm”)*
+   > “cytoplasmic streaming: movement of cytoplasm into an extended pseudopod such that the entire cell is transported to the site of the pseudopod” ([Chapter 23 Key Terms (Protists)](https://openstax.org/books/biology-2e/pages/23-key-terms), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
 
 #### Ribosomes: Plain (drafted; grade 7.8; `content/GO_0005840/tier1.md`)
 
@@ -921,6 +1278,105 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
    > “This intermediate messenger is messenger RNA (mRNA), a single-stranded nucleic acid that carries a copy of the genetic code for a single gene out of the nucleus and into the cytoplasm where it is used to produce proteins.” ([3.4 Protein Synthesis](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-4-protein-synthesis), CC BY 4.0)
 4. Each ribosome has a small part and a large part, which come together on the messenger RNA.
    > “Ribosomes exist in the cytoplasm as two distinct components, a small and a large subunit. When an mRNA molecule is ready to be translated, the two subunits come together and attach to the mRNA.” ([3.4 Protein Synthesis](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-4-protein-synthesis), CC BY 4.0)
+
+#### Rough endoplasmic reticulum: Plain (drafted; grade 7.8; `content/GO_0005791/tier1.md`)
+
+1. The rough endoplasmic reticulum (rough ER) makes and modifies proteins that go to the cell membrane or leave the cell.
+   > “In contrast with the smooth ER, the primary job of the rough ER is the synthesis and modification of proteins destined for the cell membrane or for export from the cell.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+2. The rough ER is part of the endoplasmic reticulum, a system of channels joined to the membrane around the nucleus. *(defines “endoplasmic reticulum”)*
+   > “rough endoplasmic reticulum (RER): region of the endoplasmic reticulum that is studded with ribosomes and engages in protein modification and phospholipid synthesis” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+   > “The endoplasmic reticulum (ER) is a system of channels that is continuous with the nuclear membrane (or “envelope”) covering the nucleus and composed of the same lipid bilayer material.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+3. Ribosomes, the cell parts that build proteins, dot the rough ER and give it a bumpy look. *(defines “ribosomes”)*
+   > “Rough ER (RER) is so-called because its membrane is dotted with embedded granules—organelles called ribosomes, giving the RER a bumpy appearance.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “ribosome: cellular structure that carries out protein synthesis” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. Cells that release proteins, such as liver cells, have a lot of rough ER.
+   > “the RER is abundant in cells that secrete proteins. This is the case with liver cells, for example.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+
+#### Sarcoplasmic reticulum: Plain (drafted; grade 9.2; `content/GO_0016529/tier1.md`)
+
+1. The sarcoplasmic reticulum stores calcium that a muscle cell needs to contract.
+   > “In muscle cells, a specialized SER, the sarcoplasmic reticulum, is responsible for storing calcium ions that are needed to trigger the muscle cells' coordinated contractions.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+2. The sarcoplasmic reticulum is a fine network of membranes that runs all through the cell.
+   > “A fine reticular network of membrane-limited elements that pervades the sarcoplasm of a muscle cell” ([GO:0016529 sarcoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0016529), CC BY 4.0)
+3. An electrical signal makes the sarcoplasmic reticulum release calcium, which starts the contraction.
+   > “triggering an action potential that spreads to the rest of the membrane which will depolarize, including the T-tubules. This triggers the release of calcium ions (Ca++) from storage in the sarcoplasmic reticulum (SR). The Ca++ then initiates contraction” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+4. Pumps then move the calcium back into storage, so the cell relaxes.
+   > “ATP-driven pumps will move Ca++ out of the sarcoplasm back into the SR. This results in the “reshielding” of the actin-binding sites on the thin filaments. Without the ability to form cross-bridges between the thin and thick filaments, the muscle fiber loses its tension and relaxes.” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+
+#### Secretory granules: Plain (drafted; grade 8.2; `content/GO_0030141/tier1.md`)
+
+1. Secretory granules are small sacs that hold concentrated protein for the cell to release, or secrete. *(defines “secretory granule”)*
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+2. They form from the Golgi apparatus, the cell part that changes, packs and ships proteins. *(defines “Golgi apparatus”)*
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+   > “Golgi apparatus: cellular organelle formed by a series of flattened, membrane-bound sacs that functions in protein modification, tagging, packaging, and transport” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+3. Secretory granules move toward the outer edge of the cell.
+   > “Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+4. When the cell is stimulated, they fuse with its outer membrane and release their protein outside the cell.
+   > “Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+
+#### Smooth endoplasmic reticulum: Plain (drafted; grade 8.2; `content/GO_0005790/tier1.md`)
+
+1. The smooth endoplasmic reticulum (smooth ER) makes lipids, the group of molecules that includes fats and steroids. *(defines “lipids”)*
+   > “One of the main functions of the smooth ER is in the synthesis of lipids.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+   > “Lipids are a class of macromolecules that are nonpolar and hydrophobic in nature. Major types include fats and oils, waxes, phospholipids, and steroids.” ([3.3 Lipids](https://openstax.org/books/biology-2e/pages/3-3-lipids), CC BY 4.0)
+2. The smooth ER also stores calcium and detoxifies medicines and poisons.
+   > “SER functions include synthesis of carbohydrates, lipids, and steroid hormones; detoxification of medications and poisons; and storing calcium ions.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+3. The smooth ER is part of the endoplasmic reticulum, a network of linked membrane tubes in the cell. *(defines “endoplasmic reticulum”)*
+   > “smooth endoplasmic reticulum (SER): region of the endoplasmic reticulum that has few or no ribosomes on its cytoplasmic surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+   > “endoplasmic reticulum (ER): cellular organelle that consists of interconnected membrane-bound tubules, which may or may not be associated with ribosomes (rough type or smooth type, respectively)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. The smooth ER has few or no ribosomes, the cell parts that build proteins. *(defines “ribosomes”)*
+   > “The smooth endoplasmic reticulum (SER) is continuous with the RER but has few or no ribosomes on its cytoplasmic surface” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+   > “ribosome: cellular structure that carries out protein synthesis” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Specific granules: Plain (drafted; grade 9.7; `content/GO_0042581/tier1.md`)
+
+1. Specific granules are stores of chemicals inside a cell, but most are released from the cell. *(defines “granule”)*
+   > “Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells. Most are released into the extracellular fluid. Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.” ([GO:0042581 specific granule](http://purl.obolibrary.org/obo/GO_0042581), CC BY 4.0)
+   > “A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues. These spherical cells are granulocytes. A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+2. Specific granules hold lysozyme, which breaks down the cell walls of bacteria. *(defines “lysozyme”)*
+   > “Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.” ([GO:0042581 specific granule](http://purl.obolibrary.org/obo/GO_0042581), CC BY 4.0)
+   > “Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+3. These granules are found mainly in mature neutrophils, white blood cells that are especially active against bacteria. *(defines “neutrophil”)*
+   > “Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells.” ([GO:0042581 specific granule](http://purl.obolibrary.org/obo/GO_0042581), CC BY 4.0)
+   > “neutrophils: granulocytes that stain with a neutral dye and are the most numerous of the leukocytes; especially active against bacteria” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+4. Inside each specific granule is a tube-like structure made of membrane.
+   > “Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells.” ([GO:0042581 specific granule](http://purl.obolibrary.org/obo/GO_0042581), CC BY 4.0)
+
+#### Stereocilia: Plain (drafted; grade 7.6; `content/GO_0032420/tier1.md`)
+
+1. Stereocilia let hair cells, the inner ear cells for hearing and balance, sense movement. *(defines “hair cells”)*
+   > “stereocilia: array of apical membrane extensions in a hair cell that transduce movements when they are bent” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “hair cells: mechanoreceptor cells found in the inner ear that transduce stimuli for the senses of hearing and balance” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. Hair cells are named for their hair-like stereocilia, which are arranged from tallest to shortest.
+   > “hair cells, which are named for the hair-like stereocilia extending from the cell’s apical surfaces (). The stereocilia are an array of microvilli-like structures arranged from tallest to shortest.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+3. Sound waves make the stereocilia bend, and the bending sets off signals in the hair cells.
+   > “When sound waves produce fluid waves inside the cochlea, the basilar membrane flexes, bending the stereocilia that attach to the tectorial membrane. Their bending results in action potentials in the hair cells” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+4. For balance, hair cells with stereocilia sense the head's position and movement.
+   > “Along with audition, the inner ear is responsible for encoding information about equilibrium, the sense of balance. A similar mechanoreceptor—a hair cell with stereocilia—senses head position, head movement, and whether our bodies are in motion.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### T tubules: Plain (drafted; grade 8.3; `content/GO_0030315/tier1.md`)
+
+1. T tubules carry electrical signals from a muscle cell's surface to the inside of the cell.
+   > “T (transverse) tubules penetrate from the surface plasma membrane, the sarcolemma, to the interior of the cell, allowing the electrical impulse to reach the interior.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+2. Each T tubule is an inward fold of the cell's outer membrane.
+   > “Invagination of the plasma membrane of a muscle cell that extends inward from the cell surface around each myofibril.” ([GO:0030315 T-tubule](http://purl.obolibrary.org/obo/GO_0030315), CC BY 4.0)
+3. Inside, the signal makes the nearby sarcoplasmic reticulum, the cell's calcium store, release calcium. *(defines “sarcoplasmic reticulum”)*
+   > “The T-tubules carry the action potential into the interior of the cell, which triggers the opening of calcium channels in the membrane of the adjacent SR, causing Ca++ to diffuse out of the SR and into the sarcoplasm.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+   > “In muscle cells, a specialized SER, the sarcoplasmic reticulum, is responsible for storing calcium ions that are needed to trigger the muscle cells' coordinated contractions.” ([4.4 The Endomembrane System and Proteins](https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins), CC BY 4.0)
+4. This calcium starts the cell's contraction.
+   > “It is the arrival of Ca++ in the sarcoplasm that initiates contraction of the muscle fiber by its contractile units, or sarcomeres.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+
+#### Zona pellucida: Plain (drafted; grade 9; `content/GO_0035805/tier1.md`)
+
+1. The zona pellucida is a coat that protects the egg.
+   > “In mammals, the egg is protected by a layer of extracellular matrix consisting mainly of glycoproteins called the zona pellucida.” ([43.6 Fertilization and Early Embryonic Development](https://openstax.org/books/biology-2e/pages/43-6-fertilization-and-early-embryonic-development), CC BY 4.0)
+2. This clear coat wraps around the egg, under an outer layer of cells.
+   > “outer layer of follicular (granulosa) cells that form around a developing oocyte in the ovary and remain with it upon ovulation. The underlying zona pellucida (pellucid = “transparent”) is a transparent, but thick, glycoprotein membrane that surrounds the cell’s plasma membrane.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+3. A sperm must get through the zona pellucida before fertilization can happen.
+   > “zona pellucida: thick, gel-like glycoprotein membrane that coats the oocyte and must be penetrated by sperm before fertilization can occur” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
+4. After fertilization, the egg releases material into the zona pellucida, creating a barrier that blocks more sperm.
+   > “cortical reaction: following fertilization, the release of cortical granules from the oocyte’s plasma membrane into the zona pellucida creating a fertilization membrane that prevents any further attachment or penetration of sperm; part of the slow block to polyspermy” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
 
 ### Skeletal
 
@@ -1062,6 +1518,20 @@ Dropped:
 
 Drafted, checked, repaired once and still short of the rules, so the structure keeps its definition or fact card. The last attempt and why it fell short:
 
+### Apical dendrite: Plain (GO:0097440)
+
+- does not read well: Without sentence 1 the text never says where an apical dendrite grows out in most neurons or what 'apical' means, and sentence 3 jumps straight to bipolar cells. Sentences 0 and 2 also partly repeat the receiving-signals point, and 'branches' means dendrites only in sentence 0 but includes the axon in sentence 3.
+- terms left undefined: apical
+
+Sentences that passed the check:
+
+1. An apical dendrite is a dendrite, one of a nerve cell's many branches that receive signals.
+2. Like other dendrites, an apical dendrite carries signals to the cell body, while the axon carries them away.
+3. In a bipolar nerve cell, which has just two branches, the apical dendrite lies opposite the axon.
+
+Dropped:
+- “This dendrite grows out near the cell's apical pole, the part that generally faces an open space.” (checker: Both quotes appear verbatim, but the second does not fit this subject. The OpenStax ch. 4 'apical' entry is the epithelial sense: chapter 4.2 uses it only for the exposed surface of epithelial cells facing a lumen or free space, and OpenStax never uses it for neurons. Defining a neuron's apical pole as 'the part that generally faces an open space' says something about neurons that no quote supports, and it is misleading because neurons sit inside tissue. So the second quote does not define 'apical pole' in the GO sense.)
+
 ### Hypothalamus: Plain (FMA:62008)
 
 - does not read well: In the last sentence, 'which relays signals from the senses' can be read as describing the hypothalamus (the cited SEER sentence uses 'which' that way), and leaving 'brain area' out of the thalamus definition means the text never says the hypothalamus is in the brain.
@@ -1072,4 +1542,15 @@ Sentences that passed the check:
 2. Like a thermostat, it keeps body temperature and food and water intake at the right levels.
 3. It also signals the pituitary gland, a pea-sized gland that sends out chemical messengers called hormones.
 4. It is a small area below the thalamus, which relays signals from the senses.
+
+### Subscapular vein: Plain (FMA:23113)
+
+- terms left undefined: subscapular region
+
+Sentences that passed the check:
+
+1. Each subscapular vein carries blood away from the subscapular region.
+2. This vein runs alongside the subscapular artery, which feeds the shoulder.
+3. Each subscapular vein joins the cephalic vein, which drains the surface of the arm.
+4. Together, the subscapular and cephalic veins form the axillary vein, which returns blood from the arm to the heart.
 

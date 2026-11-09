@@ -16,27 +16,122 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0036126/tier1.auto.md",
-   "text": "A microtubule-based flagellum (or cilium) that is part of a sperm, a mature male germ cell that develops from a spermatid.",
+   "status": "drafted",
+   "file": "content/GO_0036126/tier1.md",
+   "text": "The flagellum is a long, hair-like structure that moves an entire sperm cell. In humans, only the sperm cell has a flagellum, which propels the sperm toward an egg. Mitochondria, the cell's energy makers, power the flagellum, which runs through the sperm's tail. The flagellum is built from microtubules, which are small hollow tubes made of protein.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0036126",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0036126",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0036126",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0036126",
+     "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+     "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0036126 sperm flagellum",
+     "url": "http://purl.obolibrary.org/obo/GO_0036126",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0036126. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The flagellum is a long, hair-like structure that moves an entire sperm cell.",
+     "quotes": [
+      {
+       "quote": "The flagella (singular = flagellum) are long, hair-like structures that extend from the plasma membrane and enable an entire cell to move (for example, sperm, Euglena, and some prokaryotes).",
+       "section": "4.5 The Cytoskeleton",
+       "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In humans, only the sperm cell has a flagellum, which propels the sperm toward an egg.",
+     "quotes": [
+      {
+       "quote": "A flagellum (plural = flagella) is an appendage larger than a cilium and specialized for cell locomotion. The only flagellated cell in humans is the sperm cell that must propel itself towards female egg cells.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mitochondria, the cell's energy makers, power the flagellum, which runs through the sperm's tail.",
+     "defines": "mitochondria",
+     "quotes": [
+      {
+       "quote": "Tightly packed mitochondria fill the mid-piece of the sperm. ATP produced by these mitochondria will power the flagellum, which extends from the neck and the mid-piece through the tail of the sperm, enabling it to move the entire sperm cell.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The flagellum is built from microtubules, which are small hollow tubes made of protein.",
+     "defines": "microtubules",
+     "quotes": [
+      {
+       "quote": "A microtubule-based flagellum (or cilium) that is part of a sperm, a mature male germ cell that develops from a spermatid.",
+       "section": "GO:0036126 sperm flagellum",
+       "url": "http://purl.obolibrary.org/obo/GO_0036126",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "As their name implies, microtubules are small hollow tubes. Polymerized dimers of α-tubulin and β-tubulin, two globular proteins, comprise the microtubule's walls",
+       "section": "4.5 The Cytoskeleton",
+       "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -48,8 +143,28 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0036126",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0036126",
+   "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+   "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0036126 sperm flagellum",
+   "url": "http://purl.obolibrary.org/obo/GO_0036126",
    "license": "CC BY 4.0"
   }
  ],

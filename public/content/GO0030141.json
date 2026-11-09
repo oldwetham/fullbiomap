@@ -13,27 +13,96 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0030141/tier1.auto.md",
-   "text": "A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules.",
+   "status": "drafted",
+   "file": "content/GO_0030141/tier1.md",
+   "text": "Secretory granules are small sacs that hold concentrated protein for the cell to release, or secrete. They form from the Golgi apparatus, the cell part that changes, packs and ships proteins. Secretory granules move toward the outer edge of the cell. When the cell is stimulated, they fuse with its outer membrane and release their protein outside the cell.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0030141",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0030141",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+     "title": "Gene Ontology, GO:0030141 secretory granule",
+     "url": "http://purl.obolibrary.org/obo/GO_0030141",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0030141. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Secretory granules are small sacs that hold concentrated protein for the cell to release, or secrete.",
+     "defines": "secretory granule",
+     "quotes": [
+      {
+       "quote": "A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "They form from the Golgi apparatus, the cell part that changes, packs and ships proteins.",
+     "defines": "Golgi apparatus",
+     "quotes": [
+      {
+       "quote": "A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "Golgi apparatus: cellular organelle formed by a series of flattened, membrane-bound sacs that functions in protein modification, tagging, packaging, and transport",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Secretory granules move toward the outer edge of the cell.",
+     "quotes": [
+      {
+       "quote": "Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "When the cell is stimulated, they fuse with its outer membrane and release their protein outside the cell.",
+     "quotes": [
+      {
+       "quote": "Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    }
+   ],
+   "grade": 8.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -45,8 +114,13 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0030141",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030141",
+   "title": "Gene Ontology, GO:0030141 secretory granule",
+   "url": "http://purl.obolibrary.org/obo/GO_0030141",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
    "license": "CC BY 4.0"
   }
  ],

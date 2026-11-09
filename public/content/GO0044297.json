@@ -15,27 +15,126 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0044297/tier1.auto.md",
-   "text": "The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.",
+   "status": "drafted",
+   "file": "content/GO_0044297/tier1.md",
+   "text": "The cell body holds the nucleus, which contains the cell's DNA. Extensions called processes reach out from the cell body, but they are not part of it. Astrocytes, star-shaped cells that support nerve cells, have many processes reaching out from the main cell body. By contrast, an oligodendrocyte, a cell that insulates nerve fibers, has just a few processes.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0044297",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0044297",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0044297",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0044297",
+     "title": "Gene Ontology, GO:0044297 cell body",
+     "url": "http://purl.obolibrary.org/obo/GO_0044297",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0044297. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The cell body holds the nucleus, which contains the cell's DNA.",
+     "defines": "nucleus",
+     "quotes": [
+      {
+       "quote": "The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.",
+       "section": "GO:0044297 cell body",
+       "url": "http://purl.obolibrary.org/obo/GO_0044297",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "nucleus: cell’s central organelle; contains the cell’s DNA",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Extensions called processes reach out from the cell body, but they are not part of it.",
+     "defines": "process",
+     "quotes": [
+      {
+       "quote": "The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.",
+       "section": "GO:0044297 cell body",
+       "url": "http://purl.obolibrary.org/obo/GO_0044297",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "process: in cells, an extension of a cell body; in the case of neurons, this includes the axon and dendrites",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Astrocytes, star-shaped cells that support nerve cells, have many processes reaching out from the main cell body.",
+     "defines": "astrocyte",
+     "quotes": [
+      {
+       "quote": "Astrocytes have many processes extending from their main cell body (not axons or dendrites like neurons, just cell extensions).",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "One cell providing support to neurons of the CNS is the astrocyte, so named because it appears to be star-shaped under the microscope (astro- = “star”).",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "By contrast, an oligodendrocyte, a cell that insulates nerve fibers, has just a few processes.",
+     "defines": "oligodendrocyte",
+     "quotes": [
+      {
+       "quote": "Also found in CNS tissue is the oligodendrocyte, sometimes called just “oligo,” which is the glial cell type that insulates axons in the CNS. The name means “cell of a few branches” (oligo- = “few”; dendro- = “branches”; -cyte = “cell”). There are a few processes that extend from the cell body.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,8 +146,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0044297",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0044297",
+   "title": "Gene Ontology, GO:0044297 cell body",
+   "url": "http://purl.obolibrary.org/obo/GO_0044297",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
    "license": "CC BY 4.0"
   }
  ],

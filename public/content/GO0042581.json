@@ -15,27 +15,123 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0042581/tier1.auto.md",
-   "text": "Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells. Most are released into the extracellular fluid. Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.",
+   "status": "drafted",
+   "file": "content/GO_0042581/tier1.md",
+   "text": "Specific granules are stores of chemicals inside a cell, but most are released from the cell. Specific granules hold lysozyme, which breaks down the cell walls of bacteria. These granules are found mainly in mature neutrophils, white blood cells that are especially active against bacteria. Inside each specific granule is a tube-like structure made of membrane.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0042581",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042581",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0042581",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042581",
+     "title": "Gene Ontology, GO:0042581 specific granule",
+     "url": "http://purl.obolibrary.org/obo/GO_0042581",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0042581. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Specific granules are stores of chemicals inside a cell, but most are released from the cell.",
+     "defines": "granule",
+     "quotes": [
+      {
+       "quote": "Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells. Most are released into the extracellular fluid. Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.",
+       "section": "GO:0042581 specific granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0042581",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues. These spherical cells are granulocytes. A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Specific granules hold lysozyme, which breaks down the cell walls of bacteria.",
+     "defines": "lysozyme",
+     "quotes": [
+      {
+       "quote": "Specific granules contain lactoferrin, lysozyme, vitamin B12 binding protein and elastase.",
+       "section": "GO:0042581 specific granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0042581",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These granules are found mainly in mature neutrophils, white blood cells that are especially active against bacteria.",
+     "defines": "neutrophil",
+     "quotes": [
+      {
+       "quote": "Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells.",
+       "section": "GO:0042581 specific granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0042581",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "neutrophils: granulocytes that stain with a neutral dye and are the most numerous of the leukocytes; especially active against bacteria",
+       "section": "Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside each specific granule is a tube-like structure made of membrane.",
+     "quotes": [
+      {
+       "quote": "Granule with a membranous, tubular internal structure, found primarily in mature neutrophil cells.",
+       "section": "GO:0042581 specific granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0042581",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    }
+   ],
+   "grade": 9.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,8 +143,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0042581",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0042581",
+   "title": "Gene Ontology, GO:0042581 specific granule",
+   "url": "http://purl.obolibrary.org/obo/GO_0042581",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
    "license": "CC BY 4.0"
   }
  ],

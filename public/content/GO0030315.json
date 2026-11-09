@@ -15,27 +15,108 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0030315/tier1.auto.md",
-   "text": "Invagination of the plasma membrane of a muscle cell that extends inward from the cell surface around each myofibril. The ends of T-tubules make contact with the sarcoplasmic reticulum membrane.",
+   "status": "drafted",
+   "file": "content/GO_0030315/tier1.md",
+   "text": "T tubules carry electrical signals from a muscle cell's surface to the inside of the cell. Each T tubule is an inward fold of the cell's outer membrane. Inside, the signal makes the nearby sarcoplasmic reticulum, the cell's calcium store, release calcium. This calcium starts the cell's contraction.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0030315",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030315",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0030315",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030315",
+     "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0030315 T-tubule",
+     "url": "http://purl.obolibrary.org/obo/GO_0030315",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 10.2 Skeletal Muscle",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.4 The Endomembrane System and Proteins",
+     "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0030315. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "T tubules carry electrical signals from a muscle cell's surface to the inside of the cell.",
+     "quotes": [
+      {
+       "quote": "T (transverse) tubules penetrate from the surface plasma membrane, the sarcolemma, to the interior of the cell, allowing the electrical impulse to reach the interior.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each T tubule is an inward fold of the cell's outer membrane.",
+     "quotes": [
+      {
+       "quote": "Invagination of the plasma membrane of a muscle cell that extends inward from the cell surface around each myofibril.",
+       "section": "GO:0030315 T-tubule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030315",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Inside, the signal makes the nearby sarcoplasmic reticulum, the cell's calcium store, release calcium.",
+     "defines": "sarcoplasmic reticulum",
+     "quotes": [
+      {
+       "quote": "The T-tubules carry the action potential into the interior of the cell, which triggers the opening of calcium channels in the membrane of the adjacent SR, causing Ca++ to diffuse out of the SR and into the sarcoplasm.",
+       "section": "10.2 Skeletal Muscle",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "In muscle cells, a specialized SER, the sarcoplasmic reticulum, is responsible for storing calcium ions that are needed to trigger the muscle cells' coordinated contractions.",
+       "section": "4.4 The Endomembrane System and Proteins",
+       "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This calcium starts the cell's contraction.",
+     "quotes": [
+      {
+       "quote": "It is the arrival of Ca++ in the sarcoplasm that initiates contraction of the muscle fiber by its contractile units, or sarcomeres.",
+       "section": "10.2 Skeletal Muscle",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -47,8 +128,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0030315",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0030315",
+   "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0030315 T-tubule",
+   "url": "http://purl.obolibrary.org/obo/GO_0030315",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 10.2 Skeletal Muscle",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.4 The Endomembrane System and Proteins",
+   "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
    "license": "CC BY 4.0"
   }
  ],

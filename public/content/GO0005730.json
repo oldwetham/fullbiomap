@@ -13,27 +13,144 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0005730/tier1.auto.md",
-   "text": "A small, dense body one or more of which are present in the nucleus of eukaryotic cells. It is rich in RNA and protein, is not bounded by a limiting membrane, and is not seen during mitosis. Its prime function is the transcription of the nucleolar DNA into 45S ribosomal-precursor RNA, the processing of this RNA into 5.8S, 18S, and 28S components of ribosomal RNA, and the association of these components with 5S RNA and proteins synthesized outside the nucleolus. This association results in the formation of ribonucleoprotein precursors; these pass into the cytoplasm and mature into the 40S and 60S subunits of the ribosome.",
+   "status": "drafted",
+   "file": "content/GO_0005730/tier1.md",
+   "text": "The nucleolus makes ribosomes, the cell parts that build proteins. The nucleolus is a dense area inside the nucleus, the cell's control center. The nucleolus builds ribosome pieces from proteins and RNA, a molecule involved in making proteins. These pieces then leave the nucleus through nuclear pores, small openings in its membrane.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0005730",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005730",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0005730",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005730",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Cell Structure",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.3 Eukaryotic Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.3 The Nucleus and DNA Replication",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0005730. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Cell Structure. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The nucleolus makes ribosomes, the cell parts that build proteins.",
+     "defines": "ribosomes",
+     "quotes": [
+      {
+       "quote": "nucleolus: small region of the nucleus that functions in ribosome synthesis",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ribosome: cellular structure that carries out protein synthesis",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The nucleolus is a dense area inside the nucleus, the cell's control center.",
+     "defines": "nucleus",
+     "quotes": [
+      {
+       "quote": "The nucleolus is a dense region of ribonucleic acid (RNA) in the nucleus",
+       "section": "SEER Training Modules: Cell Structure",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Cell Structure. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "The nucleus, formed by a nuclear membrane around a fluid nucleoplasm, is the control center of the cell.",
+       "section": "SEER Training Modules: Cell Structure",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Cell Structure. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The nucleolus builds ribosome pieces from proteins and RNA, a molecule involved in making proteins.",
+     "defines": "RNA",
+     "quotes": [
+      {
+       "quote": "A darkly staining area within the nucleus called the nucleolus (plural = nucleoli) aggregates the ribosomal RNA with associated proteins to assemble the ribosomal subunits",
+       "section": "4.3 Eukaryotic Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ribonucleic acid (RNA): single-stranded, often internally base paired, molecule that is involved in protein synthesis",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These pieces then leave the nucleus through nuclear pores, small openings in its membrane.",
+     "defines": "nuclear pores",
+     "quotes": [
+      {
+       "quote": "Once synthesized, newly made ribosomal subunits exit the cell’s nucleus through the nuclear pores.",
+       "section": "3.3 The Nucleus and DNA Replication",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "nuclear pore: one of the small, protein-lined openings found scattered throughout the nuclear envelope",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -45,8 +162,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0005730",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005730",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Cell Structure",
+   "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.3 Eukaryotic Cells",
+   "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+   "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 3.3 The Nucleus and DNA Replication",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
    "license": "CC BY 4.0"
   }
  ],

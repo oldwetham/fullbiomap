@@ -14,6 +14,55 @@
     "It also signals the pituitary gland, a pea-sized gland that sends out chemical messengers called hormones.",
     "It is a small area below the thalamus, which relays signals from the senses."
    ]
+  },
+  "FMA:23113|1": {
+   "id": "FMA:23113",
+   "label": "Subscapular vein",
+   "tier": 1,
+   "issues": [
+    "terms left undefined: subscapular region"
+   ],
+   "dropped": [],
+   "kept": [
+    "Each subscapular vein carries blood away from the subscapular region.",
+    "This vein runs alongside the subscapular artery, which feeds the shoulder.",
+    "Each subscapular vein joins the cephalic vein, which drains the surface of the arm.",
+    "Together, the subscapular and cephalic veins form the axillary vein, which returns blood from the arm to the heart."
+   ]
+  },
+  "GO:0097440|1": {
+   "id": "GO:0097440",
+   "label": "Apical dendrite",
+   "tier": 1,
+   "issues": [
+    "does not read well: Without sentence 1 the text never says where an apical dendrite grows out in most neurons or what 'apical' means, and sentence 3 jumps straight to bipolar cells. Sentences 0 and 2 also partly repeat the receiving-signals point, and 'branches' means dendrites only in sentence 0 but includes the axon in sentence 3.",
+    "terms left undefined: apical"
+   ],
+   "dropped": [
+    {
+     "text": "This dendrite grows out near the cell's apical pole, the part that generally faces an open space.",
+     "reason": "checker: Both quotes appear verbatim, but the second does not fit this subject. The OpenStax ch. 4 'apical' entry is the epithelial sense: chapter 4.2 uses it only for the exposed surface of epithelial cells facing a lumen or free space, and OpenStax never uses it for neurons. Defining a neuron's apical pole as 'the part that generally faces an open space' says something about neurons that no quote supports, and it is misleading because neurons sit inside tissue. So the second quote does not define 'apical pole' in the GO sense."
+    }
+   ],
+   "kept": [
+    "An apical dendrite is a dendrite, one of a nerve cell's many branches that receive signals.",
+    "Like other dendrites, an apical dendrite carries signals to the cell body, while the axon carries them away.",
+    "In a bipolar nerve cell, which has just two branches, the apical dendrite lies opposite the axon."
+   ]
   }
+ },
+ "defined": {
+  "FMA:22704|1": [
+   "erector spinae",
+   "iliocostalis group"
+  ],
+  "GO:0005902|1": [
+   "brush border",
+   "enzymes"
+  ],
+  "CL:0002063|1": [
+   "surfactant",
+   "surface tension"
+  ]
  }
 }

@@ -17,27 +17,131 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/GO_0005811/tier1.auto.md",
-   "text": "An intracellular non-membrane-bounded organelle comprising a matrix of coalesced lipids surrounded by a phospholipid monolayer. May include associated proteins.",
+   "status": "drafted",
+   "file": "content/GO_0005811/tier1.md",
+   "text": "Lipid droplets store lipids, a group that includes fats and oils, inside cells. White fat cells hold their lipids in one large drop, while brown fat cells hold many droplets. Heart muscle cells also store droplets of fatty acids, parts of fat molecules, as an extra supply of nutrients. Each droplet's lipids are wrapped in a single layer of phospholipids, the main part of membranes.",
    "source": {
-    "kind": "go",
-    "name": "Gene Ontology",
-    "term": "GO:0005811",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005811",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Gene Ontology GO:0005811",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005811",
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 3.3 Lipids",
+     "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0005811 lipid droplet",
+     "url": "http://purl.obolibrary.org/obo/GO_0005811",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Gene Ontology (GO 2026-07-26), GO:0005811. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Lipid droplets store lipids, a group that includes fats and oils, inside cells.",
+     "defines": "lipids",
+     "quotes": [
+      {
+       "quote": "Adipocytes are cells that store lipids as droplets that fill most of the cytoplasm.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Lipids include fats, oils, waxes, phospholipids, and steroids.",
+       "section": "3.3 Lipids",
+       "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "White fat cells hold their lipids in one large drop, while brown fat cells hold many droplets.",
+     "quotes": [
+      {
+       "quote": "The brown adipocytes store lipids as many droplets, and have high metabolic activity. In contrast, white fat adipocytes store lipids as a single large drop and are metabolically less active.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Heart muscle cells also store droplets of fatty acids, parts of fat molecules, as an extra supply of nutrients.",
+     "defines": "fatty acids",
+     "quotes": [
+      {
+       "quote": "Both fatty acid droplets and glycogen are stored within the sarcoplasm and provide additional nutrient supply.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A fat molecule consists of two main components—glycerol and fatty acids.",
+       "section": "3.3 Lipids",
+       "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each droplet's lipids are wrapped in a single layer of phospholipids, the main part of membranes.",
+     "defines": "phospholipids",
+     "quotes": [
+      {
+       "quote": "An intracellular non-membrane-bounded organelle comprising a matrix of coalesced lipids surrounded by a phospholipid monolayer.",
+       "section": "GO:0005811 lipid droplet",
+       "url": "http://purl.obolibrary.org/obo/GO_0005811",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "phospholipid: membranes' major constituent; comprised of two fatty acids and a phosphate-containing group attached to a glycerol backbone",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -49,8 +153,28 @@
  "media": [],
  "sources": [
   {
-   "title": "Gene Ontology GO:0005811",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005811",
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 3.3 Lipids",
+   "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0005811 lipid droplet",
+   "url": "http://purl.obolibrary.org/obo/GO_0005811",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+   "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
    "license": "CC BY 4.0"
   }
  ],

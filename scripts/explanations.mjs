@@ -35,8 +35,10 @@ if (cmd === 'assemble') {
   const texts = new Map();
   const fileText = f => { if (!texts.has(f)) { const p = path.resolve(SRC, f); texts.set(f, p.startsWith(SRC + path.sep) && fs.existsSync(p) ? norm(fs.readFileSync(p, 'utf8')) : null); } return texts.get(f); };
   // Each journal: drafts and checks by job key ("draft <key>", "check <key>"); a later journal wins per subject and tier.
-  const latest = new Map();  // `${id}|${tier}` -> {sentences, verdicts, text, round, notes}
-  journals.forEach((j, round) => {
+  // round: how many earlier journals drafted the same subject and tier (0 = a first draft, 1 = its repair), so one run can
+  // hold first drafts and repairs of other texts.
+  const latest = new Map(), attempts = new Map();  // `${id}|${tier}` -> {sentences, verdicts, text, round, notes}
+  journals.forEach(j => {
     const labels = new Map(), results = new Map();
     for (const line of fs.readFileSync(j, 'utf8').split('\n').filter(Boolean)) {
       const e = JSON.parse(line);
@@ -55,7 +57,9 @@ if (cmd === 'assemble') {
       const c = checks.get(key);
       for (const s of d.subjects ?? []) for (const [tierName, tier] of [['plain', 1], ['core', 2]]) {
         if (!s[tierName]?.length) continue;
-        latest.set(`${s.id}|${tier}`, {id: s.id, tier, round, notes: s.notes, sentences: s[tierName],
+        const k = `${s.id}|${tier}`, round = attempts.get(k) ?? 0;
+        attempts.set(k, round + 1);
+        latest.set(k, {id: s.id, tier, round, notes: s.notes, sentences: s[tierName],
           verdicts: (c?.verdicts ?? []).filter(v => v.id === s.id && v.tier === tierName), text: (c?.texts ?? []).find(t => t.id === s.id && t.tier === tierName) ?? null, checked: !!c});
       }
     }

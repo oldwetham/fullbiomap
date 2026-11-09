@@ -15,7 +15,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Muscles | 106 | 106 of 106 | 0 of 0 | 304 |
 | Vessels | 90 | 89 of 90 | 0 of 0 | 206 |
 | Nerves | 3 | 3 of 3 | 0 of 0 | 9 |
-| Brain regions | 31 | 4 of 31 | 0 of 0 | 65 |
+| Brain regions | 31 | 30 of 31 | 0 of 0 | 65 |
 | All | 437 | | | 994 |
 
 Key-term matches left out as generic or as organs listed above: anastomosis, arm, axial skeleton, brain, carpal bone, cranial nerve, diaphragm, external nose, false ribs, flat bone, floating ribs, foot, forearm, ganglion, hand, irregular bone, leg, long bone, nerve, neuraxis, organ, pectoral girdle, pelvis, perineum, sesamoid bone, short bone, skeletal system, spinal cord, tarsal bone, thigh, true ribs, trunk.
@@ -449,37 +449,37 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Brain regions (31)
 
-- Amygdala (FMA:61841; also Right amygdala, Left amygdala): Plain: not written
-- Cerebellum (FMA:67944): Plain: not written
-- Cerebral aqueduct (FMA:78467): Plain: not written
-- Cerebral hemisphere (FMA:61817; also Left cerebral hemisphere, Right cerebral hemisphere): Plain: not written
-- Cerebral peduncle (FMA:62394): Plain: not written
-- Corpus callosum (FMA:86464): Plain: not written
-- Diencephalon (FMA:62001): Plain: not written
-- Forebrain (FMA:61992): Plain: not written
-- Fourth ventricle (FMA:78469): Plain: not written
+- Amygdala (FMA:61841; also Right amygdala, Left amygdala): Plain: drafted, grade 8
+- Cerebellum (FMA:67944): Plain: drafted, grade 9.3
+- Cerebral aqueduct (FMA:78467): Plain: drafted, grade 8.4
+- Cerebral hemisphere (FMA:61817; also Left cerebral hemisphere, Right cerebral hemisphere): Plain: drafted, grade 9
+- Cerebral peduncle (FMA:62394): Plain: drafted, grade 9.8
+- Corpus callosum (FMA:86464): Plain: drafted, grade 6.8
+- Diencephalon (FMA:62001): Plain: drafted, grade 9.3
+- Forebrain (FMA:61992): Plain: drafted, grade 8.3
+- Fourth ventricle (FMA:78469): Plain: drafted, grade 8
 - Frontal lobe (FMA:61824; also Right frontal lobe, Left frontal lobe): Plain: drafted, grade 7
 - Globus pallidus (FMA:61835; also Right globus pallidus, Left globus pallidus): Plain: drafted, grade 7.6
-- Hindbrain (FMA:67687): Plain: not written
+- Hindbrain (FMA:67687): Plain: drafted, grade 7.2
 - Hypothalamus (FMA:62008): Plain: not published (see below)
 - Inferior colliculus (FMA:62404; also Right inferior colliculus, Left inferior colliculus): Plain: drafted, grade 6.3
-- Internal capsule (FMA:61950; also Right internal capsule, Left internal capsule): Plain: not written
-- Lateral ventricle (FMA:78448; also Right lateral ventricle, Left lateral ventricle): Plain: not written
-- Limbic lobe (FMA:72719; also Right limbic lobe, Left limbic lobe): Plain: not written
-- Metencephalon (FMA:62003): Plain: not written
-- Midbrain (FMA:61993): Plain: not written
+- Internal capsule (FMA:61950; also Right internal capsule, Left internal capsule): Plain: drafted, grade 9.6
+- Lateral ventricle (FMA:78448; also Right lateral ventricle, Left lateral ventricle): Plain: drafted, grade 9.2
+- Limbic lobe (FMA:72719; also Right limbic lobe, Left limbic lobe): Plain: drafted, grade 8
+- Metencephalon (FMA:62003): Plain: drafted, grade 9.8
+- Midbrain (FMA:61993): Plain: drafted, grade 7.2
 - Occipital lobe (FMA:67325; also Right occipital lobe, Left occipital lobe): Plain: drafted, grade 7.6
-- Optic chiasm (FMA:62045): Plain: not written
-- Optic tract (FMA:62046; also Right optic tract, Left optic tract): Plain: not written
-- Parietal lobe (FMA:61826; also Right parietal lobe, Left parietal lobe): Plain: not written
-- Postcentral gyrus (FMA:61896; also Right postcentral gyrus, Left postcentral gyrus): Plain: not written
-- Precentral gyrus (FMA:61894; also Right precentral gyrus, Left precentral gyrus): Plain: not written
-- Putamen (FMA:61834; also Right putamen, Left putamen): Plain: not written
-- Superior colliculus (FMA:62403; also Right superior colliculus, Left superior colliculus): Plain: not written
-- Telencephalon (FMA:62000): Plain: not written
-- Temporal lobe (FMA:61825; also Right temporal lobe, Left temporal lobe): Plain: not written
-- Thalamus (FMA:62007; also Right thalamus, Left thalamus): Plain: not written
-- Third ventricle (FMA:78454): Plain: not written
+- Optic chiasm (FMA:62045): Plain: drafted, grade 5
+- Optic tract (FMA:62046; also Right optic tract, Left optic tract): Plain: drafted, grade 9.1
+- Parietal lobe (FMA:61826; also Right parietal lobe, Left parietal lobe): Plain: drafted, grade 6
+- Postcentral gyrus (FMA:61896; also Right postcentral gyrus, Left postcentral gyrus): Plain: drafted, grade 7.8
+- Precentral gyrus (FMA:61894; also Right precentral gyrus, Left precentral gyrus): Plain: drafted, grade 8
+- Putamen (FMA:61834; also Right putamen, Left putamen): Plain: drafted, grade 9.5
+- Superior colliculus (FMA:62403; also Right superior colliculus, Left superior colliculus): Plain: drafted, grade 8.2
+- Telencephalon (FMA:62000): Plain: drafted, grade 8.6
+- Temporal lobe (FMA:61825; also Right temporal lobe, Left temporal lobe): Plain: drafted, grade 6
+- Thalamus (FMA:62007; also Right thalamus, Left thalamus): Plain: drafted, grade 7.6
+- Third ventricle (FMA:78454): Plain: drafted, grade 8.3
 
 ## Texts
 
@@ -2686,6 +2686,69 @@ Dropped:
 
 ### Nervous
 
+#### Amygdala: Plain (drafted; grade 8; `content/FMA_61841/tier1.md`; also Right amygdala, Left amygdala)
+
+1. Each amygdala helps you remember and feel emotions.
+   > “the amygdala, which is found beneath the cerebral cortex of the temporal lobe and plays a role in our ability to remember and feel emotions” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+2. Each amygdala lies deep inside a temporal lobe, a part of the brain by your ears. *(defines “temporal lobe”)*
+   > “A cluster of nuclei located deep and medially within each temporal lobe of the brain.” ([NCIT:C12440 Amygdala](http://purl.obolibrary.org/obo/NCIT_C12440), CC BY 4.0)
+   > “The temporal lobe is located at the base of the brain by your ears” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. Together, the two amygdalae are key to sensing fear and recognizing fearful faces.
+   > “The two amygdala are important both for the sensation of fear and for recognizing fearful faces.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. When you are scared, the amygdala sends signals that start the fight-or-flight response, which helps you flee or face a threat. *(defines “fight-or-flight response”)*
+   > “when you are anxious or scared, the amygdala will send signals to the hypothalamus along the medial forebrain bundle that will stimulate the sympathetic fight-or-flight response” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+   > “fight-or-flight response: set of responses induced by sympathetic activity that lead to either fleeing a threat or standing up to it” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+
+#### Cerebellum: Plain (drafted; grade 9.3; `content/FMA_67944/tier1.md`)
+
+1. The cerebellum controls balance and helps you coordinate movements and learn new movement skills.
+   > “The cerebellum controls balance and aids in coordinating movement and learning new motor tasks.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. The cerebellum sits at the base of the brain, on top of the brainstem, which joins the spinal cord. *(defines “brainstem”)*
+   > “The cerebellum (Latin for “little brain”), shown in , sits at the base of the brain on top of the brainstem.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+   > “brainstem: portion of the brain that connects with the spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The cerebellum compares signals from the cerebrum, the brain's largest part, with sensory feedback from the body. *(defines “cerebrum”)*
+   > “The cerebellum is largely responsible for comparing information from the cerebrum with sensory feedback from the periphery through the spinal cord.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+4. If uneven ground or a strong wind throws off your walking, the cerebellum sends out a correcting command.
+   > “If walking is not coordinated, perhaps because the ground is uneven or a strong wind is blowing, then the cerebellum sends out a corrective command to compensate for the difference between the original cortical command and the sensory feedback.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Cerebral aqueduct: Plain (drafted; grade 8.4; `content/FMA_78467/tier1.md`)
+
+1. The cerebral aqueduct is a narrow channel linking two ventricles, fluid-filled spaces inside the brain. *(defines “ventricle”)*
+   > “Part of ventricular system of brain consisting of a narrow channel in the midbrain connecting the third and fourth ventricles.” ([UBERON:0002289 midbrain cerebral aqueduct](http://purl.obolibrary.org/obo/UBERON_0002289), CC BY 3.0)
+   > “A series of interconnected, fluid-filled cavities are found within the brain. These cavities are the ventricles of the brain, and the fluid is cerebrospinal fluid (CSF).” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+2. Cerebrospinal fluid, a clear cushioning liquid, flows through the aqueduct from the third ventricle to the fourth. *(defines “cerebrospinal fluid”)*
+   > “From the lateral ventricles, the CSF flows into the third ventricle, where more CSF is produced, and then through the cerebral aqueduct into the fourth ventricle where even more CSF is produced.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The aqueduct runs through the center of the midbrain, the middle region of the brain. *(defines “midbrain”)*
+   > “The cerebral aqueduct passes through the center of the midbrain, such that these regions are the roof and floor of that canal.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “midbrain: middle region of the adult brain that develops from the mesencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. Two parts of the midbrain form the aqueduct's roof and floor.
+   > “The tectum and tegmentum of the midbrain are the roof and floor of the cerebral aqueduct, respectively.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+
+#### Cerebral hemisphere: Plain (drafted; grade 9; `content/FMA_61817/tier1.md`; also Left cerebral hemisphere, Right cerebral hemisphere)
+
+1. Each cerebral hemisphere controls the opposite side of the body.
+   > “Ascending neural pathways cross in this section of the brain allowing the left hemisphere of the cerebrum to control the right side of the body and vice versa.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. A deep groove divides the cerebrum, the largest part of the brain, into two cerebral hemispheres. *(defines “cerebrum”)*
+   > “The largest and most obvious portion of the brain is the cerebrum, which is divided by a deep longitudinal fissure into two cerebral hemispheres.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. The left hemisphere is more devoted to language, and the right to spatial and nonverbal reasoning.
+   > “There is some lateralization of function, in which the left side of the brain is devoted to language function and the right side is devoted to spatial and nonverbal reasoning.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. However, neither hemisphere has these functions all to itself.
+   > “Whereas these functions are predominantly associated with those sides of the brain, there is no monopoly by either side on these functions.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Cerebral peduncle: Plain (drafted; grade 9.8; `content/FMA_62394/tier1.md`)
+
+1. Each cerebral peduncle is part of the descending motor pathway, which carries movement commands from the brain to the spinal cord. *(defines “descending motor pathway”)*
+   > “cerebral peduncles: segments of the descending motor pathway that make up the white matter of the ventral midbrain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “descending tract: central nervous system fibers carrying motor commands from the brain to the spinal cord or periphery” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+2. The cerebral peduncles lie at the front of the midbrain, the middle region of the brain. *(defines “midbrain”)*
+   > “cerebral peduncles: segments of the descending motor pathway that make up the white matter of the ventral midbrain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “midbrain: middle region of the adult brain that develops from the mesencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+Dropped:
+- “They are white matter, tissue made mostly of nerve fibers with a fatty coating.” (checker: The quotes are verbatim, but the OpenStax key term uses 'cerebral peduncles' for the white-matter bundle of the ventral midbrain (the crus cerebri) only. This subject is broader. ncit/NCIT_C32291.txt (Cerebral Peduncle): 'A region of the brain encompassing the crus cerebri and the midbrain tegmentum'. uberon/UBERON_0002623.txt equates it with the tegmentum. OpenStax 13-02 says the tegmentum is continuous with the brain stem's gray matter and contains nuclei. So 'They are white matter' does not hold for the whole subject: the quote is about a narrower structure.)
+
 #### Ciliary ganglion: Plain (drafted; grade 7.7; `content/FMA_6964/tier1.md`; also Right ciliary ganglion, Left ciliary ganglion)
 
 1. The ciliary ganglion helps control the size of the pupil, the opening that lets light into the eye. *(defines “pupil”)*
@@ -2700,6 +2763,59 @@ Dropped:
 4. In bright light, its fibers make the iris, the colored part of the eye, narrow the pupil. *(defines “iris”)*
    > “Bright light hitting the retina leads to the parasympathetic response, through the oculomotor nerve, followed by the postganglionic fiber from the ciliary ganglion, which stimulates the circular fibers of the iris to contract and constrict the pupil.” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
    > “iris: colored portion of the anterior eye that surrounds the pupil” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Corpus callosum: Plain (drafted; grade 6.8; `content/FMA_86464/tier1.md`)
+
+1. The corpus callosum is the main pathway for messages between the two halves of the cerebrum, the brain's largest part. *(defines “cerebrum”)*
+   > “It separates the cerebrum into two distinct halves, a right and left cerebral hemisphere. Deep within the cerebrum, the white matter of the corpus callosum provides the major pathway for communication between the two hemispheres of the cerebral cortex.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+2. This pathway lies in the gap that separates the left and right halves.
+   > “A white matter structure within the cleft that separates the left and right cerebral hemispheres in the mammalian brain.” ([NCIT:C12446 Corpus Callosum](http://purl.obolibrary.org/obo/NCIT_C12446), CC BY 4.0)
+3. The corpus callosum is a wide, flat bundle of 200 to 250 million nerve fibers.
+   > “It is composed of a wide, flat bundle of 200-250 million axonal projections.” ([NCIT:C12446 Corpus Callosum](http://purl.obolibrary.org/obo/NCIT_C12446), CC BY 4.0)
+4. This bundle lets the two halves work together on movement, senses and thinking.
+   > “The corpus callosum functions to integrate motor, sensory, and cognitive functions between the left and right cerebral cortexes.” ([29.6 Mammals](https://openstax.org/books/biology-2e/pages/29-6-mammals), CC BY 4.0)
+
+#### Diencephalon: Plain (drafted; grade 9.3; `content/FMA_62001/tier1.md`)
+
+1. The diencephalon connects the cerebrum, the brain's largest part, with the rest of the nervous system. *(defines “cerebrum”)*
+   > “The diencephalon is between the cerebrum and the rest of the nervous system and can be described as the region through which all projections have to pass between the cerebrum and everything else.” ([13.1 The Embryologic Perspective](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective), CC BY 4.0)
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+2. The diencephalon sits in the center of the brain, almost surrounded by the cerebrum.
+   > “The diencephalons is centrally located and is nearly surrounded by the cerebral hemispheres.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. The thalamus, one of the diencephalon's two main parts, relays signals from the senses. *(defines “thalamus”)*
+   > “The two major regions of the diencephalon are the thalamus itself and the hypothalamus” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “thalamus: region of the central nervous system that acts as a relay for sensory pathways” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+4. The other is the hypothalamus, which keeps body temperature, eating and drinking at the right levels. *(defines “hypothalamus”)*
+   > “The two major regions of the diencephalon are the thalamus itself and the hypothalamus” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “The hypothalamus is the body’s thermostat—it makes sure key functions like food and water intake, energy expenditure, and body temperature are kept at appropriate levels.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
+#### Forebrain: Plain (drafted; grade 8.3; `content/FMA_61992/tier1.md`)
+
+1. The forebrain contains the cerebrum, which handles memory, emotion and consciousness. *(defines “cerebrum”)*
+   > “forebrain: anterior region of the adult brain that develops from the prosencephalon and includes the cerebrum and diencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “cerebrum: region of the adult brain that develops from the telencephalon and is responsible for higher neurological functions such as memory, emotion, and consciousness” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+2. The forebrain also contains the diencephalon, which passes signals to and from the cerebrum. *(defines “diencephalon”)*
+   > “forebrain: anterior region of the adult brain that develops from the prosencephalon and includes the cerebrum and diencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The rest of the brain, the spinal cord, and the PNS all send information to the cerebrum through the diencephalon. Output from the cerebrum passes through the diencephalon.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+3. The forebrain is the front region of the brain.
+   > “forebrain: anterior region of the adult brain that develops from the prosencephalon and includes the cerebrum and diencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. This region is also the largest part of the brain.
+   > “The largest part of the brain composed of the cerebral hemispheres, thalamus, hypothalamus, and the limbic system.” ([NCIT:C40185 Forebrain](http://purl.obolibrary.org/obo/NCIT_C40185), CC BY 4.0)
+
+#### Fourth ventricle: Plain (drafted; grade 8; `content/FMA_78469/tier1.md`)
+
+1. The fourth ventricle is a diamond-shaped space that holds cerebrospinal fluid, a clear cushioning liquid. *(defines “cerebrospinal fluid”)*
+   > “A diamond-shaped cavity filled with cerebrospinal fluid” ([NCIT:C12828 Fourth Ventricle](http://purl.obolibrary.org/obo/NCIT_C12828), CC BY 4.0)
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. This ventricle lies in the region of the brain stem, the brain's link to the spinal cord. *(defines “brain stem”)*
+   > “fourth ventricle: the portion of the ventricular system that is in the region of the brain stem and opens into the subarachnoid space through the median and lateral apertures” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The brainstem, illustrated in , connects the rest of the brain with the spinal cord.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. Fluid arrives through the cerebral aqueduct, a narrow channel, and the fourth ventricle adds more. *(defines “cerebral aqueduct”)*
+   > “From the lateral ventricles, the CSF flows into the third ventricle, where more CSF is produced, and then through the cerebral aqueduct into the fourth ventricle where even more CSF is produced.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “Part of ventricular system of brain consisting of a narrow channel in the midbrain connecting the third and fourth ventricles.” ([UBERON:0002289 midbrain cerebral aqueduct](http://purl.obolibrary.org/obo/UBERON_0002289), CC BY 3.0)
+4. Openings in the fourth ventricle then let the fluid flow out around the brain and spinal cord.
+   > “The ventricular system opens up to the subarachnoid space from the fourth ventricle. The single median aperture and the pair of lateral apertures connect to the subarachnoid space so that CSF can flow through the ventricles and around the outside of the CNS.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
 
 #### Frontal lobe: Plain (drafted; grade 7; `content/FMA_61824/tier1.md`; also Right frontal lobe, Left frontal lobe)
 
@@ -2726,6 +2842,20 @@ Dropped:
 4. It has two parts, an outer segment and an inner segment.
    > “The globus pallidus has two subdivisions, the external and internal segments, which are lateral and medial, respectively.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
 
+#### Hindbrain: Plain (drafted; grade 7.2; `content/FMA_67687/tier1.md`)
+
+1. The hindbrain includes the cerebellum, which controls balance and helps coordinate movement. *(defines “cerebellum”)*
+   > “hindbrain: posterior region of the adult brain that develops from the rhombencephalon and includes the pons, medulla oblongata, and cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The cerebellum controls balance and aids in coordinating movement and learning new motor tasks.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. The hindbrain also includes the pons, the cerebellum's main link to the rest of the brain. *(defines “pons”)*
+   > “hindbrain: posterior region of the adult brain that develops from the rhombencephalon and includes the pons, medulla oblongata, and cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The most significant connection between the cerebellum and the rest of the brain is at the pons, because the pons and cerebellum develop out of the same vesicle.” ([13.1 The Embryologic Perspective](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective), CC BY 4.0)
+3. The pons and the medulla oblongata, the third part, help control the heart and breathing. *(defines “medulla oblongata”)*
+   > “hindbrain: posterior region of the adult brain that develops from the rhombencephalon and includes the pons, medulla oblongata, and cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The pons and the medulla regulate several crucial functions, including the cardiovascular and respiratory systems and rates.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. The hindbrain is the back region of the brain.
+   > “hindbrain: posterior region of the adult brain that develops from the rhombencephalon and includes the pons, medulla oblongata, and cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
 #### Inferior colliculus: Plain (drafted; grade 6.3; `content/FMA_62404/tier1.md`; also Right inferior colliculus, Left inferior colliculus)
 
 1. Each inferior colliculus is part of the brain's pathway for hearing.
@@ -2739,6 +2869,72 @@ Dropped:
 4. It belongs to the lower pair of four bumps called colliculi, Latin for “little hills.”
    > “The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin. The inferior colliculus is the inferior pair of these enlargements and is part of the auditory brain stem pathway.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
 
+#### Internal capsule: Plain (drafted; grade 9.6; `content/FMA_61950/tier1.md`; also Right internal capsule, Left internal capsule)
+
+1. Each internal capsule is part of the descending motor pathway, which carries movement commands from the brain to the spinal cord. *(defines “descending motor pathway”)*
+   > “internal capsule: segment of the descending motor pathway that passes between the caudate nucleus and the putamen” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “descending tract: central nervous system fibers carrying motor commands from the brain to the spinal cord or periphery” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+2. The internal capsule also holds nerve fibers that carry signals from the senses.
+   > “A white matter structure in the subcortical region of the brain that contains a high concentration of motor and sensory projection nerve fibers.” ([NCIT:C13082 Internal Capsule](http://purl.obolibrary.org/obo/NCIT_C13082), CC BY 4.0)
+3. It passes between the caudate nucleus and putamen, deep parts of the brain that control movement. *(defines “caudate nucleus and putamen”)*
+   > “internal capsule: segment of the descending motor pathway that passes between the caudate nucleus and the putamen” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “The major structures of the basal nuclei that control movement are the caudate, putamen, and globus pallidus, which are located deep in the cerebrum.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. The internal capsule is white matter, tissue made mostly of nerve fibers with a fatty coating. *(defines “white matter”)*
+   > “Internal capsule is an organ subdivision of the telencephalon which is made up primarily of myelinated axonal neural tissue (white matter).” ([FMA:61950 Internal capsule](http://purl.org/sig/ont/fma/fma61950), CC BY 3.0)
+   > “white matter: regions of the nervous system containing mostly myelinated axons, making the tissue appear white because of the high lipid content of myelin” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+
+#### Lateral ventricle: Plain (drafted; grade 9.2; `content/FMA_78448/tier1.md`; also Right lateral ventricle, Left lateral ventricle)
+
+1. Each lateral ventricle holds cerebrospinal fluid, a clear liquid that cushions the brain and spinal cord. *(defines “cerebrospinal fluid”)*
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. The lateral ventricles are two hollow spaces, one deep inside each side of the brain.
+   > “The rostral extensions of the ventricular system of the brain consisting of two cavities, one on each side of the brain within the central regions of each cerebral hemisphere.” ([NCIT:C12834 Lateral Ventricle](http://purl.obolibrary.org/obo/NCIT_C12834), CC BY 4.0)
+3. Inside each lateral ventricle, a spongy tissue called the choroid plexus makes this fluid. *(defines “choroid plexus”)*
+   > “The choroid plexuses are found in all four ventricles.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “choroid plexus: spongy tissue within ventricles that produces cerebrospinal fluid” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. Each lateral ventricle opens into the third ventricle, letting the fluid pass through.
+   > “interventricular foramina: openings between the lateral ventricles and third ventricle allowing for the passage of CSF” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Limbic lobe: Plain (drafted; grade 8; `content/FMA_72719/tier1.md`; also Right limbic lobe, Left limbic lobe)
+
+1. The limbic lobe is a group of brain structures involved in memory and emotion. *(defines “limbic lobe”)*
+   > “limbic lobe: structures arranged around the edges of the cerebrum that are involved in memory and emotion” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+2. These structures sit around the edges of the cerebrum, the largest part of the brain. *(defines “cerebrum”)*
+   > “limbic lobe: structures arranged around the edges of the cerebrum that are involved in memory and emotion” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. The limbic lobe has strong links to the hypothalamus, a brain structure that controls hormone release. *(defines “hypothalamus”)*
+   > “The limbic lobe has strong connections with the hypothalamus and influences the state of its activity on the basis of emotional state.” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+   > “hypothalamus: brain structure that controls hormone release and body homeostasis” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. When you are scared, the amygdala, a part of the limbic lobe, signals the hypothalamus. *(defines “amygdala”)*
+   > “For example, when you are anxious or scared, the amygdala will send signals to the hypothalamus along the medial forebrain bundle that will stimulate the sympathetic fight-or-flight response.” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+   > “The amygdala is a group of nuclei in the medial region of the temporal lobe that is part of the limbic lobe” ([15.3 Central Control](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control), CC BY 4.0)
+
+#### Metencephalon: Plain (drafted; grade 9.8; `content/FMA_62003/tier1.md`)
+
+1. The metencephalon includes the cerebellum, which controls balance and helps coordinate movement. *(defines “cerebellum”)*
+   > “Rostral segment of the hindbrain that has as its parts the pons and the cerebellum.” ([FMA:62003 Metencephalon](http://purl.org/sig/ont/fma/fma62003), CC BY 3.0)
+   > “The cerebellum controls balance and aids in coordinating movement and learning new motor tasks.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. The metencephalon also includes the pons, the cerebellum's main link to the rest of the brain. *(defines “pons”)*
+   > “Rostral segment of the hindbrain that has as its parts the pons and the cerebellum.” ([FMA:62003 Metencephalon](http://purl.org/sig/ont/fma/fma62003), CC BY 3.0)
+   > “The most significant connection between the cerebellum and the rest of the brain is at the pons, because the pons and cerebellum develop out of the same vesicle.” ([13.1 The Embryologic Perspective](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective), CC BY 4.0)
+3. The metencephalon is part of the hindbrain, the back region of the brain. *(defines “hindbrain”)*
+   > “Rostral segment of the hindbrain that has as its parts the pons and the cerebellum.” ([FMA:62003 Metencephalon](http://purl.org/sig/ont/fma/fma62003), CC BY 3.0)
+   > “hindbrain: posterior region of the adult brain that develops from the rhombencephalon and includes the pons, medulla oblongata, and cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. In the embryo, the metencephalon grows into the pons and the cerebellum.
+   > “metencephalon: secondary vesicle of the embryonic brain that develops into the pons and the cerebellum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Midbrain: Plain (drafted; grade 7.2; `content/FMA_61993/tier1.md`)
+
+1. The midbrain coordinates what sight, hearing and touch tell us about the space around us.
+   > “The midbrain coordinates sensory representations of the visual, auditory, and somatosensory perceptual spaces.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+2. The midbrain forms the top of the brain stem, which connects to the spinal cord. *(defines “brain stem”)*
+   > “The midbrain is the most superior portion of the brain stem.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+   > “brainstem: portion of the brain that connects with the spinal cord; controls basic nervous system functions like breathing, heart rate, and swallowing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The midbrain has four bumps called colliculi, Latin for “little hills.” *(defines “colliculi”)*
+   > “The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. The upper pair, the superior colliculi, are involved in turning the eyes toward a sound or touch. *(defines “superior colliculi”)*
+   > “The superior colliculus is the superior pair and combines sensory information about visual space, auditory space, and somatosensory space. Activity in the superior colliculus is related to orienting the eyes to a sound or touch stimulus.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
 #### Occipital lobe: Plain (drafted; grade 7.6; `content/FMA_67325/tier1.md`; also Right occipital lobe, Left occipital lobe)
 
 1. Each occipital lobe works mainly on vision: seeing, recognizing and identifying the world we see.
@@ -2750,6 +2946,18 @@ Dropped:
    > “The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
 4. Signals from the eyes reach its primary visual cortex, where basic shapes start to be recognized. *(defines “primary visual cortex”)*
    > “For example, the visual pathway projects from the retinae through the thalamus to the primary visual cortex in the occipital lobe. This area is primarily in the medial wall within the longitudinal fissure. Here, visual stimuli begin to be recognized as basic shapes.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+
+#### Optic chiasm: Plain (drafted; grade 5; `content/FMA_62045/tier1.md`)
+
+1. The optic chiasm is where some nerve fibers from the eyes cross to the other side of the brain.
+   > “optic chiasm: decussation point in the visual system at which medial retina fibers cross to the other side of the brain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. This crossing lets each side of the brain handle the opposite half of what you see.
+   > “meet at the optic chiasm at which fibers sort such that the two halves of the visual field are processed by the opposite sides of the brain” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. The left and right optic nerves, the nerves of sight, meet at the optic chiasm. *(defines “optic nerves”)*
+   > “The optic nerves from both sides enter the cranium through the respective optic canals and meet at the optic chiasm” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+   > “optic nerve: second cranial nerve; responsible for visual sensation” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. Found at the base of the brain, the optic chiasm takes its name from the Greek word for “crossing.”
+   > “This crossing of optical pathways produces the distinctive optic chiasma (Greek, for “crossing”) found at the base of the brain and allows us to coordinate information from both eyes.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
 
 #### Optic nerve: Plain (drafted; grade 7; `content/FMA_50863/tier1.md`; also Right optic nerve, Left optic nerve)
 
@@ -2764,6 +2972,131 @@ Dropped:
 4. The two optic nerves meet at the optic chiasm, where some fibers cross to the other side of the brain. *(defines “optic chiasm”)*
    > “The optic nerves from both sides enter the cranium through the respective optic canals and meet at the optic chiasm at which fibers sort such that the two halves of the visual field are processed by the opposite sides of the brain.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
    > “optic chiasm: decussation point in the visual system at which medial retina fibers cross to the other side of the brain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+
+#### Optic tract: Plain (drafted; grade 9.1; `content/FMA_62046/tier1.md`; also Right optic tract, Left optic tract)
+
+1. Each optic tract passes visual information on toward the brain's main vision area.
+   > “A continuation of the optic nerves just dorsal to the optic chiasm, formed by temporal fibers of the ipsilateral optic nerve and nasal fibers of the contralateral optic nerve, that carries axons to nuclei within the thalamus and relays visual information to the primary visual cortex” ([NCIT:C33218 Optic Tract](http://purl.obolibrary.org/obo/NCIT_C33218), CC BY 4.0)
+2. Each optic tract starts at the optic chiasm, where some fibers from the eyes cross to the other side of the brain. *(defines “optic chiasm”)*
+   > “Extending from the optic chiasm, the axons of the visual system are referred to as the optic tract instead of the optic nerve.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+   > “optic chiasm: decussation point in the visual system at which medial retina fibers cross to the other side of the brain” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Most connections of the optic tract go to the thalamus, a brain area that relays sensory information. *(defines “thalamus”)*
+   > “The majority of the connections of the optic tract are to the thalamus—specifically, the lateral geniculate nucleus.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+   > “thalamus: brain area that relays sensory information to the cortex” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. The optic tract also reaches the superior colliculus, a brain area that manages eye movements. *(defines “superior colliculus”)*
+   > “Another target of the optic tract is the superior colliculus.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+   > “superior colliculus: paired structure in the top of the midbrain, which manages eye movements and auditory integration” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+
+#### Parietal lobe: Plain (drafted; grade 6; `content/FMA_61826/tier1.md`; also Right parietal lobe, Left parietal lobe)
+
+1. Each parietal lobe processes touch and the sense of how body parts are positioned.
+   > “Two of the parietal lobe’s main functions are processing somatosensation—touch sensations like pressure, pain, heat, cold—and processing proprioception—the sense of how parts of the body are oriented in space.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. This lobe also receives visual signals about where things are.
+   > “From the visual cortex, the visual signals travel in two directions. One stream that projects to the parietal lobe, in the side of the brain, carries magnocellular (“where”) information.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+3. The parietal lobe sits at the top of the brain.
+   > “The parietal lobe is located at the top of the brain.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. Each half of the cerebral cortex, the brain's folded outer layer, has a parietal lobe. *(defines “cerebral cortex”)*
+   > “each hemisphere of the mammalian cerebral cortex can be broken down into four functionally and spatially defined lobes: frontal, parietal, temporal, and occipital.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+   > “The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
+#### Postcentral gyrus: Plain (drafted; grade 7.8; `content/FMA_61896/tier1.md`; also Right postcentral gyrus, Left postcentral gyrus)
+
+1. Each postcentral gyrus processes touch, pressure, tickle, pain, itch and vibration.
+   > “Posterior to the central sulcus is the postcentral gyrus, the primary somatosensory cortex, which is identified as Brodmann’s areas 1, 2, and 3. All of the tactile senses are processed in this area, including touch, pressure, tickle, pain, itch, and vibration” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+2. The postcentral gyrus is a ridge in the parietal lobe, a region at the top of the brain. *(defines “parietal lobe”)*
+   > “postcentral gyrus: ridge just posterior to the central sulcus, in the parietal lobe, where somatosensory processing initially takes place in the cerebrum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “The parietal lobe is located at the top of the brain.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+3. This ridge is where these sensations are first processed and consciously felt.
+   > “The third neuron in the system projects its axons to the postcentral gyrus of the cerebral cortex, where somatosensory stimuli are initially processed and the conscious perception of the stimulus occurs.” ([14.2 Central Processing](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing), CC BY 4.0)
+4. Each postcentral gyrus receives its sensations from the opposite side of the body.
+   > “Motor commands from the precentral gyrus control the opposite side of the body, whereas sensory information processed by the postcentral gyrus is received from the opposite side of the body.” ([16.2 The Mental Status Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam), CC BY 4.0)
+
+#### Precentral gyrus: Plain (drafted; grade 8; `content/FMA_61894/tier1.md`; also Right precentral gyrus, Left precentral gyrus)
+
+1. Each precentral gyrus is the primary motor cortex, the area that starts movements. *(defines “primary motor cortex”)*
+   > “The precentral gyrus is the primary motor cortex.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “The premotor cortex and supplemental motor area then feed into the primary motor cortex that initiates movements.” ([14.3 Motor Responses](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses), CC BY 4.0)
+2. Its cells tell the spinal cord to move skeletal muscles, which attach to bones. *(defines “skeletal muscle”)*
+   > “The precentral gyrus is the primary motor cortex. Cells from this region of the cerebral cortex are the upper motor neurons that instruct cells in the spinal cord to move skeletal muscles.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “skeletal muscle tissue: forms skeletal muscles, which attach to bones and control locomotion and any movement that can be consciously controlled” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+3. Each precentral gyrus controls movement on the opposite side of the body.
+   > “Motor commands from the precentral gyrus control the opposite side of the body, whereas sensory information processed by the postcentral gyrus is received from the opposite side of the body.” ([16.2 The Mental Status Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam), CC BY 4.0)
+4. The precentral gyrus is the rearmost part of the frontal lobe, the brain's front region. *(defines “frontal lobe”)*
+   > “The most posterior region of the frontal lobe, the precentral gyrus, is the primary motor cortex.” ([16.2 The Mental Status Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam), CC BY 4.0)
+   > “The frontal lobe is located at the front of the brain, over the eyes.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
+#### Putamen: Plain (drafted; grade 9.5; `content/FMA_61834/tier1.md`; also Right putamen, Left putamen)
+
+1. Each putamen helps control movement and lies deep inside the cerebrum, the brain's largest part. *(defines “cerebrum”)*
+   > “The major structures of the basal nuclei that control movement are the caudate, putamen, and globus pallidus, which are located deep in the cerebrum.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+   > “The largest and most obvious portion of the brain is the cerebrum, which is divided by a deep longitudinal fissure into two cerebral hemispheres.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+2. The putamen belongs to the basal nuclei, groups of brain cells involved in movement and motivation. *(defines “basal nuclei”)*
+   > “putamen: nucleus deep in the cerebrum that is part of the basal nuclei; along with the caudate, it is part of the striatum” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+   > “basal ganglia: interconnected collections of cells in the brain that are involved in movement and motivation; also known as basal nuclei” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. With the caudate, another basal nucleus, the putamen forms the striatum. *(defines “striatum”)*
+   > “striatum: the caudate and putamen collectively, as part of the basal nuclei, which receive input from the cerebral cortex” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. The putamen and the globus pallidus, a layered nucleus, fit together like curved lenses. *(defines “globus pallidus”)*
+   > “The globus pallidus is a layered nucleus that lies just medial to the putamen; they are called the lenticular nuclei because they look like curved pieces fitting together like lenses.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Superior colliculus: Plain (drafted; grade 8.2; `content/FMA_62403/tier1.md`; also Right superior colliculus, Left superior colliculus)
+
+1. Each superior colliculus combines information about where things are seen, heard and felt.
+   > “The superior colliculus is the superior pair and combines sensory information about visual space, auditory space, and somatosensory space.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+2. The superior colliculus also uses what we see to start eye movements.
+   > “In the midbrain, the superior colliculus integrates visual stimuli with motor responses to initiate eye movements.” ([16.3 The Cranial Nerve Exam](https://openstax.org/books/anatomy-and-physiology-2e/pages/16-3-the-cranial-nerve-exam), CC BY 4.0)
+3. Each superior colliculus sits at the top of the midbrain, the middle region of the brain. *(defines “midbrain”)*
+   > “superior colliculus: paired structure in the top of the midbrain, which manages eye movements and auditory integration” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+   > “midbrain: middle region of the adult brain that develops from the mesencephalon” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. A colliculus is a bump, and the name means “little hill” in Latin. *(defines “colliculus”)*
+   > “The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Telencephalon: Plain (drafted; grade 8.6; `content/FMA_62000/tier1.md`)
+
+1. The telencephalon becomes the cerebrum, the part of the brain in charge of memory, emotion and consciousness. *(defines “cerebrum”)*
+   > “cerebrum: region of the adult brain that develops from the telencephalon and is responsible for higher neurological functions such as memory, emotion, and consciousness” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+2. Of all the parts of the brain, the cerebrum is the largest.
+   > “The largest and most obvious portion of the brain is the cerebrum” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. A large gap splits the cerebrum into right and left halves, called cerebral hemispheres. *(defines “cerebral hemisphere”)*
+   > “There is a large separation between the two sides of the cerebrum called the longitudinal fissure. It separates the cerebrum into two distinct halves, a right and left cerebral hemisphere.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+4. As the telencephalon grows inside the skull, the brain forms folds that look alike in everyone.
+   > “During embryonic development, as the telencephalon expands within the skull, the brain goes through a regular course of growth that results in everyone’s brain having a similar pattern of folds.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+
+#### Temporal lobe: Plain (drafted; grade 6; `content/FMA_61825/tier1.md`; also Right temporal lobe, Left temporal lobe)
+
+1. Each temporal lobe mainly processes sounds and makes sense of them.
+   > “The temporal lobe is located at the base of the brain by your ears and is primarily involved in processing and interpreting sounds.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+2. Parts of the temporal lobe also help with speech, memory and emotions.
+   > “temporal lobe: part of the cerebral cortex that processes auditory input; parts of the temporal lobe are involved in speech, memory, and emotion processing” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+3. The temporal lobe sits at the base of the brain, near the ears.
+   > “The temporal lobe is located at the base of the brain by your ears” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. Each half of the cerebral cortex, the brain's folded outer layer, has a temporal lobe. *(defines “cerebral cortex”)*
+   > “each hemisphere of the mammalian cerebral cortex can be broken down into four functionally and spatially defined lobes: frontal, parietal, temporal, and occipital.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+   > “The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+
+#### Thalamus: Plain (drafted; grade 7.6; `content/FMA_62007/tier1.md`; also Right thalamus, Left thalamus)
+
+1. The thalamus relays signals from the senses to the cerebral cortex, the brain's outer layer. *(defines “cerebral cortex”)*
+   > “thalamus: brain area that relays sensory information to the cortex” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+   > “cerebral cortex: outermost sheet of brain tissue; involved in many higher-order functions” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. Signals from every sense except smell pass through the thalamus before reaching the cortex.
+   > “All sensory information, except for the sense of smell, passes through the thalamus before processing by the cortex.” ([13.2 The Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system), CC BY 4.0)
+3. The thalamus also helps control sleep and how awake and aware we are.
+   > “The thalamus helps regulate consciousness, arousal, and sleep states.” ([35.3 The Central Nervous System](https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system), CC BY 4.0)
+4. The thalamus is made of two oval masses near the center of the brain.
+   > “The diencephalons is centrally located and is nearly surrounded by the cerebral hemispheres. It includes the thalamus, hypothalamus, and epithalamus. The thalamus, about 80 percent of the diencephalons, consists of two oval masses of gray matter” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+
+#### Third ventricle: Plain (drafted; grade 8.3; `content/FMA_78454/tier1.md`)
+
+1. The third ventricle holds cerebrospinal fluid, a clear liquid that cushions the brain and spinal cord. *(defines “cerebrospinal fluid”)*
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. This ventricle is the space between the left and right sides of the diencephalon, the brain's central region. *(defines “diencephalon”)*
+   > “The third ventricle is the space between the left and right sides of the diencephalon, which opens into the cerebral aqueduct that passes through the midbrain.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “The diencephalons is centrally located and is nearly surrounded by the cerebral hemispheres.” ([SEER Training Modules: The Central Nervous System](https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html), Free of copyright (NCI reuse policy))
+3. Fluid flows in from the lateral ventricles, and the third ventricle adds more.
+   > “From the lateral ventricles, the CSF flows into the third ventricle, where more CSF is produced” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+4. The fluid then flows through the cerebral aqueduct, a narrow channel, into the fourth ventricle. *(defines “cerebral aqueduct”)*
+   > “From the lateral ventricles, the CSF flows into the third ventricle, where more CSF is produced, and then through the cerebral aqueduct into the fourth ventricle where even more CSF is produced.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+   > “Part of ventricular system of brain consisting of a narrow channel in the midbrain connecting the third and fourth ventricles.” ([UBERON:0002289 midbrain cerebral aqueduct](http://purl.obolibrary.org/obo/UBERON_0002289), CC BY 3.0)
 
 #### Trochlear nerve: Plain (drafted; grade 7; `content/FMA_50865/tier1.md`; also Right trochlear nerve, Left trochlear nerve)
 

@@ -17,27 +17,131 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_72980/tier1.auto.md",
-   "text": "A limbic lobe that is part of a right cerebral hemisphere.",
+   "status": "drafted",
+   "file": "content/FMA_72719/tier1.md",
+   "text": "The limbic lobe is a group of brain structures involved in memory and emotion. These structures sit around the edges of the cerebrum, the largest part of the brain. The limbic lobe has strong links to the hypothalamus, a brain structure that controls hormone release. When you are scared, the amygdala, a part of the limbic lobe, signals the hypothalamus.",
    "source": {
-    "kind": "uberon",
-    "name": "Uberon",
-    "term": "UBERON:0002805",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002805",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Uberon UBERON:0002805",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002805",
-     "license": "CC BY 3.0"
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 15 Key Terms (The Autonomic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+     "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 15.3 Central Control",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0002805. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The limbic lobe is a group of brain structures involved in memory and emotion.",
+     "defines": "limbic lobe",
+     "quotes": [
+      {
+       "quote": "limbic lobe: structures arranged around the edges of the cerebrum that are involved in memory and emotion",
+       "section": "Chapter 15 Key Terms (The Autonomic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These structures sit around the edges of the cerebrum, the largest part of the brain.",
+     "defines": "cerebrum",
+     "quotes": [
+      {
+       "quote": "limbic lobe: structures arranged around the edges of the cerebrum that are involved in memory and emotion",
+       "section": "Chapter 15 Key Terms (The Autonomic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The largest and most obvious portion of the brain is the cerebrum",
+       "section": "SEER Training Modules: The Central Nervous System",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The limbic lobe has strong links to the hypothalamus, a brain structure that controls hormone release.",
+     "defines": "hypothalamus",
+     "quotes": [
+      {
+       "quote": "The limbic lobe has strong connections with the hypothalamus and influences the state of its activity on the basis of emotional state.",
+       "section": "15.3 Central Control",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hypothalamus: brain structure that controls hormone release and body homeostasis",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When you are scared, the amygdala, a part of the limbic lobe, signals the hypothalamus.",
+     "defines": "amygdala",
+     "quotes": [
+      {
+       "quote": "For example, when you are anxious or scared, the amygdala will send signals to the hypothalamus along the medial forebrain bundle that will stimulate the sympathetic fight-or-flight response.",
+       "section": "15.3 Central Control",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The amygdala is a group of nuclei in the medial region of the temporal lobe that is part of the limbic lobe",
+       "section": "15.3 Central Control",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:72719",
+    "label": "Limbic lobe"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -49,9 +153,24 @@
  "media": [],
  "sources": [
   {
-   "title": "Uberon UBERON:0002805",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002805",
-   "license": "CC BY 3.0"
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 15 Key Terms (The Autonomic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+   "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 15.3 Central Control",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-3-central-control",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
   }
  ],
  "zoom": {

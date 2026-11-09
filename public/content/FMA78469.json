@@ -17,27 +17,135 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_78469/tier1.auto.md",
-   "text": "A diamond-shaped cavity filled with cerebrospinal fluid within the pons extending between the obex in the caudal medulla and the aqueduct of Sylvius in the cerebellum.",
+   "status": "drafted",
+   "file": "content/FMA_78469/tier1.md",
+   "text": "The fourth ventricle is a diamond-shaped space that holds cerebrospinal fluid, a clear cushioning liquid. This ventricle lies in the region of the brain stem, the brain's link to the spinal cord. Fluid arrives through the cerebral aqueduct, a narrow channel, and the fourth ventricle adds more. Openings in the fourth ventricle then let the fluid flow out around the brain and spinal cord.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12828",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12828",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12828",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12828",
+     "title": "NCI Thesaurus, NCIT:C12828 Fourth Ventricle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12828",
      "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+     "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.3 Circulation and the Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Uberon, UBERON:0002289 midbrain cerebral aqueduct",
+     "url": "http://purl.obolibrary.org/obo/UBERON_0002289",
+     "license": "CC BY 3.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12828, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The fourth ventricle is a diamond-shaped space that holds cerebrospinal fluid, a clear cushioning liquid.",
+     "defines": "cerebrospinal fluid",
+     "quotes": [
+      {
+       "quote": "A diamond-shaped cavity filled with cerebrospinal fluid",
+       "section": "NCIT:C12828 Fourth Ventricle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12828",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      },
+      {
+       "quote": "cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This ventricle lies in the region of the brain stem, the brain's link to the spinal cord.",
+     "defines": "brain stem",
+     "quotes": [
+      {
+       "quote": "fourth ventricle: the portion of the ventricular system that is in the region of the brain stem and opens into the subarachnoid space through the median and lateral apertures",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The brainstem, illustrated in , connects the rest of the brain with the spinal cord.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fluid arrives through the cerebral aqueduct, a narrow channel, and the fourth ventricle adds more.",
+     "defines": "cerebral aqueduct",
+     "quotes": [
+      {
+       "quote": "From the lateral ventricles, the CSF flows into the third ventricle, where more CSF is produced, and then through the cerebral aqueduct into the fourth ventricle where even more CSF is produced.",
+       "section": "13.3 Circulation and the Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Part of ventricular system of brain consisting of a narrow channel in the midbrain connecting the third and fourth ventricles.",
+       "section": "UBERON:0002289 midbrain cerebral aqueduct",
+       "url": "http://purl.obolibrary.org/obo/UBERON_0002289",
+       "license": "CC BY 3.0",
+       "citation": "Uberon multi-species anatomy ontology, https://obofoundry.org/ontology/uberon.html"
+      }
+     ]
+    },
+    {
+     "text": "Openings in the fourth ventricle then let the fluid flow out around the brain and spinal cord.",
+     "quotes": [
+      {
+       "quote": "The ventricular system opens up to the subarachnoid space from the fourth ventricle. The single median aperture and the pair of lateral apertures connect to the subarachnoid space so that CSF can flow through the ventricles and around the outside of the CNS.",
+       "section": "13.3 Circulation and the Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -49,9 +157,34 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12828",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12828",
+   "title": "NCI Thesaurus, NCIT:C12828 Fourth Ventricle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12828",
    "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+   "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.3 Circulation and the Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Uberon, UBERON:0002289 midbrain cerebral aqueduct",
+   "url": "http://purl.obolibrary.org/obo/UBERON_0002289",
+   "license": "CC BY 3.0"
   }
  ],
  "zoom": {

@@ -24,27 +24,131 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_62046/tier1.auto.md",
-   "text": "A continuation of the optic nerves just dorsal to the optic chiasm, formed by temporal fibers of the ipsilateral optic nerve and nasal fibers of the contralateral optic nerve, that carries axons to nuclei within the thalamus and relays visual information to the primary visual cortex of the occipital lobe.",
+   "status": "drafted",
+   "file": "content/FMA_62046/tier1.md",
+   "text": "Each optic tract passes visual information on toward the brain's main vision area. Each optic tract starts at the optic chiasm, where some fibers from the eyes cross to the other side of the brain. Most connections of the optic tract go to the thalamus, a brain area that relays sensory information. The optic tract also reaches the superior colliculus, a brain area that manages eye movements.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33218",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33218",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+     "title": "NCI Thesaurus, NCIT:C33218 Optic Tract",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C33218",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.2 Central Processing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33218, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each optic tract passes visual information on toward the brain's main vision area.",
+     "quotes": [
+      {
+       "quote": "A continuation of the optic nerves just dorsal to the optic chiasm, formed by temporal fibers of the ipsilateral optic nerve and nasal fibers of the contralateral optic nerve, that carries axons to nuclei within the thalamus and relays visual information to the primary visual cortex",
+       "section": "NCIT:C33218 Optic Tract",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C33218",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Each optic tract starts at the optic chiasm, where some fibers from the eyes cross to the other side of the brain.",
+     "defines": "optic chiasm",
+     "quotes": [
+      {
+       "quote": "Extending from the optic chiasm, the axons of the visual system are referred to as the optic tract instead of the optic nerve.",
+       "section": "14.2 Central Processing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "optic chiasm: decussation point in the visual system at which medial retina fibers cross to the other side of the brain",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Most connections of the optic tract go to the thalamus, a brain area that relays sensory information.",
+     "defines": "thalamus",
+     "quotes": [
+      {
+       "quote": "The majority of the connections of the optic tract are to the thalamus—specifically, the lateral geniculate nucleus.",
+       "section": "14.2 Central Processing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "thalamus: brain area that relays sensory information to the cortex",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The optic tract also reaches the superior colliculus, a brain area that manages eye movements.",
+     "defines": "superior colliculus",
+     "quotes": [
+      {
+       "quote": "Another target of the optic tract is the superior colliculus.",
+       "section": "14.2 Central Processing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "superior colliculus: paired structure in the top of the midbrain, which manages eye movements and auditory integration",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -56,8 +160,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33218",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33218",
+   "title": "NCI Thesaurus, NCIT:C33218 Optic Tract",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C33218",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.2 Central Processing",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
    "license": "CC BY 4.0"
   }
  ],

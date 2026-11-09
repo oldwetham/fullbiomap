@@ -24,27 +24,106 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_86464/tier1.auto.md",
-   "text": "A white matter structure within the cleft that separates the left and right cerebral hemispheres in the mammalian brain. It is composed of a wide, flat bundle of 200-250 million axonal projections.",
+   "status": "drafted",
+   "file": "content/FMA_86464/tier1.md",
+   "text": "The corpus callosum is the main pathway for messages between the two halves of the cerebrum, the brain's largest part. This pathway lies in the gap that separates the left and right halves. The corpus callosum is a wide, flat bundle of 200 to 250 million nerve fibers. This bundle lets the two halves work together on movement, senses and thinking.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12446",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12446",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12446",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12446",
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+     "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12446 Corpus Callosum",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12446",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 29.6 Mammals",
+     "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12446, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The corpus callosum is the main pathway for messages between the two halves of the cerebrum, the brain's largest part.",
+     "defines": "cerebrum",
+     "quotes": [
+      {
+       "quote": "It separates the cerebrum into two distinct halves, a right and left cerebral hemisphere. Deep within the cerebrum, the white matter of the corpus callosum provides the major pathway for communication between the two hemispheres of the cerebral cortex.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The largest and most obvious portion of the brain is the cerebrum",
+       "section": "SEER Training Modules: The Central Nervous System",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "This pathway lies in the gap that separates the left and right halves.",
+     "quotes": [
+      {
+       "quote": "A white matter structure within the cleft that separates the left and right cerebral hemispheres in the mammalian brain.",
+       "section": "NCIT:C12446 Corpus Callosum",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12446",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "The corpus callosum is a wide, flat bundle of 200 to 250 million nerve fibers.",
+     "quotes": [
+      {
+       "quote": "It is composed of a wide, flat bundle of 200-250 million axonal projections.",
+       "section": "NCIT:C12446 Corpus Callosum",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12446",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "This bundle lets the two halves work together on movement, senses and thinking.",
+     "quotes": [
+      {
+       "quote": "The corpus callosum functions to integrate motor, sensory, and cognitive functions between the left and right cerebral cortexes.",
+       "section": "29.6 Mammals",
+       "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -56,8 +135,23 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12446",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12446",
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+   "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12446 Corpus Callosum",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12446",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 29.6 Mammals",
+   "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals",
    "license": "CC BY 4.0"
   }
  ],

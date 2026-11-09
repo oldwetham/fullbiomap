@@ -23,27 +23,105 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_61993/tier1.auto.md",
-   "text": "The uppermost portion of the brainstem located between the pons and the diencephalon. The midbrain contains the cerebral peduncles, oculomotor, trochlear and red nuclei, substantia nigra and various other nuclei and tracts.",
+   "status": "drafted",
+   "file": "content/FMA_61993/tier1.md",
+   "text": "The midbrain coordinates what sight, hearing and touch tell us about the space around us. The midbrain forms the top of the brain stem, which connects to the spinal cord. The midbrain has four bumps called colliculi, Latin for “little hills.” The upper pair, the superior colliculi, are involved in turning the eyes toward a sound or touch.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12510",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12510",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12510",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12510",
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+     "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12510, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The midbrain coordinates what sight, hearing and touch tell us about the space around us.",
+     "quotes": [
+      {
+       "quote": "The midbrain coordinates sensory representations of the visual, auditory, and somatosensory perceptual spaces.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The midbrain forms the top of the brain stem, which connects to the spinal cord.",
+     "defines": "brain stem",
+     "quotes": [
+      {
+       "quote": "The midbrain is the most superior portion of the brain stem.",
+       "section": "SEER Training Modules: The Central Nervous System",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "brainstem: portion of the brain that connects with the spinal cord; controls basic nervous system functions like breathing, heart rate, and swallowing",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The midbrain has four bumps called colliculi, Latin for “little hills.”",
+     "defines": "colliculi",
+     "quotes": [
+      {
+       "quote": "The tectum is composed of four bumps known as the colliculi (singular = colliculus), which means “little hill” in Latin.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The upper pair, the superior colliculi, are involved in turning the eyes toward a sound or touch.",
+     "defines": "superior colliculi",
+     "quotes": [
+      {
+       "quote": "The superior colliculus is the superior pair and combines sensory information about visual space, auditory space, and somatosensory space. Activity in the superior colliculus is related to orienting the eyes to a sound or touch stimulus.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -55,8 +133,18 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12510",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12510",
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+   "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
    "license": "CC BY 4.0"
   }
  ],

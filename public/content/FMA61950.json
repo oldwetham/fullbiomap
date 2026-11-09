@@ -20,27 +20,135 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_61950/tier1.auto.md",
-   "text": "A white matter structure in the subcortical region of the brain that contains a high concentration of motor and sensory projection nerve fibers. It consists of the anterior limb, genu, posterior limb, and the retrolentiform and sublentiform parts.",
+   "status": "drafted",
+   "file": "content/FMA_61950/tier1.md",
+   "text": "Each internal capsule is part of the descending motor pathway, which carries movement commands from the brain to the spinal cord. The internal capsule also holds nerve fibers that carry signals from the senses. It passes between the caudate nucleus and putamen, deep parts of the brain that control movement. The internal capsule is white matter, tissue made mostly of nerve fibers with a fatty coating.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C13082",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13082",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C13082",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13082",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C13082 Internal Capsule",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C13082",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Foundational Model of Anatomy, FMA:61950 Internal capsule",
+     "url": "http://purl.org/sig/ont/fma/fma61950",
+     "license": "CC BY 3.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C13082, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each internal capsule is part of the descending motor pathway, which carries movement commands from the brain to the spinal cord.",
+     "defines": "descending motor pathway",
+     "quotes": [
+      {
+       "quote": "internal capsule: segment of the descending motor pathway that passes between the caudate nucleus and the putamen",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "descending tract: central nervous system fibers carrying motor commands from the brain to the spinal cord or periphery",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The internal capsule also holds nerve fibers that carry signals from the senses.",
+     "quotes": [
+      {
+       "quote": "A white matter structure in the subcortical region of the brain that contains a high concentration of motor and sensory projection nerve fibers.",
+       "section": "NCIT:C13082 Internal Capsule",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C13082",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "It passes between the caudate nucleus and putamen, deep parts of the brain that control movement.",
+     "defines": "caudate nucleus and putamen",
+     "quotes": [
+      {
+       "quote": "internal capsule: segment of the descending motor pathway that passes between the caudate nucleus and the putamen",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The major structures of the basal nuclei that control movement are the caudate, putamen, and globus pallidus, which are located deep in the cerebrum.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The internal capsule is white matter, tissue made mostly of nerve fibers with a fatty coating.",
+     "defines": "white matter",
+     "quotes": [
+      {
+       "quote": "Internal capsule is an organ subdivision of the telencephalon which is made up primarily of myelinated axonal neural tissue (white matter).",
+       "section": "FMA:61950 Internal capsule",
+       "url": "http://purl.org/sig/ont/fma/fma61950",
+       "license": "CC BY 3.0",
+       "citation": "Foundational Model of Anatomy (FMA), University of Washington Structural Informatics Group, http://si.washington.edu/projects/fma"
+      },
+      {
+       "quote": "white matter: regions of the nervous system containing mostly myelinated axons, making the tissue appear white because of the high lipid content of myelin",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -52,8 +160,33 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C13082",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C13082",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C13082 Internal Capsule",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C13082",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Foundational Model of Anatomy, FMA:61950 Internal capsule",
+   "url": "http://purl.org/sig/ont/fma/fma61950",
+   "license": "CC BY 3.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
    "license": "CC BY 4.0"
   }
  ],

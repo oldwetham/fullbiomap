@@ -27,27 +27,130 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_62001/tier1.auto.md",
-   "text": "The portion of the forebrain that is located between the telencephalon and the brainstem; it is composed of the thalamus, hypothalamus, subthalamus, and epithalamus, which functions to help regulate many activities of the autonomic nervous system.",
+   "status": "drafted",
+   "file": "content/FMA_62001/tier1.md",
+   "text": "The diencephalon connects the cerebrum, the brain's largest part, with the rest of the nervous system. The diencephalon sits in the center of the brain, almost surrounded by the cerebrum. The thalamus, one of the diencephalon's two main parts, relays signals from the senses. The other is the hypothalamus, which keeps body temperature, eating and drinking at the right levels.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C12456",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12456",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C12456",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12456",
+     "title": "OpenStax Anatomy and Physiology 2e, 13.1 The Embryologic Perspective",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+     "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+     "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C12456, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The diencephalon connects the cerebrum, the brain's largest part, with the rest of the nervous system.",
+     "defines": "cerebrum",
+     "quotes": [
+      {
+       "quote": "The diencephalon is between the cerebrum and the rest of the nervous system and can be described as the region through which all projections have to pass between the cerebrum and everything else.",
+       "section": "13.1 The Embryologic Perspective",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The largest and most obvious portion of the brain is the cerebrum",
+       "section": "SEER Training Modules: The Central Nervous System",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The diencephalon sits in the center of the brain, almost surrounded by the cerebrum.",
+     "quotes": [
+      {
+       "quote": "The diencephalons is centrally located and is nearly surrounded by the cerebral hemispheres.",
+       "section": "SEER Training Modules: The Central Nervous System",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: The Central Nervous System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "The thalamus, one of the diencephalon's two main parts, relays signals from the senses.",
+     "defines": "thalamus",
+     "quotes": [
+      {
+       "quote": "The two major regions of the diencephalon are the thalamus itself and the hypothalamus",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "thalamus: region of the central nervous system that acts as a relay for sensory pathways",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The other is the hypothalamus, which keeps body temperature, eating and drinking at the right levels.",
+     "defines": "hypothalamus",
+     "quotes": [
+      {
+       "quote": "The two major regions of the diencephalon are the thalamus itself and the hypothalamus",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The hypothalamus is the body’s thermostat—it makes sure key functions like food and water intake, energy expenditure, and body temperature are kept at appropriate levels.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -59,8 +162,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C12456",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C12456",
+   "title": "OpenStax Anatomy and Physiology 2e, 13.1 The Embryologic Perspective",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: The Central Nervous System",
+   "url": "https://training.seer.cancer.gov/anatomy/nervous/organization/cns.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+   "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
    "license": "CC BY 4.0"
   }
  ],

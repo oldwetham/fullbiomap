@@ -21,27 +21,132 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_61894/tier1.auto.md",
-   "text": "A convolution located on the convex side of both cerebral hemispheres, anterior to the post central gyrus and parallel to the central sulcus, which separates the pre and post central gyri; much of the primary motor cortex corresponds to this gyrus.",
+   "status": "drafted",
+   "file": "content/FMA_61894/tier1.md",
+   "text": "Each precentral gyrus is the primary motor cortex, the area that starts movements. Its cells tell the spinal cord to move skeletal muscles, which attach to bones. Each precentral gyrus controls movement on the opposite side of the body. The precentral gyrus is the rearmost part of the frontal lobe, the brain's front region.",
    "source": {
-    "kind": "ncit",
-    "name": "NCI Thesaurus",
-    "term": "NCIT:C33393",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33393",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "NCI Thesaurus NCIT:C33393",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33393",
+     "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.3 Motor Responses",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 16.2 The Mental Status Exam",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+     "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the NCI Thesaurus (NCIt 26.02d), concept C33393, National Cancer Institute. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each precentral gyrus is the primary motor cortex, the area that starts movements.",
+     "defines": "primary motor cortex",
+     "quotes": [
+      {
+       "quote": "The precentral gyrus is the primary motor cortex.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The premotor cortex and supplemental motor area then feed into the primary motor cortex that initiates movements.",
+       "section": "14.3 Motor Responses",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Its cells tell the spinal cord to move skeletal muscles, which attach to bones.",
+     "defines": "skeletal muscle",
+     "quotes": [
+      {
+       "quote": "The precentral gyrus is the primary motor cortex. Cells from this region of the cerebral cortex are the upper motor neurons that instruct cells in the spinal cord to move skeletal muscles.",
+       "section": "13.2 The Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "skeletal muscle tissue: forms skeletal muscles, which attach to bones and control locomotion and any movement that can be consciously controlled",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each precentral gyrus controls movement on the opposite side of the body.",
+     "quotes": [
+      {
+       "quote": "Motor commands from the precentral gyrus control the opposite side of the body, whereas sensory information processed by the postcentral gyrus is received from the opposite side of the body.",
+       "section": "16.2 The Mental Status Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The precentral gyrus is the rearmost part of the frontal lobe, the brain's front region.",
+     "defines": "frontal lobe",
+     "quotes": [
+      {
+       "quote": "The most posterior region of the frontal lobe, the precentral gyrus, is the primary motor cortex.",
+       "section": "16.2 The Mental Status Exam",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The frontal lobe is located at the front of the brain, over the eyes.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -53,8 +158,28 @@
  "media": [],
  "sources": [
   {
-   "title": "NCI Thesaurus NCIT:C33393",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C33393",
+   "title": "OpenStax Anatomy and Physiology 2e, 13.2 The Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.3 Motor Responses",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+   "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 16.2 The Mental Status Exam",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/16-2-the-mental-status-exam",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+   "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
    "license": "CC BY 4.0"
   }
  ],

@@ -15,27 +15,114 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_78450/tier1.auto.md",
-   "text": "A telencephalic ventricle that is in_the_left_side_of a telencephalon.",
+   "status": "drafted",
+   "file": "content/FMA_78448/tier1.md",
+   "text": "Each lateral ventricle holds cerebrospinal fluid, a clear liquid that cushions the brain and spinal cord. The lateral ventricles are two hollow spaces, one deep inside each side of the brain. Inside each lateral ventricle, a spongy tissue called the choroid plexus makes this fluid. Each lateral ventricle opens into the third ventricle, letting the fluid pass through.",
    "source": {
-    "kind": "uberon",
-    "name": "Uberon",
-    "term": "UBERON:0013161",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013161",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Uberon UBERON:0013161",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013161",
-     "license": "CC BY 3.0"
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12834 Lateral Ventricle",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12834",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.3 Circulation and the Central Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0013161. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each lateral ventricle holds cerebrospinal fluid, a clear liquid that cushions the brain and spinal cord.",
+     "defines": "cerebrospinal fluid",
+     "quotes": [
+      {
+       "quote": "cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The lateral ventricles are two hollow spaces, one deep inside each side of the brain.",
+     "quotes": [
+      {
+       "quote": "The rostral extensions of the ventricular system of the brain consisting of two cavities, one on each side of the brain within the central regions of each cerebral hemisphere.",
+       "section": "NCIT:C12834 Lateral Ventricle",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12834",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Inside each lateral ventricle, a spongy tissue called the choroid plexus makes this fluid.",
+     "defines": "choroid plexus",
+     "quotes": [
+      {
+       "quote": "The choroid plexuses are found in all four ventricles.",
+       "section": "13.3 Circulation and the Central Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "choroid plexus: spongy tissue within ventricles that produces cerebrospinal fluid",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each lateral ventricle opens into the third ventricle, letting the fluid pass through.",
+     "quotes": [
+      {
+       "quote": "interventricular foramina: openings between the lateral ventricles and third ventricle allowing for the passage of CSF",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:78448",
+    "label": "Lateral ventricle",
+    "conceptId": "FMA78448"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -47,9 +134,24 @@
  "media": [],
  "sources": [
   {
-   "title": "Uberon UBERON:0013161",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013161",
-   "license": "CC BY 3.0"
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12834 Lateral Ventricle",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12834",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.3 Circulation and the Central Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+   "license": "CC BY 4.0"
   }
  ],
  "zoom": {

@@ -18,27 +18,103 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/FMA_72974/tier1.auto.md",
-   "text": "Parietal lobe of the left hemisphere of the brain.",
+   "status": "drafted",
+   "file": "content/FMA_61826/tier1.md",
+   "text": "Each parietal lobe processes touch and the sense of how body parts are positioned. This lobe also receives visual signals about where things are. The parietal lobe sits at the top of the brain. Each half of the cerebral cortex, the brain's folded outer layer, has a parietal lobe.",
    "source": {
-    "kind": "uberon",
-    "name": "Uberon",
-    "term": "UBERON:0002802",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002802",
-    "license": "CC BY 3.0"
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Uberon UBERON:0002802",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002802",
-     "license": "CC BY 3.0"
+     "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+     "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
     }
    ],
-   "license": "CC BY 3.0",
-   "attribution": "Definition from Uberon (release 2026-11-05), UBERON:0002802. CC BY 3.0.",
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Each parietal lobe processes touch and the sense of how body parts are positioned.",
+     "quotes": [
+      {
+       "quote": "Two of the parietal lobe’s main functions are processing somatosensation—touch sensations like pressure, pain, heat, cold—and processing proprioception—the sense of how parts of the body are oriented in space.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This lobe also receives visual signals about where things are.",
+     "quotes": [
+      {
+       "quote": "From the visual cortex, the visual signals travel in two directions. One stream that projects to the parietal lobe, in the side of the brain, carries magnocellular (“where”) information.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The parietal lobe sits at the top of the brain.",
+     "quotes": [
+      {
+       "quote": "The parietal lobe is located at the top of the brain.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each half of the cerebral cortex, the brain's folded outer layer, has a parietal lobe.",
+     "defines": "cerebral cortex",
+     "quotes": [
+      {
+       "quote": "each hemisphere of the mammalian cerebral cortex can be broken down into four functionally and spatially defined lobes: frontal, parietal, temporal, and occipital.",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The outermost part of the brain is a thick piece of nervous system tissue called the cerebral cortex, which is folded into hills called gyri (singular: gyrus) and valleys called sulci (singular: sulcus).",
+       "section": "35.3 The Central Nervous System",
+       "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09",
+   "inheritedFrom": {
+    "id": "FMA:61826",
+    "label": "Parietal lobe"
+   }
   },
   "tier2": {
    "status": "missing"
@@ -50,9 +126,14 @@
  "media": [],
  "sources": [
   {
-   "title": "Uberon UBERON:0002802",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002802",
-   "license": "CC BY 3.0"
+   "title": "OpenStax Biology 2e, 35.3 The Central Nervous System",
+   "url": "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 36.5 Vision",
+   "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+   "license": "CC BY 4.0"
   }
  ],
  "zoom": {

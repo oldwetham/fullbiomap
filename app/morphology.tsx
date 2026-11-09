@@ -19,7 +19,7 @@ export function claimText(c:MorphologyClaim):string{
  return upper(v);
 }
 /** Text with its URLs as links (credits name their pages in full, as OpenStax asks). */
-function linkify(text:string){
+export function linkify(text:string){
  return text.split(/(https?:\/\/[^\s;,)]+[^\s;,).])/).map((part,i)=>i%2?<a key={i} href={part} target="_blank" rel="noreferrer">{part}</a>:part);
 }
 function Quote({claim}:{claim:MorphologyClaim}){

@@ -4,7 +4,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import crypto from 'node:crypto';
 import {PROFILES, shapeOf} from './_cell-families.mjs';
+import {MAP as EXPLANATIONS, TIER_NAMES, explanationFiles, folderOf, unquotedNumbers} from './_explanations.mjs';
+import {grade} from './_readability.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
@@ -18,7 +21,7 @@ const CELL_SCALES = new Set(['cell', 'organelle']);
 const RELS = ['is_a', 'part_of', ...CONNECTIONS];
 const SOURCE_LABEL = {curated: 'Curated text (tier1.md)', ncit: 'NCIt definition', uberon: 'Uberon definition', fma: 'FMA definition',
   hierarchy: 'Generated from FMA hierarchy', 'hierarchy-bp3d': 'Generated from BodyParts3D hierarchy', 'hierarchy-hra': 'Generated from HRA 3D hierarchy', cl: 'Cell Ontology definition', go: 'Gene Ontology definition',
-  'hierarchy-asctb': 'Generated from HRA ASCT+B table', placement: 'Generated from a sourced placement (Cell Ontology or OpenStax)', none: 'No tier-1 text (fact card only)'};
+  'hierarchy-asctb': 'Generated from HRA ASCT+B table', placement: 'Generated from a sourced placement (Cell Ontology or OpenStax)', explanation: 'Written explanation (quoted sources)', none: 'No tier-1 text (fact card only)'};
 
 const errors = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -116,6 +119,39 @@ for (const o of standaloneList) {
 }
 
 const isOrgan = n => n.id === ORGAN || n.ancestors.includes(ORGAN);
+// Written explanations (docs/EXPLANATIONS-PLAN.md §5–6): content/<ID>/tier1.md (Plain) and tier2.md (Core). Step 09 checks
+// each quote word for word in its file; here, everything that needs only committed files.
+const explanations = explanationFiles(), explanationCount = {1: {drafted: 0, reviewed: 0, verified: 0}, 2: {drafted: 0, reviewed: 0, verified: 0}};
+for (const e of explanations) {
+  const m = e.meta, where = e.file, [lo, hi] = e.tier === 1 ? EXPLANATIONS.plainSentences : EXPLANATIONS.coreSentences;
+  if (e.dir !== folderOf(m.id ?? '') || m.tier !== e.tier) fail(where, `id ${m.id} or tier ${m.tier} does not match the file`);
+  if (!['drafted', 'reviewed', 'verified'].includes(m.status)) fail(where, `bad status ${m.status}`);
+  else explanationCount[e.tier][m.status]++;
+  if (m.status !== 'drafted' && (!m.reviewer || !m.reviewed_on)) fail(where, `status ${m.status} needs reviewer and reviewed_on`);
+  if (!byId.has(m.id) && !(m.applies_to ?? []).length) fail(where, `${m.id} is not a node and its text applies to none`);
+  for (const id of m.applies_to ?? []) if (!byId.has(id)) fail(where, `applies_to ${id} is not a node`);
+  const list = Array.isArray(m.sentences) ? m.sentences : [];
+  if (list.length < lo || list.length > hi) fail(where, `${list.length} sentences; ${TIER_NAMES[e.tier]} needs ${lo}–${hi}`);
+  if (e.body !== list.map(x => x.text).join(' ')) fail(where, 'the text is not its sentences joined');
+  const g = grade(list.map(x => x.text));
+  if (g !== m.grade) fail(where, `grade ${m.grade} recorded, ${g} measured (pipeline/_readability.mjs)`);
+  if (e.tier === 1 && g > EXPLANATIONS.gradeLimit) fail(where, `Plain grade ${g} is over ${EXPLANATIONS.gradeLimit}`);
+  list.forEach((x, i) => {
+    if (!x.text?.trim() || !Array.isArray(x.quotes) || !x.quotes.length || x.quotes.length > 2) fail(where, `sentence ${i + 1}: needs text and one or two quotes`);
+    for (const q of x.quotes ?? []) {
+      if (!q.quote?.trim() || !q.section || !q.url || !q.license || !q.citation) fail(where, `sentence ${i + 1}: a quote needs quote, section, url, license and citation`);
+      if (!EXPLANATIONS.sourceFolders.includes((q.file ?? '').split('/')[0])) fail(where, `sentence ${i + 1}: ${q.file} is not in an allowed source folder`);
+    }
+    if (x.quotes?.length && unquotedNumbers(x).length) fail(where, `sentence ${i + 1}: states ${unquotedNumbers(x).join(', ')}, which no quote has`);
+  });
+  if (!m.license || !m.attribution || !m.method || !Array.isArray(m.sources) || !m.sources.length) fail(where, 'needs license, attribution, method and sources');
+  if (mentionsWikipedia([m, e.body])) fail(where, 'Wikipedia is not allowed');
+}
+// The nine original Human Atlas texts stay exactly as they were.
+for (const [file, sum] of Object.entries(EXPLANATIONS.humanAtlas)) {
+  const p = path.join(root, file);
+  if (!fs.existsSync(p) || crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex') !== sum) fail(file, 'this Human Atlas text changed or is missing; it must stay as it was');
+}
 // The card also shows the node's supply, drainage, nerve and cell-type connections (app/anatomy.ts CARD_RELATIONS).
 const CARD_RELATIONS = ['arterial_supply', 'venous_drainage', 'lymphatic_drainage', 'nerve_supply', 'located_in'];
 function hasFacts(n) { return !!(n?.facts?.rows?.length || n?.facts?.board || n?.connections?.some(c => CARD_RELATIONS.includes(c.rel))); }
@@ -141,7 +177,7 @@ function checkFacts(id, f) {
   if (!f.sources?.length || f.sources.some(x => !x.name || !x.license || !x.url)) fail(id, 'fact card: sources need name, license, url');
   if (mentionsWikipedia(f)) fail(id, 'fact card: Wikipedia is not allowed');
 }
-const mentionsWikipedia = v => /wikipedia/i.test(JSON.stringify(v));
+function mentionsWikipedia(v) { return /wikipedia/i.test(JSON.stringify(v)); }
 
 // Figures (step 10): each one the app can show is a file under public/, carries its licence, credit, title, caption,
 // alt text and a link to the original, is CC BY 4.0 or public domain, and cites no Wikipedia or Wikimedia. An OpenStax
@@ -215,7 +251,14 @@ function checkTier(id, name, t, served) {
   if (served && !served.text?.trim()) fail(id, `${name}: no text`);
   if (!t.license) fail(id, `${name}: no license`);
   if (!t.attribution) fail(id, `${name}: no attribution`);
-  if (!t.source?.name || !t.source?.url || !t.source?.license) fail(id, `${name}: incomplete source`);
+  if (t.kind === 'explanation') {
+    // A written explanation: the app gets its sentences and their quotes (never the local source files); a shared text names
+    // the class whose file lists this structure.
+    if (served && (!served.sentences?.length || served.sentences.map(x => x.text).join(' ') !== served.text)) fail(id, `${name}: explanation sentences do not match its text`);
+    if (served?.sentences?.some(x => x.quotes?.some(q => 'file' in q))) fail(id, `${name}: served quotes must not name local files`);
+    const same = [id, byId.get(id)?.equivalent].filter(Boolean);  // an alias shares its node's content
+    if (t.inheritedFrom && !explanations.some(e => e.id === t.inheritedFrom.id && same.some(x => (e.meta.applies_to ?? []).includes(x)))) fail(id, `${name}: inherited from ${t.inheritedFrom.id}, whose file does not list it`);
+  } else if (!t.source?.name || !t.source?.url || !t.source?.license) fail(id, `${name}: incomplete source`);
   if (!Array.isArray(t.sources) || !t.sources.length || t.sources.some(s => !s.title || !s.url || !s.license)) fail(id, `${name}: sources need title, url, license`);
   if (mentionsWikipedia([served?.text, t.source, t.sources, t.attribution])) fail(id, `${name}: Wikipedia text or source is not allowed`);
 }
@@ -285,7 +328,7 @@ for (const n of nodes) {
   for (const name of ['tier1', 'tier2', 'tier3']) checkTier(n.id, name, n.content?.[name] ?? {status: undefined}, served?.content?.[name]);
   const t1 = n.content.tier1, kind = t1.status === 'missing' ? 'none' : t1.source?.kind ?? 'curated';
   if (isOrgan(n) && t1.status === 'missing' && !hasFacts(n)) fail(n.id, `organ "${n.label}" has neither tier-1 text nor a fact card`);
-  if (isOrgan(n) && t1.status !== 'missing' && (!served?.content?.tier1?.text || !t1.source?.url)) fail(n.id, `organ "${n.label}" has tier-1 text without a source`);
+  if (isOrgan(n) && t1.status !== 'missing' && (!served?.content?.tier1?.text || (!t1.source?.url && t1.kind !== 'explanation'))) fail(n.id, `organ "${n.label}" has tier-1 text without a source`);
   bySource[kind] = (bySource[kind] ?? 0) + 1;
   if (isOrgan(n)) organBySource[kind] = (organBySource[kind] ?? 0) + 1;
   byStatus[t1.status] = (byStatus[t1.status] ?? 0) + 1;
@@ -418,6 +461,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
   `- 3D cells: ${cellModels.size} models; ${cellShapesChecked} cell types checked against the shape rules, none drawing a nucleus where its family or Cell Ontology says it has none`,
   `- Morphology profiles: ${Object.keys(PROFILES).length} cell types, ${profileClaims} claims, each quoting a CC BY source (${Object.values(PROFILES).filter(p => p.status === 'drafted').length} unreviewed); failed claims are listed in reports/morphology-check.md`,
+  `- Written explanations: Plain ${Object.values(explanationCount[1]).reduce((a, b) => a + b, 0)} (${explanationCount[1].drafted} unreviewed), Core ${Object.values(explanationCount[2]).reduce((a, b) => a + b, 0)} (${explanationCount[2].drafted} unreviewed), each sentence quoting an allowed source (reports/explanations.md); the nine Human Atlas texts unchanged`,
   `- Fact cards: ${factCards} of ${nodes.length} nodes (${Object.entries(factRows).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(', ')}); built from FMA, HRA, Cell Ontology and GO by step 11, no written text${unshownBare.length ? `; ${unshownBare.length} nodes drawn only by the archived female body have neither text nor card (${unshownBare.join(', ')})` : ''}`,
   `- Figures: ${figuresChecked} shown in content files and on boards (${figureFiles.size} image files under public/figures/), each CC BY 4.0 or public domain with its credit and link`,
   `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,

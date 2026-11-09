@@ -12,7 +12,7 @@
     "build:vercel": "vite build",
     "check": "tsc --noEmit",
     "validate": "node pipeline/12-validate.mjs",
-    "pipeline": "bash pipeline/00-fetch-bodyparts3d.sh && python3 -I pipeline/01-build-maps.py && python3 -I scripts/convert-anatomy.py data/raw/bp3d/obj data/build/concepts.json data/build/systems.json && node scripts/optimize-anatomy.mjs && node scripts/compress-models.mjs atlas.json && python3 -I pipeline/04-fetch-hra.py && python3 -I pipeline/06-ontology.py && node --max-old-space-size=8192 pipeline/05-hra-to-manifest.mjs && node pipeline/05b-male-lung-shells.mjs && python3 -I pipeline/07-tier1.py && python3 -I pipeline/08-histology.py && python3 -I pipeline/09-sources.py && python3 -I pipeline/10-figures.py && python3 -I pipeline/14-neuromorpho.py && node pipeline/13-cell.mjs && node pipeline/11-build-graph.mjs && node pipeline/12-validate.mjs"
+    "pipeline": "bash pipeline/00-fetch-bodyparts3d.sh && python3 -I pipeline/01-build-maps.py && python3 -I scripts/convert-anatomy.py data/raw/bp3d/obj data/build/concepts.json data/build/systems.json && node scripts/optimize-anatomy.mjs && node scripts/compress-models.mjs atlas.json && python3 -I pipeline/04-fetch-hra.py && python3 -I pipeline/06-ontology.py && node --max-old-space-size=8192 pipeline/05-hra-to-manifest.mjs && node pipeline/05b-male-lung-shells.mjs && python3 -I pipeline/07-tier1.py && python3 -I pipeline/08-histology.py && python3 -I pipeline/09-sources.py && python3 -I pipeline/10-figures.py && python3 -I pipeline/14-neuromorpho.py && node pipeline/13-cell.mjs && node pipeline/11-build-graph.mjs && node pipeline/15-explanations.mjs && node pipeline/12-validate.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

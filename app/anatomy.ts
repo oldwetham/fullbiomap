@@ -34,7 +34,12 @@ export type Level = 1|2|3;
 export const LEVELS:{level:Level;name:string}[] = [{level:1,name:'Plain'},{level:2,name:'Core'},{level:3,name:'Deep'}];
 export interface ContentSource {title:string;url:string;license:string}
 export interface TierSource {kind?:string;name:string;term?:string|null;url:string;license:string}
-export interface ContentTier {status:ContentStatus;file?:string;text?:string;source?:TierSource|null;sources?:ContentSource[];license?:string;attribution?:string}
+/** A written explanation's sentence (docs/EXPLANATIONS-PLAN.md): its text, the term it defines, and the quote(s) it rests on. */
+export interface ExplanationQuote {quote:string;section:string;url:string;license:string;citation:string;access?:string}
+export interface ExplanationSentence {text:string;defines?:string;quotes:ExplanationQuote[]}
+/** kind 'explanation': written from quoted sources, sentence by sentence; inheritedFrom: the class whose text a left, right or numbered structure shares. */
+export interface ContentTier {status:ContentStatus;file?:string;text?:string;source?:TierSource|null;sources?:ContentSource[];license?:string;attribution?:string;
+ kind?:'explanation';sentences?:ExplanationSentence[];grade?:number;method?:string;draftedOn?:string;inheritedFrom?:{id:string;label:string;conceptId?:string}}
 /** Per-node record served from public/content/<conceptId>.json (built by pipeline/11-build-graph.mjs); ids with a file are listed in public/content/index.json. */
 export interface ConnectionSource {name:string;license:string;url:string}
 /** One related structure: dir 'out' reads "this <rel> other", 'in' reads "other <rel> this". modeled=false means FMA names it but there is no 3D mesh. */

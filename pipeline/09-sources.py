@@ -16,8 +16,9 @@ Usage: python3 -I pipeline/09-sources.py
 - NCI SEER Training Modules, Anatomy & Physiology (pipeline/maps/seer.json), text only, one file per page. NCI's reuse
   policy covers the text; the step fetches the policy page and stops if its sentences recorded in the map are gone.
 
-Outputs: data/build/sources/<source>/<file>.txt, data/build/sources/index.json, and the figure captions and credit
-lines of both books (data/build/sources/<source>-figures.json), for the figures plan.
+Outputs: data/build/sources/<source>/<file>.txt, data/build/sources/index.json, key-terms.json (each key term's defining
+section), and the figure captions and credit lines of both books (data/build/sources/<source>-figures.json), for the
+figures plan.
 
 It then checks every morphology profile (content/CL_<n>/morphology.md): each claim's quote must appear word for word
 (whitespace aside) in the source file it cites, and writes the books' credit to public/ATTRIBUTION.md.
@@ -79,6 +80,7 @@ def module_text(root):
 
 
 index, figures_by_book = [], {}
+term_section = {b['id']: {} for b in BOOKS}  # key term -> the section whose glossary defines it (step 15 batches by it)
 for book in BOOKS:
     base = f"https://raw.githubusercontent.com/openstax/{book['repo']}/{book['sha']}"
     coll = get_file(f"{base}/collections/{book['collection']}.collection.xml", ROOT / f"data/raw/openstax/{book['repo']}/{book['sha']}/collections/{book['collection']}.collection.xml")
@@ -116,6 +118,7 @@ for book in BOOKS:
                 term, meanings = d.find('c:term', NS), [text_of(m) for m in d.findall('c:meaning', NS) if text_of(m)]
                 if term is not None and text_of(term) and meanings:
                     key_terms.append(f"{text_of(term)}: {'; '.join(meanings)}")
+                    term_section[book['id']].setdefault(text_of(term).lower(), f"{book['id']}/{name}")
         # The chapter's key terms, alphabetical as on the book's "Key Terms" page.
         if key_terms:
             ctitle = text_of(chapter.find('md:title', NS)) if chapter.find('md:title', NS) is not None else f'chapter {ci}'
@@ -224,9 +227,11 @@ while queue:
     name = (slug(path[len(SEER['start']):].removesuffix('.html')) or 'index') + '.txt'
     (OUT / 'seer' / name).write_text(f"# {title}\nSource: {citation} Text free of copyright under NCI's reuse policy ({SEER['policy']['url']}); "
                                      f"originally published by the National Cancer Institute. Graphics not used.\nWeb: {url}\n\n{body}\n")
-    index.append({'source': 'seer', 'file': f'seer/{name}', 'section': title, 'url': url, 'license': SEER['license'], 'citation': citation})
+    # The section names the product as NCI asks ("link to the original NCI product using the original product's title").
+    index.append({'source': 'seer', 'file': f'seer/{name}', 'section': f"{SEER['name']}: {title}", 'url': url, 'license': SEER['license'], 'citation': citation})
     seer_pages += 1
 (OUT / 'index.json').write_text(json.dumps(index, indent=1, ensure_ascii=False) + '\n')
+(OUT / 'key-terms.json').write_text(json.dumps(term_section, indent=1, ensure_ascii=False, sort_keys=True) + '\n')
 for b, figs in figures_by_book.items():
     (OUT / f'{b}-figures.json').write_text(json.dumps(figs, indent=1, ensure_ascii=False) + '\n')
 
@@ -246,6 +251,30 @@ for f in sorted((ROOT / 'content').glob('CL_*/morphology.md')):
             bad.append(f"{f.relative_to(ROOT)} claim {i}: quote not found in {src}")
 if bad:
     raise SystemExit('Morphology quotes not found word for word in their sources:\n' + '\n'.join(bad))
+
+# Written explanations (content/<ID>/tier1.md, tier2.md, kind "explanation"): the same check, and every quoted file must be
+# in one of the allowed source folders (pipeline/maps/explanations.json).
+ALLOWED = json.loads((ROOT / 'pipeline/maps/explanations.json').read_text())['sourceFolders']
+equotes = 0
+for f in sorted((ROOT / 'content').glob('*/tier[12].md')):
+    front = f.read_text().split('\n---\n')[0].split('\n')[1:]
+    meta = {line.split(': ', 1)[0]: json.loads(line.split(': ', 1)[1]) for line in front if ': ' in line}
+    if meta.get('kind') != 'explanation':
+        continue
+    for i, sentence in enumerate(meta.get('sentences', [])):
+        for q in sentence['quotes']:
+            equotes += 1
+            src = q['file']
+            if src.split('/')[0] not in ALLOWED:
+                bad.append(f"{f.relative_to(ROOT)} sentence {i + 1}: {src} is not in an allowed source folder")
+                continue
+            if src not in texts:
+                path = (OUT / src).resolve()
+                texts[src] = norm(path.read_text()) if path.is_file() and OUT.resolve() in path.parents else None
+            if texts[src] is None or norm(q['quote']) not in texts[src]:
+                bad.append(f"{f.relative_to(ROOT)} sentence {i + 1}: quote not found in {src}")
+if bad:
+    raise SystemExit('Explanation quotes not found word for word in their sources:\n' + '\n'.join(bad))
 
 # The text sources' credit in public/ATTRIBUTION.md (this section is rewritten each run; the rest of the file is left alone).
 OLD_HEADINGS = ['## Cell morphology profiles (OpenStax, Cell Ontology)']
@@ -276,4 +305,4 @@ else:
 att.write_text(text)
 print(json.dumps({b: sum(1 for i in index if i['source'] == b) for b in ['openstax-ap2e', 'openstax-bio2e', 'cell-ontology', *ONTOLOGY, 'seer']}
                  | {f'{b} key terms': sum(i.get('keyTerms', 0) for i in index if i['source'] == b) for b in ['openstax-ap2e', 'openstax-bio2e']}
-                 | {f'{b} figures': len(f) for b, f in figures_by_book.items()} | {'profile quotes checked': quotes}))
+                 | {f'{b} figures': len(f) for b, f in figures_by_book.items()} | {'profile quotes checked': quotes, 'explanation quotes checked': equotes}))

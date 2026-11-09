@@ -155,30 +155,389 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002063/tier1.auto.md",
-   "text": "A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies. This cell type also contributes to tissue repair and can differentiate after injury into a pulmonary alveolar type 1 cell. This cuboidal cell is thicker than squamous alveolar cells, has a rounded apical surface that projects above the level of the surrounding epithelium, and its free surface is covered by short microvilli.",
+   "status": "drafted",
+   "file": "content/CL_0002063/tier1.md",
+   "text": "Type II alveolar cells make surfactant, a detergent-like liquid in the airways. These cells sit in the walls of the alveoli, the small, grape-like sacs in the lungs. Surfactant mixes with the water lining the alveoli and helps lower the water's surface tension, a pull between water molecules. Without surfactant, the alveoli would collapse when you breathe out.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002063",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002063",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 2 Key Terms (The Chemical Foundation of Life)",
+     "url": "https://openstax.org/books/biology-2e/pages/2-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002063. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Type II alveolar cells make surfactant, a detergent-like liquid in the airways.",
+     "defines": "surfactant",
+     "quotes": [
+      {
+       "quote": "pulmonary surfactant: substance composed of phospholipids and proteins that reduces the surface tension of the alveoli; made by type II alveolar cells",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "surfactant: detergent-like liquid in the airways that lowers the surface tension of the alveoli to allow for expansion",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells sit in the walls of the alveoli, the small, grape-like sacs in the lungs.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "type II alveolar cell: cuboidal epithelial cells that are the minor cell type in the alveolar wall; secrete pulmonary surfactant",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "alveolus: small, grape-like sac that performs gas exchange in the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Surfactant mixes with the water lining the alveoli and helps lower the water's surface tension, a pull between water molecules.",
+     "defines": "surface tension",
+     "quotes": [
+      {
+       "quote": "there is surface tension within the alveoli caused by water present in the lining of the alveoli. This surface tension tends to inhibit expansion of the alveoli. However, pulmonary surfactant secreted by type II alveolar cells mixes with that water and helps reduce this surface tension.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "surface tension: tension at the surface of a body of liquid that prevents the molecules from separating; created by the attractive cohesive forces between the liquid's molecules",
+       "section": "Chapter 2 Key Terms (The Chemical Foundation of Life)",
+       "url": "https://openstax.org/books/biology-2e/pages/2-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Without surfactant, the alveoli would collapse when you breathe out.",
+     "quotes": [
+      {
+       "quote": "Without pulmonary surfactant, the alveoli would collapse during expiration.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002063/tier2.md",
+   "text": "Type II alveolar cells release pulmonary surfactant, which keeps the alveoli, the small, grape-like sacs of the lungs, from collapsing when you breathe out. Pulmonary surfactant is a mix of proteins and phospholipids, the main material of membranes. Type II alveolar cells are scattered among type I alveolar cells, which are squamous, or flat, cells of the alveoli. Each type II cell is cuboidal, or cube-shaped, and thicker than these squamous cells, with a rounded top that bulges above the surrounding lining. Short microvilli, projections that increase a cell's surface area, cover the type II cell's exposed surface. Type II alveolar cells adjust the fluid around the alveolar lining by releasing and recycling surfactant. They do this through special organelles, the small working parts inside a cell, called lamellar bodies. Water lining the alveoli creates surface tension, the pull at a liquid's surface that keeps the liquid's molecules from separating, and this tension resists the expansion of the alveoli. Surfactant works like a detergent to lower this surface tension, which makes the airways easier to inflate. Type II alveolar cells also help repair tissue, and after an injury they can turn into type I alveolar cells.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+     "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0002063 pulmonary alveolar type 2 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002063",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+     "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+     "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 2 Key Terms (The Chemical Foundation of Life)",
+     "url": "https://openstax.org/books/biology-2e/pages/2-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.3 Breathing",
+     "url": "https://openstax.org/books/biology-2e/pages/39-3-breathing",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Type II alveolar cells release pulmonary surfactant, which keeps the alveoli, the small, grape-like sacs of the lungs, from collapsing when you breathe out.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "However, pulmonary surfactant secreted by type II alveolar cells mixes with that water and helps reduce this surface tension. Without pulmonary surfactant, the alveoli would collapse during expiration.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "alveolus: small, grape-like sac that performs gas exchange in the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Pulmonary surfactant is a mix of proteins and phospholipids, the main material of membranes.",
+     "defines": "phospholipids",
+     "quotes": [
+      {
+       "quote": "pulmonary surfactant: substance composed of phospholipids and proteins that reduces the surface tension of the alveoli; made by type II alveolar cells",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "phospholipid: membranes' major constituent; comprised of two fatty acids and a phosphate-containing group attached to a glycerol backbone",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type II alveolar cells are scattered among type I alveolar cells, which are squamous, or flat, cells of the alveoli.",
+     "defines": "squamous",
+     "quotes": [
+      {
+       "quote": "A type I alveolar cell is a squamous epithelial cell of the alveoli, which constitute up to 97 percent of the alveolar surface area. These cells are about 25 nm thick and are highly permeable to gases. A type II alveolar cell is interspersed among the type I cells",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "squamous epithelia: type of epithelia made of flat cells, specialized in aiding diffusion or preventing abrasion",
+       "section": "Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+       "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each type II cell is cuboidal, or cube-shaped, and thicker than these squamous cells, with a rounded top that bulges above the surrounding lining.",
+     "defines": "cuboidal",
+     "quotes": [
+      {
+       "quote": "This cuboidal cell is thicker than squamous alveolar cells, has a rounded apical surface that projects above the level of the surrounding epithelium",
+       "section": "CL:0002063 pulmonary alveolar type 2 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002063",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cuboidal epithelia: epithelia made of cube-shaped cells, specialized in glandular functions",
+       "section": "Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+       "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Short microvilli, projections that increase a cell's surface area, cover the type II cell's exposed surface.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "its free surface is covered by short microvilli",
+       "section": "CL:0002063 pulmonary alveolar type 2 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002063",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "microvilli: cellular processes that increase the surface area of cells",
+       "section": "Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+       "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type II alveolar cells adjust the fluid around the alveolar lining by releasing and recycling surfactant.",
+     "quotes": [
+      {
+       "quote": "A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies.",
+       "section": "CL:0002063 pulmonary alveolar type 2 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002063",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "They do this through special organelles, the small working parts inside a cell, called lamellar bodies.",
+     "defines": "organelles",
+     "quotes": [
+      {
+       "quote": "A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies.",
+       "section": "CL:0002063 pulmonary alveolar type 2 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002063",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "organelle: small structures that exist within cells and carry out cellular functions",
+       "section": "Chapter 1 Key Terms (The Study of Life)",
+       "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Water lining the alveoli creates surface tension, the pull at a liquid's surface that keeps the liquid's molecules from separating, and this tension resists the expansion of the alveoli.",
+     "defines": "surface tension",
+     "quotes": [
+      {
+       "quote": "As noted earlier, there is surface tension within the alveoli caused by water present in the lining of the alveoli. This surface tension tends to inhibit expansion of the alveoli.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "surface tension: tension at the surface of a body of liquid that prevents the molecules from separating; created by the attractive cohesive forces between the liquid's molecules",
+       "section": "Chapter 2 Key Terms (The Chemical Foundation of Life)",
+       "url": "https://openstax.org/books/biology-2e/pages/2-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Surfactant works like a detergent to lower this surface tension, which makes the airways easier to inflate.",
+     "quotes": [
+      {
+       "quote": "Surfactant works like a detergent to reduce the surface tension and allows for easier inflation of the airways.",
+       "section": "39.3 Breathing",
+       "url": "https://openstax.org/books/biology-2e/pages/39-3-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type II alveolar cells also help repair tissue, and after an injury they can turn into type I alveolar cells.",
+     "quotes": [
+      {
+       "quote": "This cell type also contributes to tissue repair and can differentiate after injury into a pulmonary alveolar type 1 cell.",
+       "section": "CL:0002063 pulmonary alveolar type 2 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002063",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    }
+   ],
+   "grade": 11.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -187,8 +546,58 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002063",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 2 Key Terms (The Chemical Foundation of Life)",
+   "url": "https://openstax.org/books/biology-2e/pages/2-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+   "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+   "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0002063 pulmonary alveolar type 2 cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002063",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+   "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+   "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 39.3 Breathing",
+   "url": "https://openstax.org/books/biology-2e/pages/39-3-breathing",
    "license": "CC BY 4.0"
   }
  ],

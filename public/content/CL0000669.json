@@ -102,30 +102,405 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000669/tier1.auto.md",
-   "text": "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.",
+   "status": "drafted",
+   "file": "content/CL_0000669/tier1.md",
+   "text": "Pericytes help regrow and repair smooth muscle, the muscle in hollow organs and around blood vessels. A pericyte is a stem cell, an unspecialized cell that can become specialized cells. Pericytes are found in capillaries, the smallest blood vessels. Pericytes are long cells that also wrap around arterioles, which are very small arteries.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000669",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000669",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000669",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000669",
+     "title": "OpenStax Anatomy and Physiology 2e, 10.9 Development and Regeneration of Muscle Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.6 Cellular Differentiation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000669 pericyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0000669",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000669. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Pericytes help regrow and repair smooth muscle, the muscle in hollow organs and around blood vessels.",
+     "defines": "smooth muscle",
+     "quotes": [
+      {
+       "quote": "Pericytes allow smooth muscle cells to regenerate and repair much more readily than skeletal and cardiac muscle tissue.",
+       "section": "10.9 Development and Regeneration of Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "smooth muscle tissue: occurs in the walls of hollow organs such as the intestines, stomach, and urinary bladder, and around passages such as the respiratory tract and blood vessels",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A pericyte is a stem cell, an unspecialized cell that can become specialized cells.",
+     "defines": "stem cell",
+     "quotes": [
+      {
+       "quote": "pericyte: stem cell that regenerates smooth muscle cells",
+       "section": "Chapter 10 Key Terms (Muscle Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A stem cell is an unspecialized cell that can divide without limit as needed and can, under specific conditions, differentiate into specialized cells.",
+       "section": "3.6 Cellular Differentiation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Pericytes are found in capillaries, the smallest blood vessels.",
+     "defines": "capillary",
+     "quotes": [
+      {
+       "quote": "Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells).",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Pericytes are long cells that also wrap around arterioles, which are very small arteries.",
+     "defines": "arteriole",
+     "quotes": [
+      {
+       "quote": "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "arteriole: (also, resistance vessel) very small artery that leads to a capillary",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000669/tier2.md",
+   "text": "Pericytes help regrow smooth muscle, the muscle in the walls of hollow organs and around blood vessels. Thanks to pericytes, smooth muscle regrows and repairs much more readily than heart muscle or skeletal muscle, the muscle attached to bones. A pericyte is a type of stem cell, an unspecialized cell that can divide and become specialized cells. A pericyte may become a fibroblast (a cell that releases protein fibers) or a smooth muscle cell. A pericyte may also become a macrophage, a large cell that swallows up foreign particles. Pericytes are found in capillaries, the smallest blood vessels, where the wall lacks a true muscle layer. Pericytes also wrap around arterioles, the very small arteries that lead to capillaries. Around arterioles, each pericyte lies outside the basement membrane, a thin layer of fibrous material. Each pericyte is a long, contractile cell, meaning it can shorten with force.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 10.9 Development and Regeneration of Muscle Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+     "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.4 Muscle Tissue and Motion",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.6 Cellular Differentiation",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000669 pericyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0000669",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Pericytes help regrow smooth muscle, the muscle in the walls of hollow organs and around blood vessels.",
+     "defines": "smooth muscle",
+     "quotes": [
+      {
+       "quote": "Smooth muscle tissue can regenerate from a type of stem cell called a pericyte, which is found in some small blood vessels.",
+       "section": "10.9 Development and Regeneration of Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "smooth muscle tissue: occurs in the walls of hollow organs such as the intestines, stomach, and urinary bladder, and around passages such as the respiratory tract and blood vessels",
+       "section": "Chapter 38 Key Terms (The Musculoskeletal System)",
+       "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Thanks to pericytes, smooth muscle regrows and repairs much more readily than heart muscle or skeletal muscle, the muscle attached to bones.",
+     "defines": "skeletal muscle",
+     "quotes": [
+      {
+       "quote": "Pericytes allow smooth muscle cells to regenerate and repair much more readily than skeletal and cardiac muscle tissue.",
+       "section": "10.9 Development and Regeneration of Muscle Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Skeletal muscle is attached to bones and its contraction makes possible locomotion, facial expressions, posture, and other voluntary movements of the body.",
+       "section": "4.4 Muscle Tissue and Motion",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A pericyte is a type of stem cell, an unspecialized cell that can divide and become specialized cells.",
+     "defines": "stem cell",
+     "quotes": [
+      {
+       "quote": "pericyte: stem cell that regenerates smooth muscle cells",
+       "section": "Chapter 10 Key Terms (Muscle Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A stem cell is an unspecialized cell that can divide without limit as needed and can, under specific conditions, differentiate into specialized cells.",
+       "section": "3.6 Cellular Differentiation",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A pericyte may become a fibroblast (a cell that releases protein fibers) or a smooth muscle cell.",
+     "defines": "fibroblast",
+     "quotes": [
+      {
+       "quote": "They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A pericyte may also become a macrophage, a large cell that swallows up foreign particles.",
+     "defines": "macrophage",
+     "quotes": [
+      {
+       "quote": "They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "macrophage: large phagocytic cell that engulfs foreign particles and pathogens",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Pericytes are found in capillaries, the smallest blood vessels, where the wall lacks a true muscle layer.",
+     "defines": "capillary",
+     "quotes": [
+      {
+       "quote": "Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells).",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Pericytes also wrap around arterioles, the very small arteries that lead to capillaries.",
+     "defines": "arteriole",
+     "quotes": [
+      {
+       "quote": "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "arteriole: (also, resistance vessel) very small artery that leads to a capillary",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Around arterioles, each pericyte lies outside the basement membrane, a thin layer of fibrous material.",
+     "defines": "basement membrane",
+     "quotes": [
+      {
+       "quote": "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "basement membrane: in epithelial tissue, a thin layer of fibrous material that anchors the epithelial tissue to the underlying connective tissue; made up of the basal lamina and reticular lamina",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each pericyte is a long, contractile cell, meaning it can shorten with force.",
+     "defines": "contractile",
+     "quotes": [
+      {
+       "quote": "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.",
+       "section": "CL:0000669 pericyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0000669",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "contractility: ability to shorten (contract) forcibly",
+       "section": "Chapter 10 Key Terms (Muscle Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -134,8 +509,48 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000669",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000669",
+   "title": "OpenStax Anatomy and Physiology 2e, 10.9 Development and Regeneration of Muscle Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 38 Key Terms (The Musculoskeletal System)",
+   "url": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 3.6 Cellular Differentiation",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000669 pericyte",
+   "url": "http://purl.obolibrary.org/obo/CL_0000669",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.4 Muscle Tissue and Motion",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
    "license": "CC BY 4.0"
   }
  ],

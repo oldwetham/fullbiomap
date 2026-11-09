@@ -283,30 +283,357 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000573/tier1.auto.md",
-   "text": "One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision.",
+   "status": "drafted",
+   "file": "content/CL_0000573/tier1.md",
+   "text": "Cone cells detect bright light and give us color vision during the day. Cones sit near the center of the retina, the light-sensing layer at the back of the eye. There are three kinds of cones, and each kind holds its own pigment, a molecule that absorbs light. The brain compares how active the three kinds of cones are to work out color.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000573",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000573",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000573",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000573",
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 8 Key Terms (Photosynthesis)",
+     "url": "https://openstax.org/books/biology-2e/pages/8-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000573. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Cone cells detect bright light and give us color vision during the day.",
+     "quotes": [
+      {
+       "quote": "cone: weakly photosensitive, chromatic, cone-shaped neuron in the fovea of the retina that detects bright light and is used in daytime color vision",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Cones sit near the center of the retina, the light-sensing layer at the back of the eye.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "Cones are weakly photosensitive and are located near the center of the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "There are three kinds of cones, and each kind holds its own pigment, a molecule that absorbs light.",
+     "defines": "pigment",
+     "quotes": [
+      {
+       "quote": "cone photoreceptor: one of the two types of retinal receptor cell that is specialized for color vision through the use of three photopigments distributed through three separate populations of cells",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pigment: molecule that is capable of absorbing certain wavelengths of light and reflecting others (which accounts for its color)",
+       "section": "Chapter 8 Key Terms (Photosynthesis)",
+       "url": "https://openstax.org/books/biology-2e/pages/8-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The brain compares how active the three kinds of cones are to work out color.",
+     "quotes": [
+      {
+       "quote": "By comparing the activity of the three different cones, the brain can extract color information from visual stimuli.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 5.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000573/tier2.md",
+   "text": "Cone cells detect bright light and are used for color vision during the day. They sit near the center of the retina, the layer of light-sensing and supporting cells that lines the back of the eye. The fovea, the spot at the center of the retina that is responsible for sharp vision, has a high density of cones. Cones and rods, named for how they look, are the retina's two types of photoreceptor, receptor cells specialized to respond to light. Cones are less sensitive to light than rods, but cones give sharper vision in both space and time. A cone's outer segment, the part where light is detected, is cone-shaped and holds light-sensitive pigments in inward folds of the cell membrane. There are three cone pigments, called opsins, each sensitive to a particular wavelength of light, and they are specialized to perceive red, green and blue. The brain compares the activity of the three kinds of cones to work out color. Light alters the pigment molecule, and this changes the cone's membrane potential, the voltage difference between the inside and outside of the cell. A cone passes its signals to bipolar cells, which relay them to ganglion cells, and the ganglion cells carry the signal to the brain.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000573 retinal cone cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000573",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Cone cells detect bright light and are used for color vision during the day.",
+     "quotes": [
+      {
+       "quote": "cone: weakly photosensitive, chromatic, cone-shaped neuron in the fovea of the retina that detects bright light and is used in daytime color vision",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They sit near the center of the retina, the layer of light-sensing and supporting cells that lines the back of the eye.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "Cones are weakly photosensitive and are located near the center of the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The fovea, the spot at the center of the retina that is responsible for sharp vision, has a high density of cones.",
+     "defines": "fovea",
+     "quotes": [
+      {
+       "quote": "The fovea has a high density of cones.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "fovea: region in the center of the retina with a high density of photoreceptors and which is responsible for acute vision",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Cones and rods, named for how they look, are the retina's two types of photoreceptor, receptor cells specialized to respond to light.",
+     "defines": "photoreceptor",
+     "quotes": [
+      {
+       "quote": "There are two types of photoreceptors in the retina: rods and cones, named for their general appearance",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "photoreceptor: receptor cell specialized to respond to light stimuli",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Cones are less sensitive to light than rods, but cones give sharper vision in both space and time.",
+     "quotes": [
+      {
+       "quote": "Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision.",
+       "section": "CL:0000573 retinal cone cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "A cone's outer segment, the part where light is detected, is cone-shaped and holds light-sensitive pigments in inward folds of the cell membrane.",
+     "defines": "outer segment",
+     "quotes": [
+      {
+       "quote": "The cone-shaped outer segments of the cone photoreceptor contain their photosensitive pigments in infoldings of the cell membrane.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "the outer segment is a specialized region in which photoreception takes place",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "There are three cone pigments, called opsins, each sensitive to a particular wavelength of light, and they are specialized to perceive red, green and blue.",
+     "defines": "opsin",
+     "quotes": [
+      {
+       "quote": "There are three cone photopigments, called opsins, which are each sensitive to a particular wavelength of light. The wavelength of visible light determines its color. The pigments in human eyes are specialized in perceiving three different primary colors: red, green, and blue.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The brain compares the activity of the three kinds of cones to work out color.",
+     "quotes": [
+      {
+       "quote": "By comparing the activity of the three different cones, the brain can extract color information from visual stimuli.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Light alters the pigment molecule, and this changes the cone's membrane potential, the voltage difference between the inside and outside of the cell.",
+     "defines": "membrane potential",
+     "quotes": [
+      {
+       "quote": "At the molecular level, visual stimuli cause changes in the photopigment molecule that lead to changes in membrane potential of the photoreceptor cell.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "membrane potential: difference in electrical potential between the inside and outside of a cell",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A cone passes its signals to bipolar cells, which relay them to ganglion cells, and the ganglion cells carry the signal to the brain.",
+     "quotes": [
+      {
+       "quote": "An example of a bipolar neuron is a retinal bipolar cell, which receives signals from photoreceptor cells that are sensitive to light and transmits these signals to ganglion cells that carry the signal to the brain.",
+       "section": "35.1 Neurons and Glial Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -315,8 +642,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000573",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000573",
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 36.5 Vision",
+   "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 8 Key Terms (Photosynthesis)",
+   "url": "https://openstax.org/books/biology-2e/pages/8-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000573 retinal cone cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000573",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+   "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
    "license": "CC BY 4.0"
   }
  ],

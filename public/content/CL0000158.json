@@ -101,30 +101,274 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000158/tier1.auto.md",
-   "text": "A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+   "status": "drafted",
+   "file": "content/CL_0000158/tier1.md",
+   "text": "Club cells protect the lining of the tracheobronchial tree, which is made up of the windpipe and the air tubes of the lungs. A club cell has no cilia, the small hair-like projections that line the walls of these air tubes. However, club cells can multiply and turn into cells that do have cilia. In this way, club cells rebuild the lining of the bronchioles, the small airways that spread through the lungs.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000158",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000158",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000158",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000158",
+     "title": "Cell Ontology, CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C117875 Tracheobronchial Tree",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C117875",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+     "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000158. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Club cells protect the lining of the tracheobronchial tree, which is made up of the windpipe and the air tubes of the lungs.",
+     "defines": "tracheobronchial tree",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "An anatomical structure comprising of trachea, bronchi, and bronchioles that terminate with the alveolar ducts, sacs, and alveoli.",
+       "section": "NCIT:C117875 Tracheobronchial Tree",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C117875",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "A club cell has no cilia, the small hair-like projections that line the walls of these air tubes.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "A club cell has short microvilli but no cilia.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The bronchi and bronchioles contain cilia, small hair-like projections that line the walls of the bronchi and bronchioles",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "However, club cells can multiply and turn into cells that do have cilia.",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "In this way, club cells rebuild the lining of the bronchioles, the small airways that spread through the lungs.",
+     "defines": "bronchiole",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 6.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000158/tier2.md",
+   "text": "Club cells help protect the lining of the tracheobronchial tree, the system of air tubes that runs from the windpipe to the air sacs of the lungs. A club cell has no cilia, the short, hair-like structures that move substances along a cell's outer surface. Instead, a club cell has short microvilli, which are thin, membrane-covered projections on a cell's surface. Club cells can multiply, and they can also differentiate into ciliated cells, a process in which cells become specialized in structure and function. In this way, club cells rebuild the lining of the bronchioles, the smaller and smaller air tubes that spread through the lungs.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000158 club cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000158",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C117875 Tracheobronchial Tree",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C117875",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0005902 microvillus",
+     "url": "http://purl.obolibrary.org/obo/GO_0005902",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+     "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Club cells help protect the lining of the tracheobronchial tree, the system of air tubes that runs from the windpipe to the air sacs of the lungs.",
+     "defines": "tracheobronchial tree",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "An anatomical structure comprising of trachea, bronchi, and bronchioles that terminate with the alveolar ducts, sacs, and alveoli.",
+       "section": "NCIT:C117875 Tracheobronchial Tree",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C117875",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "A club cell has no cilia, the short, hair-like structures that move substances along a cell's outer surface.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "A club cell has short microvilli but no cilia.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Instead, a club cell has short microvilli, which are thin, membrane-covered projections on a cell's surface.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "A club cell has short microvilli but no cilia.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Thin cylindrical membrane-covered projections on the surface of an animal cell containing a core bundle of actin filaments.",
+       "section": "GO:0005902 microvillus",
+       "url": "http://purl.obolibrary.org/obo/GO_0005902",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Club cells can multiply, and they can also differentiate into ciliated cells, a process in which cells become specialized in structure and function.",
+     "defines": "differentiate",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "differentiation: process by which unspecialized cells become specialized in structure and function",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In this way, club cells rebuild the lining of the bronchioles, the smaller and smaller air tubes that spread through the lungs.",
+     "defines": "bronchiole",
+     "quotes": [
+      {
+       "quote": "A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.",
+       "section": "CL:0000158 club cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000158",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -133,8 +377,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000158",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000158",
+   "title": "Cell Ontology, CL:0000158 club cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000158",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C117875 Tracheobronchial Tree",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C117875",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+   "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0005902 microvillus",
+   "url": "http://purl.obolibrary.org/obo/GO_0005902",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
    "license": "CC BY 4.0"
   }
  ],

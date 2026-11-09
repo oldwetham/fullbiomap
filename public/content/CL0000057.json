@@ -153,17 +153,411 @@
  },
  "content": {
   "tier1": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000057/tier1.md",
+   "text": "A fibroblast makes the fibers in nearly all connective tissues, the tissues that hold organs in place. Fibroblasts are the most common cells in connective tissue. Fibroblasts make collagen fibers, which are flexible and give the tissue strength. Fibroblasts can also move, divide, and make whatever connective tissue is needed.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A fibroblast makes the fibers in nearly all connective tissues, the tissues that hold organs in place.",
+     "defines": "connective tissues",
+     "quotes": [
+      {
+       "quote": "The principal cell of connective tissues is the fibroblast. This cell makes the fibers found in nearly all of the connective tissues.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts are the most common cells in connective tissue.",
+     "quotes": [
+      {
+       "quote": "fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts make collagen fibers, which are flexible and give the tissue strength.",
+     "defines": "collagen fibers",
+     "quotes": [
+      {
+       "quote": "Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "collagen fiber: flexible fibrous proteins that give connective tissue tensile strength",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts can also move, divide, and make whatever connective tissue is needed.",
+     "quotes": [
+      {
+       "quote": "Fibroblasts are motile, able to carry out mitosis, and can synthesize whichever connective tissue is needed.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000057/tier2.md",
+   "text": "A fibroblast makes the fibers found in nearly all connective tissues, the tissues that hold in place and connect the body's organs. Fibroblasts are the most abundant cells in connective tissue. Fibroblasts secrete three main kinds of fibers: collagen fibers (flexible protein fibers that give connective tissue strength), elastic fibers and reticular fibers. Elastic fibers are rich in the protein elastin, which lets them stretch and then return to their original size. Reticular fibers are fine protein fibers made of collagen subunits that link together to form supporting nets. In addition, fibroblasts secrete polysaccharides (complex carbohydrates) and proteins that mix with the fluid outside the cells to form a thick ground substance. With the fibers, this ground substance forms the extracellular matrix, material that protects and anchors the cells of the tissue. Fibroblasts can move, divide and make whichever connective tissue is needed. In the skin, fibroblasts produce the mesh of collagen and elastic fibers in the dermis, a layer of skin that contains blood vessels, hair follicles and sweat glands. In the synovial membrane, the lining of a freely movable joint, fibroblasts release hyaluronan, a substance that traps water to form synovial fluid, a lubricant that lets the bones of the joint move freely.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.1 Types of Tissues",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A fibroblast makes the fibers found in nearly all connective tissues, the tissues that hold in place and connect the body's organs.",
+     "defines": "connective tissues",
+     "quotes": [
+      {
+       "quote": "The principal cell of connective tissues is the fibroblast. This cell makes the fibers found in nearly all of the connective tissues.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts are the most abundant cells in connective tissue.",
+     "quotes": [
+      {
+       "quote": "fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts secrete three main kinds of fibers: collagen fibers (flexible protein fibers that give connective tissue strength), elastic fibers and reticular fibers.",
+     "defines": "collagen fibers",
+     "quotes": [
+      {
+       "quote": "Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "collagen fiber: flexible fibrous proteins that give connective tissue tensile strength",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Elastic fibers are rich in the protein elastin, which lets them stretch and then return to their original size.",
+     "defines": "elastic fibers",
+     "quotes": [
+      {
+       "quote": "elastic fiber: fibrous protein within connective tissue that contains a high percentage of the protein elastin that allows the fibers to stretch and return to original size",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Reticular fibers are fine protein fibers made of collagen subunits that link together to form supporting nets.",
+     "defines": "reticular fibers",
+     "quotes": [
+      {
+       "quote": "reticular fiber: fine fibrous protein, made of collagen subunits, which cross-link to form supporting “nets” within connective tissue",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In addition, fibroblasts secrete polysaccharides (complex carbohydrates) and proteins that mix with the fluid outside the cells to form a thick ground substance.",
+     "defines": "polysaccharides",
+     "quotes": [
+      {
+       "quote": "Polysaccharides and proteins secreted by fibroblasts combine with extra-cellular fluids to produce a viscous ground substance that, with embedded fibrous proteins, forms the extra-cellular matrix.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "polysaccharides: complex carbohydrates made up of many monosaccharides",
+       "section": "Chapter 24 Key Terms (Metabolism and Nutrition)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "With the fibers, this ground substance forms the extracellular matrix, material that protects and anchors the cells of the tissue.",
+     "defines": "extracellular matrix",
+     "quotes": [
+      {
+       "quote": "Polysaccharides and proteins secreted by fibroblasts combine with extra-cellular fluids to produce a viscous ground substance that, with embedded fibrous proteins, forms the extra-cellular matrix.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "extracellular matrix: material secreted from animal or fungal cells that provides mechanical protection and anchoring for the cells in the tissue",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fibroblasts can move, divide and make whichever connective tissue is needed.",
+     "quotes": [
+      {
+       "quote": "Fibroblasts are motile, able to carry out mitosis, and can synthesize whichever connective tissue is needed.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the skin, fibroblasts produce the mesh of collagen and elastic fibers in the dermis, a layer of skin that contains blood vessels, hair follicles and sweat glands.",
+     "defines": "dermis",
+     "quotes": [
+      {
+       "quote": "The dermis is made of two layers of connective tissue that compose an interconnected mesh of elastin and collagenous fibers, produced by fibroblasts",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "dermis: layer of skin between the epidermis and hypodermis, composed mainly of connective tissue and containing blood vessels, hair follicles, sweat glands, and other structures",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the synovial membrane, the lining of a freely movable joint, fibroblasts release hyaluronan, a substance that traps water to form synovial fluid, a lubricant that lets the bones of the joint move freely.",
+     "defines": "synovial membrane",
+     "quotes": [
+      {
+       "quote": "Fibroblasts in the inner layer of the synovial membrane release hyaluronan into the joint cavity. The hyaluronan effectively traps available water to form the synovial fluid, a natural lubricant that enables the bones of a joint to move freely against one another without much friction.",
+       "section": "4.1 Types of Tissues",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "synovial membrane: connective tissue membrane that lines the cavities of freely movable joints, producing synovial fluid for lubrication",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
   }
  },
  "media": [],
- "sources": [],
+ "sources": [
+  {
+   "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+   "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.1 Types of Tissues",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+   "license": "CC BY 4.0"
+  }
+ ],
  "zoom": {
   "in": [],
   "out": []

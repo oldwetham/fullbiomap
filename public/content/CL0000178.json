@@ -148,30 +148,355 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000178/tier1.auto.md",
-   "text": "A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis.",
+   "status": "drafted",
+   "file": "content/CL_0000178/tier1.md",
+   "text": "A Leydig cell makes testosterone, a hormone that helps the body make sperm. Sperm form inside tubes in the testis called seminiferous tubules, while Leydig cells sit between these tubes. In a male embryo, testosterone from Leydig cells helps the male sex organs develop. From adolescence on, Leydig cells make high levels of testosterone.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000178",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000178",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 43 Key Terms (Animal Reproduction and Development)",
+     "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000178 Leydig cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000178",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.3 Development of the Male and Female Reproductive Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000178. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Leydig cell makes testosterone, a hormone that helps the body make sperm.",
+     "defines": "testosterone",
+     "quotes": [
+      {
+       "quote": "Leydig cells: cells between the seminiferous tubules of the testes that produce testosterone; a type of interstitial cell",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "testosterone: reproductive hormone in men that assists in sperm production and promoting secondary sexual characteristics",
+       "section": "Chapter 43 Key Terms (Animal Reproduction and Development)",
+       "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sperm form inside tubes in the testis called seminiferous tubules, while Leydig cells sit between these tubes.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis.",
+       "section": "CL:0000178 Leydig cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000178",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "seminiferous tubules: tube structures within the testes where spermatogenesis occurs",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a male embryo, testosterone from Leydig cells helps the male sex organs develop.",
+     "quotes": [
+      {
+       "quote": "Testosterone produced by Leydig cells in the embryonic testis stimulates the development of male sexual organs.",
+       "section": "27.3 Development of the Male and Female Reproductive Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From adolescence on, Leydig cells make high levels of testosterone.",
+     "quotes": [
+      {
+       "quote": "These cells produce high levels of testosterone once the male reaches adolescence.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000178/tier2.md",
+   "text": "A Leydig cell makes testosterone, a hormone that helps sperm mature and the reproductive system grow. Leydig cells are also called interstitial cells because they lie between the seminiferous tubules, which make up most of the testis and produce sperm. Leydig cells make about 6 to 7 milligrams of testosterone a day. The male reproductive system needs this steady supply of testosterone to work properly. In a male embryo, Leydig cells release testosterone by the seventh week of development, and this early testosterone shapes the male sex organs. Testosterone levels stay low in childhood but rise during puberty, bringing body changes and starting spermatogenesis, the formation of new sperm. Testosterone in the blood also helps build muscle and bone and helps develop secondary sex characteristics, physical traits influenced by sex hormones. Leydig cells respond to luteinizing hormone (LH), which the pituitary gland at the base of the brain releases into the blood. On Leydig cells, LH binds to receptors, proteins that bind a hormone, and this triggers testosterone release. In turn, rising testosterone levels affect the release of LH, and this lowers Leydig cell activity and testosterone production.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.4 Hormonal Control of Human Reproduction",
+     "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Leydig cell makes testosterone, a hormone that helps sperm mature and the reproductive system grow.",
+     "defines": "testosterone",
+     "quotes": [
+      {
+       "quote": "Testosterone, an androgen, is a steroid hormone produced by Leydig cells.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "testosterone: steroid hormone secreted by the testes and important in the maturation of sperm cells, growth and development of the reproductive system, and the development of secondary sex characteristics",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Leydig cells are also called interstitial cells because they lie between the seminiferous tubules, which make up most of the testis and produce sperm.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "The alternate term for Leydig cells, interstitial cells, reflects their location between the seminiferous tubules in the testes.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Spermatogenesis, the production of sperm, occurs within the seminiferous tubules that make up most of the testis.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Leydig cells make about 6 to 7 milligrams of testosterone a day.",
+     "quotes": [
+      {
+       "quote": "The continued presence of testosterone is necessary to keep the male reproductive system working properly, and Leydig cells produce approximately 6 to 7 mg of testosterone per day.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The male reproductive system needs this steady supply of testosterone to work properly.",
+     "quotes": [
+      {
+       "quote": "The continued presence of testosterone is necessary to keep the male reproductive system working properly, and Leydig cells produce approximately 6 to 7 mg of testosterone per day.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a male embryo, Leydig cells release testosterone by the seventh week of development, and this early testosterone shapes the male sex organs.",
+     "quotes": [
+      {
+       "quote": "In male embryos, testosterone is secreted by Leydig cells by the seventh week of development, with peak concentrations reached in the second trimester. This early release of testosterone results in the anatomical differentiation of the male sexual organs.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Testosterone levels stay low in childhood but rise during puberty, bringing body changes and starting spermatogenesis, the formation of new sperm.",
+     "defines": "spermatogenesis",
+     "quotes": [
+      {
+       "quote": "In childhood, testosterone concentrations are low. They increase during puberty, activating characteristic physical changes and initiating spermatogenesis.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Testosterone in the blood also helps build muscle and bone and helps develop secondary sex characteristics, physical traits influenced by sex hormones.",
+     "defines": "secondary sex characteristics",
+     "quotes": [
+      {
+       "quote": "In addition to intratesticular secretion, testosterone is also released into the systemic circulation and plays an important role in muscle development, bone growth, the development of secondary sex characteristics, and maintaining libido (sex drive) in both males and females.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "secondary sex characteristics: physical characteristics that are influenced by sex steroid hormones and have supporting roles in reproductive function",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Leydig cells respond to luteinizing hormone (LH), which the pituitary gland at the base of the brain releases into the blood.",
+     "defines": "pituitary gland",
+     "quotes": [
+      {
+       "quote": "GnRH then stimulates the anterior pituitary to secrete LH into the bloodstream. In the testis, LH binds to LH receptors on Leydig cells and stimulates the release of testosterone.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pituitary gland: endocrine gland located at the base of the brain composed of an anterior and posterior region; also called hypophysis",
+       "section": "Chapter 37 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "On Leydig cells, LH binds to receptors, proteins that bind a hormone, and this triggers testosterone release.",
+     "defines": "receptor",
+     "quotes": [
+      {
+       "quote": "In the testis, LH binds to LH receptors on Leydig cells and stimulates the release of testosterone.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hormone receptor: protein within a cell or on the cell membrane that binds a hormone, initiating the target cell response",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In turn, rising testosterone levels affect the release of LH, and this lowers Leydig cell activity and testosterone production.",
+     "quotes": [
+      {
+       "quote": "Increased levels of testosterone affect the release of both GnRH and LH, decreasing the activity of the Leydig cells, resulting in decreased testosterone and sperm production.",
+       "section": "43.4 Hormonal Control of Human Reproduction",
+       "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -180,8 +505,48 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000178",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 43 Key Terms (Animal Reproduction and Development)",
+   "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000178 Leydig cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000178",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.3 Development of the Male and Female Reproductive Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.4 Hormonal Control of Human Reproduction",
+   "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
    "license": "CC BY 4.0"
   }
  ],

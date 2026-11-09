@@ -144,30 +144,237 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002062/tier1.auto.md",
-   "text": "A squamous pulmonary alveolar epithelial cell that is flattened and branched. A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+   "status": "drafted",
+   "file": "content/CL_0002062/tier1.md",
+   "text": "A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that gas exchange needs. In gas exchange, oxygen passes into the blood and carbon dioxide passes out. Type 1 cells are flat and cover almost all of the surface of the alveoli, small sacs in the lungs.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002062",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002062",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002062",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002062",
+     "title": "Cell Ontology, CL:0002062 pulmonary alveolar type 1 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002062",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.4 Gas Exchange",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002062. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that gas exchange needs.",
+     "quotes": [
+      {
+       "quote": "This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+       "section": "CL:0002062 pulmonary alveolar type 1 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002062",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "In gas exchange, oxygen passes into the blood and carbon dioxide passes out.",
+     "defines": "gas exchange",
+     "quotes": [
+      {
+       "quote": "Pulmonary ventilation provides air to the alveoli for this gas exchange process. At the respiratory membrane, where the alveolar and capillary walls meet, gases move across the membranes, with oxygen entering the bloodstream and carbon dioxide exiting.",
+       "section": "22.4 Gas Exchange",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type 1 cells are flat and cover almost all of the surface of the alveoli, small sacs in the lungs.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "A squamous pulmonary alveolar epithelial cell that is flattened and branched. A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface.",
+       "section": "CL:0002062 pulmonary alveolar type 1 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002062",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "alveolus: small, grape-like sac that performs gas exchange in the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002062/tier2.md",
+   "text": "A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that is essential for gas exchange. Type 1 cells cover almost all of the surface of the alveoli, the small, grape-like sacs in the lungs where gas exchange takes place. Each type 1 cell is large, flat and branched, and thin extensions of its cytoplasm, the material between the cell membrane and the nucleus, form the barrier. This layer is extremely thin and borders the lining of the capillaries, the smallest blood vessels. The alveolar and capillary walls together form the respiratory membrane, which gases cross by diffusion, moving from an area of higher concentration to one of lower concentration.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0002062 pulmonary alveolar type 1 cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002062",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that is essential for gas exchange.",
+     "quotes": [
+      {
+       "quote": "This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+       "section": "CL:0002062 pulmonary alveolar type 1 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002062",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "Type 1 cells cover almost all of the surface of the alveoli, the small, grape-like sacs in the lungs where gas exchange takes place.",
+     "defines": "alveoli",
+     "quotes": [
+      {
+       "quote": "A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface.",
+       "section": "CL:0002062 pulmonary alveolar type 1 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002062",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "alveolus: small, grape-like sac that performs gas exchange in the lungs",
+       "section": "Chapter 22 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each type 1 cell is large, flat and branched, and thin extensions of its cytoplasm, the material between the cell membrane and the nucleus, form the barrier.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "A squamous pulmonary alveolar epithelial cell that is flattened and branched. A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.",
+       "section": "CL:0002062 pulmonary alveolar type 1 cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002062",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This layer is extremely thin and borders the lining of the capillaries, the smallest blood vessels.",
+     "defines": "capillaries",
+     "quotes": [
+      {
+       "quote": "This epithelium is extremely thin and borders the endothelial membrane of capillaries.",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "capillary: smallest blood vessel that allows the passage of individual blood cells and the site of diffusion of oxygen and nutrient exchange",
+       "section": "Chapter 40 Key Terms (The Circulatory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The alveolar and capillary walls together form the respiratory membrane, which gases cross by diffusion, moving from an area of higher concentration to one of lower concentration.",
+     "defines": "diffusion",
+     "quotes": [
+      {
+       "quote": "Taken together, the alveoli and capillary membranes form a respiratory membrane that is approximately 0.5 μm (micrometers) thick. The respiratory membrane allows gases to cross by simple diffusion",
+       "section": "22.1 Organs and Structures of the Respiratory System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "diffusion: movement of a substance from an area of higher concentration to one of lower concentration",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -176,8 +383,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002062",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002062",
+   "title": "Cell Ontology, CL:0002062 pulmonary alveolar type 1 cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002062",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.4 Gas Exchange",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 22 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.1 Organs and Structures of the Respiratory System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
    "license": "CC BY 4.0"
   }
  ],

@@ -97,30 +97,272 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_4033018/tier1.auto.md",
-   "text": "A megakaryocyte that is resident in the lung connective tissue.",
+   "status": "drafted",
+   "file": "content/CL_4033018/tier1.md",
+   "text": "Megakaryocytes break apart to form platelets, small cell pieces that plug wounds to prevent blood loss. Lung megakaryocytes are megakaryocytes that live in the lung's connective tissue, a tissue that holds organs in place. Megakaryocytes are large cells with an enlarged nucleus.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:4033018",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033018",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:4033018",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033018",
+     "title": "OpenStax Biology 2e, 40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:4033018 lung megakaryocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_4033018",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:4033018. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Megakaryocytes break apart to form platelets, small cell pieces that plug wounds to prevent blood loss.",
+     "defines": "platelets",
+     "quotes": [
+      {
+       "quote": "Platelets are formed from the disintegration of larger cells called megakaryocytes, like that shown in a.",
+       "section": "40.2 Components of the Blood",
+       "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss",
+       "section": "Chapter 40 Key Terms (The Circulatory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Lung megakaryocytes are megakaryocytes that live in the lung's connective tissue, a tissue that holds organs in place.",
+     "defines": "connective tissue",
+     "quotes": [
+      {
+       "quote": "A megakaryocyte that is resident in the lung connective tissue.",
+       "section": "CL:4033018 lung megakaryocyte",
+       "url": "http://purl.obolibrary.org/obo/CL_4033018",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Megakaryocytes are large cells with an enlarged nucleus.",
+     "quotes": [
+      {
+       "quote": "Megakaryocytes are descended from myeloid stem cells (see ) and are large, typically 50–100 µm in diameter, and contain an enlarged, lobed nucleus.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_4033018/tier2.md",
+   "text": "Megakaryocytes break apart to form platelets, small cell fragments that collect at wounds and form a plug to prevent blood loss. A lung megakaryocyte is a megakaryocyte that lives in the lung's connective tissue, the type of tissue that holds the body's organs in place and connects them. A platelet is not a whole cell but a fragment of a megakaryocyte's cytoplasm, the material between the cell membrane and the nucleus, wrapped in membrane. Megakaryocytes are large cells, typically 50–100 µm across, with an enlarged, lobed nucleus. Megakaryocytes come from myeloid stem cells, which also give rise to red blood cells and several kinds of white blood cells. Thrombopoietin, a substance made by the kidneys and liver, makes cells called megakaryoblasts multiply, and the megakaryoblasts then mature into megakaryocytes.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 40.2 Components of the Blood",
+     "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:4033018 lung megakaryocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_4033018",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.2 Production of the Formed Elements",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Megakaryocytes break apart to form platelets, small cell fragments that collect at wounds and form a plug to prevent blood loss.",
+     "defines": "platelets",
+     "quotes": [
+      {
+       "quote": "Platelets are formed from the disintegration of larger cells called megakaryocytes, like that shown in a.",
+       "section": "40.2 Components of the Blood",
+       "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss",
+       "section": "Chapter 40 Key Terms (The Circulatory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A lung megakaryocyte is a megakaryocyte that lives in the lung's connective tissue, the type of tissue that holds the body's organs in place and connects them.",
+     "defines": "connective tissue",
+     "quotes": [
+      {
+       "quote": "A megakaryocyte that is resident in the lung connective tissue.",
+       "section": "CL:4033018 lung megakaryocyte",
+       "url": "http://purl.obolibrary.org/obo/CL_4033018",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A platelet is not a whole cell but a fragment of a megakaryocyte's cytoplasm, the material between the cell membrane and the nucleus, wrapped in membrane.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Megakaryocytes are large cells, typically 50–100 µm across, with an enlarged, lobed nucleus.",
+     "quotes": [
+      {
+       "quote": "Megakaryocytes are descended from myeloid stem cells (see ) and are large, typically 50–100 µm in diameter, and contain an enlarged, lobed nucleus.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Megakaryocytes come from myeloid stem cells, which also give rise to red blood cells and several kinds of white blood cells.",
+     "quotes": [
+      {
+       "quote": "Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.",
+       "section": "18.2 Production of the Formed Elements",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Thrombopoietin, a substance made by the kidneys and liver, makes cells called megakaryoblasts multiply, and the megakaryoblasts then mature into megakaryocytes.",
+     "quotes": [
+      {
+       "quote": "As noted earlier, thrombopoietin, a glycoprotein secreted by the kidneys and liver, stimulates the proliferation of megakaryoblasts, which mature into megakaryocytes.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -129,8 +371,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:4033018",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033018",
+   "title": "OpenStax Biology 2e, 40.2 Components of the Blood",
+   "url": "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:4033018 lung megakaryocyte",
+   "url": "http://purl.obolibrary.org/obo/CL_4033018",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.2 Production of the Formed Elements",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
    "license": "CC BY 4.0"
   }
  ],

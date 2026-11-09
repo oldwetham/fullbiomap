@@ -152,30 +152,357 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000654/tier1.auto.md",
-   "text": "A primary oocyte is an oocyte that has not completed female meosis I.",
+   "status": "drafted",
+   "file": "content/CL_0000654/tier1.md",
+   "text": "A primary oocyte goes through meiosis, a special type of cell division, to make an egg. Primary oocytes form in the ovary before birth, then stop partway through meiosis for years. Each primary oocyte and its supporting cells form a follicle. Later, the primary oocyte splits, and most of its material goes to one cell, the secondary oocyte.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000654",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000654",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000654",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000654",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Cell Function",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000654. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Cell Function. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A primary oocyte goes through meiosis, a special type of cell division, to make an egg.",
+     "defines": "meiosis",
+     "quotes": [
+      {
+       "quote": "oogenesis: process by which oogonia divide by mitosis to primary oocytes, which undergo meiosis to produce the secondary oocyte and, upon fertilization, the ovum",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Meiosis is a special type of cell division that occurs in the production of the gametes, or eggs and sperm.",
+       "section": "SEER Training Modules: Cell Function",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Cell Function. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Primary oocytes form in the ovary before birth, then stop partway through meiosis for years.",
+     "quotes": [
+      {
+       "quote": "Unlike spermatogonia, however, oogonia form primary oocytes in the fetal ovary prior to birth. These primary oocytes are then arrested in this stage of meiosis I, only to resume it years later, beginning at puberty and continuing until the person is near menopause",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each primary oocyte and its supporting cells form a follicle.",
+     "defines": "follicle",
+     "quotes": [
+      {
+       "quote": "As you’ll see next, follicles progress from primordial, to primary, to secondary and tertiary stages prior to ovulation—with the oocyte inside the follicle remaining as a primary oocyte until right before ovulation.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "This grouping of an oocyte and its supporting cells is called a follicle.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Later, the primary oocyte splits, and most of its material goes to one cell, the secondary oocyte.",
+     "quotes": [
+      {
+       "quote": "This results in the primary oocyte finishing the first meiotic division. The cell divides unequally, with most of the cellular material and organelles going to one cell, called a secondary oocyte, and only one set of chromosomes and a small amount of cytoplasm going to the other cell.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000654/tier2.md",
+   "text": "A primary oocyte is a cell that goes through meiosis, a special type of cell division, to produce an egg. Primary oocytes form from oogonia, the ovarian stem cells, in the ovary before birth. Each primary oocyte has 46 chromosomes, the structures in the nucleus that contain DNA. The cell copies its DNA and begins the first division of meiosis, but stops in prophase, the first stage of a division. Primary oocytes stay paused for years and resume meiosis only later, starting at puberty and continuing until a person is near menopause, the end of a female's reproductive functions. The number of primary oocytes in the ovaries keeps falling, to about 400,000 at puberty and to zero by the end of menopause. Each primary oocyte and its supporting cells form a follicle, and the oocyte remains a primary oocyte while the follicle develops through several stages. Each month from puberty on, follicle-stimulating hormone prompts several primary oocytes to start growing again. Just before ovulation, the release of an oocyte from the ovary, a surge of luteinizing hormone restarts meiosis in a primary oocyte, beginning its change into a secondary oocyte. The division is unequal: most of the cell's material goes to one cell, the secondary oocyte, while the other cell, a polar body, gets only one set of chromosomes and usually dies.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Cell Function",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Ovaries",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Cell Function. U.S. National Institutes of Health, National Cancer Institute; SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A primary oocyte is a cell that goes through meiosis, a special type of cell division, to produce an egg.",
+     "defines": "meiosis",
+     "quotes": [
+      {
+       "quote": "oogenesis: process by which oogonia divide by mitosis to primary oocytes, which undergo meiosis to produce the secondary oocyte and, upon fertilization, the ovum",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Meiosis is a special type of cell division that occurs in the production of the gametes, or eggs and sperm.",
+       "section": "SEER Training Modules: Cell Function",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Cell Function. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Primary oocytes form from oogonia, the ovarian stem cells, in the ovary before birth.",
+     "defines": "oogonia",
+     "quotes": [
+      {
+       "quote": "Unlike spermatogonia, however, oogonia form primary oocytes in the fetal ovary prior to birth.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "oogonia: ovarian stem cells that undergo mitosis during female fetal development to form primary oocytes",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each primary oocyte has 46 chromosomes, the structures in the nucleus that contain DNA.",
+     "defines": "chromosomes",
+     "quotes": [
+      {
+       "quote": "The diploid (46 chromosomes) primary oocytes replicate their DNA and begin the first meiotic division, but the process stops in prophase and the cells remain in this suspended state until puberty.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "chromosome: structure within the nucleus that comprises chromatin that contains DNA, the hereditary material",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cell copies its DNA and begins the first division of meiosis, but stops in prophase, the first stage of a division.",
+     "defines": "prophase",
+     "quotes": [
+      {
+       "quote": "The diploid (46 chromosomes) primary oocytes replicate their DNA and begin the first meiotic division, but the process stops in prophase and the cells remain in this suspended state until puberty.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "prophase: first stage of mitosis (and meiosis), characterized by breakdown of the nuclear envelope and condensing of the chromatin to form chromosomes",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Primary oocytes stay paused for years and resume meiosis only later, starting at puberty and continuing until a person is near menopause, the end of a female's reproductive functions.",
+     "defines": "menopause",
+     "quotes": [
+      {
+       "quote": "These primary oocytes are then arrested in this stage of meiosis I, only to resume it years later, beginning at puberty and continuing until the person is near menopause (the cessation of a female's reproductive functions).",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The number of primary oocytes in the ovaries keeps falling, to about 400,000 at puberty and to zero by the end of menopause.",
+     "quotes": [
+      {
+       "quote": "The number of primary oocytes present in the ovaries declines from one to two million in an infant, to approximately 400,000 at puberty, to zero by the end of menopause.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each primary oocyte and its supporting cells form a follicle, and the oocyte remains a primary oocyte while the follicle develops through several stages.",
+     "defines": "follicle",
+     "quotes": [
+      {
+       "quote": "As you’ll see next, follicles progress from primordial, to primary, to secondary and tertiary stages prior to ovulation—with the oocyte inside the follicle remaining as a primary oocyte until right before ovulation.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "This grouping of an oocyte and its supporting cells is called a follicle.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each month from puberty on, follicle-stimulating hormone prompts several primary oocytes to start growing again.",
+     "quotes": [
+      {
+       "quote": "Beginning at puberty, under the influence of follicle-stimulating hormone, several primary oocytes start to grow again each month.",
+       "section": "SEER Training Modules: Ovaries",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Ovaries. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Just before ovulation, the release of an oocyte from the ovary, a surge of luteinizing hormone restarts meiosis in a primary oocyte, beginning its change into a secondary oocyte.",
+     "defines": "ovulation",
+     "quotes": [
+      {
+       "quote": "Just prior to ovulation, a surge of luteinizing hormone triggers the resumption of meiosis in a primary oocyte. This initiates the transition from primary to secondary oocyte.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.",
+       "section": "27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The division is unequal: most of the cell's material goes to one cell, the secondary oocyte, while the other cell, a polar body, gets only one set of chromosomes and usually dies.",
+     "quotes": [
+      {
+       "quote": "The cell divides unequally, with most of the cellular material and organelles going to one cell, called a secondary oocyte, and only one set of chromosomes and a small amount of cytoplasm going to the other cell. This second cell is called a polar body and usually dies.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -184,8 +511,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000654",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000654",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Cell Function",
+   "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.2 Anatomy and Physiology of the Ovarian Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Ovaries",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
    "license": "CC BY 4.0"
   }
  ],

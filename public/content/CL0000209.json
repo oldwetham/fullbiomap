@@ -163,30 +163,376 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000209/tier1.auto.md",
-   "text": "A specialized cell involved in gustatory sensory perception.",
+   "status": "drafted",
+   "file": "content/CL_0000209/tier1.md",
+   "text": "Taste receptor cells sense chemicals in the food we eat. These cells sit in clusters called taste buds, inside bumps on the tongue called papillae. Food molecules dissolve in saliva and bind to sensors on microvilli, the hair-like tips of these cells. Once activated, taste receptor cells release chemical signals onto sensory nerve cells.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000209",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000209",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000209",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000209",
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000209. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Taste receptor cells sense chemicals in the food we eat.",
+     "quotes": [
+      {
+       "quote": "specialized gustatory receptor cells for the transduction of taste stimuli. These receptor cells are sensitive to the chemicals contained within foods that are ingested",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells sit in clusters called taste buds, inside bumps on the tongue called papillae.",
+     "defines": "taste buds",
+     "quotes": [
+      {
+       "quote": "A taste bud is a cluster of gustatory receptors (taste cells) that are located within the bumps on the tongue called papillae",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "taste bud: clusters of taste cells",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Food molecules dissolve in saliva and bind to sensors on microvilli, the hair-like tips of these cells.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "Food molecules (tastants) are dissolved in saliva, and they bind with and stimulate the receptors on the microvilli.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "These are elongated cells with hair-like processes called microvilli at the tips that extend into the taste bud pore",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Once activated, taste receptor cells release chemical signals onto sensory nerve cells.",
+     "quotes": [
+      {
+       "quote": "Once the gustatory cells are activated by the taste molecules, they release neurotransmitters onto the dendrites of sensory neurons.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000209/tier2.md",
+   "text": "Taste receptor cells sense chemicals in the food we eat and release neurotransmitters, chemical signals, based on how much of each chemical is present. These cells, also called taste cells, cluster in taste buds, which sit within bumps on the tongue called papillae. Taste cells are long cells whose hair-like tips, called microvilli, reach into a pore in the taste bud. A taste bud's taste cells are replaced every 10 to 14 days. Food molecules dissolve in saliva and then bind to receptors, proteins with a binding site for a specific molecule, on the microvilli. Each of the five primary tastes (sweet, sour, bitter, salty and umami, a savory taste) has its own type of receptor that responds only to that taste. Sour and salty tastes come from ions, atoms with an electric charge, entering the taste cell: hydrogen ions for sour and sodium ions for salty. Sweet, bitter and umami tastes instead need a G protein–coupled receptor, a receptor that activates a G protein to pass the signal on inside the cell. In a taste cell, a change in voltage across the cell membrane leads to the release of neurotransmitters where the cell meets sensory nerve cells. These neurotransmitters can activate sensory nerve cells in the facial, glossopharyngeal and vagus nerves, which are cranial nerves, nerves connected to the brain.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 2 Key Terms (The Chemical Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 15 Key Terms (The Autonomic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.5 Communication Between Neurons",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Taste receptor cells sense chemicals in the food we eat and release neurotransmitters, chemical signals, based on how much of each chemical is present.",
+     "defines": "neurotransmitters",
+     "quotes": [
+      {
+       "quote": "specialized gustatory receptor cells for the transduction of taste stimuli. These receptor cells are sensitive to the chemicals contained within foods that are ingested, and they release neurotransmitters based on the amount of the chemical in the food.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "neurotransmitter: chemical signal that is released from the synaptic end bulb of a neuron to cause a change in the target cell",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells, also called taste cells, cluster in taste buds, which sit within bumps on the tongue called papillae.",
+     "defines": "taste buds",
+     "quotes": [
+      {
+       "quote": "A taste bud is a cluster of gustatory receptors (taste cells) that are located within the bumps on the tongue called papillae",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "taste bud: clusters of taste cells",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Taste cells are long cells whose hair-like tips, called microvilli, reach into a pore in the taste bud.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "Each taste bud’s taste cells are replaced every 10 to 14 days. These are elongated cells with hair-like processes called microvilli at the tips that extend into the taste bud pore",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A taste bud's taste cells are replaced every 10 to 14 days.",
+     "quotes": [
+      {
+       "quote": "Each taste bud’s taste cells are replaced every 10 to 14 days.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Food molecules dissolve in saliva and then bind to receptors, proteins with a binding site for a specific molecule, on the microvilli.",
+     "defines": "receptors",
+     "quotes": [
+      {
+       "quote": "Food molecules (tastants) are dissolved in saliva, and they bind with and stimulate the receptors on the microvilli.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "receptor: protein molecule that contains a binding site for another specific molecule (called a ligand)",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each of the five primary tastes (sweet, sour, bitter, salty and umami, a savory taste) has its own type of receptor that responds only to that taste.",
+     "defines": "umami",
+     "quotes": [
+      {
+       "quote": "There are five primary tastes in humans: sweet, sour, bitter, salty, and umami. Each taste has its own receptor type that responds only to that taste.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "umami: one of the five basic tastes, which is described as “savory” and which may be largely the taste of L-glutamate",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sour and salty tastes come from ions, atoms with an electric charge, entering the taste cell: hydrogen ions for sour and sodium ions for salty.",
+     "defines": "ions",
+     "quotes": [
+      {
+       "quote": "Sour taste is the perception of H+ concentration. Just as with sodium ions in salty flavors, these hydrogen ions enter the cell and trigger depolarization.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ion: atom with an overall positive or negative charge",
+       "section": "Chapter 2 Key Terms (The Chemical Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sweet, bitter and umami tastes instead need a G protein–coupled receptor, a receptor that activates a G protein to pass the signal on inside the cell.",
+     "defines": "G protein–coupled receptor",
+     "quotes": [
+      {
+       "quote": "Sweet, bitter, and umami tastants require a G-protein coupled receptor.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "G protein–coupled receptor: membrane protein complex that consists of a receptor protein that binds to a signaling molecule—a G protein—that is activated by that binding and in turn activates an effector protein (enzyme) that creates a second-messenger molecule in the cytoplasm of the target cell",
+       "section": "Chapter 15 Key Terms (The Autonomic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a taste cell, a change in voltage across the cell membrane leads to the release of neurotransmitters where the cell meets sensory nerve cells.",
+     "quotes": [
+      {
+       "quote": "For other sensory receptor cells, such as taste cells or photoreceptors of the retina, graded potentials in their membranes result in the release of neurotransmitters at synapses with sensory neurons.",
+       "section": "12.5 Communication Between Neurons",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These neurotransmitters can activate sensory nerve cells in the facial, glossopharyngeal and vagus nerves, which are cranial nerves, nerves connected to the brain.",
+     "defines": "cranial nerves",
+     "quotes": [
+      {
+       "quote": "Neurotransmitters from the gustatory cells can activate sensory neurons in the facial, glossopharyngeal, and vagus cranial nerves.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cranial nerve: one of twelve nerves connected to the brain that are responsible for sensory or motor functions of the head and neck",
+       "section": "Chapter 13 Key Terms (Anatomy of the Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -195,8 +541,48 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000209",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000209",
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+   "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 2 Key Terms (The Chemical Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 15 Key Terms (The Autonomic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.5 Communication Between Neurons",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 13 Key Terms (Anatomy of the Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
    "license": "CC BY 4.0"
   }
  ],

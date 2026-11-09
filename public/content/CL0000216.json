@@ -200,30 +200,396 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000216/tier1.auto.md",
-   "text": "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein. Their tight junctions with the spermatogonia and spermatocytes provide a blood-testis barrier.",
+   "status": "drafted",
+   "file": "content/CL_0000216/tier1.md",
+   "text": "A Sertoli cell surrounds and nourishes germ cells, the developing sperm cells. Sertoli cells sit inside the seminiferous tubules, where the testis makes sperm. Sertoli cells are joined to each other by tight junctions, firm seals between cells. These junctions form the blood–testis barrier, which keeps substances in the blood from reaching germ cells.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000216",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000216",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+     "title": "Cell Ontology, CL:0000216 Sertoli cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000216",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 43 Key Terms (Animal Reproduction and Development)",
+     "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000216. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Sertoli cell surrounds and nourishes germ cells, the developing sperm cells.",
+     "defines": "germ cells",
+     "quotes": [
+      {
+       "quote": "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein.",
+       "section": "CL:0000216 Sertoli cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000216",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "These include supporting cells called sustentacular cells, as well as five types of developing sperm cells called germ cells.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sertoli cells sit inside the seminiferous tubules, where the testis makes sperm.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "Sertoli cell: cell in seminiferous tubules that assists developing sperm and makes inhibin",
+       "section": "Chapter 43 Key Terms (Animal Reproduction and Development)",
+       "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "seminiferous tubule: site of sperm production in testes",
+       "section": "Chapter 43 Key Terms (Animal Reproduction and Development)",
+       "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sertoli cells are joined to each other by tight junctions, firm seals between cells.",
+     "defines": "tight junction",
+     "quotes": [
+      {
+       "quote": "blood–testis barrier: tight junctions between Sertoli cells that prevent bloodborne pathogens from gaining access to later stages of spermatogenesis and prevent the potential for an autoimmune reaction to haploid sperm",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "tight junction: protein adherence that creates a firm seal between two adjacent animal cells",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These junctions form the blood–testis barrier, which keeps substances in the blood from reaching germ cells.",
+     "quotes": [
+      {
+       "quote": "Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000216/tier2.md",
+   "text": "A Sertoli cell is a supporting cell that nourishes germ cells, the developing sperm cells. Sertoli cells sit inside the seminiferous tubules, which make up most of the testis and produce sperm. Sertoli cells, also called sustentacular cells, are large and stretch from the outer edge of a seminiferous tubule to the lumen, the tubule's hollow center. Long and branching, Sertoli cells surround germ cells at every stage of development. Tight junctions, firm seals between neighboring cells, join Sertoli cells and form the blood–testis barrier, which keeps substances in the blood away from germ cells. The barrier also stops molecules on developing germ cells from escaping into the blood and prompting an autoimmune response, an immune response to the body's own cells. Sertoli cells release signaling molecules that promote sperm production and can control whether germ cells live or die. In the testes, follicle-stimulating hormone (FSH), a hormone that helps sex cells form and mature, binds mainly to Sertoli cells to boost sperm production. But when sperm numbers get too high, Sertoli cells release the hormone inhibin into the blood; inhibin holds back FSH release, so sperm production slows. In a male embryo, secretions from Sertoli cells trigger the breakdown of the Müllerian duct, the embryo's duct system that can form internal female reproductive structures.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000216 Sertoli cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000216",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 43 Key Terms (Animal Reproduction and Development)",
+     "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Testes",
+     "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.4 Hormonal Control of Human Reproduction",
+     "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.3 Development of the Male and Female Reproductive Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Testes. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Sertoli cell is a supporting cell that nourishes germ cells, the developing sperm cells.",
+     "defines": "germ cells",
+     "quotes": [
+      {
+       "quote": "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein.",
+       "section": "CL:0000216 Sertoli cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000216",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "These include supporting cells called sustentacular cells, as well as five types of developing sperm cells called germ cells.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sertoli cells sit inside the seminiferous tubules, which make up most of the testis and produce sperm.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "Sertoli cell: cell in seminiferous tubules that assists developing sperm and makes inhibin",
+       "section": "Chapter 43 Key Terms (Animal Reproduction and Development)",
+       "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Spermatogenesis, the production of sperm, occurs within the seminiferous tubules that make up most of the testis.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sertoli cells, also called sustentacular cells, are large and stretch from the outer edge of a seminiferous tubule to the lumen, the tubule's hollow center.",
+     "defines": "lumen",
+     "quotes": [
+      {
+       "quote": "Interspersed with these cells, there are large cells that extend from the periphery of the tubule to the lumen. These large cells are the supporting, or sustentacular cells (Sertoli's cells), which support and nourish the other cells.",
+       "section": "SEER Training Modules: Testes",
+       "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Testes. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "They are composed of developing sperm cells surrounding a lumen, the hollow center of the tubule, where formed sperm are released into the duct system of the testis.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Long and branching, Sertoli cells surround germ cells at every stage of development.",
+     "quotes": [
+      {
+       "quote": "Surrounding all stages of the developing sperm cells are elongate, branching Sertoli cells.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Tight junctions, firm seals between neighboring cells, join Sertoli cells and form the blood–testis barrier, which keeps substances in the blood away from germ cells.",
+     "defines": "tight junction",
+     "quotes": [
+      {
+       "quote": "Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "tight junction: protein adherence that creates a firm seal between two adjacent animal cells",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The barrier also stops molecules on developing germ cells from escaping into the blood and prompting an autoimmune response, an immune response to the body's own cells.",
+     "defines": "autoimmune response",
+     "quotes": [
+      {
+       "quote": "Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells and, at the same time, keeps surface antigens on developing germ cells from escaping into the bloodstream and prompting an autoimmune response.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "autoimmune response: inappropriate immune response to host cells or self-antigens",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sertoli cells release signaling molecules that promote sperm production and can control whether germ cells live or die.",
+     "quotes": [
+      {
+       "quote": "Sertoli cells secrete signaling molecules that promote sperm production and can control whether germ cells live or die.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the testes, follicle-stimulating hormone (FSH), a hormone that helps sex cells form and mature, binds mainly to Sertoli cells to boost sperm production.",
+     "defines": "follicle-stimulating hormone (FSH)",
+     "quotes": [
+      {
+       "quote": "In the testes, FSH binds predominantly to the Sertoli cells within the seminiferous tubules to promote spermatogenesis.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "follicle-stimulating hormone (FSH): anterior pituitary hormone that stimulates the production and maturation of sex cells",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "But when sperm numbers get too high, Sertoli cells release the hormone inhibin into the blood; inhibin holds back FSH release, so sperm production slows.",
+     "quotes": [
+      {
+       "quote": "The Sertoli cells produce the hormone inhibin, which is released into the blood when the sperm count is too high. This inhibits the release of GnRH and FSH, which will cause spermatogenesis to slow down.",
+       "section": "43.4 Hormonal Control of Human Reproduction",
+       "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a male embryo, secretions from Sertoli cells trigger the breakdown of the Müllerian duct, the embryo's duct system that can form internal female reproductive structures.",
+     "defines": "Müllerian duct",
+     "quotes": [
+      {
+       "quote": "In males, secretions from sustentacular cells trigger a degradation of the female duct, called the Müllerian duct.",
+       "section": "27.3 Development of the Male and Female Reproductive Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Müllerian duct: duct system present in the embryo that will eventually form the internal female reproductive structures",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 12.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -232,8 +598,53 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000216",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000216",
+   "title": "Cell Ontology, CL:0000216 Sertoli cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000216",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 43 Key Terms (Animal Reproduction and Development)",
+   "url": "https://openstax.org/books/biology-2e/pages/43-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Testes",
+   "url": "https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.4 Hormonal Control of Human Reproduction",
+   "url": "https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.3 Development of the Male and Female Reproductive Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems",
    "license": "CC BY 4.0"
   }
  ],

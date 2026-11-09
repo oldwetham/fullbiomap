@@ -81,30 +81,289 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000577/tier1.auto.md",
-   "text": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum. These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P. Their secretory granules stain readily with silver (argentaffin stain).",
+   "status": "drafted",
+   "file": "content/CL_0000577/tier1.md",
+   "text": "Type EC enteroendocrine cells release serotonin, a chemical signal that nerve cells also use. They are a kind of enteroendocrine cell: a cell in the gut lining that releases hormones.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000577",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000577",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000577",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000577",
+     "title": "Cell Ontology, CL:0000577 type EC enteroendocrine cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000577",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.1 An Overview of the Endocrine System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.1 Overview of the Digestive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000577. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Type EC enteroendocrine cells release serotonin, a chemical signal that nerve cells also use.",
+     "defines": "serotonin",
+     "quotes": [
+      {
+       "quote": "These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The nervous system uses two types of intercellular communication—electrical and chemical signaling—either by the direct action of an electrical potential, or in the latter case, through the action of chemical neurotransmitters such as serotonin or norepinephrine.",
+       "section": "17.1 An Overview of the Endocrine System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They are a kind of enteroendocrine cell: a cell in the gut lining that releases hormones.",
+     "defines": "enteroendocrine cell",
+     "quotes": [
+      {
+       "quote": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen, and enteroendocrine cells, which secrete hormones into the interstitial spaces between cells.",
+       "section": "23.1 Overview of the Digestive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000577/tier2.md",
+   "text": "Type EC cells are one kind of enteroendocrine cell, a cell that releases hormones into the spaces between cells. Type EC cells release serotonin, which in the stomach acts as a hormone that makes stomach muscle contract. These cells also release enkephalins and substance P, which are neurotransmitters: chemicals that nerve endings release to act on target cells. Type EC cells are found in the gastrointestinal mucosa, the lining that forms the innermost layer of the digestive tract's wall. Within this lining, they occur especially in the glands of the duodenum and ileum, the first and last of the small intestine's three regions. In the stomach, Type EC cells occur especially in the glands of the pyloric antrum, the wider end of the pylorus, a funnel-shaped region that leads into the duodenum. Each Type EC cell holds secretory granules, small membrane-wrapped sacs that stain readily with silver (the argentaffin stain).",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000577 type EC enteroendocrine cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000577",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.1 Overview of the Digestive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.4 The Stomach",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: General Structure of the Digestive System",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/structure.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0030141 secretory granule",
+     "url": "http://purl.obolibrary.org/obo/GO_0030141",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: General Structure of the Digestive System. U.S. National Institutes of Health, National Cancer Institute; Gene Ontology (GO), https://geneontology.org. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Type EC cells are one kind of enteroendocrine cell, a cell that releases hormones into the spaces between cells.",
+     "defines": "enteroendocrine cell",
+     "quotes": [
+      {
+       "quote": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen, and enteroendocrine cells, which secrete hormones into the interstitial spaces between cells.",
+       "section": "23.1 Overview of the Digestive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type EC cells release serotonin, which in the stomach acts as a hormone that makes stomach muscle contract.",
+     "defines": "serotonin",
+     "quotes": [
+      {
+       "quote": "These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Serotonin | Stomach mucosa | Presence of food in the stomach | Stomach | Contracts stomach muscle",
+       "section": "23.4 The Stomach",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells also release enkephalins and substance P, which are neurotransmitters: chemicals that nerve endings release to act on target cells.",
+     "defines": "neurotransmitters",
+     "quotes": [
+      {
+       "quote": "These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "neurotransmitter: signaling chemical released by nerve terminals that bind to and activate receptors on target cells",
+       "section": "Chapter 10 Key Terms (Muscle Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Type EC cells are found in the gastrointestinal mucosa, the lining that forms the innermost layer of the digestive tract's wall.",
+     "defines": "gastrointestinal mucosa",
+     "quotes": [
+      {
+       "quote": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The mucosa, or mucous membrane layer, is the innermost tunic of the wall. It lines the lumen of the digestive tract.",
+       "section": "SEER Training Modules: General Structure of the Digestive System",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/structure.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: General Structure of the Digestive System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Within this lining, they occur especially in the glands of the duodenum and ileum, the first and last of the small intestine's three regions.",
+     "defines": "duodenum and ileum",
+     "quotes": [
+      {
+       "quote": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The coiled tube of the small intestine is subdivided into three regions. From proximal (at the stomach) to distal, these are the duodenum, jejunum, and ileum",
+       "section": "23.5 The Small and Large Intestines",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the stomach, Type EC cells occur especially in the glands of the pyloric antrum, the wider end of the pylorus, a funnel-shaped region that leads into the duodenum.",
+     "defines": "pyloric antrum",
+     "quotes": [
+      {
+       "quote": "A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The funnel-shaped pylorus connects the stomach to the duodenum. The wider end of the funnel, the pyloric antrum, connects to the body of the stomach.",
+       "section": "23.4 The Stomach",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each Type EC cell holds secretory granules, small membrane-wrapped sacs that stain readily with silver (the argentaffin stain).",
+     "defines": "secretory granules",
+     "quotes": [
+      {
+       "quote": "Their secretory granules stain readily with silver (argentaffin stain).",
+       "section": "CL:0000577 type EC enteroendocrine cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000577",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "A small subcellular vesicle, surrounded by a membrane",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    }
+   ],
+   "grade": 11.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -113,8 +372,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000577",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000577",
+   "title": "Cell Ontology, CL:0000577 type EC enteroendocrine cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000577",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 17.1 An Overview of the Endocrine System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.1 Overview of the Digestive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.4 The Stomach",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 10 Key Terms (Muscle Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: General Structure of the Digestive System",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/structure.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.5 The Small and Large Intestines",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0030141 secretory granule",
+   "url": "http://purl.obolibrary.org/obo/GO_0030141",
    "license": "CC BY 4.0"
   }
  ],

@@ -122,30 +122,342 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002145/tier1.auto.md",
-   "text": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface. These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.",
+   "status": "drafted",
+   "file": "content/CL_0002145/tier1.md",
+   "text": "Multiciliated cells help clear the airways of mucus, a sticky fluid that traps particles. These cells line the trachea, or windpipe, and the bronchi, its branches leading to the lungs. Each cell is column-shaped, with many cilia, short hair-like parts, on the side facing the airway. The cilia beat together, moving the mucus up to the throat to be swallowed.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002145",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002145",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002145",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002145",
+     "title": "Cell Ontology, CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+     "url": "http://purl.obolibrary.org/obo/CL_0002145",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+     "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002145. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Multiciliated cells help clear the airways of mucus, a sticky fluid that traps particles.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface. These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells line the trachea, or windpipe, and the bronchi, its branches leading to the lungs.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs. It divides into the right and left bronchi at the level of the fifth thoracic vertebra, channeling air to the right or left lung.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each cell is column-shaped, with many cilia, short hair-like parts, on the side facing the airway.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cilia beat together, moving the mucus up to the throat to be swallowed.",
+     "quotes": [
+      {
+       "quote": "These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002145/tier2.md",
+   "text": "Multiciliated cells use their cilia, short hair-like parts, to help clear the airways. These cells line the trachea, or windpipe, which is the main airway to the lungs, and the bronchi that branch from the trachea. Goblet cells in the same lining make mucus, a sticky fluid that traps particles. Each multiciliated cell is column-shaped and carries many cilia on its apical surface, the side that faces the open airway. Each cilium is a tiny extension of the cell's apical membrane, supported by microtubules, structural filaments made of a protein called tubulin. In each cilium, nine pairs of microtubules form a ring around a central pair, an arrangement called the 9 + 2 array. The cilia beat in unison and move mucus and particles back up to the throat, where the mucus is swallowed. This constant upward push of mucus gives the ciliated lining its name, the mucociliary escalator.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+     "url": "http://purl.obolibrary.org/obo/CL_0002145",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+     "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+     "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+     "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Multiciliated cells use their cilia, short hair-like parts, to help clear the airways.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface. These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells line the trachea, or windpipe, which is the main airway to the lungs, and the bronchi that branch from the trachea.",
+     "defines": "trachea",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The trachea, commonly called the windpipe, is the main airway to the lungs. It divides into the right and left bronchi at the level of the fifth thoracic vertebra, channeling air to the right or left lung.",
+       "section": "SEER Training Modules: Larynx & Trachea",
+       "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Larynx & Trachea. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Goblet cells in the same lining make mucus, a sticky fluid that traps particles.",
+     "defines": "mucus",
+     "quotes": [
+      {
+       "quote": "The trachea is lined with mucus-producing goblet cells and ciliated epithelia.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body",
+       "section": "Chapter 39 Key Terms (The Respiratory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each multiciliated cell is column-shaped and carries many cilia on its apical surface, the side that faces the open airway.",
+     "defines": "apical surface",
+     "quotes": [
+      {
+       "quote": "A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.",
+       "section": "CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+       "url": "http://purl.obolibrary.org/obo/CL_0002145",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "apical: that part of a cell or tissue which, in general, faces an open space",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each cilium is a tiny extension of the cell's apical membrane, supported by microtubules, structural filaments made of a protein called tubulin.",
+     "defines": "microtubules",
+     "quotes": [
+      {
+       "quote": "Cilia are microscopic extensions of the apical cell membrane that are supported by microtubules.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The thickest of the three is the microtubule, a structural filament composed of subunits of a protein called tubulin.",
+       "section": "3.2 The Cytoplasm and Cellular Organelles",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In each cilium, nine pairs of microtubules form a ring around a central pair, an arrangement called the 9 + 2 array.",
+     "quotes": [
+      {
+       "quote": "flagella and cilia share a common structural arrangement of microtubules called a “9 + 2 array.” This is an appropriate name because a single flagellum or cilium is made of a ring of nine microtubule doublets, surrounding a single microtubule doublet in the center",
+       "section": "4.5 The Cytoskeleton",
+       "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cilia beat in unison and move mucus and particles back up to the throat, where the mucus is swallowed.",
+     "quotes": [
+      {
+       "quote": "These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.",
+       "section": "39.1 Systems of Gas Exchange",
+       "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This constant upward push of mucus gives the ciliated lining its name, the mucociliary escalator.",
+     "quotes": [
+      {
+       "quote": "The ciliated epithelium of your airway forms a mucociliary escalator that sweeps particles of dust and pathogens trapped in the secreted mucus toward the throat. It is called an escalator because it continuously pushes mucus with trapped particles upward.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -154,8 +466,48 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002145",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002145",
+   "title": "Cell Ontology, CL:0002145 multiciliated columnar cell of tracheobronchial tree",
+   "url": "http://purl.obolibrary.org/obo/CL_0002145",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 39 Key Terms (The Respiratory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/39-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Larynx & Trachea",
+   "url": "https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 39.1 Systems of Gas Exchange",
+   "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 3.2 The Cytoplasm and Cellular Organelles",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.5 The Cytoskeleton",
+   "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
    "license": "CC BY 4.0"
   }
  ],

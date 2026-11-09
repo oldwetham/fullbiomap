@@ -159,30 +159,403 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000019/tier1.auto.md",
-   "text": "A mature male germ cell that develops from a spermatid.",
+   "status": "drafted",
+   "file": "content/CL_0000019/tier1.md",
+   "text": "A sperm is the male gamete, a reproductive cell that contributes genetic material to form offspring. Sperm are made in the testes, inside tubes called seminiferous tubules. A sperm's tail is a flagellum, a long, hair-like part that moves the cell. The acrosome is a cap-like part of the sperm's head, holding enzymes that help the sperm get into the egg; enzymes are proteins that speed up chemical reactions.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000019",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000019",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000019",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000019",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+     "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000019. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A sperm is the male gamete, a reproductive cell that contributes genetic material to form offspring.",
+     "defines": "gamete",
+     "quotes": [
+      {
+       "quote": "sperm: (also, spermatozoon) male gamete",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "gamete: haploid reproductive cell that contributes genetic material to form an offspring",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sperm are made in the testes, inside tubes called seminiferous tubules.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "seminiferous tubules: tube structures within the testes where spermatogenesis occurs",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A sperm's tail is a flagellum, a long, hair-like part that moves the cell.",
+     "defines": "flagellum",
+     "quotes": [
+      {
+       "quote": "Sperm are haploid cells, consisting of a flagellum as a tail, a neck that contains the cell’s energy-producing mitochondria, and a head that contains the genetic material.",
+       "section": "43.3 Human Reproductive Anatomy and Gametogenesis",
+       "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "flagellum: (plural = flagella) long, hair-like structure that extends from the plasma membrane and moves the cell",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The acrosome is a cap-like part of the sperm's head, holding enzymes that help the sperm get into the egg; enzymes are proteins that speed up chemical reactions.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "the acrosome, the cap-like structure in the head of a sperm that contains the digestive enzymes needed for it to attach to and penetrate the oocyte",
+       "section": "28.1 Fertilization",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000019/tier2.md",
+   "text": "A sperm, or spermatozoon, is the male gamete: a reproductive cell that contributes genetic material to form offspring. At fertilization, a sperm and an oocyte, or egg, combine and their nuclei fuse; the sperm is haploid, carrying half of the genetic material needed to form a human being. Sperm form inside the testes, in tubes called seminiferous tubules; this process is called spermatogenesis. In the epididymis, a coiled tube where sperm are stored until ejaculation, sperm mature further and gain the ability to move on their own. A sperm is divided into a head, a mid-piece and a tail. The head holds a tightly packed nucleus and very little cytoplasm, the material between the cell membrane and the nucleus; these features help keep the sperm small. A cap called the acrosome covers most of the head and is filled with enzymes, proteins that speed up chemical reactions. The mid-piece is filled with tightly packed mitochondria, the cell parts that produce ATP, the cell's main energy-carrying molecule. ATP from these mitochondria powers the flagellum, a long, hair-like structure that runs from the mid-piece through the tail and moves the whole sperm. In the acrosomal reaction, the acrosome releases its stored enzymes, which clear a path for the sperm through the zona pellucida, the thick, gel-like layer that coats the egg.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A sperm, or spermatozoon, is the male gamete: a reproductive cell that contributes genetic material to form offspring.",
+     "defines": "gamete",
+     "quotes": [
+      {
+       "quote": "sperm: (also, spermatozoon) male gamete",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "gamete: haploid reproductive cell that contributes genetic material to form an offspring",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "At fertilization, a sperm and an oocyte, or egg, combine and their nuclei fuse; the sperm is haploid, carrying half of the genetic material needed to form a human being.",
+     "defines": "haploid",
+     "quotes": [
+      {
+       "quote": "Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse. Because each of these reproductive cells is a haploid cell containing half of the genetic material needed to form a human being, their combination forms a diploid cell.",
+       "section": "28.1 Fertilization",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Sperm form inside the testes, in tubes called seminiferous tubules; this process is called spermatogenesis.",
+     "defines": "seminiferous tubules",
+     "quotes": [
+      {
+       "quote": "spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "seminiferous tubules: tube structures within the testes where spermatogenesis occurs",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the epididymis, a coiled tube where sperm are stored until ejaculation, sperm mature further and gain the ability to move on their own.",
+     "defines": "epididymis",
+     "quotes": [
+      {
+       "quote": "As they are moved along the length of the epididymis, the sperm further mature and acquire the ability to move under their own power.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "epididymis: (plural = epididymides) coiled tubular structure in which sperm start to mature and are stored until ejaculation",
+       "section": "Chapter 27 Key Terms (The Reproductive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A sperm is divided into a head, a mid-piece and a tail.",
+     "quotes": [
+      {
+       "quote": "Sperm have a distinctive head, mid-piece, and tail region",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The head holds a tightly packed nucleus and very little cytoplasm, the material between the cell membrane and the nucleus; these features help keep the sperm small.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "The head of the sperm contains the extremely compact haploid nucleus with very little cytoplasm. These qualities contribute to the overall small size of the sperm",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A cap called the acrosome covers most of the head and is filled with enzymes, proteins that speed up chemical reactions.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "A structure called the acrosome covers most of the head of the sperm cell as a “cap” that is filled with lysosomal enzymes important for preparing sperm to participate in fertilization.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The mid-piece is filled with tightly packed mitochondria, the cell parts that produce ATP, the cell's main energy-carrying molecule.",
+     "defines": "mitochondria",
+     "quotes": [
+      {
+       "quote": "Tightly packed mitochondria fill the mid-piece of the sperm.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "mitochondria: (singular = mitochondrion) cellular organelles responsible for carrying out cellular respiration, resulting in producing ATP, the cell’s main energy-carrying molecule",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "ATP from these mitochondria powers the flagellum, a long, hair-like structure that runs from the mid-piece through the tail and moves the whole sperm.",
+     "defines": "flagellum",
+     "quotes": [
+      {
+       "quote": "ATP produced by these mitochondria will power the flagellum, which extends from the neck and the mid-piece through the tail of the sperm, enabling it to move the entire sperm cell.",
+       "section": "27.1 Anatomy and Physiology of the Testicular Reproductive System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "flagellum: (plural = flagella) long, hair-like structure that extends from the plasma membrane and moves the cell",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the acrosomal reaction, the acrosome releases its stored enzymes, which clear a path for the sperm through the zona pellucida, the thick, gel-like layer that coats the egg.",
+     "defines": "zona pellucida",
+     "quotes": [
+      {
+       "quote": "This initiates a process called the acrosomal reaction in which the enzyme-filled “cap” of the sperm, called the acrosome, releases its stored digestive enzymes. These enzymes clear a path through the zona pellucida that allows sperm to reach the oocyte.",
+       "section": "28.1 Fertilization",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "zona pellucida: thick, gel-like glycoprotein membrane that coats the oocyte and must be penetrated by sperm before fertilization can occur",
+       "section": "Chapter 28 Key Terms (Development and Inheritance)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -191,8 +564,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000019",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000019",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 27 Key Terms (The Reproductive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 43.3 Human Reproductive Anatomy and Gametogenesis",
+   "url": "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 28.1 Fertilization",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 27.1 Anatomy and Physiology of the Testicular Reproductive System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 28 Key Terms (Development and Inheritance)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms",
    "license": "CC BY 4.0"
   }
  ],

@@ -116,30 +116,381 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000516/tier1.auto.md",
-   "text": "A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.",
+   "status": "drafted",
+   "file": "content/CL_0000516/tier1.md",
+   "text": "Perineuronal satellite cells give nerve cells nutrients and structural support. These satellite cells are found in ganglia, groups of nerve cells outside the brain and spinal cord. There, satellite cells surround the cell body, the main part of each nerve cell. This arrangement, as seen under a microscope, gave satellite cells their name.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000516",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000516",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000516",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000516",
+     "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.4 The Peripheral Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000516 perineuronal satellite cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000516",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000516. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Perineuronal satellite cells give nerve cells nutrients and structural support.",
+     "quotes": [
+      {
+       "quote": "Satellite glia provide nutrients and structural support for neurons in the PNS.",
+       "section": "35.1 Neurons and Glial Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These satellite cells are found in ganglia, groups of nerve cells outside the brain and spinal cord.",
+     "defines": "ganglia",
+     "quotes": [
+      {
+       "quote": "Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The PNS is composed of the groups of neurons (ganglia) and bundles of axons (nerves) that are outside of the brain and spinal cord.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "There, satellite cells surround the cell body, the main part of each nerve cell.",
+     "defines": "cell body",
+     "quotes": [
+      {
+       "quote": "A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.",
+       "section": "CL:0000516 perineuronal satellite cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000516",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "the main part of a neuron is the cell body, which is also known as the soma",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This arrangement, as seen under a microscope, gave satellite cells their name.",
+     "quotes": [
+      {
+       "quote": "Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons. This accounts for the name, based on their appearance under the microscope.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000516/tier2.md",
+   "text": "Perineuronal satellite cells supply neurons, the nerve cells that carry electrical signals, with nutrients and structural support. Satellite cells are glial cells, the cells that provide a framework of tissue to support neurons. Satellite cells are one of the two kinds of glial cells in the peripheral nervous system (PNS): everything except the brain and spinal cord, which form the central nervous system (CNS). In the PNS, satellite cells do much the same support work that astrocytes, star-shaped cells, do in the CNS. Satellite cells surround the cell bodies of neurons, the parts that contain each neuron's nucleus. Satellite cells do this inside ganglia, which are clusters of neuron cell bodies in the PNS. In a dorsal root ganglion, the most common type of sensory ganglion, smaller satellite cells surround the large cell bodies of sensory neurons. The small, round nuclei of satellite cells can be seen ringing the neuron cell bodies, as if orbiting them. This appearance under the microscope is what gives satellite cells their name. Satellite cells develop from the neural crest, tissue in the embryo that migrates to form structures of the PNS.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.1 Basic Structure and Function of the Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000516 perineuronal satellite cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000516",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.4 The Peripheral Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.1 The Embryologic Perspective",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Perineuronal satellite cells supply neurons, the nerve cells that carry electrical signals, with nutrients and structural support.",
+     "defines": "neurons",
+     "quotes": [
+      {
+       "quote": "Satellite glia provide nutrients and structural support for neurons in the PNS.",
+       "section": "35.1 Neurons and Glial Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "neuron: neural tissue cell that is primarily responsible for generating and propagating electrical signals into, within, and out of the nervous system",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Satellite cells are glial cells, the cells that provide a framework of tissue to support neurons.",
+     "defines": "glial cells",
+     "quotes": [
+      {
+       "quote": "satellite cell: glial cell type in the PNS that provides support for neurons in the ganglia",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A glial cell is one of a variety of cells that provide a framework of tissue that supports the neurons and their activities.",
+       "section": "12.1 Basic Structure and Function of the Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Satellite cells are one of the two kinds of glial cells in the peripheral nervous system (PNS): everything except the brain and spinal cord, which form the central nervous system (CNS).",
+     "defines": "peripheral nervous system",
+     "quotes": [
+      {
+       "quote": "One of the two types of glial cells found in the PNS is the satellite cell.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The central nervous system (CNS) is the brain and spinal cord, and the peripheral nervous system (PNS) is everything else",
+       "section": "12.1 Basic Structure and Function of the Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the PNS, satellite cells do much the same support work that astrocytes, star-shaped cells, do in the CNS.",
+     "defines": "astrocytes",
+     "quotes": [
+      {
+       "quote": "They provide support, performing similar functions in the periphery as astrocytes do in the CNS—except, of course, for establishing the BBB.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "astrocyte: star-shaped cell in the central nervous system that regulates ions and uptake and/or breakdown of some neurotransmitters and contributes to the formation of the blood-brain barrier",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Satellite cells surround the cell bodies of neurons, the parts that contain each neuron's nucleus.",
+     "defines": "cell bodies",
+     "quotes": [
+      {
+       "quote": "A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.",
+       "section": "CL:0000516 perineuronal satellite cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000516",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "soma: in neurons, that portion of the cell that contains the nucleus; the cell body, as opposed to the cell processes (axons and dendrites)",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Satellite cells do this inside ganglia, which are clusters of neuron cell bodies in the PNS.",
+     "defines": "ganglia",
+     "quotes": [
+      {
+       "quote": "A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.",
+       "section": "CL:0000516 perineuronal satellite cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000516",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "In the PNS, a cluster of neuron cell bodies is referred to as a ganglion.",
+       "section": "12.1 Basic Structure and Function of the Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a dorsal root ganglion, the most common type of sensory ganglion, smaller satellite cells surround the large cell bodies of sensory neurons.",
+     "defines": "dorsal root ganglion",
+     "quotes": [
+      {
+       "quote": "If you zoom in on the dorsal root ganglion, you can see smaller satellite glial cells surrounding the large cell bodies of the sensory neurons.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The most common type of sensory ganglion is a dorsal (posterior) root ganglion.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The small, round nuclei of satellite cells can be seen ringing the neuron cell bodies, as if orbiting them.",
+     "quotes": [
+      {
+       "quote": "Also, the small round nuclei of satellite cells can be seen surrounding—as if they were orbiting—the neuron cell bodies.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This appearance under the microscope is what gives satellite cells their name.",
+     "quotes": [
+      {
+       "quote": "Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons. This accounts for the name, based on their appearance under the microscope.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Satellite cells develop from the neural crest, tissue in the embryo that migrates to form structures of the PNS.",
+     "defines": "neural crest",
+     "quotes": [
+      {
+       "quote": "They derive from the neural crest.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Tissues at the edges of the neural groove, when it closes off, are called the neural crest and migrate through the embryo to give rise to PNS structures as well as some non-nervous tissues.",
+       "section": "13.1 The Embryologic Perspective",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -148,8 +499,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000516",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000516",
+   "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+   "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.4 The Peripheral Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000516 perineuronal satellite cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000516",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.1 Basic Structure and Function of the Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.1 The Embryologic Perspective",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective",
    "license": "CC BY 4.0"
   }
  ],

@@ -123,30 +123,309 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000137/tier1.auto.md",
-   "text": "A mature osteoblast that has become embedded in the bone matrix. They occupy a small cavity, called lacuna, in the matrix and are connected to adjacent osteocytes via protoplasmic projections called canaliculi.",
+   "status": "drafted",
+   "file": "content/CL_0000137/tier1.md",
+   "text": "Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material between cells. Each osteocyte sits in a space called a lacuna. Osteocytes send many extensions through channels called canaliculi to communicate and get nutrients. Osteoblasts, the cells that form new bone, become osteocytes once trapped in hardened matrix.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000137",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000137",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000137",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000137",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Body Tissues",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.4 Bone Formation and Development",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000137. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material between cells.",
+     "defines": "matrix",
+     "quotes": [
+      {
+       "quote": "osteocyte: primary cell in mature bone; responsible for maintaining the matrix",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A nonliving material, called the intercellular matrix, fills the spaces between the cells.",
+       "section": "SEER Training Modules: Body Tissues",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Each osteocyte sits in a space called a lacuna.",
+     "defines": "lacuna",
+     "quotes": [
+      {
+       "quote": "Each osteocyte is located in a space called a lacuna and is surrounded by bone tissue.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteocytes send many extensions through channels called canaliculi to communicate and get nutrients.",
+     "defines": "canaliculi",
+     "quotes": [
+      {
+       "quote": "canaliculi: (singular = canaliculus) channels within the bone matrix that house one of an osteocyte’s many cytoplasmic extensions that it uses to communicate and receive nutrients",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteoblasts, the cells that form new bone, become osteocytes once trapped in hardened matrix.",
+     "defines": "osteoblasts",
+     "quotes": [
+      {
+       "quote": "The osteoblasts secrete osteoid, uncalcified matrix, which calcifies (hardens) within a few days as mineral salts are deposited on it, thereby entrapping the osteoblasts within. Once entrapped, the osteoblasts become osteocytes",
+       "section": "6.4 Bone Formation and Development",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "osteoblast: cell responsible for forming new bone",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000137/tier2.md",
+   "text": "Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material that fills the spaces between cells. Osteocytes keep up the mineral content of the matrix by releasing enzymes, which are proteins that speed up chemical reactions. Each osteocyte sits in a space called a lacuna, surrounded by bone tissue. A cross-section of long bone typically shows osteocytes in rings around a central canal, a channel that holds blood vessels and nerves. Long extensions from each osteocyte run through canaliculi, channels in the bone matrix, so osteocytes can communicate with each other and receive nutrients. The canaliculi connect with those of other lacunae and finally with the central canal, so nutrients reach the osteocytes and their wastes are removed. An osteocyte forms when an osteoblast, a bone-forming cell, becomes trapped in the surrounding matrix and changes in structure. Like osteoblasts, osteocytes cannot divide.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Body Tissues",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material that fills the spaces between cells.",
+     "defines": "matrix",
+     "quotes": [
+      {
+       "quote": "osteocyte: primary cell in mature bone; responsible for maintaining the matrix",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A nonliving material, called the intercellular matrix, fills the spaces between the cells.",
+       "section": "SEER Training Modules: Body Tissues",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Osteocytes keep up the mineral content of the matrix by releasing enzymes, which are proteins that speed up chemical reactions.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "Osteocytes maintain the mineral concentration of the matrix via the secretion of enzymes.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each osteocyte sits in a space called a lacuna, surrounded by bone tissue.",
+     "defines": "lacuna",
+     "quotes": [
+      {
+       "quote": "Each osteocyte is located in a space called a lacuna and is surrounded by bone tissue.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A cross-section of long bone typically shows osteocytes in rings around a central canal, a channel that holds blood vessels and nerves.",
+     "defines": "central canal",
+     "quotes": [
+      {
+       "quote": "The histology of transverse tissue from long bone shows a typical arrangement of osteocytes in concentric circles around a central canal.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "central canal: longitudinal channel in the center of each osteon; contains blood vessels, nerves, and lymphatic vessels; also known as the Haversian canal",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Long extensions from each osteocyte run through canaliculi, channels in the bone matrix, so osteocytes can communicate with each other and receive nutrients.",
+     "defines": "canaliculi",
+     "quotes": [
+      {
+       "quote": "Like osteoblasts, osteocytes lack mitotic activity. They can communicate with each other and receive nutrients via long cytoplasmic processes that extend through canaliculi (singular = canaliculus), channels within the bone matrix.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The canaliculi connect with those of other lacunae and finally with the central canal, so nutrients reach the osteocytes and their wastes are removed.",
+     "quotes": [
+      {
+       "quote": "As described earlier, canaliculi connect with the canaliculi of other lacunae and eventually with the central canal. This system allows nutrients to be transported to the osteocytes and wastes to be removed from them.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "An osteocyte forms when an osteoblast, a bone-forming cell, becomes trapped in the surrounding matrix and changes in structure.",
+     "defines": "osteoblast",
+     "quotes": [
+      {
+       "quote": "As the secreted matrix surrounding the osteoblast calcifies, the osteoblast becomes trapped within it; as a result, it changes in structure and becomes an osteocyte, the primary cell of mature bone and the most common type of bone cell.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "osteoblast: cell responsible for forming new bone",
+       "section": "Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Like osteoblasts, osteocytes cannot divide.",
+     "quotes": [
+      {
+       "quote": "Like osteoblasts, osteocytes lack mitotic activity.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -155,8 +434,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000137",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000137",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 6 Key Terms (Bone Tissue and the Skeletal System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Body Tissues",
+   "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 6.4 Bone Formation and Development",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
    "license": "CC BY 4.0"
   }
  ],

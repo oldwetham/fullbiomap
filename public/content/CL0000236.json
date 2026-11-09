@@ -226,30 +226,357 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000236/tier1.auto.md",
-   "text": "A lymphocyte of B lineage that is capable of B cell mediated immunity.",
+   "status": "drafted",
+   "file": "content/CL_0000236/tier1.md",
+   "text": "B cells are immune cells that make antibodies, proteins that bind to bacteria, viruses and other foreign objects. A B cell works by turning into a plasma cell, a cell that releases antibodies. B cells mature in the bone marrow, the tissue inside bones where blood cells develop. B cells travel in the blood and live in the spleen and in lymph nodes, small bean-shaped organs.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000236",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000236",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000236",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000236",
+     "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000236. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "B cells are immune cells that make antibodies, proteins that bind to bacteria, viruses and other foreign objects.",
+     "defines": "antibodies",
+     "quotes": [
+      {
+       "quote": "B cells are immune cells that function primarily by producing antibodies.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses",
+       "section": "Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A B cell works by turning into a plasma cell, a cell that releases antibodies.",
+     "defines": "plasma cell",
+     "quotes": [
+      {
+       "quote": "B cells: lymphocytes that act by differentiating into an antibody-secreting plasma cell",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "B cells mature in the bone marrow, the tissue inside bones where blood cells develop.",
+     "defines": "bone marrow",
+     "quotes": [
+      {
+       "quote": "bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "B cells travel in the blood and live in the spleen and in lymph nodes, small bean-shaped organs.",
+     "defines": "lymph nodes",
+     "quotes": [
+      {
+       "quote": "B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000236/tier2.md",
+   "text": "B cells are immune cells whose main job is to make antibodies, proteins that protect the body by binding to foreign objects such as bacteria and viruses. B cells mature in the bone marrow, the tissue inside bones where all blood cells develop. B cells circulate in the bloodstream and also live in the spleen and in lymph nodes, small bean-shaped organs. A B cell has a large central nucleus surrounded by a thin layer of cytoplasm, the material between the cell membrane and the nucleus. A naive B cell, one that has not yet been activated, is coated with thousands of B cell receptors, which are antibodies anchored in its membrane. All the receptors on one B cell are the same, but a person's hundreds of millions of B cells can together bind a huge variety of molecules. A molecule that B cell receptors recognize is called an antigen. Only the B cells whose receptors fit a particular antigen are selected to multiply. These B cells are activated by binding to the antigen and then become plasma cells, which release a soluble form of the B cells' surface antibodies. One variety of B cell, the memory cell, forms after exposure to a pathogen, an agent that can cause disease, and responds rapidly to later exposures.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+     "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "B cells are immune cells whose main job is to make antibodies, proteins that protect the body by binding to foreign objects such as bacteria and viruses.",
+     "defines": "antibodies",
+     "quotes": [
+      {
+       "quote": "B cells are immune cells that function primarily by producing antibodies.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses",
+       "section": "Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "B cells mature in the bone marrow, the tissue inside bones where all blood cells develop.",
+     "defines": "bone marrow",
+     "quotes": [
+      {
+       "quote": "bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "B cells circulate in the bloodstream and also live in the spleen and in lymph nodes, small bean-shaped organs.",
+     "defines": "lymph nodes",
+     "quotes": [
+      {
+       "quote": "B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A B cell has a large central nucleus surrounded by a thin layer of cytoplasm, the material between the cell membrane and the nucleus.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytoplasm: internal material between the cell membrane and nucleus of a cell",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A naive B cell, one that has not yet been activated, is coated with thousands of B cell receptors, which are antibodies anchored in its membrane.",
+     "defines": "naive B cell",
+     "quotes": [
+      {
+       "quote": "Similar to T cells, naïve B cells initially are coated in thousands of B cell receptors (BCRs), which are membrane-bound forms of Ig (immunoglobulin, or an antibody).",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A naïve T or B cell is one that has not been activated by binding to the appropriate epitope.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "All the receptors on one B cell are the same, but a person's hundreds of millions of B cells can together bind a huge variety of molecules.",
+     "quotes": [
+      {
+       "quote": "The receptors of any particular B cell, as shown in are all the same, but the hundreds of millions of different B cells in an individual have distinct recognition domains that contribute to extensive diversity in the types of molecular structures to which they can bind.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A molecule that B cell receptors recognize is called an antigen.",
+     "defines": "antigen",
+     "quotes": [
+      {
+       "quote": "antigen: molecule recognized by the receptors of B and T lymphocytes",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Only the B cells whose receptors fit a particular antigen are selected to multiply.",
+     "quotes": [
+      {
+       "quote": "Only B cells with appropriate antigen specificity are selected for and expanded",
+       "section": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These B cells are activated by binding to the antigen and then become plasma cells, which release a soluble form of the B cells' surface antibodies.",
+     "defines": "plasma cells",
+     "quotes": [
+      {
+       "quote": "Once activated by binding to antigen, B cells differentiate into cells that secrete a soluble form of their surface antibodies. These activated B cells are known as plasma cells.",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "One variety of B cell, the memory cell, forms after exposure to a pathogen, an agent that can cause disease, and responds rapidly to later exposures.",
+     "defines": "pathogen",
+     "quotes": [
+      {
+       "quote": "A memory cell is a variety of both B and T cells that forms after exposure to a pathogen and mounts rapid responses upon subsequent exposures.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pathogen: agent with the ability to cause disease",
+       "section": "Chapter 21 Key Terms (Viruses)",
+       "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -258,8 +585,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000236",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000236",
+   "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+   "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 21 Key Terms (Viruses)",
+   "url": "https://openstax.org/books/biology-2e/pages/21-key-terms",
    "license": "CC BY 4.0"
   }
  ],

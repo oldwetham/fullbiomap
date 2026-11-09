@@ -9,7 +9,7 @@ Limits: Plain 2–4 sentences at Flesch–Kincaid grade 10 or below; Core 5–10
 | Group | Subjects | Plain written | Core written | Structures covered |
 | --- | --- | --- | --- | --- |
 | Organs | 48 | 39 of 39 | 47 of 48 | 90 |
-| Cell types | 70 | 3 of 70 | 4 of 70 | 70 |
+| Cell types | 70 | 70 of 70 | 66 of 70 | 70 |
 | Organelles | 40 | 39 of 40 | 0 of 0 | 40 |
 | Bones and cartilages | 49 | 49 of 49 | 0 of 0 | 210 |
 | Muscles | 106 | 106 of 106 | 0 of 0 | 304 |
@@ -73,76 +73,76 @@ Key-term matches left out as generic or as organs listed above: anastomosis, arm
 
 ### Cell types (70)
 
-- Adipocyte (CL:0000136): Plain: not written; Core: not published (see below)
-- B cell (CL:0000236): Plain: not written; Core: not written
-- Basal cell (CL:0000646): Plain: not written; Core: not written
-- Basophil (CL:0000767): Plain: not written; Core: drafted
-- Bladder urothelial cell (CL:1001428): Plain: not written; Core: not written
+- Adipocyte (CL:0000136): Plain: drafted, grade 7.1; Core: not published (see below)
+- B cell (CL:0000236): Plain: drafted, grade 7.5; Core: drafted
+- Basal cell (CL:0000646): Plain: drafted, grade 7.7; Core: drafted
+- Basophil (CL:0000767): Plain: drafted, grade 9.7; Core: drafted
+- Bladder urothelial cell (CL:1001428): Plain: drafted, grade 7.8; Core: drafted
 - Cardiac muscle cell (CL:0000746): Plain: drafted, grade 8.9; Core: drafted
-- Cardiac pacemaker cell of sinoatrial node (CL:1000477): Plain: not written; Core: not written
-- CD4-positive, alpha-beta T cell (CL:0000624): Plain: not written; Core: not written
-- CD8-positive, alpha-beta T cell (CL:0000625): Plain: not written; Core: not written
-- Cell of skeletal muscle (CL:0000188): Plain: not written; Core: not written
-- Chondrocyte (CL:0000138): Plain: not written; Core: not written
-- Club cell (CL:0000158): Plain: not written; Core: not written
-- Cochlear inner hair cell (CL:0000589): Plain: not written; Core: not written
-- Cochlear outer hair cell (CL:0000601): Plain: not written; Core: not written
-- Corneocyte (CL:0002153): Plain: not written; Core: not written
-- Cumulus granulosa cell (CL:0000711): Plain: not written; Core: not written
-- Dendritic cell (CL:0000451): Plain: not written; Core: not written
-- Endothelial cell (CL:0000115): Plain: not written; Core: not written
-- Enterocyte (CL:0000584): Plain: not written; Core: not written
-- Eosinophil (CL:0000771): Plain: not written; Core: not written
-- Ependymal cell (CL:0000065): Plain: not written; Core: not written
-- Epithelial cell of proximal tubule (CL:0002306): Plain: not written; Core: not written
+- Cardiac pacemaker cell of sinoatrial node (CL:1000477): Plain: drafted, grade 7.6; Core: drafted
+- CD4-positive, alpha-beta T cell (CL:0000624): Plain: drafted, grade 8.9; Core: drafted
+- CD8-positive, alpha-beta T cell (CL:0000625): Plain: drafted, grade 9.3; Core: drafted
+- Cell of skeletal muscle (CL:0000188): Plain: drafted, grade 6.2; Core: drafted
+- Chondrocyte (CL:0000138): Plain: drafted, grade 7.4; Core: drafted
+- Club cell (CL:0000158): Plain: drafted, grade 6.7; Core: drafted
+- Cochlear inner hair cell (CL:0000589): Plain: drafted, grade 6.3; Core: drafted
+- Cochlear outer hair cell (CL:0000601): Plain: drafted, grade 7.2; Core: drafted
+- Corneocyte (CL:0002153): Plain: drafted, grade 7.8; Core: drafted
+- Cumulus granulosa cell (CL:0000711): Plain: drafted, grade 9.1; Core: drafted
+- Dendritic cell (CL:0000451): Plain: drafted, grade 8.8; Core: drafted
+- Endothelial cell (CL:0000115): Plain: drafted, grade 9.5; Core: drafted
+- Enterocyte (CL:0000584): Plain: drafted, grade 9.1; Core: drafted
+- Eosinophil (CL:0000771): Plain: drafted, grade 8.8; Core: drafted
+- Ependymal cell (CL:0000065): Plain: drafted, grade 8.4; Core: drafted
+- Epithelial cell of proximal tubule (CL:0002306): Plain: drafted, grade 9.1; Core: drafted
 - Erythrocyte (CL:0000232): Plain: drafted, grade 6.9; Core: drafted
-- Fibroblast (CL:0000057): Plain: not written; Core: not written
-- Hematopoietic stem cell (CL:0000037): Plain: not written; Core: not published (see below)
-- Hepatocyte (CL:0000182): Plain: not written; Core: not written
-- Intestinal villus goblet cell (CL:1000317): Plain: not written; Core: not written
-- Keratinocyte (CL:0000312): Plain: not written; Core: not written
-- Kidney collecting duct intercalated cell (CL:1001432): Plain: not written; Core: not written
-- Kidney collecting duct principal cell (CL:1001431): Plain: not written; Core: not written
-- Leydig cell (CL:0000178): Plain: not written; Core: not written
-- Lung megakaryocyte (CL:4033018): Plain: not written; Core: not written
+- Fibroblast (CL:0000057): Plain: drafted, grade 8.9; Core: drafted
+- Hematopoietic stem cell (CL:0000037): Plain: drafted, grade 6.3; Core: not published (see below)
+- Hepatocyte (CL:0000182): Plain: drafted, grade 8.8; Core: drafted
+- Intestinal villus goblet cell (CL:1000317): Plain: drafted, grade 8.2; Core: drafted
+- Keratinocyte (CL:0000312): Plain: drafted, grade 8; Core: drafted
+- Kidney collecting duct intercalated cell (CL:1001432): Plain: drafted, grade 9.4; Core: drafted
+- Kidney collecting duct principal cell (CL:1001431): Plain: drafted, grade 8.5; Core: drafted
+- Leydig cell (CL:0000178): Plain: drafted, grade 9.3; Core: drafted
+- Lung megakaryocyte (CL:4033018): Plain: drafted, grade 9.3; Core: drafted
 - Macrophage (CL:0000235): Plain: drafted, grade 6.8; Core: drafted
-- Mast cell (CL:0000097): Plain: not written; Core: not written
-- Melanocyte (CL:0000148): Plain: not written; Core: not written
-- Merkel cell (CL:0000242): Plain: not written; Core: not written
-- Mesothelial cell (CL:0000077): Plain: not written; Core: not written
-- Monocyte (CL:0000576): Plain: not written; Core: not published (see below)
-- Multiciliated columnar cell of tracheobronchial tree (CL:0002145): Plain: not written; Core: not written
-- Natural killer cell (CL:0000623): Plain: not written; Core: not written
-- Neutrophil (CL:0000775): Plain: not written; Core: not written
-- Non-myelinating Schwann cell (CL:0002376): Plain: not written; Core: not written
-- Olfactory receptor cell (CL:0000207): Plain: not written; Core: not written
-- Osteoblast (CL:0000062): Plain: not written; Core: not written
-- Osteoclast (CL:0000092): Plain: not written; Core: not written
-- Osteocyte (CL:0000137): Plain: not written; Core: not written
-- Pancreatic A cell (CL:0000171): Plain: not written; Core: not written
-- Pancreatic acinar cell (CL:0002064): Plain: not written; Core: not written
-- Paneth cell of epithelium proper of small intestine (CL:1000344): Plain: not written; Core: not written
-- Parietal cell (CL:0000162): Plain: not written; Core: not written
-- Peptic cell (CL:0000155): Plain: not written; Core: not written
-- Pericyte (CL:0000669): Plain: not written; Core: not written
-- Perineuronal satellite cell (CL:0000516): Plain: not written; Core: not written
-- Plasma cell (CL:0000786): Plain: not written; Core: not written
-- Platelet (CL:0000233): Plain: not written; Core: not written
-- Podocyte (CL:0000653): Plain: not written; Core: not written
-- Primary oocyte (CL:0000654): Plain: not written; Core: not written
-- Pulmonary alveolar type 1 cell (CL:0002062): Plain: not written; Core: not written
-- Pulmonary alveolar type 2 cell (CL:0002063): Plain: not written; Core: not written
-- Purkinje myocyte (CL:0002068): Plain: not written; Core: not written
-- Retinal cone cell (CL:0000573): Plain: not written; Core: not written
-- Retinal rod cell (CL:0000604): Plain: not written; Core: not written
-- Schwann cell (CL:0002573): Plain: not written; Core: not written
-- Sertoli cell (CL:0000216): Plain: not written; Core: not written
-- Smooth muscle cell (CL:0000192): Plain: not written; Core: not published (see below)
-- Sperm (CL:0000019): Plain: not written; Core: not written
-- Taste receptor cell (CL:0000209): Plain: not written; Core: not written
-- Thyroid follicular cell (CL:0002258): Plain: not written; Core: not written
-- Type B pancreatic cell (CL:0000169): Plain: not written; Core: not written
-- Type EC enteroendocrine cell (CL:0000577): Plain: not written; Core: not written
+- Mast cell (CL:0000097): Plain: drafted, grade 8.4; Core: drafted
+- Melanocyte (CL:0000148): Plain: drafted, grade 9.6; Core: drafted
+- Merkel cell (CL:0000242): Plain: drafted, grade 7.2; Core: drafted
+- Mesothelial cell (CL:0000077): Plain: drafted, grade 8.9; Core: drafted
+- Monocyte (CL:0000576): Plain: drafted, grade 8.9; Core: not published (see below)
+- Multiciliated columnar cell of tracheobronchial tree (CL:0002145): Plain: drafted, grade 7.2; Core: drafted
+- Natural killer cell (CL:0000623): Plain: drafted, grade 7.4; Core: drafted
+- Neutrophil (CL:0000775): Plain: drafted, grade 9.1; Core: drafted
+- Non-myelinating Schwann cell (CL:0002376): Plain: drafted, grade 8.5; Core: drafted
+- Olfactory receptor cell (CL:0000207): Plain: drafted, grade 9.3; Core: drafted
+- Osteoblast (CL:0000062): Plain: drafted, grade 7.8; Core: drafted
+- Osteoclast (CL:0000092): Plain: drafted, grade 5.6; Core: drafted
+- Osteocyte (CL:0000137): Plain: drafted, grade 9.6; Core: drafted
+- Pancreatic A cell (CL:0000171): Plain: drafted, grade 7.8; Core: drafted
+- Pancreatic acinar cell (CL:0002064): Plain: drafted, grade 8.8; Core: drafted
+- Paneth cell of epithelium proper of small intestine (CL:1000344): Plain: drafted, grade 9.2; Core: drafted
+- Parietal cell (CL:0000162): Plain: drafted, grade 8.8; Core: drafted
+- Peptic cell (CL:0000155): Plain: drafted, grade 8.7; Core: drafted
+- Pericyte (CL:0000669): Plain: drafted, grade 9.2; Core: drafted
+- Perineuronal satellite cell (CL:0000516): Plain: drafted, grade 7.4; Core: drafted
+- Plasma cell (CL:0000786): Plain: drafted, grade 9.4; Core: drafted
+- Platelet (CL:0000233): Plain: drafted, grade 8; Core: drafted
+- Podocyte (CL:0000653): Plain: drafted, grade 8.4; Core: drafted
+- Primary oocyte (CL:0000654): Plain: drafted, grade 8.8; Core: drafted
+- Pulmonary alveolar type 1 cell (CL:0002062): Plain: drafted, grade 7.2; Core: drafted
+- Pulmonary alveolar type 2 cell (CL:0002063): Plain: drafted, grade 8.8; Core: drafted
+- Purkinje myocyte (CL:0002068): Plain: drafted, grade 8; Core: drafted
+- Retinal cone cell (CL:0000573): Plain: drafted, grade 5.7; Core: drafted
+- Retinal rod cell (CL:0000604): Plain: drafted, grade 5.6; Core: drafted
+- Schwann cell (CL:0002573): Plain: drafted, grade 7.6; Core: drafted
+- Sertoli cell (CL:0000216): Plain: drafted, grade 7.6; Core: drafted
+- Smooth muscle cell (CL:0000192): Plain: drafted, grade 6.7; Core: not published (see below)
+- Sperm (CL:0000019): Plain: drafted, grade 8.8; Core: drafted
+- Taste receptor cell (CL:0000209): Plain: drafted, grade 8.9; Core: drafted
+- Thyroid follicular cell (CL:0002258): Plain: drafted, grade 9.1; Core: drafted
+- Type B pancreatic cell (CL:0000169): Plain: drafted, grade 8.9; Core: drafted
+- Type EC enteroendocrine cell (CL:0000577): Plain: drafted, grade 9.5; Core: drafted
 
 ### Organelles (40)
 
@@ -1151,6 +1151,114 @@ Dropped:
 
 ### Cell types
 
+#### Adipocyte: Plain (drafted; grade 7.1; `content/CL_0000136/tier1.md`)
+
+1. An adipocyte is a fat cell whose main job is to store fat for later use.
+   > “These fatty acids are stored in adipose cells—the fat cells in the mammalian body whose primary role is to store fat for later use.” ([34.2 Nutrition and Energy Production](https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production), CC BY 4.0)
+2. This fat is the body's store of extra energy, and adipocytes also help insulate the body.
+   > “Adipose cells store surplus energy in the form of fat and contribute to the thermal insulation of the body.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+3. About half of the body's extra fat is stored in adipocytes under the skin.
+   > “About one-half of excess fat is stored in adipocytes that accumulate in the subcutaneous tissue under the skin, whereas the rest is stored in adipocytes in other tissues and organs.” ([24.1 Overview of Metabolic Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions), CC BY 4.0)
+4. Inside each adipocyte, drops of fat fill most of the cell.
+   > “Mammals store fats in specialized cells, or adipocytes, where fat globules occupy most of the cell’s volume.” ([3.3 Lipids](https://openstax.org/books/biology-2e/pages/3-3-lipids), CC BY 4.0)
+
+#### B cell: Plain (drafted; grade 7.5; `content/CL_0000236/tier1.md`)
+
+1. B cells are immune cells that make antibodies, proteins that bind to bacteria, viruses and other foreign objects. *(defines “antibodies”)*
+   > “B cells are immune cells that function primarily by producing antibodies.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. A B cell works by turning into a plasma cell, a cell that releases antibodies. *(defines “plasma cell”)*
+   > “B cells: lymphocytes that act by differentiating into an antibody-secreting plasma cell” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. B cells mature in the bone marrow, the tissue inside bones where blood cells develop. *(defines “bone marrow”)*
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+4. B cells travel in the blood and live in the spleen and in lymph nodes, small bean-shaped organs. *(defines “lymph nodes”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+
+#### B cell: Core (drafted; grade 10.9; `content/CL_0000236/tier2.md`)
+
+1. B cells are immune cells whose main job is to make antibodies, proteins that protect the body by binding to foreign objects such as bacteria and viruses. *(defines “antibodies”)*
+   > “B cells are immune cells that function primarily by producing antibodies.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. B cells mature in the bone marrow, the tissue inside bones where all blood cells develop. *(defines “bone marrow”)*
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. B cells circulate in the bloodstream and also live in the spleen and in lymph nodes, small bean-shaped organs. *(defines “lymph nodes”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+4. A B cell has a large central nucleus surrounded by a thin layer of cytoplasm, the material between the cell membrane and the nucleus. *(defines “cytoplasm”)*
+   > “The two basic types of lymphocytes, B cells and T cells, are identical morphologically with a large central nucleus surrounded by a thin layer of cytoplasm.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+5. A naive B cell, one that has not yet been activated, is coated with thousands of B cell receptors, which are antibodies anchored in its membrane. *(defines “naive B cell”)*
+   > “Similar to T cells, naïve B cells initially are coated in thousands of B cell receptors (BCRs), which are membrane-bound forms of Ig (immunoglobulin, or an antibody).” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “A naïve T or B cell is one that has not been activated by binding to the appropriate epitope.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+6. All the receptors on one B cell are the same, but a person's hundreds of millions of B cells can together bind a huge variety of molecules.
+   > “The receptors of any particular B cell, as shown in are all the same, but the hundreds of millions of different B cells in an individual have distinct recognition domains that contribute to extensive diversity in the types of molecular structures to which they can bind.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+7. A molecule that B cell receptors recognize is called an antigen. *(defines “antigen”)*
+   > “antigen: molecule recognized by the receptors of B and T lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+8. Only the B cells whose receptors fit a particular antigen are selected to multiply.
+   > “Only B cells with appropriate antigen specificity are selected for and expanded” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+9. These B cells are activated by binding to the antigen and then become plasma cells, which release a soluble form of the B cells' surface antibodies. *(defines “plasma cells”)*
+   > “Once activated by binding to antigen, B cells differentiate into cells that secrete a soluble form of their surface antibodies. These activated B cells are known as plasma cells.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+10. One variety of B cell, the memory cell, forms after exposure to a pathogen, an agent that can cause disease, and responds rapidly to later exposures. *(defines “pathogen”)*
+   > “A memory cell is a variety of both B and T cells that forms after exposure to a pathogen and mounts rapid responses upon subsequent exposures.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+
+#### Basal cell: Plain (drafted; grade 7.7; `content/CL_0000646/tier1.md`)
+
+1. A basal cell is a stem cell that divides to make other kinds of epithelial cells, which cover and line the body. *(defines “epithelial cells”)*
+   > “Undifferentiated; mitotic stem cell for other epithelial cell types” ([CL:0000646 basal cell](http://purl.obolibrary.org/obo/CL_0000646), CC BY 4.0)
+   > “epithelial tissue: type of tissue that serves primarily as a covering or lining of body parts, protecting the body” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. In the skin, basal cells constantly divide to make keratinocytes, the most common cells in the skin's outer layer. *(defines “keratinocytes”)*
+   > “A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis. All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+3. As new cells form, older cells get pushed up toward the skin's surface.
+   > “As new cells are formed, the existing cells are pushed superficially away from the stratum basale.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+4. Basal cells in the hair bulb, at the base of each hair's root, make keratinocytes to start hair growth. *(defines “hair bulb”)*
+   > “Hair growth begins with the production of keratinocytes by the basal cells of the hair bulb.” ([5.2 Accessory Structures of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin), CC BY 4.0)
+   > “hair bulb: structure at the base of the hair root that surrounds the dermal papilla” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+
+#### Basal cell: Core (drafted; grade 8.9; `content/CL_0000646/tier2.md`)
+
+1. A basal cell is an unspecialized stem cell that divides to produce other kinds of epithelial cells, which cover and line the body. *(defines “epithelial cells”)*
+   > “Undifferentiated; mitotic stem cell for other epithelial cell types” ([CL:0000646 basal cell](http://purl.obolibrary.org/obo/CL_0000646), CC BY 4.0)
+   > “epithelial tissue: type of tissue that serves primarily as a covering or lining of body parts, protecting the body” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. In the skin, basal cells are cube-shaped stem cells that give rise to cells of the epidermis, the skin's outermost layer. *(defines “epidermis”)*
+   > “A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+3. There, basal cells make up most of the stratum basale, the deepest layer of the epidermis. *(defines “stratum basale”)*
+   > “The stratum basale is a single layer of cells primarily made of basal cells.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “stratum basale: deepest layer of the epidermis, made of epidermal stem cells” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Basal cells in this layer keep dividing and produce all of the keratinocytes, the most common cells of the epidermis. *(defines “keratinocytes”)*
+   > “All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+5. As new cells form, older cells are pushed up and away from the stratum basale.
+   > “As new cells are formed, the existing cells are pushed superficially away from the stratum basale.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+6. In the hair bulb, at the base of the hair root, basal cells make the keratinocytes that start hair growth. *(defines “hair bulb”)*
+   > “Hair growth begins with the production of keratinocytes by the basal cells of the hair bulb.” ([5.2 Accessory Structures of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin), CC BY 4.0)
+   > “hair bulb: structure at the base of the hair root that surrounds the dermal papilla” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+7. Inside, a basal cell has little cytoplasm, the material between the cell membrane and the nucleus. *(defines “cytoplasm”)*
+   > “with little cytoplasm and few organelles” ([CL:0000646 basal cell](http://purl.obolibrary.org/obo/CL_0000646), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+8. The cell also has few organelles, the small structures that carry out a cell's work. *(defines “organelles”)*
+   > “with little cytoplasm and few organelles” ([CL:0000646 basal cell](http://purl.obolibrary.org/obo/CL_0000646), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+
+Dropped:
+- “A basal cell's internal skeleton contains intermediate filaments, protein fibers that help the cell resist tension.” (checker: 'Protein fibers' says that intermediate filaments are made of protein, and neither cited quote says so. The quotes say only that the cell contains cytokeratin intermediate filaments, and that these are cytoskeletal filaments made of keratin that help resist cellular tension. That keratin is a protein is stated in 05-key-terms.txt, which this sentence does not cite. The rest of the sentence ('internal skeleton', 'resist tension') is a fair paraphrase.)
+
+#### Basophil: Plain (drafted; grade 9.7; `content/CL_0000767/tier1.md`)
+
+1. A basophil is a white blood cell that releases chemicals to stimulate inflammation, a basic immune response. *(defines “inflammation”)*
+   > “A basophil is a leukocyte that, like a neutrophil, releases chemicals to stimulate the inflammatory response” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “inflammation: basic innate immune response characterized by heat, redness, pain, and swelling” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+2. Each basophil is packed with large granules, which are stores of chemicals inside the cell. *(defines “granules”)*
+   > “Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. These granules release histamine, which adds to inflammation, and heparin, which works against blood clotting.
+   > “The granules of basophils release histamines, which contribute to inflammation, and heparin, which opposes blood clotting.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+4. Of all white blood cells, basophils are the least common, usually under one percent.
+   > “Basophils are the least common leukocytes, typically comprising less than one percent of the total leukocyte count.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
 #### Basophil: Core (drafted; grade 10.9; `content/CL_0000767/tier2.md`)
 
 1. A basophil is a white blood cell that releases chemicals to stimulate inflammation, a basic immune response. *(defines “inflammation”)*
@@ -1173,6 +1281,43 @@ Dropped:
    > “The granules of basophils stain best with basic (alkaline) stains. Basophils contain large granules that pick up a dark blue stain and are so common they may make it difficult to see the two-lobed nucleus.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
 9. Basophils arise from myeloid stem cells, which also give rise to red blood cells and some other white blood cells. *(defines “myeloid stem cells”)*
    > “Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.” ([18.2 Production of the Formed Elements](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements), CC BY 4.0)
+
+#### Bladder urothelial cell: Plain (drafted; grade 7.8; `content/CL_1001428/tier1.md`)
+
+1. Bladder urothelial cells keep urine from leaking out of the urinary bladder, which they line.
+   > “For example, the tight junctions of the epithelial cells lining your urinary bladder prevent urine from leaking out into the extracellular space.” ([4.6 Connections between Cells and Cellular Activities](https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities), CC BY 4.0)
+2. When the bladder is empty, these cells seem to pile up on top of each other.
+   > “These cells are arranged in a stratified layer, but they have the capability of appearing to pile up on top of each other in a relaxed, empty bladder” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+3. But as the bladder fills, the lining unfolds and stretches to hold the urine.
+   > “As the urinary bladder fills, the epithelial layer unfolds and expands to hold the volume of urine introduced into it.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+4. The lining is called transitional epithelium because its surface cells change shape as the bladder fills. *(defines “transitional epithelium”)*
+   > “Another kind of stratified epithelium is transitional epithelium, so-called because of the gradual changes in the shapes of the apical cells as the bladder fills with urine.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+
+#### Bladder urothelial cell: Core (drafted; grade 10; `content/CL_1001428/tier2.md`)
+
+1. Bladder urothelial cells keep urine from leaking out of the urinary bladder, which they line.
+   > “For example, the tight junctions of the epithelial cells lining your urinary bladder prevent urine from leaking out into the extracellular space.” ([4.6 Connections between Cells and Cellular Activities](https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities), CC BY 4.0)
+2. The lining they form is also built to handle the bladder's large changes in volume.
+   > “The interior surface is made of transitional cellular epithelium that is structurally suited for the large volume fluctuations of the bladder.” ([25.2 Gross Anatomy of Urine Transport](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport), CC BY 4.0)
+3. This lining is called transitional epithelium because its surface cells gradually change shape as the bladder fills with urine. *(defines “transitional epithelium”)*
+   > “Another kind of stratified epithelium is transitional epithelium, so-called because of the gradual changes in the shapes of the apical cells as the bladder fills with urine.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+4. Transitional, or uroepithelial, cells like these occur only in the urinary system, mainly in the bladder and in the ureters, which carry urine from the kidneys. *(defines “ureter”)*
+   > “Transitional or uroepithelial cells appear only in the urinary system, primarily in the bladder and ureter.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “The thick-walled tube that carries urine from each kidney to the bladder.” ([NCIT:C12416 Ureter](http://purl.obolibrary.org/obo/NCIT_C12416), CC BY 4.0)
+5. The cells form a stratified layer, meaning one made of several layers of cells. *(defines “stratified”)*
+   > “These cells are arranged in a stratified layer, but they have the capability of appearing to pile up on top of each other in a relaxed, empty bladder” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “stratified epithelia: multiple layers of epithelial cells” ([Chapter 33 Key Terms (The Animal Body: Basic Form and Function)](https://openstax.org/books/biology-2e/pages/33-key-terms), CC BY 4.0)
+6. In an empty bladder, the lining is folded, and the cells on the lining's surface are cuboidal, or boxy, with domed, umbrella-shaped tops. *(defines “cuboidal”)*
+   > “When the bladder is empty, this epithelium is convoluted and has cuboidal apical cells with convex, umbrella shaped, apical surfaces.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “Cell shapes can be squamous (flattened and thin), cuboidal (boxy, as wide as it is tall), or columnar (rectangular, taller than it is wide).” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+7. But as the bladder fills, the folds smooth out, and the surface cells change from cuboidal to squamous, meaning flattened and thin. *(defines “squamous”)*
+   > “As the bladder fills with urine, this epithelium loses its convolutions and the apical cells transition from cuboidal to squamous.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “Cell shapes can be squamous (flattened and thin), cuboidal (boxy, as wide as it is tall), or columnar (rectangular, taller than it is wide).” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+8. The lining looks thicker and more layered in an empty bladder, but more stretched out and less layered in a full one.
+   > “It appears thicker and more multi-layered when the bladder is empty, and more stretched out and less stratified when the bladder is full and distended.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+9. Neighboring cells in this lining are joined by tight junctions, watertight seals that stop urine from leaking out into the space around the cells. *(defines “tight junction”)*
+   > “For example, the tight junctions of the epithelial cells lining your urinary bladder prevent urine from leaking out into the extracellular space.” ([4.6 Connections between Cells and Cellular Activities](https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities), CC BY 4.0)
+   > “A tight junction is a watertight seal between two adjacent animal cells” ([4.6 Connections between Cells and Cellular Activities](https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities), CC BY 4.0)
 
 #### Cardiac muscle cell: Plain (drafted; grade 8.9; `content/CL_0000746/tier1.md`)
 
@@ -1214,6 +1359,664 @@ Dropped:
 10. Myocardial conducting cells, the other major type, carry electrical impulses through the heart and trigger those contractions. *(defines “myocardial conducting cells”)*
    > “There are two major types of cardiac muscle cells: myocardial contractile cells and myocardial conducting cells.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
    > “myocardial conducting cells: specialized cells that transmit electrical impulses throughout the heart and trigger contraction by the myocardial contractile cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+
+#### Cardiac pacemaker cell of sinoatrial node: Plain (drafted; grade 7.6; `content/CL_1000477/tier1.md`)
+
+1. Pacemaker cells are special heart muscle cells that control heartbeats and set the heart rate.
+   > “Contractions of the heart (heartbeats) are controlled by specialized cardiac muscle cells called pacemaker cells that directly control heart rate.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+2. These cells form the sinoatrial (SA) node, high in the right atrium, an upper chamber of the heart. *(defines “atrium”)*
+   > “sinoatrial (SA) node: known as the pacemaker, a specialized clump of myocardial conducting cells located in the superior portion of the right atrium” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “atrium: (plural = atria) upper or receiving chamber of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. Pacemaker cells fire electrical signals on their own, at set intervals.
+   > “begins with the pacemaker cells. This group of cells is self-excitable and able to depolarize to threshold and fire action potentials on their own, a feature called autorhythmicity; they do this at set intervals which determine heart rate.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+4. Each signal passes to other heart muscle cells, so the heart contracts in a coordinated way.
+   > “the pacemaker cells are able to transfer the depolarization to the other cardiac muscle fibers in a manner that allows the heart to contract in a coordinated manner” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+
+#### Cardiac pacemaker cell of sinoatrial node: Core (drafted; grade 12.3; `content/CL_1000477/tier2.md`)
+
+1. Cardiac pacemaker cells are specialized heart muscle cells that control the heartbeat and directly set the heart rate.
+   > “Contractions of the heart (heartbeats) are controlled by specialized cardiac muscle cells called pacemaker cells that directly control heart rate.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+2. Together they form the sinoatrial (SA) node, a clump of myocardial conducting cells, cells that carry electrical impulses through the heart and trigger its contraction. *(defines “myocardial conducting cells”)*
+   > “sinoatrial (SA) node: known as the pacemaker, a specialized clump of myocardial conducting cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “myocardial conducting cells: specialized cells that transmit electrical impulses throughout the heart and trigger contraction by the myocardial contractile cells” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+3. The SA node lies in the upper and rear walls of the right atrium, an upper chamber of the heart that receives blood. *(defines “atrium”)*
+   > “Normal cardiac rhythm is established by the sinoatrial (SA) node, a specialized clump of myocardial conducting cells located in the superior and posterior walls of the right atrium in close proximity to the orifice of the superior vena cava.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “atrium: (plural = atria) upper or receiving chamber of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. Each SA node cell is slender and spindle-shaped, and these cells sit in the center of the node, arranged around the node's artery.
+   > “A specialized cardiac myocyte in the sinoatrial and atrioventricular nodes. The cell is slender and fusiform confined to the nodal center, circumferentially arranged around the nodal artery.” ([CL:0002072 nodal myocyte](http://purl.obolibrary.org/obo/CL_0002072), CC BY 4.0)
+5. Pacemaker cells can fire electrical impulses on their own at set intervals, an ability called autorhythmicity. *(defines “autorhythmicity”)*
+   > “begins with the pacemaker cells. This group of cells is self-excitable and able to depolarize to threshold and fire action potentials on their own, a feature called autorhythmicity; they do this at set intervals which determine heart rate.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+6. In SA node cells, this ability comes from spontaneous depolarization, in which sodium ions seep in through always-open channels and the voltage across the cell membrane rises. *(defines “spontaneous depolarization”)*
+   > “The pattern of prepotential or spontaneous depolarization, followed by rapid depolarization and repolarization just described, are seen in the SA node and a few other conductive cells in the heart.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “spontaneous depolarization: (also, prepotential depolarization) the mechanism that accounts for the autorhythmic property of cardiac muscle; the membrane potential increases as sodium ions diffuse through the always-open sodium ion channels and causes the electrical potential to rise” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+7. The SA node reaches threshold, the voltage at which an impulse begins, faster than any other group of conducting cells, and it starts the impulses that spread to the other conducting cells. *(defines “threshold”)*
+   > “Since the SA node is the pacemaker, it reaches threshold faster than any other component of the conduction system. It will initiate the impulses spreading to the other conducting cells.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “threshold: membrane voltage at which an action potential is initiated” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+8. Gap junctions, channels that carry current from one heart muscle cell to the next, link pacemaker cells to surrounding heart muscle cells, so each impulse spreads and the heart contracts in a coordinated way. *(defines “gap junctions”)*
+   > “connected with gap junctions to surrounding muscle fibers and the specialized fibers of the heart’s conduction system, the pacemaker cells are able to transfer the depolarization to the other cardiac muscle fibers in a manner that allows the heart to contract in a coordinated manner” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “A gap junction forms channels between adjacent cardiac muscle fibers that allow the depolarizing current produced by cations to flow from one cardiac muscle cell to the next.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+9. Signals from the autonomic nervous system, the part of the nervous system that controls heart muscle, smooth muscle and glands, make pacemaker cells speed up or slow down the heart rate. *(defines “autonomic nervous system”)*
+   > “the pacemaker cells respond to signals from the autonomic nervous system (ANS) to speed up or slow down the heart rate.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “autonomic nervous system (ANS): functional division of the nervous system that is responsible for homeostatic reflexes that coordinate control of cardiac and smooth muscle, as well as glandular tissue” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+10. Pacemaker cells also respond to hormones, substances the blood carries to cells in other parts of the body; some hormones adjust the heart rate to control blood pressure. *(defines “hormones”)*
+   > “The pacemaker cells can also respond to various hormones that modulate heart rate to control blood pressure.” ([10.7 Cardiac Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue), CC BY 4.0)
+   > “hormone: secretion of an endocrine organ that travels via the bloodstream or lymphatics to induce a response in target cells or tissues in another part of the body” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### CD4-positive, alpha-beta T cell: Plain (drafted; grade 8.9; `content/CL_0000624/tier1.md`)
+
+1. CD4-positive T cells are white blood cells that can become helper T cells, which stimulate other immune cells. *(defines “T cells”)*
+   > “Naïve CD4+ cells bind APCs via their antigen-embedded MHC II molecules and are stimulated to become helper T (TH) lymphocytes, cells that go on to stimulate B cells (or cytotoxic T cells) directly or secrete cytokines to inform more and various target cells about the pathogenic threat.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Helper T cells release cytokines, molecules that carry messages between nearby cells. *(defines “cytokines”)*
+   > “Helper T cells (Th), bearing the CD4 molecule, function by secreting cytokines that act to enhance other immune responses.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “cytokine: soluble, short-range, cell-to-cell communication molecule” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in the spleen and lymph nodes. *(defines “lymph”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+4. T cells are called CD4-positive or CD8-positive depending on which of two surface molecules they carry.
+   > “Naïve T cells can express one of two different molecules, CD4 or CD8, on their surface, as shown in , and are accordingly classified as CD4+ or CD8+ cells.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+
+#### CD4-positive, alpha-beta T cell: Core (drafted; grade 11.1; `content/CL_0000624/tier2.md`)
+
+1. CD4-positive T cells are white blood cells linked mainly to the work of helper T cells. *(defines “T cells”)*
+   > “Although the correlation is not 100 percent, CD4-bearing T cells are associated with helper functions and CD8-bearing T cells are associated with cytotoxicity.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Helper T cells strengthen other immune responses by releasing cytokines, molecules that carry messages between nearby cells. *(defines “cytokines”)*
+   > “Helper T cells (Th), bearing the CD4 molecule, function by secreting cytokines that act to enhance other immune responses.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “cytokine: soluble, short-range, cell-to-cell communication molecule” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. Regulatory T cells, however, are a class of CD4 T cells that keep other T cell responses in check.
+   > “regulatory T cells (Treg): (also, suppressor T cells) class of CD4 T cells that regulates other T cell responses” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+4. When T cells leave the thymus, the organ where they multiply and mature, each carries either CD4 or CD8 but not both. *(defines “thymus”)*
+   > “The cells that leave the thymus become single positives, expressing either CD4 or CD8, but not both” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “thymus: primary lymphoid organ; where T lymphocytes proliferate and mature” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+5. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in organs such as the spleen and lymph nodes. *(defines “lymph”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+6. T cells recognize antigens, foreign proteins that trigger an immune response, with a receptor made of two protein chains; the most common kind is the alpha-beta T cell receptor. *(defines “antigens”)*
+   > “T lymphocytes recognize antigens based on a two-chain protein receptor. The most common and important of these are the alpha-beta T cell receptors” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “antigen: foreign or “non-self” protein that triggers the immune response” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+7. A CD4-positive, alpha-beta T cell is a mature T cell with an alpha-beta T cell receptor and the CD4 coreceptor, a molecule that helps the cell bind the right target. *(defines “coreceptor”)*
+   > “A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.” ([CL:0000624 CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624), CC BY 4.0)
+   > “Because they assist in binding specificity, the CD4 and CD8 molecules are described as coreceptors.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+8. CD4 also keeps the T cell in close contact with an antigen-presenting cell, an immune cell that shows processed antigens on its surface. *(defines “antigen-presenting cell”)*
+   > “mature T cells express either the CD4 marker or the CD8 marker, but not both. These markers are cell adhesion molecules that keep the T cell in close contact with the antigen-presenting cell by directly binding to the MHC molecule” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “antigen-presenting cell (APC): immune cell that detects, engulfs, and informs the adaptive immune response about an infection by presenting the processed antigen on the cell surface” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+9. A CD4-positive T cell binds antigen-presenting cells through their MHC class II molecules, proteins that present antigens, and can then become a helper T cell. *(defines “MHC class II”)*
+   > “Naïve CD4+ cells bind APCs via their antigen-embedded MHC II molecules and are stimulated to become helper T (TH) lymphocytes, cells that go on to stimulate B cells (or cytotoxic T cells) directly or secrete cytokines to inform more and various target cells about the pathogenic threat.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “major histocompatibility complex (MHC): gene cluster whose proteins present antigens to T cells” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+
+#### CD8-positive, alpha-beta T cell: Plain (drafted; grade 9.3; `content/CL_0000625/tier1.md`)
+
+1. CD8-positive T cells are white blood cells that can become cytotoxic T cells, which kill infected cells directly. *(defines “T cells”)*
+   > “In contrast, CD8+ cells engage antigen-embedded MHC I molecules on APCs and are stimulated to become cytotoxic T lymphocytes (CTLs), which directly kill infected cells by apoptosis and emit cytokines to amplify the immune response.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Cytotoxic T cells kill target cells by triggering apoptosis, a controlled form of cell death. *(defines “apoptosis”)*
+   > “Cytotoxic T cells (Tc) are T cells that kill target cells by inducing apoptosis using the same mechanism as NK cells.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “Apoptosis allows a cell to die in a controlled manner that prevents the release of potentially damaging molecules from inside the cell.” ([9.3 Response to the Signal](https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal), CC BY 4.0)
+3. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in the spleen and lymph nodes. *(defines “lymph”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+4. T cells are called CD4-positive or CD8-positive depending on which of two surface molecules they carry.
+   > “Naïve T cells can express one of two different molecules, CD4 or CD8, on their surface, as shown in , and are accordingly classified as CD4+ or CD8+ cells.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+
+#### CD8-positive, alpha-beta T cell: Core (drafted; grade 10.2; `content/CL_0000625/tier2.md`)
+
+1. CD8-positive T cells are white blood cells that can become cytotoxic T cells, which kill infected cells directly. *(defines “T cells”)*
+   > “In contrast, CD8+ cells engage antigen-embedded MHC I molecules on APCs and are stimulated to become cytotoxic T lymphocytes (CTLs), which directly kill infected cells by apoptosis and emit cytokines to amplify the immune response.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+   > “T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. When T cells leave the thymus, the organ where they multiply and mature, each carries either CD4 or CD8 but not both. *(defines “thymus”)*
+   > “The cells that leave the thymus become single positives, expressing either CD4 or CD8, but not both” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “thymus: primary lymphoid organ; where T lymphocytes proliferate and mature” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in organs such as the spleen and lymph nodes. *(defines “lymph”)*
+   > “B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+4. T cells recognize antigens, foreign proteins that trigger an immune response, with a receptor made of two protein chains; the most common kind is the alpha-beta T cell receptor. *(defines “antigens”)*
+   > “T lymphocytes recognize antigens based on a two-chain protein receptor. The most common and important of these are the alpha-beta T cell receptors” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “antigen: foreign or “non-self” protein that triggers the immune response” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+5. A CD8-positive, alpha-beta T cell is a T cell with an alpha-beta T cell receptor and the CD8 coreceptor, a molecule that helps the cell bind the right target. *(defines “coreceptor”)*
+   > “A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.” ([CL:0000625 CD8-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000625), CC BY 4.0)
+   > “Because they assist in binding specificity, the CD4 and CD8 molecules are described as coreceptors.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+6. CD8 binds to MHC class I, a protein that presents antigens to T cells and is found on most cells of the body. *(defines “MHC class I”)*
+   > “MHC class I: found on most cells of the body, it binds to the CD8 molecule on T cells” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+   > “major histocompatibility complex (MHC): gene cluster whose proteins present antigens to T cells” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+7. Cytotoxic T cells kill target cells by triggering apoptosis, a controlled form of cell death. *(defines “apoptosis”)*
+   > “Cytotoxic T cells (Tc) are T cells that kill target cells by inducing apoptosis using the same mechanism as NK cells.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+   > “Apoptosis allows a cell to die in a controlled manner that prevents the release of potentially damaging molecules from inside the cell.” ([9.3 Response to the Signal](https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal), CC BY 4.0)
+8. When a cytotoxic T cell's receptor binds an antigen on an infected cell, the T cell releases perforin and granzyme, which make the infected cell undergo apoptosis.
+   > “CTLs sense MHC I-embedded antigens by directly interacting with infected cells via their TCRs. Binding of TCRs with antigens activates CTLs to release perforin and granzyme, degradative enzymes that will induce apoptosis of the infected cell.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+9. Perforin makes a pore in the target cell, and granzyme enters the cell through that pore. *(defines “perforin”)*
+   > “granzyme: protease that enters target cells through perforin and induces apoptosis in the target cells; used by NK cells and killer T cells” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “perforin: destructive protein that creates a pore in the target cell; used by NK cells and killer T cells” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+10. Each cytotoxic T cell can kill more than one target cell.
+   > “In addition, each Tc cell can kill more than one target cell, making them especially effective.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
+
+#### Cell of skeletal muscle: Plain (drafted; grade 6.2; `content/CL_0000188/tier1.md`)
+
+1. Skeletal muscle cells contract to pull on bones and move the skeleton.
+   > “These contractions extend from the muscle fiber through connective tissue to pull on bones, causing skeletal movement.” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+2. These long, cylinder-shaped cells are also called muscle fibers. *(defines “muscle fiber”)*
+   > “Because skeletal muscle cells are long and cylindrical, they are commonly referred to as muscle fibers.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+3. Each fiber has many nuclei and looks striated, or striped. *(defines “striated”)*
+   > “skeletal muscle: usually attached to bone, under voluntary control, each cell is a fiber that is multinucleated and striated” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+   > “Skeletal muscles are long and cylindrical in appearance; when viewed under a microscope, skeletal muscle tissue has a striped or striated appearance.” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+4. A fiber contracts only when a nerve cell sends it a signal.
+   > “Every skeletal muscle fiber in every skeletal muscle is innervated by a motor neuron at the NMJ. Excitation signals from the neuron are the only way to functionally activate the fiber to contract.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+
+#### Cell of skeletal muscle: Core (drafted; grade 10.6; `content/CL_0000188/tier2.md`)
+
+1. Skeletal muscle cells, long cylinders commonly called muscle fibers, contract to pull on bones and move the skeleton. *(defines “muscle fiber”)*
+   > “These contractions extend from the muscle fiber through connective tissue to pull on bones, causing skeletal movement.” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+   > “Because skeletal muscle cells are long and cylindrical, they are commonly referred to as muscle fibers.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+2. These cells make up skeletal muscle, which is usually attached to bone and under voluntary, or conscious, control. *(defines “voluntary”)*
+   > “skeletal muscle: usually attached to bone, under voluntary control, each cell is a fiber that is multinucleated and striated” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+   > “Some muscle movement is voluntary, which means it is under conscious control.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+3. Each fiber has many nuclei because it forms when many myoblasts, cells that form muscle, fuse together. *(defines “myoblast”)*
+   > “The cells are multinucleated as a result of the fusion of the many myoblasts that fuse to form each long muscle fiber.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+   > “myoblast: muscle-forming stem cell” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+4. Inside each fiber, the proteins actin and myosin are arranged in a very regular pattern of stripes, called striations. *(defines “striations”)*
+   > “The actin and myosin proteins are arranged very regularly in the cytoplasm of individual muscle cells (referred to as fibers) in both skeletal muscle and cardiac muscle, which creates a pattern, or stripes, called striations.” ([10.1 Overview of Muscle Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-1-overview-of-muscle-tissues), CC BY 4.0)
+5. One fiber holds hundreds to thousands of myofibrils, long cylindrical structures that run parallel to the fiber. *(defines “myofibril”)*
+   > “Because myofibrils are only approximately 1.2 μm in diameter, hundreds to thousands (each with thousands of sarcomeres) can be found inside one muscle fiber.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+   > “myofibril: long cylindrical structures that lie parallel to the muscle fiber” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+6. Each myofibril is a chain of many sarcomeres, the repeating units that carry out contraction. *(defines “sarcomere”)*
+   > “A myofibril is composed of many sarcomeres running along its length; thus, myofibrils and muscle cells contract as the sarcomeres contract.” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+   > “sarcomere: longitudinally, repeating functional unit of skeletal muscle, with all of the contractile and associated proteins involved in contraction” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+7. Every fiber is controlled by a motor neuron, a nerve cell that carries signals from the brain or spinal cord to the muscle. *(defines “motor neuron”)*
+   > “Each skeletal muscle fiber is controlled by a motor neuron, which conducts signals from the brain or spinal cord to the muscle.” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+   > “The cells in nervous tissue that generate and conduct impulses are called neurons or nerve cells.” ([SEER Training Modules: Nervous Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/nervous.html), Free of copyright (NCI reuse policy))
+8. A signal from the motor neuron makes the sarcoplasmic reticulum, the fiber's calcium store, release calcium. *(defines “sarcoplasmic reticulum”)*
+   > “The trigger for calcium release from the sarcoplasmic reticulum into the sarcoplasm is a neural signal.” ([38.4 Muscle Contraction and Locomotion](https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion), CC BY 4.0)
+   > “sarcoplasmic reticulum (SR): specialized smooth endoplasmic reticulum, which stores, releases, and retrieves Ca++” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+9. The calcium moves shielding proteins aside, so myosin heads can attach to actin and pull it inward, shortening the fiber.
+   > “Once released, the Ca++ interacts with the shielding proteins, forcing them to move aside so that the actin-binding sites are available for attachment by myosin heads. The myosin then pulls the actin filaments toward the center, shortening the muscle fiber.” ([10.2 Skeletal Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle), CC BY 4.0)
+10. Each pull by the myosin heads uses energy from ATP, the cell's energy currency. *(defines “ATP”)*
+   > “Each cycle requires energy, and the action of the myosin heads in the sarcomeres repetitively pulling on the thin filaments also requires energy, which is provided by ATP.” ([10.3 Muscle Fiber Contraction and Relaxation](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation), CC BY 4.0)
+   > “ATP: adenosine triphosphate, the cell’s energy currency” ([Chapter 6 Key Terms (Metabolism)](https://openstax.org/books/biology-2e/pages/6-key-terms), CC BY 4.0)
+
+#### Chondrocyte: Plain (drafted; grade 7.4; `content/CL_0000138/tier1.md`)
+
+1. A chondrocyte is a cartilage cell that makes the matrix, the material around the cells. *(defines “matrix”)*
+   > “Cartilage is a connective tissue with a large amount of the matrix of variable composition. The cells, called chondrocytes, make the matrix and fibers of the tissue.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “matrix: extracellular material which is produced by the cells embedded in it, containing ground substance and fibers” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. Each chondrocyte sits in a small space in the matrix called a lacuna. *(defines “lacuna”)*
+   > “Embedded within the cartilage matrix are chondrocytes, or cartilage cells, and the space they occupy are called lacunae (singular = lacuna).” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “lacunae: (singular = lacuna) small spaces in bone or cartilage tissue that cells occupy” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Cartilage has no blood vessels, so nutrients must spread through the matrix to reach the chondrocytes.
+   > “Cartilaginous tissue is avascular, thus all nutrients need to diffuse through the matrix to reach the chondrocytes.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+4. Long bones grow longer as chondrocytes divide and make more cartilage.
+   > “Long bones lengthen as chondrocytes divide and secrete hyaline cartilage.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+
+#### Chondrocyte: Core (drafted; grade 11.2; `content/CL_0000138/tier2.md`)
+
+1. A chondrocyte is a cartilage cell that makes the matrix and fibers of cartilage; the matrix is the material around the cells. *(defines “matrix”)*
+   > “Cartilage is a connective tissue with a large amount of the matrix of variable composition. The cells, called chondrocytes, make the matrix and fibers of the tissue.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “matrix: extracellular material which is produced by the cells embedded in it, containing ground substance and fibers” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. Each chondrocyte sits in a small space in the matrix called a lacuna. *(defines “lacuna”)*
+   > “Embedded within the cartilage matrix are chondrocytes, or cartilage cells, and the space they occupy are called lacunae (singular = lacuna).” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “lacunae: (singular = lacuna) small spaces in bone or cartilage tissue that cells occupy” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Cartilage has no blood vessels, so all nutrients must spread through the matrix to reach the chondrocytes.
+   > “Cartilaginous tissue is avascular, thus all nutrients need to diffuse through the matrix to reach the chondrocytes.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+4. In the developing skeleton, chondroblasts produce cartilage matrix, and once this matrix surrounds and isolates a chondroblast, the cell is called a chondrocyte. *(defines “chondroblasts”)*
+   > “This framework is a flexible, semi-solid matrix produced by chondroblasts and consists of hyaluronic acid, chondroitin sulfate, collagen fibers, and water. As the matrix surrounds and isolates chondroblasts, they are called chondrocytes.” ([6.4 Bone Formation and Development](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development), CC BY 4.0)
+5. In the limb bones and some skull bones, chondrocytes first make a cartilage model of the future bone; bone tissue then slowly replaces this cartilage over many years.
+   > “The remaining skull bones and the bones of the limbs are formed by endochondral ossification. In this, mesenchymal cells differentiate into hyaline cartilage cells that produce a cartilage model of the future bone. The cartilage is then gradually replaced by bone tissue over a period of many years” ([9.7 Development of Joints](https://openstax.org/books/anatomy-and-physiology-2e/pages/9-7-development-of-joints), CC BY 4.0)
+6. A chondrocyte keeps the ability to divide even while embedded in the cartilage matrix.
+   > “A skeletogenic cell that secretes a specialized, avascular, GAG-rich matrix, is embedded in cartilage tissue matrix, retains the ability to divide, and develops from a chondroblast cell.” ([CL:0000138 chondrocyte](http://purl.obolibrary.org/obo/CL_0000138), CC BY 4.0)
+7. Growth hormone makes chondrocytes multiply in the epiphyseal plates, or growth plates, which are sheets of cartilage in growing bones; as a result, long bones get longer. *(defines “epiphyseal plates”)*
+   > “The pituitary gland secretes growth hormone (GH), which, as its name implies, controls bone growth in several ways. It triggers chondrocyte proliferation in epiphyseal plates, resulting in the increasing length of long bones.” ([6.6 Exercise, Nutrition, Hormones, and Bone Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue), CC BY 4.0)
+   > “epiphyseal plate: (also, growth plate) sheet of hyaline cartilage in the metaphysis of an immature bone; replaced by bone tissue as the organ grows in length” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+8. Bones stop growing in length, however, when the chondrocytes in the epiphyseal plate stop dividing and bone replaces the cartilage.
+   > “When the chondrocytes in the epiphyseal plate cease their proliferation and bone replaces the cartilage, longitudinal growth stops.” ([6.4 Bone Formation and Development](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development), CC BY 4.0)
+
+#### Club cell: Plain (drafted; grade 6.7; `content/CL_0000158/tier1.md`)
+
+1. Club cells protect the lining of the tracheobronchial tree, which is made up of the windpipe and the air tubes of the lungs. *(defines “tracheobronchial tree”)*
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “An anatomical structure comprising of trachea, bronchi, and bronchioles that terminate with the alveolar ducts, sacs, and alveoli.” ([NCIT:C117875 Tracheobronchial Tree](http://purl.obolibrary.org/obo/NCIT_C117875), CC BY 4.0)
+2. A club cell has no cilia, the small hair-like projections that line the walls of these air tubes. *(defines “cilia”)*
+   > “A club cell has short microvilli but no cilia.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “The bronchi and bronchioles contain cilia, small hair-like projections that line the walls of the bronchi and bronchioles” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+3. However, club cells can multiply and turn into cells that do have cilia.
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+4. In this way, club cells rebuild the lining of the bronchioles, the small airways that spread through the lungs. *(defines “bronchiole”)*
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+
+#### Club cell: Core (drafted; grade 9.6; `content/CL_0000158/tier2.md`)
+
+1. Club cells help protect the lining of the tracheobronchial tree, the system of air tubes that runs from the windpipe to the air sacs of the lungs. *(defines “tracheobronchial tree”)*
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “An anatomical structure comprising of trachea, bronchi, and bronchioles that terminate with the alveolar ducts, sacs, and alveoli.” ([NCIT:C117875 Tracheobronchial Tree](http://purl.obolibrary.org/obo/NCIT_C117875), CC BY 4.0)
+2. A club cell has no cilia, the short, hair-like structures that move substances along a cell's outer surface. *(defines “cilia”)*
+   > “A club cell has short microvilli but no cilia.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+3. Instead, a club cell has short microvilli, which are thin, membrane-covered projections on a cell's surface. *(defines “microvilli”)*
+   > “A club cell has short microvilli but no cilia.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “Thin cylindrical membrane-covered projections on the surface of an animal cell containing a core bundle of actin filaments.” ([GO:0005902 microvillus](http://purl.obolibrary.org/obo/GO_0005902), CC BY 4.0)
+4. Club cells can multiply, and they can also differentiate into ciliated cells, a process in which cells become specialized in structure and function. *(defines “differentiate”)*
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “differentiation: process by which unspecialized cells become specialized in structure and function” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+5. In this way, club cells rebuild the lining of the bronchioles, the smaller and smaller air tubes that spread through the lungs. *(defines “bronchiole”)*
+   > “A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.” ([CL:0000158 club cell](http://purl.obolibrary.org/obo/CL_0000158), CC BY 4.0)
+   > “Each bronchus divides into secondary bronchi, then into tertiary bronchi, which in turn divide, creating smaller and smaller diameter bronchioles as they split and spread through the lung.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+
+Dropped:
+- “Club cells are secretory cells of this airway lining: they release chemical compounds onto their surface, but they do not make mucus.” (checker: The quotes are word for word, and the Cell Ontology part ('non-mucous, epithelial secretory cell that is part of the tracheobronchial tree') supports 'secretory cells of this airway lining' and 'do not make mucus'. But the OpenStax A&P 2e 4.2 quote is not a definition of 'secretory cell'. It is a general statement that 'many epithelial cells' release mucus and specific chemical compounds onto their apical surfaces. 'They release chemical compounds onto their surface' applies that general statement to club cells; no quote says it about club cells.)
+
+#### Cochlear inner hair cell: Plain (drafted; grade 6.3; `content/CL_0000589/tier1.md`)
+
+1. Inner hair cells are the main sensor cells for hearing, and they form a single row.
+   > “The inner hair cells are the primary auditory receptors and exist in a single row, numbering approximately 3,500.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. This row lies in the cochlea, the hearing part of the inner ear. *(defines “cochlea”)*
+   > “organ of Corti: structure in the cochlea in which hair cells transduce movements from sound waves into electrochemical signals” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Each cell has stereocilia, hair-like projections that help detect sound waves. *(defines “stereocilia”)*
+   > “The organs of Corti contain hair cells, which are named for the hair-like stereocilia extending from the cell’s apical surfaces” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. When the stereocilia bend, sound information travels along a nerve to the brain.
+   > “Their bending results in action potentials in the hair cells, and auditory information travels along the neural endings of the bipolar neurons of the hair cells (collectively, the auditory nerve) to the brain.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+
+#### Cochlear inner hair cell: Core (drafted; grade 10.7; `content/CL_0000589/tier2.md`)
+
+1. Inner hair cells are the main sensor cells for hearing, and they form a single row of about 3,500 cells.
+   > “The inner hair cells are the primary auditory receptors and exist in a single row, numbering approximately 3,500.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. They sit in the cochlea, the hearing portion of the inner ear. *(defines “cochlea”)*
+   > “organ of Corti: structure in the cochlea in which hair cells transduce movements from sound waves into electrochemical signals” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Each inner hair cell is bulb-shaped and lies in the organ of Corti, the site where sound is changed into nerve signals. *(defines “organ of Corti”)*
+   > “A bulbous cell that is medially placed in one row in the organ of Corti.” ([CL:0000589 cochlear inner hair cell](http://purl.obolibrary.org/obo/CL_0000589), CC BY 4.0)
+   > “organ of Corti: in the basilar membrane, the site of the transduction of sound, a mechanical wave, to a neural signal” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. Each cell's stereocilia, hair-like projections that help detect sound waves, are arranged from tallest to shortest and tied together by protein fibers called tethers. *(defines “stereocilia”)*
+   > “The stereocilia are an array of microvilli-like structures arranged from tallest to shortest. Protein fibers tether adjacent hairs together within each array, such that the array will bend in response to movements of the basilar membrane.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+5. The stereocilia of inner hair cells reach into small dimples on the underside of the tectorial membrane, a structure lying above the hair cells. *(defines “tectorial membrane”)*
+   > “The stereocilia from inner hair cells extend into small dimples on the tectorial membrane’s lower surface.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “tectorial membrane: cochlear structure that lies above the hair cells and participates in the transduction of sound at the hair cells” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+6. When pressure waves move the basilar membrane, the floor under the organ of Corti, the tectorial membrane slides across the stereocilia and bends them. *(defines “basilar membrane”)*
+   > “When the pressure waves from the scala move the basilar membrane, the tectorial membrane slides across the stereocilia. This bends the stereocilia either toward or away from the tallest member of each array.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “basilar membrane: in the ear, the floor of the cochlear duct on which the organ of Corti sits” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+7. When the stereocilia bend toward the tallest one, tension in the tethers opens ion channels, pores that let charged particles cross the cell membrane. *(defines “ion channel”)*
+   > “When the stereocilia bend toward the tallest member of their array, tension in the protein tethers opens ion channels in the hair cell membrane.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “Ion channels are pores that allow specific charged particles to cross the membrane in response to an existing concentration gradient.” ([12.4 The Action Potential](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential), CC BY 4.0)
+8. This depolarizes the hair cell, making the voltage across its membrane less negative, and triggers nerve impulses in the nerve fibers attached to the cell. *(defines “depolarize”)*
+   > “This will depolarize the hair cell membrane, triggering nerve impulses that travel down the afferent nerve fibers attached to the hair cells.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “depolarization: change in the membrane potential to a less negative value” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+9. About 90 percent of the afferent neurons, which carry sound information from the cochlea to the brain, take their input from inner hair cells. *(defines “afferent neurons”)*
+   > “About 90 percent of the afferent neurons carry information from inner hair cells, with each hair cell synapsing with 10 or so neurons.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “The afferent, bipolar neurons that convey auditory information travel from the cochlea to the medulla, through the pons and midbrain in the brainstem, finally reaching the primary auditory cortex in the temporal lobe.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+10. Each inner hair cell responds to a particular frequency, which is heard as pitch, and the frequencies of neighboring cells differ by about 0.2 percent. *(defines “frequency”)*
+   > “The difference in response frequency between adjacent inner hair cells is about 0.2 percent.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “Frequency is the number of waves per unit of time, and in sound is heard as pitch.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+
+#### Cochlear outer hair cell: Plain (drafted; grade 7.2; `content/CL_0000601/tier1.md`)
+
+1. Outer hair cells fine-tune incoming sound waves, and about 12,000 of them form three or four rows.
+   > “The outer hair cells are arranged in three or four rows. They number approximately 12,000, and they function to fine tune incoming sound waves.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. These cells sit in the cochlea, the hearing part of the inner ear. *(defines “cochlea”)*
+   > “The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Each cell has stereocilia, hair-like projections that help detect sound waves. *(defines “stereocilia”)*
+   > “The longer stereocilia that project from the outer hair cells actually attach to the tectorial membrane.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. Brain signals can change the length of outer hair cells, sharpening or dampening responses to certain frequencies, or pitches. *(defines “frequency”)*
+   > “The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “Frequency is the number of waves per unit of time, and in sound is heard as pitch.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+
+#### Cochlear outer hair cell: Core (drafted; grade 9.8; `content/CL_0000601/tier2.md`)
+
+1. Outer hair cells fine-tune incoming sound waves, and about 12,000 of them are arranged in three or four rows.
+   > “The outer hair cells are arranged in three or four rows. They number approximately 12,000, and they function to fine tune incoming sound waves.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+2. These cells sit in the cochlea, the hearing portion of the inner ear. *(defines “cochlea”)*
+   > “organ of Corti: structure in the cochlea in which hair cells transduce movements from sound waves into electrochemical signals” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Each outer hair cell lies in the organ of Corti, the site where sound is changed into nerve signals. *(defines “organ of Corti”)*
+   > “A mechanoreceptor in the organ of Corti.” ([CL:0000601 cochlear outer hair cell](http://purl.obolibrary.org/obo/CL_0000601), CC BY 4.0)
+   > “organ of Corti: in the basilar membrane, the site of the transduction of sound, a mechanical wave, to a neural signal” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. Signals from the brain can change the length of outer hair cells, sharpening or dampening hair cell responses to certain frequencies, which are heard as pitch. *(defines “frequency”)*
+   > “The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “Frequency is the number of waves per unit of time, and in sound is heard as pitch.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+5. This movement may actively help tune how sensitive the cochlea is and how well it tells frequencies apart.
+   > “The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea.” ([CL:0000601 cochlear outer hair cell](http://purl.obolibrary.org/obo/CL_0000601), CC BY 4.0)
+6. Each outer hair cell carries stereocilia, hair-like projections that help detect sound waves, and the stereocilia are arranged from tallest to shortest. *(defines “stereocilia”)*
+   > “The stereocilia are an array of microvilli-like structures arranged from tallest to shortest.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+7. The longer stereocilia of outer hair cells attach to the tectorial membrane, a structure that lies above the hair cells. *(defines “tectorial membrane”)*
+   > “The longer stereocilia that project from the outer hair cells actually attach to the tectorial membrane.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “tectorial membrane: cochlear structure that lies above the hair cells and participates in the transduction of sound at the hair cells” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+8. Fluid waves made by sound flex the basilar membrane, the floor under the organ of Corti, and this bends the stereocilia attached to the tectorial membrane. *(defines “basilar membrane”)*
+   > “When sound waves produce fluid waves inside the cochlea, the basilar membrane flexes, bending the stereocilia that attach to the tectorial membrane.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “basilar membrane: in the ear, the floor of the cochlear duct on which the organ of Corti sits” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+9. The bending opens ion channels, pores that let charged particles cross the cell membrane, and the hair cell then sends a signal to the cochlear nerve. *(defines “ion channel”)*
+   > “All of the stereocilia are mechanoreceptors, and when bent by vibrations they respond by opening a gated ion channel (refer to ). As a result, the hair cell membrane is depolarized, and a signal is transmitted to the chochlear nerve.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “Ion channels are pores that allow specific charged particles to cross the membrane in response to an existing concentration gradient.” ([12.4 The Action Potential](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential), CC BY 4.0)
+10. Outer hair cells connect to only 10 percent of the afferent neurons, which carry sound information from the cochlea to the brain. *(defines “afferent neurons”)*
+   > “Outer hair cells connect to only 10 percent of the afferent neurons, and each afferent neuron innervates many hair cells.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+   > “The afferent, bipolar neurons that convey auditory information travel from the cochlea to the medulla, through the pons and midbrain in the brainstem, finally reaching the primary auditory cortex in the temporal lobe.” ([36.4 Hearing and Vestibular Sensation](https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation), CC BY 4.0)
+
+#### Corneocyte: Plain (drafted; grade 7.8; `content/CL_0002153/tier1.md`)
+
+1. Corneocytes help keep the body from drying out, forming a layer of dead cells on the skin's surface.
+   > “The apical surface of this membrane is exposed to the external environment and is covered with dead, keratinized cells that help protect the body from desiccation and pathogens.” ([4.1 Types of Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues), CC BY 4.0)
+2. This dead layer is too dry for bacteria to grow in.
+   > “Not only is the skin covered with a layer of dead, keratinized epithelium that is too dry for bacteria in which to grow, but as these cells are continuously sloughed off from the skin, they carry bacteria and other pathogens with them.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. Each corneocyte is flat, has no nucleus, and is filled with keratin, a protein that makes skin hard and water-resistant. *(defines “keratin”)*
+   > “The dead keratin-filled squamous cell of the stratum corneum. This cell type lacks a nucleus.” ([CL:0002153 corneocyte](http://purl.obolibrary.org/obo/CL_0002153), CC BY 4.0)
+   > “keratin: type of structural protein that gives skin, hair, and nails its hard, water-resistant properties” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Corneocytes regularly flake away and are replaced by cells from deeper layers.
+   > “The keratinocytes in the stratum corneum are dead and regularly slough away, being replaced by cells from the deeper layers” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Corneocyte: Core (drafted; grade 10.5; `content/CL_0002153/tier2.md`)
+
+1. Corneocytes help protect the body from drying out and from pathogens, agents that can cause disease. *(defines “pathogen”)*
+   > “The apical surface of this membrane is exposed to the external environment and is covered with dead, keratinized cells that help protect the body from desiccation and pathogens.” ([4.1 Types of Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. Corneocytes are the dead cells of the stratum corneum, the outermost skin layer and the one exposed to the outside environment. *(defines “stratum corneum”)*
+   > “The dead keratin-filled squamous cell of the stratum corneum.” ([CL:0002153 corneocyte](http://purl.obolibrary.org/obo/CL_0002153), CC BY 4.0)
+   > “The stratum corneum is the most superficial layer of the epidermis and is the layer exposed to the outside environment” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+3. The stratum corneum is usually 15 to 30 layers of cells thick.
+   > “There are usually 15 to 30 layers of cells in the stratum corneum.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+4. Each corneocyte is a flat cell with no nucleus, filled with keratin, a protein that makes skin hard and water-resistant. *(defines “keratin”)*
+   > “The dead keratin-filled squamous cell of the stratum corneum. This cell type lacks a nucleus.” ([CL:0002153 corneocyte](http://purl.obolibrary.org/obo/CL_0002153), CC BY 4.0)
+   > “keratin: type of structural protein that gives skin, hair, and nails its hard, water-resistant properties” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+5. Corneocytes are the dead keratinocytes of this layer; a keratinocyte is a cell that makes and stores keratin. *(defines “keratinocyte”)*
+   > “The keratinocytes in the stratum corneum are dead and regularly slough away, being replaced by cells from the deeper layers” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “A keratinocyte is a cell that manufactures and stores the protein keratin.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+6. As keratinocytes die, their nuclei and other cell parts break down, leaving behind the keratin and cell membranes that form the stratum corneum.
+   > “The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that will form the stratum lucidum, the stratum corneum, and the accessory structures of hair and nails.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+7. In the stratum corneum, layers of keratin and of glycolipids (combinations of carbohydrates and lipids) make the skin a barrier against water loss. *(defines “glycolipid”)*
+   > “It acts as a protective barrier against water loss, due to the presence of layers of keratin and glycolipids in the stratum corneum.” ([5.3 Functions of the Integumentary System](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system), CC BY 4.0)
+   > “glycolipid: combination of carbohydrates and lipids” ([Chapter 5 Key Terms (Structure and Function of Plasma Membranes)](https://openstax.org/books/biology-2e/pages/5-key-terms), CC BY 4.0)
+8. The stratum corneum is too dry for bacteria to grow in, and shed corneocytes carry away bacteria and other pathogens.
+   > “Not only is the skin covered with a layer of dead, keratinized epithelium that is too dry for bacteria in which to grow, but as these cells are continuously sloughed off from the skin, they carry bacteria and other pathogens with them.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+9. This dry, dead layer also shields the more delicate layers underneath from rubbing and scraping.
+   > “This dry, dead layer helps prevent the penetration of microbes and the dehydration of underlying tissues, and provides a mechanical protection against abrasion for the more delicate, underlying layers.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+10. Corneocytes are shed from time to time and replaced by cells pushed up from below, and the whole layer is replaced in about 4 weeks.
+   > “Cells in this layer are shed periodically and are replaced by cells pushed up from the stratum granulosum (or stratum lucidum in the case of the palms and soles of feet). The entire layer is replaced during a period of about 4 weeks.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Cumulus granulosa cell: Plain (drafted; grade 9.1; `content/CL_0000711/tier1.md`)
+
+1. A cumulus granulosa cell surrounds and nourishes the oocyte, or egg. *(defines “oocyte”)*
+   > “Cumulus cell is a specialized granulosa cell that surrounds and nourishes the oocyte.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “Reproductive behavior or medical innovation had to facilitate the transfer of male gametes—the sperm—to the female gamete, an oocyte (egg).” ([Chapter 27 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction), CC BY 4.0)
+2. Cumulus cells are a special type of granulosa cell, a supporting cell in the ovary. *(defines “granulosa cell”)*
+   > “Cumulus cell is a specialized granulosa cell that surrounds and nourishes the oocyte.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “granulosa cells: supportive cells in the ovarian follicle that produce estrogen” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. Around the fully grown egg, cumulus cells form the cumulus-oocyte complex.
+   > “This cell-type surrounds the fully-grown oocyte to form a cumulus-oocyte complex (abbr. COC).” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+4. But other granulosa cells, at the wall of the follicle that holds the egg, do a different job. *(defines “follicle”)*
+   > “The terms cumulus oophorus cells, cumulus granulosa cells, cumulus oophorous granulosa cells, granulosa-cumulus cells are used to make a distinction between this cell and the other functionally different subpopulation of granulosa cells at the wall of the Graafian follicle.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “follicle: ovarian structure of one oocyte and surrounding granulosa (and later theca) cells” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Cumulus granulosa cell: Core (drafted; grade 11; `content/CL_0000711/tier2.md`)
+
+1. A cumulus granulosa cell, also called a cumulus cell, surrounds and nourishes the oocyte, or egg. *(defines “oocyte”)*
+   > “Cumulus cell is a specialized granulosa cell that surrounds and nourishes the oocyte.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “Reproductive behavior or medical innovation had to facilitate the transfer of male gametes—the sperm—to the female gamete, an oocyte (egg).” ([Chapter 27 introduction: Introduction](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-introduction), CC BY 4.0)
+2. The cumulus cell is a specialized granulosa cell, a type of supporting cell in the ovary. *(defines “granulosa cell”)*
+   > “Cumulus cell is a specialized granulosa cell that surrounds and nourishes the oocyte.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “granulosa cells: supportive cells in the ovarian follicle that produce estrogen” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. In the ovary, each oocyte develops surrounded by supporting cells; an oocyte together with these cells is called a follicle. *(defines “follicle”)*
+   > “The cortex is composed of a tissue framework called the ovarian stroma that forms the bulk of the adult ovary. Oocytes develop within the outer layer of this stroma, each surrounded by supporting cells. This grouping of an oocyte and its supporting cells is called a follicle.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+4. Cumulus cells surround the fully grown oocyte to form the cumulus-oocyte complex, or COC.
+   > “This cell-type surrounds the fully-grown oocyte to form a cumulus-oocyte complex (abbr. COC).” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+5. Names such as cumulus granulosa cell set this cell apart from a second group of granulosa cells that does a different job.
+   > “The terms cumulus oophorus cells, cumulus granulosa cells, cumulus oophorous granulosa cells, granulosa-cumulus cells are used to make a distinction between this cell and the other functionally different subpopulation of granulosa cells at the wall of the Graafian follicle.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+6. That second group sits at the wall of the Graafian follicle, a mature follicle that bulges like a blister on the surface of the ovary. *(defines “Graafian follicle”)*
+   > “The terms cumulus oophorus cells, cumulus granulosa cells, cumulus oophorous granulosa cells, granulosa-cumulus cells are used to make a distinction between this cell and the other functionally different subpopulation of granulosa cells at the wall of the Graafian follicle.” ([CL:0000711 cumulus granulosa cell](http://purl.obolibrary.org/obo/CL_0000711), CC BY 4.0)
+   > “After about 10 days of growth the follicle is a mature vesicular (graafian) follicle, which forms a "blister" on the surface of the ovary and contains a secondary oocyte ready for ovulation.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+
+#### Dendritic cell: Plain (drafted; grade 8.8; `content/CL_0000451/tier1.md`)
+
+1. Dendritic cells pick up antigens, foreign molecules that immune cells react to. *(defines “antigens”)*
+   > “A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.” ([CL:0000451 dendritic cell](http://purl.obolibrary.org/obo/CL_0000451), CC BY 4.0)
+   > “An antigen is a foreign or “non-self” macromolecule that reacts with cells of the immune system.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Dendritic cells then carry the antigens to lymph nodes, small bean-shaped organs, to stimulate an immune response. *(defines “lymph nodes”)*
+   > “A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.” ([CL:0000451 dendritic cell](http://purl.obolibrary.org/obo/CL_0000451), CC BY 4.0)
+   > “A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+3. Dendritic cells also engulf pathogens, agents that can cause disease. *(defines “pathogens”)*
+   > “Both macrophages and dendritic cells engulf pathogens and cellular debris through phagocytosis.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+4. Dendritic cells live in the skin and in the lining of the nose, lungs, stomach and intestines.
+   > “Dendritic cells are immune cells that process antigen material; they are present in the skin (Langerhans cells) and the lining of the nose, lungs, stomach, and intestines.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+
+#### Dendritic cell: Core (drafted; grade 10.5; `content/CL_0000451/tier2.md`)
+
+1. Dendritic cells take up antigens, foreign molecules that immune cells react to. *(defines “antigens”)*
+   > “A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.” ([CL:0000451 dendritic cell](http://purl.obolibrary.org/obo/CL_0000451), CC BY 4.0)
+   > “An antigen is a foreign or “non-self” macromolecule that reacts with cells of the immune system.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+2. Dendritic cells then carry these antigens to lymph nodes, small bean-shaped organs, to stimulate an immune response. *(defines “lymph nodes”)*
+   > “A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.” ([CL:0000451 dendritic cell](http://purl.obolibrary.org/obo/CL_0000451), CC BY 4.0)
+   > “A lymph node is one of the small, bean-shaped organs located throughout the lymphatic system.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+3. Dendritic cells stimulate this response by activating T cells, white blood cells that physically attack foreign or diseased cells. *(defines “T cells”)*
+   > “A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.” ([CL:0000451 dendritic cell](http://purl.obolibrary.org/obo/CL_0000451), CC BY 4.0)
+   > “T lymphocytes: (also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+4. Dendritic cells also engulf pathogens, agents that can cause disease, along with cell debris. *(defines “pathogens”)*
+   > “Both macrophages and dendritic cells engulf pathogens and cellular debris through phagocytosis.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+5. Dendritic cells live in the skin, where they are called Langerhans cells, and in the lining of the nose, lungs, stomach and intestines.
+   > “Dendritic cells are immune cells that process antigen material; they are present in the skin (Langerhans cells) and the lining of the nose, lungs, stomach, and intestines.” ([42.2 Adaptive Immune Response](https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response), CC BY 4.0)
+6. In the spleen, dendritic cells help remove microbes and other materials, including dying red blood cells, from the blood.
+   > “The spleen is sometimes called the “filter of the blood” because of its extensive vascularization and the presence of macrophages and dendritic cells that remove microbes and other materials from the blood, including dying red blood cells.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+7. Dendritic cells develop from monocytes, cells found in the blood. *(defines “monocytes”)*
+   > “monocyte: precursor to macrophages and dendritic cells seen in the blood” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+8. In the large intestine, dendritic cells open tight junctions, the firm seals between neighboring cells of the gut lining, and extend probes into the gut's hollow interior to check microbial antigens. *(defines “tight junctions”)*
+   > “Dendritic cells open the tight junctions between epithelial cells and extend probes into the lumen to evaluate the microbial antigens.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “tight junction: protein adherence that creates a firm seal between two adjacent animal cells” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+9. These dendritic cells, now carrying antigens, travel to nearby immune tissue in the gut lining, where T cells inspect the antigens.
+   > “The dendritic cells with antigens then travel to neighboring lymphoid follicles in the mucosa where T cells inspect for antigens.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+#### Endothelial cell: Plain (drafted; grade 9.5; `content/CL_0000115/tier1.md`)
+
+1. Endothelial cells form the smooth inner lining of blood vessels.
+   > “There are three distinct layers, or tunics, that form the walls of blood vessels (). The first tunic is a smooth, inner lining of endothelial cells that are in contact with the red blood cells.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+2. In capillaries, the smallest blood vessels, gases pass right through these cells. *(defines “capillaries”)*
+   > “Small molecules, such as gases, lipids, and lipid-soluble molecules, can diffuse directly through the membranes of the endothelial cells of the capillary wall.” ([20.3 Capillary Exchange](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-3-capillary-exchange), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+3. These cells also release nitric oxide, which causes vasodilation, the widening of blood vessels. *(defines “vasodilation”)*
+   > “which in turn stimulates the vessels’ endothelial cells to release nitric oxide (NO), which causes vasodilation” ([20.4 Homeostatic Regulation of the Vascular System](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-4-homeostatic-regulation-of-the-vascular-system), CC BY 4.0)
+   > “vasodilation: widening of blood vessels” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. But these cells also release endothelins, chemicals that cause vasoconstriction, the narrowing of blood vessels. *(defines “vasoconstriction”)*
+   > “The endothelium releases local chemicals called endothelins that can constrict the smooth muscle within the walls of the vessel to increase blood pressure.” ([20.1 Structure and Function of Blood Vessels](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels), CC BY 4.0)
+   > “vasoconstriction: constriction of the smooth muscle of a blood vessel, resulting in a decreased vascular diameter” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Endothelial cell: Core (drafted; grade 11.4; `content/CL_0000115/tier2.md`)
+
+1. Endothelial cells form the smooth inner lining of blood vessels and are in contact with the red blood cells.
+   > “There are three distinct layers, or tunics, that form the walls of blood vessels (). The first tunic is a smooth, inner lining of endothelial cells that are in contact with the red blood cells.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+2. This lining is called the endothelium, and it continues throughout the blood vessels and the chambers of the heart. *(defines “endothelium”)*
+   > “Lining the tunica intima is the specialized simple squamous epithelium called the endothelium, which is continuous throughout the entire vascular system, including the lining of the chambers of the heart.” ([20.1 Structure and Function of Blood Vessels](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels), CC BY 4.0)
+   > “endothelium: tissue that lines vessels of the lymphatic and cardiovascular system, made up of a simple squamous epithelium” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. The endothelium is a simple squamous epithelium, which means a single layer of flat, scale-like cells. *(defines “simple squamous epithelium”)*
+   > “endothelium: layer of smooth, simple squamous epithelium that lines the endocardium and blood vessels” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “simple squamous epithelium: tissue that consists of a single layer of flat scale-like cells; promotes diffusion and filtration across surface” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. In blood capillaries, the smallest blood vessels, small molecules such as gases pass directly through the endothelial cells. *(defines “capillaries”)*
+   > “Small molecules, such as gases, lipids, and lipid-soluble molecules, can diffuse directly through the membranes of the endothelial cells of the capillary wall.” ([20.3 Capillary Exchange](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-3-capillary-exchange), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+5. Some capillaries also have pores in their endothelial lining, and these pores let larger molecules through.
+   > “A fenestrated capillary is one that has pores (or fenestrations) in addition to tight junctions in the endothelial lining. These make the capillary permeable to larger molecules.” ([20.1 Structure and Function of Blood Vessels](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels), CC BY 4.0)
+6. Vesicles, small membrane-bound sacs, can also carry some large blood proteins into and out of endothelial cells. *(defines “vesicles”)*
+   > “Some large proteins in blood plasma can move into and out of the endothelial cells packaged within vesicles by endocytosis and exocytosis.” ([20.3 Capillary Exchange](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-3-capillary-exchange), CC BY 4.0)
+   > “vesicle: small, membrane-bound sac that functions in cellular storage and transport” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+7. Endothelial cells also form lymph capillaries, the smallest lymphatic vessels, which carry fluid away from the tissues. *(defines “lymph capillaries”)*
+   > “Lymphatic capillaries are formed by a one cell-thick layer of endothelial cells” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “Lymphatic vessels, unlike blood vessels, only carry fluid away from the tissues. The smallest lymphatic vessels are the lymph capillaries, which begin in the tissue spaces as blind-ended sacs.” ([SEER Training Modules: Components of the Lymphatic System](https://training.seer.cancer.gov/anatomy/lymphatic/components/), Free of copyright (NCI reuse policy))
+8. In lymph capillaries, the endothelial cells overlap to form a one-way valve that lets fluid in but not back out.
+   > “The wall of the lymph capillary is composed of endothelium in which the simple squamous cells overlap to form a simple one-way valve. This arrangement permits fluid to enter the capillary but prevents lymph from leaving the vessel.” ([SEER Training Modules: Components of the Lymphatic System](https://training.seer.cancer.gov/anatomy/lymphatic/components/), Free of copyright (NCI reuse policy))
+9. Endothelial cells release nitric oxide, which causes vasodilation, the widening of blood vessels. *(defines “vasodilation”)*
+   > “which in turn stimulates the vessels’ endothelial cells to release nitric oxide (NO), which causes vasodilation” ([20.4 Homeostatic Regulation of the Vascular System](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-4-homeostatic-regulation-of-the-vascular-system), CC BY 4.0)
+   > “vasodilation: widening of blood vessels” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+10. However, endothelial cells also release endothelins, local chemicals that cause vasoconstriction, the narrowing of blood vessels. *(defines “vasoconstriction”)*
+   > “The endothelium releases local chemicals called endothelins that can constrict the smooth muscle within the walls of the vessel to increase blood pressure.” ([20.1 Structure and Function of Blood Vessels](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels), CC BY 4.0)
+   > “vasoconstriction: constriction of the smooth muscle of a blood vessel, resulting in a decreased vascular diameter” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Enterocyte: Plain (drafted; grade 9.1; `content/CL_0000584/tier1.md`)
+
+1. An enterocyte is a cell that absorbs nutrients from inside the intestine.
+   > “An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.” ([CL:0000584 enterocyte](http://purl.obolibrary.org/obo/CL_0000584), CC BY 4.0)
+2. The cell's top surface is folded into microvilli, tiny projections that give the cell more room to absorb. *(defines “microvilli”)*
+   > “An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.” ([CL:0000584 enterocyte](http://purl.obolibrary.org/obo/CL_0000584), CC BY 4.0)
+   > “microvillus: small projection of the plasma membrane of the absorptive cells of the small intestinal mucosa” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. Under a microscope, the microvilli look like a mass of bristles, called the brush border. *(defines “brush border”)*
+   > “Although their small size makes it difficult to see each microvillus, their combined microscopic appearance suggests a mass of bristles, which is termed the brush border.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+
+Dropped:
+- “Enterocytes also take in water and salts, plus vitamins made by gut bacteria.” (checker: Quote is verbatim, but in context (23-05, 'The Large Intestine' > 'Histology') 'The enterocytes' are the colon's enterocytes. The allowed sources treat that cell as its own class, CL:0002071 enterocyte of epithelium of large intestine, not the exact class CL:0000584. The same file places the vitamin-making bacteria in the large intestine. The sentence drops the place and states the claim for all enterocytes, right after two sentences built from small-intestine quotes. That generalizes beyond the quote.)
+
+#### Enterocyte: Core (drafted; grade 12.5; `content/CL_0000584/tier2.md`)
+
+1. An enterocyte is a cell of the intestinal lining that absorbs nutrients from the lumen, the hollow interior of the intestine. *(defines “lumen”)*
+   > “An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.” ([CL:0000584 enterocyte](http://purl.obolibrary.org/obo/CL_0000584), CC BY 4.0)
+   > “lumen: interior of a tubular structure such as a blood vessel or a portion of the alimentary canal through which blood, chyme, or other substances travel” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. In the small intestine, enterocytes make up most of the cell layer that covers the villi, projections of the inner lining. *(defines “villi”)*
+   > “The mucosal epithelium, primarily composed of absorptive cells, covers the villi.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “villus: projection of the mucosa of the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+3. On the side facing the lumen, the enterocyte's cell membrane is folded into microvilli, small projections that give the cell ample surface for absorption. *(defines “microvilli”)*
+   > “An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen.” ([CL:0000584 enterocyte](http://purl.obolibrary.org/obo/CL_0000584), CC BY 4.0)
+   > “microvillus: small projection of the plasma membrane of the absorptive cells of the small intestinal mucosa” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Seen together under a microscope, the microvilli look like a mass of bristles, called the brush border. *(defines “brush border”)*
+   > “Although their small size makes it difficult to see each microvillus, their combined microscopic appearance suggests a mass of bristles, which is termed the brush border.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+5. Enterocytes in the small intestine also make digestive enzymes, proteins that speed up chemical reactions, and place the enzymes in the membranes of the microvilli. *(defines “enzymes”)*
+   > “The small intestine’s absorptive cells also synthesize digestive enzymes and then place them in the plasma membranes of the microvilli.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+6. These enzymes finish digesting carbohydrates and proteins.
+   > “Fixed to the surface of the microvilli membranes are enzymes that finish digesting carbohydrates and proteins.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+7. Most nutrients are absorbed by transport mechanisms at the apical surface of enterocytes, the side that faces the lumen, but fats are an exception. *(defines “apical”)*
+   > “Most nutrients are absorbed by transport mechanisms at the apical surface of enterocytes. Exceptions include lipids, fat-soluble vitamins, and most water-soluble vitamins.” ([23.7 Chemical Digestion and Absorption: A Closer Look](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look), CC BY 4.0)
+   > “apical: that part of a cell or tissue which, in general, faces an open space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. Fats instead diffuse into the enterocyte, where they are rebuilt and packed with other lipids and proteins into chylomicrons, large compounds that transport lipids. *(defines “chylomicrons”)*
+   > “micelles, which can carry the fat particles to the surface of the enterocytes. There, the micelles release their fats to diffuse across the cell membrane. The fats are then reassembled into triglycerides and mixed with other lipids and proteins into chylomicrons that can pass into lacteals.” ([23.7 Chemical Digestion and Absorption: A Closer Look](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look), CC BY 4.0)
+   > “chylomicron: large lipid-transport compound made up of triglycerides, phospholipids, cholesterol, and proteins” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+9. The chylomicrons leave the cell by exocytosis, in which the cell exports material inside a membrane-bound sac, and pass into the lymphatic system. *(defines “exocytosis”)*
+   > “Chylomicrons leave the enterocytes by exocytosis and enter the lymphatic system via lacteals in the villi of the intestine.” ([24.3 Lipid Metabolism](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism), CC BY 4.0)
+   > “exocytosis: export of a substance out of a cell by formation of a membrane-bound vesicle” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+
+Dropped:
+- “Enterocytes also absorb water and salts, as well as vitamins made by bacteria in the intestine.” (checker: The quote is verbatim, but its paragraph in 23-05 is the large intestine's Histology ('the mucosa of the colon ... made mostly of enterocytes'), so 'The enterocytes' there are the large intestine's. The sentence states this for enterocytes in general and sits before 'In the small intestine', so it reads as true of all enterocytes, which the quote does not say. It would pass as 'In the large intestine, enterocytes absorb ...'.)
+
+#### Eosinophil: Plain (drafted; grade 8.8; `content/CL_0000771/tier1.md`)
+
+1. An eosinophil is a white blood cell that helps protect the body against parasitic worms.
+   > “An eosinophil is a leukocyte that works with other eosinophils to surround a parasite; it is involved in the allergic response and in protection against helminthes (parasitic worms).” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+2. Each eosinophil has many granules, which are stores of chemicals inside the cell. *(defines “granules”)*
+   > “Granular leukocytes contain abundant granules within the cytoplasm. They include neutrophils, eosinophils, and basophils” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. Some of these granules hold molecules that are toxic to the worms.
+   > “Some eosinophil granules contain molecules toxic to parasitic worms, which can enter the body through the integument, or when an individual consumes raw or undercooked fish or meat.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+4. Chemical signals draw eosinophils to worms in the gut, where the cells release their granule contents.
+   > “some worms take up residence in the gastrointestinal tract. Eosinophils are attracted to the site by T cell cytokines, which release their granule contents upon their arrival.” ([21.5 The Immune Response against Pathogens](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-5-the-immune-response-against-pathogens), CC BY 4.0)
+
+#### Eosinophil: Core (drafted; grade 12.3; `content/CL_0000771/tier2.md`)
+
+1. An eosinophil is a white blood cell that helps protect against helminths, or parasitic worms, and works with other eosinophils to surround a parasite. *(defines “helminths”)*
+   > “An eosinophil is a leukocyte that works with other eosinophils to surround a parasite; it is involved in the allergic response and in protection against helminthes (parasitic worms).” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+2. Found in the blood, eosinophils help promote inflammation, a basic immune response. *(defines “inflammation”)*
+   > “Two additional leukocytes in the blood are eosinophils and basophils—both help to facilitate the inflammatory response.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “inflammation: basic innate immune response characterized by heat, redness, pain, and swelling” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. However, eosinophils also release antihistamines, molecules that work against histamine, an inflammatory chemical made by other immune cells. *(defines “antihistamines”)*
+   > “eosinophils: granulocytes that stain with eosin; they release antihistamines and are especially active against parasitic worms” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+   > “The granules of eosinophils include antihistamine molecules, which counteract the activities of histamines, inflammatory chemicals produced by basophils and mast cells.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+4. Eosinophils typically make up 2–4 percent of all white blood cells and measure 10–12 µm in diameter.
+   > “Eosinophils typically represent 2–4 percent of total leukocyte count. They are also 10–12 µm in diameter.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+5. An eosinophil is a granular leukocyte: a white blood cell with many granules, which are stores of chemicals inside the cell. *(defines “granular leukocyte”)*
+   > “Granular leukocytes contain abundant granules within the cytoplasm. They include neutrophils, eosinophils, and basophils” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+6. These granules stain red to orange with an acidic dye called eosin, and the cell's nucleus typically has two to three lobes.
+   > “The granules of eosinophils stain best with an acidic stain known as eosin. The nucleus of the eosinophil will typically have two to three lobes and, if stained properly, the granules will have a distinct red to orange color.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+7. Some eosinophil granules hold molecules that are toxic to parasitic worms.
+   > “Some eosinophil granules contain molecules toxic to parasitic worms, which can enter the body through the integument, or when an individual consumes raw or undercooked fish or meat.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+8. When worms settle in the digestive tract, chemical messengers called cytokines draw eosinophils to the site, where the eosinophils release their granule contents. *(defines “cytokines”)*
+   > “some worms take up residence in the gastrointestinal tract. Eosinophils are attracted to the site by T cell cytokines, which release their granule contents upon their arrival.” ([21.5 The Immune Response against Pathogens](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-5-the-immune-response-against-pathogens), CC BY 4.0)
+   > “cytokine: chemical messenger that regulates cell differentiation, proliferation, gene expression, and cell trafficking to effect immune responses” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+9. Eosinophils can also engulf large pathogens, disease-causing agents such as bacteria and fungi. *(defines “pathogens”)*
+   > “Neutrophils and eosinophils are particularly important leukocytes that engulf large pathogens, such as bacteria and fungi.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+10. Eosinophils arise from myeloid stem cells, which also give rise to red blood cells and some other white blood cells. *(defines “myeloid stem cells”)*
+   > “Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.” ([18.2 Production of the Formed Elements](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements), CC BY 4.0)
+
+#### Ependymal cell: Plain (drafted; grade 8.4; `content/CL_0000065/tier1.md`)
+
+1. Ependymal cells filter blood to make cerebrospinal fluid (CSF), a clear liquid around the brain and spinal cord. *(defines “cerebrospinal fluid (CSF)”)*
+   > “The ependymal cell is a glial cell that filters blood to make cerebrospinal fluid (CSF), the fluid that circulates through the CNS.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. These cells line the ventricles, the open spaces inside the brain where CSF flows. *(defines “ventricles”)*
+   > “Ependymal cells line fluid-filled ventricles of the brain and the central canal of the spinal cord.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+   > “The ventricles are the open spaces within the brain where CSF circulates.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+3. Ependymal cells also line the central canal, a hollow space inside the spinal cord. *(defines “central canal”)*
+   > “Ependymal cells line fluid-filled ventricles of the brain and the central canal of the spinal cord.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+   > “central canal: hollow space within the spinal cord that is the remnant of the center of the neural tube” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+4. Ependymal cells have cilia, short hair-like structures that help move CSF through the ventricles. *(defines “cilia”)*
+   > “They also have cilia on their apical surface to help move the CSF through the ventricular space.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Ependymal cell: Core (drafted; grade 9.5; `content/CL_0000065/tier2.md`)
+
+1. Ependymal cells filter blood to make cerebrospinal fluid (CSF), a clear liquid that surrounds the brain and spinal cord and acts as a shock absorber. *(defines “cerebrospinal fluid (CSF)”)*
+   > “The ependymal cell is a glial cell that filters blood to make cerebrospinal fluid (CSF), the fluid that circulates through the CNS.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “cerebrospinal fluid (CSF): clear liquid that surrounds the brain and spinal cord and fills the ventricles and central canal; acts as a shock absorber and circulates material throughout the brain and spinal cord” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. These cells are a type of glia, the cells that support neurons; neurons are the cells that receive and send signals. *(defines “glia”)*
+   > “ependymal cell: glial cell type in the CNS responsible for producing cerebrospinal fluid” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+   > “The nervous system is made up of neurons, specialized cells that can receive and transmit chemical or electrical signals, and glia, cells that provide support functions for the neurons” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+3. Ependymal cells line each of the four ventricles, the open spaces inside the brain through which CSF flows. *(defines “ventricles”)*
+   > “Ependymal cells line each ventricle, one of four central cavities that are remnants of the hollow center of the neural tube formed during the embryonic development of the brain.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “The ventricles are the open spaces within the brain where CSF circulates.” ([13.3 Circulation and the Central Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system), CC BY 4.0)
+4. In the spinal cord, ependymal cells line the central canal, the hollow space within the cord. *(defines “central canal”)*
+   > “Ependymal cells line fluid-filled ventricles of the brain and the central canal of the spinal cord.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+   > “central canal: hollow space within the spinal cord that is the remnant of the center of the neural tube” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+5. At the choroid plexus, a specialized structure in the ventricles, ependymal cells contact blood vessels and filter and absorb parts of the blood to make CSF. *(defines “choroid plexus”)*
+   > “The choroid plexus is a specialized structure in the ventricles where ependymal cells come in contact with blood vessels and filter and absorb components of the blood to produce cerebrospinal fluid.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+6. Ependymal cells form a single layer, tightly connected to neighboring cells.
+   > “These glial cells appear similar to epithelial cells, making a single layer of cells with little intracellular space and tight connections between adjacent cells.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+7. Each ependymal cell has cilia, short hair-like structures that extend from the cell and can move substances along its outer surface. *(defines “cilia”)*
+   > “This cell is characterized by the presence of cilia on its apical surface, which can be motile or non-motile.” ([CL:0000065 ependymal cell](http://purl.obolibrary.org/obo/CL_0000065), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+8. The cilia sit on the cell's apical surface, the side that faces an open space, and help move CSF through the ventricles. *(defines “apical surface”)*
+   > “They also have cilia on their apical surface to help move the CSF through the ventricular space.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “apical: that part of a cell or tissue which, in general, faces an open space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+Dropped:
+- “Ependymal cells look like epithelial cells, which line or cover organs and other tissues.” (checker: Both quotes are verbatim, and the first ('These glial cells appear similar to epithelial cells', which in context means ependymal cells) supports the comparison. But the definition quote defines 'epithelial tissue', not the defined term 'epithelial cells'. The sentence moves the tissue's lining or covering role onto cells, a step the quotes do not state.)
+
+#### Epithelial cell of proximal tubule: Plain (drafted; grade 9.1; `content/CL_0002306/tier1.md`)
+
+1. Proximal tubule cells return most water and sodium, and nearly all glucose, to the blood.
+   > “About 67 percent of the water, Na+, and K+ entering the nephron is reabsorbed in the PCT and returned to the circulation. Almost 100 percent of glucose, amino acids, and other organic substances such as vitamins are normally recovered here.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+2. These box-shaped cells form the proximal tubule, which receives the kidney's filtered fluid.
+   > “Filtered fluid collected by Bowman’s capsule enters into the PCT. It is called convoluted due to its tortuous path. Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+3. Each cell's surface facing the tube's hollow center bears microvilli, thin projections that add area for absorbing. *(defines “microvilli”)*
+   > “Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border. These microvilli create a large surface area to maximize the absorption and secretion of solutes (Na+, Cl–, glucose, etc.), the most essential function of this portion of the nephron.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “Thin cylindrical membrane-covered projections on the surface of an animal cell containing a core bundle of actin filaments.” ([GO:0005902 microvillus](http://purl.obolibrary.org/obo/GO_0005902), CC BY 4.0)
+4. These cells pump substances, so each cell holds many mitochondria, which make the cell's energy. *(defines “mitochondria”)*
+   > “These cells actively transport ions across their membranes, so they possess a high concentration of mitochondria in order to produce sufficient ATP.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+
+#### Epithelial cell of proximal tubule: Core (drafted; grade 13; `content/CL_0002306/tier2.md`)
+
+1. Proximal tubule cells take back most of the dissolved substances filtered out by the kidney, a process called tubular reabsorption. *(defines “tubular reabsorption”)*
+   > “Second, the filtrate is collected in the renal tubules. Most of the solutes get reabsorbed in the PCT by a process called tubular reabsorption.” ([41.2 The Kidneys and Osmoregulatory Organs](https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs), CC BY 4.0)
+   > “tubular reabsorption: reclamation of water and solutes that got filtered out in the glomerulus” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+2. These cells recover nearly all the filtered glucose, amino acids and vitamins, along with most of the filtered water, sodium and potassium.
+   > “About 67 percent of the water, Na+, and K+ entering the nephron is reabsorbed in the PCT and returned to the circulation. Almost 100 percent of glucose, amino acids, and other organic substances such as vitamins are normally recovered here.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+3. The proximal tubule receives this filtered fluid and does more reabsorption than any other part of the nephron, the kidney's urine-making unit. *(defines “nephron”)*
+   > “proximal convoluted tubules (PCTs): tortuous tubules receiving filtrate from Bowman’s capsule; most active part of the nephron in reabsorption and secretion” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+   > “nephrons: functional units of the kidney that carry out all filtration and modification to produce urine; consist of renal corpuscles, proximal and distal convoluted tubules, and descending and ascending loops of Henle; drain into collecting ducts” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+4. Proximal tubule cells form the tubule's wall, a simple cuboidal epithelium, meaning a single layer of cube-shaped cells. *(defines “simple cuboidal epithelium”)*
+   > “Filtered fluid collected by Bowman’s capsule enters into the PCT. It is called convoluted due to its tortuous path. Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “simple cuboidal epithelium: tissue that consists of a single layer of cube-shaped cells; promotes secretion and absorption in ducts and tubules” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. On the side facing the tubule's interior, each cell bears microvilli, thin projections that together form a brush border. *(defines “microvilli”)*
+   > “Filtered fluid collected by Bowman’s capsule enters into the PCT. It is called convoluted due to its tortuous path. Simple cuboidal cells form this tubule with prominent microvilli on the luminal surface, forming a brush border.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “Thin cylindrical membrane-covered projections on the surface of an animal cell containing a core bundle of actin filaments.” ([GO:0005902 microvillus](http://purl.obolibrary.org/obo/GO_0005902), CC BY 4.0)
+6. The microvilli give the cells a large surface for absorbing and releasing substances such as sodium, chloride and glucose.
+   > “These microvilli create a large surface area to maximize the absorption and secretion of solutes (Na+, Cl–, glucose, etc.), the most essential function of this portion of the nephron.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+7. Proximal tubule cells contain many mitochondria, the cell parts that produce the cell's energy (ATP), because the cells actively transport ions. *(defines “mitochondria”)*
+   > “These cells actively transport ions across their membranes, so they possess a high concentration of mitochondria in order to produce sufficient ATP.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+8. Glucose enters each cell with sodium: both bind the same carrier proteins on the side facing the tubule's interior, and the inflowing sodium pulls glucose along.
+   > “Both glucose and Na+ bind simultaneously to the same symport proteins on the apical surface of the cell to be transported in the same direction, toward the interstitial space. Sodium moves down its electrochemical and concentration gradient into the cell and takes glucose with it.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+9. On the opposite side of the cell, sodium–potassium pumps, which use ATP to move sodium out and potassium in, supply the energy that moves glucose. *(defines “sodium–potassium pump”)*
+   > “The energy to move glucose comes from the Na+/K+ ATPase that pumps Na+ out of the cell on the basal surface.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “sodium-potassium pump: (also, Na+/K+ ATP-ase) membrane-embedded protein pump that uses ATP to move Na+ out of a cell and K+ into the cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+10. While taking back sodium, proximal tubule cells also actively secrete hydrogen ions into the fluid that becomes urine, so the body gets rid of excess hydrogen ions.
+   > “The cells of the PCT actively secrete H+ into the forming urine as Na+ is reabsorbed. The body rids itself of excess H+ and raises blood pH.” ([25.9 Regulation of Fluid Volume and Composition](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition), CC BY 4.0)
 
 #### Erythrocyte: Plain (drafted; grade 6.9; `content/CL_0000232/tier1.md`)
 
@@ -1260,6 +2063,319 @@ Dropped:
    > “Erythrocytes live up to 120 days in the circulation, after which the worn-out cells are removed by a type of myeloid phagocytic cell called a macrophage, located primarily within the bone marrow, liver, and spleen.” ([18.3 Erythrocytes](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes), CC BY 4.0)
    > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
 
+#### Fibroblast: Plain (drafted; grade 8.9; `content/CL_0000057/tier1.md`)
+
+1. A fibroblast makes the fibers in nearly all connective tissues, the tissues that hold organs in place. *(defines “connective tissues”)*
+   > “The principal cell of connective tissues is the fibroblast. This cell makes the fibers found in nearly all of the connective tissues.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. Fibroblasts are the most common cells in connective tissue.
+   > “fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Fibroblasts make collagen fibers, which are flexible and give the tissue strength. *(defines “collagen fibers”)*
+   > “Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “collagen fiber: flexible fibrous proteins that give connective tissue tensile strength” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Fibroblasts can also move, divide, and make whatever connective tissue is needed.
+   > “Fibroblasts are motile, able to carry out mitosis, and can synthesize whichever connective tissue is needed.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+
+#### Fibroblast: Core (drafted; grade 11.9; `content/CL_0000057/tier2.md`)
+
+1. A fibroblast makes the fibers found in nearly all connective tissues, the tissues that hold in place and connect the body's organs. *(defines “connective tissues”)*
+   > “The principal cell of connective tissues is the fibroblast. This cell makes the fibers found in nearly all of the connective tissues.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. Fibroblasts are the most abundant cells in connective tissue.
+   > “fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Fibroblasts secrete three main kinds of fibers: collagen fibers (flexible protein fibers that give connective tissue strength), elastic fibers and reticular fibers. *(defines “collagen fibers”)*
+   > “Three main types of fibers are secreted by fibroblasts: collagen fibers, elastic fibers, and reticular fibers.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “collagen fiber: flexible fibrous proteins that give connective tissue tensile strength” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Elastic fibers are rich in the protein elastin, which lets them stretch and then return to their original size. *(defines “elastic fibers”)*
+   > “elastic fiber: fibrous protein within connective tissue that contains a high percentage of the protein elastin that allows the fibers to stretch and return to original size” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. Reticular fibers are fine protein fibers made of collagen subunits that link together to form supporting nets. *(defines “reticular fibers”)*
+   > “reticular fiber: fine fibrous protein, made of collagen subunits, which cross-link to form supporting “nets” within connective tissue” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+6. In addition, fibroblasts secrete polysaccharides (complex carbohydrates) and proteins that mix with the fluid outside the cells to form a thick ground substance. *(defines “polysaccharides”)*
+   > “Polysaccharides and proteins secreted by fibroblasts combine with extra-cellular fluids to produce a viscous ground substance that, with embedded fibrous proteins, forms the extra-cellular matrix.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “polysaccharides: complex carbohydrates made up of many monosaccharides” ([Chapter 24 Key Terms (Metabolism and Nutrition)](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms), CC BY 4.0)
+7. With the fibers, this ground substance forms the extracellular matrix, material that protects and anchors the cells of the tissue. *(defines “extracellular matrix”)*
+   > “Polysaccharides and proteins secreted by fibroblasts combine with extra-cellular fluids to produce a viscous ground substance that, with embedded fibrous proteins, forms the extra-cellular matrix.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “extracellular matrix: material secreted from animal or fungal cells that provides mechanical protection and anchoring for the cells in the tissue” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+8. Fibroblasts can move, divide and make whichever connective tissue is needed.
+   > “Fibroblasts are motile, able to carry out mitosis, and can synthesize whichever connective tissue is needed.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+9. In the skin, fibroblasts produce the mesh of collagen and elastic fibers in the dermis, a layer of skin that contains blood vessels, hair follicles and sweat glands. *(defines “dermis”)*
+   > “The dermis is made of two layers of connective tissue that compose an interconnected mesh of elastin and collagenous fibers, produced by fibroblasts” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “dermis: layer of skin between the epidermis and hypodermis, composed mainly of connective tissue and containing blood vessels, hair follicles, sweat glands, and other structures” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+10. In the synovial membrane, the lining of a freely movable joint, fibroblasts release hyaluronan, a substance that traps water to form synovial fluid, a lubricant that lets the bones of the joint move freely. *(defines “synovial membrane”)*
+   > “Fibroblasts in the inner layer of the synovial membrane release hyaluronan into the joint cavity. The hyaluronan effectively traps available water to form the synovial fluid, a natural lubricant that enables the bones of a joint to move freely against one another without much friction.” ([4.1 Types of Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues), CC BY 4.0)
+   > “synovial membrane: connective tissue membrane that lines the cavities of freely movable joints, producing synovial fluid for lubrication” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Hematopoietic stem cell: Plain (drafted; grade 6.3; `content/CL_0000037/tier1.md`)
+
+1. Hematopoietic stem cells make red blood cells, white blood cells and platelets.
+   > “Adult bone marrow has three distinct types of stem cells: hematopoietic stem cells, which give rise to red blood cells, white blood cells, and platelets” ([3.6 Cellular Differentiation](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation), CC BY 4.0)
+2. These stem cells live in the bone marrow, the soft tissue that fills most bones. *(defines “bone marrow”)*
+   > “The formed elements circulating in blood are all derived from hematopoietic stem cells located in bone marrow” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “The softer connective tissue that fills the interior of most bone is referred to as bone marrow” ([6.1 The Functions of the Skeletal System](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-1-the-functions-of-the-skeletal-system), CC BY 4.0)
+3. When one of these stem cells divides, one new cell stays a stem cell, so blood making can go on.
+   > “One daughter cell remains a hematopoietic stem cell, allowing hemopoiesis to continue.” ([18.2 Production of the Formed Elements](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements), CC BY 4.0)
+4. Hematopoietic stem cells last through adult life, making new blood cells to replace old or used-up ones.
+   > “In contrast with embryonic stem cells, hematopoietic stem cells are present throughout adulthood and allow for the continuous differentiation of blood cells to replace those lost to age or function.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+
+#### Hepatocyte: Plain (drafted; grade 8.8; `content/CL_0000182/tier1.md`)
+
+1. Hepatocytes, the main cells of the liver, process, store and release nutrients into the blood.
+   > “The hepatocytes are the main cell type of the liver. They process, store, and release nutrients into the blood.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+2. Packed tightly around the liver's open blood spaces, hepatocytes have easy access to the blood.
+   > “A hepatic sinusoid is an open, porous blood space formed by fenestrated capillaries from nutrient-rich hepatic portal veins and oxygen-rich hepatic arteries. Hepatocytes are tightly packed around the fenestrated endothelium of these spaces, giving them easy access to the blood.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+3. Hepatocytes make bile, a digestive juice that helps the body digest fats. *(defines “bile”)*
+   > “Hepatocytes secrete about one liter of bile each day.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “bile: digestive juice produced by the liver; important for digestion of lipids” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+4. Hepatocytes also make many toxins harmless.
+   > “Humans take in all sorts of toxins from the environment and also produce harmful chemicals as byproducts of cellular processes. Cells called hepatocytes in the liver detoxify many of these toxins.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+
+#### Hepatocyte: Core (drafted; grade 11.2; `content/CL_0000182/tier2.md`)
+
+1. Hepatocytes, the main cell type of the liver, process, store and release nutrients into the blood.
+   > “The hepatocytes are the main cell type of the liver. They process, store, and release nutrients into the blood.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+2. Hepatocytes make up around 80 percent of the liver's volume.
+   > “A hepatocyte is the liver’s main cell type, accounting for around 80 percent of the liver's volume.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+3. They are arranged in hepatic lobules, six-sided units in which the cells radiate outward from a central vein. *(defines “hepatic lobule”)*
+   > “hepatic lobule: hexagonal-shaped structure composed of hepatocytes that radiate outward from a central vein” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Hepatocytes are tightly packed around hepatic sinusoids, the liver's open blood spaces, so the cells have easy access to the blood. *(defines “hepatic sinusoid”)*
+   > “A hepatic sinusoid is an open, porous blood space formed by fenestrated capillaries from nutrient-rich hepatic portal veins and oxygen-rich hepatic arteries. Hepatocytes are tightly packed around the fenestrated endothelium of these spaces, giving them easy access to the blood.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+5. Hepatocytes either pass glucose on through the bloodstream or store the excess as glycogen, the stored form of glucose. *(defines “glycogen”)*
+   > “In the liver, hepatocytes either pass the glucose on through the circulatory system or store excess glucose as glycogen.” ([24.2 Carbohydrate Metabolism](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism), CC BY 4.0)
+   > “glycogen: form that glucose assumes when it is stored” ([Chapter 24 Key Terms (Metabolism and Nutrition)](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms), CC BY 4.0)
+6. In addition, hepatocytes make many toxins harmless, including toxins taken in from the environment and harmful by-products of the body's own cells.
+   > “Humans take in all sorts of toxins from the environment and also produce harmful chemicals as byproducts of cellular processes. Cells called hepatocytes in the liver detoxify many of these toxins.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+7. Hepatocytes secrete about one liter a day of bile, a digestive juice that is important for digesting fats. *(defines “bile”)*
+   > “Hepatocytes secrete about one liter of bile each day.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “bile: digestive juice produced by the liver; important for digestion of lipids” ([Chapter 34 Key Terms (Animal Nutrition and the Digestive System)](https://openstax.org/books/biology-2e/pages/34-key-terms), CC BY 4.0)
+8. The bile collects in bile canaliculi, small ducts that lie in grooves in the membranes of neighboring hepatocytes. *(defines “bile canaliculi”)*
+   > “Between adjacent hepatocytes, grooves in the cell membranes provide room for each bile canaliculus (plural = canaliculi). These small ducts accumulate the bile produced by hepatocytes.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+9. Processed materials such as bilirubin, a waste product from old red blood cells, are excreted into the bile canaliculi. *(defines “bilirubin”)*
+   > “Materials such as bilirubin are processed and excreted into the bile canaliculi.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “Bilirubin, the main bile pigment, is a waste product produced when the spleen removes old or damaged red blood cells from the circulation.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+
+Dropped:
+- “Hepatocytes convert most of the toxic ammonia formed from amino acids into urea, a waste the kidneys can eliminate.” (checker: Both quotes are verbatim, and the ammonia-to-urea claim is supported, but the second quote given for 'defines: urea' is the glossary entry for 'urea cycle' (a process), not a definition of urea. The quote calls the input 'nitrogen waste', not urea, so 'a waste' is not stated about urea.)
+
+#### Intestinal villus goblet cell: Plain (drafted; grade 8.2; `content/CL_1000317/tier1.md`)
+
+1. Intestinal villus goblet cells make mucus, a thick, slippery substance that keeps tissues moist. *(defines “mucus”)*
+   > “goblet cell: unicellular gland found in columnar epithelium that secretes mucous” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. These cells release the mucus, along with fluid, into the hollow space inside the gut.
+   > “Notice that the epithelium is in direct contact with the lumen, the space inside the alimentary canal. Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+3. These goblet cells sit in the surface layer of the villi, projections of the small intestine's lining. *(defines “villi”)*
+   > “A goblet cell that is part of the epithelium of intestinal villus.” ([CL:1000317 intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317), CC BY 4.0)
+   > “villus: projection of the mucosa of the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Each goblet cell is a one-cell gland tucked between column-shaped cells.
+   > “For example, a goblet cell is a mucous-secreting unicellular “gland” interspersed between the columnar epithelial cells of mucous membranes” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+
+#### Intestinal villus goblet cell: Core (drafted; grade 10.8; `content/CL_1000317/tier2.md`)
+
+1. Intestinal villus goblet cells secrete mucus, a thick, slippery substance that keeps tissues moist and acts as a lubricant. *(defines “mucus”)*
+   > “goblet cell: unicellular gland found in columnar epithelium that secretes mucous” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+   > “mucous gland: group of cells that secrete mucous, a thick, slippery substance that keeps tissues moist and acts as a lubricant” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+2. The goblet cells release this mucus, together with fluid, into the lumen, the open space inside the digestive tract. *(defines “lumen”)*
+   > “Notice that the epithelium is in direct contact with the lumen, the space inside the alimentary canal. Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+3. A goblet cell is a gland made of just one cell; a gland is a structure of one or more cells that make and release chemical substances. *(defines “gland”)*
+   > “goblet cell: unicellular gland found in columnar epithelium that secretes mucous” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+   > “A gland is a structure made up of one or more cells modified to synthesize and secrete chemical substances.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+4. In the small intestine, goblet cells are found in the mucous membrane, a lining covered by protective mucus. *(defines “mucous membrane”)*
+   > “The unicellular glands are scattered single cells, such as goblet cells, found in the mucous membranes of the small and large intestine.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “mucous membrane: tissue membrane that is covered by protective mucous and lines tissue exposed to the outside environment” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. Intestinal villus goblet cells are part of the cell layer covering each villus, a projection of the small intestine's lining. *(defines “villus”)*
+   > “A goblet cell that is part of the epithelium of intestinal villus.” ([CL:1000317 intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317), CC BY 4.0)
+   > “villus: projection of the mucosa of the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+6. This covering layer is a simple columnar epithelium, a single layer of column-like cells, with goblet cells scattered through it. *(defines “simple columnar epithelium”)*
+   > “In the stomach and intestines, it is a simple columnar epithelium. Notice that the epithelium is in direct contact with the lumen, the space inside the alimentary canal. Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+   > “simple columnar epithelium: tissue that consists of a single layer of column-like cells; promotes secretion and absorption in tissues and organs” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+Dropped:
+- “Mucus contains mucin, a complex glycoprotein, which is a protein with one or more carbohydrates attached.” (checker: Quotes verbatim and the glycoprotein definition is fine, but the mucin quote comes from Biology 2e Ch. 39 Key Terms (The Respiratory System). In that file 'mucus' is 'secretion in the lung', and the only body use is 'The lungs produce mucus—a sticky substance made of mucin'. The quote says nothing about goblet cells or intestinal mucus, yet here 'Mucus' is the mucus this cell secretes. The quote is about another organ's secretion; failed under 'when unsure, fail'.)
+
+#### Keratinocyte: Plain (drafted; grade 8; `content/CL_0000312/tier1.md`)
+
+1. A keratinocyte makes keratin, a protein that gives skin, hair and nails their hardness and water resistance. *(defines “keratin”)*
+   > “A keratinocyte is a cell that manufactures and stores the protein keratin. Keratin is an intracellular fibrous protein that gives hair, nails, and skin their hardness and water-resistant properties.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+2. Keratinocytes are found in the skin and in the lining of the mouth.
+   > “An epithelial cell of stratified squamous tissues, including skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018)” ([CL:0000312 keratinocyte](http://purl.obolibrary.org/obo/CL_0000312), CC BY 4.0)
+3. There they form a strong barrier against damage, water loss and germs.
+   > “skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018), that produces keratin proteins and secretes antimicrobial peptides to form a resilient barrier against environmental damage, dehydration, pathogens, and microbial invasion.” ([CL:0000312 keratinocyte](http://purl.obolibrary.org/obo/CL_0000312), CC BY 4.0)
+4. In the skin, the outermost keratinocytes are dead and keep flaking away, replaced by cells from below.
+   > “The keratinocytes in the stratum corneum are dead and regularly slough away, being replaced by cells from the deeper layers ().” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Keratinocyte: Core (drafted; grade 12.6; `content/CL_0000312/tier2.md`)
+
+1. A keratinocyte makes and stores keratin, a fibrous protein that gives skin, hair and nails their hardness and water resistance. *(defines “keratin”)*
+   > “A keratinocyte is a cell that manufactures and stores the protein keratin. Keratin is an intracellular fibrous protein that gives hair, nails, and skin their hardness and water-resistant properties.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+2. By making keratin and releasing germ-fighting substances, keratinocytes form a barrier against damage, water loss and germs.
+   > “skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018), that produces keratin proteins and secretes antimicrobial peptides to form a resilient barrier against environmental damage, dehydration, pathogens, and microbial invasion.” ([CL:0000312 keratinocyte](http://purl.obolibrary.org/obo/CL_0000312), CC BY 4.0)
+3. Melanin, the pigment that colors skin and hair, builds up in keratinocytes; this darkens the skin and protects the DNA of skin cells from UV rays. *(defines “melanin”)*
+   > “The accumulation of melanin in keratinocytes results in the darkening of the skin, or a tan. This increased melanin accumulation protects the DNA of epidermal cells from UV ray damage and the breakdown of folic acid, a nutrient necessary for our health and well-being.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “melanin: pigment that determines the color of hair and skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Keratinocytes are found in stratified squamous tissues, such as the skin and the lining of the mouth; these tissues have many cell layers, with flat, scale-like cells on top. *(defines “stratified squamous tissues”)*
+   > “An epithelial cell of stratified squamous tissues, including skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018)” ([CL:0000312 keratinocyte](http://purl.obolibrary.org/obo/CL_0000312), CC BY 4.0)
+   > “stratified squamous epithelium: tissue that consists of multiple layers of cells with the most apical being flat scale-like cells; protects surfaces from abrasion” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. In the skin, keratinocytes are the most common cells of the epidermis, the skin's outermost layer. *(defines “epidermis”)*
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+6. All keratinocytes in the epidermis come from basal cells, stem cells that keep dividing in a single layer. *(defines “basal cells”)*
+   > “A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis. All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+7. In the stratum spinosum, the layer above the basal cells, keratinocytes start making keratin and release a water-repelling substance that makes the skin fairly waterproof. *(defines “stratum spinosum”)*
+   > “The keratinocytes in the stratum spinosum begin the synthesis of keratin and release a water-repelling glycolipid that helps prevent water loss from the body, making the skin relatively waterproof.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “stratum spinosum: layer of the epidermis superficial to the stratum basale, characterized by the presence of desmosomes” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+8. Pushed farther up as the basal layer keeps making new cells, keratinocytes become flatter, grow thicker cell membranes and make large amounts of keratin.
+   > “As the stratum basale continues to produce new cells, the keratinocytes of the stratum spinosum are pushed into the stratum granulosum. The cells become flatter, their cell membranes thicken, and they generate large amounts of the proteins keratin and keratohyalin.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+9. As these keratinocytes die, their nuclei and other organelles, the small working parts of a cell, break down, leaving keratin behind. *(defines “organelles”)*
+   > “The nuclei and other cell organelles disintegrate as the cells die, leaving behind the keratin, keratohyalin, and cell membranes that will form the stratum lucidum, the stratum corneum, and the accessory structures of hair and nails.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+10. In the stratum corneum, the top layer of the epidermis, dead keratinocytes regularly flake away and are replaced by cells from deeper in the epidermis. *(defines “stratum corneum”)*
+   > “The keratinocytes in the stratum corneum are dead and regularly slough away, being replaced by cells from the deeper layers ().” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “stratum corneum: most superficial layer of the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+
+#### Kidney collecting duct intercalated cell: Plain (drafted; grade 9.4; `content/CL_1001432/tier1.md`)
+
+1. Kidney collecting duct intercalated cells make the blood less acidic and the urine more acidic.
+   > “Intercalated cells reabsorb K+ and HCO3– while secreting H+. This function lowers the acidity of the plasma while increasing the acidity of the urine.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+2. These cells are found in the kidney's collecting ducts, the tubes that gather urine as it forms. *(defines “collecting duct”)*
+   > “Any renal intercalated cell that is part of some collecting duct of renal tubule.” ([CL:1001432 kidney collecting duct intercalated cell](http://purl.obolibrary.org/obo/CL_1001432), CC BY 4.0)
+   > “Each collecting duct collects forming urine from several nephrons” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+3. Intercalated cells pump hydrogen ions, which make liquids more acidic, into this urine. *(defines “hydrogen ions”)*
+   > “In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.” ([25.9 Regulation of Fluid Volume and Composition](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition), CC BY 4.0)
+   > “In contrast, acids release H+ in solution, making it more acidic.” ([2.4 Inorganic Compounds Essential to Human Functioning](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning), CC BY 4.0)
+
+#### Kidney collecting duct intercalated cell: Core (drafted; grade 13.5; `content/CL_1001432/tier2.md`)
+
+1. Kidney collecting duct intercalated cells help regulate blood pH, a measure of how acidic or basic the blood is. *(defines “pH”)*
+   > “Intercalated cells play significant roles in regulating blood pH.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “The pH of a solution indicates its acidity or basicity.” ([2.2 Water](https://openstax.org/books/biology-2e/pages/2-2-water), CC BY 4.0)
+2. Intercalated cells are one of the two distinct cell types in the kidney's collecting ducts, the tubes that gather urine as it forms. *(defines “collecting duct”)*
+   > “Solutes move across the membranes of the collecting ducts, which contain two distinct cell types, principal cells and intercalated cells.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “Each collecting duct collects forming urine from several nephrons” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+3. While principal cells, the other type, recover or lose sodium and potassium, intercalated cells secrete or absorb acid or bicarbonate, a substance that lowers the acidity of a solution. *(defines “bicarbonate”)*
+   > “Solutes move across the membranes of the collecting ducts, which contain two distinct cell types, principal cells and intercalated cells. A principal cell possesses channels for the recovery or loss of sodium and potassium. An intercalated cell secretes or absorbs acid or bicarbonate.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “Bicarbonate accepts some of the H+ protons, thereby reducing the acidity of the solution.” ([2.4 Inorganic Compounds Essential to Human Functioning](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning), CC BY 4.0)
+4. Intercalated cells have pumps that actively push hydrogen ions, which make liquids more acidic, into the urine forming in the ducts, so that the ions leave the body. *(defines “hydrogen ions”)*
+   > “In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.” ([25.9 Regulation of Fluid Volume and Composition](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition), CC BY 4.0)
+   > “In contrast, acids release H+ in solution, making it more acidic.” ([2.4 Inorganic Compounds Essential to Human Functioning](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning), CC BY 4.0)
+5. These pumps sit on the apical surfaces of intercalated cells, the sides that face the open space inside the ducts. *(defines “apical surface”)*
+   > “In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.” ([25.9 Regulation of Fluid Volume and Composition](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition), CC BY 4.0)
+   > “The apical surface is the one facing the lumen or open space of a cavity or tube” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+6. Intercalated cells also take back potassium and bicarbonate while secreting hydrogen ions; together, these actions make the blood less acidic and the urine more acidic.
+   > “Intercalated cells reabsorb K+ and HCO3– while secreting H+. This function lowers the acidity of the plasma while increasing the acidity of the urine.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+
+#### Kidney collecting duct principal cell: Plain (drafted; grade 8.5; `content/CL_1001431/tier1.md`)
+
+1. Principal cells help adjust how much water, sodium and potassium the body keeps.
+   > “principal cell: found in collecting ducts and possess channels for the recovery or loss of sodium and potassium; under the control of aldosterone; also have aquaporin channels under ADH control to regulate recovery of water” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+2. These cells line the collecting ducts, tubes in the kidney that carry urine. *(defines “collecting ducts”)*
+   > “When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “The papillae are bundles of collecting ducts that transport urine made by nephrons to the calyces of the kidney for excretion.” ([25.3 Gross Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney), CC BY 4.0)
+3. ADH, a hormone that tells the kidneys to take back water, makes principal cells add water channels. *(defines “ADH”)*
+   > “When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “antidiuretic hormone (ADH): hypothalamic hormone that is stored by the posterior pituitary and that signals the kidneys to reabsorb water” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+4. Another hormone, aldosterone, makes principal cells take back more sodium from the urine, and water follows the sodium. *(defines “aldosterone”)*
+   > “Aldosterone stimulates principal cells to manufacture luminal Na+ and K+ channels as well as Na+/K+ ATPase pumps on the basal membrane of the cells. When aldosterone output increases, more Na+ is recovered from the forming urine and water follows the Na+ passively.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “aldosterone: hormone produced and secreted by the adrenal cortex that stimulates sodium and fluid retention and increases blood volume and blood pressure” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+
+#### Kidney collecting duct principal cell: Core (drafted; grade 11.2; `content/CL_1001431/tier2.md`)
+
+1. Principal cells help control how much sodium, potassium and water the body keeps or loses.
+   > “principal cell: found in collecting ducts and possess channels for the recovery or loss of sodium and potassium; under the control of aldosterone; also have aquaporin channels under ADH control to regulate recovery of water” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+2. These cells line the collecting ducts, the kidney tubes that carry urine away for excretion. *(defines “collecting ducts”)*
+   > “When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “The papillae are bundles of collecting ducts that transport urine made by nephrons to the calyces of the kidney for excretion.” ([25.3 Gross Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney), CC BY 4.0)
+3. The duct lining is simple cuboidal or columnar epithelium, a single layer of cells that are either boxy or taller than they are wide. *(defines “simple cuboidal or columnar epithelium”)*
+   > “Collecting ducts merge as they descend deeper in the medulla to form about 30 terminal ducts, which empty at a papilla. They are lined with simple cuboidal or columnar epithelium with receptors for ADH.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “cuboidal (boxy, as wide as it is tall), or columnar (rectangular, taller than it is wide). Similarly, the number of cell layers in the tissue can be one—where every cell rests on the basal lamina—which is a simple epithelium” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+4. Principal cells respond to two hormones: ADH, which signals the kidneys to take back water, and aldosterone, which controls how much sodium is recovered. *(defines “ADH”)*
+   > “In addition to receptors for ADH, principal cells have receptors for the steroid hormone aldosterone. While ADH is primarily involved in the regulation of water recovery, aldosterone regulates Na+ recovery.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “antidiuretic hormone (ADH): hypothalamic hormone that is stored by the posterior pituitary and that signals the kidneys to reabsorb water” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+5. When stimulated by ADH, principal cells insert aquaporins, proteins that form water channels, into the membrane facing the inside of the duct. *(defines “aquaporins”)*
+   > “When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+   > “aquaporin: protein-forming water channels through the lipid bilayer of the cell; allows water to cross; activation in the collecting ducts is under the control of ADH” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+6. Water is then pulled out of the duct into the surrounding tissue and nearby blood capillaries, so the final urine is more concentrated.
+   > “If aquaporin water channels are present, water will be osmotically pulled from the collecting duct into the surrounding interstitial space and into the peritubular capillaries. Therefore, the final urine will be more concentrated.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+7. But when less ADH is released, fewer channels are inserted, less water is recovered, and the urine is dilute.
+   > “If less ADH is secreted, fewer aquaporin channels are inserted and less water is recovered, resulting in dilute urine.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+8. Aldosterone makes principal cells build channels and pumps that move sodium and potassium.
+   > “Aldosterone stimulates principal cells to manufacture luminal Na+ and K+ channels as well as Na+/K+ ATPase pumps on the basal membrane of the cells.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+9. When aldosterone rises, more sodium is recovered from the forming urine and water follows the sodium, while potassium is pumped into the urine.
+   > “When aldosterone output increases, more Na+ is recovered from the forming urine and water follows the Na+ passively. As the pump recovers Na+ for the body, it is also pumping K+ into the forming urine, since the pump moves K+ in the opposite direction.” ([25.6 Tubular Reabsorption](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption), CC BY 4.0)
+
+Dropped:
+- “Principal cells share the duct lining with a second cell type, intercalated cells, which release or absorb acid instead.” (checker: The quote is verbatim and supports two cell types sharing the duct and intercalated cells secreting or absorbing acid. 'Instead' adds a comparison the quote does not make: after sentence 0, it implies intercalated cells do not handle sodium, potassium or water. The same file says 'Intercalated cells reabsorb K+ and HCO3– while secreting H+'.)
+
+#### Leydig cell: Plain (drafted; grade 9.3; `content/CL_0000178/tier1.md`)
+
+1. A Leydig cell makes testosterone, a hormone that helps the body make sperm. *(defines “testosterone”)*
+   > “Leydig cells: cells between the seminiferous tubules of the testes that produce testosterone; a type of interstitial cell” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “testosterone: reproductive hormone in men that assists in sperm production and promoting secondary sexual characteristics” ([Chapter 43 Key Terms (Animal Reproduction and Development)](https://openstax.org/books/biology-2e/pages/43-key-terms), CC BY 4.0)
+2. Sperm form inside tubes in the testis called seminiferous tubules, while Leydig cells sit between these tubes. *(defines “seminiferous tubules”)*
+   > “A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis.” ([CL:0000178 Leydig cell](http://purl.obolibrary.org/obo/CL_0000178), CC BY 4.0)
+   > “seminiferous tubules: tube structures within the testes where spermatogenesis occurs” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. In a male embryo, testosterone from Leydig cells helps the male sex organs develop.
+   > “Testosterone produced by Leydig cells in the embryonic testis stimulates the development of male sexual organs.” ([27.3 Development of the Male and Female Reproductive Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems), CC BY 4.0)
+4. From adolescence on, Leydig cells make high levels of testosterone.
+   > “These cells produce high levels of testosterone once the male reaches adolescence.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Leydig cell: Core (drafted; grade 12.1; `content/CL_0000178/tier2.md`)
+
+1. A Leydig cell makes testosterone, a hormone that helps sperm mature and the reproductive system grow. *(defines “testosterone”)*
+   > “Testosterone, an androgen, is a steroid hormone produced by Leydig cells.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “testosterone: steroid hormone secreted by the testes and important in the maturation of sperm cells, growth and development of the reproductive system, and the development of secondary sex characteristics” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+2. Leydig cells are also called interstitial cells because they lie between the seminiferous tubules, which make up most of the testis and produce sperm. *(defines “seminiferous tubules”)*
+   > “The alternate term for Leydig cells, interstitial cells, reflects their location between the seminiferous tubules in the testes.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “Spermatogenesis, the production of sperm, occurs within the seminiferous tubules that make up most of the testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+3. Leydig cells make about 6 to 7 milligrams of testosterone a day.
+   > “The continued presence of testosterone is necessary to keep the male reproductive system working properly, and Leydig cells produce approximately 6 to 7 mg of testosterone per day.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. The male reproductive system needs this steady supply of testosterone to work properly.
+   > “The continued presence of testosterone is necessary to keep the male reproductive system working properly, and Leydig cells produce approximately 6 to 7 mg of testosterone per day.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+5. In a male embryo, Leydig cells release testosterone by the seventh week of development, and this early testosterone shapes the male sex organs.
+   > “In male embryos, testosterone is secreted by Leydig cells by the seventh week of development, with peak concentrations reached in the second trimester. This early release of testosterone results in the anatomical differentiation of the male sexual organs.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+6. Testosterone levels stay low in childhood but rise during puberty, bringing body changes and starting spermatogenesis, the formation of new sperm. *(defines “spermatogenesis”)*
+   > “In childhood, testosterone concentrations are low. They increase during puberty, activating characteristic physical changes and initiating spermatogenesis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+7. Testosterone in the blood also helps build muscle and bone and helps develop secondary sex characteristics, physical traits influenced by sex hormones. *(defines “secondary sex characteristics”)*
+   > “In addition to intratesticular secretion, testosterone is also released into the systemic circulation and plays an important role in muscle development, bone growth, the development of secondary sex characteristics, and maintaining libido (sex drive) in both males and females.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “secondary sex characteristics: physical characteristics that are influenced by sex steroid hormones and have supporting roles in reproductive function” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+8. Leydig cells respond to luteinizing hormone (LH), which the pituitary gland at the base of the brain releases into the blood. *(defines “pituitary gland”)*
+   > “GnRH then stimulates the anterior pituitary to secrete LH into the bloodstream. In the testis, LH binds to LH receptors on Leydig cells and stimulates the release of testosterone.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “pituitary gland: endocrine gland located at the base of the brain composed of an anterior and posterior region; also called hypophysis” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+9. On Leydig cells, LH binds to receptors, proteins that bind a hormone, and this triggers testosterone release. *(defines “receptor”)*
+   > “In the testis, LH binds to LH receptors on Leydig cells and stimulates the release of testosterone.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “hormone receptor: protein within a cell or on the cell membrane that binds a hormone, initiating the target cell response” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+10. In turn, rising testosterone levels affect the release of LH, and this lowers Leydig cell activity and testosterone production.
+   > “Increased levels of testosterone affect the release of both GnRH and LH, decreasing the activity of the Leydig cells, resulting in decreased testosterone and sperm production.” ([43.4 Hormonal Control of Human Reproduction](https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction), CC BY 4.0)
+
+#### Lung megakaryocyte: Plain (drafted; grade 9.3; `content/CL_4033018/tier1.md`)
+
+1. Megakaryocytes break apart to form platelets, small cell pieces that plug wounds to prevent blood loss. *(defines “platelets”)*
+   > “Platelets are formed from the disintegration of larger cells called megakaryocytes, like that shown in a.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+2. Lung megakaryocytes are megakaryocytes that live in the lung's connective tissue, a tissue that holds organs in place. *(defines “connective tissue”)*
+   > “A megakaryocyte that is resident in the lung connective tissue.” ([CL:4033018 lung megakaryocyte](http://purl.obolibrary.org/obo/CL_4033018), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Megakaryocytes are large cells with an enlarged nucleus.
+   > “Megakaryocytes are descended from myeloid stem cells (see ) and are large, typically 50–100 µm in diameter, and contain an enlarged, lobed nucleus.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
+#### Lung megakaryocyte: Core (drafted; grade 12.2; `content/CL_4033018/tier2.md`)
+
+1. Megakaryocytes break apart to form platelets, small cell fragments that collect at wounds and form a plug to prevent blood loss. *(defines “platelets”)*
+   > “Platelets are formed from the disintegration of larger cells called megakaryocytes, like that shown in a.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “platelet: (also, thrombocyte) small cellular fragment that collects at wounds, cross-reacts with clotting factors, and forms a plug to prevent blood loss” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+2. A lung megakaryocyte is a megakaryocyte that lives in the lung's connective tissue, the type of tissue that holds the body's organs in place and connects them. *(defines “connective tissue”)*
+   > “A megakaryocyte that is resident in the lung connective tissue.” ([CL:4033018 lung megakaryocyte](http://purl.obolibrary.org/obo/CL_4033018), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. A platelet is not a whole cell but a fragment of a megakaryocyte's cytoplasm, the material between the cell membrane and the nucleus, wrapped in membrane. *(defines “cytoplasm”)*
+   > “A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. Megakaryocytes are large cells, typically 50–100 µm across, with an enlarged, lobed nucleus.
+   > “Megakaryocytes are descended from myeloid stem cells (see ) and are large, typically 50–100 µm in diameter, and contain an enlarged, lobed nucleus.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+5. Megakaryocytes come from myeloid stem cells, which also give rise to red blood cells and several kinds of white blood cells.
+   > “Myeloid stem cells give rise to all the other formed elements, including the erythrocytes; megakaryocytes that produce platelets; and a myeloblast lineage that gives rise to monocytes and three forms of granular leukocytes: neutrophils, eosinophils, and basophils.” ([18.2 Production of the Formed Elements](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements), CC BY 4.0)
+6. Thrombopoietin, a substance made by the kidneys and liver, makes cells called megakaryoblasts multiply, and the megakaryoblasts then mature into megakaryocytes.
+   > “As noted earlier, thrombopoietin, a glycoprotein secreted by the kidneys and liver, stimulates the proliferation of megakaryoblasts, which mature into megakaryocytes.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
 #### Macrophage: Plain (drafted; grade 6.8; `content/CL_0000235/tier1.md`)
 
 1. A macrophage is a large cell that engulfs foreign particles and pathogens, agents that can cause disease. *(defines “pathogens”)*
@@ -1300,6 +2416,1468 @@ Dropped:
 9. They also stimulate T cells, white blood cells that physically attack foreign or diseased cells, to release cytokines that strengthen phagocytosis. *(defines “T cells”)*
    > “Macrophages stimulate T cells to release cytokines that enhance phagocytosis.” ([21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types), CC BY 4.0)
    > “T lymphocytes: (also, T cells) lymphocytes that provide cellular-level immunity by physically attacking foreign or diseased cells” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+
+#### Mast cell: Plain (drafted; grade 8.4; `content/CL_0000097/tier1.md`)
+
+1. A mast cell makes histamine and other molecules that promote inflammation, a basic immune response. *(defines “inflammation”)*
+   > “A mast cell is a leukocyte that produces inflammatory molecules, such as histamine, in response to large pathogens.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “inflammation: basic innate immune response characterized by heat, redness, pain, and swelling” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+2. Mature mast cells are found in all tissues except the bloodstream.
+   > “Mature mast cells are found in all tissues, except the bloodstream.” ([CL:0000097 mast cell](http://purl.obolibrary.org/obo/CL_0000097), CC BY 4.0)
+3. A mast cell holds histamine in many granules, small sacs wrapped in a membrane. *(defines “granules”)*
+   > “The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+4. When irritated, a mast cell releases histamine, which widens blood vessels and increases blood flow.
+   > “When irritated or damaged, mast cells release histamine, an inflammatory mediator, which causes vasodilation and increased blood flow” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+
+#### Mast cell: Core (drafted; grade 10; `content/CL_0000097/tier2.md`)
+
+1. A mast cell makes histamine and other molecules that promote inflammation, a basic immune response. *(defines “inflammation”)*
+   > “A mast cell is a leukocyte that produces inflammatory molecules, such as histamine, in response to large pathogens.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “inflammation: basic innate immune response characterized by heat, redness, pain, and swelling” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+2. In connective tissue, the tissue that holds in place and connects the body's organs, mast cells are among the most common cells. *(defines “connective tissue”)*
+   > “Numerous cell types are found in connective tissue. Three of the most common are the fibroblast, macrophage, and mast cell.” ([SEER Training Modules: Connective Tissue](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/connective.html), Free of copyright (NCI reuse policy))
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Mast cell precursors leave the bone marrow and mature in connective tissue and in mucosal tissue, the mucus-covered membranes that line tissues exposed to the outside. *(defines “mucosal tissue”)*
+   > “Progenitors leave bone marrow and mature in connective and mucosal tissue.” ([CL:0000097 mast cell](http://purl.obolibrary.org/obo/CL_0000097), CC BY 4.0)
+   > “mucous membrane: tissue membrane that is covered by protective mucous and lines tissue exposed to the outside environment” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. Once mature, mast cells are found in all tissues except the bloodstream.
+   > “Mature mast cells are found in all tissues, except the bloodstream.” ([CL:0000097 mast cell](http://purl.obolibrary.org/obo/CL_0000097), CC BY 4.0)
+5. Inside, a mast cell has many granules, which are stores of chemical signals. *(defines “granules”)*
+   > “The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+6. These granules contain histamine and heparin, a substance that works against blood clotting. *(defines “heparin”)*
+   > “The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “anticoagulant: substance such as heparin that opposes coagulation” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+7. When irritated or damaged, mast cells release histamine, which causes vasodilation, the widening of blood vessels, and increases blood flow. *(defines “vasodilation”)*
+   > “When irritated or damaged, mast cells release histamine, an inflammatory mediator, which causes vasodilation and increased blood flow” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “vasodilation: widening of blood vessels” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. Histamine also makes nearby capillaries, the smallest blood vessels, leakier, so fluid seeps out of these vessels. *(defines “capillaries”)*
+   > “Histamine also increases the permeability of local capillaries, causing plasma to leak out and form interstitial fluid.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+9. Basophils are white blood cells that release inflammatory chemicals, and mast cells were once thought to be basophils that had left the blood. *(defines “basophils”)*
+   > “In the past, mast cells were considered to be basophils that left the circulation.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “basophil: leukocyte that releases chemicals usually involved in the inflammatory response” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+10. However, the two cell types develop from different cell lines.
+   > “However, this appears not to be the case, as the two cell types develop from different lineages.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
+#### Melanocyte: Plain (drafted; grade 9.6; `content/CL_0000148/tier1.md`)
+
+1. A melanocyte is a cell that makes melanin, the pigment that gives skin and hair their color. *(defines “melanin”)*
+   > “The second is a melanocyte, a cell that produces the pigment melanin. Melanin gives hair and skin its color, and also helps protect the living cells of the epidermis from ultraviolet (UV) radiation damage.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “melanin: pigment that determines the color of hair and skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+2. Melanin also helps shield living cells in the epidermis, the skin's outer layer, from ultraviolet (UV) rays. *(defines “epidermis”)*
+   > “The second is a melanocyte, a cell that produces the pigment melanin. Melanin gives hair and skin its color, and also helps protect the living cells of the epidermis from ultraviolet (UV) radiation damage.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+3. In the skin, melanocytes are scattered through the stratum basale, the deepest layer of the epidermis. *(defines “stratum basale”)*
+   > “Recall that melanin is produced by cells called melanocytes, which are found scattered throughout the stratum basale of the epidermis.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “stratum basale: deepest layer of the epidermis, made of epidermal stem cells” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Sunlight leads melanocytes to make more melanin, which darkens the skin into a tan.
+   > “UV rays of the sun or a tanning salon causes melanin to be manufactured and built up in keratinocytes, as sun exposure stimulates keratinocytes to secrete chemicals that stimulate melanocytes. The accumulation of melanin in keratinocytes results in the darkening of the skin, or a tan.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Melanocyte: Core (drafted; grade 11.8; `content/CL_0000148/tier2.md`)
+
+1. A melanocyte is a cell that produces the pigment melanin, which gives hair and skin their color.
+   > “The second is a melanocyte, a cell that produces the pigment melanin. Melanin gives hair and skin its color, and also helps protect the living cells of the epidermis from ultraviolet (UV) radiation damage.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+2. Melanin also helps protect the living cells of the epidermis, the outermost layer of the skin, from ultraviolet (UV) radiation damage. *(defines “epidermis”)*
+   > “The second is a melanocyte, a cell that produces the pigment melanin. Melanin gives hair and skin its color, and also helps protect the living cells of the epidermis from ultraviolet (UV) radiation damage.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+3. In the skin, melanocytes are found scattered throughout the stratum basale, the deepest layer of the epidermis. *(defines “stratum basale”)*
+   > “Recall that melanin is produced by cells called melanocytes, which are found scattered throughout the stratum basale of the epidermis.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “stratum basale: deepest layer of the epidermis, made of epidermal stem cells” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Melanocytes arise from the neural crest, a tissue that migrates through the embryo and develops into parts of both nervous and other tissues. *(defines “neural crest”)*
+   > “Many tissues that are not part of the nervous system also arise from the neural crest, such as craniofacial cartilage and bone, and melanocytes.” ([13.1 The Embryologic Perspective](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective), CC BY 4.0)
+   > “neural crest: tissue that detaches from the edges of the neural groove and migrates through the embryo to develop into peripheral structures of both nervous and non-nervous tissues” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+5. Inside the melanocyte, melanin is made and stored in melanosomes, which are structures wrapped in a membrane. *(defines “melanosomes”)*
+   > “A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells.” ([GO:0042470 melanosome](http://purl.obolibrary.org/obo/GO_0042470), CC BY 4.0)
+6. Melanosomes carry melanin from melanocytes into keratinocytes, the most common cells of the epidermis. *(defines “keratinocytes”)*
+   > “melanosome: intercellular vesicle that transfers melanin from melanocytes into keratinocytes of the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+   > “keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+7. Sun exposure makes keratinocytes release chemicals that stimulate melanocytes, so more melanin is made and builds up in the keratinocytes.
+   > “Exposure to the UV rays of the sun or a tanning salon causes melanin to be manufactured and built up in keratinocytes, as sun exposure stimulates keratinocytes to secrete chemicals that stimulate melanocytes.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+8. This buildup of melanin darkens the skin, producing a tan.
+   > “The accumulation of melanin in keratinocytes results in the darkening of the skin, or a tan.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+9. The extra melanin also protects the DNA of epidermal cells from UV damage.
+   > “This increased melanin accumulation protects the DNA of epidermal cells from UV ray damage and the breakdown of folic acid, a nutrient necessary for our health and well-being.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Merkel cell: Plain (drafted; grade 7.2; `content/CL_0000242/tier1.md`)
+
+1. Merkel cells act as touch sensors, stimulating nerves whose signals the brain perceives as touch.
+   > “The first is a Merkel cell, which functions as a receptor and is responsible for stimulating sensory nerves that the brain perceives as touch.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+2. Merkel cells also sense the slow vibrations made when a finger drags across a textured surface.
+   > “If you drag your finger across a textured surface, the skin of your finger will vibrate. Such low frequency vibrations are sensed by mechanoreceptors called Merkel cells, also known as type I cutaneous mechanoreceptors.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+3. These cells lie in the epidermis, the outermost layer of the skin. *(defines “epidermis”)*
+   > “Merkel cells are located in the stratum basale of the epidermis.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+4. Merkel cells are especially common on the hands and feet.
+   > “The first is a Merkel cell, which functions as a receptor and is responsible for stimulating sensory nerves that the brain perceives as touch. These cells are especially abundant on the surfaces of the hands and feet.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Merkel cell: Core (drafted; grade 9.6; `content/CL_0000242/tier2.md`)
+
+1. A Merkel cell is a touch-sensing cell in the epidermis, the outermost layer of the skin. *(defines “epidermis”)*
+   > “Merkel cell: receptor cell in the stratum basale of the epidermis that responds to the sense of touch” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+   > “epidermis: outermost tissue layer of the skin” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+2. Merkel cells stimulate sensory nerves, and the brain perceives these nerve signals as touch.
+   > “The first is a Merkel cell, which functions as a receptor and is responsible for stimulating sensory nerves that the brain perceives as touch.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+3. Merkel cells are mechanoreceptors, receptors for physical stimuli such as pressure and vibration. *(defines “mechanoreceptors”)*
+   > “Such low frequency vibrations are sensed by mechanoreceptors called Merkel cells” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “Physical stimuli, such as pressure and vibration, as well as the sensation of sound and body position (balance), are interpreted through a mechanoreceptor.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+4. When a finger drags across a textured surface, the skin vibrates, and Merkel cells sense these low-frequency vibrations.
+   > “If you drag your finger across a textured surface, the skin of your finger will vibrate. Such low frequency vibrations are sensed by mechanoreceptors called Merkel cells, also known as type I cutaneous mechanoreceptors.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+5. Merkel cells lie in the stratum basale, the deepest layer of the epidermis. *(defines “stratum basale”)*
+   > “Merkel cells are located in the stratum basale of the epidermis.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “stratum basale: deepest layer of the epidermis, made of epidermal stem cells” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+6. There, Merkel cells are scattered among basal cells, stem cells that keep dividing to make new cells of the epidermis. *(defines “basal cells”)*
+   > “Two other cell types are found dispersed among the basal cells in the stratum basale. The first is a Merkel cell” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+   > “basal cell: type of stem cell found in the stratum basale and in the hair matrix that continually undergoes cell division, producing the keratinocytes of the epidermis” ([Chapter 5 Key Terms (The Integumentary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms), CC BY 4.0)
+7. Merkel cells are especially abundant on the surfaces of the hands and feet.
+   > “The first is a Merkel cell, which functions as a receptor and is responsible for stimulating sensory nerves that the brain perceives as touch. These cells are especially abundant on the surfaces of the hands and feet.” ([5.1 Layers of the Skin](https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin), CC BY 4.0)
+
+#### Mesothelial cell: Plain (drafted; grade 8.9; `content/CL_0000077/tier1.md`)
+
+1. Mesothelial cells make and release lubricants that cut friction between nearby tissues during movement.
+   > “This cell plays a crucial role in synthesizing and secreting lubricants, such as glycosaminoglycans and surfactants, which minimize friction between adjacent tissues during movement.” ([CL:0000077 mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077), CC BY 4.0)
+2. These flat cells form the mesothelium, the tissue that covers the major body cavities. *(defines “mesothelium”)*
+   > “A flat, squamous-like epithelial cell of mesodermal origin. It forms the mesothelium, which lines the body's serous cavities including the pleural, peritoneal, and pericardial spaces.” ([CL:0000077 mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077), CC BY 4.0)
+   > “mesothelium: simple squamous epithelial tissue which covers the major body cavities and is the epithelial portion of serous membranes” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. In the pleura, the membrane that covers the lungs, these cells release a fluid that cuts friction as we breathe. *(defines “pleura”)*
+   > “Pleural fluid is secreted by mesothelial cells from both pleural layers and acts to lubricate their surfaces. This lubrication reduces friction between the two layers to prevent trauma during breathing” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+   > “pleura: serous membrane that lines the pleural cavity and covers the lungs” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+4. Around the heart, the mesothelium releases a fluid that reduces friction as the heart contracts.
+   > “This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+
+#### Mesothelial cell: Core (drafted; grade 11; `content/CL_0000077/tier2.md`)
+
+1. Mesothelial cells secrete serous fluid, a lubricant that reduces rubbing and friction between organs. *(defines “serous fluid”)*
+   > “Serous fluid secreted by the cells of the thin squamous mesothelium lubricates the membrane and reduces abrasion and friction between organs.” ([4.1 Types of Tissues](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues), CC BY 4.0)
+2. Mesothelial cells form the mesothelium, the tissue that covers the major body cavities. *(defines “mesothelium”)*
+   > “A flat, squamous-like epithelial cell of mesodermal origin. It forms the mesothelium, which lines the body's serous cavities including the pleural, peritoneal, and pericardial spaces.” ([CL:0000077 mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077), CC BY 4.0)
+   > “mesothelium: simple squamous epithelial tissue which covers the major body cavities and is the epithelial portion of serous membranes” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. The mesothelium is a simple squamous epithelium: a single layer of flat, scale-like cells. *(defines “simple squamous epithelium”)*
+   > “The mesothelium is a simple squamous epithelium that forms the surface layer of the serous membrane that lines body cavities and internal organs.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “simple squamous epithelium: tissue that consists of a single layer of flat scale-like cells; promotes diffusion and filtration across surface” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. The mesothelium forms the smooth, protective surface layer of the serous membranes, which line body cavities and internal organs. *(defines “serous membranes”)*
+   > “The mesothelium is a simple squamous epithelium that forms the surface layer of the serous membrane that lines body cavities and internal organs. Its primary function is to provide a smooth and protective surface.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “serous membrane: type of tissue membrane that lines body cavities and lubricates them with serous fluid” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. In the pleura, the serous membrane covering the lungs, mesothelial cells on both of its layers secrete pleural fluid that lubricates the surfaces. *(defines “pleura”)*
+   > “Pleural fluid is secreted by mesothelial cells from both pleural layers and acts to lubricate their surfaces.” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+   > “pleura: serous membrane that lines the pleural cavity and covers the lungs” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+6. This lubrication reduces friction between the two layers during breathing and helps keep the lungs against the chest wall.
+   > “This lubrication reduces friction between the two layers to prevent trauma during breathing, and creates surface tension that helps maintain the position of the lungs against the thoracic wall.” ([22.2 The Lungs](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs), CC BY 4.0)
+7. Mesothelial cells also closely monitor the level of pleural fluid.
+   > “Too much or too little pleural fluid would hinder the creation of the negative intrapleural pressure; therefore, the level must be closely monitored by the mesothelial cells and drained by the lymphatic system.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+8. Around the heart, the mesothelium secretes serous fluid that reduces friction as the heart contracts.
+   > “This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+9. Mesothelial cells develop from the mesoderm, the middle layer of cells in the embryo. *(defines “mesoderm”)*
+   > “A flat, squamous-like epithelial cell of mesodermal origin.” ([CL:0000077 mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077), CC BY 4.0)
+   > “mesoderm: middle embryonic germ layer from which connective tissue, muscle tissue, and some epithelial tissue derive” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Monocyte: Plain (drafted; grade 8.9; `content/CL_0000576/tier1.md`)
+
+1. A monocyte is a white blood cell that gives rise to macrophages, cells that clean up dead and damaged cells. *(defines “macrophages”)*
+   > “Another leukocyte that is found in the peripheral blood is the monocyte. Monocytes give rise to phagocytic macrophages that clean up dead and damaged cells in the body, whether they are foreign or from the host animal.” ([33.2 Animal Primary Tissues](https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues), CC BY 4.0)
+2. Monocytes circulate in the blood and in lymph, a watery fluid that bathes tissues and organs. *(defines “lymph”)*
+   > “monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+3. When monocytes move into infected tissue, they turn into macrophages.
+   > “monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+4. Monocytes are usually easy to recognize by their large size and their indented or horseshoe-shaped nucleus.
+   > “They are typically easily recognized by their large size of 12–20 µm and indented or horseshoe-shaped nuclei.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
+#### Multiciliated columnar cell of tracheobronchial tree: Plain (drafted; grade 7.2; `content/CL_0002145/tier1.md`)
+
+1. Multiciliated cells help clear the airways of mucus, a sticky fluid that traps particles. *(defines “mucus”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface. These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+2. These cells line the trachea, or windpipe, and the bronchi, its branches leading to the lungs. *(defines “trachea”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs. It divides into the right and left bronchi at the level of the fifth thoracic vertebra, channeling air to the right or left lung.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+3. Each cell is column-shaped, with many cilia, short hair-like parts, on the side facing the airway. *(defines “cilia”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. The cilia beat together, moving the mucus up to the throat to be swallowed.
+   > “These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+
+#### Multiciliated columnar cell of tracheobronchial tree: Core (drafted; grade 10.3; `content/CL_0002145/tier2.md`)
+
+1. Multiciliated cells use their cilia, short hair-like parts, to help clear the airways. *(defines “cilia”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface. These cilia facilitate mucociliary clearance by moving mucus and trapped particles toward the pharynx.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “cilium: (plural = cilia) short, hair-like structure that extends from the plasma membrane in large numbers and functions to move an entire cell or move substances along the cell's outer surface” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+2. These cells line the trachea, or windpipe, which is the main airway to the lungs, and the bronchi that branch from the trachea. *(defines “trachea”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “The trachea, commonly called the windpipe, is the main airway to the lungs. It divides into the right and left bronchi at the level of the fifth thoracic vertebra, channeling air to the right or left lung.” ([SEER Training Modules: Larynx & Trachea](https://training.seer.cancer.gov/anatomy/respiratory/passages/larynx.html), Free of copyright (NCI reuse policy))
+3. Goblet cells in the same lining make mucus, a sticky fluid that traps particles. *(defines “mucus”)*
+   > “The trachea is lined with mucus-producing goblet cells and ciliated epithelia.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+   > “mucus: sticky protein-containing fluid secretion in the lung that traps particulate matter to be expelled from the body” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+4. Each multiciliated cell is column-shaped and carries many cilia on its apical surface, the side that faces the open airway. *(defines “apical surface”)*
+   > “A multi-ciliated epithelial cell located in the trachea and bronchi, characterized by a columnar shape and motile cilia on its apical surface.” ([CL:0002145 multiciliated columnar cell of tracheobronchial tree](http://purl.obolibrary.org/obo/CL_0002145), CC BY 4.0)
+   > “apical: that part of a cell or tissue which, in general, faces an open space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. Each cilium is a tiny extension of the cell's apical membrane, supported by microtubules, structural filaments made of a protein called tubulin. *(defines “microtubules”)*
+   > “Cilia are microscopic extensions of the apical cell membrane that are supported by microtubules.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+   > “The thickest of the three is the microtubule, a structural filament composed of subunits of a protein called tubulin.” ([3.2 The Cytoplasm and Cellular Organelles](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cytoplasm-and-cellular-organelles), CC BY 4.0)
+6. In each cilium, nine pairs of microtubules form a ring around a central pair, an arrangement called the 9 + 2 array.
+   > “flagella and cilia share a common structural arrangement of microtubules called a “9 + 2 array.” This is an appropriate name because a single flagellum or cilium is made of a ring of nine microtubule doublets, surrounding a single microtubule doublet in the center” ([4.5 The Cytoskeleton](https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton), CC BY 4.0)
+7. The cilia beat in unison and move mucus and particles back up to the throat, where the mucus is swallowed.
+   > “These cilia beat in unison and move mucus and particles out of the bronchi and bronchioles back up to the throat where it is swallowed and eliminated via the esophagus.” ([39.1 Systems of Gas Exchange](https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange), CC BY 4.0)
+8. This constant upward push of mucus gives the ciliated lining its name, the mucociliary escalator.
+   > “The ciliated epithelium of your airway forms a mucociliary escalator that sweeps particles of dust and pathogens trapped in the secreted mucus toward the throat. It is called an escalator because it continuously pushes mucus with trapped particles upward.” ([4.2 Epithelial Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue), CC BY 4.0)
+
+Dropped:
+- “Multiciliated cells belong to pseudostratified columnar epithelium, a single layer of cells that looks like several layers, in which only some cells have cilia.” (checker: The quote only says pseudostratified columnar epithelium is found in 'the respiratory tract', where some of its cells have cilia. It does not say that the trachea and bronchi, where this cell lives, are lined by it. The same A&P 2e section also puts simple ciliated columnar epithelium in 'parts of the respiratory system', so the quotes do not support 'Multiciliated cells belong to pseudostratified columnar epithelium'. SEER's trachea text says this for the trachea, but that sentence is not cited here.)
+
+#### Natural killer cell: Plain (drafted; grade 7.4; `content/CL_0000623/tier1.md`)
+
+1. Natural killer (NK) cells are white blood cells that kill cells infected with viruses.
+   > “natural killer (NK) cell: lymphocyte that can kill cells infected with viruses or tumor cells” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+2. NK cells constantly patrol the body, helping to control infections.
+   > “NK cells are constantly patrolling the body and are an effective mechanism for controlling potential infections and preventing cancer progression.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+3. NK cells spot infected cells by changes in MHC I, a surface protein on all cells with a nucleus. *(defines “MHC I”)*
+   > “NK cells identify intracellular infections, especially from viruses, by the altered expression of major histocompatibility complex (MHC) I molecules on the surface of infected cells.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “MHC I molecules are proteins on the surfaces of all nucleated cells” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+4. NK cells kill infected cells by triggering apoptosis, or programmed cell death. *(defines “apoptosis”)*
+   > “NK cells are a type of lymphocyte that have the ability to induce apoptosis, that is, programmed cell death, in cells infected with intracellular pathogens such as obligate intracellular bacteria and viruses.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+
+#### Natural killer cell: Core (drafted; grade 12.6; `content/CL_0000623/tier2.md`)
+
+1. Natural killer (NK) cells are lymphocytes, a type of white blood cell with a large nucleus, that kill cells infected with viruses. *(defines “lymphocytes”)*
+   > “natural killer (NK) cell: lymphocyte that can kill cells infected with viruses or tumor cells” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.” ([CL:0000542 lymphocyte](http://purl.obolibrary.org/obo/CL_0000542), CC BY 4.0)
+2. NK cells take part in the innate immune response, the body's rapid but relatively nonspecific defense. *(defines “innate immune response”)*
+   > “A fourth important lymphocyte is the natural killer cell, a participant in the innate immune response.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “innate immune response: rapid but relatively nonspecific immune response” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. An NK cell travels in the blood and carries cell-killing granules, small membrane-wrapped sacs that hold concentrated protein for release. *(defines “granules”)*
+   > “A natural killer cell (NK) is a circulating blood cell that contains cytotoxic (cell-killing) granules in its extensive cytoplasm.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+4. NK cells are always active, but normal MHC I molecules (proteins on the surface of all cells with a nucleus) on a healthy cell switch off the NK cell's killing sequence. *(defines “MHC I molecules”)*
+   > “NK cells are always active; an interaction with normal, intact MHC I molecules on a healthy cell disables the killing sequence, and the NK cell moves on.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “MHC I molecules are proteins on the surfaces of all nucleated cells, thus they are scarce on red blood cells and platelets which are non-nucleated.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+5. NK cells can, however, recognize and destroy virus-infected cells that lack MHC I molecules.
+   > “NK cells, however, can recognize virally infected class I-negative cells and destroy them.” ([21.5 The Immune Response against Pathogens](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-5-the-immune-response-against-pathogens), CC BY 4.0)
+6. An NK cell can induce apoptosis, a chain of events inside the target cell that causes the target cell's own death, in either of two ways. *(defines “apoptosis”)*
+   > “NK cells can induce apoptosis, in which a cascade of events inside the cell causes its own death by either of two mechanisms” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+7. In the first, the NK cell displays fas ligand, a surface molecule that binds to the fas molecule on the infected cell and sends that cell signals to undergo apoptosis.
+   > “NK cells are able to respond to chemical signals and express the fas ligand. The fas ligand is a surface molecule that binds to the fas molecule on the surface of the infected cell, sending it apoptotic signals, thus killing the cell and the pathogen within it” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+8. In the second, the NK cell's granules release perforins, proteins that form pores in the infected cell's membrane, and granzymes, which pass through those pores and trigger apoptosis from inside.
+   > “The granules of the NK cells release perforins and granzymes. A perforin is a protein that forms pores in the membranes of infected cells. A granzyme is a protein-digesting enzyme that enters the cell via the perforin pores and triggers apoptosis intracellularly.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+9. If an NK cell triggers apoptosis before a virus can make and assemble all its parts, no infectious virus is released from the infected cell, which prevents further infection.
+   > “If apoptosis is induced before the virus has the ability to synthesize and assemble all its components, no infectious virus will be released from the cell, thus preventing further infection.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+10. NK cells also help regulate immune responses by releasing cytokines, signaling molecules that let cells communicate over short distances, and by direct contact with other cells. *(defines “cytokines”)*
+   > “A lymphocyte that can spontaneously kill a variety of target cells without prior antigenic activation via germline encoded activation receptors and also regulate immune responses via cytokine release and direct contact with other cells.” ([CL:0000623 natural killer cell](http://purl.obolibrary.org/obo/CL_0000623), CC BY 4.0)
+   > “A cytokine is signaling molecule that allows cells to communicate with each other over short distances.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+
+#### Neutrophil: Plain (drafted; grade 9.1; `content/CL_0000775/tier1.md`)
+
+1. A neutrophil is a white blood cell that engulfs and digests pathogens, agents that can cause disease. *(defines “pathogens”)*
+   > “A neutrophil is also a phagocytic leukocyte that engulfs and digests pathogens.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. Neutrophils are drawn out of the bloodstream and into infected tissues.
+   > “A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. Neutrophils are the most common white blood cells and are first responders to infections, especially bacterial ones.
+   > “The most abundant leukocytes are the neutrophils, which are first responders to infections, especially with bacteria.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+
+Dropped:
+- “Each neutrophil has a nucleus with two to five lobes and holds many granules, tiny sacs each wrapped in a membrane.” (checker: Both quotes are verbatim, but the sentence claims more than they say. (1) The source says the nucleus 'may have two to five lobes, the number increasing with the age of the cell', and the next sentence says young neutrophils ('bands') only 'begin to develop lobes'. 'Each neutrophil has a nucleus with two to five lobes' turns that into a rule for every cell. (2) The defines quote is GO's definition of 'secretory granule' (GO:0030141), not of 'granules'. No cited quote says the neutrophil's granules are secretory granules, so 'each wrapped in a membrane' is not stated for them.)
+
+#### Neutrophil: Core (drafted; grade 13.2; `content/CL_0000775/tier2.md`)
+
+1. A neutrophil is a white blood cell that engulfs and digests pathogens, agents that can cause disease. *(defines “pathogens”)*
+   > “A neutrophil is also a phagocytic leukocyte that engulfs and digests pathogens.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “pathogen: agent with the ability to cause disease” ([Chapter 21 Key Terms (Viruses)](https://openstax.org/books/biology-2e/pages/21-key-terms), CC BY 4.0)
+2. Neutrophils respond rapidly to the site of an infection and are efficient phagocytes that prefer bacteria; a phagocyte is a cell that can surround and engulf a particle or another cell. *(defines “phagocytes”)*
+   > “Neutrophils are rapid responders to the site of infection and are efficient phagocytes with a preference for bacteria.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “A phagocyte is a cell that is able to surround and engulf a particle or cell, a process called phagocytosis.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. Neutrophils are drawn from the bloodstream into infected tissues by chemotaxis, which means movement in response to chemicals. *(defines “chemotaxis”)*
+   > “A neutrophil is a phagocytic cell that is attracted via chemotaxis from the bloodstream to infected tissues.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “This attracting of leukocytes occurs because of positive chemotaxis (literally “movement in response to chemicals”)” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+4. While macrophages, phagocytes found in several tissues, act like guards always on watch for infection, neutrophils are like reinforcements called into battle. *(defines “macrophages”)*
+   > “Whereas macrophages act like sentries, always on guard against infection, neutrophils can be thought of as military reinforcements that are called into a battle to hasten the destruction of the enemy.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “macrophage: ameboid phagocyte found in several tissues throughout the body” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+5. Neutrophils are the most common white blood cells, normally 50–70 percent of the total, and each neutrophil is 10–12 µm across, much larger than a red blood cell.
+   > “The most common of all the leukocytes, neutrophils will normally comprise 50–70 percent of total leukocyte count. They are 10–12 µm in diameter, significantly larger than erythrocytes.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+6. A neutrophil's nucleus has two to five lobes, more as the cell ages, and older neutrophils are often called polymorphonuclear, meaning having a nucleus with many forms. *(defines “polymorphonuclear”)*
+   > “The nucleus has a distinct lobed appearance and may have two to five lobes, the number increasing with the age of the cell. Older neutrophils have increasing numbers of lobes and are often referred to as polymorphonuclear (a nucleus with many forms)” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “polymorphonuclear: having a lobed nucleus, as seen in some leukocytes” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+7. A neutrophil is named for its many fine granules, stores of chemicals inside the cell, because the granules show up most clearly with chemically neutral stains. *(defines “granules”)*
+   > “They are called neutrophils because their granules show up most clearly with stains that are chemically neutral (neither acidic nor basic). The granules are numerous but quite fine and normally appear light lilac.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “These spherical cells are granulocytes. A granulocyte contains cytoplasmic granules, which in turn contain a variety of vasoactive mediators such as histamine.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+8. A neutrophil's granules hold lysozyme, which breaks down bacterial cell walls; chemicals such as hydrogen peroxide; and defensins, proteins that puncture the membranes of bacteria and fungi so that the contents of those cells leak out. *(defines “defensins”)*
+   > “Their granules include lysozyme, an enzyme capable of lysing, or breaking down, bacterial cell walls; oxidants such as hydrogen peroxide; and defensins, proteins that bind to and puncture bacterial and fungal plasma membranes, so that the cell contents leak out.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “defensins: antimicrobial proteins released from neutrophils and macrophages that create openings in the plasma membranes to kill cells” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+9. Neutrophils also contain lysosomes, the cell's digestive parts, which digest the pathogens a neutrophil engulfs. *(defines “lysosomes”)*
+   > “Neutrophils have a nucleus with two to five lobes, and they contain organelles, called lysosomes, that digest engulfed pathogens.” ([42.1 Innate Immune Response](https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response), CC BY 4.0)
+   > “lysosome: organelle in an animal cell that functions as the cell’s digestive component” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+10. Like the other granular white blood cells, neutrophils are made in the red bone marrow, the tissue inside bones, and live only hours to days. *(defines “bone marrow”)*
+   > “We will consider the granular leukocytes in order from most common to least common. All of these are produced in the red bone marrow and have a short lifespan of hours to days.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+
+#### Non-myelinating Schwann cell: Plain (drafted; grade 8.5; `content/CL_0002376/tier1.md`)
+
+1. A non-myelinating Schwann cell wraps around several thin axons, the parts of nerve cells that carry signals. *(defines “axons”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+2. As its name says, it does not coat these axons in myelin, a fatty insulating layer. *(defines “myelin”)*
+   > “The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. The non-myelinating Schwann cell is a glial cell, a cell that supports nerve cells. *(defines “glial cell”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “glia: (also, glial cells) cells that provide support functions for neurons” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. It works in the peripheral nervous system: every part of the nervous system except the brain and spinal cord. *(defines “peripheral nervous system”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+
+#### Non-myelinating Schwann cell: Core (drafted; grade 10; `content/CL_0002376/tier2.md`)
+
+1. A non-myelinating Schwann cell wraps around several small-diameter axons, the long extensions of nerve cells that conduct nerve impulses. *(defines “axons”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.” ([GO:0030424 axon](http://purl.obolibrary.org/obo/GO_0030424), CC BY 4.0)
+2. As its name says, it does not wrap these axons in myelin, a fatty insulating layer that surrounds many other axons and speeds up electrical signals. *(defines “myelin”)*
+   > “The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. The non-myelinating Schwann cell is a glial cell, one of the cells that support nerve cells. *(defines “glial cell”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “glia: (also, glial cells) cells that provide support functions for neurons” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+4. It works in the peripheral nervous system, which is every part of the nervous system except the brain and spinal cord. *(defines “peripheral nervous system”)*
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+5. Each non-myelinating Schwann cell is tucked in among the axons, separated from the nerve cell membranes by only tiny spaces.
+   > “The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+6. It also has a basal lamina, a thin layer outside the cell. *(defines “basal lamina”)*
+   > “The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+   > “basal lamina: thin extracellular layer that lies underneath epithelial cells and separates them from other tissues” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+7. A non-myelinating Schwann cell can survive even when no axon is present.
+   > “Cells can survive without an axon present.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+
+Dropped:
+- “Non-myelinating Schwann cells can also de-differentiate, or become less specialized, turning into immature Schwann cells.” (checker: Both quotes verbatim, and the CL quote supports de-differentiating into immature Schwann cells. But the 'defines' quote defines 'differentiation' (unspecialized cells becoming specialized), not 'de-differentiate'. The gloss 'become less specialized' is the drafter's reversal of that definition and is not stated in either quote.)
+
+#### Olfactory receptor cell: Plain (drafted; grade 9.3; `content/CL_0000207/tier1.md`)
+
+1. Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals so you can smell. *(defines “neuron”)*
+   > “Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.” ([CL:0000207 olfactory receptor cell](http://purl.obolibrary.org/obo/CL_0000207), CC BY 4.0)
+   > “neuron: specialized cell that can receive and transmit electrical and chemical signals” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. Olfactory receptor cells sit in the olfactory epithelium, a patch of tissue high in the nose. *(defines “olfactory epithelium”)*
+   > “The olfactory receptor neurons are located in a small region within the superior nasal cavity (). This region is referred to as the olfactory epithelium” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “olfactory epithelium: specialized tissue in the nasal cavity where olfactory receptors are located” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. Each cell has hair-like extensions called cilia that trap odor molecules. *(defines “cilia”)*
+   > “Each neuron has a single dendrite buried in the olfactory epithelium, and extending from this dendrite are 5 to 20 receptor-laden, hair-like cilia that trap odorant molecules.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+4. When the cell binds certain molecules you breathe in, it sends signals straight to the brain.
+   > “An olfactory receptor, which is a dendrite of a specialized neuron, responds when it binds certain molecules inhaled from the environment by sending impulses directly to the olfactory bulb of the brain.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+
+#### Olfactory receptor cell: Core (drafted; grade 9.8; `content/CL_0000207/tier2.md`)
+
+1. Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals for the sense of smell. *(defines “neuron”)*
+   > “Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.” ([CL:0000207 olfactory receptor cell](http://purl.obolibrary.org/obo/CL_0000207), CC BY 4.0)
+   > “neuron: specialized cell that can receive and transmit electrical and chemical signals” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+2. Olfactory receptor cells sit in the olfactory epithelium, a small patch of tissue high inside the nose. *(defines “olfactory epithelium”)*
+   > “The olfactory receptor neurons are located in a small region within the superior nasal cavity (). This region is referred to as the olfactory epithelium” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “olfactory epithelium: specialized tissue in the nasal cavity where olfactory receptors are located” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. Each of these cells is a bipolar neuron, which means two extensions reach out from its cell body. *(defines “bipolar neuron”)*
+   > “Olfactory neurons are bipolar neurons (neurons with two processes extending from the cell body).” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+4. Each cell has a single dendrite, a branch that takes in signals, buried in the olfactory epithelium. *(defines “dendrite”)*
+   > “Each neuron has a single dendrite buried in the olfactory epithelium” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “dendrite: one of many branchlike processes that extends from the neuron cell body and functions as a contact for incoming signals (synapses) from other neurons or sensory cells” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+5. From this dendrite, 5 to 20 hair-like cilia stick out and trap odor molecules. *(defines “cilia”)*
+   > “extending from this dendrite are 5 to 20 receptor-laden, hair-like cilia that trap odorant molecules” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+6. The cilia of each cell carry only one type of receptor, a protein that binds a specific molecule. *(defines “receptor”)*
+   > “Each olfactory sensory neuron has only one type of receptor on its cilia” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “receptor: protein molecule that contains a binding site for another specific molecule (called a ligand)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+7. Because of this, each cell is specialized to detect specific odor molecules.
+   > “Each olfactory sensory neuron has only one type of receptor on its cilia, and the receptors are specialized to detect specific odorants, so the bipolar neurons themselves are specialized.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+8. When the cell binds certain inhaled molecules, it sends signals directly to the olfactory bulb, a brain structure that receives smell signals. *(defines “olfactory bulb”)*
+   > “An olfactory receptor, which is a dendrite of a specialized neuron, responds when it binds certain molecules inhaled from the environment by sending impulses directly to the olfactory bulb of the brain.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “olfactory bulb: neural structure in the vertebrate brain that receives signals from olfactory receptors” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+9. Each cell reaches the olfactory bulb through a thin axon, a branch that carries signals away from the cell body. *(defines “axon”)*
+   > “Olfactory neurons project from the olfactory epithelium to the olfactory bulb as thin, unmyelinated axons.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+10. Olfactory receptor cells live only about one to four months, and new ones are made regularly.
+   > “The sensory neurons of the olfactory epithelium have a limited lifespan of approximately one to four months, and new ones are made on a regular basis.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+
+#### Osteoblast: Plain (drafted; grade 7.8; `content/CL_0000062/tier1.md`)
+
+1. Osteoblasts are the bone cells that build new bone.
+   > “osteoblast: bone cell responsible for bone formation” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. They are found in growing parts of bone, such as the periosteum, a bone's fibrous outer covering. *(defines “periosteum”)*
+   > “The osteoblast is the bone cell responsible for forming new bone and is found in the growing portions of bone, including the periosteum and endosteum.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “periosteum: fibrous membrane covering the outer surface of bone and continuous with ligaments” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+3. Osteoblasts release bone matrix, the nonliving material between cells, and add calcium to harden the matrix. *(defines “matrix”)*
+   > “Osteoblasts secrete the extracellular matrix and deposit calcium, which hardens the matrix.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “A nonliving material, called the intercellular matrix, fills the spaces between the cells.” ([SEER Training Modules: Body Tissues](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/), Free of copyright (NCI reuse policy))
+4. Once trapped in the hardened matrix, an osteoblast becomes an osteocyte, a mature bone cell. *(defines “osteocyte”)*
+   > “The osteoblasts secrete osteoid, uncalcified matrix, which calcifies (hardens) within a few days as mineral salts are deposited on it, thereby entrapping the osteoblasts within. Once entrapped, the osteoblasts become osteocytes” ([6.4 Bone Formation and Development](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development), CC BY 4.0)
+   > “osteocyte: mature bone cells and the main cell in bone tissue” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+
+#### Osteoblast: Core (drafted; grade 10.9; `content/CL_0000062/tier2.md`)
+
+1. Osteoblasts are the bone cells responsible for forming new bone, a process called ossification. *(defines “ossification”)*
+   > “osteoblast: bone cell responsible for bone formation” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+   > “ossification: (also, osteogenesis) process of bone formation by osteoblasts” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. They are found in the growing parts of bone, including the periosteum, the fibrous membrane that covers a bone's outer surface. *(defines “periosteum”)*
+   > “The osteoblast is the bone cell responsible for forming new bone and is found in the growing portions of bone, including the periosteum and endosteum.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “periosteum: fibrous membrane covering the outer surface of bone and continuous with ligaments” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+3. Osteoblasts are also found in the endosteum, the delicate lining of the cavity inside a bone. *(defines “endosteum”)*
+   > “The osteoblast is the bone cell responsible for forming new bone and is found in the growing portions of bone, including the periosteum and endosteum.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “The medullary cavity has a delicate membranous lining called the endosteum (end- = “inside”; oste- = “bone”), where bone growth, repair, and remodeling occur.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+4. Osteoblasts make and release calcium salts and bone matrix, the nonliving material that fills the spaces between cells. *(defines “matrix”)*
+   > “Osteoblasts, which do not divide, synthesize and secrete the collagen matrix and calcium salts.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “A nonliving material, called the intercellular matrix, fills the spaces between the cells.” ([SEER Training Modules: Body Tissues](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/), Free of copyright (NCI reuse policy))
+5. The matrix hardens as mineral salts are laid down on its collagen fibers, strong and flexible protein fibers that resist stretching. *(defines “collagen fibers”)*
+   > “Calcification is the process of deposition of mineral salts on the collagen fiber matrix that crystallizes and hardens the tissue.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “Protein fibers fall into three major groups: collagen fibers that are thick, strong, flexible, and resist stretch” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+6. As the matrix around an osteoblast hardens, the osteoblast becomes trapped inside and turns into an osteocyte, the main cell of mature bone. *(defines “osteocyte”)*
+   > “As the secreted matrix surrounding the osteoblast calcifies, the osteoblast becomes trapped within it; as a result, it changes in structure and becomes an osteocyte, the primary cell of mature bone and the most common type of bone cell.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+7. Because osteoblasts cannot divide, new ones develop from osteogenic cells, the only bone cells that divide. *(defines “osteogenic cells”)*
+   > “If osteoblasts and osteocytes are incapable of mitosis, then how are they replenished when old ones die? The answer lies in the properties of a third category of bone cells—the osteogenic cell.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “osteogenic cell: undifferentiated cell with high mitotic activity; the only bone cells that divide; they differentiate and develop into osteoblasts” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+8. While osteoblasts keep forming new bone, osteoclasts keep breaking down old bone, and the balance between these two cell types constantly reshapes bone in small ways.
+   > “Osteoclasts are continually breaking down old bone while osteoblasts are continually forming new bone. The ongoing balance between osteoblasts and osteoclasts is responsible for the constant but subtle reshaping of bone.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+9. When blood calcium is high, the hormone calcitonin makes osteoblasts more active, and they move calcium from the blood into the bone matrix.
+   > “Calcitonin is released from the thyroid gland in response to elevated blood levels of calcium. The hormone increases the activity of osteoblasts, which remove calcium from the blood and incorporate calcium into the bony matrix.” ([26.3 Electrolyte Balance](https://openstax.org/books/anatomy-and-physiology-2e/pages/26-3-electrolyte-balance), CC BY 4.0)
+10. Osteoblasts also make osteocalcin, which prompts cells in the pancreas to make more insulin, a hormone that lowers blood glucose levels. *(defines “insulin”)*
+   > “Osteocalcin, produced by osteoblasts, stimulates the pancreatic beta cells to increase insulin production.” ([17.10 Organs with Secondary Endocrine Functions](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-10-organs-with-secondary-endocrine-functions), CC BY 4.0)
+   > “insulin: hormone produced by the beta cells of the pancreas in response to high blood glucose levels; functions to lower blood glucose levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+
+#### Osteoclast: Plain (drafted; grade 5.6; `content/CL_0000092/tier1.md`)
+
+1. Osteoclasts are the cells that break down bone, a process called resorption. *(defines “resorption”)*
+   > “The cell responsible for bone resorption, or breakdown, is the osteoclast.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+2. They dissolve old or unneeded bone, and this can release calcium.
+   > “The dynamic nature of bone means that new tissue is constantly formed, and old, injured, or unnecessary bone is dissolved for repair or for calcium release. The cell responsible for bone resorption, or breakdown, is the osteoclast.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+3. Osteoclasts are found on bone surfaces and come from two types of white blood cells.
+   > “The cell responsible for bone resorption, or breakdown, is the osteoclast. They are found on bone surfaces, are multinucleated, and originate from monocytes and macrophages, two types of white blood cells, not from osteogenic cells.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+4. Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers. *(defines “nuclei”)*
+   > “Osteoclasts are large bone cells with up to 50 nuclei.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “The nucleus is generally considered the control center of the cell because it stores all of the genetic instructions for manufacturing proteins.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+
+#### Osteoclast: Core (drafted; grade 9.7; `content/CL_0000092/tier2.md`)
+
+1. Osteoclasts are the cells responsible for resorption, the breakdown of bone. *(defines “resorption”)*
+   > “The cell responsible for bone resorption, or breakdown, is the osteoclast.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+2. Osteoclasts keep breaking down old bone while osteoblasts keep forming new bone, and the balance between these two cell types constantly reshapes bone in small ways.
+   > “Osteoclasts are continually breaking down old bone while osteoblasts are continually forming new bone. The ongoing balance between osteoblasts and osteoclasts is responsible for the constant but subtle reshaping of bone.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+3. Osteoclasts are found on bone surfaces and come from monocytes and macrophages, two types of white blood cells.
+   > “The cell responsible for bone resorption, or breakdown, is the osteoclast. They are found on bone surfaces, are multinucleated, and originate from monocytes and macrophages, two types of white blood cells, not from osteogenic cells.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+4. Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers. *(defines “nuclei”)*
+   > “Osteoclasts are large bone cells with up to 50 nuclei.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “The nucleus is generally considered the control center of the cell because it stores all of the genetic instructions for manufacturing proteins.” ([3.3 The Nucleus and DNA Replication](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication), CC BY 4.0)
+5. Osteoclasts remove bone by releasing enzymes, which are proteins that speed up chemical reactions, along with acids. *(defines “enzymes”)*
+   > “Osteoclasts are large bone cells with up to 50 nuclei. They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+6. The enzymes and acids dissolve the bone's matrix, the nonliving material that fills the spaces between bone cells. *(defines “matrix”)*
+   > “Osteoclasts are large bone cells with up to 50 nuclei. They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+   > “A nonliving material, called the intercellular matrix, fills the spaces between the cells.” ([SEER Training Modules: Body Tissues](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/), Free of copyright (NCI reuse policy))
+7. Minerals freed from the matrix enter the blood, where they help control calcium levels in body fluids.
+   > “They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix. These minerals, released from bones into the blood, help regulate calcium concentrations in body fluids.” ([38.2 Bone](https://openstax.org/books/biology-2e/pages/38-2-bone), CC BY 4.0)
+8. When blood calcium is low, the parathyroid glands release parathyroid hormone (PTH), which makes osteoclasts multiply and work harder, so more calcium enters the blood. *(defines “parathyroid hormone (PTH)”)*
+   > “PTH stimulates osteoclast proliferation and activity. As a result, calcium is released from the bones into the circulation, thus increasing the calcium ion concentration in the blood.” ([6.6 Exercise, Nutrition, Hormones, and Bone Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue), CC BY 4.0)
+   > “parathyroid hormone (PTH): hormone produced by the parathyroid glands in response to low blood Ca2+ levels; functions to raise blood Ca2+ levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+9. In contrast, calcitonin, a hormone from the thyroid gland, makes osteoclasts less active and lowers the calcium level in the blood.
+   > “Calcitonin, a hormone secreted by the thyroid gland, has some effects that counteract those of PTH. Calcitonin inhibits osteoclast activity and stimulates calcium uptake by the bones, thus reducing the concentration of calcium ions in the blood.” ([6.6 Exercise, Nutrition, Hormones, and Bone Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue), CC BY 4.0)
+
+#### Osteocyte: Plain (drafted; grade 9.6; `content/CL_0000137/tier1.md`)
+
+1. Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material between cells. *(defines “matrix”)*
+   > “osteocyte: primary cell in mature bone; responsible for maintaining the matrix” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+   > “A nonliving material, called the intercellular matrix, fills the spaces between the cells.” ([SEER Training Modules: Body Tissues](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/), Free of copyright (NCI reuse policy))
+2. Each osteocyte sits in a space called a lacuna. *(defines “lacuna”)*
+   > “Each osteocyte is located in a space called a lacuna and is surrounded by bone tissue.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+3. Osteocytes send many extensions through channels called canaliculi to communicate and get nutrients. *(defines “canaliculi”)*
+   > “canaliculi: (singular = canaliculus) channels within the bone matrix that house one of an osteocyte’s many cytoplasmic extensions that it uses to communicate and receive nutrients” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+4. Osteoblasts, the cells that form new bone, become osteocytes once trapped in hardened matrix. *(defines “osteoblasts”)*
+   > “The osteoblasts secrete osteoid, uncalcified matrix, which calcifies (hardens) within a few days as mineral salts are deposited on it, thereby entrapping the osteoblasts within. Once entrapped, the osteoblasts become osteocytes” ([6.4 Bone Formation and Development](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development), CC BY 4.0)
+   > “osteoblast: cell responsible for forming new bone” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+
+#### Osteocyte: Core (drafted; grade 11; `content/CL_0000137/tier2.md`)
+
+1. Osteocytes are the main cells in mature bone, and they maintain its matrix, the nonliving material that fills the spaces between cells. *(defines “matrix”)*
+   > “osteocyte: primary cell in mature bone; responsible for maintaining the matrix” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+   > “A nonliving material, called the intercellular matrix, fills the spaces between the cells.” ([SEER Training Modules: Body Tissues](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/), Free of copyright (NCI reuse policy))
+2. Osteocytes keep up the mineral content of the matrix by releasing enzymes, which are proteins that speed up chemical reactions. *(defines “enzymes”)*
+   > “Osteocytes maintain the mineral concentration of the matrix via the secretion of enzymes.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+3. Each osteocyte sits in a space called a lacuna, surrounded by bone tissue. *(defines “lacuna”)*
+   > “Each osteocyte is located in a space called a lacuna and is surrounded by bone tissue.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+4. A cross-section of long bone typically shows osteocytes in rings around a central canal, a channel that holds blood vessels and nerves. *(defines “central canal”)*
+   > “The histology of transverse tissue from long bone shows a typical arrangement of osteocytes in concentric circles around a central canal.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “central canal: longitudinal channel in the center of each osteon; contains blood vessels, nerves, and lymphatic vessels; also known as the Haversian canal” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+5. Long extensions from each osteocyte run through canaliculi, channels in the bone matrix, so osteocytes can communicate with each other and receive nutrients. *(defines “canaliculi”)*
+   > “Like osteoblasts, osteocytes lack mitotic activity. They can communicate with each other and receive nutrients via long cytoplasmic processes that extend through canaliculi (singular = canaliculus), channels within the bone matrix.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+6. The canaliculi connect with those of other lacunae and finally with the central canal, so nutrients reach the osteocytes and their wastes are removed.
+   > “As described earlier, canaliculi connect with the canaliculi of other lacunae and eventually with the central canal. This system allows nutrients to be transported to the osteocytes and wastes to be removed from them.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+7. An osteocyte forms when an osteoblast, a bone-forming cell, becomes trapped in the surrounding matrix and changes in structure. *(defines “osteoblast”)*
+   > “As the secreted matrix surrounding the osteoblast calcifies, the osteoblast becomes trapped within it; as a result, it changes in structure and becomes an osteocyte, the primary cell of mature bone and the most common type of bone cell.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+   > “osteoblast: cell responsible for forming new bone” ([Chapter 6 Key Terms (Bone Tissue and the Skeletal System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-key-terms), CC BY 4.0)
+8. Like osteoblasts, osteocytes cannot divide.
+   > “Like osteoblasts, osteocytes lack mitotic activity.” ([6.3 Bone Structure](https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure), CC BY 4.0)
+
+#### Pancreatic A cell: Plain (drafted; grade 7.8; `content/CL_0000171/tier1.md`)
+
+1. The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels. *(defines “glucagon”)*
+   > “A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.” ([CL:0000171 pancreatic A cell](http://purl.obolibrary.org/obo/CL_0000171), CC BY 4.0)
+   > “glucagon: hormone produced by the alpha cells of the pancreas in response to low blood sugar; functions to raise blood sugar levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+2. This cell sits at the edge of the pancreatic islets, clusters of cells that release hormones. *(defines “pancreatic islets”)*
+   > “A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.” ([CL:0000171 pancreatic A cell](http://purl.obolibrary.org/obo/CL_0000171), CC BY 4.0)
+   > “Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+3. Alpha cells release glucagon when blood sugar drops, such as between meals or during exercise.
+   > “When blood glucose levels decline below normal levels, for example between meals or when glucose is utilized rapidly during exercise, the hormone glucagon is released from the alpha cells of the pancreas.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+4. Glucagon makes the liver send more sugar into the blood.
+   > “As blood glucose levels decline, alpha cells release glucagon to raise the blood glucose levels by increasing rates of glycogen breakdown and glucose release by the liver.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+
+#### Pancreatic A cell: Core (drafted; grade 10.4; `content/CL_0000171/tier2.md`)
+
+1. The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels. *(defines “glucagon”)*
+   > “A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.” ([CL:0000171 pancreatic A cell](http://purl.obolibrary.org/obo/CL_0000171), CC BY 4.0)
+   > “glucagon: hormone produced by the alpha cells of the pancreas in response to low blood sugar; functions to raise blood sugar levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+2. This cell lies at the edge of the pancreatic islets, or islets of Langerhans, which are clusters of cells in the pancreas that release hormones. *(defines “pancreatic islets”)*
+   > “A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.” ([CL:0000171 pancreatic A cell](http://purl.obolibrary.org/obo/CL_0000171), CC BY 4.0)
+   > “Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+3. Alpha cells make up about 20 percent of the cells in each islet.
+   > “The alpha cell produces the hormone glucagon and makes up approximately 20 percent of each islet.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+4. When blood glucose, the sugar the body uses for energy, drops between meals or during exercise, alpha cells release glucagon. *(defines “glucose”)*
+   > “When blood glucose levels decline below normal levels, for example between meals or when glucose is utilized rapidly during exercise, the hormone glucagon is released from the alpha cells of the pancreas.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+   > “The endocrine pancreas makes insulin so that the body can use glucose (sugar) for energy.” ([NCIT:C12393 Pancreas](http://purl.obolibrary.org/obo/NCIT_C12393), CC BY 4.0)
+5. Glucagon makes the liver break down glycogen, the stored form of glucose, and release more glucose into the blood. *(defines “glycogen”)*
+   > “As blood glucose levels decline, alpha cells release glucagon to raise the blood glucose levels by increasing rates of glycogen breakdown and glucose release by the liver.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “glycogen: form that glucose assumes when it is stored” ([Chapter 24 Key Terms (Metabolism and Nutrition)](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms), CC BY 4.0)
+6. Glucagon also makes the liver turn amino acids from the blood into new glucose; amino acids are the building blocks of proteins. *(defines “amino acids”)*
+   > “Glucagon also stimulates absorption of amino acids from the blood by the liver, which then converts them to glucose. This process of glucose synthesis is called gluconeogenesis.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+   > “amino acid: building block of proteins” ([Chapter 2 Key Terms (The Chemical Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms), CC BY 4.0)
+7. Rising blood glucose then holds back further glucagon release; this is negative feedback, a control that keeps a response from going too far. *(defines “negative feedback”)*
+   > “The activity of glucagon is regulated through a negative feedback mechanism; rising blood glucose levels inhibit further glucagon production and secretion.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+   > “negative feedback: homeostatic mechanism that tends to stabilize an upset in the body’s physiological condition by preventing an excessive response to a stimulus, typically as the stimulus is removed” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+8. Glucagon has the opposite effect of insulin, a pancreatic hormone that lowers blood glucose, and together the two keep blood glucose steady. *(defines “insulin”)*
+   > “its effect is the opposite of insulin; glucagon and insulin are a part of a negative-feedback system that stabilizes blood glucose levels” ([24.1 Overview of Metabolic Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions), CC BY 4.0)
+   > “insulin: hormone produced by the beta cells of the pancreas in response to high blood glucose levels; functions to lower blood glucose levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+
+Dropped:
+- “The pancreas itself is a long, slender organ that lies mostly behind the lower half of the stomach.” (checker: Quote verbatim, but it is about the pancreas, a different structure, not the A cell or its class. The sentence gives only the organ's shape and position and says nothing about this cell.)
+
+#### Pancreatic acinar cell: Plain (drafted; grade 8.8; `content/CL_0002064/tier1.md`)
+
+1. Pancreatic acinar cells release digestive enzymes, proteins that speed up chemical reactions in the body. *(defines “enzymes”)*
+   > “It consists of pancreatic acinar cells that secrete digestive enzymes into tiny ducts interwoven between the cells.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+2. These cells form small grape-like clusters, called acini, in the pancreas, an organ behind the stomach. *(defines “pancreas”)*
+   > “The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini), located at the terminal ends of pancreatic ducts. These acinar cells secrete enzyme-rich pancreatic juice into tiny merging ducts that form two dominant ducts.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+3. The enzymes help break down sugars, proteins and fats.
+   > “Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+4. Enzymes that digest protein are released in an inactive form, so they do not digest the pancreas.
+   > “The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+
+#### Pancreatic acinar cell: Core (drafted; grade 10.5; `content/CL_0002064/tier2.md`)
+
+1. A pancreatic acinar cell releases digestive enzymes, proteins that speed up chemical reactions in the body. *(defines “enzymes”)*
+   > “A secretory cell found in pancreatic acini that secretes digestive enzymes and mucins.” ([CL:0002064 pancreatic acinar cell](http://purl.obolibrary.org/obo/CL_0002064), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+2. These enzymes help digest sugars, proteins and fats.
+   > “Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+3. Acinar cells make up most of the pancreas, an organ behind the stomach, and send their enzymes into tiny ducts that run between the cells. *(defines “pancreas”)*
+   > “The exocrine portion is the major part of the gland. It consists of pancreatic acinar cells that secrete digestive enzymes into tiny ducts interwoven between the cells.” ([SEER Training Modules: Accessory Organs](https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html), Free of copyright (NCI reuse policy))
+   > “pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+4. The cells are grouped into small grape-like clusters, each called an acinus, at the ends of the pancreatic ducts. *(defines “acinus”)*
+   > “The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini), located at the terminal ends of pancreatic ducts. These acinar cells secrete enzyme-rich pancreatic juice into tiny merging ducts that form two dominant ducts.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+5. As makers of the pancreas's digestive enzymes, acinar cells contain many ribosomes, the cell structures that build proteins. *(defines “ribosomes”)*
+   > “Ribosomes are particularly abundant in cells that synthesize large amounts of protein. For example, the pancreas is responsible for creating several digestive enzymes and the cells that produce these enzymes contain many ribosomes.” ([4.3 Eukaryotic Cells](https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells), CC BY 4.0)
+   > “ribosome: cellular structure that carries out protein synthesis” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+6. The inside of each cell is packed with neat rows of rough endoplasmic reticulum, whose outer surface is dotted with ribosomes. *(defines “rough endoplasmic reticulum”)*
+   > “This cell is a typical zymogenic cell, have a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules.” ([CL:0002064 pancreatic acinar cell](http://purl.obolibrary.org/obo/CL_0002064), CC BY 4.0)
+   > “The rough (or granular) endoplasmic reticulum (ER) has ribosomes adhering to the outer surface” ([GO:0005791 rough endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0005791), CC BY 4.0)
+7. Each cell also contains dense secretory granules, small membrane-wrapped sacs filled with concentrated protein that will be released. *(defines “secretory granules”)*
+   > “This cell is a typical zymogenic cell, have a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules.” ([CL:0002064 pancreatic acinar cell](http://purl.obolibrary.org/obo/CL_0002064), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+8. The granules move toward the edge of the cell and, when stimulated, fuse with the cell's outer membrane to release their protein, a process called exocytosis. *(defines “exocytosis”)*
+   > “Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+   > “exocytosis: export of a substance out of a cell by formation of a membrane-bound vesicle” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+9. Enzymes that digest protein are released in inactive forms, because active ones would digest the pancreas itself.
+   > “The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+10. These enzymes become active in the duodenum, the first part of the small intestine. *(defines “duodenum”)*
+   > “The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.” ([23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder), CC BY 4.0)
+   > “duodenum: first part of the small intestine, which starts at the pyloric sphincter and ends at the jejunum” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Paneth cell of epithelium proper of small intestine: Plain (drafted; grade 9.2; `content/CL_1000344/tier1.md`)
+
+1. Paneth cells release lysozyme, a substance that kills bacteria by breaking down bacterial cell walls. *(defines “lysozyme”)*
+   > “Paneth | Intestinal glands | Secretion of the bactericidal enzyme lysozyme; phagocytosis” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “lysozyme—an enzyme that destroys bacteria by digesting their cell walls” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+2. Paneth cells can also surround and take in particles, a process called phagocytosis. *(defines “phagocytosis”)*
+   > “Paneth | Intestinal glands | Secretion of the bactericidal enzyme lysozyme; phagocytosis” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “A phagocyte is a cell that is able to surround and engulf a particle or cell, a process called phagocytosis.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+3. These cells sit in the intestinal glands, which lie in the lining of the small intestine. *(defines “intestinal glands”)*
+   > “Paneth | Intestinal glands | Secretion of the bactericidal enzyme lysozyme; phagocytosis” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “intestinal gland: (also, crypt of Lieberkühn) gland in the small intestinal mucosa that secretes intestinal juice” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Paneth cell of epithelium proper of small intestine: Core (drafted; grade 11.7; `content/CL_1000344/tier2.md`)
+
+1. Paneth cells release lysozyme, a substance that kills bacteria, and can also surround and engulf particles, a process called phagocytosis. *(defines “phagocytosis”)*
+   > “Paneth | Intestinal glands | Secretion of the bactericidal enzyme lysozyme; phagocytosis” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “A phagocyte is a cell that is able to surround and engulf a particle or cell, a process called phagocytosis.” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+2. Paneth cells belong to the epithelium of the small intestine, the tissue that lines the intestine. *(defines “epithelium”)*
+   > “A Paneth cell that is part of the epithelium proper of small intestine.” ([CL:1000344 paneth cell of epithelium proper of small intestine](http://purl.obolibrary.org/obo/CL_1000344), CC BY 4.0)
+   > “epithelial tissue: type of tissue that serves primarily as a covering or lining of body parts, protecting the body” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+3. Within this lining, Paneth cells sit in the intestinal glands, also called crypts of Lieberkühn. *(defines “intestinal glands”)*
+   > “Paneth | Intestinal glands | Secretion of the bactericidal enzyme lysozyme; phagocytosis” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “intestinal gland: (also, crypt of Lieberkühn) gland in the small intestinal mucosa that secretes intestinal juice” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Between the villi, small hair-like projections of the lining, deep crevices lead into these tube-shaped glands. *(defines “villi”)*
+   > “the mucosa between the villi is dotted with deep crevices that each lead into a tubular intestinal gland (crypt of Lieberkühn), which is formed by cells that line the crevices” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “small (0.5–1 mm long) hairlike vascularized projections called villi (singular = villus) that give the mucosa a furry texture” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+5. Lysozyme is an enzyme, a protein that speeds up chemical reactions, and it destroys bacteria by digesting the bacterial cell wall. *(defines “enzyme”)*
+   > “lysozyme—an enzyme that destroys bacteria by digesting their cell walls” ([21.2 Barrier Defenses and the Innate Immune Response](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+6. Together with other substances, lysozyme kills most of the bacteria that enter the alimentary canal, the digestive tube from mouth to anus. *(defines “alimentary canal”)*
+   > “Most bacteria that enter the alimentary canal are killed by lysozyme, defensins, HCl, or protein-digesting enzymes.” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+   > “alimentary canal: continuous muscular digestive tube that extends from the mouth to the anus” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+
+#### Parietal cell: Plain (drafted; grade 8.8; `content/CL_0000162/tier1.md`)
+
+1. A parietal cell makes hydrochloric acid, the digestive acid in the stomach. *(defines “hydrochloric acid”)*
+   > “hydrochloric acid (HCl): digestive acid secreted by parietal cells in the stomach” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. This acid kills much of the bacteria in food and helps get proteins ready for digestion.
+   > “The acidity also kills much of the bacteria you ingest with food and helps to denature proteins, making them more available for enzymatic digestion.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+3. A parietal cell also makes intrinsic factor, which the small intestine needs to absorb vitamin B12. *(defines “intrinsic factor”)*
+   > “It secretes hydrochloric acid into the stomach lumen and produces intrinsic factor, essential for vitamin B12 absorption.” ([CL:0000162 parietal cell](http://purl.obolibrary.org/obo/CL_0000162), CC BY 4.0)
+   > “intrinsic factor: glycoprotein required for vitamin B12 absorption in the small intestine” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+4. Parietal cells sit in the gastric glands, which make the stomach's digestive juice. *(defines “gastric glands”)*
+   > “Located primarily in the middle region of the gastric glands are parietal cells” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “mark the entry to each gastric gland, which secretes a complex digestive fluid referred to as gastric juice” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+
+#### Parietal cell: Core (drafted; grade 12.1; `content/CL_0000162/tier2.md`)
+
+1. A parietal cell secretes hydrochloric acid, the stomach's digestive acid, and makes intrinsic factor, which is essential for absorbing vitamin B12. *(defines “hydrochloric acid”)*
+   > “It secretes hydrochloric acid into the stomach lumen and produces intrinsic factor, essential for vitamin B12 absorption.” ([CL:0000162 parietal cell](http://purl.obolibrary.org/obo/CL_0000162), CC BY 4.0)
+   > “hydrochloric acid (HCl): digestive acid secreted by parietal cells in the stomach” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+2. Parietal cells lie mainly in the middle region of the gastric glands, which secrete a digestive fluid called gastric juice. *(defines “gastric glands”)*
+   > “Located primarily in the middle region of the gastric glands are parietal cells” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “mark the entry to each gastric gland, which secretes a complex digestive fluid referred to as gastric juice” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+3. Each parietal cell is pyramid-shaped and has abundant mitochondria, the cell parts that produce energy. *(defines “mitochondria”)*
+   > “This cell is characterized by its pyramidal shape, abundant mitochondria” ([CL:0000162 parietal cell](http://purl.obolibrary.org/obo/CL_0000162), CC BY 4.0)
+   > “mitochondrion: one of the cellular organelles bound by a double lipid bilayer that function primarily in the production of cellular energy (ATP)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. A parietal cell also has a network of canaliculi, narrow channels where the cell's surface membrane folds inward. *(defines “canaliculi”)*
+   > “A specialized network of intracellular canaliculi is a characteristic feature of parietal cells of the gastric mucosa in vertebrates.” ([GO:0046691 intracellular canaliculus](http://purl.obolibrary.org/obo/GO_0046691), CC BY 4.0)
+   > “An apical plasma membrane part that forms a narrow enfolded luminal membrane channel, lined with numerous microvilli, that appears to extend into the cytoplasm of the cell.” ([GO:0046691 intracellular canaliculus](http://purl.obolibrary.org/obo/GO_0046691), CC BY 4.0)
+5. Parietal cells secrete hydrogen ions and chloride ions, charged atoms that combine inside the stomach to form hydrochloric acid. *(defines “ions”)*
+   > “parietal cells—secrete hydrogen and chloride ions, which combine in the lumen to form hydrochloric acid, the primary acidic component of the stomach juices.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “ion: atom with an overall positive or negative charge” ([Chapter 2 Key Terms (The Chemical Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms), CC BY 4.0)
+6. This acid gives the stomach contents their high acidity and is needed to activate pepsin, which digests protein.
+   > “HCl is responsible for the high acidity (pH 1.5 to 3.5) of the stomach contents and is needed to activate the protein-digesting enzyme, pepsin.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+7. The acidity also kills much of the bacteria swallowed with food and helps denature proteins, making the proteins lose their shape and become easier to digest. *(defines “denature”)*
+   > “The acidity also kills much of the bacteria you ingest with food and helps to denature proteins, making them more available for enzymatic digestion.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “denaturation: loss of shape in a protein as a result of changes in temperature, pH, or chemical exposure” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+8. Without intrinsic factor, the intestine cannot absorb vitamin B12, which the body needs for making mature red blood cells and for normal nerve function.
+   > “The intestinal absorption of vitamin B12, which is necessary for both the production of mature red blood cells and normal neurological functioning, cannot occur without intrinsic factor.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+9. Intrinsic factor binds to vitamin B12 and protects the vitamin from digestion.
+   > “Intrinsic factor secreted in the stomach binds to vitamin B12, preventing its digestion and creating a complex that binds to mucosal receptors in the terminal ileum, where it is taken up by endocytosis.” ([23.7 Chemical Digestion and Absorption: A Closer Look](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look), CC BY 4.0)
+10. When food is present, the stomach releases gastrin, a hormone (chemical signal) that stimulates parietal cells to secrete acid. *(defines “hormone”)*
+   > “The main digestive hormone of the stomach is gastrin, which is secreted in response to the presence of food. Gastrin stimulates the secretion of gastric acid by the parietal cells of the stomach mucosa.” ([23.2 Digestive System Processes and Regulation](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation), CC BY 4.0)
+   > “hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+
+#### Peptic cell: Plain (drafted; grade 8.7; `content/CL_0000155/tier1.md`)
+
+1. A peptic cell, or chief cell, makes pepsin, an enzyme that digests protein in the stomach.
+   > “Protein digestion is mediated by an enzyme called pepsin in the stomach chamber. Pepsin is secreted by the chief cells in the stomach in an inactive form called pepsinogen.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. An enzyme is a protein that speeds up chemical reactions in the body. *(defines “enzyme”)*
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+3. Peptic cells sit mostly near the base of the gastric glands, which release a digestive fluid called gastric juice. *(defines “gastric glands”)*
+   > “Located primarily in the basal regions of gastric glands are chief cells, which secrete pepsinogen, the inactive proenzyme form of pepsin.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “A vast number of gastric pits dot the surface of the epithelium, giving it the appearance of a well-used pincushion, and mark the entry to each gastric gland, which secretes a complex digestive fluid referred to as gastric juice.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+4. Peptic cells release pepsin as pepsinogen, an inactive form that needs hydrochloric acid to become pepsin.
+   > “Located primarily in the basal regions of gastric glands are chief cells, which secrete pepsinogen, the inactive proenzyme form of pepsin. HCl is necessary for the conversion of pepsinogen to pepsin.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+
+#### Peptic cell: Core (drafted; grade 10.2; `content/CL_0000155/tier2.md`)
+
+1. A peptic cell, or chief cell, makes pepsin, an enzyme that digests protein in the stomach.
+   > “Protein digestion is mediated by an enzyme called pepsin in the stomach chamber. Pepsin is secreted by the chief cells in the stomach in an inactive form called pepsinogen.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+2. An enzyme is a protein that speeds up chemical reactions in the body. *(defines “enzyme”)*
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+3. Peptic cells lie mostly near the base of the gastric glands, tube-shaped glands in the stomach lining. *(defines “gastric glands”)*
+   > “Located primarily in the basal regions of gastric glands are chief cells, which secrete pepsinogen, the inactive proenzyme form of pepsin.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+   > “The mucosal lining of the stomach is simple columnar epithelium with numerous tubular gastric glands.” ([SEER Training Modules: Stomach](https://training.seer.cancer.gov/anatomy/digestive/regions/stomach.html), Free of copyright (NCI reuse policy))
+4. The secretions of peptic cells become part of gastric juice, the stomach's digestive fluid. *(defines “gastric juice”)*
+   > “The secretions of the exocrine gastric glands - composed of the mucous, parietal, and chief cells - make up the gastric juice.” ([SEER Training Modules: Stomach](https://training.seer.cancer.gov/anatomy/digestive/regions/stomach.html), Free of copyright (NCI reuse policy))
+   > “A vast number of gastric pits dot the surface of the epithelium, giving it the appearance of a well-used pincushion, and mark the entry to each gastric gland, which secretes a complex digestive fluid referred to as gastric juice.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+5. Peptic cells release pepsin in an inactive form called pepsinogen.
+   > “Pepsin is secreted by the chief cells in the stomach in an inactive form called pepsinogen.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+6. Making pepsin in this inactive form protects the peptic cells themselves, because pepsinogen does not work as an enzyme the way pepsin does.
+   > “First, as previously mentioned, the enzyme pepsin is synthesized in the inactive form. This protects the chief cells, because pepsinogen does not have the same enzyme functionality of pepsin.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+7. Hydrochloric acid, a digestive acid that parietal cells release, helps turn pepsinogen into pepsin. *(defines “hydrochloric acid”)*
+   > “Hydrochloric acid helps to convert the inactive pepsinogen to pepsin.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+   > “hydrochloric acid (HCl): digestive acid secreted by parietal cells in the stomach” ([Chapter 23 Key Terms (The Digestive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms), CC BY 4.0)
+8. Pepsin also helps activate more pepsinogen, which in turn generates more pepsin.
+   > “Pepsin breaks peptide bonds and cleaves proteins into smaller polypeptides; it also helps activate more pepsinogen, starting a positive feedback mechanism that generates more pepsin.” ([34.1 Digestive Systems](https://openstax.org/books/biology-2e/pages/34-1-digestive-systems), CC BY 4.0)
+9. Protein digestion starts in the stomach, where pepsin and hydrochloric acid break proteins into smaller polypeptides, chains of amino acids, which then travel to the small intestine. *(defines “polypeptides”)*
+   > “The digestion of protein starts in the stomach, where HCl and pepsin break proteins into smaller polypeptides, which then travel to the small intestine” ([23.7 Chemical Digestion and Absorption: A Closer Look](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look), CC BY 4.0)
+   > “polypeptide: chain of amino acids linked by peptide bonds” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+10. Peptic cells also make gastric lipase, an enzyme that breaks down triglycerides, which are commonly called fats. *(defines “triglycerides”)*
+   > “Gastric enzymes | Gastric lipase | Chief cells | Triglycerides | Fatty acids and monoacylglycerides” ([23.7 Chemical Digestion and Absorption: A Closer Look](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look), CC BY 4.0)
+   > “A triglyceride is one of the most common dietary lipid groups, and the type found most abundantly in body tissues. This compound, which is commonly referred to as a fat” ([2.5 Organic Compounds Essential to Human Functioning](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-5-organic-compounds-essential-to-human-functioning), CC BY 4.0)
+
+#### Pericyte: Plain (drafted; grade 9.2; `content/CL_0000669/tier1.md`)
+
+1. Pericytes help regrow and repair smooth muscle, the muscle in hollow organs and around blood vessels. *(defines “smooth muscle”)*
+   > “Pericytes allow smooth muscle cells to regenerate and repair much more readily than skeletal and cardiac muscle tissue.” ([10.9 Development and Regeneration of Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue), CC BY 4.0)
+   > “smooth muscle tissue: occurs in the walls of hollow organs such as the intestines, stomach, and urinary bladder, and around passages such as the respiratory tract and blood vessels” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. A pericyte is a stem cell, an unspecialized cell that can become specialized cells. *(defines “stem cell”)*
+   > “pericyte: stem cell that regenerates smooth muscle cells” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+   > “A stem cell is an unspecialized cell that can divide without limit as needed and can, under specific conditions, differentiate into specialized cells.” ([3.6 Cellular Differentiation](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation), CC BY 4.0)
+3. Pericytes are found in capillaries, the smallest blood vessels. *(defines “capillary”)*
+   > “Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells).” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+4. Pericytes are long cells that also wrap around arterioles, which are very small arteries. *(defines “arteriole”)*
+   > “An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “arteriole: (also, resistance vessel) very small artery that leads to a capillary” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+
+#### Pericyte: Core (drafted; grade 10; `content/CL_0000669/tier2.md`)
+
+1. Pericytes help regrow smooth muscle, the muscle in the walls of hollow organs and around blood vessels. *(defines “smooth muscle”)*
+   > “Smooth muscle tissue can regenerate from a type of stem cell called a pericyte, which is found in some small blood vessels.” ([10.9 Development and Regeneration of Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue), CC BY 4.0)
+   > “smooth muscle tissue: occurs in the walls of hollow organs such as the intestines, stomach, and urinary bladder, and around passages such as the respiratory tract and blood vessels” ([Chapter 38 Key Terms (The Musculoskeletal System)](https://openstax.org/books/biology-2e/pages/38-key-terms), CC BY 4.0)
+2. Thanks to pericytes, smooth muscle regrows and repairs much more readily than heart muscle or skeletal muscle, the muscle attached to bones. *(defines “skeletal muscle”)*
+   > “Pericytes allow smooth muscle cells to regenerate and repair much more readily than skeletal and cardiac muscle tissue.” ([10.9 Development and Regeneration of Muscle Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-9-development-and-regeneration-of-muscle-tissue), CC BY 4.0)
+   > “Skeletal muscle is attached to bones and its contraction makes possible locomotion, facial expressions, posture, and other voluntary movements of the body.” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+3. A pericyte is a type of stem cell, an unspecialized cell that can divide and become specialized cells. *(defines “stem cell”)*
+   > “pericyte: stem cell that regenerates smooth muscle cells” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+   > “A stem cell is an unspecialized cell that can divide without limit as needed and can, under specific conditions, differentiate into specialized cells.” ([3.6 Cellular Differentiation](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation), CC BY 4.0)
+4. A pericyte may become a fibroblast (a cell that releases protein fibers) or a smooth muscle cell. *(defines “fibroblast”)*
+   > “They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “fibroblast: most abundant cell type in connective tissue, secretes protein fibers and matrix into the extracellular space” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. A pericyte may also become a macrophage, a large cell that swallows up foreign particles. *(defines “macrophage”)*
+   > “They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “macrophage: large phagocytic cell that engulfs foreign particles and pathogens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+6. Pericytes are found in capillaries, the smallest blood vessels, where the wall lacks a true muscle layer. *(defines “capillary”)*
+   > “Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells).” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+7. Pericytes also wrap around arterioles, the very small arteries that lead to capillaries. *(defines “arteriole”)*
+   > “An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “arteriole: (also, resistance vessel) very small artery that leads to a capillary” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+8. Around arterioles, each pericyte lies outside the basement membrane, a thin layer of fibrous material. *(defines “basement membrane”)*
+   > “An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “basement membrane: in epithelial tissue, a thin layer of fibrous material that anchors the epithelial tissue to the underlying connective tissue; made up of the basal lamina and reticular lamina” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+9. Each pericyte is a long, contractile cell, meaning it can shorten with force. *(defines “contractile”)*
+   > “An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane.” ([CL:0000669 pericyte](http://purl.obolibrary.org/obo/CL_0000669), CC BY 4.0)
+   > “contractility: ability to shorten (contract) forcibly” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+
+#### Perineuronal satellite cell: Plain (drafted; grade 7.4; `content/CL_0000516/tier1.md`)
+
+1. Perineuronal satellite cells give nerve cells nutrients and structural support.
+   > “Satellite glia provide nutrients and structural support for neurons in the PNS.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+2. These satellite cells are found in ganglia, groups of nerve cells outside the brain and spinal cord. *(defines “ganglia”)*
+   > “Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “The PNS is composed of the groups of neurons (ganglia) and bundles of axons (nerves) that are outside of the brain and spinal cord.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+3. There, satellite cells surround the cell body, the main part of each nerve cell. *(defines “cell body”)*
+   > “A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.” ([CL:0000516 perineuronal satellite cell](http://purl.obolibrary.org/obo/CL_0000516), CC BY 4.0)
+   > “the main part of a neuron is the cell body, which is also known as the soma” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+4. This arrangement, as seen under a microscope, gave satellite cells their name.
+   > “Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons. This accounts for the name, based on their appearance under the microscope.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+
+#### Perineuronal satellite cell: Core (drafted; grade 9.8; `content/CL_0000516/tier2.md`)
+
+1. Perineuronal satellite cells supply neurons, the nerve cells that carry electrical signals, with nutrients and structural support. *(defines “neurons”)*
+   > “Satellite glia provide nutrients and structural support for neurons in the PNS.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+   > “neuron: neural tissue cell that is primarily responsible for generating and propagating electrical signals into, within, and out of the nervous system” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+2. Satellite cells are glial cells, the cells that provide a framework of tissue to support neurons. *(defines “glial cells”)*
+   > “satellite cell: glial cell type in the PNS that provides support for neurons in the ganglia” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+   > “A glial cell is one of a variety of cells that provide a framework of tissue that supports the neurons and their activities.” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+3. Satellite cells are one of the two kinds of glial cells in the peripheral nervous system (PNS): everything except the brain and spinal cord, which form the central nervous system (CNS). *(defines “peripheral nervous system”)*
+   > “One of the two types of glial cells found in the PNS is the satellite cell.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “The central nervous system (CNS) is the brain and spinal cord, and the peripheral nervous system (PNS) is everything else” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+4. In the PNS, satellite cells do much the same support work that astrocytes, star-shaped cells, do in the CNS. *(defines “astrocytes”)*
+   > “They provide support, performing similar functions in the periphery as astrocytes do in the CNS—except, of course, for establishing the BBB.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “astrocyte: star-shaped cell in the central nervous system that regulates ions and uptake and/or breakdown of some neurotransmitters and contributes to the formation of the blood-brain barrier” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+5. Satellite cells surround the cell bodies of neurons, the parts that contain each neuron's nucleus. *(defines “cell bodies”)*
+   > “A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.” ([CL:0000516 perineuronal satellite cell](http://purl.obolibrary.org/obo/CL_0000516), CC BY 4.0)
+   > “soma: in neurons, that portion of the cell that contains the nucleus; the cell body, as opposed to the cell processes (axons and dendrites)” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+6. Satellite cells do this inside ganglia, which are clusters of neuron cell bodies in the PNS. *(defines “ganglia”)*
+   > “A non-neuronal cell that surrounds the neuronal cell bodies of the ganglia.” ([CL:0000516 perineuronal satellite cell](http://purl.obolibrary.org/obo/CL_0000516), CC BY 4.0)
+   > “In the PNS, a cluster of neuron cell bodies is referred to as a ganglion.” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+7. In a dorsal root ganglion, the most common type of sensory ganglion, smaller satellite cells surround the large cell bodies of sensory neurons. *(defines “dorsal root ganglion”)*
+   > “If you zoom in on the dorsal root ganglion, you can see smaller satellite glial cells surrounding the large cell bodies of the sensory neurons.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+   > “The most common type of sensory ganglion is a dorsal (posterior) root ganglion.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+8. The small, round nuclei of satellite cells can be seen ringing the neuron cell bodies, as if orbiting them.
+   > “Also, the small round nuclei of satellite cells can be seen surrounding—as if they were orbiting—the neuron cell bodies.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+9. This appearance under the microscope is what gives satellite cells their name.
+   > “Satellite cells are found in sensory and autonomic ganglia, where they surround the cell bodies of neurons. This accounts for the name, based on their appearance under the microscope.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+10. Satellite cells develop from the neural crest, tissue in the embryo that migrates to form structures of the PNS. *(defines “neural crest”)*
+   > “They derive from the neural crest.” ([13.4 The Peripheral Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system), CC BY 4.0)
+   > “Tissues at the edges of the neural groove, when it closes off, are called the neural crest and migrate through the embryo to give rise to PNS structures as well as some non-nervous tissues.” ([13.1 The Embryologic Perspective](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective), CC BY 4.0)
+
+#### Plasma cell: Plain (drafted; grade 9.4; `content/CL_0000786/tier1.md`)
+
+1. A plasma cell releases antibodies, proteins that protect the body by binding to foreign objects such as bacteria and viruses. *(defines “antibodies”)*
+   > “plasma cell: immune cell that secrets antibodies; these cells arise from B cells that were stimulated by antigens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. Plasma cells often move to the bone marrow, the tissue inside bones where blood cells develop. *(defines “bone marrow”)*
+   > “Plasma cells often leave the secondary lymphoid organs, where the response is generated, and migrate back to the bone marrow, where the whole differentiation process started.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+   > “bone marrow: tissue found inside bones; the site of all blood cell differentiation and maturation of B lymphocytes” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. Plasma cells form from activated B cells, immune cells whose main job is making antibodies. *(defines “B cells”)*
+   > “After B cells are activated by their binding to antigen, they differentiate into plasma cells.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+   > “B cells are immune cells that function primarily by producing antibodies.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+4. A plasma cell is packed with rough endoplasmic reticulum, the part of a cell that makes proteins. *(defines “rough endoplasmic reticulum”)*
+   > “These cells differ in morphology from standard B and T cells in that they contain a large amount of cytoplasm packed with the protein-synthesizing machinery known as rough endoplasmic reticulum.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+
+#### Plasma cell: Core (drafted; grade 11.1; `content/CL_0000786/tier2.md`)
+
+1. A plasma cell is an immune cell that releases antibodies, proteins that protect the body by binding to foreign objects such as bacteria and viruses. *(defines “antibodies”)*
+   > “plasma cell: immune cell that secrets antibodies; these cells arise from B cells that were stimulated by antigens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+   > “antibodies: (also, immunoglobulins or gamma globulins) antigen-specific proteins produced by specialized B lymphocytes that protect the body by binding to foreign objects such as bacteria and viruses” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+2. Plasma cells often leave the secondary lymphoid organs, the sites of immune responses such as the lymph nodes and spleen, and move to the bone marrow. *(defines “secondary lymphoid organs”)*
+   > “Plasma cells often leave the secondary lymphoid organs, where the response is generated, and migrate back to the bone marrow, where the whole differentiation process started.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+   > “secondary lymphoid organs: sites where lymphocytes mount adaptive immune responses; examples include lymph nodes and spleen” ([Chapter 21 Key Terms (The Lymphatic and Immune System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms), CC BY 4.0)
+3. Plasma cells are also found in connective tissue, the tissue that holds the body's organs in place. *(defines “connective tissue”)*
+   > “Macrophages, mast cells, lymphocytes, plasma cells, and phagocytic cells are found in connective tissue proper but are actually part of the immune system protecting the body.” ([4.3 Connective Tissue Supports and Protects](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects), CC BY 4.0)
+   > “connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+4. A plasma cell develops from a B cell, an immune cell whose main job is making antibodies. *(defines “B cell”)*
+   > “After B cells are activated by their binding to antigen, they differentiate into plasma cells.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+   > “B cells are immune cells that function primarily by producing antibodies.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+5. Binding to an antigen, a foreign protein that triggers an immune response, turns the B cell into a plasma cell. *(defines “antigen”)*
+   > “A plasma cell is a B cell that has differentiated in response to antigen binding, and has thereby gained the ability to secrete soluble antibodies.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “antigen: foreign or “non-self” protein that triggers the immune response” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+6. Unlike an ordinary B cell, a plasma cell has a large amount of cytoplasm, the material between the cell membrane and the nucleus. *(defines “cytoplasm”)*
+   > “These cells differ in morphology from standard B and T cells in that they contain a large amount of cytoplasm packed with the protein-synthesizing machinery known as rough endoplasmic reticulum.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+7. This cytoplasm is packed with rough endoplasmic reticulum, the cell's protein-making machinery. *(defines “rough endoplasmic reticulum”)*
+   > “These cells differ in morphology from standard B and T cells in that they contain a large amount of cytoplasm packed with the protein-synthesizing machinery known as rough endoplasmic reticulum.” ([21.1 Anatomy of the Lymphatic and Immune Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems), CC BY 4.0)
+8. The antibodies of a plasma cell have exactly the same antigen-binding site as those of the B cell that formed it.
+   > “The antibodies of the plasma cell have the exact same antigen-binding site and specificity as their B cell precursors.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+9. Released antibodies circulate freely and act independently of the plasma cells that made them.
+   > “Antibodies circulate freely and act independently of plasma cells.” ([42.3 Antibodies](https://openstax.org/books/biology-2e/pages/42-3-antibodies), CC BY 4.0)
+10. After releasing antibodies for a set period, a plasma cell dies, because most of the cell's energy goes into making antibodies, not into maintaining itself.
+   > “After secreting antibodies for a specific period, they die, as most of their energy is devoted to making antibodies and not to maintaining themselves.” ([21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies](https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies), CC BY 4.0)
+
+#### Platelet: Plain (drafted; grade 8; `content/CL_0000233/tier1.md`)
+
+1. Platelets help seal a torn blood vessel and stop further blood loss.
+   > “Platelets are key players in hemostasis, the process by which the body seals a ruptured blood vessel and prevents further loss of blood.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+2. At the damaged spot, many platelets stick together to form a plug.
+   > “Many platelets converge and stick together at the wound site forming a platelet plug” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+3. A platelet is not a whole cell but a piece of a bone marrow cell called a megakaryocyte. *(defines “megakaryocyte”)*
+   > “A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “megakaryocyte: bone marrow cell that produces platelets” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+4. Many platelets are stored in the spleen, a blood-filtering organ, while others travel in the bloodstream. *(defines “spleen”)*
+   > “While many platelets are stored in the spleen, others enter the circulation and are essential for hemostasis” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “The organ that functions to filter blood and to store red corpuscles and platelets.” ([UBERON:0002106 spleen](http://purl.obolibrary.org/obo/UBERON_0002106), CC BY 3.0)
+
+#### Platelet: Core (drafted; grade 11.2; `content/CL_0000233/tier2.md`)
+
+1. Platelets play a key part in hemostasis, the way the body seals a torn blood vessel and stops further blood loss. *(defines “hemostasis”)*
+   > “Platelets are key players in hemostasis, the process by which the body seals a ruptured blood vessel and prevents further loss of blood.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+2. A platelet is not a true cell but a membrane-wrapped fragment of a megakaryocyte, a bone marrow cell that makes platelets. *(defines “megakaryocyte”)*
+   > “A platelet is not a cell but rather a fragment of the cytoplasm of a cell called a megakaryocyte that is surrounded by a plasma membrane.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “megakaryocyte: bone marrow cell that produces platelets” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+3. After platelets enter the blood, about one-third move to the spleen, an organ that filters blood, and are stored there for release when a blood vessel tears. *(defines “spleen”)*
+   > “Platelets are relatively small, 2–4 µm in diameter, but numerous, with typically 150,000–160,000 per µL of blood. After entering the circulation, approximately one-third migrate to the spleen for storage for later release in response to any rupture in a blood vessel.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “The organ that functions to filter blood and to store red corpuscles and platelets.” ([UBERON:0002106 spleen](http://purl.obolibrary.org/obo/UBERON_0002106), CC BY 3.0)
+4. Each platelet is a disc 2 to 4 micrometers across that holds many small vesicles, or membrane-bound sacs, but no nucleus. *(defines “vesicle”)*
+   > “Each platelet is disc shaped and 2–4 μm in diameter. They contain many small vesicles but do not contain a nucleus.” ([40.2 Components of the Blood](https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood), CC BY 4.0)
+   > “vesicle: small, membrane-bound sac that functions in cellular storage and transport” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+5. At a torn vessel, platelets clump together, turn spiky and sticky, and bind to the exposed vessel wall.
+   > “platelets, which normally float free in the plasma, encounter the area of vessel rupture with the exposed underlying connective tissue and collagenous fibers. The platelets begin to clump together, become spiked and sticky, and bind to the exposed collagen and endothelial lining.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+6. This mass of stuck platelets, called a platelet plug, can seal a small hole in a vessel for a short time while longer-lasting repairs are made. *(defines “platelet plug”)*
+   > “A platelet plug can temporarily seal a small opening in a blood vessel. Plug formation, in essence, buys the body time while more sophisticated and durable repairs are being made.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+   > “platelet plug: accumulation and adhesion of platelets at the site of blood vessel injury” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+7. As platelets gather, they release chemicals from their granules, small vesicles that hold material for release, and these chemicals further help stop the bleeding. *(defines “granules”)*
+   > “As platelets collect, they simultaneously release chemicals from their granules into the plasma that further contribute to hemostasis.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+8. Along with the liver, platelets are the main source of clotting factors, the substances active in blood clotting. *(defines “clotting factors”)*
+   > “Clotting factors are secreted primarily by the liver and the platelets.” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+   > “clotting factors: group of 12 identified substances active in coagulation” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+9. Once a clot forms, proteins inside the platelets contract and tug on the clot's fibrin threads, the protein strands that make up the clot, drawing its edges more tightly together. *(defines “fibrin”)*
+   > “The stabilized clot is acted upon by contractile proteins within the platelets. As these proteins contract, they pull on the fibrin threads, bringing the edges of the clot more tightly together” ([18.5 Hemostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis), CC BY 4.0)
+   > “fibrin: insoluble, filamentous protein that forms the structure of a blood clot” ([Chapter 18 Key Terms (The Cardiovascular System: Blood)](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms), CC BY 4.0)
+10. Platelets also release growth factors, molecules that bind to cells and stimulate cell growth, and these factors are essential for tissue growth and repair. *(defines “growth factors”)*
+   > “Platelets are critical to hemostasis, the stoppage of blood loss following damage to a vessel. They also secrete a variety of growth factors essential for growth and repair of tissue, particularly connective tissue.” ([18.4 Leukocytes and Platelets](https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets), CC BY 4.0)
+   > “growth factor: ligand that binds to cell-surface receptors and stimulates cell growth” ([Chapter 9 Key Terms (Cell Communication)](https://openstax.org/books/biology-2e/pages/9-key-terms), CC BY 4.0)
+
+#### Podocyte: Plain (drafted; grade 8.4; `content/CL_0000653/tier1.md`)
+
+1. Podocytes wrap finger-like arms around capillaries, the smallest blood vessels, to help form a filter. *(defines “capillaries”)*
+   > “pedicels: finger-like projections of podocytes surrounding glomerular capillaries; interdigitate to form a filtration membrane” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Podocytes are kidney cells inside a glomerulus, a tuft of capillaries that filters blood. *(defines “glomerulus”)*
+   > “A specialized kidney epithelial cell, contained within a glomerulus, that contains "feet" that interdigitate with the "feet" of other podocytes.” ([CL:0000653 podocyte](http://purl.obolibrary.org/obo/CL_0000653), CC BY 4.0)
+   > “glomerulus: tuft of capillaries surrounded by Bowman’s capsule; filters the blood based on size” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+3. Some plasma, the liquid part of blood, filters out through small gaps between the arms. *(defines “plasma”)*
+   > “These projections interdigitate to form filtration slits, leaving small gaps between the digits to form a sieve. As blood passes through the glomerulus, 10 to 20 percent of the plasma filters between these sieve-like fingers to be captured by Bowman’s capsule and funneled to the PCT.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “plasma: liquid component of blood that is left after the cells are removed” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+4. But blood cells and medium-to-large proteins cannot pass between the arms.
+   > “Recall that cells and the medium-to-large proteins cannot pass between the podocyte processes or through the fenestrations of the capillary endothelial cells.” ([25.5 Physiology of Urine Formation](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation), CC BY 4.0)
+
+#### Podocyte: Core (drafted; grade 12; `content/CL_0000653/tier2.md`)
+
+1. A podocyte wraps finger-like branches, called pedicels, around capillaries, the smallest blood vessels, to help form a filter. *(defines “capillaries”)*
+   > “pedicels: finger-like projections of podocytes surrounding glomerular capillaries; interdigitate to form a filtration membrane” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+   > “capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid” ([Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms), CC BY 4.0)
+2. Podocytes are kidney cells found inside a glomerulus, a tuft of capillaries that filters the blood based on size. *(defines “glomerulus”)*
+   > “A specialized kidney epithelial cell, contained within a glomerulus, that contains "feet" that interdigitate with the "feet" of other podocytes.” ([CL:0000653 podocyte](http://purl.obolibrary.org/obo/CL_0000653), CC BY 4.0)
+   > “glomerulus: tuft of capillaries surrounded by Bowman’s capsule; filters the blood based on size” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+3. Bowman's capsule, the structure that encloses the glomerulus, has an outer layer that continues onto the glomerular capillaries and wraps closely around them as an inner layer. *(defines “Bowman's capsule”)*
+   > “The outermost part of Bowman’s capsule, the parietal layer, is a simple squamous epithelium. It transitions onto the glomerular capillaries in an intimate embrace to form the visceral layer of the capsule.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “Bowman's capsule: structure that encloses the glomerulus” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+4. Podocytes are the uniquely shaped cells that make up this inner layer, called the visceral layer. *(defines “visceral layer”)*
+   > “The outermost part of Bowman’s capsule, the parietal layer, is a simple squamous epithelium. It transitions onto the glomerular capillaries in an intimate embrace to form the visceral layer of the capsule. Here, the cells are not squamous, but uniquely shaped cells (podocytes)” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+5. The pedicels interlock, leaving small gaps called filtration slits that act as a sieve. *(defines “filtration slits”)*
+   > “Here, the cells are not squamous, but uniquely shaped cells (podocytes) extending finger-like arms (pedicels) to cover the glomerular capillaries (). These projections interdigitate to form filtration slits, leaving small gaps between the digits to form a sieve.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+6. In places, fenestrations in the capillaries, small windows that allow rapid filtration based on size, line up with these slits. *(defines “fenestrations”)*
+   > “Where the fenestrae (windows) in the glomerular capillaries match the spaces between the podocyte “fingers,” the only thing separating the capillary lumen and the lumen of Bowman’s capsule is their shared basement membrane (). These three features comprise what is known as the filtration membrane.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “fenestrations: small windows through a cell, allowing rapid filtration based on size; formed in such a way as to allow substances to cross through a cell without mixing with cell contents” ([Chapter 25 Key Terms (The Urinary System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms), CC BY 4.0)
+7. There, only a shared basement membrane, a thin layer of fibrous material, separates the inside of the capillary from the inside of Bowman's capsule. *(defines “basement membrane”)*
+   > “Where the fenestrae (windows) in the glomerular capillaries match the spaces between the podocyte “fingers,” the only thing separating the capillary lumen and the lumen of Bowman’s capsule is their shared basement membrane (). These three features comprise what is known as the filtration membrane.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “basement membrane: in epithelial tissue, a thin layer of fibrous material that anchors the epithelial tissue to the underlying connective tissue; made up of the basal lamina and reticular lamina” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+8. Together, the fenestrations, the slits and the basement membrane make up the filtration membrane. *(defines “filtration membrane”)*
+   > “Where the fenestrae (windows) in the glomerular capillaries match the spaces between the podocyte “fingers,” the only thing separating the capillary lumen and the lumen of Bowman’s capsule is their shared basement membrane (). These three features comprise what is known as the filtration membrane.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+9. As blood passes through the glomerulus, some plasma, the liquid part of blood, filters between the pedicels into Bowman's capsule. *(defines “plasma”)*
+   > “These projections interdigitate to form filtration slits, leaving small gaps between the digits to form a sieve. As blood passes through the glomerulus, 10 to 20 percent of the plasma filters between these sieve-like fingers to be captured by Bowman’s capsule and funneled to the PCT.” ([25.4 Microscopic Anatomy of the Kidney](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney), CC BY 4.0)
+   > “plasma: liquid component of blood that is left after the cells are removed” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+10. However, blood cells and medium-to-large proteins cannot pass through the fenestrations or between the pedicels.
+   > “Recall that cells and the medium-to-large proteins cannot pass between the podocyte processes or through the fenestrations of the capillary endothelial cells.” ([25.5 Physiology of Urine Formation](https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation), CC BY 4.0)
+
+#### Primary oocyte: Plain (drafted; grade 8.8; `content/CL_0000654/tier1.md`)
+
+1. A primary oocyte goes through meiosis, a special type of cell division, to make an egg. *(defines “meiosis”)*
+   > “oogenesis: process by which oogonia divide by mitosis to primary oocytes, which undergo meiosis to produce the secondary oocyte and, upon fertilization, the ovum” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “Meiosis is a special type of cell division that occurs in the production of the gametes, or eggs and sperm.” ([SEER Training Modules: Cell Function](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html), Free of copyright (NCI reuse policy))
+2. Primary oocytes form in the ovary before birth, then stop partway through meiosis for years.
+   > “Unlike spermatogonia, however, oogonia form primary oocytes in the fetal ovary prior to birth. These primary oocytes are then arrested in this stage of meiosis I, only to resume it years later, beginning at puberty and continuing until the person is near menopause” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+3. Each primary oocyte and its supporting cells form a follicle. *(defines “follicle”)*
+   > “As you’ll see next, follicles progress from primordial, to primary, to secondary and tertiary stages prior to ovulation—with the oocyte inside the follicle remaining as a primary oocyte until right before ovulation.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “This grouping of an oocyte and its supporting cells is called a follicle.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+4. Later, the primary oocyte splits, and most of its material goes to one cell, the secondary oocyte.
+   > “This results in the primary oocyte finishing the first meiotic division. The cell divides unequally, with most of the cellular material and organelles going to one cell, called a secondary oocyte, and only one set of chromosomes and a small amount of cytoplasm going to the other cell.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Primary oocyte: Core (drafted; grade 12.9; `content/CL_0000654/tier2.md`)
+
+1. A primary oocyte is a cell that goes through meiosis, a special type of cell division, to produce an egg. *(defines “meiosis”)*
+   > “oogenesis: process by which oogonia divide by mitosis to primary oocytes, which undergo meiosis to produce the secondary oocyte and, upon fertilization, the ovum” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “Meiosis is a special type of cell division that occurs in the production of the gametes, or eggs and sperm.” ([SEER Training Modules: Cell Function](https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/function.html), Free of copyright (NCI reuse policy))
+2. Primary oocytes form from oogonia, the ovarian stem cells, in the ovary before birth. *(defines “oogonia”)*
+   > “Unlike spermatogonia, however, oogonia form primary oocytes in the fetal ovary prior to birth.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “oogonia: ovarian stem cells that undergo mitosis during female fetal development to form primary oocytes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. Each primary oocyte has 46 chromosomes, the structures in the nucleus that contain DNA. *(defines “chromosomes”)*
+   > “The diploid (46 chromosomes) primary oocytes replicate their DNA and begin the first meiotic division, but the process stops in prophase and the cells remain in this suspended state until puberty.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+   > “chromosome: structure within the nucleus that comprises chromatin that contains DNA, the hereditary material” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. The cell copies its DNA and begins the first division of meiosis, but stops in prophase, the first stage of a division. *(defines “prophase”)*
+   > “The diploid (46 chromosomes) primary oocytes replicate their DNA and begin the first meiotic division, but the process stops in prophase and the cells remain in this suspended state until puberty.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+   > “prophase: first stage of mitosis (and meiosis), characterized by breakdown of the nuclear envelope and condensing of the chromatin to form chromosomes” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+5. Primary oocytes stay paused for years and resume meiosis only later, starting at puberty and continuing until a person is near menopause, the end of a female's reproductive functions. *(defines “menopause”)*
+   > “These primary oocytes are then arrested in this stage of meiosis I, only to resume it years later, beginning at puberty and continuing until the person is near menopause (the cessation of a female's reproductive functions).” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+6. The number of primary oocytes in the ovaries keeps falling, to about 400,000 at puberty and to zero by the end of menopause.
+   > “The number of primary oocytes present in the ovaries declines from one to two million in an infant, to approximately 400,000 at puberty, to zero by the end of menopause.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+7. Each primary oocyte and its supporting cells form a follicle, and the oocyte remains a primary oocyte while the follicle develops through several stages. *(defines “follicle”)*
+   > “As you’ll see next, follicles progress from primordial, to primary, to secondary and tertiary stages prior to ovulation—with the oocyte inside the follicle remaining as a primary oocyte until right before ovulation.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “This grouping of an oocyte and its supporting cells is called a follicle.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+8. Each month from puberty on, follicle-stimulating hormone prompts several primary oocytes to start growing again.
+   > “Beginning at puberty, under the influence of follicle-stimulating hormone, several primary oocytes start to grow again each month.” ([SEER Training Modules: Ovaries](https://training.seer.cancer.gov/anatomy/reproductive/female/ovaries.html), Free of copyright (NCI reuse policy))
+9. Just before ovulation, the release of an oocyte from the ovary, a surge of luteinizing hormone restarts meiosis in a primary oocyte, beginning its change into a secondary oocyte. *(defines “ovulation”)*
+   > “Just prior to ovulation, a surge of luteinizing hormone triggers the resumption of meiosis in a primary oocyte. This initiates the transition from primary to secondary oocyte.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+   > “The initiation of ovulation—the release of an oocyte from the ovary—marks the transition from puberty into reproductive maturity.” ([27.2 Anatomy and Physiology of the Ovarian Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system), CC BY 4.0)
+10. The division is unequal: most of the cell's material goes to one cell, the secondary oocyte, while the other cell, a polar body, gets only one set of chromosomes and usually dies.
+   > “The cell divides unequally, with most of the cellular material and organelles going to one cell, called a secondary oocyte, and only one set of chromosomes and a small amount of cytoplasm going to the other cell. This second cell is called a polar body and usually dies.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+
+#### Pulmonary alveolar type 1 cell: Plain (drafted; grade 7.2; `content/CL_0002062/tier1.md`)
+
+1. A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that gas exchange needs.
+   > “This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.” ([CL:0002062 pulmonary alveolar type 1 cell](http://purl.obolibrary.org/obo/CL_0002062), CC BY 4.0)
+2. In gas exchange, oxygen passes into the blood and carbon dioxide passes out. *(defines “gas exchange”)*
+   > “Pulmonary ventilation provides air to the alveoli for this gas exchange process. At the respiratory membrane, where the alveolar and capillary walls meet, gases move across the membranes, with oxygen entering the bloodstream and carbon dioxide exiting.” ([22.4 Gas Exchange](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange), CC BY 4.0)
+3. Type 1 cells are flat and cover almost all of the surface of the alveoli, small sacs in the lungs. *(defines “alveoli”)*
+   > “A squamous pulmonary alveolar epithelial cell that is flattened and branched. A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface.” ([CL:0002062 pulmonary alveolar type 1 cell](http://purl.obolibrary.org/obo/CL_0002062), CC BY 4.0)
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+
+Dropped:
+- “Type 1 cells are very thin, and gases pass through them easily.” (states 1, which no quote has)
+
+#### Pulmonary alveolar type 1 cell: Core (drafted; grade 11.6; `content/CL_0002062/tier2.md`)
+
+1. A pulmonary alveolar type 1 cell forms the thin barrier between air and blood that is essential for gas exchange.
+   > “This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.” ([CL:0002062 pulmonary alveolar type 1 cell](http://purl.obolibrary.org/obo/CL_0002062), CC BY 4.0)
+2. Type 1 cells cover almost all of the surface of the alveoli, the small, grape-like sacs in the lungs where gas exchange takes place. *(defines “alveoli”)*
+   > “A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface.” ([CL:0002062 pulmonary alveolar type 1 cell](http://purl.obolibrary.org/obo/CL_0002062), CC BY 4.0)
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+3. Each type 1 cell is large, flat and branched, and thin extensions of its cytoplasm, the material between the cell membrane and the nucleus, form the barrier. *(defines “cytoplasm”)*
+   > “A squamous pulmonary alveolar epithelial cell that is flattened and branched. A pulmonary alveolar type 1 cell covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange.” ([CL:0002062 pulmonary alveolar type 1 cell](http://purl.obolibrary.org/obo/CL_0002062), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+4. This layer is extremely thin and borders the lining of the capillaries, the smallest blood vessels. *(defines “capillaries”)*
+   > “This epithelium is extremely thin and borders the endothelial membrane of capillaries.” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “capillary: smallest blood vessel that allows the passage of individual blood cells and the site of diffusion of oxygen and nutrient exchange” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+5. The alveolar and capillary walls together form the respiratory membrane, which gases cross by diffusion, moving from an area of higher concentration to one of lower concentration. *(defines “diffusion”)*
+   > “Taken together, the alveoli and capillary membranes form a respiratory membrane that is approximately 0.5 μm (micrometers) thick. The respiratory membrane allows gases to cross by simple diffusion” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “diffusion: movement of a substance from an area of higher concentration to one of lower concentration” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+
+Dropped:
+- “In gas exchange, oxygen passes into the blood and carbon dioxide passes out.” (checker: Quote is verbatim in openstax-ap2e/22-04-gas-exchange.txt but covers only the respiratory membrane in the lungs. The sentence defines gas exchange in general as oxygen into the blood and carbon dioxide out. The same file (line 44) says gas exchange also happens at the tissues, 'where oxygen is released and carbon dioxide is picked up', so the sentence states more than the quote.)
+- “Type 1 cells are the main cell type in the alveolar wall, and gases pass through them easily.” (states 1, which no quote has)
+- “Together, type 1 cells form a simple squamous epithelium, a single layer of flat, scale-like cells.” (states 1, which no quote has)
+
+#### Pulmonary alveolar type 2 cell: Plain (drafted; grade 8.8; `content/CL_0002063/tier1.md`)
+
+1. Type II alveolar cells make surfactant, a detergent-like liquid in the airways. *(defines “surfactant”)*
+   > “pulmonary surfactant: substance composed of phospholipids and proteins that reduces the surface tension of the alveoli; made by type II alveolar cells” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “surfactant: detergent-like liquid in the airways that lowers the surface tension of the alveoli to allow for expansion” ([Chapter 39 Key Terms (The Respiratory System)](https://openstax.org/books/biology-2e/pages/39-key-terms), CC BY 4.0)
+2. These cells sit in the walls of the alveoli, the small, grape-like sacs in the lungs. *(defines “alveoli”)*
+   > “type II alveolar cell: cuboidal epithelial cells that are the minor cell type in the alveolar wall; secrete pulmonary surfactant” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+3. Surfactant mixes with the water lining the alveoli and helps lower the water's surface tension, a pull between water molecules. *(defines “surface tension”)*
+   > “there is surface tension within the alveoli caused by water present in the lining of the alveoli. This surface tension tends to inhibit expansion of the alveoli. However, pulmonary surfactant secreted by type II alveolar cells mixes with that water and helps reduce this surface tension.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+   > “surface tension: tension at the surface of a body of liquid that prevents the molecules from separating; created by the attractive cohesive forces between the liquid's molecules” ([Chapter 2 Key Terms (The Chemical Foundation of Life)](https://openstax.org/books/biology-2e/pages/2-key-terms), CC BY 4.0)
+4. Without surfactant, the alveoli would collapse when you breathe out.
+   > “Without pulmonary surfactant, the alveoli would collapse during expiration.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+
+#### Pulmonary alveolar type 2 cell: Core (drafted; grade 11.2; `content/CL_0002063/tier2.md`)
+
+1. Type II alveolar cells release pulmonary surfactant, which keeps the alveoli, the small, grape-like sacs of the lungs, from collapsing when you breathe out. *(defines “alveoli”)*
+   > “However, pulmonary surfactant secreted by type II alveolar cells mixes with that water and helps reduce this surface tension. Without pulmonary surfactant, the alveoli would collapse during expiration.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+   > “alveolus: small, grape-like sac that performs gas exchange in the lungs” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+2. Pulmonary surfactant is a mix of proteins and phospholipids, the main material of membranes. *(defines “phospholipids”)*
+   > “pulmonary surfactant: substance composed of phospholipids and proteins that reduces the surface tension of the alveoli; made by type II alveolar cells” ([Chapter 22 Key Terms (The Respiratory System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-key-terms), CC BY 4.0)
+   > “phospholipid: membranes' major constituent; comprised of two fatty acids and a phosphate-containing group attached to a glycerol backbone” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+3. Type II alveolar cells are scattered among type I alveolar cells, which are squamous, or flat, cells of the alveoli. *(defines “squamous”)*
+   > “A type I alveolar cell is a squamous epithelial cell of the alveoli, which constitute up to 97 percent of the alveolar surface area. These cells are about 25 nm thick and are highly permeable to gases. A type II alveolar cell is interspersed among the type I cells” ([22.1 Organs and Structures of the Respiratory System](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system), CC BY 4.0)
+   > “squamous epithelia: type of epithelia made of flat cells, specialized in aiding diffusion or preventing abrasion” ([Chapter 33 Key Terms (The Animal Body: Basic Form and Function)](https://openstax.org/books/biology-2e/pages/33-key-terms), CC BY 4.0)
+4. Each type II cell is cuboidal, or cube-shaped, and thicker than these squamous cells, with a rounded top that bulges above the surrounding lining. *(defines “cuboidal”)*
+   > “This cuboidal cell is thicker than squamous alveolar cells, has a rounded apical surface that projects above the level of the surrounding epithelium” ([CL:0002063 pulmonary alveolar type 2 cell](http://purl.obolibrary.org/obo/CL_0002063), CC BY 4.0)
+   > “cuboidal epithelia: epithelia made of cube-shaped cells, specialized in glandular functions” ([Chapter 33 Key Terms (The Animal Body: Basic Form and Function)](https://openstax.org/books/biology-2e/pages/33-key-terms), CC BY 4.0)
+5. Short microvilli, projections that increase a cell's surface area, cover the type II cell's exposed surface. *(defines “microvilli”)*
+   > “its free surface is covered by short microvilli” ([CL:0002063 pulmonary alveolar type 2 cell](http://purl.obolibrary.org/obo/CL_0002063), CC BY 4.0)
+   > “microvilli: cellular processes that increase the surface area of cells” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+6. Type II alveolar cells adjust the fluid around the alveolar lining by releasing and recycling surfactant.
+   > “A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies.” ([CL:0002063 pulmonary alveolar type 2 cell](http://purl.obolibrary.org/obo/CL_0002063), CC BY 4.0)
+7. They do this through special organelles, the small working parts inside a cell, called lamellar bodies. *(defines “organelles”)*
+   > “A pulmonary alveolar epithelial cell that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants via specialized organelles called alveolar lamellar bodies.” ([CL:0002063 pulmonary alveolar type 2 cell](http://purl.obolibrary.org/obo/CL_0002063), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+8. Water lining the alveoli creates surface tension, the pull at a liquid's surface that keeps the liquid's molecules from separating, and this tension resists the expansion of the alveoli. *(defines “surface tension”)*
+   > “As noted earlier, there is surface tension within the alveoli caused by water present in the lining of the alveoli. This surface tension tends to inhibit expansion of the alveoli.” ([22.3 The Process of Breathing](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing), CC BY 4.0)
+   > “surface tension: tension at the surface of a body of liquid that prevents the molecules from separating; created by the attractive cohesive forces between the liquid's molecules” ([Chapter 2 Key Terms (The Chemical Foundation of Life)](https://openstax.org/books/biology-2e/pages/2-key-terms), CC BY 4.0)
+9. Surfactant works like a detergent to lower this surface tension, which makes the airways easier to inflate.
+   > “Surfactant works like a detergent to reduce the surface tension and allows for easier inflation of the airways.” ([39.3 Breathing](https://openstax.org/books/biology-2e/pages/39-3-breathing), CC BY 4.0)
+10. Type II alveolar cells also help repair tissue, and after an injury they can turn into type I alveolar cells.
+   > “This cell type also contributes to tissue repair and can differentiate after injury into a pulmonary alveolar type 1 cell.” ([CL:0002063 pulmonary alveolar type 2 cell](http://purl.obolibrary.org/obo/CL_0002063), CC BY 4.0)
+
+#### Purkinje myocyte: Plain (drafted; grade 8; `content/CL_0002068/tier1.md`)
+
+1. Purkinje cells spread each electrical signal to the muscle cells of the ventricles, the heart's lower pumping chambers. *(defines “ventricles”)*
+   > “Purkinje fibers: specialized myocardial conduction fibers that arise from the bundle branches and spread the impulse to the myocardial contraction fibers of the ventricles” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “ventricle: one of the primary pumping chambers of the heart located in the lower portion of the heart” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+2. Purkinje cells are special heart muscle cells found just under the heart's inner lining.
+   > “Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell.” ([CL:0002068 Purkinje myocyte](http://purl.obolibrary.org/obo/CL_0002068), CC BY 4.0)
+3. From the heart's bottom tip, these cells carry the signal up through the ventricle walls.
+   > “Finally, the Purkinje fibers conduct the impulse from the apex of the heart up the ventricular myocardium, and then the ventricles contract.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+4. So the ventricles contract from the bottom up, like squeezing a toothpaste tube from the bottom.
+   > “Since the electrical stimulus begins at the apex, the contraction also begins at the apex and travels toward the base of the heart, similar to squeezing a tube of toothpaste from the bottom.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+
+#### Purkinje myocyte: Core (drafted; grade 11; `content/CL_0002068/tier2.md`)
+
+1. Purkinje cells spread each electrical impulse to the contracting muscle cells of the ventricles, the large lower heart chambers that pump blood into arteries. *(defines “ventricles”)*
+   > “Purkinje fibers: specialized myocardial conduction fibers that arise from the bundle branches and spread the impulse to the myocardial contraction fibers of the ventricles” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+   > “ventricle: (heart) large inferior chamber of the heart that pumps blood into arteries” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+2. Purkinje cells are the last link in the heart's conduction system, the specialized heart muscle cells that coordinate the contraction of the heart's chambers. *(defines “conduction system”)*
+   > “The normal path of transmission for the conductive cells is the sinoatrial (SA) node, internodal pathways, atrioventricular (AV) node, atrioventricular (AV) bundle of His, bundle branches, and Purkinje fibers.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “Specialized cardiac muscle cells that make up the conduction system of the heart coordinate contraction of the chambers.” ([SEER Training Modules: Review: Introduction to the Cardiovascular System](https://training.seer.cancer.gov/anatomy/cardiovascular/review.html), Free of copyright (NCI reuse policy))
+3. At the heart's lower tip, Purkinje cells connect with the bundle branches, specialized conducting cells that run down through the wall between the ventricles. *(defines “bundle branches”)*
+   > “Both bundle branches descend and reach the apex of the heart where they connect with the Purkinje fibers” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+   > “atrioventricular bundle branches: (also, left or right bundle branches) specialized myocardial conductile cells that arise from the bifurcation of the atrioventricular bundle and pass through the interventricular septum; lead to the Purkinje fibers” ([Chapter 19 Key Terms (The Cardiovascular System: The Heart)](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms), CC BY 4.0)
+4. From the lower tip, Purkinje cells carry the impulse up through the ventricles' myocardium, the heart muscle cells that make up the middle layer and the bulk of the heart wall. *(defines “myocardium”)*
+   > “Finally, the Purkinje fibers conduct the impulse from the apex of the heart up the ventricular myocardium, and then the ventricles contract.” ([40.3 Mammalian Heart and Blood Vessels](https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels), CC BY 4.0)
+   > “myocardium: heart muscle cells that make up the middle layer and the bulk of the heart wall” ([Chapter 40 Key Terms (The Circulatory System)](https://openstax.org/books/biology-2e/pages/40-key-terms), CC BY 4.0)
+5. Each Purkinje cell is a cylinder with a single nucleus, shorter than an ordinary heart muscle cell but nearly twice as wide.
+   > “They are uninucleate cylindrical cells, associated end-to-end in long rows, continue from the node to the atrioventricular bundle; relatively short compared to ordinary myocytes but are nearly twice their diameter.” ([CL:0002068 Purkinje myocyte](http://purl.obolibrary.org/obo/CL_0002068), CC BY 4.0)
+6. Purkinje cells are joined end to end in long rows, which run among ordinary heart muscle cells just beneath the endocardium, the innermost layer of the heart wall. *(defines “endocardium”)*
+   > “Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell. They are uninucleate cylindrical cells, associated end-to-end in long rows” ([CL:0002068 Purkinje myocyte](http://purl.obolibrary.org/obo/CL_0002068), CC BY 4.0)
+   > “The innermost layer of the heart wall, the endocardium, is joined to the myocardium with a thin layer of connective tissue.” ([19.1 Heart Anatomy](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy), CC BY 4.0)
+7. Purkinje cells conduct impulses fast, and an impulse reaches all the muscle cells of the ventricles in about 75 milliseconds.
+   > “The Purkinje fibers have a fast inherent conduction rate, and the electrical impulse reaches all of the ventricular muscle cells in about 75 ms” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+8. Since the electrical stimulus to the ventricles begins at the lower tip, their contraction also starts there and moves toward the top of the heart.
+   > “Since the electrical stimulus begins at the apex, the contraction also begins at the apex and travels toward the base of the heart” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+9. This works like squeezing a tube of toothpaste from the bottom, pushing blood out of the ventricles.
+   > “similar to squeezing a tube of toothpaste from the bottom. This allows the blood to be pumped out of the ventricles and into the aorta and pulmonary trunk.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+10. Purkinje cells can also fire impulses on their own, but only 15–20 times per minute, more slowly than the bundle branches.
+   > “The bundle branches would have an inherent rate of 20–30 impulses per minute, and the Purkinje fibers would fire at 15–20 impulses per minute.” ([19.2 Cardiac Muscle and Electrical Activity](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity), CC BY 4.0)
+
+#### Retinal cone cell: Plain (drafted; grade 5.7; `content/CL_0000573/tier1.md`)
+
+1. Cone cells detect bright light and give us color vision during the day.
+   > “cone: weakly photosensitive, chromatic, cone-shaped neuron in the fovea of the retina that detects bright light and is used in daytime color vision” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+2. Cones sit near the center of the retina, the light-sensing layer at the back of the eye. *(defines “retina”)*
+   > “Cones are weakly photosensitive and are located near the center of the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. There are three kinds of cones, and each kind holds its own pigment, a molecule that absorbs light. *(defines “pigment”)*
+   > “cone photoreceptor: one of the two types of retinal receptor cell that is specialized for color vision through the use of three photopigments distributed through three separate populations of cells” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “pigment: molecule that is capable of absorbing certain wavelengths of light and reflecting others (which accounts for its color)” ([Chapter 8 Key Terms (Photosynthesis)](https://openstax.org/books/biology-2e/pages/8-key-terms), CC BY 4.0)
+4. The brain compares how active the three kinds of cones are to work out color.
+   > “By comparing the activity of the three different cones, the brain can extract color information from visual stimuli.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### Retinal cone cell: Core (drafted; grade 9.4; `content/CL_0000573/tier2.md`)
+
+1. Cone cells detect bright light and are used for color vision during the day.
+   > “cone: weakly photosensitive, chromatic, cone-shaped neuron in the fovea of the retina that detects bright light and is used in daytime color vision” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+2. They sit near the center of the retina, the layer of light-sensing and supporting cells that lines the back of the eye. *(defines “retina”)*
+   > “Cones are weakly photosensitive and are located near the center of the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. The fovea, the spot at the center of the retina that is responsible for sharp vision, has a high density of cones. *(defines “fovea”)*
+   > “The fovea has a high density of cones.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “fovea: region in the center of the retina with a high density of photoreceptors and which is responsible for acute vision” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. Cones and rods, named for how they look, are the retina's two types of photoreceptor, receptor cells specialized to respond to light. *(defines “photoreceptor”)*
+   > “There are two types of photoreceptors in the retina: rods and cones, named for their general appearance” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “photoreceptor: receptor cell specialized to respond to light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+5. Cones are less sensitive to light than rods, but cones give sharper vision in both space and time.
+   > “Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision.” ([CL:0000573 retinal cone cell](http://purl.obolibrary.org/obo/CL_0000573), CC BY 4.0)
+6. A cone's outer segment, the part where light is detected, is cone-shaped and holds light-sensitive pigments in inward folds of the cell membrane. *(defines “outer segment”)*
+   > “The cone-shaped outer segments of the cone photoreceptor contain their photosensitive pigments in infoldings of the cell membrane.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “the outer segment is a specialized region in which photoreception takes place” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+7. There are three cone pigments, called opsins, each sensitive to a particular wavelength of light, and they are specialized to perceive red, green and blue. *(defines “opsin”)*
+   > “There are three cone photopigments, called opsins, which are each sensitive to a particular wavelength of light. The wavelength of visible light determines its color. The pigments in human eyes are specialized in perceiving three different primary colors: red, green, and blue.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+8. The brain compares the activity of the three kinds of cones to work out color.
+   > “By comparing the activity of the three different cones, the brain can extract color information from visual stimuli.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+9. Light alters the pigment molecule, and this changes the cone's membrane potential, the voltage difference between the inside and outside of the cell. *(defines “membrane potential”)*
+   > “At the molecular level, visual stimuli cause changes in the photopigment molecule that lead to changes in membrane potential of the photoreceptor cell.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “membrane potential: difference in electrical potential between the inside and outside of a cell” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+10. A cone passes its signals to bipolar cells, which relay them to ganglion cells, and the ganglion cells carry the signal to the brain.
+   > “An example of a bipolar neuron is a retinal bipolar cell, which receives signals from photoreceptor cells that are sensitive to light and transmits these signals to ganglion cells that carry the signal to the brain.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+
+#### Retinal rod cell: Plain (drafted; grade 5.6; `content/CL_0000604/tier1.md`)
+
+1. Rod cells let us see in dim light, such as at night.
+   > “rod: strongly photosensitive, achromatic, cylindrical neuron in the outer edges of the retina that detects dim light and is used in peripheral and nighttime vision” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+2. Rods and cones are the two types of photoreceptor, cells that respond to light. *(defines “photoreceptor”)*
+   > “There are two types of photoreceptors—rods and cones—which differ in the shape of their outer segment.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “photoreceptor: receptor cell specialized to respond to light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+3. Rods sit in the outer edges of the retina, the light-sensing layer at the back of the eye. *(defines “retina”)*
+   > “Rods are strongly photosensitive and are located in the outer edges of the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+4. In dim light, cones cannot respond and rods cannot sense color, so everything looks gray.
+   > “cones cannot react to low-intensity light, and rods do not sense the color of light. Therefore, our low-light vision is—in essence—in grayscale. In other words, in a dark room, everything appears as a shade of gray.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### Retinal rod cell: Core (drafted; grade 9.5; `content/CL_0000604/tier2.md`)
+
+1. Rod cells are specialized for vision in low light and are one of the two types of photoreceptor, cells that respond to light. *(defines “photoreceptor”)*
+   > “rod photoreceptor: one of the two types of retinal receptor cell that is specialized for low-light vision” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+   > “photoreceptor: receptor cell specialized to respond to light stimuli” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+2. Rods lie in the outer edges of the retina, the layer of light-sensing and supporting cells lining the back of the eye. *(defines “retina”)*
+   > “Rods are strongly photosensitive and are located in the outer edges of the retina.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+   > “retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. Rods are more sensitive to light than cones, the photoreceptors for color vision, but rod vision is less sharp. *(defines “cones”)*
+   > “Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision.” ([CL:0000604 retinal rod cell](http://purl.obolibrary.org/obo/CL_0000604), CC BY 4.0)
+   > “cone photoreceptor: one of the two types of retinal receptor cell that is specialized for color vision through the use of three photopigments distributed through three separate populations of cells” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+4. In a rod, the inner segment holds the nucleus and other organelles, the cell's small working parts, while the outer segment is where light is detected. *(defines “organelles”)*
+   > “The inner segment contains the nucleus and other common organelles of a cell, whereas the outer segment is a specialized region in which photoreception takes place.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “organelle: small structures that exist within cells and carry out cellular functions” ([Chapter 1 Key Terms (The Study of Life)](https://openstax.org/books/biology-2e/pages/1-key-terms), CC BY 4.0)
+5. The outer segment, shaped like a rod, holds a stack of membrane discs that contain rhodopsin, the light-sensitive pigment of rods. *(defines “rhodopsin”)*
+   > “The rod-shaped outer segments of the rod photoreceptor contain a stack of membrane-bound discs that contain the photosensitive pigment rhodopsin.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “rhodopsin: photopigment molecule found in the rod photoreceptors” ([Chapter 14 Key Terms (The Somatic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms), CC BY 4.0)
+6. Rhodopsin has two main parts: a membrane protein called an opsin, and retinal, a molecule that absorbs light and changes shape when light hits the rod. *(defines “retinal”)*
+   > “the main photopigment, rhodopsin, has two main parts (): an opsin, which is a membrane protein (in the form of a cluster of α-helices that span the membrane), and retinal—a molecule that absorbs light. When light hits a photoreceptor, it causes a shape change in the retinal” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+7. This shape change sets off a chain of signals that makes the rod release less neurotransmitter, a chemical signal. *(defines “neurotransmitter”)*
+   > “Activation of retinal and the opsin proteins result in activation of a G protein. The G protein changes the membrane potential of the photoreceptor cell, which then releases less neurotransmitter into the outer synaptic layer of the retina.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “neurotransmitter: chemical signal that is released from the synaptic end bulb of a neuron to cause a change in the target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+8. The rod releases this neurotransmitter onto bipolar cells, the cells that pass visual signals on from rods and cones. *(defines “bipolar cells”)*
+   > “The change in membrane potential alters the amount of neurotransmitter that the photoreceptor cells release onto bipolar cells in the outer synaptic layer.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “Visual signals leave the cones and rods, travel to the bipolar cells, and then to ganglion cells.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+9. In darkness, rods constantly hold back these bipolar cells.
+   > “In the absence of light, the bipolar neurons that connect rods and cones to ganglion cells are continuously and actively inhibited by the rods and cones.” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+10. Light lifts this hold, so the bipolar cells stimulate ganglion cells, which send signals out of the eye through the optic nerve. *(defines “ganglion cells”)*
+   > “Exposure of the retina to light hyperpolarizes the rods and cones and removes their inhibition of bipolar cells. The now active bipolar cells in turn stimulate the ganglion cells, which send action potentials along their axons (which leave the eye as the optic nerve).” ([36.5 Vision](https://openstax.org/books/biology-2e/pages/36-5-vision), CC BY 4.0)
+
+#### Schwann cell: Plain (drafted; grade 7.6; `content/CL_0002573/tier1.md`)
+
+1. A Schwann cell wraps around axons, the parts of nerve cells that carry electrical signals. *(defines “axons”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+2. Schwann cells insulate axons with myelin, a fatty layer that helps signals travel faster. *(defines “myelin”)*
+   > “The second type of glial cell is the Schwann cell, which insulate axons with myelin in the periphery.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. Schwann cells work in the peripheral nervous system: every part of the nervous system except the brain and spinal cord. *(defines “peripheral nervous system”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+4. A Schwann cell is a glial cell, a cell that supports nerve cells. *(defines “glial cell”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “glia: (also, glial cells) cells that provide support functions for neurons” ([Chapter 35 Key Terms (The Nervous System)](https://openstax.org/books/biology-2e/pages/35-key-terms), CC BY 4.0)
+
+#### Schwann cell: Core (drafted; grade 10.1; `content/CL_0002573/tier2.md`)
+
+1. A Schwann cell wraps around axons, the long extensions of nerve cells that conduct nerve impulses. *(defines “axons”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.” ([GO:0030424 axon](http://purl.obolibrary.org/obo/GO_0030424), CC BY 4.0)
+2. Schwann cells do this in the peripheral nervous system, every part of the nervous system except the brain and spinal cord. *(defines “peripheral nervous system”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+3. A Schwann cell is a glial cell, one of the cells that provide a framework of tissue to support nerve cells. *(defines “glial cell”)*
+   > “A glial cell that myelinates or ensheathes axons in the peripheral nervous system.” ([CL:0002573 Schwann cell](http://purl.obolibrary.org/obo/CL_0002573), CC BY 4.0)
+   > “A glial cell is one of a variety of cells that provide a framework of tissue that supports the neurons and their activities.” ([12.1 Basic Structure and Function of the Nervous System](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system), CC BY 4.0)
+4. Schwann cells insulate axons with myelin, a fatty substance that lets electrical signals travel faster. *(defines “myelin”)*
+   > “The second type of glial cell is the Schwann cell, which insulate axons with myelin in the periphery.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+5. Myelin works by keeping electrical current from leaking out of the axon, which speeds up the signal.
+   > “Myelin acts as an insulator that prevents current from leaving the axon; this increases the speed of action potential conduction.” ([35.2 How Neurons Communicate](https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate), CC BY 4.0)
+6. Not every Schwann cell makes myelin, however: a non-myelinating Schwann cell instead wraps several thin axons.
+   > “A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.” ([CL:0002376 non-myelinating Schwann cell](http://purl.obolibrary.org/obo/CL_0002376), CC BY 4.0)
+7. By contrast, a Schwann cell that makes myelin does so for only one axon, and the entire Schwann cell surrounds that axon.
+   > “This is distinctive from the PNS where a single Schwann cell provides myelin for only one axon as the entire Schwann cell surrounds the axon.” ([35.1 Neurons and Glial Cells](https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells), CC BY 4.0)
+8. The myelin sheath is made of the Schwann cell's plasma membrane, the layer that separates a cell's contents from its surroundings, wrapped tightly around the axon. *(defines “plasma membrane”)*
+   > “Outside the plasma membrane of the axon is the myelin sheath, which is composed of the tightly wrapped plasma membrane of a Schwann cell.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “plasma membrane: phospholipid bilayer with embedded (integral) or attached (peripheral) proteins, and separates the cell's internal content from its surrounding environment” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+9. The Schwann cell's nucleus and cytoplasm, the material between the plasma membrane and the nucleus, form a bulge on one side of the myelin sheath. *(defines “cytoplasm”)*
+   > “For Schwann cells, the outermost layer of the cell membrane contains cytoplasm and the nucleus of the cell as a bulge on one side of the myelin sheath.” ([12.2 Nervous Tissue](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue), CC BY 4.0)
+   > “cytoplasm: entire region between the plasma membrane and the nuclear envelope, consisting of organelles suspended in the gel-like cytosol, the cytoskeleton, and various chemicals” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+10. This bulge and the cell's outer membrane form the neurilemma, a tight covering around the myelin; the neurilemma plays an important role in the regrowth of nerve fibers. *(defines “neurilemma”)*
+   > “The cytoplasm, nucleus, and outer cell membrane of the Schwann cell form a tight covering around the myelin and around the axon itself at the nodes of Ranvier. This covering is the neurilemma, which plays an important role in the regeneration of nerve fibers.” ([SEER Training Modules: Nerve Tissue](https://training.seer.cancer.gov/anatomy/nervous/tissue.html), Free of copyright (NCI reuse policy))
+
+#### Sertoli cell: Plain (drafted; grade 7.6; `content/CL_0000216/tier1.md`)
+
+1. A Sertoli cell surrounds and nourishes germ cells, the developing sperm cells. *(defines “germ cells”)*
+   > “A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein.” ([CL:0000216 Sertoli cell](http://purl.obolibrary.org/obo/CL_0000216), CC BY 4.0)
+   > “These include supporting cells called sustentacular cells, as well as five types of developing sperm cells called germ cells.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. Sertoli cells sit inside the seminiferous tubules, where the testis makes sperm. *(defines “seminiferous tubules”)*
+   > “Sertoli cell: cell in seminiferous tubules that assists developing sperm and makes inhibin” ([Chapter 43 Key Terms (Animal Reproduction and Development)](https://openstax.org/books/biology-2e/pages/43-key-terms), CC BY 4.0)
+   > “seminiferous tubule: site of sperm production in testes” ([Chapter 43 Key Terms (Animal Reproduction and Development)](https://openstax.org/books/biology-2e/pages/43-key-terms), CC BY 4.0)
+3. Sertoli cells are joined to each other by tight junctions, firm seals between cells. *(defines “tight junction”)*
+   > “blood–testis barrier: tight junctions between Sertoli cells that prevent bloodborne pathogens from gaining access to later stages of spermatogenesis and prevent the potential for an autoimmune reaction to haploid sperm” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “tight junction: protein adherence that creates a firm seal between two adjacent animal cells” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. These junctions form the blood–testis barrier, which keeps substances in the blood from reaching germ cells.
+   > “Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+
+#### Sertoli cell: Core (drafted; grade 12.1; `content/CL_0000216/tier2.md`)
+
+1. A Sertoli cell is a supporting cell that nourishes germ cells, the developing sperm cells. *(defines “germ cells”)*
+   > “A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein.” ([CL:0000216 Sertoli cell](http://purl.obolibrary.org/obo/CL_0000216), CC BY 4.0)
+   > “These include supporting cells called sustentacular cells, as well as five types of developing sperm cells called germ cells.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+2. Sertoli cells sit inside the seminiferous tubules, which make up most of the testis and produce sperm. *(defines “seminiferous tubules”)*
+   > “Sertoli cell: cell in seminiferous tubules that assists developing sperm and makes inhibin” ([Chapter 43 Key Terms (Animal Reproduction and Development)](https://openstax.org/books/biology-2e/pages/43-key-terms), CC BY 4.0)
+   > “Spermatogenesis, the production of sperm, occurs within the seminiferous tubules that make up most of the testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+3. Sertoli cells, also called sustentacular cells, are large and stretch from the outer edge of a seminiferous tubule to the lumen, the tubule's hollow center. *(defines “lumen”)*
+   > “Interspersed with these cells, there are large cells that extend from the periphery of the tubule to the lumen. These large cells are the supporting, or sustentacular cells (Sertoli's cells), which support and nourish the other cells.” ([SEER Training Modules: Testes](https://training.seer.cancer.gov/anatomy/reproductive/male/testes.html), Free of copyright (NCI reuse policy))
+   > “They are composed of developing sperm cells surrounding a lumen, the hollow center of the tubule, where formed sperm are released into the duct system of the testis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+4. Long and branching, Sertoli cells surround germ cells at every stage of development.
+   > “Surrounding all stages of the developing sperm cells are elongate, branching Sertoli cells.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+5. Tight junctions, firm seals between neighboring cells, join Sertoli cells and form the blood–testis barrier, which keeps substances in the blood away from germ cells. *(defines “tight junction”)*
+   > “Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “tight junction: protein adherence that creates a firm seal between two adjacent animal cells” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+6. The barrier also stops molecules on developing germ cells from escaping into the blood and prompting an autoimmune response, an immune response to the body's own cells. *(defines “autoimmune response”)*
+   > “Tight junctions between these sustentacular cells create the blood–testis barrier, which keeps bloodborne substances from reaching the germ cells and, at the same time, keeps surface antigens on developing germ cells from escaping into the bloodstream and prompting an autoimmune response.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “autoimmune response: inappropriate immune response to host cells or self-antigens” ([Chapter 42 Key Terms (The Immune System)](https://openstax.org/books/biology-2e/pages/42-key-terms), CC BY 4.0)
+7. Sertoli cells release signaling molecules that promote sperm production and can control whether germ cells live or die.
+   > “Sertoli cells secrete signaling molecules that promote sperm production and can control whether germ cells live or die.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+8. In the testes, follicle-stimulating hormone (FSH), a hormone that helps sex cells form and mature, binds mainly to Sertoli cells to boost sperm production. *(defines “follicle-stimulating hormone (FSH)”)*
+   > “In the testes, FSH binds predominantly to the Sertoli cells within the seminiferous tubules to promote spermatogenesis.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “follicle-stimulating hormone (FSH): anterior pituitary hormone that stimulates the production and maturation of sex cells” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+9. But when sperm numbers get too high, Sertoli cells release the hormone inhibin into the blood; inhibin holds back FSH release, so sperm production slows.
+   > “The Sertoli cells produce the hormone inhibin, which is released into the blood when the sperm count is too high. This inhibits the release of GnRH and FSH, which will cause spermatogenesis to slow down.” ([43.4 Hormonal Control of Human Reproduction](https://openstax.org/books/biology-2e/pages/43-4-hormonal-control-of-human-reproduction), CC BY 4.0)
+10. In a male embryo, secretions from Sertoli cells trigger the breakdown of the Müllerian duct, the embryo's duct system that can form internal female reproductive structures. *(defines “Müllerian duct”)*
+   > “In males, secretions from sustentacular cells trigger a degradation of the female duct, called the Müllerian duct.” ([27.3 Development of the Male and Female Reproductive Systems](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-3-development-of-the-male-and-female-reproductive-systems), CC BY 4.0)
+   > “Müllerian duct: duct system present in the embryo that will eventually form the internal female reproductive structures” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+
+#### Smooth muscle cell: Plain (drafted; grade 6.7; `content/CL_0000192/tier1.md`)
+
+1. Smooth muscle cells contract without conscious control to move food and to regulate blood flow in arteries.
+   > “Smooth | Short, spindle-shaped, no evident striation, single nucleus in each fiber | Involuntary movement, moves food, involuntary control of respiration, moves secretions, regulates flow of blood in arteries by contraction” ([4.4 Muscle Tissue and Motion](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-4-muscle-tissue-and-motion), CC BY 4.0)
+2. These cells are found in the walls of hollow organs, such as the stomach, and of blood vessels.
+   > “Smooth muscle (so-named because the cells do not have striations) is present in the walls of hollow organs like the urinary bladder, uterus, stomach, intestines, and in the walls of passageways, such as the arteries and veins of the circulatory system” ([10.8 Smooth Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle), CC BY 4.0)
+3. Each cell is wide in the middle and tapered at both ends, like a football, and has one nucleus.
+   > “Smooth muscle fibers are spindle-shaped (wide in the middle and tapered at both ends, somewhat like a football) and have a single nucleus” ([10.8 Smooth Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle), CC BY 4.0)
+4. Smooth muscle gets its name because its cells lack striations, a pattern of bands or stripes. *(defines “striations”)*
+   > “Smooth muscle (so-named because the cells do not have striations)” ([10.8 Smooth Muscle](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle), CC BY 4.0)
+   > “striation: alignment of parallel actin and myosin filaments which form a banded pattern” ([Chapter 4 Key Terms (The Tissue Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Sperm: Plain (drafted; grade 8.8; `content/CL_0000019/tier1.md`)
+
+1. A sperm is the male gamete, a reproductive cell that contributes genetic material to form offspring. *(defines “gamete”)*
+   > “sperm: (also, spermatozoon) male gamete” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “gamete: haploid reproductive cell that contributes genetic material to form an offspring” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+2. Sperm are made in the testes, inside tubes called seminiferous tubules. *(defines “seminiferous tubules”)*
+   > “spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “seminiferous tubules: tube structures within the testes where spermatogenesis occurs” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+3. A sperm's tail is a flagellum, a long, hair-like part that moves the cell. *(defines “flagellum”)*
+   > “Sperm are haploid cells, consisting of a flagellum as a tail, a neck that contains the cell’s energy-producing mitochondria, and a head that contains the genetic material.” ([43.3 Human Reproductive Anatomy and Gametogenesis](https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis), CC BY 4.0)
+   > “flagellum: (plural = flagella) long, hair-like structure that extends from the plasma membrane and moves the cell” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+4. The acrosome is a cap-like part of the sperm's head, holding enzymes that help the sperm get into the egg; enzymes are proteins that speed up chemical reactions. *(defines “enzymes”)*
+   > “the acrosome, the cap-like structure in the head of a sperm that contains the digestive enzymes needed for it to attach to and penetrate the oocyte” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+
+#### Sperm: Core (drafted; grade 11.4; `content/CL_0000019/tier2.md`)
+
+1. A sperm, or spermatozoon, is the male gamete: a reproductive cell that contributes genetic material to form offspring. *(defines “gamete”)*
+   > “sperm: (also, spermatozoon) male gamete” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “gamete: haploid reproductive cell that contributes genetic material to form an offspring” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+2. At fertilization, a sperm and an oocyte, or egg, combine and their nuclei fuse; the sperm is haploid, carrying half of the genetic material needed to form a human being. *(defines “haploid”)*
+   > “Fertilization occurs when a sperm and an oocyte (egg) combine and their nuclei fuse. Because each of these reproductive cells is a haploid cell containing half of the genetic material needed to form a human being, their combination forms a diploid cell.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+3. Sperm form inside the testes, in tubes called seminiferous tubules; this process is called spermatogenesis. *(defines “seminiferous tubules”)*
+   > “spermatogenesis: formation of new sperm, occurs in the seminiferous tubules of the testes” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+   > “seminiferous tubules: tube structures within the testes where spermatogenesis occurs” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+4. In the epididymis, a coiled tube where sperm are stored until ejaculation, sperm mature further and gain the ability to move on their own. *(defines “epididymis”)*
+   > “As they are moved along the length of the epididymis, the sperm further mature and acquire the ability to move under their own power.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “epididymis: (plural = epididymides) coiled tubular structure in which sperm start to mature and are stored until ejaculation” ([Chapter 27 Key Terms (The Reproductive System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-key-terms), CC BY 4.0)
+5. A sperm is divided into a head, a mid-piece and a tail.
+   > “Sperm have a distinctive head, mid-piece, and tail region” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+6. The head holds a tightly packed nucleus and very little cytoplasm, the material between the cell membrane and the nucleus; these features help keep the sperm small. *(defines “cytoplasm”)*
+   > “The head of the sperm contains the extremely compact haploid nucleus with very little cytoplasm. These qualities contribute to the overall small size of the sperm” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “cytoplasm: internal material between the cell membrane and nucleus of a cell, mainly consisting of a water-based fluid called cytosol, within which are all the other organelles and cellular solute and suspended materials” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+7. A cap called the acrosome covers most of the head and is filled with enzymes, proteins that speed up chemical reactions. *(defines “enzymes”)*
+   > “A structure called the acrosome covers most of the head of the sperm cell as a “cap” that is filled with lysosomal enzymes important for preparing sperm to participate in fertilization.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “An enzyme is a catalytic protein that speeds up chemical reactions in the human body.” ([2.3 Chemical Reactions](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions), CC BY 4.0)
+8. The mid-piece is filled with tightly packed mitochondria, the cell parts that produce ATP, the cell's main energy-carrying molecule. *(defines “mitochondria”)*
+   > “Tightly packed mitochondria fill the mid-piece of the sperm.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “mitochondria: (singular = mitochondrion) cellular organelles responsible for carrying out cellular respiration, resulting in producing ATP, the cell’s main energy-carrying molecule” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+9. ATP from these mitochondria powers the flagellum, a long, hair-like structure that runs from the mid-piece through the tail and moves the whole sperm. *(defines “flagellum”)*
+   > “ATP produced by these mitochondria will power the flagellum, which extends from the neck and the mid-piece through the tail of the sperm, enabling it to move the entire sperm cell.” ([27.1 Anatomy and Physiology of the Testicular Reproductive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system), CC BY 4.0)
+   > “flagellum: (plural = flagella) long, hair-like structure that extends from the plasma membrane and moves the cell” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+10. In the acrosomal reaction, the acrosome releases its stored enzymes, which clear a path for the sperm through the zona pellucida, the thick, gel-like layer that coats the egg. *(defines “zona pellucida”)*
+   > “This initiates a process called the acrosomal reaction in which the enzyme-filled “cap” of the sperm, called the acrosome, releases its stored digestive enzymes. These enzymes clear a path through the zona pellucida that allows sperm to reach the oocyte.” ([28.1 Fertilization](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-1-fertilization), CC BY 4.0)
+   > “zona pellucida: thick, gel-like glycoprotein membrane that coats the oocyte and must be penetrated by sperm before fertilization can occur” ([Chapter 28 Key Terms (Development and Inheritance)](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-key-terms), CC BY 4.0)
+
+#### Taste receptor cell: Plain (drafted; grade 8.9; `content/CL_0000209/tier1.md`)
+
+1. Taste receptor cells sense chemicals in the food we eat.
+   > “specialized gustatory receptor cells for the transduction of taste stimuli. These receptor cells are sensitive to the chemicals contained within foods that are ingested” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+2. These cells sit in clusters called taste buds, inside bumps on the tongue called papillae. *(defines “taste buds”)*
+   > “A taste bud is a cluster of gustatory receptors (taste cells) that are located within the bumps on the tongue called papillae” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “taste bud: clusters of taste cells” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. Food molecules dissolve in saliva and bind to sensors on microvilli, the hair-like tips of these cells. *(defines “microvilli”)*
+   > “Food molecules (tastants) are dissolved in saliva, and they bind with and stimulate the receptors on the microvilli.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “These are elongated cells with hair-like processes called microvilli at the tips that extend into the taste bud pore” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+4. Once activated, taste receptor cells release chemical signals onto sensory nerve cells.
+   > “Once the gustatory cells are activated by the taste molecules, they release neurotransmitters onto the dendrites of sensory neurons.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+
+#### Taste receptor cell: Core (drafted; grade 11; `content/CL_0000209/tier2.md`)
+
+1. Taste receptor cells sense chemicals in the food we eat and release neurotransmitters, chemical signals, based on how much of each chemical is present. *(defines “neurotransmitters”)*
+   > “specialized gustatory receptor cells for the transduction of taste stimuli. These receptor cells are sensitive to the chemicals contained within foods that are ingested, and they release neurotransmitters based on the amount of the chemical in the food.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “neurotransmitter: chemical signal that is released from the synaptic end bulb of a neuron to cause a change in the target cell” ([Chapter 12 Key Terms (The Nervous System and Nervous Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms), CC BY 4.0)
+2. These cells, also called taste cells, cluster in taste buds, which sit within bumps on the tongue called papillae. *(defines “taste buds”)*
+   > “A taste bud is a cluster of gustatory receptors (taste cells) that are located within the bumps on the tongue called papillae” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “taste bud: clusters of taste cells” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+3. Taste cells are long cells whose hair-like tips, called microvilli, reach into a pore in the taste bud. *(defines “microvilli”)*
+   > “Each taste bud’s taste cells are replaced every 10 to 14 days. These are elongated cells with hair-like processes called microvilli at the tips that extend into the taste bud pore” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+4. A taste bud's taste cells are replaced every 10 to 14 days.
+   > “Each taste bud’s taste cells are replaced every 10 to 14 days.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+5. Food molecules dissolve in saliva and then bind to receptors, proteins with a binding site for a specific molecule, on the microvilli. *(defines “receptors”)*
+   > “Food molecules (tastants) are dissolved in saliva, and they bind with and stimulate the receptors on the microvilli.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “receptor: protein molecule that contains a binding site for another specific molecule (called a ligand)” ([Chapter 3 Key Terms (The Cellular Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms), CC BY 4.0)
+6. Each of the five primary tastes (sweet, sour, bitter, salty and umami, a savory taste) has its own type of receptor that responds only to that taste. *(defines “umami”)*
+   > “There are five primary tastes in humans: sweet, sour, bitter, salty, and umami. Each taste has its own receptor type that responds only to that taste.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “umami: one of the five basic tastes, which is described as “savory” and which may be largely the taste of L-glutamate” ([Chapter 36 Key Terms (Sensory Systems)](https://openstax.org/books/biology-2e/pages/36-key-terms), CC BY 4.0)
+7. Sour and salty tastes come from ions, atoms with an electric charge, entering the taste cell: hydrogen ions for sour and sodium ions for salty. *(defines “ions”)*
+   > “Sour taste is the perception of H+ concentration. Just as with sodium ions in salty flavors, these hydrogen ions enter the cell and trigger depolarization.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “ion: atom with an overall positive or negative charge” ([Chapter 2 Key Terms (The Chemical Level of Organization)](https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms), CC BY 4.0)
+8. Sweet, bitter and umami tastes instead need a G protein–coupled receptor, a receptor that activates a G protein to pass the signal on inside the cell. *(defines “G protein–coupled receptor”)*
+   > “Sweet, bitter, and umami tastants require a G-protein coupled receptor.” ([36.3 Taste and Smell](https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell), CC BY 4.0)
+   > “G protein–coupled receptor: membrane protein complex that consists of a receptor protein that binds to a signaling molecule—a G protein—that is activated by that binding and in turn activates an effector protein (enzyme) that creates a second-messenger molecule in the cytoplasm of the target cell” ([Chapter 15 Key Terms (The Autonomic Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms), CC BY 4.0)
+9. In a taste cell, a change in voltage across the cell membrane leads to the release of neurotransmitters where the cell meets sensory nerve cells.
+   > “For other sensory receptor cells, such as taste cells or photoreceptors of the retina, graded potentials in their membranes result in the release of neurotransmitters at synapses with sensory neurons.” ([12.5 Communication Between Neurons](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons), CC BY 4.0)
+10. These neurotransmitters can activate sensory nerve cells in the facial, glossopharyngeal and vagus nerves, which are cranial nerves, nerves connected to the brain. *(defines “cranial nerves”)*
+   > “Neurotransmitters from the gustatory cells can activate sensory neurons in the facial, glossopharyngeal, and vagus cranial nerves.” ([14.1 Sensory Perception](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception), CC BY 4.0)
+   > “cranial nerve: one of twelve nerves connected to the brain that are responsible for sensory or motor functions of the head and neck” ([Chapter 13 Key Terms (Anatomy of the Nervous System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms), CC BY 4.0)
+
+#### Thyroid follicular cell: Plain (drafted; grade 9.1; `content/CL_0002258/tier1.md`)
+
+1. Thyroid follicular cells make thyroid hormones, chemical signals that control how the body works. *(defines “hormones”)*
+   > “The thyroid is made up of follicle cells that produce the hormones thyroxine and triiodothyronine.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+2. These hormones set the body's basal metabolic rate, the energy the body needs at rest. *(defines “basal metabolic rate”)*
+   > “The basal metabolic rate, which is the amount of calories required by the body at rest, is determined by two hormones produced by the thyroid gland: thyroxine, also known as tetraiodothyronine or T4, and triiodothyronine, also known as T3.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+3. Follicular cells form the walls of thyroid follicles, which hold a sticky fluid called colloid. *(defines “colloid”)*
+   > “The follicles are made up of a central cavity filled with a sticky fluid called colloid. Surrounded by a wall of epithelial follicle cells, the colloid is the center of thyroid hormone production” ([17.4 The Thyroid Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland), CC BY 4.0)
+4. To make thyroid hormones, follicular cells need iodide, a form of iodine that comes from the diet. *(defines “iodide”)*
+   > “The follicular cells of the thyroid require iodides (anions of iodine) in order to synthesize T3 and T4. Iodides obtained from the diet are actively transported into follicle cells resulting in a concentration that is approximately 30 times higher than in blood.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+
+#### Thyroid follicular cell: Core (drafted; grade 11.3; `content/CL_0002258/tier2.md`)
+
+1. Thyroid follicular cells make, store and release thyroid hormones, chemical signals that control how the body works. *(defines “hormones”)*
+   > “it synthesizes, stores, and secretes the thyroid hormones thyroxine (T4) and triiodothyronine (T3), releasing them into the bloodstream” ([CL:0002258 thyroid follicular cell](http://purl.obolibrary.org/obo/CL_0002258), CC BY 4.0)
+   > “hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes” ([Chapter 3 Key Terms (Biological Macromolecules)](https://openstax.org/books/biology-2e/pages/3-key-terms), CC BY 4.0)
+2. These hormones, thyroxine (T4) and triiodothyronine (T3), set the body's basal metabolic rate, the amount of energy the body needs at rest. *(defines “basal metabolic rate”)*
+   > “The basal metabolic rate, which is the amount of calories required by the body at rest, is determined by two hormones produced by the thyroid gland: thyroxine, also known as tetraiodothyronine or T4, and triiodothyronine, also known as T3.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+3. Most of the thyroid gland is made of follicles; in each follicle, a wall of follicular cells surrounds a cavity filled with a sticky fluid called colloid. *(defines “colloid”)*
+   > “The tissue of the thyroid gland is composed mostly of thyroid follicles. The follicles are made up of a central cavity filled with a sticky fluid called colloid. Surrounded by a wall of epithelial follicle cells, the colloid is the center of thyroid hormone production” ([17.4 The Thyroid Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland), CC BY 4.0)
+4. Each follicular cell is an epithelial cell, part of the tissue that lines or covers organs. *(defines “epithelial cell”)*
+   > “An epithelial cell that is part of the thyroid follicle epithelium” ([CL:0002258 thyroid follicular cell](http://purl.obolibrary.org/obo/CL_0002258), CC BY 4.0)
+   > “epithelial tissue: tissue that either lines or covers organs or other tissues” ([Chapter 33 Key Terms (The Animal Body: Basic Form and Function)](https://openstax.org/books/biology-2e/pages/33-key-terms), CC BY 4.0)
+5. A follicular cell's shape shows how active the cell is: flat when inactive, but cube-shaped or column-shaped when active.
+   > “An epithelial cell that is part of the thyroid follicle epithelium, with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity.” ([CL:0002258 thyroid follicular cell](http://purl.obolibrary.org/obo/CL_0002258), CC BY 4.0)
+6. The cell's surface that faces the colloid is covered with microvilli, projections that increase a cell's surface area. *(defines “microvilli”)*
+   > “Its apical surface is lined with microvilli projecting into the colloid-filled lumen” ([CL:0002258 thyroid follicular cell](http://purl.obolibrary.org/obo/CL_0002258), CC BY 4.0)
+   > “microvilli: cellular processes that increase the surface area of cells” ([Chapter 41 Key Terms (Osmotic Regulation and Excretion)](https://openstax.org/books/biology-2e/pages/41-key-terms), CC BY 4.0)
+7. To make thyroid hormones, follicular cells need iodide, a charged form of iodine that comes from the diet. *(defines “iodide”)*
+   > “The follicular cells of the thyroid require iodides (anions of iodine) in order to synthesize T3 and T4. Iodides obtained from the diet are actively transported into follicle cells resulting in a concentration that is approximately 30 times higher than in blood.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+8. Thyroid-stimulating hormone (TSH), a hormone from the front part of the pituitary gland, makes the cells pump iodide in from the blood. *(defines “thyroid-stimulating hormone (TSH)”)*
+   > “Binding of TSH to its receptors in the follicle cells of the thyroid gland causes the cells to actively transport iodide ions (I–) across their cell membrane, from the bloodstream into the cytosol.” ([17.4 The Thyroid Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland), CC BY 4.0)
+   > “thyroid-stimulating hormone (TSH): anterior pituitary hormone that triggers secretion of thyroid hormones by the thyroid gland (also called thyrotropin)” ([Chapter 17 Key Terms (The Endocrine System)](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms), CC BY 4.0)
+9. The cells release a protein called thyroglobulin into the colloid, where iodine atoms attach to thyroglobulin to form the hormones. *(defines “thyroglobulin”)*
+   > “Hormones are produced in the colloid when atoms of the mineral iodine attach to a glycoprotein, called thyroglobulin, that is secreted into the colloid by the follicle cells.” ([17.4 The Thyroid Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland), CC BY 4.0)
+10. TSH also makes the cells take colloid back inside, where lysosomes, the cell's digestive parts, break thyroglobulin apart and free T3 and T4 to enter the blood. *(defines “lysosomes”)*
+   > “TSH stimulates endocytosis of colloid back into the follicle cells. There, lysosomal enzymes break apart the thyroglobulin colloid, releasing free T3 and T4, which diffuse across the follicle cell membrane and enter the bloodstream.” ([17.4 The Thyroid Gland](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland), CC BY 4.0)
+   > “lysosome: organelle in an animal cell that functions as the cell’s digestive component; it breaks down proteins, polysaccharides, lipids, nucleic acids, and even worn-out organelles” ([Chapter 4 Key Terms (Cell Structure)](https://openstax.org/books/biology-2e/pages/4-key-terms), CC BY 4.0)
+
+#### Type B pancreatic cell: Plain (drafted; grade 8.9; `content/CL_0000169/tier1.md`)
+
+1. Beta cells make insulin, a hormone that lowers the amount of glucose, a simple sugar, in the blood. *(defines “glucose”)*
+   > “insulin: hormone produced by the beta cells of the pancreas in response to high blood glucose levels; functions to lower blood glucose levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+   > “glucose, a simple sugar that is a component of starch and an ingredient in many staple foods.” ([3.2 Carbohydrates](https://openstax.org/books/biology-2e/pages/3-2-carbohydrates), CC BY 4.0)
+2. Beta cells make up about 75 percent of each pancreatic islet, a cluster of hormone-releasing cells in the pancreas. *(defines “pancreatic islet”)*
+   > “The beta cell produces the hormone insulin and makes up approximately 75 percent of each islet.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+   > “Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+3. When blood glucose rises, such as after a meal, beta cells release insulin.
+   > “When blood glucose levels rise, such as after a meal, beta cells release insulin to lower blood glucose levels by increasing the rate of glucose uptake in most body cells, and by increasing glycogen synthesis in skeletal muscles and the liver.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+4. The insulin signals muscle, fat and liver cells to take up the extra glucose from the blood.
+   > “These pancreatic beta cells respond to the increased level of blood glucose by releasing the hormone insulin into the bloodstream. The insulin signals skeletal muscle fibers, fat cells (adipocytes), and liver cells to take up the excess glucose, removing it from the bloodstream.” ([1.5 Homeostasis](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis), CC BY 4.0)
+
+#### Type B pancreatic cell: Core (drafted; grade 10.4; `content/CL_0000169/tier2.md`)
+
+1. Beta cells make insulin, a hormone that lowers the amount of glucose, a simple sugar, in the blood. *(defines “glucose”)*
+   > “insulin: hormone produced by the beta cells of the pancreas in response to high blood glucose levels; functions to lower blood glucose levels” ([Chapter 37 Key Terms (The Endocrine System)](https://openstax.org/books/biology-2e/pages/37-key-terms), CC BY 4.0)
+   > “glucose, a simple sugar that is a component of starch and an ingredient in many staple foods.” ([3.2 Carbohydrates](https://openstax.org/books/biology-2e/pages/3-2-carbohydrates), CC BY 4.0)
+2. Beta cells sit in the pancreatic islets, or islets of Langerhans: clusters of hormone-releasing cells in the pancreas, an organ between the stomach and the small intestine. *(defines “pancreatic islets”)*
+   > “The pancreas lies in the abdomen between the stomach and the small intestine. Clusters of endocrine cells in the pancreas form the islets of Langerhans, which are composed of alpha cells that release glucagon and beta cells that release insulin.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+3. Beta cells make up about 75 percent of each islet.
+   > “The beta cell produces the hormone insulin and makes up approximately 75 percent of each islet.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+4. When food reaches the intestine, the gut releases hormones that give beta cells the first signal to make and release insulin.
+   > “The presence of food in the intestine triggers the release of gastrointestinal tract hormones such as glucose-dependent insulinotropic peptide (previously known as gastric inhibitory peptide). This is in turn the initial trigger for insulin production and secretion by the beta cells” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+5. Once nutrients are absorbed, the surge in blood glucose stimulates beta cells to release even more insulin.
+   > “Once nutrient absorption occurs, the resulting surge in blood glucose levels further stimulates insulin secretion.” ([17.9 The Endocrine Pancreas](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas), CC BY 4.0)
+6. Inside a beta cell, a rise in calcium ions (Ca2+) is a signal that leads to the release of insulin. *(defines “Ca2+”)*
+   > “the concentration of cytoplasmic Ca2+. The response to the increase in Ca2+ varies and depends on the cell type involved. For example, in the β-cells of the pancreas, Ca2+ signaling leads to the release of insulin” ([9.2 Propagation of the Signal](https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal), CC BY 4.0)
+   > “The free concentration of calcium ions (Ca2+) within a cell is very low” ([9.2 Propagation of the Signal](https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal), CC BY 4.0)
+7. Insulin lowers blood glucose: most body cells take up glucose faster, and skeletal muscles and the liver build more glycogen, the stored form of glucose. *(defines “glycogen”)*
+   > “When blood glucose levels rise, such as after a meal, beta cells release insulin to lower blood glucose levels by increasing the rate of glucose uptake in most body cells, and by increasing glycogen synthesis in skeletal muscles and the liver.” ([37.5 Endocrine Glands](https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands), CC BY 4.0)
+   > “glycogen: form that glucose assumes when it is stored” ([Chapter 24 Key Terms (Metabolism and Nutrition)](https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms), CC BY 4.0)
+8. As insulin brings blood glucose down, the lower level holds back further insulin release from beta cells; this negative feedback loop keeps the response from going too far. *(defines “negative feedback loop”)*
+   > “These actions mediated by insulin cause blood glucose concentrations to fall, called a hypoglycemic “low sugar” effect, which inhibits further insulin release from beta cells through a negative feedback loop.” ([37.3 Regulation of Body Processes](https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes), CC BY 4.0)
+   > “negative feedback: homeostatic mechanism that tends to stabilize an upset in the body’s physiological condition by preventing an excessive response to a stimulus” ([Chapter 1 Key Terms (An Introduction to the Human Body)](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms), CC BY 4.0)
+
+#### Type EC enteroendocrine cell: Plain (drafted; grade 9.5; `content/CL_0000577/tier1.md`)
+
+1. Type EC enteroendocrine cells release serotonin, a chemical signal that nerve cells also use. *(defines “serotonin”)*
+   > “These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “The nervous system uses two types of intercellular communication—electrical and chemical signaling—either by the direct action of an electrical potential, or in the latter case, through the action of chemical neurotransmitters such as serotonin or norepinephrine.” ([17.1 An Overview of the Endocrine System](https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1-an-overview-of-the-endocrine-system), CC BY 4.0)
+2. They are a kind of enteroendocrine cell: a cell in the gut lining that releases hormones. *(defines “enteroendocrine cell”)*
+   > “A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen, and enteroendocrine cells, which secrete hormones into the interstitial spaces between cells.” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+
+Dropped:
+- “These cells are found especially in glands of the lower stomach and at both ends of the small intestine.” (checker: The quote is verbatim and about this cell, but it only names the pyloric antrum, duodenum and ileum and never says where they lie. 'Lower stomach' and 'both ends of the small intestine' are positions the quote does not state. 'Both ends' is also a loose way to describe the ileum, which is a long final stretch of the small intestine, not just its end. Also, 'These cells' right after the general definition could be read as all enteroendocrine cells.)
+
+#### Type EC enteroendocrine cell: Core (drafted; grade 11.4; `content/CL_0000577/tier2.md`)
+
+1. Type EC cells are one kind of enteroendocrine cell, a cell that releases hormones into the spaces between cells. *(defines “enteroendocrine cell”)*
+   > “A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “Interspersed among its epithelial cells are goblet cells, which secrete mucus and fluid into the lumen, and enteroendocrine cells, which secrete hormones into the interstitial spaces between cells.” ([23.1 Overview of the Digestive System](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system), CC BY 4.0)
+2. Type EC cells release serotonin, which in the stomach acts as a hormone that makes stomach muscle contract. *(defines “serotonin”)*
+   > “These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “Serotonin | Stomach mucosa | Presence of food in the stomach | Stomach | Contracts stomach muscle” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+3. These cells also release enkephalins and substance P, which are neurotransmitters: chemicals that nerve endings release to act on target cells. *(defines “neurotransmitters”)*
+   > “These cell type secretes serotonin and some neurotransmitters including enkephalins and substance P.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “neurotransmitter: signaling chemical released by nerve terminals that bind to and activate receptors on target cells” ([Chapter 10 Key Terms (Muscle Tissue)](https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms), CC BY 4.0)
+4. Type EC cells are found in the gastrointestinal mucosa, the lining that forms the innermost layer of the digestive tract's wall. *(defines “gastrointestinal mucosa”)*
+   > “A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “The mucosa, or mucous membrane layer, is the innermost tunic of the wall. It lines the lumen of the digestive tract.” ([SEER Training Modules: General Structure of the Digestive System](https://training.seer.cancer.gov/anatomy/digestive/structure.html), Free of copyright (NCI reuse policy))
+5. Within this lining, they occur especially in the glands of the duodenum and ileum, the first and last of the small intestine's three regions. *(defines “duodenum and ileum”)*
+   > “A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “The coiled tube of the small intestine is subdivided into three regions. From proximal (at the stomach) to distal, these are the duodenum, jejunum, and ileum” ([23.5 The Small and Large Intestines](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines), CC BY 4.0)
+6. In the stomach, Type EC cells occur especially in the glands of the pyloric antrum, the wider end of the pylorus, a funnel-shaped region that leads into the duodenum. *(defines “pyloric antrum”)*
+   > “A subtype of enteroendocrine cells found in the gastrointestinal mucosa, particularly in the glands of pyloric antrum; duodenum; and ileum.” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “The funnel-shaped pylorus connects the stomach to the duodenum. The wider end of the funnel, the pyloric antrum, connects to the body of the stomach.” ([23.4 The Stomach](https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach), CC BY 4.0)
+7. Each Type EC cell holds secretory granules, small membrane-wrapped sacs that stain readily with silver (the argentaffin stain). *(defines “secretory granules”)*
+   > “Their secretory granules stain readily with silver (argentaffin stain).” ([CL:0000577 type EC enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0000577), CC BY 4.0)
+   > “A small subcellular vesicle, surrounded by a membrane” ([GO:0030141 secretory granule](http://purl.obolibrary.org/obo/GO_0030141), CC BY 4.0)
+
+Dropped:
+- “Besides working as a neurotransmitter, substance P can also act as a hormone in other body systems.” (checker: The quote is verbatim, but in context (OpenStax 12.5, synapses) it is about neuropeptides in general, with substance P as an example. It is not about Type EC cells or their exact class, and the sentence has no 'defines'. So it adds a claim about a different structure (substance P's hormone role elsewhere in the body).)
+- “These granules move toward the edge of the cell and, when stimulated, merge with the cell's outer membrane to release their contents outside the cell.” (checker: The quote is verbatim, but it is GO's general definition of secretory granules (GO:0030141). It is not about Type EC cells or their exact class, and the sentence has no 'defines'. The sentence applies that general claim to this cell's granules ('These granules') and widens GO's 'protein load' to 'contents'.)
 
 ### Digestive
 

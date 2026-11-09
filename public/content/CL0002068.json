@@ -113,30 +113,339 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002068/tier1.auto.md",
-   "text": "Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell. They are uninucleate cylindrical cells, associated end-to-end in long rows, continue from the node to the atrioventricular bundle; relatively short compared to ordinary myocytes but are nearly twice their diameter.",
+   "status": "drafted",
+   "file": "content/CL_0002068/tier1.md",
+   "text": "Purkinje cells spread each electrical signal to the muscle cells of the ventricles, the heart's lower pumping chambers. Purkinje cells are special heart muscle cells found just under the heart's inner lining. From the heart's bottom tip, these cells carry the signal up through the ventricle walls. So the ventricles contract from the bottom up, like squeezing a toothpaste tube from the bottom.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002068",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002068",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002068",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002068",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0002068 Purkinje myocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002068",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 40.3 Mammalian Heart and Blood Vessels",
+     "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002068. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Purkinje cells spread each electrical signal to the muscle cells of the ventricles, the heart's lower pumping chambers.",
+     "defines": "ventricles",
+     "quotes": [
+      {
+       "quote": "Purkinje fibers: specialized myocardial conduction fibers that arise from the bundle branches and spread the impulse to the myocardial contraction fibers of the ventricles",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ventricle: one of the primary pumping chambers of the heart located in the lower portion of the heart",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Purkinje cells are special heart muscle cells found just under the heart's inner lining.",
+     "quotes": [
+      {
+       "quote": "Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell.",
+       "section": "CL:0002068 Purkinje myocyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0002068",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "From the heart's bottom tip, these cells carry the signal up through the ventricle walls.",
+     "quotes": [
+      {
+       "quote": "Finally, the Purkinje fibers conduct the impulse from the apex of the heart up the ventricular myocardium, and then the ventricles contract.",
+       "section": "40.3 Mammalian Heart and Blood Vessels",
+       "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "So the ventricles contract from the bottom up, like squeezing a toothpaste tube from the bottom.",
+     "quotes": [
+      {
+       "quote": "Since the electrical stimulus begins at the apex, the contraction also begins at the apex and travels toward the base of the heart, similar to squeezing a tube of toothpaste from the bottom.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002068/tier2.md",
+   "text": "Purkinje cells spread each electrical impulse to the contracting muscle cells of the ventricles, the large lower heart chambers that pump blood into arteries. Purkinje cells are the last link in the heart's conduction system, the specialized heart muscle cells that coordinate the contraction of the heart's chambers. At the heart's lower tip, Purkinje cells connect with the bundle branches, specialized conducting cells that run down through the wall between the ventricles. From the lower tip, Purkinje cells carry the impulse up through the ventricles' myocardium, the heart muscle cells that make up the middle layer and the bulk of the heart wall. Each Purkinje cell is a cylinder with a single nucleus, shorter than an ordinary heart muscle cell but nearly twice as wide. Purkinje cells are joined end to end in long rows, which run among ordinary heart muscle cells just beneath the endocardium, the innermost layer of the heart wall. Purkinje cells conduct impulses fast, and an impulse reaches all the muscle cells of the ventricles in about 75 milliseconds. Since the electrical stimulus to the ventricles begins at the lower tip, their contraction also starts there and moves toward the top of the heart. This works like squeezing a tube of toothpaste from the bottom, pushing blood out of the ventricles. Purkinje cells can also fire impulses on their own, but only 15–20 times per minute, more slowly than the bundle branches.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+     "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Cardiovascular System",
+     "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/review.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Biology 2e, 40.3 Mammalian Heart and Blood Vessels",
+     "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0002068 Purkinje myocyte",
+     "url": "http://purl.obolibrary.org/obo/CL_0002068",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Review: Introduction to the Cardiovascular System. U.S. National Institutes of Health, National Cancer Institute; Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Purkinje cells spread each electrical impulse to the contracting muscle cells of the ventricles, the large lower heart chambers that pump blood into arteries.",
+     "defines": "ventricles",
+     "quotes": [
+      {
+       "quote": "Purkinje fibers: specialized myocardial conduction fibers that arise from the bundle branches and spread the impulse to the myocardial contraction fibers of the ventricles",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ventricle: (heart) large inferior chamber of the heart that pumps blood into arteries",
+       "section": "Chapter 40 Key Terms (The Circulatory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Purkinje cells are the last link in the heart's conduction system, the specialized heart muscle cells that coordinate the contraction of the heart's chambers.",
+     "defines": "conduction system",
+     "quotes": [
+      {
+       "quote": "The normal path of transmission for the conductive cells is the sinoatrial (SA) node, internodal pathways, atrioventricular (AV) node, atrioventricular (AV) bundle of His, bundle branches, and Purkinje fibers.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Specialized cardiac muscle cells that make up the conduction system of the heart coordinate contraction of the chambers.",
+       "section": "SEER Training Modules: Review: Introduction to the Cardiovascular System",
+       "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/review.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Review: Introduction to the Cardiovascular System. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "At the heart's lower tip, Purkinje cells connect with the bundle branches, specialized conducting cells that run down through the wall between the ventricles.",
+     "defines": "bundle branches",
+     "quotes": [
+      {
+       "quote": "Both bundle branches descend and reach the apex of the heart where they connect with the Purkinje fibers",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "atrioventricular bundle branches: (also, left or right bundle branches) specialized myocardial conductile cells that arise from the bifurcation of the atrioventricular bundle and pass through the interventricular septum; lead to the Purkinje fibers",
+       "section": "Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From the lower tip, Purkinje cells carry the impulse up through the ventricles' myocardium, the heart muscle cells that make up the middle layer and the bulk of the heart wall.",
+     "defines": "myocardium",
+     "quotes": [
+      {
+       "quote": "Finally, the Purkinje fibers conduct the impulse from the apex of the heart up the ventricular myocardium, and then the ventricles contract.",
+       "section": "40.3 Mammalian Heart and Blood Vessels",
+       "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "myocardium: heart muscle cells that make up the middle layer and the bulk of the heart wall",
+       "section": "Chapter 40 Key Terms (The Circulatory System)",
+       "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each Purkinje cell is a cylinder with a single nucleus, shorter than an ordinary heart muscle cell but nearly twice as wide.",
+     "quotes": [
+      {
+       "quote": "They are uninucleate cylindrical cells, associated end-to-end in long rows, continue from the node to the atrioventricular bundle; relatively short compared to ordinary myocytes but are nearly twice their diameter.",
+       "section": "CL:0002068 Purkinje myocyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0002068",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "Purkinje cells are joined end to end in long rows, which run among ordinary heart muscle cells just beneath the endocardium, the innermost layer of the heart wall.",
+     "defines": "endocardium",
+     "quotes": [
+      {
+       "quote": "Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell. They are uninucleate cylindrical cells, associated end-to-end in long rows",
+       "section": "CL:0002068 Purkinje myocyte",
+       "url": "http://purl.obolibrary.org/obo/CL_0002068",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The innermost layer of the heart wall, the endocardium, is joined to the myocardium with a thin layer of connective tissue.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Purkinje cells conduct impulses fast, and an impulse reaches all the muscle cells of the ventricles in about 75 milliseconds.",
+     "quotes": [
+      {
+       "quote": "The Purkinje fibers have a fast inherent conduction rate, and the electrical impulse reaches all of the ventricular muscle cells in about 75 ms",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Since the electrical stimulus to the ventricles begins at the lower tip, their contraction also starts there and moves toward the top of the heart.",
+     "quotes": [
+      {
+       "quote": "Since the electrical stimulus begins at the apex, the contraction also begins at the apex and travels toward the base of the heart",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This works like squeezing a tube of toothpaste from the bottom, pushing blood out of the ventricles.",
+     "quotes": [
+      {
+       "quote": "similar to squeezing a tube of toothpaste from the bottom. This allows the blood to be pumped out of the ventricles and into the aorta and pulmonary trunk.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Purkinje cells can also fire impulses on their own, but only 15–20 times per minute, more slowly than the bundle branches.",
+     "quotes": [
+      {
+       "quote": "The bundle branches would have an inherent rate of 20–30 impulses per minute, and the Purkinje fibers would fire at 15–20 impulses per minute.",
+       "section": "19.2 Cardiac Muscle and Electrical Activity",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -145,8 +454,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002068",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002068",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 19 Key Terms (The Cardiovascular System: The Heart)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0002068 Purkinje myocyte",
+   "url": "http://purl.obolibrary.org/obo/CL_0002068",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 40.3 Mammalian Heart and Blood Vessels",
+   "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.2 Cardiac Muscle and Electrical Activity",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 40 Key Terms (The Circulatory System)",
+   "url": "https://openstax.org/books/biology-2e/pages/40-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Review: Introduction to the Cardiovascular System",
+   "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/review.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
    "license": "CC BY 4.0"
   }
  ],

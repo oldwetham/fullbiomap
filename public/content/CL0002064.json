@@ -225,30 +225,383 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002064/tier1.auto.md",
-   "text": "A secretory cell found in pancreatic acini that secretes digestive enzymes and mucins. This cell is a typical zymogenic cell, have a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules.",
+   "status": "drafted",
+   "file": "content/CL_0002064/tier1.md",
+   "text": "Pancreatic acinar cells release digestive enzymes, proteins that speed up chemical reactions in the body. These cells form small grape-like clusters, called acini, in the pancreas, an organ behind the stomach. The enzymes help break down sugars, proteins and fats. Enzymes that digest protein are released in an inactive form, so they do not digest the pancreas.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002064",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002064",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002064",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002064",
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002064. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Pancreatic acinar cells release digestive enzymes, proteins that speed up chemical reactions in the body.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "It consists of pancreatic acinar cells that secrete digestive enzymes into tiny ducts interwoven between the cells.",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells form small grape-like clusters, called acini, in the pancreas, an organ behind the stomach.",
+     "defines": "pancreas",
+     "quotes": [
+      {
+       "quote": "The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini), located at the terminal ends of pancreatic ducts. These acinar cells secrete enzyme-rich pancreatic juice into tiny merging ducts that form two dominant ducts.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The enzymes help break down sugars, proteins and fats.",
+     "quotes": [
+      {
+       "quote": "Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Enzymes that digest protein are released in an inactive form, so they do not digest the pancreas.",
+     "quotes": [
+      {
+       "quote": "The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002064/tier2.md",
+   "text": "A pancreatic acinar cell releases digestive enzymes, proteins that speed up chemical reactions in the body. These enzymes help digest sugars, proteins and fats. Acinar cells make up most of the pancreas, an organ behind the stomach, and send their enzymes into tiny ducts that run between the cells. The cells are grouped into small grape-like clusters, each called an acinus, at the ends of the pancreatic ducts. As makers of the pancreas's digestive enzymes, acinar cells contain many ribosomes, the cell structures that build proteins. The inside of each cell is packed with neat rows of rough endoplasmic reticulum, whose outer surface is dotted with ribosomes. Each cell also contains dense secretory granules, small membrane-wrapped sacs filled with concentrated protein that will be released. The granules move toward the edge of the cell and, when stimulated, fuse with the cell's outer membrane to release their protein, a process called exocytosis. Enzymes that digest protein are released in inactive forms, because active ones would digest the pancreas itself. These enzymes become active in the duodenum, the first part of the small intestine.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0002064 pancreatic acinar cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002064",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+     "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 4.3 Eukaryotic Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0005791 rough endoplasmic reticulum",
+     "url": "http://purl.obolibrary.org/obo/GO_0005791",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0030141 secretory granule",
+     "url": "http://purl.obolibrary.org/obo/GO_0030141",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Gene Ontology (GO), https://geneontology.org. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A pancreatic acinar cell releases digestive enzymes, proteins that speed up chemical reactions in the body.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "A secretory cell found in pancreatic acini that secretes digestive enzymes and mucins.",
+       "section": "CL:0002064 pancreatic acinar cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002064",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These enzymes help digest sugars, proteins and fats.",
+     "quotes": [
+      {
+       "quote": "Pancreatic enzymes are active in the digestion of sugars, proteins, and fats.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Acinar cells make up most of the pancreas, an organ behind the stomach, and send their enzymes into tiny ducts that run between the cells.",
+     "defines": "pancreas",
+     "quotes": [
+      {
+       "quote": "The exocrine portion is the major part of the gland. It consists of pancreatic acinar cells that secrete digestive enzymes into tiny ducts interwoven between the cells.",
+       "section": "SEER Training Modules: Accessory Organs",
+       "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Accessory Organs. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "pancreas: organ with both exocrine and endocrine functions located posterior to the stomach that is important for digestion and the regulation of blood glucose",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cells are grouped into small grape-like clusters, each called an acinus, at the ends of the pancreatic ducts.",
+     "defines": "acinus",
+     "quotes": [
+      {
+       "quote": "The exocrine part of the pancreas arises as little grape-like cell clusters, each called an acinus (plural = acini), located at the terminal ends of pancreatic ducts. These acinar cells secrete enzyme-rich pancreatic juice into tiny merging ducts that form two dominant ducts.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As makers of the pancreas's digestive enzymes, acinar cells contain many ribosomes, the cell structures that build proteins.",
+     "defines": "ribosomes",
+     "quotes": [
+      {
+       "quote": "Ribosomes are particularly abundant in cells that synthesize large amounts of protein. For example, the pancreas is responsible for creating several digestive enzymes and the cells that produce these enzymes contain many ribosomes.",
+       "section": "4.3 Eukaryotic Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "ribosome: cellular structure that carries out protein synthesis",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The inside of each cell is packed with neat rows of rough endoplasmic reticulum, whose outer surface is dotted with ribosomes.",
+     "defines": "rough endoplasmic reticulum",
+     "quotes": [
+      {
+       "quote": "This cell is a typical zymogenic cell, have a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules.",
+       "section": "CL:0002064 pancreatic acinar cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002064",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The rough (or granular) endoplasmic reticulum (ER) has ribosomes adhering to the outer surface",
+       "section": "GO:0005791 rough endoplasmic reticulum",
+       "url": "http://purl.obolibrary.org/obo/GO_0005791",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Each cell also contains dense secretory granules, small membrane-wrapped sacs filled with concentrated protein that will be released.",
+     "defines": "secretory granules",
+     "quotes": [
+      {
+       "quote": "This cell is a typical zymogenic cell, have a basal nucleus and basophilic cytoplasm consisting of regular arrays of granular endoplasmic reticulum with mitochondria and dense secretory granules.",
+       "section": "CL:0002064 pancreatic acinar cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002064",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "The granules move toward the edge of the cell and, when stimulated, fuse with the cell's outer membrane to release their protein, a process called exocytosis.",
+     "defines": "exocytosis",
+     "quotes": [
+      {
+       "quote": "Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized.",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      },
+      {
+       "quote": "exocytosis: export of a substance out of a cell by formation of a membrane-bound vesicle",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Enzymes that digest protein are released in inactive forms, because active ones would digest the pancreas itself.",
+     "quotes": [
+      {
+       "quote": "The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These enzymes become active in the duodenum, the first part of the small intestine.",
+     "defines": "duodenum",
+     "quotes": [
+      {
+       "quote": "The pancreas secretes protein-digesting enzymes in their inactive forms. If secreted in their active forms, they would self-digest the pancreas. These enzymes are activated in the duodenum.",
+       "section": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "duodenum: first part of the small intestine, which starts at the pyloric sphincter and ends at the jejunum",
+       "section": "Chapter 23 Key Terms (The Digestive System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -257,8 +610,58 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002064",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002064",
+   "title": "SEER Training Modules, SEER Training Modules: Accessory Organs",
+   "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0002064 pancreatic acinar cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002064",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 4.3 Eukaryotic Cells",
+   "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0005791 rough endoplasmic reticulum",
+   "url": "http://purl.obolibrary.org/obo/GO_0005791",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0030141 secretory granule",
+   "url": "http://purl.obolibrary.org/obo/GO_0030141",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 23 Key Terms (The Digestive System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms",
    "license": "CC BY 4.0"
   }
  ],

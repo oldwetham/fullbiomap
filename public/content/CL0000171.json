@@ -128,30 +128,359 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000171/tier1.auto.md",
-   "text": "A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.",
+   "status": "drafted",
+   "file": "content/CL_0000171/tier1.md",
+   "text": "The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels. This cell sits at the edge of the pancreatic islets, clusters of cells that release hormones. Alpha cells release glucagon when blood sugar drops, such as between meals or during exercise. Glucagon makes the liver send more sugar into the blood.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000171",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000171",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000171",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000171",
+     "title": "Cell Ontology, CL:0000171 pancreatic A cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000171",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.9 The Endocrine Pancreas",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.5 Endocrine Glands",
+     "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000171. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels.",
+     "defines": "glucagon",
+     "quotes": [
+      {
+       "quote": "A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.",
+       "section": "CL:0000171 pancreatic A cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000171",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "glucagon: hormone produced by the alpha cells of the pancreas in response to low blood sugar; functions to raise blood sugar levels",
+       "section": "Chapter 37 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This cell sits at the edge of the pancreatic islets, clusters of cells that release hormones.",
+     "defines": "pancreatic islets",
+     "quotes": [
+      {
+       "quote": "A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.",
+       "section": "CL:0000171 pancreatic A cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000171",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).",
+       "section": "17.9 The Endocrine Pancreas",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Alpha cells release glucagon when blood sugar drops, such as between meals or during exercise.",
+     "quotes": [
+      {
+       "quote": "When blood glucose levels decline below normal levels, for example between meals or when glucose is utilized rapidly during exercise, the hormone glucagon is released from the alpha cells of the pancreas.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Glucagon makes the liver send more sugar into the blood.",
+     "quotes": [
+      {
+       "quote": "As blood glucose levels decline, alpha cells release glucagon to raise the blood glucose levels by increasing rates of glycogen breakdown and glucose release by the liver.",
+       "section": "37.5 Endocrine Glands",
+       "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000171/tier2.md",
+   "text": "The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels. This cell lies at the edge of the pancreatic islets, or islets of Langerhans, which are clusters of cells in the pancreas that release hormones. Alpha cells make up about 20 percent of the cells in each islet. When blood glucose, the sugar the body uses for energy, drops between meals or during exercise, alpha cells release glucagon. Glucagon makes the liver break down glycogen, the stored form of glucose, and release more glucose into the blood. Glucagon also makes the liver turn amino acids from the blood into new glucose; amino acids are the building blocks of proteins. Rising blood glucose then holds back further glucagon release; this is negative feedback, a control that keeps a response from going too far. Glucagon has the opposite effect of insulin, a pancreatic hormone that lowers blood glucose, and together the two keep blood glucose steady.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000171 pancreatic A cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000171",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.9 The Endocrine Pancreas",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "NCI Thesaurus, NCIT:C12393 Pancreas",
+     "url": "http://purl.obolibrary.org/obo/NCIT_C12393",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.5 Endocrine Glands",
+     "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 2 Key Terms (The Chemical Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 24.1 Overview of Metabolic Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "The pancreatic A cell, or alpha cell, releases glucagon, a hormone that raises blood sugar levels.",
+     "defines": "glucagon",
+     "quotes": [
+      {
+       "quote": "A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.",
+       "section": "CL:0000171 pancreatic A cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000171",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "glucagon: hormone produced by the alpha cells of the pancreas in response to low blood sugar; functions to raise blood sugar levels",
+       "section": "Chapter 37 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This cell lies at the edge of the pancreatic islets, or islets of Langerhans, which are clusters of cells in the pancreas that release hormones.",
+     "defines": "pancreatic islets",
+     "quotes": [
+      {
+       "quote": "A type A enteroendocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.",
+       "section": "CL:0000171 pancreatic A cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000171",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Its pancreatic islets—clusters of cells formerly known as the islets of Langerhans—secrete the hormones glucagon, insulin, somatostatin, and pancreatic polypeptide (PP).",
+       "section": "17.9 The Endocrine Pancreas",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Alpha cells make up about 20 percent of the cells in each islet.",
+     "quotes": [
+      {
+       "quote": "The alpha cell produces the hormone glucagon and makes up approximately 20 percent of each islet.",
+       "section": "17.9 The Endocrine Pancreas",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When blood glucose, the sugar the body uses for energy, drops between meals or during exercise, alpha cells release glucagon.",
+     "defines": "glucose",
+     "quotes": [
+      {
+       "quote": "When blood glucose levels decline below normal levels, for example between meals or when glucose is utilized rapidly during exercise, the hormone glucagon is released from the alpha cells of the pancreas.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The endocrine pancreas makes insulin so that the body can use glucose (sugar) for energy.",
+       "section": "NCIT:C12393 Pancreas",
+       "url": "http://purl.obolibrary.org/obo/NCIT_C12393",
+       "license": "CC BY 4.0",
+       "citation": "NCI Thesaurus (NCIt), National Cancer Institute, https://ncithesaurus.nci.nih.gov"
+      }
+     ]
+    },
+    {
+     "text": "Glucagon makes the liver break down glycogen, the stored form of glucose, and release more glucose into the blood.",
+     "defines": "glycogen",
+     "quotes": [
+      {
+       "quote": "As blood glucose levels decline, alpha cells release glucagon to raise the blood glucose levels by increasing rates of glycogen breakdown and glucose release by the liver.",
+       "section": "37.5 Endocrine Glands",
+       "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "glycogen: form that glucose assumes when it is stored",
+       "section": "Chapter 24 Key Terms (Metabolism and Nutrition)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Glucagon also makes the liver turn amino acids from the blood into new glucose; amino acids are the building blocks of proteins.",
+     "defines": "amino acids",
+     "quotes": [
+      {
+       "quote": "Glucagon also stimulates absorption of amino acids from the blood by the liver, which then converts them to glucose. This process of glucose synthesis is called gluconeogenesis.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "amino acid: building block of proteins",
+       "section": "Chapter 2 Key Terms (The Chemical Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rising blood glucose then holds back further glucagon release; this is negative feedback, a control that keeps a response from going too far.",
+     "defines": "negative feedback",
+     "quotes": [
+      {
+       "quote": "The activity of glucagon is regulated through a negative feedback mechanism; rising blood glucose levels inhibit further glucagon production and secretion.",
+       "section": "17.9 The Endocrine Pancreas",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "negative feedback: homeostatic mechanism that tends to stabilize an upset in the body’s physiological condition by preventing an excessive response to a stimulus, typically as the stimulus is removed",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Glucagon has the opposite effect of insulin, a pancreatic hormone that lowers blood glucose, and together the two keep blood glucose steady.",
+     "defines": "insulin",
+     "quotes": [
+      {
+       "quote": "its effect is the opposite of insulin; glucagon and insulin are a part of a negative-feedback system that stabilizes blood glucose levels",
+       "section": "24.1 Overview of Metabolic Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "insulin: hormone produced by the beta cells of the pancreas in response to high blood glucose levels; functions to lower blood glucose levels",
+       "section": "Chapter 37 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -160,8 +489,53 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000171",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000171",
+   "title": "Cell Ontology, CL:0000171 pancreatic A cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000171",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 17.9 The Endocrine Pancreas",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+   "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 37.5 Endocrine Glands",
+   "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "NCI Thesaurus, NCIT:C12393 Pancreas",
+   "url": "http://purl.obolibrary.org/obo/NCIT_C12393",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 24 Key Terms (Metabolism and Nutrition)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 2 Key Terms (The Chemical Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 24.1 Overview of Metabolic Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
    "license": "CC BY 4.0"
   }
  ],

@@ -96,30 +96,354 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000646/tier1.auto.md",
-   "text": "Undifferentiated; mitotic stem cell for other epithelial cell types; rounded or elliptical with little cytoplasm and few organelles; contain cytokeratin intermediate filament.",
+   "status": "drafted",
+   "file": "content/CL_0000646/tier1.md",
+   "text": "A basal cell is a stem cell that divides to make other kinds of epithelial cells, which cover and line the body. In the skin, basal cells constantly divide to make keratinocytes, the most common cells in the skin's outer layer. As new cells form, older cells get pushed up toward the skin's surface. Basal cells in the hair bulb, at the base of each hair's root, make keratinocytes to start hair growth.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000646",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000646",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000646",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000646",
+     "title": "Cell Ontology, CL:0000646 basal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000646",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.2 Accessory Structures of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000646. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A basal cell is a stem cell that divides to make other kinds of epithelial cells, which cover and line the body.",
+     "defines": "epithelial cells",
+     "quotes": [
+      {
+       "quote": "Undifferentiated; mitotic stem cell for other epithelial cell types",
+       "section": "CL:0000646 basal cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000646",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "epithelial tissue: type of tissue that serves primarily as a covering or lining of body parts, protecting the body",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the skin, basal cells constantly divide to make keratinocytes, the most common cells in the skin's outer layer.",
+     "defines": "keratinocytes",
+     "quotes": [
+      {
+       "quote": "A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis. All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As new cells form, older cells get pushed up toward the skin's surface.",
+     "quotes": [
+      {
+       "quote": "As new cells are formed, the existing cells are pushed superficially away from the stratum basale.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Basal cells in the hair bulb, at the base of each hair's root, make keratinocytes to start hair growth.",
+     "defines": "hair bulb",
+     "quotes": [
+      {
+       "quote": "Hair growth begins with the production of keratinocytes by the basal cells of the hair bulb.",
+       "section": "5.2 Accessory Structures of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hair bulb: structure at the base of the hair root that surrounds the dermal papilla",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000646/tier2.md",
+   "text": "A basal cell is an unspecialized stem cell that divides to produce other kinds of epithelial cells, which cover and line the body. In the skin, basal cells are cube-shaped stem cells that give rise to cells of the epidermis, the skin's outermost layer. There, basal cells make up most of the stratum basale, the deepest layer of the epidermis. Basal cells in this layer keep dividing and produce all of the keratinocytes, the most common cells of the epidermis. As new cells form, older cells are pushed up and away from the stratum basale. In the hair bulb, at the base of the hair root, basal cells make the keratinocytes that start hair growth. Inside, a basal cell has little cytoplasm, the material between the cell membrane and the nucleus. The cell also has few organelles, the small structures that carry out a cell's work.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000646 basal cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000646",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 5.2 Accessory Structures of the Skin",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+     "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A basal cell is an unspecialized stem cell that divides to produce other kinds of epithelial cells, which cover and line the body.",
+     "defines": "epithelial cells",
+     "quotes": [
+      {
+       "quote": "Undifferentiated; mitotic stem cell for other epithelial cell types",
+       "section": "CL:0000646 basal cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000646",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "epithelial tissue: type of tissue that serves primarily as a covering or lining of body parts, protecting the body",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the skin, basal cells are cube-shaped stem cells that give rise to cells of the epidermis, the skin's outermost layer.",
+     "defines": "epidermis",
+     "quotes": [
+      {
+       "quote": "A basal cell is a cuboidal-shaped stem cell that is a precursor of the keratinocytes of the epidermis.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "epidermis: outermost tissue layer of the skin",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "There, basal cells make up most of the stratum basale, the deepest layer of the epidermis.",
+     "defines": "stratum basale",
+     "quotes": [
+      {
+       "quote": "The stratum basale is a single layer of cells primarily made of basal cells.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "stratum basale: deepest layer of the epidermis, made of epidermal stem cells",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Basal cells in this layer keep dividing and produce all of the keratinocytes, the most common cells of the epidermis.",
+     "defines": "keratinocytes",
+     "quotes": [
+      {
+       "quote": "All of the keratinocytes are produced from this single layer of cells, which are constantly going through mitosis to produce new cells.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "keratinocyte: cell that produces keratin and is the most predominant type of cell found in the epidermis",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "As new cells form, older cells are pushed up and away from the stratum basale.",
+     "quotes": [
+      {
+       "quote": "As new cells are formed, the existing cells are pushed superficially away from the stratum basale.",
+       "section": "5.1 Layers of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the hair bulb, at the base of the hair root, basal cells make the keratinocytes that start hair growth.",
+     "defines": "hair bulb",
+     "quotes": [
+      {
+       "quote": "Hair growth begins with the production of keratinocytes by the basal cells of the hair bulb.",
+       "section": "5.2 Accessory Structures of the Skin",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hair bulb: structure at the base of the hair root that surrounds the dermal papilla",
+       "section": "Chapter 5 Key Terms (The Integumentary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside, a basal cell has little cytoplasm, the material between the cell membrane and the nucleus.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "with little cytoplasm and few organelles",
+       "section": "CL:0000646 basal cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000646",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cytoplasm: internal material between the cell membrane and nucleus of a cell",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cell also has few organelles, the small structures that carry out a cell's work.",
+     "defines": "organelles",
+     "quotes": [
+      {
+       "quote": "with little cytoplasm and few organelles",
+       "section": "CL:0000646 basal cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000646",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "organelle: small structures that exist within cells and carry out cellular functions",
+       "section": "Chapter 1 Key Terms (The Study of Life)",
+       "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -128,8 +452,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000646",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000646",
+   "title": "Cell Ontology, CL:0000646 basal cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000646",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 5.1 Layers of the Skin",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 5 Key Terms (The Integumentary System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 5.2 Accessory Structures of the Skin",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+   "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
    "license": "CC BY 4.0"
   }
  ],

@@ -193,30 +193,346 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000077/tier1.auto.md",
-   "text": "A flat, squamous-like epithelial cell of mesodermal origin. It forms the mesothelium, which lines the body's serous cavities including the pleural, peritoneal, and pericardial spaces. This cell plays a crucial role in synthesizing and secreting lubricants, such as glycosaminoglycans and surfactants, which minimize friction between adjacent tissues during movement.",
+   "status": "drafted",
+   "file": "content/CL_0000077/tier1.md",
+   "text": "Mesothelial cells make and release lubricants that cut friction between nearby tissues during movement. These flat cells form the mesothelium, the tissue that covers the major body cavities. In the pleura, the membrane that covers the lungs, these cells release a fluid that cuts friction as we breathe. Around the heart, the mesothelium releases a fluid that reduces friction as the heart contracts.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000077",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000077",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000077",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000077",
+     "title": "Cell Ontology, CL:0000077 mesothelial cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000077",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.2 The Lungs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000077. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Mesothelial cells make and release lubricants that cut friction between nearby tissues during movement.",
+     "quotes": [
+      {
+       "quote": "This cell plays a crucial role in synthesizing and secreting lubricants, such as glycosaminoglycans and surfactants, which minimize friction between adjacent tissues during movement.",
+       "section": "CL:0000077 mesothelial cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000077",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "These flat cells form the mesothelium, the tissue that covers the major body cavities.",
+     "defines": "mesothelium",
+     "quotes": [
+      {
+       "quote": "A flat, squamous-like epithelial cell of mesodermal origin. It forms the mesothelium, which lines the body's serous cavities including the pleural, peritoneal, and pericardial spaces.",
+       "section": "CL:0000077 mesothelial cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000077",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "mesothelium: simple squamous epithelial tissue which covers the major body cavities and is the epithelial portion of serous membranes",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the pleura, the membrane that covers the lungs, these cells release a fluid that cuts friction as we breathe.",
+     "defines": "pleura",
+     "quotes": [
+      {
+       "quote": "Pleural fluid is secreted by mesothelial cells from both pleural layers and acts to lubricate their surfaces. This lubrication reduces friction between the two layers to prevent trauma during breathing",
+       "section": "22.2 The Lungs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pleura: serous membrane that lines the pleural cavity and covers the lungs",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Around the heart, the mesothelium releases a fluid that reduces friction as the heart contracts.",
+     "quotes": [
+      {
+       "quote": "This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000077/tier2.md",
+   "text": "Mesothelial cells secrete serous fluid, a lubricant that reduces rubbing and friction between organs. Mesothelial cells form the mesothelium, the tissue that covers the major body cavities. The mesothelium is a simple squamous epithelium: a single layer of flat, scale-like cells. The mesothelium forms the smooth, protective surface layer of the serous membranes, which line body cavities and internal organs. In the pleura, the serous membrane covering the lungs, mesothelial cells on both of its layers secrete pleural fluid that lubricates the surfaces. This lubrication reduces friction between the two layers during breathing and helps keep the lungs against the chest wall. Mesothelial cells also closely monitor the level of pleural fluid. Around the heart, the mesothelium secretes serous fluid that reduces friction as the heart contracts. Mesothelial cells develop from the mesoderm, the middle layer of cells in the embryo.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.1 Types of Tissues",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000077 mesothelial cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000077",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.2 The Lungs",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Mesothelial cells secrete serous fluid, a lubricant that reduces rubbing and friction between organs.",
+     "defines": "serous fluid",
+     "quotes": [
+      {
+       "quote": "Serous fluid secreted by the cells of the thin squamous mesothelium lubricates the membrane and reduces abrasion and friction between organs.",
+       "section": "4.1 Types of Tissues",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mesothelial cells form the mesothelium, the tissue that covers the major body cavities.",
+     "defines": "mesothelium",
+     "quotes": [
+      {
+       "quote": "A flat, squamous-like epithelial cell of mesodermal origin. It forms the mesothelium, which lines the body's serous cavities including the pleural, peritoneal, and pericardial spaces.",
+       "section": "CL:0000077 mesothelial cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000077",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "mesothelium: simple squamous epithelial tissue which covers the major body cavities and is the epithelial portion of serous membranes",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The mesothelium is a simple squamous epithelium: a single layer of flat, scale-like cells.",
+     "defines": "simple squamous epithelium",
+     "quotes": [
+      {
+       "quote": "The mesothelium is a simple squamous epithelium that forms the surface layer of the serous membrane that lines body cavities and internal organs.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "simple squamous epithelium: tissue that consists of a single layer of flat scale-like cells; promotes diffusion and filtration across surface",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The mesothelium forms the smooth, protective surface layer of the serous membranes, which line body cavities and internal organs.",
+     "defines": "serous membranes",
+     "quotes": [
+      {
+       "quote": "The mesothelium is a simple squamous epithelium that forms the surface layer of the serous membrane that lines body cavities and internal organs. Its primary function is to provide a smooth and protective surface.",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "serous membrane: type of tissue membrane that lines body cavities and lubricates them with serous fluid",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In the pleura, the serous membrane covering the lungs, mesothelial cells on both of its layers secrete pleural fluid that lubricates the surfaces.",
+     "defines": "pleura",
+     "quotes": [
+      {
+       "quote": "Pleural fluid is secreted by mesothelial cells from both pleural layers and acts to lubricate their surfaces.",
+       "section": "22.2 The Lungs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "pleura: serous membrane that lines the pleural cavity and covers the lungs",
+       "section": "Chapter 1 Key Terms (An Introduction to the Human Body)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This lubrication reduces friction between the two layers during breathing and helps keep the lungs against the chest wall.",
+     "quotes": [
+      {
+       "quote": "This lubrication reduces friction between the two layers to prevent trauma during breathing, and creates surface tension that helps maintain the position of the lungs against the thoracic wall.",
+       "section": "22.2 The Lungs",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mesothelial cells also closely monitor the level of pleural fluid.",
+     "quotes": [
+      {
+       "quote": "Too much or too little pleural fluid would hinder the creation of the negative intrapleural pressure; therefore, the level must be closely monitored by the mesothelial cells and drained by the lymphatic system.",
+       "section": "22.3 The Process of Breathing",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Around the heart, the mesothelium secretes serous fluid that reduces friction as the heart contracts.",
+     "quotes": [
+      {
+       "quote": "This mesothelium secretes the lubricating serous fluid that fills the pericardial cavity and reduces friction as the heart contracts.",
+       "section": "19.1 Heart Anatomy",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mesothelial cells develop from the mesoderm, the middle layer of cells in the embryo.",
+     "defines": "mesoderm",
+     "quotes": [
+      {
+       "quote": "A flat, squamous-like epithelial cell of mesodermal origin.",
+       "section": "CL:0000077 mesothelial cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000077",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "mesoderm: middle embryonic germ layer from which connective tissue, muscle tissue, and some epithelial tissue derive",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -225,8 +541,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000077",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000077",
+   "title": "Cell Ontology, CL:0000077 mesothelial cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000077",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.2 The Lungs",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 1 Key Terms (An Introduction to the Human Body)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.1 Types of Tissues",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
    "license": "CC BY 4.0"
   }
  ],

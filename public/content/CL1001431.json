@@ -162,30 +162,334 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_1001431/tier1.auto.md",
-   "text": "Any renal principal cell that is part of some collecting duct of renal tubule.",
+   "status": "drafted",
+   "file": "content/CL_1001431/tier1.md",
+   "text": "Principal cells help adjust how much water, sodium and potassium the body keeps. These cells line the collecting ducts, tubes in the kidney that carry urine. ADH, a hormone that tells the kidneys to take back water, makes principal cells add water channels. Another hormone, aldosterone, makes principal cells take back more sodium from the urine, and water follows the sodium.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:1001431",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001431",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:1001431",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001431",
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 25 Key Terms (The Urinary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.3 Gross Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:1001431. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Principal cells help adjust how much water, sodium and potassium the body keeps.",
+     "quotes": [
+      {
+       "quote": "principal cell: found in collecting ducts and possess channels for the recovery or loss of sodium and potassium; under the control of aldosterone; also have aquaporin channels under ADH control to regulate recovery of water",
+       "section": "Chapter 25 Key Terms (The Urinary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells line the collecting ducts, tubes in the kidney that carry urine.",
+     "defines": "collecting ducts",
+     "quotes": [
+      {
+       "quote": "When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The papillae are bundles of collecting ducts that transport urine made by nephrons to the calyces of the kidney for excretion.",
+       "section": "25.3 Gross Anatomy of the Kidney",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "ADH, a hormone that tells the kidneys to take back water, makes principal cells add water channels.",
+     "defines": "ADH",
+     "quotes": [
+      {
+       "quote": "When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antidiuretic hormone (ADH): hypothalamic hormone that is stored by the posterior pituitary and that signals the kidneys to reabsorb water",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Another hormone, aldosterone, makes principal cells take back more sodium from the urine, and water follows the sodium.",
+     "defines": "aldosterone",
+     "quotes": [
+      {
+       "quote": "Aldosterone stimulates principal cells to manufacture luminal Na+ and K+ channels as well as Na+/K+ ATPase pumps on the basal membrane of the cells. When aldosterone output increases, more Na+ is recovered from the forming urine and water follows the Na+ passively.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "aldosterone: hormone produced and secreted by the adrenal cortex that stimulates sodium and fluid retention and increases blood volume and blood pressure",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_1001431/tier2.md",
+   "text": "Principal cells help control how much sodium, potassium and water the body keeps or loses. These cells line the collecting ducts, the kidney tubes that carry urine away for excretion. The duct lining is simple cuboidal or columnar epithelium, a single layer of cells that are either boxy or taller than they are wide. Principal cells respond to two hormones: ADH, which signals the kidneys to take back water, and aldosterone, which controls how much sodium is recovered. When stimulated by ADH, principal cells insert aquaporins, proteins that form water channels, into the membrane facing the inside of the duct. Water is then pulled out of the duct into the surrounding tissue and nearby blood capillaries, so the final urine is more concentrated. But when less ADH is released, fewer channels are inserted, less water is recovered, and the urine is dilute. Aldosterone makes principal cells build channels and pumps that move sodium and potassium. When aldosterone rises, more sodium is recovered from the forming urine and water follows the sodium, while potassium is pumped into the urine.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 25 Key Terms (The Urinary System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.3 Gross Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Principal cells help control how much sodium, potassium and water the body keeps or loses.",
+     "quotes": [
+      {
+       "quote": "principal cell: found in collecting ducts and possess channels for the recovery or loss of sodium and potassium; under the control of aldosterone; also have aquaporin channels under ADH control to regulate recovery of water",
+       "section": "Chapter 25 Key Terms (The Urinary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells line the collecting ducts, the kidney tubes that carry urine away for excretion.",
+     "defines": "collecting ducts",
+     "quotes": [
+      {
+       "quote": "When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The papillae are bundles of collecting ducts that transport urine made by nephrons to the calyces of the kidney for excretion.",
+       "section": "25.3 Gross Anatomy of the Kidney",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The duct lining is simple cuboidal or columnar epithelium, a single layer of cells that are either boxy or taller than they are wide.",
+     "defines": "simple cuboidal or columnar epithelium",
+     "quotes": [
+      {
+       "quote": "Collecting ducts merge as they descend deeper in the medulla to form about 30 terminal ducts, which empty at a papilla. They are lined with simple cuboidal or columnar epithelium with receptors for ADH.",
+       "section": "25.4 Microscopic Anatomy of the Kidney",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cuboidal (boxy, as wide as it is tall), or columnar (rectangular, taller than it is wide). Similarly, the number of cell layers in the tissue can be one—where every cell rests on the basal lamina—which is a simple epithelium",
+       "section": "4.2 Epithelial Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Principal cells respond to two hormones: ADH, which signals the kidneys to take back water, and aldosterone, which controls how much sodium is recovered.",
+     "defines": "ADH",
+     "quotes": [
+      {
+       "quote": "In addition to receptors for ADH, principal cells have receptors for the steroid hormone aldosterone. While ADH is primarily involved in the regulation of water recovery, aldosterone regulates Na+ recovery.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antidiuretic hormone (ADH): hypothalamic hormone that is stored by the posterior pituitary and that signals the kidneys to reabsorb water",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When stimulated by ADH, principal cells insert aquaporins, proteins that form water channels, into the membrane facing the inside of the duct.",
+     "defines": "aquaporins",
+     "quotes": [
+      {
+       "quote": "When stimulated by ADH, aquaporin channels are inserted into the apical membrane of principal cells, which line the collecting ducts.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "aquaporin: protein-forming water channels through the lipid bilayer of the cell; allows water to cross; activation in the collecting ducts is under the control of ADH",
+       "section": "Chapter 25 Key Terms (The Urinary System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Water is then pulled out of the duct into the surrounding tissue and nearby blood capillaries, so the final urine is more concentrated.",
+     "quotes": [
+      {
+       "quote": "If aquaporin water channels are present, water will be osmotically pulled from the collecting duct into the surrounding interstitial space and into the peritubular capillaries. Therefore, the final urine will be more concentrated.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "But when less ADH is released, fewer channels are inserted, less water is recovered, and the urine is dilute.",
+     "quotes": [
+      {
+       "quote": "If less ADH is secreted, fewer aquaporin channels are inserted and less water is recovered, resulting in dilute urine.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Aldosterone makes principal cells build channels and pumps that move sodium and potassium.",
+     "quotes": [
+      {
+       "quote": "Aldosterone stimulates principal cells to manufacture luminal Na+ and K+ channels as well as Na+/K+ ATPase pumps on the basal membrane of the cells.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When aldosterone rises, more sodium is recovered from the forming urine and water follows the sodium, while potassium is pumped into the urine.",
+     "quotes": [
+      {
+       "quote": "When aldosterone output increases, more Na+ is recovered from the forming urine and water follows the Na+ passively. As the pump recovers Na+ for the body, it is also pumping K+ into the forming urine, since the pump moves K+ in the opposite direction.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -194,8 +498,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:1001431",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001431",
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 25 Key Terms (The Urinary System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 25.3 Gross Anatomy of the Kidney",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 25.4 Microscopic Anatomy of the Kidney",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.2 Epithelial Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
    "license": "CC BY 4.0"
   }
  ],

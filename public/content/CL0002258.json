@@ -228,30 +228,351 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002258/tier1.auto.md",
-   "text": "An epithelial cell that is part of the thyroid follicle epithelium, with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity. Its apical surface is lined with microvilli projecting into the colloid-filled lumen, where it synthesizes, stores, and secretes the thyroid hormones thyroxine (T4) and triiodothyronine (T3), releasing them into the bloodstream in response to thyroid-stimulating hormone (TSH).",
+   "status": "drafted",
+   "file": "content/CL_0002258/tier1.md",
+   "text": "Thyroid follicular cells make thyroid hormones, chemical signals that control how the body works. These hormones set the body's basal metabolic rate, the energy the body needs at rest. Follicular cells form the walls of thyroid follicles, which hold a sticky fluid called colloid. To make thyroid hormones, follicular cells need iodide, a form of iodine that comes from the diet.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002258",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002258",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+     "title": "OpenStax Biology 2e, 37.5 Endocrine Glands",
+     "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002258. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Thyroid follicular cells make thyroid hormones, chemical signals that control how the body works.",
+     "defines": "hormones",
+     "quotes": [
+      {
+       "quote": "The thyroid is made up of follicle cells that produce the hormones thyroxine and triiodothyronine.",
+       "section": "37.5 Endocrine Glands",
+       "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These hormones set the body's basal metabolic rate, the energy the body needs at rest.",
+     "defines": "basal metabolic rate",
+     "quotes": [
+      {
+       "quote": "The basal metabolic rate, which is the amount of calories required by the body at rest, is determined by two hormones produced by the thyroid gland: thyroxine, also known as tetraiodothyronine or T4, and triiodothyronine, also known as T3.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Follicular cells form the walls of thyroid follicles, which hold a sticky fluid called colloid.",
+     "defines": "colloid",
+     "quotes": [
+      {
+       "quote": "The follicles are made up of a central cavity filled with a sticky fluid called colloid. Surrounded by a wall of epithelial follicle cells, the colloid is the center of thyroid hormone production",
+       "section": "17.4 The Thyroid Gland",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "To make thyroid hormones, follicular cells need iodide, a form of iodine that comes from the diet.",
+     "defines": "iodide",
+     "quotes": [
+      {
+       "quote": "The follicular cells of the thyroid require iodides (anions of iodine) in order to synthesize T3 and T4. Iodides obtained from the diet are actively transported into follicle cells resulting in a concentration that is approximately 30 times higher than in blood.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002258/tier2.md",
+   "text": "Thyroid follicular cells make, store and release thyroid hormones, chemical signals that control how the body works. These hormones, thyroxine (T4) and triiodothyronine (T3), set the body's basal metabolic rate, the amount of energy the body needs at rest. Most of the thyroid gland is made of follicles; in each follicle, a wall of follicular cells surrounds a cavity filled with a sticky fluid called colloid. Each follicular cell is an epithelial cell, part of the tissue that lines or covers organs. A follicular cell's shape shows how active the cell is: flat when inactive, but cube-shaped or column-shaped when active. The cell's surface that faces the colloid is covered with microvilli, projections that increase a cell's surface area. To make thyroid hormones, follicular cells need iodide, a charged form of iodine that comes from the diet. Thyroid-stimulating hormone (TSH), a hormone from the front part of the pituitary gland, makes the cells pump iodide in from the blood. The cells release a protein called thyroglobulin into the colloid, where iodine atoms attach to thyroglobulin to form the hormones. TSH also makes the cells take colloid back inside, where lysosomes, the cell's digestive parts, break thyroglobulin apart and free T3 and T4 to enter the blood.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0002258 thyroid follicular cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002258",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+     "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+     "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 17.4 The Thyroid Gland",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+     "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+     "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Thyroid follicular cells make, store and release thyroid hormones, chemical signals that control how the body works.",
+     "defines": "hormones",
+     "quotes": [
+      {
+       "quote": "it synthesizes, stores, and secretes the thyroid hormones thyroxine (T4) and triiodothyronine (T3), releasing them into the bloodstream",
+       "section": "CL:0002258 thyroid follicular cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002258",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "hormone: chemical signaling molecule, usually protein or steroid, secreted by endocrine cells that act to control or regulate specific physiological processes",
+       "section": "Chapter 3 Key Terms (Biological Macromolecules)",
+       "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These hormones, thyroxine (T4) and triiodothyronine (T3), set the body's basal metabolic rate, the amount of energy the body needs at rest.",
+     "defines": "basal metabolic rate",
+     "quotes": [
+      {
+       "quote": "The basal metabolic rate, which is the amount of calories required by the body at rest, is determined by two hormones produced by the thyroid gland: thyroxine, also known as tetraiodothyronine or T4, and triiodothyronine, also known as T3.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Most of the thyroid gland is made of follicles; in each follicle, a wall of follicular cells surrounds a cavity filled with a sticky fluid called colloid.",
+     "defines": "colloid",
+     "quotes": [
+      {
+       "quote": "The tissue of the thyroid gland is composed mostly of thyroid follicles. The follicles are made up of a central cavity filled with a sticky fluid called colloid. Surrounded by a wall of epithelial follicle cells, the colloid is the center of thyroid hormone production",
+       "section": "17.4 The Thyroid Gland",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each follicular cell is an epithelial cell, part of the tissue that lines or covers organs.",
+     "defines": "epithelial cell",
+     "quotes": [
+      {
+       "quote": "An epithelial cell that is part of the thyroid follicle epithelium",
+       "section": "CL:0002258 thyroid follicular cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002258",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "epithelial tissue: tissue that either lines or covers organs or other tissues",
+       "section": "Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+       "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A follicular cell's shape shows how active the cell is: flat when inactive, but cube-shaped or column-shaped when active.",
+     "quotes": [
+      {
+       "quote": "An epithelial cell that is part of the thyroid follicle epithelium, with a shape that ranges from squamous when inactive to cuboidal or columnar when active, reflecting its hormonal activity.",
+       "section": "CL:0002258 thyroid follicular cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002258",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "The cell's surface that faces the colloid is covered with microvilli, projections that increase a cell's surface area.",
+     "defines": "microvilli",
+     "quotes": [
+      {
+       "quote": "Its apical surface is lined with microvilli projecting into the colloid-filled lumen",
+       "section": "CL:0002258 thyroid follicular cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002258",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "microvilli: cellular processes that increase the surface area of cells",
+       "section": "Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+       "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "To make thyroid hormones, follicular cells need iodide, a charged form of iodine that comes from the diet.",
+     "defines": "iodide",
+     "quotes": [
+      {
+       "quote": "The follicular cells of the thyroid require iodides (anions of iodine) in order to synthesize T3 and T4. Iodides obtained from the diet are actively transported into follicle cells resulting in a concentration that is approximately 30 times higher than in blood.",
+       "section": "37.3 Regulation of Body Processes",
+       "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Thyroid-stimulating hormone (TSH), a hormone from the front part of the pituitary gland, makes the cells pump iodide in from the blood.",
+     "defines": "thyroid-stimulating hormone (TSH)",
+     "quotes": [
+      {
+       "quote": "Binding of TSH to its receptors in the follicle cells of the thyroid gland causes the cells to actively transport iodide ions (I–) across their cell membrane, from the bloodstream into the cytosol.",
+       "section": "17.4 The Thyroid Gland",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "thyroid-stimulating hormone (TSH): anterior pituitary hormone that triggers secretion of thyroid hormones by the thyroid gland (also called thyrotropin)",
+       "section": "Chapter 17 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cells release a protein called thyroglobulin into the colloid, where iodine atoms attach to thyroglobulin to form the hormones.",
+     "defines": "thyroglobulin",
+     "quotes": [
+      {
+       "quote": "Hormones are produced in the colloid when atoms of the mineral iodine attach to a glycoprotein, called thyroglobulin, that is secreted into the colloid by the follicle cells.",
+       "section": "17.4 The Thyroid Gland",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "TSH also makes the cells take colloid back inside, where lysosomes, the cell's digestive parts, break thyroglobulin apart and free T3 and T4 to enter the blood.",
+     "defines": "lysosomes",
+     "quotes": [
+      {
+       "quote": "TSH stimulates endocytosis of colloid back into the follicle cells. There, lysosomal enzymes break apart the thyroglobulin colloid, releasing free T3 and T4, which diffuse across the follicle cell membrane and enter the bloodstream.",
+       "section": "17.4 The Thyroid Gland",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lysosome: organelle in an animal cell that functions as the cell’s digestive component; it breaks down proteins, polysaccharides, lipids, nucleic acids, and even worn-out organelles",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -260,8 +581,48 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002258",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002258",
+   "title": "OpenStax Biology 2e, 37.5 Endocrine Glands",
+   "url": "https://openstax.org/books/biology-2e/pages/37-5-endocrine-glands",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 3 Key Terms (Biological Macromolecules)",
+   "url": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 37.3 Regulation of Body Processes",
+   "url": "https://openstax.org/books/biology-2e/pages/37-3-regulation-of-body-processes",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 17.4 The Thyroid Gland",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0002258 thyroid follicular cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002258",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 33 Key Terms (The Animal Body: Basic Form and Function)",
+   "url": "https://openstax.org/books/biology-2e/pages/33-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 41 Key Terms (Osmotic Regulation and Excretion)",
+   "url": "https://openstax.org/books/biology-2e/pages/41-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 17 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
    "license": "CC BY 4.0"
   }
  ],

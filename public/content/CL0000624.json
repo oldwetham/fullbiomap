@@ -170,30 +170,374 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000624/tier1.auto.md",
-   "text": "A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.",
+   "status": "drafted",
+   "file": "content/CL_0000624/tier1.md",
+   "text": "CD4-positive T cells are white blood cells that can become helper T cells, which stimulate other immune cells. Helper T cells release cytokines, molecules that carry messages between nearby cells. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in the spleen and lymph nodes. T cells are called CD4-positive or CD8-positive depending on which of two surface molecules they carry.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000624",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000624",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000624",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000624",
+     "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000624. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "CD4-positive T cells are white blood cells that can become helper T cells, which stimulate other immune cells.",
+     "defines": "T cells",
+     "quotes": [
+      {
+       "quote": "Naïve CD4+ cells bind APCs via their antigen-embedded MHC II molecules and are stimulated to become helper T (TH) lymphocytes, cells that go on to stimulate B cells (or cytotoxic T cells) directly or secrete cytokines to inform more and various target cells about the pathogenic threat.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Helper T cells release cytokines, molecules that carry messages between nearby cells.",
+     "defines": "cytokines",
+     "quotes": [
+      {
+       "quote": "Helper T cells (Th), bearing the CD4 molecule, function by secreting cytokines that act to enhance other immune responses.",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytokine: soluble, short-range, cell-to-cell communication molecule",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in the spleen and lymph nodes.",
+     "defines": "lymph",
+     "quotes": [
+      {
+       "quote": "B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "T cells are called CD4-positive or CD8-positive depending on which of two surface molecules they carry.",
+     "quotes": [
+      {
+       "quote": "Naïve T cells can express one of two different molecules, CD4 or CD8, on their surface, as shown in , and are accordingly classified as CD4+ or CD8+ cells.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000624/tier2.md",
+   "text": "CD4-positive T cells are white blood cells linked mainly to the work of helper T cells. Helper T cells strengthen other immune responses by releasing cytokines, molecules that carry messages between nearby cells. Regulatory T cells, however, are a class of CD4 T cells that keep other T cell responses in check. When T cells leave the thymus, the organ where they multiply and mature, each carries either CD4 or CD8 but not both. T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in organs such as the spleen and lymph nodes. T cells recognize antigens, foreign proteins that trigger an immune response, with a receptor made of two protein chains; the most common kind is the alpha-beta T cell receptor. A CD4-positive, alpha-beta T cell is a mature T cell with an alpha-beta T cell receptor and the CD4 coreceptor, a molecule that helps the cell bind the right target. CD4 also keeps the T cell in close contact with an antigen-presenting cell, an immune cell that shows processed antigens on its surface. A CD4-positive T cell binds antigen-presenting cells through their MHC class II molecules, proteins that present antigens, and can then become a helper T cell.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000624 CD4-positive, alpha-beta T cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000624",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "CD4-positive T cells are white blood cells linked mainly to the work of helper T cells.",
+     "defines": "T cells",
+     "quotes": [
+      {
+       "quote": "Although the correlation is not 100 percent, CD4-bearing T cells are associated with helper functions and CD8-bearing T cells are associated with cytotoxicity.",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "T cells (T lymphocytes) are a type of white blood cell that plays an important role in the immune response",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Helper T cells strengthen other immune responses by releasing cytokines, molecules that carry messages between nearby cells.",
+     "defines": "cytokines",
+     "quotes": [
+      {
+       "quote": "Helper T cells (Th), bearing the CD4 molecule, function by secreting cytokines that act to enhance other immune responses.",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytokine: soluble, short-range, cell-to-cell communication molecule",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Regulatory T cells, however, are a class of CD4 T cells that keep other T cell responses in check.",
+     "quotes": [
+      {
+       "quote": "regulatory T cells (Treg): (also, suppressor T cells) class of CD4 T cells that regulates other T cell responses",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When T cells leave the thymus, the organ where they multiply and mature, each carries either CD4 or CD8 but not both.",
+     "defines": "thymus",
+     "quotes": [
+      {
+       "quote": "The cells that leave the thymus become single positives, expressing either CD4 or CD8, but not both",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "thymus: primary lymphoid organ; where T lymphocytes proliferate and mature",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "T cells travel in the blood and in lymph, a watery fluid that bathes tissues, and live in organs such as the spleen and lymph nodes.",
+     "defines": "lymph",
+     "quotes": [
+      {
+       "quote": "B cells and T cells are found in many parts of the body, circulating in the bloodstream and lymph, and residing in secondary lymphoid organs, including the spleen and lymph nodes",
+       "section": "21.1 Anatomy of the Lymphatic and Immune Systems",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "T cells recognize antigens, foreign proteins that trigger an immune response, with a receptor made of two protein chains; the most common kind is the alpha-beta T cell receptor.",
+     "defines": "antigens",
+     "quotes": [
+      {
+       "quote": "T lymphocytes recognize antigens based on a two-chain protein receptor. The most common and important of these are the alpha-beta T cell receptors",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antigen: foreign or “non-self” protein that triggers the immune response",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A CD4-positive, alpha-beta T cell is a mature T cell with an alpha-beta T cell receptor and the CD4 coreceptor, a molecule that helps the cell bind the right target.",
+     "defines": "coreceptor",
+     "quotes": [
+      {
+       "quote": "A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.",
+       "section": "CL:0000624 CD4-positive, alpha-beta T cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000624",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Because they assist in binding specificity, the CD4 and CD8 molecules are described as coreceptors.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "CD4 also keeps the T cell in close contact with an antigen-presenting cell, an immune cell that shows processed antigens on its surface.",
+     "defines": "antigen-presenting cell",
+     "quotes": [
+      {
+       "quote": "mature T cells express either the CD4 marker or the CD8 marker, but not both. These markers are cell adhesion molecules that keep the T cell in close contact with the antigen-presenting cell by directly binding to the MHC molecule",
+       "section": "21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "antigen-presenting cell (APC): immune cell that detects, engulfs, and informs the adaptive immune response about an infection by presenting the processed antigen on the cell surface",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A CD4-positive T cell binds antigen-presenting cells through their MHC class II molecules, proteins that present antigens, and can then become a helper T cell.",
+     "defines": "MHC class II",
+     "quotes": [
+      {
+       "quote": "Naïve CD4+ cells bind APCs via their antigen-embedded MHC II molecules and are stimulated to become helper T (TH) lymphocytes, cells that go on to stimulate B cells (or cytotoxic T cells) directly or secrete cytokines to inform more and various target cells about the pathogenic threat.",
+       "section": "42.2 Adaptive Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "major histocompatibility complex (MHC): gene cluster whose proteins present antigens to T cells",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 11.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -202,8 +546,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000624",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000624",
+   "title": "OpenStax Biology 2e, 42.2 Adaptive Immune Response",
+   "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T lymphocytes and Their Functional Types",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000624 CD4-positive, alpha-beta T cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000624",
    "license": "CC BY 4.0"
   }
  ],

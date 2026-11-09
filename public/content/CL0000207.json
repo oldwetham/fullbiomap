@@ -206,30 +206,372 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000207/tier1.auto.md",
-   "text": "Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.",
+   "status": "drafted",
+   "file": "content/CL_0000207/tier1.md",
+   "text": "Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals so you can smell. Olfactory receptor cells sit in the olfactory epithelium, a patch of tissue high in the nose. Each cell has hair-like extensions called cilia that trap odor molecules. When the cell binds certain molecules you breathe in, it sends signals straight to the brain.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000207",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000207",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000207",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000207",
+     "title": "Cell Ontology, CL:0000207 olfactory receptor cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000207",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000207. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals so you can smell.",
+     "defines": "neuron",
+     "quotes": [
+      {
+       "quote": "Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.",
+       "section": "CL:0000207 olfactory receptor cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000207",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "neuron: specialized cell that can receive and transmit electrical and chemical signals",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Olfactory receptor cells sit in the olfactory epithelium, a patch of tissue high in the nose.",
+     "defines": "olfactory epithelium",
+     "quotes": [
+      {
+       "quote": "The olfactory receptor neurons are located in a small region within the superior nasal cavity (). This region is referred to as the olfactory epithelium",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "olfactory epithelium: specialized tissue in the nasal cavity where olfactory receptors are located",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each cell has hair-like extensions called cilia that trap odor molecules.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "Each neuron has a single dendrite buried in the olfactory epithelium, and extending from this dendrite are 5 to 20 receptor-laden, hair-like cilia that trap odorant molecules.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When the cell binds certain molecules you breathe in, it sends signals straight to the brain.",
+     "quotes": [
+      {
+       "quote": "An olfactory receptor, which is a dendrite of a specialized neuron, responds when it binds certain molecules inhaled from the environment by sending impulses directly to the olfactory bulb of the brain.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.3,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000207/tier2.md",
+   "text": "Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals for the sense of smell. Olfactory receptor cells sit in the olfactory epithelium, a small patch of tissue high inside the nose. Each of these cells is a bipolar neuron, which means two extensions reach out from its cell body. Each cell has a single dendrite, a branch that takes in signals, buried in the olfactory epithelium. From this dendrite, 5 to 20 hair-like cilia stick out and trap odor molecules. The cilia of each cell carry only one type of receptor, a protein that binds a specific molecule. Because of this, each cell is specialized to detect specific odor molecules. When the cell binds certain inhaled molecules, it sends signals directly to the olfactory bulb, a brain structure that receives smell signals. Each cell reaches the olfactory bulb through a thin axon, a branch that carries signals away from the cell body. Olfactory receptor cells live only about one to four months, and new ones are made regularly.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0000207 olfactory receptor cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000207",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+     "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 13.4 The Peripheral Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Olfactory receptor cells are neurons (cells that receive and send signals) that detect chemicals for the sense of smell.",
+     "defines": "neuron",
+     "quotes": [
+      {
+       "quote": "Any neuron that is capable of some detection of chemical stimulus involved in sensory perception of smell.",
+       "section": "CL:0000207 olfactory receptor cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000207",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "neuron: specialized cell that can receive and transmit electrical and chemical signals",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Olfactory receptor cells sit in the olfactory epithelium, a small patch of tissue high inside the nose.",
+     "defines": "olfactory epithelium",
+     "quotes": [
+      {
+       "quote": "The olfactory receptor neurons are located in a small region within the superior nasal cavity (). This region is referred to as the olfactory epithelium",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "olfactory epithelium: specialized tissue in the nasal cavity where olfactory receptors are located",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each of these cells is a bipolar neuron, which means two extensions reach out from its cell body.",
+     "defines": "bipolar neuron",
+     "quotes": [
+      {
+       "quote": "Olfactory neurons are bipolar neurons (neurons with two processes extending from the cell body).",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each cell has a single dendrite, a branch that takes in signals, buried in the olfactory epithelium.",
+     "defines": "dendrite",
+     "quotes": [
+      {
+       "quote": "Each neuron has a single dendrite buried in the olfactory epithelium",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "dendrite: one of many branchlike processes that extends from the neuron cell body and functions as a contact for incoming signals (synapses) from other neurons or sensory cells",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "From this dendrite, 5 to 20 hair-like cilia stick out and trap odor molecules.",
+     "defines": "cilia",
+     "quotes": [
+      {
+       "quote": "extending from this dendrite are 5 to 20 receptor-laden, hair-like cilia that trap odorant molecules",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The cilia of each cell carry only one type of receptor, a protein that binds a specific molecule.",
+     "defines": "receptor",
+     "quotes": [
+      {
+       "quote": "Each olfactory sensory neuron has only one type of receptor on its cilia",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "receptor: protein molecule that contains a binding site for another specific molecule (called a ligand)",
+       "section": "Chapter 3 Key Terms (The Cellular Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Because of this, each cell is specialized to detect specific odor molecules.",
+     "quotes": [
+      {
+       "quote": "Each olfactory sensory neuron has only one type of receptor on its cilia, and the receptors are specialized to detect specific odorants, so the bipolar neurons themselves are specialized.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When the cell binds certain inhaled molecules, it sends signals directly to the olfactory bulb, a brain structure that receives smell signals.",
+     "defines": "olfactory bulb",
+     "quotes": [
+      {
+       "quote": "An olfactory receptor, which is a dendrite of a specialized neuron, responds when it binds certain molecules inhaled from the environment by sending impulses directly to the olfactory bulb of the brain.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "olfactory bulb: neural structure in the vertebrate brain that receives signals from olfactory receptors",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each cell reaches the olfactory bulb through a thin axon, a branch that carries signals away from the cell body.",
+     "defines": "axon",
+     "quotes": [
+      {
+       "quote": "Olfactory neurons project from the olfactory epithelium to the olfactory bulb as thin, unmyelinated axons.",
+       "section": "36.3 Taste and Smell",
+       "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Olfactory receptor cells live only about one to four months, and new ones are made regularly.",
+     "quotes": [
+      {
+       "quote": "The sensory neurons of the olfactory epithelium have a limited lifespan of approximately one to four months, and new ones are made on a regular basis.",
+       "section": "13.4 The Peripheral Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -238,8 +580,43 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000207",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000207",
+   "title": "Cell Ontology, CL:0000207 olfactory receptor cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000207",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 36.3 Taste and Smell",
+   "url": "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 3 Key Terms (The Cellular Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 13.4 The Peripheral Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
    "license": "CC BY 4.0"
   }
  ],

@@ -153,27 +153,100 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000136/tier1.auto.md",
-   "text": "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides.",
+   "status": "drafted",
+   "file": "content/CL_0000136/tier1.md",
+   "text": "An adipocyte is a fat cell whose main job is to store fat for later use. This fat is the body's store of extra energy, and adipocytes also help insulate the body. About half of the body's extra fat is stored in adipocytes under the skin. Inside each adipocyte, drops of fat fill most of the cell.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000136",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000136",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+     "title": "OpenStax Biology 2e, 34.2 Nutrition and Energy Production",
+     "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 24.1 Overview of Metabolic Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 3.3 Lipids",
+     "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000136. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "An adipocyte is a fat cell whose main job is to store fat for later use.",
+     "quotes": [
+      {
+       "quote": "These fatty acids are stored in adipose cells—the fat cells in the mammalian body whose primary role is to store fat for later use.",
+       "section": "34.2 Nutrition and Energy Production",
+       "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This fat is the body's store of extra energy, and adipocytes also help insulate the body.",
+     "quotes": [
+      {
+       "quote": "Adipose cells store surplus energy in the form of fat and contribute to the thermal insulation of the body.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "About half of the body's extra fat is stored in adipocytes under the skin.",
+     "quotes": [
+      {
+       "quote": "About one-half of excess fat is stored in adipocytes that accumulate in the subcutaneous tissue under the skin, whereas the rest is stored in adipocytes in other tissues and organs.",
+       "section": "24.1 Overview of Metabolic Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Inside each adipocyte, drops of fat fill most of the cell.",
+     "quotes": [
+      {
+       "quote": "Mammals store fats in specialized cells, or adipocytes, where fat globules occupy most of the cell’s volume.",
+       "section": "3.3 Lipids",
+       "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -185,8 +258,23 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000136",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000136",
+   "title": "OpenStax Biology 2e, 34.2 Nutrition and Energy Production",
+   "url": "https://openstax.org/books/biology-2e/pages/34-2-nutrition-and-energy-production",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 24.1 Overview of Metabolic Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-1-overview-of-metabolic-reactions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 3.3 Lipids",
+   "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
    "license": "CC BY 4.0"
   }
  ],

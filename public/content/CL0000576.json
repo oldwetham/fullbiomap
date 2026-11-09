@@ -141,27 +141,105 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000576/tier1.auto.md",
-   "text": "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+   "status": "drafted",
+   "file": "content/CL_0000576/tier1.md",
+   "text": "A monocyte is a white blood cell that gives rise to macrophages, cells that clean up dead and damaged cells. Monocytes circulate in the blood and in lymph, a watery fluid that bathes tissues and organs. When monocytes move into infected tissue, they turn into macrophages. Monocytes are usually easy to recognize by their large size and their indented or horseshoe-shaped nucleus.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000576",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000576",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+     "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+     "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000576. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A monocyte is a white blood cell that gives rise to macrophages, cells that clean up dead and damaged cells.",
+     "defines": "macrophages",
+     "quotes": [
+      {
+       "quote": "Another leukocyte that is found in the peripheral blood is the monocyte. Monocytes give rise to phagocytic macrophages that clean up dead and damaged cells in the body, whether they are foreign or from the host animal.",
+       "section": "33.2 Animal Primary Tissues",
+       "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Monocytes circulate in the blood and in lymph, a watery fluid that bathes tissues and organs.",
+     "defines": "lymph",
+     "quotes": [
+      {
+       "quote": "monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "lymph: watery fluid that bathes tissues and organs with protective white blood cells and does not contain erythrocytes",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When monocytes move into infected tissue, they turn into macrophages.",
+     "quotes": [
+      {
+       "quote": "monocyte: type of white blood cell that circulates in the blood and lymph and differentiates into macrophages after it moves into infected tissue",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Monocytes are usually easy to recognize by their large size and their indented or horseshoe-shaped nucleus.",
+     "quotes": [
+      {
+       "quote": "They are typically easily recognized by their large size of 12–20 µm and indented or horseshoe-shaped nuclei.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.9,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
    "status": "missing"
@@ -173,8 +251,18 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000576",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000576",
+   "title": "OpenStax Biology 2e, 33.2 Animal Primary Tissues",
+   "url": "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
    "license": "CC BY 4.0"
   }
  ],

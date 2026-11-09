@@ -212,30 +212,376 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000601/tier1.auto.md",
-   "text": "A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells. The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea.",
+   "status": "drafted",
+   "file": "content/CL_0000601/tier1.md",
+   "text": "Outer hair cells fine-tune incoming sound waves, and about 12,000 of them form three or four rows. These cells sit in the cochlea, the hearing part of the inner ear. Each cell has stereocilia, hair-like projections that help detect sound waves. Brain signals can change the length of outer hair cells, sharpening or dampening responses to certain frequencies, or pitches.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000601",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000601",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000601",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000601",
+     "title": "OpenStax Biology 2e, 36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000601. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Outer hair cells fine-tune incoming sound waves, and about 12,000 of them form three or four rows.",
+     "quotes": [
+      {
+       "quote": "The outer hair cells are arranged in three or four rows. They number approximately 12,000, and they function to fine tune incoming sound waves.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells sit in the cochlea, the hearing part of the inner ear.",
+     "defines": "cochlea",
+     "quotes": [
+      {
+       "quote": "The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each cell has stereocilia, hair-like projections that help detect sound waves.",
+     "defines": "stereocilia",
+     "quotes": [
+      {
+       "quote": "The longer stereocilia that project from the outer hair cells actually attach to the tectorial membrane.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Brain signals can change the length of outer hair cells, sharpening or dampening responses to certain frequencies, or pitches.",
+     "defines": "frequency",
+     "quotes": [
+      {
+       "quote": "The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Frequency is the number of waves per unit of time, and in sound is heard as pitch.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.2,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000601/tier2.md",
+   "text": "Outer hair cells fine-tune incoming sound waves, and about 12,000 of them are arranged in three or four rows. These cells sit in the cochlea, the hearing portion of the inner ear. Each outer hair cell lies in the organ of Corti, the site where sound is changed into nerve signals. Signals from the brain can change the length of outer hair cells, sharpening or dampening hair cell responses to certain frequencies, which are heard as pitch. This movement may actively help tune how sensitive the cochlea is and how well it tells frequencies apart. Each outer hair cell carries stereocilia, hair-like projections that help detect sound waves, and the stereocilia are arranged from tallest to shortest. The longer stereocilia of outer hair cells attach to the tectorial membrane, a structure that lies above the hair cells. Fluid waves made by sound flex the basilar membrane, the floor under the organ of Corti, and this bends the stereocilia attached to the tectorial membrane. The bending opens ion channels, pores that let charged particles cross the cell membrane, and the hair cell then sends a signal to the cochlear nerve. Outer hair cells connect to only 10 percent of the afferent neurons, which carry sound information from the cochlea to the brain.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 36.4 Hearing and Vestibular Sensation",
+     "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000601 cochlear outer hair cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000601",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.4 The Action Potential",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Outer hair cells fine-tune incoming sound waves, and about 12,000 of them are arranged in three or four rows.",
+     "quotes": [
+      {
+       "quote": "The outer hair cells are arranged in three or four rows. They number approximately 12,000, and they function to fine tune incoming sound waves.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells sit in the cochlea, the hearing portion of the inner ear.",
+     "defines": "cochlea",
+     "quotes": [
+      {
+       "quote": "organ of Corti: structure in the cochlea in which hair cells transduce movements from sound waves into electrochemical signals",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cochlea: auditory portion of the inner ear containing structures to transduce sound stimuli",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each outer hair cell lies in the organ of Corti, the site where sound is changed into nerve signals.",
+     "defines": "organ of Corti",
+     "quotes": [
+      {
+       "quote": "A mechanoreceptor in the organ of Corti.",
+       "section": "CL:0000601 cochlear outer hair cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000601",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "organ of Corti: in the basilar membrane, the site of the transduction of sound, a mechanical wave, to a neural signal",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Signals from the brain can change the length of outer hair cells, sharpening or dampening hair cell responses to certain frequencies, which are heard as pitch.",
+     "defines": "frequency",
+     "quotes": [
+      {
+       "quote": "The brain can send signals back to the cochlea, resulting in a change of length in the outer hair cells, sharpening or dampening the hair cells’ response to certain frequencies.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Frequency is the number of waves per unit of time, and in sound is heard as pitch.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This movement may actively help tune how sensitive the cochlea is and how well it tells frequencies apart.",
+     "quotes": [
+      {
+       "quote": "The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea.",
+       "section": "CL:0000601 cochlear outer hair cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000601",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "Each outer hair cell carries stereocilia, hair-like projections that help detect sound waves, and the stereocilia are arranged from tallest to shortest.",
+     "defines": "stereocilia",
+     "quotes": [
+      {
+       "quote": "The stereocilia are an array of microvilli-like structures arranged from tallest to shortest.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "stereocilia: in the auditory system, hair-like projections from hair cells that help detect sound waves",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The longer stereocilia of outer hair cells attach to the tectorial membrane, a structure that lies above the hair cells.",
+     "defines": "tectorial membrane",
+     "quotes": [
+      {
+       "quote": "The longer stereocilia that project from the outer hair cells actually attach to the tectorial membrane.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "tectorial membrane: cochlear structure that lies above the hair cells and participates in the transduction of sound at the hair cells",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Fluid waves made by sound flex the basilar membrane, the floor under the organ of Corti, and this bends the stereocilia attached to the tectorial membrane.",
+     "defines": "basilar membrane",
+     "quotes": [
+      {
+       "quote": "When sound waves produce fluid waves inside the cochlea, the basilar membrane flexes, bending the stereocilia that attach to the tectorial membrane.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "basilar membrane: in the ear, the floor of the cochlear duct on which the organ of Corti sits",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The bending opens ion channels, pores that let charged particles cross the cell membrane, and the hair cell then sends a signal to the cochlear nerve.",
+     "defines": "ion channel",
+     "quotes": [
+      {
+       "quote": "All of the stereocilia are mechanoreceptors, and when bent by vibrations they respond by opening a gated ion channel (refer to ). As a result, the hair cell membrane is depolarized, and a signal is transmitted to the chochlear nerve.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Ion channels are pores that allow specific charged particles to cross the membrane in response to an existing concentration gradient.",
+       "section": "12.4 The Action Potential",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Outer hair cells connect to only 10 percent of the afferent neurons, which carry sound information from the cochlea to the brain.",
+     "defines": "afferent neurons",
+     "quotes": [
+      {
+       "quote": "Outer hair cells connect to only 10 percent of the afferent neurons, and each afferent neuron innervates many hair cells.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The afferent, bipolar neurons that convey auditory information travel from the cochlea to the medulla, through the pons and midbrain in the brainstem, finally reaching the primary auditory cortex in the temporal lobe.",
+       "section": "36.4 Hearing and Vestibular Sensation",
+       "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.8,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -244,8 +590,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000601",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000601",
+   "title": "OpenStax Biology 2e, 36.4 Hearing and Vestibular Sensation",
+   "url": "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000601 cochlear outer hair cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000601",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.4 The Action Potential",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
    "license": "CC BY 4.0"
   }
  ],

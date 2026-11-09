@@ -133,30 +133,391 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000097/tier1.auto.md",
-   "text": "A cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation. Progenitors leave bone marrow and mature in connective and mucosal tissue. Mature mast cells are found in all tissues, except the bloodstream. Their phenotype is CD117-high, CD123-negative, CD193-positive, CD200R3-positive, and FceRI-high. Stem-cell factor (KIT-ligand; SCF) is the main controlling signal of their survival and development.",
+   "status": "drafted",
+   "file": "content/CL_0000097/tier1.md",
+   "text": "A mast cell makes histamine and other molecules that promote inflammation, a basic immune response. Mature mast cells are found in all tissues except the bloodstream. A mast cell holds histamine in many granules, small sacs wrapped in a membrane. When irritated, a mast cell releases histamine, which widens blood vessels and increases blood flow.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000097",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000097",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000097",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000097",
+     "title": "OpenStax Biology 2e, 42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000097 mast cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000097",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0030141 secretory granule",
+     "url": "http://purl.obolibrary.org/obo/GO_0030141",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000097. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Gene Ontology (GO), https://geneontology.org. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A mast cell makes histamine and other molecules that promote inflammation, a basic immune response.",
+     "defines": "inflammation",
+     "quotes": [
+      {
+       "quote": "A mast cell is a leukocyte that produces inflammatory molecules, such as histamine, in response to large pathogens.",
+       "section": "42.1 Innate Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "inflammation: basic innate immune response characterized by heat, redness, pain, and swelling",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mature mast cells are found in all tissues except the bloodstream.",
+     "quotes": [
+      {
+       "quote": "Mature mast cells are found in all tissues, except the bloodstream.",
+       "section": "CL:0000097 mast cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000097",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "A mast cell holds histamine in many granules, small sacs wrapped in a membrane.",
+     "defines": "granules",
+     "quotes": [
+      {
+       "quote": "The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A small subcellular vesicle, surrounded by a membrane",
+       "section": "GO:0030141 secretory granule",
+       "url": "http://purl.obolibrary.org/obo/GO_0030141",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "When irritated, a mast cell releases histamine, which widens blood vessels and increases blood flow.",
+     "quotes": [
+      {
+       "quote": "When irritated or damaged, mast cells release histamine, an inflammatory mediator, which causes vasodilation and increased blood flow",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 8.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000097/tier2.md",
+   "text": "A mast cell makes histamine and other molecules that promote inflammation, a basic immune response. In connective tissue, the tissue that holds in place and connects the body's organs, mast cells are among the most common cells. Mast cell precursors leave the bone marrow and mature in connective tissue and in mucosal tissue, the mucus-covered membranes that line tissues exposed to the outside. Once mature, mast cells are found in all tissues except the bloodstream. Inside, a mast cell has many granules, which are stores of chemical signals. These granules contain histamine and heparin, a substance that works against blood clotting. When irritated or damaged, mast cells release histamine, which causes vasodilation, the widening of blood vessels, and increases blood flow. Histamine also makes nearby capillaries, the smallest blood vessels, leakier, so fluid seeps out of these vessels. Basophils are white blood cells that release inflammatory chemicals, and mast cells were once thought to be basophils that had left the blood. However, the two cell types develop from different cell lines.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Biology 2e, 42.1 Innate Immune Response",
+     "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Connective Tissue",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/connective.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000097 mast cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000097",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+     "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); SEER Training Modules: Connective Tissue. U.S. National Institutes of Health, National Cancer Institute; Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A mast cell makes histamine and other molecules that promote inflammation, a basic immune response.",
+     "defines": "inflammation",
+     "quotes": [
+      {
+       "quote": "A mast cell is a leukocyte that produces inflammatory molecules, such as histamine, in response to large pathogens.",
+       "section": "42.1 Innate Immune Response",
+       "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "inflammation: basic innate immune response characterized by heat, redness, pain, and swelling",
+       "section": "Chapter 21 Key Terms (The Lymphatic and Immune System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In connective tissue, the tissue that holds in place and connects the body's organs, mast cells are among the most common cells.",
+     "defines": "connective tissue",
+     "quotes": [
+      {
+       "quote": "Numerous cell types are found in connective tissue. Three of the most common are the fibroblast, macrophage, and mast cell.",
+       "section": "SEER Training Modules: Connective Tissue",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/connective.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Connective Tissue. U.S. National Institutes of Health, National Cancer Institute."
+      },
+      {
+       "quote": "connective tissue: type of tissue that serves to hold in place, connect, and integrate the body’s organs and systems",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Mast cell precursors leave the bone marrow and mature in connective tissue and in mucosal tissue, the mucus-covered membranes that line tissues exposed to the outside.",
+     "defines": "mucosal tissue",
+     "quotes": [
+      {
+       "quote": "Progenitors leave bone marrow and mature in connective and mucosal tissue.",
+       "section": "CL:0000097 mast cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000097",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "mucous membrane: tissue membrane that is covered by protective mucous and lines tissue exposed to the outside environment",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Once mature, mast cells are found in all tissues except the bloodstream.",
+     "quotes": [
+      {
+       "quote": "Mature mast cells are found in all tissues, except the bloodstream.",
+       "section": "CL:0000097 mast cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000097",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "Inside, a mast cell has many granules, which are stores of chemical signals.",
+     "defines": "granules",
+     "quotes": [
+      {
+       "quote": "The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These granules contain histamine and heparin, a substance that works against blood clotting.",
+     "defines": "heparin",
+     "quotes": [
+      {
+       "quote": "The mast cell, found in connective tissue proper, has many cytoplasmic granules. These granules contain the chemical signals histamine and heparin.",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "anticoagulant: substance such as heparin that opposes coagulation",
+       "section": "Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When irritated or damaged, mast cells release histamine, which causes vasodilation, the widening of blood vessels, and increases blood flow.",
+     "defines": "vasodilation",
+     "quotes": [
+      {
+       "quote": "When irritated or damaged, mast cells release histamine, an inflammatory mediator, which causes vasodilation and increased blood flow",
+       "section": "4.3 Connective Tissue Supports and Protects",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "vasodilation: widening of blood vessels",
+       "section": "Chapter 4 Key Terms (The Tissue Level of Organization)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Histamine also makes nearby capillaries, the smallest blood vessels, leakier, so fluid seeps out of these vessels.",
+     "defines": "capillaries",
+     "quotes": [
+      {
+       "quote": "Histamine also increases the permeability of local capillaries, causing plasma to leak out and form interstitial fluid.",
+       "section": "21.2 Barrier Defenses and the Innate Immune Response",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "capillary: smallest of blood vessels where physical exchange occurs between the blood and tissue cells surrounded by interstitial fluid",
+       "section": "Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Basophils are white blood cells that release inflammatory chemicals, and mast cells were once thought to be basophils that had left the blood.",
+     "defines": "basophils",
+     "quotes": [
+      {
+       "quote": "In the past, mast cells were considered to be basophils that left the circulation.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "basophil: leukocyte that releases chemicals usually involved in the inflammatory response",
+       "section": "Chapter 42 Key Terms (The Immune System)",
+       "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "However, the two cell types develop from different cell lines.",
+     "quotes": [
+      {
+       "quote": "However, this appears not to be the case, as the two cell types develop from different lineages.",
+       "section": "18.4 Leukocytes and Platelets",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 10,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -165,8 +526,63 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000097",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000097",
+   "title": "OpenStax Biology 2e, 42.1 Innate Immune Response",
+   "url": "https://openstax.org/books/biology-2e/pages/42-1-innate-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 21 Key Terms (The Lymphatic and Immune System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000097 mast cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000097",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0030141 secretory granule",
+   "url": "http://purl.obolibrary.org/obo/GO_0030141",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Connective Tissue",
+   "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/connective.html",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 4 Key Terms (The Tissue Level of Organization)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 18 Key Terms (The Cardiovascular System: Blood)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 21.2 Barrier Defenses and the Innate Immune Response",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 20 Key Terms (The Cardiovascular System: Blood Vessels and Circulation)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 42 Key Terms (The Immune System)",
+   "url": "https://openstax.org/books/biology-2e/pages/42-key-terms",
    "license": "CC BY 4.0"
   }
  ],

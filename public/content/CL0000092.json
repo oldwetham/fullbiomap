@@ -140,30 +140,317 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000092/tier1.auto.md",
-   "text": "A specialized phagocytic cell associated with the absorption and removal of the mineralized matrix of bone tissue, which typically differentiates from monocytes. This cell has the following markers: tartrate-resistant acid phosphatase type 5-positive, PU.1-positive, c-fos-positive, nuclear factor NF-kappa-B p100 subunit-positive, tumor necrosis factor receptor superfamily member 11A-positive and macrophage colony-stimulating factor 1 receptor-positive.",
+   "status": "drafted",
+   "file": "content/CL_0000092/tier1.md",
+   "text": "Osteoclasts are the cells that break down bone, a process called resorption. They dissolve old or unneeded bone, and this can release calcium. Osteoclasts are found on bone surfaces and come from two types of white blood cells. Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000092",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000092",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000092",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000092",
+     "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 38.2 Bone",
+     "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.3 The Nucleus and DNA Replication",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000092. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Osteoclasts are the cells that break down bone, a process called resorption.",
+     "defines": "resorption",
+     "quotes": [
+      {
+       "quote": "The cell responsible for bone resorption, or breakdown, is the osteoclast.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "They dissolve old or unneeded bone, and this can release calcium.",
+     "quotes": [
+      {
+       "quote": "The dynamic nature of bone means that new tissue is constantly formed, and old, injured, or unnecessary bone is dissolved for repair or for calcium release. The cell responsible for bone resorption, or breakdown, is the osteoclast.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteoclasts are found on bone surfaces and come from two types of white blood cells.",
+     "quotes": [
+      {
+       "quote": "The cell responsible for bone resorption, or breakdown, is the osteoclast. They are found on bone surfaces, are multinucleated, and originate from monocytes and macrophages, two types of white blood cells, not from osteogenic cells.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers.",
+     "defines": "nuclei",
+     "quotes": [
+      {
+       "quote": "Osteoclasts are large bone cells with up to 50 nuclei.",
+       "section": "38.2 Bone",
+       "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The nucleus is generally considered the control center of the cell because it stores all of the genetic instructions for manufacturing proteins.",
+       "section": "3.3 The Nucleus and DNA Replication",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 5.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000092/tier2.md",
+   "text": "Osteoclasts are the cells responsible for resorption, the breakdown of bone. Osteoclasts keep breaking down old bone while osteoblasts keep forming new bone, and the balance between these two cell types constantly reshapes bone in small ways. Osteoclasts are found on bone surfaces and come from monocytes and macrophages, two types of white blood cells. Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers. Osteoclasts remove bone by releasing enzymes, which are proteins that speed up chemical reactions, along with acids. The enzymes and acids dissolve the bone's matrix, the nonliving material that fills the spaces between bone cells. Minerals freed from the matrix enter the blood, where they help control calcium levels in body fluids. When blood calcium is low, the parathyroid glands release parathyroid hormone (PTH), which makes osteoclasts multiply and work harder, so more calcium enters the blood. In contrast, calcitonin, a hormone from the thyroid gland, makes osteoclasts less active and lowers the calcium level in the blood.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 38.2 Bone",
+     "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 3.3 The Nucleus and DNA Replication",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Body Tissues",
+     "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+     "license": "Free of copyright (NCI reuse policy)"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 6.6 Exercise, Nutrition, Hormones, and Bone Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+     "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Osteoclasts are the cells responsible for resorption, the breakdown of bone.",
+     "defines": "resorption",
+     "quotes": [
+      {
+       "quote": "The cell responsible for bone resorption, or breakdown, is the osteoclast.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteoclasts keep breaking down old bone while osteoblasts keep forming new bone, and the balance between these two cell types constantly reshapes bone in small ways.",
+     "quotes": [
+      {
+       "quote": "Osteoclasts are continually breaking down old bone while osteoblasts are continually forming new bone. The ongoing balance between osteoblasts and osteoclasts is responsible for the constant but subtle reshaping of bone.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteoclasts are found on bone surfaces and come from monocytes and macrophages, two types of white blood cells.",
+     "quotes": [
+      {
+       "quote": "The cell responsible for bone resorption, or breakdown, is the osteoclast. They are found on bone surfaces, are multinucleated, and originate from monocytes and macrophages, two types of white blood cells, not from osteogenic cells.",
+       "section": "6.3 Bone Structure",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Each osteoclast is a large cell with up to 50 nuclei, the cell's control centers.",
+     "defines": "nuclei",
+     "quotes": [
+      {
+       "quote": "Osteoclasts are large bone cells with up to 50 nuclei.",
+       "section": "38.2 Bone",
+       "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The nucleus is generally considered the control center of the cell because it stores all of the genetic instructions for manufacturing proteins.",
+       "section": "3.3 The Nucleus and DNA Replication",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Osteoclasts remove bone by releasing enzymes, which are proteins that speed up chemical reactions, along with acids.",
+     "defines": "enzymes",
+     "quotes": [
+      {
+       "quote": "Osteoclasts are large bone cells with up to 50 nuclei. They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix.",
+       "section": "38.2 Bone",
+       "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "An enzyme is a catalytic protein that speeds up chemical reactions in the human body.",
+       "section": "2.3 Chemical Reactions",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The enzymes and acids dissolve the bone's matrix, the nonliving material that fills the spaces between bone cells.",
+     "defines": "matrix",
+     "quotes": [
+      {
+       "quote": "Osteoclasts are large bone cells with up to 50 nuclei. They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix.",
+       "section": "38.2 Bone",
+       "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "A nonliving material, called the intercellular matrix, fills the spaces between the cells.",
+       "section": "SEER Training Modules: Body Tissues",
+       "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Body Tissues. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    },
+    {
+     "text": "Minerals freed from the matrix enter the blood, where they help control calcium levels in body fluids.",
+     "quotes": [
+      {
+       "quote": "They remove bone structure by releasing lysosomal enzymes and acids that dissolve the bony matrix. These minerals, released from bones into the blood, help regulate calcium concentrations in body fluids.",
+       "section": "38.2 Bone",
+       "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "When blood calcium is low, the parathyroid glands release parathyroid hormone (PTH), which makes osteoclasts multiply and work harder, so more calcium enters the blood.",
+     "defines": "parathyroid hormone (PTH)",
+     "quotes": [
+      {
+       "quote": "PTH stimulates osteoclast proliferation and activity. As a result, calcium is released from the bones into the circulation, thus increasing the calcium ion concentration in the blood.",
+       "section": "6.6 Exercise, Nutrition, Hormones, and Bone Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "parathyroid hormone (PTH): hormone produced by the parathyroid glands in response to low blood Ca2+ levels; functions to raise blood Ca2+ levels",
+       "section": "Chapter 37 Key Terms (The Endocrine System)",
+       "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In contrast, calcitonin, a hormone from the thyroid gland, makes osteoclasts less active and lowers the calcium level in the blood.",
+     "quotes": [
+      {
+       "quote": "Calcitonin, a hormone secreted by the thyroid gland, has some effects that counteract those of PTH. Calcitonin inhibits osteoclast activity and stimulates calcium uptake by the bones, thus reducing the concentration of calcium ions in the blood.",
+       "section": "6.6 Exercise, Nutrition, Hormones, and Bone Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.7,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -172,8 +459,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000092",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000092",
+   "title": "OpenStax Anatomy and Physiology 2e, 6.3 Bone Structure",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 38.2 Bone",
+   "url": "https://openstax.org/books/biology-2e/pages/38-2-bone",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 3.3 The Nucleus and DNA Replication",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.3 Chemical Reactions",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-3-chemical-reactions",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Body Tissues",
+   "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/",
+   "license": "Free of copyright (NCI reuse policy)"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 6.6 Exercise, Nutrition, Hormones, and Bone Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 37 Key Terms (The Endocrine System)",
+   "url": "https://openstax.org/books/biology-2e/pages/37-key-terms",
    "license": "CC BY 4.0"
   }
  ],

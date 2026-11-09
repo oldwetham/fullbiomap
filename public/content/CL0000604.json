@@ -237,30 +237,371 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0000604/tier1.auto.md",
-   "text": "One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision.",
+   "status": "drafted",
+   "file": "content/CL_0000604/tier1.md",
+   "text": "Rod cells let us see in dim light, such as at night. Rods and cones are the two types of photoreceptor, cells that respond to light. Rods sit in the outer edges of the retina, the light-sensing layer at the back of the eye. In dim light, cones cannot respond and rods cannot sense color, so everything looks gray.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0000604",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000604",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0000604",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000604",
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0000604. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Rod cells let us see in dim light, such as at night.",
+     "quotes": [
+      {
+       "quote": "rod: strongly photosensitive, achromatic, cylindrical neuron in the outer edges of the retina that detects dim light and is used in peripheral and nighttime vision",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rods and cones are the two types of photoreceptor, cells that respond to light.",
+     "defines": "photoreceptor",
+     "quotes": [
+      {
+       "quote": "There are two types of photoreceptors—rods and cones—which differ in the shape of their outer segment.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "photoreceptor: receptor cell specialized to respond to light stimuli",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rods sit in the outer edges of the retina, the light-sensing layer at the back of the eye.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "Rods are strongly photosensitive and are located in the outer edges of the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In dim light, cones cannot respond and rods cannot sense color, so everything looks gray.",
+     "quotes": [
+      {
+       "quote": "cones cannot react to low-intensity light, and rods do not sense the color of light. Therefore, our low-light vision is—in essence—in grayscale. In other words, in a dark room, everything appears as a shade of gray.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 5.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0000604/tier2.md",
+   "text": "Rod cells are specialized for vision in low light and are one of the two types of photoreceptor, cells that respond to light. Rods lie in the outer edges of the retina, the layer of light-sensing and supporting cells lining the back of the eye. Rods are more sensitive to light than cones, the photoreceptors for color vision, but rod vision is less sharp. In a rod, the inner segment holds the nucleus and other organelles, the cell's small working parts, while the outer segment is where light is detected. The outer segment, shaped like a rod, holds a stack of membrane discs that contain rhodopsin, the light-sensitive pigment of rods. Rhodopsin has two main parts: a membrane protein called an opsin, and retinal, a molecule that absorbs light and changes shape when light hits the rod. This shape change sets off a chain of signals that makes the rod release less neurotransmitter, a chemical signal. The rod releases this neurotransmitter onto bipolar cells, the cells that pass visual signals on from rods and cones. In darkness, rods constantly hold back these bipolar cells. Light lifts this hold, so the bipolar cells stimulate ganglion cells, which send signals out of the eye through the optic nerve.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 36.5 Vision",
+     "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+     "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0000604 retinal rod cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0000604",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+     "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Rod cells are specialized for vision in low light and are one of the two types of photoreceptor, cells that respond to light.",
+     "defines": "photoreceptor",
+     "quotes": [
+      {
+       "quote": "rod photoreceptor: one of the two types of retinal receptor cell that is specialized for low-light vision",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "photoreceptor: receptor cell specialized to respond to light stimuli",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rods lie in the outer edges of the retina, the layer of light-sensing and supporting cells lining the back of the eye.",
+     "defines": "retina",
+     "quotes": [
+      {
+       "quote": "Rods are strongly photosensitive and are located in the outer edges of the retina.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "retina: layer of photoreceptive and supporting cells on the inner surface of the back of the eye",
+       "section": "Chapter 36 Key Terms (Sensory Systems)",
+       "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rods are more sensitive to light than cones, the photoreceptors for color vision, but rod vision is less sharp.",
+     "defines": "cones",
+     "quotes": [
+      {
+       "quote": "Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision.",
+       "section": "CL:0000604 retinal rod cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0000604",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "cone photoreceptor: one of the two types of retinal receptor cell that is specialized for color vision through the use of three photopigments distributed through three separate populations of cells",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In a rod, the inner segment holds the nucleus and other organelles, the cell's small working parts, while the outer segment is where light is detected.",
+     "defines": "organelles",
+     "quotes": [
+      {
+       "quote": "The inner segment contains the nucleus and other common organelles of a cell, whereas the outer segment is a specialized region in which photoreception takes place.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "organelle: small structures that exist within cells and carry out cellular functions",
+       "section": "Chapter 1 Key Terms (The Study of Life)",
+       "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The outer segment, shaped like a rod, holds a stack of membrane discs that contain rhodopsin, the light-sensitive pigment of rods.",
+     "defines": "rhodopsin",
+     "quotes": [
+      {
+       "quote": "The rod-shaped outer segments of the rod photoreceptor contain a stack of membrane-bound discs that contain the photosensitive pigment rhodopsin.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "rhodopsin: photopigment molecule found in the rod photoreceptors",
+       "section": "Chapter 14 Key Terms (The Somatic Nervous System)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Rhodopsin has two main parts: a membrane protein called an opsin, and retinal, a molecule that absorbs light and changes shape when light hits the rod.",
+     "defines": "retinal",
+     "quotes": [
+      {
+       "quote": "the main photopigment, rhodopsin, has two main parts (): an opsin, which is a membrane protein (in the form of a cluster of α-helices that span the membrane), and retinal—a molecule that absorbs light. When light hits a photoreceptor, it causes a shape change in the retinal",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This shape change sets off a chain of signals that makes the rod release less neurotransmitter, a chemical signal.",
+     "defines": "neurotransmitter",
+     "quotes": [
+      {
+       "quote": "Activation of retinal and the opsin proteins result in activation of a G protein. The G protein changes the membrane potential of the photoreceptor cell, which then releases less neurotransmitter into the outer synaptic layer of the retina.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "neurotransmitter: chemical signal that is released from the synaptic end bulb of a neuron to cause a change in the target cell",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The rod releases this neurotransmitter onto bipolar cells, the cells that pass visual signals on from rods and cones.",
+     "defines": "bipolar cells",
+     "quotes": [
+      {
+       "quote": "The change in membrane potential alters the amount of neurotransmitter that the photoreceptor cells release onto bipolar cells in the outer synaptic layer.",
+       "section": "14.1 Sensory Perception",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Visual signals leave the cones and rods, travel to the bipolar cells, and then to ganglion cells.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "In darkness, rods constantly hold back these bipolar cells.",
+     "quotes": [
+      {
+       "quote": "In the absence of light, the bipolar neurons that connect rods and cones to ganglion cells are continuously and actively inhibited by the rods and cones.",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Light lifts this hold, so the bipolar cells stimulate ganglion cells, which send signals out of the eye through the optic nerve.",
+     "defines": "ganglion cells",
+     "quotes": [
+      {
+       "quote": "Exposure of the retina to light hyperpolarizes the rods and cones and removes their inhibition of bipolar cells. The now active bipolar cells in turn stimulate the ganglion cells, which send action potentials along their axons (which leave the eye as the optic nerve).",
+       "section": "36.5 Vision",
+       "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -269,8 +610,38 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0000604",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000604",
+   "title": "OpenStax Biology 2e, Chapter 36 Key Terms (Sensory Systems)",
+   "url": "https://openstax.org/books/biology-2e/pages/36-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 14 Key Terms (The Somatic Nervous System)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 36.5 Vision",
+   "url": "https://openstax.org/books/biology-2e/pages/36-5-vision",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0000604 retinal rod cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0000604",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 1 Key Terms (The Study of Life)",
+   "url": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
    "license": "CC BY 4.0"
   }
  ],

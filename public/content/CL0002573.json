@@ -180,30 +180,386 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_0002573/tier1.auto.md",
-   "text": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+   "status": "drafted",
+   "file": "content/CL_0002573/tier1.md",
+   "text": "A Schwann cell wraps around axons, the parts of nerve cells that carry electrical signals. Schwann cells insulate axons with myelin, a fatty layer that helps signals travel faster. Schwann cells work in the peripheral nervous system: every part of the nervous system except the brain and spinal cord. A Schwann cell is a glial cell, a cell that supports nerve cells.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:0002573",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002573",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:0002573",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002573",
+     "title": "Cell Ontology, CL:0002573 Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002573",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+     "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:0002573. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Schwann cell wraps around axons, the parts of nerve cells that carry electrical signals.",
+     "defines": "axons",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "axon: single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Schwann cells insulate axons with myelin, a fatty layer that helps signals travel faster.",
+     "defines": "myelin",
+     "quotes": [
+      {
+       "quote": "The second type of glial cell is the Schwann cell, which insulate axons with myelin in the periphery.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Schwann cells work in the peripheral nervous system: every part of the nervous system except the brain and spinal cord.",
+     "defines": "peripheral nervous system",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A Schwann cell is a glial cell, a cell that supports nerve cells.",
+     "defines": "glial cell",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "glia: (also, glial cells) cells that provide support functions for neurons",
+       "section": "Chapter 35 Key Terms (The Nervous System)",
+       "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 7.6,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_0002573/tier2.md",
+   "text": "A Schwann cell wraps around axons, the long extensions of nerve cells that conduct nerve impulses. Schwann cells do this in the peripheral nervous system, every part of the nervous system except the brain and spinal cord. A Schwann cell is a glial cell, one of the cells that provide a framework of tissue to support nerve cells. Schwann cells insulate axons with myelin, a fatty substance that lets electrical signals travel faster. Myelin works by keeping electrical current from leaking out of the axon, which speeds up the signal. Not every Schwann cell makes myelin, however: a non-myelinating Schwann cell instead wraps several thin axons. By contrast, a Schwann cell that makes myelin does so for only one axon, and the entire Schwann cell surrounds that axon. The myelin sheath is made of the Schwann cell's plasma membrane, the layer that separates a cell's contents from its surroundings, wrapped tightly around the axon. The Schwann cell's nucleus and cytoplasm, the material between the plasma membrane and the nucleus, form a bulge on one side of the myelin sheath. This bulge and the cell's outer membrane form the neurilemma, a tight covering around the myelin; the neurilemma plays an important role in the regrowth of nerve fibers.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "Cell Ontology, CL:0002573 Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002573",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Gene Ontology, GO:0030424 axon",
+     "url": "http://purl.obolibrary.org/obo/GO_0030424",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.1 Basic Structure and Function of the Nervous System",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.2 How Neurons Communicate",
+     "url": "https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:0002376 non-myelinating Schwann cell",
+     "url": "http://purl.obolibrary.org/obo/CL_0002376",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+     "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+     "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "SEER Training Modules, SEER Training Modules: Nerve Tissue",
+     "url": "https://training.seer.cancer.gov/anatomy/nervous/tissue.html",
+     "license": "Free of copyright (NCI reuse policy)"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Cell Ontology (CL), https://obofoundry.org/ontology/cl.html; Gene Ontology (GO), https://geneontology.org; Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction); SEER Training Modules: Nerve Tissue. U.S. National Institutes of Health, National Cancer Institute. Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "A Schwann cell wraps around axons, the long extensions of nerve cells that conduct nerve impulses.",
+     "defines": "axons",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.",
+       "section": "GO:0030424 axon",
+       "url": "http://purl.obolibrary.org/obo/GO_0030424",
+       "license": "CC BY 4.0",
+       "citation": "Gene Ontology (GO), https://geneontology.org"
+      }
+     ]
+    },
+    {
+     "text": "Schwann cells do this in the peripheral nervous system, every part of the nervous system except the brain and spinal cord.",
+     "defines": "peripheral nervous system",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "peripheral nervous system (PNS): anatomical division of the nervous system that is largely outside the cranial and vertebral cavities, namely all parts except the brain and spinal cord",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "A Schwann cell is a glial cell, one of the cells that provide a framework of tissue to support nerve cells.",
+     "defines": "glial cell",
+     "quotes": [
+      {
+       "quote": "A glial cell that myelinates or ensheathes axons in the peripheral nervous system.",
+       "section": "CL:0002573 Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002573",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "A glial cell is one of a variety of cells that provide a framework of tissue that supports the neurons and their activities.",
+       "section": "12.1 Basic Structure and Function of the Nervous System",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Schwann cells insulate axons with myelin, a fatty substance that lets electrical signals travel faster.",
+     "defines": "myelin",
+     "quotes": [
+      {
+       "quote": "The second type of glial cell is the Schwann cell, which insulate axons with myelin in the periphery.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "myelin: lipid-rich insulating substance surrounding the axons of many neurons, allowing for faster transmission of electrical signals",
+       "section": "Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Myelin works by keeping electrical current from leaking out of the axon, which speeds up the signal.",
+     "quotes": [
+      {
+       "quote": "Myelin acts as an insulator that prevents current from leaving the axon; this increases the speed of action potential conduction.",
+       "section": "35.2 How Neurons Communicate",
+       "url": "https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Not every Schwann cell makes myelin, however: a non-myelinating Schwann cell instead wraps several thin axons.",
+     "quotes": [
+      {
+       "quote": "A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. The non-myelinating Schwann cell is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.",
+       "section": "CL:0002376 non-myelinating Schwann cell",
+       "url": "http://purl.obolibrary.org/obo/CL_0002376",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      }
+     ]
+    },
+    {
+     "text": "By contrast, a Schwann cell that makes myelin does so for only one axon, and the entire Schwann cell surrounds that axon.",
+     "quotes": [
+      {
+       "quote": "This is distinctive from the PNS where a single Schwann cell provides myelin for only one axon as the entire Schwann cell surrounds the axon.",
+       "section": "35.1 Neurons and Glial Cells",
+       "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The myelin sheath is made of the Schwann cell's plasma membrane, the layer that separates a cell's contents from its surroundings, wrapped tightly around the axon.",
+     "defines": "plasma membrane",
+     "quotes": [
+      {
+       "quote": "Outside the plasma membrane of the axon is the myelin sheath, which is composed of the tightly wrapped plasma membrane of a Schwann cell.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "plasma membrane: phospholipid bilayer with embedded (integral) or attached (peripheral) proteins, and separates the cell's internal content from its surrounding environment",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "The Schwann cell's nucleus and cytoplasm, the material between the plasma membrane and the nucleus, form a bulge on one side of the myelin sheath.",
+     "defines": "cytoplasm",
+     "quotes": [
+      {
+       "quote": "For Schwann cells, the outermost layer of the cell membrane contains cytoplasm and the nucleus of the cell as a bulge on one side of the myelin sheath.",
+       "section": "12.2 Nervous Tissue",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "cytoplasm: entire region between the plasma membrane and the nuclear envelope, consisting of organelles suspended in the gel-like cytosol, the cytoskeleton, and various chemicals",
+       "section": "Chapter 4 Key Terms (Cell Structure)",
+       "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "This bulge and the cell's outer membrane form the neurilemma, a tight covering around the myelin; the neurilemma plays an important role in the regrowth of nerve fibers.",
+     "defines": "neurilemma",
+     "quotes": [
+      {
+       "quote": "The cytoplasm, nucleus, and outer cell membrane of the Schwann cell form a tight covering around the myelin and around the axon itself at the nodes of Ranvier. This covering is the neurilemma, which plays an important role in the regeneration of nerve fibers.",
+       "section": "SEER Training Modules: Nerve Tissue",
+       "url": "https://training.seer.cancer.gov/anatomy/nervous/tissue.html",
+       "license": "Free of copyright (NCI reuse policy)",
+       "citation": "SEER Training Modules: Nerve Tissue. U.S. National Institutes of Health, National Cancer Institute."
+      }
+     ]
+    }
+   ],
+   "grade": 10.1,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -212,9 +568,59 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:0002573",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002573",
+   "title": "Cell Ontology, CL:0002573 Schwann cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002573",
    "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, Chapter 12 Key Terms (The Nervous System and Nervous Tissue)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.2 Nervous Tissue",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 35 Key Terms (The Nervous System)",
+   "url": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Gene Ontology, GO:0030424 axon",
+   "url": "http://purl.obolibrary.org/obo/GO_0030424",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 12.1 Basic Structure and Function of the Nervous System",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.2 How Neurons Communicate",
+   "url": "https://openstax.org/books/biology-2e/pages/35-2-how-neurons-communicate",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:0002376 non-myelinating Schwann cell",
+   "url": "http://purl.obolibrary.org/obo/CL_0002376",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 35.1 Neurons and Glial Cells",
+   "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, Chapter 4 Key Terms (Cell Structure)",
+   "url": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "SEER Training Modules, SEER Training Modules: Nerve Tissue",
+   "url": "https://training.seer.cancer.gov/anatomy/nervous/tissue.html",
+   "license": "Free of copyright (NCI reuse policy)"
   }
  ],
  "zoom": {

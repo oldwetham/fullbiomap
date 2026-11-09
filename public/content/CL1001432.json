@@ -102,30 +102,281 @@
  },
  "content": {
   "tier1": {
-   "status": "auto",
-   "file": "content/CL_1001432/tier1.auto.md",
-   "text": "Any renal intercalated cell that is part of some collecting duct of renal tubule.",
+   "status": "drafted",
+   "file": "content/CL_1001432/tier1.md",
+   "text": "Kidney collecting duct intercalated cells make the blood less acidic and the urine more acidic. These cells are found in the kidney's collecting ducts, the tubes that gather urine as it forms. Intercalated cells pump hydrogen ions, which make liquids more acidic, into this urine.",
    "source": {
-    "kind": "cl",
-    "name": "Cell Ontology",
-    "term": "CL:1001432",
-    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001432",
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
     "license": "CC BY 4.0"
    },
    "sources": [
     {
-     "title": "Cell Ontology CL:1001432",
-     "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001432",
+     "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "Cell Ontology, CL:1001432 kidney collecting duct intercalated cell",
+     "url": "http://purl.obolibrary.org/obo/CL_1001432",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.9 Regulation of Fluid Volume and Composition",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.4 Inorganic Compounds Essential to Human Functioning",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
      "license": "CC BY 4.0"
     }
    ],
    "license": "CC BY 4.0",
-   "attribution": "Definition from the Cell Ontology (CL 2026-06-08), CL:1001432. CC BY 4.0.",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Cell Ontology (CL), https://obofoundry.org/ontology/cl.html. Quotes keep their sources' licences.",
    "reviewer": null,
-   "reviewedOn": null
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Kidney collecting duct intercalated cells make the blood less acidic and the urine more acidic.",
+     "quotes": [
+      {
+       "quote": "Intercalated cells reabsorb K+ and HCO3– while secreting H+. This function lowers the acidity of the plasma while increasing the acidity of the urine.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These cells are found in the kidney's collecting ducts, the tubes that gather urine as it forms.",
+     "defines": "collecting duct",
+     "quotes": [
+      {
+       "quote": "Any renal intercalated cell that is part of some collecting duct of renal tubule.",
+       "section": "CL:1001432 kidney collecting duct intercalated cell",
+       "url": "http://purl.obolibrary.org/obo/CL_1001432",
+       "license": "CC BY 4.0",
+       "citation": "Cell Ontology (CL), https://obofoundry.org/ontology/cl.html"
+      },
+      {
+       "quote": "Each collecting duct collects forming urine from several nephrons",
+       "section": "25.4 Microscopic Anatomy of the Kidney",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Intercalated cells pump hydrogen ions, which make liquids more acidic, into this urine.",
+     "defines": "hydrogen ions",
+     "quotes": [
+      {
+       "quote": "In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.",
+       "section": "25.9 Regulation of Fluid Volume and Composition",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "In contrast, acids release H+ in solution, making it more acidic.",
+       "section": "2.4 Inorganic Compounds Essential to Human Functioning",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 9.4,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier2": {
-   "status": "missing"
+   "status": "drafted",
+   "file": "content/CL_1001432/tier2.md",
+   "text": "Kidney collecting duct intercalated cells help regulate blood pH, a measure of how acidic or basic the blood is. Intercalated cells are one of the two distinct cell types in the kidney's collecting ducts, the tubes that gather urine as it forms. While principal cells, the other type, recover or lose sodium and potassium, intercalated cells secrete or absorb acid or bicarbonate, a substance that lowers the acidity of a solution. Intercalated cells have pumps that actively push hydrogen ions, which make liquids more acidic, into the urine forming in the ducts, so that the ions leave the body. These pumps sit on the apical surfaces of intercalated cells, the sides that face the open space inside the ducts. Intercalated cells also take back potassium and bicarbonate while secreting hydrogen ions; together, these actions make the blood less acidic and the urine more acidic.",
+   "source": {
+    "kind": "explanation",
+    "name": "Bio Map, written from quoted sources",
+    "term": null,
+    "url": null,
+    "license": "CC BY 4.0"
+   },
+   "sources": [
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Biology 2e, 2.2 Water",
+     "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.4 Microscopic Anatomy of the Kidney",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 2.4 Inorganic Compounds Essential to Human Functioning",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+     "license": "CC BY 4.0"
+    },
+    {
+     "title": "OpenStax Anatomy and Physiology 2e, 25.9 Regulation of Fluid Volume and Composition",
+     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+     "license": "CC BY 4.0"
+    }
+   ],
+   "license": "CC BY 4.0",
+   "attribution": "Text by Bio Map (CC BY 4.0), written from quoted sentences in: Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax (Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction); Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax (Access for free at https://openstax.org/books/biology-2e/pages/1-introduction). Quotes keep their sources' licences.",
+   "reviewer": null,
+   "reviewedOn": null,
+   "kind": "explanation",
+   "sentences": [
+    {
+     "text": "Kidney collecting duct intercalated cells help regulate blood pH, a measure of how acidic or basic the blood is.",
+     "defines": "pH",
+     "quotes": [
+      {
+       "quote": "Intercalated cells play significant roles in regulating blood pH.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The pH of a solution indicates its acidity or basicity.",
+       "section": "2.2 Water",
+       "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+       "license": "CC BY 4.0",
+       "citation": "Clark MA, Douglas M, Choi J (2018). Biology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/biology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Intercalated cells are one of the two distinct cell types in the kidney's collecting ducts, the tubes that gather urine as it forms.",
+     "defines": "collecting duct",
+     "quotes": [
+      {
+       "quote": "Solutes move across the membranes of the collecting ducts, which contain two distinct cell types, principal cells and intercalated cells.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Each collecting duct collects forming urine from several nephrons",
+       "section": "25.4 Microscopic Anatomy of the Kidney",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "While principal cells, the other type, recover or lose sodium and potassium, intercalated cells secrete or absorb acid or bicarbonate, a substance that lowers the acidity of a solution.",
+     "defines": "bicarbonate",
+     "quotes": [
+      {
+       "quote": "Solutes move across the membranes of the collecting ducts, which contain two distinct cell types, principal cells and intercalated cells. A principal cell possesses channels for the recovery or loss of sodium and potassium. An intercalated cell secretes or absorbs acid or bicarbonate.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "Bicarbonate accepts some of the H+ protons, thereby reducing the acidity of the solution.",
+       "section": "2.4 Inorganic Compounds Essential to Human Functioning",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Intercalated cells have pumps that actively push hydrogen ions, which make liquids more acidic, into the urine forming in the ducts, so that the ions leave the body.",
+     "defines": "hydrogen ions",
+     "quotes": [
+      {
+       "quote": "In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.",
+       "section": "25.9 Regulation of Fluid Volume and Composition",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "In contrast, acids release H+ in solution, making it more acidic.",
+       "section": "2.4 Inorganic Compounds Essential to Human Functioning",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "These pumps sit on the apical surfaces of intercalated cells, the sides that face the open space inside the ducts.",
+     "defines": "apical surface",
+     "quotes": [
+      {
+       "quote": "In the collecting ducts, the apical surfaces of intercalated cells have proton pumps that actively secrete H+ into the luminal, forming urine to remove it from the body.",
+       "section": "25.9 Regulation of Fluid Volume and Composition",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      },
+      {
+       "quote": "The apical surface is the one facing the lumen or open space of a cavity or tube",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    },
+    {
+     "text": "Intercalated cells also take back potassium and bicarbonate while secreting hydrogen ions; together, these actions make the blood less acidic and the urine more acidic.",
+     "quotes": [
+      {
+       "quote": "Intercalated cells reabsorb K+ and HCO3– while secreting H+. This function lowers the acidity of the plasma while increasing the acidity of the urine.",
+       "section": "25.6 Tubular Reabsorption",
+       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+       "license": "CC BY 4.0",
+       "citation": "Betts JG, Young KA, Wise JA, Johnson E, Poe B, Kruse DH, Korol O, Johnson JE, Womble M, DeSaix P (2022). Anatomy and Physiology 2e. OpenStax.",
+       "access": "Access for free at https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+      }
+     ]
+    }
+   ],
+   "grade": 13.5,
+   "method": "How this was made: an AI agent drafted each sentence from a quoted sentence in an allowed source (OpenStax, the NCI SEER Training Modules or an ontology definition); a second, independent AI agent checked each sentence against its quote; a script found every quote word for word and measured the reading level. No person has reviewed it yet.",
+   "draftedOn": "2026-11-09"
   },
   "tier3": {
    "status": "missing"
@@ -134,8 +385,33 @@
  "media": [],
  "sources": [
   {
-   "title": "Cell Ontology CL:1001432",
-   "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001432",
+   "title": "OpenStax Anatomy and Physiology 2e, 25.6 Tubular Reabsorption",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "Cell Ontology, CL:1001432 kidney collecting duct intercalated cell",
+   "url": "http://purl.obolibrary.org/obo/CL_1001432",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 25.4 Microscopic Anatomy of the Kidney",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 25.9 Regulation of Fluid Volume and Composition",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-9-regulation-of-fluid-volume-and-composition",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e, 2.4 Inorganic Compounds Essential to Human Functioning",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+   "license": "CC BY 4.0"
+  },
+  {
+   "title": "OpenStax Biology 2e, 2.2 Water",
+   "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
    "license": "CC BY 4.0"
   }
  ],

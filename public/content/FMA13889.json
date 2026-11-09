@@ -194,5 +194,91 @@
     "UBERON0000007"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Hypophysial fossa"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Diaphragma sellae"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Body proper of sphenoid"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Anterior intercavernous sinus"
+     },
+     {
+      "label": "Posterior intercavernous sinus"
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Dorsum sellae"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Tuberculum sellae"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lobular organ",
+      "id": "FMA:55662",
+      "conceptId": "FMA55662"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13889"
+   }
+  ]
  }
 }

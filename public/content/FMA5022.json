@@ -421,5 +421,28 @@
    "status": "auto",
    "match": "HPA tissue “skeletal muscle” is this organ's tissue in pipeline/maps/tissue-media.json"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Nonparenchymatous organ",
+      "id": "FMA:55665",
+      "conceptId": "FMA55665"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma5022"
+   }
+  ]
+ }
 }

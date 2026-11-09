@@ -215,5 +215,116 @@
    "status": "auto",
    "match": "Servier title “Adrenal gland” = “adrenal gland”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of right side of retroperitoneal compartment"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Right kidney",
+      "id": "FMA:7204",
+      "conceptId": "FMA7204",
+      "alternates": [
+       "UBERON0004539"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     },
+     {
+      "label": "Right lobe of liver (classical)",
+      "id": "FMA:13362",
+      "conceptId": "FMA13362",
+      "alternates": [
+       "UBERON0001114"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Inferior vena cava",
+      "id": "FMA:10951",
+      "conceptId": "FMA10951",
+      "alternates": [
+       "UBERON0001072"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Set of viscera of abdomen"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Adrenal gland",
+      "id": "FMA:9604",
+      "conceptId": "FMA9604",
+      "alternates": [
+       "UBERON0002369"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15629"
+   }
+  ]
+ }
 }

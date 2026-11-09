@@ -233,5 +233,42 @@
    "conceptId": "FMA49894",
    "label": "Systemic arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Aorta",
+      "id": "FMA:3734",
+      "conceptId": "FMA3734",
+      "alternates": [
+       "UBERON0000947"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of thoracic aorta",
+      "id": "FMA:68045",
+      "conceptId": "FMA68045"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3768"
+   }
+  ]
  }
 }

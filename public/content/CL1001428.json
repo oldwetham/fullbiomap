@@ -224,5 +224,31 @@
     "/tissue/FMA15900.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Urothelial cell"
+     },
+     {
+      "label": "Bladder cell",
+      "id": "CL:1001319",
+      "conceptId": "CL1001319"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1001428"
+   }
+  ]
  }
 }

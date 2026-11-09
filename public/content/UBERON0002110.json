@@ -222,5 +222,102 @@
     "/tissue/FMA7202.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Abdominal cavity"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Transverse colon",
+      "id": "FMA:14546",
+      "conceptId": "FMA14546",
+      "alternates": [
+       "UBERON0001157"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Right lobe of liver (classical)",
+      "id": "FMA:13362",
+      "conceptId": "FMA13362",
+      "alternates": [
+       "UBERON0001114"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Common bile duct",
+      "id": "UBERON:0001174",
+      "conceptId": "UBERON0001174"
+     },
+     {
+      "label": "Superior part of duodenum"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Biliary system"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ with organ cavity",
+      "id": "FMA:55672",
+      "conceptId": "FMA55672"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7202"
+   }
+  ]
  }
 }

@@ -113,5 +113,28 @@
     "/tissue/FMA7201.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Immature NK T cell",
+      "id": "CL:0000914",
+      "conceptId": "CL0000914"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002042"
+   }
+  ]
  }
 }

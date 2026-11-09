@@ -298,5 +298,28 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardiac endothelial cell",
+      "id": "CL:0010008",
+      "conceptId": "CL0010008"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002350"
+   }
+  ]
  }
 }

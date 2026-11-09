@@ -18,7 +18,7 @@ const CELL_SCALES = new Set(['cell', 'organelle']);
 const RELS = ['is_a', 'part_of', ...CONNECTIONS];
 const SOURCE_LABEL = {curated: 'Curated text (tier1.md)', ncit: 'NCIt definition', uberon: 'Uberon definition', fma: 'FMA definition',
   hierarchy: 'Generated from FMA hierarchy', 'hierarchy-bp3d': 'Generated from BodyParts3D hierarchy', 'hierarchy-hra': 'Generated from HRA 3D hierarchy', cl: 'Cell Ontology definition', go: 'Gene Ontology definition',
-  'hierarchy-asctb': 'Generated from HRA ASCT+B table', placement: 'Generated from a sourced placement (Cell Ontology or OpenStax)', none: 'No tier-1 text'};
+  'hierarchy-asctb': 'Generated from HRA ASCT+B table', placement: 'Generated from a sourced placement (Cell Ontology or OpenStax)', none: 'No tier-1 text (fact card only)'};
 
 const errors = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -112,10 +112,35 @@ for (const o of standaloneList) {
   if (![o.names ?? [], o.terms ?? []].every(list => Array.isArray(list) && list.every(x => typeof x === 'string' && x.trim()))) fail(o.object, 'search names and terms must be lists of words');
   for (const t of o.tissue ?? []) requirePath(t, `standalone organ ${o.object}`, 'tissue board');
   const node = byId.get(o.conceptId.replace(/^(FMA|UBERON|CL|GO)(\d)/, '$1:$2'));
-  if (!node || node.content?.tier1?.status === 'missing') fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text`);
+  if (!node || (node.content?.tier1?.status === 'missing' && !hasFacts(node))) fail(o.object, `standalone organ ${o.conceptId} has no node with tier-1 text or a fact card`);
 }
 
 const isOrgan = n => n.id === ORGAN || n.ancestors.includes(ORGAN);
+// The card also shows the node's supply, drainage, nerve and cell-type connections (app/anatomy.ts CARD_RELATIONS).
+const CARD_RELATIONS = ['arterial_supply', 'venous_drainage', 'lymphatic_drainage', 'nerve_supply', 'located_in'];
+function hasFacts(n) { return !!(n?.facts?.rows?.length || n?.facts?.board || n?.connections?.some(c => CARD_RELATIONS.includes(c.rel))); }
+// Fact cards (step 11, docs/EXPLANATIONS-PLAN.md §2): rows from the ontologies and the HRA tables, in their wording. Every item
+// that links names a node; every card names its sources; none mentions Wikipedia.
+let factCards = 0;
+const factRows = {}, unshownBare = [];
+function checkFacts(id, f) {
+  if (!f) return;
+  factCards++;
+  if (!['auto', 'reviewed', 'verified'].includes(f.status)) fail(id, `fact card: bad status ${f.status}`);
+  if (!Array.isArray(f.rows) || (!f.rows.length && !f.board)) fail(id, 'fact card: no rows');
+  for (const r of f.rows ?? []) {
+    factRows[r.key] = (factRows[r.key] ?? 0) + 1;
+    if (!r.key || !r.label?.trim() || !r.items?.length) fail(id, `fact card row ${r.key}: needs a key, a label and items`);
+    for (const i of r.items ?? []) {
+      if (!i.label?.trim()) fail(id, `fact card row ${r.key}: item without a label`);
+      if (i.id && (!byId.has(i.id) || byId.get(i.id).conceptId !== i.conceptId)) fail(id, `fact card row ${r.key}: ${i.id} is not a node`);
+      if (!i.id && i.conceptId) fail(id, `fact card row ${r.key}: ${i.label} links to no node`);
+    }
+  }
+  if (f.board && !(f.board.count > 0 && f.board.label)) fail(id, 'fact card: tissue board needs a label and a count');
+  if (!f.sources?.length || f.sources.some(x => !x.name || !x.license || !x.url)) fail(id, 'fact card: sources need name, license, url');
+  if (mentionsWikipedia(f)) fail(id, 'fact card: Wikipedia is not allowed');
+}
 const mentionsWikipedia = v => /wikipedia/i.test(JSON.stringify(v));
 
 // Figures (step 10): each one the app can show is a file under public/, carries its licence, credit, title, caption,
@@ -229,7 +254,9 @@ for (const n of nodes) {
   }
   if (!n.ladder || !(systems.has(n.ladder.system) || (CELL_SCALES.has(n.scale) && n.ladder.system === null))) fail(n.id, 'no ladder');
   if (n.ladder?.organ && !byId.has(n.ladder.organ.id)) fail(n.id, `ladder organ ${n.ladder.organ.id} is not a node`);
-  if (n.content?.tier1?.status === 'missing') fail(n.id, 'no tier-1 text');
+  // A node only an archived model draws (the disabled female body) is never on screen; it may have neither.
+  const archivedOnly = !n.geometry?.male?.length && !CELL_SCALES.has(n.scale) && (n.geometry?.models ?? []).length > 0 && n.geometry.models.every(o => hraModels[o]?.archived);
+  if (n.content?.tier1?.status === 'missing' && !hasFacts(n)) { if (archivedOnly) unshownBare.push(n.id); else fail(n.id, 'no tier-1 text and no fact card'); }
   if (!index.has(n.conceptId)) fail(n.id, 'missing from public/content/index.json');
   let served = null;
   if (requirePath(`/content/${n.conceptId}.json`, `graph node ${n.id}`, 'content file'))
@@ -237,6 +264,8 @@ for (const n of nodes) {
   if (served && (served.id !== n.id || 'ancestors' in served)) fail(n.id, 'served file does not match node');
   if (served && PROFILES[n.id] && served.morphology?.claims?.length !== PROFILES[n.id].claims.length) fail(n.id, 'served file lacks its morphology profile; rerun step 11');
   checkFigures(served?.figures, `${n.conceptId}.json`, n.id);
+  checkFacts(n.id, served?.facts);
+  if (served && JSON.stringify(served.facts ?? null) !== JSON.stringify(n.facts ?? null)) fail(n.id, 'served fact card does not match the graph node; rerun step 11');
   // What the app opens from this file: organ interiors (this body's and the ladder organ's), the cell model, tissue boards.
   for (const [where, urls] of [...Object.entries(served?.geometry?.interior ?? {}), ...Object.entries(served?.ladder?.organ?.interior ?? {}).map(([k, v]) => [`ladder ${k}`, v])])
     for (const u of urls) requireManifest(u, `${n.conceptId}.json ${where} interior`);
@@ -255,7 +284,8 @@ for (const n of nodes) {
   }
   for (const name of ['tier1', 'tier2', 'tier3']) checkTier(n.id, name, n.content?.[name] ?? {status: undefined}, served?.content?.[name]);
   const t1 = n.content.tier1, kind = t1.status === 'missing' ? 'none' : t1.source?.kind ?? 'curated';
-  if (isOrgan(n) && (t1.status === 'missing' || !served?.content?.tier1?.text || !t1.source?.url)) fail(n.id, `organ "${n.label}" lacks tier-1 text and a source`);
+  if (isOrgan(n) && t1.status === 'missing' && !hasFacts(n)) fail(n.id, `organ "${n.label}" has neither tier-1 text nor a fact card`);
+  if (isOrgan(n) && t1.status !== 'missing' && (!served?.content?.tier1?.text || !t1.source?.url)) fail(n.id, `organ "${n.label}" has tier-1 text without a source`);
   bySource[kind] = (bySource[kind] ?? 0) + 1;
   if (isOrgan(n)) organBySource[kind] = (organBySource[kind] ?? 0) + 1;
   byStatus[t1.status] = (byStatus[t1.status] ?? 0) + 1;
@@ -388,6 +418,7 @@ const lines = ['# Coverage report', '', 'Generated by `pipeline/12-validate.mjs`
   `- Edges: ${edges.length} (${RELS.map(r => `${r} ${relCount[r] ?? 0}`).join(', ')})`,
   `- 3D cells: ${cellModels.size} models; ${cellShapesChecked} cell types checked against the shape rules, none drawing a nucleus where its family or Cell Ontology says it has none`,
   `- Morphology profiles: ${Object.keys(PROFILES).length} cell types, ${profileClaims} claims, each quoting a CC BY source (${Object.values(PROFILES).filter(p => p.status === 'drafted').length} unreviewed); failed claims are listed in reports/morphology-check.md`,
+  `- Fact cards: ${factCards} of ${nodes.length} nodes (${Object.entries(factRows).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(', ')}); built from FMA, HRA, Cell Ontology and GO by step 11, no written text${unshownBare.length ? `; ${unshownBare.length} nodes drawn only by the archived female body have neither text nor card (${unshownBare.join(', ')})` : ''}`,
   `- Figures: ${figuresChecked} shown in content files and on boards (${figureFiles.size} image files under public/figures/), each CC BY 4.0 or public domain with its credit and link`,
   `- Files the app can request: ${requested.size} checked, ${missing.size} missing under public/ (${manifests.size} model manifests and their chunks, content files listed in the index, tissue boards and their images)`,
   `- Validation errors: ${errors.length}`, '',

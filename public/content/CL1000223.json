@@ -154,5 +154,43 @@
     "/tissue/FMA7309.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Neuronal receptor cell"
+     },
+     {
+      "label": "Sensory epithelial cell"
+     },
+     {
+      "label": "Neuroendocrine cell",
+      "id": "CL:0000165",
+      "conceptId": "CL0000165"
+     },
+     {
+      "label": "Chemoreceptor cell"
+     },
+     {
+      "label": "Serotonin secreting cell"
+     },
+     {
+      "label": "Lung secretory cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000223"
+   }
+  ]
  }
 }

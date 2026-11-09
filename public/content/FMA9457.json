@@ -162,5 +162,137 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Wall of left atrium",
+      "id": "FMA:9531",
+      "conceptId": "FMA9531"
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Wall of right ventricle",
+      "id": "FMA:9533",
+      "conceptId": "FMA9533",
+      "alternates": [
+       "UBERON0036286"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Wall of right ventricle",
+      "id": "FMA:9533",
+      "conceptId": "FMA9533",
+      "alternates": [
+       "UBERON0036286"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Wall of left atrium",
+      "id": "FMA:9531",
+      "conceptId": "FMA9531"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Wall of right side of heart",
+      "id": "FMA:73703",
+      "conceptId": "FMA73703"
+     },
+     {
+      "label": "Wall of biatrial part of heart"
+     },
+     {
+      "label": "Right atrium",
+      "id": "FMA:7096",
+      "conceptId": "FMA7096",
+      "alternates": [
+       "UBERON0002078"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Wall of atrium",
+      "id": "FMA:13883",
+      "conceptId": "FMA13883"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9457"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

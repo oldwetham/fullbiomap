@@ -340,5 +340,28 @@
     "/tissue/FMA9600.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000413"
+   }
+  ]
  }
 }

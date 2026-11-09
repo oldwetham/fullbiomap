@@ -191,5 +191,75 @@
    "conceptId": "FMA45842",
    "label": "Pulmonary arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Pulmonary trunk segment of pericardial sac"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Outflow part of right ventricle",
+      "id": "FMA:7216",
+      "conceptId": "FMA7216",
+      "alternates": [
+       "UBERON0005953"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Right pulmonary vascular system"
+     },
+     {
+      "label": "Left pulmonary vascular system"
+     },
+     {
+      "label": "Pulmonary arterial tree",
+      "id": "FMA:45842",
+      "conceptId": "FMA45842"
+     },
+     {
+      "label": "Content of middle mediastinum",
+      "id": "FMA:79278",
+      "conceptId": "FMA79278"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Pulmonary arterial trunk",
+      "id": "FMA:8615",
+      "conceptId": "FMA8615"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8612"
+   }
+  ]
  }
 }

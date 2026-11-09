@@ -58,7 +58,14 @@ export interface Figure {id:string;source:string;sourceName:string;kind:'microgr
  ftu?:{name:string;label:string;tissue?:string;hits:{cl:string;label:string;ids:string[]}[]};focus?:string;
  /** For cell types that look alike under a microscope: the sentence (also at the end of the caption) naming the proteins that tell them apart. */
  lookAlike?:string}
-export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string;morphology?:Morphology;figures?:Figure[]}
+/** A fact card (step 11, docs/EXPLANATIONS-PLAN.md §2): what FMA, the HRA tables, Cell Ontology and GO say about a structure,
+ * in their own wording. An item with a conceptId is a node (a chip that selects it where the model on screen has it). */
+export interface FactItem {label:string;id?:string;conceptId?:string;alternates?:string[]}
+export interface FactRow {key:string;label:string;title?:string;items:FactItem[]}
+export interface Facts {status:ContentStatus;rows:FactRow[];board?:{label:string;count:number};sources:ConnectionSource[];reviewer?:string;reviewedOn?:string}
+/** Connection groups the fact card shows (supply, drainage, nerves, where a cell type is found); the rest stay under Connections. */
+export const CARD_RELATIONS=['arterial_supply','venous_drainage','lymphatic_drainage','nerve_supply','located_in'];
+export interface NodeContent {id:string;conceptId:string;label:string;scale:string;system:string;synonyms:string[];xrefs:Record<string,string|string[]>;content:Record<'tier1'|'tier2'|'tier3',ContentTier>;sources:ContentSource[];connections?:Connection[];ladder?:Ladder;equivalent?:string;morphology?:Morphology;figures?:Figure[];facts?:Facts}
 export const RELATION_LABELS:Record<string,{out:string;in:string}> = {
  arterial_supply:{out:'Supplied by',in:'Supplies'},
  venous_drainage:{out:'Drains to',in:'Drains'},
@@ -79,7 +86,8 @@ export function connectionGroups(list:Connection[]):ConnectionGroup[]{
  for(const c of list){const key=`${c.rel}:${c.dir}`;const g=groups.get(key)??{key,label:RELATION_LABELS[c.rel]?.[c.dir]??c.rel,items:[]};g.items.push(c);groups.set(key,g);}
  return [...groups.values()];
 }
-export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[];ladder:Ladder|null;figures:Figure[]}
+/** known: the structure has a content file (then its text is never replaced by the system's description). */
+export interface Explanation {text:string;level:Level|null;tier?:ContentTier;available:Level[];connections:Connection[];ladder:Ladder|null;figures:Figure[];facts:Facts|null;known:boolean}
 export const isUnreviewed=(t?:ContentTier)=>t?.status==='auto'||t?.status==='drafted';
 let contentIndex:Promise<Set<string>>|null=null;
 const contentCache=new Map<string,Promise<NodeContent|null>>();
@@ -90,15 +98,16 @@ export function loadContent(conceptId:string):Promise<NodeContent|null>{
  if(!entry){entry=contentIndex.then(ids=>ids.has(conceptId)?getJson<NodeContent>(`/content/${conceptId}.json`):null);contentCache.set(conceptId,entry);}
  return entry;
 }
-/** Text for an atlas concept id (e.g. FMA7088) at the preferred level, falling back to tier 1, then to the system description when no content file exists or it fails to load. */
+/** Text for an atlas concept id (e.g. FMA7088) at the preferred level, falling back to tier 1; with no text, the fact card alone; the system description only when no content file exists or it fails to load. */
 export async function explanationFor(conceptId:string,system:SystemId,preferred:Level=1):Promise<Explanation>{
  const node=await loadContent(conceptId);
  const tierOf=(l:Level)=>node?.content?.[`tier${l}`];
  const available=LEVELS.map(x=>x.level).filter(l=>{const t=tierOf(l);return !!t&&t.status!=='missing'&&!!t.text;});
  const level=available.includes(preferred)?preferred:available[0]??null;
- const connections=node?.connections??[],ladder=node?.ladder??null,figures=node?.figures??[];
- if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections,ladder,figures};
- return {text:SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder,figures};
+ const connections=node?.connections??[],ladder=node?.ladder??null,figures=node?.figures??[],facts=node?.facts??null,known=!!node;
+ if(level)return {text:tierOf(level)!.text!,level,tier:tierOf(level),available,connections,ladder,figures,facts,known};
+ // A structure with a content file but no text has its fact card; only one without a file gets its system's description.
+ return {text:node?'':SYSTEMS.find(s=>s.id===system)?.description??'',level:null,available,connections,ladder,figures,facts,known};
 }
 
 /** Deep links: [female/]<id>[/inside[/<part>]], or organ/<hra-object>[/<part>] for an organ opened on its own

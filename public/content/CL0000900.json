@@ -155,5 +155,31 @@
     "/tissue/FMA7309.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Naive T cell"
+     },
+     {
+      "label": "CD8-positive, alpha-beta T cell",
+      "id": "CL:0000625",
+      "conceptId": "CL0000625"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000900"
+   }
+  ]
  }
 }

@@ -299,5 +299,165 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     },
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     },
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Systemic arterial system",
+      "id": "FMA:45623",
+      "conceptId": "FMA45623",
+      "alternates": [
+       "UBERON0004571"
+      ]
+     },
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Zone of heart"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7166"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

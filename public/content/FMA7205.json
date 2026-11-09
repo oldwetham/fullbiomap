@@ -376,5 +376,173 @@
    "status": "auto",
    "match": "Servier title “Kidney” = “kidney”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of left side of retroperitoneal compartment"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Left renal fascia"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Left adrenal gland",
+      "id": "FMA:15630",
+      "conceptId": "FMA15630",
+      "alternates": [
+       "UBERON0001234"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Left psoas major",
+      "id": "FMA:22343",
+      "conceptId": "FMA22343"
+     },
+     {
+      "label": "Left quadratus lumborum"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Descending colon",
+      "id": "FMA:14547",
+      "conceptId": "FMA14547",
+      "alternates": [
+       "UBERON0001158"
+      ]
+     },
+     {
+      "label": "Jejunum",
+      "id": "FMA:7207",
+      "conceptId": "FMA7207",
+      "alternates": [
+       "UBERON0002115"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Left psoas major",
+      "id": "FMA:22343",
+      "conceptId": "FMA22343"
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Descending colon",
+      "id": "FMA:14547",
+      "conceptId": "FMA14547",
+      "alternates": [
+       "UBERON0001158"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Set of kidneys"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Left upper urinary tract",
+      "id": "FMA:71103",
+      "conceptId": "FMA71103"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Kidney",
+      "id": "FMA:7203",
+      "conceptId": "FMA7203",
+      "alternates": [
+       "UBERON0000082"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Left kidney",
+   "count": 67
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7205"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

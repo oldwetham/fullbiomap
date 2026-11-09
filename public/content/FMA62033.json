@@ -98,5 +98,54 @@
     "/tissue/FMA50801.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Epithalamus",
+      "id": "FMA:62009",
+      "conceptId": "FMA62009",
+      "alternates": [
+       "UBERON0001899"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Circumventricular organ of neuraxis",
+      "id": "FMA:84081",
+      "conceptId": "FMA84081",
+      "alternates": [
+       "UBERON0005408"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma62033"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

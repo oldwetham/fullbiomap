@@ -78,5 +78,43 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "White matter structure of cerebral hemisphere"
+     },
+     {
+      "label": "Intercerebral commissure"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "White matter of telencephalon",
+      "id": "FMA:83930",
+      "conceptId": "FMA83930",
+      "alternates": [
+       "UBERON0011299"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma86464"
+   }
+  ]
  }
 }

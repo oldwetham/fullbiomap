@@ -152,5 +152,37 @@
     "/tissue/FMA7309.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Epithelial cell of lung"
+     },
+     {
+      "label": "Bronchial epithelial cell"
+     },
+     {
+      "label": "Respiratory tract secretory epithelial cell"
+     },
+     {
+      "label": "Pulmonary neuroendocrine cell",
+      "id": "CL:1000223",
+      "conceptId": "CL1000223"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033010"
+   }
+  ]
  }
 }

@@ -107,5 +107,103 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Anterior papillary muscle of left ventricle",
+      "id": "FMA:7264",
+      "conceptId": "FMA7264"
+     },
+     {
+      "label": "Myocardium of mid zone of left ventricle"
+     },
+     {
+      "label": "Myocardial zone 12",
+      "id": "FMA:86064",
+      "conceptId": "FMA86064"
+     },
+     {
+      "label": "Anterior wall of left ventricle",
+      "id": "FMA:9560",
+      "conceptId": "FMA9560",
+      "alternates": [
+       "UBERON0036288"
+      ]
+     },
+     {
+      "label": "Lateral wall of left ventricle",
+      "id": "FMA:9563",
+      "conceptId": "FMA9563"
+     },
+     {
+      "label": "Papillary muscle of heart",
+      "id": "UBERON:0002494",
+      "conceptId": "UBERON0002494"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Region of lateral papillary muscle of left ventricle",
+      "id": "FMA:86566",
+      "conceptId": "FMA86566"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7265"
+   },
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

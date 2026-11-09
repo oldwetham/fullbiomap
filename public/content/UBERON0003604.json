@@ -79,5 +79,45 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Trachea",
+      "id": "UBERON:0003126",
+      "conceptId": "UBERON0003126"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Tracheobronchial chondrocyte",
+      "id": "CL:0019002",
+      "conceptId": "CL0019002"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

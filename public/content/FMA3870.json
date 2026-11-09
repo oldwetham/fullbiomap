@@ -132,5 +132,37 @@
   "system": "arterial",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Anterior branch of anterior interventricular branch of left coronary artery",
+      "id": "FMA:13914",
+      "conceptId": "FMA13914"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3870"
+   }
+  ]
  }
 }

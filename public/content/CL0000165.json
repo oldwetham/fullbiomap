@@ -309,5 +309,37 @@
     "/tissue/FMA7201.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Endocrine cell",
+      "id": "CL:0000163",
+      "conceptId": "CL0000163"
+     },
+     {
+      "label": "Efferent neuron"
+     },
+     {
+      "label": "Neurecto-epithelial cell"
+     },
+     {
+      "label": "Secretory epithelial cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000165"
+   }
+  ]
  }
 }

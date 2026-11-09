@@ -301,5 +301,88 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Mitral valve",
+      "id": "FMA:7235",
+      "conceptId": "FMA7235",
+      "alternates": [
+       "UBERON0002135"
+      ]
+     },
+     {
+      "label": "Fibrous skeleton of heart",
+      "id": "FMA:9496",
+      "conceptId": "FMA9496",
+      "alternates": [
+       "UBERON0004292"
+      ]
+     },
+     {
+      "label": "Left atrium",
+      "id": "FMA:7097",
+      "conceptId": "FMA7097",
+      "alternates": [
+       "UBERON0002079"
+      ]
+     },
+     {
+      "label": "Left ventricle",
+      "id": "FMA:7101",
+      "conceptId": "FMA7101",
+      "alternates": [
+       "UBERON0002084"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Left fibrous ring of heart"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9498"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

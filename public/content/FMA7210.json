@@ -139,5 +139,68 @@
    "status": "auto",
    "match": "Servier title “Testicle” = “Testicle”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Male internal genitalia"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lobular organ",
+      "id": "FMA:55662",
+      "conceptId": "FMA55662"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Leydig cell",
+      "id": "CL:0000178",
+      "conceptId": "CL0000178"
+     },
+     {
+      "label": "Sertoli cell",
+      "id": "CL:0000216",
+      "conceptId": "CL0000216"
+     },
+     {
+      "label": "Sperm",
+      "id": "CL:0000019",
+      "conceptId": "CL0000019"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Testis",
+   "count": 3
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7210"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

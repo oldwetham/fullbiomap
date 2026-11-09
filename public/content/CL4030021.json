@@ -109,5 +109,33 @@
     "/tissue/FMA7203.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Renal beta-intercalated cell",
+      "id": "CL:0002201",
+      "conceptId": "CL0002201"
+     },
+     {
+      "label": "Kidney connecting tubule intercalated cell",
+      "id": "CL:4030019",
+      "conceptId": "CL4030019"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4030021"
+   }
+  ]
  }
 }

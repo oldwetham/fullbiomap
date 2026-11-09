@@ -85,5 +85,37 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Bronchus",
+      "id": "UBERON:0002185",
+      "conceptId": "UBERON0002185"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   }
+  ]
  }
 }

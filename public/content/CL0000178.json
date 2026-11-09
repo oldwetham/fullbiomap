@@ -253,5 +253,29 @@
    "status": "auto",
    "match": "HPA cell type “Leydig cells” in testis = “Leydig cell”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Testosterone secreting cell"
+     },
+     {
+      "label": "Interstitial cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000178"
+   }
+  ]
+ }
 }

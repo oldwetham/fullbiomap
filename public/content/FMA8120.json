@@ -73,5 +73,72 @@
     "/tissue/FMA8120.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "False rib",
+      "id": "FMA:7594",
+      "conceptId": "FMA7594",
+      "alternates": [
+       "UBERON0002238"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bone cell",
+      "id": "CL:0001035",
+      "conceptId": "CL0001035"
+     },
+     {
+      "label": "Chondrocyte",
+      "id": "CL:0000138",
+      "conceptId": "CL0000138"
+     },
+     {
+      "label": "Osteoblast",
+      "id": "CL:0000062",
+      "conceptId": "CL0000062"
+     },
+     {
+      "label": "Osteoclast",
+      "id": "CL:0000092",
+      "conceptId": "CL0000092"
+     },
+     {
+      "label": "Osteocyte",
+      "id": "CL:0000137",
+      "conceptId": "CL0000137"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Eighth rib",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma8120"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -300,5 +300,70 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Right coronary artery",
+      "id": "FMA:50039",
+      "conceptId": "FMA50039",
+      "alternates": [
+       "UBERON0001625"
+      ]
+     },
+     {
+      "label": "Blood vasculature",
+      "id": "UBERON:0004537",
+      "conceptId": "UBERON0004537"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Anterior ventricular branch of right coronary artery",
+      "id": "FMA:3813",
+      "conceptId": "FMA3813"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3818"
+   },
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

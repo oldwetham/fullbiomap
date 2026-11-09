@@ -185,5 +185,120 @@
    "status": "auto",
    "match": "Gray's 1918 legend title “Mandible” (Fig. 177) = “Mandible”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Skeleton of mouth",
+      "id": "FMA:61670",
+      "conceptId": "FMA61670"
+     },
+     {
+      "label": "Skeleton of head"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Skeletal system of mouth"
+     },
+     {
+      "label": "Viscerocranium",
+      "id": "FMA:53673",
+      "conceptId": "FMA53673",
+      "alternates": [
+       "UBERON0011156"
+      ]
+     },
+     {
+      "label": "Lower jaw",
+      "id": "FMA:54398",
+      "conceptId": "FMA54398",
+      "alternates": [
+       "UBERON0003278"
+      ]
+     },
+     {
+      "label": "Mandibular part of mouth",
+      "id": "FMA:59398",
+      "conceptId": "FMA59398",
+      "alternates": [
+       "UBERON0001710"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Irregular bone",
+      "id": "FMA:7477",
+      "conceptId": "FMA7477",
+      "alternates": [
+       "UBERON0008001"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bone cell",
+      "id": "CL:0001035",
+      "conceptId": "CL0001035"
+     },
+     {
+      "label": "Chondrocyte",
+      "id": "CL:0000138",
+      "conceptId": "CL0000138"
+     },
+     {
+      "label": "Osteoblast",
+      "id": "CL:0000062",
+      "conceptId": "CL0000062"
+     },
+     {
+      "label": "Osteoclast",
+      "id": "CL:0000092",
+      "conceptId": "CL0000092"
+     },
+     {
+      "label": "Osteocyte",
+      "id": "CL:0000137",
+      "conceptId": "CL0000137"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Mandible",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma52748"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

@@ -116,5 +116,34 @@
     "/tissue/FMA7405.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Bronchial epithelial cell"
+     },
+     {
+      "label": "Basal epithelial cell of tracheobronchial tree",
+      "id": "CL:0002329",
+      "conceptId": "CL0002329"
+     },
+     {
+      "label": "Respiratory basal cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000349"
+   }
+  ]
  }
 }

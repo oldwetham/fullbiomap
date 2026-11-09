@@ -173,5 +173,59 @@
     "/tissue/FMA7200.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Lower gastrointestinal tract",
+      "id": "FMA:49179",
+      "conceptId": "FMA49179",
+      "alternates": [
+       "UBERON0004907"
+      ]
+     },
+     {
+      "label": "Small intestine",
+      "id": "FMA:7200",
+      "conceptId": "FMA7200",
+      "alternates": [
+       "UBERON0002108"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of small intestine",
+      "id": "FMA:14092",
+      "conceptId": "FMA14092"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Small intestine",
+   "count": 29
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7208"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -92,5 +92,49 @@
   "system": "skeletal",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Back"
+     },
+     {
+      "label": "Thoracic segment of trunk",
+      "id": "FMA:259209",
+      "conceptId": "FMA259209",
+      "alternates": [
+       "UBERON0000915"
+      ]
+     },
+     {
+      "label": "Thoracic segment of male trunk"
+     },
+     {
+      "label": "Thoracic segment of female trunk"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of back"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma24217"
+   }
+  ]
  }
 }

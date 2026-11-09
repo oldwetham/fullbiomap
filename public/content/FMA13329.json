@@ -326,5 +326,58 @@
   "system": "venous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Pectoralis minor",
+      "id": "FMA:13109",
+      "conceptId": "FMA13109",
+      "alternates": [
+       "UBERON0001100"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Axillary artery",
+      "id": "FMA:22654",
+      "conceptId": "FMA22654",
+      "alternates": [
+       "UBERON0001394"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of subclavian vein",
+      "id": "FMA:77884",
+      "conceptId": "FMA77884"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13329"
+   }
+  ]
  }
 }

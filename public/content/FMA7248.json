@@ -177,5 +177,50 @@
   "system": "cardiac",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Endocardium of right ventricle"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Segment of valve"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cusp of cardiac valve",
+      "id": "FMA:7232",
+      "conceptId": "FMA7232",
+      "alternates": [
+       "UBERON0006009"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7248"
+   }
+  ]
  }
 }

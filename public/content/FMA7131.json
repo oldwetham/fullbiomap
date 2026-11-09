@@ -394,5 +394,75 @@
    "status": "auto",
    "match": "Servier title “Esophagus” = “esophagus”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Stomach",
+      "id": "FMA:7148",
+      "conceptId": "FMA7148",
+      "alternates": [
+       "UBERON0000945"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Pharynx"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Upper gastrointestinal tract",
+      "id": "FMA:49177",
+      "conceptId": "FMA49177",
+      "alternates": [
+       "UBERON0004908"
+      ]
+     },
+     {
+      "label": "Gastrointestinal tract",
+      "id": "FMA:71132",
+      "conceptId": "FMA71132",
+      "alternates": [
+       "UBERON0005409"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ with organ cavity",
+      "id": "FMA:55672",
+      "conceptId": "FMA55672"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7131"
+   }
+  ]
+ }
 }

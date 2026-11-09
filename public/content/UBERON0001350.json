@@ -98,5 +98,65 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Bony pelvis",
+      "id": "UBERON:0001270",
+      "conceptId": "UBERON0001270"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bone cell",
+      "id": "CL:0001035",
+      "conceptId": "CL0001035"
+     },
+     {
+      "label": "Chondrocyte",
+      "id": "CL:0000138",
+      "conceptId": "CL0000138"
+     },
+     {
+      "label": "Osteoblast",
+      "id": "CL:0000062",
+      "conceptId": "CL0000062"
+     },
+     {
+      "label": "Osteoclast",
+      "id": "CL:0000092",
+      "conceptId": "CL0000092"
+     },
+     {
+      "label": "Osteocyte",
+      "id": "CL:0000137",
+      "conceptId": "CL0000137"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

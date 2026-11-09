@@ -486,5 +486,197 @@
    "status": "auto",
    "match": "Servier title “Stomach” = “stomach”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Abdominal cavity"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Transverse colon",
+      "id": "FMA:14546",
+      "conceptId": "FMA14546",
+      "alternates": [
+       "UBERON0001157"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Abdominal aorta",
+      "id": "FMA:3789",
+      "conceptId": "FMA3789",
+      "alternates": [
+       "UBERON0001516"
+      ]
+     },
+     {
+      "label": "Spleen",
+      "id": "FMA:7196",
+      "conceptId": "FMA7196",
+      "alternates": [
+       "UBERON0002106"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Greater omentum"
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Abdominal aorta",
+      "id": "FMA:3789",
+      "conceptId": "FMA3789",
+      "alternates": [
+       "UBERON0001516"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     },
+     {
+      "label": "Spleen",
+      "id": "FMA:7196",
+      "conceptId": "FMA7196",
+      "alternates": [
+       "UBERON0002106"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Upper gastrointestinal tract",
+      "id": "FMA:49177",
+      "conceptId": "FMA49177",
+      "alternates": [
+       "UBERON0004908"
+      ]
+     },
+     {
+      "label": "Gastrointestinal tract",
+      "id": "FMA:71132",
+      "conceptId": "FMA71132",
+      "alternates": [
+       "UBERON0005409"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ with organ cavity",
+      "id": "FMA:55672",
+      "conceptId": "FMA55672"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Parietal cell",
+      "id": "CL:0000162",
+      "conceptId": "CL0000162"
+     },
+     {
+      "label": "Peptic cell",
+      "id": "CL:0000155",
+      "conceptId": "CL0000155"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Stomach",
+   "count": 2
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7148"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

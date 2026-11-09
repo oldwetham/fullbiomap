@@ -212,5 +212,42 @@
    "conceptId": "FMA49894",
    "label": "Systemic arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "External iliac artery",
+      "id": "FMA:18805",
+      "conceptId": "FMA18805",
+      "alternates": [
+       "UBERON0001308"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Branch of external iliac artery",
+      "id": "FMA:69458",
+      "conceptId": "FMA69458"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma77155"
+   }
+  ]
  }
 }

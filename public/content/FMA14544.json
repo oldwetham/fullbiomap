@@ -145,5 +145,234 @@
     "/tissue/FMA7201.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Lower gastrointestinal tract",
+      "id": "FMA:49179",
+      "conceptId": "FMA49179",
+      "alternates": [
+       "UBERON0004907"
+      ]
+     },
+     {
+      "label": "Large intestine",
+      "id": "FMA:7201",
+      "conceptId": "FMA7201",
+      "alternates": [
+       "UBERON0000059"
+      ]
+     },
+     {
+      "label": "Content of male pelvis"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of large intestine",
+      "id": "FMA:14540",
+      "conceptId": "FMA14540"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Adipocyte",
+      "id": "CL:0000136",
+      "conceptId": "CL0000136"
+     },
+     {
+      "label": "Capillary endothelial cell",
+      "id": "CL:0002144",
+      "conceptId": "CL0002144"
+     },
+     {
+      "label": "CD4-negative, CD8-negative, alpha-beta intraepithelial T cell",
+      "id": "CL:0000935",
+      "conceptId": "CL0000935"
+     },
+     {
+      "label": "CD4-positive, alpha-beta intraepithelial T cell",
+      "id": "CL:0000793",
+      "conceptId": "CL0000793"
+     },
+     {
+      "label": "CD8-alpha alpha positive, gamma-delta intraepithelial T cell",
+      "id": "CL:0000802",
+      "conceptId": "CL0000802"
+     },
+     {
+      "label": "CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell",
+      "id": "CL:0000915",
+      "conceptId": "CL0000915"
+     },
+     {
+      "label": "CD8-alpha-beta-positive, alpha-beta intraepithelial T cell",
+      "id": "CL:0000796",
+      "conceptId": "CL0000796"
+     },
+     {
+      "label": "Dendritic cell",
+      "id": "CL:0000451",
+      "conceptId": "CL0000451"
+     },
+     {
+      "label": "Endothelial cell of arteriole",
+      "id": "CL:1000412",
+      "conceptId": "CL1000412"
+     },
+     {
+      "label": "Endothelial cell of high endothelial venule",
+      "id": "CL:0002652",
+      "conceptId": "CL0002652"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Endothelial cell of venule",
+      "id": "CL:1000414",
+      "conceptId": "CL1000414"
+     },
+     {
+      "label": "Enterocyte of epithelium of large intestine",
+      "id": "CL:0002071",
+      "conceptId": "CL0002071"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "Interstitial cell of Cajal",
+      "id": "CL:0002088",
+      "conceptId": "CL0002088"
+     },
+     {
+      "label": "Intestinal crypt stem cell of large intestine",
+      "id": "CL:0009016",
+      "conceptId": "CL0009016"
+     },
+     {
+      "label": "Intestinal tuft cell",
+      "id": "CL:0019032",
+      "conceptId": "CL0019032"
+     },
+     {
+      "label": "Large intestine crypt goblet cell",
+      "id": "CL:1000321",
+      "conceptId": "CL1000321"
+     },
+     {
+      "label": "Lymphocyte of large intestine lamina propria",
+      "id": "CL:0009018",
+      "conceptId": "CL0009018"
+     },
+     {
+      "label": "M cell of gut",
+      "id": "CL:0000682",
+      "conceptId": "CL0000682"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Mature eosinophil",
+      "id": "CL:0000041",
+      "conceptId": "CL0000041"
+     },
+     {
+      "label": "Mature neutrophil",
+      "id": "CL:0000096",
+      "conceptId": "CL0000096"
+     },
+     {
+      "label": "Mesothelial cell of visceral peritoneum",
+      "id": "CL:1000457",
+      "conceptId": "CL1000457"
+     },
+     {
+      "label": "Myofibroblast cell",
+      "id": "CL:0000186",
+      "conceptId": "CL0000186"
+     },
+     {
+      "label": "Neuroendocrine cell",
+      "id": "CL:0000165",
+      "conceptId": "CL0000165"
+     },
+     {
+      "label": "Paneth cell of colon",
+      "id": "CL:0009009",
+      "conceptId": "CL0009009"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Schwann cell",
+      "id": "CL:0002573",
+      "conceptId": "CL0002573"
+     },
+     {
+      "label": "Smooth muscle cell of large intestine",
+      "id": "CL:1000279",
+      "conceptId": "CL1000279"
+     },
+     {
+      "label": "Transit amplifying cell of colon",
+      "id": "CL:0009011",
+      "conceptId": "CL0009011"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Large intestine",
+   "count": 55
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14544"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -167,5 +167,89 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Inferior temporal gyrus",
+      "id": "FMA:61907",
+      "conceptId": "FMA61907",
+      "alternates": [
+       "UBERON0002751"
+      ]
+     },
+     {
+      "label": "Occipitotemporal sulcus"
+     },
+     {
+      "label": "Inferior temporal sulcus"
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Lingual gyrus",
+      "id": "UBERON:0002943",
+      "conceptId": "UBERON0002943"
+     },
+     {
+      "label": "Parahippocampal gyrus",
+      "id": "FMA:61918",
+      "conceptId": "FMA61918",
+      "alternates": [
+       "UBERON0002973"
+      ]
+     },
+     {
+      "label": "Collateral sulcus"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of cerebral gyri"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neocortex"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Gyrus of temporal lobe"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61908"
+   }
+  ]
  }
 }

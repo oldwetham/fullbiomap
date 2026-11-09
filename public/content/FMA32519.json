@@ -123,5 +123,84 @@
     "/tissue/FMA5022.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Scapular musculature"
+     },
+     {
+      "label": "Set of deep extrinsic muscles of shoulder"
+     },
+     {
+      "label": "Musculature of pectoral girdle"
+     }
+    ]
+   },
+   {
+    "key": "has_origin",
+    "label": "Origin",
+    "title": "Where the muscle starts (FMA: has origin)",
+    "items": [
+     {
+      "label": "Transverse process of atlas"
+     },
+     {
+      "label": "Transverse process of axis"
+     },
+     {
+      "label": "Transverse process of third cervical vertebra"
+     },
+     {
+      "label": "Transverse process of fourth cervical vertebra"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Deep extrinsic muscle of shoulder",
+      "id": "FMA:32518",
+      "conceptId": "FMA32518"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cell of skeletal muscle",
+      "id": "CL:0000188",
+      "conceptId": "CL0000188"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Levator scapulae",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma32519"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

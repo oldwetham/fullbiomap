@@ -99,5 +99,65 @@
   "system": "reproductive",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Rectovesical septum"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Urinary bladder",
+      "id": "FMA:15900",
+      "conceptId": "FMA15900",
+      "alternates": [
+       "UBERON0001255"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Male genital duct"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ component gland",
+      "id": "FMA:7146",
+      "conceptId": "FMA7146",
+      "alternates": [
+       "UBERON0002530"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma19386"
+   }
+  ]
  }
 }

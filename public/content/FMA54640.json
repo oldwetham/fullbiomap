@@ -357,5 +357,93 @@
     "/tissue/FMA54640.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Palatine process of right maxilla"
+     },
+     {
+      "label": "Palatine process of left maxilla"
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Palatine process of right maxilla"
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Palatine process of left maxilla"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Mouth floor",
+      "id": "UBERON:0003679",
+      "conceptId": "UBERON0003679"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Heterogeneous anatomical cluster",
+      "id": "FMA:64989",
+      "conceptId": "FMA64989"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Taste receptor cell",
+      "id": "CL:0000209",
+      "conceptId": "CL0000209"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Tongue",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma54640"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

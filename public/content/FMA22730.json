@@ -279,5 +279,56 @@
   "system": "arterial",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Brachial artery",
+      "id": "FMA:22689",
+      "conceptId": "FMA22689",
+      "alternates": [
+       "UBERON0001398"
+      ]
+     },
+     {
+      "label": "Subclavian artery",
+      "id": "FMA:3951",
+      "conceptId": "FMA3951",
+      "alternates": [
+       "UBERON0001533"
+      ]
+     },
+     {
+      "label": "Anterior part of elbow"
+     },
+     {
+      "label": "Cubital fossa"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Branch of subclavian artery",
+      "id": "FMA:70345",
+      "conceptId": "FMA70345"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma22730"
+   }
+  ]
  }
 }

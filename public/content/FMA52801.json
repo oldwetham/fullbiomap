@@ -79,5 +79,54 @@
     "/tissue/FMA53672.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neurocranium",
+      "id": "FMA:53672",
+      "conceptId": "FMA53672",
+      "alternates": [
+       "UBERON0001703"
+      ]
+     },
+     {
+      "label": "Basicranial part of head proper",
+      "id": "FMA:270201",
+      "conceptId": "FMA270201"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of skull"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Neurocranium",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma52801"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

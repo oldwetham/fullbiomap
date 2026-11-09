@@ -126,5 +126,31 @@
     "UBERON0001017"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "GABAergic interneuron",
+      "id": "CL:0011005",
+      "conceptId": "CL0011005"
+     },
+     {
+      "label": "Cerebellar neuron"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4023057"
+   }
+  ]
  }
 }

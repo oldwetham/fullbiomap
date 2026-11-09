@@ -145,5 +145,95 @@
     "/tissue/FMA9139.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of thoracic vertebrae",
+      "id": "FMA:72064",
+      "conceptId": "FMA72064"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Posterior thoracic wall",
+      "id": "FMA:73103",
+      "conceptId": "FMA73103"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Thoracic vertebra",
+      "id": "FMA:9139",
+      "conceptId": "FMA9139",
+      "alternates": [
+       "UBERON0002347"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bone cell",
+      "id": "CL:0001035",
+      "conceptId": "CL0001035"
+     },
+     {
+      "label": "Chondrocyte",
+      "id": "CL:0000138",
+      "conceptId": "CL0000138"
+     },
+     {
+      "label": "Osteoblast",
+      "id": "CL:0000062",
+      "conceptId": "CL0000062"
+     },
+     {
+      "label": "Osteoclast",
+      "id": "CL:0000092",
+      "conceptId": "CL0000092"
+     },
+     {
+      "label": "Osteocyte",
+      "id": "CL:0000137",
+      "conceptId": "CL0000137"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Third thoracic vertebra",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9209"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

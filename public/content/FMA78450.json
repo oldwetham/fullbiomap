@@ -79,5 +79,74 @@
     "/tissue/FMA50801.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Ventricular system of brain",
+      "id": "FMA:242787",
+      "conceptId": "FMA242787",
+      "alternates": [
+       "UBERON0005282"
+      ]
+     },
+     {
+      "label": "Ventricular system of telencephalon"
+     },
+     {
+      "label": "Left cerebral hemisphere",
+      "id": "FMA:61819",
+      "conceptId": "FMA61819",
+      "alternates": [
+       "UBERON0002812"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lateral ventricle",
+      "id": "FMA:78448",
+      "conceptId": "FMA78448",
+      "alternates": [
+       "UBERON0002285"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma78450"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

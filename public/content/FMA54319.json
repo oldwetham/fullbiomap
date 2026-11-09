@@ -64,5 +64,45 @@
   "system": "integumentary",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Mons pubis",
+      "id": "FMA:20218",
+      "conceptId": "FMA20218",
+      "alternates": [
+       "UBERON0035258"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Hair of trunk",
+      "id": "FMA:54250",
+      "conceptId": "FMA54250",
+      "alternates": [
+       "UBERON0016447"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma54319"
+   }
+  ]
  }
 }

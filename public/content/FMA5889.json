@@ -72,5 +72,317 @@
     "/tissue/FMA5889.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Ganglion",
+      "id": "FMA:5884",
+      "conceptId": "FMA5884",
+      "alternates": [
+       "UBERON0000045"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Celiac ganglion CGRP neuron",
+      "id": "CL:4033130",
+      "conceptId": "CL4033130"
+     },
+     {
+      "label": "Celiac ganglion PHI neuron",
+      "id": "CL:4033129",
+      "conceptId": "CL4033129"
+     },
+     {
+      "label": "Celiac ganglion SOM neuron",
+      "id": "CL:4033132",
+      "conceptId": "CL4033132"
+     },
+     {
+      "label": "Celiac ganglion SOM/CGRP neuron",
+      "id": "CL:4033133",
+      "conceptId": "CL4033133"
+     },
+     {
+      "label": "Celiac ganglion SP neuron",
+      "id": "CL:4033131",
+      "conceptId": "CL4033131"
+     },
+     {
+      "label": "Celiac ganglion VIP neuron",
+      "id": "CL:4033128",
+      "conceptId": "CL4033128"
+     },
+     {
+      "label": "Cervicothoracic ganglion enkephalin neuron",
+      "id": "CL:4033113",
+      "conceptId": "CL4033113"
+     },
+     {
+      "label": "Cervicothoracic ganglion TH neuron",
+      "id": "CL:4033114",
+      "conceptId": "CL4033114"
+     },
+     {
+      "label": "Cervicothoracic ganglion TH/NPY neuron",
+      "id": "CL:4033115",
+      "conceptId": "CL4033115"
+     },
+     {
+      "label": "Cervicothoracic ganglion VAChT neuron",
+      "id": "CL:4033117",
+      "conceptId": "CL4033117"
+     },
+     {
+      "label": "Cervicothoracic ganglion VIP neuron",
+      "id": "CL:4033116",
+      "conceptId": "CL4033116"
+     },
+     {
+      "label": "Inferior mesenteric ganglion SP neuron",
+      "id": "CL:4033136",
+      "conceptId": "CL4033136"
+     },
+     {
+      "label": "Inferior mesenteric ganglion TH neuron",
+      "id": "CL:4033135",
+      "conceptId": "CL4033135"
+     },
+     {
+      "label": "Lumbar ganglion NPY neuron",
+      "id": "CL:4033125",
+      "conceptId": "CL4033125"
+     },
+     {
+      "label": "Lumbar ganglion SST/TH neuron",
+      "id": "CL:4033122",
+      "conceptId": "CL4033122"
+     },
+     {
+      "label": "Lumbar ganglion TH neuron",
+      "id": "CL:4033124",
+      "conceptId": "CL4033124"
+     },
+     {
+      "label": "Lumbar ganglion TH/NPY neuron",
+      "id": "CL:4033123",
+      "conceptId": "CL4033123"
+     },
+     {
+      "label": "Lumbar ganglion VIP neuron",
+      "id": "CL:4033121",
+      "conceptId": "CL4033121"
+     },
+     {
+      "label": "Middle cervical ganglion DBH neuron",
+      "id": "CL:4033108",
+      "conceptId": "CL4033108"
+     },
+     {
+      "label": "Middle cervical ganglion NPY neuron",
+      "id": "CL:4033111",
+      "conceptId": "CL4033111"
+     },
+     {
+      "label": "Middle cervical ganglion TH neuron",
+      "id": "CL:4033109",
+      "conceptId": "CL4033109"
+     },
+     {
+      "label": "Middle cervical ganglion TH/NPY neuron",
+      "id": "CL:4033110",
+      "conceptId": "CL4033110"
+     },
+     {
+      "label": "Middle cervical ganglion VIP neuron",
+      "id": "CL:4033112",
+      "conceptId": "CL4033112"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Otic ganglion nNOS neuron",
+      "id": "CL:4033137",
+      "conceptId": "CL4033137"
+     },
+     {
+      "label": "Otic ganglion VIP neuron",
+      "id": "CL:4033138",
+      "conceptId": "CL4033138"
+     },
+     {
+      "label": "Ovarian nerve plexus ganglion TH neuron",
+      "id": "CL:4033174",
+      "conceptId": "CL4033174"
+     },
+     {
+      "label": "Pelvic ganglion nNOS neuron",
+      "id": "CL:4033170",
+      "conceptId": "CL4033170"
+     },
+     {
+      "label": "Pelvic ganglion nNOS/VAChT neuron",
+      "id": "CL:4033173",
+      "conceptId": "CL4033173"
+     },
+     {
+      "label": "Pelvic ganglion nNOS/VIP neuron",
+      "id": "CL:4033171",
+      "conceptId": "CL4033171"
+     },
+     {
+      "label": "Pelvic ganglion NPY/VAChT neuron",
+      "id": "CL:4033172",
+      "conceptId": "CL4033172"
+     },
+     {
+      "label": "Pelvic ganglion TH neuron",
+      "id": "CL:4033167",
+      "conceptId": "CL4033167"
+     },
+     {
+      "label": "Pelvic ganglion TH/DBH neuron",
+      "id": "CL:4033168",
+      "conceptId": "CL4033168"
+     },
+     {
+      "label": "Pelvic ganglion VAChT neuron",
+      "id": "CL:4033169",
+      "conceptId": "CL4033169"
+     },
+     {
+      "label": "Peripheral nervous system neuron",
+      "id": "CL:2000032",
+      "conceptId": "CL2000032"
+     },
+     {
+      "label": "Pterygopalatine ganglion nNOS neuron",
+      "id": "CL:4033146",
+      "conceptId": "CL4033146"
+     },
+     {
+      "label": "Pterygopalatine ganglion VIP neuron",
+      "id": "CL:4033145",
+      "conceptId": "CL4033145"
+     },
+     {
+      "label": "Pterygopalatine ganglion VIP/PHI neuron",
+      "id": "CL:4033144",
+      "conceptId": "CL4033144"
+     },
+     {
+      "label": "Sacral ganglion TH neuron",
+      "id": "CL:4033126",
+      "conceptId": "CL4033126"
+     },
+     {
+      "label": "Submandibular ganglion nNOS neuron",
+      "id": "CL:4033143",
+      "conceptId": "CL4033143"
+     },
+     {
+      "label": "Submandibular ganglion TH cholinergic neuron",
+      "id": "CL:4033141",
+      "conceptId": "CL4033141"
+     },
+     {
+      "label": "Submandibular ganglion VIP/PHI neuron",
+      "id": "CL:4033142",
+      "conceptId": "CL4033142"
+     },
+     {
+      "label": "Superior cervical ganglion CGRP neuron",
+      "id": "CL:4033107",
+      "conceptId": "CL4033107"
+     },
+     {
+      "label": "Superior cervical ganglion NPY neuron",
+      "id": "CL:4033103",
+      "conceptId": "CL4033103"
+     },
+     {
+      "label": "Superior cervical ganglion SST neuron",
+      "id": "CL:4033105",
+      "conceptId": "CL4033105"
+     },
+     {
+      "label": "Superior cervical ganglion TH neuron",
+      "id": "CL:4033102",
+      "conceptId": "CL4033102"
+     },
+     {
+      "label": "Superior cervical ganglion TH/DBH neuron",
+      "id": "CL:4033101",
+      "conceptId": "CL4033101"
+     },
+     {
+      "label": "Superior cervical ganglion TH/NPY neuron",
+      "id": "CL:4033104",
+      "conceptId": "CL4033104"
+     },
+     {
+      "label": "Superior cervical ganglion VIP neuron",
+      "id": "CL:4033106",
+      "conceptId": "CL4033106"
+     },
+     {
+      "label": "Superior mesenteric ganglion SP neuron",
+      "id": "CL:4033134",
+      "conceptId": "CL4033134"
+     },
+     {
+      "label": "Sympathetic neuron",
+      "id": "CL:0011103",
+      "conceptId": "CL0011103"
+     },
+     {
+      "label": "Thoracic ganglion enkephalin neuron",
+      "id": "CL:4033118",
+      "conceptId": "CL4033118"
+     },
+     {
+      "label": "Thoracic ganglion TH neuron",
+      "id": "CL:4033119",
+      "conceptId": "CL4033119"
+     },
+     {
+      "label": "Thoracic ganglion TH/NPY neuron",
+      "id": "CL:4033120",
+      "conceptId": "CL4033120"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Autonomic ganglion",
+   "count": 54
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma5889"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

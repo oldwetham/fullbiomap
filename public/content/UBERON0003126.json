@@ -159,5 +159,197 @@
     "UBERON0007196"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Right main bronchus",
+      "id": "FMA:7395",
+      "conceptId": "FMA7395",
+      "alternates": [
+       "UBERON0002177"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     },
+     {
+      "label": "Main bronchus",
+      "id": "FMA:7405",
+      "conceptId": "FMA7405",
+      "alternates": [
+       "UBERON0002182"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Laryngopharynx"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Tracheobronchial tree",
+      "id": "FMA:7393",
+      "conceptId": "FMA7393",
+      "alternates": [
+       "UBERON0007196"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of tracheobronchial tree",
+      "id": "FMA:12224",
+      "conceptId": "FMA12224",
+      "alternates": [
+       "UBERON0000117"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Airway submucosal gland collecting duct epithelial cell",
+      "id": "CL:4033023",
+      "conceptId": "CL4033023"
+     },
+     {
+      "label": "Airway submucosal gland duct basal cell",
+      "id": "CL:4033024",
+      "conceptId": "CL4033024"
+     },
+     {
+      "label": "Airway submucosal gland duct multiciliated cell",
+      "id": "CL:4033055",
+      "conceptId": "CL4033055"
+     },
+     {
+      "label": "Basal cell of epithelium of trachea",
+      "id": "CL:1000348",
+      "conceptId": "CL1000348"
+     },
+     {
+      "label": "Blood vessel smooth muscle cell",
+      "id": "CL:0019018",
+      "conceptId": "CL0019018"
+     },
+     {
+      "label": "Brush cell of trachea",
+      "id": "CL:0002207",
+      "conceptId": "CL0002207"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Mucus secreting cell of trachea gland",
+      "id": "CL:4033020",
+      "conceptId": "CL4033020"
+     },
+     {
+      "label": "Multiciliated columnar cell of tracheobronchial tree",
+      "id": "CL:0002145",
+      "conceptId": "CL0002145"
+     },
+     {
+      "label": "Myelinating glial cell",
+      "id": "CL:4023154",
+      "conceptId": "CL4023154"
+     },
+     {
+      "label": "Myoepithelial cell of trachea gland",
+      "id": "CL:4033021",
+      "conceptId": "CL4033021"
+     },
+     {
+      "label": "Neural cell",
+      "id": "CL:0002319",
+      "conceptId": "CL0002319"
+     },
+     {
+      "label": "Non-myelinating Schwann cell",
+      "id": "CL:0002376",
+      "conceptId": "CL0002376"
+     },
+     {
+      "label": "Perichondrial fibroblast",
+      "id": "CL:4033025",
+      "conceptId": "CL4033025"
+     },
+     {
+      "label": "Pulmonary neuroendocrine cell",
+      "id": "CL:1000223",
+      "conceptId": "CL1000223"
+     },
+     {
+      "label": "Serous cell of epithelium of trachea",
+      "id": "CL:1000330",
+      "conceptId": "CL1000330"
+     },
+     {
+      "label": "Tracheal goblet cell",
+      "id": "CL:1000329",
+      "conceptId": "CL1000329"
+     },
+     {
+      "label": "Tracheobronchial smooth muscle cell",
+      "id": "CL:0019019",
+      "conceptId": "CL0019019"
+     },
+     {
+      "label": "Vein endothelial cell of respiratory system",
+      "id": "CL:4033008",
+      "conceptId": "CL4033008"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Trachea",
+   "count": 20
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7394"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

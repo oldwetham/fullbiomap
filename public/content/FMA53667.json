@@ -75,5 +75,60 @@
     "/tissue/FMA7163.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Epidermis"
+     },
+     {
+      "label": "Pilosebaceous unit"
+     },
+     {
+      "label": "Skin",
+      "id": "FMA:7163",
+      "conceptId": "FMA7163",
+      "alternates": [
+       "UBERON0002097"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Skin appendage",
+      "id": "FMA:71012",
+      "conceptId": "FMA71012",
+      "alternates": [
+       "UBERON0000021"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Skin",
+   "count": 37
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma53667"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -159,5 +159,52 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Hard palate",
+      "id": "UBERON:0003216",
+      "conceptId": "UBERON0003216"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Velopharynx"
+     },
+     {
+      "label": "Secondary palate",
+      "id": "UBERON:0001716",
+      "conceptId": "UBERON0001716"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ region cluster"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma55021"
+   }
+  ]
  }
 }

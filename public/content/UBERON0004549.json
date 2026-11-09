@@ -137,5 +137,260 @@
     "/tissue/FMA12514.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Right orbital cavity"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of eyeballs"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Face",
+      "id": "FMA:24728",
+      "conceptId": "FMA24728",
+      "alternates": [
+       "UBERON0001456"
+      ]
+     },
+     {
+      "label": "Right orbital content",
+      "id": "FMA:260124",
+      "conceptId": "FMA260124"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Eyeball"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Amacrine cell",
+      "id": "CL:0000561",
+      "conceptId": "CL0000561"
+     },
+     {
+      "label": "Corneal endothelial cell",
+      "id": "CL:0000132",
+      "conceptId": "CL0000132"
+     },
+     {
+      "label": "Corneal epithelial cell",
+      "id": "CL:0000575",
+      "conceptId": "CL0000575"
+     },
+     {
+      "label": "Epithelial cell",
+      "id": "CL:0000066",
+      "conceptId": "CL0000066"
+     },
+     {
+      "label": "Epithelial fate stem cell",
+      "id": "CL:0000036",
+      "conceptId": "CL0000036"
+     },
+     {
+      "label": "Eye photoreceptor cell",
+      "id": "CL:0000287",
+      "conceptId": "CL0000287"
+     },
+     {
+      "label": "Glial cell",
+      "id": "CL:0000125",
+      "conceptId": "CL0000125"
+     },
+     {
+      "label": "Interneuron",
+      "id": "CL:0000099",
+      "conceptId": "CL0000099"
+     },
+     {
+      "label": "Iris pigment epithelial cell",
+      "id": "CL:0002565",
+      "conceptId": "CL0002565"
+     },
+     {
+      "label": "Keratocyte",
+      "id": "CL:0002363",
+      "conceptId": "CL0002363"
+     },
+     {
+      "label": "Lens epithelial cell",
+      "id": "CL:0002224",
+      "conceptId": "CL0002224"
+     },
+     {
+      "label": "Lens fiber cell",
+      "id": "CL:0011004",
+      "conceptId": "CL0011004"
+     },
+     {
+      "label": "Limbal epithelial stem cell of cornea",
+      "id": "CL:4033093",
+      "conceptId": "CL4033093"
+     },
+     {
+      "label": "Microglial cell",
+      "id": "CL:0000129",
+      "conceptId": "CL0000129"
+     },
+     {
+      "label": "Midget ganglion cell of retina",
+      "id": "CL:4023188",
+      "conceptId": "CL4023188"
+     },
+     {
+      "label": "Mueller cell",
+      "id": "CL:0000636",
+      "conceptId": "CL0000636"
+     },
+     {
+      "label": "Mural cell",
+      "id": "CL:0008034",
+      "conceptId": "CL0008034"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Non-pigmented ciliary epithelial cell",
+      "id": "CL:0002304",
+      "conceptId": "CL0002304"
+     },
+     {
+      "label": "OFF-bipolar cell",
+      "id": "CL:0000750",
+      "conceptId": "CL0000750"
+     },
+     {
+      "label": "ON-bipolar cell",
+      "id": "CL:0000749",
+      "conceptId": "CL0000749"
+     },
+     {
+      "label": "Parasol ganglion cell of retina",
+      "id": "CL:4023189",
+      "conceptId": "CL4023189"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Pigmented ciliary epithelial cell",
+      "id": "CL:0002303",
+      "conceptId": "CL0002303"
+     },
+     {
+      "label": "Primary lens fiber",
+      "id": "CL:0002228",
+      "conceptId": "CL0002228"
+     },
+     {
+      "label": "Retina horizontal cell",
+      "id": "CL:0000745",
+      "conceptId": "CL0000745"
+     },
+     {
+      "label": "Retinal bipolar neuron",
+      "id": "CL:0000748",
+      "conceptId": "CL0000748"
+     },
+     {
+      "label": "Retinal blood vessel endothelial cell",
+      "id": "CL:0002585",
+      "conceptId": "CL0002585"
+     },
+     {
+      "label": "Retinal cone cell",
+      "id": "CL:0000573",
+      "conceptId": "CL0000573"
+     },
+     {
+      "label": "Retinal ganglion cell",
+      "id": "CL:0000740",
+      "conceptId": "CL0000740"
+     },
+     {
+      "label": "Retinal pigment epithelial cell",
+      "id": "CL:0002586",
+      "conceptId": "CL0002586"
+     },
+     {
+      "label": "Retinal rod cell",
+      "id": "CL:0000604",
+      "conceptId": "CL0000604"
+     },
+     {
+      "label": "Secondary lens fiber",
+      "id": "CL:0002225",
+      "conceptId": "CL0002225"
+     },
+     {
+      "label": "Telocyte",
+      "id": "CL:0017004",
+      "conceptId": "CL0017004"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Right eyeball",
+   "count": 34
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma12514"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

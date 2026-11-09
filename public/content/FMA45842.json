@@ -235,5 +235,51 @@
    "conceptId": "FMA45842",
    "label": "Pulmonary arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Vasculature of body",
+      "id": "FMA:228642",
+      "conceptId": "FMA228642"
+     },
+     {
+      "label": "Vasculature of male body"
+     },
+     {
+      "label": "Vasculature of female body"
+     },
+     {
+      "label": "Cardiovascular system",
+      "id": "FMA:7161",
+      "conceptId": "FMA7161",
+      "alternates": [
+       "UBERON0004535"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Arterial tree organ"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma45842"
+   }
+  ]
  }
 }

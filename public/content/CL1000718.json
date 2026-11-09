@@ -128,5 +128,31 @@
     "/tissue/FMA7203.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Kidney collecting duct principal cell",
+      "id": "CL:1001431",
+      "conceptId": "CL1001431"
+     },
+     {
+      "label": "Kidney inner medulla collecting duct epithelial cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_1000718"
+   }
+  ]
  }
 }

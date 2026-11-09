@@ -131,5 +131,114 @@
     "/tissue/FMA9611.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Skeleton of free lower limb"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Thigh"
+     },
+     {
+      "label": "Skeletal system of thigh"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Long bone",
+      "id": "FMA:7474",
+      "conceptId": "FMA7474",
+      "alternates": [
+       "UBERON0002495"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Articular chondrocyte",
+      "id": "CL:1001607",
+      "conceptId": "CL1001607"
+     },
+     {
+      "label": "Bone cell",
+      "id": "CL:0001035",
+      "conceptId": "CL0001035"
+     },
+     {
+      "label": "Chondrocyte",
+      "id": "CL:0000138",
+      "conceptId": "CL0000138"
+     },
+     {
+      "label": "Effector chondrocyte",
+      "id": "CL:0020023",
+      "conceptId": "CL0020023"
+     },
+     {
+      "label": "Hypertrophic chondrocyte",
+      "id": "CL:0000743",
+      "conceptId": "CL0000743"
+     },
+     {
+      "label": "Osteoblast",
+      "id": "CL:0000062",
+      "conceptId": "CL0000062"
+     },
+     {
+      "label": "Osteoclast",
+      "id": "CL:0000092",
+      "conceptId": "CL0000092"
+     },
+     {
+      "label": "Osteocyte",
+      "id": "CL:0000137",
+      "conceptId": "CL0000137"
+     },
+     {
+      "label": "Prehypertrophic chondrocyte",
+      "id": "CL:0020022",
+      "conceptId": "CL0020022"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Femur",
+   "count": 9
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9611"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

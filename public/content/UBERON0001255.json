@@ -446,5 +446,129 @@
     "/tissue/FMA15900.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Pelvic cavity"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Right pubis"
+     },
+     {
+      "label": "Left pubis"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of female pelvic viscera"
+     },
+     {
+      "label": "Set of viscera of pelvis"
+     },
+     {
+      "label": "Set of male pelvic viscera"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Male lower urinary tract"
+     },
+     {
+      "label": "Female lower urinary tract"
+     },
+     {
+      "label": "Lower urinary tract",
+      "id": "FMA:45659",
+      "conceptId": "FMA45659",
+      "alternates": [
+       "UBERON0001556"
+      ]
+     },
+     {
+      "label": "Content of male pelvis"
+     },
+     {
+      "label": "Content of female pelvis"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ with organ cavity",
+      "id": "FMA:55672",
+      "conceptId": "FMA55672"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bladder cell",
+      "id": "CL:1001319",
+      "conceptId": "CL1001319"
+     },
+     {
+      "label": "Bladder microvascular endothelial cell",
+      "id": "CL:2000040",
+      "conceptId": "CL2000040"
+     },
+     {
+      "label": "Bladder urothelial cell",
+      "id": "CL:1001428",
+      "conceptId": "CL1001428"
+     },
+     {
+      "label": "Smooth muscle cell of bladder",
+      "id": "CL:0002597",
+      "conceptId": "CL0002597"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Urinary bladder",
+   "count": 4
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15900"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

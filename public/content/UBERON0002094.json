@@ -182,5 +182,135 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "UBERON:0000948",
+      "conceptId": "UBERON0000948"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Adipocyte",
+      "id": "CL:0000136",
+      "conceptId": "CL0000136"
+     },
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Capillary endothelial cell",
+      "id": "CL:0002144",
+      "conceptId": "CL0002144"
+     },
+     {
+      "label": "Cardiac muscle cell",
+      "id": "CL:0000746",
+      "conceptId": "CL0000746"
+     },
+     {
+      "label": "Cardiac pacemaker cell of sinoatrial node",
+      "id": "CL:1000477",
+      "conceptId": "CL1000477"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Endocardial cell",
+      "id": "CL:0002350",
+      "conceptId": "CL0002350"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "Innate lymphoid cell",
+      "id": "CL:0001065",
+      "conceptId": "CL0001065"
+     },
+     {
+      "label": "Lymphocyte",
+      "id": "CL:0000542",
+      "conceptId": "CL0000542"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Purkinje myocyte",
+      "id": "CL:0002068",
+      "conceptId": "CL0002068"
+     },
+     {
+      "label": "Telocyte",
+      "id": "CL:0017004",
+      "conceptId": "CL0017004"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

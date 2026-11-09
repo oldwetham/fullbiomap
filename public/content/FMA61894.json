@@ -170,5 +170,123 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Lateral sulcus"
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Postcentral gyrus",
+      "id": "FMA:61896",
+      "conceptId": "FMA61896",
+      "alternates": [
+       "UBERON0002581"
+      ]
+     },
+     {
+      "label": "Central sulcus"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Superior frontal gyrus",
+      "id": "FMA:61857",
+      "conceptId": "FMA61857",
+      "alternates": [
+       "UBERON0002661"
+      ]
+     },
+     {
+      "label": "Middle frontal gyrus",
+      "id": "FMA:61859",
+      "conceptId": "FMA61859",
+      "alternates": [
+       "UBERON0002702"
+      ]
+     },
+     {
+      "label": "Inferior frontal gyrus",
+      "id": "FMA:61860",
+      "conceptId": "FMA61860",
+      "alternates": [
+       "UBERON0002998"
+      ]
+     },
+     {
+      "label": "Precentral sulcus"
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Longitudinal fissure"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of cerebral gyri"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Superolateral segment of frontal lobe"
+     },
+     {
+      "label": "Frontal lobe"
+     },
+     {
+      "label": "Neocortex"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Gyrus of frontal lobe"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61894"
+   }
+  ]
  }
 }

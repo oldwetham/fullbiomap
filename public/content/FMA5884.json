@@ -73,5 +73,330 @@
     "/tissue/FMA61284.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neural tree organ",
+      "id": "FMA:61284",
+      "conceptId": "FMA61284"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of neural tree organ",
+      "id": "FMA:11195",
+      "conceptId": "FMA11195"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cervical dorsal root ganglion CGRP neuron",
+      "id": "CL:4079000",
+      "conceptId": "CL4079000"
+     },
+     {
+      "label": "Cervical dorsal root ganglion endothelin-1 neuron",
+      "id": "CL:4079001",
+      "conceptId": "CL4079001"
+     },
+     {
+      "label": "Cervical dorsal root ganglion Nav1.7 neuron",
+      "id": "CL:4079002",
+      "conceptId": "CL4079002"
+     },
+     {
+      "label": "Cervical dorsal root ganglion Nav1.9 neuron",
+      "id": "CL:4079003",
+      "conceptId": "CL4079003"
+     },
+     {
+      "label": "Cervical dorsal root ganglion peripherin neuron",
+      "id": "CL:4079004",
+      "conceptId": "CL4079004"
+     },
+     {
+      "label": "Cervical dorsal root ganglion Piezo2 neuron",
+      "id": "CL:4079005",
+      "conceptId": "CL4079005"
+     },
+     {
+      "label": "Cervical dorsal root ganglion RET neuron",
+      "id": "CL:4079006",
+      "conceptId": "CL4079006"
+     },
+     {
+      "label": "Cervical dorsal root ganglion substance P neuron",
+      "id": "CL:4079007",
+      "conceptId": "CL4079007"
+     },
+     {
+      "label": "Cervical dorsal root ganglion TRPV1 neuron",
+      "id": "CL:4079008",
+      "conceptId": "CL4079008"
+     },
+     {
+      "label": "Geniculate ganglion SPARCL1 neuron",
+      "id": "CL:4033158",
+      "conceptId": "CL4033158"
+     },
+     {
+      "label": "Geniculate ganglion TRPV1 neuron",
+      "id": "CL:4033157",
+      "conceptId": "CL4033157"
+     },
+     {
+      "label": "Geniculate ganglion VGLUT2 neuron",
+      "id": "CL:4033159",
+      "conceptId": "CL4033159"
+     },
+     {
+      "label": "Glial cell",
+      "id": "CL:0000125",
+      "conceptId": "CL0000125"
+     },
+     {
+      "label": "Jugular ganglion CGRP neuron",
+      "id": "CL:4033155",
+      "conceptId": "CL4033155"
+     },
+     {
+      "label": "Jugular ganglion SP neuron",
+      "id": "CL:4033154",
+      "conceptId": "CL4033154"
+     },
+     {
+      "label": "Jugular ganglion SPARCL1 neuron",
+      "id": "CL:4033156",
+      "conceptId": "CL4033156"
+     },
+     {
+      "label": "Jugular ganglion TRPV1 neuron",
+      "id": "CL:4033152",
+      "conceptId": "CL4033152"
+     },
+     {
+      "label": "Jugular ganglion TRPV2 neuron",
+      "id": "CL:4033153",
+      "conceptId": "CL4033153"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion CGRP neuron",
+      "id": "CL:4079011",
+      "conceptId": "CL4079011"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion endothelin-1 neuron",
+      "id": "CL:4079012",
+      "conceptId": "CL4079012"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion Nav1.7 neuron",
+      "id": "CL:4079013",
+      "conceptId": "CL4079013"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion Nav1.9 neuron",
+      "id": "CL:4079014",
+      "conceptId": "CL4079014"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion peripherin neuron",
+      "id": "CL:4079015",
+      "conceptId": "CL4079015"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion Piezo2 neuron",
+      "id": "CL:4079016",
+      "conceptId": "CL4079016"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion RET neuron",
+      "id": "CL:4079017",
+      "conceptId": "CL4079017"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion substance P neuron",
+      "id": "CL:4079018",
+      "conceptId": "CL4079018"
+     },
+     {
+      "label": "Lumbar dorsal root ganglion TRPV1 neuron",
+      "id": "CL:4079019",
+      "conceptId": "CL4079019"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Nodose ganglion P2X3 neuron",
+      "id": "CL:4033149",
+      "conceptId": "CL4033149"
+     },
+     {
+      "label": "Nodose ganglion PVALB neuron",
+      "id": "CL:4033151",
+      "conceptId": "CL4033151"
+     },
+     {
+      "label": "Nodose ganglion TRPV1 neuron",
+      "id": "CL:4033148",
+      "conceptId": "CL4033148"
+     },
+     {
+      "label": "Nodose ganglion TRPV2 neuron",
+      "id": "CL:4033150",
+      "conceptId": "CL4033150"
+     },
+     {
+      "label": "Perineuronal satellite cell",
+      "id": "CL:0000516",
+      "conceptId": "CL0000516"
+     },
+     {
+      "label": "Peripheral nervous system neuron",
+      "id": "CL:2000032",
+      "conceptId": "CL2000032"
+     },
+     {
+      "label": "Sacral dorsal root ganglion CGRP neuron",
+      "id": "CL:4079020",
+      "conceptId": "CL4079020"
+     },
+     {
+      "label": "Sacral dorsal root ganglion endothelin-1 neuron",
+      "id": "CL:4079021",
+      "conceptId": "CL4079021"
+     },
+     {
+      "label": "Sacral dorsal root ganglion Nav1.7 neuron",
+      "id": "CL:4079022",
+      "conceptId": "CL4079022"
+     },
+     {
+      "label": "Sacral dorsal root ganglion Nav1.9 neuron",
+      "id": "CL:4079023",
+      "conceptId": "CL4079023"
+     },
+     {
+      "label": "Sacral dorsal root ganglion peripherin neuron",
+      "id": "CL:4079024",
+      "conceptId": "CL4079024"
+     },
+     {
+      "label": "Sacral dorsal root ganglion Piezo2 neuron",
+      "id": "CL:4079025",
+      "conceptId": "CL4079025"
+     },
+     {
+      "label": "Sacral dorsal root ganglion RET neuron",
+      "id": "CL:4079026",
+      "conceptId": "CL4079026"
+     },
+     {
+      "label": "Sacral dorsal root ganglion substance P neuron",
+      "id": "CL:4079027",
+      "conceptId": "CL4079027"
+     },
+     {
+      "label": "Sacral dorsal root ganglion TRPV1 neuron",
+      "id": "CL:4079028",
+      "conceptId": "CL4079028"
+     },
+     {
+      "label": "Schwann cell",
+      "id": "CL:0002573",
+      "conceptId": "CL0002573"
+     },
+     {
+      "label": "Sensory neuron",
+      "id": "CL:0000101",
+      "conceptId": "CL0000101"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion CGRP neuron",
+      "id": "CL:4079029",
+      "conceptId": "CL4079029"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion endothelin-1 neuron",
+      "id": "CL:4079030",
+      "conceptId": "CL4079030"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion Nav1.7 neuron",
+      "id": "CL:4079031",
+      "conceptId": "CL4079031"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion Nav1.9 neuron",
+      "id": "CL:4079032",
+      "conceptId": "CL4079032"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion peripherin neuron",
+      "id": "CL:4079033",
+      "conceptId": "CL4079033"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion Piezo2 neuron",
+      "id": "CL:4079034",
+      "conceptId": "CL4079034"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion RET neuron",
+      "id": "CL:4079035",
+      "conceptId": "CL4079035"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion substance P neuron",
+      "id": "CL:4079036",
+      "conceptId": "CL4079036"
+     },
+     {
+      "label": "Thoracic dorsal root ganglion TRPV1 neuron",
+      "id": "CL:4079037",
+      "conceptId": "CL4079037"
+     },
+     {
+      "label": "Vestibular ganglion SP neuron",
+      "id": "CL:4033147",
+      "conceptId": "CL4033147"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Neural tree organ",
+   "count": 55
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma5884"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

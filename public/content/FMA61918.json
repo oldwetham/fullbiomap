@@ -148,5 +148,87 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Lingual gyrus",
+      "id": "UBERON:0002943",
+      "conceptId": "UBERON0002943"
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Fusiform gyrus",
+      "id": "FMA:61908",
+      "conceptId": "FMA61908",
+      "alternates": [
+       "UBERON0002766"
+      ]
+     },
+     {
+      "label": "Rhinal sulcus"
+     },
+     {
+      "label": "Collateral sulcus"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of cerebral gyri"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Limbic system"
+     },
+     {
+      "label": "Medial segment of cerebral hemisphere"
+     },
+     {
+      "label": "Medial occipitotemporal gyrus"
+     },
+     {
+      "label": "Limbic lobe"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Gyrus of limbic lobe"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61918"
+   }
+  ]
  }
 }

@@ -79,5 +79,40 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Liver",
+      "id": "UBERON:0002107",
+      "conceptId": "UBERON0002107"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Liver left medial lobe",
+      "id": "UBERON:0006728",
+      "conceptId": "UBERON0006728"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   }
+  ]
  }
 }

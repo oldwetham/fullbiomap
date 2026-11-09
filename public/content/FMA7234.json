@@ -142,5 +142,106 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Right atrium",
+      "id": "FMA:7096",
+      "conceptId": "FMA7096",
+      "alternates": [
+       "UBERON0002078"
+      ]
+     },
+     {
+      "label": "Right ventricle",
+      "id": "FMA:7098",
+      "conceptId": "FMA7098",
+      "alternates": [
+       "UBERON0002080"
+      ]
+     },
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     },
+     {
+      "label": "Outflow part of right atrium",
+      "id": "FMA:9550",
+      "conceptId": "FMA9550",
+      "alternates": [
+       "UBERON0005965"
+      ]
+     },
+     {
+      "label": "Inflow part of right ventricle",
+      "id": "FMA:9552",
+      "conceptId": "FMA9552",
+      "alternates": [
+       "UBERON0034703"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Atrioventricular valve"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Endocardial cell",
+      "id": "CL:0002350",
+      "conceptId": "CL0002350"
+     },
+     {
+      "label": "Valve interstitial cell",
+      "id": "CL:4030032",
+      "conceptId": "CL4030032"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7234"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

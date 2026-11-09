@@ -396,5 +396,233 @@
    "status": "auto",
    "match": "HRA crosswalk: this illustration's organ is this organ's Uberon id"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Male external urethral sphincter"
+     },
+     {
+      "label": "Right deep transverse perineal muscle"
+     },
+     {
+      "label": "Left deep transverse perineal muscle"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Urinary bladder",
+      "id": "FMA:15900",
+      "conceptId": "FMA15900",
+      "alternates": [
+       "UBERON0001255"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Rectum",
+      "id": "FMA:14544",
+      "conceptId": "FMA14544",
+      "alternates": [
+       "UBERON0001052"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Right pubis"
+     },
+     {
+      "label": "Left pubis"
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Levator ani"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of pelvis"
+     },
+     {
+      "label": "Set of male pelvic viscera"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Content of male pelvis"
+     },
+     {
+      "label": "Genital system",
+      "id": "FMA:7160",
+      "conceptId": "FMA7160",
+      "alternates": [
+       "UBERON0000990"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lobular organ",
+      "id": "FMA:55662",
+      "conceptId": "FMA55662"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Basal cell of prostate epithelium",
+      "id": "CL:0002341",
+      "conceptId": "CL0002341"
+     },
+     {
+      "label": "Basal cell of urothelium",
+      "id": "CL:1000486",
+      "conceptId": "CL1000486"
+     },
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "Capillary endothelial cell",
+      "id": "CL:0002144",
+      "conceptId": "CL0002144"
+     },
+     {
+      "label": "Club-like cell of the urethral epithelium",
+      "id": "CL:4032000",
+      "conceptId": "CL4032000"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Fibroblast of connective tissue of prostate",
+      "id": "CL:1000299",
+      "conceptId": "CL1000299"
+     },
+     {
+      "label": "Fibroblast of subepithelial connective tissue of prostatic gland",
+      "id": "CL:1000301",
+      "conceptId": "CL1000301"
+     },
+     {
+      "label": "Hillock cell of prostatic urethral epithelium",
+      "id": "CL:0017011",
+      "conceptId": "CL0017011"
+     },
+     {
+      "label": "Ionocyte",
+      "id": "CL:0005006",
+      "conceptId": "CL0005006"
+     },
+     {
+      "label": "Luminal cell of prostate epithelium",
+      "id": "CL:0002340",
+      "conceptId": "CL0002340"
+     },
+     {
+      "label": "Lymph node lymphatic vessel endothelial cell",
+      "id": "CL:0009115",
+      "conceptId": "CL0009115"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Prostate neuroendocrine cell",
+      "id": "CL:0017002",
+      "conceptId": "CL0017002"
+     },
+     {
+      "label": "Smooth muscle cell of prostate",
+      "id": "CL:1000487",
+      "conceptId": "CL1000487"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     },
+     {
+      "label": "Vein endothelial cell",
+      "id": "CL:0002543",
+      "conceptId": "CL0002543"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Prostate",
+   "count": 18
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9600"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

@@ -215,5 +215,96 @@
    "status": "auto",
    "match": "Servier title “Adrenal gland” = “adrenal gland”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of left side of retroperitoneal compartment"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Pancreas",
+      "id": "FMA:7198",
+      "conceptId": "FMA7198",
+      "alternates": [
+       "UBERON0001264"
+      ]
+     },
+     {
+      "label": "Left kidney",
+      "id": "FMA:7205",
+      "conceptId": "FMA7205",
+      "alternates": [
+       "UBERON0004538"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Cardia of stomach"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Set of viscera of abdomen"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Adrenal gland",
+      "id": "FMA:9604",
+      "conceptId": "FMA9604",
+      "alternates": [
+       "UBERON0002369"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15630"
+   }
+  ]
+ }
 }

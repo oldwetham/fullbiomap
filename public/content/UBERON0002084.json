@@ -439,5 +439,224 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Ascending aorta",
+      "id": "FMA:3736",
+      "conceptId": "FMA3736",
+      "alternates": [
+       "UBERON0001496"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left atrium",
+      "id": "FMA:7097",
+      "conceptId": "FMA7097",
+      "alternates": [
+       "UBERON0002079"
+      ]
+     },
+     {
+      "label": "Right ventricle",
+      "id": "FMA:7098",
+      "conceptId": "FMA7098",
+      "alternates": [
+       "UBERON0002080"
+      ]
+     },
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Left side of heart",
+      "id": "FMA:7166",
+      "conceptId": "FMA7166",
+      "alternates": [
+       "UBERON0035553"
+      ]
+     },
+     {
+      "label": "Biventricular part of heart"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardiac ventricle"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "Capillary endothelial cell",
+      "id": "CL:0002144",
+      "conceptId": "CL0002144"
+     },
+     {
+      "label": "Cardiac muscle cell",
+      "id": "CL:0000746",
+      "conceptId": "CL0000746"
+     },
+     {
+      "label": "Cardiac ventricle fibroblast",
+      "id": "CL:2000066",
+      "conceptId": "CL2000066"
+     },
+     {
+      "label": "Endocardial cell",
+      "id": "CL:0002350",
+      "conceptId": "CL0002350"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Innate lymphoid cell",
+      "id": "CL:0001065",
+      "conceptId": "CL0001065"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Purkinje myocyte",
+      "id": "CL:0002068",
+      "conceptId": "CL0002068"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7101"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

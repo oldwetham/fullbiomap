@@ -312,5 +312,31 @@
     "/tissue/FMA7201.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Alpha-beta intraepithelial T cell"
+     },
+     {
+      "label": "CD4-positive, alpha-beta T cell",
+      "id": "CL:0000624",
+      "conceptId": "CL0000624"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000793"
+   }
+  ]
  }
 }

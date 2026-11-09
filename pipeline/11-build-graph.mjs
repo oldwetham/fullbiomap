@@ -424,12 +424,13 @@ for (const n of nodes) { const f = figuresOf(n); if (f.length) n.figures = f; }
 const tissueDir = path.join(root, 'public/tissue');
 fs.mkdirSync(tissueDir, {recursive: true});
 const boardUrl = id => `/tissue/${byId.get(id).conceptId}.json`;
-const keepBoards = new Set();
+const keepBoards = new Set(), boardCells = new Map();
 const cellRows = [];
 for (const [id, b] of boards) {
   const groups = [...b.groups].map(([structure, cells]) => ({structure: upperFirst(structure), cells: [...cells.keys()].filter(c => byId.has(c)).map(c => ({id: c, conceptId: c.replace(':', ''), label: byId.get(c).label, model: byId.get(c).geometry?.model ?? CELL_MODEL, shape: byId.get(c).geometry?.shape})).sort((x, y) => x.label.localeCompare(y.label))}))
     .filter(g => g.cells.length).sort((x, y) => y.cells.length - x.cells.length || x.structure.localeCompare(y.structure));
   const cellCount = new Set(groups.flatMap(g => g.cells.map(c => c.id))).size;
+  boardCells.set(id, new Set(groups.flatMap(g => g.cells.map(c => c.id))));
   // The board's figure strip is its organ's figures; its other tissue unit illustrations are listed under it (units).
   const target = figureTargetOf(byId.get(id)), figures = figuresOf(byId.get(id)), units = (figureData.units[target] ?? []).map(figureEntry);
   const body = JSON.stringify({organ: b.organ, tables: [...b.tables.values()].sort((x, y) => x.name.localeCompare(y.name)), cellCount, groups, figures, units, ...(b.sources ? {sources: [...b.sources.values()].filter((v, k, a) => a.findIndex(o => o.url === v.url) === k)} : {})}, null, 1) + '\n';
@@ -457,6 +458,95 @@ for (const n of nodes) {
   const holder = partChain(n).find(x => boards.has(x.id));
   if (holder) n.ladder = {...n.ladder, board: boardRef(holder)};
 }
+// Fact cards (docs/EXPLANATIONS-PLAN.md §2): what the ontologies and the HRA tables say about each structure, cell type and
+// organelle, in their own wording, with no written text. Rows the data has nothing for are left out. Supply, drainage, nerves
+// and cell types come from the node's connections; the panel shows those groups in the card.
+const FACT_ROWS = {
+  side: {label: 'Side'}, in: {label: 'In', title: 'The organ this structure is part of (FMA part_of, nearest organ)'},
+  contained_in: {label: 'Inside', title: 'FMA: contained in'}, surrounded_by: {label: 'Surrounded by', title: 'FMA: surrounded by'},
+  superior_to: {label: 'Above', title: 'FMA: superior to'}, inferior_to: {label: 'Below', title: 'FMA: inferior to'},
+  anterior_to: {label: 'In front of', title: 'FMA: anterior to'}, posterior_to: {label: 'Behind', title: 'FMA: posterior to'},
+  medial_to: {label: 'Closer to the midline than', title: 'FMA: medial to'}, lateral_to: {label: 'Farther from the midline than', title: 'FMA: lateral to'},
+  direct_left_of: {label: 'To the left of', title: 'FMA: directly left of'}, direct_right_of: {label: 'To the right of', title: 'FMA: directly right of'},
+  member_of: {label: 'Group', title: 'FMA: member of'}, has_origin: {label: 'Origin', title: 'Where the muscle starts (FMA: has origin)'},
+  has_insertion: {label: 'Insertion', title: 'Where the muscle attaches at its other end (FMA: has insertion)'},
+  part_of: {label: 'Part of'}, is_a: {label: 'Kind of'}, cell_types: {label: 'Cell types', title: 'Cell types the HRA ASCT+B tables place in this structure'},
+};
+// "In the <organ>" names real organs only: not a vascular or neural tree (Systemic arterial tree, Neural tree organ), an organ
+// system, the neuraxis or central nervous system, or the generic class Muscle organ.
+const NOT_A_PLACE = new Set(['FMA:55675', 'UBERON:0001017', 'UBERON:0001004', 'FMA:5022', 'UBERON:0001630', 'FMA:7149', 'FMA:3710', 'FMA:61284']);
+const isPlace = o => { const n = o && byId.get(o.id), eq = n?.equivalent ? byId.get(n.equivalent) : null;
+  if (!n || [n, eq].some(x => x && NOT_A_PLACE.has(x.id))) return false;
+  return ![...(n.ancestors ?? []), ...(eq?.ancestors ?? [])].some(a => a === 'FMA:3710' || a === 'FMA:61284' || a === 'FMA:7149'); };
+const boardByUrl = new Map([...boards.keys()].map(id => [boardUrl(id), id]));
+const cellsIn = new Map();  // structure -> the cell types placed in it (ASCT+B rows, sourced extra placements)
+for (const [cl, places] of cellPlaces) if (cl !== 'CL:0000000' && byId.get(cl)) for (const nid of places.keys()) cellsIn.set(nid, [...(cellsIn.get(nid) ?? []), byId.get(cl)]);
+const factsReviewed = exists('content/facts-reviewed.json') ? JSON.parse(read('content/facts-reviewed.json')).reviewed ?? {} : {};
+const FMA_SOURCE = id => ({name: 'Foundational Model of Anatomy 5.1', license: 'CC BY 3.0', url: olsLink(id)});
+// Structures FMA 5.1 no longer lists (9 BodyParts3D concepts): BodyParts3D's own is_a and part_of tables (FMA 3.0), when the
+// raw download is present (step 00).
+const bp3dParents = {is_a: new Map(), part_of: new Map()};
+for (const [rel, file] of [['is_a', 'isa'], ['part_of', 'partof']]) {
+  const f = `data/raw/bp3d/${file}_inclusion_relation_list.txt`;
+  if (exists(f)) for (const line of read(f).split('\n').slice(1)) { const [pid, pname, cid] = line.split('\t'); if (cid) bp3dParents[rel].set(cid, [...(bp3dParents[rel].get(cid) ?? []), {id: `FMA:${pid.slice(3)}`, label: pname}]); }
+}
+const BP3D_SOURCE = {name: 'BodyParts3D 4.0 (names and is_a / part_of tables)', license: 'CC BY 4.0', url: 'https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html'};
+const factItem = (id, label) => { const nid = id && nodeIdOf(id), n = nid && byId.get(nid), text = n?.label ?? label;
+  if (!text) return null;
+  return n ? {label: upperFirst(text), id: n.id, conceptId: n.conceptId, ...(uberonOf(n.id) ? {alternates: [uberonOf(n.id)]} : {})} : {label: upperFirst(text)}; };
+const factsFor = n => {
+  const rows = [], sources = [], push = (key, items) => { const seen = new Set(), list = items.filter(Boolean).filter(x => { const k = x.id ?? x.label.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+    if (list.length) rows.push({key, ...FACT_ROWS[key], items: list}); };
+  const addSource = x => { if (x && !sources.some(y => y.name === x.name)) sources.push(x); };
+  if (n.scale === 'cell' || n.scale === 'organelle') {
+    const d = (n.scale === 'cell' ? cellDefs : goDefs).get(n.id), onto = n.scale === 'cell' ? 'cl' : 'go';
+    if (n.scale === 'organelle') push('part_of', (d?.partOf ?? []).map(x => ({label: upperFirst(x.label ?? x.id)})).filter(x => x.label));
+    push('is_a', (d?.isA ?? []).map(x => byId.get(x.id) && byId.get(x.id).scale === n.scale ? {label: byId.get(x.id).label, id: x.id, conceptId: byId.get(x.id).conceptId} : {label: upperFirst(x.label ?? x.id)}));
+    if (rows.length) addSource({name: n.scale === 'cell' ? 'Cell Ontology' : 'Gene Ontology', license: 'CC BY 4.0', url: olsTerm(onto, n.id)});
+    return rows.length ? {rows, sources} : null;
+  }
+  const fmaRec = defs.get(n.id)?.fma ?? hraDefs.get(n.id)?.fma ?? null, fmaId = fmaRec ? `FMA:${fmaRec.iri.split('/fma').pop()}` : null;
+  // Where it is: the side, the organ it is in, FMA's position relations, its group, and a muscle's origin and insertion.
+  const side = fmaRec?.laterality ?? (/^(left|right)\b/i.exec(n.label)?.[1] ?? (() => { const w = [...new Set((n.label.match(/\b(left|right)\b/gi) ?? []).map(x => x.toLowerCase()))]; return w.length === 1 ? w[0] : null; })());
+  if (side) push('side', [{label: upperFirst(side.toLowerCase())}]);
+  // FMA 5's sex-specific copies ("Cardiovascular system of male human body") repeat the generic whole; they are left out.
+  // An HRA structure with no parent in its model's hierarchy is part of the model's organ.
+  const bp3d = !fmaRec && n.id.startsWith('FMA:') ? n.conceptId : null;
+  const hraUp = hraParent.get(n.id) ?? (n.id.startsWith('UBERON:') ? (n.geometry?.models ?? []).map(o => hraModels[o]).filter(m => m?.kind === 'organ').map(m => byId.get(graphId(m.rootConceptId))).find(r => r && r.id !== n.id) : null);
+  const partItems = [...(fmaRec?.partOf ?? (bp3d ? bp3dParents.part_of.get(bp3d) : null) ?? []).filter(p => !/ of (male|female) human body$/i.test(p.label ?? '')).map(p => factItem(p.id, p.label)), hraUp ? factItem(hraUp.id) : null].filter(Boolean);
+  const positions = fmaRec?.positions ?? [];
+  const organ = n.ladder?.organ, organItem = organ && !n.ladder.isOrgan && isPlace(organ) ? factItem(organ.id) : null;
+  const named = new Set([...partItems, ...positions.map(p => factItem(p.id, p.label))].filter(Boolean).map(x => x.id ?? x.label.toLowerCase()));
+  if (organItem && !named.has(organItem.id)) push('in', [organItem]);
+  for (const key of ['contained_in', 'surrounded_by', 'superior_to', 'inferior_to', 'anterior_to', 'posterior_to', 'medial_to', 'lateral_to', 'direct_left_of', 'direct_right_of', 'member_of', 'has_origin', 'has_insertion'])
+    push(key, positions.filter(p => p.property === key).map(p => factItem(p.id, p.label)));
+  push('part_of', partItems);
+  push('is_a', (fmaRec?.isA ?? (bp3d ? bp3dParents.is_a.get(bp3d) : null) ?? []).map(p => factItem(p.id, p.label)));
+  // A structure FMA 5.1 no longer lists still has its side, from its BodyParts3D or HRA name.
+  const HRA_3D = {name: 'Human Reference Atlas 3D reference organs v2.5', license: 'CC BY 4.0', url: 'https://humanatlas.io/3d-reference-library'};
+  if (rows.length && fmaId) addSource(FMA_SOURCE(fmaId));
+  else if (rows.length) addSource(n.id.startsWith('UBERON:') ? HRA_3D : BP3D_SOURCE);
+  if (hraUp) addSource(HRA_3D);
+  // Cell types: those placed in the structure itself, and how many its tissue board lists.
+  push('cell_types', (cellsIn.get(n.id) ?? []).sort((a, b) => a.label.localeCompare(b.label)).map(c => ({label: c.label, id: c.id, conceptId: c.conceptId})));
+  const holder = n.ladder?.board ?? n.ladder?.organ, ids = (holder?.tissue ?? []).map(u => boardByUrl.get(u)).filter(Boolean);
+  const cells = new Set(ids.flatMap(id => [...(boardCells.get(id) ?? [])]));
+  const board = cells.size ? {label: holder.label, count: cells.size} : null;
+  if (board || cellsIn.has(n.id)) addSource({name: 'HRA ASCT+B tables (Human Reference Atlas v2.5)', license: 'CC BY 4.0', url: 'https://humanatlas.io/asctb-tables'});
+  return rows.length || board ? {rows, ...(board ? {board} : {}), sources} : null;
+};
+let factCards = 0;
+const aliasNodes = new Set(aliases.map(([alias]) => alias));
+for (const n of nodes) {
+  if (aliasNodes.has(n)) continue;
+  const f = factsFor(n);
+  if (!f) continue;
+  const review = factsReviewed[n.id];
+  n.facts = {status: review ? 'reviewed' : 'auto', ...f, ...(review ? {reviewer: review.reviewer, reviewedOn: review.reviewed_on} : {})};
+  factCards++;
+}
+for (const [alias, eq] of aliases) if (eq.facts) alias.facts = eq.facts;
+
 // Organs opened on their own stage, outside any body (pipeline/maps/standalone-organs.json: female organs, and lymphatic
 // organs BodyParts3D has no mesh for), and the cell types no organ in the body holds (pipeline/maps/extra-cell-types.json):
 // public/models/organs/standalone.json, written below.

@@ -185,5 +185,48 @@
   "system": "arterial",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Axillary artery",
+      "id": "FMA:22654",
+      "conceptId": "FMA22654",
+      "alternates": [
+       "UBERON0001394"
+      ]
+     },
+     {
+      "label": "Subclavian artery",
+      "id": "FMA:3951",
+      "conceptId": "FMA3951",
+      "alternates": [
+       "UBERON0001533"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Circumflex humeral artery"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma22684"
+   }
+  ]
  }
 }

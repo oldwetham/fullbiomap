@@ -103,5 +103,75 @@
     "/tissue/FMA7197.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Liver",
+      "id": "FMA:7197",
+      "conceptId": "FMA7197",
+      "alternates": [
+       "UBERON0002107"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Right hepatic artery",
+      "id": "FMA:14778",
+      "conceptId": "FMA14778",
+      "alternates": [
+       "UBERON0015482"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of right hepatic artery",
+      "id": "FMA:70439",
+      "conceptId": "FMA70439"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Liver",
+   "count": 28
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma70447"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

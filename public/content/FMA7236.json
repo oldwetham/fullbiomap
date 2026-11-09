@@ -123,5 +123,100 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Endocardium of left ventricle"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Left ventricle",
+      "id": "FMA:7101",
+      "conceptId": "FMA7101",
+      "alternates": [
+       "UBERON0002084"
+      ]
+     },
+     {
+      "label": "Left side of heart",
+      "id": "FMA:7166",
+      "conceptId": "FMA7166",
+      "alternates": [
+       "UBERON0035553"
+      ]
+     },
+     {
+      "label": "Outflow part of left ventricle",
+      "id": "FMA:9473",
+      "conceptId": "FMA9473",
+      "alternates": [
+       "UBERON0005956"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardiac valve"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "Valve interstitial cell",
+      "id": "CL:4030032",
+      "conceptId": "CL4030032"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7236"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

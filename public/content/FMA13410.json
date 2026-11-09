@@ -94,5 +94,65 @@
     "/tissue/FMA5022.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Musculature of pectoral girdle"
+     },
+     {
+      "label": "Pectoral musculature"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Pectoral muscle",
+      "id": "FMA:37349",
+      "conceptId": "FMA37349",
+      "alternates": [
+       "UBERON0001495"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cell of skeletal muscle",
+      "id": "CL:0000188",
+      "conceptId": "CL0000188"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Subclavius",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13410"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

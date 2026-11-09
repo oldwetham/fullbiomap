@@ -154,5 +154,98 @@
     "/tissue/FMA7647.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neuraxis",
+      "id": "FMA:55675",
+      "conceptId": "FMA55675",
+      "alternates": [
+       "UBERON0001017"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of neuraxis",
+      "id": "FMA:256237",
+      "conceptId": "FMA256237"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Astrocyte",
+      "id": "CL:0000127",
+      "conceptId": "CL0000127"
+     },
+     {
+      "label": "Endothelial cell",
+      "id": "CL:0000115",
+      "conceptId": "CL0000115"
+     },
+     {
+      "label": "Ependymal cell",
+      "id": "CL:0000065",
+      "conceptId": "CL0000065"
+     },
+     {
+      "label": "Microglial cell",
+      "id": "CL:0000129",
+      "conceptId": "CL0000129"
+     },
+     {
+      "label": "Motor neuron",
+      "id": "CL:0000100",
+      "conceptId": "CL0000100"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Oligodendrocyte",
+      "id": "CL:0000128",
+      "conceptId": "CL0000128"
+     },
+     {
+      "label": "Oligodendrocyte precursor cell",
+      "id": "CL:0002453",
+      "conceptId": "CL0002453"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Spinal cord",
+   "count": 8
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7647"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

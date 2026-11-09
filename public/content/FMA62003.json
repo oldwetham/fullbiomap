@@ -155,5 +155,54 @@
     "/tissue/FMA50801.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Hindbrain",
+      "id": "FMA:67687",
+      "conceptId": "FMA67687",
+      "alternates": [
+       "UBERON0002028"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of hindbrain",
+      "id": "FMA:61998",
+      "conceptId": "FMA61998",
+      "alternates": [
+       "UBERON0004733"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma62003"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

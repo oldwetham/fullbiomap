@@ -81,5 +81,94 @@
     "/tissue/UBERON0000995.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Uterus",
+      "id": "UBERON:0000995",
+      "conceptId": "UBERON0000995"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Ciliated epithelial cell",
+      "id": "CL:0000067",
+      "conceptId": "CL0000067"
+     },
+     {
+      "label": "Endothelial cell",
+      "id": "CL:0000115",
+      "conceptId": "CL0000115"
+     },
+     {
+      "label": "Innate lymphoid cell",
+      "id": "CL:0001065",
+      "conceptId": "CL0001065"
+     },
+     {
+      "label": "Lymphocyte",
+      "id": "CL:0000542",
+      "conceptId": "CL0000542"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Stromal cell",
+      "id": "CL:0000499",
+      "conceptId": "CL0000499"
+     },
+     {
+      "label": "T cell",
+      "id": "CL:0000084",
+      "conceptId": "CL0000084"
+     },
+     {
+      "label": "Uterine natural killer cell",
+      "id": "CL:4052028",
+      "conceptId": "CL4052028"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Uterus",
+   "count": 10
+  },
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

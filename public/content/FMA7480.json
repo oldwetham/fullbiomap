@@ -111,5 +111,51 @@
   "system": "skeletal",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Postcranial axial skeletal system"
+     },
+     {
+      "label": "Skeletal system of thoracic segment of trunk",
+      "id": "FMA:7481",
+      "conceptId": "FMA7481"
+     },
+     {
+      "label": "Wall of thorax",
+      "id": "FMA:10428",
+      "conceptId": "FMA10428",
+      "alternates": [
+       "UBERON0016403"
+      ]
+     },
+     {
+      "label": "Musculoskeletal system of thorax"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of postcranial axial skeletal system"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7480"
+   }
+  ]
  }
 }

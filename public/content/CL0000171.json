@@ -289,5 +289,31 @@
    "focus": "CL:0000171",
    "lookAlike": "Alpha and beta cells of the pancreatic islets look alike in an ordinary stained section. Staining for the hormone each one makes tells them apart: glucagon in alpha cells, insulin in beta cells (Cell Ontology; HRA ASCT+B)."
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Type A enteroendocrine cell"
+     },
+     {
+      "label": "Pancreatic endocrine cell",
+      "id": "CL:0008024",
+      "conceptId": "CL0008024"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000171"
+   }
+  ]
+ }
 }

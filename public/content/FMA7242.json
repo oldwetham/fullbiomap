@@ -168,5 +168,80 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Mitral valve",
+      "id": "FMA:7235",
+      "conceptId": "FMA7235",
+      "alternates": [
+       "UBERON0002135"
+      ]
+     },
+     {
+      "label": "Subaortic curtain of left ventricle",
+      "id": "FMA:9348",
+      "conceptId": "FMA9348"
+     },
+     {
+      "label": "Myocardium of basal zone of left ventricle"
+     },
+     {
+      "label": "Myocardial zone 1"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Leaflet of mitral valve",
+      "id": "FMA:7241",
+      "conceptId": "FMA7241",
+      "alternates": [
+       "UBERON0007151"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7242"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

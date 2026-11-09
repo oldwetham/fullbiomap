@@ -739,5 +739,37 @@
    "match": "HRA crosswalk: this illustration draws CL:0000669",
    "focus": "CL:0000669"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Contractile cell"
+     },
+     {
+      "label": "Supporting cell"
+     },
+     {
+      "label": "Connective tissue cell"
+     },
+     {
+      "label": "Mural cell",
+      "id": "CL:0008034",
+      "conceptId": "CL0008034"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000669"
+   }
+  ]
+ }
 }

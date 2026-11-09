@@ -134,5 +134,103 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Endocardium of right atrium"
+     },
+     {
+      "label": "Wall of right side of heart",
+      "id": "FMA:73703",
+      "conceptId": "FMA73703"
+     },
+     {
+      "label": "Wall of biatrial part of heart"
+     },
+     {
+      "label": "Endocardium of biatrial part of heart"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cavity of right side of heart"
+     },
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Right atrium",
+      "id": "FMA:7096",
+      "conceptId": "FMA7096",
+      "alternates": [
+       "UBERON0002078"
+      ]
+     },
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     },
+     {
+      "label": "Biatrial part of heart"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cavity of atrium",
+      "id": "FMA:13237",
+      "conceptId": "FMA13237"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma11359"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -96,5 +96,65 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Postcranial axial skeletal system"
+     },
+     {
+      "label": "Skeletal system of trunk",
+      "id": "FMA:87598",
+      "conceptId": "FMA87598"
+     },
+     {
+      "label": "Wall of pelvis",
+      "id": "FMA:10430",
+      "conceptId": "FMA10430"
+     },
+     {
+      "label": "Wall of abdominal segment of trunk",
+      "id": "FMA:259054",
+      "conceptId": "FMA259054",
+      "alternates": [
+       "UBERON0003697"
+      ]
+     },
+     {
+      "label": "Skeletal system of abdomen"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of postcranial axial skeletal system"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Bony pelvis",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma16580"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

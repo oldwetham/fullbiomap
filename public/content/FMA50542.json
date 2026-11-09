@@ -351,5 +351,44 @@
    "conceptId": "FMA49894",
    "label": "Systemic arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Right vertebral artery",
+      "id": "FMA:3958",
+      "conceptId": "FMA3958"
+     },
+     {
+      "label": "Left vertebral artery",
+      "id": "FMA:4066",
+      "conceptId": "FMA4066"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Branch of subclavian artery",
+      "id": "FMA:70345",
+      "conceptId": "FMA70345"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50542"
+   }
+  ]
  }
 }

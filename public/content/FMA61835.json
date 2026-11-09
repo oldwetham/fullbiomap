@@ -96,5 +96,91 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Substantia innominata"
+     },
+     {
+      "label": "Anterior commissure",
+      "id": "FMA:61961",
+      "conceptId": "FMA61961",
+      "alternates": [
+       "UBERON0000935"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Putamen",
+      "id": "FMA:61834",
+      "conceptId": "FMA61834",
+      "alternates": [
+       "UBERON0001874"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Internal capsule",
+      "id": "FMA:61950",
+      "conceptId": "FMA61950",
+      "alternates": [
+       "UBERON0001887"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Subcortical gray matter structure"
+     },
+     {
+      "label": "Lentiform nucleus"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Nucleus of brain",
+      "id": "FMA:83840",
+      "conceptId": "FMA83840",
+      "alternates": [
+       "UBERON0002308"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61835"
+   }
+  ]
  }
 }

@@ -75,5 +75,52 @@
     "UBERON0003407"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cartilaginous skeleton of nose",
+      "id": "FMA:59538",
+      "conceptId": "FMA59538"
+     },
+     {
+      "label": "Cartilaginous skeleton of nasal septum",
+      "id": "FMA:59838",
+      "conceptId": "FMA59838"
+     },
+     {
+      "label": "Wall of internal nose",
+      "id": "FMA:59668",
+      "conceptId": "FMA59668"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Nasal cartilage",
+      "id": "FMA:59502",
+      "conceptId": "FMA59502",
+      "alternates": [
+       "UBERON0001823"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma59503"
+   }
+  ]
  }
 }

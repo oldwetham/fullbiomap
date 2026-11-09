@@ -622,5 +622,79 @@
    "conceptId": "FMA82673",
    "label": "Inferior systemic venous tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Inferior vena caval segment of pericardial sac"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Inflow part of right atrium"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of vena cava trunks"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Inferior systemic venous tree",
+      "id": "FMA:82673",
+      "conceptId": "FMA82673"
+     },
+     {
+      "label": "Vena cava",
+      "id": "UBERON:0004087",
+      "conceptId": "UBERON0004087"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Trunk of systemic vein",
+      "id": "FMA:62512",
+      "conceptId": "FMA62512"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma10951"
+   },
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   }
+  ]
  }
 }

@@ -149,5 +149,38 @@
    "status": "auto",
    "match": "Servier title “Golgi apparatus” = “Golgi apparatus”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cytoplasm"
+     },
+     {
+      "label": "Endomembrane system"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Intracellular membrane-bounded organelle"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Gene Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005794"
+   }
+  ]
+ }
 }

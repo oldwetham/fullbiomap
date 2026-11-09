@@ -80,5 +80,243 @@
     "/tissue/FMA7163.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Integumentary system",
+      "id": "FMA:74657",
+      "conceptId": "FMA74657",
+      "alternates": [
+       "UBERON0002199"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Nonparenchymatous organ",
+      "id": "FMA:55665",
+      "conceptId": "FMA55665"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Basal cell",
+      "id": "CL:0000646",
+      "conceptId": "CL0000646"
+     },
+     {
+      "label": "Corneocyte",
+      "id": "CL:0002153",
+      "conceptId": "CL0002153"
+     },
+     {
+      "label": "Cytotoxic T cell",
+      "id": "CL:0000910",
+      "conceptId": "CL0000910"
+     },
+     {
+      "label": "Dermal dendritic cell",
+      "id": "CL:0001006",
+      "conceptId": "CL0001006"
+     },
+     {
+      "label": "Endothelial cell",
+      "id": "CL:0000115",
+      "conceptId": "CL0000115"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Eosinophil",
+      "id": "CL:0000771",
+      "conceptId": "CL0000771"
+     },
+     {
+      "label": "Epidermal Langerhans cell",
+      "id": "CL:0002457",
+      "conceptId": "CL0002457"
+     },
+     {
+      "label": "Group 1 innate lymphoid cell",
+      "id": "CL:0001067",
+      "conceptId": "CL0001067"
+     },
+     {
+      "label": "Group 2 innate lymphoid cell",
+      "id": "CL:0001069",
+      "conceptId": "CL0001069"
+     },
+     {
+      "label": "Group 3 innate lymphoid cell",
+      "id": "CL:0001071",
+      "conceptId": "CL0001071"
+     },
+     {
+      "label": "Hair follicle melanocyte",
+      "id": "CL:0002483",
+      "conceptId": "CL0002483"
+     },
+     {
+      "label": "Hair germinal matrix cell",
+      "id": "CL:0002562",
+      "conceptId": "CL0002562"
+     },
+     {
+      "label": "Keratinocyte",
+      "id": "CL:0000312",
+      "conceptId": "CL0000312"
+     },
+     {
+      "label": "Keratinocyte stem cell",
+      "id": "CL:0002337",
+      "conceptId": "CL0002337"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Melanocyte of skin",
+      "id": "CL:1000458",
+      "conceptId": "CL1000458"
+     },
+     {
+      "label": "Merkel cell",
+      "id": "CL:0000242",
+      "conceptId": "CL0000242"
+     },
+     {
+      "label": "Myoepithelial cell of sweat gland",
+      "id": "CL:1000417",
+      "conceptId": "CL1000417"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Neutrophil",
+      "id": "CL:0000775",
+      "conceptId": "CL0000775"
+     },
+     {
+      "label": "Onychocyte",
+      "id": "CL:4033056",
+      "conceptId": "CL4033056"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Perineurial cell",
+      "id": "CL:0002576",
+      "conceptId": "CL0002576"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Regulatory T cell",
+      "id": "CL:0000815",
+      "conceptId": "CL0000815"
+     },
+     {
+      "label": "Schwann cell",
+      "id": "CL:0002573",
+      "conceptId": "CL0002573"
+     },
+     {
+      "label": "Sebocyte",
+      "id": "CL:0000317",
+      "conceptId": "CL0000317"
+     },
+     {
+      "label": "Skin fibroblast",
+      "id": "CL:0002620",
+      "conceptId": "CL0002620"
+     },
+     {
+      "label": "Spinous cell of epidermis",
+      "id": "CL:0000649",
+      "conceptId": "CL0000649"
+     },
+     {
+      "label": "Subcutaneous adipocyte",
+      "id": "CL:0002521",
+      "conceptId": "CL0002521"
+     },
+     {
+      "label": "T-helper 1 cell",
+      "id": "CL:0000545",
+      "conceptId": "CL0000545"
+     },
+     {
+      "label": "Type I cell of carotid body",
+      "id": "CL:0002292",
+      "conceptId": "CL0002292"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Skin",
+   "count": 37
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7163"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

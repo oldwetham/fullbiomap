@@ -167,5 +167,42 @@
     "UBERON0007196"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Lower respiratory tract",
+      "id": "FMA:45662",
+      "conceptId": "FMA45662",
+      "alternates": [
+       "UBERON0001558"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Hollow tree organ",
+      "id": "FMA:55677",
+      "conceptId": "FMA55677"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7393"
+   }
+  ]
  }
 }

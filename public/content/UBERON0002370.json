@@ -325,5 +325,439 @@
     "/tissue/FMA9607.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Superior mediastinal space"
+     },
+     {
+      "label": "Anterior mediastinal space"
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Arch of aorta",
+      "id": "FMA:3768",
+      "conceptId": "FMA3768",
+      "alternates": [
+       "UBERON0001508"
+      ]
+     },
+     {
+      "label": "Left brachiocephalic vein",
+      "id": "FMA:4761",
+      "conceptId": "FMA4761"
+     },
+     {
+      "label": "Trachea",
+      "id": "FMA:7394",
+      "conceptId": "FMA7394",
+      "alternates": [
+       "UBERON0003126"
+      ]
+     },
+     {
+      "label": "Pericardium"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Right sternohyoid",
+      "id": "FMA:13346",
+      "conceptId": "FMA13346"
+     },
+     {
+      "label": "Left sternohyoid",
+      "id": "FMA:13347",
+      "conceptId": "FMA13347"
+     },
+     {
+      "label": "Right sternothyroid",
+      "id": "FMA:13350",
+      "conceptId": "FMA13350"
+     },
+     {
+      "label": "Left sternothyroid",
+      "id": "FMA:13351",
+      "conceptId": "FMA13351"
+     },
+     {
+      "label": "Sternum",
+      "id": "FMA:7485",
+      "conceptId": "FMA7485",
+      "alternates": [
+       "UBERON0000975"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Right sternohyoid",
+      "id": "FMA:13346",
+      "conceptId": "FMA13346"
+     },
+     {
+      "label": "Right sternothyroid",
+      "id": "FMA:13350",
+      "conceptId": "FMA13350"
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left sternohyoid",
+      "id": "FMA:13347",
+      "conceptId": "FMA13347"
+     },
+     {
+      "label": "Left sternothyroid",
+      "id": "FMA:13351",
+      "conceptId": "FMA13351"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of thorax"
+     },
+     {
+      "label": "Non-lymphatic lymphoid system"
+     },
+     {
+      "label": "Hematopoietic system"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Content of superior mediastinum",
+      "id": "FMA:79274",
+      "conceptId": "FMA79274"
+     },
+     {
+      "label": "Content of anterior mediastinum",
+      "id": "FMA:79276",
+      "conceptId": "FMA79276"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Corticomedullary organ",
+      "id": "FMA:55663",
+      "conceptId": "FMA55663"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Beige adipocyte",
+      "id": "CL:0001070",
+      "conceptId": "CL0001070"
+     },
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "CD4-positive, alpha-beta cytotoxic T cell",
+      "id": "CL:0000934",
+      "conceptId": "CL0000934"
+     },
+     {
+      "label": "CD4-positive, alpha-beta memory T cell",
+      "id": "CL:0000897",
+      "conceptId": "CL0000897"
+     },
+     {
+      "label": "CD8-alpha-negative thymic conventional dendritic cell",
+      "id": "CL:0002460",
+      "conceptId": "CL0002460"
+     },
+     {
+      "label": "CD8-alpha-positive thymic conventional dendritic cell",
+      "id": "CL:0002059",
+      "conceptId": "CL0002059"
+     },
+     {
+      "label": "CD8-positive, alpha-beta memory T cell",
+      "id": "CL:0000909",
+      "conceptId": "CL0000909"
+     },
+     {
+      "label": "CD8aa(I) thymocyte",
+      "id": "CL:0009068",
+      "conceptId": "CL0009068"
+     },
+     {
+      "label": "CD8aa(II) thymocyte",
+      "id": "CL:0009069",
+      "conceptId": "CL0009069"
+     },
+     {
+      "label": "Class switched memory B cell",
+      "id": "CL:0000972",
+      "conceptId": "CL0000972"
+     },
+     {
+      "label": "Committed double negative thymocyte (Homo sapiens)",
+      "id": "CL:0009082",
+      "conceptId": "CL0009082"
+     },
+     {
+      "label": "Cortical thymic epithelial cell",
+      "id": "CL:0002364",
+      "conceptId": "CL0002364"
+     },
+     {
+      "label": "Corticomedullary thymic epithelial cell",
+      "id": "CL:0009070",
+      "conceptId": "CL0009070"
+     },
+     {
+      "label": "Double-positive, alpha-beta thymocyte",
+      "id": "CL:0000809",
+      "conceptId": "CL0000809"
+     },
+     {
+      "label": "Early T lineage precursor",
+      "id": "CL:0002425",
+      "conceptId": "CL0002425"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Eosinophil",
+      "id": "CL:0000771",
+      "conceptId": "CL0000771"
+     },
+     {
+      "label": "Erythroid lineage cell",
+      "id": "CL:0000764",
+      "conceptId": "CL0000764"
+     },
+     {
+      "label": "Gamma-delta T cell",
+      "id": "CL:0000798",
+      "conceptId": "CL0000798"
+     },
+     {
+      "label": "Group 3 innate lymphoid cell, human",
+      "id": "CL:0001078",
+      "conceptId": "CL0001078"
+     },
+     {
+      "label": "Immature NK T cell",
+      "id": "CL:0000914",
+      "conceptId": "CL0000914"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Mature CD4 single-positive thymocyte",
+      "id": "CL:0002436",
+      "conceptId": "CL0002436"
+     },
+     {
+      "label": "Mature CD8 single-positive thymocyte",
+      "id": "CL:0002437",
+      "conceptId": "CL0002437"
+     },
+     {
+      "label": "Medullary thymic epithelial cell type 1",
+      "id": "CL:0009071",
+      "conceptId": "CL0009071"
+     },
+     {
+      "label": "Medullary thymic epithelial cell type 2",
+      "id": "CL:0009072",
+      "conceptId": "CL0009072"
+     },
+     {
+      "label": "Medullary thymic epithelial cell type 3",
+      "id": "CL:0009073",
+      "conceptId": "CL0009073"
+     },
+     {
+      "label": "Medullary thymic epithelial cell type 4",
+      "id": "CL:0009074",
+      "conceptId": "CL0009074"
+     },
+     {
+      "label": "Monocyte",
+      "id": "CL:0000576",
+      "conceptId": "CL0000576"
+     },
+     {
+      "label": "Mucosal-associated invariant T cell",
+      "id": "CL:0000940",
+      "conceptId": "CL0000940"
+     },
+     {
+      "label": "Myo-medullary thymic epithelial cell",
+      "id": "CL:0009075",
+      "conceptId": "CL0009075"
+     },
+     {
+      "label": "Naive B cell",
+      "id": "CL:0000788",
+      "conceptId": "CL0000788"
+     },
+     {
+      "label": "Naive regulatory T cell",
+      "id": "CL:0002677",
+      "conceptId": "CL0002677"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neuro-medullary thymic epithelial cell",
+      "id": "CL:0009076",
+      "conceptId": "CL0009076"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Plasmablast",
+      "id": "CL:0000980",
+      "conceptId": "CL0000980"
+     },
+     {
+      "label": "Rearranging double negative thymocyte (Homo sapiens)",
+      "id": "CL:0009083",
+      "conceptId": "CL0009083"
+     },
+     {
+      "label": "Specified double negative thymocyte (Homo sapiens)",
+      "id": "CL:0009081",
+      "conceptId": "CL0009081"
+     },
+     {
+      "label": "Subcapsular thymic epithelial cell",
+      "id": "CL:0009077",
+      "conceptId": "CL0009077"
+     },
+     {
+      "label": "Sympathetic noradrenergic neuron",
+      "id": "CL:3000002",
+      "conceptId": "CL3000002"
+     },
+     {
+      "label": "T follicular helper cell",
+      "id": "CL:0002038",
+      "conceptId": "CL0002038"
+     },
+     {
+      "label": "T-helper 17 cell",
+      "id": "CL:0000899",
+      "conceptId": "CL0000899"
+     },
+     {
+      "label": "Thymic cortical macrophage",
+      "id": "CL:0000883",
+      "conceptId": "CL0000883"
+     },
+     {
+      "label": "Thymic fibroblast type 1",
+      "id": "CL:0009078",
+      "conceptId": "CL0009078"
+     },
+     {
+      "label": "Thymic fibroblast type 2",
+      "id": "CL:0009079",
+      "conceptId": "CL0009079"
+     },
+     {
+      "label": "Thymic macrophage",
+      "id": "CL:0000866",
+      "conceptId": "CL0000866"
+     },
+     {
+      "label": "Thymic medullary macrophage",
+      "id": "CL:0000882",
+      "conceptId": "CL0000882"
+     },
+     {
+      "label": "Thymic plasmacytoid dendritic cell",
+      "id": "CL:0000942",
+      "conceptId": "CL0000942"
+     },
+     {
+      "label": "Unswitched memory B cell",
+      "id": "CL:0000970",
+      "conceptId": "CL0000970"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Thymus",
+   "count": 50
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9607"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

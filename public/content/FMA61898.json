@@ -198,5 +198,111 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Posterior part of middle temporal gyrus"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Superior parietal lobule",
+      "id": "FMA:61899",
+      "conceptId": "FMA61899",
+      "alternates": [
+       "UBERON0006094"
+      ]
+     },
+     {
+      "label": "Intraparietal sulcus"
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Superior occipital gyrus",
+      "id": "UBERON:0002948",
+      "conceptId": "UBERON0002948"
+     },
+     {
+      "label": "Parieto-occipital sulcus"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Supramarginal gyrus",
+      "id": "FMA:61897",
+      "conceptId": "FMA61897",
+      "alternates": [
+       "UBERON0002688"
+      ]
+     },
+     {
+      "label": "Posterior part of superior temporal gyrus",
+      "id": "FMA:70703",
+      "conceptId": "FMA70703"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of cerebral gyri"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neocortex"
+     },
+     {
+      "label": "Inferior parietal lobule"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of inferior parietal lobule"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61898"
+   }
+  ]
  }
 }

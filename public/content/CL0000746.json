@@ -476,5 +476,29 @@
    "status": "auto",
    "match": "Servier title “Cardiac muscle cells” = “cardiac muscle cell”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Striated muscle cell"
+     },
+     {
+      "label": "Cardiocyte"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000746"
+   }
+  ]
+ }
 }

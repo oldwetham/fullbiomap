@@ -126,5 +126,189 @@
     ]
    }
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Trachea",
+      "id": "FMA:7394",
+      "conceptId": "FMA7394",
+      "alternates": [
+       "UBERON0003126"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Bronchial tree"
+     },
+     {
+      "label": "Root of lung"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Bronchus",
+      "id": "FMA:7409",
+      "conceptId": "FMA7409",
+      "alternates": [
+       "UBERON0002185"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Airway submucosal gland collecting duct epithelial cell",
+      "id": "CL:4033023",
+      "conceptId": "CL4033023"
+     },
+     {
+      "label": "Airway submucosal gland duct basal cell",
+      "id": "CL:4033024",
+      "conceptId": "CL4033024"
+     },
+     {
+      "label": "Airway submucosal gland duct multiciliated cell",
+      "id": "CL:4033055",
+      "conceptId": "CL4033055"
+     },
+     {
+      "label": "Basal cell of epithelium of bronchus",
+      "id": "CL:1000349",
+      "conceptId": "CL1000349"
+     },
+     {
+      "label": "Blood vessel smooth muscle cell",
+      "id": "CL:0019018",
+      "conceptId": "CL0019018"
+     },
+     {
+      "label": "Bronchial smooth muscle cell",
+      "id": "CL:0002598",
+      "conceptId": "CL0002598"
+     },
+     {
+      "label": "Brush cell of epithelium of lobar bronchus",
+      "id": "CL:4033007",
+      "conceptId": "CL4033007"
+     },
+     {
+      "label": "Deuterosomal cell",
+      "id": "CL:4033044",
+      "conceptId": "CL4033044"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Goblet cell of epithelium of lobar bronchus",
+      "id": "CL:4033009",
+      "conceptId": "CL4033009"
+     },
+     {
+      "label": "Lung perichondrial fibroblast",
+      "id": "CL:4033026",
+      "conceptId": "CL4033026"
+     },
+     {
+      "label": "Mucus secreting cell of bronchus submucosal gland",
+      "id": "CL:4033022",
+      "conceptId": "CL4033022"
+     },
+     {
+      "label": "Multiciliated epithelial cell of the bronchus",
+      "id": "CL:0002332",
+      "conceptId": "CL0002332"
+     },
+     {
+      "label": "Myelinating glial cell",
+      "id": "CL:4023154",
+      "conceptId": "CL4023154"
+     },
+     {
+      "label": "Myoepithelial cell of bronchus submucosal gland",
+      "id": "CL:4033003",
+      "conceptId": "CL4033003"
+     },
+     {
+      "label": "Neural cell",
+      "id": "CL:0002319",
+      "conceptId": "CL0002319"
+     },
+     {
+      "label": "Neuroendocrine cell of epithelium of lobar bronchus",
+      "id": "CL:4033010",
+      "conceptId": "CL4033010"
+     },
+     {
+      "label": "Non-myelinating Schwann cell",
+      "id": "CL:0002376",
+      "conceptId": "CL0002376"
+     },
+     {
+      "label": "Pulmonary ionocyte",
+      "id": "CL:0017000",
+      "conceptId": "CL0017000"
+     },
+     {
+      "label": "Respiratory tract suprabasal cell",
+      "id": "CL:4033048",
+      "conceptId": "CL4033048"
+     },
+     {
+      "label": "Serous cell of epithelium of bronchus",
+      "id": "CL:1000331",
+      "conceptId": "CL1000331"
+     },
+     {
+      "label": "Tracheobronchial chondrocyte",
+      "id": "CL:0019002",
+      "conceptId": "CL0019002"
+     },
+     {
+      "label": "Vein endothelial cell of respiratory system",
+      "id": "CL:4033008",
+      "conceptId": "CL4033008"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Main bronchus",
+   "count": 23
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7405"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

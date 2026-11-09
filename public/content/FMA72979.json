@@ -62,5 +62,28 @@
   "system": "integumentary",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Adult human body",
+      "id": "FMA:20394",
+      "conceptId": "FMA20394"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "BodyParts3D 4.0 (names and is_a / part_of tables)",
+    "license": "CC BY 4.0",
+    "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+   }
+  ]
  }
 }

@@ -99,5 +99,76 @@
     "/tissue/FMA9617.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of laryngeal muscles"
+     },
+     {
+      "label": "Set of intrinsic muscles of larynx"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Larynx",
+      "id": "UBERON:0001737",
+      "conceptId": "UBERON0001737"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Intrinsic muscle of larynx",
+      "id": "FMA:55226",
+      "conceptId": "FMA55226",
+      "alternates": [
+       "UBERON0006328"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cell of skeletal muscle",
+      "id": "CL:0000188",
+      "conceptId": "CL0000188"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Thyro-arytenoid",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma46588"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

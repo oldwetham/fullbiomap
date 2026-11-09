@@ -143,5 +143,51 @@
    "conceptId": "FMA49894",
    "label": "Systemic arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Celiac artery",
+      "id": "FMA:50737",
+      "conceptId": "FMA50737",
+      "alternates": [
+       "UBERON0001640"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Branch of celiac artery",
+      "id": "FMA:70429",
+      "conceptId": "FMA70429"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14768"
+   }
+  ]
  }
 }

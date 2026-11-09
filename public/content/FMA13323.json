@@ -190,5 +190,72 @@
    "status": "auto",
    "match": "Gray's 1918 legend title “Left clavicle” (Fig. 200) = “Left clavicle”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Skeleton of left pectoral girdle",
+      "id": "FMA:24164",
+      "conceptId": "FMA24164"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Pectoral part of left pectoral girdle",
+      "id": "FMA:33645",
+      "conceptId": "FMA33645"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Clavicle",
+      "id": "FMA:13321",
+      "conceptId": "FMA13321",
+      "alternates": [
+       "UBERON0001105"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Left clavicle",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma13323"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

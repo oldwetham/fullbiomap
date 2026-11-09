@@ -222,5 +222,737 @@
     "/tissue/FMA7310.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Left half of thoracic cavity"
+     },
+     {
+      "label": "Thoracic cavity"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Left pleural sac"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Left first rib",
+      "id": "FMA:7987",
+      "conceptId": "FMA7987"
+     },
+     {
+      "label": "Left second rib",
+      "id": "FMA:8012",
+      "conceptId": "FMA8012"
+     },
+     {
+      "label": "Left third rib",
+      "id": "FMA:8039",
+      "conceptId": "FMA8039"
+     },
+     {
+      "label": "Left fifth rib",
+      "id": "FMA:8093",
+      "conceptId": "FMA8093"
+     },
+     {
+      "label": "Left fourth rib",
+      "id": "FMA:8148",
+      "conceptId": "FMA8148"
+     },
+     {
+      "label": "Left sixth rib",
+      "id": "FMA:8202",
+      "conceptId": "FMA8202"
+     },
+     {
+      "label": "Left seventh rib",
+      "id": "FMA:8256",
+      "conceptId": "FMA8256"
+     },
+     {
+      "label": "Left eighth rib",
+      "id": "FMA:8310",
+      "conceptId": "FMA8310"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Left first rib",
+      "id": "FMA:7987",
+      "conceptId": "FMA7987"
+     },
+     {
+      "label": "Left second rib",
+      "id": "FMA:8012",
+      "conceptId": "FMA8012"
+     },
+     {
+      "label": "Left third rib",
+      "id": "FMA:8039",
+      "conceptId": "FMA8039"
+     },
+     {
+      "label": "Left fifth rib",
+      "id": "FMA:8093",
+      "conceptId": "FMA8093"
+     },
+     {
+      "label": "Left fourth rib",
+      "id": "FMA:8148",
+      "conceptId": "FMA8148"
+     },
+     {
+      "label": "Left sixth rib",
+      "id": "FMA:8202",
+      "conceptId": "FMA8202"
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Thoracic aorta"
+     },
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     },
+     {
+      "label": "Left first rib",
+      "id": "FMA:7987",
+      "conceptId": "FMA7987"
+     },
+     {
+      "label": "Left second rib",
+      "id": "FMA:8012",
+      "conceptId": "FMA8012"
+     },
+     {
+      "label": "Left third rib",
+      "id": "FMA:8039",
+      "conceptId": "FMA8039"
+     },
+     {
+      "label": "Left fifth rib",
+      "id": "FMA:8093",
+      "conceptId": "FMA8093"
+     },
+     {
+      "label": "Left fourth rib",
+      "id": "FMA:8148",
+      "conceptId": "FMA8148"
+     },
+     {
+      "label": "Left sixth rib",
+      "id": "FMA:8202",
+      "conceptId": "FMA8202"
+     },
+     {
+      "label": "Left seventh rib",
+      "id": "FMA:8256",
+      "conceptId": "FMA8256"
+     },
+     {
+      "label": "Left eighth rib",
+      "id": "FMA:8310",
+      "conceptId": "FMA8310"
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Thoracic aorta"
+     },
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left first rib",
+      "id": "FMA:7987",
+      "conceptId": "FMA7987"
+     },
+     {
+      "label": "Left second rib",
+      "id": "FMA:8012",
+      "conceptId": "FMA8012"
+     },
+     {
+      "label": "Left third rib",
+      "id": "FMA:8039",
+      "conceptId": "FMA8039"
+     },
+     {
+      "label": "Left fifth rib",
+      "id": "FMA:8093",
+      "conceptId": "FMA8093"
+     },
+     {
+      "label": "Left fourth rib",
+      "id": "FMA:8148",
+      "conceptId": "FMA8148"
+     },
+     {
+      "label": "Left sixth rib",
+      "id": "FMA:8202",
+      "conceptId": "FMA8202"
+     },
+     {
+      "label": "Left seventh rib",
+      "id": "FMA:8256",
+      "conceptId": "FMA8256"
+     },
+     {
+      "label": "Left eighth rib",
+      "id": "FMA:8310",
+      "conceptId": "FMA8310"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of thorax"
+     },
+     {
+      "label": "Pair of lungs"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Lower respiratory tract",
+      "id": "FMA:45662",
+      "conceptId": "FMA45662",
+      "alternates": [
+       "UBERON0001558"
+      ]
+     },
+     {
+      "label": "Left hemithorax"
+     },
+     {
+      "label": "Intrathoracic part of chest"
+     },
+     {
+      "label": "Left pulmopleural compartment",
+      "id": "FMA:85056",
+      "conceptId": "FMA85056"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lung",
+      "id": "UBERON:0002048",
+      "conceptId": "UBERON0002048"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Adult endothelial progenitor cell",
+      "id": "CL:0002619",
+      "conceptId": "CL0002619"
+     },
+     {
+      "label": "Airway submucosal gland collecting duct epithelial cell",
+      "id": "CL:4033023",
+      "conceptId": "CL4033023"
+     },
+     {
+      "label": "Airway submucosal gland duct basal cell",
+      "id": "CL:4033024",
+      "conceptId": "CL4033024"
+     },
+     {
+      "label": "Airway submucosal gland duct multiciliated cell",
+      "id": "CL:4033055",
+      "conceptId": "CL4033055"
+     },
+     {
+      "label": "Alveolar adventitial fibroblast",
+      "id": "CL:4028006",
+      "conceptId": "CL4028006"
+     },
+     {
+      "label": "Alveolar capillary type 1 endothelial cell",
+      "id": "CL:4028002",
+      "conceptId": "CL4028002"
+     },
+     {
+      "label": "Alveolar capillary type 2 endothelial cell",
+      "id": "CL:4028003",
+      "conceptId": "CL4028003"
+     },
+     {
+      "label": "Alveolar macrophage",
+      "id": "CL:0000583",
+      "conceptId": "CL0000583"
+     },
+     {
+      "label": "Alveolar type 1 fibroblast cell",
+      "id": "CL:4028004",
+      "conceptId": "CL4028004"
+     },
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Basal cell of epithelium of lobular bronchiole",
+      "id": "CL:1000352",
+      "conceptId": "CL1000352"
+     },
+     {
+      "label": "Basal cell of epithelium of respiratory bronchiole",
+      "id": "CL:1000351",
+      "conceptId": "CL1000351"
+     },
+     {
+      "label": "Basal cell of epithelium of terminal bronchiole",
+      "id": "CL:1000350",
+      "conceptId": "CL1000350"
+     },
+     {
+      "label": "Basal epithelial cell of tracheobronchial tree",
+      "id": "CL:0002329",
+      "conceptId": "CL0002329"
+     },
+     {
+      "label": "Basophil",
+      "id": "CL:0000767",
+      "conceptId": "CL0000767"
+     },
+     {
+      "label": "Blood vessel smooth muscle cell",
+      "id": "CL:0019018",
+      "conceptId": "CL0019018"
+     },
+     {
+      "label": "Bronchial smooth muscle cell",
+      "id": "CL:0002598",
+      "conceptId": "CL0002598"
+     },
+     {
+      "label": "Bronchiolar smooth muscle cell",
+      "id": "CL:4033017",
+      "conceptId": "CL4033017"
+     },
+     {
+      "label": "Brush cell of bronchus",
+      "id": "CL:0002208",
+      "conceptId": "CL0002208"
+     },
+     {
+      "label": "Brush cell of epithelium of lobar bronchus",
+      "id": "CL:4033007",
+      "conceptId": "CL4033007"
+     },
+     {
+      "label": "CCL3-positive alveolar macrophage",
+      "id": "CL:4033041",
+      "conceptId": "CL4033041"
+     },
+     {
+      "label": "CD141-positive myeloid dendritic cell",
+      "id": "CL:0002394",
+      "conceptId": "CL0002394"
+     },
+     {
+      "label": "CD16-negative, CD56-bright natural killer cell, human",
+      "id": "CL:0000938",
+      "conceptId": "CL0000938"
+     },
+     {
+      "label": "CD1c-positive myeloid dendritic cell",
+      "id": "CL:0002399",
+      "conceptId": "CL0002399"
+     },
+     {
+      "label": "Classical monocyte",
+      "id": "CL:0000860",
+      "conceptId": "CL0000860"
+     },
+     {
+      "label": "Club cell",
+      "id": "CL:0000158",
+      "conceptId": "CL0000158"
+     },
+     {
+      "label": "Connective tissue type mast cell",
+      "id": "CL:0000484",
+      "conceptId": "CL0000484"
+     },
+     {
+      "label": "Cycling alveolar macrophage",
+      "id": "CL:4033077",
+      "conceptId": "CL4033077"
+     },
+     {
+      "label": "Deuterosomal cell",
+      "id": "CL:4033044",
+      "conceptId": "CL4033044"
+     },
+     {
+      "label": "Effector memory CD4-positive, alpha-beta T cell",
+      "id": "CL:0000905",
+      "conceptId": "CL0000905"
+     },
+     {
+      "label": "Effector memory CD8-positive, alpha-beta T cell",
+      "id": "CL:0000913",
+      "conceptId": "CL0000913"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Endothelial cell of respiratory system lymphatic vessel",
+      "id": "CL:0009086",
+      "conceptId": "CL0009086"
+     },
+     {
+      "label": "Fibroblast of pulmonary artery",
+      "id": "CL:0002557",
+      "conceptId": "CL0002557"
+     },
+     {
+      "label": "Goblet cell of epithelium of lobar bronchus",
+      "id": "CL:4033009",
+      "conceptId": "CL4033009"
+     },
+     {
+      "label": "Lung interstitial macrophage",
+      "id": "CL:4033043",
+      "conceptId": "CL4033043"
+     },
+     {
+      "label": "Lung megakaryocyte",
+      "id": "CL:4033018",
+      "conceptId": "CL4033018"
+     },
+     {
+      "label": "Lung migratory dendritic cell",
+      "id": "CL:4033045",
+      "conceptId": "CL4033045"
+     },
+     {
+      "label": "Lung multiciliated epithelial cell",
+      "id": "CL:1000271",
+      "conceptId": "CL1000271"
+     },
+     {
+      "label": "Lung parenchyma resident eosinophil",
+      "id": "CL:0019015",
+      "conceptId": "CL0019015"
+     },
+     {
+      "label": "Lung perichondrial fibroblast",
+      "id": "CL:4033026",
+      "conceptId": "CL4033026"
+     },
+     {
+      "label": "Lung pericyte",
+      "id": "CL:0009089",
+      "conceptId": "CL0009089"
+     },
+     {
+      "label": "Lung resident memory CD4-positive, alpha-beta T cell",
+      "id": "CL:4033038",
+      "conceptId": "CL4033038"
+     },
+     {
+      "label": "Lung resident memory CD8-positive, alpha-beta T cell",
+      "id": "CL:4033039",
+      "conceptId": "CL4033039"
+     },
+     {
+      "label": "Mature NK T cell",
+      "id": "CL:0000814",
+      "conceptId": "CL0000814"
+     },
+     {
+      "label": "Mesothelial cell of visceral pleura",
+      "id": "CL:1000493",
+      "conceptId": "CL1000493"
+     },
+     {
+      "label": "Metallothionein-positive alveolar macrophage",
+      "id": "CL:4033042",
+      "conceptId": "CL4033042"
+     },
+     {
+      "label": "Mucosal type mast cell",
+      "id": "CL:0000485",
+      "conceptId": "CL0000485"
+     },
+     {
+      "label": "Mucosal-associated invariant T cell",
+      "id": "CL:0000940",
+      "conceptId": "CL0000940"
+     },
+     {
+      "label": "Mucus secreting cell of bronchus submucosal gland",
+      "id": "CL:4033022",
+      "conceptId": "CL4033022"
+     },
+     {
+      "label": "Multiciliated epithelial cell of the bronchus",
+      "id": "CL:0002332",
+      "conceptId": "CL0002332"
+     },
+     {
+      "label": "Myelinating glial cell",
+      "id": "CL:4023154",
+      "conceptId": "CL4023154"
+     },
+     {
+      "label": "Myoepithelial cell of bronchus submucosal gland",
+      "id": "CL:4033003",
+      "conceptId": "CL4033003"
+     },
+     {
+      "label": "Naive thymus-derived CD4-positive, alpha-beta T cell",
+      "id": "CL:0000895",
+      "conceptId": "CL0000895"
+     },
+     {
+      "label": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+      "id": "CL:0000900",
+      "conceptId": "CL0000900"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neural cell",
+      "id": "CL:0002319",
+      "conceptId": "CL0002319"
+     },
+     {
+      "label": "Neuroendocrine cell of epithelium of lobar bronchus",
+      "id": "CL:4033010",
+      "conceptId": "CL4033010"
+     },
+     {
+      "label": "Neutrophil",
+      "id": "CL:0000775",
+      "conceptId": "CL0000775"
+     },
+     {
+      "label": "Non-classical monocyte",
+      "id": "CL:0000875",
+      "conceptId": "CL0000875"
+     },
+     {
+      "label": "Non-myelinating Schwann cell",
+      "id": "CL:0002376",
+      "conceptId": "CL0002376"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Plasmacytoid dendritic cell",
+      "id": "CL:0000784",
+      "conceptId": "CL0000784"
+     },
+     {
+      "label": "Pulmonary alveolar type 1 cell",
+      "id": "CL:0002062",
+      "conceptId": "CL0002062"
+     },
+     {
+      "label": "Pulmonary alveolar type 2 cell",
+      "id": "CL:0002063",
+      "conceptId": "CL0002063"
+     },
+     {
+      "label": "Pulmonary artery endothelial cell",
+      "id": "CL:1001568",
+      "conceptId": "CL1001568"
+     },
+     {
+      "label": "Pulmonary ionocyte",
+      "id": "CL:0017000",
+      "conceptId": "CL0017000"
+     },
+     {
+      "label": "Pulmonary neuroendocrine cell",
+      "id": "CL:1000223",
+      "conceptId": "CL1000223"
+     },
+     {
+      "label": "Regulatory T cell",
+      "id": "CL:0000815",
+      "conceptId": "CL0000815"
+     },
+     {
+      "label": "Respiratory tract suprabasal cell",
+      "id": "CL:4033048",
+      "conceptId": "CL4033048"
+     },
+     {
+      "label": "Secondary crest myofibroblast",
+      "id": "CL:4033016",
+      "conceptId": "CL4033016"
+     },
+     {
+      "label": "Serous secreting cell of bronchus submucosal gland",
+      "id": "CL:4033005",
+      "conceptId": "CL4033005"
+     },
+     {
+      "label": "Smooth muscle cell of the pulmonary artery",
+      "id": "CL:0002591",
+      "conceptId": "CL0002591"
+     },
+     {
+      "label": "Tracheobronchial chondrocyte",
+      "id": "CL:0019002",
+      "conceptId": "CL0019002"
+     },
+     {
+      "label": "Tracheobronchial goblet cell",
+      "id": "CL:0019003",
+      "conceptId": "CL0019003"
+     },
+     {
+      "label": "Tracheobronchial smooth muscle cell",
+      "id": "CL:0019019",
+      "conceptId": "CL0019019"
+     },
+     {
+      "label": "Vein endothelial cell of respiratory system",
+      "id": "CL:4033008",
+      "conceptId": "CL4033008"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Left lung",
+   "count": 77
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7310"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

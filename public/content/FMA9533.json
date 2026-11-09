@@ -235,5 +235,121 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Wall of left ventricle",
+      "id": "FMA:9556",
+      "conceptId": "FMA9556",
+      "alternates": [
+       "UBERON0036285"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Interventricular septum",
+      "id": "UBERON:0002094",
+      "conceptId": "UBERON0002094"
+     },
+     {
+      "label": "Wall of left ventricle",
+      "id": "FMA:9556",
+      "conceptId": "FMA9556",
+      "alternates": [
+       "UBERON0036285"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Wall of right side of heart",
+      "id": "FMA:73703",
+      "conceptId": "FMA73703"
+     },
+     {
+      "label": "Wall of biventricular part of heart"
+     },
+     {
+      "label": "Right ventricle",
+      "id": "FMA:7098",
+      "conceptId": "FMA7098",
+      "alternates": [
+       "UBERON0002080"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Wall of ventricle",
+      "id": "FMA:13884",
+      "conceptId": "FMA13884",
+      "alternates": [
+       "UBERON0004784"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9533"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

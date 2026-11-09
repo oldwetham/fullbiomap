@@ -71,5 +71,51 @@
   "system": "lymphatic",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Inferior mediastinum",
+      "id": "FMA:9828",
+      "conceptId": "FMA9828",
+      "alternates": [
+       "UBERON0008819"
+      ]
+     },
+     {
+      "label": "Male anterior chest"
+     },
+     {
+      "label": "Anterior chest",
+      "id": "FMA:24816",
+      "conceptId": "FMA24816",
+      "alternates": [
+       "UBERON0016416"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of inferior mediastinum"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9838"
+   }
+  ]
  }
 }

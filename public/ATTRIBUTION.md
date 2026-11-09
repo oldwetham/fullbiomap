@@ -17,12 +17,21 @@ BodyParts3D represents an adult male reference anatomy based on TARO MRI and ana
 
 ## Structure explanations (tier-1 text)
 
-No Wikipedia text is used anywhere. Tier-1 text is the first available of an NCIt, Uberon or FMA definition, otherwise a sentence Bio Map generates from the FMA hierarchy. Each detail panel shows the source term, a link to it, and its license; definitions are reproduced verbatim (whitespace normalized; Uberon's "[Automatically generated definition]" marker removed). Ontology terms were retrieved through the EBI Ontology Lookup Service (OLS4, https://www.ebi.ac.uk/ols4).
+No Wikipedia text is used anywhere. Tier-1 text is the first available of an NCIt, Uberon or FMA definition; a structure with none of these shows its fact card alone (below). Each detail panel shows the source term, a link to it, and its license; definitions are reproduced verbatim (whitespace normalized; Uberon's "[Automatically generated definition]" marker removed). Ontology terms were retrieved through the EBI Ontology Lookup Service (OLS4, https://www.ebi.ac.uk/ols4).
 
 - NCI Thesaurus (NCIt), National Cancer Institute, OBO Edition as loaded in OLS4. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Concept codes are cited per structure.
 - Uberon multi-species anatomy ontology. Mungall CJ et al. (2012), Uberon, an integrative multi-species anatomy ontology, Genome Biology 13:R5, https://doi.org/10.1186/gb-2012-13-1-r5. CC BY 3.0, https://creativecommons.org/licenses/by/3.0/. Uberon definitions whose provenance cites Wikipedia are not used.
-- Foundational Model of Anatomy (FMA) 5.1, University of Washington Structural Informatics Group. Rosse C, Mejino JLV (2003), A reference ontology for biomedical informatics: the Foundational Model of Anatomy, J Biomed Inform 36:478–500, https://doi.org/10.1016/j.jbi.2003.11.007. CC BY 3.0. Labels, synonyms, definitions and is_a / part_of relations; generated hierarchy sentences are Bio Map text under CC BY 4.0.
+- Foundational Model of Anatomy (FMA) 5.1, University of Washington Structural Informatics Group. Rosse C, Mejino JLV (2003), A reference ontology for biomedical informatics: the Foundational Model of Anatomy, J Biomed Inform 36:478–500, https://doi.org/10.1016/j.jbi.2003.11.007. CC BY 3.0. Labels, synonyms, definitions, and the is_a, part_of, position, member-of, origin and insertion relations shown in fact cards.
 - Nine structures (heart, liver, brain, stomach, spleen, pancreas, urinary bladder, trachea, diaphragm) keep their original Human Atlas text (MIT License).
+
+## Fact cards
+
+Every structure, cell type and organelle has a fact card built by step 11 from the data, with no written text: side, the organ it is in, FMA's position relations (contained in, surrounded by, superior/inferior/anterior/posterior/medial/lateral to, directly left or right of), its FMA group (member of), a muscle's origin and insertion, part of, kind of, its supply, drainage and nerves, and its cell types. Items keep their sources' wording.
+
+- Foundational Model of Anatomy (FMA) 5.1, via EBI OLS4, CC BY 3.0 (credited above). FMA 5's sex-specific copies of a whole ("... of male human body") are left out.
+- Human Reference Atlas v2.5 3D reference organ hierarchy and ASCT+B tables (cell types placed in a structure, and the count on its tissue board), CC BY 4.0, https://humanatlas.io.
+- Cell Ontology and Gene Ontology parents (is_a; part_of for organelles), CC BY 4.0, via OLS4.
+- BodyParts3D 4.0 is_a and part_of tables, CC BY 4.0, for the 9 structures FMA 5.1 no longer lists.
 
 ## Connections (supply, drainage, innervation, branching, attachments)
 

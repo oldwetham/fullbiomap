@@ -748,5 +748,28 @@
    "focus": "CL:0000623",
    "lookAlike": "Under a light microscope T cells, B cells and NK cells look alike. Surface proteins tell them apart: T cells carry CD3, with CD4 on CD4-positive and CD8 on CD8-positive T cells; B cells carry CD19 and CD20; NK cells carry CD56 and lack CD3 (Cell Ontology; HRA ASCT+B)."
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Group 1 innate lymphoid cell",
+      "id": "CL:0001067",
+      "conceptId": "CL0001067"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000623"
+   }
+  ]
+ }
 }

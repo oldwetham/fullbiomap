@@ -136,5 +136,28 @@
     "/tissue/FMA7309.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "CD8-positive, alpha-beta memory T cell, CD45RO-positive",
+      "id": "CL:0001203",
+      "conceptId": "CL0001203"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000913"
+   }
+  ]
  }
 }

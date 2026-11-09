@@ -103,5 +103,83 @@
     "/tissue/FMA16585.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Skeleton of left lower limb"
+     },
+     {
+      "label": "Pelvic skeleton",
+      "id": "FMA:72062",
+      "conceptId": "FMA72062"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Left side of bony pelvis",
+      "id": "FMA:20227",
+      "conceptId": "FMA20227"
+     },
+     {
+      "label": "Left hip",
+      "id": "FMA:24966",
+      "conceptId": "FMA24966"
+     },
+     {
+      "label": "Left side of pelvic girdle"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Hip bone",
+      "id": "FMA:16585",
+      "conceptId": "FMA16585",
+      "alternates": [
+       "UBERON0001272"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Left hip bone",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma16587"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

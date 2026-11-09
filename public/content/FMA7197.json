@@ -431,5 +431,350 @@
    "status": "auto",
    "match": "Servier title “Liver” = “liver”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Abdominal cavity"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Ascending colon",
+      "id": "FMA:14545",
+      "conceptId": "FMA14545",
+      "alternates": [
+       "UBERON0001156"
+      ]
+     },
+     {
+      "label": "Transverse colon",
+      "id": "FMA:14546",
+      "conceptId": "FMA14546",
+      "alternates": [
+       "UBERON0001157"
+      ]
+     },
+     {
+      "label": "Fundus of stomach"
+     },
+     {
+      "label": "Body of stomach"
+     },
+     {
+      "label": "Common bile duct",
+      "id": "UBERON:0001174",
+      "conceptId": "UBERON0001174"
+     },
+     {
+      "label": "Superior part of duodenum"
+     },
+     {
+      "label": "Gallbladder",
+      "id": "FMA:7202",
+      "conceptId": "FMA7202",
+      "alternates": [
+       "UBERON0002110"
+      ]
+     },
+     {
+      "label": "Right kidney",
+      "id": "FMA:7204",
+      "conceptId": "FMA7204",
+      "alternates": [
+       "UBERON0004539"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Inferior vena cava",
+      "id": "FMA:10951",
+      "conceptId": "FMA10951",
+      "alternates": [
+       "UBERON0001072"
+      ]
+     },
+     {
+      "label": "Descending aorta",
+      "id": "FMA:3784",
+      "conceptId": "FMA3784",
+      "alternates": [
+       "UBERON0001514"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Ascending colon",
+      "id": "FMA:14545",
+      "conceptId": "FMA14545",
+      "alternates": [
+       "UBERON0001156"
+      ]
+     },
+     {
+      "label": "Transverse colon",
+      "id": "FMA:14546",
+      "conceptId": "FMA14546",
+      "alternates": [
+       "UBERON0001157"
+      ]
+     },
+     {
+      "label": "Superior part of duodenum"
+     },
+     {
+      "label": "Gallbladder",
+      "id": "FMA:7202",
+      "conceptId": "FMA7202",
+      "alternates": [
+       "UBERON0002110"
+      ]
+     },
+     {
+      "label": "Right kidney",
+      "id": "FMA:7204",
+      "conceptId": "FMA7204",
+      "alternates": [
+       "UBERON0004539"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Body of stomach"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Set of viscera of abdomen"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lobular organ",
+      "id": "FMA:55662",
+      "conceptId": "FMA55662"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Afferent neuron",
+      "id": "CL:0000526",
+      "conceptId": "CL0000526"
+     },
+     {
+      "label": "Blood vessel smooth muscle cell",
+      "id": "CL:0019018",
+      "conceptId": "CL0019018"
+     },
+     {
+      "label": "CD1c-positive myeloid dendritic cell",
+      "id": "CL:0002399",
+      "conceptId": "CL0002399"
+     },
+     {
+      "label": "CD4-positive, alpha-beta T cell",
+      "id": "CL:0000624",
+      "conceptId": "CL0000624"
+     },
+     {
+      "label": "CD8-positive, alpha-beta memory T cell",
+      "id": "CL:0000909",
+      "conceptId": "CL0000909"
+     },
+     {
+      "label": "CD8-positive, alpha-beta memory T cell, CD45RO-positive",
+      "id": "CL:0001203",
+      "conceptId": "CL0001203"
+     },
+     {
+      "label": "Centrilobular region hepatocyte",
+      "id": "CL:0019029",
+      "conceptId": "CL0019029"
+     },
+     {
+      "label": "Columnar/cuboidal epithelial cell",
+      "id": "CL:0000075",
+      "conceptId": "CL0000075"
+     },
+     {
+      "label": "Conventional dendritic cell",
+      "id": "CL:0000990",
+      "conceptId": "CL0000990"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Endothelial cell of hepatic sinusoid",
+      "id": "CL:1000398",
+      "conceptId": "CL1000398"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Gamma-delta T cell",
+      "id": "CL:0000798",
+      "conceptId": "CL0000798"
+     },
+     {
+      "label": "Hepatic oval stem cell",
+      "id": "CL:0002196",
+      "conceptId": "CL0002196"
+     },
+     {
+      "label": "Hepatic pit cell",
+      "id": "CL:2000054",
+      "conceptId": "CL2000054"
+     },
+     {
+      "label": "Hepatic portal fibroblast",
+      "id": "CL:0009100",
+      "conceptId": "CL0009100"
+     },
+     {
+      "label": "Hepatic stellate cell",
+      "id": "CL:0000632",
+      "conceptId": "CL0000632"
+     },
+     {
+      "label": "Hepatocyte",
+      "id": "CL:0000182",
+      "conceptId": "CL0000182"
+     },
+     {
+      "label": "Kupffer cell",
+      "id": "CL:0000091",
+      "conceptId": "CL0000091"
+     },
+     {
+      "label": "Leukocyte",
+      "id": "CL:0000738",
+      "conceptId": "CL0000738"
+     },
+     {
+      "label": "Midzonal region hepatocyte",
+      "id": "CL:0019028",
+      "conceptId": "CL0019028"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Periportal region hepatocyte",
+      "id": "CL:0019026",
+      "conceptId": "CL0019026"
+     },
+     {
+      "label": "Plasmacytoid dendritic cell",
+      "id": "CL:0000784",
+      "conceptId": "CL0000784"
+     },
+     {
+      "label": "Stratified cuboidal epithelial cell",
+      "id": "CL:0000241",
+      "conceptId": "CL0000241"
+     },
+     {
+      "label": "Type I NK T cell",
+      "id": "CL:0000921",
+      "conceptId": "CL0000921"
+     },
+     {
+      "label": "Vein endothelial cell",
+      "id": "CL:0002543",
+      "conceptId": "CL0002543"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Liver",
+   "count": 28
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7197"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

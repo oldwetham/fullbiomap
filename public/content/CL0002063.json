@@ -330,5 +330,29 @@
    "match": "HRA crosswalk: this illustration draws CL:0002063",
    "focus": "CL:0002063"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Pulmonary alveolar epithelial cell"
+     },
+     {
+      "label": "Cuboidal epithelial cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002063"
+   }
+  ]
+ }
 }

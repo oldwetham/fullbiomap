@@ -126,5 +126,54 @@
     "UBERON0001017"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Limbic system"
+     },
+     {
+      "label": "Diencephalon",
+      "id": "FMA:62001",
+      "conceptId": "FMA62001",
+      "alternates": [
+       "UBERON0001894"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ component of neuraxis",
+      "id": "FMA:83153",
+      "conceptId": "FMA83153"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma62008"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

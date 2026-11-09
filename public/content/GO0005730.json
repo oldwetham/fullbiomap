@@ -102,5 +102,35 @@
    "status": "auto",
    "match": "HPA location “Nucleoli” has GO id GO:0005730, this organelle's own"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Nuclear lumen"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Intracellular membraneless organelle"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Gene Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0005730"
+   }
+  ]
+ }
 }

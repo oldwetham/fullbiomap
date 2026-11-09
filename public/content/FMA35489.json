@@ -78,5 +78,31 @@
     "UBERON0003639"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Phalanx of finger",
+      "id": "FMA:23914",
+      "conceptId": "FMA23914",
+      "alternates": [
+       "UBERON0001436"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma35489"
+   }
+  ]
  }
 }

@@ -96,5 +96,95 @@
     "/tissue/FMA9616.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of submandibular triangle"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of extrinsic muscles of tongue"
+     }
+    ]
+   },
+   {
+    "key": "has_origin",
+    "label": "Origin",
+    "title": "Where the muscle starts (FMA: has origin)",
+    "items": [
+     {
+      "label": "Body of hyoid bone"
+     },
+     {
+      "label": "Greater horn of hyoid bone"
+     }
+    ]
+   },
+   {
+    "key": "has_insertion",
+    "label": "Insertion",
+    "title": "Where the muscle attaches at its other end (FMA: has insertion)",
+    "items": [
+     {
+      "label": "Lateral part of tongue"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Extrinsic muscle of tongue",
+      "id": "FMA:46699",
+      "conceptId": "FMA46699",
+      "alternates": [
+       "UBERON0001575"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cell of skeletal muscle",
+      "id": "CL:0000188",
+      "conceptId": "CL0000188"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Hyoglossus",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma46691"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

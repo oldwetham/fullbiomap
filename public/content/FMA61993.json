@@ -106,5 +106,59 @@
     "/tissue/FMA50801.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Brain",
+      "id": "FMA:50801",
+      "conceptId": "FMA50801",
+      "alternates": [
+       "UBERON0000955"
+      ]
+     },
+     {
+      "label": "Brainstem",
+      "id": "FMA:79876",
+      "conceptId": "FMA79876",
+      "alternates": [
+       "UBERON0002298"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardinal segment of brain",
+      "id": "FMA:61815",
+      "conceptId": "FMA61815"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61993"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -102,5 +102,71 @@
     "/tissue/FMA13478.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Vertebral column",
+      "id": "FMA:13478",
+      "conceptId": "FMA13478",
+      "alternates": [
+       "UBERON0001130"
+      ]
+     },
+     {
+      "label": "Skeletal system of thoracic segment of trunk",
+      "id": "FMA:7481",
+      "conceptId": "FMA7481"
+     },
+     {
+      "label": "Back of thorax",
+      "id": "FMA:24217",
+      "conceptId": "FMA24217",
+      "alternates": [
+       "UBERON0008231"
+      ]
+     },
+     {
+      "label": "Back"
+     },
+     {
+      "label": "Musculoskeletal system of back of thorax"
+     },
+     {
+      "label": "Skeletal system of back of thorax"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of vertebral column"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Vertebral column",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9140"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

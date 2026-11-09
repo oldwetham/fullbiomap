@@ -429,5 +429,42 @@
   "system": "arterial",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Content of superior mediastinum",
+      "id": "FMA:79274",
+      "conceptId": "FMA79274"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Systemic artery",
+      "id": "FMA:66464",
+      "conceptId": "FMA66464",
+      "alternates": [
+       "UBERON0004573"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3951"
+   }
+  ]
  }
 }

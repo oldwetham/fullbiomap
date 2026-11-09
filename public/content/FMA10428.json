@@ -140,5 +140,53 @@
   "system": "skeletal",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Male chest wall"
+     },
+     {
+      "label": "Female chest wall"
+     },
+     {
+      "label": "Chest wall",
+      "id": "FMA:50060",
+      "conceptId": "FMA50060",
+      "alternates": [
+       "UBERON0016435"
+      ]
+     },
+     {
+      "label": "Compartment of thorax",
+      "id": "FMA:85008",
+      "conceptId": "FMA85008"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Heterogeneous anatomical cluster",
+      "id": "FMA:64989",
+      "conceptId": "FMA64989"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma10428"
+   }
+  ]
  }
 }

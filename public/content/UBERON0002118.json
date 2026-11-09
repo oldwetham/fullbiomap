@@ -180,5 +180,72 @@
    "status": "auto",
    "match": "Servier title “Ovary” = “ovary”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cumulus granulosa cell",
+      "id": "CL:0000711",
+      "conceptId": "CL0000711"
+     },
+     {
+      "label": "Hilus cell of ovary",
+      "id": "CL:0002095",
+      "conceptId": "CL0002095"
+     },
+     {
+      "label": "Luteal cell",
+      "id": "CL:0000175",
+      "conceptId": "CL0000175"
+     },
+     {
+      "label": "Mural granulosa cell",
+      "id": "CL:4033067",
+      "conceptId": "CL4033067"
+     },
+     {
+      "label": "Primary oocyte",
+      "id": "CL:0000654",
+      "conceptId": "CL0000654"
+     },
+     {
+      "label": "Theca cell",
+      "id": "CL:0000503",
+      "conceptId": "CL0000503"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Right ovary",
+   "count": 6
+  },
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

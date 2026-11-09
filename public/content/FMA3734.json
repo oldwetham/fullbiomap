@@ -955,5 +955,111 @@
    "status": "auto",
    "match": "OpenStax figure title “Aorta” = “Aorta”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Aortic part of pericardial sac"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Trunk of brachiocephalic artery"
+     },
+     {
+      "label": "Trunk of left subclavian artery"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Celiac trunk",
+      "id": "FMA:14812",
+      "conceptId": "FMA14812",
+      "alternates": [
+       "UBERON0006637"
+      ]
+     },
+     {
+      "label": "Trunk of superior mesenteric artery",
+      "id": "FMA:66358",
+      "conceptId": "FMA66358"
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Trunk of left coronary artery",
+      "id": "FMA:3855",
+      "conceptId": "FMA3855"
+     },
+     {
+      "label": "Trunk of lumbar artery"
+     },
+     {
+      "label": "Trunk of renal artery",
+      "id": "FMA:66362",
+      "conceptId": "FMA66362"
+     },
+     {
+      "label": "Trunk of right bronchial artery"
+     },
+     {
+      "label": "Trunk of left bronchial artery"
+     },
+     {
+      "label": "Trunk of subcostal artery"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Systemic arterial tree",
+      "id": "FMA:49894",
+      "conceptId": "FMA49894"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Systemic arterial trunk",
+      "id": "FMA:49918",
+      "conceptId": "FMA49918"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma3734"
+   }
+  ]
+ }
 }

@@ -105,5 +105,29 @@
     "UBERON0007196"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Tracheal epithelial cell"
+     },
+     {
+      "label": "Mucus secreting cell of tracheobronchial tree submucosal gland"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033020"
+   }
+  ]
  }
 }

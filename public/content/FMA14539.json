@@ -91,5 +91,45 @@
     "UBERON0001173"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Biliary tree",
+      "id": "FMA:14665",
+      "conceptId": "FMA14665",
+      "alternates": [
+       "UBERON0001173"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Extrahepatic bile duct",
+      "id": "FMA:14678",
+      "conceptId": "FMA14678",
+      "alternates": [
+       "UBERON0003703"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14539"
+   }
+  ]
  }
 }

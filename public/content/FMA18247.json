@@ -103,5 +103,45 @@
     "UBERON0011183"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Corpus spongiosum of penis",
+      "id": "FMA:19617",
+      "conceptId": "FMA19617",
+      "alternates": [
+       "UBERON0011183"
+      ]
+     },
+     {
+      "label": "Penis"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Zone of corpus spongiosum of penis",
+      "id": "FMA:20247",
+      "conceptId": "FMA20247"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma18247"
+   }
+  ]
  }
 }

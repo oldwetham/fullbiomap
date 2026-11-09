@@ -119,5 +119,106 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Wall of right side of heart",
+      "id": "FMA:73703",
+      "conceptId": "FMA73703"
+     },
+     {
+      "label": "Wall of biventricular part of heart"
+     },
+     {
+      "label": "Endocardium of biventricular part of heart"
+     },
+     {
+      "label": "Endocardium of free wall of right ventricle"
+     },
+     {
+      "label": "Endocardium of right ventricle"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cavity of right side of heart"
+     },
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     },
+     {
+      "label": "Right ventricle",
+      "id": "FMA:7098",
+      "conceptId": "FMA7098",
+      "alternates": [
+       "UBERON0002080"
+      ]
+     },
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     },
+     {
+      "label": "Biventricular part of heart"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cavity of ventricle",
+      "id": "FMA:13238",
+      "conceptId": "FMA13238"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9291"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

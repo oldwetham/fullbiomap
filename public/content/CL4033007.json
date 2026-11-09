@@ -152,5 +152,31 @@
     "/tissue/FMA7309.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Epithelial cell of lung"
+     },
+     {
+      "label": "Brush cell of bronchus",
+      "id": "CL:0002208",
+      "conceptId": "CL0002208"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_4033007"
+   }
+  ]
  }
 }

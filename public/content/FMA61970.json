@@ -69,5 +69,45 @@
   "system": "nervous",
   "isOrgan": false,
   "organ": null
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Fornix of forebrain",
+      "id": "FMA:61965",
+      "conceptId": "FMA61965",
+      "alternates": [
+       "UBERON0000052"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Commissure of neuraxis",
+      "id": "FMA:83906",
+      "conceptId": "FMA83906",
+      "alternates": [
+       "UBERON0001020"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma61970"
+   }
+  ]
  }
 }

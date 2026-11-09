@@ -101,5 +101,37 @@
     "/tissue/UBERON0002509.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Lymphoid system",
+      "id": "UBERON:0002465",
+      "conceptId": "UBERON0002465"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Mesenteric lymph node",
+   "count": 14
+  },
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

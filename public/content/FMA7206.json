@@ -145,5 +145,201 @@
     "/tissue/FMA7200.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Upper gastrointestinal tract",
+      "id": "FMA:49177",
+      "conceptId": "FMA49177",
+      "alternates": [
+       "UBERON0004908"
+      ]
+     },
+     {
+      "label": "Small intestine",
+      "id": "FMA:7200",
+      "conceptId": "FMA7200",
+      "alternates": [
+       "UBERON0002108"
+      ]
+     },
+     {
+      "label": "Duodenum",
+      "id": "UBERON:0002114",
+      "conceptId": "UBERON0002114"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of small intestine",
+      "id": "FMA:14092",
+      "conceptId": "FMA14092"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "CD4-positive, alpha-beta T cell",
+      "id": "CL:0000624",
+      "conceptId": "CL0000624"
+     },
+     {
+      "label": "CD8-positive, alpha-beta T cell",
+      "id": "CL:0000625",
+      "conceptId": "CL0000625"
+     },
+     {
+      "label": "Dendritic cell",
+      "id": "CL:0000451",
+      "conceptId": "CL0000451"
+     },
+     {
+      "label": "Duodenal goblet cell",
+      "id": "CL:1000324",
+      "conceptId": "CL1000324"
+     },
+     {
+      "label": "Endocrine cell",
+      "id": "CL:0000163",
+      "conceptId": "CL0000163"
+     },
+     {
+      "label": "Endothelial cell",
+      "id": "CL:0000115",
+      "conceptId": "CL0000115"
+     },
+     {
+      "label": "Enterocyte",
+      "id": "CL:0000584",
+      "conceptId": "CL0000584"
+     },
+     {
+      "label": "Eosinophil",
+      "id": "CL:0000771",
+      "conceptId": "CL0000771"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "Innate lymphoid cell",
+      "id": "CL:0001065",
+      "conceptId": "CL0001065"
+     },
+     {
+      "label": "Intestinal villus goblet cell",
+      "id": "CL:1000317",
+      "conceptId": "CL1000317"
+     },
+     {
+      "label": "M cell of gut",
+      "id": "CL:0000682",
+      "conceptId": "CL0000682"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Mesothelial cell",
+      "id": "CL:0000077",
+      "conceptId": "CL0000077"
+     },
+     {
+      "label": "Muscle cell",
+      "id": "CL:0000187",
+      "conceptId": "CL0000187"
+     },
+     {
+      "label": "Myofibroblast cell",
+      "id": "CL:0000186",
+      "conceptId": "CL0000186"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Neutrophil",
+      "id": "CL:0000775",
+      "conceptId": "CL0000775"
+     },
+     {
+      "label": "Paneth cell of epithelium proper of small intestine",
+      "id": "CL:1000344",
+      "conceptId": "CL1000344"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Stem cell",
+      "id": "CL:0000034",
+      "conceptId": "CL0000034"
+     },
+     {
+      "label": "Tuft cell of small intestine",
+      "id": "CL:0009080",
+      "conceptId": "CL0009080"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Small intestine",
+   "count": 29
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7206"
+   },
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

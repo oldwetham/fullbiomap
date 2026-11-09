@@ -83,5 +83,79 @@
     "/tissue/FMA7201.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Large intestine",
+      "id": "FMA:7201",
+      "conceptId": "FMA7201",
+      "alternates": [
+       "UBERON0000059"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cecum",
+      "id": "FMA:14541",
+      "conceptId": "FMA14541",
+      "alternates": [
+       "UBERON0001153"
+      ]
+     },
+     {
+      "label": "Wall of distal part of ileum",
+      "id": "FMA:17181",
+      "conceptId": "FMA17181"
+     },
+     {
+      "label": "Ileum",
+      "id": "FMA:7208",
+      "conceptId": "FMA7208",
+      "alternates": [
+       "UBERON0002116"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Zone of continuity",
+      "id": "FMA:11337",
+      "conceptId": "FMA11337"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Large intestine",
+   "count": 55
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma11338"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

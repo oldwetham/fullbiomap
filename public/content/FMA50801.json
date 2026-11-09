@@ -196,5 +196,414 @@
    "status": "auto",
    "match": "Servier title “Brain” = “brain”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Cranial cavity"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Nervous system of head"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Neuraxis",
+      "id": "FMA:55675",
+      "conceptId": "FMA55675",
+      "alternates": [
+       "UBERON0001017"
+      ]
+     },
+     {
+      "label": "Cranial compartment"
+     },
+     {
+      "label": "Head",
+      "id": "FMA:7154",
+      "conceptId": "FMA7154",
+      "alternates": [
+       "UBERON0000033"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Segment of neuraxis",
+      "id": "FMA:256237",
+      "conceptId": "FMA256237"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Amygdala excitatory neuron",
+      "id": "CL:4023039",
+      "conceptId": "CL4023039"
+     },
+     {
+      "label": "Arkypallidal neuron",
+      "id": "CL:0020010",
+      "conceptId": "CL0020010"
+     },
+     {
+      "label": "Astrocyte",
+      "id": "CL:0000127",
+      "conceptId": "CL0000127"
+     },
+     {
+      "label": "Astrocyte of the cerebral cortex",
+      "id": "CL:0002605",
+      "conceptId": "CL0002605"
+     },
+     {
+      "label": "Astrocyte of the forebrain",
+      "id": "CL:0012000",
+      "conceptId": "CL0012000"
+     },
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Bergmann glial cell",
+      "id": "CL:0000644",
+      "conceptId": "CL0000644"
+     },
+     {
+      "label": "Brain vascular cell",
+      "id": "CL:4023072",
+      "conceptId": "CL4023072"
+     },
+     {
+      "label": "Caudal ganglionic eminence derived interneuron",
+      "id": "CL:4023064",
+      "conceptId": "CL4023064"
+     },
+     {
+      "label": "Central nervous system neuron",
+      "id": "CL:2000029",
+      "conceptId": "CL2000029"
+     },
+     {
+      "label": "Cerebellar inhibitory GABAergic interneuron",
+      "id": "CL:4023057",
+      "conceptId": "CL4023057"
+     },
+     {
+      "label": "Cerebral cortex neuron",
+      "id": "CL:0010012",
+      "conceptId": "CL0010012"
+     },
+     {
+      "label": "Cholinergic neuron",
+      "id": "CL:0000108",
+      "conceptId": "CL0000108"
+     },
+     {
+      "label": "Choroid plexus epithelial cell",
+      "id": "CL:0000706",
+      "conceptId": "CL0000706"
+     },
+     {
+      "label": "Committed oligodendrocyte precursor",
+      "id": "CL:4023059",
+      "conceptId": "CL4023059"
+     },
+     {
+      "label": "Corticothalamic-projecting glutamatergic cortical neuron",
+      "id": "CL:4023013",
+      "conceptId": "CL4023013"
+     },
+     {
+      "label": "D1-NUDAP medium spiny neuron",
+      "id": "CL:4030054",
+      "conceptId": "CL4030054"
+     },
+     {
+      "label": "D1/D2-hybrid medium spiny neuron",
+      "id": "CL:4030050",
+      "conceptId": "CL4030050"
+     },
+     {
+      "label": "Dopaminergic neuron",
+      "id": "CL:0000700",
+      "conceptId": "CL0000700"
+     },
+     {
+      "label": "Dorso-striatal cholinergic-GABAergic neuron",
+      "id": "CL:0020007",
+      "conceptId": "CL0020007"
+     },
+     {
+      "label": "Ependymal cell",
+      "id": "CL:0000065",
+      "conceptId": "CL0000065"
+     },
+     {
+      "label": "Extratelencephalic-projecting glutamatergic cortical neuron",
+      "id": "CL:4023009",
+      "conceptId": "CL4023009"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "GABAergic interneuron",
+      "id": "CL:0011005",
+      "conceptId": "CL0011005"
+     },
+     {
+      "label": "Glutamatergic neuron",
+      "id": "CL:0000679",
+      "conceptId": "CL0000679"
+     },
+     {
+      "label": "Glutamatergic neuron of the basal ganglia",
+      "id": "CL:4042040",
+      "conceptId": "CL4042040"
+     },
+     {
+      "label": "Hippocampal CA1-3 neuron",
+      "id": "CL:4023060",
+      "conceptId": "CL4023060"
+     },
+     {
+      "label": "Hippocampal CA4 neuron",
+      "id": "CL:4023061",
+      "conceptId": "CL4023061"
+     },
+     {
+      "label": "Internal globus pallidus core projecting neuron",
+      "id": "CL:0020003",
+      "conceptId": "CL0020003"
+     },
+     {
+      "label": "Internal globus pallidus shell projection neuron",
+      "id": "CL:0020004",
+      "conceptId": "CL0020004"
+     },
+     {
+      "label": "Interneuron",
+      "id": "CL:0000099",
+      "conceptId": "CL0000099"
+     },
+     {
+      "label": "Intratelencephalic-projecting glutamatergic cortical neuron",
+      "id": "CL:4023008",
+      "conceptId": "CL4023008"
+     },
+     {
+      "label": "Islands of Calleja granule cell",
+      "id": "CL:4030053",
+      "conceptId": "CL4030053"
+     },
+     {
+      "label": "L6b glutamatergic cortical neuron",
+      "id": "CL:4023038",
+      "conceptId": "CL4023038"
+     },
+     {
+      "label": "Lamp5 GABAergic interneuron",
+      "id": "CL:4023011",
+      "conceptId": "CL4023011"
+     },
+     {
+      "label": "Lamp5 Lhx6 neuron",
+      "id": "CL:4042013",
+      "conceptId": "CL4042013"
+     },
+     {
+      "label": "Mammillary body neuron",
+      "id": "CL:4023074",
+      "conceptId": "CL4023074"
+     },
+     {
+      "label": "Matrix D1 medium spiny neuron",
+      "id": "CL:4030043",
+      "conceptId": "CL4030043"
+     },
+     {
+      "label": "Matrix D2 medium spiny neuron",
+      "id": "CL:4030047",
+      "conceptId": "CL4030047"
+     },
+     {
+      "label": "Medial ganglionic eminence derived interneuron",
+      "id": "CL:4023063",
+      "conceptId": "CL4023063"
+     },
+     {
+      "label": "Medium spiny neuron",
+      "id": "CL:1001474",
+      "conceptId": "CL1001474"
+     },
+     {
+      "label": "Microglial cell",
+      "id": "CL:0000129",
+      "conceptId": "CL0000129"
+     },
+     {
+      "label": "Midbrain dopaminergic neuron",
+      "id": "CL:2000097",
+      "conceptId": "CL2000097"
+     },
+     {
+      "label": "Midbrain-derived inhibitory neuron",
+      "id": "CL:4023079",
+      "conceptId": "CL4023079"
+     },
+     {
+      "label": "Monocyte",
+      "id": "CL:0000576",
+      "conceptId": "CL0000576"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Near-projecting glutamatergic cortical neuron",
+      "id": "CL:4023012",
+      "conceptId": "CL4023012"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Neuron of the forebrain",
+      "id": "CL:0012001",
+      "conceptId": "CL0012001"
+     },
+     {
+      "label": "Nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron",
+      "id": "CL:4030051",
+      "conceptId": "CL4030051"
+     },
+     {
+      "label": "Nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron",
+      "id": "CL:4030052",
+      "conceptId": "CL4030052"
+     },
+     {
+      "label": "Oligodendrocyte",
+      "id": "CL:0000128",
+      "conceptId": "CL0000128"
+     },
+     {
+      "label": "Oligodendrocyte precursor cell",
+      "id": "CL:0002453",
+      "conceptId": "CL0002453"
+     },
+     {
+      "label": "Prototypic neuron",
+      "id": "CL:0020009",
+      "conceptId": "CL0020009"
+     },
+     {
+      "label": "Sst chodl GABAergic interneuron",
+      "id": "CL:4023121",
+      "conceptId": "CL4023121"
+     },
+     {
+      "label": "Sst GABAergic interneuron",
+      "id": "CL:4023017",
+      "conceptId": "CL4023017"
+     },
+     {
+      "label": "Striatal cholinergic-GABAergic neuron",
+      "id": "CL:0020008",
+      "conceptId": "CL0020008"
+     },
+     {
+      "label": "Striatal pthlh-expressing interneuron",
+      "id": "CL:4042023",
+      "conceptId": "CL4042023"
+     },
+     {
+      "label": "Striosomal D1 medium spiny neuron",
+      "id": "CL:4030048",
+      "conceptId": "CL4030048"
+     },
+     {
+      "label": "Striosomal D2 medium spiny neuron",
+      "id": "CL:4030049",
+      "conceptId": "CL4030049"
+     },
+     {
+      "label": "Substantia nigra dopaminergic neuron",
+      "id": "CL:4042025",
+      "conceptId": "CL4042025"
+     },
+     {
+      "label": "T cell",
+      "id": "CL:0000084",
+      "conceptId": "CL0000084"
+     },
+     {
+      "label": "TAC3-positive striatal interneuron",
+      "id": "CL:4042001",
+      "conceptId": "CL4042001"
+     },
+     {
+      "label": "Thalamic excitatory neuron",
+      "id": "CL:4023068",
+      "conceptId": "CL4023068"
+     },
+     {
+      "label": "VIP GABAergic interneuron",
+      "id": "CL:4023016",
+      "conceptId": "CL4023016"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Brain",
+   "count": 69
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma50801"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

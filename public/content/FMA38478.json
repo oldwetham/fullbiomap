@@ -109,5 +109,91 @@
     "/tissue/FMA5022.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of anterior compartment of arm"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of deep muscles of anterior compartment of forearm"
+     },
+     {
+      "label": "Set of extrinsic muscles of hand"
+     }
+    ]
+   },
+   {
+    "key": "has_insertion",
+    "label": "Insertion",
+    "title": "Where the muscle attaches at its other end (FMA: has insertion)",
+    "items": [
+     {
+      "label": "Proximal epiphysis of distal phalanx of index finger"
+     },
+     {
+      "label": "Proximal epiphysis of distal phalanx of middle finger"
+     },
+     {
+      "label": "Proximal epiphysis of distal phalanx of ring finger"
+     },
+     {
+      "label": "Proximal epiphysis of distal phalanx of little finger"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Deep muscle of anterior compartment of forearm",
+      "id": "FMA:38475",
+      "conceptId": "FMA38475"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Cell of skeletal muscle",
+      "id": "CL:0000188",
+      "conceptId": "CL0000188"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Flexor digitorum profundus",
+   "count": 1
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma38478"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -73,5 +73,62 @@
     "/tissue/FMA5889.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Autonomic ganglion",
+      "id": "FMA:5889",
+      "conceptId": "FMA5889",
+      "alternates": [
+       "UBERON0001805"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Lower airway ganglion ChAT/VIP neuron",
+      "id": "CL:4033127",
+      "conceptId": "CL4033127"
+     },
+     {
+      "label": "Neuron",
+      "id": "CL:0000540",
+      "conceptId": "CL0000540"
+     },
+     {
+      "label": "Peripheral nervous system neuron",
+      "id": "CL:2000032",
+      "conceptId": "CL2000032"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Parasympathetic ganglion",
+   "count": 55
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma5894"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

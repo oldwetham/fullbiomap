@@ -123,5 +123,51 @@
    "conceptId": "FMA82673",
    "label": "Inferior systemic venous tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Inferior systemic venous tree",
+      "id": "FMA:82673",
+      "conceptId": "FMA82673"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Suprarenal vein",
+      "id": "FMA:14348",
+      "conceptId": "FMA14348",
+      "alternates": [
+       "UBERON0001146"
+      ]
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14349"
+   }
+  ]
  }
 }

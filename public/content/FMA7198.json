@@ -410,5 +410,266 @@
    "status": "auto",
    "match": "Servier title “Pancreas” = “pancreas”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Retroperitoneal space"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Superior mesenteric vein",
+      "id": "FMA:14332",
+      "conceptId": "FMA14332",
+      "alternates": [
+       "UBERON0001138"
+      ]
+     },
+     {
+      "label": "Superior mesenteric artery",
+      "id": "FMA:14749",
+      "conceptId": "FMA14749",
+      "alternates": [
+       "UBERON0001182"
+      ]
+     },
+     {
+      "label": "Horizontal part of duodenum",
+      "id": "FMA:14929",
+      "conceptId": "FMA14929"
+     },
+     {
+      "label": "Ascending part of duodenum",
+      "id": "FMA:14930",
+      "conceptId": "FMA14930"
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Splenic vein",
+      "id": "FMA:14331",
+      "conceptId": "FMA14331",
+      "alternates": [
+       "UBERON0003713"
+      ]
+     },
+     {
+      "label": "Abdominal aorta",
+      "id": "FMA:3789",
+      "conceptId": "FMA3789",
+      "alternates": [
+       "UBERON0001516"
+      ]
+     },
+     {
+      "label": "Pre-hepatic portal vein",
+      "id": "FMA:71904",
+      "conceptId": "FMA71904"
+     },
+     {
+      "label": "Left kidney",
+      "id": "FMA:7205",
+      "conceptId": "FMA7205",
+      "alternates": [
+       "UBERON0004538"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Body of stomach"
+     },
+     {
+      "label": "Pylorus"
+     },
+     {
+      "label": "Gastroduodenal artery",
+      "id": "FMA:14775",
+      "conceptId": "FMA14775",
+      "alternates": [
+       "UBERON0010132"
+      ]
+     },
+     {
+      "label": "Superior part of duodenum"
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Descending part of duodenum",
+      "id": "FMA:14928",
+      "conceptId": "FMA14928"
+     },
+     {
+      "label": "Spleen",
+      "id": "FMA:7196",
+      "conceptId": "FMA7196",
+      "alternates": [
+       "UBERON0002106"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Superior part of duodenum"
+     },
+     {
+      "label": "Descending part of duodenum",
+      "id": "FMA:14928",
+      "conceptId": "FMA14928"
+     },
+     {
+      "label": "Horizontal part of duodenum",
+      "id": "FMA:14929",
+      "conceptId": "FMA14929"
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left kidney",
+      "id": "FMA:7205",
+      "conceptId": "FMA7205",
+      "alternates": [
+       "UBERON0004538"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Set of viscera of abdomen"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Pancreaticobiliary system",
+      "id": "FMA:265228",
+      "conceptId": "FMA265228"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lobular organ",
+      "id": "FMA:55662",
+      "conceptId": "FMA55662"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Columnar/cuboidal epithelial cell",
+      "id": "CL:0000075",
+      "conceptId": "CL0000075"
+     },
+     {
+      "label": "Epithelial cell of exocrine pancreas",
+      "id": "CL:1001433",
+      "conceptId": "CL1001433"
+     },
+     {
+      "label": "Pancreatic centro-acinar cell",
+      "id": "CL:0002080",
+      "conceptId": "CL0002080"
+     },
+     {
+      "label": "Pancreatic ductal cell",
+      "id": "CL:0002079",
+      "conceptId": "CL0002079"
+     },
+     {
+      "label": "Pancreatic goblet cell",
+      "id": "CL:1000322",
+      "conceptId": "CL1000322"
+     },
+     {
+      "label": "Simple columnar epithelial cell",
+      "id": "CL:0000146",
+      "conceptId": "CL0000146"
+     },
+     {
+      "label": "Smooth muscle cell",
+      "id": "CL:0000192",
+      "conceptId": "CL0000192"
+     },
+     {
+      "label": "Type EC enteroendocrine cell",
+      "id": "CL:0000577",
+      "conceptId": "CL0000577"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Pancreas",
+   "count": 28
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7198"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

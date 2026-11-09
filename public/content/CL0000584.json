@@ -458,5 +458,32 @@
    "match": "HRA crosswalk: this illustration draws CL:0000584",
    "focus": "CL:0000584"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Brush border epithelial cell"
+     },
+     {
+      "label": "Gut absorptive cell"
+     },
+     {
+      "label": "Intestinal epithelial cell"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000584"
+   }
+  ]
+ }
 }

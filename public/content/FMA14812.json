@@ -97,5 +97,52 @@
    "conceptId": "FMA49894",
    "label": "Systemic arterial tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Celiac artery",
+      "id": "FMA:50737",
+      "conceptId": "FMA50737",
+      "alternates": [
+       "UBERON0001640"
+      ]
+     },
+     {
+      "label": "Blood vasculature",
+      "id": "UBERON:0004537",
+      "conceptId": "UBERON0004537"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Systemic arterial trunk",
+      "id": "FMA:49918",
+      "conceptId": "FMA49918"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma14812"
+   },
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   }
+  ]
  }
 }

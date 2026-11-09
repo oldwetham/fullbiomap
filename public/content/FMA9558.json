@@ -410,5 +410,196 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Left"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Left vortex of heart"
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Myocardium of right ventricle",
+      "id": "FMA:9535",
+      "conceptId": "FMA9535",
+      "alternates": [
+       "UBERON0006567"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Septal myocardium of left ventricle"
+     },
+     {
+      "label": "Myocardium of right ventricle",
+      "id": "FMA:9535",
+      "conceptId": "FMA9535",
+      "alternates": [
+       "UBERON0006567"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Myocardium of biventricular part of heart"
+     },
+     {
+      "label": "Wall of left side of heart",
+      "id": "FMA:73704",
+      "conceptId": "FMA73704"
+     },
+     {
+      "label": "Wall of left ventricle",
+      "id": "FMA:9556",
+      "conceptId": "FMA9556",
+      "alternates": [
+       "UBERON0036285"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Myocardium of ventricle"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Adipocyte",
+      "id": "CL:0000136",
+      "conceptId": "CL0000136"
+     },
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Cardiac muscle cell",
+      "id": "CL:0000746",
+      "conceptId": "CL0000746"
+     },
+     {
+      "label": "Cardiac ventricle fibroblast",
+      "id": "CL:2000066",
+      "conceptId": "CL2000066"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Endocardial cell",
+      "id": "CL:0002350",
+      "conceptId": "CL0002350"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Innate lymphoid cell",
+      "id": "CL:0001065",
+      "conceptId": "CL0001065"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Purkinje myocyte",
+      "id": "CL:0002068",
+      "conceptId": "CL0002068"
+     },
+     {
+      "label": "Telocyte",
+      "id": "CL:0017004",
+      "conceptId": "CL0017004"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma9558"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

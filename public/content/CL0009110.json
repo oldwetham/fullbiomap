@@ -107,5 +107,28 @@
     "/tissue/UBERON0002509.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Lymph node lymphatic vessel endothelial cell",
+      "id": "CL:0009115",
+      "conceptId": "CL0009115"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Cell Ontology",
+    "license": "CC BY 4.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0009110"
+   }
+  ]
  }
 }

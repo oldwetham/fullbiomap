@@ -342,5 +342,237 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "in",
+    "label": "In",
+    "title": "The organ this structure is part of (FMA part_of, nearest organ)",
+    "items": [
+     {
+      "label": "Heart",
+      "id": "FMA:7088",
+      "conceptId": "FMA7088",
+      "alternates": [
+       "UBERON0000948"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Left ventricle",
+      "id": "FMA:7101",
+      "conceptId": "FMA7101",
+      "alternates": [
+       "UBERON0002084"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Right lung",
+      "id": "FMA:7309",
+      "conceptId": "FMA7309",
+      "alternates": [
+       "UBERON0002167"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Left ventricle",
+      "id": "FMA:7101",
+      "conceptId": "FMA7101",
+      "alternates": [
+       "UBERON0002084"
+      ]
+     },
+     {
+      "label": "Right lung",
+      "id": "FMA:7309",
+      "conceptId": "FMA7309",
+      "alternates": [
+       "UBERON0002167"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Right atrium",
+      "id": "FMA:7096",
+      "conceptId": "FMA7096",
+      "alternates": [
+       "UBERON0002078"
+      ]
+     },
+     {
+      "label": "Pulmonary trunk",
+      "id": "FMA:8612",
+      "conceptId": "FMA8612",
+      "alternates": [
+       "UBERON0002333"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Mid zone of heart"
+     },
+     {
+      "label": "Right side of heart",
+      "id": "FMA:7165",
+      "conceptId": "FMA7165",
+      "alternates": [
+       "UBERON0035554"
+      ]
+     },
+     {
+      "label": "Biventricular part of heart"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardiac ventricle"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "Capillary endothelial cell",
+      "id": "CL:0002144",
+      "conceptId": "CL0002144"
+     },
+     {
+      "label": "Cardiac muscle cell",
+      "id": "CL:0000746",
+      "conceptId": "CL0000746"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "Lymphocyte",
+      "id": "CL:0000542",
+      "conceptId": "CL0000542"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Pericyte",
+      "id": "CL:0000669",
+      "conceptId": "CL0000669"
+     },
+     {
+      "label": "Purkinje myocyte",
+      "id": "CL:0002068",
+      "conceptId": "CL0002068"
+     },
+     {
+      "label": "Telocyte",
+      "id": "CL:0017004",
+      "conceptId": "CL0017004"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7098"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

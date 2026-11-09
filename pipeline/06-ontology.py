@@ -40,6 +40,11 @@ INVERSE = {'arterial_supply_of': 'arterial_supply', 'venous_drainage_of': 'venou
            'nerve_supply_of': 'nerve_supply', 'lymphatic_drainage_of': 'lymphatic_drainage', 'branch': 'branch_of',
            'tributary': 'tributary_of', 'receives_attachment_from': 'attaches_to'}
 SYMMETRIC = {'articulates_with', 'continuous_with'}
+# Fact cards (step 11): where a structure is. FMA states these from the structure itself; targets keep FMA's labels.
+POSITIONS = ['contained_in', 'surrounded_by', 'superior_to', 'inferior_to', 'anterior_to', 'posterior_to', 'medial_to', 'lateral_to',
+             'direct_left_of', 'direct_right_of', 'has_origin', 'has_insertion', 'member_of']
+HAS_VALUE = 'http://www.w3.org/2002/07/owl#hasValue'
+BFO_PART_OF = 'http://purl.obolibrary.org/obo/BFO_0000050'
 RESTRICTION_PROP = 'http://www.w3.org/2002/07/owl#onProperty'
 RESTRICTION_VALUE = 'http://www.w3.org/2002/07/owl#someValuesFrom'
 SUBCLASS = 'http://www.w3.org/2000/01/rdf-schema#subClassOf'
@@ -118,7 +123,7 @@ def fetch_fma(cid):
     ta98 = sorted({str(a.get(FMA_NS + 'TA_ID')) for _, axioms in values(d.get(FMA_NS + 'preferred_name'))
                    for a in axioms if a.get(FMA_NS + 'TA_ID')})
     is_a = [{'id': fma_id(p), 'label': label_of(p)} for p in d.get('directParent') or [] if fma_id(p)]
-    part_of, relations = [], []
+    part_of, relations, positions, laterality = [], [], [], None
     for r in d.get(SUBCLASS) or []:
         if isinstance(r, dict):
             prop = str(r.get(RESTRICTION_PROP, '')).rsplit('/', 1)[-1]
@@ -127,12 +132,17 @@ def fetch_fma(cid):
                 part_of.append({'id': fma_id(target), 'label': label_of(target), 'rel': prop})
             if (prop in CONNECTIONS or prop in INVERSE) and isinstance(target, str) and fma_id(target):
                 relations.append({'property': prop, 'id': fma_id(target), 'label': label_of(target)})
+            if prop in POSITIONS and isinstance(target, str) and fma_id(target):
+                positions.append({'property': prop, 'id': fma_id(target), 'label': label_of(target)})
+            if prop == 'laterality' and r.get(HAS_VALUE) in ('Left', 'Right'):
+                laterality = r[HAS_VALUE]
     # Prefer the generic whole over FMA 5's sex-specific copies ('... of male human body').
     part_of.sort(key=lambda x: (PART_OF.index(x['rel']), bool(re.search(r'of (male|female) human body', x['label'] or '', re.I)), x['id']))
     ancestors = sorted({fma_id(a) for a in d.get('hierarchicalAncestor') or [] if fma_id(a)})
     return cid, {'iri': iri, 'label': label, 'synonyms': synonyms, 'definition': definition, 'ta98': ta98,
                  'obsolete': bool(d.get('isObsolete')), 'isA': is_a, 'partOf': part_of, 'ancestors': ancestors,
-                 'relations': sorted(relations, key=lambda x: (x['property'], x['id']))}
+                 'relations': sorted(relations, key=lambda x: (x['property'], x['id'])),
+                 'positions': sorted(positions, key=lambda x: (POSITIONS.index(x['property']), x['id'])), 'laterality': laterality}
 
 
 with ThreadPoolExecutor(max_workers=int(os.environ.get('BIOMAP_WORKERS', '6'))) as pool:
@@ -444,6 +454,15 @@ def fetch_term(ontology, iri, oid):
         repl = [v for v, _ in values(d.get('http://purl.obolibrary.org/obo/IAO_0100001'))]
         if repl:
             term['replacedBy'] = re.sub(r'^.*/CL_', 'CL:', repl[0])
+    # Fact cards (step 11): direct is_a parents (stated, then inferred) and, for GO, part_of, with their labels.
+    linked = d.get('linkedEntities') or {}
+    obo = lambda i: re.sub(r'^.*/obo/([A-Za-z]+)_(\w+)$', r'\1:\2', i) if isinstance(i, str) and '/obo/' in i else None
+    lab = lambda i: ((linked.get(i) or {}).get('label') or [None])[0]
+    parents = [p if isinstance(p, str) else p.get('value') for p in d.get('directParent') or []]
+    term['isA'] = [{'id': obo(p), 'label': lab(p)} for p in dict.fromkeys(parents) if obo(p) and obo(p).split(':')[0] == oid.split(':')[0]]
+    if ontology == 'go':
+        term['partOf'] = [{'id': obo(r[RESTRICTION_VALUE]), 'label': lab(r[RESTRICTION_VALUE])} for r in d.get(SUBCLASS) or []
+                          if isinstance(r, dict) and r.get(RESTRICTION_PROP) == BFO_PART_OF and obo(r.get(RESTRICTION_VALUE))]
     if ontology == 'cl':  # every Cell Ontology class above it: pipeline/maps/cell-families.json picks a 3D shape from these
         found = set(d.get('hierarchicalAncestor') or []) | set(d.get('directAncestor') or [])
         term['ancestors'] = sorted({'CL:' + a.rsplit('_', 1)[1] for a in found if '/obo/CL_' in a and a.rsplit('_', 1)[1] != oid[3:]})

@@ -220,5 +220,69 @@
    "conceptId": "FMA50308",
    "label": "Coronary sinus tree"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of veins of heart"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Coronary sinus tree",
+      "id": "FMA:50308",
+      "conceptId": "FMA50308"
+     },
+     {
+      "label": "Left side of heart",
+      "id": "FMA:7166",
+      "conceptId": "FMA7166",
+      "alternates": [
+       "UBERON0035553"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Cardiac vein",
+      "id": "FMA:12846",
+      "conceptId": "FMA12846",
+      "alternates": [
+       "UBERON0004148"
+      ]
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma4707"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

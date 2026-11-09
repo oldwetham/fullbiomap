@@ -241,5 +241,397 @@
     "/tissue/FMA7196.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Space of left side of retroperitoneal compartment"
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Left hemidiaphragm"
+     }
+    ]
+   },
+   {
+    "key": "posterior_to",
+    "label": "Behind",
+    "title": "FMA: posterior to",
+    "items": [
+     {
+      "label": "Descending colon",
+      "id": "FMA:14547",
+      "conceptId": "FMA14547",
+      "alternates": [
+       "UBERON0001158"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "lateral_to",
+    "label": "Farther from the midline than",
+    "title": "FMA: lateral to",
+    "items": [
+     {
+      "label": "Fundus of stomach"
+     },
+     {
+      "label": "Left kidney",
+      "id": "FMA:7205",
+      "conceptId": "FMA7205",
+      "alternates": [
+       "UBERON0004538"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Descending colon",
+      "id": "FMA:14547",
+      "conceptId": "FMA14547",
+      "alternates": [
+       "UBERON0001158"
+      ]
+     },
+     {
+      "label": "Fundus of stomach"
+     },
+     {
+      "label": "Left kidney",
+      "id": "FMA:7205",
+      "conceptId": "FMA7205",
+      "alternates": [
+       "UBERON0004538"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left hemidiaphragm"
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of abdomen proper"
+     },
+     {
+      "label": "Non-lymphatic lymphoid system"
+     },
+     {
+      "label": "Hematopoietic system"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Homogeneous organ"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Catecholaminergic neuron",
+      "id": "CL:4033050",
+      "conceptId": "CL4033050"
+     },
+     {
+      "label": "CD14-positive, CD16-low monocyte",
+      "id": "CL:0001055",
+      "conceptId": "CL0001055"
+     },
+     {
+      "label": "CD141-positive myeloid dendritic cell",
+      "id": "CL:0002394",
+      "conceptId": "CL0002394"
+     },
+     {
+      "label": "CD1c-positive myeloid dendritic cell",
+      "id": "CL:0002399",
+      "conceptId": "CL0002399"
+     },
+     {
+      "label": "CD4-positive helper T cell",
+      "id": "CL:0000492",
+      "conceptId": "CL0000492"
+     },
+     {
+      "label": "CD4-positive, alpha-beta memory T cell",
+      "id": "CL:0000897",
+      "conceptId": "CL0000897"
+     },
+     {
+      "label": "CD8-positive, alpha-beta cytotoxic T cell",
+      "id": "CL:0000794",
+      "conceptId": "CL0000794"
+     },
+     {
+      "label": "CD8-positive, alpha-beta memory T cell",
+      "id": "CL:0000909",
+      "conceptId": "CL0000909"
+     },
+     {
+      "label": "CD8-positive, alpha-beta T cell",
+      "id": "CL:0000625",
+      "conceptId": "CL0000625"
+     },
+     {
+      "label": "Class switched memory B cell",
+      "id": "CL:0000972",
+      "conceptId": "CL0000972"
+     },
+     {
+      "label": "Conventional dendritic cell",
+      "id": "CL:0000990",
+      "conceptId": "CL0000990"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Effector CD8-positive, alpha-beta T cell",
+      "id": "CL:0001050",
+      "conceptId": "CL0001050"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Erythrocyte",
+      "id": "CL:0000232",
+      "conceptId": "CL0000232"
+     },
+     {
+      "label": "Follicular dendritic cell",
+      "id": "CL:0000442",
+      "conceptId": "CL0000442"
+     },
+     {
+      "label": "Gamma-delta T cell",
+      "id": "CL:0000798",
+      "conceptId": "CL0000798"
+     },
+     {
+      "label": "Germinal center B cell",
+      "id": "CL:0000844",
+      "conceptId": "CL0000844"
+     },
+     {
+      "label": "Group 3 innate lymphoid cell, human",
+      "id": "CL:0001078",
+      "conceptId": "CL0001078"
+     },
+     {
+      "label": "Hematopoietic stem cell",
+      "id": "CL:0000037",
+      "conceptId": "CL0000037"
+     },
+     {
+      "label": "Leukocyte",
+      "id": "CL:0000738",
+      "conceptId": "CL0000738"
+     },
+     {
+      "label": "Marginal zone B cell of spleen",
+      "id": "CL:0000845",
+      "conceptId": "CL0000845"
+     },
+     {
+      "label": "Memory B cell",
+      "id": "CL:0000787",
+      "conceptId": "CL0000787"
+     },
+     {
+      "label": "Monocyte-derived dendritic cell",
+      "id": "CL:0011031",
+      "conceptId": "CL0011031"
+     },
+     {
+      "label": "Mural cell",
+      "id": "CL:0008034",
+      "conceptId": "CL0008034"
+     },
+     {
+      "label": "Myofibroblast cell",
+      "id": "CL:0000186",
+      "conceptId": "CL0000186"
+     },
+     {
+      "label": "Naive B cell",
+      "id": "CL:0000788",
+      "conceptId": "CL0000788"
+     },
+     {
+      "label": "Naive thymus-derived CD4-positive, alpha-beta T cell",
+      "id": "CL:0000895",
+      "conceptId": "CL0000895"
+     },
+     {
+      "label": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+      "id": "CL:0000900",
+      "conceptId": "CL0000900"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neutrophil",
+      "id": "CL:0000775",
+      "conceptId": "CL0000775"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Plasmablast",
+      "id": "CL:0000980",
+      "conceptId": "CL0000980"
+     },
+     {
+      "label": "Plasmacytoid dendritic cell, human",
+      "id": "CL:0001058",
+      "conceptId": "CL0001058"
+     },
+     {
+      "label": "Platelet",
+      "id": "CL:0000233",
+      "conceptId": "CL0000233"
+     },
+     {
+      "label": "Regulatory T cell",
+      "id": "CL:0000815",
+      "conceptId": "CL0000815"
+     },
+     {
+      "label": "Reticular cell of splenic cord",
+      "id": "CL:1000489",
+      "conceptId": "CL1000489"
+     },
+     {
+      "label": "Smooth muscle cell",
+      "id": "CL:0000192",
+      "conceptId": "CL0000192"
+     },
+     {
+      "label": "Splenic endothelial cell",
+      "id": "CL:2000053",
+      "conceptId": "CL2000053"
+     },
+     {
+      "label": "Splenic marginal zone macrophage",
+      "id": "CL:0000872",
+      "conceptId": "CL0000872"
+     },
+     {
+      "label": "Splenic red pulp macrophage",
+      "id": "CL:0000874",
+      "conceptId": "CL0000874"
+     },
+     {
+      "label": "Splenic tingible body macrophage",
+      "id": "CL:0000877",
+      "conceptId": "CL0000877"
+     },
+     {
+      "label": "Splenic white pulp macrophage",
+      "id": "CL:0000876",
+      "conceptId": "CL0000876"
+     },
+     {
+      "label": "Stromal cell",
+      "id": "CL:0000499",
+      "conceptId": "CL0000499"
+     },
+     {
+      "label": "T follicular helper cell",
+      "id": "CL:0002038",
+      "conceptId": "CL0002038"
+     },
+     {
+      "label": "T follicular regulatory cell",
+      "id": "CL:0009113",
+      "conceptId": "CL0009113"
+     },
+     {
+      "label": "Transitional stage B cell",
+      "id": "CL:0000818",
+      "conceptId": "CL0000818"
+     },
+     {
+      "label": "Vein endothelial cell",
+      "id": "CL:0002543",
+      "conceptId": "CL0002543"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Spleen",
+   "count": 50
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7196"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

@@ -348,5 +348,388 @@
    "status": "auto",
    "match": "Servier title “Kidney” = “kidney”"
   }
- ]
+ ],
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Retroperitoneal space"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Upper urinary tract"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Corticomedullary organ",
+      "id": "FMA:55663",
+      "conceptId": "FMA55663"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "B cell",
+      "id": "CL:0000236",
+      "conceptId": "CL0000236"
+     },
+     {
+      "label": "Blood vessel smooth muscle cell",
+      "id": "CL:0019018",
+      "conceptId": "CL0019018"
+     },
+     {
+      "label": "Conventional dendritic cell",
+      "id": "CL:0000990",
+      "conceptId": "CL0000990"
+     },
+     {
+      "label": "Cytotoxic T cell",
+      "id": "CL:0000910",
+      "conceptId": "CL0000910"
+     },
+     {
+      "label": "Dendritic cell, human",
+      "id": "CL:0001056",
+      "conceptId": "CL0001056"
+     },
+     {
+      "label": "Endothelial cell",
+      "id": "CL:0000115",
+      "conceptId": "CL0000115"
+     },
+     {
+      "label": "Endothelial cell of lymphatic vessel",
+      "id": "CL:0002138",
+      "conceptId": "CL0002138"
+     },
+     {
+      "label": "Epithelial cell of early distal convoluted tubule",
+      "id": "CL:4030016",
+      "conceptId": "CL4030016"
+     },
+     {
+      "label": "Epithelial cell of late distal convoluted tubule",
+      "id": "CL:4030017",
+      "conceptId": "CL4030017"
+     },
+     {
+      "label": "Epithelial cell of proximal tubule",
+      "id": "CL:0002306",
+      "conceptId": "CL0002306"
+     },
+     {
+      "label": "Epithelial cell of proximal tubule segment 1",
+      "id": "CL:4030009",
+      "conceptId": "CL4030009"
+     },
+     {
+      "label": "Epithelial cell of proximal tubule segment 2",
+      "id": "CL:4030010",
+      "conceptId": "CL4030010"
+     },
+     {
+      "label": "Epithelial cell of proximal tubule segment 3",
+      "id": "CL:4030011",
+      "conceptId": "CL4030011"
+     },
+     {
+      "label": "Glomerular capillary endothelial cell",
+      "id": "CL:1001005",
+      "conceptId": "CL1001005"
+     },
+     {
+      "label": "Glomerular mesangial cell",
+      "id": "CL:1000742",
+      "conceptId": "CL1000742"
+     },
+     {
+      "label": "Kidney afferent arteriole endothelial cell",
+      "id": "CL:1001096",
+      "conceptId": "CL1001096"
+     },
+     {
+      "label": "Kidney collecting duct alpha-intercalated cell",
+      "id": "CL:4030015",
+      "conceptId": "CL4030015"
+     },
+     {
+      "label": "Kidney collecting duct epithelial cell",
+      "id": "CL:1000454",
+      "conceptId": "CL1000454"
+     },
+     {
+      "label": "Kidney collecting duct intercalated cell",
+      "id": "CL:1001432",
+      "conceptId": "CL1001432"
+     },
+     {
+      "label": "Kidney collecting duct principal cell",
+      "id": "CL:1001431",
+      "conceptId": "CL1001431"
+     },
+     {
+      "label": "Kidney connecting tubule alpha-intercalated cell",
+      "id": "CL:4030020",
+      "conceptId": "CL4030020"
+     },
+     {
+      "label": "Kidney connecting tubule beta-intercalated cell",
+      "id": "CL:4030021",
+      "conceptId": "CL4030021"
+     },
+     {
+      "label": "Kidney connecting tubule epithelial cell",
+      "id": "CL:1000768",
+      "conceptId": "CL1000768"
+     },
+     {
+      "label": "Kidney connecting tubule intercalated cell",
+      "id": "CL:4030019",
+      "conceptId": "CL4030019"
+     },
+     {
+      "label": "Kidney connecting tubule principal cell",
+      "id": "CL:4030018",
+      "conceptId": "CL4030018"
+     },
+     {
+      "label": "Kidney cortex collecting duct intercalated cell",
+      "id": "CL:1000715",
+      "conceptId": "CL1000715"
+     },
+     {
+      "label": "Kidney cortex collecting duct principal cell",
+      "id": "CL:1000714",
+      "conceptId": "CL1000714"
+     },
+     {
+      "label": "Kidney distal convoluted tubule epithelial cell",
+      "id": "CL:1000849",
+      "conceptId": "CL1000849"
+     },
+     {
+      "label": "Kidney efferent arteriole endothelial cell",
+      "id": "CL:1001099",
+      "conceptId": "CL1001099"
+     },
+     {
+      "label": "Kidney granular cell",
+      "id": "CL:0000648",
+      "conceptId": "CL0000648"
+     },
+     {
+      "label": "Kidney inner medulla collecting duct principal cell",
+      "id": "CL:1000718",
+      "conceptId": "CL1000718"
+     },
+     {
+      "label": "Kidney interstitial alternatively activated macrophage",
+      "id": "CL:1000695",
+      "conceptId": "CL1000695"
+     },
+     {
+      "label": "Kidney interstitial fibroblast",
+      "id": "CL:1000692",
+      "conceptId": "CL1000692"
+     },
+     {
+      "label": "Kidney interstitial myofibroblast",
+      "id": "CL:1000691",
+      "conceptId": "CL1000691"
+     },
+     {
+      "label": "Kidney loop of Henle cortical thick ascending limb epithelial cell",
+      "id": "CL:1001109",
+      "conceptId": "CL1001109"
+     },
+     {
+      "label": "Kidney loop of Henle long descending thin limb inner medulla epithelial cell",
+      "id": "CL:4030014",
+      "conceptId": "CL4030014"
+     },
+     {
+      "label": "Kidney loop of Henle long descending thin limb outer medulla epithelial cell",
+      "id": "CL:4030013",
+      "conceptId": "CL4030013"
+     },
+     {
+      "label": "Kidney loop of Henle medullary thick ascending limb epithelial cell",
+      "id": "CL:1001108",
+      "conceptId": "CL1001108"
+     },
+     {
+      "label": "Kidney loop of Henle short descending thin limb epithelial cell",
+      "id": "CL:4030012",
+      "conceptId": "CL4030012"
+     },
+     {
+      "label": "Kidney loop of Henle thick ascending limb epithelial cell",
+      "id": "CL:1001106",
+      "conceptId": "CL1001106"
+     },
+     {
+      "label": "Kidney loop of Henle thin ascending limb epithelial cell",
+      "id": "CL:1001107",
+      "conceptId": "CL1001107"
+     },
+     {
+      "label": "Kidney loop of Henle thin descending limb epithelial cell",
+      "id": "CL:1001111",
+      "conceptId": "CL1001111"
+     },
+     {
+      "label": "Kidney outer medulla collecting duct intercalated cell",
+      "id": "CL:1000717",
+      "conceptId": "CL1000717"
+     },
+     {
+      "label": "Kidney outer medulla collecting duct principal cell",
+      "id": "CL:1000716",
+      "conceptId": "CL1000716"
+     },
+     {
+      "label": "Leukocyte",
+      "id": "CL:0000738",
+      "conceptId": "CL0000738"
+     },
+     {
+      "label": "Macula densa epithelial cell",
+      "id": "CL:1000850",
+      "conceptId": "CL1000850"
+     },
+     {
+      "label": "Mast cell",
+      "id": "CL:0000097",
+      "conceptId": "CL0000097"
+     },
+     {
+      "label": "Mature NK T cell",
+      "id": "CL:0000814",
+      "conceptId": "CL0000814"
+     },
+     {
+      "label": "Monocyte",
+      "id": "CL:0000576",
+      "conceptId": "CL0000576"
+     },
+     {
+      "label": "Mononuclear phagocyte",
+      "id": "CL:0000113",
+      "conceptId": "CL0000113"
+     },
+     {
+      "label": "Natural killer cell",
+      "id": "CL:0000623",
+      "conceptId": "CL0000623"
+     },
+     {
+      "label": "Neutrophil",
+      "id": "CL:0000775",
+      "conceptId": "CL0000775"
+     },
+     {
+      "label": "Non-classical monocyte",
+      "id": "CL:0000875",
+      "conceptId": "CL0000875"
+     },
+     {
+      "label": "Parietal epithelial cell",
+      "id": "CL:1000452",
+      "conceptId": "CL1000452"
+     },
+     {
+      "label": "Peritubular capillary endothelial cell",
+      "id": "CL:1001033",
+      "conceptId": "CL1001033"
+     },
+     {
+      "label": "Plasma cell",
+      "id": "CL:0000786",
+      "conceptId": "CL0000786"
+     },
+     {
+      "label": "Plasmacytoid dendritic cell, human",
+      "id": "CL:0001058",
+      "conceptId": "CL0001058"
+     },
+     {
+      "label": "Podocyte",
+      "id": "CL:0000653",
+      "conceptId": "CL0000653"
+     },
+     {
+      "label": "Regulatory T cell",
+      "id": "CL:0000815",
+      "conceptId": "CL0000815"
+     },
+     {
+      "label": "Renal beta-intercalated cell",
+      "id": "CL:0002201",
+      "conceptId": "CL0002201"
+     },
+     {
+      "label": "Renal interstitial pericyte",
+      "id": "CL:1001318",
+      "conceptId": "CL1001318"
+     },
+     {
+      "label": "Renal medullary fibroblast",
+      "id": "CL:4030022",
+      "conceptId": "CL4030022"
+     },
+     {
+      "label": "T cell",
+      "id": "CL:0000084",
+      "conceptId": "CL0000084"
+     },
+     {
+      "label": "Vasa recta ascending limb cell",
+      "id": "CL:1001131",
+      "conceptId": "CL1001131"
+     },
+     {
+      "label": "Vasa recta descending limb cell",
+      "id": "CL:1001285",
+      "conceptId": "CL1001285"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Kidney",
+   "count": 67
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7203"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
+ }
 }

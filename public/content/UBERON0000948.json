@@ -303,5 +303,286 @@
     "/tissue/FMA7088.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "contained_in",
+    "label": "Inside",
+    "title": "FMA: contained in",
+    "items": [
+     {
+      "label": "Middle mediastinal space"
+     }
+    ]
+   },
+   {
+    "key": "surrounded_by",
+    "label": "Surrounded by",
+    "title": "FMA: surrounded by",
+    "items": [
+     {
+      "label": "Pericardial sac proper"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Diaphragm",
+      "id": "FMA:13295",
+      "conceptId": "FMA13295",
+      "alternates": [
+       "UBERON0001103"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Right main bronchus",
+      "id": "FMA:7395",
+      "conceptId": "FMA7395",
+      "alternates": [
+       "UBERON0002177"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "anterior_to",
+    "label": "In front of",
+    "title": "FMA: anterior to",
+    "items": [
+     {
+      "label": "Esophagus",
+      "id": "FMA:7131",
+      "conceptId": "FMA7131",
+      "alternates": [
+       "UBERON0001043"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "medial_to",
+    "label": "Closer to the midline than",
+    "title": "FMA: medial to",
+    "items": [
+     {
+      "label": "Right lung",
+      "id": "FMA:7309",
+      "conceptId": "FMA7309",
+      "alternates": [
+       "UBERON0002167"
+      ]
+     },
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_left_of",
+    "label": "To the left of",
+    "title": "FMA: directly left of",
+    "items": [
+     {
+      "label": "Right lung",
+      "id": "FMA:7309",
+      "conceptId": "FMA7309",
+      "alternates": [
+       "UBERON0002167"
+      ]
+     },
+     {
+      "label": "Right main bronchus",
+      "id": "FMA:7395",
+      "conceptId": "FMA7395",
+      "alternates": [
+       "UBERON0002177"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "direct_right_of",
+    "label": "To the right of",
+    "title": "FMA: directly right of",
+    "items": [
+     {
+      "label": "Left lung",
+      "id": "FMA:7310",
+      "conceptId": "FMA7310",
+      "alternates": [
+       "UBERON0002168"
+      ]
+     },
+     {
+      "label": "Left main bronchus",
+      "id": "FMA:7396",
+      "conceptId": "FMA7396",
+      "alternates": [
+       "UBERON0002178"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "member_of",
+    "label": "Group",
+    "title": "FMA: member of",
+    "items": [
+     {
+      "label": "Set of viscera of thorax"
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Cardiovascular system",
+      "id": "FMA:7161",
+      "conceptId": "FMA7161",
+      "alternates": [
+       "UBERON0004535"
+      ]
+     },
+     {
+      "label": "Cardio-pericardial unit"
+     },
+     {
+      "label": "Intrathoracic part of chest"
+     },
+     {
+      "label": "Content of mediastinum",
+      "id": "FMA:79273",
+      "conceptId": "FMA79273"
+     },
+     {
+      "label": "Content of middle mediastinum",
+      "id": "FMA:79278",
+      "conceptId": "FMA79278"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Organ with cavitated organ parts",
+      "id": "FMA:55673",
+      "conceptId": "FMA55673"
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Adipocyte",
+      "id": "CL:0000136",
+      "conceptId": "CL0000136"
+     },
+     {
+      "label": "Blood vessel endothelial cell",
+      "id": "CL:0000071",
+      "conceptId": "CL0000071"
+     },
+     {
+      "label": "Cardiac atrium fibroblast",
+      "id": "CL:2000067",
+      "conceptId": "CL2000067"
+     },
+     {
+      "label": "Endothelial cell of artery",
+      "id": "CL:1000413",
+      "conceptId": "CL1000413"
+     },
+     {
+      "label": "Epicardial adipocyte",
+      "id": "CL:1000309",
+      "conceptId": "CL1000309"
+     },
+     {
+      "label": "Fibroblast",
+      "id": "CL:0000057",
+      "conceptId": "CL0000057"
+     },
+     {
+      "label": "Macrophage",
+      "id": "CL:0000235",
+      "conceptId": "CL0000235"
+     },
+     {
+      "label": "Mesothelial cell",
+      "id": "CL:0000077",
+      "conceptId": "CL0000077"
+     },
+     {
+      "label": "Nodal myocyte",
+      "id": "CL:0002072",
+      "conceptId": "CL0002072"
+     },
+     {
+      "label": "Schwann cell",
+      "id": "CL:0002573",
+      "conceptId": "CL0002573"
+     },
+     {
+      "label": "Smooth muscle cell of the coronary artery",
+      "id": "CL:0002592",
+      "conceptId": "CL0002592"
+     },
+     {
+      "label": "Vascular associated smooth muscle cell",
+      "id": "CL:0000359",
+      "conceptId": "CL0000359"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Heart",
+   "count": 32
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma7088"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

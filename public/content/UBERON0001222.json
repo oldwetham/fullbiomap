@@ -240,5 +240,112 @@
     "/tissue/FMA15571.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "side",
+    "label": "Side",
+    "items": [
+     {
+      "label": "Right"
+     }
+    ]
+   },
+   {
+    "key": "superior_to",
+    "label": "Above",
+    "title": "FMA: superior to",
+    "items": [
+     {
+      "label": "Urinary bladder",
+      "id": "FMA:15900",
+      "conceptId": "FMA15900",
+      "alternates": [
+       "UBERON0001255"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "inferior_to",
+    "label": "Below",
+    "title": "FMA: inferior to",
+    "items": [
+     {
+      "label": "Right kidney",
+      "id": "FMA:7204",
+      "conceptId": "FMA7204",
+      "alternates": [
+       "UBERON0004539"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Right upper urinary tract",
+      "id": "FMA:71102",
+      "conceptId": "FMA71102"
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Ureter",
+      "id": "FMA:9704",
+      "conceptId": "FMA9704",
+      "alternates": [
+       "UBERON0000056"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "cell_types",
+    "label": "Cell types",
+    "title": "Cell types the HRA ASCT+B tables place in this structure",
+    "items": [
+     {
+      "label": "Bladder urothelial cell",
+      "id": "CL:1001428",
+      "conceptId": "CL1001428"
+     },
+     {
+      "label": "Fibrocyte of adventitia of ureter",
+      "id": "CL:1000308",
+      "conceptId": "CL1000308"
+     },
+     {
+      "label": "Ureter adventitial cell",
+      "id": "CL:1000708",
+      "conceptId": "CL1000708"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Right ureter",
+   "count": 3
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma15571"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

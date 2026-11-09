@@ -89,5 +89,87 @@
     "/tissue/FMA13478.json"
    ]
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Vertebral column",
+      "id": "FMA:13478",
+      "conceptId": "FMA13478",
+      "alternates": [
+       "UBERON0001130"
+      ]
+     },
+     {
+      "label": "Lumbosacral vertebral column"
+     },
+     {
+      "label": "Skeletal system of trunk",
+      "id": "FMA:87598",
+      "conceptId": "FMA87598"
+     },
+     {
+      "label": "Posterior abdominal wall",
+      "id": "FMA:14628",
+      "conceptId": "FMA14628"
+     },
+     {
+      "label": "Back"
+     },
+     {
+      "label": "Wall of abdominal segment of trunk",
+      "id": "FMA:259054",
+      "conceptId": "FMA259054",
+      "alternates": [
+       "UBERON0003697"
+      ]
+     },
+     {
+      "label": "Skeletal system of abdomen"
+     },
+     {
+      "label": "Skeletal system of back of abdomen"
+     },
+     {
+      "label": "Back of abdomen",
+      "id": "FMA:61681",
+      "conceptId": "FMA61681",
+      "alternates": [
+       "UBERON0005462"
+      ]
+     }
+    ]
+   },
+   {
+    "key": "is_a",
+    "label": "Kind of",
+    "items": [
+     {
+      "label": "Subdivision of vertebral column"
+     }
+    ]
+   }
+  ],
+  "board": {
+   "label": "Vertebral column",
+   "count": 5
+  },
+  "sources": [
+   {
+    "name": "Foundational Model of Anatomy 5.1",
+    "license": "CC BY 3.0",
+    "url": "https://www.ebi.ac.uk/ols4/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma16203"
+   },
+   {
+    "name": "HRA ASCT+B tables (Human Reference Atlas v2.5)",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/asctb-tables"
+   }
+  ]
  }
 }

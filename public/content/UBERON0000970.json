@@ -119,5 +119,28 @@
    "conceptId": "UBERON0001017",
    "label": "Central nervous system"
   }
+ },
+ "facts": {
+  "status": "auto",
+  "rows": [
+   {
+    "key": "part_of",
+    "label": "Part of",
+    "items": [
+     {
+      "label": "Central nervous system",
+      "id": "UBERON:0001017",
+      "conceptId": "UBERON0001017"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "name": "Human Reference Atlas 3D reference organs v2.5",
+    "license": "CC BY 4.0",
+    "url": "https://humanatlas.io/3d-reference-library"
+   }
+  ]
  }
 }
